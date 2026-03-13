@@ -1,0 +1,188 @@
+{
+  "state": "Alabama",
+  "state_abbrev": "AL",
+  "counties_loaded": 67,
+  "expected_counties": 67,
+  "verdict": "GOLD_STANDARD",
+  "checks_passed": 8,
+  "checks_failed": 0,
+  "structural_issues": [],
+  "check_results": [
+    {
+      "check": "manifest_validation",
+      "passed": true,
+      "details": {
+        "schema_version": "3.1",
+        "manifest_count": 67,
+        "loaded_count": 67
+      }
+    },
+    {
+      "check": "county_authenticity",
+      "passed": true,
+      "details": {
+        "expected_count": 67,
+        "actual_count": 67,
+        "unique_county_names": 67,
+        "exact_fips_matches": 67,
+        "fuzzy_matches": null,
+        "potentially_hallucinated": null,
+        "invalid_fips_codes": null,
+        "missing_from_data": null
+      }
+    },
+    {
+      "check": "schema_compliance",
+      "passed": true,
+      "details": {
+        "schema_version": {
+          "old_rod_fields": 0,
+          "v3_online_land_records_fields": 67,
+          "neither": 0
+        },
+        "missing_metadata_fields": null,
+        "missing_source_fields": null
+      }
+    },
+    {
+      "check": "cookie_cutter_detection",
+      "passed": true,
+      "details": {
+        "total_tips": 67,
+        "unique_tips": 67,
+        "exact_duplicate_groups": 0,
+        "counties_with_duplicate_tips": 0,
+        "similar_pairs_above_threshold": 0,
+        "threshold": 0.85,
+        "diversity_score": 0.921,
+        "verdict": "All research tips appear substantive and unique"
+      }
+    },
+    {
+      "check": "data_quality",
+      "passed": true,
+      "details": {
+        "total_sources": 469,
+        "avg_sources_per_county": 7.0,
+        "min_sources": 7,
+        "max_sources": 7,
+        "source_count_std_dev": 0.0,
+        "record_type_distribution": {
+          "land_grant": 68,
+          "deed": 67,
+          "probate": 67,
+          "marriage": 67,
+          "census": 67,
+          "church": 42,
+          "tax": 27,
+          "newspaper": 25,
+          "enslaved": 15,
+          "native_american": 10,
+          "military": 7,
+          "naturalization": 7
+        },
+        "non_canonical_record_types": null,
+        "record_type_diversity": {
+          "unique_type_sets": 10,
+          "dominant_set": [
+            "census",
+            "church",
+            "deed",
+            "land_grant",
+            "marriage",
+            "probate",
+            "tax"
+          ],
+          "dominant_set_count": 17,
+          "dominant_set_ratio": 0.25
+        },
+        "priority_distribution": {
+          "1": 143,
+          "2": 259,
+          "3": 67
+        },
+        "priority_missing_count": 0,
+        "date_range_errors": null,
+        "null_burned_county_flag": null,
+        "null_burned_county_count": 0,
+        "thin_counties": null,
+        "other_issues": null
+      }
+    },
+    {
+      "check": "duplicate_counties",
+      "passed": true,
+      "details": {
+        "unique_names": 67,
+        "total_entries": 67
+      }
+    },
+    {
+      "check": "burned_county_plausibility",
+      "passed": true,
+      "details": {
+        "burned_count": 23,
+        "total_counties": 67,
+        "burned_percentage": 34.3,
+        "burned_counties": [
+          "Barbour",
+          "Bibb",
+          "Calhoun",
+          "Coffee",
+          "Conecuh",
+          "Coosa",
+          "Covington",
+          "Dale",
+          "DeKalb",
+          "Fayette",
+          "Franklin",
+          "Henry",
+          "Jackson",
+          "Lawrence",
+          "Marion",
+          "Marshall",
+          "Pickens",
+          "Randolph",
+          "Russell",
+          "Sumter"
+        ],
+        "expected_range": "15-30"
+      }
+    },
+    {
+      "check": "statewide_file",
+      "passed": true,
+      "details": {
+        "file": "rundown_00_statewide.json",
+        "exists": true,
+        "size_kb": 20.6,
+        "top_level_keys": [
+          "scope",
+          "state",
+          "state_name",
+          "total_jurisdictions",
+          "jurisdiction_type",
+          "record_office_terminology",
+          "burned_county_authority",
+          "administrative_notes",
+          "categories",
+          "burned_counties_summary"
+        ],
+        "categories": [
+          "church_and_cemetery",
+          "core_repositories",
+          "enslaved_persons_and_african_american",
+          "familysearch_collections",
+          "historical_counties_extinct",
+          "land_and_property",
+          "military_records",
+          "native_american_and_removal_records",
+          "newspapers_and_periodicals",
+          "research_guides_and_societies",
+          "vital_records"
+        ]
+      }
+    }
+  ],
+  "timestamp": "2026-03-12T15:57:04Z"
+}

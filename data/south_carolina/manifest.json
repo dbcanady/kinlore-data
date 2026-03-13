@@ -1,0 +1,72 @@
+{
+  "project": "KinLore County Source Profiler",
+  "state": "SC",
+  "state_name": "South Carolina",
+  "schema_version": "3.1",
+  "creation_date": "2026-03-09",
+  "completion_date": "2026-03-09",
+  "total_jurisdictions": 46,
+  "jurisdiction_type": "county",
+  "canonical_source": "US Census Bureau (census.gov)",
+  "burned_county_authority": "FamilySearch Burned Counties Research wiki; LOC SC Courthouse Records guide; SCDAH county guides",
+  "burned_county_count": 14,
+  "burned_counties": [
+    "Abbeville", "Aiken", "Allendale", "Barnwell", "Chesterfield",
+    "Clarendon", "Colleton", "Darlington", "Georgetown", "Lancaster",
+    "Lexington", "Orangeburg", "Richland", "Sumter"
+  ],
+  "total_source_profiles": 189,
+  "batches": {
+    "rundown_00_statewide.json": {
+      "type": "statewide",
+      "status": "complete",
+      "description": "Statewide sources, repositories, and research context"
+    },
+    "rundown_01_abbeville_to_charleston.json": {
+      "counties": ["Abbeville", "Aiken", "Allendale", "Anderson", "Bamberg", "Barnwell", "Beaufort", "Berkeley", "Calhoun", "Charleston"],
+      "count": 10,
+      "source_profiles": 55,
+      "burned_in_batch": 4,
+      "status": "complete"
+    },
+    "rundown_02_cherokee_to_fairfield.json": {
+      "counties": ["Cherokee", "Chester", "Chesterfield", "Clarendon", "Colleton", "Darlington", "Dillon", "Dorchester", "Edgefield", "Fairfield"],
+      "count": 10,
+      "source_profiles": 34,
+      "burned_in_batch": 4,
+      "status": "complete"
+    },
+    "rundown_03_florence_to_lancaster.json": {
+      "counties": ["Florence", "Georgetown", "Greenville", "Greenwood", "Hampton", "Horry", "Jasper", "Kershaw", "Lancaster", "Laurens"],
+      "count": 10,
+      "source_profiles": 40,
+      "burned_in_batch": 2,
+      "status": "complete"
+    },
+    "rundown_04_lee_to_pickens.json": {
+      "counties": ["Lee", "Lexington", "Marion", "Marlboro", "McCormick", "Newberry", "Oconee", "Orangeburg", "Pickens"],
+      "count": 9,
+      "source_profiles": 30,
+      "burned_in_batch": 2,
+      "status": "complete"
+    },
+    "rundown_05_richland_to_york.json": {
+      "counties": ["Richland", "Saluda", "Spartanburg", "Sumter", "Union", "Williamsburg", "York"],
+      "count": 7,
+      "source_profiles": 30,
+      "burned_in_batch": 2,
+      "status": "complete"
+    }
+  },
+  "total_batch_county_count": 46,
+  "county_list_alphabetical": [
+    "Abbeville", "Aiken", "Allendale", "Anderson", "Bamberg", "Barnwell",
+    "Beaufort", "Berkeley", "Calhoun", "Charleston", "Cherokee", "Chester",
+    "Chesterfield", "Clarendon", "Colleton", "Darlington", "Dillon", "Dorchester",
+    "Edgefield", "Fairfield", "Florence", "Georgetown", "Greenville", "Greenwood",
+    "Hampton", "Horry", "Jasper", "Kershaw", "Lancaster", "Laurens",
+    "Lee", "Lexington", "Marion", "Marlboro", "McCormick", "Newberry",
+    "Oconee", "Orangeburg", "Pickens", "Richland", "Saluda", "Spartanburg",
+    "Sumter", "Union", "Williamsburg", "York"
+  ]
+}

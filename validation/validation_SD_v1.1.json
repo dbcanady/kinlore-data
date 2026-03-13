@@ -1,0 +1,163 @@
+{
+  "state": "South Dakota",
+  "state_abbrev": "SD",
+  "counties_loaded": 66,
+  "expected_counties": 66,
+  "verdict": "GOLD_STANDARD",
+  "checks_passed": 8,
+  "checks_failed": 0,
+  "structural_issues": [],
+  "check_results": [
+    {
+      "check": "manifest_validation",
+      "passed": true,
+      "details": {
+        "schema_version": "3.1",
+        "manifest_count": 66,
+        "loaded_count": 66
+      }
+    },
+    {
+      "check": "county_authenticity",
+      "passed": true,
+      "details": {
+        "expected_count": 66,
+        "actual_count": 66,
+        "unique_county_names": 66,
+        "exact_fips_matches": 66,
+        "fuzzy_matches": null,
+        "potentially_hallucinated": null,
+        "invalid_fips_codes": null,
+        "missing_from_data": null
+      }
+    },
+    {
+      "check": "schema_compliance",
+      "passed": true,
+      "details": {
+        "schema_version": {
+          "old_rod_fields": 0,
+          "v3_online_land_records_fields": 66,
+          "neither": 0
+        },
+        "missing_metadata_fields": null,
+        "missing_source_fields": null
+      }
+    },
+    {
+      "check": "cookie_cutter_detection",
+      "passed": true,
+      "details": {
+        "total_tips": 66,
+        "unique_tips": 66,
+        "exact_duplicate_groups": 0,
+        "counties_with_duplicate_tips": 0,
+        "similar_pairs_above_threshold": 0,
+        "threshold": 0.85,
+        "diversity_score": 0.873,
+        "verdict": "All research tips appear substantive and unique"
+      }
+    },
+    {
+      "check": "data_quality",
+      "passed": true,
+      "details": {
+        "total_sources": 462,
+        "avg_sources_per_county": 7.0,
+        "min_sources": 7,
+        "max_sources": 7,
+        "source_count_std_dev": 0.0,
+        "record_type_distribution": {
+          "deed": 66,
+          "marriage": 66,
+          "birth": 66,
+          "court": 66,
+          "land_grant": 66,
+          "census": 66,
+          "newspaper": 66
+        },
+        "non_canonical_record_types": null,
+        "record_type_diversity": {
+          "unique_type_sets": 1,
+          "dominant_set": [
+            "birth",
+            "census",
+            "court",
+            "deed",
+            "land_grant",
+            "marriage",
+            "newspaper"
+          ],
+          "dominant_set_count": 66,
+          "dominant_set_ratio": 1.0,
+          "warning": "66/66 counties (100%) share identical record types ['birth', 'census', 'court', 'deed', 'land_grant', 'marriage', 'newspaper'] \u2014 suspiciously uniform"
+        },
+        "priority_distribution": {
+          "1": 132,
+          "2": 264,
+          "3": 66
+        },
+        "priority_missing_count": 0,
+        "date_range_errors": null,
+        "null_burned_county_flag": null,
+        "null_burned_county_count": 0,
+        "thin_counties": null,
+        "other_issues": null
+      }
+    },
+    {
+      "check": "duplicate_counties",
+      "passed": true,
+      "details": {
+        "unique_names": 66,
+        "total_entries": 66
+      }
+    },
+    {
+      "check": "burned_county_plausibility",
+      "passed": true,
+      "details": {
+        "burned_count": 0,
+        "total_counties": 66,
+        "burned_percentage": 0.0,
+        "burned_counties": [],
+        "expected_range": "0-5"
+      }
+    },
+    {
+      "check": "statewide_file",
+      "passed": true,
+      "details": {
+        "file": "rundown_00_statewide.json",
+        "exists": true,
+        "size_kb": 22.7,
+        "top_level_keys": [
+          "scope",
+          "state",
+          "state_name",
+          "total_jurisdictions",
+          "jurisdiction_type",
+          "record_office_terminology",
+          "burned_county_authority",
+          "administrative_notes",
+          "burned_counties_summary",
+          "categories"
+        ],
+        "categories": [
+          "church_and_cemetery",
+          "core_repositories",
+          "familysearch_collections",
+          "historical_counties_extinct",
+          "immigration_and_naturalization",
+          "land_and_property",
+          "military_records",
+          "native_american_and_removal_records",
+          "newspapers_and_periodicals",
+          "research_guides_and_societies",
+          "vital_records"
+        ]
+      }
+    }
+  ],
+  "timestamp": "2026-03-12T17:52:40Z"
+}

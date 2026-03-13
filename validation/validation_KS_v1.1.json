@@ -1,0 +1,172 @@
+{
+  "state": "Kansas",
+  "state_abbrev": "KS",
+  "counties_loaded": 105,
+  "expected_counties": 105,
+  "verdict": "GOLD_STANDARD",
+  "checks_passed": 8,
+  "checks_failed": 0,
+  "structural_issues": [],
+  "check_results": [
+    {
+      "check": "manifest_validation",
+      "passed": true,
+      "details": {
+        "schema_version": "3.1",
+        "manifest_count": 105,
+        "loaded_count": 105
+      }
+    },
+    {
+      "check": "county_authenticity",
+      "passed": true,
+      "details": {
+        "expected_count": 105,
+        "actual_count": 105,
+        "unique_county_names": 105,
+        "exact_fips_matches": 105,
+        "fuzzy_matches": null,
+        "potentially_hallucinated": null,
+        "invalid_fips_codes": null,
+        "missing_from_data": null
+      }
+    },
+    {
+      "check": "schema_compliance",
+      "passed": true,
+      "details": {
+        "schema_version": {
+          "old_rod_fields": 0,
+          "v3_online_land_records_fields": 105,
+          "neither": 0
+        },
+        "missing_metadata_fields": null,
+        "missing_source_fields": null
+      }
+    },
+    {
+      "check": "cookie_cutter_detection",
+      "passed": true,
+      "details": {
+        "total_tips": 105,
+        "unique_tips": 105,
+        "exact_duplicate_groups": 0,
+        "counties_with_duplicate_tips": 0,
+        "similar_pairs_above_threshold": 0,
+        "threshold": 0.85,
+        "diversity_score": 0.796,
+        "verdict": "All research tips appear substantive and unique"
+      }
+    },
+    {
+      "check": "data_quality",
+      "passed": true,
+      "details": {
+        "total_sources": 665,
+        "avg_sources_per_county": 6.3,
+        "min_sources": 6,
+        "max_sources": 7,
+        "source_count_std_dev": 0.47,
+        "record_type_distribution": {
+          "deed": 105,
+          "probate": 105,
+          "census": 105,
+          "land_grant": 105,
+          "marriage": 105,
+          "newspaper": 52,
+          "court": 31,
+          "naturalization": 27,
+          "church": 14,
+          "military": 8,
+          "freedmen": 8
+        },
+        "non_canonical_record_types": null,
+        "record_type_diversity": {
+          "unique_type_sets": 8,
+          "dominant_set": [
+            "census",
+            "deed",
+            "land_grant",
+            "marriage",
+            "newspaper",
+            "probate"
+          ],
+          "dominant_set_count": 50,
+          "dominant_set_ratio": 0.48
+        },
+        "priority_distribution": {
+          "1": 161,
+          "2": 400,
+          "3": 104
+        },
+        "priority_missing_count": 0,
+        "date_range_errors": null,
+        "null_burned_county_flag": null,
+        "null_burned_county_count": 0,
+        "thin_counties": null,
+        "other_issues": null
+      }
+    },
+    {
+      "check": "duplicate_counties",
+      "passed": true,
+      "details": {
+        "unique_names": 105,
+        "total_entries": 105
+      }
+    },
+    {
+      "check": "burned_county_plausibility",
+      "passed": true,
+      "details": {
+        "burned_count": 5,
+        "total_counties": 105,
+        "burned_percentage": 4.8,
+        "burned_counties": [
+          "Anderson",
+          "Bourbon",
+          "Douglas",
+          "Kiowa",
+          "Linn"
+        ],
+        "expected_range": "0-5"
+      }
+    },
+    {
+      "check": "statewide_file",
+      "passed": true,
+      "details": {
+        "file": "rundown_00_statewide.json",
+        "exists": true,
+        "size_kb": 18.8,
+        "top_level_keys": [
+          "scope",
+          "state",
+          "state_name",
+          "total_jurisdictions",
+          "jurisdiction_type",
+          "record_office_terminology",
+          "burned_county_authority",
+          "administrative_notes",
+          "categories",
+          "burned_counties_summary"
+        ],
+        "categories": [
+          "church_and_cemetery",
+          "core_repositories",
+          "enslaved_persons_and_african_american",
+          "familysearch_collections",
+          "historical_counties_extinct",
+          "immigration_and_naturalization",
+          "land_and_property",
+          "military_records",
+          "native_american_and_removal_records",
+          "newspapers_and_periodicals",
+          "research_guides_and_societies",
+          "vital_records"
+        ]
+      }
+    }
+  ],
+  "timestamp": "2026-03-12T17:33:20Z"
+}

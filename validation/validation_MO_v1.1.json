@@ -1,0 +1,182 @@
+{
+  "state": "Missouri",
+  "state_abbrev": "MO",
+  "counties_loaded": 115,
+  "expected_counties": 115,
+  "verdict": "GOLD_STANDARD",
+  "checks_passed": 8,
+  "checks_failed": 0,
+  "structural_issues": [],
+  "check_results": [
+    {
+      "check": "manifest_validation",
+      "passed": true,
+      "details": {
+        "schema_version": "3.1",
+        "manifest_count": 115,
+        "loaded_count": 115
+      }
+    },
+    {
+      "check": "county_authenticity",
+      "passed": true,
+      "details": {
+        "expected_count": 115,
+        "actual_count": 115,
+        "unique_county_names": 114,
+        "exact_fips_matches": 115,
+        "fuzzy_matches": null,
+        "potentially_hallucinated": null,
+        "invalid_fips_codes": null,
+        "missing_from_data": null
+      }
+    },
+    {
+      "check": "schema_compliance",
+      "passed": true,
+      "details": {
+        "schema_version": {
+          "old_rod_fields": 0,
+          "v3_online_land_records_fields": 115,
+          "neither": 0
+        },
+        "missing_metadata_fields": null,
+        "missing_source_fields": null
+      }
+    },
+    {
+      "check": "cookie_cutter_detection",
+      "passed": true,
+      "details": {
+        "total_tips": 115,
+        "unique_tips": 115,
+        "exact_duplicate_groups": 0,
+        "counties_with_duplicate_tips": 0,
+        "similar_pairs_above_threshold": 0,
+        "threshold": 0.85,
+        "diversity_score": 0.845,
+        "verdict": "All research tips appear substantive and unique"
+      }
+    },
+    {
+      "check": "data_quality",
+      "passed": true,
+      "details": {
+        "total_sources": 788,
+        "avg_sources_per_county": 6.9,
+        "min_sources": 5,
+        "max_sources": 10,
+        "source_count_std_dev": 1.05,
+        "record_type_distribution": {
+          "land_grant": 122,
+          "deed": 115,
+          "probate": 115,
+          "marriage": 115,
+          "census": 115,
+          "tax": 90,
+          "enslaved": 43,
+          "military": 29,
+          "native_american": 24,
+          "church": 11,
+          "court": 9
+        },
+        "non_canonical_record_types": null,
+        "record_type_diversity": {
+          "unique_type_sets": 24,
+          "dominant_set": [
+            "census",
+            "deed",
+            "land_grant",
+            "marriage",
+            "probate",
+            "tax"
+          ],
+          "dominant_set_count": 33,
+          "dominant_set_ratio": 0.29
+        },
+        "priority_distribution": {
+          "1": 407,
+          "2": 349,
+          "3": 32
+        },
+        "priority_missing_count": 0,
+        "date_range_errors": null,
+        "null_burned_county_flag": null,
+        "null_burned_county_count": 0,
+        "thin_counties": null,
+        "other_issues": null
+      }
+    },
+    {
+      "check": "duplicate_counties",
+      "passed": true,
+      "details": {
+        "unique_names": 115,
+        "total_entries": 115
+      }
+    },
+    {
+      "check": "burned_county_plausibility",
+      "passed": true,
+      "details": {
+        "burned_count": 15,
+        "total_counties": 115,
+        "burned_percentage": 13.0,
+        "burned_counties": [
+          "Barton",
+          "Bates",
+          "Camden",
+          "Cass",
+          "Hickory",
+          "Jackson",
+          "Jasper",
+          "Ozark",
+          "Reynolds",
+          "Ripley",
+          "Shannon",
+          "St. Clair",
+          "Taney",
+          "Vernon",
+          "Webster"
+        ],
+        "expected_range": "5-15"
+      }
+    },
+    {
+      "check": "statewide_file",
+      "passed": true,
+      "details": {
+        "file": "rundown_00_statewide.json",
+        "exists": true,
+        "size_kb": 21.6,
+        "top_level_keys": [
+          "scope",
+          "state",
+          "state_name",
+          "total_jurisdictions",
+          "jurisdiction_type",
+          "record_office_terminology",
+          "burned_county_authority",
+          "administrative_notes",
+          "categories",
+          "burned_counties_summary"
+        ],
+        "categories": [
+          "church_and_cemetery",
+          "core_repositories",
+          "enslaved_persons_and_african_american",
+          "familysearch_collections",
+          "historical_counties_extinct",
+          "immigration_and_naturalization",
+          "land_and_property",
+          "military_records",
+          "native_american_and_removal_records",
+          "newspapers_and_periodicals",
+          "research_guides_and_societies",
+          "vital_records"
+        ]
+      }
+    }
+  ],
+  "timestamp": "2026-03-12T17:35:23Z"
+}

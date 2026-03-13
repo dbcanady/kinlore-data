@@ -1,0 +1,181 @@
+{
+  "state": "Tennessee",
+  "state_abbrev": "TN",
+  "counties_loaded": 95,
+  "expected_counties": 95,
+  "verdict": "GOLD_STANDARD",
+  "checks_passed": 8,
+  "checks_failed": 0,
+  "structural_issues": [],
+  "check_results": [
+    {
+      "check": "manifest_validation",
+      "passed": true,
+      "details": {
+        "schema_version": "3.1",
+        "manifest_count": 95,
+        "loaded_count": 95
+      }
+    },
+    {
+      "check": "county_authenticity",
+      "passed": true,
+      "details": {
+        "expected_count": 95,
+        "actual_count": 95,
+        "unique_county_names": 95,
+        "exact_fips_matches": 95,
+        "fuzzy_matches": null,
+        "potentially_hallucinated": null,
+        "invalid_fips_codes": null,
+        "missing_from_data": null
+      }
+    },
+    {
+      "check": "schema_compliance",
+      "passed": true,
+      "details": {
+        "schema_version": {
+          "old_rod_fields": 0,
+          "v3_online_land_records_fields": 95,
+          "neither": 0
+        },
+        "missing_metadata_fields": null,
+        "missing_source_fields": null
+      }
+    },
+    {
+      "check": "cookie_cutter_detection",
+      "passed": true,
+      "details": {
+        "total_tips": 95,
+        "unique_tips": 95,
+        "exact_duplicate_groups": 0,
+        "counties_with_duplicate_tips": 0,
+        "similar_pairs_above_threshold": 0,
+        "threshold": 0.85,
+        "diversity_score": 0.763,
+        "verdict": "All research tips appear substantive and unique"
+      }
+    },
+    {
+      "check": "data_quality",
+      "passed": true,
+      "details": {
+        "total_sources": 554,
+        "avg_sources_per_county": 5.8,
+        "min_sources": 3,
+        "max_sources": 8,
+        "source_count_std_dev": 0.82,
+        "record_type_distribution": {
+          "deed": 95,
+          "marriage": 95,
+          "census": 94,
+          "will": 90,
+          "newspaper": 87,
+          "tax": 37,
+          "church": 34,
+          "land_grant": 12,
+          "military": 8,
+          "birth": 2
+        },
+        "non_canonical_record_types": null,
+        "record_type_diversity": {
+          "unique_type_sets": 15,
+          "dominant_set": [
+            "census",
+            "deed",
+            "marriage",
+            "newspaper",
+            "tax",
+            "will"
+          ],
+          "dominant_set_count": 34,
+          "dominant_set_ratio": 0.36
+        },
+        "priority_distribution": {
+          "1": 111,
+          "2": 389,
+          "3": 54
+        },
+        "priority_missing_count": 0,
+        "date_range_errors": null,
+        "null_burned_county_flag": null,
+        "null_burned_county_count": 0,
+        "thin_counties": null,
+        "other_issues": null
+      }
+    },
+    {
+      "check": "duplicate_counties",
+      "passed": true,
+      "details": {
+        "unique_names": 95,
+        "total_entries": 95
+      }
+    },
+    {
+      "check": "burned_county_plausibility",
+      "passed": true,
+      "details": {
+        "burned_count": 16,
+        "total_counties": 95,
+        "burned_percentage": 16.8,
+        "burned_counties": [
+          "Anderson",
+          "Campbell",
+          "Carter",
+          "Claiborne",
+          "Coffee",
+          "Fentress",
+          "Greene",
+          "Grundy",
+          "Hamilton",
+          "Jackson",
+          "Jefferson",
+          "Lawrence",
+          "Morgan",
+          "Overton",
+          "Scott",
+          "Wayne"
+        ],
+        "expected_range": "10-25"
+      }
+    },
+    {
+      "check": "statewide_file",
+      "passed": true,
+      "details": {
+        "file": "rundown_00_statewide.json",
+        "exists": true,
+        "size_kb": 15.8,
+        "top_level_keys": [
+          "scope",
+          "state",
+          "state_name",
+          "total_jurisdictions",
+          "jurisdiction_type",
+          "record_office_terminology",
+          "burned_county_authority",
+          "administrative_notes",
+          "categories",
+          "burned_counties_summary"
+        ],
+        "categories": [
+          "church_and_cemetery",
+          "core_repositories",
+          "enslaved_persons_and_african_american",
+          "familysearch_collections",
+          "historical_counties_extinct",
+          "land_and_property",
+          "military_records",
+          "native_american_and_removal_records",
+          "newspapers_and_periodicals",
+          "research_guides_and_societies",
+          "vital_records"
+        ]
+      }
+    }
+  ],
+  "timestamp": "2026-03-11T04:16:44Z"
+}

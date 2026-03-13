@@ -1,0 +1,174 @@
+{
+  "state": "Virginia",
+  "state_abbrev": "VA",
+  "counties_loaded": 133,
+  "expected_counties": 133,
+  "verdict": "GOLD_STANDARD",
+  "checks_passed": 8,
+  "checks_failed": 0,
+  "structural_issues": [],
+  "check_results": [
+    {
+      "check": "manifest_validation",
+      "passed": true,
+      "details": {
+        "schema_version": "3.1",
+        "manifest_count": 133,
+        "loaded_count": 133
+      }
+    },
+    {
+      "check": "county_authenticity",
+      "passed": true,
+      "details": {
+        "expected_count": 133,
+        "actual_count": 133,
+        "unique_county_names": 133,
+        "exact_fips_matches": 133,
+        "fuzzy_matches": null,
+        "potentially_hallucinated": null,
+        "invalid_fips_codes": null,
+        "missing_from_data": null
+      }
+    },
+    {
+      "check": "schema_compliance",
+      "passed": true,
+      "details": {
+        "schema_version": {
+          "old_rod_fields": 0,
+          "v3_online_land_records_fields": 133,
+          "neither": 0
+        },
+        "missing_metadata_fields": null,
+        "missing_source_fields": null
+      }
+    },
+    {
+      "check": "cookie_cutter_detection",
+      "passed": true,
+      "details": {
+        "total_tips": 133,
+        "unique_tips": 133,
+        "exact_duplicate_groups": 0,
+        "counties_with_duplicate_tips": 0,
+        "similar_pairs_above_threshold": 0,
+        "threshold": 0.85,
+        "diversity_score": 0.916,
+        "verdict": "All research tips appear substantive and unique"
+      }
+    },
+    {
+      "check": "data_quality",
+      "passed": true,
+      "details": {
+        "total_sources": 779,
+        "avg_sources_per_county": 5.9,
+        "min_sources": 3,
+        "max_sources": 9,
+        "source_count_std_dev": 1.98,
+        "record_type_distribution": {
+          "deed": 133,
+          "marriage": 133,
+          "will": 133,
+          "court": 99,
+          "tax": 95,
+          "land_grant": 73,
+          "enslaved": 58,
+          "church": 32,
+          "military": 23
+        },
+        "non_canonical_record_types": null,
+        "record_type_diversity": {
+          "unique_type_sets": 16,
+          "dominant_set": [
+            "deed",
+            "marriage",
+            "will"
+          ],
+          "dominant_set_count": 33,
+          "dominant_set_ratio": 0.25
+        },
+        "priority_distribution": {
+          "1": 457,
+          "2": 290,
+          "3": 32
+        },
+        "priority_missing_count": 0,
+        "date_range_errors": null,
+        "null_burned_county_flag": null,
+        "null_burned_county_count": 0,
+        "thin_counties": null,
+        "other_issues": null
+      }
+    },
+    {
+      "check": "duplicate_counties",
+      "passed": true,
+      "details": {
+        "unique_names": 133,
+        "total_entries": 133
+      }
+    },
+    {
+      "check": "burned_county_plausibility",
+      "passed": true,
+      "details": {
+        "burned_count": 13,
+        "total_counties": 133,
+        "burned_percentage": 9.8,
+        "burned_counties": [
+          "Buchanan",
+          "Buckingham",
+          "Caroline",
+          "Charles City",
+          "Gloucester",
+          "Hampton (city)",
+          "Hanover",
+          "King and Queen",
+          "New Kent",
+          "Newport News (city)",
+          "Prince William",
+          "Stafford",
+          "Suffolk (city)"
+        ],
+        "expected_range": "10-20"
+      }
+    },
+    {
+      "check": "statewide_file",
+      "passed": true,
+      "details": {
+        "file": "rundown_00_statewide.json",
+        "exists": true,
+        "size_kb": 17.9,
+        "top_level_keys": [
+          "scope",
+          "state",
+          "state_name",
+          "total_jurisdictions",
+          "jurisdiction_type",
+          "record_office_terminology",
+          "burned_county_authority",
+          "administrative_notes",
+          "categories",
+          "burned_counties_summary"
+        ],
+        "categories": [
+          "church_and_cemetery",
+          "core_repositories",
+          "enslaved_persons_and_african_american",
+          "familysearch_collections",
+          "historical_counties_extinct",
+          "land_and_property",
+          "military_records",
+          "native_american_and_removal_records",
+          "newspapers_and_periodicals",
+          "research_guides_and_societies",
+          "vital_records"
+        ]
+      }
+    }
+  ],
+  "timestamp": "2026-03-11T03:32:39Z"
+}

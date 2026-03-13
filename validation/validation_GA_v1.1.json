@@ -1,0 +1,180 @@
+{
+  "state": "Georgia",
+  "state_abbrev": "GA",
+  "counties_loaded": 159,
+  "expected_counties": 159,
+  "verdict": "GOLD_STANDARD",
+  "checks_passed": 8,
+  "checks_failed": 0,
+  "structural_issues": [],
+  "check_results": [
+    {
+      "check": "manifest_validation",
+      "passed": true,
+      "details": {
+        "schema_version": "3.1",
+        "manifest_count": 159,
+        "loaded_count": 159
+      }
+    },
+    {
+      "check": "county_authenticity",
+      "passed": true,
+      "details": {
+        "expected_count": 159,
+        "actual_count": 159,
+        "unique_county_names": 159,
+        "exact_fips_matches": 159,
+        "fuzzy_matches": null,
+        "potentially_hallucinated": null,
+        "missing_from_data": null
+      }
+    },
+    {
+      "check": "schema_compliance",
+      "passed": true,
+      "details": {
+        "schema_version": {
+          "old_rod_fields": 0,
+          "v3_online_land_records_fields": 159,
+          "neither": 0
+        },
+        "missing_metadata_fields": null,
+        "missing_source_fields": null
+      }
+    },
+    {
+      "check": "cookie_cutter_detection",
+      "passed": true,
+      "details": {
+        "total_tips": 159,
+        "unique_tips": 159,
+        "exact_duplicate_groups": 0,
+        "counties_with_duplicate_tips": 0,
+        "similar_pairs_above_threshold": 0,
+        "threshold": 0.85,
+        "diversity_score": 0.878,
+        "verdict": "All research tips appear substantive and unique"
+      }
+    },
+    {
+      "check": "data_quality",
+      "passed": true,
+      "details": {
+        "total_sources": 729,
+        "avg_sources_per_county": 4.6,
+        "min_sources": 3,
+        "max_sources": 7,
+        "source_count_std_dev": 1.34,
+        "record_type_distribution": {
+          "deed": 159,
+          "marriage": 159,
+          "will": 159,
+          "enslaved": 78,
+          "court": 75,
+          "native_american": 47,
+          "tax": 24,
+          "military": 20,
+          "church": 8
+        },
+        "non_canonical_record_types": null,
+        "record_type_diversity": {
+          "unique_type_sets": 19,
+          "dominant_set": [
+            "deed",
+            "marriage",
+            "will"
+          ],
+          "dominant_set_count": 51,
+          "dominant_set_ratio": 0.32
+        },
+        "priority_distribution": {
+          "1": 477,
+          "2": 185,
+          "3": 67
+        },
+        "priority_missing_count": 0,
+        "date_range_errors": null,
+        "null_burned_county_flag": null,
+        "null_burned_county_count": 0,
+        "thin_counties": null,
+        "other_issues": null
+      }
+    },
+    {
+      "check": "duplicate_counties",
+      "passed": true,
+      "details": {
+        "unique_names": 159,
+        "total_entries": 159
+      }
+    },
+    {
+      "check": "burned_county_plausibility",
+      "passed": true,
+      "details": {
+        "burned_count": 66,
+        "total_counties": 159,
+        "burned_percentage": 41.5,
+        "burned_counties": [
+          "Appling",
+          "Baker",
+          "Bartow",
+          "Bryan",
+          "Bulloch",
+          "Burke",
+          "Calhoun",
+          "Charlton",
+          "Chattahoochee",
+          "Cherokee",
+          "Clay",
+          "Clinch",
+          "Cobb",
+          "Columbia",
+          "Crawford",
+          "Dawson",
+          "Decatur",
+          "Dooly",
+          "Early",
+          "Effingham"
+        ],
+        "expected_range": "60-80"
+      }
+    },
+    {
+      "check": "statewide_file",
+      "passed": true,
+      "details": {
+        "file": "rundown_00_statewide.json",
+        "exists": true,
+        "size_kb": 18.6,
+        "top_level_keys": [
+          "scope",
+          "state",
+          "state_name",
+          "total_jurisdictions",
+          "jurisdiction_type",
+          "record_office_terminology",
+          "burned_county_authority",
+          "administrative_notes",
+          "categories",
+          "burned_counties_summary"
+        ],
+        "categories": [
+          "church_and_cemetery",
+          "core_repositories",
+          "enslaved_persons_and_african_american",
+          "familysearch_collections",
+          "historical_counties_extinct",
+          "land_and_property",
+          "military_records",
+          "native_american_and_removal_records",
+          "newspapers_and_periodicals",
+          "research_guides_and_societies",
+          "vital_records"
+        ]
+      }
+    }
+  ],
+  "timestamp": "2026-03-11T03:12:06Z"
+}

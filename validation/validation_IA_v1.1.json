@@ -1,0 +1,167 @@
+{
+  "state": "Iowa",
+  "state_abbrev": "IA",
+  "counties_loaded": 99,
+  "expected_counties": 99,
+  "verdict": "GOLD_STANDARD",
+  "checks_passed": 8,
+  "checks_failed": 0,
+  "structural_issues": [],
+  "check_results": [
+    {
+      "check": "manifest_validation",
+      "passed": true,
+      "details": {
+        "schema_version": "3.1",
+        "manifest_count": 99,
+        "loaded_count": 99
+      }
+    },
+    {
+      "check": "county_authenticity",
+      "passed": true,
+      "details": {
+        "expected_count": 99,
+        "actual_count": 99,
+        "unique_county_names": 99,
+        "exact_fips_matches": 99,
+        "fuzzy_matches": null,
+        "potentially_hallucinated": null,
+        "invalid_fips_codes": null,
+        "missing_from_data": null
+      }
+    },
+    {
+      "check": "schema_compliance",
+      "passed": true,
+      "details": {
+        "schema_version": {
+          "old_rod_fields": 0,
+          "v3_online_land_records_fields": 99,
+          "neither": 0
+        },
+        "missing_metadata_fields": null,
+        "missing_source_fields": null
+      }
+    },
+    {
+      "check": "cookie_cutter_detection",
+      "passed": true,
+      "details": {
+        "total_tips": 99,
+        "unique_tips": 99,
+        "exact_duplicate_groups": 0,
+        "counties_with_duplicate_tips": 0,
+        "similar_pairs_above_threshold": 0,
+        "threshold": 0.85,
+        "diversity_score": 0.743,
+        "verdict": "All research tips appear substantive and unique"
+      }
+    },
+    {
+      "check": "data_quality",
+      "passed": true,
+      "details": {
+        "total_sources": 786,
+        "avg_sources_per_county": 7.9,
+        "min_sources": 7,
+        "max_sources": 10,
+        "source_count_std_dev": 0.63,
+        "record_type_distribution": {
+          "deed": 99,
+          "probate": 99,
+          "marriage": 99,
+          "land_grant": 99,
+          "census": 99,
+          "cemetery": 99,
+          "tax": 99,
+          "church": 59,
+          "court": 21,
+          "newspaper": 12,
+          "native_american": 1
+        },
+        "non_canonical_record_types": null,
+        "record_type_diversity": {
+          "unique_type_sets": 9,
+          "dominant_set": [
+            "cemetery",
+            "census",
+            "church",
+            "deed",
+            "land_grant",
+            "marriage",
+            "probate",
+            "tax"
+          ],
+          "dominant_set_count": 46,
+          "dominant_set_ratio": 0.46
+        },
+        "priority_distribution": {
+          "1": 198,
+          "2": 357,
+          "3": 231
+        },
+        "priority_missing_count": 0,
+        "date_range_errors": null,
+        "null_burned_county_flag": null,
+        "null_burned_county_count": 0,
+        "thin_counties": null,
+        "other_issues": null
+      }
+    },
+    {
+      "check": "duplicate_counties",
+      "passed": true,
+      "details": {
+        "unique_names": 99,
+        "total_entries": 99
+      }
+    },
+    {
+      "check": "burned_county_plausibility",
+      "passed": true,
+      "details": {
+        "burned_count": 0,
+        "total_counties": 99,
+        "burned_percentage": 0.0,
+        "burned_counties": [],
+        "expected_range": "0-5"
+      }
+    },
+    {
+      "check": "statewide_file",
+      "passed": true,
+      "details": {
+        "file": "rundown_00_statewide.json",
+        "exists": true,
+        "size_kb": 16.6,
+        "top_level_keys": [
+          "scope",
+          "state",
+          "state_name",
+          "total_jurisdictions",
+          "jurisdiction_type",
+          "record_office_terminology",
+          "burned_county_authority",
+          "administrative_notes",
+          "categories",
+          "burned_counties_summary"
+        ],
+        "categories": [
+          "church_and_cemetery",
+          "core_repositories",
+          "familysearch_collections",
+          "historical_counties_extinct",
+          "immigration_and_naturalization",
+          "land_and_property",
+          "military_records",
+          "native_american_and_tribal_records",
+          "newspapers_and_periodicals",
+          "research_guides_and_societies",
+          "vital_records"
+        ]
+      }
+    }
+  ],
+  "timestamp": "2026-03-12T16:16:59Z"
+}

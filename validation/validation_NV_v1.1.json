@@ -1,0 +1,168 @@
+{
+  "state": "Nevada",
+  "state_abbrev": "NV",
+  "counties_loaded": 17,
+  "expected_counties": 17,
+  "verdict": "GOLD_STANDARD",
+  "checks_passed": 8,
+  "checks_failed": 0,
+  "structural_issues": [],
+  "check_results": [
+    {
+      "check": "manifest_validation",
+      "passed": true,
+      "details": {
+        "schema_version": "3.1",
+        "manifest_count": 17,
+        "loaded_count": 17
+      }
+    },
+    {
+      "check": "county_authenticity",
+      "passed": true,
+      "details": {
+        "expected_count": 17,
+        "actual_count": 17,
+        "unique_county_names": 17,
+        "exact_fips_matches": 17,
+        "fuzzy_matches": null,
+        "potentially_hallucinated": null,
+        "invalid_fips_codes": null,
+        "missing_from_data": null
+      }
+    },
+    {
+      "check": "schema_compliance",
+      "passed": true,
+      "details": {
+        "schema_version": {
+          "old_rod_fields": 0,
+          "v3_online_land_records_fields": 17,
+          "neither": 0
+        },
+        "missing_metadata_fields": null,
+        "missing_source_fields": null
+      }
+    },
+    {
+      "check": "cookie_cutter_detection",
+      "passed": true,
+      "details": {
+        "total_tips": 17,
+        "unique_tips": 17,
+        "exact_duplicate_groups": 0,
+        "counties_with_duplicate_tips": 0,
+        "similar_pairs_above_threshold": 0,
+        "threshold": 0.85,
+        "diversity_score": 0.961,
+        "verdict": "All research tips appear substantive and unique"
+      }
+    },
+    {
+      "check": "data_quality",
+      "passed": true,
+      "details": {
+        "total_sources": 100,
+        "avg_sources_per_county": 5.9,
+        "min_sources": 5,
+        "max_sources": 7,
+        "source_count_std_dev": 0.68,
+        "record_type_distribution": {
+          "deed": 17,
+          "marriage": 17,
+          "census": 17,
+          "newspaper": 17,
+          "court": 7,
+          "probate": 7,
+          "native_american": 4,
+          "military": 4,
+          "immigration": 4,
+          "church": 2,
+          "death": 1,
+          "land_grant": 1,
+          "tax": 1,
+          "naturalization": 1
+        },
+        "non_canonical_record_types": null,
+        "record_type_diversity": {
+          "unique_type_sets": 14,
+          "dominant_set": [
+            "census",
+            "deed",
+            "immigration",
+            "marriage",
+            "native_american",
+            "newspaper"
+          ],
+          "dominant_set_count": 2,
+          "dominant_set_ratio": 0.12
+        },
+        "priority_distribution": {
+          "1": 38,
+          "2": 45,
+          "3": 17
+        },
+        "priority_missing_count": 0,
+        "date_range_errors": null,
+        "null_burned_county_flag": null,
+        "null_burned_county_count": 0,
+        "thin_counties": null,
+        "other_issues": null
+      }
+    },
+    {
+      "check": "duplicate_counties",
+      "passed": true,
+      "details": {
+        "unique_names": 17,
+        "total_entries": 17
+      }
+    },
+    {
+      "check": "burned_county_plausibility",
+      "passed": true,
+      "details": {
+        "burned_count": 0,
+        "total_counties": 17,
+        "burned_percentage": 0.0,
+        "burned_counties": [],
+        "expected_range": "0-3"
+      }
+    },
+    {
+      "check": "statewide_file",
+      "passed": true,
+      "details": {
+        "file": "rundown_00_statewide.json",
+        "exists": true,
+        "size_kb": 19.1,
+        "top_level_keys": [
+          "scope",
+          "state",
+          "state_name",
+          "total_jurisdictions",
+          "jurisdiction_type",
+          "record_office_terminology",
+          "burned_county_authority",
+          "burned_counties_summary",
+          "administrative_notes",
+          "categories"
+        ],
+        "categories": [
+          "church_and_cemetery",
+          "core_repositories",
+          "familysearch_collections",
+          "historical_counties_extinct",
+          "immigration_and_naturalization",
+          "land_and_property",
+          "military_records",
+          "native_american_and_removal_records",
+          "newspapers_and_periodicals",
+          "research_guides_and_societies",
+          "vital_records"
+        ]
+      }
+    }
+  ],
+  "timestamp": "2026-03-11T22:05:29Z"
+}

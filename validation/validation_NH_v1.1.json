@@ -1,0 +1,171 @@
+{
+  "state": "New Hampshire",
+  "state_abbrev": "NH",
+  "counties_loaded": 10,
+  "expected_counties": 10,
+  "verdict": "GOLD_STANDARD",
+  "checks_passed": 8,
+  "checks_failed": 0,
+  "structural_issues": [],
+  "check_results": [
+    {
+      "check": "manifest_validation",
+      "passed": true,
+      "details": {
+        "schema_version": "3.1",
+        "manifest_count": 10,
+        "loaded_count": 10
+      }
+    },
+    {
+      "check": "county_authenticity",
+      "passed": true,
+      "details": {
+        "expected_count": 10,
+        "actual_count": 10,
+        "unique_county_names": 10,
+        "exact_fips_matches": 10,
+        "fuzzy_matches": null,
+        "potentially_hallucinated": null,
+        "invalid_fips_codes": null,
+        "missing_from_data": null
+      }
+    },
+    {
+      "check": "schema_compliance",
+      "passed": true,
+      "details": {
+        "schema_version": {
+          "old_rod_fields": 0,
+          "v3_online_land_records_fields": 10,
+          "neither": 0
+        },
+        "missing_metadata_fields": null,
+        "missing_source_fields": null
+      }
+    },
+    {
+      "check": "cookie_cutter_detection",
+      "passed": true,
+      "details": {
+        "total_tips": 10,
+        "unique_tips": 10,
+        "exact_duplicate_groups": 0,
+        "counties_with_duplicate_tips": 0,
+        "similar_pairs_above_threshold": 0,
+        "threshold": 0.85,
+        "diversity_score": 0.952,
+        "verdict": "All research tips appear substantive and unique"
+      }
+    },
+    {
+      "check": "data_quality",
+      "passed": true,
+      "details": {
+        "total_sources": 68,
+        "avg_sources_per_county": 6.8,
+        "min_sources": 6,
+        "max_sources": 8,
+        "source_count_std_dev": 0.6,
+        "record_type_distribution": {
+          "deed": 10,
+          "church": 8,
+          "probate": 6,
+          "birth": 5,
+          "census": 5,
+          "newspaper": 5,
+          "military": 5,
+          "tax": 3,
+          "marriage": 3,
+          "cemetery": 3,
+          "death": 3,
+          "will": 2,
+          "court": 2,
+          "naturalization": 2,
+          "land_grant": 2,
+          "estate": 2,
+          "immigration": 2
+        },
+        "non_canonical_record_types": null,
+        "record_type_diversity": {
+          "unique_type_sets": 10,
+          "dominant_set": [
+            "birth",
+            "census",
+            "church",
+            "deed",
+            "newspaper",
+            "probate",
+            "tax"
+          ],
+          "dominant_set_count": 1,
+          "dominant_set_ratio": 0.1
+        },
+        "priority_distribution": {
+          "1": 28,
+          "2": 26,
+          "3": 14
+        },
+        "priority_missing_count": 0,
+        "date_range_errors": null,
+        "null_burned_county_flag": null,
+        "null_burned_county_count": 0,
+        "thin_counties": null,
+        "other_issues": null
+      }
+    },
+    {
+      "check": "duplicate_counties",
+      "passed": true,
+      "details": {
+        "unique_names": 10,
+        "total_entries": 10
+      }
+    },
+    {
+      "check": "burned_county_plausibility",
+      "passed": true,
+      "details": {
+        "burned_count": 0,
+        "total_counties": 10,
+        "burned_percentage": 0.0,
+        "burned_counties": [],
+        "expected_range": "0-3"
+      }
+    },
+    {
+      "check": "statewide_file",
+      "passed": true,
+      "details": {
+        "file": "rundown_00_statewide.json",
+        "exists": true,
+        "size_kb": 16.4,
+        "top_level_keys": [
+          "scope",
+          "state",
+          "state_name",
+          "total_jurisdictions",
+          "jurisdiction_type",
+          "record_office_terminology",
+          "burned_county_authority",
+          "burned_counties_summary",
+          "administrative_notes",
+          "categories"
+        ],
+        "categories": [
+          "church_and_cemetery",
+          "core_repositories",
+          "familysearch_collections",
+          "historical_counties_extinct",
+          "immigration_and_naturalization",
+          "land_and_property",
+          "military_records",
+          "newspapers_and_periodicals",
+          "research_guides_and_societies",
+          "vital_records"
+        ]
+      }
+    }
+  ],
+  "timestamp": "2026-03-11T15:01:21Z"
+}

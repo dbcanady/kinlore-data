@@ -1,0 +1,170 @@
+{
+  "state": "New Jersey",
+  "state_abbrev": "NJ",
+  "counties_loaded": 21,
+  "expected_counties": 21,
+  "verdict": "GOLD_STANDARD",
+  "checks_passed": 8,
+  "checks_failed": 0,
+  "structural_issues": [],
+  "check_results": [
+    {
+      "check": "manifest_validation",
+      "passed": true,
+      "details": {
+        "schema_version": "3.1",
+        "manifest_count": 21,
+        "loaded_count": 21
+      }
+    },
+    {
+      "check": "county_authenticity",
+      "passed": true,
+      "details": {
+        "expected_count": 21,
+        "actual_count": 21,
+        "unique_county_names": 21,
+        "exact_fips_matches": 21,
+        "fuzzy_matches": null,
+        "potentially_hallucinated": null,
+        "invalid_fips_codes": null,
+        "missing_from_data": null
+      }
+    },
+    {
+      "check": "schema_compliance",
+      "passed": true,
+      "details": {
+        "schema_version": {
+          "old_rod_fields": 0,
+          "v3_online_land_records_fields": 21,
+          "neither": 0
+        },
+        "missing_metadata_fields": null,
+        "missing_source_fields": null
+      }
+    },
+    {
+      "check": "cookie_cutter_detection",
+      "passed": true,
+      "details": {
+        "total_tips": 21,
+        "unique_tips": 21,
+        "exact_duplicate_groups": 0,
+        "counties_with_duplicate_tips": 0,
+        "similar_pairs_above_threshold": 0,
+        "threshold": 0.85,
+        "diversity_score": 0.935,
+        "verdict": "All research tips appear substantive and unique"
+      }
+    },
+    {
+      "check": "data_quality",
+      "passed": true,
+      "details": {
+        "total_sources": 132,
+        "avg_sources_per_county": 6.3,
+        "min_sources": 6,
+        "max_sources": 7,
+        "source_count_std_dev": 0.45,
+        "record_type_distribution": {
+          "deed": 21,
+          "probate": 21,
+          "census": 20,
+          "church": 19,
+          "military": 12,
+          "newspaper": 10,
+          "immigration": 8,
+          "tax": 7,
+          "death": 3,
+          "land_grant": 2,
+          "cemetery": 2,
+          "enslaved": 2,
+          "court": 2,
+          "marriage": 1,
+          "birth": 1,
+          "naturalization": 1
+        },
+        "non_canonical_record_types": null,
+        "record_type_diversity": {
+          "unique_type_sets": 16,
+          "dominant_set": [
+            "census",
+            "church",
+            "deed",
+            "military",
+            "probate",
+            "tax"
+          ],
+          "dominant_set_count": 5,
+          "dominant_set_ratio": 0.24
+        },
+        "priority_distribution": {
+          "1": 33,
+          "2": 75,
+          "3": 24
+        },
+        "priority_missing_count": 0,
+        "date_range_errors": null,
+        "null_burned_county_flag": null,
+        "null_burned_county_count": 0,
+        "thin_counties": null,
+        "other_issues": null
+      }
+    },
+    {
+      "check": "duplicate_counties",
+      "passed": true,
+      "details": {
+        "unique_names": 21,
+        "total_entries": 21
+      }
+    },
+    {
+      "check": "burned_county_plausibility",
+      "passed": true,
+      "details": {
+        "burned_count": 0,
+        "total_counties": 21,
+        "burned_percentage": 0.0,
+        "burned_counties": [],
+        "expected_range": "0-3"
+      }
+    },
+    {
+      "check": "statewide_file",
+      "passed": true,
+      "details": {
+        "file": "rundown_00_statewide.json",
+        "exists": true,
+        "size_kb": 21.3,
+        "top_level_keys": [
+          "scope",
+          "state",
+          "state_name",
+          "total_jurisdictions",
+          "jurisdiction_type",
+          "record_office_terminology",
+          "burned_county_authority",
+          "administrative_notes",
+          "categories",
+          "burned_counties_summary"
+        ],
+        "categories": [
+          "church_and_cemetery",
+          "core_repositories",
+          "enslaved_persons_and_african_american",
+          "familysearch_collections",
+          "historical_counties_extinct",
+          "immigration_and_naturalization",
+          "land_and_property",
+          "military_records",
+          "newspapers_and_periodicals",
+          "research_guides_and_societies",
+          "vital_records"
+        ]
+      }
+    }
+  ],
+  "timestamp": "2026-03-11T16:51:28Z"
+}

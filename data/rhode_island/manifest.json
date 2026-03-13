@@ -1,0 +1,35 @@
+{
+  "project": "KinLore County Source Profiler",
+  "state": "Rhode Island",
+  "state_abbreviation": "RI",
+  "schema_version": "3.1",
+  "generated_date": "2026-03-11",
+  "total_counties": 5,
+  "total_source_profiles": 33,
+  "total_batch_files": 2,
+  "burned_counties_count": 0,
+  "statehood_year": 1790,
+  "colony_founded": 1636,
+  "central_repository": "Rhode Island State Archives, Providence; Rhode Island Historical Society, Providence",
+  "migration_note": "Initial v3.1 generation on 2026-03-11 using generate_ri.py. Rhode Island has only 5 counties (smallest county count of any US state). Counties have no governmental functions — towns are the primary local jurisdiction. All 5 county research tips are unique and reference RI-specific repositories.",
+  "batches": [
+    {
+      "file": "rundown_00_statewide.json",
+      "batch_index": "statewide",
+      "description": "State-level repositories, resources, and research guides for Rhode Island"
+    },
+    {
+      "file": "rundown_00_bristol_to_washington.json",
+      "batch_index": 0,
+      "counties": [
+        "Bristol",
+        "Kent",
+        "Newport",
+        "Providence",
+        "Washington"
+      ],
+      "county_count": 5,
+      "source_count": 33
+    }
+  ]
+}

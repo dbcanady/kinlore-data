@@ -1,0 +1,177 @@
+{
+  "state": "Puerto Rico",
+  "state_abbrev": "PR",
+  "counties_loaded": 78,
+  "expected_counties": 78,
+  "verdict": "GOLD_STANDARD",
+  "checks_passed": 8,
+  "checks_failed": 0,
+  "structural_issues": [],
+  "check_results": [
+    {
+      "check": "manifest_validation",
+      "passed": true,
+      "details": {
+        "schema_version": "3.1",
+        "manifest_count": 78,
+        "loaded_count": 78
+      }
+    },
+    {
+      "check": "county_authenticity",
+      "passed": true,
+      "details": {
+        "expected_count": 78,
+        "actual_count": 78,
+        "unique_county_names": 78,
+        "exact_fips_matches": 78,
+        "fuzzy_matches": null,
+        "potentially_hallucinated": null,
+        "invalid_fips_codes": null,
+        "missing_from_data": null
+      }
+    },
+    {
+      "check": "schema_compliance",
+      "passed": true,
+      "details": {
+        "schema_version": {
+          "old_rod_fields": 0,
+          "v3_online_land_records_fields": 78,
+          "neither": 0
+        },
+        "missing_metadata_fields": null,
+        "missing_source_fields": null
+      }
+    },
+    {
+      "check": "cookie_cutter_detection",
+      "passed": true,
+      "details": {
+        "total_tips": 78,
+        "unique_tips": 78,
+        "exact_duplicate_groups": 0,
+        "counties_with_duplicate_tips": 0,
+        "similar_pairs_above_threshold": 0,
+        "threshold": 0.85,
+        "diversity_score": 0.961,
+        "verdict": "All research tips appear substantive and unique"
+      }
+    },
+    {
+      "check": "data_quality",
+      "passed": true,
+      "details": {
+        "total_sources": 516,
+        "avg_sources_per_county": 6.6,
+        "min_sources": 6,
+        "max_sources": 9,
+        "source_count_std_dev": 0.79,
+        "record_type_distribution": {
+          "deed": 156,
+          "church": 78,
+          "birth": 78,
+          "census": 78,
+          "cemetery": 78,
+          "enslaved": 30,
+          "military": 9,
+          "newspaper": 9
+        },
+        "non_canonical_record_types": null,
+        "record_type_diversity": {
+          "unique_type_sets": 8,
+          "dominant_set": [
+            "birth",
+            "cemetery",
+            "census",
+            "church",
+            "deed"
+          ],
+          "dominant_set_count": 43,
+          "dominant_set_ratio": 0.55
+        },
+        "priority_distribution": {
+          "1": 108,
+          "2": 321,
+          "3": 87
+        },
+        "priority_missing_count": 0,
+        "date_range_errors": null,
+        "null_burned_county_flag": null,
+        "null_burned_county_count": 0,
+        "thin_counties": null,
+        "other_issues": [
+          {
+            "county": "Coamo",
+            "issue": "Suspicious formed_year: 1579",
+            "severity": "HIGH"
+          },
+          {
+            "county": "San Germ\u00e1n",
+            "issue": "Suspicious formed_year: 1573",
+            "severity": "HIGH"
+          },
+          {
+            "county": "San Juan",
+            "issue": "Suspicious formed_year: 1521",
+            "severity": "HIGH"
+          }
+        ]
+      }
+    },
+    {
+      "check": "duplicate_counties",
+      "passed": true,
+      "details": {
+        "unique_names": 78,
+        "total_entries": 78
+      }
+    },
+    {
+      "check": "burned_county_plausibility",
+      "passed": true,
+      "details": {
+        "burned_count": 0,
+        "total_counties": 78,
+        "burned_percentage": 0.0,
+        "burned_counties": [],
+        "expected_range": "0-5"
+      }
+    },
+    {
+      "check": "statewide_file",
+      "passed": true,
+      "details": {
+        "file": "rundown_00_statewide.json",
+        "exists": true,
+        "size_kb": 18.6,
+        "top_level_keys": [
+          "scope",
+          "state",
+          "state_name",
+          "total_jurisdictions",
+          "jurisdiction_type",
+          "record_office_terminology",
+          "burned_county_authority",
+          "administrative_notes",
+          "categories",
+          "burned_counties_summary"
+        ],
+        "categories": [
+          "church_and_cemetery",
+          "core_repositories",
+          "enslaved_persons_and_african_american",
+          "familysearch_collections",
+          "historical_counties_extinct",
+          "immigration_and_naturalization",
+          "land_and_property",
+          "military_records",
+          "newspapers_and_periodicals",
+          "research_guides_and_societies",
+          "vital_records"
+        ]
+      }
+    }
+  ],
+  "timestamp": "2026-03-11T22:37:58Z"
+}

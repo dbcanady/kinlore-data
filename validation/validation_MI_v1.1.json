@@ -1,0 +1,173 @@
+{
+  "state": "Michigan",
+  "state_abbrev": "MI",
+  "counties_loaded": 83,
+  "expected_counties": 83,
+  "verdict": "GOLD_STANDARD",
+  "checks_passed": 8,
+  "checks_failed": 0,
+  "structural_issues": [],
+  "check_results": [
+    {
+      "check": "manifest_validation",
+      "passed": true,
+      "details": {
+        "schema_version": "3.1",
+        "manifest_count": 83,
+        "loaded_count": 83
+      }
+    },
+    {
+      "check": "county_authenticity",
+      "passed": true,
+      "details": {
+        "expected_count": 83,
+        "actual_count": 83,
+        "unique_county_names": 83,
+        "exact_fips_matches": 83,
+        "fuzzy_matches": null,
+        "potentially_hallucinated": null,
+        "invalid_fips_codes": null,
+        "missing_from_data": null
+      }
+    },
+    {
+      "check": "schema_compliance",
+      "passed": true,
+      "details": {
+        "schema_version": {
+          "old_rod_fields": 0,
+          "v3_online_land_records_fields": 83,
+          "neither": 0
+        },
+        "missing_metadata_fields": null,
+        "missing_source_fields": null
+      }
+    },
+    {
+      "check": "cookie_cutter_detection",
+      "passed": true,
+      "details": {
+        "total_tips": 83,
+        "unique_tips": 83,
+        "exact_duplicate_groups": 0,
+        "counties_with_duplicate_tips": 0,
+        "similar_pairs_above_threshold": 0,
+        "threshold": 0.85,
+        "diversity_score": 0.918,
+        "verdict": "All research tips appear substantive and unique"
+      }
+    },
+    {
+      "check": "data_quality",
+      "passed": true,
+      "details": {
+        "total_sources": 556,
+        "avg_sources_per_county": 6.7,
+        "min_sources": 6,
+        "max_sources": 10,
+        "source_count_std_dev": 1.12,
+        "record_type_distribution": {
+          "deed": 83,
+          "probate": 83,
+          "marriage": 83,
+          "census": 83,
+          "land_grant": 83,
+          "tax": 31,
+          "cemetery": 30,
+          "newspaper": 23,
+          "court": 19,
+          "native_american": 14,
+          "enslaved": 13,
+          "church": 11
+        },
+        "non_canonical_record_types": null,
+        "record_type_diversity": {
+          "unique_type_sets": 18,
+          "dominant_set": [
+            "cemetery",
+            "census",
+            "deed",
+            "land_grant",
+            "marriage",
+            "probate"
+          ],
+          "dominant_set_count": 30,
+          "dominant_set_ratio": 0.36
+        },
+        "priority_distribution": {
+          "1": 260,
+          "2": 233,
+          "3": 63
+        },
+        "priority_missing_count": 0,
+        "date_range_errors": null,
+        "null_burned_county_flag": null,
+        "null_burned_county_count": 0,
+        "thin_counties": null,
+        "other_issues": null
+      }
+    },
+    {
+      "check": "duplicate_counties",
+      "passed": true,
+      "details": {
+        "unique_names": 83,
+        "total_entries": 83
+      }
+    },
+    {
+      "check": "burned_county_plausibility",
+      "passed": true,
+      "details": {
+        "burned_count": 5,
+        "total_counties": 83,
+        "burned_percentage": 6.0,
+        "burned_counties": [
+          "Clare",
+          "Huron",
+          "Ontonagon",
+          "Sanilac",
+          "Tuscola"
+        ],
+        "expected_range": "0-5"
+      }
+    },
+    {
+      "check": "statewide_file",
+      "passed": true,
+      "details": {
+        "file": "rundown_00_statewide.json",
+        "exists": true,
+        "size_kb": 19.5,
+        "top_level_keys": [
+          "scope",
+          "state",
+          "state_name",
+          "total_jurisdictions",
+          "jurisdiction_type",
+          "record_office_terminology",
+          "burned_county_authority",
+          "administrative_notes",
+          "categories",
+          "burned_counties_summary"
+        ],
+        "categories": [
+          "church_and_cemetery",
+          "core_repositories",
+          "enslaved_persons_and_african_american",
+          "familysearch_collections",
+          "historical_counties_extinct",
+          "immigration_and_naturalization",
+          "land_and_property",
+          "military_records",
+          "native_american_and_removal_records",
+          "newspapers_and_periodicals",
+          "research_guides_and_societies",
+          "vital_records"
+        ]
+      }
+    }
+  ],
+  "timestamp": "2026-03-12T17:31:25Z"
+}

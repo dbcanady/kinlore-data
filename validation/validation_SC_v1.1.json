@@ -1,0 +1,186 @@
+{
+  "state": "South Carolina",
+  "state_abbrev": "SC",
+  "counties_loaded": 46,
+  "expected_counties": 46,
+  "verdict": "GOLD_STANDARD",
+  "checks_passed": 8,
+  "checks_failed": 0,
+  "structural_issues": [],
+  "check_results": [
+    {
+      "check": "manifest_validation",
+      "passed": true,
+      "details": {
+        "schema_version": "3.1",
+        "manifest_count": 46,
+        "loaded_count": 46
+      }
+    },
+    {
+      "check": "county_authenticity",
+      "passed": true,
+      "details": {
+        "expected_count": 46,
+        "actual_count": 46,
+        "unique_county_names": 46,
+        "exact_fips_matches": 46,
+        "fuzzy_matches": null,
+        "potentially_hallucinated": null,
+        "missing_from_data": null
+      }
+    },
+    {
+      "check": "schema_compliance",
+      "passed": true,
+      "details": {
+        "schema_version": {
+          "old_rod_fields": 0,
+          "v3_online_land_records_fields": 46,
+          "neither": 0
+        },
+        "missing_metadata_fields": null,
+        "missing_source_fields": null
+      }
+    },
+    {
+      "check": "cookie_cutter_detection",
+      "passed": true,
+      "details": {
+        "total_tips": 46,
+        "unique_tips": 46,
+        "exact_duplicate_groups": 0,
+        "counties_with_duplicate_tips": 0,
+        "similar_pairs_above_threshold": 0,
+        "threshold": 0.85,
+        "diversity_score": 0.965,
+        "verdict": "All research tips appear substantive and unique"
+      }
+    },
+    {
+      "check": "data_quality",
+      "passed": true,
+      "details": {
+        "total_sources": 189,
+        "avg_sources_per_county": 4.1,
+        "min_sources": 3,
+        "max_sources": 10,
+        "source_count_std_dev": 1.35,
+        "record_type_distribution": {
+          "deed": 48,
+          "probate": 23,
+          "will": 21,
+          "census": 19,
+          "marriage": 16,
+          "land_grant": 12,
+          "court": 11,
+          "estate": 9,
+          "church": 7,
+          "cemetery": 6,
+          "enslaved": 3,
+          "mortgage": 3,
+          "tax": 2,
+          "birth": 2,
+          "freedmen": 2,
+          "newspaper": 1,
+          "city_directory": 1,
+          "death": 1,
+          "voter_registration": 1,
+          "military": 1
+        },
+        "non_canonical_record_types": null,
+        "record_type_diversity": {
+          "unique_type_sets": 36,
+          "dominant_set": [
+            "census",
+            "deed",
+            "probate"
+          ],
+          "dominant_set_count": 5,
+          "dominant_set_ratio": 0.11
+        },
+        "priority_distribution": {
+          "1": 136,
+          "2": 42,
+          "3": 11
+        },
+        "priority_missing_count": 0,
+        "date_range_errors": null,
+        "null_burned_county_flag": null,
+        "null_burned_county_count": 0,
+        "thin_counties": null,
+        "other_issues": null
+      }
+    },
+    {
+      "check": "duplicate_counties",
+      "passed": true,
+      "details": {
+        "unique_names": 46,
+        "total_entries": 46
+      }
+    },
+    {
+      "check": "burned_county_plausibility",
+      "passed": true,
+      "details": {
+        "burned_count": 14,
+        "total_counties": 46,
+        "burned_percentage": 30.4,
+        "burned_counties": [
+          "Abbeville",
+          "Aiken",
+          "Allendale",
+          "Barnwell",
+          "Chesterfield",
+          "Clarendon",
+          "Colleton",
+          "Darlington",
+          "Georgetown",
+          "Lancaster",
+          "Lexington",
+          "Orangeburg",
+          "Richland",
+          "Sumter"
+        ],
+        "expected_range": "10-20"
+      }
+    },
+    {
+      "check": "statewide_file",
+      "passed": true,
+      "details": {
+        "file": "rundown_00_statewide.json",
+        "exists": true,
+        "size_kb": 23.3,
+        "top_level_keys": [
+          "scope",
+          "state",
+          "state_name",
+          "total_jurisdictions",
+          "jurisdiction_type",
+          "record_office_terminology",
+          "burned_county_authority",
+          "administrative_notes",
+          "categories",
+          "burned_counties_summary"
+        ],
+        "categories": [
+          "church_and_cemetery",
+          "core_repositories",
+          "enslaved_persons_and_african_american",
+          "familysearch_collections",
+          "historical_counties_extinct",
+          "land_and_property",
+          "military_records",
+          "municipal_and_city_records",
+          "native_american_and_removal_records",
+          "newspapers_and_periodicals",
+          "research_guides_and_societies",
+          "vital_records"
+        ]
+      }
+    }
+  ],
+  "timestamp": "2026-03-11T03:01:09Z"
+}

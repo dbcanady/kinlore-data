@@ -1,0 +1,197 @@
+{
+  "project": "KinLore County Source Profiler",
+  "state": "Tennessee",
+  "state_abbreviation": "TN",
+  "schema_version": "3.1",
+  "generated_date": "2026-03-10",
+  "total_counties": 95,
+  "total_source_profiles": 554,
+  "total_batch_files": 11,
+  "burned_counties_count": 16,
+  "statehood_year": 1796,
+  "territory_period": "Southwest Territory 1790-1796",
+  "central_repository": "Tennessee State Library & Archives (TSLA), Nashville",
+  "migration_note": "Migrated from old schema on 2026-03-10 using migrate_tn.py. Fixed: removed hallucinated counties (Morris, Pike), added missing counties (Hickman, Wayne), renamed fields to v3.1, inverted priority scale, fixed record types, updated burned county flags.",
+  "batches": [
+    {
+      "file": "rundown_00_statewide.json",
+      "batch_index": "statewide",
+      "description": "State-level repositories, resources, and research guides for Tennessee"
+    },
+    {
+      "file": "rundown_00_anderson_to_carter.json",
+      "batch_index": 0,
+      "counties": [
+        "Anderson",
+        "Bedford",
+        "Benton",
+        "Bledsoe",
+        "Blount",
+        "Bradley",
+        "Campbell",
+        "Cannon",
+        "Carroll",
+        "Carter"
+      ],
+      "county_count": 10,
+      "source_count": 60
+    },
+    {
+      "file": "rundown_01_cheatham_to_dekalb.json",
+      "batch_index": 1,
+      "counties": [
+        "Cheatham",
+        "Chester",
+        "Claiborne",
+        "Clay",
+        "Cocke",
+        "Coffee",
+        "Crockett",
+        "Cumberland",
+        "Davidson",
+        "DeKalb"
+      ],
+      "county_count": 10,
+      "source_count": 62
+    },
+    {
+      "file": "rundown_02_decatur_to_greene.json",
+      "batch_index": 2,
+      "counties": [
+        "Decatur",
+        "Dickson",
+        "Dyer",
+        "Fayette",
+        "Fentress",
+        "Franklin",
+        "Gibson",
+        "Giles",
+        "Grainger",
+        "Greene"
+      ],
+      "county_count": 10,
+      "source_count": 60
+    },
+    {
+      "file": "rundown_03_grundy_to_henry.json",
+      "batch_index": 3,
+      "counties": [
+        "Grundy",
+        "Hamblen",
+        "Hamilton",
+        "Hancock",
+        "Hardeman",
+        "Hardin",
+        "Hawkins",
+        "Haywood",
+        "Henderson",
+        "Henry"
+      ],
+      "county_count": 10,
+      "source_count": 54
+    },
+    {
+      "file": "rundown_04_hickman_to_lawrence.json",
+      "batch_index": 4,
+      "counties": [
+        "Hickman",
+        "Houston",
+        "Humphreys",
+        "Jackson",
+        "Jefferson",
+        "Johnson",
+        "Knox",
+        "Lake",
+        "Lauderdale",
+        "Lawrence"
+      ],
+      "county_count": 10,
+      "source_count": 58
+    },
+    {
+      "file": "rundown_05_lewis_to_mcnairy.json",
+      "batch_index": 5,
+      "counties": [
+        "Lewis",
+        "Lincoln",
+        "Loudon",
+        "Macon",
+        "Madison",
+        "Marion",
+        "Marshall",
+        "Maury",
+        "McMinn",
+        "McNairy"
+      ],
+      "county_count": 10,
+      "source_count": 54
+    },
+    {
+      "file": "rundown_06_meigs_to_polk.json",
+      "batch_index": 6,
+      "counties": [
+        "Meigs",
+        "Monroe",
+        "Montgomery",
+        "Moore",
+        "Morgan",
+        "Obion",
+        "Overton",
+        "Perry",
+        "Pickett",
+        "Polk"
+      ],
+      "county_count": 10,
+      "source_count": 56
+    },
+    {
+      "file": "rundown_07_putnam_to_smith.json",
+      "batch_index": 7,
+      "counties": [
+        "Putnam",
+        "Rhea",
+        "Roane",
+        "Robertson",
+        "Rutherford",
+        "Scott",
+        "Sequatchie",
+        "Sevier",
+        "Shelby",
+        "Smith"
+      ],
+      "county_count": 10,
+      "source_count": 59
+    },
+    {
+      "file": "rundown_08_stewart_to_washington.json",
+      "batch_index": 8,
+      "counties": [
+        "Stewart",
+        "Sullivan",
+        "Sumner",
+        "Tipton",
+        "Trousdale",
+        "Unicoi",
+        "Union",
+        "Van Buren",
+        "Warren",
+        "Washington"
+      ],
+      "county_count": 10,
+      "source_count": 61
+    },
+    {
+      "file": "rundown_09_wayne_to_wilson.json",
+      "batch_index": 9,
+      "counties": [
+        "Wayne",
+        "Weakley",
+        "White",
+        "Williamson",
+        "Wilson"
+      ],
+      "county_count": 5,
+      "source_count": 30
+    }
+  ]
+}
