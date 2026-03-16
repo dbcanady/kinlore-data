@@ -21,10 +21,10 @@ Deepens the 17 existing triggers with narrative templates, actionable research a
 | Destinations | 11 | 1,494 | `migration_triggers/shared/destinations/` |
 | Occupations | 10 | 1,035 | `migration_triggers/shared/occupations/` |
 | Stress tests | 1 (7 tests) | 211 | `migration_triggers/_validation/` |
-| **Templates** | **4** | **870** | `migration_triggers/templates/` |
-| **Research guidance** | **10** | **1,469** | `migration_triggers/research_guidance/` |
+| **Templates** | **4** | **903** | `migration_triggers/templates/` |
+| **Research guidance** | **10** | **1,491** | `migration_triggers/research_guidance/` |
 | **Wage tables** | **3** | **1,645** | `migration_triggers/shared/wages/` |
-| **Total** | **64** | **10,713** | |
+| **Total** | **64** | **10,768** | |
 
 All 64 files are valid JSON. Schema version 1.0 throughout.
 
@@ -74,14 +74,14 @@ All 64 files are valid JSON. Schema version 1.0 throughout.
 
 | Template | Lines | Situations/Variants | Revenue Tier |
 |----------|------:|--------------------:|-------------|
-| letter_home | 283 | 7 situations | Both ($29 short, $99 full) |
-| record_silences | 352 | 6 gap types | Both ($29 brief, $99 expanded) |
-| what_they_saw | 147 | 2 variants (departure + arrival) | Both ($29 one, $99 both) |
-| fork_in_the_road | 88 | 1 (counterfactual) | Both ($29 paragraph, $99 with stats) |
+| letter_home | 316 | 8 situations | Both (Option A short, White Glove full) |
+| record_silences | 353 | 6 gap types | Both (Option A brief, White Glove expanded) |
+| what_they_saw | 147 | 2 variants (departure + arrival) | Both (Option A one, White Glove both) |
+| fork_in_the_road | 88 | 1 (counterfactual) | Both (Option A paragraph, White Glove with stats) |
 
-**letter_home**: 7 situation types (arrival, family arrival, send-for-family, homesick, settled update, bad news, return visit). All outputs prefixed with `[Illustrative — not from an actual letter]`. No letters for enslaved ancestors (use Record Silences instead). Voice calibration adjusts for era, region, occupation, ethnicity, literacy.
+**letter_home**: 8 situation types (arrival, family arrival, send-for-family, homesick, settled update, bad news, return visit, first job). All outputs prefixed with `[Illustrative — not from an actual letter]`. No letters for enslaved ancestors (use Record Silences instead). Voice calibration adjusts for era, region, occupation, ethnicity, literacy.
 
-**record_silences**: 6 gap types (between censuses, woman disappears, child vanishes, complete disappearance, 1890 gap, enslaved ancestor gap). Ranked explanations with research actions. The enslaved ancestor gap section includes dignity mandate and explicit instructions to name the slaveholder.
+**record_silences**: 6 gap types (between censuses, woman disappears, child vanishes, complete disappearance, 1890 gap, enslaved ancestor gap). Ranked explanations with research actions. The enslaved ancestor gap section includes dignity mandate and explicit instructions to name the slaveholder. Available at both tiers: Option A gets a brief 2-sentence interpretation of the most significant gap; White Glove gets full 80-200 word treatment of all applicable gaps.
 
 **what_they_saw**: Dense physical landscape descriptions, 100-150 words, present tense, no people. Departure landscape (the place they left) and arrival landscape (first view of destination).
 
@@ -93,7 +93,7 @@ All 64 files are valid JSON. Schema version 1.0 throughout.
 |------|:--------:|:----------:|
 | census_gaps | 8 | 5 |
 | city_directory_strategies | 6 | 4 |
-| church_record_transfers | 6 | 5 |
+| church_record_transfers | 7 | 7 |
 | vital_record_variations | 7 | 4 |
 | name_change_patterns | 7 | 5 |
 | military_record_strategies | 7 | 5 |
@@ -101,7 +101,7 @@ All 64 files are valid JSON. Schema version 1.0 throughout.
 | property_record_strategies | 6 | 5 |
 | institutional_records | 7 | 5 |
 | ethnic_specific_sources | 9 | 5 |
-| **Total** | **69 patterns** | **48 refs** |
+| **Total** | **70 patterns** | **50 refs** |
 
 Every action step names the repository, record group, and access method. Common mistakes called out per pattern. Era-scoped to prevent anachronistic advice.
 
@@ -150,8 +150,8 @@ Minimum 3 academic sources per trigger, destination, and occupation. Zero Wikipe
 
 ## What Is NOT Built (Deferred)
 
-### Track B — Life Patterns (deferred to $99 tier)
-~20 non-migration patterns from Narrative Strains: Boarding House Matriarch, Sharecropping Trap, Domestic Service arc. Essential for multi-generational $99 reports. Not needed for $29 single-ancestor reports.
+### Track B — Life Patterns (deferred to White Glove tier)
+~20 non-migration patterns from Narrative Strains: Boarding House Matriarch, Sharecropping Trap, Domestic Service arc. Essential for multi-generational White Glove reports. Not needed for Option A single-ancestor reports.
 
 ### Placeholder directories (Sprint 2+)
 - `deep_dives/` — Extended narratives for specific triggers
@@ -161,10 +161,10 @@ Adding triggers beyond the initial 17. Candidates: Gold Rush, Mormon migration, 
 
 ## Sprint 2A Readiness Assessment
 
-### Is the existing data sufficient for the $29 product to ship?
-**Yes.** The 17 triggers cover the most common migration patterns in American genealogy (1717-1970). The 11 destination cities are the primary magnets. The 10 occupations are the jobs ancestors held. The 4 templates generate the speculative/interpretive content. The 10 research guidance files handle record gaps. The 3 wage tables ground economic context. A $29 report centered on one ancestor's migration story has everything it needs.
+### Is the existing data sufficient for the Option A product to ship?
+**Yes.** The 17 triggers cover the most common migration patterns in American genealogy (1717-1970). The 11 destination cities are the primary magnets. The 10 occupations are the jobs ancestors held. The 4 templates generate the speculative/interpretive content. The 10 research guidance files handle record gaps. The 3 wage tables ground economic context. An Option A report centered on one ancestor's migration story has everything it needs.
 
-### What's the minimum viable dataset for a production $29 report?
+### What's the minimum viable dataset for a production Option A report?
 - 1 matched trigger (push/pull factors, route, destination)
 - 1 destination city profile (neighborhood, employer, institutions)
 - 1 occupation profile (daily work, wages, conditions)
@@ -172,8 +172,8 @@ Adding triggers beyond the initial 17. Candidates: Gold Rush, Mormon migration, 
 - Wage comparison (origin vs. destination)
 - 1 Record Silences interpretation (if gaps detected)
 
-### What's blocking the $99 tier?
-**Track B / Life Patterns.** The $99 report is multi-generational. Between migrations, ancestors lived in one place for decades. The narrative AI needs Life Pattern data (Boarding House Matriarch, Sharecropping Trap, etc.) to fill those narrative gaps. Track B is correctly deferred to the $99 revenue tier because the data serves that tier exclusively.
+### What's blocking the White Glove tier?
+**Track B / Life Patterns.** The White Glove report is multi-generational. Between migrations, ancestors lived in one place for decades. The narrative AI needs Life Pattern data (Boarding House Matriarch, Sharecropping Trap, etc.) to fill those narrative gaps. Track B is correctly deferred to the White Glove tier because the data serves that tier exclusively.
 
 ## Relationship to Other Data Layers
 

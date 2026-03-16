@@ -6,10 +6,10 @@
   "display_name": "The Letter Home",
   "description": "Generates a speculative first-person paragraph as if the ancestor wrote a letter home during or after migration. The letter is grounded in documented historical conditions at both origin and destination, calibrated for era, region, occupation, and ethnicity. ALWAYS flagged as illustrative fiction — never presented as a real document.",
   "prefix": "[Illustrative — not from an actual letter]",
-  "revenue_tier": "both — shorter version for $29, fuller version for $99",
+  "revenue_tier": "both — shorter version for Option A, fuller version for White Glove",
   "tier_guidance": {
-    "$29_skeleton": "One situation only (typically arrival_new_city). 80-120 words. Three to four beats maximum.",
-    "$99_white_glove": "Up to three situations chosen contextually. Full beat structure. 100-180 words per letter. May include editorial annotation explaining why a particular situation was chosen."
+    "option_a": "One situation only (typically arrival_new_city). 80-120 words. Three to four beats maximum.",
+    "white_glove": "Up to three situations chosen contextually. Full beat structure. 100-180 words per letter. May include editorial annotation explaining why a particular situation was chosen."
   },
   "situations": [
     {
@@ -230,6 +230,38 @@
         "100-160 words for the letter body."
       ],
       "example_output": "[Illustrative — not from an actual letter]\n\"Dear Hattie, I arrived yesterday evening. The old house looks smaller than I remembered and the porch has a lean to it now. Papa's store is closed — someone said he let it go last year. But the creek behind the church sounds exactly the same as it always did, and the dogwoods are blooming. I sat on the bank this morning and could have been twelve years old again. Mama is well enough but slower than when we left. I will stay through Sunday and take the Monday train back. Kiss the children for me. Walter.\""
+    },
+    {
+      "situation_id": "first_job",
+      "display_name": "First Job Letter",
+      "trigger_condition": "Ancestor's first census or city directory entry at the destination shows a new occupation — especially when the occupation differs from what they did at the origin. The transition from farming to factory, or from domestic work to industrial work, is a pivotal moment.",
+      "tone": "Practical, slightly proud or slightly bewildered — or both. The writer is describing work that is new to them. The letter is about the body: what the hands do, what the hours are, what the pay is. Not abstract. Not philosophical. The writer is still learning the rhythms.",
+      "structural_beats": [
+        "Greeting and immediate context — where they're working and how they got the job (kin referral, walked in, labor agent, newspaper ad)",
+        "The work itself — ONE vivid detail about what the job actually involves. Physical, sensory, concrete. Drawn from occupational_profiles data.",
+        "The pay — stated plainly, often compared to what they earned before or what things cost. Drawn from wage_tables data.",
+        "The hours or conditions — one practical detail (shift length, heat, noise, distance from lodging)",
+        "Close — forward-looking. Sending money, saving up, planning"
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{addressee}",
+        "{destination}",
+        "{year}",
+        "{occupation}",
+        "{previous_occupation}",
+        "{employer}",
+        "{wage}"
+      ],
+      "constraints": [
+        "MUST begin with the prefix: [Illustrative — not from an actual letter]",
+        "The job detail must come from occupational_profiles or wage_tables data — do not invent working conditions.",
+        "No romanticizing of dangerous or exploitative work. If the job was brutal, let the facts speak.",
+        "No dialect writing. Standard English calibrated for formality level.",
+        "80-160 words for the letter body.",
+        "If the ancestor was a woman, do not default to domestic work unless the record supports it. Women worked in textile mills, laundries, canneries, and tobacco processing."
+      ],
+      "example_output": "[Illustrative — not from an actual letter]\n\"Dear Mama, I started at the mill on Monday. Mr. Patterson put me on the spinning frames — the noise is something terrible, you cannot hear the person next to you. The lint gets in your throat. But the pay is $1.10 a day, six days, which is more money than I have ever had at one time. I am boarding with the Hensley family from back home, three of us to a room but it is clean. I am putting fifty cents a week aside. When I have enough I will send for Lucy. Your son, James.\""
     }
   ],
   "editorial_guidelines": {
@@ -279,6 +311,6 @@
   "output_format": {
     "always_begins_with": "[Illustrative — not from an actual letter]",
     "letter_body": "In quotation marks. First-person. Addressed to a named or described family member. Signed with name or relation.",
-    "editorial_annotation": "Optional. Appears after the letter in italics or a separate block. Explains why this situation was chosen, what data supported it, and what is speculative. Required for $99 tier."
+    "editorial_annotation": "Optional. Appears after the letter in italics or a separate block. Explains why this situation was chosen, what data supported it, and what is speculative. Required for White Glove tier."
   }
 }

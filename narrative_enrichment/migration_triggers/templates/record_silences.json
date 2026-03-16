@@ -5,9 +5,10 @@
   "template_id": "record_silences",
   "display_name": "Record Silences",
   "description": "Interprets gaps and absences in the genealogical record. When an ancestor disappears between censuses, vanishes from a household, or leaves no trace at all, this template provides historically grounded explanations ranked by probability. It names the systemic reasons records fail to capture lives and treats every absence with intellectual honesty rather than narrative convenience. This is not a mystery to be solved — it is a feature of how records were kept, and who they were kept for.",
-  "revenue_tier": "$99 only — this level of interpretive depth is a premium feature",
+  "revenue_tier": "both — abbreviated interpretation for Option A, full interpretive depth for White Glove",
   "tier_guidance": {
-    "$99_white_glove": "Include all applicable gap types for the ancestor. Each gap type generates 80-200 words of interpretive text. May include research notes suggesting where to look next."
+    "option_a": "Include the single most significant gap type for the ancestor. Generate a brief 2-sentence interpretation: one sentence naming the most probable explanation, one sentence naming a research action. No extended discussion.",
+    "white_glove": "Include all applicable gap types for the ancestor. Each gap type generates 80-200 words of interpretive text. May include research notes suggesting where to look next."
   },
   "gap_types": [
     {
@@ -338,7 +339,7 @@
       "Do not fill silences with fiction. The silence itself is meaningful and should be presented as such.",
       "Do not treat Record Silences as a lesser section — filler for when data is thin. It is the most intellectually rigorous part of the report."
     ],
-    "when_to_use": "Include a Record Silences section whenever the ancestor's record trail has a significant gap that the narrative must acknowledge. This is not optional for the $99 tier. Every ancestor has gaps; the question is which gaps are significant enough to interpret.",
+    "when_to_use": "Include a Record Silences section whenever the ancestor's record trail has a significant gap that the narrative must acknowledge. This is not optional for the White Glove tier. Every ancestor has gaps; the question is which gaps are significant enough to interpret.",
     "integration_with_other_templates": "Record Silences may reference Fork in the Road (what happened to the county during the gap) and What They Saw (the physical landscape the ancestor disappeared from or into). It should NEVER be combined with Letter Home — the two templates serve different purposes and mixing them undermines the honesty of both."
   },
   "data_dependencies": [
