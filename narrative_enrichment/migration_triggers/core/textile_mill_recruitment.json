@@ -111,7 +111,45 @@
     "Spartanburg SC"
   ],
   "destination_refs": [],
-  "destination_notes": "Destinations were mill towns, not major cities. Kannapolis, North Carolina, was a company town built entirely by Cannon Mills — the company owned every house, every store, and the town itself was not independently incorporated until 1984. These were industrial villages, not urban centers.",
+  "_destination_note": "Destinations were mill towns, not major cities — too small for the shared/destinations/ profiles. Mill town context is provided inline below.",
+  "mill_town_profiles": [
+    {
+      "town": "Kannapolis, NC",
+      "mill": "Cannon Mills (later Fieldcrest Cannon)",
+      "era": "1906-1982",
+      "peak_employment": "~20,000 workers at peak (largest textile operation under one ownership in the world)",
+      "character": "A true company town — Cannon Mills owned every house, every store, the water system, and the power plant. Kannapolis was not incorporated as an independent municipality until 1984. Workers lived in identical frame houses on numbered streets, organized by job classification. The mill whistle governed daily life.",
+      "housing": "Four-room frame houses with indoor plumbing (by 1920s), rent deducted from wages at $1-$2/week. Higher-skilled workers (loom fixers, overseers) received larger houses on better streets. Eviction followed termination — lose your job, lose your house the same week.",
+      "narrative_hook": "When {ancestor_name} arrived in Kannapolis in {year}, the entire town belonged to Cannon Mills. The house on {street}, the store where {pronoun_subject} bought groceries, the church where {pronoun_subject} worshipped on Sunday — all of it was the company's. {pronoun_subject} lived inside the mill."
+    },
+    {
+      "town": "Gastonia, NC",
+      "mill": "Loray Mill (later Firestone Textiles)",
+      "era": "1902-1993",
+      "peak_employment": "~3,500 at the Loray Mill; Gaston County had over 100 mills by 1920",
+      "character": "Gaston County was the most densely concentrated textile manufacturing region in the South. The Loray Mill was its largest single operation — and the site of the 1929 Gastonia Strike, one of the most violent labor confrontations in American history. National Guard troops, strikebreakers, and the murder of police chief Orville Aderholt and striker Ella May Wiggins made national headlines.",
+      "housing": "Mill village housing similar to Kannapolis but spread across dozens of smaller villages, each attached to its own mill. Workers who struck were evicted and blacklisted across the county.",
+      "narrative_hook": "Gaston County had more textile mills per square mile than anywhere in the South. {ancestor_name} could have worked at any of a hundred operations. The question was not whether there was a mill hiring, but which mill's village had a house open."
+    },
+    {
+      "town": "Lancaster, SC",
+      "mill": "Springs Mills (Springs Industries)",
+      "era": "1895-present (as Springs Global)",
+      "peak_employment": "~8,000 across multiple Lancaster County facilities",
+      "character": "The Springs family operated a paternalistic but comparatively well-managed mill empire. Colonel Leroy Springs and later his descendants invested in worker amenities — better housing, recreational facilities, and medical care — that distinguished Lancaster from harsher operations. Still a company town in practice, but one where the company invested in retention rather than relying solely on economic coercion.",
+      "housing": "Frame houses with gardens, company-built schools and churches. Springs Mills housing was considered a notch above average for the industry.",
+      "narrative_hook": "Lancaster was a Springs town. If {ancestor_name} worked the looms in Lancaster County, {pronoun_subject} worked for the Springs family — and the Springs family's paternalism was a gentler cage than most, but a cage nonetheless."
+    },
+    {
+      "town": "Graniteville, SC",
+      "mill": "Graniteville Manufacturing Company",
+      "era": "1845-2006",
+      "peak_employment": "~2,500",
+      "character": "One of the oldest textile operations in the South, founded by William Gregg in 1845 as a deliberate experiment in industrializing poor white labor. Gregg's original mill village was a planned community with churches, schools, and worker housing — a template copied by dozens of later operations. Graniteville proved that Southern mill towns could compete with New England on cost while maintaining social control through the company village model.",
+      "housing": "Original Gregg-era houses still standing in some cases. Company housing was the model for the entire Piedmont textile industry.",
+      "narrative_hook": "Graniteville was where the whole mill village idea started. When {ancestor_name} moved into a company house on {street}, {pronoun_subject} was living inside William Gregg's 1845 experiment in turning mountain farmers into factory hands."
+    }
+  ],
   "chain_migration": {
     "pattern": "labor_agent",
     "description": "Mill company recruiters physically traveled into mountain communities, often targeting specific families known to be large and healthy. Once a few families from a mountain community settled in a particular mill town, they became informal recruiters themselves, writing letters home describing the wages and the houses. Within a few years, a single mill village might contain dozens of families from the same mountain county, recreating kinship networks within the company town grid.",
