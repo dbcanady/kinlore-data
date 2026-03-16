@@ -1,0 +1,200 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "migration_id": "domestic_slave_trade",
+  "display_name": "Domestic Slave Trade",
+  "short_description": "The forced relocation of approximately one million enslaved people from the Upper South to the Deep South between 1790 and 1865, driven by the expansion of cotton agriculture and the declining tobacco economy.",
+  "era": "1790-1865",
+  "estimated_scale": "Approximately 1 million enslaved people were forcibly relocated through sale or owner migration from the Upper South to the Deep South.",
+  "involuntary": true,
+  "migration_class": "forced",
+  "phases": [
+    {
+      "phase_number": 1,
+      "name": "Early Expansion",
+      "era": "1790-1820",
+      "description": "The cotton gin (1793) and the Louisiana Purchase (1803) opened vast new territories for cotton cultivation. Demand for enslaved labor in the Deep South began to outstrip local supply, creating an economic incentive for Upper South slaveholders to sell surplus enslaved workers southward.",
+      "narrative_hook": "After 1793, {ancestor_name}'s world shifted. The cotton gin transformed the Deep South into an insatiable market for enslaved labor, and the Upper South became its supply."
+    },
+    {
+      "phase_number": 2,
+      "name": "Peak Domestic Trade",
+      "era": "1820-1850",
+      "description": "Professional slave traders such as Isaac Franklin and John Armfield operated large-scale businesses buying enslaved people in Virginia and Maryland and transporting them to markets in Natchez and New Orleans. Franklin & Armfield alone moved an estimated 1,000-1,200 people per year at their peak. Slave pens, auction houses, and trading firms operated openly in every Southern city.",
+      "narrative_hook": "By the 1830s, the domestic slave trade was a massive commercial enterprise. Traders like Franklin & Armfield operated from offices in Alexandria, Virginia, shipping hundreds of enslaved people south each season. {ancestor_name} lived in a region where this commerce was an everyday reality."
+    },
+    {
+      "phase_number": 3,
+      "name": "Final Era",
+      "era": "1850-1865",
+      "description": "Prices for enslaved people reached their historical peak in the 1850s. The trade continued until the Confederacy's collapse, though the volume of interstate sales declined somewhat as the Deep South's enslaved population grew through natural increase. The 1850 and 1860 slave schedules document the demographics of this era but rarely record names.",
+      "narrative_hook": "In the 1850s, an enslaved person in {origin_county} could be sold for $1,200 or more — the equivalent of a comfortable house. {ancestor_name} lived through the final, most expensive years of this trade."
+    }
+  ],
+  "push_factors": [
+    {
+      "factor": "Upper South tobacco economy declining",
+      "description": "Soil exhaustion in Virginia, Maryland, and North Carolina reduced the profitability of tobacco cultivation. Slaveholders with more enslaved laborers than their land could support sold the surplus south. The 'push' was the owner's economic calculation, not the enslaved person's choice.",
+      "applies_to": "slaveholders in the Upper South"
+    },
+    {
+      "factor": "Cotton frontier demand for labor",
+      "description": "The rapid expansion of cotton agriculture across Alabama, Mississippi, Louisiana, and Texas created enormous demand for enslaved labor. Deep South planters were willing to pay premium prices, making the sale of enslaved people the most profitable transaction many Upper South slaveholders ever made.",
+      "applies_to": "slaveholders and professional traders"
+    },
+    {
+      "factor": "Estate division and debt settlement",
+      "description": "When a slaveholder died, enslaved people were frequently divided among heirs or sold to settle debts. Probate sales were one of the most common mechanisms by which enslaved families were separated.",
+      "applies_to": "enslaved people held by deceased or indebted slaveholders"
+    }
+  ],
+  "pull_factors": [
+    {
+      "factor": "Cotton economy's insatiable demand for labor",
+      "description": "There were no pull factors from the perspective of the enslaved. The 'pull' was entirely the buyer's motivation: Deep South cotton planters needed labor and had the capital to purchase it. New Orleans and Natchez operated as the largest slave markets in the interior South.",
+      "perspective": "buyer/market forces — not the enslaved person's perspective"
+    }
+  ],
+  "transportation": {
+    "methods": [
+      {
+        "mode": "Overland coffles",
+        "description": "Chained groups of enslaved people walking under armed guard, sometimes covering 20-25 miles per day. Coffles were the most visible and common method of forced relocation, particularly along inland routes."
+      },
+      {
+        "mode": "Coastal ships",
+        "description": "Enslaved people were transported by ship from ports such as Norfolk, Baltimore, and Alexandria to New Orleans, Mobile, and other Gulf Coast destinations. The sea route was faster but carried risks of disease and shipwreck."
+      },
+      {
+        "mode": "Railroad",
+        "description": "By the 1840s and 1850s, railroads supplemented overland and coastal transport, particularly for shorter legs of the journey."
+      }
+    ],
+    "routes": [
+      "Richmond, VA to Natchez, MS via the Natchez Trace",
+      "Norfolk, VA to New Orleans, LA by coastal ship",
+      "Overland through Tennessee to Alabama and Mississippi",
+      "Alexandria, VA to Natchez, MS (Franklin & Armfield route)",
+      "Chesapeake Bay region to Gulf Coast ports"
+    ]
+  },
+  "origin_regions": [
+    "Virginia (especially Tidewater and Piedmont)",
+    "Maryland (especially Eastern Shore and Southern Maryland)",
+    "Kentucky (Bluegrass region)",
+    "North Carolina (Piedmont)",
+    "Tennessee (Middle Tennessee)"
+  ],
+  "counties_most_affected": [
+    "Fairfax VA",
+    "Prince William VA",
+    "Loudoun VA",
+    "Frederick MD",
+    "Fayette KY",
+    "Orange NC",
+    "Davidson TN",
+    "Henrico VA",
+    "Charles MD",
+    "Bourbon KY"
+  ],
+  "destination_refs": [
+    {
+      "location": "Natchez, MS",
+      "role": "Major slave market and distribution point for the Mississippi Valley"
+    },
+    {
+      "location": "New Orleans, LA",
+      "role": "Largest slave market in the United States; hub for sales to Louisiana sugar and cotton plantations"
+    },
+    {
+      "location": "Mobile, AL",
+      "role": "Gulf Coast market serving Alabama's Black Belt cotton region"
+    },
+    {
+      "location": "Montgomery, AL",
+      "role": "Interior market for Alabama's expanding cotton frontier"
+    },
+    {
+      "location": "Memphis, TN",
+      "role": "Distribution point for the upper Mississippi Valley and Arkansas"
+    },
+    {
+      "location": "Charleston, SC",
+      "role": "Coastal resale market and redistribution point"
+    }
+  ],
+  "chain_migration": {
+    "pattern": "forced_sale",
+    "description": "Enslaved people had no agency in this relocation. Sales were driven by owners' economic decisions, estate settlements, and the professional slave trade. However, some enslaved people were moved with their owners when the owner relocated to the cotton frontier, and in rare cases enslaved people managed to maintain family connections across vast distances through letters carried by travelers, through shared church networks, and through sheer persistence.",
+    "agency": "none — forced relocation through sale or owner migration"
+  },
+  "what_happened_to_those_who_stayed": "Enslaved people who remained in the Upper South faced continued bondage under a declining agricultural economy. Some were hired out to industrial operations — ironworks, tobacco factories, railroads — rather than sold south. Others were eventually sold as economic conditions worsened. After emancipation, freedpeople who had remained in the Upper South sometimes attempted to locate family members who had been sold to the Deep South decades earlier. The Freedmen's Bureau records and newspaper advertisements ('Information Wanted' columns) document these agonizing searches.",
+  "record_implications": [
+    {
+      "record_type": "Slave schedules (1850, 1860)",
+      "implication": "Give age, sex, and color but NOT NAMES. Useful for demographic reconstruction but cannot identify specific individuals without cross-referencing other records."
+    },
+    {
+      "record_type": "Bills of sale",
+      "implication": "Filed in county courthouses, these may name the enslaved person, the seller, the buyer, the price, and sometimes a physical description. One of the few records that can trace forced relocations by name."
+    },
+    {
+      "record_type": "Church records",
+      "implication": "Some churches recorded enslaved baptisms, marriages, and burials by name. These can provide evidence of family connections and community ties before and after forced separations."
+    },
+    {
+      "record_type": "Probate records",
+      "implication": "Estate inventories and division records often list enslaved people by name, age, and appraised value. Probate sales were a major mechanism of forced separation."
+    },
+    {
+      "record_type": "Freedmen's Bureau records",
+      "implication": "After 1865, formerly enslaved people filed inquiries, labor contracts, and marriage registrations that sometimes describe pre-war locations and family separations. Essential for tracing the aftermath of the domestic trade."
+    }
+  ],
+  "counter_narratives": [
+    {
+      "narrative": "Some enslaved people were moved with owners, not sold",
+      "description": "Not all forced relocations involved the professional slave trade. Many slaveholders migrated to the cotton frontier and took their enslaved workforce with them. While still involuntary, this form of relocation sometimes kept enslaved families intact — though it severed all other community bonds."
+    },
+    {
+      "narrative": "Some maintained family connections across distance",
+      "description": "Despite the devastating separations of the domestic trade, some enslaved people maintained awareness of family members sold away. Letters were carried by travelers, information passed through networks of enslaved people along trade routes, and after emancipation, thousands attempted reunification. These efforts document extraordinary resilience in the face of systematic family destruction."
+    },
+    {
+      "narrative": "The internal slave trade was a business",
+      "description": "Professional traders like Isaac Franklin amassed enormous fortunes — Franklin's estate was valued at over $750,000 at his death in 1846 (equivalent to tens of millions today). Slave pens operated in every Southern city. The trade had its own infrastructure: holding facilities, transportation networks, commission agents, and insurance policies. Understanding it as a commercial enterprise, not merely a social institution, is essential to understanding its scale and reach."
+    }
+  ],
+  "seasonal_departure_pattern": "Sales and forced relocations peaked in the fall and winter months, after the Upper South harvest was complete. Traders preferred to move enslaved people south in time for the spring planting season in the cotton and sugar regions. Coastal shipments ran year-round but increased in the cooler months when disease risk was somewhat lower.",
+  "gender_pattern": "Young men aged 15-25 were the most frequently sold, as they commanded the highest prices for field labor. Young women of childbearing age were also highly valued. Children under 10 were sometimes sold with their mothers but were also sold separately. The trade systematically targeted the most economically productive members of enslaved communities, leaving behind the very old and very young.",
+  "source_references": [
+    {
+      "author": "Michael Tadman",
+      "title": "Speculators and Slaves: Masters, Traders, and Slaves in the Old South",
+      "year": 1989,
+      "publisher": "University of Wisconsin Press",
+      "relevance": "Foundational quantitative study of the domestic slave trade, establishing the scale and patterns of forced migration."
+    },
+    {
+      "author": "Steven Deyle",
+      "title": "Carry Me Back: The Domestic Slave Trade in American Life",
+      "year": 2005,
+      "publisher": "Oxford University Press",
+      "relevance": "Comprehensive history of the domestic trade and its centrality to the Southern economy and American political development."
+    },
+    {
+      "author": "Edward Baptist",
+      "title": "The Half Has Never Been Told: Slavery and the Making of American Capitalism",
+      "year": 2014,
+      "publisher": "Basic Books",
+      "relevance": "Connects the domestic slave trade to the broader development of American capitalism, with detailed accounts of forced migration and its economic drivers."
+    },
+    {
+      "author": "Walter Johnson",
+      "title": "Soul by Soul: Life Inside the Antebellum Slave Market",
+      "year": 1999,
+      "publisher": "Harvard University Press",
+      "relevance": "Detailed examination of the New Orleans slave market, the largest in the United States, and the human experience of being bought and sold."
+    }
+  ]
+}

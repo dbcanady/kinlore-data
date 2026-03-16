@@ -1,0 +1,216 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "migration_id": "wwii_relocation",
+  "display_name": "WWII Military Relocation & Settlement",
+  "short_description": "The wartime relocation of approximately 15 million Americans for military service or defense industry work between 1941 and 1945, many of whom permanently settled in their new locations rather than returning home after the war.",
+  "era": "1941-1945",
+  "estimated_scale": "Approximately 15 million Americans relocated for military service or defense work. Millions never returned to their pre-war communities, producing permanent demographic shifts across the country.",
+  "involuntary": false,
+  "migration_class": "military",
+  "phases": [
+    {
+      "phase_number": 1,
+      "name": "Mobilization and Training",
+      "era": "1941-1942",
+      "description": "The Selective Service Act of 1940 and the attack on Pearl Harbor (December 1941) triggered mass mobilization. Millions of men reported to training bases across the country, many experiencing regions far from home for the first time. Simultaneously, the War Production Board redirected industrial capacity, and defense plants began recruiting workers from across the nation.",
+      "narrative_hook": "When {ancestor_name} reported to {base_name} in {year}, it was likely the first time they had traveled more than a hundred miles from {origin_county}. The military put Americans in motion on a scale the country had never seen."
+    },
+    {
+      "phase_number": 2,
+      "name": "Peak Defense Production",
+      "era": "1942-1944",
+      "description": "Defense plants operated around the clock, paying wages that dwarfed pre-war earnings. Workers migrated to industrial centers: shipyards in Richmond CA, Norfolk VA, and Savannah GA; aircraft plants in Wichita KS, Hartford CT, and San Diego CA; munitions plants across the Midwest. Boomtowns sprang up around bases and factories, straining housing, schools, and infrastructure.",
+      "narrative_hook": "A dollar an hour. That was what the defense plants promised, and for {ancestor_name}, earning {pre_war_wage} back in {origin_county}, it was enough to make the move. By 1943, the factory towns were bursting at the seams."
+    },
+    {
+      "phase_number": 3,
+      "name": "Post-War Settlement",
+      "era": "1945-1950",
+      "description": "When the war ended, millions of veterans and defense workers faced a choice: go home or stay. Many stayed. The GI Bill provided education and home loans that made new starts feasible. Veterans who had trained in California stayed in California. Defense workers who had migrated to the Pacific Northwest built permanent lives there. The post-war housing boom and suburban expansion absorbed these new populations.",
+      "narrative_hook": "After V-J Day, {ancestor_name} could have gone back to {origin_county}. Instead, the GI Bill, a new neighborhood, and a {post_war_job} kept them in {settlement_location}. Home was now somewhere else."
+    }
+  ],
+  "push_factors": [
+    {
+      "factor": "Military draft and voluntary enlistment",
+      "description": "The Selective Service drafted approximately 10 million men between 1940 and 1945. Millions more enlisted voluntarily. Service took men far from home, often to regions they had never visited."
+    },
+    {
+      "factor": "Defense industry recruitment",
+      "description": "War production demanded an enormous labor force. Federal agencies and private employers recruited aggressively, particularly in rural areas and the South, promising wages that far exceeded local opportunities."
+    },
+    {
+      "factor": "Patriotic obligation and social pressure",
+      "description": "The war effort created powerful social expectations. Young men who did not serve faced stigma. Women who entered the workforce did so under a banner of patriotic duty as well as economic opportunity."
+    },
+    {
+      "factor": "Limited pre-war economic opportunity",
+      "description": "Many workers who relocated came from areas with limited pre-war prospects — rural South, Appalachia, the Great Plains. The war offered an exit from economic stagnation that the Depression had prolonged."
+    }
+  ],
+  "pull_factors": [
+    {
+      "factor": "Defense plant wages",
+      "description": "Defense industry wages of $1.00 per hour or more represented a dramatic increase over pre-war agricultural and service wages. Shipyard workers, aircraft assemblers, and munitions workers could earn in a week what they had previously earned in a month."
+    },
+    {
+      "factor": "Military base locations",
+      "description": "Training bases were concentrated in the South and West, where land was cheap and weather permitted year-round outdoor training. Soldiers from the Northeast and Midwest experienced warmer climates and open landscapes for the first time."
+    },
+    {
+      "factor": "New opportunities and social mobility",
+      "description": "The war opened doors that had been closed. African Americans found industrial jobs previously restricted to whites. Women entered manufacturing, clerical, and professional roles at unprecedented scale. Rural Americans encountered urban culture and education."
+    },
+    {
+      "factor": "GI Bill benefits",
+      "description": "The Servicemen's Readjustment Act of 1944 (GI Bill) provided education funding, low-interest home loans, and business loans. These benefits made it financially viable for veterans to start over in a new location rather than return to their pre-war community."
+    }
+  ],
+  "transportation": {
+    "methods": [
+      {
+        "mode": "Troop trains",
+        "description": "The military moved personnel by rail on a massive scale. Troop trains crisscrossed the country, often taking circuitous routes. For many servicemembers, the train ride to boot camp was their first long-distance trip."
+      },
+      {
+        "mode": "Private automobile",
+        "description": "Despite gasoline rationing, many defense workers drove to their new jobs, often carpooling. The car culture that would define post-war America was already emerging in wartime migration."
+      },
+      {
+        "mode": "Bus",
+        "description": "Greyhound and other bus lines transported workers to defense plants. Bus stations in boomtowns were crowded around the clock."
+      },
+      {
+        "mode": "Troop ships",
+        "description": "For overseas deployment, millions crossed the Atlantic and Pacific on converted ocean liners and purpose-built transports. Ports of embarkation — New York, San Francisco, Norfolk — became focal points."
+      }
+    ],
+    "routes": [
+      "Rural South to defense industry cities (Norfolk, Savannah, Mobile, Houston)",
+      "Appalachia and Midwest to Great Lakes industrial belt (Detroit, Chicago, Gary)",
+      "Nationwide to California (shipyards in Richmond and San Pedro, aircraft in San Diego and Los Angeles)",
+      "Nationwide to Pacific Northwest (Boeing in Seattle, shipyards in Portland and Vancouver WA)",
+      "Southern plains to Wichita KS aircraft plants"
+    ]
+  },
+  "origin_regions": [
+    "Rural South (Alabama, Mississippi, Georgia, Carolinas)",
+    "Appalachia (West Virginia, eastern Kentucky, eastern Tennessee)",
+    "Great Plains (Oklahoma, Kansas, Nebraska)",
+    "Upper Midwest (Wisconsin, Minnesota, Iowa)",
+    "New England (for military deployment to Southern and Western bases)"
+  ],
+  "counties_most_affected": [
+    "Norfolk City VA",
+    "San Diego CA",
+    "Alameda CA",
+    "Sedgwick KS",
+    "Hartford CT",
+    "Chatham GA",
+    "Mobile AL",
+    "Wayne MI",
+    "Pulaski AR",
+    "King WA"
+  ],
+  "destination_refs": [
+    {
+      "location": "San Diego, CA",
+      "role": "Major Navy base and aircraft manufacturing center (Consolidated Aircraft / Convair)"
+    },
+    {
+      "location": "Oakland / Richmond, CA",
+      "role": "Kaiser Shipyards employed over 90,000 workers at peak production; transformed the East Bay demographically"
+    },
+    {
+      "location": "Norfolk, VA",
+      "role": "Largest naval base in the world; shipbuilding and Navy operations drew workers and sailors from across the country"
+    },
+    {
+      "location": "Hartford, CT",
+      "role": "Pratt & Whitney aircraft engines and Colt firearms; major defense production center"
+    },
+    {
+      "location": "Wichita, KS",
+      "role": "Boeing, Cessna, and Beech aircraft manufacturing; 'Air Capital of the World' during wartime"
+    },
+    {
+      "location": "Savannah, GA",
+      "role": "Southeastern Shipbuilding Corporation and Hunter Army Airfield drew workers from rural Georgia and the Carolinas"
+    },
+    {
+      "location": "Detroit, MI",
+      "role": "Automobile factories converted to war production; the 'Arsenal of Democracy' drew hundreds of thousands of Southern migrants"
+    }
+  ],
+  "chain_migration": {
+    "pattern": "opportunity_network",
+    "description": "Word of mouth drove defense worker migration. A man got a job at the shipyard and wrote home; his brother followed, then a cousin, then neighbors. This chain pattern was especially strong among Southern Black workers migrating to Northern and Western defense plants, overlapping with the Great Migration. Military service also created networks — soldiers who trained together sometimes settled in the same post-war communities.",
+    "agency": "high — workers and veterans made deliberate relocation decisions based on economic calculation and personal networks"
+  },
+  "what_happened_to_those_who_stayed": "Communities that lost population to war mobilization experienced labor shortages, particularly in agriculture. Women, older workers, and in some areas, prisoners of war filled the gaps. Small towns that lost a generation of young men to military service and defense work sometimes never recovered their pre-war population. The post-war boom bypassed many rural communities as returning veterans chose urban and suburban settlement instead.",
+  "record_implications": [
+    {
+      "record_type": "Military service records (NPRC)",
+      "implication": "Enlistment records show home of record; discharge papers show address at separation. Comparing these reveals wartime relocation. Note: The 1973 NPRC fire destroyed millions of Army records — alternative sources may be needed."
+    },
+    {
+      "record_type": "Defense plant employment records",
+      "implication": "Where they survive, these document workers' previous addresses, hire dates, and job classifications. Many are held in National Archives regional branches or state archives."
+    },
+    {
+      "record_type": "GI Bill education and loan records",
+      "implication": "VA records of education benefits and home loan guarantees document where veterans settled after the war. These can trace the transition from military service to permanent civilian residence."
+    },
+    {
+      "record_type": "City directories and voter registrations",
+      "implication": "Boomtown city directories from 1942-1946 show the sudden appearance of new residents. Voter registration records capture permanent settlement decisions."
+    }
+  ],
+  "counter_narratives": [
+    {
+      "narrative": "Women moved independently for defense work",
+      "description": "Women entered the workforce in unprecedented numbers — the 'Rosie the Riveter' phenomenon. Many moved independently, without husbands or fathers, to take defense jobs. This represented a significant break from pre-war gender norms and produced a generation of women with work experience, savings, and a taste for independence that shaped post-war society."
+    },
+    {
+      "narrative": "Not everyone benefited equally",
+      "description": "African American workers faced segregated housing, restricted job classifications, and workplace discrimination even in defense plants. Mexican American workers confronted similar barriers. The war opened doors but did not eliminate structural racism — the post-war GI Bill benefits were administered in ways that systematically disadvantaged Black veterans."
+    },
+    {
+      "narrative": "Many did go home",
+      "description": "While millions settled in new locations, millions more returned to their pre-war communities. The narrative of permanent wartime relocation should not obscure the fact that homecoming was the majority experience, particularly for rural Southerners and Midwesterners with strong family and land ties."
+    }
+  ],
+  "seasonal_departure_pattern": "Military inductions occurred year-round but surged after Pearl Harbor (December 1941) and during major draft calls. Defense worker migration was continuous but peaked during plant expansions in 1942-1943. Post-war return and settlement decisions concentrated in 1945-1946 as demobilization proceeded.",
+  "gender_pattern": "Men dominated military relocation through the draft and enlistment. Women entered the defense workforce in unprecedented numbers — approximately 6 million women took war jobs, many relocating independently. After the war, many women were pushed out of industrial jobs as returning veterans reclaimed them, but the experience of wartime mobility and economic independence permanently altered women's expectations and family migration decisions.",
+  "source_references": [
+    {
+      "author": "James N. Gregory",
+      "title": "The Southern Diaspora: How the Great Migrations of Black and White Southerners Transformed America",
+      "year": 2005,
+      "publisher": "University of North Carolina Press",
+      "relevance": "Comprehensive study of Southern out-migration including the wartime acceleration of both Black and white movement to Northern and Western industrial centers."
+    },
+    {
+      "author": "Marilynn S. Johnson",
+      "title": "The Second Gold Rush: Oakland and the East Bay in World War II",
+      "year": 1993,
+      "publisher": "University of California Press",
+      "relevance": "Detailed case study of how wartime defense production transformed the San Francisco East Bay, with focus on the Kaiser Shipyards and their demographic impact."
+    },
+    {
+      "author": "John Morton Blum",
+      "title": "V Was for Victory: Politics and American Culture During World War II",
+      "year": 1976,
+      "publisher": "Harcourt Brace Jovanovich",
+      "relevance": "Broad social history of wartime America covering mobilization, migration, and the transformation of domestic life."
+    },
+    {
+      "author": "Suzanne Mettler",
+      "title": "Soldiers to Citizens: The G.I. Bill and the Making of the Greatest Generation",
+      "year": 2005,
+      "publisher": "Oxford University Press",
+      "relevance": "Examines how the GI Bill shaped veterans' post-war settlement decisions, education, and economic mobility."
+    }
+  ]
+}

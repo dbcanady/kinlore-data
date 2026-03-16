@@ -1,0 +1,169 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "migration_id": "homestead_act",
+  "display_name": "Homestead Act Settlement",
+  "short_description": "The Homestead Act of 1862 offered 160 free acres of public land to any citizen or intended citizen willing to settle and improve it for five years. Over seven decades, roughly 1.6 million claims were filed across the Great Plains and western territories, though fewer than half were ever proved up.",
+  "era": "1862-1934",
+  "estimated_scale": "~1.6 million homestead claims filed; ~400,000 proved up to final patent",
+  "involuntary": false,
+  "migration_class": "land_opportunity",
+  "phases": [
+    {
+      "phase_id": "post_civil_war",
+      "phase_name": "Post-Civil War Settlement",
+      "date_range": "1862-1880",
+      "description": "The first wave of homesteaders included Union veterans, Eastern farmers priced out of land markets, and newly arrived European immigrants. Settlement concentrated along river valleys and existing military roads in Kansas, Nebraska, and Minnesota. Claims were modest and mortality was high."
+    },
+    {
+      "phase_id": "great_plains_boom",
+      "phase_name": "Railroad-Promoted Great Plains Boom",
+      "date_range": "1880-1900",
+      "description": "Railroad companies aggressively marketed Plains land in Scandinavian and German newspapers, sometimes with free or subsidized passage. This period saw the largest volume of claims, particularly in the Dakotas, Nebraska, and western Minnesota. Entire congregations relocated together, creating ethnic enclaves that persisted for generations."
+    },
+    {
+      "phase_id": "final_wave",
+      "phase_name": "Final Wave Including Marginal Lands",
+      "date_range": "1900-1934",
+      "description": "The Enlarged Homestead Act of 1909 doubled claim size to 320 acres for dryland farming, pushing settlement into semi-arid regions of Montana, Wyoming, and western Kansas. Many of these late claims were on marginal land that could not sustain agriculture without irrigation. Failure rates were catastrophic, foreshadowing the Dust Bowl."
+    }
+  ],
+  "push_factors": [
+    {
+      "factor_id": "eastern_land_prices",
+      "factor": "Eastern land prices exceeding family purchasing power",
+      "severity": 4,
+      "description": "By the 1860s, productive farmland in the Eastern states had been subdivided across multiple generations until individual parcels could no longer support a family. A young farmer in New England or Pennsylvania faced land prices of $30-$80 per acre when a year's wages might total $300. The arithmetic was brutal and inescapable.",
+      "date_range": "1850-1900",
+      "narrative_hook": "When {ancestor_name} looked at land prices in {origin_county}, the math told {pronoun_object} everything. At ${price_per_acre} an acre, {pronoun_subject} would need {years} years of wages just to buy what {pronoun_possessive} grandfather had farmed for free."
+    },
+    {
+      "factor_id": "farm_subdivision",
+      "factor": "Farm subdivision past economic viability",
+      "severity": 3,
+      "description": "American inheritance customs typically divided land among sons, meaning a 200-acre farm became four 50-acre parcels within two generations. By the third generation, the remnant parcels could not produce enough to feed a family, let alone generate cash for taxes and equipment. Younger sons faced the choice of laboring for wages or seeking new land.",
+      "date_range": "1840-1890",
+      "narrative_hook": "The {family_name} farm in {origin_county} had been divided so many times that {ancestor_name}'s share amounted to {acreage} acres -- not enough to raise a family on, and not enough to sell for a fresh start anywhere east of the Mississippi."
+    },
+    {
+      "factor_id": "immigrant_land_hunger",
+      "factor": "European immigrants seeking land ownership impossible in the Old World",
+      "severity": 5,
+      "description": "For Scandinavian cotters, German tenant farmers, and Bohemian peasants, land ownership in Europe was legally or economically impossible. The Homestead Act offered something that did not exist in the Old World: free land for anyone willing to work it. Railroad agents distributed promotional literature in European languages, promising fertile soil and democratic equality.",
+      "date_range": "1862-1910",
+      "regional_scope": "Scandinavia, German states, Bohemia, Russia (German-Russian colonies)",
+      "narrative_hook": "In {origin_country}, the {family_name} family had been tenant farmers for generations, working land they could never own. The Homestead Act circular that reached {origin_town} in {year} promised something that sounded impossible: 160 acres, free, for anyone who would live on it and break the sod."
+    },
+    {
+      "factor_id": "postwar_displacement",
+      "factor": "Post-Civil War displacement and veteran resettlement",
+      "severity": 3,
+      "description": "Union veterans returned from the war to find their farms foreclosed, their jobs taken, or their communities changed beyond recognition. The Homestead Act explicitly privileged veterans, counting military service time toward the five-year residency requirement. For men who had seen the worst of the war, starting fresh on empty land held obvious appeal.",
+      "date_range": "1865-1880",
+      "narrative_hook": "{ancestor_name} mustered out of the {regiment} in {year} and came home to find that {origin_county} held nothing for {pronoun_object} anymore. The Homestead Act let {pronoun_object} count {service_years} years of military service toward the five-year requirement."
+    }
+  ],
+  "pull_factors": [
+    {
+      "factor_id": "free_land",
+      "factor": "160 acres of free federal land",
+      "description": "The core promise of the Homestead Act was simple: file a claim, build a dwelling, cultivate the land for five years, and the 160 acres became yours. Filing fees were minimal ($10-$18). No other federal program before or since has offered ordinary citizens such direct access to the nation's primary form of wealth.",
+      "narrative_hook": "For {ancestor_name}, the numbers were straightforward. A $10 filing fee, five years of sweat, and 160 acres of {destination_county} would belong to the {family_name} family outright. No landlord. No mortgage. No banker standing between {pronoun_object} and the dirt."
+    },
+    {
+      "factor_id": "railroad_promotion",
+      "factor": "Railroad company promotional campaigns",
+      "description": "Railroad companies held millions of acres in federal land grants and needed settlers to generate freight revenue. They launched sophisticated advertising campaigns in Eastern cities and European countries, publishing pamphlets in multiple languages that depicted the Plains as a garden paradise. Some offered reduced fares or free scouting trips to prospective settlers.",
+      "narrative_hook": "The railroad pamphlet that {ancestor_name} picked up at the {city} depot painted {destination_county} as a land of deep soil and gentle rain. The pamphlet did not mention the grasshoppers, the blizzards, or the nearest neighbor being {distance} miles away."
+    },
+    {
+      "factor_id": "settler_letters",
+      "factor": "Letters from earlier settlers encouraging kin to follow",
+      "description": "Nothing recruited settlers more effectively than letters from family and neighbors who had already gone west. These letters described crop yields, land quality, and community building in specific detail. They also carried implicit social pressure: if your cousin could prove up a claim, what was your excuse for staying?",
+      "narrative_hook": "The letter from {contact_name} arrived in {origin_county} sometime in {year}, describing the wheat harvest in {destination_county} and mentioning that the quarter section adjoining theirs was still open. {ancestor_name} filed a claim within {timeframe}."
+    },
+    {
+      "factor_id": "supplemental_land_laws",
+      "factor": "Timber Culture Act and other supplemental land programs",
+      "description": "The Timber Culture Act of 1873, the Desert Land Act of 1877, and the Enlarged Homestead Act of 1909 expanded the land available to settlers and reduced some requirements. A shrewd claimant could potentially assemble 480 or more acres through overlapping programs, creating a viable commercial farm on the Plains.",
+      "narrative_hook": "The homestead claim gave {ancestor_name} 160 acres, but the Timber Culture Act added another {timber_acres} if {pronoun_subject} would plant trees on {tree_acreage} of them. On the treeless Plains of {destination_county}, those trees were worth more than the crops."
+    }
+  ],
+  "transportation": {
+    "primary_mode": "Railroad to nearest railhead, then wagon or oxcart to claim site",
+    "route_refs": ["illinois_central", "southern_pacific", "union_pacific", "northern_pacific", "burlington_and_missouri_river"],
+    "what_they_carried": "Seed grain, hand tools, a plow, bedding, cookware, a rifle, family Bible, and whatever furniture would fit in the wagon. Scandinavian settlers often brought a trunk of household textiles. German-Russians brought seed wheat varieties adapted to dry conditions.",
+    "what_they_left_behind": "Extended family, church communities, graveyards with ancestors, established social networks, timber for building, reliable water sources, and the certainty of knowing what the next season would bring.",
+    "cost_of_travel": "Railroad fare from Eastern cities to Plains railheads: $15-$40 per adult. Wagon and team: $100-$300. Total outfit for a family including filing fee, lumber for a shanty, and supplies for the first season: $200-$800.",
+    "seasonal_departure_pattern": "Spring departures predominated. Settlers needed to arrive in time to break sod and plant a first crop. March through May was the primary departure window, with a secondary wave after fall harvest back East. Winter arrivals were rare and often fatal."
+  },
+  "origin_counties": [
+    "Various — New England states",
+    "Various — Mid-Atlantic states",
+    "Various — Upper South (especially Virginia, Kentucky, Tennessee)"
+  ],
+  "origin_notes": "Origins were extremely diverse. Domestic migrants came from New England, the Mid-Atlantic, and the Upper South. Foreign-born settlers came primarily from Scandinavia (Norway, Sweden, Denmark), German states, Bohemia, and Russian-German colonies on the Volga and Black Sea.",
+  "counties_most_affected": [
+    "Custer NE",
+    "Burt NE",
+    "Cass ND",
+    "Traill ND",
+    "Brookings SD",
+    "Kingsbury SD",
+    "Lyon MN",
+    "Renville MN",
+    "Story IA",
+    "Hamilton KS"
+  ],
+  "destination_refs": [],
+  "destination_notes": "Homestead destinations were overwhelmingly rural. Settlers did not move to cities; they moved to quarter sections of raw prairie. The nearest town might be a railroad depot with a general store, a post office, and a grain elevator.",
+  "chain_migration": {
+    "pattern": "community_relocation",
+    "description": "Homestead settlement was rarely an individual act. Scandinavian and German communities organized collective relocations, often led by a pastor or community elder who scouted land in advance. Entire church congregations would file claims on adjacent quarter sections, recreating their Old World village structure on the American prairie. Norwegian settlers from a single fjord might occupy a contiguous block of claims in a Dakota township.",
+    "gender_pattern": "Unmarried women could file homestead claims -- and did. The Homestead Act was one of the few federal programs that treated single women as legal equals. Widows with children were common filers. In some Dakota counties, women held 10-15% of original homestead claims. A woman's claim was her own property, not subject to a husband's control.",
+    "narrative_hook": "The {family_name} family did not go to {destination_county} alone. {ancestor_name} filed a claim on the quarter section next to {neighbor_name}, who had come from the same {origin_community}. Within {timeframe}, {count} families from {origin_location} held claims in the same township."
+  },
+  "what_happened_to_those_who_stayed": "Many homesteads failed. Drought, grasshoppers, blizzards, prairie fires, and sheer isolation drove settlers off their claims in staggering numbers. Up to 60% of homestead claims were abandoned before proving up. The 'Great American Desert' that earlier mapmakers had labeled on the Plains proved to be more accurate than the railroad pamphlets. Those who survived the first five years often acquired their failed neighbors' land at tax sales, concentrating ownership and creating the large ranches and farms that dominate the Plains today.",
+  "record_implications": {
+    "land_records": "Homestead case files at the National Archives contain the original application, proof of identity, proof of improvements, witness testimony, and final certificate. These are among the richest individual records in American genealogy, documenting not just land ownership but family composition, nationality, military service, and physical improvements made to the claim.",
+    "census_connections": "Homesteaders appear in federal census records at their claim locations. The 1880, 1900, 1910, and 1920 censuses captured Plains settlers in their homestead townships. State censuses (Dakota Territory 1885, Nebraska state censuses) provide additional snapshots.",
+    "church_records": "Ethnic congregations kept meticulous records in their original languages. Norwegian Lutheran, Swedish Lutheran, German Reformed, and German Catholic parish registers document baptisms, marriages, and burials that may not appear in civil records. Many of these records have been microfilmed by the Family History Library.",
+    "military_records": "Veterans who used military service credit toward their homestead residency requirement generated records linking their military service file to their land file. This creates a documentary bridge between Civil War service and Plains settlement."
+  },
+  "counter_narratives": [
+    {
+      "narrative_id": "native_dispossession",
+      "title": "The Homestead Act dispossessed Native peoples",
+      "description": "Every acre offered under the Homestead Act was taken from Indigenous nations through treaty, cession, or outright seizure. The 1862 Act was signed into law the same year as the Dakota War in Minnesota and the forced removal of the Dakota people. Homesteaders did not settle 'empty' land; they settled land that had been emptied by federal military campaigns, forced relocations, and the deliberate destruction of the bison herds that sustained Plains nations.",
+      "narrative_hook": "The 160 acres that {ancestor_name} claimed in {destination_county} in {year} had been {tribe_name} territory until {treaty_or_event} in {event_year}. The land was not empty when {pronoun_subject} arrived. It had been emptied."
+    },
+    {
+      "narrative_id": "speculator_fraud",
+      "title": "Speculators and corporations acquired far more land than individual homesteaders",
+      "description": "Railroad companies received 175 million acres in federal land grants. Timber companies, cattle ranchers, and land speculators used fraudulent claims, dummy entrymen, and legal loopholes to acquire vast tracts under the Homestead Act, Desert Land Act, and Timber Culture Act. Of the 500 million acres of public domain distributed between 1862 and 1934, only about 80 million went to genuine small farmers. The Homestead Act narrative of yeoman democracy obscures a massive transfer of public wealth to corporate interests.",
+      "narrative_hook": "While {ancestor_name} struggled to prove up {acreage} acres in {destination_county}, the {corporation_name} held {corporate_acreage} acres in the same county through land grants and purchased claims. The family farm and the corporate land empire were created by the same legislation."
+    }
+  ],
+  "source_references": [
+    {
+      "source_id": "edwards_2017",
+      "citation": "Edwards, Richard. Homesteading the Plains: Toward a New History. Lincoln: University of Nebraska Press, 2017.",
+      "relevance": "Comprehensive statistical reanalysis of homestead success and failure rates using Land Office records. Revises the conventional narrative that most homesteads failed."
+    },
+    {
+      "source_id": "dick_1937",
+      "citation": "Dick, Everett. The Sod-House Frontier, 1854-1890: A Social History of the Northern Plains. New York: D. Appleton-Century, 1937.",
+      "relevance": "Classic social history of daily life on the Plains frontier, including detailed descriptions of sod house construction, farming methods, and community formation."
+    },
+    {
+      "source_id": "cather_cultural",
+      "citation": "Cather, Willa. My Antonia (1918), O Pioneers! (1913), and The Song of the Lark (1915). Various editions.",
+      "relevance": "Cultural primary sources. Cather grew up in Red Cloud, Nebraska, among homesteading families and wrote from direct observation. Her novels document the immigrant homesteading experience with ethnographic precision."
+    },
+    {
+      "source_id": "nara_homestead_files",
+      "citation": "National Archives and Records Administration. Homestead Case Files, Record Group 49 (Records of the Bureau of Land Management).",
+      "relevance": "Primary source repository for individual homestead claims. Case files contain applications, proofs, witness affidavits, and correspondence documenting individual settlers."
+    }
+  ]
+}

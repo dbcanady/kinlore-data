@@ -1,0 +1,283 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+
+  "migration_id": "irish_famine",
+  "display_name": "Irish Famine Immigration",
+  "short_description": "Mass emigration from Ireland during the Great Famine (An Gorta Mor), 1845-1860. Approximately 1.5 million Irish emigrated to the United States, transforming Boston, New York, Philadelphia, and dozens of other cities.",
+  "era": "1845-1860",
+  "estimated_scale": "~1.5 million to the US (2 million total emigration including Canada, Australia, Britain)",
+  "involuntary": false,
+  "migration_class": "immigration",
+
+  "phases": [
+    {
+      "phase_id": "acute_famine_flight",
+      "phase_name": "Acute Famine Flight",
+      "date_range": "1845-1852",
+      "peak_years": "1847-1851",
+      "catalyst": "Phytophthora infestans destroyed the potato crop, the sole food source for approximately 3 million Irish. British government response was catastrophically inadequate: workhouses overflowed, public works paid starvation wages, soup kitchens opened briefly then closed under Treasury pressure. 'Black 47' (1847) was the single worst year, with mass death from starvation and typhus.",
+      "origin_regions": [
+        "Western Ireland (Cork, Kerry, Clare, Galway, Mayo, Roscommon, Sligo)",
+        "Midlands (Tipperary, Limerick, Waterford)"
+      ],
+      "counties_most_affected": [
+        "County Cork IE",
+        "County Kerry IE",
+        "County Clare IE",
+        "County Galway IE",
+        "County Mayo IE",
+        "County Roscommon IE",
+        "County Sligo IE",
+        "County Tipperary IE",
+        "County Limerick IE",
+        "County Waterford IE",
+        "County Leitrim IE",
+        "County Donegal IE"
+      ],
+      "primary_destinations": [
+        "Boston, MA",
+        "New York, NY",
+        "Philadelphia, PA",
+        "New Orleans, LA",
+        "Quebec City, QC (then overland to US)"
+      ],
+      "primary_route": "atlantic_crossing_famine",
+      "route_description": "Coffin ships: overcrowded timber sailing vessels, 4-8 week voyages, 20-30% mortality on the worst ships from typhus, dysentery, and starvation. Grosse Ile quarantine station outside Quebec became a mass grave."
+    },
+    {
+      "phase_id": "post_famine_chain",
+      "phase_name": "Post-Famine Chain Migration",
+      "date_range": "1852-1860",
+      "peak_years": "1852-1855",
+      "catalyst": "The famine ended but the economy was destroyed. Landlord consolidation evicted remaining tenants through tumbling (demolishing cottages). Survivors in America sent 'American letters' with prepaid passage tickets. By the mid-1850s, more Irish crossed on tickets purchased in America than on self-funded passage.",
+      "origin_regions": [
+        "Western Ireland (continuing)",
+        "Eastern Ireland (Dublin, Wexford, Wicklow) — later-stage migration",
+        "Ulster (Cavan, Monaghan, Fermanagh) — smaller-scale Catholic emigration"
+      ],
+      "counties_most_affected": [
+        "County Cork IE",
+        "County Kerry IE",
+        "County Galway IE",
+        "County Mayo IE",
+        "County Cavan IE",
+        "County Monaghan IE",
+        "County Wexford IE"
+      ],
+      "primary_destinations": [
+        "New York, NY",
+        "Boston, MA",
+        "Chicago, IL",
+        "San Francisco, CA",
+        "St. Louis, MO"
+      ],
+      "primary_route": "atlantic_crossing_steerage",
+      "route_description": "Steamship steerage: faster (10-14 days by late 1850s), cheaper, and dramatically safer than the coffin ship era. Liverpool became the dominant embarkation port, replacing dozens of smaller Irish harbors."
+    }
+  ],
+
+  "push_factors": [
+    {
+      "factor_id": "potato_blight",
+      "name": "Potato blight / crop failure",
+      "severity": 5,
+      "description": "Phytophthora infestans destroyed 100% of the potato crop in affected areas from 1846-1849. For families dependent on the potato as their sole food source — approximately 3 million people in western and southern Ireland — this was immediate starvation. The blight returned repeatedly; partial failures continued into the 1850s."
+    },
+    {
+      "factor_id": "british_policy",
+      "name": "British government policy failures",
+      "severity": 5,
+      "description": "Corn Laws delayed grain imports. The Gregory clause forced tenants to surrender all land over a quarter-acre to qualify for workhouse admission, destroying any hope of recovery. Treasury official Charles Trevelyan declared the famine 'God's judgment' on Irish overpopulation. Grain, cattle, and butter were EXPORTED from Ireland throughout the famine under military escort."
+    },
+    {
+      "factor_id": "landlord_evictions",
+      "name": "Landlord evictions and consolidation",
+      "severity": 5,
+      "description": "Landlords evicted tenants who could not pay rent, then consolidated smallholdings into cattle ranches. Approximately 500,000 people were formally evicted between 1846 and 1854. 'Tumbling' — the demolition of cottages by crowbar brigades — ensured tenants could not return. Some landlords paid passage to remove tenants permanently."
+    },
+    {
+      "factor_id": "workhouse_conditions",
+      "name": "Workhouse conditions",
+      "severity": 4,
+      "description": "Workhouses were overcrowded, disease-ridden, and deliberately punitive under Poor Law philosophy. Families were separated on entry — men, women, and children housed in different wards. Typhus, cholera, and dysentery killed thousands inside the walls. Many chose emigration, even on coffin ships, over the workhouse."
+    },
+    {
+      "factor_id": "assisted_emigration",
+      "name": "Landlord-assisted emigration (forced clearance)",
+      "severity": 3,
+      "description": "Some landlords paid passage to rid themselves of destitute tenants. The most notorious scheme was Major Denis Mahon's 1847 clearance from Strokestown, County Roscommon, which loaded tenants onto coffin ships. Landlords calculated that one-time passage costs were cheaper than years of poor rates on unproductive tenants."
+    }
+  ],
+
+  "pull_factors": [
+    {
+      "factor_id": "prepaid_tickets",
+      "name": "Prepaid tickets and American letters",
+      "description": "The 'American letter' — containing money, a prepaid passage ticket, and news of work — was the single most powerful pull factor. Irish already settled in the United States sent an estimated $120 million to Ireland between 1848 and 1900. By the 1850s, prepaid tickets outnumbered self-purchased ones."
+    },
+    {
+      "factor_id": "infrastructure_labor",
+      "name": "Canal and railroad construction labor",
+      "description": "Unskilled labor demand in American infrastructure projects absorbed enormous numbers of Irish men. Irish labor built the Erie Canal extension, the Illinois Central Railroad, and urban water and sewer systems across the Northeast and Midwest. The work was dangerous and low-paid, but it was work."
+    },
+    {
+      "factor_id": "domestic_service",
+      "name": "Domestic service demand",
+      "description": "Overwhelming demand for household servants in American cities drew single Irish women in enormous numbers. Irish women were actively PREFERRED as domestics — English-speaking, hardworking, and willing to live in. The 'Irish Bridget' became a cultural archetype. Domestic service provided room, board, and the ability to save nearly all wages for remittance."
+    },
+    {
+      "factor_id": "political_escape",
+      "name": "Escape from British rule",
+      "description": "The political dimension reinforced economic motivations. Irish nationalism, the failed 1848 Young Ireland rebellion, and the land reform movement all contributed to emigration. For many, leaving Ireland was not just survival but a rejection of British governance. Fenian organizing in American cities provided a political community on arrival."
+    }
+  ],
+
+  "transportation": {
+    "primary_mode": "ship",
+    "route_refs": [
+      "atlantic_crossing_famine",
+      "atlantic_crossing_steerage"
+    ],
+    "what_they_carried": "A bundle of clothing, perhaps a piece of Irish sod or a handful of thatch from the cottage roof. Holy medals and prayer books. Letters of introduction to a priest or countryman in America. Many carried nothing — they left with only what they wore.",
+    "what_they_left_behind": "The cottage, often tumbled by the landlord's crowbar brigade after departure. Family members too old or sick to travel. The townland where their family had lived for centuries. The Irish language itself — most famine emigrants were Irish-speaking, but their children would speak English.",
+    "cost": "3-5 pounds sterling for famine-era coffin ships ($15-$25 USD). Steamship passage by 1855: $15-$30 USD. Prepaid tickets purchased in America often cost more due to agent fees.",
+    "seasonal_departure_pattern": "Spring and summer sailings preferred for calmer Atlantic seas, but famine desperation meant year-round departure. Ships were most crowded March through June. Winter crossings carried higher mortality from exposure and storms."
+  },
+
+  "destination_refs": [
+    {
+      "destination_id": "boston_ma",
+      "name": "Boston, Massachusetts",
+      "peak_arrival_years": "1847-1852",
+      "notes": "First major landfall for famine ships. By 1855, foreign-born Irish comprised over 25% of Boston's population. Concentrated in the North End and Fort Hill. Boston's entrenched Yankee establishment made Irish assimilation slower than in other cities."
+    },
+    {
+      "destination_id": "new_york_ny",
+      "name": "New York, New York",
+      "peak_arrival_years": "1847-1855",
+      "notes": "Largest single destination. Castle Garden (pre-Ellis Island) processed arrivals from 1855. Five Points in lower Manhattan became the densest Irish settlement. Tammany Hall political machine absorbed Irish voters within a decade of arrival."
+    },
+    {
+      "destination_id": "philadelphia_pa",
+      "name": "Philadelphia, Pennsylvania",
+      "peak_arrival_years": "1847-1854",
+      "notes": "Third-largest Irish destination. Concentrated in Moyamensing and Kensington. Anti-Irish nativist riots in 1844 preceded the famine wave but shaped the reception. Strong Irish Catholic parish network developed rapidly."
+    },
+    {
+      "destination_id": "new_orleans_la",
+      "name": "New Orleans, Louisiana",
+      "peak_arrival_years": "1847-1853",
+      "notes": "Major secondary port of entry. Irish Channel neighborhood. Yellow fever killed thousands of Irish immigrants. Many who survived moved upriver to St. Louis, Memphis, or the interior. Canal and levee construction employed Irish labor."
+    },
+    {
+      "destination_id": "chicago_il",
+      "name": "Chicago, Illinois",
+      "peak_arrival_years": "1850-1860",
+      "notes": "Secondary destination, growing rapidly as railroad hub. Bridgeport and Back of the Yards neighborhoods. Irish labor built the Illinois and Michigan Canal and the city's early railroad infrastructure."
+    }
+  ],
+
+  "chain_migration": {
+    "pattern": "ticket_prepaid",
+    "description": "The 'American letter' was the engine of Irish chain migration. Someone already established in Boston or New York sent money and sometimes a pre-purchased ticket. The recipient often had little choice — the passage was paid, the cottage was gone or going. By the 1850s, more Irish arrived on prepaid tickets than on self-funded passage. Entire townlands emptied in sequence as each arrival sent for the next sibling.",
+    "gender_pattern": "Uniquely among 19th-century immigrant groups, single WOMEN emigrated from Ireland in nearly equal numbers to men — and in some years exceeded them. Young Irish women came specifically for domestic service positions, which provided immediate room, board, and wages. They sent money home for siblings' passages, creating a distinctly female-driven chain migration pattern unmatched by any other national group of the era.",
+    "typical_lag_years": "2-5 years between first family member's arrival and the next passage sent home",
+    "narrative_hook": "The ticket that brought {ancestor_name} to {destination} in {year} was likely purchased not by {ancestor_name}, but by a sibling or cousin who had crossed before and saved from servant's wages or laborer's pay."
+  },
+
+  "what_happened_to_those_who_stayed": {
+    "demographic_change": "Ireland's population dropped from approximately 8.2 million (1841) to 6.6 million (1851) to 4.4 million (1901). The western counties lost 30-60% of their population within a single decade. Ireland is the only European country with a lower population today than in 1840.",
+    "economic_change": "Landlord consolidation replaced smallholdings with cattle ranches. The potato economy never recovered. Those who remained shifted to livestock farming, fishing, or seasonal migrant labor in Britain. The land reform movement of the 1870s-1900s (Land League, Land Acts) eventually transferred ownership to tenants, but to a vastly reduced population farming vastly larger holdings.",
+    "cultural_change": "The Irish language retreated catastrophically. The famine killed or expelled the poorest Irish speakers in the west. Survivors associated Irish with poverty and death; English meant survival and emigration. National school instruction in English accelerated the shift. By 1900, Irish was a minority language even in Connacht.",
+    "narrative_hook": "Had {ancestor_name} remained in {home_county}, they would have watched the townland empty around them — the thatched cottages tumbled one by one, the fields turned from tillage to grazing, and the Irish language fade from daily speech within a generation."
+  },
+
+  "record_implications": [
+    {
+      "pattern": "Ship manifest lists Irish county of origin",
+      "interpretation": "Allows pinpointing the specific townland or parish of origin, not just 'Ireland'",
+      "research_tip": "Cross-reference the stated county with Griffith's Valuation (1847-1864) to locate the exact townland. Search for the surname in that county's valuation records. The Ordnance Survey maps of the 1840s show every townland boundary."
+    },
+    {
+      "pattern": "Ancestor appears in Boston, New York, or Philadelphia census with 'Ireland' as birthplace, arrival date 1845-1855",
+      "interpretation": "Strong probability of famine-era immigrant rather than earlier economic migrant",
+      "research_tip": "Check Catholic parish baptism and marriage records in the destination city. Irish immigrants clustered by county of origin within specific parishes. The priest often recorded the Irish parish of origin in marriage registers."
+    },
+    {
+      "pattern": "Occupation listed as 'laborer' in every census from arrival through death",
+      "interpretation": "Typical famine-era male immigrant pattern. Unskilled labor was the norm, not the exception, for first-generation famine immigrants.",
+      "research_tip": "City directories may show address changes year to year, indicating shifts between construction projects, docks, or factories. Check for naturalization records, which sometimes list occupation more precisely."
+    },
+    {
+      "pattern": "Female ancestor listed as 'servant' or 'domestic' before marriage",
+      "interpretation": "Classic Irish Bridget pattern. Domestic service was the primary occupation for unmarried Irish immigrant women and the economic engine of female chain migration.",
+      "research_tip": "The employer household's census record may list your ancestor by name as a live-in servant. Search the employer's address in city directories to identify the household, then check their census entry."
+    },
+    {
+      "pattern": "Family surname spelling changes between Irish and American records",
+      "interpretation": "Anglicization of Irish names was common. O'Suilleabhain became Sullivan, Mac Carthaigh became McCarthy, O Briain became O'Brien or Bryan.",
+      "research_tip": "Search Irish records under the original Irish-language spelling AND common Anglicized variants. The IrishGenealogy.ie civil records and parish registers may use different spellings than American records for the same individual."
+    }
+  ],
+
+  "counter_narratives": [
+    {
+      "claim": "Not all Irish immigrants were famine refugees",
+      "context": "Pre-famine Irish immigration to the United States was substantial, running at 50,000-100,000 per year from 1815 to 1845. Many pre-famine immigrants came from Ulster (often Protestant) for economic opportunity, not starvation. Post-famine immigrants from the late 1850s onward were frequently more skilled and better-funded than the acute famine refugees of 1847-1851."
+    },
+    {
+      "claim": "Anti-Irish discrimination was real but not uniform",
+      "context": "'No Irish Need Apply' signs existed and anti-Catholic nativism (the Know-Nothing movement) was a genuine political force in the 1850s. However, Irish political organizing through Tammany Hall, ward bosses, and the Democratic Party gave Irish Americans significant municipal power within a single generation. By the 1870s, Irish Americans dominated police, fire departments, and city politics across most Northeastern cities."
+    },
+    {
+      "claim": "The famine was not purely a natural disaster",
+      "context": "Ireland produced and exported enough grain, cattle, and butter to feed the population throughout the famine years. British economic policy — laissez-faire ideology, absentee landlordism, export-driven agriculture, and deliberate decisions to limit relief — turned a potato crop failure into a catastrophe that killed approximately one million people and expelled another two million. The question of whether British policy constituted genocide remains debated by historians, but the preventable nature of the mass death is not in dispute."
+    }
+  ],
+
+  "source_references": [
+    {
+      "author": "Kerby Miller",
+      "title": "Emigrants and Exiles: Ireland and the Irish Exodus to North America",
+      "year": 1985,
+      "type": "book",
+      "notes": "Definitive study of Irish emigration patterns and the cultural framework of exile. Essential for understanding chain migration mechanics."
+    },
+    {
+      "author": "Cormac O Grada",
+      "title": "Black '47 and Beyond: The Great Irish Famine in History, Economy, and Memory",
+      "year": 1999,
+      "type": "book",
+      "notes": "Economic historian's analysis of famine demographics, mortality, and emigration statistics. Best quantitative source."
+    },
+    {
+      "author": "Hasia Diner",
+      "title": "Erin's Daughters in America: Irish Immigrant Women in the Nineteenth Century",
+      "year": 1983,
+      "type": "book",
+      "notes": "Primary source for female chain migration patterns and domestic service employment."
+    },
+    {
+      "author": "Edward Laxton",
+      "title": "The Famine Ships: The Irish Exodus to America",
+      "year": 1997,
+      "type": "book",
+      "notes": "Detailed account of coffin ship conditions, mortality rates, and specific vessel histories."
+    },
+    {
+      "author": "Tyler Anbinder",
+      "title": "Five Points: The 19th-Century New York City Neighborhood That Invented Tap Dance, Stole Elections, and Became the World's Most Notorious Slum",
+      "year": 2001,
+      "type": "book",
+      "notes": "Ground-level account of Irish immigrant settlement in New York. Corrects many myths about Five Points."
+    },
+    {
+      "author": "Cecil Woodham-Smith",
+      "title": "The Great Hunger: Ireland 1845-1849",
+      "year": 1962,
+      "type": "book",
+      "notes": "Classic narrative history of the famine. Particularly strong on British government decision-making and landlord behavior."
+    }
+  ]
+}

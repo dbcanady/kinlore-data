@@ -1,0 +1,247 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "migration_id": "se_european_wave",
+  "display_name": "Southern & Eastern European Immigration",
+  "short_description": "The largest wave of immigration in American history, bringing approximately 14 million people from Southern and Eastern Europe through Ellis Island and other ports between 1880 and 1924, ending only when federal quota laws deliberately closed the door.",
+  "era": "1880-1924",
+  "estimated_scale": "~14 million",
+  "involuntary": false,
+  "migration_class": "immigration",
+  "phases": [
+    {
+      "phase_id": "initial_wave",
+      "phase_name": "Initial Wave — Italians, Poles, Slovaks",
+      "date_range": "1880-1900",
+      "description": "The first substantial arrivals from Southern and Eastern Europe, driven by agricultural collapse in Southern Italy, the partition of Poland, and economic stagnation across the Austro-Hungarian Empire. Italian immigrants came primarily from the Mezzogiorno—Campania, Calabria, and Sicily. Polish immigrants arrived from all three partition zones (Russian, Prussian, and Austrian). Slovak immigrants fled poverty in Upper Hungary. Most were young men intending to work temporarily and return home.",
+      "origin_regions": ["Campania IT", "Calabria IT", "Sicily IT", "Galicia PL", "Russian Partition PL", "Prussian Partition PL", "Upper Hungary (Slovakia)", "Croatia"],
+      "primary_destinations": ["New York NY (Lower East Side, Little Italy)", "Chicago IL (Back of the Yards)", "Pittsburgh PA (South Side)", "Philadelphia PA", "Cleveland OH"],
+      "narrative_hook": "When {ancestor_name} arrived in {destination} during the 1880s or 1890s, they were among the vanguard of a migration that would transform American cities—but at the time, there was no guarantee they would stay."
+    },
+    {
+      "phase_id": "peak_years",
+      "phase_name": "Peak Years — Ellis Island Era",
+      "date_range": "1900-1914",
+      "description": "The highest-volume immigration years in American history. Ellis Island processed up to 5,000 arrivals per day at peak periods. Southern Italians, Poles, Slovaks, Croatians, Serbians, Hungarians, Greeks, Lithuanians, Romanians, and Russian Jews arrived in enormous numbers. Industrial employers actively recruited immigrant labor for steel mills, meatpacking plants, coal mines, and construction projects. Ethnic neighborhoods crystallized in every major industrial city.",
+      "origin_regions": ["Campania IT", "Calabria IT", "Sicily IT", "Basilicata IT", "Galicia PL", "Russian Partition PL", "Slovakia", "Croatia", "Serbia", "Hungary", "Greece", "Lithuania", "Romania", "Pale of Settlement (Russian Empire)"],
+      "primary_destinations": ["New York NY", "Chicago IL", "Pittsburgh PA", "Philadelphia PA", "Cleveland OH", "Detroit MI", "Baltimore MD", "Buffalo NY", "Newark NJ"],
+      "narrative_hook": "In the peak years before 1914, {ancestor_name} was one of thousands processed through Ellis Island each day—a medical inspection, a few questions through an interpreter, and the legal threshold between the old world and {destination} was crossed in hours."
+    },
+    {
+      "phase_id": "war_and_restriction",
+      "phase_name": "WWI Interruption and Quota Restriction",
+      "date_range": "1914-1924",
+      "description": "World War I halted transatlantic migration from 1914 to 1918. Immigration resumed after the armistice but met rising nativist opposition. The Emergency Quota Act of 1921 imposed the first numerical limits. The National Origins Act of 1924 set quotas deliberately designed to reduce Southern and Eastern European immigration to a fraction of its former volume—Italian immigration fell by over 90%. The door that had been open for forty years was effectively closed.",
+      "origin_regions": ["Southern Italy", "Poland (newly independent)", "Czechoslovakia (newly formed)", "Yugoslavia (newly formed)", "Greece", "Romania", "Lithuania"],
+      "primary_destinations": ["New York NY", "Chicago IL", "Detroit MI", "Pittsburgh PA"],
+      "narrative_hook": "If {ancestor_name} arrived after 1921, they made it through a closing window—the quota laws of 1921 and 1924 were designed specifically to keep people from {ancestor_name}'s part of Europe out of the United States."
+    }
+  ],
+  "push_factors": [
+    {
+      "factor_id": "southern_italian_poverty",
+      "factor": "Southern Italian Poverty and Land Concentration",
+      "severity": 5,
+      "description": "Southern Italy after unification (1861) was characterized by extreme poverty, absentee landlordism, and a tax system that fell disproportionately on peasants. The latifundia system concentrated land ownership among a small elite while millions of contadini (peasant farmers) worked as day laborers or sharecroppers. Italian unification brought conscription and taxes but no land reform. Cholera and malaria were endemic in many areas.",
+      "date_range": "1880-1924",
+      "regional_scope": ["Campania IT", "Calabria IT", "Sicily IT", "Basilicata IT", "Puglia IT"],
+      "narrative_hook": "The poverty that pushed {ancestor_name} from Southern Italy was structural—not a temporary crisis but centuries of land concentration that left millions working land they could never own, under conditions that Italian unification made worse, not better."
+    },
+    {
+      "factor_id": "polish_partition_oppression",
+      "factor": "Partition-Era Oppression in Poland",
+      "severity": 5,
+      "description": "Poland did not exist as an independent state from 1795 to 1918, divided among Russia, Prussia, and Austria. Each partition zone imposed its own forms of oppression: Russification and military conscription in the Russian zone, Germanization in the Prussian zone, and economic stagnation in Austrian Galicia. Polish peasants faced overpopulation on small holdings, limited industrial employment, and cultural suppression of language and religion.",
+      "date_range": "1880-1914",
+      "regional_scope": ["Galicia PL", "Russian Partition PL", "Prussian Partition PL"],
+      "narrative_hook": "{ancestor_name} left a country that did not officially exist—Polish immigrants carried a national identity that had no state, and the partition zone they departed determined whether their oppressor spoke Russian, German, or maintained the somewhat more tolerant Austrian framework."
+    },
+    {
+      "factor_id": "overpopulation_no_land",
+      "factor": "Overpopulation and Landlessness",
+      "severity": 4,
+      "description": "Across Southern and Eastern Europe, population growth outpaced the capacity of agricultural economies to absorb labor. In Galicia, the average peasant holding was under 5 acres. In Southern Italy, landless laborers outnumbered landowners. In Greece and Lithuania, younger sons had no inheritance prospects. The simple arithmetic of too many people and not enough land made emigration a rational economic strategy.",
+      "date_range": "1880-1920",
+      "regional_scope": ["Campania IT", "Calabria IT", "Sicily IT", "Galicia PL", "Slovakia", "Croatia", "Greece", "Lithuania"],
+      "narrative_hook": "The decision for {ancestor_name} to leave may have been less about ambition than arithmetic—there was not enough land in the village to support another generation, and wages in {destination} exceeded anything available at home."
+    },
+    {
+      "factor_id": "military_conscription",
+      "factor": "Military Conscription",
+      "severity": 4,
+      "description": "Mandatory military service in the Russian, Austro-Hungarian, and Ottoman empires drove young men to emigrate. Russian conscription could last up to 25 years in earlier periods. Austro-Hungarian service required 3 years active duty plus years in reserve. For Jewish men in the Russian Empire, military service meant forced separation from community and religion. Many families sent sons to America specifically to escape the draft.",
+      "date_range": "1880-1914",
+      "regional_scope": ["Russian Partition PL", "Galicia PL", "Slovakia", "Croatia", "Hungary", "Greece", "Lithuania"],
+      "narrative_hook": "If {ancestor_name} was a young man who left for {destination} in {year}, military conscription may have been the immediate trigger—years of compulsory service in an empire that was not their own."
+    },
+    {
+      "factor_id": "pogroms_jewish",
+      "factor": "Pogroms and Anti-Jewish Violence",
+      "severity": 5,
+      "description": "Waves of anti-Jewish violence swept the Russian Empire beginning in 1881, recurring in 1903-1906 and beyond. Government-tolerated or government-directed pogroms destroyed homes, businesses, and lives in the Pale of Settlement. The May Laws of 1882 restricted where Jews could live and work. Unlike other Southern/Eastern European groups, Jewish immigrants overwhelmingly came as permanent settlers with families, not as temporary laborers.",
+      "date_range": "1881-1920",
+      "regional_scope": ["Pale of Settlement (Russian Empire)", "Romania", "Galicia PL"],
+      "narrative_hook": "For Jewish families like that of {ancestor_name}, departure from the Pale of Settlement was not an economic calculation but a survival decision—the pogroms that swept through in waves after 1881 made clear that there was no safe future in the Russian Empire."
+    }
+  ],
+  "pull_factors": [
+    {
+      "factor_id": "industrial_wages",
+      "factor": "Industrial Wages — Steel, Meatpacking, Mining",
+      "severity": 5,
+      "description": "American industrial wages of $1.50-$2.50 per day in steel mills, meatpacking plants, and coal mines were several times what laborers could earn in Southern Italy or Galicia. Even accounting for the brutal working conditions and high cost of urban living, the wage differential was transformative. A year's wages in Pittsburgh could buy land back home—or fund the passage of additional family members.",
+      "date_range": "1880-1924",
+      "regional_scope": ["PA", "OH", "IL", "IN", "MI", "NY", "NJ", "WV"],
+      "narrative_hook": "The wages waiting in {destination}—$1.50 to $2.50 a day in the mills and packing houses—would have represented a fortune to {ancestor_name}, whose earning prospects at home were measured in pennies."
+    },
+    {
+      "factor_id": "letters_from_earlier_immigrants",
+      "factor": "Letters Home from Earlier Immigrants",
+      "severity": 4,
+      "description": "The most powerful recruitment tool was personal correspondence. Letters from family members and paesani already in America described wages, working conditions, and opportunities in specific terms. Money sent home (remittances) provided tangible proof that America delivered on its promises. Prepaid steamship tickets removed the financial barrier for those who could not afford passage.",
+      "date_range": "1885-1920",
+      "regional_scope": ["NY", "PA", "IL", "OH", "NJ", "MI"],
+      "narrative_hook": "A letter from a cousin or neighbor already working in {destination} likely reached {ancestor_name}'s village with specific details—which factory was hiring, how much it paid, where to find a bed on arrival. The decision to emigrate was shaped by information, not just hope."
+    },
+    {
+      "factor_id": "labor_agent_recruitment",
+      "factor": "Labor Agent Recruitment",
+      "severity": 3,
+      "description": "American industrial employers sent labor agents (padrones for Italians, similar figures for other groups) to recruit workers directly from European villages. Steamship companies maintained networks of sub-agents in rural areas. These agents provided information, arranged passage, and sometimes guaranteed employment on arrival—though the terms were often exploitative, with the agent taking a commission from wages.",
+      "date_range": "1890-1914",
+      "regional_scope": ["PA", "OH", "IL", "WV", "NY", "NJ"],
+      "narrative_hook": "A labor agent passing through {ancestor_name}'s village may have been the specific catalyst—these recruiters offered passage, promised work in the mills or mines of {state}, and collected their commission from the wages of those they delivered."
+    }
+  ],
+  "transportation": {
+    "primary_mode": "Transatlantic steamship (steerage class), processed through Ellis Island (after 1892) or Castle Garden (before 1892), followed by railroad to inland destinations",
+    "route_refs": [
+      {
+        "route_id": "atlantic_steerage_ellis_island",
+        "description": "Departure from Naples, Genoa, Trieste, Bremen, Hamburg, Liverpool, or Piraeus. Steamship crossing took 10-14 days in steerage—large open compartments below deck with bunks stacked three high, shared by hundreds of passengers. Arrival at Ellis Island for medical and legal inspection. Roughly 2% were rejected and returned.",
+        "ports_of_departure": ["Naples", "Genoa", "Trieste", "Bremen", "Hamburg", "Liverpool", "Piraeus", "Fiume (Rijeka)"],
+        "ports_of_arrival": ["New York (Ellis Island)", "Philadelphia", "Baltimore", "Boston"]
+      },
+      {
+        "route_id": "inland_rail_to_industry",
+        "description": "From port cities, immigrants traveled by railroad to industrial destinations. Railroad fare from New York to Pittsburgh was approximately $5-$8. Many immigrants were met at the station by relatives, paesani, or labor agents who directed them to boarding houses and first employment.",
+        "key_routes": ["New York → Pennsylvania Railroad → Pittsburgh/Philadelphia", "New York → Erie Railroad → Buffalo/Cleveland", "New York → NYC&HR Railroad → Albany → Chicago", "Baltimore → B&O Railroad → Pittsburgh/Cleveland"]
+      }
+    ],
+    "what_they_carried": "A single trunk or bundle containing clothing, bedding, religious items (crucifixes, icons, prayer books), family photographs, documents (birth certificates, military exemption papers, letters from relatives in America), small amounts of cash (immigrants were required to show $25-$50 at Ellis Island), and sometimes tools of their trade or seeds from home.",
+    "what_they_left_behind": "Extended family—parents, grandparents, siblings who could not afford passage or were too old to travel. Village communities, parish churches, ancestral land (however meager), familiar language and culture, and for many men, wives and children who would follow only if the first years went well.",
+    "cost_of_travel": "Steerage passage from Southern or Eastern European ports cost $25-$35 by the early 1900s (equivalent to several months' wages in Southern Italy or Galicia). Total journey cost including inland rail and initial subsistence: $40-$60 per person. Prepaid tickets sent from America covered roughly one-third of all passages.",
+    "seasonal_departure_pattern": "Peak departures occurred in spring (March-May) and early autumn (September-October). Spring departures aligned with the opening of construction and outdoor labor seasons in the United States. Many Italian immigrants followed a seasonal pattern—arriving in spring, working through autumn, and returning to Italy for winter, repeating the cycle for several years before deciding to stay or go home permanently."
+  },
+  "destination_refs": [
+    {
+      "destination_id": "nyc_lower_east_side",
+      "name": "New York City — Lower East Side, Little Italy, East Harlem",
+      "nickname": null,
+      "peak_years": "1890-1920",
+      "description": "The primary gateway and largest settlement for Southern and Eastern European immigrants. Italian immigrants concentrated in Little Italy (Mulberry Street) and East Harlem. Jewish immigrants settled the Lower East Side. Polish and other Slavic groups established neighborhoods in Brooklyn and other boroughs. Population density in tenement districts exceeded that of Bombay."
+    },
+    {
+      "destination_id": "chicago_il",
+      "name": "Chicago, Illinois — Back of the Yards, Polish Triangle, Taylor Street",
+      "nickname": null,
+      "peak_years": "1890-1920",
+      "description": "Chicago's meatpacking industry, steel mills, and railroads drew massive immigrant populations. The Back of the Yards neighborhood near the Union Stock Yards was immortalized in Upton Sinclair's The Jungle. The Polish Triangle (around Milwaukee and Division) became the largest Polish community outside Warsaw. Italian immigrants concentrated along Taylor Street."
+    },
+    {
+      "destination_id": "pittsburgh_pa",
+      "name": "Pittsburgh, Pennsylvania — South Side, Strip District, Lawrenceville",
+      "nickname": "Steel City",
+      "peak_years": "1890-1920",
+      "description": "The steel industry drew Slovaks, Poles, Croatians, Serbians, and Italians to Pittsburgh and surrounding mill towns (Homestead, Braddock, McKeesport). Ethnic parishes—Slovak, Polish, Croatian, Italian—defined neighborhood identity. Working conditions in the mills were among the most dangerous in American industry."
+    },
+    {
+      "destination_id": "cleveland_oh",
+      "name": "Cleveland, Ohio",
+      "nickname": null,
+      "peak_years": "1895-1920",
+      "description": "Steel, iron, and manufacturing industries drew large Slovak, Polish, Slovenian, Croatian, Hungarian, and Italian communities. The Tremont and Slavic Village neighborhoods maintained dense ethnic concentrations. Cleveland's Hungarian community was among the largest in the United States."
+    },
+    {
+      "destination_id": "detroit_mi",
+      "name": "Detroit, Michigan",
+      "nickname": null,
+      "peak_years": "1900-1924",
+      "description": "The automobile industry, beginning with Ford's Highland Park plant in 1910, drew the later wave of Southern and Eastern European immigrants. Polish immigrants formed the largest ethnic group in Hamtramck and other Detroit neighborhoods. Ford's five-dollar day (1914) was a powerful magnet."
+    }
+  ],
+  "chain_migration": {
+    "pattern": "labor_agent and paesani_network",
+    "description": "Chain migration operated through two primary channels. Labor agents (padrones) recruited workers from specific villages for specific employers, creating direct village-to-workplace pipelines. Simultaneously, paesani networks—informal connections among people from the same village or region—channeled immigrants to specific neighborhoods where they found housing, employment referrals, and social support from people who spoke their dialect and shared their customs. A single paesano established in Pittsburgh could eventually draw dozens of families from the same Calabrian village.",
+    "gender_pattern": "Men came first as 'birds of passage'—young men who intended to work for 2-5 years, save money, and return home. Many did exactly that: 30-40% of Italian immigrants eventually returned to Italy permanently. Women and children came when the man decided to stay, often years after his initial arrival. This created a distinctive demographic pattern in immigrant neighborhoods: heavily male in the early years, gradually balancing as families reunified. Among Jewish immigrants, the pattern differed—families emigrated together because return was not contemplated.",
+    "narrative_hook": "If {ancestor_name} settled in {county}, {state}, the connection to that specific place was almost certainly personal—a relative, a neighbor from the old village, or a labor agent who had recruited from {ancestor_name}'s region and delivered workers to {destination} before."
+  },
+  "what_happened_to_those_who_stayed": "Those who remained in Southern Italy continued to face poverty and land concentration until post-WWII land reforms and industrialization gradually transformed the economy. Poland regained independence in 1918 but faced invasion and occupation again in 1939. The Balkans endured repeated wars and political upheaval throughout the twentieth century. Remittances from America were a lifeline for many families who stayed—some villages depended more on American dollars than on local agriculture. The 1924 quota laws severed the migration pipeline, and families separated by the Atlantic often lost contact over subsequent decades.",
+  "record_implications": {
+    "key_record_types": [
+      "Ellis Island arrival manifests (digitized and searchable at Statue of Liberty-Ellis Island Foundation)",
+      "Ship passenger manifests (ports of departure often recorded hometown and nearest relative left behind)",
+      "Naturalization records (post-1906 standardized forms include birthplace, date of arrival, ship name)",
+      "Ethnic parish records — baptism, marriage, death registers in the immigrant's language",
+      "Fraternal organization records (Sons of Italy, Polish National Alliance, Slovak Catholic Sokol)",
+      "Passport and emigration records from countries of origin",
+      "Draft registration cards (WWI and WWII — include birthplace and naturalization status)"
+    ],
+    "common_pitfalls": [
+      "Names were not changed at Ellis Island (a persistent myth) — but names were frequently misspelled by clerks unfamiliar with Slavic or Italian spelling conventions",
+      "Place of origin on manifests may list a province, region, or empire rather than a specific town — 'Austria' might mean a Slovak village in Upper Hungary",
+      "Return migration complicates records — an ancestor may appear on multiple arrival manifests",
+      "Borders changed repeatedly — a town that was 'Austria-Hungary' in 1900 may be in Slovakia, Croatia, Poland, or Ukraine today",
+      "Italian civil records (Stato Civile) begin in 1809-1866 depending on region and are now being digitized at Antenati.cultura.gov.it"
+    ],
+    "narrative_hook": "The Ellis Island manifest for {ancestor_name} likely contains a hometown and the name of a relative left behind—two pieces of information that can bridge the Atlantic and connect the American story to centuries of European records."
+  },
+  "counter_narratives": [
+    {
+      "counter_id": "return_migration_massive",
+      "claim": "Immigration to America was a one-way journey — immigrants came and stayed.",
+      "reality": "Return migration was massive and deliberate. Between 30% and 40% of Southern and Eastern European immigrants eventually returned to their home countries permanently. Among Italian immigrants, the return rate was even higher in some periods. Many came as 'birds of passage' — seasonal or temporary workers who crossed the Atlantic multiple times. Return migration was not failure; it was often the plan from the beginning, with American wages funding land purchases or business ventures back home. This complicates genealogical research, as ancestors may appear in American records for a period and then disappear.",
+      "narrative_hook": "If {ancestor_name}'s trail goes cold in {state} after a few years, the explanation may not be death or further migration west—30-40% of Southern and Eastern European immigrants returned home, and {ancestor_name} may have been among them."
+    },
+    {
+      "counter_id": "nativist_discrimination",
+      "claim": "European immigrants were welcomed and quickly accepted into American society.",
+      "reality": "Nativist discrimination against Southern and Eastern Europeans was intense and institutionalized. They were characterized in newspapers, government reports, and pseudo-scientific literature as racially inferior to Northern Europeans. The Dillingham Commission (1907-1911) produced a 41-volume report arguing that 'new' immigrants were less desirable than 'old' immigrants. Literacy tests (1917), the Emergency Quota Act (1921), and the National Origins Act (1924) were all designed specifically to reduce immigration from Southern and Eastern Europe. Workplace discrimination, housing restrictions, and social exclusion were routine. Italians were lynched in New Orleans in 1891. The Ku Klux Klan of the 1920s targeted Catholics and Jews alongside Black Americans.",
+      "narrative_hook": "The America that {ancestor_name} entered was not uniformly welcoming—Southern and Eastern Europeans faced discrimination calibrated by pseudoscientific racial theories that ranked them below Northern Europeans, and the quota laws of the 1920s were written specifically to keep people like {ancestor_name} out."
+    }
+  ],
+  "source_references": [
+    {
+      "source_id": "bodnar_1985",
+      "author": "John Bodnar",
+      "title": "The Transplanted: A History of Immigrants in Urban America",
+      "year": 1985,
+      "publisher": "Indiana University Press",
+      "description": "Comprehensive study of immigrant adjustment in American cities, emphasizing the agency of immigrants in shaping their own communities rather than passive assimilation."
+    },
+    {
+      "source_id": "kessner_1977",
+      "author": "Thomas Kessner",
+      "title": "The Golden Door: Italian and Jewish Immigrant Mobility in New York City, 1880-1915",
+      "year": 1977,
+      "publisher": "Oxford University Press",
+      "description": "Comparative study of Italian and Jewish immigrant economic mobility in New York, using census and other quantitative data to track occupational advancement."
+    },
+    {
+      "source_id": "yans_mclaughlin_1977",
+      "author": "Virginia Yans-McLaughlin",
+      "title": "Family and Community: Italian Immigrants in Buffalo, 1880-1930",
+      "year": 1977,
+      "publisher": "Cornell University Press",
+      "description": "Study of Italian immigrant family structure and community formation in Buffalo, New York, examining how Old World family patterns adapted to New World industrial conditions."
+    },
+    {
+      "source_id": "daniels_2002",
+      "author": "Roger Daniels",
+      "title": "Coming to America: A History of Immigration and Ethnicity in American Life",
+      "year": 2002,
+      "publisher": "Harper Perennial",
+      "description": "Broad survey of American immigration history providing statistical and legislative context for the Southern and Eastern European wave within the larger pattern of American immigration."
+    }
+  ]
+}

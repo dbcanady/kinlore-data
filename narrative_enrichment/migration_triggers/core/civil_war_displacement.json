@@ -1,0 +1,209 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "migration_id": "civil_war_displacement",
+  "display_name": "Civil War Displacement",
+  "short_description": "The mass displacement of approximately two million Americans during the Civil War, including Confederate refugees fleeing battle zones, freedpeople migrating behind Union lines, and soldiers who settled where they served rather than returning home.",
+  "era": "1861-1865",
+  "estimated_scale": "Approximately 2 million people displaced, including Confederate civilian refugees, freedpeople who fled to Union lines, and soldiers who never returned to their pre-war homes.",
+  "involuntary": false,
+  "migration_class": "military",
+  "phases": [
+    {
+      "phase_number": 1,
+      "name": "Confederate Refugee Flight",
+      "era": "1861-1863",
+      "description": "As Union armies advanced into Confederate territory, civilian populations fled ahead of the fighting. The Shenandoah Valley campaigns, the fall of New Orleans (1862), and the occupation of Nashville (1862) produced waves of refugees. Slaveholding families often fled with their enslaved workforce, a practice known as 'refugeeing.' Wealthier families relocated to interior cities like Richmond, Columbia, and Augusta; poorer refugees had fewer options.",
+      "narrative_hook": "When Union forces approached {origin_county} in {year}, {ancestor_name}'s community faced an impossible choice: stay and endure occupation, or flee into an uncertain interior with whatever could be carried."
+    },
+    {
+      "phase_number": 2,
+      "name": "Freedpeople Migration",
+      "era": "1863-1865",
+      "description": "Following the Emancipation Proclamation (January 1863) and advancing Union lines, hundreds of thousands of enslaved people fled to Union-controlled territory. They gathered in contraband camps, worked for the Union Army, enlisted in United States Colored Troops regiments, and began the long process of building free lives. Many moved multiple times — from plantation to contraband camp to freedmen's colony to independent settlement.",
+      "narrative_hook": "When Union troops reached {origin_county}, {ancestor_name} walked toward the lines. The contraband camps were crowded, disease-ridden, and uncertain — but they were free ground."
+    },
+    {
+      "phase_number": 3,
+      "name": "Post-War Non-Return",
+      "era": "1865-1870",
+      "description": "After Appomattox, many soldiers and displaced civilians did not return to their pre-war homes. Some found their homes destroyed. Some had formed new connections where they served. Some freedpeople settled near the contraband camps where they had first tasted freedom. This phase produced permanent demographic shifts across the South and border states.",
+      "narrative_hook": "After the war ended, {ancestor_name} did not go home. Whether the home was gone, the ties were broken, or new ones had formed, the return never happened."
+    }
+  ],
+  "push_factors": [
+    {
+      "factor": "Battle destruction and military campaigns",
+      "description": "Major campaigns devastated civilian communities. Sherman's March to the Sea (1864), Sheridan's burning of the Shenandoah Valley (1864), the siege of Vicksburg (1863), and the Atlanta Campaign (1864) all produced massive civilian displacement."
+    },
+    {
+      "factor": "Military occupation",
+      "description": "Union occupation of Confederate territory brought martial law, confiscation of property, and social upheaval. Many Confederate sympathizers fled rather than live under Federal authority."
+    },
+    {
+      "factor": "Fear of both armies",
+      "description": "Civilians in contested areas faced threats from both sides — foraging parties, guerrilla warfare, and the general lawlessness of war zones. Border state residents were particularly vulnerable."
+    },
+    {
+      "factor": "Emancipation",
+      "description": "For enslaved people, the approach of Union lines represented the opportunity to escape bondage. This was a 'push' only in the sense that the institution of slavery was the condition being fled."
+    }
+  ],
+  "pull_factors": [
+    {
+      "factor": "Safety behind military lines",
+      "description": "Both Confederate and Union civilians sought safety behind their respective armies' lines. Interior Confederate cities swelled with refugees; Union-held territory attracted freedpeople and Unionists."
+    },
+    {
+      "factor": "Contraband camps and freedmen's colonies",
+      "description": "Union-established camps at places like Corinth MS, Grand Junction TN, and Freedman's Village (Arlington VA) provided food, shelter, and wage labor for formerly enslaved people. Despite harsh conditions, they represented a path to freedom."
+    },
+    {
+      "factor": "Family reunification",
+      "description": "Freedpeople migrated to find family members separated by slavery and the domestic slave trade. After emancipation, this search intensified and drove migration patterns for decades."
+    },
+    {
+      "factor": "Soldiers settling where they served",
+      "description": "Union soldiers from the Midwest and Northeast sometimes settled in the South after the war, attracted by cheap land, business opportunities, or relationships formed during service."
+    }
+  ],
+  "transportation": {
+    "methods": [
+      {
+        "mode": "On foot",
+        "description": "The most common mode for both refugees and freedpeople. Families walked for days or weeks carrying what they could."
+      },
+      {
+        "mode": "Wagon and cart",
+        "description": "Wealthier refugees fled by wagon, often in long convoys. Confederate refugees sometimes moved entire households including enslaved people."
+      },
+      {
+        "mode": "Railroad",
+        "description": "Where rail lines remained operational, refugees used trains. Rail was critical for evacuations ahead of advancing armies, particularly in Virginia and Georgia."
+      },
+      {
+        "mode": "River transport",
+        "description": "The Mississippi, Tennessee, and Cumberland rivers served as corridors for both military movement and civilian displacement."
+      }
+    ],
+    "routes": [
+      "Shenandoah Valley to Richmond and interior Virginia",
+      "Atlanta to Macon, Augusta, and interior Georgia",
+      "Middle Tennessee to northern Alabama and Mississippi",
+      "Plantations to Union lines (varied, localized routes)",
+      "Mississippi Valley contraband camp network"
+    ]
+  },
+  "origin_regions": [
+    "Shenandoah Valley, Virginia",
+    "Middle Tennessee",
+    "Northern Mississippi",
+    "Coastal Carolina",
+    "Northern Georgia and Atlanta corridor",
+    "Border states (Missouri, Kentucky, Maryland)"
+  ],
+  "counties_most_affected": [
+    "Shenandoah VA",
+    "Rockingham VA",
+    "Davidson TN",
+    "Fulton GA",
+    "Warren MS",
+    "Jackson MO",
+    "Fayette KY",
+    "Frederick MD",
+    "Loudoun VA",
+    "Chatham GA"
+  ],
+  "destination_refs": [
+    {
+      "location": "Richmond, VA",
+      "role": "Confederate capital and major refugee destination for Virginia and Carolina civilians"
+    },
+    {
+      "location": "Columbia, SC",
+      "role": "Interior Confederate city that absorbed thousands of refugees before Sherman's arrival in 1865"
+    },
+    {
+      "location": "Corinth, MS",
+      "role": "Major contraband camp and freedpeople's settlement after Union capture in 1862"
+    },
+    {
+      "location": "Cairo, IL",
+      "role": "Union supply hub and destination for freedpeople fleeing the upper Mississippi Valley"
+    },
+    {
+      "location": "Washington, DC",
+      "role": "Freedman's Village at Arlington and other camps drew thousands of freedpeople from Virginia and Maryland"
+    }
+  ],
+  "chain_migration": {
+    "pattern": "crisis_flight",
+    "description": "Displacement was driven by the immediate crisis of war rather than established migration networks. However, family and community ties shaped where refugees went — Confederate civilians sought relatives in the interior South, while freedpeople often migrated toward places where family members were known to be. After the war, information networks among freedpeople produced chain-like patterns as word spread about settlement opportunities.",
+    "agency": "variable — ranging from planned evacuation to panicked flight to self-liberation"
+  },
+  "what_happened_to_those_who_stayed": "Civilians who remained in war zones endured occupation, foraging, property destruction, and social upheaval. In the Shenandoah Valley, Sheridan's 1864 campaign deliberately destroyed farms and infrastructure to deny resources to the Confederacy. In occupied cities like New Orleans and Nashville, residents lived under martial law. Enslaved people who remained on plantations experienced the collapse of the slave system in place, sometimes negotiating new labor arrangements with former owners, sometimes simply walking away when the opportunity arose.",
+  "record_implications": [
+    {
+      "record_type": "Military service records",
+      "implication": "Union and Confederate service records document where soldiers enlisted, served, and were discharged. A soldier discharged far from home may have settled there. USCT records are particularly valuable for freedpeople."
+    },
+    {
+      "record_type": "Freedmen's Bureau records",
+      "implication": "Labor contracts, ration records, and correspondence document the movements and circumstances of freedpeople from 1865 to 1872. Bureau agents recorded family separations and reunification attempts."
+    },
+    {
+      "record_type": "Refugee claims and Southern Claims Commission",
+      "implication": "Union loyalists in the South filed claims for property destroyed or confiscated during the war. These records document residence, property, and political allegiance."
+    },
+    {
+      "record_type": "Confederate pension applications",
+      "implication": "Filed decades after the war, these often describe wartime movements, including refugee flight, and post-war settlement. Filed in the state of residence, not necessarily the state of service."
+    }
+  ],
+  "counter_narratives": [
+    {
+      "narrative": "Not all displacement was involuntary",
+      "description": "While the war created enormous pressure to move, some relocations were strategic choices — slaveholders 'refugeeing' their enslaved workforce to protect their investment, entrepreneurs following the armies, and freedpeople deliberately choosing their destinations based on information networks."
+    },
+    {
+      "narrative": "Freedpeople's migration was self-directed liberation",
+      "description": "Framing freedpeople solely as 'displaced' obscures their agency. Many made deliberate, informed decisions about when and where to move, gathered intelligence about Union positions, traveled in organized groups, and actively chose their post-war settlements."
+    },
+    {
+      "narrative": "The war accelerated existing migration patterns",
+      "description": "Some wartime movement followed pre-war migration corridors. Families with relatives in the interior South fled to those relatives. Freedpeople moved toward communities where free Black populations already existed. The war disrupted patterns but also intensified them."
+    }
+  ],
+  "seasonal_departure_pattern": "Displacement was driven by military campaigns rather than seasonal cycles. However, major campaigns typically began in spring and peaked in summer and fall, producing corresponding waves of refugees. Winter quarters brought relative stability, and some displaced people attempted to return home during winter pauses in fighting.",
+  "gender_pattern": "Men of military age were conscripted or enlisted, leaving women, children, and the elderly as the majority of civilian refugees. Confederate refugee accounts are disproportionately women managing households on the move. Among freedpeople, entire families migrated together when possible, but men sometimes went ahead to Union lines and sent for families later. Women and children in contraband camps faced particularly harsh conditions.",
+  "source_references": [
+    {
+      "author": "David Silkenat",
+      "title": "Driven from Home: North Carolina's Civil War Refugee Crisis",
+      "year": 2016,
+      "publisher": "University of Georgia Press",
+      "relevance": "Detailed study of Confederate civilian displacement, focusing on North Carolina but applicable across the South."
+    },
+    {
+      "author": "Yael Sternhell",
+      "title": "Routes of War: The World of Movement in the Confederate South",
+      "year": 2012,
+      "publisher": "Harvard University Press",
+      "relevance": "Examines how the war transformed the movement of people, goods, and information across the Confederate South."
+    },
+    {
+      "author": "Amy Murrell Taylor",
+      "title": "Embattled Freedom: Journeys through the Civil War's Slave Refugee Camps",
+      "year": 2018,
+      "publisher": "University of North Carolina Press",
+      "relevance": "Comprehensive study of the contraband camp system and the experiences of freedpeople who fled to Union lines."
+    },
+    {
+      "author": "Jim Downs",
+      "title": "Sick from Freedom: African-American Illness and Suffering during the Civil War and Reconstruction",
+      "year": 2012,
+      "publisher": "Oxford University Press",
+      "relevance": "Documents the health crises in contraband camps and the medical dimensions of wartime displacement for freedpeople."
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "migration_id": "dust_bowl",
+  "display_name": "Dust Bowl Exodus",
+  "short_description": "Between 1930 and 1940, catastrophic drought, dust storms, and economic collapse drove approximately 2.5 million people from the southern and central Great Plains. The largest peacetime migration in American history funneled families westward along Route 66 and other highways toward California, Oregon, and Washington.",
+  "era": "1930-1940",
+  "estimated_scale": "~2.5 million people left the Plains states; ~300,000 reached California",
+  "involuntary": false,
+  "migration_class": "disaster",
+  "phases": [
+    {
+      "phase_id": "onset",
+      "phase_name": "Drought Onset and Early Departures",
+      "date_range": "1930-1935",
+      "description": "Drought conditions began in 1930 and worsened steadily. Dust storms intensified as overpowed topsoil became airborne. Farm income collapsed. The first wave of departures consisted largely of tenant farmers and sharecroppers who had no land equity to protect. Landowners held on, hoping for rain."
+    },
+    {
+      "phase_id": "mass_exodus",
+      "phase_name": "Mass Exodus",
+      "date_range": "1935-1940",
+      "description": "Black Sunday on April 14, 1935, marked the psychological turning point. A single dust storm stretched from the Dakotas to Texas, turning midday to midnight. After 1935, even landowners abandoned their claims. Entire counties emptied. The migration became a flood rather than a trickle, overwhelming relief agencies and provoking violent hostility in California communities."
+    }
+  ],
+  "push_factors": [
+    {
+      "factor_id": "drought_dust_storms",
+      "factor": "Prolonged drought and catastrophic dust storms",
+      "severity": 5,
+      "description": "The southern Plains received less than half their normal rainfall for nearly a decade. Without rain, crops died. Without crops, topsoil — loosened by decades of deep plowing — became dust. Storms carried millions of tons of soil into the air, burying fences, filling houses, and suffocating livestock. Visibility dropped to zero. Children died of dust pneumonia.",
+      "date_range": "1930-1940",
+      "regional_scope": "Oklahoma Panhandle, Texas Panhandle, southwestern Kansas, southeastern Colorado, northeastern New Mexico",
+      "narrative_hook": "In {destination_county}, the dust came through every crack in the house. {ancestor_name} stuffed rags under the doors and hung wet sheets over the windows, but by morning everything was coated — the table, the beds, the baby's face. The wheat crop was already dead in the field."
+    },
+    {
+      "factor_id": "farm_foreclosure",
+      "factor": "Farm mortgage foreclosures and bank failures",
+      "severity": 5,
+      "description": "With no crops to sell, farmers could not make mortgage payments. Banks foreclosed. In many counties, a quarter to a third of all farms were sold at sheriff's auction between 1930 and 1935. Tenant farmers, who had no equity to begin with, were simply evicted. The economic collapse was absolute and left no margin for survival.",
+      "date_range": "1930-1938",
+      "narrative_hook": "The bank in {town} foreclosed on the {family_name} place in {year}. {ancestor_name} had {debt_amount} in back payments and {crop_value} worth of dead wheat in the field. The sheriff's auction brought in less than the cost of the seed."
+    },
+    {
+      "factor_id": "topsoil_loss",
+      "factor": "Permanent topsoil loss destroying agricultural viability",
+      "severity": 4,
+      "description": "The dust storms did not merely inconvenience farmers; they removed the topsoil itself. In parts of the Oklahoma and Texas Panhandles, six to twelve inches of topsoil blew away entirely, exposing hardpan clay that could not support agriculture. This was not a temporary drought but a permanent degradation of the land's productive capacity.",
+      "date_range": "1932-1940",
+      "narrative_hook": "Even if the rain came back, the soil would not. The {family_name} quarter section in {origin_county} had lost {inches} inches of topsoil to the wind. What remained was hard red clay that a plow could barely scratch. The land {ancestor_name}'s {relation} had homesteaded was finished as farmland."
+    },
+    {
+      "factor_id": "black_sunday",
+      "factor": "Black Sunday — April 14, 1935",
+      "severity": 5,
+      "description": "The single worst dust storm in American history struck on April 14, 1935. A cold front picked up dust from the Dakotas to Texas, creating a black wall of soil thousands of feet high that rolled across the Plains at 60 miles per hour. Midday became midnight. People caught outside could not find their own homes. The psychological impact broke the will of thousands of holdout families who had been determined to stay.",
+      "date_range": "1935-04-14",
+      "narrative_hook": "On April 14, 1935, {ancestor_name} watched a black wall roll in from the north over {origin_county}. By the time it hit, you could not see your hand in front of your face. When the dust settled, {pronoun_subject} told {spouse_name} they were leaving."
+    }
+  ],
+  "pull_factors": [
+    {
+      "factor_id": "california_agriculture",
+      "factor": "California's industrialized agriculture needing seasonal labor",
+      "description": "California's Central Valley produced fruit, vegetables, and cotton on an industrial scale and needed vast quantities of cheap seasonal labor. Handbills circulated across the Plains advertising work picking cotton, peaches, oranges, and grapes. The wages advertised were often fraudulent — growers printed more handbills than they had jobs, ensuring a labor surplus that drove wages below subsistence.",
+      "narrative_hook": "The handbill that {ancestor_name} found tacked to the post office wall in {origin_county} promised {wage} cents a box picking {crop} in {destination_county}. It did not mention that 5,000 other families had the same handbill."
+    },
+    {
+      "factor_id": "route_66_escape",
+      "factor": "Route 66 as a known westward escape corridor",
+      "description": "U.S. Route 66, completed in 1926, ran from Chicago to Los Angeles through the heart of the Dust Bowl states. It became the primary artery for the exodus, a 2,400-mile lifeline from the dead Plains to the promised land of California. Gas stations, auto camps, and relief stations sprang up along its length to service the migration.",
+      "narrative_hook": "The {family_name} family loaded what they could into the {vehicle} and pointed it west on Route 66. They left {origin_county} on {date} with ${money} and {distance} miles of road between them and California."
+    },
+    {
+      "factor_id": "california_perception",
+      "factor": "California's perceived abundance and mild climate",
+      "description": "To families choking on dust and watching their children sicken, California represented everything the Plains no longer offered: rain, green fields, mild winters, and year-round growing seasons. Letters from earlier migrants and promotional materials painted California as a land of plenty where anyone willing to work could eat. The reality was far harsher, but the perception drove the migration.",
+      "narrative_hook": "{ancestor_name} had never seen California, but {pronoun_subject} had seen pictures in the magazine at the {origin_county} library — orange groves, green valleys, mountains with snow. It looked like the opposite of everything outside {pronoun_possessive} window."
+    }
+  ],
+  "transportation": {
+    "primary_mode": "Automobile — overloaded cars, trucks, and jalopies, often mechanically unsound",
+    "route_refs": ["route_66", "us_54", "us_66", "southern_pacific_railroad"],
+    "what_they_carried": "Mattresses strapped to the roof, cooking pots, quilts, clothing, a few hand tools, canned food, water jugs, and whatever family photographs and documents they could fit. Some families pulled homemade trailers. Many carried everything they owned in a single vehicle.",
+    "what_they_left_behind": "Houses (abandoned or foreclosed), farm equipment (repossessed or unsaleable), livestock (sold for pennies or left to die), family graveyards, churches, schools, and the accumulated social capital of communities built over two generations of homesteading.",
+    "cost_of_travel": "$50-$100 for gas, tires, and repairs from the Oklahoma Panhandle to Bakersfield, California — assuming no breakdowns. Many families ran out of money en route and worked odd jobs to buy gas for the next stretch. Tire blowouts on unpaved stretches could strand a family for days.",
+    "seasonal_departure_pattern": "Departures peaked in late winter and early spring (February-April) as families tried to reach California in time for spring planting and harvest seasons. A secondary wave departed in fall after one final failed harvest. Winter departures were less common but not unusual — families who had simply run out of food left regardless of season."
+  },
+  "origin_counties": [
+    "Cimarron OK",
+    "Texas OK",
+    "Beaver OK",
+    "Baca CO",
+    "Morton KS",
+    "Stanton KS",
+    "Dallam TX",
+    "Hartley TX",
+    "Union NM"
+  ],
+  "counties_most_affected": [
+    "Cimarron OK",
+    "Texas OK",
+    "Beaver OK",
+    "Baca CO",
+    "Morton KS",
+    "Stanton KS",
+    "Dallam TX",
+    "Hartley TX",
+    "Union NM"
+  ],
+  "destination_counties": [
+    "Kern CA",
+    "Los Angeles CA",
+    "San Joaquin CA",
+    "Tulare CA",
+    "Madera CA",
+    "Multnomah OR"
+  ],
+  "destination_refs": ["bakersfield_ca", "los_angeles_ca", "san_joaquin_valley_ca", "portland_or"],
+  "chain_migration": {
+    "pattern": "scout_and_send",
+    "description": "Some families sent a father or older son ahead to California to find work and a place to live before the rest of the family followed. But the Dust Bowl migration was also characterized by desperate, unplanned flight — families who loaded their car and left with no contact at the other end, no job waiting, and no plan beyond getting out. The scout-and-send pattern coexisted with pure refugee flight in roughly equal measure.",
+    "gender_pattern": "Families moved together. Women often made the decision to leave when children's health deteriorated from dust pneumonia. Men were more likely to resist leaving the land, seeing departure as personal failure. In many documented cases, it was the wife who packed the car while the husband stood in the yard looking at the ruined fields. Once in California, women often found work faster than men — in canneries, laundries, and domestic service.",
+    "narrative_hook": "{ancestor_name} sent {contact_name} ahead to {destination_county} in {year} to see if the stories about work were true. The letter that came back said there was work picking {crop} for {wage} a day. It was not much. It was more than {origin_county} had."
+  },
+  "what_happened_to_those_who_stayed": "Some counties lost 40-60% of their population and never recovered. Cimarron County, Oklahoma, lost 40% of its residents between 1930 and 1940. The Soil Conservation Service, created in 1935, eventually implemented terracing, contour plowing, and shelterbelt planting that stabilized the remaining soil. Those who endured the worst years often acquired abandoned neighbors' acreage at tax sales for pennies on the dollar, consolidating small homesteads into the large wheat farms and cattle ranches that characterize the region today. Some families that stayed through the dust became the wealthiest landowners in their counties within a generation.",
+  "record_implications": {
+    "census_connections": "The 1930 census captures families in their Plains locations before the migration. The 1940 census captures survivors both in their origin counties (those who stayed) and in California destinations. Comparing 1930 and 1940 locations for the same family documents the migration directly.",
+    "california_records": "California relief agency records, Farm Security Administration camp records, and county welfare rolls document arriving migrants. FSA photographer files (Dorothea Lange, Arthur Rothstein) sometimes identify subjects by name and origin.",
+    "vital_records": "Birth and death certificates for children born or family members who died en route or shortly after arrival in California document the migration pathway. Dust pneumonia deaths in origin counties document conditions for those who stayed.",
+    "newspaper_coverage": "Both origin and destination newspapers covered the migration extensively. Oklahoma and Kansas papers documented the exodus; California papers documented the arrival, often with hostile editorials."
+  },
+  "counter_narratives": [
+    {
+      "narrative_id": "not_all_destitute",
+      "title": "Not all Dust Bowl migrants were destitute",
+      "description": "The Steinbeck image of starving Joads has dominated public memory, but a significant minority of Dust Bowl migrants were landowners who sold their farms voluntarily and moved to California with savings and automobiles in reasonable condition. Some were skilled tradespeople — mechanics, carpenters, teachers — who migrated for opportunity rather than in desperation. The 'Okie' stereotype erased class distinctions within the migrant population.",
+      "narrative_hook": "The {family_name} family sold the {origin_county} place for ${sale_price} before the bank could take it, loaded the {vehicle}, and arrived in {destination_county} with enough cash to rent a house and wait for work. They were not the desperate refugees the newspapers described — but California treated them the same way."
+    },
+    {
+      "narrative_id": "california_hostility",
+      "title": "California was actively hostile to arriving migrants",
+      "description": "Dust Bowl migrants faced intense discrimination in California. They were called 'Okies' regardless of their state of origin, denied service in restaurants, excluded from schools, and subjected to vigilante violence. The Los Angeles Police Department stationed officers at the California border to turn back migrants who could not prove employment. Wages in the fields were deliberately set below subsistence to keep workers dependent. The promised land was a labor camp with armed guards.",
+      "narrative_hook": "When {ancestor_name} crossed the California line at {border_town} in {year}, {pronoun_subject} expected relief. Instead, there was a sheriff's deputy who looked at the {origin_state} plates on the {vehicle} and asked if {pronoun_subject} had a job waiting. {pronoun_subject} did not. The deputy told {pronoun_object} to keep moving."
+    }
+  ],
+  "source_references": [
+    {
+      "source_id": "egan_2006",
+      "citation": "Egan, Timothy. The Worst Hard Time: The Untold Story of Those Who Survived the Great American Dust Bowl. Boston: Houghton Mifflin, 2006.",
+      "relevance": "National Book Award-winning narrative history focusing on the families who stayed in the Dust Bowl rather than those who left. Essential for understanding conditions in origin counties."
+    },
+    {
+      "source_id": "worster_1979",
+      "citation": "Worster, Donald. Dust Bowl: The Southern Plains in the 1930s. New York: Oxford University Press, 1979.",
+      "relevance": "Foundational environmental history that traces the Dust Bowl's causes to agricultural capitalism and the destruction of native grasslands. Provides the ecological framework for understanding the disaster."
+    },
+    {
+      "source_id": "gregory_1989",
+      "citation": "Gregory, James N. American Exodus: The Dust Bowl Migration and Okie Culture in California. New York: Oxford University Press, 1989.",
+      "relevance": "Definitive study of the Dust Bowl migration's California destination, including demographic analysis, reception, labor conditions, and the formation of Okie communities in the San Joaquin Valley."
+    },
+    {
+      "source_id": "fsa_photo_archive",
+      "citation": "Farm Security Administration / Office of War Information Photograph Collection, Library of Congress Prints and Photographs Division.",
+      "relevance": "Primary visual documentation of both Dust Bowl conditions and migrant life in California. Photographers Dorothea Lange, Arthur Rothstein, and Russell Lee documented conditions with names, dates, and locations."
+    }
+  ]
+}

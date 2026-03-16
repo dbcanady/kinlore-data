@@ -1,0 +1,222 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "migration_id": "boll_weevil",
+  "display_name": "Boll Weevil / Cotton Collapse",
+  "short_description": "The boll weevil crossed from Mexico into Texas in 1892 and spread east across the Cotton Belt over three decades, destroying 60-90% of cotton crops and collapsing the tenant farming economy that sustained both Black and white sharecroppers.",
+  "era": "1892-1930",
+  "estimated_scale": "Affected ~10 million people across the Cotton Belt; displaced millions through crop failure, landlord evictions, and credit collapse",
+  "involuntary": false,
+  "migration_class": "economic",
+  "phases": [
+    {
+      "phase_id": "western_cotton_belt",
+      "phase_name": "Western Cotton Belt Infestation",
+      "era": "1892-1910",
+      "estimated_scale": "~2 million people affected across Texas and Louisiana",
+      "peak_years": "1898-1908",
+      "catalyst_summary": "The boll weevil crossed the Rio Grande near Brownsville, Texas in 1892. By 1903 it had reached Louisiana. Cotton yields collapsed by 60-90% in infested counties, destroying the collateral that sustained the entire crop-lien credit system. Landlords who could not collect rent evicted tenants; merchants who could not collect debts closed stores.",
+      "origin_regions": [
+        {
+          "region": "South Texas Cotton Belt",
+          "states": ["TX"],
+          "counties_most_affected": ["Cameron TX", "Hidalgo TX", "Nueces TX", "Brazos TX", "Robertson TX", "Falls TX"],
+          "primary_destinations": ["San Antonio", "Houston", "Dallas", "Fort Worth"],
+          "primary_route": "Southern Pacific and Missouri-Kansas-Texas railroads to Texas cities; wagon roads to nearby counties not yet infested",
+          "peak_departure_years": "1894-1905"
+        },
+        {
+          "region": "Louisiana Cotton Parishes",
+          "states": ["LA"],
+          "counties_most_affected": ["Caddo LA", "Bossier LA", "Natchitoches LA", "Rapides LA", "Concordia LA"],
+          "primary_destinations": ["Shreveport", "New Orleans", "Chicago", "Houston"],
+          "primary_route": "Texas and Pacific Railroad to Shreveport and New Orleans; Illinois Central north to Memphis and Chicago",
+          "peak_departure_years": "1905-1912"
+        }
+      ]
+    },
+    {
+      "phase_id": "deep_south_collapse",
+      "phase_name": "Deep South Cotton Collapse",
+      "era": "1907-1925",
+      "estimated_scale": "~5 million people affected across Mississippi, Alabama, and Georgia",
+      "peak_years": "1910-1920",
+      "catalyst_summary": "The weevil reached Mississippi by 1907, Alabama by 1910, and Georgia by 1915. These states had the highest concentrations of tenant farmers in the nation — counties where 70-90% of farming families owned no land. When cotton failed, the entire economic structure collapsed: tenants lost their livelihood, landlords lost their income, and merchants lost their customers. This phase directly overlapped with and accelerated the First Great Migration.",
+      "origin_regions": [
+        {
+          "region": "Mississippi Delta and Hill Country",
+          "states": ["MS"],
+          "counties_most_affected": ["Bolivar MS", "Washington MS", "Leflore MS", "Noxubee MS", "Lowndes MS"],
+          "primary_destinations": ["Chicago", "St. Louis", "Memphis", "Detroit"],
+          "primary_route": "Illinois Central Railroad north through Memphis to Chicago",
+          "peak_departure_years": "1910-1920"
+        },
+        {
+          "region": "Alabama Black Belt",
+          "states": ["AL"],
+          "counties_most_affected": ["Dallas AL", "Hale AL", "Marengo AL", "Greene AL", "Sumter AL", "Perry AL"],
+          "primary_destinations": ["Birmingham", "Cleveland", "Detroit", "Pittsburgh"],
+          "primary_route": "Louisville and Nashville Railroad to Birmingham and Cincinnati; connections north to industrial cities",
+          "peak_departure_years": "1912-1922"
+        },
+        {
+          "region": "Georgia Piedmont and Coastal Plain",
+          "states": ["GA"],
+          "counties_most_affected": ["Dougherty GA", "Burke GA", "Laurens GA", "Sumter GA", "Terrell GA"],
+          "primary_destinations": ["Atlanta", "Philadelphia", "New York City", "Savannah"],
+          "primary_route": "Central of Georgia Railroad to Atlanta and Savannah; Seaboard Air Line to the Northeast corridor",
+          "peak_departure_years": "1916-1924"
+        }
+      ]
+    },
+    {
+      "phase_id": "eastern_cotton_belt",
+      "phase_name": "Eastern Cotton Belt and Final Spread",
+      "era": "1917-1930",
+      "estimated_scale": "~3 million people affected across the Carolinas and Virginia",
+      "peak_years": "1919-1926",
+      "catalyst_summary": "The weevil reached South Carolina by 1917, North Carolina by 1919, and Virginia by 1922, completing its sweep of the entire American Cotton Belt. Eastern farmers had watched the devastation approaching for two decades and some had already begun diversifying into tobacco, peanuts, or truck farming. Those who had not diversified faced the same abrupt collapse that had struck further west.",
+      "origin_regions": [
+        {
+          "region": "South Carolina and North Carolina Cotton Counties",
+          "states": ["SC", "NC"],
+          "counties_most_affected": ["Orangeburg SC", "Greenwood SC", "Edgecombe NC", "Halifax NC", "Robeson NC"],
+          "primary_destinations": ["Philadelphia", "Baltimore", "New York City", "Washington DC", "Charlotte", "Greenville SC"],
+          "primary_route": "Atlantic Coast Line and Seaboard Air Line to Richmond and Washington DC; Pennsylvania Railroad to Philadelphia and New York; shorter moves to Piedmont textile mill towns",
+          "peak_departure_years": "1919-1928"
+        },
+        {
+          "region": "Virginia Southside",
+          "states": ["VA"],
+          "counties_most_affected": ["Halifax VA", "Mecklenburg VA", "Charlotte VA", "Lunenburg VA"],
+          "primary_destinations": ["Richmond", "Baltimore", "Washington DC", "Philadelphia"],
+          "primary_route": "Southern Railway and Atlantic Coast Line to Richmond; connections north to Baltimore and Washington DC",
+          "peak_departure_years": "1922-1930"
+        }
+      ]
+    }
+  ],
+  "push_factors": [
+    {
+      "factor_id": "crop_destruction",
+      "factor": "Boll weevil destruction of cotton crops",
+      "severity": 5,
+      "description": "The boll weevil larvae fed inside the cotton boll, destroying the fiber before it could be harvested. In heavily infested counties, losses ranged from 60% to 90% of the crop. A farmer who had produced ten bales the previous year might produce one or two. The destruction was not a single-year event but compounded annually as weevil populations exploded in warm, humid conditions.",
+      "date_range": "1892-1925",
+      "regional_scope": ["TX", "LA", "MS", "AL", "GA", "SC", "NC", "VA", "AR", "FL"],
+      "narrative_hook": "By {year}, the boll weevil had reached {county}, and {ancestor_name} likely watched the cotton crop — and with it the entire local economy — collapse within one or two growing seasons."
+    },
+    {
+      "factor_id": "credit_collapse",
+      "factor": "Crop-lien credit system collapse",
+      "severity": 5,
+      "description": "The Cotton Belt economy ran on credit: tenants borrowed against the future crop to purchase seed, fertilizer, food, and clothing from the landlord's commissary or a local merchant. When the weevil destroyed the crop, the collateral evaporated. Merchants refused further credit. Landlords who could not collect rent evicted tenants, sometimes mid-season. Banks foreclosed on landowners who could not service their mortgages.",
+      "date_range": "1895-1925",
+      "regional_scope": ["TX", "LA", "MS", "AL", "GA", "SC", "NC", "VA", "AR"],
+      "narrative_hook": "When the cotton crop failed in {county}, the credit that had sustained {ancestor_name}'s household failed with it. No crop meant no collateral, and no collateral meant the merchant's door closed."
+    },
+    {
+      "factor_id": "landlord_evictions",
+      "factor": "Mass eviction of tenant farmers",
+      "severity": 4,
+      "description": "Landlords facing their own financial ruin responded to crop failure by evicting tenant families, consolidating holdings, or switching to cattle grazing and timber — enterprises that required far fewer workers. A tenant family evicted in November, after the failed harvest, had no income, no savings, and no local prospects. Many had no choice but to leave the county entirely.",
+      "date_range": "1900-1925",
+      "regional_scope": ["TX", "LA", "MS", "AL", "GA", "SC", "NC", "AR"],
+      "narrative_hook": "A landlord facing ruin had little reason to carry {ancestor_name}'s family through another failed season. Eviction after harvest was common — and it came with nowhere local to go."
+    },
+    {
+      "factor_id": "land_value_collapse",
+      "factor": "Collapse of farmland values in cotton counties",
+      "severity": 3,
+      "description": "In counties where cotton was the sole cash crop, land values dropped 30-50% within a few years of the weevil's arrival. Small landowners — including the minority of Black farmers who had managed to acquire their own acreage — saw their net worth evaporate. Some sold at distressed prices; others lost their land to tax sales. The wealth destruction hit hardest among families who had spent decades acquiring a modest holding.",
+      "date_range": "1900-1925",
+      "regional_scope": ["MS", "AL", "GA", "SC", "TX", "LA", "AR"],
+      "narrative_hook": "If {ancestor_name} owned land in {county}, the boll weevil did not just destroy the crop — it destroyed the land's value. Acreage that had been worth fifty dollars per acre might fetch twenty, if a buyer could be found at all."
+    }
+  ],
+  "pull_factors": [
+    {
+      "factor_id": "northern_factory_wages",
+      "factor": "Northern industrial wages far exceeding agricultural earnings",
+      "description": "Steel mills in Pittsburgh and Birmingham, meatpacking plants in Chicago, and automobile factories in Detroit offered daily wages of $3.00 to $5.00 — four to ten times what a cotton tenant could clear in a day even in a good year. For families whose income had just been destroyed, the wage differential was overwhelming and immediate.",
+      "narrative_hook": "With the cotton gone in {county}, {ancestor_name} could look north to factory wages that paid more in a week than a tenant farmer earned in a month — even before the weevil."
+    },
+    {
+      "factor_id": "southern_city_opportunities",
+      "factor": "Employment in Southern cities and textile mills",
+      "description": "Not all boll weevil migrants went north. Many moved to nearby Southern cities — Birmingham, Atlanta, Memphis, Charlotte, Savannah — or to Piedmont textile mill towns that were actively recruiting white labor from the failing cotton counties. The textile mills offered cash wages, company housing, and relative economic stability, though the work was grueling and the pay modest.",
+      "narrative_hook": "Not everyone who left {county} headed for Chicago or Detroit. {ancestor_name} may have made the shorter move to a nearby town or mill village, trading the uncertainty of cotton for the regularity of a weekly wage."
+    },
+    {
+      "factor_id": "crop_diversification",
+      "factor": "Opportunities in diversified agriculture in new regions",
+      "description": "Some farmers displaced by the weevil relocated to areas practicing diversified agriculture — tobacco in the upper Carolinas, peanuts in southeast Alabama and southwest Georgia, truck farming near urban markets. Agricultural extension agents actively promoted diversification, though the transition required capital and knowledge that many tenant farmers lacked.",
+      "narrative_hook": "Some families from {county} did not abandon farming but abandoned cotton, relocating to areas where peanuts, tobacco, or truck crops offered a livelihood the weevil could not destroy."
+    },
+    {
+      "factor_id": "kinship_networks",
+      "factor": "Established family and community networks at destinations",
+      "description": "As with all mass migrations, the first families to leave a county established beachheads at their destinations. They sent word back about jobs, housing, and conditions. Later migrants from the same county followed the same path, creating origin-county clusters in destination cities and reducing the risk of relocation.",
+      "narrative_hook": "{ancestor_name}'s departure from {county} likely followed a path already worn by neighbors and kin who had left in previous seasons and sent word back about where to find work."
+    }
+  ],
+  "transportation": {
+    "primary_mode": "rail",
+    "route_refs": ["illinois_central", "louisville_nashville"],
+    "what_they_carried": "Displaced tenant farmers owned little. A family leaving might carry clothing, bedding, kitchen implements, a Bible, and whatever food could be prepared for the journey. Those who owned a mule and wagon sometimes drove to the nearest rail depot; others walked. Tools that belonged to the landlord stayed behind.",
+    "what_they_left_behind": "The house — which was almost always the landlord's property. The garden. The community. Graves of family members. In some cases, personal property was seized by landlords claiming it as collateral against unpaid debts. Families who left under cover of night to avoid debt confrontations left the most behind.",
+    "cost_of_travel": "$5-$15 for a one-way rail ticket to Northern cities (1910-1925); shorter moves to nearby Southern cities cost $1-$5; some families traveled by wagon to destinations within the same state",
+    "seasonal_departure_pattern": "Departures peaked after fall harvest settlement — typically November through January — when the year's accounts were finalized and the scale of the loss became clear. A second, smaller wave departed in early spring when it became apparent that credit for the coming season would not be extended."
+  },
+  "destination_refs": ["chicago", "detroit", "philadelphia", "pittsburgh", "cleveland"],
+  "chain_migration": {
+    "pattern": "scout_and_send",
+    "description": "The pattern followed the broader Southern out-migration model: one family member — often an unmarried son or young husband — left first to secure employment and housing, then sent for the rest of the family. In the boll weevil context, the urgency was greater than in opportunistic migration because the economic floor had collapsed entirely. Some families relocated as a unit with no advance scout, driven by immediate eviction.",
+    "gender_pattern": "Men typically migrated first to industrial destinations, securing factory or mill employment before sending for families. Women who migrated independently often found domestic service positions in Southern cities or boarding houses in Northern ones. White women from cotton counties also moved to textile mill towns, where entire families — including children — were hired as a unit.",
+    "narrative_hook": "When the cotton failed in {county}, {ancestor_name} likely followed a path already established by kin or neighbors: one person left first, found work, and sent word to follow."
+  },
+  "what_happened_to_those_who_stayed": {
+    "demographic_change": "Cotton Belt counties lost 20-40% of their population in the decades following the weevil's arrival. The departures were disproportionately young adults, leaving behind an aging population. Some counties in the Mississippi Delta and Alabama Black Belt have never recovered their pre-weevil population levels.",
+    "economic_change": "Counties that diversified into peanuts, pecans, livestock, or timber survived. Enterprise, Alabama famously erected a monument to the boll weevil in 1919, crediting the insect with forcing the region to diversify. Counties that could not or did not diversify entered a long economic decline, with consolidated landholdings, reduced commercial activity, and dependence on federal agricultural programs.",
+    "narrative_hook": "Had {ancestor_name} stayed in {county}, they would have witnessed the old cotton economy replaced — in the best cases by diversified agriculture, in the worst by depopulation and decline. Some counties erected monuments to the weevil for forcing change. Others simply emptied out."
+  },
+  "record_implications": [
+    {
+      "pattern": "Ancestor appears as a farmer or farm laborer in a cotton county in one census and in a different county or state in the next census",
+      "interpretation": "Likely displaced by crop failure. Cross-reference the census date with the boll weevil's documented arrival in that county to assess whether the timing aligns.",
+      "research_tip": "Check USDA boll weevil infestation maps by year to confirm the weevil had reached the ancestor's county by the time they left. Agricultural extension service reports and county newspaper archives often documented the weevil's arrival and its impact on specific communities."
+    },
+    {
+      "pattern": "Property tax records show a family disappearing from the rolls after years of continuous listing",
+      "interpretation": "May indicate loss of land through tax sale, foreclosure, or distressed sale following crop failure.",
+      "research_tip": "Search county deed records for forced sales or sheriff's sales in the years following the weevil's arrival. Cross-reference with county tax delinquency rolls."
+    },
+    {
+      "pattern": "Ancestor's occupation changes from farmer or farm laborer to factory worker, miner, or mill hand between censuses",
+      "interpretation": "Occupational shift consistent with displacement from agricultural economy. The boll weevil pushed millions from farming into industrial employment within a single generation.",
+      "research_tip": "Match the occupation change to the destination's major employers. City directories at the destination can narrow the arrival date. Draft registration cards (WWI) may show an intermediate location or occupation."
+    }
+  ],
+  "counter_narratives": [
+    {
+      "topic": "The boll weevil affected white and Black families alike",
+      "detail": "The Great Migration narrative centers Black out-migration, but the boll weevil devastated white tenant farmers and small landowners with equal economic force. White sharecroppers in the Cotton Belt faced the same crop failure, credit collapse, and eviction. Many relocated to textile mill towns across the Piedmont or to Southern cities. The boll weevil was an equal-opportunity economic catastrophe; the racial structures layered on top of it determined where different families could go."
+    },
+    {
+      "topic": "Some communities benefited from the forced diversification",
+      "detail": "The weevil's destruction of cotton monoculture forced some counties to diversify into peanuts, pecans, sweet potatoes, livestock, and truck farming. Coffee County, Alabama — where Enterprise erected the Boll Weevil Monument in 1919 — became more prosperous after diversification than it had been under cotton. The narrative that the weevil was purely destructive overlooks the places where it broke a damaging monoculture dependency."
+    },
+    {
+      "topic": "Not all departures were permanent",
+      "detail": "Some families left cotton counties temporarily, working in sawmills, turpentine camps, or nearby cities for a season or two, then returned when conditions improved or a new landlord offered terms. Migration from boll weevil counties was not always a one-way, permanent departure — it could be cyclical, seasonal, or speculative."
+    }
+  ],
+  "source_references": [
+    "James C. Giesen, Boll Weevil Blues: Cotton, Myth, and Power in the American South (2011)",
+    "Pete Daniel, Breaking the Land: The Transformation of Cotton, Tobacco, and Rice Cultures since 1880 (1985)",
+    "Douglas Helms, 'Just Lookin' for a Home: The Cotton Boll Weevil and the South,' unpublished USDA manuscript (1990s)",
+    "US Department of Agriculture, Boll Weevil Infestation Maps and Reports (1895-1930)",
+    "Gilbert Fite, Cotton Fields No More: Southern Agriculture, 1865-1980 (1984)",
+    "US Census Bureau, Historical Census Data by County (decennial series, 1890-1940)"
+  ]
+}

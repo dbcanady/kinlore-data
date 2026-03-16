@@ -1,0 +1,164 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "migration_id": "textile_mill_recruitment",
+  "display_name": "Textile Mill Recruitment",
+  "short_description": "Between 1880 and 1940, roughly 500,000 Appalachian mountain families were recruited to Piedmont textile mill towns in North Carolina, South Carolina, Georgia, and Alabama. Company labor agents went into the hollows offering cash wages, company housing, and schooling; what they delivered was the company store, child labor, and wages that never cleared the bill.",
+  "era": "1880-1940",
+  "estimated_scale": "~500,000 mountain families relocated to Piedmont mill towns",
+  "involuntary": false,
+  "migration_class": "economic",
+  "phases": [
+    {
+      "phase_id": "early_recruitment",
+      "phase_name": "Early Mill Expansion and Mountain Recruitment",
+      "date_range": "1880-1900",
+      "description": "Piedmont textile mills expanded rapidly after Reconstruction, competing with New England mills by exploiting cheap Southern labor. Mill owners sent recruiters into Appalachian mountain communities where subsistence farming was failing and the cash economy barely existed. The first wave of mountain families traded farm poverty for mill village poverty, exchanging isolation for regimentation."
+    },
+    {
+      "phase_id": "peak_recruitment",
+      "phase_name": "Peak Expansion and Mill Village Culture",
+      "date_range": "1900-1920",
+      "description": "The Piedmont textile industry grew explosively in the early twentieth century, and recruitment intensified. Entire mountain communities were depopulated as families followed kin to the same mill towns. Mill villages developed their own distinct culture — part mountain, part industrial — with company-sponsored churches, baseball teams, and social hierarchies. Child labor was endemic; children as young as eight worked the looms."
+    },
+    {
+      "phase_id": "depression_and_strikes",
+      "phase_name": "Depression, Strikes, and Decline",
+      "date_range": "1920-1940",
+      "description": "The textile industry entered chronic depression in the 1920s, a decade before the rest of the economy. Wage cuts, stretch-outs (requiring workers to tend more machines for the same pay), and worsening conditions provoked the Gastonia Strike of 1929 and the General Textile Strike of 1934. Recruitment from the mountains slowed as mills had more labor than they needed. Some workers drifted back to the mountains; others moved north to factory work."
+    }
+  ],
+  "push_factors": [
+    {
+      "factor_id": "subsistence_farming_failure",
+      "factor": "Subsistence farming failure in Appalachian mountain communities",
+      "severity": 4,
+      "description": "Mountain farming in western North Carolina and north Georgia had always been marginal — steep slopes, thin soil, short growing seasons. By the 1880s, generations of cultivation had exhausted even the best cove land. Families that had been self-sufficient for decades found themselves unable to feed their children. There was no cash crop, no market access, and no alternative employment within walking distance.",
+      "date_range": "1870-1920",
+      "regional_scope": "Western North Carolina, north Georgia, upstate South Carolina mountains",
+      "narrative_hook": "The {family_name} place on {creek_name} in {origin_county} had fed four generations, but the soil was giving out. {ancestor_name} harvested {bushels} bushels of corn from land that once produced {original_bushels}. There was no cash, no credit at the store, and {child_count} mouths to feed."
+    },
+    {
+      "factor_id": "logging_decline",
+      "factor": "Decline of the Appalachian logging industry",
+      "severity": 3,
+      "description": "The timber industry stripped Appalachian old-growth forests between 1880 and 1920, providing temporary wage employment for mountain men. When the timber was gone, the companies left, taking the wages with them. Cutover land was useless for farming and prone to erosion. Communities that had supplemented subsistence farming with logging wages suddenly had neither.",
+      "date_range": "1900-1920",
+      "narrative_hook": "When the {company_name} lumber company pulled out of {origin_county} in {year}, they left behind bare hillsides and unemployed men. {ancestor_name} had worked the timber for {years} years. Now the timber was gone, the land was ruined, and the mill recruiter from {destination_town} was the only one offering cash wages."
+    },
+    {
+      "factor_id": "no_cash_economy",
+      "factor": "Absence of cash economy in mountain communities",
+      "severity": 4,
+      "description": "Mountain families operated largely outside the cash economy, trading labor, crops, and livestock among neighbors. But taxes, store goods, and medical care required cash that subsistence farming did not produce. As the cash economy penetrated the mountains through mail-order catalogs and county tax assessors, families that had been self-sufficient found themselves poor in a way they had never experienced before.",
+      "date_range": "1880-1920",
+      "narrative_hook": "The {family_name} family had always gotten by on what they grew and what they traded, but {origin_county} now wanted ${tax_amount} in property taxes, cash money, and the store in {town} no longer took eggs. {ancestor_name} needed dollars, and the only dollars available were in the mill towns down the mountain."
+    }
+  ],
+  "pull_factors": [
+    {
+      "factor_id": "company_recruiters",
+      "factor": "Mill company labor agents recruiting directly in mountain communities",
+      "description": "Textile companies sent professional labor agents into Appalachian communities with a practiced pitch: cash wages every payday, a company house with a roof that did not leak, schooling for the children, and a church within walking distance. The recruiters knew their audience — families who had never seen a regular paycheck. They did not mention the deductions for rent, coal, and the company store that often consumed the entire wage.",
+      "narrative_hook": "The man from {mill_name} came to {origin_county} in {year} with a wagon and a story about cash wages and company houses. He told {ancestor_name} the mill paid ${wage} a week and the house came with the job. He did not mention that the house rent, the coal bill, and the company store would take ${deduction} of it back."
+    },
+    {
+      "factor_id": "cash_wages",
+      "factor": "Promise of regular cash wages",
+      "description": "For families who had never handled more than a few dollars at a time, the promise of weekly cash wages was transformative. A mill hand might earn $5-$12 per week, and an entire family working together could bring in $20-$30. Even after company deductions, this was more cash than most mountain families had seen in a year. The regularity was as important as the amount — a paycheck every Saturday, rain or shine.",
+      "narrative_hook": "{ancestor_name} had never earned ${amount} in a single week in {origin_county}. The mill in {destination_town} paid that every Saturday. It was not until the first company store bill came due that {pronoun_subject} understood how the arithmetic actually worked."
+    },
+    {
+      "factor_id": "company_housing",
+      "factor": "Company-provided housing and village amenities",
+      "description": "Mill villages offered frame houses with multiple rooms, a well or running water, and access to a company store, church, and school. For families coming from one-room cabins with dirt floors and no glass in the windows, this represented a genuine improvement in material conditions. The houses were small and identical, but they were solid, warm, and dry. The catch was that the house belonged to the company and could be taken away with the job.",
+      "narrative_hook": "The company house on {street_name} in {destination_town} had four rooms, a wood stove, and glass windows. {ancestor_name} had raised {child_count} children in a one-room cabin on {creek_name}. The mill house was the finest place {pronoun_subject} had ever lived. It belonged to {mill_name}."
+    }
+  ],
+  "transportation": {
+    "primary_mode": "Wagon from mountain homestead to Piedmont mill town, later automobile",
+    "route_refs": [],
+    "route_notes": "No major named routes. Mountain families traveled local roads — often little more than creek beds and wagon tracks — down from the Blue Ridge and Smoky Mountains to the Piedmont plateau. Distances were short (50-150 miles) but the terrain was punishing. A wagon trip from Yancey County, NC, to Gaston County took three to five days.",
+    "what_they_carried": "Household goods that would fit in a wagon: bedding, cookware, a rifle, hand tools, clothing, and often a loom or spinning wheel that would prove useless in the mill town. Some families brought a milk cow tied behind the wagon. Fiddles and banjos made the trip; the music survived the transition to industrial life.",
+    "what_they_left_behind": "Family land — often unimproved mountain tracts that had been in the family for generations. Graveyards on the home place. Extended family networks, hunting grounds, medicinal herb gathering sites, and the rhythms of agricultural life tied to season and weather rather than factory bells.",
+    "cost_of_travel": "Minimal in cash terms — most families owned a wagon and mule. The cost was measured in what they gave up: land that could not be sold for meaningful cash but represented generational continuity. A mountain farm that would not sell for $50 was worth more than $50 in family history.",
+    "seasonal_departure_pattern": "Departures clustered in late fall and winter, after the last harvest was in and before spring planting would trap families for another year. Mill recruiters timed their visits to mountain communities for September through November, when the gap between harvest failure and winter hunger was most acute. Families who left in November could be working the looms by December."
+  },
+  "origin_counties": [
+    "Mitchell NC",
+    "Yancey NC",
+    "Madison NC",
+    "Watauga NC",
+    "Avery NC",
+    "Rabun GA",
+    "Habersham GA",
+    "Pickens SC"
+  ],
+  "counties_most_affected": [
+    "Cabarrus NC",
+    "Gaston NC",
+    "Lancaster SC",
+    "Aiken SC",
+    "Greenville SC",
+    "Spartanburg SC"
+  ],
+  "destination_towns": [
+    "Kannapolis NC (Cannon Mills)",
+    "Gastonia NC (Loray Mill)",
+    "Lancaster SC (Springs Mills)",
+    "Graniteville SC (Graniteville Manufacturing Co.)",
+    "Greenville SC",
+    "Spartanburg SC"
+  ],
+  "destination_refs": [],
+  "destination_notes": "Destinations were mill towns, not major cities. Kannapolis, North Carolina, was a company town built entirely by Cannon Mills — the company owned every house, every store, and the town itself was not independently incorporated until 1984. These were industrial villages, not urban centers.",
+  "chain_migration": {
+    "pattern": "labor_agent",
+    "description": "Mill company recruiters physically traveled into mountain communities, often targeting specific families known to be large and healthy. Once a few families from a mountain community settled in a particular mill town, they became informal recruiters themselves, writing letters home describing the wages and the houses. Within a few years, a single mill village might contain dozens of families from the same mountain county, recreating kinship networks within the company town grid.",
+    "gender_pattern": "Entire families were recruited — the mill needed every hand. Children as young as 10 worked the looms. Women worked alongside men but at lower wages. Mill village social life was organized around the company-sponsored church. Women's labor was essential to family survival in the mill economy; a family needed three or four wage earners to meet expenses. Unmarried women worked the same shifts as men and were subject to the same discipline.",
+    "narrative_hook": "After {ancestor_name} moved to {destination_town}, {pronoun_subject} wrote back to {origin_county} about the wages. Within {timeframe}, {count} more {family_name} families had followed — {relative_names} — until the mill village on {street_name} was practically a colony of {origin_county}."
+  },
+  "what_happened_to_those_who_stayed": "Mountain communities hollowed out. Young people left for the mills; old people stayed. Some mountain counties lost half their working-age population between 1890 and 1920. The land reverted to scrub and second-growth forest. Mountain culture persisted in attenuated form — ballad singing, herbalism, craft traditions — but the economic base was gone. Some mountain tracts were eventually absorbed into the national forest system or the Great Smoky Mountains National Park, preserving the land but erasing the communities that had lived on it.",
+  "record_implications": {
+    "mill_records": "Textile company employment records, payroll ledgers, and company housing assignment records document workers by name, origin, family composition, and wage rate. Many of these records survive in university archives — the Southern Historical Collection at UNC Chapel Hill, the Milliken Archives, and county historical societies in mill towns.",
+    "census_connections": "Mountain families appear in their origin counties in 1880 and 1890 censuses. By 1900, 1910, and 1920, many have relocated to Piedmont mill towns. The census occupation field shifts from 'farmer' to 'cotton mill operative' or 'spinner' within a single decade. Children as young as 8 appear in census records with mill occupations.",
+    "church_records": "Mountain Baptist and Methodist churches kept membership rolls that document departures. Mill village churches — often sponsored by the company — kept their own rolls documenting arrivals. Comparing mountain church membership losses with mill village church membership gains traces the migration at the individual level.",
+    "child_labor_records": "The National Child Labor Committee, through photographer Lewis Hine, documented child workers in Piedmont textile mills between 1908 and 1918. Hine's photographs often include names, ages, and mill locations. These records are held at the Library of Congress."
+  },
+  "counter_narratives": [
+    {
+      "narrative_id": "some_prospered",
+      "title": "Some mill workers did prosper",
+      "description": "The dominant narrative of mill village exploitation is accurate for most workers, but skilled operatives — loom fixers, overseers, second hands — earned decent wages and achieved a stability unknown in the mountains. Mill villages provided schools, churches, and medical care that mountain communities lacked. For some families, the move from a dirt-floor cabin to a four-room company house with running water was an unambiguous improvement in material conditions, even accounting for the company store.",
+      "narrative_hook": "{ancestor_name} made loom fixer at {mill_name} within {years} years — ${wage} a week, the highest-paying job on the floor. The company house on {street_name} had running water and an indoor toilet. Back in {origin_county}, {pronoun_possessive} family still carried water from the creek."
+    },
+    {
+      "narrative_id": "labor_radicalization",
+      "title": "Mill work radicalized workers and produced major labor actions",
+      "description": "The conditions that made mill work exploitative also produced some of the most significant labor actions in American history. The Loray Mill Strike in Gastonia, North Carolina (1929) and the General Textile Strike of 1934 — the largest single labor action in American history at the time, with 400,000 workers walking out — demonstrated that mill workers were not passive victims. They organized, struck, fought National Guard troops, and in some cases died on picket lines. The textile labor movement shaped Southern politics for decades.",
+      "narrative_hook": "When the {mill_name} cut wages by {percentage}% and added two looms to every hand's assignment in {year}, {ancestor_name} was one of the first to walk out. The 1934 strike shut down every mill in {destination_county}. The National Guard came. {pronoun_subject} went back to work at gunpoint, but {pronoun_subject} never forgot."
+    }
+  ],
+  "source_references": [
+    {
+      "source_id": "hall_1987",
+      "citation": "Hall, Jacquelyn Dowd, James Leloudis, Robert Korstad, Mary Murphy, Lu Ann Jones, and Christopher B. Daly. Like a Family: The Making of a Southern Cotton Mill World. Chapel Hill: University of North Carolina Press, 1987.",
+      "relevance": "Definitive oral history of Piedmont mill village culture. Based on extensive interviews with mill workers and their descendants, documenting the transition from mountain to mill life in granular detail."
+    },
+    {
+      "source_id": "carlton_1982",
+      "citation": "Carlton, David L. Mill and Town in South Carolina, 1880-1920. Baton Rouge: Louisiana State University Press, 1982.",
+      "relevance": "Political and economic history of the South Carolina textile industry, including detailed analysis of labor recruitment practices, company town governance, and the relationship between mill owners and state government."
+    },
+    {
+      "source_id": "newby_1989",
+      "citation": "Newby, I.A. Plain Folk in the New South: Social Change and Cultural Persistence, 1880-1915. Baton Rouge: Louisiana State University Press, 1989.",
+      "relevance": "Examines the cultural continuities and disruptions experienced by Southern rural people entering industrial work, with significant attention to textile mill communities and the mountain-to-mill migration."
+    },
+    {
+      "source_id": "hine_photographs",
+      "citation": "Hine, Lewis Wickes. National Child Labor Committee Photographs, 1908-1918. Library of Congress Prints and Photographs Division.",
+      "relevance": "Primary visual documentation of child labor in Piedmont textile mills. Hine's photographs and field notes identify children by name, age, mill location, and sometimes family origin, providing genealogical evidence of the mountain-to-mill migration."
+    }
+  ]
+}

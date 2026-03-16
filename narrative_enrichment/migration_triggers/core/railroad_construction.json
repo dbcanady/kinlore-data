@@ -1,0 +1,173 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "migration_id": "railroad_construction",
+  "display_name": "Railroad Construction Migration",
+  "short_description": "Mass mobilization of Irish, Chinese, freed Black, and Mexican laborers to build the American railroad network, creating an inherently mobile workforce that followed the tracks west and south.",
+  "era": "1850-1890",
+  "estimated_scale": "Approximately 2 million workers participated in railroad construction across four decades, drawn from Irish, Chinese, freed Black, and Mexican labor pools",
+  "involuntary": false,
+  "migration_class": "economic",
+  "phases": [
+    {
+      "phase_number": 1,
+      "name": "Eastern Railroad Boom",
+      "date_range": "1850-1865",
+      "description": "Massive expansion of rail lines through the Northeast and Midwest relied heavily on Irish immigrant labor. Many workers had arrived during or after the Great Famine and moved directly from port cities to rail construction camps. The Civil War briefly disrupted construction but also demonstrated the military necessity of railroads."
+    },
+    {
+      "phase_number": 2,
+      "name": "Transcontinental Construction",
+      "date_range": "1863-1869",
+      "description": "The Central Pacific built east from Sacramento using predominantly Chinese labor, eventually employing over 12,000 Chinese workers. The Union Pacific built west from Omaha using Irish immigrants, Civil War veterans, and freed Black laborers. The two lines met at Promontory Summit, Utah on May 10, 1869."
+    },
+    {
+      "phase_number": 3,
+      "name": "Western and Southern Expansion",
+      "date_range": "1870-1890",
+      "description": "A diverse workforce built the Southern Pacific, Northern Pacific, Atchison Topeka & Santa Fe, and dozens of regional lines. Mexican laborers became the primary workforce for southwestern routes. Chinese workers barred from other employment after the 1882 Exclusion Act continued in railroad maintenance. Black laborers built much of the southern rail network."
+    }
+  ],
+  "push_factors": [
+    "Irish Famine and post-Famine poverty drove emigration from Ireland directly into American labor markets",
+    "Economic opportunity drew Chinese laborers via California, many arriving through the credit-ticket system",
+    "Post-emancipation Black laborers had few employment options outside agricultural labor",
+    "Seasonal agricultural downtime in Mexico pushed workers toward railroad construction wages",
+    "Urban unemployment during periodic economic downturns sent men to construction camps"
+  ],
+  "pull_factors": [
+    "Wages of $1 to $2 per day were competitive for unskilled labor in the 1850s through 1880s",
+    "Free transportation to the construction site removed the barrier of travel cost",
+    "Some companies offered land grants along the right-of-way to workers who completed terms of service",
+    "Room and board, however rough, were provided at construction camps",
+    "Possibility of settling in new territory once the line was completed"
+  ],
+  "counties_most_affected": [
+    "Sacramento CA",
+    "Douglas NE",
+    "Summit UT",
+    "Storey NV",
+    "Placer CA",
+    "Weber UT",
+    "Pottawattamie IA",
+    "El Paso TX",
+    "Pulaski VA",
+    "Allegheny PA"
+  ],
+  "_counties_note": "Railroad construction was inherently mobile and crossed nearly every county in the nation. The counties listed above represent major staging points, termini, and known construction camp locations. The workforce did not settle in any single county but moved with the railhead.",
+  "transportation": {
+    "primary_routes": [
+      "The railroad itself — workers rode construction trains to the current end-of-track",
+      "Sailing ships from Canton and Hong Kong to San Francisco for Chinese workers",
+      "Steamships from Liverpool and Cork to New York and Boston for Irish workers",
+      "Overland wagon roads to reach remote construction sites ahead of the rails"
+    ],
+    "typical_journey": "Chinese workers sailed 6 to 8 weeks from southern China to San Francisco, then traveled by rail or wagon to the construction front. Irish workers crossed the Atlantic in 2 to 4 weeks and often went directly from the docks to rail camps. The workforce moved with the line, advancing miles per day in flat terrain, feet per day through mountain passes."
+  },
+  "destination_refs": [
+    {
+      "city": "Sacramento",
+      "state": "CA",
+      "neighborhood": "Central Pacific staging yards",
+      "industries": ["Railroad construction", "Supply depot"],
+      "narrative_hook": "If {surname} worked the Central Pacific, the journey began in Sacramento, where the foothills of the Sierra Nevada rose to the east like a wall of granite and timber."
+    },
+    {
+      "city": "Omaha",
+      "state": "NE",
+      "neighborhood": "Union Pacific railyards",
+      "industries": ["Railroad construction", "Supply depot"],
+      "narrative_hook": "Omaha was the jumping-off point for the Union Pacific, and {given_name} would have crossed the Missouri River into a landscape of grass and sky that stretched beyond imagination."
+    },
+    {
+      "city": "Promontory Summit",
+      "state": "UT",
+      "neighborhood": "End-of-track meeting point",
+      "industries": ["Railroad construction"],
+      "narrative_hook": "Whether {surname} was among the thousands who built toward Promontory Summit or not, the completion of the transcontinental line in 1869 reshaped every American life that followed."
+    },
+    {
+      "city": "Various towns along the line",
+      "state": "Multiple",
+      "neighborhood": "Construction camps, section houses, railroad towns",
+      "industries": ["Railroad construction", "Railroad maintenance", "Town building"],
+      "narrative_hook": "Many railroad workers like {given_name} became the founding residents of towns that sprang up along the right-of-way, places that existed only because the railroad decided to put a water stop or switching yard there."
+    }
+  ],
+  "chain_migration": {
+    "pattern": "labor_agent",
+    "description": "Railroad companies recruited in specific communities through labor agents. Chinese labor was organized through the Six Companies (Chinese Consolidated Benevolent Association) in San Francisco. Irish labor was recruited at the docks in New York and Boston. Southern railroads sent agents into Black communities. Southwestern lines recruited through labor contractors along the Mexican border.",
+    "gender_pattern": "Almost exclusively male workforce. Women stayed behind or ran boarding houses at construction camps. Chinese workers were prohibited from bringing wives under the Page Act of 1875. Irish women sometimes followed husbands to larger construction camps but rarely to the active railhead. Black women occasionally worked as cooks and laundresses in southern construction camps.",
+    "seasonal_departure_pattern": "Construction was year-round where climate permitted, but peaked in spring through fall. Mountain construction slowed or halted in winter. Workers in northern climates were sometimes laid off from November through March, creating seasonal displacement to nearby towns.",
+    "narrative_hook": "Railroad companies did not wait for workers to appear. They sent agents into communities like the one where {surname} lived, promising wages and adventure. The agent's pitch was simple: come build the future of America, and get paid doing it."
+  },
+  "what_happened_to_those_who_stayed": {
+    "description": "Those who did not join railroad construction crews often found that the railroad transformed their communities anyway. Rail lines brought markets, migrants, and competition. Farmers along new routes gained access to distant markets but also faced competition from distant producers. Towns bypassed by the railroad withered. Towns on the line boomed.",
+    "narrative_hook": "Even if {surname} never swung a spike maul, the railroad still came through. And when it did, nothing in {county} was ever quite the same."
+  },
+  "record_implications": {
+    "records_created": [
+      "Railroad company payroll records (many held at state historical societies or the National Archives)",
+      "Chinese Exclusion Act case files at the National Archives (often contain employment histories)",
+      "Company town records including commissary ledgers and housing assignments",
+      "Newspaper accounts of construction progress mentioning worker nationalities and numbers"
+    ],
+    "records_disrupted": [
+      "Mobile workforce rarely appears in county census records — enumerated between censuses at temporary camps",
+      "Chinese workers systematically excluded from many local records",
+      "Black railroad workers in the South were often recorded only by first name in company records",
+      "Workers killed in construction accidents frequently buried in unmarked graves along the right-of-way"
+    ],
+    "research_tips": [
+      "Check the National Archives Record Group 267 for Chinese Exclusion Act files that document railroad employment",
+      "Railroad company records are scattered — Union Pacific records at the Nebraska State Historical Society, Central Pacific records at the California State Railroad Museum",
+      "The 1870 and 1880 census may catch railroad workers at construction camps if enumerated at the right time",
+      "Local newspaper archives along the route often published construction progress reports naming contractors and labor sources",
+      "Section house records and maintenance-of-way employment rolls may survive at regional railroad historical societies"
+    ]
+  },
+  "counter_narratives": [
+    {
+      "title": "Dangerous and Exploitative Work",
+      "description": "Railroad construction was among the most dangerous work in 19th-century America. Tunnel collapses, nitroglycerin explosions, winter exposure in the Sierra Nevada, heatstroke on the plains, and disease in swamp terrain killed workers by the thousands. Chinese workers on the Central Pacific were paid less than Irish workers for the same work and were required to buy their own food. Company stores charged inflated prices. Many workers ended their service in debt."
+    },
+    {
+      "title": "Workers Settled Along the Line",
+      "description": "Many railroad workers became the founding population of towns along the route. Section hands assigned to maintain completed track settled permanently at section houses. Chinese workers established communities in railroad towns across the West. Irish workers who started as laborers became section foremen, station agents, and eventually railroad executives. The workforce that built the line often became the population that sustained it."
+    },
+    {
+      "title": "Erasure of Chinese Contribution",
+      "description": "Despite building the most difficult sections of the transcontinental railroad through the Sierra Nevada, Chinese workers were excluded from the famous completion photograph at Promontory Summit. The Chinese Exclusion Act of 1882 subsequently made it illegal for Chinese laborers to enter the United States, effectively erasing an ongoing labor contribution and scattering the existing workforce into whatever employment would have them."
+    }
+  ],
+  "source_references": [
+    {
+      "author": "David Haward Bain",
+      "title": "Empire Express: Building the First Transcontinental Railroad",
+      "year": 1999,
+      "publisher": "Viking",
+      "type": "book"
+    },
+    {
+      "author": "Ronald Takaki",
+      "title": "Strangers from a Different Shore: A History of Asian Americans",
+      "year": 1989,
+      "publisher": "Little, Brown and Company",
+      "type": "book"
+    },
+    {
+      "author": "Walter Licht",
+      "title": "Working for the Railroad: The Organization of Work in the Nineteenth Century",
+      "year": 1983,
+      "publisher": "Princeton University Press",
+      "type": "book"
+    },
+    {
+      "author": "Gordon H. Chang",
+      "title": "Ghosts of Gold Mountain: The Epic Story of the Chinese Who Built the Transcontinental Railroad",
+      "year": 2019,
+      "publisher": "Houghton Mifflin Harcourt",
+      "type": "book"
+    }
+  ]
+}

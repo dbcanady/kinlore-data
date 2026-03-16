@@ -1,0 +1,186 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "migration_id": "economic_panics_19c",
+  "display_name": "Economic Panics: 19th Century",
+  "short_description": "Recurring financial crises from 1837 to 1907 that drove waves of internal migration as families fled bank failures, job loss, and farm foreclosures toward frontier land, mining camps, and whatever opportunity remained.",
+  "era": "1837-1907",
+  "estimated_scale": "Millions affected across multiple panic cycles spanning seven decades",
+  "involuntary": false,
+  "migration_class": "economic",
+  "_design_note": "This trigger is intentionally broad, covering five distinct panic events in a single file. Future sprints should split into per-panic entries with distinct geographic analyses. The current structure provides narrative hooks and general migration patterns for each event.",
+  "phases": [
+    {
+      "phase_number": 1,
+      "name": "Panic of 1837",
+      "date_range": "1837-1843",
+      "description": "Collapse of land speculation and Andrew Jackson's Specie Circular triggered widespread bank failures. Cotton prices crashed. Unemployment in eastern cities reached unprecedented levels. The crisis pushed settlers westward into the Mississippi Valley and beyond, where cheap federal land offered a fresh start. This panic accelerated the settlement of Iowa, Wisconsin, and Missouri."
+    },
+    {
+      "phase_number": 2,
+      "name": "Panic of 1857",
+      "date_range": "1857-1859",
+      "description": "The failure of the Ohio Life Insurance and Trust Company triggered a railroad stock bubble burst. Northern industrial states were hit hardest while the agrarian South was partially insulated. The discovery of gold at Pike's Peak in 1858 drew unemployed men westward. The slogan 'Pike's Peak or Bust' became the rallying cry of economic refugees."
+    },
+    {
+      "phase_number": 3,
+      "name": "Panic of 1873",
+      "date_range": "1873-1879",
+      "description": "The failure of Jay Cooke and Company, overextended from Northern Pacific Railroad financing, set off a six-year depression. Over 18,000 businesses failed. Railroad construction halted. Unemployment in industrial cities drove workers toward mining camps in the Black Hills, Leadville, and Tombstone. The depression also fueled labor unrest, culminating in the Great Railroad Strike of 1877."
+    },
+    {
+      "phase_number": 4,
+      "name": "Panic of 1893",
+      "date_range": "1893-1897",
+      "description": "The collapse of silver prices and the failure of the Reading Railroad triggered the worst depression the nation had yet experienced. Over 500 banks closed. Unemployment reached 20% in industrial areas. The Cripple Creek gold rush of 1893 drew desperate miners. The Oklahoma Land Run of 1893 attracted displaced farmers. Coxey's Army marched on Washington in 1894, a visible symbol of economic desperation driving people to move."
+    },
+    {
+      "phase_number": 5,
+      "name": "Panic of 1907",
+      "date_range": "1907-1908",
+      "description": "A banking crisis centered on trust companies in New York required J.P. Morgan's personal intervention to prevent total financial collapse. The panic was brief but sharp, causing industrial slowdowns and layoffs across the manufacturing belt. It ultimately led to the creation of the Federal Reserve System in 1913. Migration effects were more localized and shorter-lived than earlier panics."
+    }
+  ],
+  "push_factors": [
+    "Job loss in factories, mills, and railroad construction",
+    "Bank failures that wiped out savings with no deposit insurance",
+    "Farm foreclosures when commodity prices collapsed below the cost of production",
+    "Business failures that cascaded through local economies",
+    "Wage cuts and labor disputes that made existing employment untenable"
+  ],
+  "pull_factors": [
+    "Cheap or free frontier land under the Homestead Act of 1862 and subsequent land acts",
+    "Mining camp booms — gold at Pike's Peak, Cripple Creek, Black Hills; silver at Leadville, Tombstone",
+    "Family farms in less-affected regions offered subsistence if not prosperity",
+    "New territories and states offered land grants and promotional campaigns to attract settlers",
+    "Seasonal agricultural labor in regions less affected by financial disruption"
+  ],
+  "counties_most_affected": [
+    "New York NY",
+    "Philadelphia PA",
+    "Cook IL",
+    "Hamilton OH",
+    "Cuyahoga OH",
+    "Allegheny PA",
+    "Teller CO",
+    "Lawrence SD",
+    "Lake CO",
+    "Cochise AZ"
+  ],
+  "transportation": {
+    "primary_routes": [
+      "Overland wagon routes to western territories during earlier panics",
+      "Railroad lines (when operational and affordable) for later panics",
+      "River systems — Ohio, Mississippi, Missouri rivers carried economic refugees west and south",
+      "Coastal steamships from eastern ports to Gulf Coast and California"
+    ],
+    "typical_journey": "Travel methods and duration varied enormously across seven decades. In 1837, a family heading west might spend weeks on a wagon. By 1893, a displaced worker could ride the rails to Cripple Creek in days. Many who could not afford tickets rode freight cars illegally, a practice that became endemic during each depression."
+  },
+  "destination_refs": [
+    {
+      "city": "Various frontier settlements",
+      "state": "IA, WI, MO, KS, NE",
+      "neighborhood": "Homestead claims and town lots",
+      "industries": ["Agriculture", "Town building"],
+      "narrative_hook": "When the banks failed and the factory closed, {surname} did what thousands did: packed a wagon and headed for land that had never yet failed anyone, because nobody had yet tried to farm it."
+    },
+    {
+      "city": "Pike's Peak region",
+      "state": "CO",
+      "neighborhood": "Mining camps along the Front Range",
+      "industries": ["Gold mining", "Supply services"],
+      "narrative_hook": "The sign on {given_name}'s wagon might well have read 'Pike's Peak or Bust,' though by 1858 the real destination was anywhere that was not the bankrupt city left behind."
+    },
+    {
+      "city": "Cripple Creek",
+      "state": "CO",
+      "neighborhood": "Mining district camps",
+      "industries": ["Gold mining"],
+      "narrative_hook": "Cripple Creek in 1893 was a magnet for the desperate. If {surname} arrived that year, the family was likely running from a bank failure as much as running toward gold."
+    },
+    {
+      "city": "Various Oklahoma territories",
+      "state": "OK",
+      "neighborhood": "Land run claim sites",
+      "industries": ["Agriculture", "Ranching"],
+      "narrative_hook": "The Oklahoma land runs drew families like the {surname}s who had lost everything in the East and saw free land as the only remaining path to self-sufficiency."
+    }
+  ],
+  "chain_migration": {
+    "pattern": "crisis_dispersal",
+    "description": "Panic-driven migration rarely followed the orderly patterns of chain migration. Families scattered toward whatever opportunity they heard about through newspapers, letters from relatives, or word of mouth. Some followed kin who had previously settled in western territories. Others simply moved toward rumors of gold, free land, or available work.",
+    "gender_pattern": "Men frequently went ahead to mining camps or frontier claims, leaving families behind until they could establish a foothold. Single men were the most mobile, moving from camp to camp following strikes and booms. Women managed households during the crisis, often taking in boarders or washing to generate income while husbands sought new employment elsewhere.",
+    "seasonal_departure_pattern": "Financial panics did not follow seasons, but their migration effects did. Spring departures were most common for overland travel to frontier destinations. Mining camp migration was year-round but peaked after winter thaws. Urban-to-rural reverse migration often coincided with planting season when farm labor was needed.",
+    "narrative_hook": "A panic did not announce itself politely. One day {given_name} had a job and savings in the bank. The next, the bank was shuttered and the factory gate locked. What followed was not a plan but a scramble."
+  },
+  "what_happened_to_those_who_stayed": {
+    "description": "Those who stayed through panics faced unemployment, charity dependence, and social upheaval. Mutual aid societies and churches provided what relief existed before government safety nets. Labor organizations grew in strength during depressions as workers organized against wage cuts. Some who weathered the storm bought foreclosed property cheaply and emerged wealthier than before.",
+    "narrative_hook": "Not everyone in {county} left during the panic. Those who stayed endured. They took whatever work existed, relied on neighbors, and waited for the economy to turn. Some of them ended up owning the properties their departed neighbors had been forced to abandon."
+  },
+  "record_implications": {
+    "records_created": [
+      "Bankruptcy and insolvency court records",
+      "Sheriff's sale and foreclosure notices in county deed books",
+      "Mining claim records at territorial and state land offices",
+      "Homestead Act applications at the General Land Office (now BLM)",
+      "Charity organization society records in major cities"
+    ],
+    "records_disrupted": [
+      "Tax records become erratic as property values collapse and owners abandon land",
+      "Church membership rolls show sudden departures without transfer letters",
+      "County vital records thin as populations scatter",
+      "Business directories shrink dramatically during depression years"
+    ],
+    "research_tips": [
+      "Check BLM General Land Office records (glorecords.blm.gov) for homestead and mining claims filed during panic years",
+      "County deed books during panic years show foreclosure sales — the buyer may be a bank or speculator, but the seller is your ancestor losing their farm",
+      "Newspaper archives during panic years carry lists of business failures, sheriff's sales, and charity recipients",
+      "Census records taken during or just after panics may show families displaced from their normal locations",
+      "Colorado mining district records at the Colorado State Archives document claims filed during the Pike's Peak and Cripple Creek rushes"
+    ]
+  },
+  "counter_narratives": [
+    {
+      "title": "Not Everyone Suffered Equally",
+      "description": "Financial panics devastated wage workers and small farmers but created opportunities for those with cash reserves. Speculators bought foreclosed land for pennies on the dollar. Factory owners used depressions to break unions and cut wages. The wealth gap widened during every panic, a pattern that genealogists should note when tracing families that seem to prosper during hard times."
+    },
+    {
+      "title": "Panics Accelerated Westward Settlement",
+      "description": "While economic collapses caused genuine suffering, they also accelerated the settlement of the American West. Each panic pushed a new wave of families beyond the current frontier. The Panic of 1837 filled Iowa and Wisconsin. The Panic of 1857 sent people to Colorado. The Panic of 1893 populated Oklahoma. Economic desperation was as powerful a force in western expansion as opportunity or adventure."
+    },
+    {
+      "title": "Labor Organizing as Response",
+      "description": "Not all migration during panics was geographic. Some was political. The Knights of Labor, the American Federation of Labor, and the Industrial Workers of the World all gained strength during economic downturns. Coxey's Army in 1894 and the Great Railroad Strike of 1877 were direct responses to panic-driven suffering. An ancestor who stayed put during a panic may have joined a union instead of a wagon train."
+    }
+  ],
+  "source_references": [
+    {
+      "author": "Scott Reynolds Nelson",
+      "title": "A Nation of Deadbeats: An Uncommon History of America's Financial Disasters",
+      "year": 2012,
+      "publisher": "Alfred A. Knopf",
+      "type": "book"
+    },
+    {
+      "author": "Jessica M. Lepler",
+      "title": "The Many Panics of 1837: People, Politics, and the Creation of a Transatlantic Financial Crisis",
+      "year": 2013,
+      "publisher": "Cambridge University Press",
+      "type": "book"
+    },
+    {
+      "author": "Charles W. Calomiris and Stephen H. Haber",
+      "title": "Fragile by Design: The Political Origins of Banking Crises and Scarce Credit",
+      "year": 2014,
+      "publisher": "Princeton University Press",
+      "type": "book"
+    },
+    {
+      "author": "Robert F. Bruner and Sean D. Carr",
+      "title": "The Panic of 1907: Lessons Learned from the Market's Perfect Storm",
+      "year": 2007,
+      "publisher": "Wiley",
+      "type": "book"
+    }
+  ]
+}

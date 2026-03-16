@@ -1,0 +1,197 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "migration_id": "appalachian_out_migration",
+  "display_name": "Appalachian Out-Migration",
+  "short_description": "Mass departure of Appalachian families to Northern industrial cities driven by coal mine mechanization and rural poverty, reshaping the demographics of both the mountains and the Rust Belt.",
+  "era": "1940-1970",
+  "estimated_scale": "Approximately 3.5 million people left Appalachia between 1940 and 1970",
+  "involuntary": false,
+  "migration_class": "economic",
+  "phases": [
+    {
+      "phase_number": 1,
+      "name": "WWII-Era Flight",
+      "date_range": "1940-1945",
+      "description": "War production created unprecedented demand for industrial labor. Appalachian men and women left coal camps for defense plants in Detroit, Cincinnati, and Baltimore. Draft deferments were available for essential war industry work, adding incentive to relocate."
+    },
+    {
+      "phase_number": 2,
+      "name": "Post-War Wave",
+      "date_range": "1945-1960",
+      "description": "Returning veterans chose not to go back to the mines. Coal mechanization accelerated as continuous mining machines replaced pick-and-shovel labor. Entire communities hollowed out. Harlan County, Kentucky lost roughly 40% of its population during this period."
+    },
+    {
+      "phase_number": 3,
+      "name": "Highway Migration",
+      "date_range": "1960-1970",
+      "description": "Improved highways, particularly US Route 23, made the journey north faster and more routine. Weekend trips home became feasible, creating a sustained corridor of movement between Appalachian home counties and Northern factory cities."
+    }
+  ],
+  "push_factors": [
+    "Coal mine mechanization eliminated thousands of manual labor jobs",
+    "Mine closures left company towns with no economic base",
+    "Persistent poverty with no viable alternative employment",
+    "Inadequate schools and medical facilities in remote hollows",
+    "Harlan County KY lost approximately 40% of its population as mines closed"
+  ],
+  "pull_factors": [
+    "Auto factories in Detroit offered steady wages and benefits",
+    "Steel mills in Cleveland and Pittsburgh hired in volume",
+    "Rubber plants in Akron recruited Appalachian labor directly",
+    "Factory wages ran 3 to 5 times what a miner could earn",
+    "Established kin networks in destination cities reduced the risk of relocation"
+  ],
+  "counties_most_affected": [
+    "Harlan KY",
+    "Pike KY",
+    "Letcher KY",
+    "McDowell WV",
+    "Mingo WV",
+    "Logan WV",
+    "Breathitt KY",
+    "Floyd KY",
+    "Knott KY",
+    "Raleigh WV"
+  ],
+  "transportation": {
+    "primary_routes": [
+      "US Route 23 — principal highway corridor from eastern Kentucky and West Virginia to Ohio and Michigan",
+      "US Route 25 — secondary route through central Kentucky to Ohio",
+      "L&N Railroad — Louisville and Nashville line carried passengers north through Kentucky"
+    ],
+    "typical_journey": "By car, the drive from Harlan County KY to Detroit MI took 8 to 10 hours on two-lane roads in the 1950s. Many traveled by bus or rode with relatives already making the commute."
+  },
+  "destination_refs": [
+    {
+      "city": "Detroit",
+      "state": "MI",
+      "neighborhood": "Briggs neighborhood, later spreading to Inkster and Ypsilanti",
+      "industries": ["Automobile manufacturing", "Defense production"],
+      "narrative_hook": "When {surname} arrived in Detroit, the Briggs neighborhood was already thick with Appalachian accents. Entire blocks spoke with the cadence of eastern Kentucky."
+    },
+    {
+      "city": "Cleveland",
+      "state": "OH",
+      "neighborhood": "Near West Side",
+      "industries": ["Steel production", "Heavy manufacturing"],
+      "narrative_hook": "The steel mills along the Cuyahoga River drew families like the {surname}s out of the West Virginia coalfields and into a different kind of industrial heat."
+    },
+    {
+      "city": "Cincinnati",
+      "state": "OH",
+      "neighborhood": "Over-the-Rhine, Lower Price Hill",
+      "industries": ["Manufacturing", "Meatpacking"],
+      "narrative_hook": "Cincinnati sat just across the river from Kentucky, close enough that {given_name} could smell home on a south wind."
+    },
+    {
+      "city": "Columbus",
+      "state": "OH",
+      "neighborhood": "South Side, Hilltop",
+      "industries": ["Manufacturing", "Government employment"],
+      "narrative_hook": "Columbus offered {surname} factory work without the grime of a steel town, though the pay was often a notch lower."
+    },
+    {
+      "city": "Dayton",
+      "state": "OH",
+      "neighborhood": "East Dayton, Appalachian corridor",
+      "industries": ["Auto parts", "Defense contracting"],
+      "narrative_hook": "Dayton's defense plants kept {given_name} employed through the Korean War buildup when other factories slowed."
+    },
+    {
+      "city": "Akron",
+      "state": "OH",
+      "neighborhood": "South Akron, Kenmore",
+      "industries": ["Rubber manufacturing", "Tire production"],
+      "narrative_hook": "The rubber plants of Akron ran three shifts, and {surname} found work on the line within days of arriving."
+    },
+    {
+      "city": "Chicago",
+      "state": "IL",
+      "neighborhood": "Uptown",
+      "industries": ["Steel", "Manufacturing", "Meatpacking"],
+      "narrative_hook": "Chicago's Uptown neighborhood became an Appalachian enclave where {given_name} could find cornbread and familiar faces far from the mountains."
+    },
+    {
+      "city": "Baltimore",
+      "state": "MD",
+      "neighborhood": "Hampden, Remington",
+      "industries": ["Steel (Sparrows Point)", "Shipbuilding"],
+      "narrative_hook": "The Sparrows Point steel mill and the shipyards of Baltimore's harbor gave {surname} a paycheck that dwarfed anything Appalachia could offer."
+    }
+  ],
+  "chain_migration": {
+    "pattern": "scout_and_send",
+    "description": "A young man, often unmarried or newly married, traveled north to secure factory employment and housing. Once established, he sent word and often money for family members to follow. Within months to a year, wives, children, siblings, and parents relocated to join him.",
+    "gender_pattern": "Men went first for factory jobs. Women followed within months to a year. Entire extended families reconstituted in Northern industrial neighborhoods. Women often found domestic or service work.",
+    "seasonal_departure_pattern": "Departures peaked in spring and early summer when factory hiring ramped up and road conditions improved for the drive north on US Route 23.",
+    "narrative_hook": "If {given_name} followed the pattern common to Appalachian migrants, someone from the family went first, found a job at the plant, rented a place, and sent for the rest. The mountains emptied one family at a time."
+  },
+  "what_happened_to_those_who_stayed": {
+    "description": "Those who remained in Appalachia faced deepening poverty as the tax base collapsed with outmigration. Schools deteriorated, medical care became scarce, and welfare dependency increased. The War on Poverty in the 1960s targeted Appalachia specifically, creating the Appalachian Regional Commission in 1965.",
+    "narrative_hook": "Not every {surname} left the mountains. Those who stayed watched their neighbors' houses go dark one by one, the school enrollment drop, and the company store close for good."
+  },
+  "record_implications": {
+    "records_created": [
+      "Factory employment records in destination cities",
+      "Union membership rolls (UAW, USW, URW)",
+      "City directory listings showing arrival dates",
+      "School enrollment records in destination districts"
+    ],
+    "records_disrupted": [
+      "County vital records become sparse as population drops",
+      "Church membership rolls show mass transfers or simply end",
+      "Property records show tax sales and abandonment"
+    ],
+    "research_tips": [
+      "Check US Route 23 corridor cities for destination records",
+      "Union records at the Walter Reuther Library (Wayne State University) cover UAW membership",
+      "Kentucky and West Virginia county records thin dramatically after 1950 — check destination county records instead",
+      "City directories in Detroit, Cleveland, Akron, and Cincinnati track annual arrivals by address"
+    ]
+  },
+  "counter_narratives": [
+    {
+      "title": "Hillbilly Stereotyping",
+      "description": "Appalachian migrants faced intense discrimination in Northern cities. They were mocked as ignorant, dirty, and violent. Landlords posted signs reading 'No Dogs, No Hillbillies.' The prejudice was open and socially acceptable in ways that other ethnic slurs were becoming less so by the 1950s and 1960s."
+    },
+    {
+      "title": "Many Went Back",
+      "description": "The migration was never purely one-directional. Weekend drives home along US Route 23 were routine. Many families maintained dual residences or sent children to stay with grandparents in the mountains during summers. A significant number returned to Appalachia upon retirement, completing a decades-long circuit."
+    },
+    {
+      "title": "Community Persistence in the North",
+      "description": "Appalachian migrants did not simply assimilate. They formed churches, social clubs, and informal networks that preserved mountain culture in industrial cities. Country music bars, Pentecostal churches, and Appalachian community centers became fixtures in neighborhoods like Detroit's Briggs and Chicago's Uptown."
+    }
+  ],
+  "source_references": [
+    {
+      "author": "Chad Berry",
+      "title": "Southern Migrants, Northern Exiles",
+      "year": 2000,
+      "publisher": "University of Illinois Press",
+      "type": "book"
+    },
+    {
+      "author": "Harry M. Caudill",
+      "title": "Night Comes to the Cumberlands: A Biography of a Depressed Area",
+      "year": 1963,
+      "publisher": "Little, Brown and Company",
+      "type": "book"
+    },
+    {
+      "author": "Phillip J. Obermiller and Thomas E. Wagner",
+      "title": "Appalachian Odyssey: Historical Perspectives on the Great Migration",
+      "year": 2000,
+      "publisher": "Praeger",
+      "type": "book"
+    },
+    {
+      "author": "John Alexander Williams",
+      "title": "Appalachia: A History",
+      "year": 2002,
+      "publisher": "University of North Carolina Press",
+      "type": "book"
+    }
+  ]
+}

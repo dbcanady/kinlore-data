@@ -1,0 +1,248 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "migration_id": "great_migration",
+  "display_name": "The Great Migration",
+  "short_description": "The mass movement of approximately 6.6 million African Americans out of the rural South to cities in the North, Midwest, and West between 1910 and 1970, driven by racial violence, economic exploitation, and the promise of industrial wages and political rights.",
+  "era": "1910-1970",
+  "estimated_scale": "~6.6 million people",
+  "involuntary": false,
+  "migration_class": "racial_flight",
+  "phases": [
+    {
+      "phase_id": "first_great_migration",
+      "phase_name": "First Great Migration",
+      "era": "1910-1940",
+      "estimated_scale": "~1.6 million people",
+      "peak_years": "1916-1929",
+      "catalyst_summary": "World War I cut European immigration to Northern factories, creating an unprecedented labor vacuum. Simultaneously, the boll weevil destroyed cotton crops across the Deep South while racial violence — including the Elaine Massacre of 1919 — made staying untenable for many Black families.",
+      "origin_regions": [
+        {
+          "region": "Mississippi Delta",
+          "states": ["MS", "AR", "LA"],
+          "counties_most_affected": ["Bolivar MS", "Washington MS", "Coahoma MS", "Phillips AR", "Chicot AR", "Issaquena MS"],
+          "primary_destinations": ["Chicago", "St. Louis", "Detroit"],
+          "primary_route": "Illinois Central Railroad north through Memphis to Chicago",
+          "peak_departure_years": "1916-1930"
+        },
+        {
+          "region": "Alabama Black Belt",
+          "states": ["AL"],
+          "counties_most_affected": ["Dallas AL", "Hale AL", "Marengo AL", "Perry AL", "Wilcox AL"],
+          "primary_destinations": ["Cleveland", "Detroit", "Pittsburgh", "Chicago"],
+          "primary_route": "Louisville & Nashville Railroad to Cincinnati, then connections north",
+          "peak_departure_years": "1916-1928"
+        },
+        {
+          "region": "Georgia and South Carolina Piedmont and Coastal Plain",
+          "states": ["GA", "SC"],
+          "counties_most_affected": ["Burke GA", "Dougherty GA", "Laurens GA", "Orangeburg SC", "Colleton SC"],
+          "primary_destinations": ["Philadelphia", "New York City", "Newark", "Boston"],
+          "primary_route": "Seaboard Air Line and Atlantic Coast Line to Washington DC, then Pennsylvania Railroad north",
+          "peak_departure_years": "1917-1930"
+        },
+        {
+          "region": "Carolina Piedmont",
+          "states": ["NC", "SC", "VA"],
+          "counties_most_affected": ["Edgecombe NC", "Halifax NC", "Robeson NC", "Greenwood SC", "Halifax VA"],
+          "primary_destinations": ["Philadelphia", "Baltimore", "New York City", "Washington DC"],
+          "primary_route": "Atlantic Coast Line and Seaboard Air Line to Richmond, then north",
+          "peak_departure_years": "1918-1930"
+        }
+      ]
+    },
+    {
+      "phase_id": "second_great_migration",
+      "phase_name": "Second Great Migration",
+      "era": "1940-1970",
+      "estimated_scale": "~5 million people",
+      "peak_years": "1942-1960",
+      "catalyst_summary": "World War II defense industries created massive labor demand, and Executive Order 8802 banned racial discrimination in defense hiring. The mechanical cotton picker, introduced commercially in 1944, eliminated millions of sharecropping positions across the South in a single generation.",
+      "origin_regions": [
+        {
+          "region": "Texas and Louisiana Gulf Coast",
+          "states": ["TX", "LA"],
+          "counties_most_affected": ["Jefferson TX", "Orange TX", "Calcasieu LA", "Caddo LA", "Rapides LA"],
+          "primary_destinations": ["Los Angeles", "Oakland", "San Francisco", "Portland", "Seattle"],
+          "primary_route": "Southern Pacific Railroad west; Route 66 and Highway 99 by automobile",
+          "peak_departure_years": "1942-1955"
+        },
+        {
+          "region": "Mississippi Delta (continued)",
+          "states": ["MS", "AR"],
+          "counties_most_affected": ["Bolivar MS", "Sunflower MS", "Leflore MS", "Washington MS", "Desha AR"],
+          "primary_destinations": ["Chicago", "Los Angeles", "Oakland"],
+          "primary_route": "Illinois Central to Chicago; Southern Pacific to California",
+          "peak_departure_years": "1940-1960"
+        },
+        {
+          "region": "Upper South",
+          "states": ["TN", "KY", "NC", "VA"],
+          "counties_most_affected": ["Fayette TN", "Haywood TN", "Mecklenburg VA", "Halifax NC", "Christian KY"],
+          "primary_destinations": ["Washington DC", "Baltimore", "Newark", "New York City"],
+          "primary_route": "Multiple rail lines to the DC corridor; US Routes 1 and 301 by automobile",
+          "peak_departure_years": "1942-1960"
+        }
+      ]
+    }
+  ],
+  "push_factors": [
+    {
+      "factor_id": "boll_weevil",
+      "factor": "Boll weevil destruction of cotton economy",
+      "severity": 5,
+      "description": "The boll weevil crossed from Mexico into Texas in 1892 and spread east, reaching Louisiana by 1903, Mississippi by 1907, Alabama by 1910, Georgia by 1915, South Carolina by 1917, North Carolina by 1919, and Virginia by 1922. Crop losses of 60-90% were common in affected counties. The insect destroyed not just the crop but the entire credit system that sustained tenant farming.",
+      "date_range": "1892-1925",
+      "regional_scope": ["TX", "LA", "MS", "AL", "GA", "SC", "NC", "VA", "AR"],
+      "narrative_hook": "By the time the boll weevil reached {county} in {year}, it had already destroyed the cotton economy across the Deep South. {ancestor_name} would have heard the stories for years before watching it consume the local crop."
+    },
+    {
+      "factor_id": "sharecropping_debt",
+      "factor": "Sharecropping debt trap and economic exploitation",
+      "severity": 5,
+      "description": "Under the crop-lien system, tenant farmers purchased supplies on credit at the landlord's commissary, then settled accounts after harvest. The accounting was controlled by the landlord, and the annual reckoning almost invariably left the tenant in debt. This rolling debt functioned as a form of economic bondage that could persist for decades.",
+      "date_range": "1870-1940",
+      "regional_scope": ["MS", "AL", "GA", "SC", "NC", "AR", "LA", "TX", "VA"],
+      "narrative_hook": "Year after year, {ancestor_name} likely settled accounts in the fall and heard the same verdict from the landlord's ledger: not enough to clear the debt."
+    },
+    {
+      "factor_id": "racial_violence",
+      "factor": "Lynching, mob violence, and racial terror",
+      "severity": 5,
+      "description": "Between 1877 and 1950, more than 4,000 documented racial terror lynchings occurred in the South. Mass violence events — the Elaine Massacre in Phillips County, Arkansas (1919), the Tulsa Race Massacre (1921), and the Rosewood Massacre in Levy County, Florida (1923) — triggered immediate departure spikes from surrounding counties. The decision to leave was often not gradual; a specific act of violence could turn years of quiet endurance into a one-way train ticket purchased the next morning.",
+      "date_range": "1877-1950",
+      "regional_scope": ["MS", "AL", "GA", "SC", "NC", "AR", "LA", "TX", "VA", "FL", "TN", "KY"],
+      "narrative_hook": "The decision to leave {county} was often not gradual. A specific act of violence in the area could turn years of endurance into a train ticket purchased the next morning for {ancestor_name}."
+    },
+    {
+      "factor_id": "jim_crow",
+      "factor": "Jim Crow laws and political disenfranchisement",
+      "severity": 4,
+      "description": "Starting in the 1890s, Southern states enacted laws that stripped Black citizens of the right to vote through poll taxes, literacy tests, and grandfather clauses. Jim Crow statutes enforced racial segregation in every public space. Black citizens could not serve on juries, could not testify against white citizens in many jurisdictions, and had no meaningful recourse in the legal system.",
+      "date_range": "1890-1965",
+      "regional_scope": ["MS", "AL", "GA", "SC", "NC", "AR", "LA", "TX", "VA", "FL", "TN"],
+      "narrative_hook": "In {state}, {ancestor_name} could not vote, could not serve on a jury, and had no meaningful standing in the courts."
+    },
+    {
+      "factor_id": "great_flood_1927",
+      "factor": "Great Mississippi Flood of 1927",
+      "severity": 5,
+      "description": "The 1927 flood submerged 27,000 square miles across Mississippi, Arkansas, and Louisiana. Black residents were conscripted at gunpoint into forced labor on the levees and held in relief camps under armed guard. The Red Cross and local authorities prioritized white property owners for aid. The flood displaced approximately 637,000 people and triggered a mass departure that accelerated the first wave of the Great Migration.",
+      "date_range": "1927-1930",
+      "regional_scope": ["MS", "AR", "LA"],
+      "narrative_hook": "If {ancestor_name} was in the Delta in the spring of 1927, they experienced the worst flood in American history — and likely witnessed the forced labor and racial brutality that followed."
+    },
+    {
+      "factor_id": "mechanization",
+      "factor": "Agricultural mechanization and the mechanical cotton picker",
+      "severity": 4,
+      "description": "The International Harvester mechanical cotton picker, commercially deployed starting in 1944, could harvest in one hour what a manual laborer picked in seventy. Plantation owners who had once needed hundreds of tenant families now needed a handful of machine operators. Between 1940 and 1970, mechanization eliminated the economic rationale for the sharecropping system entirely.",
+      "date_range": "1944-1970",
+      "regional_scope": ["MS", "AL", "AR", "LA", "TX", "GA", "SC"],
+      "narrative_hook": "The machine that ended sharecropping in {county} arrived on a flatbed truck. {ancestor_name} was not freed by it — they were fired by it."
+    }
+  ],
+  "pull_factors": [
+    {
+      "factor_id": "factory_wages",
+      "factor": "Northern factory wages four to six times Southern agricultural wages",
+      "description": "Southern agricultural laborers earned $0.50 to $1.00 per day in the 1910s-1920s. Chicago meatpacking plants paid $3.00 to $4.50 per day. Detroit automobile factories paid $3.50 to $5.00 per day. By the 1940s, defense industry wages in shipyards and aircraft plants were even higher. The wage differential was the single most concrete pull factor.",
+      "narrative_hook": "A week's wages at a Chicago meatpacking plant equaled a month's earnings picking cotton in {county}. {ancestor_name} could do the arithmetic."
+    },
+    {
+      "factor_id": "labor_recruitment",
+      "factor": "Active labor agent recruitment in the South",
+      "description": "Northern railroads, steel mills, and meatpacking companies sent agents into the rural South with promises of jobs and, in some cases, prepaid train tickets. These agents recruited at churches, barbershops, and juke joints. Some Southern counties tried to ban or tax labor agents to stanch the outflow of cheap labor.",
+      "narrative_hook": "A labor agent may have shown up in {county} offering {ancestor_name} a job at three dollars a day and a free train ticket north."
+    },
+    {
+      "factor_id": "black_press",
+      "factor": "The Chicago Defender and the Black press",
+      "description": "The Chicago Defender, with a weekly circulation of 230,000 by 1920, published job listings, train schedules, and editorials urging Southern Black families to migrate north. Copies were smuggled south by Pullman porters and passed hand to hand. The newspaper functioned as both recruitment tool and instruction manual for migration.",
+      "narrative_hook": "A copy of the Chicago Defender — smuggled south in a Pullman porter's bag — may have been the document that changed {ancestor_name}'s life more than any birth certificate or deed."
+    },
+    {
+      "factor_id": "chain_migration_pull",
+      "factor": "Family and community networks at destination",
+      "description": "Migration was rarely a leap into the unknown. A relative, neighbor, or church member had typically gone first and sent word back about available work, housing, and conditions. These networks lowered the risk of migration and created county-of-origin clusters in Northern cities — the same Mississippi county sending people to the same Chicago block for decades.",
+      "narrative_hook": "{ancestor_name}'s move to {destination} was likely not a leap into the unknown. Someone from {county} had gone before and sent word that there was work."
+    },
+    {
+      "factor_id": "political_rights",
+      "factor": "Voting rights and political participation",
+      "description": "In Northern cities, Black migrants could vote, serve on juries, and elect Black officials and police officers. For families who had been disenfranchised since the end of Reconstruction, the ballot box was a tangible measure of the difference between South and North.",
+      "narrative_hook": "The first time {ancestor_name} voted in {destination} may have been the first time any member of their family had cast a ballot since Reconstruction."
+    },
+    {
+      "factor_id": "defense_industry",
+      "factor": "WWII defense industry jobs under Executive Order 8802",
+      "description": "In 1941, President Roosevelt signed Executive Order 8802, banning racial discrimination in defense industries. Kaiser Shipyards in Richmond, California employed approximately 90,000 workers. Ford's River Rouge plant in Detroit employed a similar number. These jobs offered wages, union membership, and a measure of dignity that Southern agricultural work did not.",
+      "narrative_hook": "A shipyard or factory job in {destination} paid more in a week than six months of sharecropping. The President himself had ordered the door opened for {ancestor_name}."
+    }
+  ],
+  "transportation": {
+    "primary_mode": "rail",
+    "route_refs": ["illinois_central", "pennsylvania_railroad", "louisville_nashville", "southern_pacific"],
+    "what_they_carried": "One suitcase or trunk. Sunday clothes. A Bible. Perhaps a quilt made by a mother or grandmother. Seeds from the garden — an act of faith that there would be soil to plant them in. A jar of preserves for the journey, letters from whoever went before, and an address on a scrap of paper.",
+    "what_they_left_behind": "The house. The mule. The graves of parents and grandparents. Extended family who could not leave or would not. Church membership. The piece of land their grandparents had worked since slavery — land they had never owned but knew the way a body knows its own hands.",
+    "cost_of_travel": "$5-$15 for a one-way rail ticket (1916-1930); automobile travel became common in Phase 2, with costs for fuel, food, and Green Book lodging",
+    "seasonal_departure_pattern": "Departures peaked in late fall after final harvest settlement, and again in early spring. Families who owed debt often left under cover of darkness to avoid confrontation with landlords who considered the debt binding."
+  },
+  "destination_refs": ["chicago", "detroit", "new_york_city", "philadelphia", "pittsburgh", "cleveland", "los_angeles", "st_louis", "baltimore"],
+  "chain_migration": {
+    "pattern": "scout_and_send",
+    "description": "A young man — typically unmarried or newly married — traveled north first, found employment and housing, and sent for his wife, children, or siblings six to eighteen months later. Entire county communities reconstituted themselves in specific Northern neighborhoods over the course of a decade. Churches served as information hubs in the South and reception centers in the North.",
+    "gender_pattern": "Men typically migrated first as scouts, securing employment and housing before sending for wives and children. Single women also migrated independently, often finding domestic service or garment work through church networks. By Phase 2, entire families increasingly migrated together by automobile.",
+    "narrative_hook": "{ancestor_name}'s move to {destination} likely followed a pattern: someone from {county} went first and sent word back — 'There is work. Come.'"
+  },
+  "what_happened_to_those_who_stayed": {
+    "demographic_change": "Counties across the Black Belt lost 30-50% of their Black population between 1910 and 1970. Bolivar County, Mississippi had fewer people by 1970 than it did in 1900. The median age of those who remained rose as young adults departed.",
+    "economic_change": "Mechanization replaced the sharecropping system, concentrating land ownership among fewer white landowners. Federal agricultural subsidies flowed to large operators. The rural Black middle class — teachers, ministers, small business owners — shrank as their customer base left. Some counties never recovered economically.",
+    "narrative_hook": "Had {ancestor_name} remained in {county}, they would have watched the population hollow out over the following decades. By 1970, {county} had fewer residents than it did a half-century earlier, and the sharecropping system that once sustained — and exploited — thousands of families had been replaced by machines."
+  },
+  "record_implications": [
+    {
+      "pattern": "Ancestor appears in Southern census in 1910 or 1920 and Northern census in 1920 or 1930",
+      "interpretation": "Migration occurred between census enumerations, consistent with Great Migration timing",
+      "research_tip": "Check city directories at both origin and destination for the intervening years. Some migrants went back and forth before committing. Railroad employment records, draft registration cards (WWI and WWII), and church transfer letters can narrow the date."
+    },
+    {
+      "pattern": "Death certificate in a Northern city lists a Southern birthplace",
+      "interpretation": "First-generation migrant. The informant — usually a spouse or adult child — preserved the hometown in family memory.",
+      "research_tip": "Use the birthplace on the death certificate to search for the ancestor in earlier Southern census records, county marriage registers, and church records."
+    },
+    {
+      "pattern": "Multiple siblings appear in the same Northern city directory within two to five years",
+      "interpretation": "Chain migration. The first sibling scouted and the others followed.",
+      "research_tip": "Identify the earliest-arriving sibling — they are likely the family scout. Check for boarding house records or shared addresses that indicate initial landing patterns."
+    },
+    {
+      "pattern": "Southern county shows a spike in abandoned tenancies or property tax delinquencies",
+      "interpretation": "Mass departure event, often correlated with boll weevil arrival, flood, or a specific act of racial violence",
+      "research_tip": "Cross-reference the departure spike with known boll weevil arrival dates, the 1927 flood zone, or documented violence incidents in the county."
+    }
+  ],
+  "counter_narratives": [
+    {
+      "topic": "Northern poverty and discrimination were real",
+      "detail": "Northern cities offered higher wages but also overcrowded housing, racial covenants, job discrimination, and bitter winters. Some migrants found conditions as grinding as the South — just colder. An estimated 10-15% eventually returned South, often in retirement."
+    },
+    {
+      "topic": "Intra-Southern migration was substantial",
+      "detail": "Not all Black Southerners went north. Many moved to Atlanta, Birmingham, Memphis, Houston, and other Southern cities. This intra-Southern movement is often overlooked in Great Migration narratives but affected millions of families."
+    },
+    {
+      "topic": "Class differences shaped the migration experience",
+      "detail": "Teachers, preachers, physicians, and entrepreneurs migrated alongside sharecroppers, but for different reasons and with different outcomes. The Great Migration was not a monolithic movement of the rural poor — it included every stratum of Black Southern society."
+    }
+  ],
+  "source_references": [
+    "Isabel Wilkerson, The Warmth of Other Suns (2010)",
+    "Nicholas Lemann, The Promised Land: The Great Black Migration and How It Changed America (1991)",
+    "James R. Grossman, Land of Hope: Chicago, Black Southerners, and the Great Migration (1989)",
+    "Alferdteen Harrison, ed., Black Exodus: The Great Migration from the American South (1991)",
+    "Equal Justice Initiative, Lynching in America: Confronting the Legacy of Racial Terror (2015)",
+    "US Census Bureau, Historical Census Data by County (decennial series, 1900-1970)",
+    "Chicago Defender historical archives, Newberry Library, Chicago"
+  ]
+}
