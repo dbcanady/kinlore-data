@@ -1,0 +1,284 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "_purpose": "Creative narrative template for generating speculative first-person letters. ALL output MUST be prefixed with the illustrative disclaimer. These are NOT real letters.",
+  "template_id": "letter_home",
+  "display_name": "The Letter Home",
+  "description": "Generates a speculative first-person paragraph as if the ancestor wrote a letter home during or after migration. The letter is grounded in documented historical conditions at both origin and destination, calibrated for era, region, occupation, and ethnicity. ALWAYS flagged as illustrative fiction — never presented as a real document.",
+  "prefix": "[Illustrative — not from an actual letter]",
+  "revenue_tier": "both — shorter version for $29, fuller version for $99",
+  "tier_guidance": {
+    "$29_skeleton": "One situation only (typically arrival_new_city). 80-120 words. Three to four beats maximum.",
+    "$99_white_glove": "Up to three situations chosen contextually. Full beat structure. 100-180 words per letter. May include editorial annotation explaining why a particular situation was chosen."
+  },
+  "situations": [
+    {
+      "situation_id": "arrival_new_city",
+      "display_name": "Arrival in a New City",
+      "trigger_condition": "Ancestor appears in a new city for the first time in census, city directory, or other record. Most common trigger: first census after departure from origin county.",
+      "tone": "Overwhelmed, practical, comparative. The writer is measuring everything against what they know. Not poetic — functional. The kind of letter written on a kitchen table after a long day.",
+      "structural_beats": [
+        "Greeting to a specific family member (parent, sibling, spouse) by name or relation",
+        "ONE sensory detail from the destination — drawn from destination_ref data, not invented. Something seen, heard, or smelled. Not a metaphor.",
+        "Chain migration context — who was already there, who helped them arrive, who met them",
+        "Employment status — working, looking, or have a lead. Specific if data supports it.",
+        "What was left behind — ONE concrete reference to origin county. A place, a person, a habit.",
+        "Practical close — will write again, send address, ask for news"
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{destination}",
+        "{year}",
+        "{family_member}",
+        "{home_county}",
+        "{state}",
+        "{occupation}",
+        "{relative_at_destination}"
+      ],
+      "constraints": [
+        "MUST begin with the prefix: [Illustrative — not from an actual letter]",
+        "No emotional projection. Describe circumstances that imply emotion. Never assert emotion.",
+        "Sensory detail must be historically verifiable for that city and decade — drawn from what_they_saw data or destination_ref.",
+        "If occupation is unknown, letter should reference looking for work or having a lead, not a specific job.",
+        "Letter must sound like it was written by someone with the education level appropriate to the era, region, and occupation.",
+        "80-180 words for the letter body, not counting the prefix."
+      ],
+      "example_output": "[Illustrative — not from an actual letter]\n\"Dear Mother, We arrived in Chicago on the 14th after two days on the train. The city is bigger than anything I imagined — buildings taller than the courthouse steeple, and more people on one street than in all of Edgecombe County. Willie met us at the station. He looks well. There is work at the stockyards but I am told the locomotive works pays better. I will write when we are settled. Your son, James.\""
+    },
+    {
+      "situation_id": "arrival_family",
+      "display_name": "Arrival with Family",
+      "trigger_condition": "Ancestor migrates with spouse and/or children. Census shows entire family unit appearing in new location together.",
+      "tone": "Protective, focused on children and housing. The writer is reporting on the family's condition to someone who cares about the children. Practical but with an undertone of relief or concern about the move's effect on the household.",
+      "structural_beats": [
+        "Greeting to parent or sibling — someone who knows the children",
+        "Brief journey reference — mode of travel, duration, ONE difficulty or notable detail",
+        "Housing description — what they found, what it costs, how it compares to what they left. Specific: rooms, neighborhood, proximity to work.",
+        "Children's reaction — ONE concrete detail. Not 'the children are happy.' Something observed: the youngest wouldn't stop looking out the window, the oldest asked when they're going home, the baby slept through it all.",
+        "Work status — employed, starting Monday, still looking. If spouse also works, mention it.",
+        "Reassurance — things will be fine, or at least they'll manage. Not effusive. Measured."
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{spouse_name}",
+        "{destination}",
+        "{year}",
+        "{family_member}",
+        "{home_county}",
+        "{state}",
+        "{number_of_children}",
+        "{occupation}"
+      ],
+      "constraints": [
+        "MUST begin with the prefix: [Illustrative — not from an actual letter]",
+        "No emotional projection. The children's detail must be behavioral, not emotional. What they DID, not what they FELT.",
+        "Housing description must be plausible for the destination, decade, occupation, and family size.",
+        "If children's names are known, use ONE. If not, use 'the children' or 'the little ones' — era-appropriate collective.",
+        "100-180 words for the letter body."
+      ],
+      "example_output": "[Illustrative — not from an actual letter]\n\"Dear Sister, We are here. The trip took three days by wagon to Danville and then the train north. The baby fussed the whole way but the older two sat still as stones watching the country go by. We have two rooms above a grocery on Halsted Street — small but clean and near enough to the yards that Robert can walk to work. He starts Thursday. The rent is more than we expected but everyone here says the same. Tell Mama the children are eating fine and I will send her address as soon as we know it won't change. Mary.\""
+    },
+    {
+      "situation_id": "send_for_family",
+      "display_name": "Send for the Family",
+      "trigger_condition": "Ancestor appears alone in a new location in one record, then family joins in a subsequent record. Common pattern: husband in city directory 1-2 years before wife appears in census.",
+      "tone": "Confident, urgent, practical. The writer has done the advance work and is ready. There's momentum here — things are moving. The letter is almost a set of instructions.",
+      "structural_beats": [
+        "Greeting to spouse — direct, warm but not sentimental",
+        "Work secured — what it is, what it pays (if data supports), how steady it is",
+        "Housing found — where, how many rooms, what's nearby. Enough detail that the spouse can picture it.",
+        "Journey instructions — how to get there, what to bring, what to leave behind. Specific route if data supports it.",
+        "Money or ticket enclosed — or coming soon, or sent with a named person",
+        "Date expectation — when they should arrive, or when the writer expects them"
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{spouse_name}",
+        "{destination}",
+        "{year}",
+        "{home_county}",
+        "{state}",
+        "{occupation}",
+        "{employer}"
+      ],
+      "constraints": [
+        "MUST begin with the prefix: [Illustrative — not from an actual letter]",
+        "No emotional projection. The urgency should come from the practical details, not declarations of loneliness.",
+        "Journey instructions must reflect actual transportation options available in that year and region.",
+        "If employer is unknown, reference the type of work, not a specific employer.",
+        "100-160 words for the letter body."
+      ],
+      "example_output": "[Illustrative — not from an actual letter]\n\"Dear Hattie, I have found us a place. Three rooms on the second floor of a house on Brush Street, near the plant. It is small but there is a yard for the children. I am working steady at Ford and bringing home twenty-two dollars a week. Take the L&N to Cincinnati and change there for the Michigan Central to Detroit. Bring the quilts and the iron skillet but leave the heavy furniture — we can get what we need here. I am sending twelve dollars with this letter for the tickets. Come as soon as you are able. Your husband, Walter.\""
+    },
+    {
+      "situation_id": "homesick",
+      "display_name": "Homesick Letter",
+      "trigger_condition": "Ancestor has been in new location for 1-5 years. Settled enough to write a reflective letter, recent enough to still feel the displacement. Often triggered when historical context data shows difficult conditions at destination.",
+      "tone": "Restrained vulnerability. NOT melodramatic. The writer is someone who does not easily admit difficulty. The letter should sound like someone NOT saying everything — the reader should sense what's unsaid. Think of someone who writes 'I am well' when they are not entirely well.",
+      "structural_beats": [
+        "Warm greeting — slightly more personal than other letter types. The writer is reaching out.",
+        "ONE specific difficulty — not a catalog of complaints. One thing: the cold, the noise, the loneliness of Sundays, the cost of everything, a specific setback at work.",
+        "ONE thing that's OK — a counterbalance. Not forced optimism. Something genuinely decent about the current situation.",
+        "Question about home — asks about a specific person, place, or event. Shows what the writer thinks about. NOT a general 'how is everyone.'",
+        "Determination close — still here, still working, still planning. The letter ends forward, not backward."
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{destination}",
+        "{year}",
+        "{family_member}",
+        "{home_county}",
+        "{state}",
+        "{years_since_arrival}"
+      ],
+      "constraints": [
+        "MUST begin with the prefix: [Illustrative — not from an actual letter]",
+        "No emotional projection. CRITICAL for this template. The homesickness must be implied by what the writer asks about, not stated.",
+        "The difficulty must be historically documentable for that city, decade, and demographic.",
+        "The 'one thing that's OK' must not feel like a forced silver lining. It should feel real — a neighbor, a church, a park, decent wages.",
+        "The question about home should reveal character. What someone asks about tells you who they are.",
+        "80-150 words for the letter body."
+      ],
+      "example_output": "[Illustrative — not from an actual letter]\n\"Dear Papa, I hope this finds you well. The winter here is something else entirely — last week it was ten below and the pipes in the building froze solid for two days. But I have joined a church on State Street where some of the Edgecombe people go, and that is a comfort. Is Mr. Whitfield still running the store at the crossroads? I think about that porch sometimes. Work is steady and I am putting a little aside each month. Tell everyone I said hello. James.\""
+    },
+    {
+      "situation_id": "settled_update",
+      "display_name": "Settled Life Update",
+      "trigger_condition": "Ancestor has been in new location 5+ years. Appears in multiple consecutive records at the same address or in the same neighborhood. Life has stabilized.",
+      "tone": "Reflective, measured, modest pride. The writer has made it — or at least survived. There's a settledness to the voice. Not boasting, but reporting from a position of relative stability. The comparison to the old place is gentler now, less raw.",
+      "structural_beats": [
+        "Relaxed greeting — less formal than earlier letters. The writer is comfortable.",
+        "Family update — children growing, spouse working or keeping house, maybe a new baby or a child in school. Concrete details.",
+        "Material conditions comparison — how life now compares to life then. Not dramatic. Matter of fact. 'We have a telephone now' or 'The children have shoes for school.'",
+        "Reference to home or news from home — a death, a marriage, a crop failure, a church event. Shows the writer still connected.",
+        "Invitation close — come visit, or we'll come at Christmas, or when the children are older. The door is open."
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{destination}",
+        "{year}",
+        "{family_member}",
+        "{home_county}",
+        "{state}",
+        "{occupation}",
+        "{years_since_arrival}"
+      ],
+      "constraints": [
+        "MUST begin with the prefix: [Illustrative — not from an actual letter]",
+        "No emotional projection. Pride should be implied by what's reported, not stated.",
+        "Material details must be historically accurate for the decade and economic class. No anachronisms.",
+        "The comparison to home should not romanticize the origin or denigrate it. Both places are real.",
+        "100-180 words for the letter body."
+      ],
+      "example_output": "[Illustrative — not from an actual letter]\n\"Dear Mama, We are all well. Robert Junior started at Wendell Phillips this fall and is reading already — you would not believe it. Robert is still at the plant and they made him a line supervisor last spring, which means a little more money and he does not come home smelling quite so bad. We have a radio now and the children won't leave it alone. I was sorry to hear about the church roof. If you can send me the address of the fund I will send what I can. You should come up this summer. The train is not so bad and the children ask about you. Love, Mary.\""
+    },
+    {
+      "situation_id": "bad_news",
+      "display_name": "Bad News Letter",
+      "trigger_condition": "A death, serious illness, job loss, or disaster appears in the record near the ancestor's location and time. Death certificate, obituary, disaster record, or sudden absence from employment records.",
+      "tone": "Restrained grief, facts before feelings. Real grief letters from this era are stunning in their brevity. The writer does not explain or elaborate. They say what happened and stop. The white space around the words carries the weight.",
+      "structural_beats": [
+        "Direct opening — no small talk. The news comes first or nearly first.",
+        "Brief circumstances — what happened, when, where. Two to three sentences maximum.",
+        "Practical aftermath — what needs to happen now. Funeral, money, children, come if you can.",
+        "Short close — God willing, your son, your daughter. Nothing more."
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{destination}",
+        "{year}",
+        "{family_member}",
+        "{deceased_name}",
+        "{cause_if_known}"
+      ],
+      "constraints": [
+        "MUST begin with the prefix: [Illustrative — not from an actual letter]",
+        "No emotional projection. MOST CRITICAL for this template. The grief is in the facts and the brevity, not in declarations.",
+        "SHORTEST of all letter types. 60-100 words maximum for the letter body.",
+        "Do not invent cause of death unless it is documented. 'He took sick' or 'there was an accident' is sufficient.",
+        "Do not add comforting platitudes unless they are era-appropriate religious conventions ('He is with the Lord').",
+        "The brevity IS the point. Do not pad. Do not explain. Do not editorialize."
+      ],
+      "example_output": "[Illustrative — not from an actual letter]\n\"Dear Mama, I am writing to tell you that Robert passed on Thursday last. It was the pneumonia. He was sick nine days. The foreman from the plant came by and the men from church have been good to us. I do not know yet what we will do. If Brother can come I would be grateful. Your daughter, Mary.\""
+    },
+    {
+      "situation_id": "return_visit",
+      "display_name": "Return Visit Letter",
+      "trigger_condition": "Evidence or strong inference that ancestor returned to origin county temporarily — travel records, family events (parent's death, sibling's wedding), or ancestor briefly appearing in origin county records after established departure.",
+      "tone": "Bittersweet. The writer is seeing the old place with new eyes. Things are smaller, older, different. But one thing is exactly the same, and that sameness is the emotional center of the letter. The writer is between two worlds for a moment.",
+      "structural_beats": [
+        "Greeting to spouse from the old home — establishing that they've gone back temporarily",
+        "Journey back — how they got there, how long it took, the moment of arrival",
+        "What's changed — ONE or TWO concrete details. A building gone, a person aged, a road paved, a field overgrown. Drawn from historical data about the county in that decade.",
+        "ONE thing that's the same — this is the heart of the letter. The creek, the church bell, the smell of the pines, the way the light falls. Something specific and sensory.",
+        "When they'll return — practical close, back to the present life"
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{spouse_name}",
+        "{destination}",
+        "{year}",
+        "{home_county}",
+        "{state}",
+        "{years_away}"
+      ],
+      "constraints": [
+        "MUST begin with the prefix: [Illustrative — not from an actual letter]",
+        "No emotional projection. The bittersweet quality must come from the juxtaposition of change and sameness, not from the writer saying 'I feel sad.'",
+        "Changes described must be historically plausible for that county and decade. Use county_source_profiles and historical_context_timelines data.",
+        "The 'one thing that's the same' must be sensory and specific — not abstract ('the spirit of the place').",
+        "100-160 words for the letter body."
+      ],
+      "example_output": "[Illustrative — not from an actual letter]\n\"Dear Hattie, I arrived yesterday evening. The old house looks smaller than I remembered and the porch has a lean to it now. Papa's store is closed — someone said he let it go last year. But the creek behind the church sounds exactly the same as it always did, and the dogwoods are blooming. I sat on the bank this morning and could have been twelve years old again. Mama is well enough but slower than when we left. I will stay through Sunday and take the Monday train back. Kiss the children for me. Walter.\""
+    }
+  ],
+  "editorial_guidelines": {
+    "voice_calibration": {
+      "description": "The letter's voice must be calibrated to the ancestor's documented or inferred characteristics. A single template cannot serve all ancestors.",
+      "adjustments": [
+        {
+          "factor": "era",
+          "guidance": "Pre-1860 letters: more formal syntax, longer sentences, religious framing common. 1860-1920: transitional — formal but increasingly direct. Post-1920: shorter sentences, less formality, more colloquial."
+        },
+        {
+          "factor": "region",
+          "guidance": "Southern letters: indirect, courteous, kin-focused. Appalachian letters: terse, concrete, land-focused. Northern urban letters: direct, employment-focused, less kin context. Western letters: practical, distance-aware, less sentimental."
+        },
+        {
+          "factor": "occupation",
+          "guidance": "Literate professionals: more complex syntax, wider vocabulary. Laborers: simpler sentences, concrete nouns, fewer abstractions. Farmers: seasonal references, weather, land quality. Domestic workers: household details, employer references."
+        },
+        {
+          "factor": "ethnicity_and_culture",
+          "guidance": "African American correspondence: strong kin networks, church references, coded language about racial conditions (especially pre-1960). Irish immigrants: parish references, news from home, awareness of other Irish in the area. German immigrants: may reference English-language difficulty, Verein or church community, German-language newspapers. Italian immigrants: family honor, padrone system awareness, regional (not national) Italian identity. Eastern European immigrants: industrial work references, fraternal organization mentions, language barrier acknowledgment."
+        },
+        {
+          "factor": "literacy_level",
+          "guidance": "If ancestor's literacy is uncertain, default to simple but dignified prose. Do not mock or exaggerate illiteracy. Some letters from this era were dictated to a literate neighbor or child — this is acceptable to note in editorial annotation."
+        }
+      ]
+    },
+    "what_NOT_to_do": [
+      "No modern slang, idiom, or syntax. 'I miss you guys' is wrong. 'I think of you all often' is right.",
+      "No emotional projection. Never write 'I felt heartbroken' or 'tears filled my eyes.' Describe the circumstance; the reader supplies the emotion.",
+      "No anachronisms. Check every material detail (technology, transportation, consumer goods, wages, prices) against the decade.",
+      "No letters for enslaved ancestors. Enslaved people were overwhelmingly denied literacy by law. A speculative letter would be historically irresponsible. Use the Record Silences template instead to honor what the archive did not preserve.",
+      "No dialect writing or phonetic spelling. It is condescending regardless of intent. Write in standard English calibrated for formality level.",
+      "No invented proper nouns — do not make up names of streets, employers, churches, or people unless they come from the data.",
+      "No omniscient perspective. The letter writer knows only what someone in their position would know. They do not know about demographic trends or historical significance.",
+      "No gendered assumptions about who writes letters. Men and women both wrote home. Choose the writer based on who the data suggests migrated or who appears in the record."
+    ]
+  },
+  "data_dependencies": [
+    "migration_triggers (core trigger data for origin/destination)",
+    "what_they_saw template (for sensory details at origin and destination)",
+    "historical_context_timelines (for era-appropriate material details)",
+    "county_source_profiles (for origin county specifics)",
+    "occupational_profiles (Phase 2 — for work-related details)"
+  ],
+  "output_format": {
+    "always_begins_with": "[Illustrative — not from an actual letter]",
+    "letter_body": "In quotation marks. First-person. Addressed to a named or described family member. Signed with name or relation.",
+    "editorial_annotation": "Optional. Appears after the letter in italics or a separate block. Explains why this situation was chosen, what data supported it, and what is speculative. Required for $99 tier."
+  }
+}

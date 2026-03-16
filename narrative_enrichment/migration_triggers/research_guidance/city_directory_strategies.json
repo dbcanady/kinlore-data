@@ -1,0 +1,129 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "guidance_id": "city_directories",
+  "display_name": "City Directory Strategies",
+  "description": "Guidance for using city directories as a genealogical source — annual residence and occupation tracking, death detection, migration evidence, and business research from the 1830s through the 1960s",
+  "patterns": [
+    {
+      "pattern_id": "annual_census_substitute",
+      "scenario": "You need to place an ancestor at a specific location for a year when no census was taken",
+      "era_scope": "1830s-1960s, peak coverage 1860-1935",
+      "interpretation": "City directories were published annually (sometimes biannually) in most American cities from the mid-1800s. They list residents alphabetically with address and occupation. Because they were compiled by canvassers going door-to-door, they function as an annual census for urban areas. Coverage varied — smaller cities may have directories only every few years, while major cities like New York, Boston, Philadelphia, and Chicago had continuous annual coverage.",
+      "action_steps": [
+        "Search Ancestry's U.S. City Directories collection (1822-1995) which has the largest digitized set — over 4,000 directories from hundreds of cities. Search by name, or browse by city and year",
+        "Check FamilySearch's city directory microfilm catalog — many directories not on Ancestry are available as free microfilm at FamilySearch Centers or digitized on FamilySearch.org. Search the catalog by place name and 'city directory'",
+        "Visit the local public library or historical society for the target city — many libraries hold original bound directories going back to the 1840s and have digitized or microfilmed their collections. The Library of Congress holds the largest physical collection",
+        "For the period 1880-1900 (bridging the 1890 census gap), check directories annually to track residence and occupation changes year by year. This is the single best substitute for the destroyed 1890 census in urban areas",
+        "Record the EXACT address listed each year — consecutive years at the same address confirm stability, while address changes may indicate job loss, eviction, economic mobility, or family size changes"
+      ],
+      "common_mistakes": [
+        "Assuming absence from a directory means absence from the city — renters, boarders, recent arrivals, and people in lower economic brackets were systematically underrepresented, especially women and minorities",
+        "Not realizing that directory information was collected 3-6 months before publication — a '1905 directory' may reflect canvassing done in mid-1904",
+        "Searching only one directory platform — Ancestry, FamilySearch, Fold3, Internet Archive, and local libraries each hold directories the others lack"
+      ],
+      "source_types_to_check": ["city directories (Ancestry)", "city directories (FamilySearch)", "city directories (local public library)", "city directories (Internet Archive)", "county histories with business listings"]
+    },
+    {
+      "pattern_id": "address_tracking_year_to_year",
+      "scenario": "You have an ancestor in city directories and want to extract maximum biographical information",
+      "era_scope": "1860-1940, best results in cities with annual publication",
+      "interpretation": "Tracking an ancestor's directory entries year by year creates a detailed timeline of their urban life. Address changes, occupation shifts, and household composition changes all leave traces in sequential directory listings. This is particularly powerful for the period between decennial censuses.",
+      "action_steps": [
+        "Create a spreadsheet with columns for Year, Name, Address, Occupation, and Notes. Enter every directory appearance for the ancestor and all identified family members",
+        "Map the addresses using historical city maps — Sanborn fire insurance maps (available at the Library of Congress, loc.gov/collections/sanborn-maps) show the exact footprint of buildings and can tell you whether your ancestor lived in a single-family home, tenement, or above a shop",
+        "Note occupation changes — a shift from 'laborer' to 'carpenter' to 'contractor' shows economic advancement. A shift from 'merchant' to 'clerk' may indicate financial reversal. Trade-specific designations like 'journeyman' vs. 'master' indicate skill progression",
+        "Cross-reference address changes with city ward maps to determine the ancestor's voting ward — ward-level voting records, school records, and poor relief records are organized geographically",
+        "Check whether the street was renumbered or renamed between directory years — many cities renumbered their streets in the late 1800s, making it appear that someone moved when they stayed in place. Local libraries typically have renumbering conversion tables"
+      ],
+      "common_mistakes": [
+        "Not accounting for street renumbering — Philadelphia renumbered in 1856, Chicago after the 1871 fire, and most cities renumbered between 1890 and 1920",
+        "Confusing directory sequence with census sequence — directories were published on different schedules and reflect different collection dates",
+        "Ignoring the reverse directory (street-by-street listing) found in many directories — this tells you who your ancestor's neighbors were"
+      ],
+      "source_types_to_check": ["city directories (annual sequence)", "Sanborn fire insurance maps", "ward maps", "street renumbering guides", "reverse/street directories"]
+    },
+    {
+      "pattern_id": "widow_designation",
+      "scenario": "A woman's directory listing changes from 'Mrs. John Smith' to 'Smith, Mary (wid John)' or 'Smith, Mary (wid)'",
+      "era_scope": "1850-1960, standard directory convention throughout the period",
+      "interpretation": "The appearance of 'wid' or 'widow' in a city directory listing is a strong indicator that the husband died between the previous directory and this one. This is often the earliest documentary evidence of a death, preceding death certificate indexing and sometimes even newspaper obituaries. The widow designation typically appeared in the first directory canvassed after the husband's death.",
+      "action_steps": [
+        "Note the year the widow designation first appears, then search for the husband's death record in the 12-18 months preceding that directory's canvassing date (typically 3-6 months before the publication year). Search the state vital records index and county death register",
+        "Check newspaper obituaries and death notices in the local paper for the same timeframe — use Newspapers.com, Chronicling America (chroniclingamerica.loc.gov), or the local library's newspaper morgue file",
+        "Search for probate records at the county courthouse or state archives — if the husband owned property, a will or intestate proceeding should exist. Probate files often contain inventories listing every household possession",
+        "Watch for the widow's listing to disappear from the directory in subsequent years — this may indicate her own death, remarriage (search under new married name), or migration to live with adult children",
+        "Check cemetery records for the husband's burial — FindAGrave (findagrave.com) and BillionGraves (billiongraves.com) may have headstone photographs with exact death dates"
+      ],
+      "common_mistakes": [
+        "Assuming the death occurred in the year the directory was published — it likely occurred 6-18 months earlier due to canvassing lead time",
+        "Not tracking the widow's listing in subsequent years for remarriage or death evidence",
+        "Missing the 'wid' abbreviation in handwritten or poorly printed directory entries"
+      ],
+      "source_types_to_check": ["death certificates", "newspaper obituaries", "probate records", "cemetery records", "subsequent city directory listings"]
+    },
+    {
+      "pattern_id": "boardinghouse_listings",
+      "scenario": "An ancestor is listed at a known boardinghouse address or their address matches a 'boarding' listing in the directory",
+      "era_scope": "1860-1930, peak boardinghouse era in American cities",
+      "interpretation": "Boardinghouses were a central institution of urban life, housing 30-50% of urban residents at their peak in the 1880s-1910s. Finding an ancestor at a boardinghouse tells you they were likely single or newly arrived, working class or lower-middle class, and possibly a recent immigrant or migrant from a rural area. Boardinghouses often clustered by ethnicity, occupation, or region of origin.",
+      "action_steps": [
+        "Check the directory's classified business section under 'Boarding Houses' or 'Lodging Houses' to confirm the address was a boardinghouse and to identify the proprietor — the proprietor may appear in census records with a full list of boarders",
+        "Search the census for that specific address in the nearest census year — census enumerators listed all residents of boardinghouses, including their occupations, birthplaces, and relationships to the household head. This can reveal ethnic clustering and occupational networks",
+        "Look for the ancestor's name at the same boardinghouse address in preceding and following years — short stays (1-2 years) suggest the person was in transit. Longer stays suggest a stable but unmarried worker",
+        "Check whether the boardinghouse was near a specific workplace — boardinghouses near factories, railyards, ports, and mining operations served workers at those sites, revealing likely occupation even when not explicitly stated",
+        "Search for the ancestor at a different address in the following year's directory — a move from a boardinghouse to a family address may indicate marriage. Cross-reference with marriage records in the county"
+      ],
+      "common_mistakes": [
+        "Overlooking boardinghouse addresses as merely 'where they lived' without recognizing the social and economic information they encode",
+        "Not cross-referencing the boardinghouse with the census to find the full roster of residents and potential social connections",
+        "Assuming a boardinghouse stay was negative — for young workers and immigrants, boardinghouses were a standard, respectable first step in establishing urban life"
+      ],
+      "source_types_to_check": ["city directory classified section", "census records for the specific address", "Sanborn maps for neighborhood context", "marriage records (for transition from boardinghouse to family household)", "employment records for nearby workplaces"]
+    },
+    {
+      "pattern_id": "business_directory_entries",
+      "scenario": "An ancestor appears in the business or trade directory section of a city directory",
+      "era_scope": "1850-1960, especially useful for tradespeople, merchants, and professionals",
+      "interpretation": "Business directory entries provide evidence of self-employment, partnership, and entrepreneurship. They typically include the business name, proprietor(s), type of business, and address. Tracking business entries over time reveals the arc of an ancestor's economic life — founding, growth, partnership changes, and closure.",
+      "action_steps": [
+        "Record the business name, address, and type from each year's directory, noting when it first appears and when it disappears — the full arc of the business tells a story",
+        "Check for the business in R.G. Dun and Company credit reports (held at Baker Library, Harvard Business School, available on microfilm and partially digitized) — Dun reports include financial assessments, character evaluations, and business history for firms from the 1840s onward",
+        "Search for partnership records, incorporation papers, and trade licenses at the county courthouse or state archives — these legal documents often include biographical details about the principals",
+        "Look for the business in local newspaper advertisements — the advertising pages of historical newspapers, available through Chronicling America and Newspapers.com, show how the ancestor presented their business to the community",
+        "Check for the business address on Sanborn fire insurance maps at the Library of Congress (loc.gov/collections/sanborn-maps) to understand the physical size, construction, and neighborhood context of the business"
+      ],
+      "common_mistakes": [
+        "Not distinguishing between a personal listing and a business listing in the same directory — both may appear with different addresses and information",
+        "Missing trade/professional directories that were published separately from city directories — medical directories, legal directories, and trade-specific publications may contain additional details",
+        "Overlooking the significance of business disappearance — it may indicate death, retirement, bankruptcy, or relocation"
+      ],
+      "source_types_to_check": ["city directory business section", "R.G. Dun credit reports", "incorporation records", "newspaper advertisements", "Sanborn fire insurance maps", "trade-specific directories"]
+    },
+    {
+      "pattern_id": "removal_and_arrival_indicators",
+      "scenario": "A directory listing includes 'removed to [city]' or an ancestor appears for the first time with no previous listing",
+      "era_scope": "1860-1940, most common in directories that tracked removals",
+      "interpretation": "Some city directories explicitly noted when a resident had moved away, recording their destination city. This is direct migration evidence. Conversely, a first appearance in a directory — especially when combined with a search of preceding years — establishes an arrival date. Many directories also noted 'new' or used a symbol to mark new listings.",
+      "action_steps": [
+        "When a listing shows 'removed to [city],' immediately search the city directory for that destination city in the same and following year — confirm arrival and track the ancestor's continued life there",
+        "When an ancestor first appears in a directory, search the preceding 2-3 years to confirm they were truly absent (not just missed by canvassers). Then search for their departure from the previous city of residence",
+        "Check for 'removed' or 'gone' notations in the original directory pages rather than the digital index — these notes are often not captured in transcription",
+        "Cross-reference the timing of appearance/disappearance with known life events: marriage, death of a family member, job change, economic depression, or regional economic shifts (factory openings/closings, railroad construction)",
+        "For the arrival end, check ship manifests (for immigrants), railroad employment records, or labor recruitment records if the ancestor moved during a period of organized labor recruitment (e.g., Southern Black workers recruited to Northern factories during WWI)"
+      ],
+      "common_mistakes": [
+        "Assuming a single year's absence means the person left — canvassing was imperfect, and a one-year gap may just mean the canvasser missed them",
+        "Not checking multiple consecutive years to establish a clear arrival or departure pattern",
+        "Ignoring the directory's own notation system — many directories used symbols (*, +, etc.) to mark new entries, and these systems are explained in the directory's preface"
+      ],
+      "source_types_to_check": ["city directories (departure city)", "city directories (destination city)", "ship manifests", "railroad employment records", "marriage records at destination"]
+    }
+  ],
+  "source_references": [
+    "Spear, Dorothea N. 'Bibliography of American Directories Through 1860.' American Antiquarian Society, 1961.",
+    "Shaw, Renata V. 'City Directories.' In Loretto Dennis Szucs and Sandra Hargreaves Luebking, eds., 'The Source: A Guidebook to American Genealogy,' 3rd ed. Ancestry Publishing, 2006.",
+    "Gamber, Wendy. 'The Boardinghouse in Nineteenth-Century America.' Johns Hopkins University Press, 2007.",
+    "Library of Congress. 'City Directories of the United States.' Microfilm collection guide. loc.gov."
+  ]
+}

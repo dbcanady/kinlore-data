@@ -1,0 +1,148 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "guidance_id": "vital_records",
+  "display_name": "Vital Record Variations",
+  "description": "Guidance for navigating the complex landscape of American vital records registration — state-by-state start dates, delayed registrations, informant reliability, and terminology changes across eras",
+  "patterns": [
+    {
+      "pattern_id": "registration_start_dates",
+      "scenario": "You need a birth, marriage, or death certificate but are unsure whether the state was registering vital events at that time",
+      "era_scope": "1841-1919, the era when states progressively adopted civil registration",
+      "interpretation": "Civil vital registration in America was not uniform. Massachusetts began statewide registration in 1841; Texas did not achieve effective registration until 1919. Even after a state 'began' registration, compliance was often poor for years — estimates suggest 50-80% coverage in the first decade. Counties or cities sometimes registered vital events decades before the state mandated it. Key start dates: Massachusetts 1841, New Jersey 1848, Vermont 1857, New Hampshire 1860, Connecticut 1870, Michigan 1867, New York (outside NYC) 1880, NYC from 1847, Minnesota 1870, Ohio 1867, Pennsylvania 1906, Virginia 1912, Georgia 1919, Texas 1919.",
+      "action_steps": [
+        "Check the FamilySearch wiki page for the specific state (familysearch.org/wiki) — each state's page lists the vital registration start date, county-level exceptions, and links to available online indexes",
+        "If the event predates state registration, search county-level records at the county courthouse or county clerk's office — many counties registered births, marriages, and deaths decades before the state did. Some of these are now digitized on FamilySearch",
+        "For the period before civil registration, substitute church records (baptism for birth, marriage, burial for death) — these are often the only documentary evidence of vital events before the state stepped in",
+        "Search city-level vital records for urban ancestors — cities like Baltimore (from 1834), Philadelphia (from 1860), and New Orleans (from 1790) maintained their own registration systems independent of the state",
+        "For Southern states with late registration (Virginia 1912, Georgia 1919, Texas 1919, Mississippi 1912, South Carolina 1915), check county records, Bible records, church records, and Freedmen's Bureau marriage registers (for African American ancestors) as substitutes"
+      ],
+      "common_mistakes": [
+        "Assuming that a state's official registration start date means records exist from that date — compliance was poor for years after mandates were enacted, and many early records have been lost",
+        "Not checking county-level records when state-level records begin late — counties were often recording vital events long before the state required it",
+        "Confusing 'registration began' with 'records survive' — some states began registration but lost early records to courthouse fires, floods, or neglect"
+      ],
+      "source_types_to_check": ["state vital records office", "county clerk records", "city health department records", "church sacramental registers", "FamilySearch wiki state pages"]
+    },
+    {
+      "pattern_id": "delayed_birth_certificates",
+      "scenario": "A birth certificate was filed decades after the birth, often in the 1930s-1940s",
+      "era_scope": "Filed 1936-1950s, for births occurring 1870s-1910s",
+      "interpretation": "When Social Security was established in 1935, millions of Americans born before effective vital registration needed proof of birth to claim benefits. They filed 'delayed birth certificates' — sworn affidavits supported by whatever evidence was available: Bible records, baptismal certificates, census records, school enrollment records, or affidavits from older relatives. These documents are valuable but unreliable: the information was recalled decades after the event and was sometimes adjusted (intentionally or accidentally) to match other records.",
+      "action_steps": [
+        "Request the delayed birth certificate from the state vital records office — note the date it was filed and the evidence cited. If it references a Bible record, baptismal certificate, or affidavit, these supporting documents may be attached or filed separately",
+        "Cross-reference the delayed certificate's details against census records, church records, and immigration records for the same person — discrepancies are common and the earlier sources are generally more reliable",
+        "If the delayed certificate was supported by an affidavit from a family member, note the relationship of the affiant and their age at the time — an elderly sibling recalling events from 60 years ago may have confused details",
+        "Check Social Security application records (Form SS-5) at the Social Security Administration — these applications required proof of age and often list both parents' names (including mother's maiden name), the applicant's birthplace, and the applicant's current address. Request copies through Freedom of Information Act requests",
+        "Search the Social Security Death Index (SSDI) on Ancestry, FamilySearch, or genealogybank.com for the death date and last known address — then use that information to locate the obituary and death certificate"
+      ],
+      "common_mistakes": [
+        "Treating a delayed birth certificate as equally reliable to a contemporaneous one — it is a secondary source created from memory decades later",
+        "Not checking the supporting evidence attached to or referenced in the delayed certificate — the Bible record or baptismal certificate may contain different (and more accurate) information",
+        "Overlooking the SS-5 application as a source — it often contains family information not found elsewhere"
+      ],
+      "source_types_to_check": ["delayed birth certificates", "Social Security applications (Form SS-5)", "original supporting documents (Bible records, baptismal certificates)", "census records for cross-reference", "Social Security Death Index"]
+    },
+    {
+      "pattern_id": "informant_reliability",
+      "scenario": "A death certificate contains family details (parents' names, birthplace) that contradict other sources",
+      "era_scope": "1880-present, whenever death certificates include informant data",
+      "interpretation": "Death certificates name an 'informant' — the person who provided the biographical details about the deceased. This is typically a spouse, adult child, or sometimes a hospital staff member, funeral director, or neighbor. The informant's knowledge of the deceased's parents, birthplace, and birth date may be incomplete, especially if the informant married into the family, is a younger generation, or was not close to the deceased. Medical information (cause of death) is provided separately by the attending physician.",
+      "action_steps": [
+        "Identify the informant named on the death certificate and assess their likely knowledge — a surviving spouse who knew the deceased for 50 years is more reliable than an adult child providing grandparents' names they may never have known",
+        "Cross-reference the death certificate's biographical details (parents' names, birthplace, birth date) against earlier sources created during the deceased's lifetime: census records, marriage records, naturalization papers, and military records",
+        "If the informant was a funeral director or hospital staff, treat all biographical details as suspect — they often recorded approximate information or left fields blank. The funeral home may have a more detailed record in their files",
+        "Check whether the cemetery or funeral home has its own records — funeral home records often include information not on the death certificate, such as the names and addresses of family members who were contacted",
+        "For cause of death, note that terminology changed significantly over time: 'consumption' = tuberculosis, 'dropsy' = congestive heart failure, 'apoplexy' = stroke, 'la grippe' = influenza. The Medical Heritage Library and historical medical dictionaries can help decode archaic diagnoses"
+      ],
+      "common_mistakes": [
+        "Treating death certificate biographical data as definitive — it is only as good as the informant's knowledge, which is often incomplete for the deceased's parents and early life",
+        "Not looking for the informant's relationship to the deceased — this is the key to assessing reliability",
+        "Assuming the cause of death is straightforward — pre-1900 medical terminology is often confusing, and coroner's inquest records may provide more detail for violent or suspicious deaths"
+      ],
+      "source_types_to_check": ["death certificates", "funeral home records", "cemetery records", "coroner's inquest records", "earlier-life documents for cross-reference"]
+    },
+    {
+      "pattern_id": "county_vs_state_registration",
+      "scenario": "You cannot find a vital record at the state level but the event is known to have occurred in a specific county",
+      "era_scope": "1850-1920, the transition period between county and state registration",
+      "interpretation": "During the transition to state registration, vital events might have been recorded at the county level but never forwarded to the state, or forwarded but lost in the state's early filing systems. County clerks, town clerks, and justices of the peace maintained independent marriage, birth, and death registers that may contain records absent from the state index.",
+      "action_steps": [
+        "Contact the county clerk's office or county courthouse in the county where the event occurred — ask specifically about locally held vital records registers that predate or parallel state registration. Many courthouses have original registers going back to the 1850s-1870s",
+        "Search FamilySearch for county-level vital records — many have been microfilmed and digitized. Search the catalog by county name and record type (births, marriages, deaths)",
+        "For New England states, check town-level records — vital registration in New England was town-based, and original registers are held by the town clerk. Massachusetts town records go back to the 1600s",
+        "Check for WPA (Works Progress Administration) transcriptions of vital records — during the 1930s, WPA workers transcribed and indexed historical vital records in many states. These transcripts are held at state archives and sometimes on FamilySearch",
+        "If the record was a marriage, check the marriage license application separately from the certificate — the application was filed at the county level and often includes more detail (ages, parents' names, birthplaces, number of previous marriages) than the certificate itself"
+      ],
+      "common_mistakes": [
+        "Assuming the state vital records office has all records from the beginning of registration — early compliance was spotty and many records were never forwarded from counties",
+        "Not distinguishing between the marriage license, the marriage certificate, and the marriage return — these are separate documents with different information, often filed in different places",
+        "Overlooking town-level records in New England and the mid-Atlantic, where local registration predated state systems by decades"
+      ],
+      "source_types_to_check": ["county clerk vital records registers", "town clerk records (New England)", "FamilySearch county microfilm", "WPA vital records transcriptions", "marriage license applications"]
+    },
+    {
+      "pattern_id": "cause_of_death_terminology",
+      "scenario": "A death certificate or mortality schedule lists a cause of death using archaic or unfamiliar medical terminology",
+      "era_scope": "1850-1930, before standardized International Classification of Diseases became universal",
+      "interpretation": "Medical terminology for cause of death changed dramatically between the 19th and 20th centuries. Before the International Classification of Diseases (ICD) was widely adopted in the U.S. (gradually from 1900, universally by 1930s), physicians and coroners used colloquial, regional, or outdated terms. Understanding these terms helps reconstruct the ancestor's final illness and may reveal occupational hazards, epidemic exposure, or genetic conditions.",
+      "action_steps": [
+        "Consult the 'Archaic Medical Terms' glossary maintained by several genealogical societies — Ancestry's wiki, the GenWeb project, and Paul Smith's 'Archaic Medical Terms' list are all useful starting points",
+        "For common 19th-century terms: 'consumption' or 'phthisis' = tuberculosis; 'dropsy' = edema from heart or kidney failure; 'apoplexy' = stroke; 'brain fever' = meningitis or encephalitis; 'childbed fever' or 'puerperal fever' = postpartum infection; 'congestion of lungs' = pneumonia; 'la grippe' = influenza; 'flux' or 'bloody flux' = dysentery; 'ague' = malaria; 'marasmus' = wasting/malnutrition (often in infants)",
+        "If the death was from an industrial accident, occupational disease, or violence, search for a coroner's inquest record at the county courthouse or state archives — these include witness testimony and are far more detailed than the death certificate",
+        "Cross-reference epidemic-related deaths with historical disease outbreak records — cholera (1832, 1849, 1866), yellow fever (1793, 1853, 1878), influenza (1918-1919), typhoid, diphtheria, and smallpox had documented outbreaks in specific cities and years",
+        "For mining deaths, search the Mine Safety and Health Administration (MSHA) historical records and state mine inspector reports — these document individual fatalities with circumstances"
+      ],
+      "common_mistakes": [
+        "Taking the listed cause of death at face value without understanding 19th-century diagnostic limitations — 'heart disease' or 'old age' on a death certificate often meant the physician did not know the actual cause",
+        "Not recognizing epidemic patterns — multiple family members dying within weeks during a cholera or influenza outbreak is a pattern, not a coincidence",
+        "Ignoring the potential for occupational disease — miners dying of 'consumption' likely had silicosis; hatters with 'nervous disorder' may have had mercury poisoning"
+      ],
+      "source_types_to_check": ["death certificates", "coroner's inquest records", "Mortality Schedules (1850-1880)", "historical epidemic records", "industrial accident reports"]
+    },
+    {
+      "pattern_id": "marriage_record_layers",
+      "scenario": "You need to find a marriage record but only the certificate or only the license is indexed",
+      "era_scope": "1850-present, varies significantly by state and county",
+      "interpretation": "A marriage created multiple documents: the license application (filed by the couple), the license (issued by the county), the marriage certificate or return (completed by the officiant and returned to the county), and sometimes a marriage bond or consent. Each document contains different information. The license application often has the most genealogical detail: ages, birthplaces, parents' names, residence, occupation, and number of prior marriages. The certificate or return may add the officiant's name and witnesses.",
+      "action_steps": [
+        "Request all marriage-related documents for the event, not just the certificate — ask the county clerk for the license application, license, certificate/return, and any attached consent or bond documents",
+        "Search for marriage records in three places: the county where the marriage occurred, the bride's county of residence (if different), and the groom's county of residence — some states required filing in the couple's county of residence as well as the county of ceremony",
+        "For marriages before civil registration, search church records for the denomination of the officiant — if the certificate names a minister, locate that minister's church and check its marriage register for additional details",
+        "Check newspaper wedding announcements and social columns, especially for the 1870s-1940s — these often include extended family information, the couple's future residence, and details about the ceremony not found in official records. Search Newspapers.com and Chronicling America (chroniclingamerica.loc.gov)",
+        "For pre-1850 marriages, look for marriage bonds — these financial guarantees (posted by the groom and a bondsman, often the bride's father or brother) are sometimes the only surviving marriage evidence. They are held at county courthouses and state archives"
+      ],
+      "common_mistakes": [
+        "Requesting only the marriage certificate when the license application contains more genealogical information",
+        "Searching only the groom's index — some counties indexed only by groom's surname until the mid-20th century. Ask the clerk to search both the groom and bride indexes",
+        "Not realizing that couples often married in a different county (or even state) from where they lived — border counties were popular for couples eloping or avoiding parental consent requirements"
+      ],
+      "source_types_to_check": ["marriage license applications", "marriage certificates/returns", "marriage bonds (pre-1850)", "church marriage registers", "newspaper wedding announcements"]
+    },
+    {
+      "pattern_id": "birth_record_alternatives",
+      "scenario": "No birth record exists because the birth occurred before state registration or in a rural area with poor compliance",
+      "era_scope": "1700-1910, before effective birth registration in most states",
+      "interpretation": "For births before state registration (which for most states means before 1900-1920), there is no civil birth record. Researchers must construct proof of birth from alternative sources. Multiple sources pointing to the same approximate birth date and place create a credible case even without a birth certificate.",
+      "action_steps": [
+        "Search for a baptism or christening record in the family's church — this is the closest equivalent to a birth record and typically includes the child's name, birth date, parents' names, and godparents/sponsors. Available on FamilySearch, Ancestry, or directly from the church or diocesan archives",
+        "Check census records across multiple decades to calculate approximate birth year from reported ages — note that ages were rounded, estimated, and inconsistently reported, so use the average of several censuses rather than any single one",
+        "Look for a Bible record — family Bibles with handwritten birth, marriage, and death dates were common through the 19th century. These may survive with descendants, in county historical societies, or have been transcribed and submitted to genealogical societies. The DAR (Daughters of the American Revolution) Genealogical Research System includes transcribed Bible records",
+        "Search school enrollment records at the county school board or state archives — these often list the child's birth date and parents' names. Common school records survive more often than you might expect, particularly from the 1870s onward",
+        "For Social Security-era adults born before registration, obtain the SS-5 application (Social Security application form) — this required proof of age and records the applicant's stated birth date and birthplace. Request through the Social Security Administration under FOIA"
+      ],
+      "common_mistakes": [
+        "Giving up when no birth certificate exists — for most of American history, there were no birth certificates. Alternative sources are the norm, not the exception",
+        "Relying on a single census year for birth year calculation — ages were often wrong by several years. Use multiple sources to triangulate",
+        "Not checking DAR and other lineage society applications — these contain transcribed vital records submitted by previous researchers and may include sources that no longer survive"
+      ],
+      "source_types_to_check": ["baptism/christening records", "census records (multiple decades)", "family Bible records", "school enrollment records", "Social Security applications (SS-5)", "DAR application transcripts"]
+    }
+  ],
+  "source_references": [
+    "Szucs, Loretto Dennis and Sandra Hargreaves Luebking, eds. 'The Source: A Guidebook to American Genealogy.' 3rd ed. Ancestry Publishing, 2006.",
+    "Kemp, Thomas Jay. 'International Vital Records Handbook.' 7th ed. Genealogical Publishing, 2017.",
+    "Centers for Disease Control and Prevention. 'Where to Write for Vital Records.' cdc.gov/nchs/w2w.",
+    "FamilySearch Wiki. 'United States Vital Records.' familysearch.org/wiki."
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "_purpose": "Narrative template for interpreting GAPS in genealogical records — what it means when an ancestor disappears from the documentary record. The most intellectually honest section of a KinLore report. Does not speculate about individuals; explains systemic patterns that produce archival absence.",
+  "template_id": "record_silences",
+  "display_name": "Record Silences",
+  "description": "Interprets gaps and absences in the genealogical record. When an ancestor disappears between censuses, vanishes from a household, or leaves no trace at all, this template provides historically grounded explanations ranked by probability. It names the systemic reasons records fail to capture lives and treats every absence with intellectual honesty rather than narrative convenience. This is not a mystery to be solved — it is a feature of how records were kept, and who they were kept for.",
+  "revenue_tier": "$99 only — this level of interpretive depth is a premium feature",
+  "tier_guidance": {
+    "$99_white_glove": "Include all applicable gap types for the ancestor. Each gap type generates 80-200 words of interpretive text. May include research notes suggesting where to look next."
+  },
+  "gap_types": [
+    {
+      "gap_type_id": "between_censuses",
+      "display_name": "Missing Between Censuses",
+      "description": "Ancestor appears in one decennial census but is absent from the next. The most common genealogical gap. A ten-year window in which anything could have happened.",
+      "trigger_condition": "Ancestor present in census year X, absent in census year X+10, then present again in X+20 or absent permanently.",
+      "common_explanations": [
+        {
+          "rank": 1,
+          "explanation": "Migration",
+          "detail": "The ancestor moved between census dates and was enumerated elsewhere under the same or a variant name. This is the most common cause of inter-census gaps, especially during peak migration periods.",
+          "research_action": "Search census in likely destination cities. Check city directories for intervening years. Look for the ancestor in neighboring counties."
+        },
+        {
+          "rank": 2,
+          "explanation": "Missed by enumerator",
+          "detail": "Census enumerators missed households, especially in rural areas, boarding houses, and transient populations. Under-enumeration rates varied by year and region but were consistently higher for non-white populations, renters, and the poor.",
+          "research_action": "Check for the ancestor in adjacent enumeration districts. Some missed households were added as supplemental schedules."
+        },
+        {
+          "rank": 3,
+          "explanation": "Name variation",
+          "detail": "The ancestor was enumerated under a different spelling, a married name, a nickname, or an enumerator's phonetic interpretation. Name standardization did not exist. A single person might appear as 'James,' 'Jas.,' 'Jim,' or 'J.' in consecutive records.",
+          "research_action": "Search with Soundex, wildcard, and phonetic variants. Check for middle names used as first names. For women, search under all known surnames."
+        },
+        {
+          "rank": 4,
+          "explanation": "Living in a different household",
+          "detail": "The ancestor was present but listed in someone else's household — as a boarder, servant, in-law, or institutional resident. They may not be indexed under their own name.",
+          "research_action": "Browse the full enumeration district page by page. Check institutional schedules (hospitals, poorhouses, prisons) for that county."
+        },
+        {
+          "rank": 5,
+          "explanation": "Death",
+          "detail": "The ancestor died between census dates. Before mandatory vital registration (which varied by state but was not universal until the 1920s), a death might leave no civil record whatsoever.",
+          "research_action": "Check death indices, cemetery records, probate records, church burial registers, and local newspaper obituaries for the intervening decade."
+        }
+      ],
+      "interpretive_frame": "A ten-year gap between censuses is normal, not exceptional. The census was a snapshot taken on a single day. Everyone who moved, traveled, worked seasonally, or lived on the margins of record-keeping was at risk of being missed. The gap is not evidence of anything specific — it is evidence that the record-keeping system had a ten-year resolution.",
+      "constraints": [
+        "Rank explanations by probability for the specific ancestor's demographic profile, era, and region.",
+        "Do not favor dramatic explanations over mundane ones. Migration and enumerator error are far more common than death or disappearance.",
+        "Do not present the gap as a 'mystery' to be 'solved.' Present it as a known limitation of decennial enumeration."
+      ]
+    },
+    {
+      "gap_type_id": "woman_disappears",
+      "display_name": "Woman Vanishes from Records",
+      "description": "A woman present in early records disappears from the documentary record. This is not primarily a gap in her life — it is a systemic feature of how women were recorded. Women appear in records primarily in relation to men: as daughters, wives, and mothers. When those relationships change, the record often loses track of them entirely.",
+      "trigger_condition": "Female ancestor present in one or more records, then absent from subsequent records. Especially common after a husband's death, a divorce, or children leaving the household.",
+      "systemic_context": "Women's records are systematically thinner than men's in every era before the 20th century. The gap is not a mystery to be solved but a systemic feature of how records were kept. Property records, tax rolls, military records, voter registrations, and most occupational records excluded women by law or custom for most of American history.",
+      "common_explanations": [
+        {
+          "rank": 1,
+          "explanation": "Remarriage under a new surname",
+          "detail": "The most common cause. A woman who remarried disappeared from records under her previous surname and reappeared under a name the researcher does not yet know. Before the 20th century, there is often no marriage record linking the two names.",
+          "research_action": "Search for women with the same first name, approximate age, and birthplace in the target area. Check marriage records in the county and surrounding counties. Look for children from the first marriage appearing in a new household."
+        },
+        {
+          "rank": 2,
+          "explanation": "Absorbed into a relative's household",
+          "detail": "Widowed, divorced, or unmarried women frequently moved into the household of a parent, sibling, or adult child. They appear in the census as a 'mother,' 'sister,' or 'boarder' — often without a surname that would connect them to earlier records.",
+          "research_action": "Search for the woman in households of known relatives. Browse census pages in areas where her family lived."
+        },
+        {
+          "rank": 3,
+          "explanation": "Domestic service",
+          "detail": "Women who entered domestic service were enumerated in their employer's household, not their own. They appear in the census under their own name but at an unfamiliar address, often in a wealthier neighborhood or a different town entirely.",
+          "research_action": "Search the census for the woman's name in the broader region, not just her last known address. City directories sometimes list domestic workers."
+        },
+        {
+          "rank": 4,
+          "explanation": "Moved to follow family",
+          "detail": "Women often followed children, siblings, or extended family to new locations. The move may not have been independently documented if she joined an existing household.",
+          "research_action": "Track the movements of the woman's known children and siblings. She may appear in their households in a new location."
+        },
+        {
+          "rank": 5,
+          "explanation": "Death",
+          "detail": "As with men, death between records may leave no trace in areas without mandatory vital registration. Women's deaths were less likely to appear in newspapers unless they were property owners or connected to prominent families.",
+          "research_action": "Check cemetery records, church registers, and probate records. A probate filing by heirs may be the only record of death."
+        },
+        {
+          "rank": 6,
+          "explanation": "Institutionalization",
+          "detail": "Women were institutionalized at higher rates than men in certain categories — particularly in state hospitals and poorhouses. Institutional records from this era are often sealed, destroyed, or poorly indexed.",
+          "research_action": "Check state hospital admission records (where accessible), poorhouse registers, and county institutional schedules in the census."
+        }
+      ],
+      "interpretive_frame": "When a woman disappears from the record, the first question is not 'what happened to her?' but 'what system was responsible for recording her, and did that system change?' In most cases, the woman did not vanish — the record-keeping system that tracked her through male relatives simply lost its connection point.",
+      "constraints": [
+        "Always name the systemic reason before listing individual explanations.",
+        "Do not treat a woman's disappearance as more mysterious than a man's. It is more common, but the causes are better understood.",
+        "Do not assume widowhood or abandonment without evidence. Remarriage is far more common than either.",
+        "Include the research note about systemic record thinness. It reframes the gap for the reader."
+      ]
+    },
+    {
+      "gap_type_id": "child_vanishes",
+      "display_name": "Child Disappears from Household",
+      "description": "A child present in one household census disappears from the next. Before mandatory vital registration and universal public education, children moved through the record system unevenly. Their disappearance can mean many things, and the most common explanation is the one no one wants to hear.",
+      "trigger_condition": "Child listed in a household in census year X, absent from the same household in census year X+10. No death record, marriage record, or appearance in another household found.",
+      "common_explanations": [
+        {
+          "rank": 1,
+          "explanation": "Childhood death",
+          "detail": "Before 1900, between 25% and 40% of children died before age five, depending on region, race, and economic status. In many areas, a child's death was not recorded in any civil register. The absence IS the record. There may be a cemetery marker, a church register entry, or nothing at all.",
+          "research_action": "Check cemetery records (including unmarked infant sections), church burial registers, and county death records if they exist for the period. Some states did not require death registration until the 1910s-1920s."
+        },
+        {
+          "rank": 2,
+          "explanation": "Sent to live with relatives",
+          "detail": "Children were commonly sent to live with grandparents, aunts, uncles, or older siblings — especially after a parent's death, during economic hardship, or when a family had more children than it could support. This was not considered abandonment; it was family strategy.",
+          "research_action": "Search for the child in households of known extended family members. Check for the child's name in school records or church records in areas where relatives lived."
+        },
+        {
+          "rank": 3,
+          "explanation": "Apprenticed or bound out",
+          "detail": "Children as young as 8 or 10 were apprenticed to tradesmen, farmers, or households. They would appear in the master's household in the census, often listed as 'apprentice' or 'servant,' sometimes with no surname.",
+          "research_action": "Search apprenticeship records, court records (binding out was sometimes court-ordered, especially for orphans), and census pages for the child's name in non-family households."
+        },
+        {
+          "rank": 4,
+          "explanation": "Marriage (girls age 14-16)",
+          "detail": "Girls routinely married between ages 14 and 16 in the 18th and 19th centuries. A girl listed as a child in one census could be a married woman in another household by the next, under a new surname the researcher does not know.",
+          "research_action": "Search marriage records for girls of the right age and name in the county and surrounding counties. Check for young women with the same first name and approximate birth year in new households."
+        },
+        {
+          "rank": 5,
+          "explanation": "Institutional placement",
+          "detail": "Orphanages, reform schools, and charitable institutions took in children from families experiencing poverty, illness, or crisis. Placement was sometimes temporary, sometimes permanent. Records vary widely in accessibility.",
+          "research_action": "Check orphanage and institutional records for the county and state. Some have been digitized; many have not. State archives and denominational archives are the primary sources."
+        }
+      ],
+      "interpretive_frame": "Before mandatory vital registration, a child's death might leave no record whatsoever. The absence is the record. When a child disappears from a household between censuses, the researcher should begin with the statistical reality of childhood mortality in that era and region before considering other explanations.",
+      "research_note": "Childhood mortality rates by era and region: Pre-1850, approximately 40% of children died before age 5 in most of the U.S. By 1900, the rate had dropped to approximately 25% nationally but remained higher in the rural South and among non-white populations. By 1930, it was approximately 10%. These are not rare events — they are the demographic norm for most of American history.",
+      "constraints": [
+        "Lead with mortality statistics appropriate to the era and region. Do not soften them.",
+        "Do not describe a child's probable death in emotional language. State the statistical reality and the absence. The reader will feel it.",
+        "If the child reappears in a later record, note it — the gap was not death but one of the other explanations.",
+        "For girls, always consider early marriage as an explanation before assuming death.",
+        "Do not use the word 'tragic.' The frequency of childhood death in this era makes the word meaningless. It was ordinary, which is worse."
+      ]
+    },
+    {
+      "gap_type_id": "complete_disappearance",
+      "display_name": "Ancestor Vanishes Completely",
+      "description": "An ancestor present in one or more records disappears entirely and never reappears in any known record. No death record, no later census, no probate, no cemetery, no obituary. Complete archival silence.",
+      "trigger_condition": "Ancestor present in records up to a certain date, then no trace in any subsequent record searched. All standard searches exhausted.",
+      "common_explanations": [
+        {
+          "rank": 1,
+          "explanation": "Unrecorded death",
+          "detail": "The most prosaic and most common explanation. Death in an area without mandatory vital registration, burial in an unmarked grave or a cemetery that has since been lost, and no probate because there was nothing to probate. Ordinary death in ordinary obscurity.",
+          "research_action": "Expand death record searches to neighboring counties and states. Check poorhouse and hospital death registers. Search for probate or administration of estate by heirs — sometimes the only evidence of death is a relative's legal filing."
+        },
+        {
+          "rank": 2,
+          "explanation": "Frontier migration beyond record-keeping reach",
+          "detail": "The ancestor moved to an area where civil record-keeping had not yet been established, or was too sparse to capture them. Common for westward migration before territorial organization, and for migration into areas between census dates.",
+          "research_action": "Search land records, military records, and territorial records in plausible destination regions. Frontier churches and trading post records sometimes captured names that civil records did not."
+        },
+        {
+          "rank": 3,
+          "explanation": "Deliberate name change or identity shift",
+          "detail": "Some people changed their names deliberately — to escape debts, legal trouble, a first marriage, or racial classification. Others had their names changed by immigration officials, employers, or military enlistment clerks. The person continued to exist under a name the researcher cannot connect to the earlier records.",
+          "research_action": "Search for people with the same approximate age, birthplace, and occupation in plausible locations. Court records sometimes document legal name changes. Military and immigration records may show alternate names."
+        },
+        {
+          "rank": 4,
+          "explanation": "Institutionalization",
+          "detail": "Long-term institutionalization in a state hospital, prison, or poorhouse could remove a person from standard records for decades. Institutional records from the 19th century are often poorly preserved or restricted.",
+          "research_action": "Check state hospital admission records, prison records, and poorhouse registers. Some states have centralized indices; others require searching institution by institution."
+        },
+        {
+          "rank": 5,
+          "explanation": "Went to sea",
+          "detail": "Merchant sailors, whalers, and fishermen could spend years or decades at sea, appearing in crew manifests and port records rather than land-based civil records. Coastal and river communities lost men to the sea regularly.",
+          "research_action": "Search crew manifests, seamen's protection certificates, and port records. The National Archives holds extensive maritime personnel records."
+        },
+        {
+          "rank": 6,
+          "explanation": "Records destroyed",
+          "detail": "Courthouse fires, floods, and wartime destruction eliminated entire counties' worth of records. The ancestor may have lived, married, died, and been buried — all documented at the time — but every document was later destroyed.",
+          "research_action": "Check whether the relevant county experienced a courthouse fire or records loss. The Family History Library catalog and state archives note known records gaps. Reconstruct from church records, federal records, and neighboring county records."
+        }
+      ],
+      "interpretive_frame": "Complete disappearance from the documentary record is less rare than it seems. For most of American history, the majority of people were lightly documented. A person who rented rather than owned, who moved rather than stayed, who worked for wages rather than running a business, and who died without property could pass through an entire life leaving only a handful of records — all of which were vulnerable to loss. The absence is not mysterious. It is the default condition of the historical record for ordinary people.",
+      "constraints": [
+        "Lead with the most common explanation (unrecorded death), not the most dramatic.",
+        "Do not romanticize disappearance. 'They vanished into the frontier' sounds like a novel. 'They moved beyond the reach of civil record-keeping' is accurate.",
+        "Do not imply wrongdoing without evidence. Name changes and disappearances have many innocent explanations.",
+        "Acknowledge the limits honestly. Sometimes the answer is: we do not know, and we may never know."
+      ]
+    },
+    {
+      "gap_type_id": "1890_gap",
+      "display_name": "The 1890 Census Gap",
+      "description": "The 1890 federal census was almost entirely destroyed in a fire at the Commerce Department building in Washington, D.C., in January 1921. This created a twenty-year gap (1880-1900) in the most comprehensive record of American population. For genealogists, this is the single most devastating records loss in U.S. history.",
+      "trigger_condition": "Ancestor traceable in the 1880 census and the 1900 census, but the intervening twenty years are undocumented by federal census. Alternatively, ancestor's only expected census appearance falls in 1890.",
+      "what_survives": {
+        "fragments": "Fragments survive for parts of the following states: Alabama, District of Columbia, Georgia, Illinois, Minnesota, New Jersey, New York, North Carolina, Ohio, South Dakota, and Texas. These fragments cover only a few thousand individuals total.",
+        "veterans_schedule": "The 1890 Union Veterans and Widows special schedule survived almost entirely. It lists Union Civil War veterans (or their widows) with name, rank, unit, disability, and current address. Available for states alphabetically from Kentucky through Wyoming (A through J states were destroyed in a separate incident).",
+        "note": "The surviving fragments and veterans schedule are available through the National Archives and have been digitized by Ancestry and FamilySearch."
+      },
+      "substitute_sources": [
+        {
+          "source": "City directories",
+          "coverage": "Annual for most cities over 10,000 population. List name, occupation, home address, and sometimes employer. The best year-by-year substitute for census data in urban areas.",
+          "limitations": "Rural areas not covered. Women listed inconsistently. Minority populations under-represented."
+        },
+        {
+          "source": "Church records",
+          "coverage": "Baptisms, marriages, burials, membership rolls, and confirmation records. Coverage depends entirely on denomination and individual congregation record-keeping.",
+          "limitations": "Uneven survival. Many congregations did not maintain records or have since lost them. Access varies."
+        },
+        {
+          "source": "Newspapers",
+          "coverage": "Birth announcements, marriage announcements, obituaries, legal notices, land transactions, court proceedings. Increasingly digitized and searchable for the 1880s-1890s.",
+          "limitations": "Coverage skews toward property owners, professionals, and people involved in legal or civic events. Rural newspapers had small circulations and many have not survived."
+        },
+        {
+          "source": "Tax records",
+          "coverage": "Property tax rolls list property owners annually. Poll tax records (where they survive) list adult males. Both provide name, location, and approximate economic status.",
+          "limitations": "Renters and non-property-owners are invisible in property tax records. Poll tax records exist for some Southern states but are unevenly preserved."
+        },
+        {
+          "source": "State censuses",
+          "coverage": "Several states conducted their own censuses in 1885 or 1895, including Colorado, Florida, Iowa (1885), Kansas (1885, 1895), Massachusetts, Michigan (1894), Minnesota (1885, 1895), Nebraska (1885), New Jersey (1885, 1895), New York (1892), North Dakota (1885), Oregon (1895), Rhode Island, South Dakota (1885, 1895), and Wisconsin (1885, 1895). Coverage and survival vary.",
+          "limitations": "Not all states conducted mid-decade censuses. Surviving schedules are sometimes incomplete."
+        },
+        {
+          "source": "Vital records",
+          "coverage": "Birth, marriage, and death records filed with county or state authorities. Coverage expanded significantly in the 1880s and 1890s but was not universal until the 1920s.",
+          "limitations": "Many states did not require registration until after 1900. Compliance was uneven even where required."
+        }
+      ],
+      "interpretive_frame": "The 1890 census destruction is not just a gap — it is the gap. It falls at a critical juncture in American history: the closing of the frontier, the peak of European immigration, the beginning of African American urbanization, the industrialization of the Midwest and Northeast, and the reservation era for Native Americans. For an ancestor active during this period, the 1890 gap means that the single most comprehensive snapshot of their life in that decade does not exist. Researchers must reconstruct the 1890s from a patchwork of less comprehensive sources, none of which individually replaces the census.",
+      "constraints": [
+        "Always name the fire and date (January 1921, Commerce Department) so the reader understands this is a known, specific event, not a vague records loss.",
+        "List the surviving fragments by state so the reader can check whether their ancestor's location is covered.",
+        "Provide specific substitute sources, not vague advice to 'check other records.'",
+        "Do not overstate the loss. Some researchers find adequate substitutes. Others do not. Be honest about the odds.",
+        "For the veterans schedule, note the alphabetical gap (A-J states destroyed) so the reader does not search for a schedule that does not exist."
+      ]
+    },
+    {
+      "gap_type_id": "enslaved_ancestor_gap",
+      "display_name": "Enslaved Ancestor — Fragmentary or No Records",
+      "description": "The genealogical record for enslaved Americans is fragmentary by design. Enslaved people were not enumerated by name in the federal census until 1870. Before emancipation, they appear in records as property — in slave schedules, bills of sale, probate inventories, and plantation records. The archive was not designed to remember them as people. Reconstructing their lives requires working with records that were created to document their enslavement, not their personhood.",
+      "trigger_condition": "Ancestor identified or suspected as enslaved based on era, race, location, and record context. The 1870 census is often the first record where the ancestor appears by name.",
+      "dignity_mandate": "Treat with absolute dignity. Every editorial choice in this section must center the humanity of the ancestor, not the mechanics of the institution. Name the slaveholder — they are the one whose records we are using. Acknowledge the limits of the archive honestly.",
+      "record_sources": [
+        {
+          "source": "Federal slave schedules (1850, 1860)",
+          "description": "List enslaved people by age, sex, and color only — NOT by name. Attached to the slaveholder's entry. Can be cross-referenced with the 1870 census to identify probable matches based on age, sex, and location.",
+          "research_method": "Identify the likely slaveholder through the 1870 census (freedpeople often lived near or worked for their former enslavers in the first years after emancipation). Then check the slaveholder's 1850 and 1860 slave schedules for individuals matching the ancestor's approximate age and sex."
+        },
+        {
+          "source": "Bills of sale and deeds of sale",
+          "description": "Record the transfer of enslaved people as property. May include first name, age, and physical description. Found in county deed books.",
+          "research_method": "Search county deed records under the slaveholder's name. Grantor/grantee indices may list sales of enslaved people."
+        },
+        {
+          "source": "Probate and estate inventories",
+          "description": "When a slaveholder died, enslaved people were listed in the estate inventory by name, age, and sometimes family grouping. Probate inventories are among the most detailed records of enslaved individuals and sometimes the only place where family relationships among enslaved people are documented.",
+          "research_method": "Search probate records for the slaveholder in the county where they died. Estate inventories, wills, and division of property records may list enslaved individuals."
+        },
+        {
+          "source": "Plantation records and account books",
+          "description": "Large plantations sometimes maintained birth, death, and work records for enslaved people. These are held in university special collections, state archives, and historical societies. Coverage is uneven — most plantations did not keep detailed records, or the records have not survived.",
+          "research_method": "Search university and archival finding aids for plantation records associated with the slaveholder or the county. The Southern Historical Collection (UNC), Duke University, and the Library of Congress hold major collections."
+        },
+        {
+          "source": "Church records",
+          "description": "Some denominations recorded baptisms, marriages, and burials of enslaved people. Quaker meeting records are particularly detailed. Baptist and Methodist church books sometimes include enslaved members by name.",
+          "research_method": "Search denominational archives and individual congregation records for the county and slaveholder's known church affiliation."
+        },
+        {
+          "source": "Freedmen's Bureau records (1865-1872)",
+          "description": "The Bureau of Refugees, Freedmen, and Abandoned Lands documented labor contracts, marriages, school enrollments, complaints, and rations distributions for formerly enslaved people. These records often include the ancestor's name, age, former slaveholder, family members, and current location. Among the most valuable post-emancipation sources.",
+          "research_method": "Search the Freedmen's Bureau records by state and county. Digitized and indexed by FamilySearch. Labor contracts frequently name both the freedperson and their former enslaver."
+        },
+        {
+          "source": "Information Wanted advertisements",
+          "description": "Formerly enslaved people placed advertisements in newspapers — particularly the Christian Recorder and other African American newspapers — seeking family members separated by sale. These ads contain names, physical descriptions, former slaveholders, and last known locations. They are primary evidence of family separation and active resistance to that separation.",
+          "research_method": "Search the Information Wanted database (Historic New Orleans Collection and Mother Bethel AME Church digital collection). Ads appeared primarily 1865-1900."
+        },
+        {
+          "source": "The 1870 census as breakthrough",
+          "description": "The 1870 federal census is the first in which formerly enslaved people appear by name. For many African American families, this is the earliest record that documents the ancestor as a person rather than as property. It records name, age, sex, race, occupation, birthplace, and household structure.",
+          "research_method": "The 1870 census is the anchor record. From it, work backward: cross-reference the ancestor's age, sex, and location with the 1860 slave schedule of nearby slaveholders. Work forward: trace the family through 1880, 1900, and subsequent censuses."
+        }
+      ],
+      "cross_referencing_method": {
+        "description": "The primary method for connecting an enslaved ancestor to pre-1870 records is cross-referencing the 1870 census with the 1860 slave schedule.",
+        "steps": [
+          "Identify the ancestor in the 1870 census: name, age, sex, birthplace, occupation, household members.",
+          "Identify slaveholders in the same area of the county (1860 census, free schedule).",
+          "Check the 1860 slave schedule for each candidate slaveholder: look for an enslaved person matching the ancestor's approximate age (minus 10 years) and sex.",
+          "Corroborate with other evidence: Freedmen's Bureau records naming the former slaveholder, surname matching (many freedpeople took the slaveholder's surname, though not all), property proximity in 1870.",
+          "Acknowledge uncertainty. A probable match is not a confirmed match. State the evidence and its limitations."
+        ]
+      },
+      "interpretive_frame": "The archive was not designed to remember this person. Every record that survives was created by someone else, for someone else's purposes — to document property, to manage labor, to administer law. Reconstructing an enslaved ancestor's life from these records requires reading against the grain of the archive: finding the person inside records that denied their personhood. This is difficult, often incomplete, and always mediated by the power structures that created the records. It deserves to be done carefully, honestly, and with respect for what the record can and cannot tell us.",
+      "constraints": [
+        "Name the slaveholder. They are the access point to the records. The ancestor's pre-1870 documentary existence is filed under someone else's name.",
+        "Acknowledge the limits honestly. Do not overclaim. 'The archive was not designed to remember this person' is not an apology — it is a statement of historical fact.",
+        "Do not speculate about the ancestor's inner life under enslavement. The record does not support it, and the attempt risks trivializing the experience.",
+        "Do not use passive constructions that obscure agency. Not 'enslaved people were brought to the county' but 'slaveholders in the county held [number] enslaved people according to the [year] slave schedule.'",
+        "Do not use the word 'slave' as a noun. Use 'enslaved person,' 'enslaved people,' or 'enslaved ancestor.' The condition of enslavement was imposed, not an identity.",
+        "Present the Information Wanted ads as evidence of agency and resistance — people actively searching for family — not as evidence of victimhood.",
+        "If the 1870 census match is probable but not certain, say so explicitly. 'Based on age, sex, and proximity, this is a probable match' is honest. 'This was the ancestor' is overclaiming.",
+        "The Freedmen's Bureau records should be highlighted as a primary post-emancipation source. They are under-utilized and enormously valuable."
+      ],
+      "editorial_note": "This gap type should never be generated using the Letter Home template. The letter_home template's what_NOT_to_do section explicitly prohibits generating letters for enslaved ancestors. Record Silences is the appropriate framework for honoring lives that the documentary record was designed to erase."
+    }
+  ],
+  "editorial_guidelines": {
+    "overarching_principle": "Intellectual honesty over narrative convenience. A KinLore report gains credibility by admitting what it does not know. Record Silences is where that credibility is built.",
+    "tone": "Respectful, direct, informed. Not apologetic — archival absence is not the researcher's fault. Not dramatic — gaps are the norm, not the exception. Authoritative but humble about the limits of the evidence.",
+    "what_NOT_to_do": [
+      "Do not present archival absence as a mystery or a puzzle. It is a systemic feature of historical record-keeping.",
+      "Do not speculate about individual experiences based on gaps. The gap tells us about the archive, not about the person.",
+      "Do not rank human value by documentary presence. A person who left one record is not less real than a person who left a hundred.",
+      "Do not use the word 'unfortunately' about records gaps. It implies that the normal state of affairs was comprehensive documentation. It was not.",
+      "Do not fill silences with fiction. The silence itself is meaningful and should be presented as such.",
+      "Do not treat Record Silences as a lesser section — filler for when data is thin. It is the most intellectually rigorous part of the report."
+    ],
+    "when_to_use": "Include a Record Silences section whenever the ancestor's record trail has a significant gap that the narrative must acknowledge. This is not optional for the $99 tier. Every ancestor has gaps; the question is which gaps are significant enough to interpret.",
+    "integration_with_other_templates": "Record Silences may reference Fork in the Road (what happened to the county during the gap) and What They Saw (the physical landscape the ancestor disappeared from or into). It should NEVER be combined with Letter Home — the two templates serve different purposes and mixing them undermines the honesty of both."
+  },
+  "data_dependencies": [
+    "Census records (for identifying gaps between enumeration years)",
+    "Vital records indices (for death record searches)",
+    "County source profiles (for known records losses — courthouse fires, floods)",
+    "Historical context timelines (for contextualizing the era of the gap)",
+    "Freedmen's Bureau digitized records (FamilySearch)",
+    "Slave schedule data (1850, 1860)",
+    "State census schedules (for 1890 gap substitutes)"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "_purpose": "Creative narrative template for generating counterfactual scenarios grounded entirely in documented demographic and economic data. Speculates about what would have happened to the ancestor had they NOT migrated, using only verifiable conditions in the origin region.",
+  "template_id": "fork_in_the_road",
+  "display_name": "The Fork in the Road",
+  "description": "Generates a counterfactual paragraph exploring what the ancestor's life might have looked like had they remained in their origin county instead of migrating. Every claim must be grounded in documented demographic, economic, or environmental changes in the origin region. No individual speculation — only aggregate patterns applied to the ancestor's circumstances.",
+  "revenue_tier": "both — brief version for $29, expanded version for $99",
+  "tier_guidance": {
+    "$29_skeleton": "One paragraph, 80-120 words. Three beats: opening frame, economic trajectory, closing comparison.",
+    "$99_white_glove": "Two to three paragraphs, 150-250 words. All five beats. May include a footnote citing the specific data sources (census figures, economic reports, county histories) that ground each claim."
+  },
+  "structural_beats": [
+    {
+      "beat_number": 1,
+      "beat_name": "opening_frame",
+      "description": "The counterfactual premise. A single sentence that establishes the alternative history.",
+      "format": "\"Had {ancestor_name} remained in {county}...\" or equivalent phrasing. Always conditional tense. Never declarative.",
+      "example": "Had Sarah remained in Haywood County after Ezekiel's death in 1918..."
+    },
+    {
+      "beat_number": 2,
+      "beat_name": "economic_trajectory",
+      "description": "What happened to the local economy after the ancestor left. Industry collapse, crop failure, market shifts, mine closures, mill shutdowns. Documented with approximate dates and scale.",
+      "data_source": "trigger.what_happened_to_those_who_stayed, historical_context_timelines, county economic data",
+      "example": "...she would have watched the timber industry that employed most of the county collapse by 1925."
+    },
+    {
+      "beat_number": 3,
+      "beat_name": "demographic_collapse",
+      "description": "Population change in the origin county after the ancestor's departure. Census-to-census comparison. Percentage decline or stagnation. Framed in human terms, not just numbers.",
+      "data_source": "Census population data for origin county, migration_triggers.demographic_impact",
+      "example": "The population dropped 40% between 1920 and 1950."
+    },
+    {
+      "beat_number": 4,
+      "beat_name": "one_human_detail_of_staying",
+      "description": "A single concrete detail about what daily life looked like for those who did stay. Not speculative about the ancestor individually — about the community. A closed school, a shuttered store, a church that lost half its congregation, roads that were not paved until decades later.",
+      "data_source": "county_source_profiles, historical_context_timelines, county histories",
+      "example": "By 1940, the county had lost its only hospital and the nearest doctor was thirty miles away."
+    },
+    {
+      "beat_number": 5,
+      "beat_name": "closing_comparison",
+      "description": "A brief, restrained comparison to what actually happened. Where the ancestor ended up, what they built. Not triumphalist — matter of fact. The contrast speaks for itself.",
+      "data_source": "Ancestor's actual census/record data at destination",
+      "example": "Instead, by 1940, Sarah was living in a four-room house in Akron, Ohio, with two of her children working at Goodyear."
+    }
+  ],
+  "variables": [
+    "{ancestor_name}",
+    "{county}",
+    "{state}",
+    "{departure_year}",
+    "{death_year}",
+    "{destination}"
+  ],
+  "data_sources": [
+    "migration_triggers.what_happened_to_those_who_stayed — primary source for origin county post-departure conditions",
+    "historical_context_timelines — economic and social events in the origin region",
+    "Census population data — decennial population for origin county",
+    "county_source_profiles — local institutional and infrastructure data",
+    "Ancestor's own record trail — for the closing comparison"
+  ],
+  "constraints": [
+    "Every factual claim must be documentable. Population figures, industry data, and institutional changes must come from verifiable sources.",
+    "No individual speculation. Do not say 'Sarah would have been lonely' or 'she would have struggled.' Say what happened to the county and let the reader draw conclusions.",
+    "No emotional projection. Describe circumstances. The reader supplies the feeling.",
+    "Matter-of-fact tone throughout. This is not elegiac or mournful. It is informational with narrative shape.",
+    "No moralizing. Do not suggest the ancestor 'made the right choice' or 'escaped.' Migration is complicated. Some who stayed did fine. Some who left did not.",
+    "Conditional tense for counterfactual claims ('would have,' 'might have'). Indicative tense for documented facts ('the population dropped,' 'the mill closed').",
+    "The closing comparison must be grounded in the ancestor's actual records, not speculation about their happiness or satisfaction.",
+    "If data is insufficient to support the counterfactual (origin county data too thin), do not generate this template. Flag it as unavailable with a reason."
+  ],
+  "example_output": {
+    "full_example": "Had Sarah remained in Haywood County after Ezekiel's death in 1918, she would have watched the timber industry that employed most of the county collapse by 1925. The American Enka corporation built a rayon plant in 1928 that provided some relief, but it could not absorb the workforce that logging had sustained. The population dropped 40% between 1920 and 1950. By the time her grandchildren were grown, there would be no work within fifty miles. The county's only movie theater closed in 1938. Instead, by 1940, Sarah was listed at 412 Wooster Avenue in Akron, Ohio, living with her daughter and son-in-law, both employed at Goodyear Tire & Rubber.",
+    "brief_example": "Had Sarah remained in Haywood County after 1918, she would have watched the timber industry collapse by 1925 and the county lose 40% of its population over the next three decades. Instead, by 1940, she was living in Akron, Ohio, where two of her children worked at Goodyear."
+  },
+  "editorial_guidelines": {
+    "when_to_use": "Most effective when the origin county experienced clear, documented decline after the ancestor's departure. Less effective when the county remained stable or grew — in those cases, the counterfactual is less dramatic and the template may not add value.",
+    "when_NOT_to_use": [
+      "When origin county data is too thin to support specific claims.",
+      "When the ancestor was enslaved — the counterfactual framing ('had they stayed') is inappropriate for people who were forcibly relocated. Use Record Silences instead.",
+      "When the migration was involuntary (forced removal, displacement). The 'choice' framing is inaccurate.",
+      "When the origin county actually thrived after the departure period — the counterfactual would be misleading."
+    ],
+    "tone_calibration": "This template works best when it is dry and factual. The power comes from the numbers and the concrete details, not from emotional language. Think of a historian's aside, not a novelist's meditation."
+  }
+}

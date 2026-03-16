@@ -1,0 +1,168 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "guidance_id": "census_gaps",
+  "display_name": "Census Gap Strategies",
+  "description": "Guidance for when expected census records are missing, incomplete, or contain errors — covering destruction, undercounting, enumerator mistakes, and Soundex limitations",
+  "patterns": [
+    {
+      "pattern_id": "1890_destruction",
+      "scenario": "Ancestor cannot be found in the 1890 federal census",
+      "era_scope": "1880-1900 gap period",
+      "interpretation": "The 1890 census was almost entirely destroyed by a January 1921 fire at the Commerce Department building in Washington, D.C. Only fragments survive for specific states and counties. This is a systemic loss, not a sign the ancestor was absent.",
+      "action_steps": [
+        "Check the surviving 1890 fragments: Alabama (Perry County), District of Columbia (streets beginning with certain letters), Georgia (Muscogee County), Illinois (McDonough County), Minnesota (Wright County), New Jersey (Hudson and Essex Counties), New York (Westchester and Suffolk Counties), North Carolina (Gaston and Cleveland Counties), Ohio (Hamilton and Clinton Counties), South Dakota (Union County), Texas (Ellis, Hood, Kaufman, Rusk, and Trinity Counties)",
+        "Search the 1890 Veterans Schedule, which survived separately — it lists Union veterans and their widows by county. Available on FamilySearch and Ancestry. Covers states alphabetically from Kentucky through Wyoming (A through part of K were destroyed)",
+        "Substitute with the 1885 state census for Colorado, Dakota Territory, Florida, Nebraska, and New Mexico Territory — these are federally authorized mid-decade enumerations held at NARA",
+        "Search state censuses taken near 1890: New York (1892), Massachusetts (1885), New Jersey (1885), Minnesota (1885), Iowa (1885), Kansas (1885)",
+        "Use city directories from 1889-1891 as a census substitute to confirm residence and occupation — available at local public libraries, state historical societies, and Ancestry's U.S. City Directories collection"
+      ],
+      "common_mistakes": [
+        "Assuming the entire 1890 census is gone — scattered fragments survive and are worth checking",
+        "Forgetting the 1890 Veterans Schedule survived separately for roughly half the states",
+        "Not checking state-level censuses that fall within the 1880-1900 gap"
+      ],
+      "source_types_to_check": ["1890 census fragments", "1890 Veterans Schedule", "state censuses 1885-1895", "city directories 1889-1891", "tax records 1885-1895"]
+    },
+    {
+      "pattern_id": "rural_undercounting",
+      "scenario": "Ancestor lived in a rural area and is missing from a census they should appear in",
+      "era_scope": "1790-1940, particularly before 1880",
+      "interpretation": "Rural households were systematically undercounted throughout census history. Enumerators traveled by horse or on foot, and isolated farms, mountain settlements, and frontier homesteads were frequently skipped. Undercounting was especially severe in Appalachian counties, the deep backcountry South, and western territories.",
+      "action_steps": [
+        "Check the census for neighboring counties — boundary changes were frequent, and ancestors may appear under a different county than expected. Use the Atlas of Historical County Boundaries (digital.newberry.org) to confirm which county included a specific location in a given census year",
+        "Search alternate spellings and Soundex codes — rural enumerators had high error rates with unfamiliar names. Try phonetic variants and check the Soundex index separately from the name index",
+        "Check tax lists for the same year — county tax rolls were maintained independently of federal census and often captured households the enumerator missed. County courthouses or state archives hold these",
+        "Look for the ancestor in church membership rolls for rural congregations — Baptist church minutes, Methodist circuit rider records, and Presbyterian session minutes often noted household members",
+        "Search land records at the county courthouse or on FamilySearch — a deed, patent, or tax sale record can confirm presence even when the census missed them"
+      ],
+      "common_mistakes": [
+        "Searching only the modern county boundaries rather than historical ones — a county may have been split or redrawn between census years",
+        "Assuming absence from census means absence from the area — rural undercounting rates exceeded 10% in many frontier counties",
+        "Not accounting for seasonal migration — farmers might have been away at a logging camp, cattle drive, or seasonal work site when the enumerator visited"
+      ],
+      "source_types_to_check": ["county tax lists", "land patents and deeds", "church membership rolls", "neighboring county census schedules", "state census records"]
+    },
+    {
+      "pattern_id": "enumerator_errors",
+      "scenario": "Ancestor appears in census but with significant errors in name, age, birthplace, or other details",
+      "era_scope": "1790-1950, all federal censuses",
+      "interpretation": "Census enumerators recorded information as they heard it, often from a neighbor or boardinghouse keeper rather than the person themselves. Names were spelled phonetically, ages were frequently estimated, and birthplace information was often wrong — especially for immigrants whose origin terminology changed (e.g., 'Prussia' vs. 'Germany' vs. 'Poland' for the same place).",
+      "action_steps": [
+        "Compare the same person across multiple census years — track how their name spelling, reported age, and birthplace shift. A pattern of variation is normal and helps confirm identity",
+        "Identify the informant by checking who else was home — the census instructions required information from a household member, but enumerators often asked a neighbor. Ages of non-present members are especially suspect",
+        "Check the original census image rather than relying on the transcription index — Ancestry, FamilySearch, and NARA microfilm may have different readings of the same handwriting",
+        "For immigrant ancestors, check whether the birthplace terminology matches the political reality of that year. 'Germany' was not a country before 1871. 'Austria' might mean ethnic German, Czech, Slovak, Polish, Slovene, Croatian, Hungarian, or Italian depending on the province of the Habsburg Empire",
+        "Search for the ancestor using wildcard and phonetic search options — Ancestry supports exact, Soundex, and similar-name searches. FamilySearch supports wildcards with * and ?"
+      ],
+      "common_mistakes": [
+        "Treating census details as authoritative — they are self-reported (or neighbor-reported) approximations, not verified facts",
+        "Rejecting a census match because the age is off by 2-5 years — age discrepancies of this magnitude are extremely common",
+        "Assuming a birthplace of 'Germany' in 1870 means modern Germany — it could mean any German-speaking region of Central Europe"
+      ],
+      "source_types_to_check": ["original census images (not just indexes)", "multiple census years for the same person", "immigration records for birthplace verification", "vital records for age verification"]
+    },
+    {
+      "pattern_id": "name_variation_between_decades",
+      "scenario": "An ancestor appears under significantly different names in consecutive censuses",
+      "era_scope": "1850-1940, when individual names were recorded",
+      "interpretation": "Before standardized spelling and identification documents, name spelling was fluid. The same person might appear as 'Catherine,' 'Katharine,' 'Kate,' and 'Katie' across four censuses, or as 'Johann Schmidt,' 'John Smith,' and 'J. Schmitt.' This is normal variation, not evidence of different people.",
+      "action_steps": [
+        "Build a name-variant list for the ancestor: include formal/informal versions, ethnic-language originals, anglicized forms, common misspellings, and Soundex-equivalent names. Search each variant in every census index",
+        "Use the Stephen P. Morse One-Step search tools (stevemorse.org) which allow searching census indexes with more flexible matching than the native Ancestry or FamilySearch interfaces",
+        "Anchor identification on household composition rather than name spelling — if the same cluster of ages, relationships, and birthplaces appears at a consistent address, minor name changes are irrelevant",
+        "Check naturalization records for the legal name at time of citizenship — these often record both original and adopted names. Search NARA regional facilities or the FamilySearch catalog for the relevant district court",
+        "For women, remember that a different surname in a later census may indicate widowhood and remarriage, not a name change — cross-reference with marriage records in the county"
+      ],
+      "common_mistakes": [
+        "Creating duplicate ancestor entries for the same person under variant spellings",
+        "Insisting on exact-match name searches and missing obvious matches",
+        "Failing to check for Americanized names — 'Schwarzbach' becomes 'Blackbrook,' 'Baumgartner' becomes 'Gardener'"
+      ],
+      "source_types_to_check": ["naturalization records", "marriage records", "death certificates (for maiden names)", "immigration manifests (for original-language names)", "church records (often used ethnic-language names)"]
+    },
+    {
+      "pattern_id": "boarders_lodgers_missed",
+      "scenario": "A young adult or recent immigrant ancestor disappears from census records for one or more decades",
+      "era_scope": "1850-1940, especially 1880-1920 during peak immigration and urbanization",
+      "interpretation": "Boarders, lodgers, and domestic servants were frequently undercounted. They might be listed at the end of a household enumeration page and missed in indexing, listed only by first name, or omitted entirely by overwhelmed urban enumerators. Young single adults between leaving their parents' household and establishing their own were the most likely to be lost.",
+      "action_steps": [
+        "Search for the ancestor listed as 'boarder,' 'lodger,' 'servant,' or 'inmate' rather than as a head of household — use the Relationship filter in Ancestry's census search to specify these roles",
+        "Check the boarding or lodging house addresses from city directories, then locate that specific address in the census enumeration — the census and directory may have captured the person under different conditions",
+        "Search employer records if the ancestor worked in domestic service, mining, railroads, or lumber — company towns and work camps were sometimes enumerated as separate sheets. NARA record groups vary by industry",
+        "Look for institutional enumeration — hospitals, jails, military barracks, poorhouses, and schools were enumerated on separate schedules that may not be fully indexed. Browse the enumeration district pages for institutions in the target area",
+        "Check ship manifests for the relevant decade — the ancestor may have been in transit, abroad, or in the process of chain migration with temporary returns to the home country"
+      ],
+      "common_mistakes": [
+        "Searching only for the ancestor as 'head of household' and missing their listing as boarder or servant",
+        "Not browsing the actual enumeration pages for the neighborhood where the ancestor is known to have lived",
+        "Assuming disappearance from the census means the person left the area or died"
+      ],
+      "source_types_to_check": ["census schedules browsed page-by-page", "city directories", "employer/company records", "institutional schedules", "ship manifests for return voyages"]
+    },
+    {
+      "pattern_id": "institutional_populations",
+      "scenario": "Ancestor is missing from household census but was known to be alive during that census year",
+      "era_scope": "1850-1940, when non-population schedules and institutional enumeration expanded",
+      "interpretation": "People living in institutions were enumerated on separate schedules, often poorly indexed or not indexed at all. Prisons, asylums, hospitals, poorhouses, orphanages, soldiers' homes, boarding schools, convents, and monasteries each had their own enumeration pages. These are frequently overlooked by family researchers.",
+      "action_steps": [
+        "Identify institutions that existed in the ancestor's county during the census year — check state archives, county histories, and the institutional listings in the census itself (usually at the end of the enumeration district)",
+        "Browse the institutional pages within the relevant enumeration district on FamilySearch or Ancestry — these pages follow the household pages and are often not fully name-indexed",
+        "For state hospitals and asylums, contact the state archives — some states (New York, Massachusetts, Ohio) have released historical patient registers. Access policies vary; some require proof of kinship and restrict records less than 75-100 years old",
+        "Search the Mortality Schedule for 1850, 1860, 1870, and 1880 — if the ancestor died in the 12 months preceding the census, they may appear here rather than in the population schedule. Available on Ancestry and FamilySearch",
+        "Check state prison records through the state archives or the state historical society — intake records typically include physical description, birthplace, occupation, and next of kin"
+      ],
+      "common_mistakes": [
+        "Assuming census indexes cover institutional populations — many do not, especially for earlier decades",
+        "Not looking for Mortality Schedules, which are a separate census product entirely",
+        "Overlooking military installations — soldiers in garrison were enumerated at the post, not their home address"
+      ],
+      "source_types_to_check": ["institutional census schedules", "Mortality Schedules 1850-1880", "state asylum patient registers", "prison intake records", "military post returns"]
+    },
+    {
+      "pattern_id": "soundex_limitations",
+      "scenario": "Ancestor cannot be found in a census index despite searching multiple name variants",
+      "era_scope": "1880-1920, the censuses most commonly searched via Soundex",
+      "interpretation": "The Soundex coding system, developed for the 1930s WPA indexing project, groups similar-sounding surnames but has well-known blind spots. It ignores vowels after the first letter, cannot distinguish certain consonant clusters, and was applied inconsistently by WPA workers. Names beginning with different letters but sounding similar (e.g., 'Koenig' vs. 'Cenig') receive completely different Soundex codes.",
+      "action_steps": [
+        "Generate the Soundex code manually for all known name variants using the census Soundex algorithm at the NARA website (archives.gov/research/census/soundex) or Steve Morse's One-Step tools (stevemorse.org)",
+        "Search the Miracode index for the 1910 census — 21 states were indexed with Miracode rather than Soundex, and the two systems have different coding. The Miracode states include Alabama, Georgia, Louisiana, Mississippi, South Carolina, Tennessee, and Texas among others",
+        "Bypass the index entirely: determine the ancestor's enumeration district using the NARA ED finder tools, then browse every page of that district. For 1910 and 1920, NARA provides ED description booklets that map streets to districts",
+        "Try the Daitch-Mokotoff Soundex system for Eastern European and Jewish surnames — it handles Slavic and Yiddish phonetics better than American Soundex. JewishGen (jewishgen.org) provides a free D-M Soundex converter",
+        "Search FamilySearch's index separately from Ancestry's — they were independently transcribed and may have captured different readings of the same handwritten entry"
+      ],
+      "common_mistakes": [
+        "Relying solely on Soundex without understanding its limitations — it was not designed for non-English surnames",
+        "Not knowing which states used Miracode vs. Soundex for the 1910 census",
+        "Failing to browse enumeration districts directly when index searches fail — this is the single most effective strategy for finding hard-to-locate ancestors"
+      ],
+      "source_types_to_check": ["Soundex index cards (microfilm at NARA)", "Miracode index cards", "enumeration district descriptions", "FamilySearch and Ancestry indexes searched separately", "Steve Morse One-Step search tools"]
+    },
+    {
+      "pattern_id": "african_american_undercounting",
+      "scenario": "An African American ancestor is missing from census records, particularly in the South",
+      "era_scope": "1790-1870 (enslaved not named); 1870-1940 (free but undercounted)",
+      "interpretation": "Before 1870, enslaved people were enumerated by age, sex, and color on the Slave Schedule — never by name. After emancipation, Black households were systematically undercounted, especially in rural Southern counties, sharecropping areas, and during the Great Migration. Separate 'colored' sections in census enumeration were common through 1920 and are sometimes poorly indexed.",
+      "action_steps": [
+        "For pre-1870 research, identify the enslaver using Slave Schedules for 1850 and 1860 — match ages, sex, and location against known family oral history. Then trace the enslaver's records: wills, estate inventories, plantation journals, and bills of sale at the county courthouse or state archives",
+        "Search Freedmen's Bureau records (1865-1872) at NARA (Record Group 105) and on FamilySearch — labor contracts, marriage registers, school records, and ration lists often provide the first post-emancipation documentation of individuals by name",
+        "Check Freedmen's Bank records (1865-1874) on FamilySearch — account applications include name, age, birthplace, complexion, employer, spouse, children, parents, and siblings. Over 480,000 entries survive",
+        "For 1870 specifically, browse the enumeration pages for the area rather than relying on the index — the first census naming all Black Americans had high error rates and poor handwriting in many Southern districts",
+        "Search Cohabitation Records from Reconstruction-era states (North Carolina, Virginia, Mississippi, others) — these legal registers of formerly enslaved couples contain family relationship details found nowhere else"
+      ],
+      "common_mistakes": [
+        "Giving up at the 1870 'brick wall' without searching enslaver records — the paper trail continues through the enslaver's estate and legal documents",
+        "Not searching Freedmen's Bureau records, which are now largely digitized and free on FamilySearch",
+        "Assuming surnames were adopted from the last enslaver — many freedpeople chose names of earlier enslavers, prominent figures, or entirely new names"
+      ],
+      "source_types_to_check": ["Slave Schedules 1850-1860", "Freedmen's Bureau records (NARA RG 105)", "Freedmen's Bank records", "Cohabitation Records", "enslaver estate inventories and wills", "county court records"]
+    }
+  ],
+  "source_references": [
+    "Blake, Kellee. 'First in the Path of the Firemen: The Fate of the 1890 Population Census.' Prologue Magazine, Spring 1996. National Archives.",
+    "Dollarhide, William. 'The Census Book: A Genealogist's Guide to Federal Census Facts, Schedules and Indexes.' HeritageQuest, 2000.",
+    "Szucs, Loretto Dennis and Matthew Wright. 'Finding Answers in U.S. Census Records.' Ancestry Publishing, 2002.",
+    "National Archives and Records Administration. 'Federal Census Records: A Research Guide.' archives.gov/research/census.",
+    "Morgan, George G. 'How to Do Everything: Genealogy.' McGraw-Hill, 4th edition, 2015."
+  ]
+}

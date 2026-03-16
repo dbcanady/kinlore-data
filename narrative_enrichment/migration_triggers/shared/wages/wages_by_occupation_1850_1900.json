@@ -1,0 +1,449 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "table_id": "wages_1850_1900",
+  "display_name": "Wages by Occupation, 1850-1900",
+  "description": "Daily, weekly, and annual wage data for occupations tied to Tier 1 migration triggers. Covers farmer/farm laborer, general laborer, coal miner, textile mill hand, domestic servant, and railroad construction worker across major U.S. regions for each decade from 1850 to 1900. Designed to let the narrative AI compare origin wages against destination wages so descendants understand the economic logic of ancestor migration decisions.",
+  "data_source": "BLS Historical Statistics of the United States (Millennial Edition); Gavin Wright, Old South New South (1986); David Montgomery, Fall of the House of Labor (1987); U.S. Census wage schedules; state labor commission annual reports (MA, PA, OH, IL); Stanley Lebergott, Manpower in Economic Growth (1964).",
+  "entries": [
+    {
+      "era": "1850s",
+      "region": "South",
+      "occupation": "Farm laborer",
+      "daily_wage": "$0.30-$0.50",
+      "weekly_wage": "$1.80-$3.00",
+      "annual_income": "$75-$150 (seasonal, 200-250 working days)",
+      "context": "Enslaved labor dominated Southern agriculture; free white farm laborers earned subsistence wages. Hired-out enslaved workers generated $100-$200/year for their enslavers. Source: Wright, Old South New South, ch. 1."
+    },
+    {
+      "era": "1850s",
+      "region": "Northeast",
+      "occupation": "Farm laborer",
+      "daily_wage": "$0.75-$1.00",
+      "weekly_wage": "$4.50-$6.00",
+      "annual_income": "$150-$250 (seasonal)",
+      "context": "New England farm labor competed with factory wages, pushing agricultural pay higher than the South. Many farmhands worked seasonally and took mill jobs in winter. Source: Lebergott, Manpower in Economic Growth."
+    },
+    {
+      "era": "1850s",
+      "region": "Midwest",
+      "occupation": "Farm laborer",
+      "daily_wage": "$0.50-$0.75",
+      "weekly_wage": "$3.00-$4.50",
+      "annual_income": "$120-$200 (seasonal)",
+      "context": "Midwestern farms offered slightly higher wages than the South due to labor scarcity on the frontier. Harvest season brought peak demand and premium day rates. Source: U.S. Census, 1860 Agriculture Schedule."
+    },
+    {
+      "era": "1850s",
+      "region": "Northeast",
+      "occupation": "Irish canal/railroad laborer",
+      "daily_wage": "$0.75-$1.25",
+      "weekly_wage": "$4.50-$7.50",
+      "annual_income": "$150-$300 (seasonal, weather-dependent)",
+      "context": "Irish famine immigrants flooded the unskilled labor market after 1845. Canal and railroad contractors paid marginally more than farm labor but the work was brutal and seasonal. Death rates on canal projects ran 5-10% per season. Source: Montgomery, Fall of the House of Labor, ch. 2."
+    },
+    {
+      "era": "1850s",
+      "region": "Northeast",
+      "occupation": "Textile mill hand",
+      "daily_wage": "$0.50-$0.85",
+      "weekly_wage": "$3.00-$5.00",
+      "annual_income": "$150-$260 (full year if mill ran steadily)",
+      "context": "Lowell mill girls earned $3.50-$4.00/week before deductions for company boarding houses ($1.25/week). Net take-home was modest but steady compared to farm work. By late 1850s, Irish immigrants were replacing Yankee farm girls in the mills. Source: Dublin, Women at Work (1979); MA Labor Commission."
+    },
+    {
+      "era": "1850s",
+      "region": "Northeast",
+      "occupation": "Domestic servant (female)",
+      "daily_wage": "N/A (live-in)",
+      "weekly_wage": "$1.50-$2.50 plus room and board",
+      "annual_income": "$75-$130 cash (plus room, board, and clothing allowance)",
+      "context": "Room and board worth an additional $2-$3/week, making total compensation $3.50-$5.50/week. Irish immigrant women dominated domestic service in Eastern cities. Source: Katzman, Seven Days a Week (1978)."
+    },
+    {
+      "era": "1850s",
+      "region": "West",
+      "occupation": "General laborer (mining camps)",
+      "daily_wage": "$2.00-$5.00",
+      "weekly_wage": "$12.00-$30.00",
+      "annual_income": "$300-$800 (highly variable)",
+      "context": "California Gold Rush inflated all wages in the West. A laborer in San Francisco earned 3-5x what the same man earned in New York, but a loaf of bread cost $0.50-$1.00 vs. $0.04-$0.06 back East. Real purchasing power advantage was modest. Source: Rohrbough, Days of Gold (1997)."
+    },
+    {
+      "era": "1860s",
+      "region": "South",
+      "occupation": "Farm laborer (freedperson, postwar)",
+      "daily_wage": "$0.25-$0.50",
+      "weekly_wage": "$1.50-$3.00",
+      "annual_income": "$50-$150 (when paid in cash; most worked on shares)",
+      "context": "After emancipation, wages for Black agricultural workers were set by local planters who colluded to suppress pay. Many freedpeople received no cash wages, instead working under sharecropping contracts that left them in debt at year's end. Source: Wright, Old South New South, ch. 3."
+    },
+    {
+      "era": "1860s",
+      "region": "South",
+      "occupation": "Sharecropper",
+      "daily_wage": "N/A (annual settlement)",
+      "weekly_wage": "N/A",
+      "annual_income": "$0-$100 net (often negative after furnishing debts)",
+      "context": "Sharecroppers received half the crop but owed the landlord for seed, tools, and provisions advanced at 25-75% interest. A bad crop year meant deeper debt. The system was designed to immobilize labor. Source: Ransom & Sutch, One Kind of Freedom (1977)."
+    },
+    {
+      "era": "1860s",
+      "region": "Northeast",
+      "occupation": "General laborer",
+      "daily_wage": "$1.00-$1.50",
+      "weekly_wage": "$6.00-$9.00",
+      "annual_income": "$250-$400",
+      "context": "Civil War inflation drove nominal wages up but real purchasing power was flat or declining. Greenback currency lost 40% of its value by 1864. Wartime labor shortages benefited workers who stayed on the home front. Source: BLS Historical Statistics, Series D 735-738."
+    },
+    {
+      "era": "1860s",
+      "region": "West",
+      "occupation": "Railroad construction laborer (Chinese)",
+      "daily_wage": "$0.75-$1.00",
+      "weekly_wage": "$4.50-$6.00",
+      "annual_income": "$200-$300",
+      "context": "Chinese workers on the Central Pacific earned 30-50% less than white laborers doing identical work. They provided their own food and lived in camps. The wage gap was pure racial discrimination codified into company policy. Source: Chang, Ghosts of Gold Mountain (2019)."
+    },
+    {
+      "era": "1860s",
+      "region": "West",
+      "occupation": "Railroad construction laborer (white)",
+      "daily_wage": "$1.50-$2.50",
+      "weekly_wage": "$9.00-$15.00",
+      "annual_income": "$350-$600",
+      "context": "White laborers on the Union Pacific earned premium wages due to competition from mining and homesteading opportunities. Company-provided room and board offset some costs. Source: Ambrose, Nothing Like It in the World (2000)."
+    },
+    {
+      "era": "1870s",
+      "region": "South",
+      "occupation": "Farm laborer",
+      "daily_wage": "$0.40-$0.65",
+      "weekly_wage": "$2.40-$3.90",
+      "annual_income": "$100-$175 (seasonal)",
+      "context": "Post-Reconstruction Southern agricultural wages remained 40-60% below Northern equivalents. This was not a market outcome but a deliberately maintained low-wage labor system enforced through vagrancy laws, debt peonage, and racial violence. Source: Wright, Old South New South, ch. 4."
+    },
+    {
+      "era": "1870s",
+      "region": "South",
+      "occupation": "Sharecropper",
+      "daily_wage": "N/A (annual settlement)",
+      "weekly_wage": "N/A",
+      "annual_income": "$50-$200 net (frequently negative)",
+      "context": "By the 1870s the crop-lien system was fully entrenched. A sharecropper family working 40 acres of cotton might gross $200-$400 but owe $150-$350 to the furnishing merchant. One bad year erased any gains from a good year. Source: Woodman, King Cotton and His Retainers (1968)."
+    },
+    {
+      "era": "1870s",
+      "region": "Northeast",
+      "occupation": "Textile mill hand",
+      "daily_wage": "$0.75-$1.25",
+      "weekly_wage": "$4.50-$7.50",
+      "annual_income": "$225-$375",
+      "context": "New England textile wages declined in real terms during the Long Depression (1873-1879). Mill owners cut wages 10-25% and workers responded with strikes in Fall River, Lowell, and Paterson. A family needed $500-$600/year to survive, so mill families put children to work. Source: Montgomery, Fall of the House of Labor."
+    },
+    {
+      "era": "1870s",
+      "region": "South (Piedmont)",
+      "occupation": "Textile mill hand",
+      "daily_wage": "$0.40-$0.75",
+      "weekly_wage": "$2.40-$4.50",
+      "annual_income": "$120-$225",
+      "context": "Piedmont mills paid 40-50% less than New England for equivalent work. The entire family worked: father, mother, and children as young as 8. Company housing ($1-$2/month rent) and company stores created dependency. Source: Hall et al., Like a Family (1987)."
+    },
+    {
+      "era": "1870s",
+      "region": "Northeast/Midwest",
+      "occupation": "Coal miner",
+      "daily_wage": "$1.00-$2.00",
+      "weekly_wage": "$5.00-$10.00 (4-5 day weeks common)",
+      "annual_income": "$250-$500 (mines shut seasonally and during depressions)",
+      "context": "Coal miners were paid by the ton, not the hour. A strong miner could load 3-5 tons/day at $0.40-$0.60/ton in Pennsylvania anthracite. But mine closures, short time, and the Long Depression made actual annual income highly variable. Molly Maguire unrest reflected desperate conditions. Source: PA Bureau of Industrial Statistics; Wallace, St. Clair (1987)."
+    },
+    {
+      "era": "1870s",
+      "region": "Northeast",
+      "occupation": "Domestic servant (female)",
+      "daily_wage": "N/A (live-in)",
+      "weekly_wage": "$2.00-$3.50 plus room and board",
+      "annual_income": "$100-$180 cash",
+      "context": "Domestic service remained the largest employer of women. Irish and increasingly Scandinavian and German immigrant women filled these positions. Total compensation including room and board was $5-$7/week. Source: Katzman, Seven Days a Week."
+    },
+    {
+      "era": "1880s",
+      "region": "South",
+      "occupation": "Farm laborer",
+      "daily_wage": "$0.40-$0.75",
+      "weekly_wage": "$2.40-$4.50",
+      "annual_income": "$100-$200 (seasonal)",
+      "context": "Southern farm wages remained stubbornly low even as Northern industrial wages rose. A Black farm laborer in the Mississippi Delta earned in a month what a Pittsburgh steelworker earned in a week. This wage gap would eventually fuel the Great Migration. Source: Wright, Old South New South, wage tables."
+    },
+    {
+      "era": "1880s",
+      "region": "South",
+      "occupation": "Sharecropper",
+      "daily_wage": "N/A (annual settlement)",
+      "weekly_wage": "N/A",
+      "annual_income": "$50-$200 net",
+      "context": "Cotton prices fell from $0.11/lb in 1881 to $0.07/lb in 1894. Falling prices meant falling incomes for sharecroppers while their debts to furnishing merchants remained constant or grew. The vicious cycle trapped families for generations. Source: USDA Cotton Statistics; Ransom & Sutch."
+    },
+    {
+      "era": "1880s",
+      "region": "Midwest",
+      "occupation": "Farm laborer",
+      "daily_wage": "$0.75-$1.25",
+      "weekly_wage": "$4.50-$7.50",
+      "annual_income": "$175-$300 (seasonal)",
+      "context": "Midwestern harvest wages peaked during threshing season at $1.50-$2.50/day. Itinerant harvest hands followed the wheat belt from Kansas to the Dakotas. Off-season work was scarce. Source: U.S. Census Agriculture Schedule, 1890."
+    },
+    {
+      "era": "1880s",
+      "region": "West (Appalachian/Southern coalfields)",
+      "occupation": "Coal miner",
+      "daily_wage": "$1.00-$2.50",
+      "weekly_wage": "$5.00-$12.50",
+      "annual_income": "$300-$600",
+      "context": "Southern Appalachian coal opened up in the 1880s, drawing farm families off marginal mountain land. Company towns controlled housing, stores, and pay (often in scrip redeemable only at the company store at inflated prices). Actual purchasing power was 20-40% less than nominal wages suggested. Source: Eller, Miners Millhands and Mountaineers (1982)."
+    },
+    {
+      "era": "1880s",
+      "region": "Northeast",
+      "occupation": "General laborer (urban)",
+      "daily_wage": "$1.00-$1.75",
+      "weekly_wage": "$6.00-$10.50",
+      "annual_income": "$300-$500",
+      "context": "Urban laborers in New York, Boston, and Philadelphia earned 2-3x what Southern farm laborers earned, but tenement rent consumed 25-40% of income. A family of five needed $600/year minimum to avoid destitution, meaning most laboring families required multiple earners. Source: BLS, Eighteenth Annual Report (1903)."
+    },
+    {
+      "era": "1880s",
+      "region": "West",
+      "occupation": "Railroad construction laborer",
+      "daily_wage": "$1.25-$2.00",
+      "weekly_wage": "$7.50-$12.00",
+      "annual_income": "$300-$500 (seasonal)",
+      "context": "Western railroad construction employed diverse labor forces: Chinese, Irish, Italian, and Mexican workers, often at different pay scales for identical work. By the 1880s, Chinese exclusion was shifting the labor pool. Source: BLS reports; Diner, Erin's Daughters in America (1983)."
+    },
+    {
+      "era": "1880s",
+      "region": "South (Piedmont)",
+      "occupation": "Textile mill hand",
+      "daily_wage": "$0.50-$0.85",
+      "weekly_wage": "$3.00-$5.00",
+      "annual_income": "$150-$260",
+      "context": "Piedmont mill villages grew rapidly in the 1880s. Entire families relocated from worn-out farms. A family with three workers in the mill might earn $10-$15/week combined -- more cash than they ever saw farming, but at the cost of 60-72 hour work weeks for adults and children alike. Source: Hall et al., Like a Family."
+    },
+    {
+      "era": "1890s",
+      "region": "South",
+      "occupation": "Farm laborer",
+      "daily_wage": "$0.40-$0.75",
+      "weekly_wage": "$2.40-$4.50",
+      "annual_income": "$100-$200 (seasonal)",
+      "context": "Southern agricultural wages were essentially unchanged from the 1870s despite two decades of economic growth elsewhere. The Southern wage differential was the single most important economic fact driving 20th-century migration. Source: Wright, Old South New South, statistical appendix."
+    },
+    {
+      "era": "1890s",
+      "region": "South",
+      "occupation": "Sharecropper",
+      "daily_wage": "N/A (annual settlement)",
+      "weekly_wage": "N/A",
+      "annual_income": "$50-$200 net (cotton at $0.05-$0.07/lb made many years negative)",
+      "context": "The 1890s were the worst decade for cotton prices before the 1930s. Many sharecroppers were perpetually in debt, legally bound to the land until debts were cleared. State laws criminalized leaving while indebted. This was debt peonage -- slavery by another name. Source: Daniel, The Shadow of Slavery (1972)."
+    },
+    {
+      "era": "1890s",
+      "region": "Northeast",
+      "occupation": "Textile mill hand",
+      "daily_wage": "$0.75-$1.25",
+      "weekly_wage": "$4.50-$7.50",
+      "annual_income": "$225-$375",
+      "context": "New England mills increasingly employed French Canadian and Eastern European immigrants at wages lower than earlier Yankee and Irish workers had earned. Competition from Southern mills drove New England owners to cut costs. Source: Cumbler, Working-Class Community in Industrial America (1979)."
+    },
+    {
+      "era": "1890s",
+      "region": "South (Piedmont)",
+      "occupation": "Textile mill hand",
+      "daily_wage": "$0.50-$1.00",
+      "weekly_wage": "$3.00-$6.00",
+      "annual_income": "$150-$300",
+      "context": "Piedmont mills paid roughly 60% of New England wages for the same work. But for mountain farm families earning $50-$150/year in cash, even Piedmont mill wages represented a significant improvement. The mills recruited aggressively in rural Appalachia. Source: Hall et al., Like a Family; NC Labor Commission."
+    },
+    {
+      "era": "1890s",
+      "region": "Midwest/Northeast",
+      "occupation": "Coal miner",
+      "daily_wage": "$1.25-$2.50",
+      "weekly_wage": "$5.00-$12.50 (irregular work weeks)",
+      "annual_income": "$300-$600",
+      "context": "Coal mining was among the most dangerous and variable occupations. Miners averaged only 200-250 working days per year due to market shutdowns, strikes, and seasonal demand. A miner earning $2/day who worked 220 days earned $440 -- but injuries and mine closures could slash that. Source: PA and IL mine inspector reports."
+    },
+    {
+      "era": "1890s",
+      "region": "Midwest",
+      "occupation": "General laborer (urban/industrial)",
+      "daily_wage": "$1.25-$2.00",
+      "weekly_wage": "$7.50-$12.00",
+      "annual_income": "$350-$550",
+      "context": "Chicago, Cleveland, and Detroit factory laborers earned 3-4x what Southern farm workers earned. This differential was well known through Black newspapers, labor agents, and family letters. It was the economic pull that would soon become the Great Migration. Source: BLS Bulletin No. 77 (1908); Grossman, Land of Hope (1989)."
+    },
+    {
+      "era": "1890s",
+      "region": "Northeast",
+      "occupation": "Domestic servant (female)",
+      "daily_wage": "N/A (live-in)",
+      "weekly_wage": "$2.50-$4.00 plus room and board",
+      "annual_income": "$130-$210 cash",
+      "context": "By the 1890s, native-born white women were leaving domestic service for factory and clerical work. Immigrant women (Irish, Scandinavian, German) and increasingly Black women migrating north filled these positions. The work was steady but socially isolating with little personal freedom. Source: Katzman, Seven Days a Week; Palmer, Domesticity and Dirt (1989)."
+    },
+    {
+      "era": "1890s",
+      "region": "West",
+      "occupation": "Railroad maintenance laborer (Mexican)",
+      "daily_wage": "$1.00-$1.50",
+      "weekly_wage": "$6.00-$9.00",
+      "annual_income": "$250-$400",
+      "context": "Mexican track workers on the Southern Pacific and Santa Fe railroads earned less than white section hands but more than they could earn in Mexican agriculture ($0.15-$0.25/day). The wage differential drove the first wave of Mexican railroad labor migration into the Southwest. Source: Reisler, By the Sweat of Their Brow (1976)."
+    }
+  ],
+  "cost_of_living_benchmarks": [
+    {
+      "era": "1850s",
+      "region": "Northeast",
+      "item": "Flour, 25 lb sack",
+      "cost": "$0.75-$1.25",
+      "context": "A basic necessity consuming 10-15% of a laboring family's weekly income. Source: NY Tribune household budgets, 1851."
+    },
+    {
+      "era": "1850s",
+      "region": "Northeast",
+      "item": "Salt pork, per lb",
+      "cost": "$0.08-$0.12",
+      "context": "The cheapest meat protein available. A laboring family consumed 3-5 lbs/week. Source: MA Bureau of Labor Statistics."
+    },
+    {
+      "era": "1850s",
+      "region": "Northeast",
+      "item": "Coffee, per lb",
+      "cost": "$0.10-$0.15",
+      "context": "A near-universal daily drink for working families. Green beans required home roasting and grinding."
+    },
+    {
+      "era": "1850s",
+      "region": "Northeast",
+      "item": "Monthly rent, urban tenement",
+      "cost": "$3.00-$6.00",
+      "context": "A single room in a New York tenement cost $3-$4/month; two rooms $5-$6. Families earning $6/week spent 25-40% on rent. Source: AICP reports."
+    },
+    {
+      "era": "1850s",
+      "region": "South",
+      "item": "Monthly rent, rural cabin",
+      "cost": "$0.50-$2.00",
+      "context": "Most Southern agricultural workers lived in employer-provided housing (of miserable quality) as part of compensation."
+    },
+    {
+      "era": "1850s",
+      "region": "Northeast",
+      "item": "Coal, per ton",
+      "cost": "$4.00-$7.00",
+      "context": "A family needed 3-6 tons per winter. At $5/ton, winter fuel cost $15-$30 -- a month or more of a laborer's wages. Source: PA anthracite price records."
+    },
+    {
+      "era": "1860s",
+      "region": "Northeast",
+      "item": "Flour, 25 lb sack",
+      "cost": "$1.50-$2.50 (wartime inflation)",
+      "context": "Civil War inflation roughly doubled food prices between 1861 and 1865 while wages rose only 50-60%. Source: BLS Historical Statistics."
+    },
+    {
+      "era": "1870s",
+      "region": "Northeast",
+      "item": "Monthly rent, urban tenement",
+      "cost": "$4.00-$8.00",
+      "context": "Tenement rents rose even during the Long Depression as immigration swelled demand. A family of five in a two-room tenement paid $6-$8/month -- one full week's wages for a laborer."
+    },
+    {
+      "era": "1870s",
+      "region": "South",
+      "item": "Cotton cloth, per yard",
+      "cost": "$0.05-$0.10",
+      "context": "Machine-woven cotton was the cheapest fabric. A simple dress required 5-8 yards ($0.25-$0.80). A sharecropper family's entire clothing budget might be $5-$10/year. Source: country store ledgers."
+    },
+    {
+      "era": "1870s",
+      "region": "Midwest",
+      "item": "Boots, one pair (men's work)",
+      "cost": "$2.00-$4.00",
+      "context": "A pair of boots cost 2-4 days' wages for a farm laborer. Many rural workers went barefoot in warm months to save shoe leather. Source: Sears catalog precursors; Montgomery Ward (founded 1872)."
+    },
+    {
+      "era": "1870s",
+      "region": "General",
+      "item": "Train ticket, per 100 miles",
+      "cost": "$2.00-$3.00",
+      "context": "Rail travel cost roughly $0.02-$0.03/mile. A 500-mile journey cost $10-$15 -- a month's net income for a sharecropper. This transportation cost was a real barrier to migration. Source: ICC rate records."
+    },
+    {
+      "era": "1880s",
+      "region": "Northeast",
+      "item": "Flour, 25 lb sack",
+      "cost": "$0.60-$0.90",
+      "context": "Deflation during the 1880s brought food prices down. Flour was cheaper in real terms than at any point since the 1840s. Source: BLS wholesale price series."
+    },
+    {
+      "era": "1880s",
+      "region": "Northeast",
+      "item": "Monthly rent, urban tenement",
+      "cost": "$5.00-$10.00",
+      "context": "New York's Lower East Side tenements packed 10-15 people per apartment at $8-$10/month. Jacob Riis documented these conditions in How the Other Half Lives (1890)."
+    },
+    {
+      "era": "1880s",
+      "region": "General",
+      "item": "Coffin, basic pine",
+      "cost": "$5.00-$15.00",
+      "context": "A pauper's burial cost $5-$8. A respectable coffin with handles cost $10-$15. For a family earning $400/year, a funeral could consume a month's income. Burial insurance was one of the first products sold to working-class families. Source: fraternal organization records."
+    },
+    {
+      "era": "1880s",
+      "region": "General",
+      "item": "Newspaper, annual subscription",
+      "cost": "$1.00-$3.00 (daily paper)",
+      "context": "A penny paper cost $0.01-$0.02/issue. Weekly papers cost $1.00/year. For immigrants, ethnic newspapers were a primary information source about wages and conditions elsewhere."
+    },
+    {
+      "era": "1890s",
+      "region": "Northeast",
+      "item": "Monthly rent, urban tenement",
+      "cost": "$5.00-$12.00",
+      "context": "Rent in immigrant neighborhoods consumed 25-40% of household income. Families took in boarders to offset costs, cramming 2-3 extra adults into already overcrowded rooms."
+    },
+    {
+      "era": "1890s",
+      "region": "South",
+      "item": "Monthly rent, company house (mill village)",
+      "cost": "$1.00-$2.00",
+      "context": "Mill village rent was deliberately low to attract rural families. But wages were correspondingly low, and the company controlled eviction. Losing your job meant losing your home the same day. Source: Hall et al., Like a Family."
+    },
+    {
+      "era": "1890s",
+      "region": "General",
+      "item": "Coal, per ton",
+      "cost": "$2.50-$5.00",
+      "context": "Falling coal prices helped urban workers but devastated mining communities. Miners were simultaneously producing cheaper coal and earning less for doing so. Source: USGS Mineral Resources annual."
+    },
+    {
+      "era": "1890s",
+      "region": "General",
+      "item": "Train ticket, 100 miles",
+      "cost": "$1.50-$2.50",
+      "context": "Rail fares dropped through the 1890s due to competition. An emigrant ticket from the rural South to Chicago (roughly 700-900 miles) cost $8-$12 -- still a significant barrier for a sharecropper netting $100/year. Source: ICC rate tables."
+    },
+    {
+      "era": "1890s",
+      "region": "Transatlantic",
+      "item": "Steamship ticket, steerage",
+      "cost": "$12.00-$30.00",
+      "context": "Transatlantic steerage from Liverpool or Hamburg to New York cost 2-4 months' wages for a Southern Italian or Eastern European laborer. Many immigrants borrowed from family networks or worked under padrone labor contracts that deducted passage costs from wages. Source: Keeling, The Business of Transatlantic Migration (2012)."
+    }
+  ]
+}

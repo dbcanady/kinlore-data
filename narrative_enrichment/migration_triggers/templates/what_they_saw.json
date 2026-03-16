@@ -1,0 +1,148 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "_purpose": "Creative narrative template for generating dense, visual landscape descriptions of places the ancestor left and arrived at. Purely physical — no characters, no narrative, no emotion. Present tense. Real geography.",
+  "template_id": "what_they_saw",
+  "display_name": "What They Saw",
+  "description": "Generates a physical landscape description of either the place the ancestor left (departure_landscape) or the place they arrived (arrival_landscape). Purely visual and sensory. No people, no narrative arc, no emotional framing. Present tense. Every geographical and environmental detail must be accurate for the county and decade. Think of a camera slowly panning across a landscape before the story begins.",
+  "revenue_tier": "both — one variant for $29, both variants for $99",
+  "tier_guidance": {
+    "$29_skeleton": "One variant only — typically departure_landscape. 100-150 words.",
+    "$99_white_glove": "Both variants. Each 100-150 words. Placed as scene-setting passages before the migration narrative begins and after the ancestor arrives."
+  },
+  "word_limit": "100-150 words per variant. Dense, visual, no filler.",
+  "tense": "Present tense throughout. The landscape exists in the eternal present of the description.",
+  "perspective": "No people. No characters. No 'you' or 'one.' The landscape describes itself. If human-made structures appear (buildings, roads, fences), they are part of the landscape, not evidence of human activity being narrated.",
+  "variants": [
+    {
+      "variant_id": "departure_landscape",
+      "display_name": "The Place They Left",
+      "description": "A physical description of the origin county in the decade the ancestor departed. What the land looked like, what grew there, what had been built, what the air smelled like. The place the ancestor carried in their memory.",
+      "structural_beats": [
+        {
+          "beat_number": 1,
+          "beat_name": "county_and_decade_framing",
+          "description": "A single sentence establishing place and time. Not a narrative setup — a geographical anchor.",
+          "example": "Hale County, Alabama, 1910."
+        },
+        {
+          "beat_number": 2,
+          "beat_name": "topography_and_weather",
+          "description": "The shape of the land and the quality of the air. Flat or hilly, wet or dry, the color of the soil, the pattern of the seasons. Drawn from real geography.",
+          "example": "The Black Belt runs through the county in a wide band — dark, calcium-rich soil, heavy as wet cement after rain."
+        },
+        {
+          "beat_number": 3,
+          "beat_name": "agricultural_or_industrial_landscape",
+          "description": "What the land is being used for. Cotton, tobacco, timber, coal, factories. What dominates the visual field from a road or a porch. Specific crops, specific industries, specific scale.",
+          "example": "Cotton fields stretch to the tree line in every direction. In September the bolls split open and the fields turn white."
+        },
+        {
+          "beat_number": 4,
+          "beat_name": "built_environment",
+          "description": "The structures on the land. Farmhouses, tenant shacks, a courthouse, a railroad depot, a church, a general store. Material and condition. Not catalogued — selected. ONE to THREE structures that define the place.",
+          "example": "The commissary sits at the crossroads — unpainted clapboard, a single gas pump out front, a tin Coca-Cola sign nailed to the wall."
+        },
+        {
+          "beat_number": 5,
+          "beat_name": "sensory_close",
+          "description": "A final sensory detail that is NOT visual. Sound, smell, or texture. One sentence. The thing you would remember if you left.",
+          "example": "In the evening, the smell of wood smoke mixes with the sweetness of cut hay and drifts across the bottomland."
+        }
+      ],
+      "variables": [
+        "{county}",
+        "{state}",
+        "{decade}",
+        "{primary_crop_or_industry}",
+        "{topography}",
+        "{season}"
+      ],
+      "constraints": [
+        "No people. No characters. No narrative. No emotion.",
+        "Present tense throughout.",
+        "Every detail must be geographically and historically accurate for that county and decade.",
+        "Real place names where appropriate — rivers, ridges, roads. Not invented.",
+        "100-150 words. Dense. No filler words. Every sentence carries visual information.",
+        "No metaphors or similes that import emotion. 'The fields stretched endlessly' is fine. 'The fields stretched endlessly like an unfulfilled promise' is not.",
+        "The description should work as a standalone paragraph. No setup, no conclusion, no transition to the next section."
+      ],
+      "example_output": "Hale County, Alabama, 1910. The Black Belt runs through the county in a wide band — dark, calcium-rich soil, heavy as wet cement after rain. Cotton fields stretch to the tree line in every direction. In September the bolls split open and the fields turn white, and the roads between them are red dirt, rutted by mule carts. The commissary sits at the crossroads — unpainted clapboard, a single gas pump out front, a tin Coca-Cola sign nailed to the wall. Behind it, a row of tenant houses, each one identical: two rooms, a porch, a chimney. The nearest railroad depot is in Greensboro, five miles east. In the evening, the smell of wood smoke mixes with the sweetness of cut hay and drifts across the bottomland."
+    },
+    {
+      "variant_id": "arrival_landscape",
+      "display_name": "First View of the Destination",
+      "description": "A physical description of the destination city or region as it would have appeared in the decade the ancestor arrived. The scale, the density, the industrial landscape, the neighborhood they would enter. What hit them first.",
+      "structural_beats": [
+        {
+          "beat_number": 1,
+          "beat_name": "arrival_framing",
+          "description": "A single sentence establishing the destination and the mode of arrival. What they saw first — from the train window, from the road, from the ship.",
+          "example": "Chicago from the Illinois Central, 1918."
+        },
+        {
+          "beat_number": 2,
+          "beat_name": "scale_and_density",
+          "description": "The overwhelming physical fact of the destination. How big it is, how dense, how vertical or horizontal. The thing that would be most visually shocking to someone from a rural county.",
+          "example": "The city fills the horizon. Smokestacks, water towers, church steeples, and the steel frames of buildings still going up."
+        },
+        {
+          "beat_number": 3,
+          "beat_name": "industrial_landscape",
+          "description": "What the destination's economy looks like from the outside. Factories, stockyards, rail yards, docks, mills. The physical infrastructure that drew the ancestor here.",
+          "example": "The stockyards spread south of the city for a mile — pens, chutes, packing houses, and a smell that reaches the train before the station does."
+        },
+        {
+          "beat_number": 4,
+          "beat_name": "the_neighborhood",
+          "description": "The specific area where the ancestor would settle. Block-level if possible. The type of housing, the commercial strip, the density of the street. Not the whole city — the five or six blocks that will become their world.",
+          "example": "South State Street runs through the Black Belt — three-story walkups, storefront churches, barbershops, a drugstore on every other corner."
+        },
+        {
+          "beat_number": 5,
+          "beat_name": "sensory_close",
+          "description": "A final sensory detail that is NOT visual. The sound of the city, the smell of industry, the vibration of the El, the cold off the lake. One sentence.",
+          "example": "The wind comes off Lake Michigan in January and cuts straight through a cotton coat."
+        }
+      ],
+      "variables": [
+        "{destination}",
+        "{year}",
+        "{arrival_mode}",
+        "{primary_industry}",
+        "{neighborhood}",
+        "{season}"
+      ],
+      "constraints": [
+        "No people. No characters. No narrative. No emotion.",
+        "Present tense throughout.",
+        "Every detail must be geographically and historically accurate for that city and decade.",
+        "Real street names, real neighborhoods, real landmarks where data supports them.",
+        "100-150 words. Dense. No filler.",
+        "The scale contrast with the departure landscape should be implicit, not stated. The reader who has read both will feel it.",
+        "Industrial details must be accurate — correct industries for that city and decade. Do not put stockyards in a textile city.",
+        "The neighborhood beat must reflect where this demographic actually settled, based on historical residential patterns."
+      ],
+      "example_output": "Chicago from the Illinois Central, 1918. The city fills the horizon long before the train stops — smokestacks, water towers, and the steel frames of buildings still going up. The stockyards spread south for a mile, and the smell reaches the platform before the doors open. South State Street runs through the Black Belt, already dense with arrivals from Mississippi, Alabama, and Georgia. Three-story walkups line both sides, with storefront churches wedged between barbershops and groceries. The sidewalks are concrete. The streets are paved. Electric lights hang from poles at every intersection. A newsboy on the corner is selling the Chicago Defender. The wind comes off Lake Michigan and cuts through everything that isn't wool."
+    }
+  ],
+  "editorial_guidelines": {
+    "research_requirements": "Every landscape description requires verification against historical geography, agricultural data, industrial records, and urban mapping for the specific county/city and decade. Sanborn maps, USGS surveys, agricultural census data, and period photographs are ideal sources.",
+    "what_NOT_to_do": [
+      "No people. Not even implied. Not 'the kind of street where children played' — that's a person reference.",
+      "No narrative. This is not a story. It is a place.",
+      "No emotion. Not 'the bleak landscape' or 'the vibrant street.' The reader decides what it feels like.",
+      "No filler. Every word carries visual or sensory information. Cut 'there is,' 'there are,' 'it was,' and 'it seemed.'",
+      "No purple prose. No 'the ancient oaks stood sentinel.' The oaks are just oaks.",
+      "No generic descriptions that could apply to any Southern county or any Northern city. Specificity is everything. If you can't name the soil type, the crop, the railroad, or the street, the description is too vague."
+    ],
+    "tone_calibration": "Think of Walker Evans photographs. Think of WPA travel guides. Think of the opening shot of a documentary before the narrator speaks. Neutral, precise, dense with information, empty of judgment."
+  },
+  "data_dependencies": [
+    "migration_triggers (for origin/destination pairing and decade)",
+    "county_source_profiles (for origin county geography and economy)",
+    "historical_context_timelines (for decade-specific conditions)",
+    "Sanborn maps and USGS data (Phase 4 — for built environment details)",
+    "Agricultural census data (for crop and land-use details)"
+  ]
+}

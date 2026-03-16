@@ -85,7 +85,7 @@
     "North Carolina (Piedmont)",
     "Tennessee (Middle Tennessee)"
   ],
-  "counties_most_affected_as_source": [
+  "counties_most_affected": [
     "Fairfax VA",
     "Prince William VA",
     "Loudoun VA",
@@ -97,19 +97,19 @@
     "Charles MD",
     "Bourbon KY"
   ],
-  "counties_most_affected_as_destination": [
+  "destination_counties_most_affected": [
     "Adams MS",
     "Orleans Parish LA",
     "Dallas AL",
     "Hinds MS",
     "Lowndes AL",
-    "Washington MS",
+    "Warren MS",
     "Madison MS",
-    "Mobile AL",
-    "East Baton Rouge LA",
-    "Shelby TN"
+    "Marengo AL",
+    "Concordia LA",
+    "Rapides LA"
   ],
-  "_counties_note": "The domestic slave trade requires BOTH source and destination counties for trigger matching. An ancestor who disappears from Loudoun VA and an ancestor who appears in Adams MS should both match this trigger.",
+  "destination_counties_note": "The counties_most_affected field above lists SOURCE counties (Upper South). This field lists primary DESTINATION counties (Deep South) where enslaved people were received. The narrative AI should match ancestors appearing in these Deep South counties to this trigger, not just ancestors disappearing from Upper South counties.",
   "destination_refs": [
     {
       "location": "Natchez, MS",
@@ -164,10 +164,9 @@
       "implication": "After 1865, formerly enslaved people filed inquiries, labor contracts, and marriage registrations that sometimes describe pre-war locations and family separations. Essential for tracing the aftermath of the domestic trade."
     },
     {
-      "record_type": "'Information Wanted' newspaper advertisements",
-      "implication": "After emancipation, freedpeople placed advertisements in Black newspapers searching for family members sold away through the domestic trade. These ads often name the enslaved person, the last known owner, the approximate date and circumstances of sale, and the last known location. They are primary sources that document the specific separations of the trade and sometimes connect both ends of a forced relocation.",
-      "where_to_find": "The Christian Recorder (AME Church, Philadelphia), Southwestern Christian Advocate (New Orleans), Colored Tennessean (Nashville), and other Black newspapers published thousands of these ads from 1865 through the 1890s. The 'Last Seen' project at Villanova University (informationwanted.org) has digitized and indexed many of these advertisements. The Historic New Orleans Collection holds Southwestern Christian Advocate archives.",
-      "research_tip": "Search by the surname of the last known owner, not the enslaved person's given name — most ads identify the owner because that was the information most likely to lead to a reunion. An ad reading 'Solomon, sold from Fairfax County about 1835 by Mr. [Owner Name]' may be the only record connecting a person to both their origin and destination."
+      "record_type": "Information Wanted newspaper advertisements (post-1865)",
+      "implication": "After emancipation, formerly enslaved people placed advertisements in Black newspapers searching for family members sold away during the domestic slave trade. These ads often name the enslaved person, the last known owner, the approximate date of sale, and the region sold FROM — providing uniquely specific documentation of forced separations. Thousands of these ads survive.",
+      "research_tip": "Search the 'Information Wanted' ads in the Christian Recorder (AME Church, Philadelphia), the Southwestern Christian Advocate (New Orleans), the Colored Tennessean (Nashville), and the Freedmen's Bureau records at the National Archives. The 'Last Seen' digital project (lastseenproject.org) at Villanova University has been digitizing and indexing these advertisements. An ad that names your ancestor or their family members may be the only record that connects both ends of a forced sale."
     }
   ],
   "counter_narratives": [

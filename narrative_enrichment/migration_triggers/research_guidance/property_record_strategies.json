@@ -1,0 +1,130 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "guidance_id": "property_records",
+  "display_name": "Property Record Strategies",
+  "description": "Guidance for using property records as genealogical sources — deeds as migration evidence, tax lists as annual location evidence, land grants and patents, mortgage records, deed chain construction, and homestead files",
+  "patterns": [
+    {
+      "pattern_id": "deeds_as_migration_evidence",
+      "scenario": "You need to determine when an ancestor arrived at or departed from a specific location",
+      "era_scope": "1700-present, most useful in rural areas where property ownership was widespread",
+      "interpretation": "A land purchase at the destination establishes a latest possible arrival date — the person was there by the time they bought land. A land sale at the origin establishes a latest possible departure date — they typically sold before leaving or shortly after. The gap between selling at the origin and buying at the destination brackets the migration. Deeds also reveal family networks: who sold to whom, who witnessed, and who posted bonds can show chain migration patterns within extended families.",
+      "action_steps": [
+        "Search the grantor (seller) index in the county of origin for the ancestor's name — a sale of all property strongly suggests departure. Note the sale date and the buyer (who may be a family member or neighbor from the same community). Grantor/grantee indexes are at the county courthouse, and many are digitized on FamilySearch",
+        "Search the grantee (buyer) index in the suspected destination county for the ancestor's name — the purchase date establishes presence. Note the seller and any witnesses, who may be existing community members who drew the ancestor to that location",
+        "For colonial and early American records, check both the colony/state records and the county records — land patents from the colonial government or federal government are separate from county-level deed transfers. Virginia land patents, for example, are at the Library of Virginia, not the county courthouses",
+        "Read the deed carefully for family relationship language: 'John Smith of Davidson County, Tennessee, formerly of Rockbridge County, Virginia' directly states the migration. 'For love and affection' in the consideration clause indicates a family transfer, not a market sale",
+        "Check for powers of attorney recorded alongside deeds — when a person who had already migrated needed to sell property at the origin, they often appointed a relative as attorney-in-fact to handle the sale. These powers of attorney name both parties and their locations"
+      ],
+      "common_mistakes": [
+        "Not searching both grantor and grantee indexes — the ancestor may appear as both buyer and seller in the same county at different times",
+        "Ignoring the witnesses on deeds — in the 18th and early 19th centuries, deed witnesses were typically neighbors or relatives who can help identify the ancestor's community network",
+        "Not recognizing quit-claim deeds as family transactions — a quit-claim deed releases any claim to the property without warranty of title and is typically used between family members, especially for inheritance division"
+      ],
+      "source_types_to_check": ["county grantor/grantee indexes", "deed books at county courthouse", "FamilySearch digitized land records", "colonial/state land patents", "powers of attorney"]
+    },
+    {
+      "pattern_id": "tax_lists_as_annual_evidence",
+      "scenario": "You need annual location evidence for an ancestor, especially in census gap years",
+      "era_scope": "1700-present, most valuable for pre-1850 when census records name only household heads",
+      "interpretation": "County tax lists (also called tax assessment rolls, rate lists, or quitrent rolls in the colonial era) were compiled annually and list every property owner and sometimes every adult male in the county. They are one of the few annual records for most Americans before the 20th century. An ancestor's appearance on a tax list confirms their presence in that county for that year. Their disappearance from the list suggests death, migration, or loss of property.",
+      "action_steps": [
+        "Check the county courthouse or county archives for tax assessment rolls — these are typically organized by year and alphabetically by taxpayer name within each year. Many are on microfilm at state archives and increasingly digitized on FamilySearch",
+        "For pre-1790 research (before the first federal census), tax lists are often the only available enumeration. Virginia personal property tax lists, for example, begin in 1782 and list all free white males over 21, enslaved persons, horses, and cattle",
+        "Track the ancestor's tax assessment over time — rising property values suggest economic advancement; declining values or disappearance from the rolls may indicate financial distress, property loss, or migration. Changes in the number of acres held or the appearance of livestock or enslaved persons on the rolls provide economic narrative detail",
+        "For Southern states, personal property tax lists that enumerate enslaved persons are critical for African American genealogy — they serve as an annual census of enslaved populations, listed under the enslaver's name. Cross-reference with Slave Schedules for 1850 and 1860",
+        "Search for tax delinquency records — failure to pay taxes resulted in published delinquency lists (in newspapers) and eventual tax sales (recorded at the courthouse). These records establish continued presence and financial circumstances"
+      ],
+      "common_mistakes": [
+        "Not knowing that tax lists exist for most counties going back to the 1700s — they are among the most underused genealogical records",
+        "Confusing tax district with county — some states subdivided counties into tax districts, hundreds, or townships. The correct district must be identified to find the record",
+        "Assuming disappearance from the tax list means death — it more often means migration, property loss, or transition from property owner to tenant/renter"
+      ],
+      "source_types_to_check": ["county tax assessment rolls", "personal property tax lists", "state archives microfilm", "FamilySearch digitized tax records", "tax delinquency and sale records"]
+    },
+    {
+      "pattern_id": "federal_land_patents",
+      "scenario": "An ancestor settled on public domain land in the Midwest, South, or West",
+      "era_scope": "1788-1976, the federal public land disposal era",
+      "interpretation": "The federal government sold or granted public domain land to individuals through a series of programs: cash sales, credit sales, preemption claims, homestead entries, military bounty warrants, and various special acts. The patent (deed from the government to the individual) was the final step. The Bureau of Land Management (BLM) maintains records of all federal land patents. These records establish the ancestor's arrival in the area and the beginning of their land ownership.",
+      "action_steps": [
+        "Search the BLM General Land Office Records website (glorecords.blm.gov) — this free database contains images of over 5 million federal land patents, indexed by name, state, land description, and type. Download the patent image for full details",
+        "If the ancestor entered land under the Homestead Act (1862-1976), request the complete homestead entry file from NARA (Record Group 49, Records of the Bureau of Land Management). Homestead files include the original application, proof of residency affidavits, final certificate, and the patent — the proof affidavits often describe the homesteader's improvements (house, barn, fences, crops) and include testimony from neighbors",
+        "For cash sale and preemption entries, the case file at NARA may include the application, receipt, and certificate — less detailed than homestead files but still valuable for establishing the purchase date and the exact legal description of the land",
+        "Use the legal land description (section, township, range) from the patent to locate the property on a modern map — the BLM website includes a survey plat viewer. This shows you exactly where the ancestor's land was and who held adjacent parcels",
+        "Check for canceled entries — not all homestead claims were successful. If the ancestor filed but never proved up (completed the residency requirement), the canceled entry file at NARA still documents their presence and intent"
+      ],
+      "common_mistakes": [
+        "Stopping at the patent and not requesting the complete case file from NARA — the patent is a single document, but the case file may contain dozens of pages with biographical detail",
+        "Not understanding the legal land description system (township, range, section, quarter-section) and being unable to locate the property on a map",
+        "Assuming the patent date is when the ancestor arrived — the homestead process took 5-14 years from initial filing to final patent. The filing date is closer to the arrival date"
+      ],
+      "source_types_to_check": ["BLM General Land Office Records (glorecords.blm.gov)", "homestead entry files (NARA RG 49)", "cash sale and preemption files (NARA)", "survey plats and township maps", "canceled entry files"]
+    },
+    {
+      "pattern_id": "deed_chain_construction",
+      "scenario": "You want to trace the complete ownership history of a specific property or trace all land transactions for an ancestor",
+      "era_scope": "1700-present, wherever deed records survive",
+      "interpretation": "A deed chain traces sequential ownership of a parcel of land — who owned it when, and how it was transferred (sale, inheritance, foreclosure, gift). Building a deed chain for property your ancestor owned reveals how they acquired it (purchase, inheritance, land grant), who they interacted with (neighbors, family members), and how they disposed of it (sale, bequest, loss). Deed chains also resolve ownership disputes and identify heirs.",
+      "action_steps": [
+        "Start with the most recent known transaction and work backward through the grantor/grantee indexes at the county recorder's office — each deed references the previous deed (by book and page number), creating a chain. Follow the references back through time",
+        "Alternatively, start with the earliest known transaction and work forward through the grantee index — search for the ancestor as buyer, then search for that same ancestor as seller to find the next transfer",
+        "For property passing through inheritance, search probate records at the county courthouse — a will or intestate distribution is the link between one generation's ownership and the next. The deed books may not record inheritance transfers directly",
+        "Record the legal description of the property from each deed — the description (metes and bounds or township/range/section) should remain consistent across transactions. If it changes, the property may have been subdivided or combined",
+        "Create a timeline chart showing each owner, the acquisition method, the date, the sale price (if any), and the disposition — this visual chain reveals patterns like family land passing through multiple generations or rapid speculative turnover"
+      ],
+      "common_mistakes": [
+        "Not recognizing that multiple deed books may cover the same time period — county recorders used separate books for different types of instruments (deeds, mortgages, leases) or simply started new books when the old ones filled up",
+        "Missing inheritance transfers because they did not appear in the deed books — the link is in the probate records, not the deed records",
+        "Confusing multiple people with the same name in the same county — the legal property description is the key to distinguishing different tracts owned by different people of the same name"
+      ],
+      "source_types_to_check": ["county deed books (grantor/grantee indexes)", "probate records (wills, estate inventories, distribution records)", "mortgage books", "county recorder's office", "FamilySearch digitized deed records"]
+    },
+    {
+      "pattern_id": "mortgage_records",
+      "scenario": "You want to understand an ancestor's financial circumstances or find biographical information beyond what deed records provide",
+      "era_scope": "1800-present, increasingly common from 1850 onward",
+      "interpretation": "Mortgage records document debt secured by property. They reveal financial circumstances: who lent money to the ancestor, how much, when, and for what purpose. Mortgages often include biographical details not found in deeds — occupation, marital status (wives had to sign to release dower rights), and sometimes the purpose of the loan. A satisfied mortgage indicates financial stability; a foreclosure indicates distress.",
+      "action_steps": [
+        "Search the county recorder's mortgage indexes (separate from deed indexes in many counties) for the ancestor as mortgagor (borrower) — the mortgage document typically names both parties, describes the property, states the amount, and is signed by the borrower and often the spouse",
+        "Look for the mortgage satisfaction or release — when the loan was paid off, a release was recorded. If no release appears, the mortgage may have been foreclosed. Search the county court records for foreclosure proceedings",
+        "Check for mortgages when the ancestor first purchased property — most purchases were financed, and the mortgage filed simultaneously with the deed may name the lender (a relative, neighbor, bank, or building and loan association) and reveal the financing terms",
+        "For post-WWII purchases, check whether the mortgage was VA-guaranteed (GI Bill) or FHA-insured — these federal program notations on the mortgage establish veteran status (VA) or first-time buyer status (FHA) and connect to federal records at those agencies",
+        "Search for chattel mortgages — these secured loans with personal property (livestock, farm equipment, household goods) rather than land. They are recorded at the county level and may include detailed inventories of the ancestor's possessions"
+      ],
+      "common_mistakes": [
+        "Not distinguishing between the deed (property transfer) and the mortgage (debt instrument) — they are separate documents filed in different books, even though they may be created simultaneously",
+        "Overlooking chattel mortgages, which provide uniquely detailed inventories of personal property",
+        "Not connecting an unsatisfied mortgage to a potential foreclosure — search court records for the foreclosure proceeding if no satisfaction was recorded"
+      ],
+      "source_types_to_check": ["county mortgage indexes", "mortgage satisfaction/release records", "foreclosure proceedings (county court)", "chattel mortgage records", "VA and FHA loan records"]
+    },
+    {
+      "pattern_id": "homestead_entry_files",
+      "scenario": "An ancestor homesteaded federal land under the Homestead Act",
+      "era_scope": "1862-1976, primarily 1862-1934 for the original Homestead Act states",
+      "interpretation": "Homestead entry files at NARA are among the richest federal records for Western settlers. The homesteader had to file an initial application, reside on and improve the land for 5 years (or 14 months with commutation), and then file a final proof with affidavits from two witnesses who could attest to the improvements and residency. The final proof affidavits describe the house, outbuildings, fences, crops, and water sources on the property — a vivid snapshot of frontier life.",
+      "action_steps": [
+        "Find the land patent on the BLM website (glorecords.blm.gov) to identify the entry type and the land office that processed the claim — you will need the state, land office, and certificate number to order the file from NARA",
+        "Order the complete homestead entry file from NARA using NATF Form 84 (land entry files). Cost varies. The file typically includes: the initial application (name, age, citizenship status, family size), the homesteader's affidavit, testimony of two witnesses, the final certificate, and the patent",
+        "Read the witness affidavits carefully — witnesses were typically neighboring homesteaders who described the claimant's improvements in detail: the size and construction of the house, the acreage under cultivation, the number and type of outbuildings, and the water source. This is the most detailed description of frontier living conditions available",
+        "Check for contested entries — if neighbors or competing claimants challenged the homestead, a contest file was created with extensive testimony and correspondence. These are filed separately at NARA and may contain vivid accounts of frontier disputes",
+        "For timber culture entries (1873-1891), desert land entries (1877-present), and other public land programs, order the case files using the same process — each program required different proof and the files contain different information"
+      ],
+      "common_mistakes": [
+        "Not ordering the complete file because the patent seems sufficient — the patent contains a fraction of the information in the full entry file. The witness affidavits alone are worth the cost of ordering",
+        "Expecting rapid delivery from NARA — land entry file requests can take weeks to months. Plan accordingly",
+        "Not checking for a canceled or relinquished entry — if the homesteader failed to prove up, the canceled file still documents their presence and may explain why they left"
+      ],
+      "source_types_to_check": ["BLM patent records (glorecords.blm.gov)", "homestead entry files (NARA, NATF Form 84)", "contest files (NARA)", "timber culture and desert land files (NARA)", "survey plats and field notes"]
+    }
+  ],
+  "source_references": [
+    "Hatcher, Patricia Law. 'Locating Your Roots: Discover Your Ancestors Using Land Records.' Betterway Books, 2003.",
+    "Bureau of Land Management. 'General Land Office Records.' glorecords.blm.gov.",
+    "National Archives and Records Administration. 'Homestead Records.' archives.gov/research/land.",
+    "Greenwood, Val D. 'The Researcher's Guide to American Genealogy.' 4th ed. Genealogical Publishing, 2017. Chapters on land and property records.",
+    "Hone, E. Wade. 'Land and Property Research in the United States.' Ancestry Publishing, 1997."
+  ]
+}
