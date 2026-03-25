@@ -1,0 +1,109 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-25",
+  "_purpose": "Courthouse Atlas for Columbia County, PA. Formed from Northumberland County in 1813. The courthouse at Bloomsburg has not suffered a major fire. Columbia County's records reflect its dual character: agricultural Susquehanna valley records at Bloomsburg, and mining community records for Centralia and the mountain communities now largely accessible through church and ethnic institutional sources.",
+  "courthouse_atlas_id": "pa_columbia_courthouse",
+  "display_name": "Columbia County, Pennsylvania — Courthouse Atlas",
+  "county": "Columbia",
+  "state": "PA",
+  "fips_code": "42037",
+  "cluster_ref": "pa_anthracite",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1893,
+      "location": "Bloomsburg, PA — 35 W. Main Street",
+      "records_housed": ["deeds", "wills", "orphans' court records", "marriage licenses", "court minutes", "naturalization records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1813–1893",
+        "location": "Bloomsburg — earlier courthouse buildings",
+        "fate": "County formed from Northumberland County in 1813. Previous buildings replaced. No major fire."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "columbia_no_major_loss",
+      "date": null,
+      "cause": "No major courthouse fire or catastrophic loss",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1813", "will books from 1813", "court minutes", "marriage licenses from 1885", "naturalizations"],
+      "scope": "none",
+      "description": "Columbia County's courthouse records are continuous from the 1813 formation. No major fire has destroyed records. Pre-1813 records are at Northumberland County in Sunbury. The Centralia mine fire displacement (1962 onward) created a unique records situation: Centralia's residents were relocated, the town was largely demolished, and the community's records are scattered between the courthouse, the Diocese of Harrisburg, and the personal papers of displaced families.",
+      "narrative_impact": "If {ancestor_name} lived in Centralia, the records are intact at the courthouse — but the community that created them no longer exists. The displacement of Centralia's population after the mine fire scattered a community whose records are now housed in a courthouse that governs a ghost town.",
+      "source": "Columbia County Prothonotary. Columbia County Historical and Genealogical Society."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1813,
+      "completeness": "Good — continuous from county formation",
+      "gaps": "Pre-1813 deeds at Northumberland County. Mining company land records dominate the Centralia area.",
+      "repository": "Columbia County Recorder of Deeds, Bloomsburg; PA State Archives microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1813,
+      "completeness": "Good",
+      "gaps": "Pre-1813 wills at Northumberland County.",
+      "repository": "Columbia County Register of Wills; PA State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1885,
+      "completeness": "Marriage licenses from 1885. Pre-1885 marriages in church records.",
+      "gaps": "No civil licenses before 1885.",
+      "repository": "Columbia County Register of Wills; Diocese of Harrisburg Archives",
+      "online_access": "FamilySearch; Ancestry.com PA marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1813,
+      "completeness": "Good",
+      "gaps": "None significant.",
+      "repository": "Columbia County Prothonotary; PA State Archives",
+      "online_access": "Limited digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1893,
+      "death_registration_start": 1893,
+      "completeness": "PA vital registration from 1893.",
+      "repository": "PA Division of Vital Records; PA State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Centralia parish records — displaced community documentation",
+      "description": "Centralia's churches — St. Ignatius (Irish Catholic), Assumption BVM (Ukrainian Catholic), and others — maintained records until the community was displaced. These records are now at the Diocese of Harrisburg or with the displaced parish communities. The Centralia displacement is documented in federal relocation records and municipal archives.",
+      "repository": "Diocese of Harrisburg Archives; PA State Archives (relocation records); Centralia municipal records (archived)",
+      "era_coverage": "1860s–1980s",
+      "genealogical_value": "The Centralia parish records document a community from its founding through its destruction — a complete lifecycle. The relocation records from the 1980s document every family that was displaced.",
+      "source": "DeKok, Unseen Danger (1986). Diocese of Harrisburg Archives."
+    },
+    {
+      "source_type": "Columbia County Historical and Genealogical Society",
+      "description": "The county historical society holds local history collections for both the agricultural valley communities and the mining communities. Cemetery transcriptions, church record abstracts, and family files.",
+      "repository": "Columbia County Historical and Genealogical Society, Bloomsburg",
+      "era_coverage": "1813–present",
+      "genealogical_value": "Supplementary. Cemetery transcriptions for Centralia and other mining communities are particularly valuable as the cemeteries themselves may be difficult to access.",
+      "source": "Columbia County Historical and Genealogical Society collections guide."
+    }
+  ],
+  "narrative_hooks": [
+    "Columbia County's records survive intact — but if {ancestor_name} was from Centralia, the records document a community that no longer exists, destroyed not by the industry's economic collapse but by the coal itself, burning beneath the streets.",
+    "Pre-1813 records for Columbia County are at Northumberland County in Sunbury — {ancestor_name}'s earliest land and court records require a trip to the parent county courthouse.",
+    "The Centralia relocation records document every family displaced by the mine fire — if {ancestor_name}'s descendants left Centralia in the 1980s, federal relocation files exist.",
+    "Bloomsburg's courthouse governs a ghost town — Centralia's records are filed at a county seat that sits in a fertile valley twenty miles from the smoldering ruins of a community that coal built and coal destroyed."
+  ],
+  "source_references": [
+    "Columbia County Historical and Genealogical Society. Records and collections guide.",
+    "DeKok, David. Unseen Danger: A Tragedy of People, Government, and the Centralia Mine Fire. University of Pennsylvania Press, 1986.",
+    "Diocese of Harrisburg Archives. Parish records inventory.",
+    "PA Division of Vital Records. Guide to Pennsylvania Vital Records."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "pa_columbia",
+    "research_guidance_refs": ["church_records"],
+    "template_refs": ["record_silences"]
+  }
+}

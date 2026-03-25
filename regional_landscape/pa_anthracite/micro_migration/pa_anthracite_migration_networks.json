@@ -1,0 +1,156 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-25",
+  "_purpose": "Micro-Migration Network Map for the PA Anthracite cluster. Documents specific migration corridors — the SE European immigration pipelines that filled the mines, the internal movement between collieries, and the exodus routes that carried families to Philadelphia, New York, Scranton, and the New Jersey industrial towns when the coal economy died.",
+  "migration_network_id": "pa_anthracite_migration_networks",
+  "display_name": "PA Anthracite — Micro-Migration Network Map",
+  "cluster_ref": "pa_anthracite",
+  "era_range": "1840-1960",
+  "migration_corridors": [
+    {
+      "corridor_id": "irish_welsh_mining_pipeline",
+      "corridor_name": "Irish and Welsh Mining Immigration Pipeline",
+      "origin_counties": ["Ireland (Cork, Galway, Donegal, Kerry, various)", "Wales (Glamorgan, Carmarthenshire, Pembrokeshire — South Wales coalfields)", "Cornwall, England"],
+      "destination_area": "Southern Field (Schuylkill, Carbon counties) first, then Northern Field (Luzerne, Lackawanna)",
+      "era": "1840-1880",
+      "migration_type": "chain_migration",
+      "scale": "Tens of thousands. Irish immigrants, particularly Famine refugees (1845-1852), were the first large-scale mining labor force. Welsh miners brought technical expertise from the South Wales coalfields. By 1870, Irish and Welsh families dominated the mining communities.",
+      "evidence": {
+        "census_evidence": "1850-1880 census for Schuylkill, Carbon, and Luzerne counties shows heavy concentration of Irish-born and Welsh-born residents. Specific townships show clusters from specific Irish counties.",
+        "church_evidence": "Irish Catholic parish records document families from specific Irish counties. Welsh chapel records document families from specific Welsh parishes.",
+        "surname_clustering": "Irish surnames (Murphy, Kelly, O'Donnell, McAndrew, Boyle) cluster in the Southern Field. Welsh surnames (Jones, Williams, Davis, Evans, Thomas, Powell) cluster in both fields but particularly in skilled mining positions."
+      },
+      "chain_mechanics": {
+        "description": "Irish chain migration followed kinship and parish networks — a family from County Donegal would settle in Shenandoah because a cousin or parish member was already there. Welsh migration followed occupational networks — a skilled miner from Glamorgan would join a Welsh-dominated colliery where the foreman spoke Welsh and the working methods were familiar. The Ancient Order of Hibernians (Irish) and the Welsh chapel system facilitated settlement.",
+        "kinship_role": "Parish and kinship connections determined destination. A family from a specific Irish townland settled where that townland's people had already gone.",
+        "timeline": "Irish: peak immigration 1845-1860 (Famine era), continued through 1880. Welsh: steady immigration 1850-1880, declining as the South Wales coalfields expanded."
+      },
+      "narrative_hook": "The ship from Cork or Galway brought {ancestor_name} to Philadelphia, but it was the cousin in Shenandoah who brought {pronoun_object} to the anthracite — a letter saying there was work at the colliery, a room at the boarding house, and a parish that spoke the language of home.",
+      "source": "Kenny, Making Sense of the Molly Maguires (1998). Miller and Sharpless, The Kingdom of Coal (1985)."
+    },
+    {
+      "corridor_id": "se_european_mining_pipeline",
+      "corridor_name": "Southeastern European Immigration Pipeline (Polish, Lithuanian, Slovak, Italian, Ukrainian)",
+      "origin_counties": ["Russian Poland (Galicia, Congress Poland)", "Lithuania (Russian Empire)", "Slovakia (Austria-Hungary)", "Southern Italy (Campania, Calabria, Sicily, Abruzzo)", "Ukraine (Galicia, Austria-Hungary / Russian Empire)"],
+      "destination_area": "All anthracite counties — Southern and Northern Fields. Poles and Lithuanians concentrated in Schuylkill and Luzerne counties. Slovaks in Luzerne and Carbon. Italians in Lackawanna and Luzerne. Ukrainians distributed across all fields.",
+      "era": "1880-1914",
+      "migration_type": "chain_migration (accelerated by labor recruitment)",
+      "scale": "Hundreds of thousands. The SE European immigration to the anthracite region was one of the largest industrial labor movements in American history. By 1910, SE Europeans outnumbered Irish and Welsh in most patch towns.",
+      "evidence": {
+        "census_evidence": "1900-1920 census for anthracite counties shows overwhelming SE European dominance in the mining communities. Birthplace data identifies specific regions of origin.",
+        "church_evidence": "Ethnic parish records document families from specific villages in Poland, Lithuania, Slovakia, Italy, and Ukraine. Parish records are the primary source for SE European immigration.",
+        "surname_clustering": "Polish surnames (Kowalski, Nowak, Wisniewski, Grabowski), Lithuanian surnames (Kazlauskas, Jonaitis, Petraitis), Slovak surnames (Kovac, Novak, Cerny), Italian surnames (Rossi, Russo, Colombo), and Ukrainian surnames (Kovalenko, Shevchenko, Bondarenko) cluster in specific neighborhoods and parishes."
+      },
+      "chain_mechanics": {
+        "description": "SE European immigration combined two mechanisms: deliberate operator recruitment (shipping agents and labor contractors recruited in European villages on behalf of American mine companies) and kinship chain migration (once a few families from a village were established, they recruited kin and neighbors). The operators initially preferred to mix nationalities to prevent labor solidarity, but kinship chains quickly created ethnic clusters — a Polish village in Galicia would send families to a specific Schuylkill County patch town, and within a decade that town's Polish neighborhood would be populated by families from the same few Polish villages. The boarding house system was critical: a newly arrived immigrant family typically boarded with a family from the same origin village until they could rent their own company house. Boarding house keepers — often the miner's wife — were the key nodes in the chain migration network.",
+        "kinship_role": "Village-of-origin connections were paramount. The parish, the fraternal lodge, and the boarding house all reinforced the chain — a family arriving from a specific Polish village was directed to the boarding house run by a woman from that village, attended the Polish parish, and joined the PNA lodge where that village's men gathered.",
+        "timeline": "First arrivals 1880s. Massive flow 1890-1914. Cut off by WWI (1914) and immigration restriction (1921/1924). Second generation dominant by 1930s."
+      },
+      "narrative_hook": "The labor agent who recruited {ancestor_name}'s father in {origin_village} promised work in America — and the coal company that hired him cared only that he was strong, willing, and spoke a different language than the Irish miners who had struck the year before.",
+      "source": "Dublin and Licht, The Face of Decline (2005). Bodnar, John. The Transplanted: A History of Immigrants in Urban America. Bloomington: Indiana University Press, 1985."
+    },
+    {
+      "corridor_id": "anthracite_exodus_south",
+      "corridor_name": "Anthracite Exodus — South to Philadelphia, Allentown, and New Jersey",
+      "origin_counties": ["Schuylkill", "Carbon", "Northumberland", "Columbia"],
+      "destination_area": "Philadelphia and industrial suburbs; Allentown-Bethlehem-Easton (Lehigh Valley); Newark, Paterson, and northern New Jersey industrial towns",
+      "era": "1920-1960",
+      "migration_type": "economic_exodus",
+      "scale": "Tens of thousands from the Southern Field alone. Schuylkill County lost 85,000 residents between 1930 and 1970.",
+      "evidence": {
+        "census_evidence": "1940-1960 census for Philadelphia, Allentown, and New Jersey industrial towns shows PA anthracite-born residents with Southern and Eastern European surnames.",
+        "church_evidence": "Polish, Lithuanian, and Slovak parishes in Philadelphia, Allentown, and New Jersey received transfer families from anthracite region parishes."
+      },
+      "chain_mechanics": {
+        "description": "The exodus followed the same kinship and ethnic church networks that had brought families to the anthracite region. A family leaving Shenandoah for Philadelphia went to the Polish neighborhood where a relative or parish member was already established. The church transfer was the migration mechanism — a family leaving St. Casimir's in Shenandoah would join a Polish parish in Philadelphia's Bridesburg or Port Richmond neighborhood. The Allentown/Lehigh Valley was the nearest non-mining economy and attracted families from the Southern Field who did not want to go as far as Philadelphia.",
+        "kinship_role": "Church and kinship networks channeled the exodus just as they had channeled the immigration. A family did not simply 'move to Philadelphia' — they moved to a specific neighborhood, a specific parish, near a specific relative.",
+        "timeline": "Trickle 1920-1930. Accelerating 1930-1940 (Depression). Peak 1940-1960 (wartime jobs plus GI Bill)."
+      },
+      "narrative_hook": "When {ancestor_name} left {origin_town} for Philadelphia in {year}, {pronoun_subject} went to the Polish neighborhood in Bridesburg where a cousin had already found work at the factory — the same chain migration that had brought the family from Poland to Schuylkill County now carried them from the patch town to the city.",
+      "source": "Dublin and Licht, The Face of Decline (2005). Gregory, James N. The Southern Diaspora. University of North Carolina Press, 2005."
+    },
+    {
+      "corridor_id": "anthracite_exodus_northeast",
+      "corridor_name": "Anthracite Exodus — Northeast to Scranton, Wilkes-Barre, and New York",
+      "origin_counties": ["Luzerne", "Lackawanna", "Carbon"],
+      "destination_area": "Scranton (diversified economy); greater New York area via DL&W Railroad; Connecticut industrial towns",
+      "era": "1920-1960",
+      "migration_type": "economic_exodus",
+      "scale": "Tens of thousands from the Northern Field. Luzerne County lost over 100,000 residents between 1930 and 1970.",
+      "evidence": {
+        "census_evidence": "New York metropolitan area census shows northeastern PA-born residents. Connecticut industrial towns (Bridgeport, Waterbury, Hartford) received anthracite region families.",
+        "church_evidence": "Transfer records between anthracite parishes and destination parishes."
+      },
+      "chain_mechanics": {
+        "description": "The DL&W Railroad connected the Northern Field directly to New York — the 'Road of Anthracite' became the road of exodus. Families from Luzerne and Lackawanna counties could reach New York in 3-4 hours by rail. Scranton, with its diversified economy, absorbed many families from the surrounding patch towns. Some families moved to Connecticut's industrial towns (Bridgeport, Waterbury) where factory jobs were available.",
+        "kinship_role": "The DL&W Railroad provided the physical connection; kinship networks provided the social connection. A family leaving Pittston for New York went to a neighborhood where an anthracite-region family was already established.",
+        "timeline": "Steady exodus 1920-1960, peaking in the 1940s-1950s."
+      },
+      "narrative_hook": "The DL&W ran from Scranton to Hoboken in four hours — and {ancestor_name} rode that train out of the anthracite region toward a job in New York, carrying nothing but a suitcase and the address of a cousin who had left the year before.",
+      "source": "Dublin and Licht, The Face of Decline (2005)."
+    }
+  ],
+  "internal_movement_patterns": [
+    {
+      "pattern_id": "colliery_to_colliery",
+      "pattern_name": "Colliery-to-Colliery Movement within the Coal Fields",
+      "description": "Miners moved between collieries as mines opened, closed, or cut wages. A family might live in three or four patch towns within the same county over a decade, following the work. This internal movement makes census tracing difficult — the family surname appears in different townships from census to census. The company housing system facilitated rapid movement: when a miner was laid off from one colliery, he moved his family to the company housing at a colliery that was hiring.",
+      "era": "1860-1940",
+      "counties_affected": ["Schuylkill", "Luzerne", "Lackawanna", "Carbon", "Northumberland"],
+      "narrative_hook": "If {ancestor_name} appears in three different townships in the census records, it does not mean three different families — it means one miner following the work from colliery to colliery, loading the family's possessions onto a wagon and moving to the next company house when the current mine cut shifts."
+    },
+    {
+      "pattern_id": "patch_town_to_city",
+      "pattern_name": "Patch Town to Regional City (Scranton or Wilkes-Barre)",
+      "description": "As mining declined, families moved from the small patch towns to the regional cities — Scranton and Wilkes-Barre — which had more diversified economies. A family leaving a Schuylkill County patch town might move to Wilkes-Barre; a family from a Lackawanna County colliery might move to Scranton proper. This internal movement preceded the longer-distance exodus.",
+      "era": "1920-1960",
+      "counties_affected": ["Luzerne", "Lackawanna", "Schuylkill"],
+      "narrative_hook": "Moving from the patch town to Scranton or Wilkes-Barre was {ancestor_name}'s first step — the city had silk mills, railroad jobs, and a downtown where the storefronts were still open. The longer journey — to Philadelphia, to New York — came later."
+    }
+  ],
+  "settlement_clusters": [
+    {
+      "cluster_name": "Shenandoah-Mahanoy City Polish-Lithuanian concentration",
+      "counties": ["Schuylkill"],
+      "description": "The densest concentration of Polish and Lithuanian immigrant families in the anthracite region. Shenandoah alone had separate Polish, Lithuanian, Irish, Italian, Ukrainian, and Slovak parishes. The Polish National Alliance and Lithuanian Alliance chapters here were among the largest in America outside Chicago.",
+      "era": "1880-1960"
+    },
+    {
+      "cluster_name": "South Wilkes-Barre / Nanticoke Polish community",
+      "counties": ["Luzerne"],
+      "description": "A large Polish immigrant community in the southern Wyoming Valley. Multiple Polish parishes, PNA lodges, and a Polish-language social world.",
+      "era": "1890-1960"
+    },
+    {
+      "cluster_name": "Scranton South Side Italian community",
+      "counties": ["Lackawanna"],
+      "description": "Scranton's Italian immigrant neighborhood on the South Side. Italian parish (St. Lucy's), mutual aid societies, and the garment and construction industries that employed Italian workers.",
+      "era": "1900-1960"
+    },
+    {
+      "cluster_name": "Centralia Irish-Ukrainian enclave",
+      "counties": ["Columbia"],
+      "description": "A small but distinctive multi-ethnic community — Irish and Ukrainian Catholic families sharing a mountaintop coal town. The two communities maintained separate parishes (St. Ignatius Irish; Assumption BVM Ukrainian) until the mine fire forced evacuation.",
+      "era": "1866-1980s"
+    }
+  ],
+  "narrative_hooks": [
+    "The chain migration that brought {ancestor_name}'s family from {origin_village} to the anthracite region was the same mechanism that carried them out — kinship and parish networks that channeled movement to specific destinations where someone from home was already waiting.",
+    "Moving from colliery to colliery was the anthracite region's internal migration — {ancestor_name} did not stay in one patch town because the work did not stay in one place.",
+    "The DL&W Railroad was the 'Road of Anthracite' heading south with coal and the road of exodus heading northeast with families — {ancestor_name} rode the same tracks the coal had traveled.",
+    "When {ancestor_name} left the patch town for Philadelphia, {pronoun_subject} went to the neighborhood where the ethnic parish already had a community from the old coal town — the same chain that had brought the family from Europe now carried them from the mountains to the city.",
+    "Scranton and Wilkes-Barre were the anthracite region's safety valve — {ancestor_name} could leave the patch town for the city without leaving the region, and the city's diversified economy provided the alternatives the monoculture coal towns lacked."
+  ],
+  "source_references": [
+    "Dublin, Thomas, and Walter Licht. The Face of Decline. Ithaca: Cornell University Press, 2005.",
+    "Kenny, Kevin. Making Sense of the Molly Maguires. New York: Oxford University Press, 1998.",
+    "Bodnar, John. The Transplanted: A History of Immigrants in Urban America. Bloomington: Indiana University Press, 1985.",
+    "Miller, Donald L., and Richard E. Sharpless. The Kingdom of Coal. Philadelphia: University of Pennsylvania Press, 1985.",
+    "Gregory, James N. The Southern Diaspora. Chapel Hill: University of North Carolina Press, 2005."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["pa_anthracite_exodus", "se_european_wave", "gi_bill_migration"],
+    "destination_refs": ["philadelphia", "new_york_city", "scranton"],
+    "community_texture_refs": ["pa_anthracite_patch_town", "eastern_european_industrial_enclave"]
+  }
+}

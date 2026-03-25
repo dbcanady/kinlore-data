@@ -1,0 +1,108 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-25",
+  "_purpose": "Courthouse Atlas for Sullivan County, PA. The least populated county in the cluster (and one of the least in Pennsylvania). Formed from Lycoming County in 1847. The courthouse at Laporte — the smallest county seat in Pennsylvania — has not suffered a major fire. Records are thin because the population was always small.",
+  "courthouse_atlas_id": "pa_sullivan_courthouse",
+  "display_name": "Sullivan County, Pennsylvania — Courthouse Atlas",
+  "county": "Sullivan",
+  "state": "PA",
+  "fips_code": "42113",
+  "cluster_ref": "pa_anthracite",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1856,
+      "location": "Laporte, PA — Main Street (population under 300 — the smallest county seat in Pennsylvania)",
+      "records_housed": ["deeds", "wills", "orphans' court records", "marriage licenses", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1847–1856",
+        "location": "Laporte — temporary quarters",
+        "fate": "County formed from Lycoming County in 1847. First permanent courthouse 1856."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "sullivan_no_major_loss",
+      "date": null,
+      "cause": "No major courthouse fire or catastrophic loss",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1847", "will books from 1847", "court minutes", "marriage licenses from 1885"],
+      "scope": "none",
+      "description": "Sullivan County's courthouse has not suffered a major fire. Records are continuous from the 1847 formation. Pre-1847 records are at Lycoming County in Williamsport. The county's small population means the total volume of records is limited — but what exists is intact. Lumber company land transactions dominate the deed records for much of the county's history.",
+      "narrative_impact": "Sullivan County's records are intact but thin — the population was always small, and the lumber workforce was transient. If {ancestor_name} lived in Sullivan County, the courthouse records may exist, but the person who worked the logging camps probably left no trace at the county seat.",
+      "source": "Sullivan County Prothonotary. Sullivan County Historical Society."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1847,
+      "completeness": "Good — continuous from county formation, though volume is small",
+      "gaps": "Pre-1847 deeds at Lycoming County. Lumber company land dominated the deed books — individual small-holders were rare in the mountain areas.",
+      "repository": "Sullivan County Recorder of Deeds, Laporte; PA State Archives microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1847,
+      "completeness": "Good — small volume",
+      "gaps": "Pre-1847 wills at Lycoming County.",
+      "repository": "Sullivan County Register of Wills; PA State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1885,
+      "completeness": "Marriage licenses from 1885. Very small volume.",
+      "gaps": "No civil licenses before 1885. Church records scarce due to small, scattered population.",
+      "repository": "Sullivan County Register of Wills",
+      "online_access": "FamilySearch"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1847,
+      "completeness": "Good — small volume",
+      "gaps": "None significant.",
+      "repository": "Sullivan County Prothonotary; PA State Archives",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1893,
+      "death_registration_start": 1893,
+      "completeness": "PA vital registration from 1893. Compliance may have been spotty in remote mountain areas.",
+      "repository": "PA Division of Vital Records; PA State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Sullivan County Historical Society",
+      "description": "The county historical society holds local history collections including logging-era photographs, lumber company records (fragmentary), and family files for the county's small population.",
+      "repository": "Sullivan County Historical Society, Laporte",
+      "era_coverage": "1847–present",
+      "genealogical_value": "The historical society may be the only repository for lumber-era documentation. Family files for the county's founding families are held here.",
+      "source": "Sullivan County Historical Society collections."
+    },
+    {
+      "source_type": "Eagles Mere resort records",
+      "description": "Eagles Mere, the mountaintop resort, maintained hotel registers, property records, and community association records that document the summer visitors and year-round residents.",
+      "repository": "Eagles Mere Museum and Historical Foundation",
+      "era_coverage": "1880s–present",
+      "genealogical_value": "Documents the resort community — {ancestor_name} may appear as a seasonal worker or year-round resident.",
+      "source": "Eagles Mere Museum collections."
+    }
+  ],
+  "narrative_hooks": [
+    "Sullivan County's courthouse at Laporte is the smallest county seat in Pennsylvania — {ancestor_name}'s records, if they exist, are filed in a building that serves fewer than 6,000 people.",
+    "The lumber workforce that cut Sullivan County's forests was transient — if {ancestor_name} worked the logging camps, {pronoun_subject} may have left no trace at the Laporte courthouse.",
+    "Pre-1847 records for Sullivan County are at Lycoming County in Williamsport — the county boundary split whatever paper trail {ancestor_name}'s family had created.",
+    "Sullivan County's records are intact but thin — the population was never large, and the records reflect a county where more trees were counted than people."
+  ],
+  "source_references": [
+    "Sullivan County Historical Society. Collections guide.",
+    "Taber, Thomas T. Ghost Lumber Towns of Central Pennsylvania. Williamsport: Lycoming County Historical Society, 1970.",
+    "PA Division of Vital Records. Guide to Pennsylvania Vital Records."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "pa_sullivan",
+    "research_guidance_refs": ["property_records"],
+    "template_refs": ["record_silences"]
+  }
+}

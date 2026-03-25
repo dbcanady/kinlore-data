@@ -1,0 +1,113 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-25",
+  "_purpose": "Road and connectivity network for the PA Anthracite cluster. Documents how transportation shaped the coal region — from the canals that made anthracite commercially viable through the railroads that controlled the industry to the highways that carried the exodus. The anthracite region's transportation was built to move coal, not people, and when the coal stopped moving, the infrastructure became the path of departure.",
+  "connectivity_id": "pa_anthracite_roads",
+  "display_name": "PA Anthracite — Road & Connectivity Network",
+  "cluster_ref": "pa_anthracite",
+  "era_range": "1820-1960",
+  "transportation_eras": [
+    {
+      "era_id": "canal_era",
+      "era_name": "Canal and Early Mining Roads",
+      "date_range": "1820-1850",
+      "primary_modes": ["canal boat", "wagon on mountain road", "horseback", "Switchback Railroad (gravity railroad)"],
+      "description": "The canals made anthracite possible. The Lehigh Canal (1818-1829), the Schuylkill Navigation (1825), and the North Branch Canal (1831) connected the coal fields to Philadelphia and New York. Before the canals, anthracite was known but commercially useless — too heavy and too remote to transport profitably. The mountain roads connecting the mine sites to the canal landings were steep, narrow, and often impassable in wet weather. The Switchback Railroad at Summit Hill (1827) — a gravity railroad that lowered coal-laden cars down the mountain to the Lehigh Canal at Mauch Chunk — was the first purpose-built coal transportation in America.",
+      "road_conditions": "Terrible in the mining zone. Mountain roads were narrow, steep, and unpaved. The narrow valleys and steep ridges made road-building expensive and travel slow. Canal corridors were the only reliable transportation. The Susquehanna valley had somewhat better roads.",
+      "travel_times": [
+        { "from": "Mauch Chunk (Carbon Co.)", "to": "Philadelphia", "mode": "canal boat via Lehigh and Delaware", "time": "3-5 days downstream", "conditions_note": "Coal-laden boats floated downstream; returned empty upstream pulled by mules" },
+        { "from": "Pottsville (Schuylkill Co.)", "to": "Philadelphia", "mode": "canal boat via Schuylkill Navigation", "time": "3-5 days downstream", "conditions_note": "108 miles of canal and slackwater navigation" },
+        { "from": "Patch town to county seat", "to": "Variable", "mode": "wagon on mountain road", "time": "Half day to full day", "conditions_note": "Mountain terrain made short distances slow. Pottsville to Shenandoah (12 miles) could take a full day by wagon." }
+      ],
+      "key_routes": [
+        { "route_name": "Lehigh Canal", "type": "canal", "year_established": 1829, "description": "Connected the Carbon County coal fields to the Delaware River and Philadelphia/New York markets. The canal that made anthracite commercially viable.", "counties_served": ["Carbon"] },
+        { "route_name": "Schuylkill Navigation", "type": "canal", "year_established": 1825, "description": "Connected the Southern Anthracite Field through Reading to Philadelphia.", "counties_served": ["Schuylkill"] },
+        { "route_name": "North Branch Canal (Susquehanna)", "type": "canal", "year_established": 1831, "description": "Connected the Wyoming Valley (Luzerne County) to the Susquehanna canal system.", "counties_served": ["Luzerne", "Northumberland", "Columbia"] }
+      ],
+      "isolation_index": {
+        "description": "Extreme in the mining zone. The mountain terrain isolated the patch towns from each other and from the outside world. A miner in Shenandoah was effectively cut off from any community not within walking distance. The canals connected the coal to the market but did little for the miners themselves.",
+        "comparative_note": "Among the most isolated industrial communities in America. The narrow valleys and steep ridges created a geography of confinement."
+      },
+      "narrative_hook": "The canal carried {ancestor_name}'s coal to Philadelphia — but {ancestor_name} stayed in the mountain valley, separated from the world by ridges that the coal crossed on barges and the miner crossed on foot.",
+      "source": "Powell, H. Benjamin. Philadelphia's First Fuel Crisis. Penn State University Press, 1978. Wallace, St. Clair (1987)."
+    },
+    {
+      "era_id": "railroad_era",
+      "era_name": "Railroad Dominance — Coal Controls Transportation",
+      "date_range": "1840-1920",
+      "primary_modes": ["railroad (freight and passenger)", "wagon on improved road", "trolley/interurban (post-1890)"],
+      "description": "The railroads replaced the canals and created the anthracite industry's corporate structure. The Philadelphia and Reading Railway, the Lehigh Valley Railroad, the DL&W, and the Erie built lines into every coal-producing valley. The railroads did not merely transport coal — they owned the mines, the land, and the towns. Every patch town was a railroad-owned company town. The railroad determined where towns existed: communities on the railroad grew; those without railroad access did not exist. Passenger service connected the county seats (Pottsville, Wilkes-Barre, Scranton) to Philadelphia and New York, but the patch towns themselves had limited passenger access. Trolley and interurban lines (post-1890) connected some mining communities, providing the first public transportation for mine workers.",
+      "road_conditions": "County roads improved gradually but remained secondary to rail. Mountain roads were steep and often in poor condition. The railroad was the only reliable transportation for heavy freight and for reaching the outside world.",
+      "travel_times": [
+        { "from": "Pottsville", "to": "Philadelphia", "mode": "Reading Railroad", "time": "3-4 hours", "conditions_note": "Via Reading. The same journey took 3-5 days by canal." },
+        { "from": "Wilkes-Barre", "to": "New York", "mode": "DL&W Railroad via Scranton and Hoboken", "time": "4-5 hours", "conditions_note": "The DL&W connected the Wyoming Valley to New York's market" },
+        { "from": "Scranton", "to": "New York", "mode": "DL&W Railroad", "time": "3-4 hours", "conditions_note": "Direct service via the Hoboken terminal" },
+        { "from": "Shenandoah", "to": "Pottsville", "mode": "Railroad branch line", "time": "30-45 minutes", "conditions_note": "Short distance but mountain terrain required the railroad" }
+      ],
+      "key_routes": [
+        { "route_name": "Philadelphia and Reading Railway main line", "type": "railroad", "year_established": 1842, "description": "Connected the Southern Field to Philadelphia through Reading. The backbone of the Southern Field's coal transportation.", "counties_served": ["Schuylkill", "Carbon"] },
+        { "route_name": "Delaware, Lackawanna and Western Railroad", "type": "railroad", "year_established": "1850s", "description": "Connected Scranton and the Northern Field to New York via the Hoboken terminal. The 'Road of Anthracite.'", "counties_served": ["Lackawanna", "Luzerne"] },
+        { "route_name": "Lehigh Valley Railroad", "type": "railroad", "year_established": "1850s", "description": "Connected Carbon County's coal to the Lehigh Valley and New York markets.", "counties_served": ["Carbon", "Luzerne"] },
+        { "route_name": "Pennsylvania Railroad Northern Central branch", "type": "railroad", "year_established": "1850s", "description": "Connected the Susquehanna valley (Northumberland, Lycoming) to Baltimore and Harrisburg.", "counties_served": ["Northumberland", "Lycoming"] }
+      ],
+      "isolation_index": {
+        "description": "Moderate along railroad corridors; high in communities without direct rail access. The county seats (Pottsville, Wilkes-Barre, Scranton) were well-connected to Philadelphia and New York. The smaller patch towns had limited passenger service — workers walked to the nearest station, which might be miles away on a mountain road.",
+        "comparative_note": "The contrast between railroad-connected county seats and isolated patch towns was extreme. Scranton was 3-4 hours from New York; a patch town in the Mahanoy Valley might be an hour from any railroad station."
+      },
+      "narrative_hook": "The DL&W carried coal south to New York on the same tracks that would carry {ancestor_name}'s children away from the anthracite region — the 'Road of Anthracite' became the road of exodus when the coal stopped mattering.",
+      "source": "Licht, Working for the Railroad (1983). Dublin and Licht, The Face of Decline (2005)."
+    },
+    {
+      "era_id": "automobile_exodus",
+      "era_name": "Automobile and Highway — The Exodus Route",
+      "date_range": "1920-1960",
+      "primary_modes": ["automobile", "bus", "truck", "declining railroad passenger service"],
+      "description": "The automobile provided what the railroad never had — personal mobility for mine workers and their families. Highway construction through the anthracite region was slow (the mountain terrain made road-building expensive), but by the 1940s, improved state highways connected the county seats to the outside world. The Pennsylvania Turnpike (Northeast Extension, opened 1957) eventually connected the anthracite region to Philadelphia, but for most of the decline period, the roads out were two-lane mountain highways. The automobile was the exodus vehicle — young families loaded their possessions into cars and drove to Allentown, Philadelphia, or the New Jersey industrial towns. The railroad passenger services declined as the railroads themselves declined. Greyhound and Martz bus lines replaced rail passenger service for many communities.",
+      "road_conditions": "State highways improved but the mountain terrain remained challenging. Two-lane roads through narrow valleys and over mountain passes were the norm. Winter conditions were severe — mountain roads closed in heavy snowfall. The PA Turnpike Northeast Extension (1957) was the first modern highway connection.",
+      "travel_times": [
+        { "from": "Wilkes-Barre", "to": "Philadelphia", "mode": "automobile via US 309/PA Turnpike", "time": "3-4 hours", "conditions_note": "Mountain roads. The PA Turnpike NE Extension (1957) improved this significantly." },
+        { "from": "Scranton", "to": "New York", "mode": "automobile via US 6 and US 46", "time": "2.5-3 hours", "conditions_note": "Over the Pocono Mountains to the Delaware Water Gap and through New Jersey" },
+        { "from": "Shenandoah", "to": "Allentown", "mode": "automobile", "time": "1.5-2 hours", "conditions_note": "Over Broad Mountain and through the Lehigh Valley — the most common exodus route from the Southern Field" }
+      ],
+      "key_routes": [
+        { "route_name": "US Route 309 (Wilkes-Barre to Philadelphia)", "type": "US highway", "year_established": "1920s", "description": "The primary highway connecting the Wyoming Valley to the Lehigh Valley and Philadelphia. The route that carried the exodus south.", "counties_served": ["Luzerne"] },
+        { "route_name": "US Route 11 (Susquehanna corridor)", "type": "US highway", "year_established": "1920s", "description": "Followed the Susquehanna valley from Scranton through Wilkes-Barre to Sunbury and Harrisburg.", "counties_served": ["Lackawanna", "Luzerne", "Columbia", "Northumberland"] },
+        { "route_name": "PA Route 61 (Pottsville to Reading/Philadelphia)", "type": "state highway", "year_established": "1920s", "description": "Connected the Southern Field to Reading and Philadelphia. The exodus route for Schuylkill County families.", "counties_served": ["Schuylkill"] },
+        { "route_name": "PA Turnpike Northeast Extension", "type": "toll highway", "year_established": 1957, "description": "Connected the anthracite region to Philadelphia by limited-access highway. Arrived too late to prevent the exodus but facilitated later economic development.", "counties_served": ["Luzerne", "Carbon"] }
+      ],
+      "isolation_index": {
+        "description": "Decreasing as highways improved, but the mountain terrain still made the anthracite region feel remote. The PA Turnpike NE Extension (1957) was the first modern highway connection, but by 1957 the exodus was nearly complete.",
+        "comparative_note": "The anthracite region remained more isolated than other northeastern industrial areas well into the 1960s. The mountain terrain that had trapped the coal also trapped the communities."
+      },
+      "narrative_hook": "The car was {ancestor_name}'s ticket out — loaded with furniture and children, driving south over Broad Mountain toward Allentown or Philadelphia, leaving behind a patch town that had nothing left to offer but memory.",
+      "source": "Dublin and Licht, The Face of Decline (2005). PA Department of Transportation historical records."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1827, "event": "Switchback Railroad at Summit Hill (Carbon County) — first anthracite railroad", "impact": "Gravity railroad carrying coal from Summit Hill to Mauch Chunk canal landing" },
+    { "year": 1842, "event": "Philadelphia and Reading Railroad completed to the Southern Field", "impact": "Railroad transportation replaced canals for the Southern Field" },
+    { "year": 1851, "event": "DL&W Railroad reaches Scranton", "impact": "Connected the Northern Field to New York markets" },
+    { "year": 1870, "event": "Reading Railroad becomes the largest corporation in the world", "impact": "Corporate consolidation of the anthracite industry" },
+    { "year": 1893, "event": "Reading Railroad first bankruptcy", "impact": "Beginning of the railroad's long decline" },
+    { "year": 1960, "event": "DL&W merges into Erie Lackawanna", "impact": "End of the 'Road of Anthracite' as an independent railroad" },
+    { "year": 1971, "event": "Reading Company ceases operations", "impact": "End of the railroad that had controlled the Southern Field for 130 years" }
+  ],
+  "narrative_hooks": [
+    "The canals made anthracite possible — without the Lehigh Canal and the Schuylkill Navigation, the coal under {ancestor_name}'s feet would have been worthless.",
+    "The railroad companies did not just move coal — they owned the mines, the towns, and the lives of the men who worked them, and {ancestor_name}'s world was as controlled by the DL&W schedule as by the shift whistle.",
+    "The road out of the anthracite region was the same road the coal had traveled — south through the mountains to the cities that had burned the coal and now offered the jobs that the mines no longer provided.",
+    "The PA Turnpike Northeast Extension arrived in 1957 — two years before the Knox Mine Disaster, and too late to save the communities it connected to the outside world.",
+    "The DL&W Railroad's advertising slogan was 'The Road of Anthracite' — and {ancestor_name} rode that road out of the coal region when the anthracite economy died."
+  ],
+  "source_references": [
+    "Dublin, Thomas, and Walter Licht. The Face of Decline. Ithaca: Cornell University Press, 2005.",
+    "Licht, Walter. Working for the Railroad. Princeton: Princeton University Press, 1983.",
+    "Powell, H. Benjamin. Philadelphia's First Fuel Crisis. University Park: Penn State University Press, 1978.",
+    "Wallace, Anthony F. C. St. Clair. New York: Alfred A. Knopf, 1987.",
+    "PA Department of Transportation. Historical records and highway maps."
+  ],
+  "nel_cross_references": {
+    "route_refs": ["rotterdam_philadelphia_pipeline"],
+    "trigger_refs": ["pa_anthracite_exodus", "se_european_wave", "gi_bill_migration"]
+  }
+}

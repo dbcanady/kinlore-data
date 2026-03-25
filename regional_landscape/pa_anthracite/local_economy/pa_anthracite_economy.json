@@ -1,0 +1,222 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-25",
+  "_purpose": "Local economy timeline for the PA Anthracite cluster (Schuylkill, Luzerne, Lackawanna, Carbon, Northumberland, Columbia, Lycoming, Sullivan counties). Covers 1840-1960 across six economic eras: early mining and canal transport, immigrant labor boom, corporate consolidation, the Great Strike of 1902, Depression-era bootleg mining, and terminal decline. The anthracite economy was a monoculture — coal determined everything — and its collapse left behind communities with no economic alternative.",
+  "economy_id": "pa_anthracite_economy",
+  "display_name": "PA Anthracite — Local Economy Timeline",
+  "cluster_ref": "pa_anthracite",
+  "era_range": "1840-1960",
+  "economic_eras": [
+    {
+      "era_id": "early_mining_canal",
+      "era_name": "Early Mining and Canal Transportation",
+      "date_range": "1820-1860",
+      "dominant_economy": "Anthracite mining establishing; canal transportation carrying coal to Philadelphia and New York markets; Irish and Welsh immigrant labor arriving; Lehigh Coal and Navigation Company and individual operators opening collieries",
+      "description": "Anthracite coal was discovered in northeastern Pennsylvania in the late 1700s but did not become commercially viable until canal and railroad transportation made it possible to move the heavy, dense coal to urban markets. The Lehigh Canal (1818-1829), the Schuylkill Navigation (1825), and the early railroads connected the coal fields to Philadelphia and New York. Irish immigrants, many fleeing the Famine of 1845-1852, and Welsh miners with experience from the South Wales coalfields provided the first large-scale labor force. The industry was initially fragmented — dozens of small operators competed. By the 1850s, railroad companies were beginning to acquire mines, setting the pattern of corporate control that would define the anthracite industry.",
+      "county_specifics": [
+        { "county": "Carbon", "note": "Birthplace of American anthracite mining. Summit Hill mine (1791). Lehigh Coal and Navigation Company dominated. Mauch Chunk was the commercial hub." },
+        { "county": "Schuylkill", "note": "Southern Field opening rapidly. Pottsville became the county seat (1811). Irish miners arriving in large numbers by the 1840s." },
+        { "county": "Luzerne", "note": "Wyoming Valley mines opening. Wilkes-Barre growing as the Northern Field's commercial center." },
+        { "county": "Northumberland", "note": "Shamokin area mines opening. Agricultural economy in the Susquehanna valley continuing separately." },
+        { "county": "Lackawanna", "note": "Still part of Luzerne County. Scranton iron furnaces established 1840s — using anthracite to smelt iron, a revolutionary innovation." },
+        { "county": "Columbia", "note": "Peripheral mining in the mountain zone. Bloomsburg remained agricultural." },
+        { "county": "Lycoming", "note": "Lumber industry beginning. Timber from Lycoming County supplied mine props for the coal fields." },
+        { "county": "Sullivan", "note": "Remote and unsettled. Virgin forest awaiting the railroad that would bring the lumber industry." }
+      ],
+      "key_infrastructure": [
+        { "name": "Lehigh Canal / Schuylkill Navigation", "year": "1818-1829", "impact": "Made anthracite commercially viable by providing transportation to urban markets" },
+        { "name": "Philadelphia and Reading Railroad", "year": 1842, "impact": "Connected the Southern Field to Philadelphia. Faster and higher-capacity than the canals." },
+        { "name": "Scranton iron furnaces", "year": "1840s", "impact": "Proved that anthracite could smelt iron, creating an additional market for the coal" }
+      ],
+      "major_employers": [
+        { "name": "Lehigh Coal and Navigation Company", "type": "Mining and transportation", "era": "1820-1860", "counties_affected": ["Carbon"], "employment_scale": "Hundreds, growing to thousands" },
+        { "name": "Individual mine operators (various)", "type": "Mining", "era": "1830-1860", "counties_affected": ["Schuylkill", "Luzerne", "Northumberland"], "employment_scale": "Dozens of operators with hundreds of workers each" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Underground miner (contract)", "wage": "$1.00-$2.00/day", "year": 1850, "source": "Wallace, St. Clair, ch. 5." },
+        { "occupation": "Breaker boy", "wage": "$0.25-$0.50/day", "year": 1850, "source": "Miller and Sharpless, The Kingdom of Coal, ch. 3." },
+        { "occupation": "Canal laborer (Irish)", "wage": "$0.75-$1.00/day", "year": 1830, "source": "Way, Common Labour." }
+      ],
+      "narrative_hook": "In the {decade}s, {ancestor_name} came to a coal region that was just beginning to understand what lay beneath it — anthracite seams thick enough to heat every city on the eastern seaboard, and a market that would make men rich and kill thousands in the process.",
+      "source": "Wallace, Anthony F. C. St. Clair. Alfred A. Knopf, 1987. Miller and Sharpless, The Kingdom of Coal (1985)."
+    },
+    {
+      "era_id": "corporate_consolidation",
+      "era_name": "Corporate Consolidation and the Molly Maguire Era",
+      "date_range": "1860-1880",
+      "dominant_economy": "Railroad corporations acquiring mines; the Reading Railroad, Lehigh Valley Railroad, DL&W, and Erie controlling the anthracite industry; Civil War demand boosting production; the Long Strike of 1875 and Molly Maguire executions (1877-1879) crushing early labor organization; Welsh and Irish miners dominant",
+      "description": "The railroad corporations consolidated control of the anthracite industry between 1860 and 1880. The Philadelphia and Reading Railway, the Lehigh Valley Railroad, the Delaware, Lackawanna and Western, and the Erie Railroad acquired mines, transportation, and land, creating vertically integrated monopolies. The railroads owned the coal underground, the breakers that processed it, the railroads that moved it, and often the land the workers lived on. The Civil War generated enormous demand for coal — both for heating and for ironmaking. After the war, overproduction and wage cuts led to the Long Strike of 1875 (five months, devastating for workers' families) and the campaign against the 'Molly Maguires' — Irish miners accused of labor violence, infiltrated by Pinkerton detective James McParlan, tried on evidence orchestrated by the mine owners, and hanged at Pottsville and Mauch Chunk in 1877-1879. The hangings were a turning point: they crushed the Workingmen's Benevolent Association, the first serious miners' union, and demonstrated the operators' willingness to use the state's power to eliminate labor resistance.",
+      "county_specifics": [
+        { "county": "Schuylkill", "note": "Center of the Molly Maguire crisis. Pottsville was the trial venue and execution site. The Southern Field was the most contested territory between labor and operators." },
+        { "county": "Carbon", "note": "Molly Maguire hangings at Mauch Chunk (1877-1879). The Old Jail's 'handprint' became a legendary artifact of the era." },
+        { "county": "Luzerne", "note": "Wyoming Valley mines expanding. Wilkes-Barre growing toward city status." },
+        { "county": "Lackawanna", "note": "Created from Luzerne in 1878. Scranton iron and coal economy diversifying — silk mills opening." },
+        { "county": "Northumberland", "note": "Shamokin mines at full production." },
+        { "county": "Lycoming", "note": "Lumber boom reaching peak. Williamsport becoming 'Lumber Capital of the World.'" }
+      ],
+      "key_infrastructure": [
+        { "name": "Philadelphia and Reading Railway mine acquisitions", "year": "1860s-1870s", "impact": "The Reading Railroad became the largest anthracite producer by acquiring mines and land across the Southern Field" },
+        { "name": "DL&W Railroad expansion", "year": "1860s-1870s", "impact": "Connected Scranton's coal to New York markets via the Hoboken terminal" }
+      ],
+      "major_employers": [
+        { "name": "Philadelphia and Reading Railway / Coal and Iron Company", "type": "Mining and transportation", "era": "1860-1880", "counties_affected": ["Schuylkill", "Carbon", "Northumberland"], "employment_scale": "Tens of thousands — the dominant employer in the Southern Field" },
+        { "name": "DL&W Railroad and associated mines", "type": "Mining and transportation", "era": "1860-1880", "counties_affected": ["Lackawanna", "Luzerne"], "employment_scale": "Thousands" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Underground miner (contract)", "wage": "$1.50-$3.00/day (variable by tonnage)", "year": 1870, "source": "Miller and Sharpless, The Kingdom of Coal, ch. 5." },
+        { "occupation": "Miner's laborer", "wage": "$1.00-$1.50/day", "year": 1870, "source": "Wallace, St. Clair." },
+        { "occupation": "Breaker boy", "wage": "$0.40-$0.70/day", "year": 1875, "source": "Miller and Sharpless, The Kingdom of Coal." }
+      ],
+      "narrative_hook": "The railroad companies owned the coal under {ancestor_name}'s feet, the breaker above {pronoun_possessive} head, the railroad that moved the coal to market, and the company house {pronoun_subject} rented — and when the Molly Maguires tried to fight back, the companies hired Pinkerton spies and hanged the organizers at Pottsville.",
+      "source": "Kenny, Kevin. Making Sense of the Molly Maguires. Oxford University Press, 1998. Miller and Sharpless, The Kingdom of Coal (1985)."
+    },
+    {
+      "era_id": "se_european_immigration_boom",
+      "era_name": "Southeastern European Immigration Boom",
+      "date_range": "1880-1910",
+      "dominant_economy": "Massive SE European immigration — Poles, Lithuanians, Slovaks, Italians, Ukrainians — recruited to fill expanding mines and fragment labor solidarity; anthracite production approaching peak; breaker boys and child labor; ethnic parish construction boom; company town system at maximum control",
+      "description": "Between 1880 and 1910, the anthracite operators recruited hundreds of thousands of southeastern European immigrants to replace the Irish and Welsh miners who had organized and struck. Poles, Lithuanians, Slovaks, Italians, and Ukrainians arrived in waves, each group accepting lower wages and worse conditions than the established miners. The operators deliberately mixed nationalities to prevent labor solidarity — a Polish miner who spoke no English and no Irish could not organize with his Irish neighbor. The strategy worked in the short term but failed spectacularly in 1902. The immigrant communities built ethnic parishes, fraternal lodges, and neighborhood institutions with extraordinary speed — a town of 5,000 might have seven Catholic parishes, each serving a different nationality. The company town system reached its maximum extent: the operator owned the houses, the store, and the only employment. Workers paid rent in company scrip, bought food at the company store at inflated prices, and had no economic alternative.",
+      "county_specifics": [
+        { "county": "Schuylkill", "note": "Polish and Lithuanian immigrants transforming the Southern Field patch towns. Shenandoah's population reached 20,000 with seven ethnic parishes." },
+        { "county": "Luzerne", "note": "Wyoming Valley receiving large Polish, Slovak, and Italian populations. Wilkes-Barre approaching 70,000." },
+        { "county": "Lackawanna", "note": "Scranton receiving diverse immigrant population for mines, silk mills, and iron works. Population exceeding 100,000." },
+        { "county": "Carbon", "note": "Panther Valley communities receiving SE European immigrants." },
+        { "county": "Northumberland", "note": "Shamokin receiving Polish, Lithuanian, and Ukrainian immigrants." }
+      ],
+      "key_infrastructure": [
+        { "name": "Ethnic parish construction wave", "year": "1880-1910", "impact": "Dozens of churches, schools, and community halls built — the physical infrastructure of the ethnic neighborhoods" },
+        { "name": "Company store system at peak", "year": "1880-1910", "impact": "Workers paid in scrip redeemable only at the company store, at inflated prices — a system of economic control" }
+      ],
+      "major_employers": [
+        { "name": "Railroad-owned mining companies (Reading, DL&W, Lehigh Valley, Erie)", "type": "Mining", "era": "1880-1910", "counties_affected": ["All anthracite counties"], "employment_scale": "Over 180,000 anthracite miners at 1914 peak" },
+        { "name": "Scranton silk mills", "type": "Textile manufacturing", "era": "1880-1910", "counties_affected": ["Lackawanna"], "employment_scale": "Thousands — primarily female workforce (miners' daughters)" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Underground miner (SE European immigrant, first year)", "wage": "$1.25-$2.00/day", "year": 1900, "source": "Dublin and Licht, The Face of Decline, ch. 2." },
+        { "occupation": "Experienced contract miner", "wage": "$2.50-$4.00/day (variable)", "year": 1900, "source": "Miller and Sharpless, The Kingdom of Coal." },
+        { "occupation": "Breaker boy (age 10-14)", "wage": "$0.50-$0.75/day", "year": 1900, "source": "Hine, Lewis. Photographs and field notes, 1911." },
+        { "occupation": "Silk mill operative (female)", "wage": "$0.75-$1.25/day", "year": 1905, "source": "Dublin and Licht, The Face of Decline." }
+      ],
+      "narrative_hook": "The operators recruited {ancestor_name}'s people from {origin_country} to break strikes and accept wages the Irish would not take — and within a generation, the Polish miners, the Lithuanian miners, and the Slovak miners were organizing alongside the Irish at the same union hall.",
+      "source": "Dublin and Licht, The Face of Decline (2005). Miller and Sharpless, The Kingdom of Coal (1985)."
+    },
+    {
+      "era_id": "great_strike_peak",
+      "era_name": "The Great Strike of 1902 and Industrial Peak",
+      "date_range": "1900-1920",
+      "dominant_economy": "The Great Anthracite Strike of 1902 (147,000 miners, 163 days) united ethnic groups under the United Mine Workers; presidential intervention; anthracite production peaking at 100 million tons (1917); WWI demand sustaining production; breaker boy reform beginning; the anthracite industry at its zenith",
+      "description": "The Great Strike of 1902 was the defining event of the anthracite economy. Under John Mitchell's leadership, the United Mine Workers organized across ethnic lines for the first time — Irish, Welsh, Polish, Lithuanian, Slovak, and Italian miners walked out together. The strike lasted 163 days and was settled only when President Theodore Roosevelt intervened — the first time a president had mediated a labor dispute. The settlement gave miners modest wage increases and shorter hours but, more importantly, established the principle that the government had a role in labor disputes. The Anthracite Coal Strike Commission set precedents for future labor relations. Production peaked at 100 million tons in 1917, driven by WWI demand. But the peak was already an illusion — oil and natural gas were beginning to displace anthracite for home heating, and the decline that would destroy the region was already underway.",
+      "county_specifics": [
+        { "county": "Schuylkill", "note": "Southern Field at peak production. Every colliery running. Population approaching peak." },
+        { "county": "Luzerne", "note": "Wyoming Valley population peaking at 445,000 (1930 census). Wilkes-Barre at 86,000." },
+        { "county": "Lackawanna", "note": "Scranton at 143,000 (1930 peak). Diversified economy softening the coming decline." },
+        { "county": "Carbon", "note": "Panther Valley at peak. Lehigh Coal and Navigation Company at maximum production." },
+        { "county": "Northumberland", "note": "Shamokin mining district at peak." }
+      ],
+      "key_infrastructure": [
+        { "name": "United Mine Workers District 1 (Northern Field) and District 9 (Southern Field)", "year": 1902, "impact": "The union structure that united the multi-ethnic workforce for the first time" },
+        { "name": "Anthracite Coal Strike Commission", "year": 1902, "impact": "Federal intervention in labor disputes — a precedent that changed American labor law" }
+      ],
+      "major_employers": [
+        { "name": "Railroad-owned mining companies (consolidated)", "type": "Mining", "era": "1900-1920", "counties_affected": ["All anthracite counties"], "employment_scale": "180,000+ at 1914 peak" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Underground miner (post-1902 settlement)", "wage": "$2.50-$4.50/day", "year": 1910, "source": "Anthracite Coal Strike Commission records." },
+        { "occupation": "Mine laborer", "wage": "$1.75-$2.50/day", "year": 1910, "source": "Dublin and Licht, The Face of Decline." }
+      ],
+      "narrative_hook": "The Great Strike of 1902 was when {ancestor_name}'s patch town — Irish, Polish, Lithuanian, Slovak, Italian — walked out together for the first time, 147,000 miners united by common grievance even though they still worshipped in separate churches and spoke different languages at home.",
+      "source": "Cornell, Robert J. The Anthracite Coal Strike of 1902. Washington, DC: Catholic University of America Press, 1957. Dublin and Licht, The Face of Decline (2005)."
+    },
+    {
+      "era_id": "depression_bootleg",
+      "era_name": "Depression and the Bootleg Coal Economy",
+      "date_range": "1920-1940",
+      "dominant_economy": "Anthracite market collapsing as oil and natural gas replace coal for home heating; mine closures accelerating; unemployment exceeding 40% in the worst-hit communities; bootleg (illegal independent) mining as survival economy; WPA employment; young people leaving for Philadelphia, New York, Scranton",
+      "description": "The anthracite economy entered terminal decline in the 1920s. Production fell from 100 million tons (1917) to 51 million (1932). Oil and natural gas replaced anthracite for home heating. Mine after mine closed — first the marginal operations, then the major collieries. The Great Depression devastated communities that were already in structural decline. Unemployment in the patch towns exceeded 40% by 1933. The bootleg coal economy emerged as a survival mechanism: families dug into abandoned mine slopes, extracted coal by hand, and sold it by the wagonload. Bootleg mining was illegal (the companies still owned the mineral rights) but the authorities turned a blind eye because the alternative was mass starvation. The WPA provided make-work employment but could not replace the mining economy. The exodus of young people accelerated — to Philadelphia's factories and shipyards, to New York's service economy, to New Jersey's industrial towns, and to Scranton and Wilkes-Barre, which had more diversified economies.",
+      "county_specifics": [
+        { "county": "Schuylkill", "note": "Southern Field hit earliest and hardest. Shenandoah's population declining. Bootleg mining widespread." },
+        { "county": "Luzerne", "note": "Wyoming Valley declining but Wilkes-Barre's size provided some economic buffer." },
+        { "county": "Lackawanna", "note": "Scranton's diversified economy (silk, garments, ICS, railroad) mitigated the worst effects." },
+        { "county": "Carbon", "note": "Panther Valley mines closing. Lansford and Coaldale losing population." },
+        { "county": "Northumberland", "note": "Shamokin devastated. Sunbury's agricultural economy provided some stability." },
+        { "county": "Lycoming", "note": "Post-lumber economy adjusting. Williamsport manufacturing providing some employment." },
+        { "county": "Sullivan", "note": "Already depopulated after the lumber boom. No mining to lose." }
+      ],
+      "key_infrastructure": [
+        { "name": "Bootleg coal operations (illegal independent mining)", "year": "1930s", "impact": "Sustained families through the Depression. Estimated 15,000-20,000 bootleg miners in the anthracite region at peak." },
+        { "name": "WPA employment projects", "year": "1935-1943", "impact": "Built roads, bridges, and public buildings. Provided minimal income to unemployed miners." }
+      ],
+      "major_employers": [
+        { "name": "Remaining collieries (reduced operations)", "type": "Mining", "era": "1920-1940", "counties_affected": ["All anthracite counties"], "employment_scale": "Under 80,000 by 1940 — less than half the 1914 peak" },
+        { "name": "WPA", "type": "Government make-work", "era": "1935-1943", "counties_affected": ["All"], "employment_scale": "Thousands" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Underground miner (reduced hours)", "wage": "$3.00-$5.00/day when working", "year": 1935, "source": "Dublin and Licht, The Face of Decline, ch. 4." },
+        { "occupation": "Bootleg miner", "wage": "$1.00-$3.00/day (variable, illegal)", "year": 1935, "source": "Aurand, Coalcracker Culture, ch. 8." },
+        { "occupation": "WPA worker", "wage": "$55/month", "year": 1936, "source": "Federal WPA records." }
+      ],
+      "narrative_hook": "When the mine closed and the WPA check was not enough, {ancestor_name}'s family went bootleg — digging coal from abandoned slopes by lantern light, loading it onto a wagon, and selling it to anyone who would buy from a man working a dead mine with his bare hands.",
+      "source": "Dublin and Licht, The Face of Decline (2005). Aurand, Harold W. Coalcracker Culture. Susquehanna University Press, 2003."
+    },
+    {
+      "era_id": "terminal_decline",
+      "era_name": "Terminal Decline and the Knox Mine Disaster",
+      "date_range": "1940-1960",
+      "dominant_economy": "WWII providing temporary reprieve; postwar decline accelerating; mine closures becoming permanent; Knox Mine Disaster (1959) symbolically ending the Northern Field; GI Bill enabling young people to leave; population hemorrhaging from every coal community",
+      "description": "World War II provided a temporary reprieve — the military consumed anthracite for heating installations and the labor shortage raised wages for remaining miners. But the postwar years brought the final collapse. Oil and gas heating became universal. Anthracite production fell to 30 million tons by 1950 and continued dropping. The Knox Mine Disaster of January 22, 1959 — when the Susquehanna River broke through into mine workings near Pittston, killing twelve men and permanently flooding the Northern Field mine system — symbolically ended the anthracite era. The GI Bill was the mechanism of exodus for many families: veterans used education benefits to attend college or trade school and did not return to the mining communities. By 1960, every anthracite county was losing population, and the patch towns that had been the industry's workforce housing were becoming ghost towns.",
+      "county_specifics": [
+        { "county": "Schuylkill", "note": "Population fell from 235,000 (1930) toward 150,000 (1970). Patch towns losing 30-50% of residents." },
+        { "county": "Luzerne", "note": "Knox Mine Disaster (1959) flooded the northern mine system. Population fell from 445,000 (1930) to 342,000 (1970)." },
+        { "county": "Lackawanna", "note": "Scranton declining from 143,000 to 111,000. The DL&W merged into Erie Lackawanna (1960)." },
+        { "county": "Carbon", "note": "Mauch Chunk renamed Jim Thorpe (1953) in a desperate attempt to attract tourists." },
+        { "county": "Northumberland", "note": "Shamokin collapsed. Sunbury persisted on its agricultural economy." },
+        { "county": "Columbia", "note": "Centralia mine fire began in 1962, beginning the destruction of the town." }
+      ],
+      "key_infrastructure": [
+        { "name": "Knox Mine Disaster", "year": 1959, "impact": "The Susquehanna River broke into mine workings, killing 12 miners and permanently flooding the Northern Field mine system. The disaster that ended anthracite mining in the Wyoming Valley." },
+        { "name": "GI Bill education and housing benefits", "year": "1944-1960", "impact": "The mechanism by which the anthracite region's young people left — education and suburban home purchases in other regions" }
+      ],
+      "major_employers": [
+        { "name": "Remaining mines (small operations)", "type": "Mining", "era": "1940-1960", "counties_affected": ["Schuylkill", "Luzerne", "Northumberland"], "employment_scale": "Declining — under 30,000 by 1960" },
+        { "name": "Scranton diversified employers (garments, electronics, education)", "type": "Manufacturing and services", "era": "1940-1960", "counties_affected": ["Lackawanna"], "employment_scale": "Thousands — Scranton's diversification was its survival" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Underground miner (wartime)", "wage": "$6.00-$8.00/day", "year": 1943, "source": "Dublin and Licht, The Face of Decline." },
+        { "occupation": "Factory worker (Scranton)", "wage": "$1.25-$1.75/hour", "year": 1955, "source": "Bureau of Labor Statistics, PA." }
+      ],
+      "narrative_hook": "The Knox Mine Disaster flooded the mines beneath {ancestor_name}'s Wyoming Valley — the Susquehanna broke through the riverbed, the water roared into the tunnels, twelve men died, and the industry that had built a region drowned in the river that had always run above it.",
+      "source": "Wolensky, Wolensky, and Wolensky, The Knox Mine Disaster (1999). Dublin and Licht, The Face of Decline (2005)."
+    }
+  ],
+  "economic_turning_points": [
+    { "year": 1825, "event": "Schuylkill Navigation and Lehigh Canal connect the coal fields to Philadelphia and New York", "impact": "Made anthracite commercially viable — the transportation that launched the industry" },
+    { "year": 1842, "event": "Philadelphia and Reading Railroad reaches Reading and the Southern Field", "impact": "Railroad transportation replaced canals and enabled industrial-scale production" },
+    { "year": 1877, "event": "Molly Maguire hangings at Pottsville and Mauch Chunk", "impact": "Crushed early labor organization and demonstrated the operators' willingness to use the state to destroy unions" },
+    { "year": 1902, "event": "Great Anthracite Strike — 147,000 miners, 163 days, presidential intervention", "impact": "First successful multi-ethnic labor action; federal intervention in labor disputes; modest gains for miners" },
+    { "year": 1917, "event": "Anthracite production peaks at 100 million tons", "impact": "The zenith — production never reached this level again" },
+    { "year": 1959, "event": "Knox Mine Disaster — Susquehanna River floods the Northern Field mine system", "impact": "Symbolic and literal end of large-scale anthracite mining in the Wyoming Valley" },
+    { "year": 1962, "event": "Centralia mine fire begins", "impact": "Underground fire that would eventually destroy the town — the anthracite industry's most enduring legacy of destruction" }
+  ],
+  "narrative_hooks": [
+    "The anthracite economy was a monoculture — coal determined everything in {ancestor_name}'s world: where people lived, who they worked for, what they earned, and when they had to leave.",
+    "The railroad companies owned the coal, the transportation, the company store, and the house {ancestor_name} rented — there was no economic activity in the patch town that the company did not control.",
+    "When 147,000 miners walked out in 1902, {ancestor_name}'s patch town went silent — no breaker noise, no mine cars, no shift whistles — and for 163 days the question was whether the miners or the operators would break first.",
+    "Bootleg mining was illegal, dangerous, and the only thing keeping {ancestor_name}'s family alive during the Depression — men digging coal from abandoned mines with hand tools, selling it by the wagonload to survive.",
+    "The GI Bill was the anthracite exodus's travel agent — {ancestor_name}'s sons used education benefits to attend college and buy houses somewhere that was not built on coal and dying.",
+    "The Knox Mine Disaster drowned the industry — twelve men dead, the Susquehanna pouring into the tunnels, and the Northern Field's mine system permanently flooded."
+  ],
+  "source_references": [
+    "Dublin, Thomas, and Walter Licht. The Face of Decline: The Pennsylvania Anthracite Region in the Twentieth Century. Ithaca: Cornell University Press, 2005.",
+    "Miller, Donald L., and Richard E. Sharpless. The Kingdom of Coal. Philadelphia: University of Pennsylvania Press, 1985.",
+    "Kenny, Kevin. Making Sense of the Molly Maguires. New York: Oxford University Press, 1998.",
+    "Wallace, Anthony F. C. St. Clair. New York: Alfred A. Knopf, 1987.",
+    "Cornell, Robert J. The Anthracite Coal Strike of 1902. Washington, DC: Catholic University of America Press, 1957.",
+    "Wolensky, Robert P., Kenneth C. Wolensky, and Nicole H. Wolensky. The Knox Mine Disaster. Harrisburg: Pennsylvania Historical and Museum Commission, 1999.",
+    "Aurand, Harold W. Coalcracker Culture. Selinsgrove: Susquehanna University Press, 2003."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["pa_anthracite_exodus", "se_european_wave", "gilded_age_labor_conflict", "gi_bill_migration"],
+    "material_life_refs": ["industrial_city_1880_1920", "great_depression_urban_1929_1940"],
+    "life_pattern_refs": ["company_town_lifecycle", "immigrant_parish_lifecycle", "boarding_house_matriarch"]
+  }
+}

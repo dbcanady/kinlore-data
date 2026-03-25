@@ -1,0 +1,117 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-25",
+  "_purpose": "Courthouse Atlas for Carbon County, PA. Formed from Northampton and Monroe counties in 1843. The courthouse at Jim Thorpe (formerly Mauch Chunk) is one of the most architecturally notable in Pennsylvania. No major record loss from fire. The Molly Maguire hangings (1877–1879) took place at the Carbon County Prison, and the trial records are held at the courthouse.",
+  "courthouse_atlas_id": "pa_carbon_courthouse",
+  "display_name": "Carbon County, Pennsylvania — Courthouse Atlas",
+  "county": "Carbon",
+  "state": "PA",
+  "fips_code": "42025",
+  "cluster_ref": "pa_anthracite",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1893,
+      "location": "Jim Thorpe (formerly Mauch Chunk), PA — Broadway",
+      "records_housed": ["deeds", "wills", "orphans' court records", "marriage licenses", "court minutes", "naturalization records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1843–1893",
+        "location": "Mauch Chunk — earlier building",
+        "fate": "Replaced by the current 1893 Romanesque Revival courthouse. No major fire."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "carbon_no_major_loss",
+      "date": null,
+      "cause": "No major courthouse fire or catastrophic loss",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1843", "will books from 1843", "court minutes", "marriage licenses from 1885", "naturalizations", "Molly Maguire trial records"],
+      "scope": "none",
+      "description": "Carbon County has not suffered a major courthouse fire. Records are continuous from the 1843 formation. Pre-1843 records are at Northampton and Monroe counties. The Molly Maguire trial transcripts and prison records (including the famous handprint on the cell wall at the Old Jail, claimed to have been left by condemned man Thomas Fisher) are among the most studied judicial records in Pennsylvania history.",
+      "narrative_impact": "Carbon County's records are intact. The Molly Maguire trial records (1876–1879) are a unique resource — if {ancestor_name} was in Carbon County's Irish mining community in the 1870s, these records may name family members or associates.",
+      "source": "Carbon County Prothonotary. Carbon County Historical Society records guide."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1843,
+      "completeness": "Good — continuous from county formation",
+      "gaps": "Pre-1843 deeds at Northampton and Monroe counties. Lehigh Coal and Navigation Company land holdings dominate the county's deed records — individual workers in company housing leave no deed trail.",
+      "repository": "Carbon County Recorder of Deeds, Jim Thorpe; PA State Archives microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1843,
+      "completeness": "Good",
+      "gaps": "Pre-1843 wills at parent counties.",
+      "repository": "Carbon County Register of Wills; PA State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1885,
+      "completeness": "Marriage licenses from 1885. Pre-1885 marriages in church records.",
+      "gaps": "No civil licenses before 1885.",
+      "repository": "Carbon County Register of Wills; Diocese of Allentown Archives",
+      "online_access": "FamilySearch; Ancestry.com PA marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1843,
+      "completeness": "Good — includes the Molly Maguire trial records",
+      "gaps": "None significant.",
+      "repository": "Carbon County Prothonotary; PA State Archives",
+      "online_access": "Molly Maguire trial records published in multiple editions"
+    },
+    "vital_records": {
+      "birth_registration_start": 1893,
+      "death_registration_start": 1893,
+      "completeness": "PA vital registration from 1893.",
+      "repository": "PA Division of Vital Records; PA State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Catholic ethnic parish records — Diocese of Allentown",
+      "description": "Carbon County's Catholic parishes fall under the Diocese of Allentown. The Panther Valley mining communities (Lansford, Coaldale, Summit Hill) maintained separate ethnic parishes. Records for closed parishes are at the diocesan archives.",
+      "repository": "Diocese of Allentown Archives; individual active parishes",
+      "era_coverage": "1850s–present",
+      "genealogical_value": "Essential for immigrant families in the mining communities.",
+      "source": "Diocese of Allentown Archives catalog."
+    },
+    {
+      "source_type": "Lehigh Coal and Navigation Company records",
+      "description": "The Lehigh Coal and Navigation Company was the dominant employer in Carbon County from the 1820s through the early 1900s. Company records — employment rolls, payroll, accident reports — are partially preserved.",
+      "repository": "Hagley Museum and Library, Wilmington, DE (primary repository); PA State Archives",
+      "era_coverage": "1820s–1900s",
+      "genealogical_value": "Documents workers by name, employment dates, and wages at specific collieries. The Hagley Museum holds the most complete company records.",
+      "source": "Hagley Museum and Library collections guide."
+    },
+    {
+      "source_type": "Molly Maguire trial records and prison records",
+      "description": "The trial records from the Molly Maguire cases (1876–1879) are extensive — trial transcripts, depositions, and witness testimony document the Irish mining community in detail. The Carbon County Old Jail Museum holds prison records and artifacts.",
+      "repository": "Carbon County courthouse; PA State Archives; Carbon County Old Jail Museum",
+      "era_coverage": "1876–1879",
+      "genealogical_value": "The trial records name specific individuals in the Irish mining community — members of the Ancient Order of Hibernians, mine workers, company officials, and Pinkerton agents. If {ancestor_name} was in the Irish community of the Panther Valley in the 1870s, these records may document family members.",
+      "source": "Kenny, Making Sense of the Molly Maguires (1998)."
+    }
+  ],
+  "narrative_hooks": [
+    "Carbon County's courthouse at Jim Thorpe holds the Molly Maguire trial records — if {ancestor_name} was Irish and in the Panther Valley in the 1870s, the trial testimony may name {pronoun_possessive} family or neighbors.",
+    "The Lehigh Coal and Navigation Company owned most of Carbon County — {ancestor_name}'s work records, if they survive, are at the Hagley Museum in Delaware, not at the courthouse in Jim Thorpe.",
+    "Pennsylvania did not require marriage licenses until 1885 — {ancestor_name}'s marriage in the Panther Valley before that date is in the ethnic parish record at the Diocese of Allentown.",
+    "The Old Jail Museum in Jim Thorpe preserves the cell where Thomas Fisher left a handprint on the wall before his execution — a physical reminder that {ancestor_name}'s Carbon County was a place where the coal industry's conflicts ended at the gallows."
+  ],
+  "source_references": [
+    "Carbon County Historical Society. Records and collections guide.",
+    "Diocese of Allentown Archives. Parish records inventory.",
+    "Kenny, Kevin. Making Sense of the Molly Maguires. New York: Oxford University Press, 1998.",
+    "Hagley Museum and Library. Lehigh Coal and Navigation Company records guide."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "pa_carbon",
+    "research_guidance_refs": ["church_records", "immigration_records"],
+    "template_refs": ["record_silences", "document_deep_read"]
+  }
+}

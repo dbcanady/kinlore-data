@@ -1,0 +1,133 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-25",
+  "_purpose": "Courthouse Atlas for Luzerne County, PA. Record survival and courthouse history. Luzerne County courthouse survived a devastating fire in 1909 that destroyed some records. The county's large population and industrial complexity created extensive records — but the 1936 flood also damaged some holdings. Naturalization records are particularly important for the immigrant mining population.",
+  "courthouse_atlas_id": "pa_luzerne_courthouse",
+  "display_name": "Luzerne County, Pennsylvania — Courthouse Atlas",
+  "county": "Luzerne",
+  "state": "PA",
+  "fips_code": "42079",
+  "cluster_ref": "pa_anthracite",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1909,
+      "location": "Wilkes-Barre, PA — 200 N. River Street",
+      "records_housed": ["deeds", "wills", "orphans' court records", "marriage licenses", "court minutes", "naturalization records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1786–1858",
+        "location": "Wilkes-Barre — early courthouse buildings",
+        "fate": "County formed from Northumberland County in 1786. Early court sessions in various buildings."
+      },
+      {
+        "era": "1858–1909",
+        "location": "Wilkes-Barre — River Street courthouse",
+        "fate": "Fire in February 1909 caused significant damage. Some records destroyed or damaged. The current building was constructed on the same site."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "luzerne_1909_fire",
+      "date": "1909-02",
+      "cause": "Courthouse fire",
+      "records_destroyed": ["Some loose papers and court files", "portions of early naturalization records"],
+      "records_survived": ["Most deed books (bound volumes survived)", "most will books", "many court minute books"],
+      "scope": "partial",
+      "description": "The February 1909 courthouse fire caused significant damage to the building but many bound record volumes survived because they were stored in fireproof vaults. Loose papers, unbound files, and some early records were lost. The exact scope of the loss is debated — some researchers report naturalization records damaged, others report most records surviving in the vaults. The 1936 Susquehanna flood also damaged basement-stored records. Post-1878 records for Lackawanna County territory were transferred when Lackawanna was created.",
+      "narrative_impact": "If {ancestor_name} appears in Luzerne County records before 1909, the record likely survives — most bound volumes were saved from the fire. But loose papers, correspondence, and some early naturalizations may be lost. Substitute sources — parish records, mine employment records, and federal census — fill many gaps.",
+      "source": "Luzerne County Historical Society. Wilkes-Barre Record coverage, February 1909."
+    },
+    {
+      "loss_id": "luzerne_1936_flood_damage",
+      "date": "1936-03",
+      "cause": "Susquehanna River flood — basement records water-damaged",
+      "records_destroyed": ["Some basement-stored records — scope uncertain"],
+      "records_survived": ["Upper-floor and vault records unaffected"],
+      "scope": "minor",
+      "description": "The March 1936 flood put eight feet of water in downtown Wilkes-Barre. Courthouse basement storage was flooded. Some records stored in the basement were water-damaged. Upper floors and vault-stored records were unaffected.",
+      "narrative_impact": "Flood damage to basement records adds a second layer of potential loss. If a Luzerne County record for {ancestor_name} cannot be found, both the 1909 fire and the 1936 flood are potential explanations.",
+      "source": "Dublin and Licht, The Face of Decline (2005). Luzerne County Historical Society."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1786,
+      "completeness": "Good — most deed books survived the 1909 fire in vault storage",
+      "gaps": "Pre-1786 deeds for the area are at Northumberland County. Pre-1878 deeds may cover Lackawanna County territory (transferred when Lackawanna was created). Company-owned mine land does not appear in deed records for individual workers.",
+      "repository": "Luzerne County Recorder of Deeds, Wilkes-Barre; PA State Archives microfilm",
+      "online_access": "FamilySearch microfilm; limited Ancestry.com PA land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1786,
+      "completeness": "Good — most bound volumes survived",
+      "gaps": "Some loose estate papers may have been lost in the 1909 fire. Mining families often had minimal assets to probate.",
+      "repository": "Luzerne County Register of Wills; PA State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1885,
+      "completeness": "Marriage licenses from 1885. Pre-1885 marriages in church records.",
+      "gaps": "No civil marriage licenses before 1885. Ethnic parish records are the primary source for immigrant marriages.",
+      "repository": "Luzerne County Register of Wills; Diocese of Scranton Archives",
+      "online_access": "FamilySearch; Ancestry.com PA marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1786,
+      "completeness": "Most bound court minute books survived the 1909 fire",
+      "gaps": "Some loose court files lost. The Knox Mine Disaster (1959) generated extensive court records that are well-preserved.",
+      "repository": "Luzerne County Prothonotary; PA State Archives",
+      "online_access": "Limited digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1893,
+      "death_registration_start": 1893,
+      "completeness": "PA vital registration from 1893, with spotty compliance until approximately 1906.",
+      "repository": "PA Division of Vital Records; PA State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Catholic ethnic parish records — Diocese of Scranton",
+      "description": "The Diocese of Scranton holds records for Catholic parishes in Luzerne and Lackawanna counties. Dozens of ethnic parishes served the mining communities — Irish, Polish, Lithuanian, Slovak, Italian, Ukrainian (Byzantine Catholic). Parish consolidations and closures since the 1960s have concentrated records at the diocesan archives.",
+      "repository": "Diocese of Scranton Archives; individual active parishes; FamilySearch microfilm (selected parishes)",
+      "era_coverage": "1840s–present",
+      "genealogical_value": "Essential for immigrant families. The Diocese of Scranton serves the heart of the Northern Anthracite Field.",
+      "source": "Diocese of Scranton Archives catalog."
+    },
+    {
+      "source_type": "Naturalization records — federal and county",
+      "description": "Naturalization records are particularly important for the anthracite region's immigrant population. Both county courts and federal courts processed naturalizations. The records document name, age, country of origin, date of arrival, and sometimes specific village of origin.",
+      "repository": "Luzerne County Prothonotary (county naturalizations); National Archives — Philadelphia (federal naturalizations); PA State Archives",
+      "era_coverage": "1802–1960",
+      "genealogical_value": "Critical for establishing immigrant origins. Post-1906 naturalization records (after the Naturalization Act of 1906) are particularly detailed, including photographs and specific place of birth.",
+      "source": "National Archives — Mid-Atlantic Region. PA State Archives naturalization records guide."
+    },
+    {
+      "source_type": "Knox Mine Disaster records",
+      "description": "The 1959 Knox Mine Disaster generated extensive court, investigative, and insurance records that name miners, their families, and the mine operators.",
+      "repository": "Luzerne County courthouse; PA State Archives; Mine Safety and Health Administration",
+      "era_coverage": "1959",
+      "genealogical_value": "Documents miners and their families at a specific moment. The disaster records name victims, survivors, and witnesses.",
+      "source": "Wolensky, Wolensky, and Wolensky, The Knox Mine Disaster (1999)."
+    }
+  ],
+  "narrative_hooks": [
+    "The 1909 courthouse fire in Wilkes-Barre damaged but did not destroy most records — if {ancestor_name}'s Luzerne County record is missing, the fire is a possible explanation, but check the vault-stored bound volumes first.",
+    "Naturalization records are the key to {ancestor_name}'s European origins — Luzerne County processed thousands of naturalizations for the immigrant mining population, and post-1906 records include photographs and specific birthplaces.",
+    "The 1936 flood put water in the courthouse basement — if a basement-stored record for {ancestor_name} is missing or water-damaged, the flood is the likely cause.",
+    "The Diocese of Scranton holds the parish records for dozens of closed ethnic parishes — {ancestor_name}'s baptism, marriage, or burial may be at the diocesan archives, not at the original parish, which probably no longer exists."
+  ],
+  "source_references": [
+    "Luzerne County Historical Society. Records and collections guide.",
+    "Diocese of Scranton Archives. Parish records inventory.",
+    "Wolensky, Robert P., Kenneth C. Wolensky, and Nicole H. Wolensky. The Knox Mine Disaster. Harrisburg: Pennsylvania Historical and Museum Commission, 1999.",
+    "PA Division of Vital Records. Guide to Pennsylvania Vital Records."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "pa_luzerne",
+    "research_guidance_refs": ["church_records", "immigration_records"],
+    "template_refs": ["record_silences", "document_deep_read"]
+  }
+}

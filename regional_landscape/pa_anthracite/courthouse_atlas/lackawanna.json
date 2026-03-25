@@ -1,0 +1,117 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-25",
+  "_purpose": "Courthouse Atlas for Lackawanna County, PA. Created from Luzerne County in 1878. Records begin at county formation; pre-1878 records for the territory are at the Luzerne County courthouse. No major courthouse fire. The Diocese of Scranton Archives (headquartered in Scranton) is the primary repository for Catholic ethnic parish records.",
+  "courthouse_atlas_id": "pa_lackawanna_courthouse",
+  "display_name": "Lackawanna County, Pennsylvania — Courthouse Atlas",
+  "county": "Lackawanna",
+  "state": "PA",
+  "fips_code": "42069",
+  "cluster_ref": "pa_anthracite",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1884,
+      "location": "Scranton, PA — 200 N. Washington Avenue",
+      "records_housed": ["deeds", "wills", "orphans' court records", "marriage licenses", "court minutes", "naturalization records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1878–1884",
+        "location": "Scranton — temporary courthouse quarters",
+        "fate": "County created from Luzerne in 1878. First permanent courthouse completed 1884."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "lackawanna_no_major_loss",
+      "date": null,
+      "cause": "No major fire or catastrophic loss",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1878", "will books from 1878", "court minutes", "marriage licenses from 1885", "naturalizations"],
+      "scope": "none",
+      "description": "Lackawanna County has not suffered a major courthouse fire. Records are continuous from the 1878 formation. Pre-1878 records for the area are at the Luzerne County courthouse in Wilkes-Barre. The primary genealogical challenge is the same as in all anthracite counties: the multi-ethnic population requires searching ethnic parish records, fraternal lodge records, and mine employment records to supplement the courthouse holdings.",
+      "narrative_impact": "If {ancestor_name} lived in what is now Lackawanna County before 1878, the records are at Luzerne County in Wilkes-Barre — the county line that was drawn in 1878 split the records between two courthouses. After 1878, Lackawanna County records are at Scranton.",
+      "source": "Lackawanna County Prothonotary. Lackawanna Historical Society records guide."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1878,
+      "completeness": "Good — continuous from county formation. Pre-1878 deeds at Luzerne County.",
+      "gaps": "Company-owned land does not generate individual deed records for workers living in company housing.",
+      "repository": "Lackawanna County Recorder of Deeds, Scranton; PA State Archives microfilm",
+      "online_access": "FamilySearch microfilm; limited Ancestry.com PA land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1878,
+      "completeness": "Good — continuous from county formation",
+      "gaps": "Pre-1878 wills at Luzerne County.",
+      "repository": "Lackawanna County Register of Wills; PA State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1885,
+      "completeness": "Marriage licenses from 1885. Pre-1885 marriages in church records.",
+      "gaps": "No civil licenses before 1885. Ethnic parish records are the primary source for immigrant marriages.",
+      "repository": "Lackawanna County Register of Wills; Diocese of Scranton Archives",
+      "online_access": "FamilySearch; Ancestry.com PA marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1878,
+      "completeness": "Good — continuous from county formation",
+      "gaps": "None significant.",
+      "repository": "Lackawanna County Prothonotary; PA State Archives",
+      "online_access": "Limited digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1893,
+      "death_registration_start": 1893,
+      "completeness": "PA vital registration from 1893.",
+      "repository": "PA Division of Vital Records; PA State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Diocese of Scranton Archives",
+      "description": "The Diocese of Scranton is headquartered in Scranton and holds records for Catholic ethnic parishes across Lackawanna and Luzerne counties. As ethnic parishes have closed and consolidated since the 1960s, records have been centralized at the diocesan archives. This is the single most important repository for Catholic immigrant genealogy in the Northern Anthracite Field.",
+      "repository": "Diocese of Scranton Archives, 300 Wyoming Avenue, Scranton",
+      "era_coverage": "1840s–present",
+      "genealogical_value": "Essential. The diocesan archives hold sacramental records (baptism, marriage, burial) for dozens of closed ethnic parishes. Records are in the language of the parish — Polish, Lithuanian, Slovak, Italian, Ukrainian, or English/Latin.",
+      "source": "Diocese of Scranton Archives catalog."
+    },
+    {
+      "source_type": "International Correspondence Schools records",
+      "description": "The International Correspondence Schools (ICS), headquartered in Scranton from 1891, enrolled millions of students by mail — including many anthracite miners seeking to improve their skills. Student enrollment records, where they survive, document names, addresses, occupations, and educational aspirations.",
+      "repository": "Lackawanna Historical Society; limited records at Penn State University Special Collections",
+      "era_coverage": "1891–1960",
+      "genealogical_value": "Unusual but valuable. An ICS enrollment record for {ancestor_name} establishes presence in Scranton and documents the aspiration to advance beyond mine work.",
+      "source": "Lackawanna Historical Society. ICS corporate records (partial)."
+    },
+    {
+      "source_type": "DL&W Railroad employment records",
+      "description": "The Delaware, Lackawanna and Western Railroad was Scranton's largest employer. Employee records, where they survive, document workers by name, position, dates of employment, and sometimes next of kin.",
+      "repository": "Steamtown National Historic Site, Scranton (some records); Lackawanna Historical Society; Syracuse University Library Special Collections",
+      "era_coverage": "1850s–1960",
+      "genealogical_value": "Documents railroad workers in the Scranton area. The DL&W was a path out of the mines for many workers.",
+      "source": "Steamtown National Historic Site collections guide."
+    }
+  ],
+  "narrative_hooks": [
+    "Lackawanna County was carved from Luzerne in 1878 — if {ancestor_name} was in Scranton before that date, the records are at Wilkes-Barre, and the county line that was drawn on paper split the family's paper trail between two courthouses.",
+    "The Diocese of Scranton holds the records for dozens of closed ethnic parishes — {ancestor_name}'s baptism or marriage may be at the diocesan archives rather than at the original parish, which likely no longer exists.",
+    "The DL&W Railroad was Scranton's lifeline and largest employer — if {ancestor_name} worked for the railroad, employment records at Steamtown NHS or Syracuse University may document the family.",
+    "The International Correspondence Schools enrolled miners who wanted a way out — an ICS enrollment record for {ancestor_name} is evidence of ambition as well as residence."
+  ],
+  "source_references": [
+    "Lackawanna Historical Society. Records and collections guide.",
+    "Diocese of Scranton Archives. Parish records inventory.",
+    "Steamtown National Historic Site. Collections guide.",
+    "PA Division of Vital Records. Guide to Pennsylvania Vital Records."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "pa_lackawanna",
+    "research_guidance_refs": ["church_records", "immigration_records"],
+    "template_refs": ["record_silences", "document_deep_read"]
+  }
+}

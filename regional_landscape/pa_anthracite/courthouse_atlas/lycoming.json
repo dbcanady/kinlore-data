@@ -1,0 +1,108 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-25",
+  "_purpose": "Courthouse Atlas for Lycoming County, PA. One of Pennsylvania's largest counties, formed in 1795. The courthouse at Williamsport has not suffered a major fire. Records reflect the county's evolution from frontier settlement through lumber capital to post-industrial community.",
+  "courthouse_atlas_id": "pa_lycoming_courthouse",
+  "display_name": "Lycoming County, Pennsylvania — Courthouse Atlas",
+  "county": "Lycoming",
+  "state": "PA",
+  "fips_code": "42081",
+  "cluster_ref": "pa_anthracite",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1861,
+      "location": "Williamsport, PA — 48 W. Third Street (with modern additions)",
+      "records_housed": ["deeds", "wills", "orphans' court records", "marriage licenses", "court minutes", "naturalization records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1795–1861",
+        "location": "Williamsport — earlier buildings",
+        "fate": "County formed from Northumberland County in 1795. Earlier buildings replaced. No major fire."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "lycoming_no_major_loss",
+      "date": null,
+      "cause": "No major courthouse fire or catastrophic loss",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1795", "will books from 1795", "court minutes", "marriage licenses from 1885", "naturalizations"],
+      "scope": "none",
+      "description": "Lycoming County's courthouse records are continuous from 1795. No major fire or flood has destroyed records. Pre-1795 records for the territory are at Northumberland County. Lumber company records, where they survive, are held at various repositories. Many lumber companies' records were lost or destroyed when the companies folded after the timber was exhausted.",
+      "narrative_impact": "Lycoming County's courthouse records are intact — the challenge for {ancestor_name} is not missing records but the transient nature of the lumber workforce. Lumberjacks who came for the winter cutting season and left in spring may appear in no county record at all.",
+      "source": "Lycoming County Prothonotary. Lycoming County Historical Society."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1795,
+      "completeness": "Good — continuous from county formation",
+      "gaps": "Pre-1795 deeds at Northumberland County. Lumber company timberland transactions dominate the deed records for northern Lycoming County.",
+      "repository": "Lycoming County Recorder of Deeds, Williamsport; PA State Archives microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1795,
+      "completeness": "Good",
+      "gaps": "Pre-1795 at Northumberland County.",
+      "repository": "Lycoming County Register of Wills; PA State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1885,
+      "completeness": "Marriage licenses from 1885.",
+      "gaps": "No civil licenses before 1885. Church records are the primary pre-1885 source.",
+      "repository": "Lycoming County Register of Wills",
+      "online_access": "FamilySearch; Ancestry.com PA marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1795,
+      "completeness": "Good",
+      "gaps": "None significant.",
+      "repository": "Lycoming County Prothonotary; PA State Archives",
+      "online_access": "Limited digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1893,
+      "death_registration_start": 1893,
+      "completeness": "PA vital registration from 1893.",
+      "repository": "PA Division of Vital Records; PA State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Lycoming County Historical Society and Thomas T. Taber Museum",
+      "description": "The Taber Museum holds the most comprehensive collection of lumber-era records and photographs in the region. Lumber company records, logging camp photographs, and the personal papers of lumber barons are held here.",
+      "repository": "Thomas T. Taber Museum / Lycoming County Historical Society, Williamsport",
+      "era_coverage": "1795–present (lumber era focus 1850–1910)",
+      "genealogical_value": "The lumber company records, where they survive, can document workers at specific logging operations. Photographs may identify individuals. The museum's collection is the primary source for the lumber era.",
+      "source": "Lycoming County Historical Society / Taber Museum collections guide."
+    },
+    {
+      "source_type": "Federal census agricultural and manufacturing schedules",
+      "description": "Agricultural schedules (1850–1880) and manufacturing schedules document the Williamsport sawmill operations and the valley farms. Particularly valuable for the lumber era — manufacturing schedules list sawmill operations with production figures.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1850–1880",
+      "genealogical_value": "Manufacturing schedules identify sawmill owners and operations. Agricultural schedules document the valley farmers.",
+      "source": "National Archives and Records Administration."
+    }
+  ],
+  "narrative_hooks": [
+    "Lycoming County's records go back to 1795 — if {ancestor_name}'s family was in the Susquehanna valley before the lumber boom, the courthouse at Williamsport holds frontier-era deeds and court records.",
+    "The lumber workforce was transient — lumberjacks who came for the winter cutting season may appear in no Lycoming County record. If {ancestor_name} worked the woods, the Taber Museum's lumber company records may be the only documentation.",
+    "The millionaires of Millionaires' Row left extensive probate records — if {ancestor_name} was in the Williamsport elite, the will books document fortunes built and spent in a single generation.",
+    "Pre-1795 records for Lycoming County are at Northumberland County in Sunbury — the territorial carving that created Lycoming split the paper trail."
+  ],
+  "source_references": [
+    "Lycoming County Historical Society / Thomas T. Taber Museum. Collections guide.",
+    "Taber, Thomas T. Ghost Lumber Towns of Central Pennsylvania. Williamsport: Lycoming County Historical Society, 1970.",
+    "PA Division of Vital Records. Guide to Pennsylvania Vital Records."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "pa_lycoming",
+    "research_guidance_refs": ["property_records"],
+    "template_refs": ["record_silences"]
+  }
+}

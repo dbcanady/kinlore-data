@@ -1,0 +1,108 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-25",
+  "_purpose": "Courthouse Atlas for Northumberland County, PA. One of Pennsylvania's oldest counties (formed 1772). The courthouse at Sunbury has not suffered a major fire. Records predate the anthracite mining era, reflecting the county's agricultural origins in the Susquehanna valley before coal transformed its eastern half.",
+  "courthouse_atlas_id": "pa_northumberland_courthouse",
+  "display_name": "Northumberland County, Pennsylvania — Courthouse Atlas",
+  "county": "Northumberland",
+  "state": "PA",
+  "fips_code": "42097",
+  "cluster_ref": "pa_anthracite",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1865,
+      "location": "Sunbury, PA — 201 Market Street (with modern additions)",
+      "records_housed": ["deeds", "wills", "orphans' court records", "marriage licenses", "court minutes", "naturalization records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1772–1865",
+        "location": "Sunbury — earlier courthouse buildings",
+        "fate": "County formed in 1772. Multiple earlier courthouses replaced. No major fire."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "northumberland_no_major_loss",
+      "date": null,
+      "cause": "No major courthouse fire or catastrophic loss",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1772", "will books from 1772", "court minutes", "marriage licenses from 1885", "naturalizations"],
+      "scope": "none",
+      "description": "Northumberland County's records are among the oldest in the anthracite cluster, predating the mining era by sixty years. The county was formed in 1772 from Lancaster, Berks, Northampton, Bedford, and Cumberland counties. Records are continuous from formation. The courthouse at Sunbury has not suffered a major fire. Note that many counties were later carved from Northumberland — Luzerne (1786), Columbia (1813), and others — so early Northumberland records may cover territory now in other counties.",
+      "narrative_impact": "Northumberland County's records predate the coal era — if {ancestor_name}'s family was in the Susquehanna valley before mining began, the deed books and court records from the 1770s-1830s document the agricultural community that preceded the industrial transformation.",
+      "source": "Northumberland County Prothonotary. Northumberland County Historical Society records guide."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1772,
+      "completeness": "Good — continuous from county formation. Among the oldest records in the cluster.",
+      "gaps": "Early deeds may cover territory now in Luzerne, Columbia, and other counties carved from Northumberland. Company-owned mining land in the Shamokin area does not generate individual worker deeds.",
+      "repository": "Northumberland County Recorder of Deeds, Sunbury; PA State Archives microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1772,
+      "completeness": "Good — continuous from formation",
+      "gaps": "Early wills may cover territory now in other counties.",
+      "repository": "Northumberland County Register of Wills; PA State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1885,
+      "completeness": "Marriage licenses from 1885. Pre-1885 marriages in church records.",
+      "gaps": "No civil licenses before 1885.",
+      "repository": "Northumberland County Register of Wills; Diocese of Harrisburg Archives (Shamokin area parishes)",
+      "online_access": "FamilySearch; Ancestry.com PA marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1772,
+      "completeness": "Good — continuous from county formation",
+      "gaps": "None significant.",
+      "repository": "Northumberland County Prothonotary; PA State Archives",
+      "online_access": "Limited digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1893,
+      "death_registration_start": 1893,
+      "completeness": "PA vital registration from 1893.",
+      "repository": "PA Division of Vital Records; PA State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Catholic ethnic parish records — Diocese of Harrisburg",
+      "description": "Northumberland County falls within the Diocese of Harrisburg. The Shamokin mining district maintained multiple ethnic parishes — Irish, Polish, Lithuanian, Ukrainian, Italian. Records for closed parishes are at the diocesan archives.",
+      "repository": "Diocese of Harrisburg Archives; individual active parishes",
+      "era_coverage": "1850s–present",
+      "genealogical_value": "Essential for immigrant families in the Shamokin mining district.",
+      "source": "Diocese of Harrisburg Archives catalog."
+    },
+    {
+      "source_type": "Northumberland County Historical Society collections",
+      "description": "The Historical Society holds local history collections including photographs, mine records, and community histories for both the agricultural Sunbury area and the mining communities.",
+      "repository": "Northumberland County Historical Society, Sunbury",
+      "era_coverage": "1772–present",
+      "genealogical_value": "Supplementary. Photographs and community histories provide context. Some mine company records and fraternal organization records are held here.",
+      "source": "Northumberland County Historical Society collections guide."
+    }
+  ],
+  "narrative_hooks": [
+    "Northumberland County's records go back to 1772 — if {ancestor_name}'s family was in the Susquehanna valley before the coal era, the courthouse at Sunbury holds records from before the Revolution.",
+    "The Shamokin mining district's ethnic parishes are under the Diocese of Harrisburg — {ancestor_name}'s church records may be at the diocesan archives, not at the courthouse in Sunbury.",
+    "Many counties were carved from Northumberland — if {ancestor_name} appears in early Northumberland records, the land may now be in Luzerne, Columbia, or another county.",
+    "Sunbury's courthouse holds both the agricultural valley records and the mining community records — {ancestor_name}'s paper trail depends on which half of the county {pronoun_subject} lived in."
+  ],
+  "source_references": [
+    "Northumberland County Historical Society. Records and collections guide.",
+    "Diocese of Harrisburg Archives. Parish records inventory.",
+    "PA Division of Vital Records. Guide to Pennsylvania Vital Records."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "pa_northumberland",
+    "research_guidance_refs": ["church_records", "property_records"],
+    "template_refs": ["record_silences"]
+  }
+}
