@@ -1,0 +1,389 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Chain-link index mapping triggers to Life Patterns and Life Patterns to each other. Use this file to quickly resolve multi-generational narrative chains without reading every Life Pattern file.",
+  "_usage": "Given an ancestor's trigger match, look up trigger_to_patterns[trigger_id] to find which Life Patterns can follow. Given a Life Pattern match, look up pattern_exits[pattern_id] to find what triggers or patterns come next. For backward lookups, use trigger_fed_by_patterns or pattern_fed_by_patterns.",
+
+  "trigger_to_patterns": {
+    "_description": "trigger_id → Life Patterns whose entry_conditions reference that trigger in fed_by_triggers. Use after Step 1 (Trigger Matching) to find applicable Life Patterns for Step 6.",
+    "reconstruction_era": [
+      {"pattern_id": "sharecropping_trap", "entry_condition_id": "from_emancipation", "generation_position": "first"},
+      {"pattern_id": "sharecropping_trap", "entry_condition_id": "from_failed_reconstruction_ownership", "generation_position": "first"},
+      {"pattern_id": "pullman_porter_network", "entry_condition_id": "from_reconstruction_era", "generation_position": "first"},
+      {"pattern_id": "sundown_town_exclusion", "entry_condition_id": "from_reconstruction_era", "generation_position": "second"},
+      {"pattern_id": "gullah_geechee_persistence", "entry_condition_id": "from_port_royal_experiment", "generation_position": "first"}
+    ],
+    "domestic_slave_trade": [
+      {"pattern_id": "sharecropping_trap", "entry_condition_id": "from_emancipation", "generation_position": "first"},
+      {"pattern_id": "gullah_geechee_persistence", "entry_condition_id": "from_west_african_enslavement", "generation_position": "first"}
+    ],
+    "civil_war_displacement": [
+      {"pattern_id": "sharecropping_trap", "entry_condition_id": "from_antebellum_tenancy", "generation_position": "first"},
+      {"pattern_id": "appalachian_subsistence_squeeze", "entry_condition_id": "from_civil_war_aftermath", "generation_position": "second"},
+      {"pattern_id": "civil_war_widows_arc", "entry_condition_id": "from_displacement_and_death", "generation_position": "first"}
+    ],
+    "antebellum_yeoman_south": [
+      {"pattern_id": "sharecropping_trap", "entry_condition_id": "from_antebellum_tenancy", "generation_position": "first"}
+    ],
+    "scots_irish_frontier": [
+      {"pattern_id": "yeoman_farming_stability", "entry_condition_id": "from_frontier_migration", "generation_position": "first"},
+      {"pattern_id": "appalachian_subsistence_squeeze", "entry_condition_id": "from_frontier_settlement", "generation_position": "third+"},
+      {"pattern_id": "tobacco_soil_exhaustion", "entry_condition_id": "from_colonial_tobacco_culture", "generation_position": "first"}
+    ],
+    "homestead_act": [
+      {"pattern_id": "yeoman_farming_stability", "entry_condition_id": "from_homestead_claim", "generation_position": "first"},
+      {"pattern_id": "scandinavian_homestead_arc", "entry_condition_id": "from_homestead_act_migration", "generation_position": "first"},
+      {"pattern_id": "scandinavian_homestead_arc", "entry_condition_id": "from_earlier_scandinavian_settlement", "generation_position": "second"},
+      {"pattern_id": "oil_field_nomad", "entry_condition_id": "from_failed_homestead", "generation_position": "first"}
+    ],
+    "war_of_1812_service": [
+      {"pattern_id": "yeoman_farming_stability", "entry_condition_id": "from_war_of_1812_land_grants", "generation_position": "first"},
+      {"pattern_id": "wwi_homefront_disruption", "entry_condition_id": "from_prewar_stability", "generation_position": "second"}
+    ],
+    "appalachian_out_migration": [
+      {"pattern_id": "company_town_lifecycle", "entry_condition_id": "from_appalachian_farm_failure", "generation_position": "first"},
+      {"pattern_id": "auto_city_family_arc", "entry_condition_id": "from_appalachian_out_migration", "generation_position": "first"}
+    ],
+    "great_migration": [
+      {"pattern_id": "company_town_lifecycle", "entry_condition_id": "from_deep_south_recruitment", "generation_position": "first"},
+      {"pattern_id": "sundown_town_exclusion", "entry_condition_id": "from_great_migration", "generation_position": "first"},
+      {"pattern_id": "auto_city_family_arc", "entry_condition_id": "from_great_migration", "generation_position": "first"},
+      {"pattern_id": "pullman_porter_network", "entry_condition_id": "from_great_migration_community", "generation_position": "first"}
+    ],
+    "se_european_wave": [
+      {"pattern_id": "company_town_lifecycle", "entry_condition_id": "from_european_immigration", "generation_position": "first"},
+      {"pattern_id": "steel_city_immigrant_arc", "entry_condition_id": "from_se_european_immigration", "generation_position": "first"},
+      {"pattern_id": "auto_city_family_arc", "entry_condition_id": "from_se_european_immigration", "generation_position": "first"},
+      {"pattern_id": "immigrant_parish_lifecycle", "entry_condition_id": "from_se_european_immigration", "generation_position": "first"},
+      {"pattern_id": "boarding_house_matriarch", "entry_condition_id": "from_se_european_immigration", "generation_position": "first"},
+      {"pattern_id": "wwi_homefront_disruption", "entry_condition_id": "from_immigrant_industrial_community", "generation_position": "first"}
+    ],
+    "irish_famine": [
+      {"pattern_id": "company_town_lifecycle", "entry_condition_id": "from_european_immigration", "generation_position": "first"},
+      {"pattern_id": "steel_city_immigrant_arc", "entry_condition_id": "from_irish_immigration", "generation_position": "first"},
+      {"pattern_id": "immigrant_parish_lifecycle", "entry_condition_id": "from_irish_famine_migration", "generation_position": "first"},
+      {"pattern_id": "boarding_house_matriarch", "entry_condition_id": "from_irish_famine_immigration", "generation_position": "first"},
+      {"pattern_id": "wwi_homefront_disruption", "entry_condition_id": "from_immigrant_industrial_community", "generation_position": "first"}
+    ],
+    "railroad_construction": [
+      {"pattern_id": "company_town_lifecycle", "entry_condition_id": "from_railroad_labor", "generation_position": "first"},
+      {"pattern_id": "oil_field_nomad", "entry_condition_id": "from_prior_extractive_work", "generation_position": "first"}
+    ],
+    "economic_panics_20c": [
+      {"pattern_id": "depression_survival_strategies", "entry_condition_id": "from_industrial_employment_loss", "generation_position": "first"},
+      {"pattern_id": "depression_survival_strategies", "entry_condition_id": "from_agricultural_collapse", "generation_position": "first"},
+      {"pattern_id": "depression_survival_strategies", "entry_condition_id": "from_bank_failure", "generation_position": "first"},
+      {"pattern_id": "wheat_boom_bust", "entry_condition_id": "from_speculative_newcomer", "generation_position": "first"},
+      {"pattern_id": "oil_field_nomad", "entry_condition_id": "from_economic_panic_displacement", "generation_position": "first"}
+    ],
+    "economic_panics_19c": [
+      {"pattern_id": "mill_girl_pipeline", "entry_condition_id": "from_economic_necessity", "generation_position": "first"}
+    ],
+    "civil_war_service": [
+      {"pattern_id": "appalachian_subsistence_squeeze", "entry_condition_id": "from_civil_war_aftermath", "generation_position": "second"},
+      {"pattern_id": "civil_war_widows_arc", "entry_condition_id": "from_combat_death", "generation_position": "first"},
+      {"pattern_id": "civil_war_widows_arc", "entry_condition_id": "from_disease_death", "generation_position": "first"},
+      {"pattern_id": "military_family_circuit", "entry_condition_id": "from_military_career_tradition", "generation_position": "second"}
+    ],
+    "gi_bill_migration": [
+      {"pattern_id": "military_family_circuit", "entry_condition_id": "from_military_career_tradition", "generation_position": "second"},
+      {"pattern_id": "military_family_circuit", "entry_condition_id": "from_limited_civilian_opportunity", "generation_position": "first"}
+    ],
+    "widow_orphan_relocation": [
+      {"pattern_id": "boarding_house_matriarch", "entry_condition_id": "from_widowhood", "generation_position": "first"}
+    ],
+    "german_immigration": [
+      {"pattern_id": "immigrant_parish_lifecycle", "entry_condition_id": "from_german_immigration", "generation_position": "first"},
+      {"pattern_id": "wwi_homefront_disruption", "entry_condition_id": "from_german_american_community", "generation_position": "second"}
+    ],
+    "gold_rush_mining_boom": [
+      {"pattern_id": "oil_field_nomad", "entry_condition_id": "from_prior_extractive_work", "generation_position": "first"}
+    ]
+  },
+
+  "trigger_fed_by_patterns": {
+    "_description": "trigger_id → Life Patterns whose exit_conditions activate that trigger. Reverse lookup: given a trigger, what Life Pattern might have preceded it?",
+    "great_migration": [
+      {"pattern_id": "sharecropping_trap", "exit_condition_id": "great_migration_departure", "generation_lag": "same_generation", "severity": 4},
+      {"pattern_id": "sharecropping_trap", "exit_condition_id": "mechanization_displacement", "generation_lag": "same_generation", "severity": 5},
+      {"pattern_id": "company_town_lifecycle", "exit_condition_id": "great_migration_exit_black_families", "generation_lag": "same_generation", "severity": 4},
+      {"pattern_id": "sundown_town_exclusion", "exit_condition_id": "urban_concentration", "generation_lag": "same_generation", "severity": 4},
+      {"pattern_id": "depression_survival_strategies", "exit_condition_id": "great_migration_acceleration", "generation_lag": "same_generation", "severity": 4},
+      {"pattern_id": "pullman_porter_network", "exit_condition_id": "great_migration_accelerant", "generation_lag": "same_generation", "severity": 3},
+      {"pattern_id": "gullah_geechee_persistence", "exit_condition_id": "youth_outmigration", "generation_lag": "next_generation", "severity": 3},
+      {"pattern_id": "wwi_homefront_disruption", "exit_condition_id": "great_migration_acceleration", "generation_lag": "same_generation", "severity": 4}
+    ],
+    "boll_weevil": [
+      {"pattern_id": "sharecropping_trap", "exit_condition_id": "boll_weevil_displacement", "generation_lag": "same_generation", "severity": 4}
+    ],
+    "textile_mill_recruitment": [
+      {"pattern_id": "sharecropping_trap", "exit_condition_id": "textile_mill_recruitment", "generation_lag": "same_generation", "severity": 3},
+      {"pattern_id": "new_england_farm_decline", "exit_condition_id": "mill_town_migration", "generation_lag": "same_generation", "severity": 3}
+    ],
+    "antebellum_yeoman_south": [
+      {"pattern_id": "yeoman_farming_stability", "exit_condition_id": "alabama_fever_cotton_frontier", "generation_lag": "next_generation", "severity": 3},
+      {"pattern_id": "tobacco_soil_exhaustion", "exit_condition_id": "westward_migration_to_cotton", "generation_lag": "same_generation", "severity": 4}
+    ],
+    "civil_war_displacement": [
+      {"pattern_id": "yeoman_farming_stability", "exit_condition_id": "civil_war_disruption", "generation_lag": "same_generation", "severity": 5},
+      {"pattern_id": "tobacco_soil_exhaustion", "exit_condition_id": "diversification_and_stagnation", "generation_lag": "next_generation", "severity": 3}
+    ],
+    "civil_war_service": [
+      {"pattern_id": "yeoman_farming_stability", "exit_condition_id": "civil_war_disruption", "generation_lag": "same_generation", "severity": 5}
+    ],
+    "economic_panics_19c": [
+      {"pattern_id": "yeoman_farming_stability", "exit_condition_id": "economic_panic_and_debt", "generation_lag": "same_generation", "severity": 4}
+    ],
+    "appalachian_out_migration": [
+      {"pattern_id": "company_town_lifecycle", "exit_condition_id": "mine_closure_dispersal", "generation_lag": "same_generation", "severity": 5},
+      {"pattern_id": "company_town_lifecycle", "exit_condition_id": "mechanization_layoff", "generation_lag": "same_generation", "severity": 4},
+      {"pattern_id": "appalachian_subsistence_squeeze", "exit_condition_id": "appalachian_out_migration_to_cities", "generation_lag": "next_generation", "severity": 4}
+    ],
+    "gi_bill_migration": [
+      {"pattern_id": "company_town_lifecycle", "exit_condition_id": "second_generation_escape", "generation_lag": "next_generation", "severity": 2},
+      {"pattern_id": "steel_city_immigrant_arc", "exit_condition_id": "gi_bill_suburban_departure", "generation_lag": "next_generation", "severity": 3},
+      {"pattern_id": "auto_city_family_arc", "exit_condition_id": "gi_bill_suburban_departure", "generation_lag": "next_generation", "severity": 3},
+      {"pattern_id": "depression_survival_strategies", "exit_condition_id": "war_economy_recovery", "generation_lag": "same_generation", "severity": 2},
+      {"pattern_id": "immigrant_parish_lifecycle", "exit_condition_id": "gi_bill_suburban_dispersal", "generation_lag": "next_generation", "severity": 3},
+      {"pattern_id": "military_family_circuit", "exit_condition_id": "retirement_settlement", "generation_lag": "same_generation", "severity": 2},
+      {"pattern_id": "oil_field_nomad", "exit_condition_id": "gi_bill_exit", "generation_lag": "next_generation", "severity": 2}
+    ],
+    "dust_bowl": [
+      {"pattern_id": "wheat_boom_bust", "exit_condition_id": "dust_bowl_migration", "generation_lag": "same_generation", "severity": 5},
+      {"pattern_id": "depression_survival_strategies", "exit_condition_id": "dust_bowl_displacement", "generation_lag": "same_generation", "severity": 5},
+      {"pattern_id": "scandinavian_homestead_arc", "exit_condition_id": "wheat_economy_collapse", "generation_lag": "next_generation", "severity": 4}
+    ],
+    "stayed_and_adapted": [
+      {"pattern_id": "appalachian_subsistence_squeeze", "exit_condition_id": "stayed_and_endured", "generation_lag": "same_generation", "severity": 2},
+      {"pattern_id": "new_england_farm_decline", "exit_condition_id": "dairy_adaptation_survival", "generation_lag": "same_generation", "severity": 2}
+    ],
+    "economic_panics_20c": [
+      {"pattern_id": "steel_city_immigrant_arc", "exit_condition_id": "depression_displacement", "generation_lag": "same_generation", "severity": 4},
+      {"pattern_id": "auto_city_family_arc", "exit_condition_id": "depression_displacement", "generation_lag": "same_generation", "severity": 5},
+      {"pattern_id": "wwi_homefront_disruption", "exit_condition_id": "into_depression_era", "generation_lag": "same_generation", "severity": 3},
+      {"pattern_id": "oil_field_nomad", "exit_condition_id": "depression_collapse", "generation_lag": "same_generation", "severity": 4}
+    ],
+    "homestead_act": [
+      {"pattern_id": "new_england_farm_decline", "exit_condition_id": "westward_migration", "generation_lag": "next_generation", "severity": 3},
+      {"pattern_id": "mill_girl_pipeline", "exit_condition_id": "individual_exit_to_marriage", "generation_lag": "same_generation", "severity": 1}
+    ],
+    "domestic_slave_trade": [
+      {"pattern_id": "tobacco_soil_exhaustion", "exit_condition_id": "domestic_slave_trade", "generation_lag": "same_generation", "severity": 5}
+    ],
+    "widow_orphan_relocation": [
+      {"pattern_id": "civil_war_widows_arc", "exit_condition_id": "remarriage_and_new_household", "generation_lag": "same_generation", "severity": 3},
+      {"pattern_id": "civil_war_widows_arc", "exit_condition_id": "relocation_to_kin", "generation_lag": "same_generation", "severity": 3},
+      {"pattern_id": "civil_war_widows_arc", "exit_condition_id": "economic_decline_and_loss", "generation_lag": "same_generation", "severity": 5},
+      {"pattern_id": "oil_field_nomad", "exit_condition_id": "injury_or_death_exit", "generation_lag": "same_generation", "severity": 5}
+    ],
+    "scots_irish_frontier": [
+      {"pattern_id": "indentured_servant_formation", "exit_condition_id": "frontier_migration", "generation_lag": "same_generation", "severity": 3}
+    ]
+  },
+
+  "pattern_to_pattern": {
+    "_description": "pattern_id → {feeds_into: patterns this exits to, fed_by: patterns that feed into this}. For direct Life Pattern → Life Pattern chains.",
+    "sharecropping_trap": {
+      "feeds_into": [
+        {"target_pattern": "company_town_lifecycle", "via_exit": "textile_mill_recruitment", "generation_lag": "same_generation", "severity": 3}
+      ],
+      "fed_by": [
+        {"source_pattern": "yeoman_farming_stability", "via_entry": "from_antebellum_tenancy"},
+        {"source_pattern": "tobacco_soil_exhaustion", "via_exit": "domestic_slave_trade"}
+      ]
+    },
+    "yeoman_farming_stability": {
+      "feeds_into": [
+        {"target_pattern": "appalachian_subsistence_squeeze", "via_exit": "soil_exhaustion_and_subdivision", "generation_lag": "two_generations", "severity": 3},
+        {"target_pattern": "sharecropping_trap", "via_exit": "soil_exhaustion_and_subdivision", "generation_lag": "two_generations", "severity": 3}
+      ],
+      "fed_by": [
+        {"source_pattern": "civil_war_widows_arc", "via_exit": "farm_retention_through_childrens_labor"},
+        {"source_pattern": "indentured_servant_formation", "via_exit": "yeoman_farming_establishment"}
+      ]
+    },
+    "appalachian_subsistence_squeeze": {
+      "feeds_into": [
+        {"target_pattern": "company_town_lifecycle", "via_exit": "coal_camp_absorption", "generation_lag": "same_generation", "severity": 3}
+      ],
+      "fed_by": [
+        {"source_pattern": "yeoman_farming_stability", "via_entry": "from_frontier_settlement"},
+        {"source_pattern": "yeoman_farming_stability", "via_entry": "from_civil_war_aftermath"}
+      ]
+    },
+    "company_town_lifecycle": {
+      "feeds_into": [
+        {"target_pattern": "depression_survival_strategies", "via_exit": "mechanization_layoff", "generation_lag": "same_generation", "severity": 4}
+      ],
+      "fed_by": [
+        {"source_pattern": "appalachian_subsistence_squeeze", "via_entry": "from_appalachian_farm_failure"},
+        {"source_pattern": "sharecropping_trap", "via_entry": "from_deep_south_recruitment"}
+      ]
+    },
+    "depression_survival_strategies": {
+      "feeds_into": [],
+      "fed_by": [
+        {"source_pattern": "company_town_lifecycle", "via_entry": "from_industrial_employment_loss"},
+        {"source_pattern": "wheat_boom_bust", "via_entry": "from_agricultural_collapse"},
+        {"source_pattern": "steel_city_immigrant_arc", "via_exit": "depression_displacement"},
+        {"source_pattern": "auto_city_family_arc", "via_exit": "depression_displacement"},
+        {"source_pattern": "oil_field_nomad", "via_exit": "depression_collapse"},
+        {"source_pattern": "wwi_homefront_disruption", "via_exit": "into_depression_era"},
+        {"source_pattern": "immigrant_parish_lifecycle", "via_exit": "depression_era_stagnation"}
+      ]
+    },
+    "civil_war_widows_arc": {
+      "feeds_into": [
+        {"target_pattern": "yeoman_farming_stability", "via_exit": "farm_retention_through_childrens_labor", "generation_lag": "next_generation", "severity": 2}
+      ],
+      "fed_by": []
+    },
+    "steel_city_immigrant_arc": {
+      "feeds_into": [
+        {"target_pattern": "depression_survival_strategies", "via_exit": "depression_displacement", "generation_lag": "same_generation", "severity": 4}
+      ],
+      "fed_by": [
+        {"source_pattern": "immigrant_parish_lifecycle", "via_entry": "from_earlier_pattern_second_generation"}
+      ]
+    },
+    "auto_city_family_arc": {
+      "feeds_into": [
+        {"target_pattern": "depression_survival_strategies", "via_exit": "depression_displacement", "generation_lag": "same_generation", "severity": 5}
+      ],
+      "fed_by": [
+        {"source_pattern": "sharecropping_trap", "via_entry": "from_great_migration"}
+      ]
+    },
+    "pullman_porter_network": {
+      "feeds_into": [],
+      "fed_by": [
+        {"source_pattern": "sharecropping_trap", "via_entry": "from_great_migration_community"}
+      ]
+    },
+    "scandinavian_homestead_arc": {
+      "feeds_into": [
+        {"target_pattern": "wheat_boom_bust", "via_exit": "wheat_economy_collapse", "generation_lag": "next_generation", "severity": 4}
+      ],
+      "fed_by": [
+        {"source_pattern": "new_england_farm_decline", "via_exit": "westward_migration"}
+      ]
+    },
+    "new_england_farm_decline": {
+      "feeds_into": [
+        {"target_pattern": "scandinavian_homestead_arc", "via_exit": "westward_migration", "generation_lag": "next_generation", "severity": 3}
+      ],
+      "fed_by": []
+    },
+    "sundown_town_exclusion": {
+      "feeds_into": [],
+      "fed_by": [
+        {"source_pattern": "sharecropping_trap", "via_entry": "from_great_migration"}
+      ]
+    },
+    "tobacco_soil_exhaustion": {
+      "feeds_into": [
+        {"target_pattern": "sharecropping_trap", "via_exit": "domestic_slave_trade", "generation_lag": "same_generation", "severity": 5}
+      ],
+      "fed_by": []
+    },
+    "boarding_house_matriarch": {
+      "feeds_into": [
+        {"target_pattern": "immigrant_parish_lifecycle", "via_exit": "into_immigrant_parish_lifecycle", "generation_lag": "same_generation", "severity": 2}
+      ],
+      "fed_by": []
+    },
+    "wwi_homefront_disruption": {
+      "feeds_into": [
+        {"target_pattern": "depression_survival_strategies", "via_exit": "into_depression_era", "generation_lag": "same_generation", "severity": 3}
+      ],
+      "fed_by": [
+        {"source_pattern": "boarding_house_matriarch", "via_entry": "from_immigrant_industrial_community"}
+      ]
+    },
+    "wheat_boom_bust": {
+      "feeds_into": [
+        {"target_pattern": "depression_survival_strategies", "via_exit": "depression_collapse", "generation_lag": "same_generation", "severity": 4}
+      ],
+      "fed_by": [
+        {"source_pattern": "scandinavian_homestead_arc", "via_entry": "from_established_homestead"}
+      ]
+    },
+    "mill_girl_pipeline": {
+      "feeds_into": [
+        {"target_pattern": "immigrant_parish_lifecycle", "via_exit": "ethnic_succession_to_immigrant_workforce", "generation_lag": "same_generation", "severity": 3}
+      ],
+      "fed_by": [
+        {"source_pattern": "new_england_farm_decline", "via_entry": "from_declining_new_england_farm"}
+      ]
+    },
+    "gullah_geechee_persistence": {
+      "feeds_into": [],
+      "fed_by": []
+    },
+    "military_family_circuit": {
+      "feeds_into": [],
+      "fed_by": []
+    },
+    "oil_field_nomad": {
+      "feeds_into": [
+        {"target_pattern": "depression_survival_strategies", "via_exit": "depression_collapse", "generation_lag": "same_generation", "severity": 4}
+      ],
+      "fed_by": [
+        {"source_pattern": "wheat_boom_bust", "via_entry": "from_failed_homestead"}
+      ]
+    },
+    "immigrant_parish_lifecycle": {
+      "feeds_into": [
+        {"target_pattern": "depression_survival_strategies", "via_exit": "depression_era_stagnation", "generation_lag": "same_generation", "severity": 3}
+      ],
+      "fed_by": [
+        {"source_pattern": "boarding_house_matriarch", "via_exit": "into_immigrant_parish_lifecycle"},
+        {"source_pattern": "mill_girl_pipeline", "via_exit": "ethnic_succession_to_immigrant_workforce"}
+      ]
+    },
+    "indentured_servant_formation": {
+      "feeds_into": [
+        {"target_pattern": "yeoman_farming_stability", "via_exit": "yeoman_farming_establishment", "generation_lag": "same_generation", "severity": 1}
+      ],
+      "fed_by": []
+    }
+  },
+
+  "chain_examples": {
+    "_description": "Pre-built multi-generational chain examples from across the Life Pattern corpus. Each shows a complete trigger ↔ life_pattern chain.",
+    "chains": [
+      "domestic_slave_trade → reconstruction_era → sharecropping_trap → boll_weevil → great_migration → auto_city_family_arc",
+      "antebellum_yeoman_south → civil_war_displacement → sharecropping_trap → textile_mill_recruitment → company_town_lifecycle → appalachian_out_migration",
+      "scots_irish_frontier → yeoman_farming_stability → civil_war_displacement → sharecropping_trap → great_migration → gi_bill_migration",
+      "se_european_wave → immigrant_parish_lifecycle → gi_bill_migration",
+      "se_european_wave → steel_city_immigrant_arc → economic_panics_20c → depression_survival_strategies → gi_bill_migration",
+      "irish_famine → boarding_house_matriarch → immigrant_parish_lifecycle → gi_bill_migration",
+      "scots_irish_frontier → yeoman_farming_stability → appalachian_subsistence_squeeze → appalachian_out_migration → auto_city_family_arc → gi_bill_migration",
+      "scots_irish_frontier → yeoman_farming_stability → appalachian_subsistence_squeeze → company_town_lifecycle → appalachian_out_migration",
+      "homestead_act → scandinavian_homestead_arc → wheat_boom_bust → dust_bowl → depression_survival_strategies → gi_bill_migration",
+      "civil_war_service → civil_war_widows_arc → yeoman_farming_stability → appalachian_subsistence_squeeze → appalachian_out_migration",
+      "(transatlantic passage) → indentured_servant_formation → yeoman_farming_stability → civil_war_service → civil_war_widows_arc",
+      "new_england_farm_decline → mill_girl_pipeline → immigrant_parish_lifecycle (ethnic succession)",
+      "new_england_farm_decline → homestead_act → scandinavian_homestead_arc → wheat_boom_bust → dust_bowl",
+      "great_migration → pullman_porter_network → great_migration (accelerant)",
+      "great_migration → sundown_town_exclusion → great_migration (rerouting)",
+      "domestic_slave_trade → gullah_geechee_persistence → great_migration (youth outmigration)",
+      "scots_irish_frontier → tobacco_soil_exhaustion → antebellum_yeoman_south",
+      "scots_irish_frontier → tobacco_soil_exhaustion → domestic_slave_trade → sharecropping_trap → great_migration",
+      "war_of_1812_service → wwi_homefront_disruption → depression_survival_strategies → gi_bill_migration",
+      "gi_bill_migration → military_family_circuit → gi_bill_migration (retirement settlement)",
+      "economic_panics_20c → oil_field_nomad → depression_survival_strategies → gi_bill_migration",
+      "gold_rush_mining_boom → oil_field_nomad → widow_orphan_relocation"
+    ]
+  },
+
+  "statistics": {
+    "total_patterns": 22,
+    "total_entry_conditions": 53,
+    "total_exit_conditions": 67,
+    "unique_triggers_in_entries": 19,
+    "unique_triggers_in_exits": 16,
+    "unique_pattern_to_pattern_links": 23,
+    "total_chain_examples": 22
+  }
+}
