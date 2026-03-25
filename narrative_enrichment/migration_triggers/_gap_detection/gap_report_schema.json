@@ -1,0 +1,91 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "_purpose": "Defines the structure for NEL gap reports. When Polsia processes an ancestor record and cannot find a matching NEL data file for any category, it generates a gap report using this schema. Gap reports accumulate and become build targets for Claude Code CLI.",
+
+  "gap_report_format": {
+    "report_id": "UUID or timestamp-based unique identifier",
+    "generated_by": "polsia | claude_code | manual",
+    "generated_at": "ISO 8601 timestamp",
+    "ancestor_context": {
+      "ancestor_id": "The ancestor record ID that triggered the gap",
+      "ancestor_era": "Approximate era (e.g., 1840-1880)",
+      "ancestor_location_origin": "County/state of origin if known",
+      "ancestor_location_destination": "County/state of destination if known",
+      "ancestor_occupation": "Listed occupation if known",
+      "ancestor_ethnicity": "Ethnicity/nationality if known",
+      "ancestor_race": "Race as recorded in census if known"
+    },
+    "gaps": [
+      {
+        "gap_type": "One of: missing_trigger | missing_destination | missing_occupation | missing_route | missing_material_life | missing_community_texture | missing_regional_trigger | missing_template_situation | missing_research_guidance | missing_wage_data",
+        "severity": "One of: HIGH (no match at all — narrative AI has no context) | MEDIUM (partial match — related data exists but not specific enough) | LOW (nice to have — existing data covers it approximately)",
+        "searched_for": "What Polsia looked for (e.g., 'occupation: tanner', 'destination: Salt Lake City', 'trigger matching Scandinavian immigration 1880-1920')",
+        "nearest_match": "The closest existing file that partially covers the gap, if any (e.g., 'blacksmith.json covers some metalworking context')",
+        "suggested_file": "Suggested filename for the missing data (e.g., 'tanner.json', 'salt_lake_city.json')",
+        "frequency_note": "If this gap has been seen before, note the count"
+      }
+    ]
+  },
+
+  "gap_types_explained": {
+    "missing_trigger": "No core or regional trigger matches the ancestor's migration pattern. The narrative AI has no push/pull factors, no route, no historical context for why they moved.",
+    "missing_destination": "The ancestor's destination city has no profile. The narrative AI can't describe neighborhoods, employers, or institutions at the destination.",
+    "missing_occupation": "The ancestor's listed occupation has no profile. The narrative AI can't describe daily work, wages, conditions, or career trajectory.",
+    "missing_route": "The trigger matched but the transportation route referenced doesn't have a file. The narrative AI can't describe the journey.",
+    "missing_material_life": "No material life profile covers the ancestor's era + region combination. The narrative AI can't describe housing, food, clothing, or daily physical reality.",
+    "missing_community_texture": "No community texture profile covers the ancestor's settled community. The narrative AI can't describe churches, schools, fraternal orders, or social fabric.",
+    "missing_regional_trigger": "A national trigger matches but the ancestor's specific intra-state migration pattern isn't covered by a regional trigger. The national trigger is too broad.",
+    "missing_template_situation": "An existing template should apply but no situation within it matches the ancestor's specific circumstances.",
+    "missing_research_guidance": "A record gap was detected but no research guidance pattern covers how to resolve it.",
+    "missing_wage_data": "The ancestor's occupation or era falls outside the existing wage table coverage."
+  },
+
+  "priority_scoring": {
+    "method": "Gap priority = severity x frequency. A HIGH gap seen 10 times is the top build target. A LOW gap seen once can be deferred indefinitely.",
+    "thresholds": {
+      "build_now": "HIGH severity AND frequency >= 3, OR any severity AND frequency >= 10",
+      "build_soon": "MEDIUM severity AND frequency >= 5, OR HIGH severity AND frequency >= 1",
+      "defer": "LOW severity AND frequency < 10"
+    }
+  },
+
+  "output_instructions": {
+    "where_to_output": "Gap reports should be output as structured JSON appended to a gap_reports.jsonl file (one JSON object per line). Location: the repository's _gap_detection/ directory, or a designated output location configured by the deployment.",
+    "when_to_output": "After every ancestor report generation that encounters at least one gap. Batch reporting is also acceptable — accumulate gaps during a session and output at end.",
+    "deduplication": "Before outputting, check if an identical gap (same gap_type + same searched_for value) already exists in the accumulated reports. If so, increment frequency_note rather than creating a duplicate."
+  },
+
+  "example_gap_report": {
+    "report_id": "gap-2026-03-16-001",
+    "generated_by": "polsia",
+    "generated_at": "2026-03-16T14:30:00Z",
+    "ancestor_context": {
+      "ancestor_id": "anc-12345",
+      "ancestor_era": "1870-1910",
+      "ancestor_location_origin": "Nordland, Norway",
+      "ancestor_location_destination": "Polk County, Minnesota",
+      "ancestor_occupation": "farmer",
+      "ancestor_ethnicity": "Norwegian",
+      "ancestor_race": "white"
+    },
+    "gaps": [
+      {
+        "gap_type": "missing_trigger",
+        "severity": "HIGH",
+        "searched_for": "trigger matching Scandinavian immigration, 1850-1920",
+        "nearest_match": "german_immigration.json covers similar era Northern European immigration but wrong ethnicity and different settlement patterns",
+        "suggested_file": "scandinavian_immigration.json",
+        "frequency_note": "First occurrence"
+      },
+      {
+        "gap_type": "missing_destination",
+        "severity": "MEDIUM",
+        "searched_for": "destination profile for Minneapolis or Minnesota farm settlement",
+        "nearest_match": "minneapolis.json exists but covers urban destination, not rural farm settlement pattern",
+        "suggested_file": "minnesota_scandinavian_farm_settlement.json (regional trigger) or expand minneapolis.json",
+        "frequency_note": "First occurrence"
+      }
+    ]
+  }
+}
