@@ -1,0 +1,125 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "_purpose": "Narrative template for interpreting naming conventions as genealogical evidence. Covers middle names as clues, repeated naming patterns across generations, and surname variants as migration and identity markers. Names are not labels — they are evidence, and this template makes that evidence legible.",
+  "template_id": "naming_as_evidence",
+  "display_name": "Naming as Evidence",
+  "description": "Interprets naming conventions — middle names, generational naming patterns, and surname spelling variants — as genealogical evidence. In genealogy, a name is never just a name. A middle name can reveal a mother's maiden name. A given name repeated across three generations traces a family tradition across continents. A surname that changes spelling at a county line maps a migration route. This template makes naming patterns legible as narrative, while maintaining rigorous distinction between suggestive evidence and proven fact. Incorporates GENO Pattern NP-10 (Naming Convention as Clue) and Pattern C (The Census Taker Effect).",
+  "revenue_tier": "both — one situation with strongest evidence for Option A, all applicable situations for White Glove",
+  "tier_guidance": {
+    "option_a": "One situation only — whichever has the strongest evidentiary basis for the specific ancestor. 80-150 words. State the naming evidence, the connection it suggests, and the confidence level. Do not overextend.",
+    "white_glove": "All applicable situations for the ancestor. Full beat structure for each. 100-250 words per situation. Include a note on the specific cultural naming convention being applied and its limitations. Cross-reference with other templates where relevant."
+  },
+  "situations": [
+    {
+      "situation_id": "middle_name_clue",
+      "display_name": "Middle Name Reveals a Connection",
+      "trigger_condition": "An ancestor's middle name matches a surname found elsewhere in the family record, a community figure's surname, or a geographic feature. The middle name is unusual enough that coincidence is unlikely — it is not a common given name repurposed as a middle name.",
+      "tone": "Detective work. The writer has found something hidden in plain sight. Not breathless — methodical. The satisfaction comes from the evidence chain, not from the surprise.",
+      "structural_beats": [
+        "Identify the ancestor and the middle name in question. State it plainly: full name, year, record source.",
+        "What the middle name matches: another surname in the family, a community figure (minister, slaveholder, benefactor, neighbor), a geographic feature or place name. Be specific about the match.",
+        "The evidence chain: how we know this is a deliberate naming choice and not coincidence. What records connect the middle name to the proposed source? Probate records, land deeds, church records, census proximity, estate distributions?",
+        "What the connection reveals: a family relationship, a debt of gratitude, a community tie, an ethnic identity marker, a slaveholder connection. Name it directly.",
+        "Confidence level: naming conventions are suggestive, not conclusive. State the probability explicitly. 'This is consistent with' or 'this suggests' — never 'this proves.'"
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{middle_name}",
+        "{connection_type}",
+        "{evidence_source}",
+        "{confidence_level}"
+      ],
+      "constraints": [
+        "Do not overclaim. A matching middle name is interesting; it is not conclusive without corroborating evidence.",
+        "State confidence level explicitly in every output. Use language like 'this suggests,' 'this is consistent with,' 'the naming pattern points toward.'",
+        "For enslaved ancestors: a middle name matching a slaveholder's surname is common but must be handled with the dignity mandate. The name may reflect the slaveholder's identity imposed on the family, a chosen honor for someone who helped the family, or a coincidence. Do not assume.",
+        "Verify that the middle name is genuinely unusual. 'James' as a middle name proves nothing. 'Bloxum' as a middle name demands explanation.",
+        "Always cite the specific record where the middle name appears and the specific record that establishes the connection."
+      ],
+      "example_output": "Charles Bloxum Boone. The 'Bloxum' is not a common given name — it is a surname. Richard Bloxum's estate records in Sampson County list a Boone among the heirs. The middle name IS the evidence of the connection. This does not prove a direct blood relationship — naming for a benefactor, a neighbor, or a business associate was also common — but when a surname appears as a middle name AND the two families appear in the same probate record, the inference is strong. Confidence: probable family connection, pending corroboration from additional records."
+    },
+    {
+      "situation_id": "naming_pattern",
+      "display_name": "Generational Naming Pattern",
+      "trigger_condition": "A given name repeats across two or more generations in a pattern consistent with known cultural naming conventions. The name is distinctive enough that the repetition is unlikely to be coincidental — it is not a common biblical or presidential name that could appear independently.",
+      "tone": "Pattern recognition. The writer is laying out evidence across generations like placing pieces on a table. Let the pattern speak. The satisfaction is in the accumulation — each generation confirming the one before.",
+      "structural_beats": [
+        "Document the pattern: list the names across 2-3 generations with full names, birth years, and record sources showing the repetition.",
+        "Identify the cultural convention: Scots-Irish naming (eldest son for paternal grandfather, eldest daughter for maternal grandmother), German naming (similar patrilineal patterns), Southern naming (family surnames used as given names), Jewish naming (naming for deceased relatives only — never for living ones), African American naming (naming for kin separated by sale, preserving family memory across forced separation).",
+        "What the pattern confirms: family connections, ethnic identity, cultural persistence, or community ties. A name repeated across three generations is not an accident — it is a practice.",
+        "If the pattern BREAKS: what does the break suggest? A family rupture? A naming for someone outside the family — a benefactor, a politician, a minister? A cultural shift in the community? A death that made the name painful?",
+        "Cross-reference: does the repeated name trace back to a known ancestor, and does that help extend the genealogical line beyond the current paper trail?"
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{repeated_name}",
+        "{generation_1}",
+        "{generation_2}",
+        "{generation_3}",
+        "{cultural_convention}",
+        "{what_it_reveals}"
+      ],
+      "constraints": [
+        "Do not apply one culture's naming conventions to another. Scots-Irish, German, Jewish, and African American conventions differ fundamentally.",
+        "Jewish naming conventions: naming for deceased relatives only. Never apply Christian naming patterns (naming for living grandparents) to Jewish families.",
+        "For enslaved ancestors: naming patterns are among the few tools available for tracing pre-1870 family connections. Handle with the dignity mandate. A name preserved across generations of enslavement is an act of resistance against a system designed to erase family connections.",
+        "Distinguish between common names that repeat by coincidence (John, Mary, William) and distinctive names that repeat by intention (Evans, Bloxum, Zilpha). The evidence is in the distinctiveness.",
+        "Always state what the pattern suggests, not what it proves. 'The repetition of this name across three generations is consistent with a deliberate naming practice' — not 'this proves the family connection.'",
+        "When the pattern breaks, do not ignore the break. The break is evidence too."
+      ],
+      "example_output": "Three generations of Canadys named a son 'Evans.' Evans Allen Canady (1832), Evans Canady (1860), Evans Canady (1888). The name is not biblical, not presidential, not fashionable. It is a family name — and tracing it backward is tracing a connection to someone named Evans in the generation before 1832. The Scots-Irish convention of naming the eldest son for the paternal grandfather would place an Evans in the family around 1800-1810, likely in the Sampson or Duplin County area where the earliest Canady records appear. This does not identify that ancestor — but it gives the search a name to look for."
+    },
+    {
+      "situation_id": "surname_variant",
+      "display_name": "Surname Spelling Variants as Evidence",
+      "trigger_condition": "An ancestor's surname appears in multiple spellings across records. The variants are not random — they cluster by era, geography, or recorder, revealing something about the ancestor's world. This is the Census Taker Effect: spellings are artifacts of the recorder, not the recorded.",
+      "tone": "Analytical, slightly wry. The Census Taker Effect is one of genealogy's most useful concepts and one of its most common frustrations. The writer is explaining something that seems like chaos but is actually a pattern — and the pattern tells a story about migration, literacy, assimilation, and the mechanics of record-keeping.",
+      "structural_beats": [
+        "Document the variants: list every spelling found in records, each with the year, record type, location, and recorder (if known). Lay them out chronologically.",
+        "Analyze the pattern: are the variants phonetic (written by someone who heard the name but did not know the spelling)? Are they deliberate (anglicization at immigration, simplification for convenience, adaptation to a new linguistic environment)? Are they clerical (different recorders, different conventions, different ears)?",
+        "What the variants reveal: migration (a name that changes at a geographic boundary suggests the ancestor crossed into a region with different phonetic conventions), assimilation (German or Slavic names anglicized over one or two generations), literacy level (if the ancestor signed their name consistently but recorders wrote it differently, the ancestor was literate and the variants are the recorders' problem), or the Census Taker Effect pure and simple (the spelling is about the recorder's ears, not the ancestor's identity).",
+        "Practical genealogical impact: how variant spellings affect record searching, and what search strategies to use. Soundex codes, wildcard searches, phonetic searches, and browsing enumeration districts by hand."
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{variant_list}",
+        "{pattern_analysis}",
+        "{what_it_reveals}",
+        "{search_strategy}"
+      ],
+      "constraints": [
+        "Do not assume intentionality for every spelling change. Most variant spellings are clerical, not deliberate. The default explanation is always: the recorder wrote what they heard.",
+        "Do not privilege one spelling as 'correct.' Before standardized spelling (roughly post-1900), there was no correct spelling of most surnames. The ancestor may not have had a fixed spelling themselves.",
+        "For immigration name changes: the myth that Ellis Island officials changed immigrants' names is largely false. Name changes at immigration were usually self-initiated, occurring before or after arrival, not at the moment of processing. Do not perpetuate the Ellis Island myth.",
+        "For enslaved ancestors: surnames adopted at emancipation may reflect the slaveholder's name (common but not universal), a chosen name reflecting a desired identity, or a geographic reference. Do not assume any single explanation.",
+        "Always include practical search strategy advice. The narrative value of surname variants is real, but the practical impact on record-finding is what the reader needs most.",
+        "NEVER present a naming inference as a proven fact. A surname variant that clusters geographically is suggestive of migration; it is not proof of migration."
+      ],
+      "example_output": "Daniel appears as Canady, Canaday, Cannady, Cannidy, Kennedy, Kundy, and Canada across seven records. The variants cluster by era and recorder. In Tennessee, he is Kennedy — a Scots-Irish rendering. In North Carolina, he is Canady — a coastal plain pronunciation. The name did not change. The ears did. For genealogical searching, this means that a search for 'Canady' alone will miss the Tennessee records entirely. Soundex helps (C530 captures most variants) but misses Kennedy (K530). The practical strategy: search by first name, approximate birth year, and birthplace, then cast the surname net wide. Every variant is a data point, not a problem."
+    }
+  ],
+  "editorial_guidelines": {
+    "overarching_principle": "Names are evidence. This template treats naming conventions as one of genealogy's most powerful inferential tools — but inferential, not conclusive. The satisfaction of this template is in the detective work: finding connections hidden in plain sight, then stating honestly how strong those connections are.",
+    "tone": "Detective work at its most satisfying. The writer has found something that was always there, waiting to be read correctly. Not breathless discovery — methodical demonstration. Show the evidence, build the chain, state the confidence level.",
+    "pairing_notes": "This template pairs well with document_deep_read (NP-04) when the name appears in a single, rich document — a probate inventory, a Freedmen's Bureau labor contract, an estate distribution. It also pairs with record_silences when a naming pattern is the only evidence available for a connection that records do not otherwise document.",
+    "what_NOT_to_do": [
+      "NEVER present a naming inference as a proven fact. Use 'suggests,' 'is consistent with,' 'points toward.' Never 'proves' or 'confirms.'",
+      "Do not apply one culture's naming conventions to another. Scots-Irish, German, Jewish, African American, and Southern conventions all differ.",
+      "Do not treat every matching name as significant. Common names (John, Mary, James, William) repeat by coincidence constantly. The evidence is in the distinctive names.",
+      "Do not perpetuate the Ellis Island name-change myth. Most immigration-era name changes were self-initiated.",
+      "Do not assume surname spelling was fixed before the 20th century. It was not. The concept of a 'correct' spelling is modern.",
+      "Do not romanticize or dramatize naming evidence. Let the evidence chain carry the weight. A middle name that matches a slaveholder's surname does not need rhetorical amplification — the fact is powerful enough."
+    ],
+    "white_glove_additions": "For White Glove tier: include a note identifying the specific cultural naming convention being applied (e.g., Scots-Irish eldest-son naming, Jewish deceased-relative naming) and state its limitations explicitly. Not all families followed the conventions of their broader culture. The convention is a framework for inference, not a rule."
+  },
+  "data_dependencies": [
+    "Census records (for name spellings across decades and household composition)",
+    "Vital records (birth, marriage, death — for middle names and surname variants)",
+    "Ethnic community profiles (for cultural naming conventions by ethnicity and region)",
+    "Immigration records (for surname changes at arrival and original-language spellings)",
+    "County source profiles (for local record availability and known gaps)",
+    "Probate and estate records (for connecting middle names to family or community figures)",
+    "Freedmen's Bureau records (for post-emancipation surname adoption patterns)"
+  ]
+}

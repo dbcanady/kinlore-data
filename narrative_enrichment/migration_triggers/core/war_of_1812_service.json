@@ -1,0 +1,263 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-17",
+  "migration_id": "war_of_1812_service",
+  "display_name": "War of 1812 Military Service",
+  "short_description": "Military service in the War of 1812, encompassing militia mobilization, regular army service, and naval operations from 1812 to 1815, with bounty land and pension consequences extending through the 1870s. Approximately 286,000 men served in regular forces and state militias. For many families, the pension file and bounty land warrant — not the service itself — are the records that shaped subsequent family geography and economics.",
+  "era": "1812-1878",
+  "estimated_scale": "Approximately 286,000 men served in regular forces and state militias, though estimates vary because militia record-keeping was inconsistent. Approximately 2,260 were killed in action and an estimated 15,000 died of disease or other causes. The bounty land system distributed millions of acres to veterans and their heirs across multiple acts (1812, 1842, 1850, 1855).",
+  "involuntary": false,
+  "migration_class": "military",
+  "template_refs": [
+    {
+      "template_id": "military_service_arc",
+      "relationship": "primary_narrative_template",
+      "description": "This trigger activates the military_service_arc template for War of 1812 ancestors. The template provides the narrative structure (enlistment, service, wound/capture/death, pension, veteran in community); this trigger provides the historical context, push/pull factors, and record guidance specific to the War of 1812. Note: War of 1812 records are significantly more fragmentary than Civil War records due to the 1814 burning of Washington and the 1973 NPRC fire."
+    }
+  ],
+  "phases": [
+    {
+      "phase_number": 1,
+      "name": "Militia Mobilization",
+      "era": "1812-1813",
+      "description": "Congress declared war on Great Britain on June 18, 1812. The regular army numbered fewer than 12,000 men, so the initial military response depended heavily on state militia. Militia units were called up for short terms — typically 3 to 6 months — for local and regional defense. Quality varied enormously: some militia units were trained and effective; others were poorly armed, undisciplined, and reluctant to serve outside their home state. Several militia units refused to cross the Canadian border, arguing their obligation was defensive only. The militias of New York, Pennsylvania, Virginia, Kentucky, Tennessee, and the Carolinas provided the largest contingents. Service was often local — a man from Cumberland County, North Carolina might serve a 3-month term guarding the Cape Fear coast and return home without having fired a shot.",
+      "narrative_hook": "When {ancestor_name}'s militia company was called up in {origin_county} in {year}, the terms were short and the duty was local. Most militia service in the War of 1812 was uneventful — standing guard duty, drilling in camp, waiting for a British threat that often never materialized in that particular county."
+    },
+    {
+      "phase_number": 2,
+      "name": "Regular Army and Naval Service",
+      "era": "1813-1815",
+      "description": "Congress authorized expansion of the regular army and offered bounties of 160 acres and $16 cash to attract enlistees. The expanded regular army fought the war's major campaigns: the invasions of Canada (most of which failed), the defense of Baltimore (September 1814), the burning of Washington (August 1814), and the naval war on the Great Lakes and the Atlantic. The Battle of New Orleans (January 8, 1815) — fought after the Treaty of Ghent was signed but before news reached Louisiana — was the war's most celebrated engagement. Naval operations on the Great Lakes, particularly Oliver Hazard Perry's victory at the Battle of Lake Erie (September 1813), were decisive in the northern theater. American privateers disrupted British commerce on the Atlantic. Frontier warfare against British-allied Native nations — particularly the Creek War (1813-1814) in Alabama and Georgia and the campaigns against Tecumseh's confederation in the Northwest — was a major theater that shaped post-war land cessions.",
+      "narrative_hook": "If {ancestor_name} served in the regular army or navy rather than the militia, the experience was longer, harder, and farther from home. Regular enlistments were for five years, and the campaigns of 1813-1815 took men from {origin_county} to places they had never imagined — the Canadian border, the Gulf Coast, the Great Lakes, or the Creek Nation."
+    },
+    {
+      "phase_number": 3,
+      "name": "Bounty Land Era",
+      "era": "1815-1858",
+      "description": "Congress authorized bounty land warrants to War of 1812 veterans through a series of increasingly generous acts. The original 1812 act offered 160 acres to regular army enlistees. The 1842 act extended 160 acres to any veteran (including militia) who had served at least 14 days. The 1850 act covered any veteran with 9 months of service (with proportional grants for shorter service). The 1855 act extended 160 acres to anyone with 14 days of service or who had participated in any battle — the broadest eligibility of all. Many veterans or their heirs sold their warrants to speculators rather than relocating to the warrant lands, which were located in designated bounty land districts (initially in Arkansas, Illinois, and Missouri). The bounty land system was as much a financial instrument as a settlement program — warrants were bought, sold, and traded on a secondary market.",
+      "narrative_hook": "The 160 acres of bounty land that {ancestor_name} received for militia service in the War of 1812 was worth more on paper than the service itself had been in hardship. Whether {pronoun_subject} relocated to the warrant land or sold the warrant for cash, the bounty shaped {pronoun_possessive} family's post-war economic trajectory."
+    },
+    {
+      "phase_number": 4,
+      "name": "Pension Era",
+      "era": "1816-1878",
+      "description": "Disability pensions were available to War of 1812 veterans from the beginning. Service pensions came later: Congress authorized pensions for regular army veterans in 1871 and for all veterans (including militia with 14+ days of service) in 1878 — more than sixty years after the war ended. Widow pensions extended even further, with some widows receiving pensions into the early twentieth century. The pension application process generated extensive biographical documentation: proof of service, proof of marriage, medical examinations, testimony from comrades and neighbors, and correspondence with the Pension Bureau. For many War of 1812 families, the pension file is the single richest genealogical source — containing details about family composition, residence, economic circumstances, and health that appear nowhere else.",
+      "narrative_hook": "When {ancestor_name} — or {ancestor_name}'s widow — finally filed a pension claim decades after the war, the application process demanded proof: proof of service, proof of identity, proof of marriage, proof of disability. The resulting file preserved more biographical detail than any other document in the family's history."
+    }
+  ],
+  "push_factors": [
+    {
+      "factor": "Militia obligation and duty",
+      "severity": 3,
+      "description": "State militia laws required men of military age (typically 18-45) to muster periodically and to serve when called by the governor. When the governor activated militia units for the war, service was a legal obligation, not a volunteer choice — though enforcement was uneven and evasion was common. The militia tradition varied by state: Southern and frontier states tended to have more active militia cultures, while New England states (where opposition to the war was strongest) sometimes obstructed militia mobilization."
+    },
+    {
+      "factor": "British impressment of American sailors",
+      "severity": 4,
+      "description": "The Royal Navy forcibly pressed American merchant sailors into British service, claiming they were British subjects. An estimated 6,000-10,000 American sailors were impressed between 1793 and 1812. The Chesapeake-Leopard affair (1807) — in which a British warship attacked an American frigate and removed four crew members — was a galvanizing event. Impressment was the most immediate and personal cause of the war for coastal and maritime communities, and it motivated enlistment in the navy and among men from port cities."
+    },
+    {
+      "factor": "Frontier defense against British-allied Native nations",
+      "severity": 4,
+      "description": "On the northwestern and southern frontiers, British support for Native confederacies resisting American expansion was a direct military threat. Tecumseh's confederation in the Northwest (Ohio, Indiana, Michigan) and the Red Stick Creek faction in the South (Alabama, Georgia) conducted campaigns against American settlements. The Battle of Tippecanoe (1811) preceded the formal declaration of war. For frontier families in Kentucky, Tennessee, Ohio, and the southern backcountry, the war was primarily about eliminating the British-Native alliance that stood between them and western expansion."
+    },
+    {
+      "factor": "Economic disruption from trade embargo",
+      "severity": 3,
+      "description": "The Embargo Act of 1807 and subsequent Non-Intercourse Acts devastated American maritime commerce and the agricultural economy that depended on Atlantic trade. New England shipping interests suffered enormous losses. Southern and western farmers who depended on export markets for tobacco, cotton, and grain saw prices collapse. The economic disruption created resentment toward British trade policies and pushed some men toward enlistment as an economic alternative to unemployment."
+    }
+  ],
+  "pull_factors": [
+    {
+      "factor": "Bounty land warrants",
+      "severity": 4,
+      "description": "The promise of 160 acres of public land was a powerful incentive for enlistment in the regular army. For men from land-poor families, the bounty land warrant represented a path to property ownership that was otherwise out of reach. The bounty land system was also a pull for heirs — many warrant applications were filed by widows and children of veterans decades after the war, seeking land or the cash value of the warrant."
+    },
+    {
+      "factor": "Military pay",
+      "severity": 2,
+      "description": "Regular army privates were paid $8 per month — modest wages, but reliable. Militia service was compensated at varying rates depending on the state. For laborers and marginal farmers, military pay provided a more predictable income than the seasonal agricultural economy. The pay was not generous enough to be a primary motivation for most enlistees, but it was a factor for men with limited alternatives."
+    },
+    {
+      "factor": "Local community defense",
+      "severity": 3,
+      "description": "For men on the frontier and in coastal communities, service was directly linked to protecting their homes and families. The Creek War in the South, the Great Lakes campaigns in the North, and the coastal raids by the Royal Navy created localized threats that motivated enlistment among men who might not have volunteered for distant campaigns."
+    },
+    {
+      "factor": "Patriotic duty",
+      "severity": 3,
+      "description": "The War of 1812 was framed as a second war of independence — a defense of American sovereignty against British arrogance. This rhetoric was particularly effective in the South and West, where 'War Hawks' in Congress (Henry Clay, John C. Calhoun) promoted the war as a matter of national honor. The patriotic framing was less effective in New England, where opposition to the war was strong enough to produce the Hartford Convention (1814-1815)."
+    }
+  ],
+  "transportation": {
+    "methods": [
+      {
+        "mode": "On foot (march)",
+        "description": "Most militia and regular army soldiers moved on foot. March distances varied from local defense deployments (miles from home) to long campaigns (hundreds of miles to the Canadian border, the Gulf Coast, or the Creek Nation). Militia soldiers often provided their own equipment and marched as organized companies from their home counties."
+      },
+      {
+        "mode": "River and lake transport",
+        "description": "Rivers were the primary long-distance transportation corridors. The Ohio, Mississippi, Tennessee, and Cumberland rivers moved troops and supplies to western and southern theaters. The naval war on the Great Lakes required purpose-built fleets. Coastal vessels moved troops along the Atlantic seaboard."
+      },
+      {
+        "mode": "Horseback",
+        "description": "Mounted militia units — particularly from Kentucky and Tennessee — rode to the theater of operations. Andrew Jackson's Tennessee militia rode and marched to the Creek War and then to New Orleans. Cavalry and mounted riflemen provided much of the frontier's military capability."
+      },
+      {
+        "mode": "Sailing vessels",
+        "description": "Naval service took men to sea on frigates, sloops, and gunboats. Privateers — privately owned vessels authorized to attack enemy commerce — employed thousands of American sailors. The war's naval dimension was significant despite the small size of the American navy."
+      }
+    ],
+    "routes": [
+      "Home county to state militia rendezvous point (local march)",
+      "Northern Theater: New York and Vermont to the Canadian border (Lake Champlain, Niagara frontier)",
+      "Northwestern Theater: Ohio and Kentucky to the Great Lakes (Detroit, Lake Erie, Thames River)",
+      "Southern Theater: Tennessee and Georgia to Creek Nation (Alabama), then to Gulf Coast",
+      "Coastal defense: local militia deployments along the Atlantic coast from Maine to Georgia",
+      "Gulf Coast: Tennessee militia via Natchez Trace to New Orleans"
+    ]
+  },
+  "origin_regions": [
+    "North Carolina (state militia, including Cumberland County companies)",
+    "Virginia (large militia establishment, regular army recruits)",
+    "Kentucky (major source of volunteer militia, particularly mounted units)",
+    "Tennessee (Andrew Jackson's militia, Creek War and New Orleans campaigns)",
+    "Ohio (northwestern frontier defense, regular army and militia)",
+    "Pennsylvania (militia and regular army, northern theater)",
+    "New York (northern theater, militia and regulars along Canadian border)",
+    "Maryland (defense of Baltimore, Chesapeake region)",
+    "State militia units from most states east of the Mississippi"
+  ],
+  "counties_most_affected": [
+    "Cumberland NC",
+    "Sampson NC",
+    "Wake NC",
+    "Henrico VA",
+    "Norfolk City VA",
+    "Fayette KY",
+    "Davidson TN",
+    "Hamilton OH",
+    "Baltimore City MD",
+    "Niagara NY",
+    "Erie PA",
+    "Orleans LA",
+    "Mobile AL",
+    "Jefferson KY"
+  ],
+  "destination_refs": [
+    {
+      "location": "Canadian border (Niagara, Lake Champlain, Detroit)",
+      "role": "Primary theater of operations for northern campaigns. Invasions of Canada were the war's most ambitious (and mostly unsuccessful) offensive operations."
+    },
+    {
+      "location": "Baltimore, MD",
+      "role": "Defended against British attack in September 1814. The bombardment of Fort McHenry inspired the national anthem. Maryland and Virginia militia played the central defensive role."
+    },
+    {
+      "location": "New Orleans, LA",
+      "role": "Site of the war's most decisive American victory (January 8, 1815). Jackson's force included Tennessee and Kentucky militia, regular army units, free Black militia companies, and Baratarian privateers."
+    },
+    {
+      "location": "Creek Nation (Alabama and Georgia)",
+      "role": "The Creek War (1813-1814) was fought primarily in present-day Alabama. Tennessee, Georgia, and Mississippi militia, along with Cherokee and Lower Creek allies, fought the Red Stick Creek faction. The resulting Treaty of Fort Jackson (1814) ceded approximately 23 million acres."
+    },
+    {
+      "location": "Bounty land districts (Illinois, Missouri, Arkansas)",
+      "role": "Designated federal lands where War of 1812 bounty warrants could be located. Many veterans received warrants for land in these districts, though a significant proportion sold their warrants rather than relocating."
+    }
+  ],
+  "chain_migration": {
+    "pattern": "militia_community",
+    "description": "Militia companies were composed of men from the same county, creating a military unit that mirrored the civilian community. When bounty land warrants were issued, some groups of veterans relocated together to warrant lands, though this was less common than individual warrant sales. The more significant 'chain' effect was through the pension system: veterans who had served together testified for each other's pension claims decades later, and the pension networks preserved community bonds across generations and geographic distance.",
+    "agency": "variable — militia service was a legal obligation; regular army enlistment was voluntary; bounty land and pension decisions were economic calculations made over decades"
+  },
+  "what_happened_to_those_who_stayed": "For most War of 1812 veterans, service was brief (3-6 months for militia) and they returned to their pre-war lives with little disruption. The war's direct impact on American civilian communities was localized: coastal areas raided by the British (especially the Chesapeake), frontier communities threatened by British-allied Native nations, and port cities affected by the trade embargo. The war's more lasting domestic effect was the destruction of Native military power east of the Mississippi, which opened vast territories to American settlement in the following decades — a consequence that benefited non-veterans as much as veterans.",
+  "record_implications": [
+    {
+      "record_type": "Service records (fragmentary)",
+      "implication": "CRITICAL RECORD LOSS: The British burning of Washington in August 1814 destroyed many early War Department records, including some War of 1812 service records. The 1973 fire at the National Personnel Records Center (NPRC) in St. Louis destroyed additional military records. As a result, War of 1812 service records are significantly more fragmentary than Civil War records. What survives is held primarily in NARA RG 94 and RG 127."
+    },
+    {
+      "record_type": "Compiled Military Service Records (CMSRs)",
+      "implication": "CMSRs were compiled for War of 1812 soldiers from surviving muster rolls, pay records, and other documents. They are less complete than Civil War CMSRs due to record losses. Available on microfilm and through Fold3 and Ancestry. The absence of a CMSR does not mean the ancestor did not serve — it may mean the records were destroyed."
+    },
+    {
+      "record_type": "Bounty land warrant application files",
+      "implication": "Bounty land warrant files are SEPARATE from service records and pension files. Held in NARA RG 49 (Bureau of Land Management), these files contain the application, proof of service, and documentation of warrant issuance. Multiple acts (1812, 1842, 1850, 1855) generated separate applications — a veteran or heir might have multiple warrant files. These files sometimes contain biographical information that survives nowhere else due to the destruction of service records."
+    },
+    {
+      "record_type": "Federal pension files",
+      "implication": "Pension files at NARA RG 15 are often the RICHEST surviving source for War of 1812 veterans. Because service pensions were not authorized until 1871 (regulars) and 1878 (all veterans including militia), pension applications were filed by elderly veterans and widows who had to reconstruct service details from memory and witnesses. The files contain sworn testimony, medical examinations, proof of marriage, proof of service, and extensive correspondence — sometimes spanning decades. Widow pension files are particularly valuable and extend into the early twentieth century."
+    },
+    {
+      "record_type": "State militia records",
+      "implication": "State militia records vary ENORMOUSLY by state. Some states (Virginia, North Carolina, Kentucky, Tennessee) maintain substantial militia muster rolls and pay records in their state archives. Others have very little. State adjutant general reports, where they exist, may list men by unit and county. These records are often the only surviving documentation of militia service when federal records have been destroyed."
+    },
+    {
+      "record_type": "Published rosters and indexes",
+      "implication": "Several published compilations index War of 1812 soldiers by state: Virgil D. White's indexes, state-specific publications, and the General Index to Compiled Service Records (NARA M602). These indexes are starting points that should lead back to original records — the index entry alone is insufficient for narrative purposes."
+    }
+  ],
+  "counter_narratives": [
+    {
+      "narrative": "Most service was uneventful",
+      "description": "The majority of War of 1812 militia service consisted of short-term duty (3-6 months) in camps and garrison posts, with no combat. Men drilled, stood guard, endured camp diseases, and went home. The popular image of the war — Andrew Jackson at New Orleans, the burning of Washington, Perry at Lake Erie — represents the experience of a small fraction of those who served. For most militia veterans, the service was an interruption rather than a transformation. The narrative should not inflate routine militia duty into a dramatic military experience."
+    },
+    {
+      "narrative": "The pension was often more important than the service",
+      "description": "For many War of 1812 families, the bounty land warrant and the pension had more impact on family economics and geography than the service itself. A 160-acre bounty land warrant — whether settled or sold for cash — was a significant economic asset. Pensions, though modest, provided income to aged veterans and widows for decades. Some families' primary connection to the War of 1812 is not the service but the pension file and the bounty land warrant that shaped their post-war decisions. The genealogical value of the pension file almost always exceeds the value of the service record."
+    },
+    {
+      "narrative": "The war's greatest domestic consequence was Native dispossession",
+      "description": "The War of 1812 effectively ended organized Native military resistance east of the Mississippi. The defeat of Tecumseh's confederation in the Northwest and the Creek Red Sticks in the South opened millions of acres to American settlement. The Treaty of Fort Jackson (1814), the Treaty of Ghent's failure to protect Native allies, and the post-war campaigns against remaining resistance produced the conditions that made Indian Removal (1830s) possible. Veterans who received bounty land warrants were direct beneficiaries of this dispossession."
+    }
+  ],
+  "material_life_refs": [
+    {
+      "profile_id": "frontier_log_cabin_1780_1840",
+      "relevance": "The material life context for most War of 1812 veterans, particularly in Kentucky, Tennessee, Ohio, and the Carolina backcountry. The frontier farm economy defined both what men left when they mustered and what they returned to."
+    }
+  ],
+  "community_texture_refs": [
+    {
+      "texture_id": "eastern_nc_farm_community",
+      "relevance": "Origin community context for North Carolina militia veterans, including Cumberland County where Daniel Canady served. The eastern NC farm community provided the militia companies that defended the Cape Fear coast."
+    },
+    {
+      "texture_id": "shenandoah_valley_farm_community",
+      "relevance": "Origin community context for Virginia militia veterans from the Valley, a region with a strong militia tradition dating to the colonial era."
+    }
+  ],
+  "seasonal_departure_pattern": "Militia mobilization was driven by military need rather than seasonal cycles, but most major call-ups occurred in spring and summer when roads were passable and campaign season was open. Short-term militia was typically mustered for 3-6 month terms — a man called up in spring might serve through summer and return for the fall harvest. The Treaty of Ghent (December 1814) and the Battle of New Orleans (January 1815) ended active service, with demobilization proceeding through the spring of 1815.",
+  "gender_pattern": "Military service was exclusively male. Women maintained farms, households, and local economies during men's absence. Because most militia service was brief, the domestic disruption was less severe than in longer conflicts. Widow pension applications — filed decades after the war by aging or impoverished widows — document women's economic circumstances and often contain the most detailed biographical information about both the veteran and the surviving spouse. Some War of 1812 widow pensions were still being paid in the early 1900s.",
+  "source_references": [
+    {
+      "author": "Donald R. Hickey",
+      "title": "The War of 1812: A Forgotten Conflict",
+      "year": 1989,
+      "publisher": "University of Illinois Press",
+      "relevance": "The standard modern history of the War of 1812. Comprehensive coverage of military operations, politics, and the war's consequences. Revised edition (2012) incorporates subsequent scholarship."
+    },
+    {
+      "author": "J.C.A. Stagg",
+      "title": "Mr. Madison's War: Politics, Diplomacy, and Warfare in the Early American Republic, 1783-1830",
+      "year": 1983,
+      "publisher": "Princeton University Press",
+      "relevance": "Political and diplomatic analysis of the war's origins and conduct, with particular attention to the mobilization challenges that shaped militia and regular army service."
+    },
+    {
+      "author": "National Archives and Records Administration",
+      "title": "Guide to Records Relating to the War of 1812",
+      "year": 1999,
+      "publisher": "NARA",
+      "relevance": "Essential reference for locating War of 1812 records across NARA record groups, including service records (RG 94), pension files (RG 15), bounty land warrant files (RG 49), and naval records (RG 45). Documents the gaps created by record losses in 1814 and 1973."
+    },
+    {
+      "author": "Alan Taylor",
+      "title": "The Civil War of 1812: American Citizens, British Subjects, Irish Rebels, and Indian Allies",
+      "year": 2010,
+      "publisher": "Alfred A. Knopf",
+      "relevance": "Revisionist history emphasizing the war's civil dimensions — divided loyalties, border-crossing, and the contested meaning of American citizenship. Particularly useful for understanding why some Americans resisted the war while others embraced it."
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "_purpose": "Regional migration trigger — NC Civil War veteran settlement and displacement patterns. Western NC mountains were deeply divided during the war, with strong Unionist sentiment in many mountain counties. Post-war settlement patterns were shaped by wartime loyalties, political violence, and economic devastation. This is NOT simply 'veterans move west' — it is about where veterans settled (or stayed) based on the inner civil war of Appalachian North Carolina.",
+  "migration_id": "nc_civil_war_veteran_settlement",
+  "display_name": "NC Civil War Veteran Settlement and Displacement",
+  "short_description": "Between 1865 and 1900, North Carolina Civil War veterans — both Confederate and Union — navigated post-war settlement shaped by wartime loyalties, political violence, and economic devastation. In the mountains of Western NC, where neighbor had fought neighbor and over 2,000 men served in Union armies, the war's end did not bring peace. Some Union veterans faced retaliation. Some Confederate veterans returned to ruined farms. The settlement pattern that emerged was not a simple westward march but a complex sorting driven by loyalty, kinship, and survival.",
+  "era": "1865-1900",
+  "estimated_scale": "Tens of thousands of NC veterans returned from both armies. Over 2,000 Western NC men served in Union forces (primarily 2nd and 3rd NC Mounted Infantry). Exact post-war displacement figures are undetermined, but census comparisons 1860-1880 show significant population shifts in mountain counties, and Tennessee/Kentucky border counties gained NC-born residents.",
+  "involuntary": false,
+  "migration_class": "military",
+  "coercion_note": "While technically voluntary, many veterans — particularly Unionists in Confederate-majority areas and Confederates returning to devastated farms — faced circumstances that made relocation a matter of physical safety or economic survival rather than free choice.",
+  "regional_scope": {
+    "state": "North Carolina",
+    "counties_of_origin": [
+      "Ashe NC", "Watauga NC", "Mitchell NC", "Yancey NC", "Madison NC",
+      "Buncombe NC", "Henderson NC", "Polk NC", "Cherokee NC",
+      "Caldwell NC", "Wilkes NC", "Surry NC", "Yadkin NC",
+      "Randolph NC", "Chatham NC", "Moore NC",
+      "Alamance NC", "Caswell NC", "Orange NC"
+    ],
+    "counties_of_destination": [
+      "Same mountain counties (for those who stayed)",
+      "Carter TN", "Johnson TN", "Sullivan TN", "Washington TN",
+      "Letcher KY", "Pike KY", "Floyd KY",
+      "Further west (Indiana, Kansas, Missouri — for those who left entirely)"
+    ],
+    "notes": "This is not a single-direction migration. Many veterans stayed exactly where they were. The pattern is about WHO stayed and WHO left, sorted by wartime loyalty, economic condition, and exposure to political violence."
+  },
+  "trigger_type": "regional",
+  "parent_trigger_ref": "civil_war_displacement",
+  "phases": [
+    {
+      "phase_id": "immediate_aftermath",
+      "phase_name": "Immediate Aftermath and Return",
+      "date_range": "1865-1870",
+      "description": "Confederate veterans returned to farms stripped by both armies — fences burned, livestock taken, crops destroyed. Union veterans from Western NC returned to communities where their wartime loyalty was known and sometimes punished. Reconstruction politics brought federal occupation, loyalty oaths, and the Freedmen's Bureau. Violence against Unionists and freedpeople was documented in multiple mountain counties. The Shelton Laurel Massacre of January 1863 — in which Confederate soldiers executed 13 suspected Union sympathizers in Madison County, including boys as young as 13 — cast a long shadow. Families on both sides of that event still lived within miles of each other."
+    },
+    {
+      "phase_id": "reconstruction_settlement",
+      "phase_name": "Reconstruction and Selective Departure",
+      "date_range": "1870-1880",
+      "description": "Political realignment intensified pressure on Unionists. The Kirk-Holden War of 1870 — Governor Holden's deployment of militia under George Kirk to suppress Ku Klux Klan violence in Piedmont counties (Alamance and Caswell) — ended in Holden's impeachment and emboldened white supremacist Democrats statewide. In the mountains, Republicans (many of them Union veterans) lost political power as Reconstruction ended. Some Union veterans and their families left for Tennessee and Kentucky, where Unionist sympathies were mainstream. Others left for Indiana, Kansas, or Missouri. Confederate veterans who could not recover their farms also departed — but their destinations differed, trending south and west rather than into Union-sympathizer border states."
+    },
+    {
+      "phase_id": "post_reconstruction_stabilization",
+      "phase_name": "Post-Reconstruction Stabilization",
+      "date_range": "1880-1900",
+      "description": "Those who stayed through Reconstruction established multigenerational mountain families. Political divisions calcified into community identity — Republican mountain hollows and Democratic valley towns. Church membership, marriage patterns, and land transactions all followed wartime loyalty lines for decades. The families that remained became the deep-rooted Appalachian communities that persisted through the twentieth century. Mountain isolation — the same geography that made the region ungovernable during the war — provided insulation from the worst of post-Reconstruction political violence. By 1900, the veterans themselves were aging out, but the loyalties they had carried through the war shaped their grandchildren's political affiliations, marriage choices, and community standing."
+    }
+  ],
+  "push_factors": [
+    {
+      "factor_id": "farm_devastation",
+      "factor": "Post-war farm devastation",
+      "severity": 4,
+      "description": "Both armies foraged through Western NC — Stoneman's Raid (April 1865) destroyed infrastructure across the mountains in the war's final weeks. Farms were stripped of livestock, fences, and stored food. Mountain farms, already marginal on thin soils and steep terrain, required years to recover. Veterans who returned wounded or disabled could not perform the heavy labor required to rebuild. Confederate veterans had no federal assistance; Union veterans qualified for federal pensions but many mountain Unionists did not file immediately due to illiteracy or isolation.",
+      "date_range": "1865-1880",
+      "regional_scope": "Western NC mountain counties",
+      "narrative_hook": "When {ancestor_name} came home to {origin_county} in {year}, the fences were down, the hog was gone, and the corn crib was empty. Stoneman's cavalry had been through the valley that spring, and what they didn't take, the bushwhackers had. {ancestor_name} had {acres} acres of hillside and a family to feed, and nothing to start with but what {pronoun_subject} carried home from the war."
+    },
+    {
+      "factor_id": "confederate_pension_inadequacy",
+      "factor": "Confederate pension inadequacy in North Carolina",
+      "severity": 3,
+      "description": "North Carolina's Confederate pension system, established in 1885 (twenty years after the war), paid $15-$72 per year depending on disability classification — among the lowest rates in the former Confederacy. Virginia, South Carolina, and Georgia all paid more. Many disabled veterans who could not fully work their farms received pensions too small to hire replacement labor. The pension applications themselves, held at the NC State Archives, document disability, property, and family size in detail.",
+      "date_range": "1885-1900",
+      "regional_scope": "North Carolina statewide",
+      "narrative_hook": "{ancestor_name} filed for a Confederate pension in {year}, listing the wound from {battle} and a family of {family_size}. The state allowed ${pension_amount} per year — not enough to hire a man for a month, let alone a year. The pension papers tell us {pronoun_subject} owned {property_description} and could not {disability_detail}."
+    },
+    {
+      "factor_id": "anti_unionist_retaliation",
+      "factor": "Post-war retaliation against Union sympathizers",
+      "severity": 4,
+      "description": "In areas where Confederate sentiment dominated, Union veterans and their families faced ostracism, property destruction, and physical violence. In Piedmont counties (Alamance, Caswell, Orange), Ku Klux Klan activity in 1868-1870 targeted Republicans, freedpeople, and known Unionists. In the mountains, the retaliation was often personal rather than organized — a barn burned, livestock killed, fences cut. The memory of wartime atrocities (particularly the Shelton Laurel Massacre) created feuds that persisted for generations. Some Union veterans judged that staying was not safe and left for Tennessee or Kentucky.",
+      "date_range": "1865-1880",
+      "regional_scope": "Western NC mountain counties and NC Piedmont",
+      "narrative_hook": "{ancestor_name} had worn Union blue — the 2nd NC Mounted Infantry, mustered at Knoxville. Back in {origin_county} after the war, that uniform was not forgotten. When the barn burned in {year}, nobody was caught and nobody was surprised. The road to {destination} was safer than staying."
+    },
+    {
+      "factor_id": "political_marginalization",
+      "factor": "Post-Reconstruction political marginalization of Republicans",
+      "severity": 3,
+      "description": "After Reconstruction ended and Democrats regained control of state government, Republican Unionists in Western NC lost political voice. County offices, judgeships, and patronage positions shifted to Democrats. Union veterans who had held local office during Reconstruction found themselves politically irrelevant. The 1900 disfranchisement amendment, while primarily targeting Black voters, also signaled the permanent Democratic consolidation of power. For politically active Union veterans, the loss of political standing was an additional reason to relocate to states where Republican affiliation was normal.",
+      "date_range": "1877-1900",
+      "regional_scope": "Western NC and NC Piedmont",
+      "narrative_hook": "{ancestor_name} had served as {office} in {origin_county} during Reconstruction — a Republican, a Union veteran, and a man with enemies. When the Democrats took back the courthouse in {year}, {pronoun_subject} was out and the men who had stayed home during the war were in. By {departure_year}, {pronoun_subject} had sold the farm and taken the family to {destination}."
+    },
+    {
+      "factor_id": "mountain_land_limitations",
+      "factor": "Inability to support large families on mountain land",
+      "severity": 3,
+      "description": "Western NC mountain farms were small, steep, and rocky. Thin soils on steep grades limited productive acreage. A 100-acre mountain farm might have 15-20 cultivable acres — the rest was forest, rock, and slope too steep to plow. Veterans who returned to large families (5-8 children was common) could not subdivide mountain land further without creating parcels too small to feed anyone. The arithmetic of mountain farming drove younger sons and disabled veterans toward departure.",
+      "date_range": "1865-1900",
+      "regional_scope": "Western NC mountain counties: Ashe, Watauga, Mitchell, Yancey, Madison, Buncombe, Henderson",
+      "narrative_hook": "{ancestor_name} had {acres} acres on the side of {mountain_name} in {origin_county}. Half of it a goat couldn't climb. With {child_count} children to feed and the war wound that kept {pronoun_object} from the heavy work, the land wasn't enough. It had never been enough — but before the war, {pronoun_subject} hadn't known that."
+    }
+  ],
+  "pull_factors": [
+    {
+      "factor_id": "family_land",
+      "factor": "Family land and generational attachment",
+      "description": "For those who stayed, the most powerful pull factor was the land itself — cleared by grandparents, worked for generations, containing the family graveyard. Mountain families had a fierce attachment to their land that transcended economic calculation. The farm might not support the family, but it was THEIR farm. This pull factor was strongest for eldest sons who inherited the homeplace and weakest for younger sons who would receive marginal parcels.",
+      "narrative_hook": "{ancestor_name}'s grandfather had cleared that land in {origin_county} when there was nothing there but trees and Cherokee trails. Three generations of {family_name} dead were buried on the hill above the house. Leaving meant leaving them too. {ancestor_name} stayed."
+    },
+    {
+      "factor_id": "church_community",
+      "factor": "Church community and spiritual ties",
+      "description": "Mountain churches — Baptist, Methodist, Presbyterian — were the center of community life. Church membership represented belonging, mutual aid, and social identity. For veterans who had survived the war, the church community provided what we might now call support networks. Leaving the church community meant starting over as a stranger. Many veterans stayed specifically because the church was where they could be known and supported.",
+      "narrative_hook": "{ancestor_name} had been a member of {church_name} in {origin_county} since before the war. The congregation had prayed for {pronoun_object} while {pronoun_subject} was gone and welcomed {pronoun_object} back when {pronoun_subject} returned. The land might not feed the family, but the church fed something else."
+    },
+    {
+      "factor_id": "kinship_networks",
+      "factor": "Extended kinship networks in mountain communities",
+      "description": "Western NC mountain communities were deeply intermarried — three or four surnames might account for most of a township's population. A veteran's support network included not just immediate family but cousins, in-laws, and neighbors who were often also relatives. This kinship web provided mutual aid (barn raisings, shared labor, food sharing in hard times) that partly compensated for economic hardship. Leaving meant abandoning a support network that could not be replicated elsewhere.",
+      "narrative_hook": "In {township}, {origin_county}, you couldn't throw a rock without hitting a {family_name} or a {related_family}. {ancestor_name}'s mother was a {maiden_name}, {pronoun_possessive} wife was a {wife_family}, and half the men {pronoun_subject} served with were cousins. That web of kin was worth more than any pension or any acre of better land somewhere else."
+    },
+    {
+      "factor_id": "mountain_isolation_as_protection",
+      "factor": "Mountain isolation provided protection from political violence",
+      "description": "The same geography that made Western NC ungovernable during the war — steep mountains, narrow valleys, poor roads — provided a measure of protection from post-war political violence. Ku Klux Klan activity was most intense in the Piedmont flatlands (Alamance, Caswell, Orange counties) where roads were good and communities were accessible. In remote mountain hollows, organized violence was harder to carry out. A Union veteran in a remote hollow of Watauga County was safer than a Union veteran in Alamance County, simply because the geography made retaliation more difficult.",
+      "narrative_hook": "The hollow where {ancestor_name} lived in {origin_county} was three hours by mule from the nearest town. The Klan rode in Alamance and Caswell counties, where the roads were flat and the farms were close together. In the mountains, the terrain that made farming hard also made night riding harder. {ancestor_name} stayed — and the mountains kept {pronoun_object} safe."
+    }
+  ],
+  "transportation": {
+    "primary_mode": "Walking and wagon. Mountain roads were poor — many were little more than creek beds. Railroads did not reach most Western NC mountain counties until the 1880s-1890s (Western North Carolina Railroad reached Asheville in 1880).",
+    "route_refs": [],
+    "route_notes": "Veterans departing for Tennessee typically crossed at gaps along the Appalachian divide — Sams Gap (Madison County to Unicoi TN), Roan Mountain gap (Mitchell County to Carter TN), or through the French Broad valley. Those heading to Kentucky traveled north through Virginia or through the gaps of the Blue Ridge. The routes were ancient — the same paths used by drovers, Cherokee, and settlers before the war.",
+    "what_they_carried": "Household goods loaded on a wagon or mule. Tools, bedding, cookware, clothing, firearms. Veterans often carried their military discharge papers and (for Union men) pension documents. Family Bible. Seed stock and preserved food. Some drove a milk cow or a few hogs.",
+    "what_they_left_behind": "The homeplace — often sold to a neighbor or relative, sometimes abandoned. Family graveyards on the home property. Church membership. The community of kin. For Union veterans leaving Confederate-majority areas, they left behind the graves of men who had been killed by their own neighbors.",
+    "cost_of_travel": "Low in cash terms — the journey to Tennessee or Kentucky border counties was 30-80 miles through mountain terrain, requiring 2-5 days by wagon. No railroad fare required for most routes until the 1880s. The cost was social: severance from the kinship network.",
+    "seasonal_departure_pattern": "Departures concentrated in spring (March-April) after ground thawed and before planting committed the family to another year on the farm, or in fall (October-November) after harvest when the year's inadequacy was confirmed."
+  },
+  "origin_counties": [
+    "Ashe NC", "Watauga NC", "Mitchell NC", "Yancey NC", "Madison NC",
+    "Buncombe NC", "Henderson NC", "Polk NC", "Cherokee NC",
+    "Caldwell NC", "Wilkes NC", "Surry NC", "Yadkin NC",
+    "Randolph NC", "Chatham NC", "Moore NC",
+    "Alamance NC", "Caswell NC", "Orange NC"
+  ],
+  "counties_most_affected": [
+    "Madison NC", "Mitchell NC", "Yancey NC", "Watauga NC", "Ashe NC"
+  ],
+  "destination_refs": [],
+  "origin_community_refs": ["western_nc_mountain_community", "nc_piedmont_community"],
+  "chain_migration": {
+    "pattern": "kinship_chain_and_loyalty_network",
+    "description": "Post-war migration from Western NC was organized along wartime loyalty lines. Union veterans who left for Tennessee or Kentucky followed kinship chains into communities where other Unionists had already settled — often the same communities that had sheltered refugees during the war. Carter County and Johnson County, Tennessee, received significant numbers of NC Union veterans because those counties had been Union strongholds during the war. Confederate veterans who left tended to follow different networks — moving south to lower elevations in the Piedmont or west along Confederate veteran networks.",
+    "gender_pattern": "Entire families migrated. Women's wartime experience — managing farms alone, hiding from bushwhackers, feeding both armies — had given mountain women extraordinary survival skills and, in many cases, strong opinions about whether to stay or go. In some documented cases, it was the wife who insisted on leaving after wartime violence made the community intolerable. Women's kinship ties (to their birth families) sometimes determined direction: a wife from a Tennessee family might pull the family toward her people rather than her husband's.",
+    "narrative_hook": "{ancestor_name}'s cousin {relative_name} had already gone to {destination_county} in {year} and written back that the land was better and nobody asked which side you'd been on. When {ancestor_name} loaded the wagon in {departure_year}, {pronoun_subject} knew where {pronoun_subject} was going — to kin who had already made the crossing."
+  },
+  "what_happened_to_those_who_stayed": "The majority of Western NC veterans stayed. Those who stayed rebuilt their farms, rejoined their churches, and established the multigenerational mountain families that define Appalachian NC. Political divisions from the war persisted for generations — Republican mountain counties (Madison, Mitchell, Watauga) remained Republican through the twentieth century, a direct legacy of wartime Unionism. Marriage patterns followed loyalty lines: families that had been Union tended to marry families that had been Union. The Shelton Laurel Massacre was not discussed publicly in Madison County for over a century — the silence itself was a form of community survival. Those who stayed chose continuity over justice, and the price of that choice shaped mountain culture permanently.",
+  "record_implications": {
+    "confederate_pensions": "NC Confederate pension applications (NC State Archives) document disability, property, family size, and economic condition. Filed beginning 1885. Classified by disability grade (1st through 4th class). Even if the ancestor was not the veteran, the veteran's application describes the entire household's circumstances. Search by veteran's name at the NC State Archives online catalog.",
+    "union_pensions": "Union pension files (NARA, Washington DC) are far more detailed than Confederate pensions — they include military service records, disability examinations, witness testimony from fellow soldiers, and (for widows' pensions) marriage documentation. NC Union veterans who filed are documented in the 2nd NC Mounted Infantry, 3rd NC Mounted Infantry, and other Union units recruited from NC. Pension files often run 50-100+ pages and constitute the most detailed biographical source for mountain Unionists.",
+    "adjutant_general_records": "NC Adjutant General records document both Confederate and Union enlistments from NC. Compiled service records (NARA) show unit, rank, enlistment/discharge dates, and casualty information. For Confederate soldiers, also check NC Troops, 1861-1865: A Roster (published multi-volume set, NC State Archives) for detailed unit histories.",
+    "county_deed_books": "County deed books for 1865-1880 reveal who sold out and left versus who stayed. A veteran who sold his land within five years of the war's end is likely departing. Cross-reference the buyer's name — if it's a neighbor from the opposite wartime faction, the sale may indicate forced departure. Deeds also reveal land consolidation patterns as departing families sold to those who remained.",
+    "county_court_records": "County court records (Superior Court and County Court) document post-war violence, property disputes, and contested estates. Assault cases, arson charges, and livestock theft complaints in the 1865-1880 period often reflect wartime grudges continuing into peacetime. These records are held at county courthouses and at the NC State Archives.",
+    "church_records": "Baptist and Methodist church records document membership, discipline, and transfers. A veteran who was 'excluded' or 'dismissed' from a mountain church may have been forced out by the opposing faction. Transfer letters to Tennessee or Kentucky churches confirm migration destination and timing."
+  },
+  "counter_narratives": [
+    {
+      "narrative_id": "not_all_mountaineers_unionist",
+      "title": "Not all Western NC mountaineers were Unionists",
+      "description": "The popular narrative of Appalachian Unionism oversimplifies a complex reality. Many Western NC mountain men served the Confederacy loyally — the 25th NC Infantry, 29th NC Infantry, and 64th NC Infantry were recruited heavily from mountain counties. Thomas's Legion (69th NC Infantry) included Cherokee soldiers fighting for the Confederacy. Unionism was strongest in specific communities and families, not universal across the mountains. Confederate service in the mountains was driven by kinship, local leadership, and the same community pressures that drove Unionism elsewhere.",
+      "narrative_hook": "Not every man in {origin_county} wore blue. {ancestor_name} served the Confederacy in the {unit} — not because {pronoun_subject} owned slaves (mountain families rarely did) but because {pronoun_possessive} father had joined, or the neighbors had, or the recruiter came to the church on Sunday and the men who didn't sign up were noticed."
+    },
+    {
+      "narrative_id": "not_all_veterans_traumatized",
+      "title": "Not all veterans were permanently damaged by the war",
+      "description": "While the war's physical and psychological toll was severe, many veterans returned and adapted effectively. They rebuilt farms, held office, raised families, and contributed to community recovery. The narrative of universal veteran trauma, while containing much truth, can erase the resilience and agency of men who survived the war and built productive post-war lives. Some veterans thrived precisely because the war had taught them skills — leadership, organization, risk assessment — that served them in peacetime.",
+      "narrative_hook": "{ancestor_name} came home from the war to {origin_county} and got to work. {pronoun_subject} rebuilt the fences, replanted the orchard, married {spouse_name} in {marriage_year}, and raised {child_count} children. The war had taught {pronoun_object} how to survive on nothing — and {pronoun_subject} applied that lesson to the farm."
+    },
+    {
+      "narrative_id": "violence_not_universal",
+      "title": "Political violence was not universal — some communities healed",
+      "description": "Post-war violence between Unionists and Confederates was real and documented, but it was not universal across Western NC. Some communities managed the transition with relative peace. Church mediation, intermarriage between opposing families, and the practical demands of mountain survival forced reconciliation in many places. The communities that healed are as historically significant as the communities that didn't — they represent a path that was available but not always taken.",
+      "narrative_hook": "In {township}, {origin_county}, the war had put men on opposite sides — but the mountains put them back together. {family_name_1} had worn gray and {family_name_2} had worn blue, and after the war they still shared the same creek, the same church, and eventually the same grandchildren. Not every community chose blood over survival."
+    }
+  ],
+  "source_references": [
+    {
+      "source_id": "inscoe_mckinney_2000",
+      "citation": "Inscoe, John C., and Gordon B. McKinney. The Heart of Confederate Appalachia: Western North Carolina in the Civil War. Chapel Hill: University of North Carolina Press, 2000.",
+      "relevance": "Definitive study of Western NC during the Civil War, documenting the internal divisions, Unionist and Confederate service, and post-war consequences in mountain communities."
+    },
+    {
+      "source_id": "crawford_2001",
+      "citation": "Crawford, Martin. Ashe County's Civil War: Community and Society in the Appalachian South. Charlottesville: University Press of Virginia, 2001.",
+      "relevance": "Detailed community-level study of how a single mountain county was divided by the war, with extensive documentation of enlistment patterns, desertion, bushwhacking, and post-war settlement."
+    },
+    {
+      "source_id": "paludan_1981",
+      "citation": "Paludan, Phillip Shaw. Victims: A True Story of the Civil War. Knoxville: University of Tennessee Press, 1981.",
+      "relevance": "Account of the Shelton Laurel Massacre (January 1863, Madison County) — the execution of 13 suspected Union sympathizers by Confederate troops. Essential for understanding the depth of internal conflict in Western NC and its post-war consequences."
+    },
+    {
+      "source_id": "bynum_2001",
+      "citation": "Bynum, Victoria E. The Free State of Jones: Mississippi's Longest Civil War. Chapel Hill: University of North Carolina Press, 2001.",
+      "relevance": "Comparative framework for understanding Southern Unionist communities. While focused on Mississippi, the analytical framework applies directly to Western NC mountain Unionism."
+    },
+    {
+      "source_id": "nc_troops_roster",
+      "citation": "Manarin, Louis H., and Weymouth T. Jordan, eds. North Carolina Troops, 1861-1865: A Roster. Multiple volumes. Raleigh: NC Division of Archives and History, 1966-2003.",
+      "relevance": "Comprehensive roster of NC Confederate soldiers with unit histories, enlistment records, and casualty information. Essential for identifying which ancestors served and in which units."
+    },
+    {
+      "source_id": "nara_union_pensions",
+      "citation": "National Archives and Records Administration. Civil War Pension Files, Record Group 15. Washington, DC.",
+      "relevance": "Union pension files for NC soldiers are among the most detailed biographical sources available — often 50-100+ pages including military service, disability examinations, witness testimony, and family documentation."
+    }
+  ]
+}

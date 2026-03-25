@@ -1,0 +1,264 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-17",
+  "_purpose": "Material life profile for antebellum yeoman farm families, 1820-1860. Describes the physical reality of daily life for non-slaveholding white families farming 50-200 acres in the Upper South and Piedmont. These families — the majority of white Southerners — owned no enslaved people, grew subsistence crops with a small cash crop, and worked their own land with their own hands. This is the domestic world most KinLore users' Southern ancestors actually inhabited.",
+  "material_life_id": "antebellum_yeoman_farm_1820_1860",
+  "display_name": "Antebellum Yeoman Farm Life, 1820-1860",
+  "era": "1820-1860",
+  "region": "Upper South and Piedmont — Virginia, North Carolina, Tennessee, Kentucky, northern Georgia/Alabama",
+  "population": "Non-slaveholding white yeoman farm families. 50-200 acres, subsistence farming with small cash crop (tobacco, cotton, or grain). Typically 5-8 children. These families represent the majority of white Southerners — roughly two-thirds of white families in the antebellum South held no enslaved people. They are the 'plain folk' of Southern history and the ancestors most likely to appear in KinLore user research.",
+  "economic_position": {
+    "positions": ["landowner", "tenant", "landless_laborer", "marginal"],
+    "default_position": "landowner",
+    "position_guidance": {
+      "landowner": "This is the file's default framing. The ancestor owned their land, worked it themselves, and appeared in deed books and tax rolls. No adjustment needed.",
+      "tenant": "Adjust framing: the ancestor worked someone else's land for a share of the crop or a cash rent. They do NOT appear in deed records. Their material life was similar but more precarious — the dogtrot house and detached kitchen belonged to the landlord. The general store ledger is more important because tenant families had less garden space and less food self-sufficiency. Use tax rolls (poll tax) rather than property tax to locate them.",
+      "landless_laborer": "Significant adjustment needed. The ancestor owned no land and worked for daily wages on others' farms. Material life was substantially worse: a one-room cabin, not the two-room dogtrot described here. Fewer household goods, no livestock of their own, no deed records. They appear in census records as 'laborer' with $0 real estate. The estate inventory details in this file do not apply — a landless laborer's estate might consist of a bed, a pot, and an axe.",
+      "marginal": "The ancestor existed at the margins of the yeoman economy — a squatter on unpatented land, a widow farming a dower tract, or a family on less than 20 acres of exhausted soil. Material conditions were closer to frontier subsistence than to the established yeoman farm described here. Records are thin: no deeds if squatting, minimal tax records, possibly no church membership. Census occupation may say 'farmer' but census wealth columns (1850-1870) will show the truth."
+    },
+    "narrative_hooks": {
+      "landowner": "The {property_acres} acres {ancestor_name} owned in {county} placed {pronoun_object} squarely in the yeoman class — not wealthy, not poor, but anchored to the land by a deed recorded at the courthouse.",
+      "tenant": "The land {ancestor_name} worked in {county} belonged to someone else. The census says 'farmer,' but the deed books say nothing — because tenant farmers left no trace in property records. The material life was the same cornbread and salt pork, the same dogtrot cabin, but nothing was theirs.",
+      "landless_laborer": "{ancestor_name} appears in the {year} census as a laborer with no real estate — one of the landless whites who made up perhaps a third of the Southern rural population but who owned nothing that would generate a record beyond the census itself.",
+      "marginal": "The {property_acres} acres {ancestor_name} held in {county} were not enough. Below 50 acres of Piedmont clay, a family could not feed itself and produce a cash crop. The arithmetic of marginal farming was simple: too little land, too many children, too much debt at the general store."
+    }
+  },
+  "trigger_refs": ["civil_war_displacement", "antebellum_yeoman_south", "stayed_and_adapted"],
+
+  "sections": {
+    "housing": {
+      "narrative": "The yeoman farmhouse was a step above the frontier cabin but far below the planter's columned house. By the 1820s-1840s, most established yeoman families lived in frame or hewn-log houses of two to four rooms, often with a loft for sleeping children. The dogtrot plan — two rooms separated by an open breezeway — was common in warmer areas of the Piedmont and Upper South, providing ventilation in summer. Outbuildings were as important as the house itself: a detached kitchen (to keep heat and fire risk away from the main structure), a smokehouse for curing pork, a springhouse for keeping dairy cool, and a corncrib.",
+      "details": [
+        {
+          "item": "Log or frame construction",
+          "description": "Earlier houses (1820s-1830s) were typically hewn-log construction with daubed chinks. By the 1840s-1850s, sawn-lumber frame houses became more common as local sawmills multiplied. Both types sat on stone piers, not full foundations. Floors were puncheon (split logs, flat side up) in older houses, sawn plank in newer ones. Most had a single stone or brick chimney at one end.",
+          "source": "Owsley, Frank Lawrence. 'Plain Folk of the Old South.' LSU Press, 1949."
+        },
+        {
+          "item": "Dogtrot and saddlebag plans",
+          "description": "The dogtrot (two pens separated by an open breezeway under a continuous roof) and saddlebag (two pens sharing a central chimney) were the dominant house types for yeoman families in the Upper South. The open breezeway of the dogtrot served as a workspace, dining area, and sleeping porch in warm months. As families prospered, they enclosed the breezeway to create a central hall.",
+          "source": "Jordan, Terry G. and Matti Kaups. 'The American Backwoods Frontier.' Johns Hopkins, 1989."
+        },
+        {
+          "item": "Detached kitchen and outbuildings",
+          "description": "Cooking was done in a separate kitchen building 15-30 feet from the house — a practical measure against fire and summer heat. The smokehouse (a small, tight log structure) was essential for preserving the family's annual pork supply. A springhouse over a cool-water spring kept milk, butter, and eggs from spoiling. These outbuildings, along with the corncrib, hen house, and necessary (privy), made the farmstead a cluster of small structures rather than a single building.",
+          "source": "Bolton, Charles C. 'Poor Whites of the Antebellum South.' Duke UP, 1994."
+        },
+        {
+          "item": "Windows and lighting",
+          "description": "Glass windows were a marker of relative prosperity. Poorer yeoman houses had wooden shutters over openings; more prosperous families had small-pane glass windows by the 1840s. Interior lighting was by tallow candle or grease lamp (a wick floating in animal fat). Firelight was the primary source of illumination after dark. Most families rose and retired with the sun to conserve candles.",
+          "source": "Cecil-Fronsman, Bill. 'Common Whites: Class and Culture in Antebellum North Carolina.' UP of Kentucky, 1992."
+        }
+      ]
+    },
+
+    "food_and_cooking": {
+      "narrative": "The yeoman diet was built on corn and pork — cornbread in every form (hoecake, ashcake, dodger, pone) and salt pork or bacon at nearly every meal. But yeoman families with established farms had more variety than frontier settlers: kitchen gardens produced beans, peas, squash, sweet potatoes, and greens. Orchards yielded apples, peaches, and pears. Chickens provided eggs, and a milk cow supplied dairy. Women managed the entire food system, from garden to table to preservation, and the quality of a family's food was understood as a direct reflection of the woman's skill and labor.",
+      "details": [
+        {
+          "item": "Corn as dietary staple",
+          "description": "Corn appeared at every meal in multiple forms: cornbread (baked in a dutch oven or on a hoe blade over coals), hominy (corn kernels soaked in lye water), grits (coarsely ground corn), cornmeal mush, and corn pone. Wheat flour was a luxury item purchased at the general store; biscuits were for Sunday dinner or company. Corn was also fed to livestock and distilled into whiskey, making it the single most important crop on the yeoman farm.",
+          "source": "Hilliard, Sam B. 'Hog Meat and Hoecake: Food Supply in the Old South.' Southern Illinois UP, 1972."
+        },
+        {
+          "item": "Pork preservation and the annual hog killing",
+          "description": "Hog killing after the first hard freeze (November-December) was the most important food event of the year. Families cooperated with neighbors to slaughter, butcher, and process 3-6 hogs per family. Hams and shoulders were salted and smoked in the smokehouse for 4-6 weeks. Side meat was salt-cured in barrels. Lard was rendered and stored in crocks. Sausage was ground, seasoned, and stuffed into casings. Nothing was wasted — head cheese, chitlins (intestines), and cracklins (rendered skin) were all consumed.",
+          "source": "Hilliard, Sam B. 'Hog Meat and Hoecake.' Southern Illinois UP, 1972."
+        },
+        {
+          "item": "Kitchen garden and preserving",
+          "description": "The kitchen garden was the woman's domain and the family's hedge against monotony and malnutrition. Common crops: pole beans, field peas (cowpeas), sweet potatoes, turnips, cabbage, squash, onions, and peppers. Preserving methods included drying (beans strung on thread as 'leather britches'), salt brining (sauerkraut, pickled beans), and cooking down (apple butter simmered for hours in a copper kettle). Sorghum molasses — boiled from the juice of sorghum cane at a community sorghum mill — was the primary sweetener.",
+          "source": "Owsley, Frank Lawrence. 'Plain Folk of the Old South.' LSU Press, 1949."
+        },
+        {
+          "item": "Cooking equipment and methods",
+          "description": "Cooking was done over an open hearth in the detached kitchen, using cast-iron pots, skillets, and dutch ovens. The dutch oven — a heavy iron pot with a flanged lid to hold coals on top — was the most versatile piece of cookware, used for baking cornbread, roasting meat, and stewing beans. Iron cooking pots were among the most valuable items in estate inventories. A family might own two or three iron vessels, a long-handled frying pan, and a coffee pot.",
+          "source": "Hess, Karen. 'The Carolina Rice Kitchen.' University of South Carolina Press, 1992."
+        }
+      ]
+    },
+
+    "clothing": {
+      "narrative": "In the 1820s, most yeoman clothing was homespun — women carded, spun, and wove cotton or wool into cloth, then cut and sewed the family's garments. By the 1840s-1850s, factory-made cloth from New England and English mills became available through general stores, and homespun declined rapidly among families who could afford store-bought fabric. Work clothes were simple and durable; Sunday clothes were carefully maintained and socially significant. A family's Sunday appearance at church was a public statement of their economic standing.",
+      "details": [
+        {
+          "item": "Homespun to store-bought transition",
+          "description": "The shift from homespun to purchased cloth was one of the most significant material changes of this era. In the 1820s, nearly every yeoman household had a spinning wheel and many had a loom. By the 1850 census, far fewer households reported home textile production. Store-bought calico (for women's dresses) and jeans cloth (a twilled cotton-wool blend for men's trousers) were cheaper and more comfortable than homemade fabric. The spinning wheel became a backup for hard times rather than a daily tool.",
+          "source": "Hahn, Steven. 'The Roots of Southern Populism.' Oxford, 1983."
+        },
+        {
+          "item": "Men's work and Sunday clothing",
+          "description": "Workday clothing for men: a linen or cotton shirt, trousers of jeans cloth or homespun, suspenders (belts were uncommon), and a broad-brimmed hat. No underwear as a modern person would recognize — a long shirt served the purpose. Sunday clothing: a better-quality shirt, darker trousers, a waistcoat (vest), and a coat if the family could afford one. Men owned one pair of shoes or boots, worn only in cold weather; barefoot was normal from spring through fall.",
+          "source": "Cecil-Fronsman, Bill. 'Common Whites.' UP of Kentucky, 1992."
+        },
+        {
+          "item": "Women's clothing",
+          "description": "Women wore a chemise (undergarment), one or two petticoats, and a dress of calico or homespun cotton. Sunbonnets were essential for fieldwork. Aprons were worn constantly and served as carrying pouches, pot holders, and hand towels. A woman might own two everyday dresses and one Sunday dress. Fabric was the single largest non-food purchase at the general store. Sewing was a universal female skill — women cut and sewed all family clothing, often without commercial patterns.",
+          "source": "Bolton, Charles C. 'Poor Whites of the Antebellum South.' Duke UP, 1994."
+        },
+        {
+          "item": "Shoes and footwear",
+          "description": "Shoes were made locally by a cobbler or by traveling shoemakers who visited farms on a seasonal circuit. A single pair of heavy leather brogans per person per year was standard. Children often went barefoot year-round except in the coldest months. Shoes were a significant expense — $1-2 per pair when a laborer earned $0.50-0.75 per day. Worn-out shoes were resoled repeatedly before being discarded.",
+          "source": "Owsley, Frank Lawrence. 'Plain Folk of the Old South.' LSU Press, 1949."
+        }
+      ]
+    },
+
+    "hygiene_and_health": {
+      "narrative": "Personal hygiene was constrained by the labor of hauling and heating water. Full baths were weekly at best, typically Saturday evening before Sunday church. Daily washing was face and hands at a basin. Health care was a combination of folk medicine, herb knowledge passed through women, and the occasional visit from an expensive country doctor. Epidemic diseases swept through communities with devastating regularity, and child mortality was a constant presence — most families buried at least one child before adulthood.",
+      "details": [
+        {
+          "item": "Water supply and sanitation",
+          "description": "Water came from a spring, a dug well, or a creek. The springhouse served double duty — cooling dairy products and providing the cleanest water on the farm. Outhouses (privies) were universal but often poorly located relative to water sources, contributing to waterborne illness. Lye soap — made annually from wood ash leached in a hopper and combined with rendered animal fat — was the only cleaning agent. It was harsh on skin and clothing alike.",
+          "source": "Bolton, Charles C. 'Poor Whites of the Antebellum South.' Duke UP, 1994."
+        },
+        {
+          "item": "Disease and epidemics",
+          "description": "The major killers were typhoid fever (from contaminated water), diphtheria (especially fatal to children), measles, whooping cough, scarlet fever, and malaria (in lowland areas). Cholera epidemics struck in 1832, 1849, and 1854. Tuberculosis (consumption) was endemic. There were no effective treatments for any of these diseases. Quinine (for malaria) was the only genuinely useful pharmaceutical available, and it was expensive.",
+          "source": "Savitt, Todd L. 'Medicine and Slavery.' University of Illinois Press, 1978. (Covers broader Southern medical environment.)"
+        },
+        {
+          "item": "Herb medicine and folk remedies",
+          "description": "Women maintained kitchen herb gardens and gathered wild medicinal plants: boneset tea for fever, sassafras tea as a spring tonic, poultices of comfrey or plantain for wounds, catnip tea for colicky infants, and whiskey with honey for coughs. Knowledge of medicinal plants was passed from mother to daughter and shared among neighbor women. Patent medicines became increasingly available through general stores by the 1840s-1850s, though most were alcohol-based nostrums of little medical value.",
+          "source": "Cavender, Anthony. 'Folk Medicine in Southern Appalachia.' UNC Press, 2003."
+        },
+        {
+          "item": "Childbirth and child mortality",
+          "description": "Childbirth was attended by neighbor women and a local midwife — a doctor was called only in emergencies, if one could be found and afforded. Women typically bore 5-8 children over their reproductive years. Infant and child mortality was staggering: estimates suggest 20-30% of children died before age five. Childhood deaths from diarrheal diseases, diphtheria, and accidents (burns, drowning, animal injuries) were so common that family graveyards on yeoman farms routinely contain more small markers than large ones.",
+          "source": "McMillen, Sally G. 'Motherhood in the Old South.' LSU Press, 1990."
+        }
+      ]
+    },
+
+    "transportation": {
+      "narrative": "The yeoman farmer's world was defined by the limits of horse and wagon travel on dirt roads. Most daily life occurred within a radius of five to ten miles from the farmstead. A trip to the county seat — perhaps fifteen to thirty miles — was an all-day affair requiring an overnight stay. Roads were unimproved dirt tracks that became impassable mud in wet weather. By the 1850s, the railroad was reaching into some areas of the Piedmont and Upper South, but for most yeoman families, the railroad was something they heard about rather than rode.",
+      "details": [
+        {
+          "item": "Roads and road conditions",
+          "description": "Roads were unimproved dirt — dusty in dry weather, axle-deep mud after rain. Bridges over smaller streams were rare; fording was standard. County courts were responsible for road maintenance and could conscript male citizens for road work duty (typically a few days per year), but the results were minimal. Plank roads (toll roads surfaced with sawn planks) were built in some areas of North Carolina and Virginia in the 1850s but deteriorated quickly.",
+          "source": "Hahn, Steven. 'The Roots of Southern Populism.' Oxford, 1983."
+        },
+        {
+          "item": "Horse, mule, and wagon",
+          "description": "A yeoman family typically owned one or two horses or mules (for plowing and riding) and a farm wagon. The wagon served every purpose: hauling crops to market, carrying the family to church, transporting supplies from the general store. A riding horse was a marker of yeoman status — the truly poor walked. Ox teams were still used for heavy hauling (log pulling, breaking new ground) through this entire period.",
+          "source": "Owsley, Frank Lawrence. 'Plain Folk of the Old South.' LSU Press, 1949."
+        },
+        {
+          "item": "Court day as travel occasion",
+          "description": "Quarterly court sessions at the county seat were the primary reason yeoman families traveled beyond their immediate neighborhood. Court day combined legal business (recording deeds, witnessing wills, answering lawsuits) with commercial activity (horse trading, livestock sales) and socializing (political speeches, tavern gatherings, catching up on news). The entire community converged on the county seat, making court day the closest thing to a town gathering that dispersed rural families experienced.",
+          "source": "Cecil-Fronsman, Bill. 'Common Whites.' UP of Kentucky, 1992."
+        },
+        {
+          "item": "Railroad arrives (1850s)",
+          "description": "By the 1850s, railroad lines were penetrating the Piedmont and Upper South — the Virginia and Tennessee Railroad, the North Carolina Railroad (Goldsboro to Charlotte), and branches into Tennessee and Kentucky. Railroad towns boomed; towns bypassed by the railroad stagnated. For yeoman families near a rail line, the railroad offered the first practical means of long-distance travel and the first reliable connection to distant markets. For families not near a rail line, it changed little about daily transportation.",
+          "source": "Majewski, John. 'A House Dividing: Economic Development in Pennsylvania and Virginia Before the Civil War.' Cambridge UP, 2000."
+        }
+      ]
+    },
+
+    "communication": {
+      "narrative": "Information traveled slowly in the yeoman world. News arrived through personal contact — at church on Sunday, at the general store, at court day, through travelers and peddlers passing through. County newspapers existed but required literacy and a subscription. Mail service was irregular and dependent on post offices that might be ten or twenty miles distant. The result was a world where local knowledge was deep and detailed but knowledge of distant events was fragmentary and delayed.",
+      "details": [
+        {
+          "item": "Church as information exchange",
+          "description": "The Sunday church gathering was the primary weekly information exchange for rural families. Before and after services, families shared news: who was sick, who had died, who had a new baby, whose crop was failing, who was thinking of moving west. Baptist churches formalized this through monthly 'business meetings' that recorded community events in church minutes. The preacher, who often served multiple churches on a circuit, carried news between communities.",
+          "source": "Owsley, Frank Lawrence. 'Plain Folk of the Old South.' LSU Press, 1949."
+        },
+        {
+          "item": "General store as gathering point",
+          "description": "The crossroads general store was the secular equivalent of the church as an information hub. Men gathered on the store porch to discuss politics, weather, crop prices, and local affairs. The storekeeper, who dealt with traveling salesmen and had business connections to town, was often the best-informed person in the community. Notices were posted on the store wall — advertisements, legal notices, reward posters, and announcements.",
+          "source": "Hahn, Steven. 'The Roots of Southern Populism.' Oxford, 1983."
+        },
+        {
+          "item": "County newspapers and literacy",
+          "description": "Most county seats had at least one weekly newspaper by the 1840s, publishing local news, legal notices, political commentary, and agricultural prices. But access required both literacy and a subscription fee. Literacy rates among yeoman whites in the Upper South were estimated at 70-80% for men and somewhat lower for women — meaning a significant minority could not read at all. Newspapers were often read aloud at the general store or passed from family to family.",
+          "source": "Cecil-Fronsman, Bill. 'Common Whites.' UP of Kentucky, 1992."
+        },
+        {
+          "item": "Mail and post offices",
+          "description": "Rural free delivery did not exist until 1896. Before that, mail was held at the nearest post office — which might be at a crossroads store, a tavern, or a private home miles away. Someone had to ride to the post office to collect mail, which might accumulate for weeks. Letter writing was an event, not a routine. Many yeoman families corresponded with relatives who had moved west, and these letters — when they survive — are among the most valuable genealogical documents for documenting kin networks and migration decisions.",
+          "source": "Hahn, Steven. 'The Roots of Southern Populism.' Oxford, 1983."
+        }
+      ]
+    },
+
+    "entertainment_and_social_life": {
+      "narrative": "Social life for yeoman families was inseparable from work and worship. The major social occasions — corn shuckings, hog killings, quilting bees, barn raisings — were communal labor events that combined necessary work with food, drink, music, and courtship. Church was both spiritual and social. Camp meetings in late summer were the closest thing to a vacation. Militia musters, required by law, had devolved into largely social occasions by the 1840s. Fiddle music, singing, and storytelling were the primary entertainment forms, requiring no purchased equipment.",
+      "details": [
+        {
+          "item": "Church and camp meetings",
+          "description": "Baptist and Methodist churches dominated yeoman social life. Sunday services were all-day affairs with dinner on the grounds between morning and afternoon preaching. Camp meetings — multi-day outdoor revival gatherings held in late summer — were the social highlight of the year. Families traveled miles to camp for a week on the meeting grounds, sleeping in tents or under wagons. Camp meetings combined intense religious experience with courtship, reunions with distant kin, and the rare chance to interact with hundreds of people at once.",
+          "source": "McCurry, Stephanie. 'Masters of Small Worlds.' Oxford, 1995."
+        },
+        {
+          "item": "Corn shuckings and communal work events",
+          "description": "Corn shuckings were the most festive of the communal work events. A farmer with a large corn harvest invited neighbors to help shuck (remove the husks). The corn pile was divided, teams competed, and the finder of a red ear won a prize (or a kiss). The host family provided a large supper and whiskey. Barn raisings, log rollings (clearing new ground), and quilting bees followed the same pattern: communal labor rewarded with food, drink, and socializing.",
+          "source": "Owsley, Frank Lawrence. 'Plain Folk of the Old South.' LSU Press, 1949."
+        },
+        {
+          "item": "Militia musters and court day entertainment",
+          "description": "State law required all adult white men to muster with the county militia several times per year. By the 1830s-1840s, actual military training was minimal — the musters had become social gatherings with drinking, horse racing, wrestling, shooting contests, and political speechmaking. Court day at the county seat offered similar entertainment along with horse trading, gambling, and tavern socializing. These male-dominated gatherings were important for building the political networks and personal loyalties that shaped county politics.",
+          "source": "Cecil-Fronsman, Bill. 'Common Whites.' UP of Kentucky, 1992."
+        },
+        {
+          "item": "Music, storytelling, and visiting kin",
+          "description": "The fiddle was the dominant instrument of yeoman social life, played at dances, corn shuckings, and family gatherings. Singing — hymns at church, ballads at home — was universal. Storytelling was both entertainment and education, transmitting family history, moral lessons, and practical knowledge across generations. Visiting extended family (kin who might live ten to fifty miles away) was a major social activity, typically involving overnight stays of several days. These kin visits reinforced the family networks that later facilitated migration decisions.",
+          "source": "Owsley, Frank Lawrence. 'Plain Folk of the Old South.' LSU Press, 1949."
+        }
+      ]
+    },
+
+    "household_goods": {
+      "narrative": "A yeoman household's possessions were few, durable, and functional. Estate inventories — the lists made when someone died and their property was appraised — reveal a material world of iron cookware, wooden furniture, basic tools, a few pieces of crockery, and bedding. The most valuable items were often the livestock and farm tools rather than household goods. A clock, a looking glass (mirror), or a set of matched dishes marked a family as prosperous. The family Bible was both a spiritual object and the family's primary record-keeping device, with births, marriages, and deaths inscribed on its pages.",
+      "details": [
+        {
+          "item": "Iron cookware and kitchen items",
+          "description": "Cast-iron pots, skillets, and dutch ovens were among the most valuable and durable household possessions — they appear in nearly every estate inventory and were specifically bequeathed in wills. A typical yeoman kitchen also contained: a coffee pot (tin or iron), a coffee grinder, wooden bowls and trenchers, a few pieces of stoneware or earthenware crockery, tin cups, iron forks and knives (no matching sets), a churn for butter making, and wooden buckets and piggins (small wooden pails with one extended stave as a handle).",
+          "source": "Owsley, Frank Lawrence. 'Plain Folk of the Old South.' LSU Press, 1949."
+        },
+        {
+          "item": "Furniture",
+          "description": "Furniture was locally made or homemade: a rope-strung bed frame with a feather mattress (or a straw-tick mattress for children and poorer families), a table, benches (chairs were a step up), a corner cupboard for crockery, a blanket chest, and perhaps a wardrobe or clothes press. Feather beds — mattresses stuffed with goose or chicken feathers — were luxury items that appear prominently in wills and estate divisions. A set of matched, store-bought chairs was a mark of prosperity.",
+          "source": "Bolton, Charles C. 'Poor Whites of the Antebellum South.' Duke UP, 1994."
+        },
+        {
+          "item": "Family Bible and clock",
+          "description": "The family Bible served as the household's birth, marriage, and death register — inscriptions in the family record pages are among the most important genealogical sources for this population. Bibles were expensive ($1-5, a significant sum) and treated with great care, often the only book in the house. A mantel clock was a status item that signaled prosperity and connection to the wider commercial world. Both items appear frequently in estate inventories and were carefully designated to specific heirs in wills.",
+          "source": "McCurry, Stephanie. 'Masters of Small Worlds.' Oxford, 1995."
+        },
+        {
+          "item": "Spinning wheel, loom, and textile tools",
+          "description": "In the 1820s-1830s, a spinning wheel was as essential as a plow — every household had one, and many had a loom. Wool cards (for combing raw wool), cotton cards, a hackle (for processing flax), and a reel (for winding yarn) completed the textile toolkit. By the 1850s, as store-bought cloth displaced homespun, spinning wheels and looms appear less frequently in estate inventories. Their decline marks the yeoman family's integration into the cash economy — and their increasing dependence on the general store.",
+          "source": "Hahn, Steven. 'The Roots of Southern Populism.' Oxford, 1983."
+        },
+        {
+          "item": "Candles, lamps, and household textiles",
+          "description": "Lighting came from tallow candles (molded at home from rendered animal fat) or grease lamps. Beeswax candles were better but scarcer. Household textiles included quilts (made from scraps and often the product of communal quilting bees), rag rugs (woven from torn strips of worn-out clothing), woven coverlets (a prized decorative item, sometimes professionally woven on commission), and linen or cotton sheets. Window curtains, if present at all, were simple calico or muslin.",
+          "source": "Cecil-Fronsman, Bill. 'Common Whites.' UP of Kentucky, 1992."
+        }
+      ]
+    }
+  },
+
+  "sensory_snapshot": "Woodsmoke hangs low over the farmstead in the early chill. The log smokehouse breathes a faint sweetness of salt-cured ham through its chinked walls. Beyond the split-rail fence, a kitchen garden stands in late-season disorder — bean poles leaning, squash vines browning, a few late cabbages still holding green. The detached kitchen is already warm, its stone chimney pulling a thread of smoke into the gray sky. An iron pot sits in the coals. Somewhere past the corncrib, an axe strikes hickory with a clean crack that carries across the hollow. A rooster announces himself from the rail fence. Dew darkens the packed-dirt yard between house and kitchen. The spinning wheel on the dogtrot porch is still, its flyer wound with half-finished thread. In the bottom field, corn shocks stand in rows like small brown tents, waiting for the wagon.",
+
+  "narrative_hooks": [
+    "The farm was not grand — a hewn-log house of two rooms with a sleeping loft, a detached kitchen, a smokehouse, and 120 acres of Piedmont red clay. But it was theirs, worked by their own hands, and that distinction mattered in a society that measured worth by land ownership and self-sufficiency.",
+    "What {ancestor_name} ate, wore, and owned can be read in estate inventories of neighbors who died in those years: three iron pots, a dutch oven, a spinning wheel, a feather bed, six pewter plates, a family Bible, and a mantel clock — the entire material world of a yeoman family, appraised at less than the value of two mules.",
+    "Saturday evening meant heated water in the washpot and the weekly bath — the children first, then the adults, the same water growing grayer with each use. Sunday morning meant the best clothes, the wagon ride to the Baptist church, and dinner on the grounds afterward. These were the rhythms that organized a life lived close to the limits of physical endurance.",
+    "The general store ledger tells the story of a family's year: seed corn and coffee in March, calico cloth and shoe leather in April, quinine and sugar in July, salt for the hog killing in November. Each entry marked 'on account' — against the crop that hadn't been harvested yet, at prices the family couldn't negotiate.",
+    "By the 1850s, the spinning wheel on the porch was gathering dust. Store-bought calico was cheaper than homespun, and {ancestor_name}'s wife could spend the hours she once gave to carding and spinning on the kitchen garden instead. The shift seemed like progress — until the crop failed and the general store was the only source of cloth, and cloth was only available on credit."
+  ],
+
+  "source_references": [
+    "Hahn, Steven. 'The Roots of Southern Populism: Yeoman Farmers and the Transformation of the Georgia Upcountry, 1850-1890.' Oxford University Press, 1983.",
+    "Bolton, Charles C. 'Poor Whites of the Antebellum South: Tenants and Laborers in Central North Carolina and Northeast Mississippi.' Duke University Press, 1994.",
+    "Cecil-Fronsman, Bill. 'Common Whites: Class and Culture in Antebellum North Carolina.' University Press of Kentucky, 1992.",
+    "Owsley, Frank Lawrence. 'Plain Folk of the Old South.' Louisiana State University Press, 1949.",
+    "McCurry, Stephanie. 'Masters of Small Worlds: Yeoman Households, Gender Relations, and the Political Culture of the Antebellum South Carolina Low Country.' Oxford University Press, 1995.",
+    "Hilliard, Sam B. 'Hog Meat and Hoecake: Food Supply in the Old South, 1840-1860.' Southern Illinois University Press, 1972.",
+    "McMillen, Sally G. 'Motherhood in the Old South: Pregnancy, Childbirth, and Infant Rearing.' Louisiana State University Press, 1990.",
+    "Cavender, Anthony. 'Folk Medicine in Southern Appalachia.' University of North Carolina Press, 2003.",
+    "Jordan, Terry G. and Matti Kaups. 'The American Backwoods Frontier: An Ethnic and Ecological Interpretation.' Johns Hopkins University Press, 1989."
+  ]
+}

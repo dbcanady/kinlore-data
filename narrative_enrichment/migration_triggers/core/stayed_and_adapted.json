@@ -1,0 +1,213 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-17",
+  "_design_note": "Non-migration trigger. This file uses standard push_factors/pull_factors field names (required by the cross-reference validator) but inverts the meaning: push_factors describe pressures to leave that the ancestor RESISTED, and pull_factors describe reasons to STAY. The primary content section is what_staying_looked_like rather than the sidebar what_happened_to_those_who_stayed found in other triggers.",
+  "migration_id": "stayed_and_adapted",
+  "display_name": "Stayed and Adapted — Non-Migration",
+  "short_description": "This trigger applies when the ancestor demonstrably did NOT migrate despite pressures on their community to do so. Many families in every era remained in place while neighbors, siblings, and entire congregations left. Staying was its own decision — sometimes a choice rooted in deep attachment to land and kin, sometimes a constraint imposed by poverty, obligation, or lack of options. The documentary trail of a stationary family looks fundamentally different from a migrating one: continuous deed chains, multi-generation cemeteries, unbroken church rolls, and tax lists that show the same surname decade after decade.",
+  "era": "All eras",
+  "estimated_scale": "Uncountable — in every migration wave, the majority of the affected population stayed behind",
+  "involuntary": false,
+  "migration_class": "non_migration",
+  "phases": [
+    {
+      "phase_id": "pressure_accumulation",
+      "phase_name": "Pressure Accumulation",
+      "date_range": "Varies by era and trigger",
+      "description": "The community experiences the same economic, environmental, or social pressures that drive others to migrate. Land subdivision reduces farm viability, soil exhaustion lowers yields, economic downturns contract opportunities, and family members begin to leave. The ancestor is exposed to the same pressures but does not act on them. Letters arrive from relatives who have moved west or to the city. Neighbors sell out. The church congregation thins.",
+      "narrative_hook": "While neighbors in {county} packed wagons and left for {destination}, {ancestor_name} stayed. The same pressures that pushed others out — {pressure} — were present on the {family_name} farm too. But staying was its own decision, and it left its own kind of documentary trail."
+    },
+    {
+      "phase_id": "adaptation",
+      "phase_name": "Adaptation in Place",
+      "date_range": "Varies by era and trigger",
+      "description": "The ancestor adapts to changed circumstances without relocating. This might involve shifting crops, taking up a trade or supplemental occupation, acquiring land from departing neighbors at reduced prices, intensifying family labor, or accepting a lower standard of living. The community itself changes around them as population thins and institutions contract. Adaptation is visible in records: crop changes in agricultural census schedules, new occupations in federal census records, land acquisitions in deed books as neighbors sell out cheaply.",
+      "narrative_hook": "The {family_name} family did not leave {county} — they adjusted. When {pressure_event} made the old way of farming unviable, {ancestor_name} {adaptation_action}. The deed books show the shift: land purchased from departing neighbors at prices that reflected the community's declining population."
+    },
+    {
+      "phase_id": "consolidation",
+      "phase_name": "Consolidation and Continuity",
+      "date_range": "Varies by era and trigger",
+      "description": "The ancestor emerges from the migration period as part of the remaining core community. Those who stayed often benefited from reduced competition for land, local political influence, and strengthened ties to remaining institutions. Family cemeteries accumulate generations. The surname becomes identified with the place itself. But consolidation could also mean isolation — a smaller community with fewer opportunities, fewer marriage partners, and diminishing economic vitality.",
+      "narrative_hook": "By {year}, the {family_name} name was synonymous with {county}. Three generations in the same church, the same cemetery, the same stretch of road. That continuity was not inertia — it was the accumulated result of every year {ancestor_name}'s family chose to stay when leaving was possible."
+    }
+  ],
+  "push_factors": [
+    {
+      "factor_id": "land_subdivision",
+      "factor": "Land subdivision among heirs reducing farm viability",
+      "severity": 3,
+      "description": "American inheritance customs divided land among heirs with each generation, shrinking individual holdings below the threshold of economic viability. A 200-acre farm became four 50-acre parcels in two generations. This pressure drove many younger sons to seek new land elsewhere — but some families resisted by purchasing siblings' shares, marrying strategically to consolidate holdings, or accepting smaller but adequate parcels. The ancestor who stayed despite subdivision was often the one who could afford to buy out siblings or who inherited the home place.",
+      "narrative_hook": "The {family_name} farm in {county} was divided among {number} heirs after {ancestor_parent}'s death. Some took their share and left. {ancestor_name} stayed — buying out a sibling's portion, or accepting a smaller farm, or finding other work to supplement what the reduced acreage could produce."
+    },
+    {
+      "factor_id": "soil_exhaustion",
+      "factor": "Soil exhaustion from continuous cultivation without rotation",
+      "severity": 3,
+      "description": "Decades of tobacco, cotton, or corn cultivation without systematic crop rotation or fertilization depleted the thin soils of the Piedmont and Upper South. Yields declined steadily, and the response for many families was to abandon exhausted land and move to fresh soil further west or south. Those who stayed adapted: shifting to less demanding crops, beginning rudimentary soil conservation, or accepting lower yields. Soil exhaustion was a slow-motion crisis — not a single event but a generational squeeze.",
+      "narrative_hook": "The soil in {county} had been producing {crop} for three generations by {ancestor_name}'s time, and the yields told the story. Neighbors headed for fresher ground in {destination_region}. {ancestor_name} stayed and adapted — rotating crops, resting fields, or simply accepting that the land would give less than it once had."
+    },
+    {
+      "factor_id": "economic_downturns",
+      "factor": "Economic panics and depressions reducing local opportunity",
+      "severity": 3,
+      "description": "The Panics of 1819, 1837, 1857, 1873, and 1893 each triggered waves of out-migration as local economies contracted. Foreclosures, bank failures, and collapsing commodity prices made staying seem irrational. Those who stayed often did so because they owned their land outright (no mortgage to foreclose), because they had no resources to finance a move, or because they had obligations — aging parents, dependent kin, community responsibilities — that anchored them. Economic downturns that pushed others out could paradoxically benefit those who stayed, as land prices dropped and labor-hungry neighbors needed help.",
+      "narrative_hook": "The Panic of {year} hit {county} hard — foreclosures, failed stores, families loading wagons. {ancestor_name} weathered it because {reason}: the farm was paid for, or there was nowhere else to go, or someone had to stay and care for {dependent}."
+    },
+    {
+      "factor_id": "family_dispersal",
+      "factor": "Family members migrating away, thinning the local kin network",
+      "severity": 2,
+      "description": "As siblings, cousins, and neighbors migrated, the kin network that sustained daily life — shared labor, mutual aid, social connection — thinned. The ancestor who stayed watched the community contract around them. This was both a pressure (fewer helpers, fewer marriage prospects for children, diminished social life) and, paradoxically, a reason to stay (someone had to remain with aging parents, maintain the family cemetery, keep the home place). Letters from departed kin are a key record type for understanding this dynamic.",
+      "narrative_hook": "By {year}, {ancestor_name} was one of the few {family_name}s left in {county}. Brothers had gone to {destination_1}, a sister to {destination_2}. The letters came back describing better land, better wages, better prospects. {ancestor_name} read them and stayed."
+    }
+  ],
+  "pull_factors": [
+    {
+      "factor_id": "family_network_density",
+      "factor": "Dense local family network providing mutual aid and social support",
+      "severity": 4,
+      "description": "Families with deep roots in a community — multiple generations of kin within a day's ride — had powerful reasons to stay. The kin network provided labor exchange, childcare, elder care, emergency assistance, and the social fabric of daily life. Leaving meant severing these connections permanently in an era when a move of 200 miles was effectively a move to another world. The density of the kin network is visible in records: multiple family surnames recurring in deed witnesses, marriage bonds, estate appraisals, and church rolls within the same county.",
+      "narrative_hook": "The reason {ancestor_name} stayed in {county} may be as simple as counting surnames in the deed books: {family_name}, {allied_family_1}, {allied_family_2} — the same families witnessing each other's deeds, standing bond for each other's estates, and marrying each other's children for three generations."
+    },
+    {
+      "factor_id": "land_ownership",
+      "factor": "Outright land ownership providing security and identity",
+      "severity": 5,
+      "description": "Owning land — free and clear, with a deed recorded at the courthouse — was the single most powerful anchor keeping families in place. Land ownership meant economic security, political standing (in eras with property requirements for voting), and generational identity. Selling land to finance a speculative move west was a gamble that many families were unwilling to take, particularly when the land had been in the family for generations. The deed chain — an unbroken sequence of transfers within the same family — is the documentary signature of a family that stayed.",
+      "narrative_hook": "The deed to {property_acres} acres in {county} was recorded in {ancestor_name}'s name in {year}. That piece of paper — and the cleared fields, the house, the fences, the orchard, and the family burying ground it represented — was the strongest argument against loading a wagon and heading west."
+    },
+    {
+      "factor_id": "community_ties",
+      "factor": "Deep community ties through institutions, reputation, and reciprocity",
+      "severity": 3,
+      "description": "Beyond family, the ancestor was embedded in a web of community institutions: church membership, militia service, road maintenance obligations, trading relationships with the general store, political alliances at the county level. These ties represented social capital that was non-transferable — a man who was a deacon, a road overseer, and a known reliable neighbor in one county was a stranger in the next. Community ties are visible in county court records (jury service, road overseer appointments, witness appearances), church minutes, and the informal networks reflected in estate administration.",
+      "narrative_hook": "{ancestor_name} was not just a landowner in {county} — {pronoun_subject} was a known quantity. Neighbors called on {pronoun_object} to witness deeds, appraise estates, and serve on juries. That kind of standing took a lifetime to build and could not be packed in a wagon."
+    },
+    {
+      "factor_id": "church_membership",
+      "factor": "Church membership and spiritual community as anchor",
+      "severity": 3,
+      "description": "Membership in a local Baptist, Methodist, or Presbyterian congregation provided spiritual community, social structure, and practical mutual aid. Churches organized communal labor, managed disputes, disciplined members, and provided the framework for community life. For families deeply embedded in a congregation — serving as deacons, elders, or trustees — leaving meant abandoning a spiritual home that was also a social and economic support system. Church minutes and membership rolls document the anchor of religious community.",
+      "narrative_hook": "The {church_name} Church in {county} had baptized {ancestor_name}, married {pronoun_object}, and would eventually bury {pronoun_object}. The congregation was family, governance, and social safety net all at once. Walking away from that was walking away from the structure that organized daily life."
+    },
+    {
+      "factor_id": "local_reputation",
+      "factor": "Established local reputation and economic relationships",
+      "severity": 3,
+      "description": "In a rural economy based on personal knowledge and trust, reputation was a form of capital. The general store extended credit based on personal knowledge of a customer's reliability. Neighbors loaned tools and labor based on years of reciprocity. A man's word was literally his bond in a legal system that relied on personal sureties. Moving to a new community meant starting from zero — no credit, no trust, no reciprocal obligations. For families who had spent decades building reputation, the cost of leaving was measured not just in miles but in lost social capital.",
+      "narrative_hook": "At the general store in {county}, {ancestor_name}'s name was good for credit because the storekeeper knew the family, knew the farm, and knew the crop would come in. In a new county, {pronoun_subject} would have been a stranger asking for trust that had not been earned."
+    }
+  ],
+  "what_staying_looked_like": {
+    "description": "This is the primary content section for a non-migration trigger. While other triggers describe the journey, this trigger describes the decision and experience of remaining in place while a community contracted around the ancestor.",
+    "daily_reality": "The family that stayed experienced a gradually changing community. Familiar names disappeared from the church roll. The schoolhouse had fewer children. The general store might close or be absorbed by a distant town's merchant. Land prices depressed by out-migration made it possible to acquire additional acreage cheaply — and families that stayed often consolidated holdings from departing neighbors. The remaining community tightened: intermarriage among the families that stayed became more common, kin networks overlapped more densely, and a smaller number of families dominated county institutions.",
+    "economic_adaptation": "Families that stayed adapted economically in ways visible in records. Census occupation entries shift from 'farmer' to 'farmer and blacksmith' or 'farmer and carpenter' as supplemental income became necessary. Agricultural census schedules show crop changes — a shift from tobacco to diversified grain production, or the introduction of livestock raising alongside row crops. Deed records show land acquisition as departing neighbors sold cheaply. Tax records show relative position in the community — a family that stayed might rise from the middle to the top of the tax list simply because wealthier families left.",
+    "social_consequences": "Staying carried social consequences. The remaining community was smaller, with fewer marriage partners for children, fewer participants in communal labor, and a diminished institutional life. But it was also more intimate — the families that remained knew each other deeply, trusted each other out of necessity, and formed a tight social fabric. This intimacy is visible in records: the same small group of names appearing as deed witnesses, estate appraisers, marriage bondsmen, and church officers across decades.",
+    "narrative_hooks": [
+      "The {family_name} family stayed in {county} for {number} generations while the community contracted around them. The deed books tell the story: the same surname acquiring land from departing neighbors, consolidating what others abandoned, becoming more rooted as the population thinned.",
+      "By {year}, the church that had once held a hundred families on Sunday morning was down to thirty. The {family_name}s were among them — deacons, now, in a congregation too small to be choosy about its officers.",
+      "Not migrating was not the same as not changing. {ancestor_name} stayed in {county} but adapted to every pressure that drove others away — shifting crops, taking up a sideline trade, buying cheap land from neighbors who were leaving."
+    ]
+  },
+  "transportation": {
+    "primary_mode": "Not applicable — this trigger describes non-migration",
+    "route_refs": [],
+    "what_they_carried": "Not applicable",
+    "what_they_left_behind": "Nothing — they stayed. But they watched others leave, and the community they kept was not the community they had known."
+  },
+  "destination_refs": [],
+  "chain_migration": {
+    "pattern": "inverse_chain",
+    "description": "The chain migration pattern is inverted for non-migration: instead of the ancestor following kin to a new location, the ancestor watched kin leave in a chain. Brothers who moved west sent letters encouraging the ones who stayed to follow. Each departure thinned the local network and increased pressure on those remaining. The inverse chain is documented in the same sources as chain migration — family letters, deed records showing sequential sales within a kin group, and census records showing family dispersal over decades.",
+    "gender_pattern": "Women were disproportionately anchored to place by caregiving obligations — aging parents, young children, and the domestic economy of the farm. Widows with dependent children often could not migrate even if they wished to. Men with aging parents or inherited land were similarly anchored. The gender dynamics of staying are visible in probate records and guardianship appointments.",
+    "narrative_hook": "The chain ran in the other direction for {ancestor_name}. Instead of following kin west, {pronoun_subject} watched them go — one brother to {destination_1}, then another to {destination_2}, each departure thinning the family network that had held the community together."
+  },
+  "what_happened_to_those_who_stayed": "This IS the trigger for those who stayed. The relevant question is what happened to those who left — and that is covered by the companion migration triggers (homestead_act, appalachian_out_migration, great_migration, dust_bowl, and others). This trigger and the migration triggers are designed to be read as complements: one describes the departure, the other describes the community that remained.",
+  "record_implications": {
+    "key_record_types": [
+      "Continuous deed chains showing the same family holding land across multiple generations",
+      "Tax lists showing the family's relative position in the community over decades",
+      "Multi-generation entries in the same church minutes or membership rolls",
+      "Family cemeteries with burials spanning 50-100+ years in the same churchyard or family plot",
+      "Agricultural census schedules (1850-1880) showing crop and livestock changes over time",
+      "Federal census records showing the family at the same location across multiple census years",
+      "General store ledgers (where they survive) showing long-term credit relationships",
+      "County court records: jury service, road overseer appointments, estate appraisals — the documentary evidence of community embeddedness",
+      "Family letters from departed kin describing conditions elsewhere and urging migration"
+    ],
+    "common_pitfalls": [
+      "Assuming non-migration means nothing happened — the community changed dramatically around the family that stayed, and those changes are visible in records",
+      "Missing the adaptation: census occupation entries, crop schedules, and deed acquisitions all reveal how the family adjusted to a contracting community",
+      "Ignoring the departed kin — the ancestor's siblings and cousins who migrated often appear in other states' records and help explain the pressures the staying family resisted",
+      "Confusing staying with prosperity — some families stayed because they could not afford to leave, and the records (thin estate inventories, persistent debt at the general store, declining acreage) will show the difference",
+      "Overlooking county boundary changes — a family that appears to 'move' between counties may have stayed on the exact same land while the county line shifted around them"
+    ],
+    "narrative_hook": "The record trail for {ancestor_name} in {county} looks different from a migrating family's. Instead of departure and arrival, there is continuity: the same land in the deed books, the same pew in the church rolls, the same plot in the cemetery. The challenge is not finding where they went — it is understanding why they stayed and how they adapted to a community that was shrinking around them."
+  },
+  "counter_narratives": [
+    {
+      "counter_id": "staying_not_always_choice",
+      "claim": "The ancestor stayed because they loved the land and chose community over opportunity.",
+      "reality": "Staying was not always a free choice. Many families remained in place because they lacked the resources to finance a move — selling a small, exhausted farm in a depopulating county yielded too little cash to start over elsewhere. Others stayed because of obligations: aging parents who could not travel, widowed mothers with dependent children, debts that tied them to the land. The romantic narrative of choosing to stay can obscure the reality that poverty, obligation, and lack of options kept families in place as often as affection and community ties did. Estate inventories, debt records, and guardianship files can help distinguish between staying by choice and staying by constraint.",
+      "narrative_hook": "It would be comforting to say {ancestor_name} stayed in {county} because the land and the community were enough. But the estate records suggest another possibility: the farm was too small and too worn out to sell for enough to start over, and leaving would have meant abandoning {dependent} with no one else to provide."
+    },
+    {
+      "counter_id": "staying_not_stagnation",
+      "claim": "Families that did not migrate were stagnant, left behind by progress.",
+      "reality": "Staying did not mean stagnation. Families that remained in place often adapted creatively to changing circumstances — diversifying crops, adding trades, acquiring land from departing neighbors, intensifying production, or shifting to livestock. Some families that stayed through a period of out-migration emerged stronger: with more land, fewer competitors, and deeper community influence than before. The agricultural census schedules, deed acquisitions, and shifting occupation entries in federal census records document adaptation, not inertia. The narrative of the stagnant stay-behind is as misleading as the narrative of the inevitable pioneer.",
+      "narrative_hook": "{ancestor_name} did not load a wagon and head for {destination_region}, but that does not mean nothing changed. The deed books show {pronoun_object} buying land from three departing neighbors between {year_1} and {year_2}. The census shows a shift from {crop_1} to {crop_2}. Staying was not stagnation — it was adaptation."
+    }
+  ],
+  "template_integrations": [
+    {
+      "template_id": "economic_life_story",
+      "integration_point": "property_trajectory",
+      "description": "The property trajectory for a non-migrating family runs in place rather than across space. Deed records show acquisition, consolidation, subdivision, and re-acquisition within the same county — often the same district or watershed. The economic_life_story template should trace this horizontal trajectory rather than a geographic one, mapping how the family's holdings expanded or contracted in response to community out-migration, inheritance divisions, and economic pressures."
+    },
+    {
+      "template_id": "record_silences",
+      "integration_point": "silence_as_narrative",
+      "description": "For a family that stayed, the silences in the record are as telling as the entries. The ABSENCE of a deed of sale, the ABSENCE of a removal certificate from the church, the ABSENCE of the family from another state's records — these silences confirm continuity. The record_silences template should frame staying as a positive inference from negative evidence: the family is documented in the same place, generation after generation, and documented nowhere else."
+    },
+    {
+      "template_id": "fork_in_the_road",
+      "integration_point": "inverted_fork",
+      "description": "The fork_in_the_road template is inverted for this trigger. Instead of asking 'what would have happened if the ancestor had NOT migrated,' the question becomes 'what would have happened if the ancestor HAD left?' The departed siblings and neighbors who DID migrate provide the counterfactual: their fates in the destination — success, failure, or something in between — illuminate the road not taken by the ancestor who stayed."
+    }
+  ],
+  "source_references": [
+    {
+      "source_id": "hahn_1983",
+      "author": "Steven Hahn",
+      "title": "The Roots of Southern Populism: Yeoman Farmers and the Transformation of the Georgia Upcountry, 1850-1890",
+      "year": 1983,
+      "publisher": "Oxford University Press",
+      "description": "Foundational study of yeoman farm communities in the Georgia upcountry, documenting how families that stayed adapted to the economic transformations of the late antebellum and postbellum periods. Essential for understanding the economic pressures on non-migrating families."
+    },
+    {
+      "source_id": "bolton_1994",
+      "author": "Charles C. Bolton",
+      "title": "Poor Whites of the Antebellum South: Tenants and Laborers in Central North Carolina and Northeast Mississippi",
+      "year": 1994,
+      "publisher": "Duke University Press",
+      "description": "Study of the white rural poor, including those who stayed in place not by choice but by constraint. Provides the evidence base for the counter-narrative that staying was not always a choice."
+    },
+    {
+      "source_id": "cecil_fronsman_1992",
+      "author": "Bill Cecil-Fronsman",
+      "title": "Common Whites: Class and Culture in Antebellum North Carolina",
+      "year": 1992,
+      "publisher": "University Press of Kentucky",
+      "description": "Detailed study of non-elite white communities in North Carolina, documenting the social institutions — churches, courts, militia — that anchored families to place."
+    },
+    {
+      "source_id": "cashin_1991",
+      "author": "Joan E. Cashin",
+      "title": "A Family Venture: Men and Women on the Southern Frontier",
+      "year": 1991,
+      "publisher": "Oxford University Press",
+      "description": "Study of migration decisions in Southern families, including the gendered dynamics of who left and who stayed. Documents how women were often the anchoring force resisting migration while men were more inclined to move."
+    }
+  ]
+}

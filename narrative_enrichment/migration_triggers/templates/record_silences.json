@@ -1,6 +1,6 @@
 {
   "_schema_version": "1.0",
-  "_last_updated": "2026-03-16",
+  "_last_updated": "2026-03-17",
   "_purpose": "Narrative template for interpreting GAPS in genealogical records — what it means when an ancestor disappears from the documentary record. The most intellectually honest section of a KinLore report. Does not speculate about individuals; explains systemic patterns that produce archival absence.",
   "template_id": "record_silences",
   "display_name": "Record Silences",
@@ -326,8 +326,220 @@
         "The Freedmen's Bureau records should be highlighted as a primary post-emancipation source. They are under-utilized and enormously valuable."
       ],
       "editorial_note": "This gap type should never be generated using the Letter Home template. The letter_home template's what_NOT_to_do section explicitly prohibits generating letters for enslaved ancestors. Record Silences is the appropriate framework for honoring lives that the documentary record was designed to erase."
+    },
+    {
+      "gap_type_id": "silence_as_narrative",
+      "display_name": "The Silence Itself Is the Story",
+      "description": "For ancestors who left minimal documentary traces — often pre-1850, often non-elite, often outside the populations that record-keeping systems were designed to capture — the silence is not a gap to be apologized for. It is the narrative. This gap type transforms archival absence from a failure of research into a historically grounded interpretation of what it meant to live outside the documentary gaze. It generalizes the insight from the enslaved_ancestor_gap type: that absence is systemic, not accidental.",
+      "trigger_condition": "Ancestor appears in fewer than 3 independently sourced records across their entire documented life. No continuous record chain exists. Research has been reasonably exhausted for the era and region. This is the gap type for ancestors at the brick wall — the point beyond which no further records are expected to exist.",
+      "when_to_use": "Use when the ancestor's record trail is so thin that the standard gap types (between_censuses, woman_disappears, etc.) do not apply because there is no 'before' and 'after' — there is only a point or two of documentary light in an otherwise dark archive. Especially applicable to: pre-1850 ancestors, non-property-owners, women before the 20th century, laborers without trade skills, anyone who rented rather than owned, anyone who moved frequently, and anyone outside the demographic center of record-keeping (white, male, property-owning).",
+      "interpretive_approaches": [
+        {
+          "approach_id": "the_negative_space",
+          "display_name": "The Negative Space",
+          "description": "Describe the world the ancestor inhabited — the county, the economy, the physical landscape, the community structures — with the ancestor as a documented point within that world. The approach paints the canvas and places the ancestor on it, using everything we know about the time and place to give substance to a life the records barely touched.",
+          "structural_beats": [
+            {
+              "beat": "the_documented_point",
+              "description": "State exactly what records exist for this ancestor. Name each one. This is the factual foundation — everything else builds outward from these points.",
+              "example": "{ancestor_name} appears in exactly {record_count} records: {record_list}. That is {his_her} entire documentary footprint."
+            },
+            {
+              "beat": "the_world_around_them",
+              "description": "Describe the county, region, and era using historical context data. What was the economy? What did the landscape look like? Who lived there? What were people doing for a living? This is context from the enrichment layer, not speculation about the individual.",
+              "example": "In {county}, {state} in the {decade}s, the landscape was {description}. The economy ran on {economic_base}. Most families {typical_activity}."
+            },
+            {
+              "beat": "the_life_that_fits",
+              "description": "Based on the documented points and the surrounding context, describe the kind of life that is consistent with the evidence. Use 'likely,' 'probably,' 'consistent with' — never state as fact what is inferred from context.",
+              "example": "A {occupation_or_status} in {county} during this period likely {typical_daily_reality}. The material conditions described in county records suggest {material_life_detail}."
+            },
+            {
+              "beat": "the_frame",
+              "description": "Close by naming what kind of document this narrative IS — not a biography but a historically grounded portrait of a life consistent with the evidence. Honest about its limits, substantive despite them.",
+              "example": "This is not a biography — the records do not support one. It is a portrait of the world {ancestor_name} inhabited, with {him_her} placed within it by the few records that noticed {his_her} existence."
+            }
+          ],
+          "revenue_tier_guidance": {
+            "option_a": "Beats 1 and 4 only — state the records and frame the silence. 2-3 sentences.",
+            "white_glove": "All 4 beats. 150-250 words. Draw heavily on material life profiles and historical context timelines."
+          }
+        },
+        {
+          "approach_id": "what_the_record_chose",
+          "display_name": "What the Record Chose to See",
+          "description": "Name each record-keeping system that existed during the ancestor's lifetime and explain why it did or did not capture this person. Turns the lens from the ancestor to the archive itself — asking not 'why can't we find them?' but 'why would we expect to?'",
+          "structural_beats": [
+            {
+              "beat": "the_systems_that_existed",
+              "description": "List the record-keeping systems active in the ancestor's county and era: census, vital records, land records, tax rolls, court records, church records, military records, newspapers. For each, state whether it existed and what demographic it was designed to capture.",
+              "example": "During {ancestor_name}'s lifetime in {county}, {state}, the following record systems existed: {system_list}. Each had a specific purpose and a specific population it was designed to document."
+            },
+            {
+              "beat": "who_the_records_saw",
+              "description": "For each system, describe who it captured and who it missed. Be specific: the census counted heads of household; land records captured property owners; tax rolls listed the taxable. If the ancestor was not in these categories, the system was not designed to see them.",
+              "example": "The {record_system} captured {who_it_captured}. {ancestor_name}, as a {status_description}, was {inside_or_outside} the population this system was designed to document."
+            },
+            {
+              "beat": "the_arithmetic",
+              "description": "State the statistical reality: how many records would a person of this ancestor's demographic profile be expected to generate in this era and region? Compare to what actually survives.",
+              "example": "A {demographic_description} in {era} {region} might generate {expected_count} civil records across a lifetime. {ancestor_name} appears in {actual_count}. The gap is not unusual — it is the statistical norm for {demographic_description} in this period."
+            },
+            {
+              "beat": "the_verdict",
+              "description": "Conclude: the silence is not a failure of research. It is the record-keeping system working exactly as designed — documenting property, taxing wealth, counting households. People outside those categories were not lost. They were never seen.",
+              "example": "The silence in {ancestor_name}'s record is not a gap in research. It is the archive working as designed: documenting property, taxing wealth, counting households. {ancestor_name} was not lost by the record. {He_She} was outside what the record was built to see."
+            }
+          ],
+          "revenue_tier_guidance": {
+            "option_a": "Beats 1 and 4 only — name the systems, deliver the verdict. 2-3 sentences.",
+            "white_glove": "All 4 beats. 200-300 words. Use county source profiles to name specific record systems."
+          }
+        },
+        {
+          "approach_id": "the_arithmetic_of_memory",
+          "display_name": "The Arithmetic of Memory",
+          "description": "Frame the silence statistically. How many records did an average person of this ancestor's demographic profile generate in this era? How many survive? What percentage of the population left fewer than N records? This approach uses numbers to normalize the silence — to show the reader that their ancestor's thin record trail is not exceptional but typical.",
+          "structural_beats": [
+            {
+              "beat": "the_numbers",
+              "description": "Present the statistical context for record generation in this era and region. How many civil records did a typical person generate? What percentage survive? What are the major loss events (courthouse fires, 1890 census, NPRC fire)?",
+              "example": "In {era} {region}, the average {demographic} generated approximately {count} civil records across a lifetime: {record_types}. Of those, approximately {survival_rate} survive to the present day."
+            },
+            {
+              "beat": "the_comparison",
+              "description": "Compare the ancestor's actual record count to the statistical baseline. Frame the comparison honestly — if the ancestor has fewer records than expected, say so and explain why. If they have about the expected number, say that too.",
+              "example": "{ancestor_name} appears in {actual_count} surviving records. For a {demographic_description} in {era} {region}, this is {comparison_to_baseline} — {interpretation}."
+            },
+            {
+              "beat": "the_denominator",
+              "description": "Zoom out to the population level. How many people lived in this county/region during this period? How many of them left fewer than 3 records? The ancestor is not alone in the silence — they are in the majority.",
+              "example": "{county} had approximately {population} residents in {year}. Of those, an estimated {percentage} left fewer than three surviving civil records. {ancestor_name} is not an outlier — {he_she} is in the demographic majority of the historically undocumented."
+            },
+            {
+              "beat": "the_reframe",
+              "description": "Reframe the reader's expectation. The question is not 'why can't we find more?' but 'how remarkable is it that we found anything at all?' Every surviving record for a minimally documented ancestor is a small act of archival luck.",
+              "example": "The {record_count} records that survive for {ancestor_name} are not a disappointment. They are {record_count} points of archival luck in a system that was not designed to remember {him_her}. Each one is a small miracle of survival."
+            }
+          ],
+          "revenue_tier_guidance": {
+            "option_a": "Beats 1 and 4 only — the numbers and the reframe. 2-3 sentences.",
+            "white_glove": "All 4 beats. 150-250 words. Use county source profiles and historical context for statistical grounding."
+          }
+        }
+      ],
+      "approach_selection_guidance": {
+        "the_negative_space": "Best when rich material life and historical context data is available for the ancestor's county and era. The ancestor becomes a figure in a detailed landscape.",
+        "what_the_record_chose": "Best when county source profiles can enumerate exactly which record systems existed and what they captured. Particularly effective for ancestors who were demographically outside the record-keeping center (women, renters, laborers, non-English speakers).",
+        "the_arithmetic_of_memory": "Best when population statistics are available for the county and era. Most effective for ancestors whose thin records surprise or disappoint the reader — the statistics normalize the silence.",
+        "combination": "For White Glove tier, Polsia may combine two approaches: typically the_negative_space + the_arithmetic_of_memory, or what_the_record_chose + the_arithmetic_of_memory. Do not combine all three — choose the two that best serve the ancestor's specific situation."
+      },
+      "interpretive_frame": "This gap type exists because the standard gap types assume a record trail with identifiable holes. But many ancestors — especially before 1850 — do not have a trail with holes. They have one or two documentary points and then silence. For these ancestors, the silence IS the narrative. The most honest and most valuable thing a KinLore report can do is transform that silence from an apology ('we couldn't find more') into an interpretation ('here is what it means that the records chose not to remember this person'). This is the difference between a product that fails gracefully and one that delivers insight where the reader expected nothing.",
+      "constraints": [
+        "Never apologize for the thin record. The silence is the story, not the failure.",
+        "Always use hedged language ('likely,' 'probably,' 'consistent with') for anything inferred from context rather than documented in the ancestor's own records.",
+        "Do not conflate this with the enslaved_ancestor_gap type. That type addresses a specific systemic exclusion (enslavement). This type addresses the general condition of minimal documentation for any demographic.",
+        "Do not fabricate statistics. Use documented survival rates and population figures from county source profiles and historical context. If specific numbers are not available, use ranges with citations.",
+        "Do not treat the silence as a lesser narrative outcome. A well-executed silence_as_narrative section can be the most powerful part of a report — the moment the reader understands that their ancestor's invisibility was shared by millions.",
+        "The frame must always circle back to the documented points. Whatever contextual world-building happens, the ancestor's actual records are the anchors. Never let the context overwhelm the individual.",
+        "For ancestors with exactly zero surviving records (known only through inference from other people's records), use what_the_record_chose approach — it requires no records for the ancestor themselves."
+      ],
+      "template_integrations": {
+        "fork_in_the_road": "Can be paired with Fork in the Road to explore what happened in the county during the ancestor's silence — what events occurred that the ancestor likely witnessed but that left no documentary trace of their presence.",
+        "what_they_saw": "Pairs naturally with What They Saw for the_negative_space approach — the sensory landscape gives substance to the world the ancestor inhabited.",
+        "economic_life_story": "The economic_position field in material life files provides the framing for the_life_that_fits beat in the_negative_space approach."
+      },
+      "editorial_note": "This gap type was created in response to testing 5 real ancestors through the NEL pipeline. Three of five (Daniel Canady, Young Autry, Abel Bass) hit brick walls where the standard gap types did not apply because there was no meaningful record trail to have gaps in. The difference between 'we couldn't find more' and 'here is what the silence means' was the single most important narrative insight from testing."
     }
   ],
+  "family_aftermath_overlay": {
+    "_design_note": "This is an OVERLAY, not a gap type. It is applied ON TOP OF any gap type when a death, disappearance, or permanent absence left documentable family aftermath. The gap type explains the silence; the overlay narrates what the surviving family did next, as documented in subsequent records. Polsia applies this overlay when: (1) a gap type has been selected for the ancestor, AND (2) subsequent records for the surviving family exist and show a response to the absence.",
+    "trigger_condition": "A gap type has been applied to an ancestor AND census, pension, marriage, or relocation records for the surviving family exist within 10 years of the ancestor's disappearance/death.",
+    "situations": [
+      {
+        "situation_id": "widow_survival",
+        "display_name": "The Widow's Response",
+        "description": "The surviving spouse's documented response to the death or disappearance — visible in pension applications, remarriage records, relocation to a relative's household, change of occupation, or continued presence on the same property. The record trail for the widow often tells the economic story of the death more clearly than the death record itself.",
+        "structural_beats": [
+          {
+            "beat": "the_absence",
+            "description": "State the gap: the ancestor disappeared or died, and the gap type explains the archival silence around that event. This beat connects the overlay to the gap type.",
+            "example": "{ancestor_name} disappears from the record after {last_record}. The {gap_type} section above addresses what that silence means. What follows is what the surviving family did next."
+          },
+          {
+            "beat": "the_response",
+            "description": "What the surviving spouse did, as documented. Filed a pension application? Remarried (and when — the interval matters)? Moved to a relative's household? Continued alone on the property? Each response is economic data.",
+            "example": "{spouse_name} filed a widow's pension application in {year}, listing {children_count} minor children and claiming {husband}'s service in {unit}. The pension file is the most detailed record of the family's post-death circumstances."
+          },
+          {
+            "beat": "the_household_after",
+            "description": "The next census or directory entry for the surviving household. Who is present? Who is absent? Has the household merged with another family? Is the widow heading her own household or living in someone else's?",
+            "example": "The {year} census shows {spouse_name} heading a household of {count} — {description}. The household structure tells the economic story: {interpretation}."
+          }
+        ],
+        "constraints": [
+          "The widow's response must be documented in actual records, not inferred from silence.",
+          "Pension applications are primary sources — they contain detailed family information filed under oath. Cite them specifically when available.",
+          "Do not assume the widow was helpless. Many widows managed property, ran businesses, and made strategic decisions documented in the record. Follow the data.",
+          "If the widow remarried, do not apply both this overlay AND the remarriage_economics situation from economic_life_story. Choose the one that better serves the narrative. If the remarriage is the economic story, use economic_life_story. If the gap/silence is the story and the remarriage is aftermath, use this overlay."
+        ]
+      },
+      {
+        "situation_id": "children_scatter",
+        "display_name": "The Children's Dispersal",
+        "description": "Children's locations in subsequent census records reveal the family's response to the absence. Scattered to different counties = household could not hold together. All in one location = family network absorbed them. Some in institutions = crisis exceeded the family's capacity. The census is the document; the dispersal pattern is the data.",
+        "structural_beats": [
+          {
+            "beat": "the_household_before",
+            "description": "The last census showing the intact household. Name each child, age, and position. This is the baseline.",
+            "example": "The {year} census shows {ancestor_name}'s household intact: {spouse_name} and {children_count} children — {children_list}."
+          },
+          {
+            "beat": "the_dispersal",
+            "description": "Where each child appears in the next available census. Map the scatter: which children stayed, which left, which disappeared from the record. Each child's location is a data point in the family's survival strategy.",
+            "example": "By {year}, the children had scattered: {child_1} in {location_1}, {child_2} in {location_2}, {child_3} not found in any searched record. The pattern suggests {interpretation}."
+          },
+          {
+            "beat": "the_pattern",
+            "description": "Was the dispersal along kin network lines (children went to aunts, uncles, grandparents) or along migration routes (children followed economic opportunity)? Or was it random — suggesting a family with no network to catch them?",
+            "example": "The dispersal followed {pattern_type}: {explanation}. This pattern is {typical_or_unusual} for {county} in this era."
+          }
+        ],
+        "constraints": [
+          "Every child's destination must be documented from census or other records. Do not speculate about children who disappear from the record — that is its own gap type (child_vanishes).",
+          "Do not assume dispersal was traumatic. In many eras, children leaving the household by age 14-16 was normal (apprenticeship, marriage, labor). The dispersal is only significant if it happened earlier or more abruptly than the demographic norm.",
+          "Cross-reference with the hinge_generation template's scattered_children situation. If Polsia is generating both, coordinate to avoid duplication."
+        ]
+      },
+      {
+        "situation_id": "family_reconstitution",
+        "display_name": "The Reconstituted Household",
+        "description": "The next census shows a blended or reconstituted household: remarriage bringing step-children, relatives absorbed into the household, boarders taken in for income, or adult children returning. The household reconfiguration IS the family's survival strategy, documented in the census enumeration.",
+        "structural_beats": [
+          {
+            "beat": "the_new_household",
+            "description": "The census entry for the reconstituted household. Every person listed, their relationship to the head, their age, and their occupation. The census page is the primary document.",
+            "example": "The {year} census shows a reconstituted household: {head_of_household}, {new_spouse} (married {marriage_year}), {original_children}, {step_children}, and {additional_members}."
+          },
+          {
+            "beat": "what_the_structure_reveals",
+            "description": "Interpret the household composition as economic data. Step-children present = blended family. Boarders present = supplemental income needed. Elderly parent present = kin network activated. Oldest child listed as laborer = child labor supporting the household.",
+            "example": "The household structure reveals {interpretation}: {specific_evidence}. This configuration is {typical_or_unusual} for {county} in {era}."
+          }
+        ],
+        "constraints": [
+          "Household composition must come from actual census records, not reconstruction.",
+          "Relationship terms in census records are not always accurate — 'son' might be a stepson, 'boarder' might be a relative. Note where the relationship is ambiguous.",
+          "Do not moralize about blended families, boarders, or child labor. These were survival strategies, not moral choices. Describe the material conditions."
+        ]
+      }
+    ],
+    "revenue_tier_guidance": {
+      "option_a": "One aftermath situation maximum, 2-3 sentences, applied only when the aftermath is the most significant interpretive finding beyond the gap itself.",
+      "white_glove": "All applicable situations. 80-150 words per situation. The overlay should read as a natural continuation of the gap type narrative, not a separate section."
+    },
+    "integration_instructions": "Polsia applies the overlay AFTER generating the gap type narrative. The overlay begins with a transition sentence connecting to the gap type, then narrates the aftermath. In the rendered report, the overlay appears as a continuation of the Record Silences section, not as a separate section with its own heading. The gap type and its aftermath overlay should read as a single, coherent narrative passage."
+  },
   "editorial_guidelines": {
     "overarching_principle": "Intellectual honesty over narrative convenience. A KinLore report gains credibility by admitting what it does not know. Record Silences is where that credibility is built.",
     "tone": "Respectful, direct, informed. Not apologetic — archival absence is not the researcher's fault. Not dramatic — gaps are the norm, not the exception. Authoritative but humble about the limits of the evidence.",

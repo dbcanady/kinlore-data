@@ -1,0 +1,283 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "_purpose": "Narrative template for close reading of genealogical documents — extracting story from contradictions, bureaucratic detail, and embedded implications. Operationalizes GENO Narrative Patterns NP-02 (Source Contradiction as Plot), NP-03 (Paper Trail as Character Study), and NP-04 (Single Document Deep Read). The guiding insight: the most interesting records are the ones that contain contradictions, absences, or transitions.",
+  "template_id": "document_deep_read",
+  "display_name": "Document Deep Read",
+  "description": "Generates narrative from close reading of specific genealogical documents. Three modes: (1) two records that disagree on a material fact, where the disagreement IS the story; (2) an extensive paper trail — estate file, pension file, court case — where the bureaucratic record reveals character; (3) a single document analyzed exhaustively, every field read for explicit content and implicit meaning. This template demands citation, distinguishes rigorously between what a document SAYS and what it IMPLIES, and trusts the reader to draw conclusions from evidence.",
+  "revenue_tier": "both — one situation for Option A (typically source_contradiction or single_document), all three available for White Glove",
+  "tier_guidance": {
+    "option_a": "One situation only. Choose the most narratively punchy: source_contradiction if two records disagree compellingly, single_document if one record is rich enough. 80-150 words. Present the evidence tightly — setup, contradiction or detail, payoff.",
+    "white_glove": "Up to three situations chosen contextually. Full beat structure for each. 100-250 words per situation. May combine: a source_contradiction identified, then a single_document deep read of the more revealing record, then a paper_trail_portrait if an estate or pension file exists. Editorial annotation required explaining document selection and confidence level."
+  },
+  "situations": [
+    {
+      "situation_id": "source_contradiction",
+      "narrative_pattern": "NP-02: Source Contradiction as Plot",
+      "display_name": "Source Contradiction",
+      "description": "Two records disagree on a material fact — age, birthplace, occupation, marital status, parentage. The disagreement is not an error to be resolved but a story to be told. Someone lied, misremembered, or managed their identity across documents. The contradiction reveals something about the ancestor's circumstances, motivations, or the record-keeping system itself.",
+      "trigger_condition": "Two or more records for the same ancestor contain contradictory data on a material fact. Most common: age discrepancy between census and marriage record, birthplace that changes across censuses, occupation that shifts implausibly between records, parentage that differs between birth certificate and census.",
+      "tone": "Forensic, precise, restrained. The writer is a detective presenting evidence to an intelligent jury. No dramatic reveals — lay out both records, name the contradiction, analyze what it means. Let the reader feel the implications.",
+      "structural_beats": [
+        "Identify the two records and the specific contradiction — cite both sources by type, year, and repository if known",
+        "State what each record claims — exact data from each, presented side by side. No editorializing yet.",
+        "Analyze which is more likely correct and why — proximity to the event (a birth record created at the time is more reliable than a census taken 30 years later), type of record (legal documents vs. census enumerator's notes), who provided the information (self-reported vs. reported by a neighbor or family member)",
+        "The narrative payoff — what the contradiction reveals about the ancestor. An age lie on a marriage bond suggests a teenager trying to marry legally. A birthplace that migrates from Virginia to North Carolina across three censuses suggests someone from a border community, or someone managing regional identity. An occupation that jumps from farmer to physician suggests either genuine transition or social aspiration recorded by a credulous enumerator.",
+        "Confidence gating — state clearly what we know (the two records disagree), what we can reasonably infer (which is likely correct), and what remains uncertain (the ancestor's actual motivation)"
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{record_1_type}",
+        "{record_1_year}",
+        "{record_1_claim}",
+        "{record_2_type}",
+        "{record_2_year}",
+        "{record_2_claim}",
+        "{most_likely_explanation}"
+      ],
+      "common_contradiction_types": [
+        {
+          "type": "age_discrepancy",
+          "description": "Age or birth year differs between two records. The most common contradiction in genealogical research.",
+          "narrative_significance": "Age lies cluster around legal thresholds (marriage age, military enlistment age, voting age) and social thresholds (a widow claiming to be younger, an immigrant claiming to be older for employment). The direction of the lie matters — who benefited from the false age?",
+          "threshold": "Discrepancies of 1-2 years are routine rounding by enumerators and do not warrant narrative treatment. Discrepancies of 3+ years, especially when they cross a legal threshold, are narratively significant."
+        },
+        {
+          "type": "birthplace_migration",
+          "description": "Birthplace changes across census records. Virginia in 1850, North Carolina in 1860, Virginia again in 1870.",
+          "narrative_significance": "May indicate a border county origin where state identity was fluid, deliberate identity management, or simple enumerator error. Becomes a pattern worth analyzing when the shift correlates with other changes (surname spelling, occupation, racial classification).",
+          "threshold": "A single birthplace variation between adjacent states is common and low-significance. Birthplace changes that cross regional boundaries (e.g., 'Ireland' to 'New York') or that coincide with other identity shifts are high-significance."
+        },
+        {
+          "type": "occupation_shift",
+          "description": "Occupation changes implausibly between records — farmer to physician, laborer to merchant, or the reverse.",
+          "narrative_significance": "Genuine occupational mobility was possible but constrained by era and circumstance. A shift from farmer to physician in the 1850s without evidence of medical training is likely aspirational reporting or enumerator embellishment. A shift from skilled artisan to laborer may indicate economic reversal, injury, or age-related decline.",
+          "threshold": "Occupation changes within a plausible career arc (farmer to farm laborer, laborer to foreman) are routine. Changes that require credentials the ancestor is unlikely to have had are narratively significant."
+        },
+        {
+          "type": "marital_status_conflict",
+          "description": "One record says married, another says single or widowed, at overlapping dates.",
+          "narrative_significance": "May indicate abandonment, informal separation (common when divorce was expensive or legally unavailable), bigamy, or simple informant error. The conflict is especially revealing when it appears across jurisdictions — a man listed as married in one county and single in another may have maintained two households.",
+          "threshold": "A discrepancy between 'married' and 'widowed' may simply reflect a death between records. A discrepancy between 'married' and 'single' at the same approximate date is always significant."
+        },
+        {
+          "type": "parentage_conflict",
+          "description": "Different records name different parents or list different family relationships.",
+          "narrative_significance": "May indicate adoption (formal or informal), stepparent relationships recorded inconsistently, illegitimacy managed through creative record-keeping, or informant error. In the 19th century, children were commonly raised by relatives other than biological parents, and records reflected the social household rather than biological kinship.",
+          "threshold": "Always significant. Parentage conflicts warrant careful analysis regardless of magnitude."
+        }
+      ],
+      "constraints": [
+        "ALWAYS cite both documents specifically. 'The census says one thing and the marriage record says another' is insufficient. Name the year, the record type, and ideally the jurisdiction.",
+        "Use explicit language to separate fact from inference: 'The record states...' vs. 'This suggests that...' vs. 'We cannot determine...'",
+        "Do not over-interpret a single discrepancy. One age difference could be a clerical error, a misunderstanding, or a lie. Multiple discrepancies in the same direction become a pattern worth analyzing.",
+        "Do not assume deception. Misremembering, informant error, and enumerator mistakes are more common than deliberate fraud.",
+        "If the contradiction involves race or ethnicity, handle with particular care. Racial classification in historical records was imposed, inconsistent, and often changed by the enumerator rather than the subject. A person recorded as 'white' in one census and 'mulatto' in another was not necessarily 'passing' — the enumerator may simply have made a different judgment.",
+        "80-200 words for the interpretive passage, not counting source citations."
+      ],
+      "example_output": "The 1870 census (Edgecombe County, NC) records John Canady's birth year as 1848. His marriage bond, filed in Edgecombe County in September 1864, states he is 'of lawful age' — meaning at least 21 under North Carolina law. If born in 1848, he was 16 when that bond was issued. Someone misrepresented his age to the county clerk, and the most likely person was John himself. The marriage bond was a legal document requiring a specific threshold; the census was a retrospective estimate reported to an enumerator years later. The bond's claim is the one with motive behind it — a teenager who needed to be 21 to marry without parental consent. The census figure, reported six years after the fact, is probably closer to the truth. What this tells us: John Canady wanted to marry badly enough to lie to a government official about his age, in wartime, at sixteen."
+    },
+    {
+      "situation_id": "paper_trail_portrait",
+      "narrative_pattern": "NP-03: Paper Trail as Character Study",
+      "display_name": "Paper Trail Portrait",
+      "description": "When an ancestor left an unusually extensive paper trail — an estate file, a pension application, a court case, a bankruptcy proceeding, a Freedmen's Bureau complaint — the bureaucratic record itself becomes a character study. Twenty-seven pages of estate documents tell you more about a person than a dozen census entries. The accumulation of administrative detail reveals personality, relationships, economic position, and community standing in ways that routine records never capture.",
+      "trigger_condition": "A multi-page document collection exists for the ancestor: estate/probate file (typically 5-50+ pages), pension application (especially Civil War pensions, which could run to dozens of pages of testimony), court case file, Freedmen's Bureau case file, bankruptcy proceeding, or any administrative file that generated sustained documentation over time.",
+      "tone": "Appreciative, precise, unhurried. The writer is someone who has spent time with a thick folder and found the person inside the paperwork. Not reverential — bureaucratic records are not sacred texts — but attentive. The tone says: I read all of this, and here is what it tells us that nothing else does.",
+      "structural_beats": [
+        "Identify the document collection and its scope — type of file, number of pages or documents, time span covered, where it is held. Give the reader a sense of the physical object: 'a 27-page estate file' or 'a pension application with six depositions.'",
+        "What the collection reveals that routine records do not — the leap from census-level data (name, age, occupation) to administrative-level data (specific property, specific debts, specific relationships, specific complaints, specific testimony under oath).",
+        "Specific details that bring the person to life — not a catalog of everything in the file, but TWO or THREE carefully chosen details. An inventory item that reveals economic status or cultural identity. A testimony passage that captures voice or personality. A financial detail that shows how they actually lived, not just what they were worth on paper. A complaint or petition that shows what mattered to them.",
+        "The person emerging from the paperwork — a synthesis. Not who they were in the abstract, but what they DID as documented. The estate file shows a person who owned three hoe blades and a broken spinning wheel and owed money to four neighbors. The pension file shows a person who testified about a specific battle wound with clinical precision. The court case shows a person who sued a neighbor over a property line and lost.",
+        "What the paper trail reveals about community standing, economic position, and family relationships — the ancestor in context, not in isolation"
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{document_collection_type}",
+        "{page_count}",
+        "{time_span}",
+        "{key_detail_1}",
+        "{key_detail_2}",
+        "{what_it_reveals}"
+      ],
+      "constraints": [
+        "The details selected must be genuinely revealing, not just interesting trivia. An inventory item matters if it tells us something about economic status, cultural identity, or daily life that census data does not capture. A 'one cow' entry is revealing if the ancestor was supposedly prosperous. A 'piano' is revealing if the ancestor was supposedly poor.",
+        "Do not summarize the entire file. Select. The reader does not need a page-by-page summary — they need the three things in the file that nobody would notice unless they knew what to look for.",
+        "Quote or closely paraphrase actual document language when possible. 'One sorrel mare, blind in the left eye' is better than 'a horse.' The specificity of administrative language is itself revealing.",
+        "For estate files: the inventory tells you what they owned, the debts tell you who they owed, the heirs petition tells you who the family was, and the final settlement tells you how long it took and whether there were disputes. All four are narratively useful.",
+        "For pension files: depositions are testimony under oath by people who knew the ancestor. They are first-person accounts, the closest thing to hearing someone talk about your ancestor. Treat them accordingly.",
+        "Do not project emotion onto administrative documents. An estate inventory is not 'poignant.' It is a legal accounting. The reader will find their own emotions in the details.",
+        "100-250 words for the interpretive passage."
+      ],
+      "common_collection_types": [
+        {
+          "type": "estate_probate_file",
+          "typical_contents": "Heirs petition, inventory and appraisal, sale of personal property, guardian bonds, annual accounts, final settlement. May also include will, codicils, and claims by creditors.",
+          "narrative_value": "The richest single source for understanding an ancestor's economic life, family structure, and community relationships. The inventory is a complete snapshot of material possessions at death. The heirs petition names family members and their relationships. Guardian bonds reveal who the community trusted to raise the children. The final settlement reveals whether the family held together or fell apart.",
+          "access": "County courthouse probate office or state archives. Increasingly digitized by FamilySearch and Ancestry."
+        },
+        {
+          "type": "civil_war_pension_file",
+          "typical_contents": "Application, surgeon's certificate, depositions from comrades and neighbors, marriage and birth evidence, periodic examinations, correspondence. Can run to 50-100+ pages.",
+          "narrative_value": "Depositions are first-person testimony under oath by people who knew the ancestor. Comrades describe shared experiences — specific battles, camp conditions, the moment of a wound. Neighbors testify to the ancestor's post-war condition. Surgeons describe physical ailments with clinical precision. The pension file is the closest thing to an oral history for 19th-century Americans.",
+          "access": "National Archives (NARA). Available by mail order. Increasingly digitized through Fold3."
+        },
+        {
+          "type": "court_case_file",
+          "typical_contents": "Complaint or petition, answer, depositions, exhibits, judgment. Structure varies by case type — debt, land dispute, divorce, criminal.",
+          "narrative_value": "Court cases generate adversarial testimony. People say things under oath in court that they would never put in a letter. Property disputes reveal economic relationships. Divorce cases reveal domestic conditions. Criminal cases reveal community tensions. The file captures conflict, which is narrative.",
+          "access": "County courthouse clerk of court. State archives for older cases. Unevenly digitized."
+        },
+        {
+          "type": "freedmens_bureau_file",
+          "typical_contents": "Labor contracts, complaints, ration requests, marriage registrations, school enrollment records, apprenticeship records.",
+          "narrative_value": "For formerly enslaved ancestors, Bureau records are often the first documents that record them as autonomous persons making decisions — choosing an employer, registering a marriage, filing a complaint against a former enslaver. The labor contracts are especially revealing: they document the terms under which freedpeople re-entered the economy.",
+          "access": "National Archives. Digitized and indexed by FamilySearch. Searchable by state and county."
+        }
+      ],
+      "example_output": "E.A. Canady's estate file in the Edgecombe County courthouse runs to 27 pages — heirs petition, inventory and appraisal, sale of personal property, guardian bonds for minor children, annual accounts, and a final settlement filed three years after his death. The census tells us he was a farmer. The estate file tells us what kind of farmer: the inventory lists two mules, one ox cart, a plow and gear, three hoe blades, a grindstone, one spinning wheel (noted as 'broken'), a rifle, and household furniture valued collectively at $186.40. No piano. No books. No silver. This was a working farm household at the subsistence level. The heirs petition names seven children across two marriages, and the guardian bonds for the minor children were posted by neighbors — suggesting the widow could not post them herself. The sale accounts show that neighbors bought the livestock and tools at auction, which means the farm was broken up. The final settlement took three years and involved a lawsuit among the heirs. The census said 'farmer.' The estate file says: a man who worked hard, died without much, and left a family that could not hold together what he had built."
+    },
+    {
+      "situation_id": "single_document",
+      "narrative_pattern": "NP-04: Single Document Deep Read",
+      "display_name": "Single Document Deep Read",
+      "description": "One record, analyzed exhaustively. Every detail extracted, every implication explored. This fires when a single document — a bounty receipt, a ship manifest entry, a death certificate, a land grant, a marriage bond, a military muster roll entry — contains enough embedded information to generate a full narrative paragraph. The document is read line by line: what each field tells us explicitly, and what each field tells us by implication about the ancestor's circumstances, capabilities, and world.",
+      "trigger_condition": "A single document exists that is rich enough to sustain close analysis. Best candidates: military records (muster rolls, bounty receipts, pension applications), immigration records (ship manifests with detailed passenger information), legal documents (deeds, wills, contracts), vital records with informant data (death certificates listing cause, duration of illness, attending physician, informant relationship). The document must contain at least three to four data points that yield implications beyond their face value.",
+      "tone": "Forensic, methodical, quietly revelatory. The writer is holding a single piece of paper up to the light and reading everything it contains — and everything it implies. Think of a historian turning a document over in their hands, pointing to details and saying: 'Notice this. And this. And what this means is...'",
+      "structural_beats": [
+        "Identify the document — type, exact date, jurisdiction or repository where held. Place it in the reader's hands.",
+        "Read it line by line — what each field tells us explicitly. Name, date, location, amounts, signatures, witnesses. The face value of the record.",
+        "Read it between the lines — what each field implies about circumstances. A signature (not a mark) means literacy. A specific enlistment location places the ancestor geographically on a specific date. A bounty amount tells us about labor market conditions. A death certificate's 'duration of illness' field tells us whether this was sudden or prolonged. The informant listed on a death certificate tells us who was present at the end.",
+        "Context — what was happening in that place at that time that makes this document legible. A bounty receipt from 1864 means something different than one from 1861. A land grant in Indian Territory means something different than one in Ohio.",
+        "The single most revealing detail — the one thing in this document that nobody would notice unless they knew what to look for. The detail that turns a bureaucratic form into a human story."
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{document_type}",
+        "{date}",
+        "{repository}",
+        "{explicit_facts}",
+        "{implied_facts}",
+        "{key_detail}"
+      ],
+      "constraints": [
+        "ALWAYS identify the specific document. This template is meaningless without naming what is being read — type, date, jurisdiction.",
+        "Distinguish rigorously between SAYS and IMPLIES. Use explicit framing: 'The receipt records that...' (fact) vs. 'This tells us that...' (inference) vs. 'We cannot determine from this document whether...' (acknowledged limit).",
+        "Do not read more into a document than it can bear. A single field on a single form has limited explanatory power. Be honest about what one document can and cannot tell us.",
+        "Context must be historically accurate and specific. Do not provide generic 'Civil War context' — provide context for that specific date, that specific location, that specific type of document.",
+        "The 'most revealing detail' must genuinely reward close reading. If the detail is obvious to anyone who glances at the document, it is not a deep read — it is a summary. The deep read finds what is hidden in plain sight.",
+        "Quote the document's own language when possible. Administrative language has a specificity that paraphrase destroys. 'Received of the Confederate States one hundred dollars bounty' is better than 'he got a $100 bounty.'",
+        "80-200 words for the interpretive passage."
+      ],
+      "high_yield_document_types": [
+        {
+          "type": "death_certificate",
+          "fields_to_read": "Cause of death, duration of illness, attending physician (or absence thereof), informant name and relationship, occupation, birthplace, parents' names and birthplaces, burial location.",
+          "what_to_look_for": "The informant field tells you who was present at the end — a spouse, an adult child, a hospital administrator. 'Duration of illness: 2 hours' versus 'Duration of illness: 6 months' tells entirely different stories. The parents' names and birthplaces field is often the only record of the previous generation. The attending physician field, when blank, may indicate death without medical care — poverty, rural isolation, or sudden death."
+        },
+        {
+          "type": "marriage_bond_or_license",
+          "fields_to_read": "Names of both parties, ages (or 'of lawful age'), consent of parent (if underage), bondsman or surety, witnesses, officiant.",
+          "what_to_look_for": "The bondsman was typically a male relative or community figure who vouched for the couple. His identity reveals social connections. Parental consent, when required, tells you the person was below the age threshold. The officiant (justice of the peace vs. minister) tells you about the ceremony's context. Witnesses may be family members not otherwise documented."
+        },
+        {
+          "type": "military_muster_roll",
+          "fields_to_read": "Name, rank, company, regiment, enlistment date, enlistment location, physical description (height, complexion, hair color, eye color), occupation at enlistment, bounty received, remarks (wounded, deserted, discharged, died).",
+          "what_to_look_for": "The physical description is often the only record of what an ancestor actually looked like. The occupation at enlistment captures their civilian life at a specific moment. The remarks column — especially 'deserted' or 'absent without leave' — tells a story the ancestor might not have told their grandchildren."
+        },
+        {
+          "type": "ship_manifest",
+          "fields_to_read": "Name, age, sex, occupation, nationality, last residence, destination, who they are joining (name and address), amount of money carried, physical condition, literacy.",
+          "what_to_look_for": "The 'who they are joining' field documents chain migration — the person already in America who made this journey possible. The amount of money carried places the immigrant on an economic spectrum. Literacy status is explicitly recorded. The last residence is often a specific village, not just a country — it is the most precise origin data available."
+        },
+        {
+          "type": "land_deed",
+          "fields_to_read": "Grantor, grantee, description of property (metes and bounds or lot number), consideration (price paid), witnesses, date, recording date.",
+          "what_to_look_for": "The gap between the deed date and the recording date sometimes reveals urgency or delay. The consideration — the price — places the transaction in an economic context. A deed for $1 or 'love and affection' is a family transfer, not a market sale. The property description, especially metes and bounds ('beginning at the white oak on the creek bank'), places the ancestor in a physical landscape."
+        }
+      ],
+      "example_output": "Henry Canady's Confederate bounty receipt, dated March 1864, is a single page held in the North Carolina State Archives. It records that Henry Canady received $100 from the Confederate States of America as a bounty for enlisting in military service. The document is signed — not marked — which tells us Henry could write his name, placing him among the literate minority of rural Southern men in 1864. The enlistment location (Tarboro, Edgecombe County) places him at home, not already in service elsewhere. The date matters: by March 1864, the Confederacy was desperate for manpower, and bounties had escalated — $100 in March 1864 is not the same inducement as $100 in 1861. It suggests enlistment under pressure, not early-war enthusiasm. The most revealing detail is the simplest: this is a bounty receipt, not a volunteer muster. He was paid to enlist. In 1864, that payment was often the difference between a family eating and not eating while the breadwinner was away. The receipt does not tell us whether Henry wanted to fight. It tells us he needed the money."
+    }
+  ],
+  "situation_selection_guide": {
+    "description": "When multiple situations could apply to the same ancestor, use these guidelines to select the most effective combination.",
+    "rules": [
+      "If two records contradict each other AND one of them is rich enough for a deep read, use source_contradiction first, then single_document on the more revealing record. The contradiction sets up the question; the deep read pursues the answer.",
+      "If an estate, pension, or court file exists, paper_trail_portrait should almost always be included for White Glove tier. These files are too valuable to skip.",
+      "If the only available record is a single census entry with routine data, this template should not fire at all. Not every record rewards close reading. A census entry that says 'farmer, age 45, born NC' is not a deep read — it is a data point.",
+      "source_contradiction is the strongest Option A choice because it has inherent narrative tension. single_document is the second choice because it rewards the reader with hidden information. paper_trail_portrait is the weakest Option A choice because it needs length to work — the accumulation of detail is the point, and 80-150 words may not be enough.",
+      "Never force a deep read. If the documents are routine and the data is unremarkable, say so briefly and move on. The template's credibility depends on being deployed only when the documents genuinely reward close attention."
+    ]
+  },
+  "editorial_guidelines": {
+    "overarching_principle": "This template works best when the writer trusts the reader's intelligence. Present the evidence. Lay out the contradiction, the detail, the implication. Let the reader draw conclusions. The writer's job is to notice what is there and name what it means — not to tell the reader how to feel about it.",
+    "tone": "Detective work, not drama. A historian turning a document over in their hands. Precise, unhurried, attentive to detail. The excitement — and there should be excitement — comes from the evidence itself, not from the writer's rhetorical performance.",
+    "evidence_hierarchy": {
+      "description": "Not all records carry equal evidentiary weight. This template must respect the hierarchy.",
+      "levels": [
+        {
+          "level": 1,
+          "label": "Primary — contemporaneous",
+          "description": "Records created at or near the time of the event by someone with direct knowledge. Birth certificates filed at birth, marriage bonds filed at marriage, death certificates filed at death, legal documents executed at the time of the transaction.",
+          "weight": "Highest reliability for facts recorded. Still subject to error, bias, and informant limitations."
+        },
+        {
+          "level": 2,
+          "label": "Primary — retrospective",
+          "description": "Records created after the event but based on direct knowledge. Census entries (reported years after birth, marriage, etc.), pension depositions (testimony about events decades prior), delayed birth certificates.",
+          "weight": "Reliable for broad facts. Specific details (exact dates, ages, places) degrade with time between event and recording."
+        },
+        {
+          "level": 3,
+          "label": "Secondary — compiled",
+          "description": "Records compiled from other sources. County histories, published genealogies, derivative databases. Useful for leads, not for proof.",
+          "weight": "Treat as hypothesis, not evidence. Always verify against primary sources."
+        }
+      ]
+    },
+    "voice_calibration": {
+      "description": "The analytical voice must be calibrated to the complexity of the evidence. Simple contradictions get simple treatment. Rich document collections get expansive treatment. The template should never sound like it is working harder than the evidence warrants.",
+      "adjustments": [
+        {
+          "factor": "document_complexity",
+          "guidance": "A single-page bounty receipt warrants 80-120 words of analysis. A 27-page estate file warrants 150-250 words. Scale the analysis to the source — do not pad a thin document or compress a rich one."
+        },
+        {
+          "factor": "contradiction_severity",
+          "guidance": "A 2-year age discrepancy gets a sentence. A 10-year age discrepancy that crosses a legal threshold gets a paragraph. A birthplace that changes from 'Virginia' to 'Germany' across two censuses gets a full analysis. Calibrate the analytical investment to the magnitude of the contradiction."
+        },
+        {
+          "factor": "era_and_record_quality",
+          "guidance": "Pre-1850 records are sparser and less standardized. Analysis must acknowledge wider margins of error. Post-1900 records are more detailed and standardized, supporting closer reading. Civil War-era records (1861-1865) are unusually rich due to military and administrative documentation, but also unusually chaotic."
+        },
+        {
+          "factor": "audience",
+          "guidance": "KinLore readers are not professional genealogists. Explain why a detail matters without being condescending. 'He signed rather than marked' needs the follow-up 'which tells us he could write' — do not assume the reader knows the significance of a mark versus a signature."
+        }
+      ]
+    },
+    "what_NOT_to_do": [
+      "No emotional projection. The document speaks; the writer interprets; the reader feels. Never write 'this heartbreaking document' or 'one can only imagine how he felt.'",
+      "No over-interpretation. A single discrepancy might be a clerical error. Two discrepancies might be a pattern. Three discrepancies in the same direction are worth analyzing. Do not build a personality profile from one data point.",
+      "No false certainty. If the document implies something but does not prove it, say so. 'This suggests' is honest. 'This proves' is almost always wrong for genealogical documents.",
+      "No filler analysis. If a field on a document is routine and reveals nothing beyond its face value, do not pretend it is significant. Not every detail rewards close reading. Select the ones that do.",
+      "No anachronistic moral judgment. A Confederate bounty receipt is a historical document, not an occasion for commentary on the morality of the Confederacy. Present the evidence. The reader has their own moral framework.",
+      "No invented context. If you do not know what was happening in Edgecombe County in March 1864, do not guess. Use historical_context_timelines data or leave the context out.",
+      "Do not present routine record-keeping variations as dramatic contradictions. An age that differs by one year between census entries is enumerator rounding, not identity fraud."
+    ],
+    "integration_with_other_templates": {
+      "record_silences": "Document Deep Read may reference Record Silences when a document reveals an absence — a death certificate that lists no attending physician (what does that imply about access to medical care?), an estate inventory with no books (what does that imply about literacy?). The deep read identifies the silence; Record Silences provides the interpretive framework.",
+      "what_they_saw": "Document Deep Read may reference What They Saw for physical context — what the place looked like when and where the document was created. A bounty receipt signed in Tarboro in March 1864 means more if the reader can picture Tarboro in March 1864.",
+      "letter_home": "Document Deep Read provides the evidentiary foundation that Letter Home fictionalizes. A contradiction identified in Document Deep Read might inspire the emotional context of a speculative letter. The two templates should not be combined in the same passage, but they can inform each other across sections of a report."
+    }
+  },
+  "data_dependencies": [
+    "county_source_profiles (for identifying available records and known repository locations)",
+    "historical_context_timelines (for era-specific and location-specific context needed for between-the-lines reading)",
+    "census data (primary source for contradiction identification — multiple enumerations of the same person)",
+    "vital records (birth, marriage, death certificates — primary sources for deep reads and contradiction detection)",
+    "court records (estate files, pension files, lawsuits, bankruptcy — primary sources for paper trail portraits)",
+    "estate and probate records (inventories, heirs petitions, guardian bonds, final settlements — richest source for paper trail portraits)",
+    "military records (muster rolls, bounty receipts, pension applications — primary sources for single document deep reads)"
+  ]
+}

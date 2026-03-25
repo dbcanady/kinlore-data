@@ -1,0 +1,247 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "_purpose": "Regional migration trigger — NC Piedmont and coastal plain families to port cities (Wilmington NC, Norfolk VA). Captures the intra-Southern urban migration that preceded the Great Migration. Not everyone went north first — many NC families moved to the nearest cities for port work, urban service jobs, and maritime employment. The Wilmington coup of November 10, 1898 is the dividing line: before 1898, both white and Black families migrated to Wilmington; after 1898, Black families rerouted to Norfolk or directly to northern cities.",
+  "migration_id": "nc_piedmont_to_coastal_cities",
+  "display_name": "NC Piedmont and Coastal Plain to Port Cities",
+  "short_description": "Between 1875 and 1920, thousands of North Carolina families from the Piedmont and coastal plain moved to the port cities of Wilmington and Norfolk for wage work in maritime trades, naval stores processing, and urban service employment. Wilmington was NC's largest city and only major port; Norfolk, across the Virginia border, was a major naval and commercial hub. This migration preceded and partly replaced the Great Migration northward. The Wilmington coup of November 10, 1898 — the only successful overthrow of an elected government in United States history — shattered the Wilmington pull factor for Black families and rerouted them to Norfolk or directly north.",
+  "era": "1875-1920",
+  "estimated_scale": "Wilmington grew from approximately 13,500 (1870) to 25,700 (1900) and was majority-Black before 1898. Norfolk grew from 19,200 (1870) to 67,400 (1900). NC-born residents in both cities increased significantly in each census decade. Exact migration figures from NC interior counties to these cities are undetermined, but census birthplace data shows consistent NC-origin populations in both destinations.",
+  "involuntary": false,
+  "migration_class": "economic",
+  "coercion_note": "This migration was economically motivated and voluntary in the normal sense. However, after 1898 for Black families, the departure from Wilmington was involuntary — the coup and its aftermath directly expelled over 2,100 Black residents and created conditions that drove thousands more out in the following years. See nc_wilmington_1898_exodus for the involuntary component.",
+  "regional_scope": {
+    "state": "North Carolina (with Norfolk VA as a cross-border destination)",
+    "counties_of_origin": [
+      "Wayne NC", "Duplin NC", "Sampson NC", "Lenoir NC", "Greene NC",
+      "Pitt NC", "Craven NC", "Jones NC", "Onslow NC", "Pender NC",
+      "Bladen NC", "Columbus NC", "Robeson NC", "Brunswick NC",
+      "New Hanover NC", "Cumberland NC", "Johnston NC", "Wilson NC",
+      "Edgecombe NC", "Nash NC", "Halifax NC", "Northampton NC",
+      "Hertford NC", "Bertie NC", "Martin NC", "Beaufort NC",
+      "Hyde NC", "Tyrrell NC", "Dare NC", "Carteret NC", "Pamlico NC"
+    ],
+    "counties_of_destination": [
+      "New Hanover NC (Wilmington)",
+      "Norfolk City VA (independent city)",
+      "Norfolk County VA"
+    ],
+    "notes": "This is a rural-to-urban migration within the South. Wilmington and Norfolk served as stepping stones — some families stayed permanently, others used port cities as a waystation before moving further north. After 1898, the two destinations diverged sharply by race."
+  },
+  "trigger_type": "regional",
+  "parent_trigger_ref": null,
+  "phases": [
+    {
+      "phase_id": "post_war_urbanization",
+      "phase_name": "Post-War Urbanization and Wilmington's Rise",
+      "date_range": "1875-1898",
+      "description": "Wilmington was North Carolina's largest city and its only significant deepwater port. The Cape Fear River connected interior NC to Atlantic trade. In the 1870s-1890s, Wilmington had a Black majority population, a biracial Fusionist political coalition (Republicans and Populists), Black aldermen, magistrates, and a thriving Black middle class of merchants, artisans, and professionals. The city drew labor from NC's interior for stevedoring, naval stores processing, timber export, fishing, domestic service, and railroad work. Both white and Black families from Piedmont and coastal plain counties migrated to Wilmington during this period. Norfolk similarly grew as a naval and commercial port, with the Norfolk Navy Yard (Gosport Shipyard) providing steady military and civilian employment."
+    },
+    {
+      "phase_id": "wilmington_1898_disruption",
+      "phase_name": "Wilmington 1898 Coup and Racial Rerouting",
+      "date_range": "1898-1905",
+      "description": "On November 10, 1898, a white supremacist mob led by former Confederate officer Alfred Moore Waddell overthrew Wilmington's elected biracial Fusionist city government — the only successful coup d'etat against an elected government in United States history. The mob destroyed the printing press of Alexander Manly's Daily Record (a Black newspaper), murdered an estimated 60-300 Black residents (the exact count remains disputed), and permanently expelled over 2,100 Black citizens. The coup destroyed Wilmington as a destination for Black families. White families continued to migrate to Wilmington; Black families rerouted to Norfolk, or bypassed Southern cities entirely and headed north. This trigger CONNECTS to nc_wilmington_1898_exodus — the 1898 coup is the dividing line in this migration pattern."
+    },
+    {
+      "phase_id": "norfolk_expansion",
+      "phase_name": "Norfolk and Hampton Roads Growth",
+      "date_range": "1900-1920",
+      "description": "Norfolk's Navy Yard expanded significantly with the naval buildup of the Spanish-American War (1898) and World War I (1917-1918). Hampton Roads became one of the largest naval installations in the world. The expansion created thousands of civilian jobs — shipfitting, carpentry, painting, metalwork, clerical, and service positions. Norfolk also grew as a commercial port and railroad terminus (Norfolk & Western Railway, Seaboard Air Line). NC families — now increasingly Black families rerouted from the closed Wilmington option — moved to Norfolk for Navy Yard employment, port work, and urban wages. The Norfolk Black community grew substantially, developing its own institutions, churches, schools, and social organizations."
+    }
+  ],
+  "push_factors": [
+    {
+      "factor_id": "rural_poverty",
+      "factor": "Rural poverty and limited economic opportunity",
+      "severity": 3,
+      "description": "Piedmont and coastal plain NC counties offered limited economic options beyond agriculture, turpentine extraction, and timber cutting. Farm labor paid $0.25-$0.50 per day when available; much agricultural work was sharecropping or tenant farming with no cash wages. Urban port cities offered the possibility of regular cash wages, even if the work was hard and intermittent. The differential between rural subsistence and urban cash economy drove steady migration.",
+      "date_range": "1875-1920",
+      "regional_scope": "NC Piedmont and coastal plain counties",
+      "narrative_hook": "In {origin_county}, {ancestor_name} could work another man's tobacco for a share of the crop, or cut turpentine boxes in the pine woods for pennies. In {destination_city}, the docks paid cash — not much, and not every day — but cash that could be spent at a store where {pronoun_subject} wasn't in debt to the owner."
+    },
+    {
+      "factor_id": "limited_farm_land",
+      "factor": "Limited farmland and subdivision pressure",
+      "severity": 3,
+      "description": "The same farm subdivision pressure documented in the nc_eastern_farm_to_mill trigger applied here. Each generation divided the land smaller. Younger sons and landless families with no prospect of acquiring their own farms looked to urban wage labor as the alternative. The difference from the mill migration pattern is the destination — port cities rather than textile mills — and the occupational outcome: maritime, service, and industrial work rather than mill operatives.",
+      "date_range": "1875-1920",
+      "regional_scope": "NC Piedmont and coastal plain",
+      "narrative_hook": "There were {sibling_count} of them and {acres} acres, and the acres were getting smaller every generation. {ancestor_name} was the {birth_order} child — by the time the land was divided, {pronoun_possessive} share wouldn't grow enough to feed a dog. {destination_city} was {miles} miles away and hiring."
+    },
+    {
+      "factor_id": "seasonal_unemployment",
+      "factor": "Seasonal agricultural unemployment",
+      "severity": 2,
+      "description": "Agricultural labor in eastern NC was intensely seasonal. Planting (April-May) and harvest (September-November) required full labor; winter months offered little paid work. Families that relied on agricultural wages faced three to four months of near-zero income each year. Port cities offered more consistent year-round employment — ships docked in every season, and naval stores processing ran continuously.",
+      "date_range": "1875-1920",
+      "regional_scope": "NC Piedmont and coastal plain",
+      "narrative_hook": "From December to March, there was no work to be had in {origin_county} unless you owned the land. {ancestor_name} spent four months every winter patching the cabin and hoping the preserved food held out. In {destination_city}, the ships came in year-round and the Navy Yard didn't shut down for winter."
+    },
+    {
+      "factor_id": "desire_for_urban_wages",
+      "factor": "Desire for urban wages and economic advancement",
+      "severity": 2,
+      "description": "Beyond escape from poverty, some migrants were drawn by genuine aspiration. Urban port cities offered not just wages but access to education, institutions, churches, fraternal organizations, and social mobility unavailable in rural counties. For Black families before 1898, Wilmington specifically offered a model of Black economic and political participation that did not exist in rural NC.",
+      "date_range": "1875-1920",
+      "regional_scope": "NC Piedmont and coastal plain",
+      "narrative_hook": "{ancestor_name} didn't leave {origin_county} because {pronoun_subject} was starving. {pronoun_subject} left because {destination_city} had a school for the children, a church with a real preacher, and the chance to be something more than a tenant on another man's land."
+    }
+  ],
+  "pull_factors": [
+    {
+      "factor_id": "wilmington_port_employment",
+      "factor": "Wilmington port and maritime employment",
+      "description": "Wilmington's port on the Cape Fear River handled timber, naval stores (turpentine, rosin, tar — North Carolina was the nation's leading producer), cotton, and general cargo. Stevedoring employed hundreds of men loading and unloading vessels. Naval stores processing (distilling turpentine, grading rosin) employed both skilled and unskilled workers. The fishing industry on the Cape Fear and along the coast employed watermen year-round. These occupations were open to both white and Black workers, though often segregated by task or vessel.",
+      "narrative_hook": "The Cape Fear docks in Wilmington were never still. Ships loaded turpentine barrels, lumber, and cotton bales bound for New York and Liverpool. {ancestor_name} found work as a {occupation} — hard labor, long days, but the pay came every week and the work didn't depend on whether it rained in August."
+    },
+    {
+      "factor_id": "norfolk_navy_yard",
+      "factor": "Norfolk Navy Yard employment",
+      "description": "The Norfolk Navy Yard (Gosport Shipyard) in Portsmouth, across the Elizabeth River from Norfolk, was one of the largest naval installations on the East Coast. It employed thousands of civilian workers — shipfitters, carpenters, painters, riggers, laborers, clerks — alongside military personnel. The Spanish-American War (1898) and World War I (1917-1918) brought major expansions. For NC families, Navy Yard employment offered steady wages, relative job security, and (for skilled workers) wages significantly above agricultural rates. Black workers were employed at the Navy Yard though concentrated in laborer and helper positions.",
+      "narrative_hook": "{ancestor_name} hired on at the Norfolk Navy Yard in {year} as a {occupation}. The government paid better than any farmer in {origin_county} ever had, and the work didn't stop when the crop was in. By {year_later}, {pronoun_subject} had brought {relative_name} up from {origin_county} to work alongside {pronoun_object}."
+    },
+    {
+      "factor_id": "urban_wages",
+      "factor": "Urban wage levels exceeding rural rates",
+      "description": "Urban wages in Wilmington and Norfolk, while modest, significantly exceeded rural agricultural wages. A stevedore in Wilmington earned $1.00-$2.00 per day; a Navy Yard laborer in Norfolk earned $1.25-$2.50 per day. Farm labor in NC paid $0.25-$0.75 per day when available. The differential was enough to motivate migration, especially for families with multiple potential wage earners. Urban cost of living was higher, but the cash economy offered financial flexibility impossible in rural barter-and-credit systems.",
+      "narrative_hook": "A day on the docks in {destination_city} paid what a week in the fields of {origin_county} paid — when the fields were paying at all. {ancestor_name} did the arithmetic and loaded the wagon."
+    },
+    {
+      "factor_id": "education_and_institutions",
+      "factor": "Access to education, churches, and institutions",
+      "description": "Port cities offered schools, churches, fraternal organizations, and social institutions unavailable in rural NC. For Black families, Wilmington before 1898 offered Black-led churches, schools, a newspaper (the Daily Record), and Black-owned businesses. Norfolk had similar institutions, plus Hampton Normal and Agricultural Institute (now Hampton University) across Hampton Roads. Access to education for children was a significant pull factor for families willing to trade rural independence for urban wages.",
+      "narrative_hook": "In {origin_county}, the nearest school was {miles} miles away and ran three months a year. In {destination_city}, the children could go to school nine months and learn more than how to follow a mule. {ancestor_name} moved for the wages. {pronoun_subject} stayed for the school."
+    },
+    {
+      "factor_id": "railroad_connections",
+      "factor": "Railroad connections linking interior NC to port cities",
+      "description": "The Atlantic Coast Line Railroad connected Goldsboro, Fayetteville, and Wilmington. The Wilmington & Weldon Railroad (one of the oldest in the US) connected Wilmington to the Virginia border. The Seaboard Air Line connected interior NC to Norfolk. These railroads made the journey from NC's interior to either port city a single-day trip, reducing the practical barrier to migration. Railroad workers themselves were a migrant population — many NC men found railroad employment as a first step toward urban settlement.",
+      "narrative_hook": "{ancestor_name} bought a ticket at the {station_name} depot for ${fare} — a day's wages for a day's travel. The train to {destination_city} covered {miles} miles in {hours} hours. It was faster than the mule and cheaper than the wagon, and it only went one direction."
+    }
+  ],
+  "key_occupations": [
+    {
+      "occupation": "Stevedore / Longshoreman",
+      "description": "Loading and unloading cargo at Wilmington and Norfolk docks. Heavy physical labor, paid by the day or by the load. Organized into racial gangs — white and Black stevedores worked the same docks but typically on different vessels or different tasks. Among the highest-paid unskilled labor available to migrants."
+    },
+    {
+      "occupation": "Sailor / Waterman",
+      "description": "Maritime work on coastal vessels, fishing boats, and river craft. NC's coastal waters — Pamlico Sound, Cape Fear River, Albemarle Sound — supported a large waterman population. Skills were transferable to Wilmington and Norfolk harbor work. David Cecelski's 'The Waterman's Song' documents the centrality of Black watermen to NC's maritime economy."
+    },
+    {
+      "occupation": "Naval Stores Worker",
+      "description": "Processing turpentine, rosin, and tar from NC's longleaf pine forests. North Carolina was the nation's leading producer of naval stores through the late 19th century. Wilmington was the primary export point. Work included tapping trees (in the forests), distilling turpentine, grading rosin, and coopering barrels. Both field and processing work employed large numbers of Black and white workers."
+    },
+    {
+      "occupation": "Fisherman",
+      "description": "Commercial fishing on Pamlico Sound, Cape Fear River, and Atlantic coast. Shad, herring, mullet, and oysters were the primary catches. Fishing was year-round but seasonal in intensity. Many watermen combined fishing with other maritime work. Fishing communities (Beaufort, Morehead City, Southport) fed labor into the larger port cities."
+    },
+    {
+      "occupation": "Domestic Service",
+      "description": "Cooking, cleaning, laundering, and childcare in urban households. Predominantly performed by Black women. Domestic service was the single largest employer of Black women in both Wilmington and Norfolk. Wages were low ($2-$5 per week) but the work was steady and sometimes included room and board."
+    },
+    {
+      "occupation": "Washerwoman / Laundress",
+      "description": "Independent laundry work — washing, ironing, and delivering clothes for urban households. Unlike domestic servants who worked in employers' homes, washerwomen often worked from their own homes, giving them greater autonomy. Washerwomen's networks were important community institutions in both Wilmington and Norfolk. The work was physically demanding and poorly paid but offered independence."
+    }
+  ],
+  "transportation": {
+    "primary_mode": "Railroad for longer distances; wagon or foot for shorter moves to Wilmington from surrounding counties. Coastal vessels for families from Pamlico Sound and Outer Banks communities.",
+    "route_refs": [],
+    "route_notes": "Atlantic Coast Line Railroad: Goldsboro to Wilmington via Faison, Warsaw, Burgaw. Wilmington & Weldon Railroad: Wilmington to Weldon (Virginia border) via Goldsboro. Seaboard Air Line: Raleigh/Henderson to Norfolk. Cape Fear River: navigable from Fayetteville to Wilmington for small vessels. Coastal steamers connected Beaufort, Morehead City, New Bern, and Elizabeth City to Norfolk.",
+    "what_they_carried": "Household goods, clothing, tools of trade if they had one. Fishermen and watermen brought their own gear. Families moving to rented urban housing brought less than those moving to mill villages or farms — urban housing was smaller and furnished differently.",
+    "what_they_left_behind": "Farm land (if they owned any), rural church community, extended family networks. For families who had been sharecroppers or tenants, there was less to leave — no land, no permanent house, no equipment of their own. The poorest migrants had the least to carry and the least to leave.",
+    "cost_of_travel": "Railroad fare from interior NC to Wilmington: $1.50-$4.00 depending on distance. Coastal steamer fare: $1.00-$3.00. Wagon travel was free but slow. The cost was low enough that it was not a significant barrier — a week's wages at the destination would cover the journey.",
+    "seasonal_departure_pattern": "Less seasonal than agricultural migrations. Port work was year-round, so departures occurred throughout the year. Some concentration in late fall/winter when agricultural work ended and families made the decision not to plant another season."
+  },
+  "origin_counties": [
+    "Wayne NC", "Duplin NC", "Sampson NC", "Lenoir NC", "Greene NC",
+    "Pitt NC", "Craven NC", "Jones NC", "Onslow NC", "Pender NC",
+    "Bladen NC", "Columbus NC", "Robeson NC", "Brunswick NC",
+    "Cumberland NC", "Johnston NC", "Wilson NC",
+    "Edgecombe NC", "Nash NC", "Halifax NC", "Northampton NC",
+    "Hertford NC", "Bertie NC", "Martin NC", "Beaufort NC",
+    "Hyde NC", "Tyrrell NC", "Dare NC", "Carteret NC", "Pamlico NC"
+  ],
+  "counties_most_affected": [
+    "New Hanover NC", "Pender NC", "Brunswick NC", "Bladen NC", "Columbus NC"
+  ],
+  "destination_towns": [
+    "Wilmington, NC — Cape Fear River port, NC's largest city, naval stores export center",
+    "Norfolk, VA — major naval and commercial port, Norfolk Navy Yard (Gosport Shipyard)",
+    "Portsmouth, VA — Norfolk Navy Yard physical location, across Elizabeth River from Norfolk"
+  ],
+  "destination_refs": ["wilmington_port_district", "norfolk_hampton_roads"],
+  "origin_community_refs": ["nc_piedmont_community", "nc_coastal_plain_community"],
+  "race_routing": {
+    "applies_to": "All ancestors — this trigger routes differently by race and by date",
+    "before_1898": "Before November 1898, both white and Black NC families migrated to Wilmington. The city had a Black majority, Black elected officials, Black-owned businesses, and a functioning biracial political system. Wilmington was a viable and attractive destination for Black families from NC's interior.",
+    "after_1898": "After the Wilmington coup of November 10, 1898, Wilmington ceased to be a viable destination for Black families. White supremacist Democrats seized permanent control. Over 2,100 Black residents were directly expelled; thousands more left in the following years. Black families from NC's interior rerouted to Norfolk (which had no comparable political catastrophe) or bypassed Southern cities entirely and migrated north. White families continued to migrate to Wilmington without disruption.",
+    "connection_to_other_triggers": "This trigger CONNECTS to nc_wilmington_1898_exodus for the forced departure component. For Black families post-1898, also check the great_migration trigger for northward movement.",
+    "narrative_hook_before_1898": "Before 1898, Wilmington was where a Black family from {origin_county} could find work, vote, send the children to school, and see Black men holding office. {ancestor_name} went to Wilmington because it worked — a city that proved what was possible.",
+    "narrative_hook_after_1898": "After November 1898, Wilmington was where Black families learned what was impossible. The coup taught {ancestor_name} that a Southern city could be taken back by force. Norfolk was further away but further from the men who had burned the Daily Record and shot their neighbors in the street."
+  },
+  "chain_migration": {
+    "pattern": "kinship_and_occupational_chain",
+    "description": "Migration to port cities followed both kinship and occupational networks. A stevedore in Wilmington brought his brother from Sampson County. A washerwoman in Norfolk sent word to her sister in Halifax County. Maritime workers — fishermen, sailors, watermen — moved along the coast through occupational networks that were partly kinship-based (fishing families were often intermarried). Church networks also facilitated migration: a congregation in Wilmington or Norfolk that had members from a particular NC county served as an informal settlement house for new arrivals from that county.",
+    "gender_pattern": "Men typically preceded families in port city migration, establishing employment and housing before sending for wives and children. However, women in domestic service and laundry work also migrated independently, particularly unmarried women and widows. Women's networks — especially washerwoman networks — were important conduits for migration information. Married women's labor (domestic service, laundry, cooking) was often essential to family economic survival in the city, just as it had been on the farm.",
+    "narrative_hook": "When {relative_name} wrote from {destination_city} that the {employer} was hiring and there was a room to rent on {street_name}, {ancestor_name} didn't need convincing. {relative_name} had gone first, tested the water, and found it deep enough. {ancestor_name} followed the same road {relative_name} had walked."
+  },
+  "what_happened_to_those_who_stayed": "Many families stayed in NC's Piedmont and coastal plain, adapting to the changing agricultural economy. Brightleaf tobacco replaced cotton as the primary cash crop in many eastern counties. Turpentine and naval stores work continued in the pine forests. Some families accumulated enough land to become independent farmers. Others remained trapped in sharecropping and tenancy. The communities that lost population to port cities did not collapse — they continued, smaller and older, as the young and ambitious departed. For Black communities after 1898, staying in rural NC meant accepting the hardening racial order of Jim Crow without the political representation or institutional support that Wilmington had briefly offered.",
+  "record_implications": {
+    "wilmington_city_directories": "Wilmington city directories (published annually from the 1860s) list residents by name, address, race, and occupation. Comparing pre-1898 and post-1898 directories reveals the displacement of Black residents after the coup. Directories are held at the New Hanover County Public Library and NC State Archives. Look for the ancestor's surname appearing in Wilmington directories after disappearing from origin county records.",
+    "norfolk_navy_yard_records": "Norfolk Navy Yard civilian employment records (NARA, Record Group 71 and Record Group 181) document workers by name, occupation, race, hire date, and wages. These records confirm when an ancestor entered Navy Yard employment and what they were paid. Many NC-born workers appear in these records from the 1890s onward.",
+    "maritime_records": "Vessel enrollment and licensing records (NARA, Record Group 36 — Bureau of Customs) document ship owners, masters, and crew. Seamen's protection certificates (issued to American sailors as proof of citizenship) provide physical descriptions, birthplaces, and ages — a genealogical resource for maritime ancestors. NC coastal customs houses (Wilmington, Beaufort, Edenton, Plymouth) generated these records.",
+    "wilmington_port_records": "Cape Fear River port records document vessel arrivals, departures, and cargo. While primarily commercial, these records occasionally name workers (stevedore gang leaders, harbor pilots) and can confirm an ancestor's connection to the port economy.",
+    "census_analysis": "New Hanover County (Wilmington) and Norfolk City census records, compared with origin county census records, reveal migration timing. An ancestor appearing as 'farmer' in Duplin County in 1880 and 'stevedore' in New Hanover County in 1900 IS the migration — and the 20-year gap (with the 1890 census destroyed) means the exact date is often unknown. Norfolk city census records similarly show NC-born residents by occupation and birthplace.",
+    "church_transfer_records": "Baptist and Methodist church transfer records document movement from rural NC congregations to Wilmington and Norfolk churches. Black Baptist churches in Wilmington (notably First Baptist Church, St. Stephen AME) and Norfolk (First Baptist Church Bute Street, Bank Street Baptist) received members from NC interior counties. Transfer letters confirm both timing and destination."
+  },
+  "counter_narratives": [
+    {
+      "narrative_id": "not_all_unskilled",
+      "title": "Not all port city migrants were unskilled laborers",
+      "description": "The standard narrative of rural-to-urban migration emphasizes unskilled labor — stevedoring, domestic service, day labor. But port cities also attracted skilled artisans (carpenters, coopers, blacksmiths, shipwrights), merchants, and professionals. Wilmington's pre-1898 Black middle class included business owners, attorneys, and physicians who had migrated from NC's interior. The migration included the full spectrum of economic ambition, not just the desperate.",
+      "narrative_hook": "{ancestor_name} didn't come to {destination_city} to carry bales. {pronoun_subject} came because a {occupation} could find more work and better pay in a port city than in {origin_county}. The skills {pronoun_subject} had learned on the farm — {skill_1}, {skill_2} — translated into trades that paid."
+    },
+    {
+      "narrative_id": "destinations_not_identical",
+      "title": "Wilmington and Norfolk were not interchangeable destinations",
+      "description": "Though both were port cities drawing NC labor, Wilmington and Norfolk had different economies, different racial dynamics, and different political histories. Wilmington's economy centered on naval stores, timber, and Cape Fear River commerce; Norfolk's centered on the Navy Yard, coal export, and Hampton Roads shipping. Wilmington's racial politics were uniquely volatile (culminating in 1898); Norfolk's racial order was oppressive but did not produce an equivalent violent overthrow. Treating the two cities as interchangeable erases the specific conditions that made each destination distinct.",
+      "narrative_hook": "{ancestor_name} chose {destination_city} over {alternative_city} for a reason. The two ports were {distance} miles apart but worlds different — different work, different wages, different rules about who could do what."
+    },
+    {
+      "narrative_id": "urban_not_always_improvement",
+      "title": "Urban life was not always an improvement over rural life",
+      "description": "Port cities offered wages and institutions, but also disease, crowded housing, industrial hazards, and social dislocation. Yellow fever epidemics struck Wilmington and Norfolk repeatedly in the 19th century. Urban housing for working-class families — especially Black families — was often worse than rural housing: smaller, more crowded, poorly ventilated, without gardens or livestock. Some migrants returned to the countryside after finding urban conditions intolerable. The assumption that rural-to-urban migration was always upward mobility misrepresents the actual experience.",
+      "narrative_hook": "{ancestor_name} lasted {duration} in {destination_city} before the cough, the crowding, and the cost of everything drove {pronoun_object} back to {origin_county}. The city had wages, but it also had disease and rent. The farm had neither — but at least the air was clean and the water was free."
+    }
+  ],
+  "source_references": [
+    {
+      "source_id": "cecelski_2001",
+      "citation": "Cecelski, David S. The Waterman's Song: Slavery and Freedom in Maritime North Carolina. Chapel Hill: University of North Carolina Press, 2001.",
+      "relevance": "Definitive study of NC's maritime labor force, documenting the centrality of Black watermen to the coastal economy and the maritime occupational pathways available to migrants from NC's interior."
+    },
+    {
+      "source_id": "cecelski_tyson_1998",
+      "citation": "Cecelski, David S., and Timothy B. Tyson, eds. Democracy Betrayed: The Wilmington Race Riot of 1898 and Its Legacy. Chapel Hill: University of North Carolina Press, 1998.",
+      "relevance": "Essential collection of scholarship on the Wilmington coup of 1898, documenting the destruction of biracial politics, the expulsion of Black residents, and the long-term consequences for NC's racial order. Directly documents the event that divides this migration trigger's two eras."
+    },
+    {
+      "source_id": "lewis_1991",
+      "citation": "Lewis, Earl. In Their Own Interests: Race, Class, and Power in Twentieth-Century Norfolk, Virginia. Berkeley: University of California Press, 1991.",
+      "relevance": "Study of Norfolk's Black community including migration patterns, occupational structure, institutional development, and political engagement. Documents the Norfolk destination that absorbed Black families rerouted from Wilmington after 1898."
+    },
+    {
+      "source_id": "kenzer_1997",
+      "citation": "Kenzer, Robert C. Enterprising Southerners: Black Economic Success in North Carolina, 1865-1915. Charlottesville: University Press of Virginia, 1997.",
+      "relevance": "Documents Black economic achievement in post-Civil War NC, including urban entrepreneurship, skilled trades, and professional development — essential for understanding that port city migration was not exclusively a story of unskilled labor."
+    },
+    {
+      "source_id": "outland_2004",
+      "citation": "Outland, Robert B. III. Tapping the Pines: The Naval Stores Industry in the American South. Baton Rouge: Louisiana State University Press, 2004.",
+      "relevance": "Comprehensive history of the naval stores industry — turpentine, rosin, tar — that was central to both NC's rural economy and Wilmington's port commerce. Documents the occupational chain from forest worker to port laborer."
+    }
+  ]
+}

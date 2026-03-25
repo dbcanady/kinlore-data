@@ -1,0 +1,153 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "_purpose": "Narrative template for documenting the convergence of multiple ancestral lines at a single place and time. GENO Narrative Pattern NP-11. Every convergence claim must be supported by documentary evidence. No romantic framing — convergence is remarkable because it is traceable, not because it was inevitable.",
+  "template_id": "convergence",
+  "display_name": "Convergence Narrative",
+  "description": "Generates a narrative passage documenting the moment when multiple ancestral lines — previously traveling separately through time and geography — converge at one point. This is the 'all roads lead here' template: the place where the reader's family begins. The convergence point is where people who had never met, who came from different places with different histories, were in the same room, the same neighborhood, the same church, the same factory floor. From the reader's perspective, everything before the convergence is prologue. Everything after is their family.",
+  "revenue_tier": "White Glove primarily — convergence narratives require data from multiple lines, which Option A reports typically lack",
+  "tier_guidance": {
+    "option_a": "If convergence data is available, include a brief 2-3 sentence note identifying where and when the lines met. No extended narrative.",
+    "white_glove": "Full convergence narrative for the most significant intersection point. Up to 250 words. This is often the emotional climax of a multi-line report."
+  },
+  "situations": [
+    {
+      "situation_id": "marriage_convergence",
+      "display_name": "Marriage Convergence",
+      "trigger_condition": "Two ancestral lines meet through marriage. The most common convergence type. Triggered when a marriage record links two surnames that have been traced separately through earlier sections of the report.",
+      "tone": "Quiet revelation. The narrative power comes from tracing how two separate family trajectories — potentially spanning different states, different ethnicities, different economic classes — ended up in the same community at the same time. Let the parallel structure do the work.",
+      "structural_beats": [
+        "Line A: where they came from, how they got here. Brief migration summary — 2-3 sentences maximum. Origin, route, arrival.",
+        "Line B: where they came from, how they got here. Same format — the parallelism is intentional. The reader should feel the two lines approaching each other.",
+        "The intersection: what brought them to the same place? Same migration trigger? Same employer? Same church? Same neighborhood? Identify the mechanism — not fate, not chance, but a documentable force.",
+        "The marriage record: date, place, witnesses. Witnesses often reveal the social network that connected the two lines. A witness surname shared with either family is primary evidence of a pre-existing connection.",
+        "Forward glance: the family that resulted. Not the whole tree — just the immediate next generation. The convergence produced THIS family. Brief and factual."
+      ],
+      "variables": [
+        "{line_a_name}",
+        "{line_a_origin}",
+        "{line_b_name}",
+        "{line_b_origin}",
+        "{marriage_year}",
+        "{marriage_place}",
+        "{witnesses}",
+        "{connecting_factor}"
+      ],
+      "constraints": [
+        "Both Line A and Line B summaries must be documented — not speculative migration paths.",
+        "The intersection mechanism must be supported by evidence. Do not write 'they probably met at church' unless a church record places them in the same congregation.",
+        "Marriage witnesses are primary evidence of social connection. Always note them if available. If not available, say so.",
+        "The forward glance must be brief — two sentences maximum. The emotional impact is already there; do not oversell it.",
+        "No romantic narrative about fate, destiny, or meant-to-be. These people converged because of documentable economic, social, and geographic forces.",
+        "150-250 words for White Glove. 40-60 words for Option A."
+      ],
+      "example_output": "James Henry Canady's people had been in Sampson County since before the Revolution — four generations of farmers on the same stretch of land between the Coharie and the South River. Mary Elizabeth Bass's family came from the same county — a few miles east, a different church, a slightly different economic tier, but the same sandy soil and the same tobacco economy. They married in 1895 at the Bass family home. The witnesses were a Canady and a Bass, sealing the connection between two families that had lived within five miles of each other for a century without, as far as the records show, ever previously intermarrying. Their first child was born the following year."
+    },
+    {
+      "situation_id": "neighborhood_convergence",
+      "display_name": "Neighborhood Convergence",
+      "trigger_condition": "Multiple ancestral lines end up in the same neighborhood, drawn by the same economic magnet from different origins. Census records, city directories, or church records place ancestors from different lines within blocks of each other before any known social connection.",
+      "tone": "Accumulative. Each line arrives separately; the narrative builds density as the neighborhood fills. The convergence is geographic before it is personal — people who had nothing in common except proximity and the need for work. The tone should evoke a map slowly being populated with pins.",
+      "structural_beats": [
+        "The place: what is the neighborhood, what decade, what drew people here. A specific industry, employer, or institution — not a vague economic opportunity. Name the factory, the mill, the railroad, the base.",
+        "Line A arrives: when, from where, what they do here. 1-2 sentences. Specific street or block if city directory or census data supports it.",
+        "Line B arrives: when, from where, what they do here. 1-2 sentences. Same level of specificity.",
+        "The proximity: how close did they live? Same block? Same boarding house? Same church congregation? Census enumeration pages are powerful evidence — enumerated on the same page means within a few houses. State what the evidence proves and what it merely suggests.",
+        "The intersection event: how and when do the lines actually connect? Marriage? Children at the same school? Employment at the same factory? Church membership? This is the moment the geographic convergence becomes a family convergence."
+      ],
+      "variables": [
+        "{neighborhood}",
+        "{city}",
+        "{decade}",
+        "{industry}",
+        "{line_a_origin}",
+        "{line_a_arrival}",
+        "{line_b_origin}",
+        "{line_b_arrival}",
+        "{proximity_evidence}",
+        "{intersection_event}"
+      ],
+      "constraints": [
+        "Use specific streets, specific blocks, specific employers. Generic 'they lived in the same city' is not convergence — it is coincidence.",
+        "Census enumeration proximity is powerful evidence but must be stated precisely: 'enumerated on the same page of the 1910 census' means within a few houses. Do not overstate what it proves.",
+        "Each line's arrival must be documented — first appearance in a city directory, first census at the location, or other dated record.",
+        "The intersection event must be documented. If the first documented connection is a marriage, say so. If they appear in the same church record, say so. Do not invent an undocumented earlier connection.",
+        "If more than two lines converge in the same neighborhood, include them — but give each line its own arrival beat. Do not collapse multiple lines into a summary.",
+        "150-250 words for White Glove. 40-60 words for Option A."
+      ],
+      "example_output": "By 1910, the South Side of Pittsburgh had gathered them all. The Slovaks from Zemplín County arrived first — Stefan Kovác appears in the 1902 city directory at 2314 Carson Street, occupation: laborer, J&L Steel. The Poles from Galicia came next — Józef Wiśniewski is listed at 1847 18th Street by 1906, also working the mill. The Croats from Dalmatia followed — Marko Horvat surfaces in the 1909 directory on Jane Street, six blocks south. All within a ten-minute walk. All working the same mill. All attending separate ethnic parishes that shared the same God in different languages. The 1910 census enumerator walked these blocks in order, recording Kovác on page 12A and Wiśniewski on page 12B — adjacent households, separated by a shared wall. Stefan Kovác's daughter married Józef Wiśniewski's son in 1921 at Immaculate Heart of Mary. The witnesses included a Horvat."
+    },
+    {
+      "situation_id": "event_convergence",
+      "display_name": "Event Convergence",
+      "trigger_condition": "A specific historical event — a war, a disaster, a migration wave, a land run, a labor recruitment drive — brings separate ancestral lines to the same place at the same time. The event is the convergence mechanism, compressing people from scattered origins into one location.",
+      "tone": "Compressed. The event is brief and forceful. The narrative should mirror that compression — separate lines suddenly occupying the same moment. Short sentences. Parallel structure. The event is the frame, not the focus. The focus is: these particular people were there.",
+      "structural_beats": [
+        "The event: what happened, when, where. Brief — two to three sentences maximum. The reader may already know the event; the point is that the ancestor was there.",
+        "Who it drew: how did each ancestral line end up at this event? Different origins, different reasons, same event. Each line gets its own sentence establishing where they came from and why they were drawn.",
+        "The moment: the specific intersection — what record documents that these separate lines were at the same event at the same time? A muster roll, a land patent, a relief roster, a ship manifest, an employment ledger. Name the document.",
+        "After the event: did the connection persist? Did the event create the community that eventually produced the reader's family? Or was the convergence temporary, with the actual family connection coming later through a different mechanism? Be precise about what the event caused and what it merely preceded."
+      ],
+      "variables": [
+        "{event_name}",
+        "{year}",
+        "{location}",
+        "{line_a_name}",
+        "{line_a_origin}",
+        "{line_b_name}",
+        "{line_b_origin}",
+        "{convergence_evidence}",
+        "{aftermath}"
+      ],
+      "constraints": [
+        "The event must be historically documented and the ancestors' presence at it must be supported by records — not inferred from geographic proximity alone.",
+        "Do not conflate being in the same region during the same era with being at the same event. A land run is an event. Living in Oklahoma Territory in the 1890s is not.",
+        "The convergence evidence must name a specific record type. 'They were both there' is not evidence. 'Both names appear on the September 1889 land patent registry for Canadian County' is evidence.",
+        "The aftermath must distinguish between what the event directly caused and what happened later. If the families did not connect until a generation after the event, say so.",
+        "No heroic or triumphal framing of events that involved displacement, violence, or exploitation. A land run displaced Native people. A factory recruitment drive may have been exploitative. State the facts.",
+        "120-250 words for White Glove. 40-60 words for Option A."
+      ],
+      "example_output": "The Oklahoma Land Run of 1889 drew them from three directions. Thomas Alcorn came south from Wichita, where he had been clerking at a dry goods store and watching the border. Sarah Jane Pettit's father brought the family up from Van Buren, Arkansas — he had been farming rented land and saw the territory as owned land, free. And the Meeks family crossed over from Denton County, Texas, where three dry years in a row had made 160 free acres worth the risk of a horse race. On April 22, all three families staked claims in Canadian County. The General Land Office records show Alcorn on the SE quarter of Section 14, Pettit on the NE quarter of Section 22, and Meeks on the SW quarter of Section 15 — all within two miles of each other. They didn't know each other that morning. By the time the El Reno Methodist Church organized the following year, all three names appear on the founding membership roll. Thomas Alcorn married Clara Meeks in 1893. Their daughter married a Pettit in 1912."
+    }
+  ],
+  "editorial_guidelines": {
+    "tone_and_restraint": {
+      "description": "The quiet revelation. This is the moment in the report where the reader goes 'oh.' Restraint is critical — the more restrained the writing, the more powerful the convergence. Let the facts create the impact.",
+      "principles": [
+        "Let dates, addresses, and census pages do the emotional work. Do not annotate them with feeling.",
+        "The parallel structure of separate lines approaching each other IS the narrative device. Do not add another one on top of it.",
+        "The forward glance — the family that resulted — should be the shortest, plainest sentence in the passage. Understatement at the end is more powerful than a crescendo.",
+        "This template often works as the final section of a White Glove report, drawing together threads from earlier sections. It should feel like arrival, not like a climax."
+      ]
+    },
+    "evidence_standards": [
+      "Every convergence claim must be documented. Proximity is not connection. Same city is not same neighborhood. Same neighborhood is not same social network.",
+      "Census enumeration order is valid proximity evidence but must be stated precisely. 'Same page' means within a few houses. 'Same enumeration district' means same general area — much weaker.",
+      "Marriage witnesses are primary evidence of social connection between families. Always include witness names and note any surname overlap with either family.",
+      "Church membership records, when available, are strong evidence of shared social space. Specify denomination and congregation — 'both Baptist' is weak; 'both members of Mount Zion Baptist, listed in the 1908 membership roll' is strong.",
+      "City directory co-occurrence at the same address or adjacent addresses is strong evidence. Co-occurrence in the same city is not evidence of anything."
+    ],
+    "what_NOT_to_do": [
+      "No fate, destiny, or meant-to-be language. These convergences happened because of documentable forces — economics, geography, migration networks, institutional affiliations.",
+      "No romantic framing of the marriage or meeting. 'They fell in love' is not in the records. 'They married on June 14, 1895' is.",
+      "No overselling the forward glance. 'And from that union came the family that would...' is too much. 'Their first child was born the following year' is enough.",
+      "No generic convergence. 'They both ended up in Chicago' is not a convergence narrative. Convergence requires specific proximity, specific mechanism, specific documentation.",
+      "No collapsing multiple convergence points into one. If the paternal lines converged in one place and the maternal lines in another, those are separate convergence narratives. Do not blend them.",
+      "No speculation about what drew them together unless the evidence supports it. If the mechanism is unknown, say 'the records do not reveal how they met' and present what IS documented."
+    ],
+    "template_pairing": [
+      "Pairs with what_they_saw — use for the physical place of convergence. A what_they_saw passage can set the scene for the neighborhood or town where convergence occurs.",
+      "Pairs with letter_home — if either line's migration was already narrated in a letter_home passage, the convergence template picks up where that narrative left off.",
+      "Pairs with fork_in_the_road — if the migration decision that brought a line to the convergence point was narrated as a fork_in_the_road, reference it. The fork led here."
+    ]
+  },
+  "data_dependencies": [
+    "census records (for proximity evidence via enumeration order and co-residence)",
+    "marriage records (for convergence date, place, and witness names)",
+    "church records (for shared congregation membership)",
+    "city directories (for address-level proximity and employment data)",
+    "migration_triggers (for understanding what drew each line to the convergence point)",
+    "destination profiles (for neighborhood and economic context at the convergence location)",
+    "community_texture profiles (for ethnic, religious, and social context)"
+  ]
+}

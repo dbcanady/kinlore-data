@@ -1,0 +1,235 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-18",
+  "migration_id": "gilded_age_labor_conflict",
+  "display_name": "Gilded Age Labor Conflict and Industrial Migration",
+  "short_description": "The period between the Great Railroad Strike of 1877 and the turn of the century saw massive industrial growth, brutal labor conditions, and repeated violent conflicts between workers and employers that displaced families, destroyed communities, and drove migration. Strikes, lockouts, blacklisting, and the importation of strikebreakers reshaped the geography of American labor.",
+  "era": "1877-1900",
+  "estimated_scale": "Tens of thousands directly displaced by major strikes and blacklisting; hundreds of thousands affected by the labor upheaval that reshaped industrial regions",
+  "involuntary": false,
+  "migration_class": "economic",
+  "_design_note": "This trigger covers the labor dimension of Gilded Age migration, complementing economic_panics_19c (which covers the financial/banking dimension) and railroad_construction (which covers the infrastructure boom). Overlap exists with the Panic of 1893 phase in economic_panics_19c; the distinction here is that labor conflict — not financial collapse — is the primary displacement mechanism. Future sprints could split individual conflicts (Homestead, Pullman, Coeur d'Alene) into regional triggers with deeper geographic specificity.",
+  "counties_most_affected": [
+    "Allegheny PA — Homestead steel strike, center of the AAISW union",
+    "Cook IL — Pullman strike, Haymarket bombing, railroad hub",
+    "Shoshone ID — Coeur d'Alene mining wars, bullpen incarcerations",
+    "Baltimore City MD — Great Railroad Strike origin point on the B&O line",
+    "Cambria PA — Johnstown steelworks, coal and iron labor conflicts",
+    "Westmoreland PA — coke region strikes of 1887 and 1891",
+    "Fayette PA — Connellsville coke region, repeated labor violence",
+    "Lake CO — Leadville miners' strike of 1896-1897",
+    "Teller CO — Cripple Creek mining district, WFM stronghold",
+    "St. Louis City MO — Great Railroad Strike, brief general strike in 1877"
+  ],
+  "key_events": [
+    {
+      "year": 1877,
+      "event": "Great Railroad Strike",
+      "location": "National — Martinsburg WV, Baltimore, Pittsburgh, St. Louis, Chicago",
+      "significance": "First national strike. Federal troops deployed against workers for the first time since the end of Reconstruction. Established the pattern of employer-government alliance against organized labor that would define the Gilded Age."
+    },
+    {
+      "year": 1886,
+      "event": "Haymarket Bombing",
+      "location": "Chicago IL",
+      "significance": "A bomb at a labor rally led to the trial and execution of four anarchists on dubious evidence. The backlash destroyed the Knights of Labor and set back the eight-hour movement by decades. Haymarket became the founding event of international May Day commemorations."
+    },
+    {
+      "year": 1892,
+      "event": "Homestead Strike",
+      "location": "Homestead PA (Allegheny County)",
+      "significance": "The Amalgamated Association of Iron and Steel Workers, the strongest craft union in America, was broken by Carnegie Steel. Three hundred Pinkertons arrived by barge and were met with gunfire. Ten died in the battle. The state militia occupied Homestead for months. The union did not return to steel until the 1930s."
+    },
+    {
+      "year": 1894,
+      "event": "Pullman Strike",
+      "location": "National — originating in Pullman IL",
+      "significance": "Eugene Debs's American Railway Union boycotted Pullman cars, paralyzing the national rail network. Federal troops broke the strike, Debs was jailed for contempt, and the ARU was destroyed. The case established the federal injunction as the primary legal weapon against strikes."
+    },
+    {
+      "year": "1892-1899",
+      "event": "Coeur d'Alene Mining Wars",
+      "location": "Shoshone County ID",
+      "significance": "Repeated conflicts between mine owners and workers culminated in martial law, mass arrests, and the confinement of over a thousand miners in outdoor stockades. The Western Federation of Miners was founded in 1893 as a direct response. The conflicts radicalized a generation of western miners."
+    }
+  ],
+  "phases": [
+    {
+      "phase_number": 1,
+      "name": "Great Railroad Strike and Aftermath",
+      "date_range": "1877-1880",
+      "description": "The first national strike in American history erupted in July 1877 when the Baltimore & Ohio Railroad cut wages for the second time in a year. The strike spread from Martinsburg, West Virginia, to Baltimore, Pittsburgh, St. Louis, and Chicago within days. In Pittsburgh, state militia fired on crowds, killing twenty people, and strikers burned the Pennsylvania Railroad's roundhouse and over a hundred locomotives. President Hayes deployed federal troops — the first use of the U.S. Army against workers. When the strike collapsed after two weeks, employers compiled blacklists. Workers identified as strike leaders or agitators were shut out of railroad employment across the country. Many scattered to new industries — mining, milling, construction — in regions where their names were not known."
+    },
+    {
+      "phase_number": 2,
+      "name": "Knights of Labor and the Eight-Hour Movement",
+      "date_range": "1880-1886",
+      "description": "The Knights of Labor grew from a secret society of Philadelphia garment workers into the first mass labor organization in American history, peaking at over 700,000 members by 1886. The Knights organized across craft, race, and gender lines in a way no previous union had attempted. The eight-hour movement galvanized workers nationwide, and a general strike on May 1, 1886, brought 300,000 workers off the job. Then came Haymarket. On May 4, 1886, a bomb killed a policeman at a labor rally in Chicago's Haymarket Square. Eight anarchists were tried, four hanged, and the labor movement was tarred with the charge of radicalism. The Knights collapsed under the backlash. Workers who had been open about their membership found themselves unemployable. The anti-labor reaction drove organizers underground and displaced families whose breadwinners were identified as Knights."
+    },
+    {
+      "phase_number": 3,
+      "name": "Homestead, Pullman, and the Crisis of the 1890s",
+      "date_range": "1892-1900",
+      "description": "The final decade of the century produced the most violent labor conflicts in American history. At Homestead, Pennsylvania, in July 1892, Andrew Carnegie's lieutenant Henry Clay Frick locked out steelworkers and brought in three hundred Pinkerton agents by barge. A pitched battle left ten dead. The state militia occupied the town. The union was broken and would not return to steel for forty years. In 1894, workers at the Pullman Palace Car Company near Chicago struck against wage cuts and rent increases in the company town. The strike spread across the national rail network as Eugene Debs's American Railway Union refused to handle Pullman cars. President Cleveland sent federal troops, Debs was jailed, and the strike was crushed. In Idaho's Coeur d'Alene mining district, a series of conflicts between 1892 and 1899 culminated in martial law, mass arrests, and the confinement of over a thousand miners in outdoor stockades called 'bullpens.' Blacklisted workers from all three conflicts had to leave their communities entirely — some changed their names, others moved to regions where their labor history was unknown."
+    }
+  ],
+  "push_factors": [
+    {
+      "factor": "Blacklisting after strikes",
+      "severity": 4,
+      "description": "Employers shared lists of union members, strike leaders, and agitators through industry associations and Pinkerton detective reports. A blacklisted worker could not find employment in his trade or region. Railroad blacklists were especially effective because the industry was concentrated among a few major companies that cooperated in labor suppression. Being on the list meant starting over somewhere else, in a different industry, sometimes under a different name."
+    },
+    {
+      "factor": "Strike violence and military intervention",
+      "severity": 3,
+      "description": "Pinkertons, state militia, and federal troops were deployed against strikers at Homestead, during the Pullman strike, in the Coeur d'Alene mines, and during the Great Railroad Strike. Workers and their families faced gunfire, bayonets, and mass arrests. The violence itself drove some families to leave, but the lasting effect was the message it sent: the government would use force to protect employers. Communities that had witnessed militia occupations or Pinkerton raids carried that trauma, and some families simply could not stay in places where neighbors had been shot."
+    },
+    {
+      "factor": "Wage cuts and lockouts",
+      "severity": 3,
+      "description": "Employers used economic downturns — particularly the depression following the Panic of 1893 — as leverage to cut wages and lock out union workers. The Homestead lockout and the Pullman wage cuts were both imposed during economic weakness, when employers knew workers had few alternatives. Workers who refused the new terms were replaced; those who accepted often found the reduced wages insufficient to support a family, forcing migration toward lower-cost regions or new industries."
+    },
+    {
+      "factor": "Company town evictions",
+      "severity": 4,
+      "description": "In company towns like Pullman, Illinois, and the coal camps of West Virginia and Pennsylvania, the employer owned everything — the houses, the stores, the churches, sometimes even the roads. Striking or being fired meant not just losing a job but losing a home. During the Pullman strike, eviction notices went out to families who could not pay rent after their wages were cut. Coal camp evictions were even more brutal: families put out on the road with their belongings, sometimes in winter. A worker who lost a company town job lost everything at once — employment, housing, credit at the company store, and community."
+    }
+  ],
+  "pull_factors": [
+    {
+      "factor": "New industrial regions where blacklists did not reach",
+      "description": "The rapid expansion of American industry meant new factories, mills, and mines were opening in regions where eastern blacklists had no currency. A steelworker blacklisted in Pittsburgh might find work in Birmingham, Alabama. A railroad man shut out of the eastern lines might hire on with a western short line that needed skilled labor too badly to check references. The sheer scale of industrial growth created gaps that displaced workers could fill."
+    },
+    {
+      "factor": "Western mining camps",
+      "description": "Mining camps in Colorado, Montana, Idaho, and Arizona were perpetually short of labor and rarely asked questions about a man's past. The Western Federation of Miners, founded in 1893 partly in response to the Coeur d'Alene conflicts, offered solidarity and mutual aid. Ironically, workers displaced by labor conflict in one region often migrated to regions where the same conflicts were brewing — the cycle of labor organizing, employer resistance, and displacement repeated itself across the mining West."
+    },
+    {
+      "factor": "Homestead land as escape from industrial employment",
+      "description": "Some displaced industrial workers turned away from wage labor entirely. Free or cheap land under the Homestead Act and its successors offered a path to self-sufficiency that did not depend on an employer's goodwill. A blacklisted miner or millworker who could get to Kansas, Nebraska, or the Dakotas could claim 160 acres and answer to no one. Not all succeeded — industrial skills did not translate to farming — but the pull of land ownership was powerful for men who had learned what it meant to be at the mercy of a company."
+    },
+    {
+      "factor": "Skilled workers' portability",
+      "description": "Ironically, the skills that made workers valuable to employers also made them mobile. A puddler, a locomotive engineer, a pattern maker, or a coal hewer possessed knowledge that was in demand across multiple regions. Skilled workers displaced by labor conflict could often find work in their trade if they were willing to relocate far enough that their reputation as union men did not follow them."
+    }
+  ],
+  "transportation": {
+    "primary_routes": [
+      "Railroad — the same network that workers had struck was the primary means of migration, though blacklisted railroad workers could rarely buy tickets on lines that had fired them",
+      "Freight car riding — displaced workers who could not afford passenger tickets rode freight cars illegally, a practice that became endemic during the depression of the 1890s",
+      "Walking between mining camps and mill towns — particularly in Appalachian coal regions and the mountain West, where camps were remote and rail service limited",
+      "River systems — Ohio and Mississippi rivers carried displaced workers from industrial centers to new regions"
+    ],
+    "typical_journey": "A blacklisted worker's journey was rarely planned. He might hear of work in a distant mining camp through a union contact or a letter from a friend. Travel was often by freight train, arriving dirty and broke at a new town where no one knew his name. Families might follow weeks or months later, once the worker had established himself. Some never sent for their families. The distances varied enormously — from a hundred miles between Pennsylvania coal towns to a thousand miles from Pittsburgh to the Colorado mining camps."
+  },
+  "destination_refs": [],
+  "chain_migration": {
+    "pattern": "union_network_dispersal",
+    "description": "Labor conflict migration followed the informal networks of the labor movement rather than the family and village chains of immigrant communities. A blacklisted worker might be directed to a sympathetic employer or a union-friendly town by fellow members of the Knights of Labor, the AFL, or later the Western Federation of Miners. Union halls served as informal employment exchanges, passing word of opportunities in distant regions. This created a pattern of dispersal that was less predictable than ethnic chain migration but not entirely random — it followed the map of organized labor.",
+    "gender_pattern": "Industrial labor conflict displaced men first, since they were the primary wage earners in the industries affected. Women and children often stayed behind with extended family while the blacklisted worker sought new employment. In company town evictions, however, entire families were displaced at once. Women played critical roles during strikes — running soup kitchens, organizing boycotts, shaming scabs — and sometimes appeared on blacklists themselves, particularly in the textile industry where women were a significant part of the workforce.",
+    "seasonal_departure_pattern": "Labor conflicts did not follow seasonal patterns, but their migration effects sometimes did. Strikes peaked in summer months when outdoor work was possible and workers could survive without shelter. Winter evictions from company towns were particularly cruel and drove immediate, desperate migration. Mining camp labor needs peaked in spring and summer, creating seasonal pull for displaced workers heading west.",
+    "narrative_hook": "When {given_name} {surname} left {origin_city}, it was not because the work had dried up. The work was still there. But {given_name} was on a list now, and every foreman in {origin_county} had seen it. The only way back to a paycheck was to go somewhere that list had not reached."
+  },
+  "what_happened_to_those_who_stayed": {
+    "description": "Workers who stayed after a broken strike faced the employer's terms — lower wages, longer hours, no union. At Homestead, the twelve-hour day became standard after the union was destroyed. At Pullman, rents stayed high and wages stayed low. In the Coeur d'Alene, miners who had not been arrested or blacklisted went back to work under armed guard. Some workers who stayed became company loyalists. Others nursed their grievances quietly and organized again when conditions permitted — the United Mine Workers, founded in 1890, grew strongest in regions where earlier organizing had been crushed. Community institutions like churches, fraternal orders, and ethnic mutual aid societies provided what support they could. But the texture of life changed in a town after a broken strike. Neighbors who had been on different sides of the picket line did not forget.",
+    "narrative_hook": "If {surname} stayed in {county} after the strike was broken, life went on — but differently. The union was gone. The twelve-hour day was back. And everyone knew who had walked out and who had crossed the line. That knowledge shaped a community for a generation."
+  },
+  "record_implications": {
+    "records_created": [
+      "Union membership rolls — Knights of Labor records (fragmentary, some at Catholic University of America), AFL craft union locals (many at state historical societies), Western Federation of Miners records (University of Colorado Boulder)",
+      "Pinkerton National Detective Agency files — surveillance reports, operative journals, and client correspondence now held at the Library of Congress, documenting individual workers targeted for union activity",
+      "Court records from strike-related arrests, injunctions, and contempt proceedings — county and federal court records document individual strikers by name",
+      "Company employment records — hiring and firing ledgers, blacklists, and payroll records survive in corporate archives (e.g., Carnegie Steel records at the University of Pittsburgh)",
+      "Newspaper coverage of strikes — often the most detailed surviving record of individual participants, including names of arrested strikers, strike committee members, and witnesses at hearings",
+      "Congressional investigation records — the Senate Committee on Education and Labor investigated major strikes and took named testimony from workers and employers"
+    ],
+    "records_disrupted": [
+      "Workers who changed names to escape blacklists create breaks in genealogical records — a surname shift after 1877, 1886, or 1892 may indicate labor conflict displacement",
+      "Company town records often disappeared when companies closed or sold — the Pullman Company's internal records are fragmentary",
+      "Rapid migration between mining camps meant workers passed through jurisdictions without appearing in census, tax, or vital records",
+      "Union records were sometimes destroyed by employers during raids or by workers themselves to prevent identification of members"
+    ],
+    "research_tips": [
+      "Search newspaper archives (Chronicling America, newspapers.com) for strike coverage — reporters often published names of arrested strikers, strike committee members, and even lists of blacklisted workers",
+      "Pinkerton records at the Library of Congress (Manuscript Division) contain surveillance reports that name individual workers and describe their activities in extraordinary detail",
+      "Check state historical society collections for local union records — many AFL craft union locals deposited minutes and membership rolls",
+      "Court records from strike-related cases may contain detailed testimony about individual workers' employment history, residence, and family circumstances",
+      "If an ancestor disappears from records in a steel, mining, or railroad town between 1877 and 1900, consider whether a labor conflict in that community coincides with their disappearance",
+      "Company archives at university libraries (University of Pittsburgh for Carnegie Steel, Newberry Library for Pullman) may contain employment records and payroll ledgers"
+    ]
+  },
+  "counter_narratives": [
+    {
+      "title": "Not All Workers Were Union Supporters",
+      "description": "Skilled workers sometimes crossed picket lines, particularly when ethnic, racial, or craft divisions fractured solidarity. At Homestead, some skilled workers resented being asked to strike alongside less-skilled immigrants. Employers deliberately recruited strikebreakers from different ethnic groups — bringing in Black workers to replace white strikers, or new immigrants to replace established ones — exploiting divisions that the labor movement struggled to overcome. An ancestor who worked through a strike was not necessarily a villain; he may have been a desperate man with a family to feed and no union loyalty to override that obligation."
+    },
+    {
+      "title": "Labor Conflict Was Not Just a Male Story",
+      "description": "Women organized, struck, and faced consequences alongside men. The 'bread and roses' tradition of women's labor activism was well established by the Gilded Age. Women ran strike kitchens that kept entire communities fed during walkouts. They organized boycotts of non-union goods. They confronted scabs at factory gates. In textile communities, women were primary wage earners and strike participants in their own right. When a family was evicted from a company town, it was often the woman who managed the logistics of displacement — packing the household, finding temporary shelter, maintaining the family while the blacklisted husband searched for work elsewhere."
+    },
+    {
+      "title": "Violence Was Not One-Sided",
+      "description": "Workers sometimes attacked strikebreakers, destroyed company property, and used dynamite. At Homestead, strikers fired on Pinkerton barges. In the Coeur d'Alene, miners blew up a concentrator mill. During the Great Railroad Strike, mobs burned railroad property worth millions. The narrative should not romanticize labor violence any more than it should excuse employer violence. An honest family history acknowledges that desperation drove people on both sides to acts they might not have committed under other circumstances. The point is not to assign moral grades but to explain what happened and why."
+    },
+    {
+      "title": "Immigrant and Native-Born Workers Had Different Experiences",
+      "description": "Newly arrived immigrants were often recruited as strikebreakers precisely because they were unfamiliar with American labor traditions and desperate for any employment. This created lasting resentments between immigrant communities and established workers that shaped neighborhoods and politics for decades. Conversely, some immigrant groups — particularly Germans and Bohemians — brought strong socialist and labor traditions from Europe and were among the most committed organizers. An ancestor's experience of Gilded Age labor conflict depended heavily on when they arrived, where they came from, and which side of the ethnic divide employers placed them on."
+    }
+  ],
+  "related_triggers": [
+    {
+      "trigger_id": "economic_panics_19c",
+      "relationship": "Economic panics and labor conflict were deeply intertwined. The Panic of 1873 produced the conditions for the Great Railroad Strike of 1877. The Panic of 1893 gave employers leverage to impose the wage cuts that triggered the Homestead and Pullman strikes. Financial collapse and labor conflict were often simultaneous push factors for the same families."
+    },
+    {
+      "trigger_id": "railroad_construction",
+      "relationship": "Railroad workers were at the center of Gilded Age labor conflict. The Great Railroad Strike of 1877 and the Pullman Strike of 1894 both originated in the rail industry. Workers displaced from railroad employment by blacklisting often migrated to mining and construction, industries covered by this trigger's pull factors."
+    },
+    {
+      "trigger_id": "se_european_wave",
+      "relationship": "Southern and Eastern European immigrants arrived during the peak of Gilded Age labor conflict and were often caught between roles as strikebreakers (recruited by employers) and as union members (once settled). Their migration patterns were shaped by the same industrial forces that drove labor conflict."
+    },
+    {
+      "trigger_id": "gold_rush_mining_boom",
+      "relationship": "Western mining camps served as destinations for workers displaced by labor conflict in eastern industrial cities. The mining West was both a refuge from eastern blacklists and the site of its own escalating labor wars."
+    }
+  ],
+  "source_references": [
+    {
+      "author": "David Montgomery",
+      "title": "The Fall of the House of Labor: The Workplace, the State, and American Labor Activism, 1865-1925",
+      "year": 1987,
+      "publisher": "Cambridge University Press",
+      "type": "book"
+    },
+    {
+      "author": "Philip S. Foner",
+      "title": "History of the Labor Movement in the United States",
+      "year": 1947,
+      "publisher": "International Publishers",
+      "type": "book",
+      "_note": "Multi-volume work; volumes 1-4 cover the period 1877-1900 in detail"
+    },
+    {
+      "author": "Paul Krause",
+      "title": "The Battle for Homestead, 1880-1892: Politics, Culture, and Steel",
+      "year": 1992,
+      "publisher": "University of Pittsburgh Press",
+      "type": "book"
+    },
+    {
+      "author": "Nick Salvatore",
+      "title": "Eugene V. Debs: Citizen and Socialist",
+      "year": 1982,
+      "publisher": "University of Illinois Press",
+      "type": "book"
+    },
+    {
+      "author": "Richard White",
+      "title": "The Republic for Which It Stands: The United States during Reconstruction and the Gilded Age, 1865-1896",
+      "year": 2017,
+      "publisher": "Oxford University Press",
+      "type": "book"
+    }
+  ]
+}

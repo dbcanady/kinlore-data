@@ -1,0 +1,306 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-17",
+  "_purpose": "Narrative template for generating economic biography from court records, property records, census wealth data, and marriage records. Covers GENO Narrative Patterns NP-06 (Economic Failure as Story) and NP-08 (Remarriage as Economic Decision). Informed by GENO Pattern A (Economic Gravity Model) and Pattern G (Migration Trigger Is Always Arithmetic). All claims must be grounded in specific records with specific dollar amounts.",
+  "template_id": "economic_life_story",
+  "display_name": "Economic Life Story",
+  "description": "Narrates economic reality as documented in public records — court filings, property transactions, census wealth columns, tax assessments, and marriage records. Strips away romance and sentiment to reveal the arithmetic that drove most genealogical decisions. Four situations cover economic failure (NP-06), remarriage as survival strategy (NP-08), multi-generational property trajectory as economic backdrop, and first marriage as economic strategy. Every situation requires specific records and specific dollar amounts. Economic narrative without numbers is just atmosphere.",
+  "revenue_tier": "both — one situation (whichever has strongest record support) for Option A, all applicable situations for White Glove",
+  "tier_guidance": {
+    "option_a": "One situation only. Choose the situation with the strongest record support — the one where you have specific dollar amounts, specific court records, or specific property transactions. 100-150 words. Cite at least one specific record and one specific dollar amount with contextual comparison.",
+    "white_glove": "All applicable situations. Full beat structure for each. 150-250 words per situation. Each situation must cite specific records by type, date, and jurisdiction. Dollar amounts must include era-appropriate purchasing power context. May include editorial annotation connecting the situations into a coherent economic biography across decades."
+  },
+  "situations": [
+    {
+      "situation_id": "economic_failure",
+      "display_name": "Economic Failure as Story",
+      "geno_pattern": "NP-06",
+      "trigger_condition": "Court records, debt records, lawsuits, judgment liens, or bankruptcy filings document an ancestor's economic failure. The record must contain specific financial details — amounts, creditors, property seized or lost. A vague reference to 'hard times' is not sufficient to trigger this situation.",
+      "tone": "Matter-of-fact. Not sympathetic, not judgmental. The court clerk who recorded the judgment did not editorialize, and neither should this template. The numbers tell the story. The aftermath — visible in the next census or directory entry — tells the rest.",
+      "structural_beats": [
+        {
+          "beat_number": 1,
+          "beat_name": "the_venture",
+          "description": "What the ancestor tried — business, farm, partnership, speculation, expansion. Identified from business directories, partnership filings, census occupation entries, or the court record itself.",
+          "example": "A.W. Bass and J.R. Herring formed a sawmill partnership in Sampson County sometime before 1889."
+        },
+        {
+          "beat_number": 2,
+          "beat_name": "the_record",
+          "description": "The specific legal record that documents the failure — lawsuit, judgment, lien, bankruptcy filing, sheriff's sale, tax forfeiture. Cite the record type, jurisdiction, and year. This is the documentary backbone of the narrative.",
+          "example": "The Sampson County Superior Court recorded a judgment against Bass in 1891, case filed by creditor J.M. Faison."
+        },
+        {
+          "beat_number": 3,
+          "beat_name": "the_numbers",
+          "description": "The financial details: amounts owed, amounts awarded, property seized, assets listed. These numbers must be contextualized — compared to annual wages, land values, or cost of living for that era and region. A dollar amount without context is meaningless.",
+          "data_source": "wages_by_occupation, cost_of_living_benchmarks",
+          "example": "The judgment was $247 — roughly a year's wages for a laborer in eastern North Carolina, or the price of a small farm."
+        },
+        {
+          "beat_number": 4,
+          "beat_name": "the_aftermath",
+          "description": "What happened next. The next census, city directory, or tax record reveals the trajectory. Did they recover? Move? Start over in a new occupation? Disappear from the record? The silence of the record is as informative as its content.",
+          "example": "The 1900 census shows Bass back on a farm in Sampson County, listed as a tenant farmer — the sawmill venture a single line in the court record and a decade of his life."
+        },
+        {
+          "beat_number": 5,
+          "beat_name": "the_context",
+          "description": "Was this individual failure or systemic? If the failure coincided with a national panic (1837, 1873, 1893, 1907, 1929) or regional crisis (boll weevil, drought, mine closure), say so. If the whole county was failing, the ancestor's failure is a data point in a larger story. If the county was prospering and this ancestor failed anyway, that is a different and more personal story.",
+          "data_source": "historical_context_timelines, county_source_profiles",
+          "example": "The Panic of 1893 had not yet hit when Bass's judgment was recorded — this was individual failure during a period of relative stability in Sampson County, which makes the court record a story about this man, not about the economy."
+        }
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{year}",
+        "{venture_type}",
+        "{court_record_type}",
+        "{amount}",
+        "{creditor}",
+        "{county}",
+        "{aftermath}"
+      ],
+      "constraints": [
+        "MUST cite a specific record type (judgment, lien, bankruptcy, sheriff's sale) with jurisdiction and approximate date. No vague references to 'financial difficulties.'",
+        "MUST include at least one specific dollar amount with era-appropriate purchasing power context. Use wages_by_occupation and cost_of_living_benchmarks data to translate raw dollars into meaning.",
+        "No moral judgment on economic failure. Failure was the statistical norm for most enterprises in most eras. Do not call the ancestor 'unfortunate' or 'reckless' or 'ambitious.'",
+        "No romanticizing the struggle. Do not frame failure as character-building or noble. Describe material conditions and let the reader respond.",
+        "The aftermath beat must be grounded in the next available record, not speculation. If no subsequent record exists, say so — the silence is itself informative.",
+        "Macro-economic context must be documented, not assumed. Do not default to 'times were hard' without citing a specific economic event or condition."
+      ],
+      "example_output": "A.W. Bass's sawmill partnership dissolved in a Sampson County courthouse in 1891. The judgment against him was $247 — roughly a year's wages for a laborer in eastern North Carolina. The court record names the creditor as J.M. Faison and lists the partnership's remaining assets as negligible. This was not the Panic of 1893 — that was still two years away. This was a personal failure during stable times, preserved in a single page of court records. The 1900 census shows Bass back on a farm, listed as a tenant. The sawmill venture survives only as a line in the court docket."
+    },
+    {
+      "situation_id": "remarriage_economics",
+      "display_name": "Remarriage as Economic Decision",
+      "geno_pattern": "NP-08",
+      "trigger_condition": "A widow or widower remarries within a timeframe that suggests economic urgency rather than (or in addition to) romantic attachment. Key indicators: remarriage within 6-24 months of spouse's death, presence of minor children, absence of independent income, new spouse brings economic assets (land, trade, income). Also triggered when a widow does NOT remarry and the economic reason is apparent — especially forfeiture of a military pension.",
+      "tone": "Analytical, not cynical. This template does not claim remarriage was loveless — it claims that the economic dimension is documented and the emotional dimension is not. We narrate what the records show. The records show property, children, pension status, and timing. They do not show the heart.",
+      "structural_beats": [
+        {
+          "beat_number": 1,
+          "beat_name": "the_death",
+          "description": "The death that created the economic situation. Who died, when, what was left. If the deceased left property, note it. If they left nothing, note that too. If the deceased was the sole income earner, that fact is the engine of everything that follows.",
+          "example": "Thomas Haney died in Sampson County in 1897, leaving Rosa with four children under ten and eighty acres of farmland she could not work alone."
+        },
+        {
+          "beat_number": 2,
+          "beat_name": "the_calculation",
+          "description": "The economic reality facing the surviving spouse. What did they need? Income, childcare, property management, household labor, or all of the above. For women in most eras, the legal and economic constraints were severe — limited property rights, restricted employment, dependent children. For men, the need was often domestic labor and childcare. State the constraints plainly.",
+          "data_source": "wages_by_occupation, cost_of_living_benchmarks, historical_context_timelines",
+          "example": "A widow with four children and eighty acres in 1897 had limited options. She could not legally manage the property in some jurisdictions without a male guardian. Hiring farm labor would consume most of the farm's income. The arithmetic pointed in one direction."
+        },
+        {
+          "beat_number": 3,
+          "beat_name": "the_remarriage",
+          "description": "Who they married, when (the interval between death and remarriage is significant — shorter intervals suggest greater urgency), and what the new spouse brought to the economic equation. Occupation, property, income, labor capacity. The marriage record is the document; the census before and after the marriage reveals the household reconfiguration.",
+          "example": "Rosa married William Tyndall in 1899, eighteen months after Thomas's death. The 1900 census shows Tyndall working the same eighty acres. He brought no land of his own — he brought labor."
+        },
+        {
+          "beat_number": 4,
+          "beat_name": "pension_implications",
+          "description": "If the deceased spouse was a military veteran, remarriage had direct financial consequences. A widow who remarried forfeited her military pension (federal policy through most of the 19th and early 20th centuries). Some widows chose NOT to remarry specifically to preserve the pension — this is a powerful counter-narrative documented in pension files. If no military service is relevant, this beat is omitted.",
+          "data_source": "military pension records, veterans' records",
+          "example": "Had Thomas been a Union veteran, Rosa's remarriage would have cost her $8 per month in pension — $96 a year, a meaningful sum. Some widows chose to remain single precisely to keep that income. Rosa's situation did not involve a pension, but the calculation was common enough to shape remarriage patterns across the South."
+        },
+        {
+          "beat_number": 5,
+          "beat_name": "household_reconfiguration",
+          "description": "What happened to the children from the first marriage. Did they stay in the new household? Go to relatives? The census after remarriage reveals the survival strategy in full. Children sent to grandparents or aunts/uncles indicate a household that could not absorb them. Children who stayed indicate a household that needed their labor or could support them.",
+          "example": "The 1900 census shows all four Haney children in the Tyndall household, the oldest now twelve and listed as 'farm laborer.' The household absorbed them — and put the oldest to work."
+        }
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{deceased_spouse}",
+        "{death_year}",
+        "{children_count}",
+        "{new_spouse}",
+        "{remarriage_year}",
+        "{pension_status}",
+        "{economic_detail}"
+      ],
+      "constraints": [
+        "No romantic framing. The template treats remarriage as an economic event documented in public records. Do not speculate about love, affection, or emotional attachment. The emotional reality is private and undocumented.",
+        "No judgment on the speed of remarriage. Quick remarriage was common and economically rational. Do not imply it was callous or disrespectful to the deceased.",
+        "Pension implications must be documented or clearly flagged as contextual background. Do not assert pension forfeiture without evidence of military service.",
+        "The counter-narrative — widows who chose NOT to remarry for economic reasons — is as important as the remarriage narrative. If the data suggests a widow remained single and collected a pension, that is the story.",
+        "Children's placement must come from census or other household records, not speculation.",
+        "No gendered assumptions about who needed what. Widowers also remarried for economic reasons — they needed household management and childcare. Frame the need based on documented circumstances, not gender stereotypes."
+      ],
+      "example_output": "Rosa Haney was widowed in 1897 with four children under ten and eighty acres of Sampson County farmland. She remarried within eighteen months — not because the records tell us anything about romance, but because the 1900 census shows her new husband, William Tyndall, working the same farm her first husband had worked. Tyndall brought no land of his own. He brought labor. Rosa kept the land. She needed someone to work it. The four Haney children remained in the household, the oldest already listed at twelve as a farm laborer. The marriage record is a single line. The census that follows it is the full story."
+    },
+    {
+      "situation_id": "property_trajectory",
+      "display_name": "Property Trajectory Across Generations",
+      "geno_pattern": "supports NP-06 and NP-08",
+      "trigger_condition": "Multiple property records across two or more generations document an economic arc — accumulation, maintenance, or decline. Key records: deeds, land grants/patents, tax assessments, census real estate and personal estate values (1850-1870), probate inventories, tax sale notices. The arc must span at least two generations to qualify as a trajectory rather than a snapshot.",
+      "tone": "Long view. The voice here is a step back from the individual — looking at a family's economic line across decades. Not dramatic, not mournful. The tone of someone reading tax records and seeing a pattern emerge. Arithmetic, not elegy.",
+      "structural_beats": [
+        {
+          "beat_number": 1,
+          "beat_name": "starting_point",
+          "description": "The first property record — deed, patent, tax assessment, or census wealth entry. What the ancestor had when they first appear in the property record. This establishes the baseline.",
+          "example": "Patrick Cannady received a land grant for 400 acres on the northeast side of the Cape Fear River in Sampson County in 1790. The grant is recorded in the North Carolina land patent books."
+        },
+        {
+          "beat_number": 2,
+          "beat_name": "peak",
+          "description": "The highest property valuation or largest landholding documented in the record trail. For the 1850-1870 censuses, real estate and personal estate values provide direct wealth measures. For other periods, tax assessments or deed acreages serve as proxies.",
+          "data_source": "census wealth data (1850-1870), tax assessment records, deed records",
+          "example": "By 1850, Patrick's son James was assessed at $2,000 in real estate — above the county median and enough to place the family in the upper third of Sampson County landholders."
+        },
+        {
+          "beat_number": 3,
+          "beat_name": "trajectory",
+          "description": "The direction of the economic line across generations. Growing, stable, or declining. Census-to-census comparison of wealth values, or deed-to-deed comparison of acreage. The trajectory must be documented across at least two data points separated by a generation.",
+          "data_source": "census real estate and personal estate values, tax records, deed records",
+          "example": "By 1870, the next generation held parcels averaging 80 acres each — the 400-acre grant now divided among five heirs. By 1900, the third generation held 40-acre parcels. Each generation had less."
+        },
+        {
+          "beat_number": 4,
+          "beat_name": "telling_transaction",
+          "description": "A single specific transaction that crystallizes the trajectory — selling the family farm, dividing land among heirs by will, losing property to tax sale, buying a second parcel, mortgaging land to fund a venture. The transaction is the narrative pivot. It is the moment the trajectory becomes a story.",
+          "example": "Patrick Cannady's 1811 will divided 400 acres among his sons equally. That single document set the trajectory — equal division meant each generation started with less than the last."
+        },
+        {
+          "beat_number": 5,
+          "beat_name": "community_comparison",
+          "description": "Was this trajectory typical for the county and era, or was this family rising or falling relative to neighbors? Census aggregate data, county histories, and tax assessment rolls provide the comparison. A family declining in a declining county is a different story than a family declining in a prospering county.",
+          "data_source": "county_source_profiles, historical_context_timelines, census aggregate data",
+          "example": "This pattern was not unique to the Cannadys. Across Sampson County, average farm size declined from 300 acres in 1800 to 98 acres by 1880. The Cannadys were not failing — they were subdividing at exactly the rate their neighbors were. The arithmetic simply stopped working."
+        }
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{start_year}",
+        "{property_type}",
+        "{start_value}",
+        "{peak_value}",
+        "{end_value}",
+        "{trajectory_type}",
+        "{key_transaction}"
+      ],
+      "constraints": [
+        "Census real estate and personal estate values (1850-1870) are the primary wealth measures. Use them where available. They are the only direct, standardized wealth data in most genealogical records.",
+        "Dollar amounts must include contextual comparison — county median, regional average, or purchasing power equivalent. A number without context is a number without meaning.",
+        "The trajectory must span at least two generations and at least two documented data points. A single deed is a snapshot, not a trajectory.",
+        "No romanticizing poverty or decline. 'The family held on' is romantic. 'The family held 40 acres by 1900, down from 400 in 1790' is factual.",
+        "No moralizing about inheritance practices. Equal division among heirs was legally mandated in many states and culturally expected in most. It was not a 'mistake.'",
+        "Community comparison must be documented, not assumed. If county-level data is unavailable, say so rather than inventing a comparison.",
+        "Acknowledge when the trajectory is ambiguous. Not every property record trail tells a clear story. If the data supports multiple interpretations, note the ambiguity."
+      ],
+      "example_output": "Patrick Cannady's 1811 will divided 400 acres among his sons. By 1850, those sons held parcels averaging 80 acres each, with real estate values ranging from $800 to $2,000 in the census. By 1880, their sons held 40-acre parcels. The farm did not fail — it subdivided, generation by generation, until the arithmetic stopped working. This was not unique to the Cannadys. Average farm size in Sampson County declined from roughly 300 acres in 1800 to 98 acres by 1880. The will that divided the land was an act of fairness. It was also, across three generations, the mechanism of economic decline."
+    },
+    {
+      "situation_id": "marriage_as_economic_strategy",
+      "display_name": "Marriage as Economic Strategy",
+      "geno_pattern": "supports NP-08",
+      "trigger_condition": "A FIRST marriage (not remarriage — that is covered by remarriage_economics) shows documented economic dimensions: bride's family brings land, groom brings trade/labor, property consolidation visible in deeds shortly after marriage, cross-tier marriage visible in census wealth data (one spouse's family significantly wealthier or poorer than the other), marriage bond or dowry documented, or timing of marriage correlates with property transfer. Marriage records, deeds, census wealth columns, and family land patterns provide the evidence.",
+      "tone": "Same analytical tone as remarriage_economics but applied to first marriages. Not cynical — acknowledges that economic strategy and genuine attachment coexisted in most eras. The template narrates the economic dimension because that is the dimension documented in the record. It does not claim the economic dimension was the only one.",
+      "structural_beats": [
+        {
+          "beat_number": 1,
+          "beat_name": "the_families",
+          "description": "The two families before the marriage. What did each family hold? Document from census wealth data, property records, tax assessments, or occupational records. The comparison between the families establishes the economic context of the match.",
+          "example": "The Cannady family held 200 acres in Sampson County by 1820, assessed at modest value. The Herring family held adjacent land — 300 acres with a grist mill, placing them in the upper quarter of county wealth."
+        },
+        {
+          "beat_number": 2,
+          "beat_name": "the_timing",
+          "description": "When the marriage occurred relative to property events. Was there a land transfer before or shortly after the marriage? Did the marriage coincide with a parent's death and inheritance? Did the marriage bond amount reveal the families' relative standing? The timing tells the economic story.",
+          "example": "The marriage took place in 1824, two years after the death of the bride's father. The probate division had allocated the bride's portion. The timing was not coincidental."
+        },
+        {
+          "beat_number": 3,
+          "beat_name": "the_property_trail",
+          "description": "Property records in the years following the marriage. Deed transfers, land grants patented after marriage, property appearing in the groom's name that originated from the bride's family. The property trail is the documentary evidence of the economic exchange.",
+          "data_source": "deed records, tax assessments, census real estate values",
+          "example": "Within three years of the marriage, two parcels from the Herring holdings appear in Cannady's name in the deed books. No purchase price is recorded — these were transfers, not sales."
+        },
+        {
+          "beat_number": 4,
+          "beat_name": "the_economic_outcome",
+          "description": "The household's economic position after the marriage compared to each family's position before. Did the marriage consolidate land? Move one family up the economic scale? Stabilize a declining family? The census wealth data from the first available post-marriage census provides the measure.",
+          "data_source": "census wealth data (1850-1870), tax records, property assessments",
+          "example": "By the 1850 census, the combined Cannady-Herring household reported $3,500 in real estate — more than either family had held individually, and well above the county median of $800."
+        },
+        {
+          "beat_number": 5,
+          "beat_name": "the_community_pattern",
+          "description": "Was this marriage pattern typical for the community? Did families in this county and era routinely consolidate land through marriage? Were cross-tier marriages common or unusual? The community comparison determines whether this was standard practice or a notable strategic move.",
+          "data_source": "county_source_profiles, historical_context_timelines, marriage records aggregate patterns",
+          "example": "In Sampson County between 1810 and 1840, marriages between adjacent landholding families were common enough to be the norm rather than the exception. Land consolidation through marriage was how families in a subdividing economy fought the arithmetic of partible inheritance."
+        }
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{spouse_name}",
+        "{marriage_year}",
+        "{family_a_property}",
+        "{family_b_property}",
+        "{post_marriage_property}",
+        "{county}",
+        "{community_pattern}"
+      ],
+      "constraints": [
+        "DISTINCT from remarriage_economics: this situation covers FIRST marriages only. If the marriage follows a spouse's death, use remarriage_economics instead.",
+        "No romantic framing. The template does not deny love — it claims that the economic dimension is documented and the emotional dimension is not. Narrate what the records show.",
+        "Property transfers must be documented in actual records (deeds, probate, tax rolls), not inferred from surnames alone. Proximity of two families does not prove economic exchange without a property record.",
+        "Marriage bond amounts, where they survive, are economic data — they reveal the families' financial standing and community connections. Include them when available.",
+        "Do not assume that economic strategy implies lovelessness or coercion. In most eras, families expected marriages to serve both emotional and economic functions. The template narrates the documented function.",
+        "Community comparison must be grounded in documented patterns. If county marriage records show a pattern of land-consolidating marriages, cite the pattern. If the data is insufficient, say so.",
+        "Cross-tier marriages (wealthy family to poor family) require careful handling. Do not assume the poorer family was 'marrying up' for gain without documented evidence. The wealthier family may have needed labor, alliance, or specific skills."
+      ],
+      "example_output": "When James Cannady married Elizabeth Herring in Sampson County in 1824, the union brought together 200 acres of Cannady land and a portion of the 300-acre Herring holdings. Within three years, Herring parcels appeared in Cannady's name in the deed books — transfers, not sales. By 1850, the combined household reported $3,500 in real estate, well above the county median. The marriage bond and the deed book tell a consistent story: two adjacent landholding families consolidating acreage in an era when partible inheritance was subdividing farms below viability. This was not unusual in Sampson County — it was how yeoman families preserved economic position across generations. The marriage record is a single line. The deed book that followed it is the full economic narrative."
+    }
+  ],
+  "editorial_guidelines": {
+    "core_principle": "Economic narrative is the skeleton of genealogical narrative. Most decisions preserved in genealogical records — migration, marriage, property disposition, occupation change — were economic decisions. This template makes the economic dimension explicit and primary. It does not deny the existence of other dimensions (emotional, spiritual, social). It claims only that the economic dimension is the one documented in the record.",
+    "when_to_use": "Use when court records, property records, census wealth data, or marriage-death timing patterns provide specific financial details. This template requires numbers. If the record trail contains no dollar amounts, no acreages, no valuations, and no financial details, this template will not produce meaningful output. Use a different template.",
+    "when_NOT_to_use": [
+      "When no specific financial records exist. Vague references to poverty or prosperity are insufficient.",
+      "When the ancestor was enslaved. Enslaved people were classified as property in these records, not property holders. Economic analysis of enslaved people's lives requires specialized framing. Use the Record Silences template.",
+      "When the economic data is ambiguous and multiple interpretations are equally valid. Do not force a narrative arc onto inconclusive data.",
+      "When the remarriage situation involves known or documented abuse, abandonment, or desertion. The 'economic decision' framing is inappropriate when the marriage ended for reasons other than death."
+    ],
+    "tone_calibration": {
+      "description": "This template has the driest tone in the template library. It reads like a financial analyst reviewing historical records, not like a novelist. The power comes entirely from the specificity of the numbers and the starkness of the records.",
+      "adjustments": [
+        {
+          "factor": "era",
+          "guidance": "Pre-1850: property records and court records are primary. No census wealth data. Tax assessments and deed acreages are the best available measures. Post-1850: census real estate and personal estate values (1850-1870 only) provide standardized wealth measures. Post-1870: census wealth columns were eliminated. Return to tax assessments, deeds, and court records."
+        },
+        {
+          "factor": "region",
+          "guidance": "Southern records: land-centric economy, partible inheritance patterns, crop lien system after 1865, tenant farming as economic indicator. Northern records: more diverse economic base, industrial wages supplement property data, earlier urbanization means city directory data is relevant. Western records: land patents and homestead filings, later settlement means shorter record trails, boom-bust mining and timber economies."
+        },
+        {
+          "factor": "gender",
+          "guidance": "Women's economic lives are documented differently. Married women rarely appear in property records before Married Women's Property Acts (varies by state, 1839-1900). Widows appear in probate and pension records. Dower rights are economic data. Do not assume women had no economic agency — look for the records that document it: pension applications, dower claims, property she brought to the marriage, separate estate filings."
+        }
+      ]
+    },
+    "what_NOT_to_do": [
+      "No economic narrative without specific numbers. If you cannot cite a dollar amount, an acreage, a tax assessment, or a census wealth value, do not generate this template.",
+      "No moral judgment on economic failure. Failure was the statistical norm. Most businesses failed. Most farms were marginal. Most families lived close to the line.",
+      "No romanticizing poverty. 'They were poor but proud' is a cliche that obscures material conditions. Describe what the records show: acreage, valuation, household composition, occupation.",
+      "No romantic framing of remarriage. The word 'love' should not appear in this template. The word 'survival' may.",
+      "No anachronistic economic concepts. Do not describe 19th-century farmers as 'entrepreneurs' or 'investing in real estate.' Use the economic language of the era: land, labor, debt, judgment, lien, tenant, proprietor.",
+      "No gendered assumptions. Widowers remarried for economic reasons too. Women managed property, filed lawsuits, and made economic decisions documented in the record. Follow the data.",
+      "Dollar amounts without context are meaningless. ALWAYS translate amounts into purchasing power equivalents: wages, land values, cost of goods. '$247' means nothing. '$247 — roughly a year's wages for a laborer' means everything."
+    ]
+  },
+  "data_dependencies": [
+    "wages_by_occupation (for contextualizing dollar amounts by era, region, and occupation)",
+    "cost_of_living_benchmarks (for translating raw dollar amounts into material meaning)",
+    "county_source_profiles (for county-level economic baseline and available record types)",
+    "historical_context_timelines (for macro-economic context: panics, depressions, crop failures, industry collapses)",
+    "court_records (judgments, liens, bankruptcies, lawsuits — primary source for economic_failure situation)",
+    "property_records (deeds, patents, tax assessments, probate inventories — primary source for property_trajectory situation)",
+    "census_wealth_data (real estate and personal estate values from 1850-1870 censuses — only standardized wealth measure)",
+    "military_pension_records (for pension implications in remarriage_economics situation)",
+    "marriage_and_death_records (for timing analysis in remarriage_economics situation)"
+  ]
+}

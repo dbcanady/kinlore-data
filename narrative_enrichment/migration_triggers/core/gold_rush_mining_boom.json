@@ -1,0 +1,298 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+
+  "migration_id": "gold_rush_mining_boom",
+  "display_name": "Gold Rush and Mining Boom Migration",
+  "short_description": "From 1848 through 1900, successive gold and silver discoveries drew hundreds of thousands of migrants westward in one of the largest voluntary mass movements in American history. The California Gold Rush was only the beginning — strikes in Nevada, Colorado, Montana, the Black Hills, and finally Alaska created a half-century cycle of boom, bust, and displacement that reshaped the American West.",
+  "era": "1848-1900",
+  "estimated_scale": "~300,000 to California by 1855; cumulative mining migration across all Western strikes likely exceeded 1 million individuals over five decades",
+  "involuntary": false,
+  "migration_class": "economic",
+
+  "phases": [
+    {
+      "phase_id": "california_gold_rush",
+      "phase_name": "California Gold Rush",
+      "date_range": "1848-1855",
+      "peak_years": "1849-1852",
+      "catalyst": "James W. Marshall discovered gold at Sutter's Mill on the American River, January 24, 1848. President Polk's December 1848 address to Congress confirmed the discovery and ignited global migration. An estimated 300,000 people reached California by 1855, drawn from every American state, Mexico, Chile, China, Ireland, Cornwall, France, and Australia.",
+      "origin_regions": [
+        "New England and Mid-Atlantic states (overland and sea routes)",
+        "Midwestern states (overland trail via Missouri River jumping-off points)",
+        "Guangdong Province, China (Pacific crossing)",
+        "Sonora and other northern Mexican states",
+        "Cornwall, England (experienced hard-rock miners)",
+        "Chile and Peru (Pacific maritime routes)",
+        "Eastern Australia (Pacific crossing)"
+      ],
+      "counties_most_affected": [
+        "El Dorado CA",
+        "Placer CA",
+        "Calaveras CA",
+        "Tuolumne CA",
+        "Sacramento CA",
+        "San Francisco CA",
+        "Mariposa CA",
+        "Yuba CA",
+        "Nevada CA"
+      ],
+      "primary_destinations": [
+        "Sacramento, CA",
+        "San Francisco, CA",
+        "Stockton, CA",
+        "Marysville, CA"
+      ],
+      "primary_route": "overland_trail_panama_cape_horn",
+      "route_description": "Three primary routes: (1) Overland trails from Missouri River towns (Independence, St. Joseph, Council Bluffs) across the Plains and Sierra Nevada — 2,000 miles, 4-6 months. (2) Sea voyage via Panama — ship to Chagres, mule or canoe across the isthmus, ship from Panama City to San Francisco — 6-8 weeks total but expensive and malarial. (3) Cape Horn passage — 15,000 miles by sea around South America, 5-8 months. Most Americans took the overland route; most international migrants came by sea."
+    },
+    {
+      "phase_id": "interior_west_booms",
+      "phase_name": "Interior West Silver and Gold Booms",
+      "date_range": "1858-1880",
+      "peak_years": "1859-1876",
+      "catalyst": "A cascade of strikes drew miners across the Interior West: Pikes Peak gold (1858) and the Comstock Lode silver (1859) in Nevada — the richest single district in American history — pulled experienced California miners and new Eastern migrants. Montana gold at Grasshopper Creek (1862) and Alder Gulch (1863) drew Civil War veterans. The Black Hills discovery (1874) on Lakota treaty land violated the 1868 Fort Laramie Treaty and precipitated the Great Sioux War.",
+      "origin_regions": [
+        "California and Nevada mining districts (lateral migration)",
+        "Missouri River border states and Midwestern states",
+        "Civil War veterans seeking fresh starts"
+      ],
+      "counties_most_affected": [
+        "Storey NV",
+        "Gilpin CO",
+        "Clear Creek CO",
+        "Lake CO",
+        "Madison MT",
+        "Lewis and Clark MT",
+        "Lawrence SD",
+        "Pennington SD"
+      ],
+      "primary_destinations": [
+        "Virginia City, NV",
+        "Denver, CO",
+        "Helena, MT",
+        "Deadwood, SD",
+        "Butte, MT"
+      ],
+      "primary_route": "overland_stage_rail",
+      "route_description": "Overland wagon and stage from Missouri River towns or California camps. Missouri River steamboat to Fort Benton for Montana. Rail to Cheyenne or Sidney, Nebraska, then wagon to the Black Hills. All routes traversed territory contested by Lakota, Cheyenne, and other Plains nations."
+    },
+    {
+      "phase_id": "klondike_alaska",
+      "phase_name": "Klondike and Alaska Gold Rush",
+      "date_range": "1897-1900",
+      "peak_years": "1897-1899",
+      "catalyst": "The SS Portland arrived in Seattle on July 17, 1897, carrying a 'ton of gold' from the Klondike region of Canada's Yukon Territory. An estimated 100,000 people set out for the goldfields; approximately 30,000-40,000 arrived. The Chilkoot Pass and White Pass became iconic images of human determination and suffering. Most of the accessible gold was already claimed by the time stampeders arrived.",
+      "origin_regions": [
+        "Pacific Northwest cities (Seattle, Portland, Tacoma)",
+        "San Francisco and California",
+        "Eastern and Midwestern states via rail to Seattle"
+      ],
+      "counties_most_affected": [
+        "King WA",
+        "San Francisco CA",
+        "Skagway-Yakutat AK"
+      ],
+      "primary_destinations": [
+        "Seattle, WA (outfitting point)",
+        "Skagway, AK (trailhead)",
+        "Dawson City, YT (goldfields)",
+        "Nome, AK"
+      ],
+      "primary_route": "pacific_steamship_overland",
+      "route_description": "Steamship from Seattle or San Francisco to Skagway or Dyea, Alaska. Then over the Chilkoot Pass or White Pass on foot — a 33-mile climb carrying a required one ton of supplies (Canadian law). From Lake Bennett, stampeders built boats and floated 500 miles down the Yukon River to Dawson City. The journey took 3-6 months from Seattle."
+    }
+  ],
+
+  "push_factors": [
+    {
+      "factor_id": "economic_hardship",
+      "name": "Economic hardship and limited opportunity",
+      "severity": 3,
+      "description": "Many Forty-Niners and later mining migrants were fleeing economic stagnation, failed farms, or wage labor with no prospect of advancement. The Panic of 1837 and the Panic of 1857 displaced thousands who saw the goldfields as a second chance. Young men with no land, no capital, and no inheritance were disproportionately represented."
+    },
+    {
+      "factor_id": "taiping_rebellion",
+      "name": "Taiping Rebellion and unrest in southern China",
+      "severity": 4,
+      "description": "The Taiping Rebellion (1850-1864) devastated Guangdong Province, the primary source region for Chinese miners. Civil war, famine, and banditry created desperate conditions. The combination of internal upheaval and Gold Mountain mythology made emigration a survival strategy for young men from the Pearl River Delta."
+    },
+    {
+      "factor_id": "cornish_mining_decline",
+      "name": "Decline of Cornish tin and copper mining",
+      "severity": 3,
+      "description": "Cornwall's tin and copper mines entered steep decline in the mid-19th century as cheaper imports undercut prices. Cornish hard-rock miners — the most skilled underground miners in the world — emigrated to every major mining district in the American West. The phrase 'Cousin Jack' (Cornish miner) was ubiquitous in Western mining camps."
+    },
+    {
+      "factor_id": "mexican_economic_disruption",
+      "name": "Political instability and economic disruption in Mexico",
+      "severity": 3,
+      "description": "The aftermath of the Mexican-American War (1848), loss of northern territories, and ongoing political upheaval pushed Sonoran miners northward into the California goldfields. Many had generations of mining experience in the silver mines of northern Mexico and brought expertise that American novices lacked."
+    }
+  ],
+
+  "pull_factors": [
+    {
+      "factor_id": "gold_fever",
+      "name": "Gold fever and the promise of instant wealth",
+      "description": "The mythology of the Gold Rush promised that any man with a pan and a shovel could pluck a fortune from a streambed. Newspaper accounts — often wildly exaggerated — reported miners finding nuggets worth thousands of dollars. The reality was that the median miner earned less than a day laborer back East, but the POSSIBILITY of wealth was the engine that moved hundreds of thousands of people."
+    },
+    {
+      "factor_id": "land_opportunity",
+      "name": "Free access to unclaimed land and mineral rights",
+      "description": "Under the Mining Law of 1866 (later codified as the General Mining Law of 1872), any citizen could stake a mining claim on public land without purchase. This legal framework — unique to the United States — meant that a penniless man could legally claim mineral rights that might be worth millions. The cost of entry was boot leather, not capital."
+    },
+    {
+      "factor_id": "merchant_opportunity",
+      "name": "Service economy in mining camps",
+      "description": "The real money in mining towns went to merchants, saloon keepers, laundresses, boarding house operators, and suppliers. Levi Strauss sold canvas pants. Samuel Brannan cornered the shovel market. Chinese entrepreneurs ran laundries, restaurants, and general stores. For those who recognized it, the mining economy was more profitable for those who served miners than for those who mined."
+    },
+    {
+      "factor_id": "adventure_independence",
+      "name": "Adventure and escape from social constraints",
+      "description": "Mining camps operated outside conventional social hierarchies. A man was judged by what he found in the ground, not by his family name, education, or social class. For younger sons, immigrants, and social misfits, the mining frontier offered a reset. The phrase 'seeing the elephant' — meaning to experience the great adventure — captured the non-economic pull factor."
+    }
+  ],
+
+  "transportation": {
+    "primary_mode": "mixed (overland wagon, ship, rail after 1869)",
+    "route_refs": [
+      "overland_california_trail",
+      "panama_crossing",
+      "cape_horn_passage",
+      "pacific_steamship"
+    ],
+    "what_they_carried": "Mining equipment (pan, pick, shovel), preserved food, firearms, a guidebook, and often a journal. Overland emigrants brought wagon-loads of supplies for 4-6 months. Chinese miners under the credit-ticket system often arrived with little more than the clothes they wore.",
+    "what_they_left_behind": "Wives and children (the mining frontier was overwhelmingly male), farms and businesses, community ties. Many intended to return rich; most never did. The abandoned farms of New England and emptied villages of Cornwall testify to what was left behind.",
+    "cost": "Overland passage: $200-$400 (1849 dollars). Panama crossing: $300-$600. Cape Horn: $150-$300. Canton to San Francisco steerage: $40-$60 (credit-ticket system). Klondike outfitting: $500-$1,000 for the required one ton of supplies.",
+    "seasonal_departure_pattern": "Overland emigrants departed Missouri River towns in April-May to cross the Sierra Nevada before October snows. Ship passages ran year-round but favored spring and summer. Klondike stampeders departed in summer for the Chilkoot Pass, then wintered at Lake Bennett before the spring thaw opened river travel."
+  },
+
+  "destination_refs": [
+    {
+      "destination_id": "sacramento_ca",
+      "name": "Sacramento, California",
+      "peak_arrival_years": "1849-1855",
+      "notes": "Gateway to the Mother Lode. River port at the confluence of the Sacramento and American Rivers. Grew from a handful of buildings to 10,000 by 1850. State capital by 1854."
+    },
+    {
+      "destination_id": "san_francisco_ca",
+      "name": "San Francisco, California",
+      "peak_arrival_years": "1849-1855",
+      "notes": "Primary port of entry for sea arrivals. Ships abandoned in the harbor as crews deserted for the mines. Chinatown established by 1850. Financial capital of Western mining for the rest of the century."
+    },
+    {
+      "destination_id": "denver_co",
+      "name": "Denver, Colorado",
+      "peak_arrival_years": "1859-1870",
+      "notes": "Supply hub for Pikes Peak and mountain mining districts. Survived the 1859 surface-gold bust by becoming the commercial center for deeper hard-rock operations at Central City and Georgetown."
+    },
+    {
+      "destination_id": "virginia_city_nv",
+      "name": "Virginia City, Nevada",
+      "peak_arrival_years": "1860-1880",
+      "notes": "Site of the Comstock Lode. Population reached 25,000. The Comstock required industrial-scale mining — deep shafts, stamp mills, massive capital — transforming mining from an individual enterprise to a corporate one. Its decline made it the archetype of the Western ghost town."
+    },
+    {
+      "destination_id": "deadwood_sd",
+      "name": "Deadwood, South Dakota",
+      "peak_arrival_years": "1876-1880",
+      "notes": "Illegal camp on Lakota treaty land. The Homestake Mine, discovered 1876, operated until 2001. Deadwood attracted the full spectrum of the mining frontier — prospectors, gamblers, merchants, and entrepreneurs."
+    },
+    {
+      "destination_id": "seattle_wa",
+      "name": "Seattle, Washington",
+      "peak_arrival_years": "1897-1899",
+      "notes": "Primary outfitting city for the Klondike rush. The city boomed from supplying stampeders, many of whom never reached the goldfields. Seattle's rise as a major Pacific Northwest city was permanently accelerated by the rush."
+    }
+  ],
+
+  "chain_migration": {
+    "pattern": "letters_home_and_return_migration",
+    "description": "Mining chain migration differed from agricultural or industrial patterns. Miners wrote letters drawing brothers and neighbors, but mining was also characterized by high RETURN migration and lateral movement from one strike to the next. The Cornish, Chinese, and Mexican communities all maintained strong return-migration networks. Failed miners moved to the next discovery, creating a perpetually mobile population.",
+    "gender_pattern": "Overwhelmingly male. California's non-Native population was approximately 92% male in 1850. Women who came filled essential economic roles — laundresses, boarding house operators, cooks — often earning more than miners. The gender imbalance persisted for decades in remote districts.",
+    "typical_lag_years": "1-3 years between a new strike and peak migration from the previous district; 6-18 months for letters to reach eastern families and trigger departure",
+    "narrative_hook": "When news of the {strike_name} reached {origin_location}, {ancestor_name} likely heard it the way most people did — through a letter from someone who had already gone, or a newspaper account that made a fortune sound as simple as bending down to pick it up."
+  },
+
+  "what_happened_to_those_who_stayed": {
+    "demographic_change": "Communities that lost young men experienced acute labor shortages. New England towns lost a generation; Cornish villages emptied of working-age men. In Guangdong Province, entire villages depended on Gold Mountain remittances.",
+    "economic_change": "California gold inflated the national economy and contributed to the 1850s boom. Communities that sent miners and received remittances invested in local improvements — schools, churches, better housing — paid for with mining wages.",
+    "cultural_change": "The Gold Rush created a mythology of the self-made man and the frontier as reinvention. 'Seeing the elephant' entered the vocabulary. The mining frontier's rough egalitarianism ultimately reinforced racial hierarchies as communities formalized exclusion through foreign miners' taxes and vigilante violence.",
+    "narrative_hook": "Had {ancestor_name} stayed in {origin_location} instead of heading west in {year}, they would have watched neighbors leave one by one, read letters about fortunes found and lost, and wondered — probably for the rest of their life — what might have been."
+  },
+
+  "record_implications": [
+    {
+      "pattern": "Ancestor appears in California census 1850-1860 with occupation 'miner'",
+      "interpretation": "Strong indicator of Gold Rush participation. The 1850 California census is incomplete but provides the earliest snapshot of the mining population.",
+      "research_tip": "Cross-reference with mining district records at the county recorder's office. El Dorado, Placer, Calaveras, and Tuolumne counties have the densest records. The California State Library holds microfilm of many Gold Rush-era county records."
+    },
+    {
+      "pattern": "Mining claim filed at county recorder's office or BLM General Land Office",
+      "interpretation": "Direct evidence of mining activity. Claims include the claimant's name, location, date, and sometimes witnesses. A claim does not prove the claimant found anything — most were abandoned.",
+      "research_tip": "BLM General Land Office Records (glorecords.blm.gov) contain federal mining patents. County recorder offices hold unpatented claims. The National Archives holds mineral entry case files in Record Group 49."
+    },
+    {
+      "pattern": "Ancestor disappears from Eastern records circa 1849-1852 and reappears years later or never",
+      "interpretation": "Likely Gold Rush participant. Those who failed often drifted to other mining districts, California agriculture, or Pacific maritime trade. Mortality from disease, accident, and violence was high.",
+      "research_tip": "Search California county records, San Francisco city directories, and the California Death Index. Check hometown newspapers for departure mentions. Also search Oregon and Washington territorial records — many failed California miners moved north."
+    },
+    {
+      "pattern": "Chinese ancestor in a Western mining town before 1882",
+      "interpretation": "Chinese miners were present in virtually every significant Western district, often reworking claims abandoned by white miners. The Foreign Miners' Tax (1850, 1852) specifically targeted Chinese and Mexican miners.",
+      "research_tip": "Chinese Exclusion Act case files (NARA RG 85) often contain mining employment histories. California county tax records showing Foreign Miners' Tax payments identify Chinese miners by name."
+    },
+    {
+      "pattern": "Ancestor listed in multiple Western states across successive census decades",
+      "interpretation": "Classic mining itinerant pattern: California 1850s, Nevada/Colorado 1860s, Montana/Black Hills 1870s, Alaska 1890s. This lateral mobility follows the mineral frontier and should not be confused with random wandering.",
+      "research_tip": "Map the ancestor's locations against known mining booms chronologically. Check mining district records, county tax rolls, and voter registrations at each location. Mining camp newspapers (Chronicling America) often published arrival lists."
+    }
+  ],
+
+  "counter_narratives": [
+    {
+      "claim": "Most miners did not get rich — the merchants did",
+      "context": "The median California Gold Rush miner earned less than a skilled laborer in the East after accounting for the inflated cost of goods in the mining camps. Eggs sold for $1 each in 1849 (equivalent to roughly $35 today). The people who reliably made money were those who sold goods and services to miners: merchants, saloon keepers, laundresses, boarding house operators, and teamsters. Levi Strauss, Mark Hopkins, Collis Huntington, and Philip Armour all made their fortunes supplying miners, not mining."
+    },
+    {
+      "claim": "The Gold Rush was an ecological and humanitarian catastrophe for Native peoples",
+      "context": "The California Gold Rush triggered the near-extermination of California's Indigenous peoples. The Native population of California fell from approximately 150,000 in 1848 to fewer than 30,000 by 1870 through a combination of murder, displacement, starvation, and disease. The California state government paid bounties for Native scalps. Mining itself devastated salmon streams, poisoned watersheds with mercury (used in gold amalgamation), and destroyed food-gathering lands. The Black Hills rush violated the 1868 Fort Laramie Treaty with the Lakota, directly causing the Great Sioux War of 1876."
+    },
+    {
+      "claim": "Mining camps were not egalitarian — racial exclusion was systematic",
+      "context": "California's Foreign Miners' Tax of 1850 (targeting Mexicans) and 1852 (targeting Chinese) used taxation as a tool of racial exclusion. Anti-Chinese violence was endemic in Western mining districts, culminating in massacres at Rock Springs, Wyoming (1885) and Hells Canyon, Oregon (1887). Mexican and Chilean miners — who often had superior mining skills — were driven from claims by violence. African American miners faced exclusion from many districts. The mining frontier's reputation for rough equality applied primarily to white American men."
+    }
+  ],
+
+  "source_references": [
+    {
+      "author": "Malcolm J. Rohrbough",
+      "title": "Days of Gold: The California Gold Rush and the American Nation",
+      "year": 1997,
+      "type": "book",
+      "notes": "Comprehensive social history of the Gold Rush. Strong on the experience of ordinary miners and the transformation of California society."
+    },
+    {
+      "author": "Susan Lee Johnson",
+      "title": "Roaring Camp: The Social World of the California Gold Rush",
+      "year": 2000,
+      "type": "book",
+      "notes": "Pathbreaking study of gender, race, and ethnicity in the southern mines. Essential for multi-ethnic mining communities and the role of women."
+    },
+    {
+      "author": "Rodman W. Paul",
+      "title": "Mining Frontiers of the Far West, 1848-1880",
+      "year": 1963,
+      "type": "book",
+      "notes": "Classic survey of mining technology and economics across the Western frontier. Standard reference for the progression from placer to hard-rock mining."
+    },
+    {
+      "author": "Elliott West",
+      "title": "The Contested Plains: Indians, Goldseekers, and the Rush to Colorado",
+      "year": 1998,
+      "type": "book",
+      "notes": "Examines the Pikes Peak rush in the context of Plains Indian displacement. Essential for understanding mining migration and Native sovereignty."
+    }
+  ]
+}

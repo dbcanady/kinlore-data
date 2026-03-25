@@ -1,0 +1,233 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "_purpose": "Regional migration trigger — Eastern NC farm families to Cape Fear/Fayetteville region cotton mills. Supplements national textile_mill_recruitment trigger which covers mountain-to-Piedmont migration. This trigger covers a different origin geography (coastal plain), different push factors (post-Civil War farm collapse, not mountain subsistence failure), and different destinations (Fayetteville/Hope Mills/Erwin, not Gastonia/Kannapolis).",
+  "migration_id": "nc_eastern_farm_to_mill",
+  "display_name": "Eastern NC Farm-to-Mill Migration",
+  "short_description": "Between 1865 and 1910, thousands of Eastern North Carolina farm families — many descended from Civil War veterans who returned to find their farms depleted and their families too large for the land — left the coastal plain for cotton mills in the greater Fayetteville region. The mills weren't Plan A. These families tried truck farming, turpentine work, timber, and tenant farming first. When all of those failed, the mill whistle was what was left.",
+  "era": "1865-1910",
+  "estimated_scale": "Thousands of Eastern NC farm families relocated to Cape Fear region mill towns; exact figures difficult to determine from census aggregates but Wayne, Johnston, Sampson, and Duplin counties all show working-age population loss 1880-1910",
+  "involuntary": false,
+  "migration_class": "economic",
+  "coercion_note": "While technically voluntary, this migration occurred under severe economic duress. Post-Civil War farm collapse, soil exhaustion, and the crop lien system left families with no realistic alternative to wage labor. The 'choice' to leave was between the mill and destitution.",
+  "regional_scope": "Eastern North Carolina coastal plain to Cape Fear / Sandhills mill district. Intra-state migration of 40-100 miles, NOT the 200+ miles of the mountain-to-Piedmont pattern covered by textile_mill_recruitment.",
+  "trigger_type": "regional",
+  "parent_trigger_ref": "textile_mill_recruitment",
+  "phases": [
+    {
+      "phase_id": "agricultural_decline",
+      "phase_name": "Agricultural Decline and Failed Alternatives",
+      "date_range": "1865-1885",
+      "description": "Confederate veterans returned to Eastern NC farms that had been stripped by both armies — fences burned, livestock confiscated, enslaved labor gone. Large families (5-8 children common) faced farms that couldn't be subdivided further. Soil exhaustion from generations of tobacco and cotton monoculture on coastal plain soils reduced yields. The crop lien system — buying seed and supplies on credit from merchants at 30-60% annual interest — trapped families in perpetual debt. But the mills weren't ready yet. Families tried everything else first: truck farming, turpentine/naval stores work, timber cutting, tenant farming on others' land. The mill wasn't Plan A. It was Plan D."
+    },
+    {
+      "phase_id": "mill_expansion_first_wave",
+      "phase_name": "Mill Expansion and First Wave",
+      "date_range": "1885-1900",
+      "description": "Cape Fear region mills expanded to meet growing textile demand. Hope Mills Manufacturing Company rebuilt post-war capacity. Smaller operations — Tolar-Hart Cotton Mill, Cape Fear Cotton Mill, Holt-Williamson Mill, Cross Creek Mill — opened along the Cape Fear River and its tributaries in Fayetteville. Labor agents recruited from eastern counties where farm failure was acute. The first families to go became the kinship chain — writing back to Wayne County, Johnston County, Sampson County about the cash wages and the company houses. Within a few years, mill villages had clusters of families from the same eastern counties."
+    },
+    {
+      "phase_id": "established_migration",
+      "phase_name": "Established Migration and Erwin Mills",
+      "date_range": "1900-1910",
+      "description": "Erwin Cotton Mills opened in 1903 in Harnett County, becoming the largest employer in the region and later a major Burlington Industries operation. By this point the migration was self-sustaining through family networks — no recruiters needed. Entire eastern NC communities were partially depopulated as the younger generation left for the mills while elderly parents stayed on the farm. The pattern slowed after 1910 as the mills had absorbed the available labor supply and the remaining farm families had found alternative adaptations."
+    }
+  ],
+  "push_factors": [
+    {
+      "factor_id": "farm_subdivision",
+      "factor": "Post-Civil War farm subdivision among large families",
+      "severity": 5,
+      "description": "Confederate veterans returned to farms that had to support large families — 5-8 children was common. North Carolina had no primogeniture; each generation divided the land smaller. A 200-acre farm that supported one family in 1850 was split among four sons by 1880, each working 50 acres of declining soil. The math stopped working. The youngest sons, who inherited the smallest or worst parcels, were often the first to leave for the mills.",
+      "date_range": "1865-1910",
+      "regional_scope": "Eastern NC coastal plain counties: Wayne, Johnston, Sampson, Duplin, Harnett, Cumberland",
+      "narrative_hook": "When the old man came back from the war, there were {child_count} children and {acres} acres. By the time {ancestor_name} was grown, the farm had been split {split_count} ways and the piece that was left wouldn't feed a family of two, let alone {family_size}."
+    },
+    {
+      "factor_id": "soil_exhaustion",
+      "factor": "Soil exhaustion from tobacco and cotton monoculture on coastal plain soils",
+      "severity": 4,
+      "description": "Eastern NC coastal plain soils — sandy loams over clay subsoil — were never as rich as Piedmont soils and degraded faster under continuous tobacco and cotton cultivation. Without crop rotation or fertilization (which required cash the crop lien system consumed), yields dropped steadily. A field that produced 400 pounds of cotton per acre in 1850 might produce 150 by 1890. This is distinct from the mountain subsistence farming failure in the textile_mill_recruitment trigger — different soils, different crops, different agricultural system.",
+      "date_range": "1860-1910",
+      "regional_scope": "Eastern NC coastal plain",
+      "narrative_hook": "The {family_name} land in {origin_county} had grown tobacco since {ancestor_name}'s grandfather cleared it. By {year}, the sandy soil was played out — {ancestor_name} harvested barely enough to pay the merchant and not enough to feed the family through winter."
+    },
+    {
+      "factor_id": "crop_lien_system",
+      "factor": "Crop lien system trapping families in perpetual debt",
+      "severity": 5,
+      "description": "With no cash and no credit, Eastern NC farm families bought seed, tools, and supplies from local merchants on credit secured by the coming crop — the crop lien. Merchants charged 30-60% annual interest (often disguised as price markups between cash and credit prices). A bad harvest meant the debt rolled over and grew. Many families were legally bound to the same merchant for years, unable to leave until the debt was paid, which it never was. The crop lien was a legal debt trap that functioned as economic serfdom for white and Black families alike.",
+      "date_range": "1865-1910",
+      "regional_scope": "Eastern NC (statewide in the South, but especially acute in eastern NC where cash crop failure was most severe)",
+      "narrative_hook": "{ancestor_name} owed {merchant_name}'s store in {town} ${amount} for seed and supplies, at prices that would have been half that in cash. The {crop} crop brought ${harvest_value}. After the merchant took his share, {ancestor_name} was deeper in debt than the year before. The mill in {destination_town} paid cash every Saturday — no lien, no merchant, no waiting for the harvest."
+    },
+    {
+      "factor_id": "confederate_pension_inadequacy",
+      "factor": "Confederate pension inadequacy in North Carolina",
+      "severity": 3,
+      "description": "North Carolina's Confederate pension system was among the most parsimonious in the former Confederacy. Pensions ranged from $15 to $72 per year depending on disability class — far below subsistence levels. Many veterans who were partially disabled from war wounds could not fully work their farms but received pensions too small to make up the difference. The pension application records themselves, held at the NC State Archives, document the veteran's disability, family size, and property — making them a genealogical goldmine.",
+      "date_range": "1885-1910",
+      "regional_scope": "North Carolina statewide",
+      "narrative_hook": "{ancestor_name} drew ${pension} a year from the state for the wound {pronoun_subject} took at {battle}. It wasn't enough to hire a hand to do the work {pronoun_subject} couldn't do anymore. The children had to choose between working the farm or going to the mill — and the farm wasn't paying."
+    },
+    {
+      "factor_id": "no_primogeniture",
+      "factor": "No primogeniture law in North Carolina",
+      "severity": 3,
+      "description": "Unlike English law, North Carolina divided estates equally among heirs (with a double share for the eldest son abolished in 1784). Each generation split the land further. After three generations of division, parcels became too small to support a family. This structural factor distinguished the Southern farm crisis from the Northern pattern, where either primogeniture or farm consolidation kept viable farm sizes.",
+      "date_range": "All eras but acute by 1880-1910",
+      "regional_scope": "North Carolina statewide"
+    }
+  ],
+  "pull_factors": [
+    {
+      "factor_id": "cash_wages",
+      "factor": "Regular cash wages at the mill",
+      "description": "Mills in the Fayetteville region paid $0.50-$1.00 per day for an adult operative — modest but revolutionary for families who had never handled regular cash. A family with three or four working members (father, mother, older children) could earn $15-$25 per week combined. After years of crop lien debt where cash was never seen, a weekly pay envelope was transformative. The cash economy of the mill, however modest, was categorically different from the cashless debt economy of the farm.",
+      "narrative_hook": "{ancestor_name} had never held ${amount} in cash at one time. On the farm in {origin_county}, everything went through the merchant's ledger — credit in, crop out, debt carried forward. The first Saturday payday at {mill_name} put actual money in {pronoun_possessive} hand. It wasn't much. It was more than the farm had ever paid."
+    },
+    {
+      "factor_id": "company_housing",
+      "factor": "Company-provided housing",
+      "description": "Mill villages offered frame houses — small (3-4 rooms), identical, but solid — with rent deducted from wages rather than paid separately. For families coming from deteriorating farmhouses on worn-out land, the company house was dry, close to work, and came with the job. The trade-off was complete dependence: lose the job, lose the house. But for a family already landless or debt-trapped, that trade-off was acceptable.",
+      "narrative_hook": "The company house at {mill_name} had {room_count} rooms and a tin roof that didn't leak. {ancestor_name} had patched the roof on the {origin_county} farmhouse every spring. The mill house came with the job — lose one, lose both — but at least the rain stayed outside."
+    },
+    {
+      "factor_id": "kinship_networks",
+      "factor": "Kinship networks already established at destination mills",
+      "description": "Once the first families from an eastern NC county settled at a mill, they became recruiters for their kin. A cousin in Hope Mills writes to a cousin in Wayne County: the mill is hiring, there's a house available, the children can work too. Within a few years, mill villages contained clusters of families from the same origin county — recreating community networks within the industrial setting.",
+      "narrative_hook": "When {relative_name} wrote from {destination_town} saying the mill was hiring and there was a house on {street_name}, {ancestor_name} didn't need a labor agent's pitch. Family was already there. The road between {origin_county} and {destination_town} had been worn by {family_name} feet before {pronoun_possessive} own."
+    },
+    {
+      "factor_id": "railroad_access",
+      "factor": "Railroad connections making the move feasible",
+      "description": "The Atlantic Coast Line Railroad connected Wilmington and Goldsboro through Fayetteville; the Cape Fear & Yadkin Valley Railway connected to the Piedmont interior. These railroads made the 40-100 mile journey from eastern NC farm country to Fayetteville-area mills feasible in a single day — unlike the mountain-to-Piedmont migration which required multi-day wagon travel over rough terrain. The railroad reduced the practical barrier to migration dramatically.",
+      "narrative_hook": "{ancestor_name} loaded what would fit into a wagon and drove to the {station_name} depot. The train to {destination_town} took {hours} hours. It was the longest trip {pronoun_subject} had ever taken — {miles} miles — and it was the last time {pronoun_subject} would see the {origin_county} farm as home."
+    }
+  ],
+  "transportation": {
+    "primary_mode": "Wagon to nearest railroad depot, then train; or wagon road the full distance for families closer to Fayetteville",
+    "route_refs": [],
+    "route_notes": "No named route. The Atlantic Coast Line Railroad connected Goldsboro, Fayetteville, and Wilmington. The Cape Fear & Yadkin Valley Railway connected interior towns. Most families traveled 40-100 miles — dramatically shorter than the mountain-to-Piedmont migration in the national textile trigger. Families in Harnett or Cumberland counties might have traveled by wagon alone.",
+    "what_they_carried": "Household goods, bedding, cookware, clothing, hand tools. Some brought a milk cow or a few chickens. Most left the farm equipment — plow, harrow — as it was useless at the mill. Seeds and preserved food for the transition period. Family Bible with births and deaths recorded inside the cover.",
+    "what_they_left_behind": "Farm land — often still encumbered by crop lien debt, sometimes sold to the merchant who held the lien. Family graveyards, often on the farm property. Church community, neighbors, the rhythms of agricultural life. For many, the graves of parents and grandparents who had cleared the original land.",
+    "cost_of_travel": "Low in cash terms — a few dollars for train fare, or free if traveling by wagon. The real cost was emotional and social: leaving the land the family had worked since the grandfather cleared it. Land that wouldn't sell for enough to clear the merchant's debt was still worth everything in family memory.",
+    "seasonal_departure_pattern": "Departures concentrated after fall harvest (October-December) when the year's crop failure was confirmed and the merchant's tally was settled. Some families left in late winter (January-February) before spring planting would commit them to another year of crop lien debt."
+  },
+  "origin_counties": [
+    "Wayne NC",
+    "Johnston NC",
+    "Sampson NC",
+    "Duplin NC",
+    "Harnett NC",
+    "Cumberland NC",
+    "Robeson NC",
+    "Bladen NC",
+    "Columbus NC",
+    "Lenoir NC",
+    "Greene NC",
+    "Pitt NC"
+  ],
+  "counties_most_affected": [
+    "Cumberland NC",
+    "Harnett NC"
+  ],
+  "destination_towns": [
+    "Hope Mills, NC (Hope Mills Manufacturing Company, est. 1839, rebuilt post-Civil War)",
+    "Erwin, NC (Erwin Cotton Mills, est. 1903, Harnett County — later Burlington Industries)",
+    "Fayetteville, NC — Tolar-Hart Cotton Mill (Cape Fear riverfront, ~200 hands, 10,000 spindles)",
+    "Fayetteville, NC — Cape Fear Cotton Mill (foot of Haymount)",
+    "Fayetteville, NC — Holt-Williamson Mill (Hay Street)",
+    "Fayetteville, NC — Cross Creek Mill",
+    "Rockfish Creek mill district (south of Fayetteville)",
+    "Manchester / Spring Lake area mills"
+  ],
+  "destination_refs": ["fayetteville_mill_district"],
+  "origin_community_refs": ["eastern_nc_farm_community"],
+  "chain_migration": {
+    "pattern": "kinship_chain",
+    "description": "Unlike the mountain-to-Piedmont pattern where company labor agents physically recruited families, the Eastern NC to Fayetteville migration was driven primarily by kinship chains. The first family member to find mill work wrote home; relatives followed. Within a few years, mill village streets contained clusters of families from the same eastern county — Wayne County families on one row, Johnston County families on another. The migration was self-recruiting through family obligation and information sharing.",
+    "gender_pattern": "Entire families migrated. Women and older children entered the mill alongside men — the family wage economy required multiple earners. Young unmarried women often preceded their families, working as spinners or weavers and sending word back that the mill was hiring. Women's labor was essential; a family could not survive on one mill wage. Married women worked shifts and managed the household. The transition from farm wife (where women's labor was unpaid but integrated into the farm economy) to mill operative (where women earned wages but lost domestic autonomy) was one of the most disorienting changes.",
+    "narrative_hook": "After {relative_name} went to {destination_town} and found work at {mill_name}, {pronoun_subject} wrote back to {origin_county} that the mill was hiring and there was a house available. {ancestor_name} followed within {timeframe}. Before long, half the {family_name} family had made the same trip."
+  },
+  "what_happened_to_those_who_stayed": "Eastern NC farm communities did not empty entirely. Some families adapted — shifting from cotton to tobacco (which remained profitable longer), truck farming vegetables for urban markets, or working in turpentine/naval stores. Elderly parents often stayed on the farm while their children left for the mills, creating a pattern of elderly rural isolation that persists in eastern NC counties today. Some families eventually lost their land to crop lien foreclosure; the merchant who held the debt took the farm. The eastern NC counties that lost population between 1880 and 1910 have never fully recovered their pre-migration population density.",
+  "race_routing": {
+    "applies_to": "African American ancestors",
+    "routing_note": "If the ancestor was African American and appears in census records near a textile mill in this era, they were almost certainly NOT employed as an operative inside the mill. Southern textile mills operated a rigid racial exclusion policy — Black workers were confined to outdoor and janitorial roles (yard work, cotton bale handling, sweeping) until well into the 20th century. The parallel path for Black Eastern NC farm families during this same period was more likely: sharecropping persistence, turpentine/naval stores labor, tobacco processing, domestic service, or migration to Wilmington, Norfolk, or further north.",
+    "alternative_trigger_refs": ["great_migration", "boll_weevil"],
+    "additional_push_factor": "The Wilmington coup of November 10, 1898 — the only successful overthrow of an elected government in US history — is an additional push factor for Black families in southeastern NC counties. White supremacist Democrats violently ousted the biracial Fusionist city government, killed an estimated 60-300 Black residents, and permanently drove 2,100+ Black citizens from the city. For Black farm families in surrounding counties, the coup confirmed that Eastern NC offered neither political safety nor economic opportunity.",
+    "narrative_hook": "If {ancestor_name} was Black and living in {origin_county} in the 1890s, the cotton mills along the Cape Fear were not an option — the spinning rooms were whites-only, and would be for another sixty years. {ancestor_name}'s choices were the turpentine camps, the tobacco barns, sharecropping on someone else's land, or leaving Eastern North Carolina entirely. After Wilmington burned in November 1898, more chose to leave."
+  },
+  "record_implications": {
+    "deed_books": "NC county deed books record land sales showing farm disposal before departure. A deed from a {family_name} to a merchant in the 1880s-1900s may indicate crop lien foreclosure or voluntary sale before migration. Check the county of origin — Wayne, Johnston, Sampson, Duplin — for deeds in the decade before the ancestor appears at the mill.",
+    "confederate_pensions": "Confederate pension applications at the NC State Archives document the veteran's disability, family size, property owned, and economic condition. These are among the most detailed biographical sources for post-Civil War NC families. Even if the ancestor was not the veteran, the veteran's application describes the family's circumstances. Search by veteran's name at the NC State Archives.",
+    "church_transfers": "Baptist and Methodist church transfer letters document movement from eastern NC congregations to Fayetteville-area churches. Check both the sending church (eastern NC) and the receiving church (Fayetteville/Hope Mills/Erwin). Baptist 'letters of dismissal' are the most common form. See church_record_transfers research guidance.",
+    "mill_employment": "Erwin Cotton Mills records survive at the NC State Archives (Erwin Mills Collection). Hope Mills Manufacturing Company records may be held locally. Employment records list workers by name, family composition, job assignment, and wages. Payroll records can confirm when an ancestor began mill work.",
+    "census_bridge": "The critical genealogical move: 1880 census shows ancestor as 'farmer' in Wayne/Johnston/Sampson County; 1900 or 1910 census shows same person as 'mill operative' or 'cotton spinner' in Cumberland or Harnett County. This one-census jump from farmer to operative IS the migration — and the 20-year gap between censuses (especially with 1890 census destroyed) means the exact date of migration is often unknown.",
+    "marriage_records": "Eastern NC surnames appearing in Cumberland and Harnett County marriage records between 1885-1910 indicate migration. Cross-reference with origin county marriage records to identify family networks. NC marriage records are held at the county register of deeds offices and at the NC State Archives.",
+    "race_aware_routing": "If ancestor is African American, this trigger fires differently. The mill operative path was closed by racial exclusion — Black workers were confined to outdoor roles until the mid-20th century. Route to alternative occupation profiles (turpentine worker, tobacco hand, domestic servant, sharecropper) and check the great_migration trigger for later northward movement. The Wilmington coup of November 10, 1898 is an additional documented push factor for Black families in southeastern NC counties."
+  },
+  "counter_narratives": [
+    {
+      "narrative_id": "not_all_desperate",
+      "title": "Not all who left were desperate",
+      "description": "Some Eastern NC families chose mill work as genuine opportunity, not just last resort. Younger sons who would inherit the smallest land parcels saw the mill as upward mobility — cash wages, a new community, proximity to Fayetteville's markets and services. The narrative of universal desperation, while true for many, erases the agency of families who made calculated decisions about where their future lay.",
+      "narrative_hook": "{ancestor_name} was the {birth_order} of {sibling_count} children. The farm in {origin_county} was going to the older brothers. The mill in {destination_town} wasn't a last resort — it was the best option on the table, and {pronoun_subject} took it with open eyes."
+    },
+    {
+      "narrative_id": "some_stayed_successfully",
+      "title": "Not everyone left — some eastern NC families adapted",
+      "description": "The farm-to-mill migration was not universal. Some eastern NC families successfully transitioned to truck farming (vegetables for urban markets), brightleaf tobacco (which remained profitable longer than cotton), or turpentine/naval stores work. Others found ways to consolidate family land rather than subdivide it. The families who stayed are part of the story too — they represent the alternative path that the mill families chose not to take.",
+      "narrative_hook": "Not every {family_name} left {origin_county}. {relative_name} stayed on the land, switching from cotton to tobacco and truck farming. By {year}, {pronoun_subject} was doing better than the cousins in the mill — but {pronoun_subject} also worked from dark to dark and never saw a payday."
+    },
+    {
+      "narrative_id": "mills_not_always_worse",
+      "title": "The mills were not always worse than the farm",
+      "description": "The standard narrative of mill exploitation is accurate — long hours, low wages, company control. But for families coming from failing farms with no cash, no medical care, no schools, and collapsing housing, the mill village offered genuine improvements: a solid house, a school for the children, a doctor within walking distance, and cash in hand every Saturday. Acknowledging this does not excuse mill conditions; it recognizes the severity of the farm conditions that made the mill look good.",
+      "narrative_hook": "The mill house at {destination_town} was small and identical to every other house on the row. But it had glass windows, a wood stove, and a roof that held. The children went to the mill school instead of working the field. {ancestor_name} worked twelve-hour shifts six days a week — but on Saturday, there was cash in {pronoun_possessive} pocket. On the farm, there never had been."
+    },
+    {
+      "narrative_id": "racial_exclusion",
+      "title": "The mills were whites-only — Black families faced different choices",
+      "description": "Southern textile mills operated a rigid racial exclusion policy from their founding through the mid-twentieth century. Black workers were limited to outdoor and janitorial roles — yard work, cotton bale handling, sweeping — never operative positions inside the mill. This means the Eastern NC farm-to-mill migration pattern was overwhelmingly white by structural exclusion, not by choice. Black families facing the same farm crisis — soil exhaustion, crop lien debt, land subdivision — had different and often worse options: continued sharecropping, turpentine camps, tobacco processing, domestic service, or migration out of Eastern NC entirely. The Wilmington coup of 1898 added violent political dispossession to economic pressure.",
+      "narrative_hook": "If {ancestor_name} was Black and living near {destination_town} in {year}, the mill whistle was not calling {pronoun_object}. The spinning rooms, the looms, the carding machines — all whites-only. {ancestor_name} might have worked the mill yard, handled the cotton bales, or swept the floors. But the wages inside the mill were for white hands only."
+    }
+  ],
+  "source_references": [
+    {
+      "source_id": "hall_1987",
+      "citation": "Hall, Jacquelyn Dowd, James Leloudis, Robert Korstad, Mary Murphy, Lu Ann Jones, and Christopher B. Daly. Like a Family: The Making of a Southern Cotton Mill World. Chapel Hill: University of North Carolina Press, 1987.",
+      "relevance": "Definitive oral history of Southern mill culture, including extensive documentation of the farm-to-mill transition, family wage economy, and kinship recruitment patterns."
+    },
+    {
+      "source_id": "leloudis_1996",
+      "citation": "Leloudis, James L. Schooling the New South: Pedagogy, Self, and Society in North Carolina, 1880-1920. Chapel Hill: University of North Carolina Press, 1996.",
+      "relevance": "Documents the educational transformation in NC mill communities, including mill village schools and their role in integrating farm families into industrial culture."
+    },
+    {
+      "source_id": "escott_1985",
+      "citation": "Escott, Paul D. Many Excellent People: Power and Privilege in North Carolina, 1850-1900. Chapel Hill: University of North Carolina Press, 1985.",
+      "relevance": "Political and economic history of post-Civil War NC, including the crop lien system, farm failure, and the conditions that drove rural families into industrial labor."
+    },
+    {
+      "source_id": "beatty_1999",
+      "citation": "Beatty, Bess. Alamance: The Holt Family and Industrialization in a North Carolina County, 1837-1900. Baton Rouge: Louisiana State University Press, 1999.",
+      "relevance": "Definitive study of how NC mill families transitioned from farm to factory and the kinship recruitment patterns that drove it. Covers Alamance County but the patterns apply across the NC textile belt."
+    },
+    {
+      "source_id": "nc_state_archives_erwin",
+      "citation": "North Carolina State Archives. Erwin Cotton Mills Collection and Confederate Pension Records. Raleigh, NC.",
+      "relevance": "Primary source for mill employment records (Erwin Mills) and Confederate veteran family documentation (pension applications recording disability, family size, property)."
+    },
+    {
+      "source_id": "nc_industrial_directory",
+      "citation": "North Carolina Year Book and Business Directory. Published annually from 1890s. Available at NC State Archives.",
+      "relevance": "Verifies specific mill names, founding dates, capacities, and employment figures for Fayetteville-area mills."
+    },
+    {
+      "source_id": "cumberland_county_historical",
+      "citation": "Cumberland County Historical Society. Local history collections, Fayetteville, NC.",
+      "relevance": "Local records of Cape Fear region mills, including Hope Mills Manufacturing Company, Tolar-Hart, and smaller operations."
+    }
+  ]
+}

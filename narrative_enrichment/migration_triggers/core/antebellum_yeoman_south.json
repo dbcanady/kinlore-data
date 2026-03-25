@@ -1,0 +1,288 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-17",
+  "migration_id": "antebellum_yeoman_south",
+  "display_name": "Antebellum Yeoman South Migration",
+  "short_description": "The internal migration and economic displacement of yeoman farm families in the Upper South and Piedmont between 1790 and 1860. These non-slaveholding or small-slaveholding white families — the majority of the Southern white population — faced land subdivision, soil exhaustion, economic panics, and the expanding planter class economy. Some migrated to fresh land in the Southwest or Midwest; many stayed and adapted. This trigger fills the antebellum trigger desert: the period between frontier settlement and the Civil War when yeoman families were making decisions that shaped three generations of descendants.",
+  "era": "1790-1860",
+  "estimated_scale": "Hundreds of thousands of families across the Upper South; precise numbers impossible to determine because internal migration was unrecorded",
+  "involuntary": false,
+  "migration_class": "economic",
+  "phases": [
+    {
+      "phase_id": "post_revolutionary_settlement",
+      "phase_name": "Post-Revolutionary Settlement",
+      "date_range": "1790-1815",
+      "description": "Revolutionary War veterans claimed bounty land grants in western North Carolina, Tennessee, Kentucky, and the Ohio country. New counties formed rapidly as population pushed into the Piedmont interior and across the Appalachians. Families cleared land, built cabins, and established the farmsteads that would anchor communities for decades. Land speculation was rampant — many veterans sold their bounty warrants to speculators and received far less than the land's eventual value. This phase established the initial land distribution that subsequent generations would subdivide, exhaust, and eventually abandon or adapt.",
+      "origin_regions": ["Tidewater VA", "Eastern NC", "SC Lowcountry", "Eastern PA", "MD"],
+      "primary_destinations": ["Piedmont NC", "Upper South TN", "Central KY", "Western VA", "Piedmont GA"],
+      "narrative_hook": "When {ancestor_name} received a land grant in {county} after the Revolution, the soil was fresh, the timber was standing, and a family could clear a living from raw ground. That initial settlement — the cabin, the first clearing, the deed recorded at the new county courthouse — was the foundation of everything that followed for three generations."
+    },
+    {
+      "phase_id": "war_of_1812_aftermath",
+      "phase_name": "War of 1812 Aftermath and Banking Crisis",
+      "date_range": "1812-1825",
+      "description": "The War of 1812 disrupted trade and agriculture across the Upper South. The postwar economic boom (1815-1818) encouraged land speculation and credit expansion, followed by the catastrophic Panic of 1819 — the young republic's first major financial crisis. Banks failed, credit collapsed, and land values plummeted. Yeoman families caught in the credit bubble lost property. Others, unable to service debts on overpriced land, abandoned farms and moved further west. The Panic of 1819 demonstrated the vulnerability of yeoman families to forces far beyond their control — a bank failure in Philadelphia could destroy a farm family in North Carolina.",
+      "origin_regions": ["Piedmont NC", "Piedmont VA", "Piedmont SC", "Central KY", "Middle TN"],
+      "primary_destinations": ["West TN", "North AL", "North MS", "Southern IN", "Southern IL"],
+      "narrative_hook": "The Panic of 1819 hit {county} the way distant thunder reaches a farm — the sound arrived months after the storm. When the banks failed and credit dried up, {ancestor_name}'s community discovered that the prosperity of the postwar years had been built on paper."
+    },
+    {
+      "phase_id": "cotton_kingdom_expansion",
+      "phase_name": "Cotton Kingdom Expansion",
+      "date_range": "1820-1840",
+      "description": "The explosive expansion of cotton cultivation into Alabama, Mississippi, and the Gulf states created a powerful demographic suction drawing population south and west. Planters with capital and enslaved labor forces relocated to the fresh cotton lands of the Black Belt and Mississippi Delta, where yields dwarfed what exhausted Piedmont soils could produce. Yeoman families faced a dual squeeze: the best new land went to planters who could clear and cultivate it with enslaved labor, while the Piedmont land left behind continued to lose fertility. Some yeoman families followed the cotton frontier hoping to establish themselves on cheap land before the planters arrived. Others stayed and watched the economic center of Southern agriculture shift away from them.",
+      "origin_regions": ["Piedmont NC", "Piedmont SC", "Piedmont GA", "Upper South VA", "Central KY", "Middle TN"],
+      "primary_destinations": ["North AL", "Central MS", "West TN", "East TX", "North LA", "AR"],
+      "narrative_hook": "Cotton was king, but {ancestor_name} in {county} was not invited to the coronation. The best cotton land was in Alabama and Mississippi, and it took capital and enslaved labor to work it. A yeoman family on 100 acres of Piedmont clay could watch the wealth flow south and west without the means to follow."
+    },
+    {
+      "phase_id": "antebellum_crisis",
+      "phase_name": "Antebellum Crisis",
+      "date_range": "1837-1860",
+      "description": "The Panic of 1837 devastated the Southern economy for nearly a decade. Cotton prices collapsed, banks failed again, and the credit system that tied yeoman families to the general store tightened into a noose. The crop lien system — by which farmers pledged future crops as collateral for current purchases — took root in this period, binding families to a cycle of debt and cash-crop dependency. The planter class consolidated its hold on the best land and political power, squeezing yeoman families economically and socially. By the 1850s, yeoman families in the Upper South faced stark choices: migrate to fresh land, accept declining status, diversify into non-agricultural work, or hold on and hope for better times. The railroad, reaching into the Piedmont by the 1850s, simultaneously created new opportunities (access to distant markets) and new pressures (competition from western grain).",
+      "origin_regions": ["Piedmont NC", "Piedmont VA", "Piedmont SC", "Piedmont GA", "Central KY", "Middle TN"],
+      "primary_destinations": ["TX", "AR", "Ozarks MO", "Southern IL", "Southern IN", "OR (overland trail)"],
+      "narrative_hook": "By the 1850s, {ancestor_name} in {county} was caught between forces that no yeoman farmer could control: soil that gave less every year, prices set by cotton planters with enslaved labor forces, and a general store ledger that grew longer every season. The Civil War would end this world, but the crisis was already well advanced by the time the first shots were fired."
+    }
+  ],
+  "push_factors": [
+    {
+      "factor_id": "land_subdivision_heirs",
+      "factor": "Land subdivision among heirs reducing farm viability",
+      "severity": 4,
+      "description": "Partible inheritance — dividing land among all sons (and sometimes daughters) — was the standard practice in the Upper South. A 200-acre farm granted to a Revolutionary War veteran became four 50-acre parcels by the second generation and sixteen 12-acre fragments by the third. Below 50 acres in the Piedmont, a family could not produce both subsistence and a cash crop. Below 25 acres, outright subsistence was marginal. The arithmetic was relentless: each generation's subdivision pushed more descendants below the threshold of viability. Some families resisted through primogeniture (leaving the home place to one heir who bought out siblings), strategic marriages that consolidated holdings, or migration of surplus sons to new land. But the pressure was constant and cumulative.",
+      "date_range": "1790-1860",
+      "regional_scope": ["NC", "VA", "SC", "GA", "TN", "KY"],
+      "narrative_hook": "The {property_acres} acres that {ancestor_parent} farmed in {county} were divided among {number} heirs. The arithmetic was brutal: each child's share was not enough to support a family, and the only solutions were for some children to buy out others, for some to leave, or for all of them to accept poverty. This is the math that drove antebellum migration from the Upper South."
+    },
+    {
+      "factor_id": "soil_exhaustion_continuous",
+      "factor": "Soil exhaustion from continuous cultivation without rotation",
+      "severity": 3,
+      "description": "The thin, acidic soils of the Piedmont and Upper South were never suited to continuous single-crop cultivation, but that is exactly what generations of tobacco, cotton, and corn farmers demanded of them. Tobacco was the worst offender — it stripped nitrogen and potassium rapidly and left fields unfit for further cultivation within a decade. Cotton and corn were only slightly less destructive. Scientific crop rotation, cover cropping, and fertilization techniques existed by the 1830s (promoted by Edmund Ruffin and agricultural reformers), but most yeoman farmers lacked the capital, the knowledge, or the spare acreage to implement them. The result was a steady decline in yields that made each generation's inheritance worth less than the last.",
+      "date_range": "1800-1860",
+      "regional_scope": ["NC", "VA", "SC", "GA", "TN", "KY"],
+      "narrative_hook": "The land in {county} had been growing {crop} since {ancestor_name}'s grandfather cleared it, and the soil was telling. Yields declined year by year — a farm that produced {bushels_high} bushels per acre in 1800 might manage {bushels_low} by 1840. The agricultural reformers said to rotate crops and rest fields, but that advice assumed spare acreage that a 60-acre farm did not have."
+    },
+    {
+      "factor_id": "panic_1837",
+      "factor": "Panic of 1837 and subsequent economic collapse",
+      "severity": 3,
+      "description": "The Panic of 1837 triggered a depression that lasted into the mid-1840s across the South. Cotton prices fell by half. Banks suspended specie payments. The credit system that yeoman families depended on — buying supplies on account at the general store, settling after harvest — contracted sharply. Foreclosures increased. Families that had leveraged land purchases with bank credit lost their farms. Even families without debt suffered from depressed commodity prices that made their crops worth less than the labor of growing them. The Panic accelerated out-migration from the Upper South to fresh land in Texas, Arkansas, and the Ozarks.",
+      "date_range": "1837-1845",
+      "regional_scope": ["NC", "VA", "SC", "GA", "TN", "KY"],
+      "narrative_hook": "When cotton prices collapsed in 1837, the shock reached {county} through the general store ledger. {ancestor_name}'s crop was worth half what it had been the year before, but the debt on the books did not shrink to match."
+    },
+    {
+      "factor_id": "crop_lien_origins",
+      "factor": "Origins of the crop lien system binding families to debt",
+      "severity": 2,
+      "description": "The crop lien system — by which a farmer pledged the next season's crop as collateral for supplies purchased on credit — developed in the antebellum period and became the dominant economic structure of the postbellum South. For yeoman families, the crop lien meant perpetual indebtedness: a bad harvest left the debt unpaid and rolling into the next year, with interest. The general store that extended credit also set the prices for both the supplies purchased and the crop accepted in payment, creating a structural disadvantage that kept families in debt. The crop lien system was not yet as formalized as it would become after the Civil War, but its roots were firmly planted in the antebellum credit economy.",
+      "date_range": "1830-1860",
+      "regional_scope": ["NC", "VA", "SC", "GA", "TN", "KY"],
+      "narrative_hook": "The ledger at the general store told a story that no deed book recorded: {ancestor_name}'s family bought on credit from March to October and settled — or tried to settle — after harvest. In a good year, the account balanced. In a bad year, the debt carried over, and the storekeeper's lien on the next crop tightened."
+    },
+    {
+      "factor_id": "planter_squeeze",
+      "factor": "Planter class economic consolidation squeezing yeoman families",
+      "severity": 3,
+      "description": "The planter class — slaveholders with large acreage and enslaved labor forces — consolidated economic and political power throughout the antebellum period. Planters could produce cash crops at lower per-unit costs using enslaved labor, setting market prices that yeoman families working their own land could not match. Planters purchased the best available land, dominated county politics and court systems, and controlled access to markets and credit. Yeoman families were not systematically oppressed — many maintained cordial relations with planter neighbors — but the structural economic advantage of plantation agriculture slowly marginalized the yeoman economy. By the 1850s, wealth inequality in the South was extreme, with the top 5% of families controlling a disproportionate share of land and slaves.",
+      "date_range": "1820-1860",
+      "regional_scope": ["NC", "VA", "SC", "GA", "TN", "KY"],
+      "narrative_hook": "The planter down the road from {ancestor_name} in {county} could grow cotton cheaper with thirty enslaved workers than {ancestor_name} could grow it with family labor alone. It was not a contest. The arithmetic of slavery did not just exploit the enslaved — it squeezed the economic margins of every white family that competed without it."
+    }
+  ],
+  "pull_factors": [
+    {
+      "factor_id": "cheap_western_land",
+      "factor": "Cheap land in the Southwest and Midwest territories",
+      "severity": 4,
+      "description": "Federal land policy made western land astonishingly cheap. The Land Act of 1820 set the price at $1.25 per acre with no credit (a response to the speculation that contributed to the Panic of 1819). Preemption rights allowed squatters to purchase land they had already settled at the minimum price. For a yeoman family on 50 acres of exhausted Piedmont soil, the prospect of 160 acres of fresh land in Alabama, Mississippi, Texas, or the Midwest was transformative. The price difference was dramatic: Piedmont land might be valued at $5-15 per acre (but hard to sell in a depopulating area), while western land cost $1.25 per acre and was fertile.",
+      "date_range": "1820-1860",
+      "regional_scope": ["AL", "MS", "TX", "AR", "MO", "IN", "IL"],
+      "narrative_hook": "At $1.25 an acre, the federal land in {destination_state} cost less than a single acre of the worn-out {county} farm was theoretically worth — though finding a buyer for Piedmont land at any price was its own challenge. The math of migration was simple even if the decision was not."
+    },
+    {
+      "factor_id": "family_already_migrated",
+      "factor": "Family members who had already migrated providing a destination",
+      "severity": 3,
+      "description": "Chain migration was the dominant pattern. A brother or cousin who had already moved to Alabama, Mississippi, or Texas wrote letters describing conditions, offered temporary housing, and identified available land. Families rarely migrated into the unknown — they migrated to kin. The existing family member in the destination provided the information, the social support, and the psychological permission that turned an abstract possibility into a concrete plan. This pattern is documented in surviving family letters and in the geographic clustering of surname groups in destination counties.",
+      "date_range": "1800-1860",
+      "regional_scope": ["AL", "MS", "TX", "AR", "MO", "IN", "IL"],
+      "narrative_hook": "The letter from {contact_name} in {destination_county}, {destination_state} described {acres} acres of bottom land and a {crop} crop that would have been impossible on the clay hills of {origin_county}. When {ancestor_name} finally made the move, {pronoun_subject} was not heading into the unknown — {pronoun_subject} was heading to kin."
+    },
+    {
+      "factor_id": "railroad_town_opportunities",
+      "factor": "Railroad construction creating new towns and economic opportunities",
+      "severity": 2,
+      "description": "The railroad reached the Piedmont and Upper South by the 1850s — the North Carolina Railroad (Goldsboro to Charlotte, completed 1856), the Virginia and Tennessee Railroad, and branches into Kentucky and Tennessee. Railroad construction created new towns at depot sites, generated wage labor for construction crews, and opened access to distant markets. For yeoman families near a rail line, the railroad offered new economic possibilities: selling agricultural products in distant markets, working for wages in railroad construction or depot operations, or relocating to a railroad town to take up a trade. The railroad was both a pull factor (new opportunities) and a facilitator of migration (cheaper, faster travel).",
+      "date_range": "1850-1860",
+      "regional_scope": ["NC", "VA", "TN", "KY", "GA", "SC"],
+      "narrative_hook": "When the railroad came through {county} in the 1850s, it changed the calculus for families like {ancestor_name}'s. A depot town meant wage work, access to markets, and the possibility of a life that did not depend entirely on what the soil would yield."
+    },
+    {
+      "factor_id": "cotton_frontier_promise",
+      "factor": "The cotton frontier promising prosperity through cash crop agriculture",
+      "severity": 3,
+      "description": "Cotton was the most valuable commodity in the antebellum American economy, and the fresh soils of Alabama, Mississippi, Louisiana, and Texas could produce it in quantities that exhausted Piedmont fields could not match. Yeoman families who migrated to the cotton frontier hoped to establish themselves as small cotton producers before the planter class arrived and bid up land prices. Some succeeded — particularly in the 1820s and 1830s before the best lands were taken. Others found that the same structural disadvantages (competition with slave-labor plantations, dependence on credit, vulnerability to price fluctuations) followed them to the new land. The promise of the cotton frontier was real but often temporary.",
+      "date_range": "1815-1860",
+      "regional_scope": ["AL", "MS", "LA", "TX", "AR"],
+      "narrative_hook": "The cotton frontier drew families like {ancestor_name}'s with a simple promise: fresh soil, high yields, and cash money for a crop that the world wanted to buy. What the promise did not mention was that yeoman families competing with plantation labor were running the same race they had already been losing in {origin_county}."
+    }
+  ],
+  "transportation": {
+    "primary_mode": "Wagon and foot for overland migration; flatboat for river-based moves; railroad by the 1850s for some routes",
+    "route_refs": ["great_wagon_road", "mississippi_steamboat"],
+    "what_they_carried": "Farm tools (plow, axe, hoe), iron cookware, bedding, seeds, livestock driven on foot alongside the wagon, family Bible, spinning wheel if space permitted, modest cash from the sale of the old farm (if they could find a buyer). Families with means loaded a single wagon; poorer families packed what they could on a horse and walked.",
+    "what_they_left_behind": "The family farm (sold, if possible, at deflated prices in a depopulating area), the family cemetery, the church congregation, the kin network, the general store where their credit was known, and the community standing built over generations. For families migrating from the Upper South, the departure was understood as likely permanent — the distance was too great and the cost of travel too high for return visits.",
+    "cost_of_travel": "Overland migration by wagon: relatively low in direct cost but extremely high in opportunity cost — the journey took weeks to months during which no crops were being tended. Wagon and team cost $100-300 if not already owned. Flatboat travel down the Ohio or Tennessee Rivers: $5-20 per family. By the 1850s, railroad travel was available for some routes at $10-30 per adult.",
+    "seasonal_departure_pattern": "Fall departures after harvest were most common — the crop was sold (paying off debts if possible), the wagon loaded, and the journey begun before winter. Spring departures allowed arrival in time to plant a first crop at the destination. Summer travel was avoided due to heat, insects, and disease risk along river routes."
+  },
+  "origin_counties": [
+    "Sampson NC",
+    "Nash NC",
+    "Cumberland NC",
+    "Chatham NC",
+    "Randolph NC",
+    "Guilford NC",
+    "Orange NC",
+    "Rowan NC",
+    "Halifax VA",
+    "Pittsylvania VA",
+    "Bedford VA",
+    "Campbell VA",
+    "Greenville SC",
+    "Spartanburg SC",
+    "Elbert GA",
+    "Franklin GA",
+    "Lincoln KY",
+    "Madison KY",
+    "Sumner TN",
+    "Williamson TN"
+  ],
+  "counties_most_affected": [
+    "Sampson NC",
+    "Nash NC",
+    "Cumberland NC",
+    "Chatham NC",
+    "Randolph NC",
+    "Orange NC",
+    "Halifax VA",
+    "Pittsylvania VA",
+    "Greenville SC",
+    "Spartanburg SC",
+    "Elbert GA",
+    "Lincoln KY",
+    "Sumner TN"
+  ],
+  "destination_refs": [
+    {
+      "destination_id": "north_alabama",
+      "name": "North Alabama — Madison, Limestone, Lawrence Counties",
+      "nickname": null,
+      "peak_years": "1815-1840",
+      "description": "North Alabama received a massive influx of Upper South yeoman families after the Creek War (1813-1814) opened the territory to white settlement. The Tennessee Valley offered rich alluvial soil and relatively cheap land. Yeoman families from NC, VA, SC, and TN were among the earliest settlers, arriving before the planter class consolidated control of the best cotton lands."
+    },
+    {
+      "destination_id": "north_mississippi",
+      "name": "North Mississippi — Pontotoc, Lafayette, Marshall Counties",
+      "nickname": null,
+      "peak_years": "1836-1850",
+      "description": "The Treaty of Pontotoc (1832) opened Chickasaw lands in north Mississippi to white settlement. Upper South yeoman families arrived in large numbers in the late 1830s and 1840s, competing with planters for the best land. The rolling hill country of north Mississippi was geographically similar to the Piedmont the settlers had left."
+    },
+    {
+      "destination_id": "east_texas",
+      "name": "East Texas — Nacogdoches, Smith, Rusk Counties",
+      "nickname": null,
+      "peak_years": "1836-1860",
+      "description": "Texas independence (1836) and annexation (1845) opened vast lands to settlement from the Upper South. East Texas attracted yeoman families from NC, TN, and AL who sought fresh land and freedom from the economic structures of the older South. The journey was long and arduous, but Texas land was abundant and cheap."
+    },
+    {
+      "destination_id": "southern_midwest",
+      "name": "Southern Indiana and Illinois — Washington, Orange, Jackson Counties IN; Gallatin, White Counties IL",
+      "nickname": "Upland South Midwest",
+      "peak_years": "1800-1840",
+      "description": "Southern Indiana and Illinois received heavy migration from the Upper South, particularly VA, NC, KY, and TN. These settlers brought Southern agricultural practices, settlement patterns, and cultural traditions into free-state territory. The southern thirds of Indiana and Illinois were culturally Upper South for much of the antebellum period."
+    }
+  ],
+  "chain_migration": {
+    "pattern": "kin_network",
+    "description": "Antebellum yeoman migration followed kin networks almost exclusively. A brother or cousin moved first, established a foothold, and wrote back with information about land availability, soil quality, and community formation. Subsequent family members migrated to the same destination county, often settling on adjacent tracts. The result was the reproduction of the origin community in the destination: the same surnames, the same church denomination, and often the same marriage patterns appeared in the new county within a decade. Deed records in destination counties frequently show clusters of surnames from a single origin county.",
+    "gender_pattern": "Migration decisions were driven by male economic calculation but executed as family units. Wives who opposed migration — and many did — had limited legal power to prevent it. Joan Cashin's research documents the gendered conflict within migration decisions: men were more willing to leave kin networks, while women were more attached to the support systems of the origin community. Widows with dependent children were the least mobile segment of the population.",
+    "narrative_hook": "When {ancestor_name} moved from {origin_county} to {destination_county}, {pronoun_subject} was not pioneering — {pronoun_subject} was following. The {allied_family} family had gone the year before, and the letter that came back described available land adjoining their claim. Within five years, half the families from the {origin_county} neighborhood had reassembled in {destination_county}."
+  },
+  "what_happened_to_those_who_stayed": "Families that did not migrate faced the continued pressure of subdivision, soil exhaustion, and economic marginalization. Many adapted by diversifying — adding trades, shifting to livestock, or working part-time for wages. Some families that stayed through the antebellum period ultimately migrated after the Civil War destroyed what remained of the old economy. Others became the permanent core of their communities, consolidating land from departed neighbors and emerging as local leaders by default. The stayed_and_adapted trigger covers this population in detail. By the late antebellum period, the Upper South counties most affected by out-migration showed declining population, abandoned farms, and a tax base that could not support basic county services.",
+  "record_implications": {
+    "key_record_types": [
+      "Deed records — both at origin (sales) and destination (purchases), documenting the land transaction chain of migration",
+      "Tax lists — showing the family's appearance and disappearance from county tax rolls, and relative economic position",
+      "Federal census records (1790-1860) — tracking families across state lines through name, age, and birthplace data",
+      "Agricultural census schedules (1850, 1860) — documenting crop production, livestock, and farm value in extraordinary detail",
+      "County court records — deed registration, will probate, estate administration, guardianship appointments, road and bridge petitions",
+      "Militia rolls — all adult white males were required to muster; rolls document presence in a county and approximate age",
+      "County formation records — new counties were carved from existing ones as population shifted; the political geography itself documents migration patterns",
+      "Church minutes and membership rolls — particularly Baptist churches, which kept detailed records of members received, dismissed, and disciplined",
+      "General store ledgers (where they survive) — documenting the credit economy that tied yeoman families to place",
+      "Family letters — the single most valuable source for understanding migration decisions, when they survive"
+    ],
+    "common_pitfalls": [
+      "County boundaries changed constantly in this period — a family that appears to move between counties may have stayed on the same land while a new county was created around them. Always check county formation dates.",
+      "The 1790-1840 census records list only the head of household with tick marks for other household members by age and sex — tracing individuals before 1850 requires supplementary records",
+      "Tax list gaps do not always mean absence — tax lists were compiled irregularly in some counties, and survival is spotty",
+      "Assuming all Southern migration was slaveholder-driven — yeoman families without enslaved labor were the majority of migrants, but their moves generated fewer records than planter relocations",
+      "Missing the connection between origin and destination counties — look for surname clusters in destination county deeds that match origin county families",
+      "Confusing the crop lien system (antebellum origins) with sharecropping (postbellum) — they are related but distinct economic arrangements"
+    ],
+    "narrative_hook": "Tracing {ancestor_name} through the antebellum Upper South requires stitching together fragments: a deed in {origin_county}, a disappearance from the tax list, a reappearance in the {year} census in {destination_county} with the same neighbors from back home. The migration itself was unrecorded — no passenger list, no immigration file — but the before and after are in the county records, and the pattern of kin-group migration means the family rarely traveled alone."
+  },
+  "counter_narratives": [
+    {
+      "counter_id": "not_all_yeomen_poor",
+      "claim": "Yeoman farmers in the antebellum South were uniformly poor and uneducated.",
+      "reality": "Yeoman families occupied a broad economic spectrum. Some held 200+ acres, owned one or two enslaved people, and lived comfortably by the standards of the day. Others farmed 50 acres of marginal soil and struggled for subsistence. Frank Owsley's 'Plain Folk of the Old South' documented the diversity of the yeoman class, though his work has been criticized for romanticizing their condition. Census wealth data (available from 1850) reveals the range: some yeoman families reported $1,000-5,000 in real estate, while others reported nothing. Literacy rates among yeoman whites were 70-80% for men — substantially higher than the illiterate-hillbilly stereotype suggests. The yeoman class was not a monolith of poverty.",
+      "narrative_hook": "The {year} census valued {ancestor_name}'s real estate at ${value} — not planter wealth, but not poverty either. The yeoman class was broad enough to include families comfortable by any rural standard alongside families barely surviving on worn-out land."
+    },
+    {
+      "counter_id": "yeoman_independence_myth",
+      "claim": "Yeoman farmers were self-sufficient and independent of the market economy.",
+      "reality": "The ideal of yeoman self-sufficiency was always partially a myth. Even in the early antebellum period, yeoman families depended on the general store for items they could not produce: salt, iron tools, coffee, sugar, medicine, and increasingly cloth and manufactured goods. The general store operated on credit, tying families to the cash economy through the crop lien system. By the 1840s-1850s, the market revolution had penetrated deeply into the yeoman economy — families that once spun their own thread now purchased factory cloth, and families that once distilled their own corn now sold it to commercial buyers. The transition from self-sufficiency to market dependence was gradual but relentless, and it increased yeoman vulnerability to price fluctuations and economic panics.",
+      "narrative_hook": "The general store ledger in {county} — if it survived — would show that {ancestor_name}'s family was not the self-sufficient yeoman of mythology. They bought coffee, salt, iron, cloth, and medicine on credit, and they paid for it with whatever the farm produced. Self-sufficiency was an ideal; the store account was the reality."
+    }
+  ],
+  "material_life_refs": ["antebellum_yeoman_farm_1820_1860"],
+  "source_references": [
+    {
+      "source_id": "hahn_1983",
+      "author": "Steven Hahn",
+      "title": "The Roots of Southern Populism: Yeoman Farmers and the Transformation of the Georgia Upcountry, 1850-1890",
+      "year": 1983,
+      "publisher": "Oxford University Press",
+      "description": "The foundational study of yeoman economic transformation in the antebellum and postbellum South. Hahn documents the shift from subsistence-plus-surplus agriculture to market dependency, the role of the general store in creating debt relationships, and the political consequences of yeoman economic decline. Essential for understanding the economic pressures that drove migration decisions."
+    },
+    {
+      "source_id": "bolton_1994",
+      "author": "Charles C. Bolton",
+      "title": "Poor Whites of the Antebellum South: Tenants and Laborers in Central North Carolina and Northeast Mississippi",
+      "year": 1994,
+      "publisher": "Duke University Press",
+      "description": "Study of the lower end of the white Southern economic spectrum — the tenants and laborers below the yeoman class. Bolton documents the material conditions, economic constraints, and limited mobility of the rural white poor, providing essential context for understanding which families migrated and which could not."
+    },
+    {
+      "source_id": "mccurry_1995",
+      "author": "Stephanie McCurry",
+      "title": "Masters of Small Worlds: Yeoman Households, Gender Relations, and the Political Culture of the Antebellum South Carolina Low Country",
+      "year": 1995,
+      "publisher": "Oxford University Press",
+      "description": "Study of yeoman household structure, gender dynamics, and political consciousness in antebellum South Carolina. McCurry demonstrates that yeoman families defined their identity through land ownership and household mastery, and that this identity shaped both their economic decisions and their political allegiances."
+    },
+    {
+      "source_id": "owsley_1949",
+      "author": "Frank Lawrence Owsley",
+      "title": "Plain Folk of the Old South",
+      "year": 1949,
+      "publisher": "Louisiana State University Press",
+      "description": "The classic (and controversial) study of the non-slaveholding Southern white majority. Owsley used tax records, census data, and deed records to argue that yeoman farmers were a prosperous, independent class. His conclusions have been challenged by subsequent scholars, but his data and methods remain valuable. Essential baseline for understanding the yeoman class."
+    }
+  ]
+}

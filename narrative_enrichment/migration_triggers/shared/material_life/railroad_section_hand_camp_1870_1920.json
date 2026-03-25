@@ -1,0 +1,209 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-18",
+  "_purpose": "Material life profile for railroad section hand camps along American mainlines, 1870-1920. Describes the physical reality of daily existence for the small gangs of track maintenance workers — Irish, Chinese, Italian, Mexican, Black, and native-born white — who lived in company-provided housing spaced every 6-10 miles along the railroad and maintained the track that held the national economy together.",
+  "material_life_id": "railroad_section_hand_camp_1870_1920",
+  "display_name": "Railroad Section Hand Camp Life, 1870-1920",
+  "era": "1870-1920",
+  "region": "Nationwide along railroad mainlines — Great Plains, Mountain West, Midwest, South. Section camps were spaced every 6-10 miles along the track, positioned at the midpoint of the section each gang maintained. The landscape varied from the treeless plains of the Dakotas to the pine flats of the Southern coastal plain, but the camp itself looked much the same everywhere: a small frame building beside the tracks, a bunkhouse, a tool shed, a water barrel, and nothing else visible to the horizon.",
+  "population": "Railroad section hands (track maintenance workers) and their families. Irish, Chinese, Italian, Mexican, Black, and native-born white workers depending on era and region. Section gangs of 4-8 men maintained a designated section of track — replacing ties, tamping ballast, clearing snow, repairing washouts, and keeping the right-of-way clear. Often the most isolated workers in America — living in small camps visible only from the train, miles from the nearest town, dependent on the railroad company for housing, supplies, and every connection to the outside world.",
+  "economic_position": {
+    "positions": ["section_hand", "section_foreman", "extra_gang_laborer"],
+    "default_position": "section_hand",
+    "position_guidance": {
+      "section_hand": "Default framing. The ancestor worked as a regular section hand — one of 4-8 men assigned to maintain a specific stretch of track. Pay ranged from $1-1.50 per day in the 1870s-1880s to $1.50-2.00 by 1910, with company-provided housing deducted from wages. Work was physically punishing — lifting ties, driving spikes, tamping ballast — in all weather. The section hand appears in railroad employment records, census records (listed at the section camp address), and occasionally in county records if the camp fell within a town's jurisdiction.",
+      "section_foreman": "Adjust upward. The section foreman supervised the gang, kept records, inspected the track, and reported to the roadmaster. He earned $40-60 per month — more than the hands — and occupied the section house with his family while the hands lived in the bunkhouse. The foreman's wife often cooked for the gang, earning extra pay. The foreman appears in railroad company records, city directories (if near a town), and census records as head of household at the section camp. He was the ranking authority for miles in every direction.",
+      "extra_gang_laborer": "Adjust downward. Extra gang laborers were seasonal or temporary workers hired for large-scale track work — laying new rail, rebuilding after washouts, clearing snow. They were paid less than regular section hands, housed in railroad bunk cars or tent camps, and had no permanent assignment. They moved with the work and often do not appear in census records at all. Extra gang work was the entry point for new railroad workers and the fallback for men who could not hold a regular section assignment."
+    },
+    "narrative_hooks": {
+      "section_hand": "{ancestor_name} maintained Section {section_number} of the {railroad_name} — six miles of track, every tie, every spike, every rail joint inspected and repaired by a gang of {gang_size} men living in a frame house beside the mainline, miles from the nearest town.",
+      "section_foreman": "As section foreman on the {railroad_name}, {ancestor_name} was responsible for {section_miles} miles of mainline track and the {gang_size} men who maintained it — the highest authority for miles in any direction, answering to a roadmaster who passed through once a month and a timetable that passed through twice a day.",
+      "extra_gang_laborer": "{ancestor_name} worked the extra gang on the {railroad_name} — seasonal labor, moving from job to job in bunk cars, laying rail or clearing washouts wherever the railroad needed hands and asking no questions about how long the work would last."
+    }
+  },
+  "trigger_refs": [
+    "railroad_construction"
+  ],
+  "sections": {
+    "housing": {
+      "narrative": "The railroad provided housing — and the word 'provided' carried all the ambiguity that a company town could muster. The section house was a small frame building, three or four rooms, built to a standard company plan and maintained just well enough to remain standing. The foreman and his family lived in the section house; single section hands slept in a bunkhouse nearby — a frame or boxcar structure with wooden bunks, a stove, and no privacy. The buildings belonged to the railroad, stood on railroad right-of-way, and could be taken back when the company reassigned the gang. A section hand's home was never his own.",
+      "details": [
+        {
+          "item": "The section house",
+          "description": "A standard section house was a one-story frame building of 3-4 rooms — kitchen, sitting room, and one or two bedrooms — built by the railroad's engineering department to a standard plan used across the entire system. The Northern Pacific, the Great Northern, the Santa Fe, and the Southern Pacific all built section houses from company blueprints. Construction was minimal — pine boards, tar-paper roof, no insulation, no foundation beyond wooden posts or stone piers. The section foreman's family occupied the house; the railroad deducted $5-10 per month from the foreman's pay for rent.",
+          "source": "Ducker, James H. 'Men of the Steel Rails: Workers on the Atchison, Topeka and Santa Fe Railroad, 1869-1900.' University of Nebraska Press, 1983."
+        },
+        {
+          "item": "The bunkhouse",
+          "description": "Single section hands slept in a bunkhouse — a separate frame structure or, on many western railroads, a converted boxcar set on a siding. Wooden bunks lined the walls, two or three high. A pot-bellied stove provided heat. Light came from kerosene lamps. There was no running water, no plumbing, no ventilation beyond the door and a single window. In summer the bunkhouse was stifling; in winter on the northern plains, ice formed on the interior walls. Bedding was the worker's own — a blanket roll or a straw-filled tick purchased from the railroad commissary.",
+          "source": "Licht, Walter. 'Working for the Railroad: The Organization of Work in the Nineteenth Century.' Princeton University Press, 1983."
+        },
+        {
+          "item": "Isolation",
+          "description": "The defining characteristic of section camp life was isolation. Camps were sited at the midpoint of each six-to-ten-mile section, often miles from any settlement. On the Great Plains, the section house might be the only structure visible in any direction. In the mountain West, camps sat in narrow canyons accessible only by the track itself. The foreman's wife might not see another woman for weeks. Children, if there were any, attended school in the nearest town — if one existed and if they could get there. The railroad track was simultaneously the camp's lifeline and its prison: everything arrived by rail, and everything departed by rail.",
+          "source": "Grant, H. Roger. 'The Railroad: The Life Story of a Technology.' Greenwood Press, 2005."
+        }
+      ]
+    },
+    "food_and_cooking": {
+      "narrative": "The foreman's wife cooked for the section gang — a daily labor of feeding five to ten men on supplies that arrived by freight train and a kitchen garden that struggled against whatever the local climate would allow. The railroad paid her a small supplement, or the hands paid directly — $10-15 per month per man for room and board. Meals were heavy, plain, and shaped by what the railroad commissary stocked: beans, salt pork, potatoes, flour, coffee, canned goods. Fresh meat came from the occasional hunting of prairie chickens or rabbits along the right-of-way. Fresh vegetables came from the kitchen garden if the soil and season cooperated. There was no refrigeration; everything was canned, dried, salted, or eaten immediately.",
+      "details": [
+        {
+          "item": "The foreman's wife as cook",
+          "description": "On most American railroads, the section foreman's wife cooked for the entire gang. This was not a formal company requirement but an economic arrangement — the railroad paid her $5-10 per month extra, or the hands paid her directly. She prepared two full meals a day — breakfast before dawn and supper after the day's work — and packed midday dinner pails for the men to carry on the handcar. Cooking for six to ten men on a wood-burning stove in a kitchen the size of a closet was exhausting labor. The woman who cooked for a section gang worked as hard as her husband on the track.",
+          "source": "Ducker, James H. 'Men of the Steel Rails: Workers on the Atchison, Topeka and Santa Fe Railroad, 1869-1900.' University of Nebraska Press, 1983."
+        },
+        {
+          "item": "Railroad commissary supplies",
+          "description": "The section foreman ordered supplies from the railroad commissary — a company-run wholesale operation that shipped goods to section camps along the line. Staples included flour, beans, salt pork, bacon, coffee, sugar, lard, canned tomatoes, canned corn, and dried fruit. Prices were deducted from the foreman's pay. The commissary was convenient but not cheap — captive customers paid captive prices. Fresh produce was rare; fresh meat rarer still. On western railroads, antelope, jackrabbit, and prairie chicken supplemented the company larder when the men had time and ammunition to hunt.",
+          "source": "Licht, Walter. 'Working for the Railroad: The Organization of Work in the Nineteenth Century.' Princeton University Press, 1983."
+        },
+        {
+          "item": "Kitchen gardens and foraging",
+          "description": "The foreman's wife planted a kitchen garden beside the section house — potatoes, beans, squash, onions, whatever the soil and climate would support. On the northern plains, the growing season was brutally short; in the arid West, water was the limiting factor. Some section families kept chickens for eggs. Along southern railroads, fishing in nearby streams and gathering wild greens supplemented the diet. The garden was a small act of domesticity in a landscape that offered little encouragement to permanent settlement.",
+          "source": "Grant, H. Roger. 'The Railroad: The Life Story of a Technology.' Greenwood Press, 2005."
+        }
+      ]
+    },
+    "clothing": {
+      "narrative": "Section hands wore work clothes designed to survive the track — heavy boots, denim or canvas trousers, flannel shirts, and gloves thick enough to handle creosoted ties and steel rail without losing skin. The railroad provided some clothing or sold it through the commissary at cost; the rest was purchased from mail-order catalogs or on rare trips to the nearest town. Sunday clothes, if a man owned any, stayed in the trunk. There was no occasion to wear them. The foreman dressed slightly better — he might own a suit for trips to the division office — but on the track, everyone dressed the same.",
+      "details": [
+        {
+          "item": "Work clothes and boots",
+          "description": "A section hand's daily uniform was heavy denim overalls or canvas trousers, a flannel shirt, a slouch hat or cap, and thick-soled leather boots. Gloves were essential — handling creosoted ties, iron spikes, and steel rail without gloves meant blisters, splinters, and chemical burns from the creosote. In winter on the northern plains, men added wool underclothes, a heavy coat, and felt-lined boots. Clothing wore out rapidly under the demands of track work — a pair of trousers might last two months, boots four to six months.",
+          "source": "Ducker, James H. 'Men of the Steel Rails: Workers on the Atchison, Topeka and Santa Fe Railroad, 1869-1900.' University of Nebraska Press, 1983."
+        },
+        {
+          "item": "Railroad commissary and mail-order clothing",
+          "description": "The railroad commissary stocked basic work clothing — overalls, shirts, boots, gloves — at prices deducted from wages. After the 1880s, the Sears, Roebuck and Montgomery Ward catalogs offered an alternative: a pair of overalls for 50-75 cents, a work shirt for 25-50 cents, boots for $1.50-3.00, delivered by the same railroad the section hand maintained. The catalog was the section hand's department store — ordered by mail, delivered by freight, and worn until it fell apart.",
+          "source": "Licht, Walter. 'Working for the Railroad: The Organization of Work in the Nineteenth Century.' Princeton University Press, 1983."
+        },
+        {
+          "item": "Ethnic and regional variations",
+          "description": "Clothing reflected the ethnic composition of the section gang. Chinese section hands on the Central Pacific and Southern Pacific wore loose cotton trousers and broad-brimmed hats adapted from their homeland. Mexican section hands on the Santa Fe and Southern Pacific wore the wide sombrero and cotton work clothes of the border region. Irish and native-born white workers dressed in the standard American work uniform of overalls and flannel. By 1900, these distinctions were fading as the railroad commissary and the mail-order catalog standardized working-class dress across the continent.",
+          "source": "Kornweibel, Theodore Jr. 'Railroads in the African American Experience: A Photographic Journey.' Johns Hopkins University Press, 2010."
+        }
+      ]
+    },
+    "hygiene_and_health": {
+      "narrative": "There was no medical care at a section camp. The nearest doctor was in the nearest town — which might be ten miles away, reachable only by handcar or by flagging a passing train. Injuries were common and often serious: crush injuries from handling rail, back injuries from lifting ties, heat stroke in summer, frostbite in winter, hernias from the constant heavy labor. The railroad operated company hospitals in division-point towns, but a section hand with a broken arm at a camp between stations relied on the foreman's wife to set it, or waited for the next train that could carry him to town. Mortality and injury rates among track workers were among the highest in American industry.",
+      "details": [
+        {
+          "item": "Track work injuries",
+          "description": "Track maintenance was among the most dangerous occupations in America. A standard rail weighed 60-90 pounds per yard; a crosstie weighed 150-200 pounds. Section hands lifted, carried, and positioned these by hand using tongs, bars, and sheer muscle. Crush injuries from dropped rail, smashed fingers and hands from spike mauls, back injuries from lifting ties, and hernias were routine. More dramatic accidents — derailments that caught section gangs on the track, handcar collisions with trains, falls from trestles — killed section workers at rates that the railroad industry tracked but rarely publicized.",
+          "source": "Licht, Walter. 'Working for the Railroad: The Organization of Work in the Nineteenth Century.' Princeton University Press, 1983."
+        },
+        {
+          "item": "No medical care at the camp",
+          "description": "Section camps had no medical facilities and no trained medical personnel. The foreman's wife served as the camp's only health provider — bandaging cuts, treating burns, applying home remedies for illness. Serious injuries required transportation to the nearest town by handcar or by flagging a freight train. Railroad company hospitals existed at division points — typically every 100-150 miles — where a surgeon treated injured workers. The cost of hospital care was deducted from the worker's wages. A section hand too badly injured to work was dismissed with no compensation; workers' compensation laws did not cover railroad employees until the Federal Employers' Liability Act of 1908.",
+          "source": "Ducker, James H. 'Men of the Steel Rails: Workers on the Atchison, Topeka and Santa Fe Railroad, 1869-1900.' University of Nebraska Press, 1983."
+        },
+        {
+          "item": "Water and sanitation",
+          "description": "Water at section camps came from railroad water tanks (built to supply steam locomotives), wells dug near the camp, or nearby streams. Water quality was unpredictable — alkaline water on the plains, contaminated water near stock pens. Sanitation was an outhouse behind the section house. Bathing was a weekly event at best — a galvanized tub filled with water heated on the stove. On the northern plains in winter, the water in the wash basin froze overnight. Disease — typhoid, dysentery, malaria in southern regions — passed through section camps with the regularity of freight trains.",
+          "source": "Grant, H. Roger. 'The Railroad: The Life Story of a Technology.' Greenwood Press, 2005."
+        }
+      ]
+    },
+    "transportation": {
+      "narrative": "The handcar was the section hand's daily vehicle — a pump-operated platform on rail wheels that carried the gang to and from the day's work on their section of track. It was powered by muscle: two men pumping the handles in alternating strokes, propelling the car at 8-12 miles per hour. The handcar had to be removed from the track whenever a train was due — failure to clear the main meant death. Beyond the handcar, the section hand's only transportation was walking. Trains stopped at section camps only by flag — a signal from the foreman to the engineer requesting an unscheduled stop. The nearest town might as well have been a hundred miles away for a man with no horse and no road.",
+      "details": [
+        {
+          "item": "The handcar",
+          "description": "A standard railroad handcar weighed 300-500 pounds and carried 4-8 men plus tools. Two men pumped the seesaw handles while the others rode. Speed ranged from 8-12 miles per hour on level track. The handcar was used daily to travel from the section house to the day's work site and back. It was also used for track inspection — the foreman rode the section after storms, looking for washouts, broken rail, or obstructions. The most dangerous aspect of handcar operation was clearing the main for approaching trains. The handcar had to be lifted off the track and set beside the right-of-way, then replaced after the train passed. Misjudging a train's arrival time was fatal.",
+          "source": "Ducker, James H. 'Men of the Steel Rails: Workers on the Atchison, Topeka and Santa Fe Railroad, 1869-1900.' University of Nebraska Press, 1983."
+        },
+        {
+          "item": "Flagging trains",
+          "description": "Section camps were not scheduled stops. To board a train — for medical emergencies, supply trips, or personal travel — the foreman had to flag it: standing beside the track and waving a red flag (daytime) or a red lantern (night) to signal the engineer to make an unscheduled stop. Freight trains would stop for section foremen; passenger trains were less obliging. The flag stop was the section camp's only connection to the world beyond the right-of-way, and the decision to flag a train was not taken lightly — it delayed the railroad's schedule and drew attention from the division superintendent.",
+          "source": "Licht, Walter. 'Working for the Railroad: The Organization of Work in the Nineteenth Century.' Princeton University Press, 1983."
+        },
+        {
+          "item": "No roads, no horses",
+          "description": "Section camps were built on railroad right-of-way, not on public roads. In the open prairie of the Dakotas, Montana, and Nebraska, no road ran within miles of many section camps. In mountainous terrain, the camp might sit in a canyon accessible only by rail. Section hands did not own horses — they were not paid enough, and there was nowhere to stable one. Walking along the track to the nearest town was possible but time-consuming: a ten-mile walk each way consumed a full day, and the section hand worked six days a week. Effective isolation was nearly total.",
+          "source": "Grant, H. Roger. 'The Railroad: The Life Story of a Technology.' Greenwood Press, 2005."
+        }
+      ]
+    },
+    "communication": {
+      "narrative": "The telegraph line ran alongside the track — visible from the section house, humming in the wind — but section hands could not use it. The telegraph was for trained operators at stations and depots. Communication at a section camp traveled by train: mail arrived with the freight, orders came from the roadmaster via the conductor, and news of the outside world filtered in with whatever the passing trainmen chose to share. The foreman's wife might not receive a letter for weeks. A section hand who wanted to send a message waited for his next trip to town, which might be months away. In an era when the railroad was America's communication backbone, the men who maintained the track were among the most disconnected people in the country.",
+      "details": [
+        {
+          "item": "Mail by train",
+          "description": "Mail for section camps was dropped by the mail car — literally thrown from the moving train in a canvas sack if the camp was not a scheduled stop, or handed to the foreman if the train could be flagged. Outgoing mail was hung on a post beside the track in a mailbag that the mail car's hook snatched at speed. This system worked but was irregular — mail might arrive daily on a busy mainline or weekly on a branch. Letters from family, orders from the division office, and the rare catalog or newspaper constituted the section camp's entire written connection to the world.",
+          "source": "Ducker, James H. 'Men of the Steel Rails: Workers on the Atchison, Topeka and Santa Fe Railroad, 1869-1900.' University of Nebraska Press, 1983."
+        },
+        {
+          "item": "The telegraph line — visible but inaccessible",
+          "description": "The telegraph line ran on poles along the right-of-way, often within yards of the section house. Section hands maintained the poles and cleared fallen trees from the wire, but they could not send or receive messages — that required a trained operator at a station. In emergencies, a foreman could cut the wire to signal a break that would bring a repair crew (and, with luck, attention to whatever had caused the emergency), but this was a desperate measure that could result in dismissal. The telegraph was the railroad's nervous system, and the section hand was excluded from it.",
+          "source": "Licht, Walter. 'Working for the Railroad: The Organization of Work in the Nineteenth Century.' Princeton University Press, 1983."
+        },
+        {
+          "item": "News from passing trainmen",
+          "description": "Conductors, brakemen, and engineers who passed through the section daily or weekly were the section camp's informal news service. They carried word of events along the line — accidents, weather, strikes, hirings and firings, news from the division office. A friendly conductor might toss a newspaper from the caboose as the train passed the section house. The foreman's wife might ask a brakeman to carry a message to a relative at another section camp down the line. This oral and informal network was unreliable, incomplete, and subject to every distortion that rumor allows, but it was all the section camp had.",
+          "source": "Grant, H. Roger. 'The Railroad: The Life Story of a Technology.' Greenwood Press, 2005."
+        }
+      ]
+    },
+    "entertainment_and_social_life": {
+      "narrative": "Entertainment at a section camp was whatever the men could create from the materials at hand: a deck of cards, a plug of tobacco, a fiddle, a harmonica, and each other's stories. The isolation was profound — a section gang might consist of the only human beings for miles. Social life, in any conventional sense, did not exist. The foreman's wife, if she organized Sunday services, provided the camp's only structured social activity. A trip to the nearest town on payday — if one existed within reach — was the great event of the month. Alcohol was officially prohibited on most railroads, but the prohibition was widely ignored at section camps where the roadmaster visited only once a month.",
+      "details": [
+        {
+          "item": "Cards, tobacco, and storytelling",
+          "description": "After supper and before sleep, section hands gathered in the bunkhouse or around the section house stove. A game of cards — poker, euchre, seven-up — was the standard pastime. Tobacco was universal: chewing tobacco during the workday (smoking near the track was dangerous around dry timber and creosoted ties), pipe or cigarettes in the evening. Storytelling was the other entertainment — tales of the old country for immigrant gangs, tales of other railroads and other bosses, the oral tradition of the track worker passed from gang to gang across the continent.",
+          "source": "Ducker, James H. 'Men of the Steel Rails: Workers on the Atchison, Topeka and Santa Fe Railroad, 1869-1900.' University of Nebraska Press, 1983."
+        },
+        {
+          "item": "Music",
+          "description": "A fiddle, a harmonica, a guitar, or a banjo — any instrument small enough to fit in a trunk — could transform an evening at a section camp. Railroad work songs, folk songs from the old country, hymns, and popular tunes filled the bunkhouse. African American section gangs on southern railroads developed a rich tradition of work songs synchronized to the rhythm of spike driving and tie tamping — songs that later influenced blues and early jazz. Music was the one form of culture that required no infrastructure, no electricity, no audience beyond the men who shared the bunkhouse.",
+          "source": "Kornweibel, Theodore Jr. 'Railroads in the African American Experience: A Photographic Journey.' Johns Hopkins University Press, 2010."
+        },
+        {
+          "item": "Payday and the nearest town",
+          "description": "Payday was typically monthly. If a town existed within reach — and on western railroads it might not — section hands walked or rode the handcar to spend their wages at the saloon, the general store, and whatever other diversions the town offered. These trips were brief and infrequent. A section hand who drank his wages and reported late for work on Monday faced dismissal. The foreman, responsible for his gang's discipline, might restrict trips to town or accompany the men to limit damage. For section hands on isolated stretches, payday meant a money order sent by mail to family elsewhere — the wages earned but never spent at the camp.",
+          "source": "Licht, Walter. 'Working for the Railroad: The Organization of Work in the Nineteenth Century.' Princeton University Press, 1983."
+        },
+        {
+          "item": "The foreman's wife and community",
+          "description": "Where the section foreman had a family, his wife was the camp's entire social infrastructure. She cooked meals that functioned as communal gatherings. She might organize Sunday prayers if no church existed within reach. She nursed sick or injured men. She mediated disputes. She was often the only woman for miles, carrying a social burden that no job description acknowledged. Some foremen's wives thrived in the isolation; others endured it; many lasted a year or two before the family requested a transfer to a section nearer a town.",
+          "source": "Grant, H. Roger. 'The Railroad: The Life Story of a Technology.' Greenwood Press, 2005."
+        }
+      ]
+    },
+    "household_goods": {
+      "narrative": "The possessions at a section camp divided sharply between the foreman's household and the section hand's trunk. The foreman's family brought their own furniture — a table, chairs, a bed frame, kitchen utensils, dishes — and arranged it in the section house as permanently as a family could arrange anything in a building they did not own. The section hand owned what fit in a wooden trunk or a canvas bag stored under his bunk: work clothes, a blanket, a razor, a few personal items. The trunk was a man's entire American estate — portable, minimal, and ready to move to the next section camp or the next railroad when the job ended.",
+      "details": [
+        {
+          "item": "The foreman's household",
+          "description": "The section house came unfurnished — the foreman's family brought their own possessions and carried them to the next assignment when transferred. A table and chairs, a cook stove (sometimes railroad-provided), a bed frame, a dresser, kitchen utensils, dishes, and a kerosene lamp were the essentials. A family Bible, photographs of relatives, a clock, and curtains for the windows added domesticity to a building that was, in every structural sense, a railroad maintenance facility. The foreman's wife's kitchen equipment was her most important professional tool — pots large enough to feed ten men, a breadboard, a rolling pin, a meat grinder.",
+          "source": "Ducker, James H. 'Men of the Steel Rails: Workers on the Atchison, Topeka and Santa Fe Railroad, 1869-1900.' University of Nebraska Press, 1983."
+        },
+        {
+          "item": "The section hand's trunk",
+          "description": "A section hand's possessions fit in a single wooden trunk or a canvas duffel: work clothes, a spare shirt, underclothes, a blanket roll, a razor and strop, a pocket knife, a tin cup, perhaps a Bible or prayer book, a photograph of family, and whatever letters he had received and kept. A pocket watch, if he owned one, was both personal timepiece and professional tool — the section hand needed to know when trains were due. The trunk traveled with the man from camp to camp, railroad to railroad. It was his portable world, and probate records that survive for section hands who died on the job list heartbreakingly few items.",
+          "source": "Licht, Walter. 'Working for the Railroad: The Organization of Work in the Nineteenth Century.' Princeton University Press, 1983."
+        },
+        {
+          "item": "Railroad-issue tools and equipment",
+          "description": "The section gang's tools belonged to the railroad and were inventoried by the foreman: spike mauls, claw bars, lining bars, track jacks, shovels, picks, tie tongs, rail tongs, a crosscut saw, and the handcar itself. These were kept in a tool house beside the section house and checked daily. A foreman who lost or damaged tools answered to the roadmaster. The tools were heavy, specialized, and expensive — a complete set for a section gang represented a substantial company investment. Their care and maintenance was one of the foreman's primary responsibilities and a frequent subject of inspection reports.",
+          "source": "Ducker, James H. 'Men of the Steel Rails: Workers on the Atchison, Topeka and Santa Fe Railroad, 1869-1900.' University of Nebraska Press, 1983."
+        }
+      ]
+    }
+  },
+  "sensory_snapshot": "A section camp on the Northern Pacific mainline in central North Dakota, 1895. A frame section house and a bunkhouse stand beside the tracks, twenty feet from the nearest rail. No other structures are visible in any direction — the prairie runs flat to the horizon in a circle of brown grass and pale sky. The wind is constant, pressing against the clapboard walls and rattling the stovepipe. A handcar sits on a siding, its pump handles at rest. Crosstie replacements are stacked beside the right-of-way, black with creosote. The smell of creosote and coal smoke hangs in the still air near the buildings; farther out, there is only the smell of grass and distance. Twice a day a freight train passes without stopping — the ground shakes, the dishes rattle on the shelf, the section foreman's wife glances at the clock and knows without looking that it is the 2:15 westbound, right on time. Then the sound fades, the vibration stops, and the silence returns — the deep, pressing silence of a place where the nearest human voice belongs to someone in this camp.",
+  "narrative_hooks": [
+    "The handcar on the siding — a pump-operated platform on rail wheels, the section gang's only vehicle, powered by muscle and balanced against the timetable. Every trip on the handcar was a calculation: how far to the work site, how long until the next train, how fast can we clear the main.",
+    "The section foreman's wife at the cook stove before dawn — feeding eight men breakfast by lamplight, packing dinner pails with cold biscuits and salt pork, boiling coffee strong enough to carry men through ten hours of lifting ties in the wind.",
+    "The trunk under the bunk — a wooden box containing work clothes, a razor, a Bible, a photograph of a wife and children in another state or another country, and a postal money order half-filled with wages that would probably arrive before the man who earned them.",
+    "The telegraph line humming overhead — visible from the bunkhouse window, carrying messages the section hand could hear but never read, connecting a world that flowed past the camp twice a day at forty miles an hour and never stopped.",
+    "The freight train at 2:15 — passing without stopping, shaking the section house to its foundation posts, rattling every dish on every shelf, and then gone, leaving a silence so complete that a man could hear his own heartbeat and the creak of the wind in the telegraph poles.",
+    "Payday — a monthly envelope with wages minus deductions for housing, commissary, and tools, handed to the foreman by the conductor of the afternoon freight, divided among the gang on the section house porch, and for most men immediately folded into a money order addressed to a family they had not seen in months."
+  ],
+  "source_references": [
+    "Ducker, James H. 'Men of the Steel Rails: Workers on the Atchison, Topeka and Santa Fe Railroad, 1869-1900.' University of Nebraska Press, 1983.",
+    "Licht, Walter. 'Working for the Railroad: The Organization of Work in the Nineteenth Century.' Princeton University Press, 1983.",
+    "Grant, H. Roger. 'The Railroad: The Life Story of a Technology.' Greenwood Press, 2005.",
+    "Kornweibel, Theodore Jr. 'Railroads in the African American Experience: A Photographic Journey.' Johns Hopkins University Press, 2010."
+  ]
+}

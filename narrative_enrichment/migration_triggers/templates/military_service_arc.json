@@ -1,0 +1,269 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "_purpose": "Narrative template for ancestors with military service records. Military records produce more biographical information than any other life event — enlistment records, compiled service records, pension files, and casualty reports create the most detailed portrait of an ordinary person that 18th- and 19th-century record-keeping systems ever produced. This template structures that data into a narrative arc: enlistment, service, critical event, aftermath, and community role. GENO Narrative Pattern NP-05: Military Journey Arc.",
+  "template_id": "military_service_arc",
+  "display_name": "Military Service Arc",
+  "description": "Narrates an ancestor's military service from enlistment through aftermath, grounded in Compiled Military Service Records (CMSRs), pension files, unit histories, and casualty reports. Military records are biographical ATMs — the enlistment record alone may contain the only physical description of the ancestor that exists. Pension files contain sworn testimony, often in the veteran's own words. This template extracts narrative from those records without glorifying war, projecting emotion, or confusing what the record says with what is inferred from unit history.",
+  "revenue_tier": "both — abbreviated for Option A, full arc for White Glove",
+  "tier_guidance": {
+    "option_a": "One situation only (typically enlistment_moment or wound_capture_death — whichever has the richer record). 120-200 words. Structural beats compressed to essentials: who they were, what happened, what the record says.",
+    "white_glove": "Full arc across all applicable situations. Each situation generates 150-300 words. Editorial annotations explain record provenance and distinguish documented fact from unit-history inference. May include direct quotation from pension testimony."
+  },
+  "situations": [
+    {
+      "situation_id": "enlistment_moment",
+      "display_name": "The Enlistment Record",
+      "trigger_condition": "Ancestor has an enlistment or muster record in any conflict from the Revolutionary War through Vietnam. The enlistment record or muster roll captures biographical data that often exists nowhere else: name, age, physical description, occupation, birthplace, and residence at enlistment.",
+      "narrative_purpose": "The enlistment record is often the most detailed physical description of an ancestor that survives. Height, eye color, hair color, complexion, occupation, and residence — all recorded by a clerk or mustering officer on a specific day. For many ancestors, this is the closest we come to seeing them. The narrative frames who they were before the military claimed them.",
+      "structural_beats": [
+        "Who they were before: occupation, residence, age at enlistment. Ground the ancestor in civilian life before military identity subsumes everything else.",
+        "Physical description from the enlistment record — quote or closely paraphrase. Height, complexion, eye color, hair color. Do not embellish. The record's spare language is more powerful than any elaboration.",
+        "The enlistment itself: date, place, enlisting officer if known, whether volunteer or drafted. For drafted men, note the context — conscription was deeply controversial in the Civil War and WWI.",
+        "Unit assignment: regiment, company, branch of service. What kind of unit was it — infantry, cavalry, artillery, engineers? A brief note on what that meant for daily experience.",
+        "The world they entered: what the military looked like in that specific conflict. A Continental Army regiment in 1777, a Civil War volunteer company in 1862, a draftee in a WWI training camp — these are radically different experiences. One sentence grounding the reader in the era's military reality."
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{year}",
+        "{conflict}",
+        "{unit}",
+        "{rank}",
+        "{enlistment_location}",
+        "{age_at_enlistment}",
+        "{physical_description}",
+        "{occupation_at_enlistment}",
+        "{residence_at_enlistment}",
+        "{enlistment_type}"
+      ],
+      "constraints": [
+        "Physical descriptions from enlistment records should be quoted or closely paraphrased, never embellished. 'Five feet eight inches, dark complexion, hazel eyes, dark hair' is the record. Do not turn it into a portrait.",
+        "State clearly whether the enlistment was voluntary or compelled (drafted, substitute, conscripted). These are different stories.",
+        "For USCT (United States Colored Troops) regiments: note that these were Black soldiers under white officers, and that enlistment itself was an assertion of citizenship. Name the regiment number — USCT regiments have specific, well-documented histories.",
+        "For Confederate enlistment: state the facts. Do not frame service as noble, tragic, or reluctant unless the record supports a specific characterization. Many Confederate soldiers were conscripted after April 1862.",
+        "Do not use the phrase 'answered the call' or 'took up arms for his country' or any similar construction. State what happened: he enlisted, he was drafted, he mustered in.",
+        "Name conflicts accurately: Revolutionary War, War of 1812, Mexican-American War, Civil War, Spanish-American War, WWI, WWII, Korea, Vietnam. Never 'War Between the States' or 'War of Northern Aggression.'"
+      ]
+    },
+    {
+      "situation_id": "service_and_unit_history",
+      "display_name": "Service and Unit History",
+      "trigger_condition": "Ancestor's unit can be identified from CMSR, muster rolls, or pension records. Unit histories, regimental histories, or Official Records of the War of the Rebellion provide the movements and engagements of the unit during the ancestor's documented service period.",
+      "narrative_purpose": "What the unit did while the ancestor was in it. This is NOT a general history of the war — it is the specific unit's experience during the specific period the ancestor was present. The distinction between what the record says about the individual and what is inferred from unit history must be explicit and maintained throughout.",
+      "structural_beats": [
+        "Unit identification: full designation, branch, army/corps/division assignment. Where the unit fit in the larger force structure.",
+        "Major engagements the unit participated in during the ancestor's service period. Dates and places. Not every skirmish — the significant actions that shaped the unit's experience.",
+        "Conditions: camp life, march routes, disease environment, weather, supply situation. Drawn from unit histories and official records, not from general accounts of the war. Disease killed more soldiers than combat in every American conflict through WWI — this reality should be present, not hidden.",
+        "What records document about the ancestor specifically — present/absent on muster rolls, notations on CMSRs, hospital records, any individual entries — versus what is inferred from the unit's documented movements. This distinction is the intellectual backbone of the section.",
+        "Duration of service with the unit: from muster-in to discharge, transfer, casualty, or end of conflict. If the ancestor transferred between units, note both."
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{unit}",
+        "{rank}",
+        "{conflict}",
+        "{service_dates}",
+        "{engagements}",
+        "{theater_of_operations}",
+        "{muster_roll_notations}"
+      ],
+      "constraints": [
+        "Distinguish explicitly between individual record (CMSR entries, muster roll notations) and unit history inference. Use framing like: 'The muster roll for [date] lists [ancestor] as present for duty. During this period, the regiment was engaged at [place].' Not: '[Ancestor] fought at [place]' — unless the individual record confirms it.",
+        "Do not narrate battles in dramatic prose. State what the unit did, where, when, and at what cost (casualties if known). The facts carry the weight.",
+        "Disease and non-combat conditions must be treated as equal to combat experience. Camp diseases (typhoid, dysentery, malaria, measles, pneumonia) shaped military experience more than battle for most soldiers in most conflicts.",
+        "If the ancestor's CMSR shows notations like 'absent sick,' 'absent without leave,' 'on detached service,' or 'in arrest' — include them. These are the individual's documented story, not the unit's.",
+        "Do not apply modern tactical or strategic analysis. The ancestor did not know the war's outcome or their battle's significance. Narrate at ground level."
+      ]
+    },
+    {
+      "situation_id": "wound_capture_death",
+      "display_name": "Wound, Capture, or Death",
+      "trigger_condition": "Ancestor's CMSR, casualty report, hospital record, or pension file documents a wound in action, capture as prisoner of war, death in service (combat, disease, or accident), or any combination. This is often the most documented moment of an ancestor's entire life.",
+      "narrative_purpose": "The critical event. A wound, a capture, a death — the moment when the military bureaucracy generated the most detailed record of a single individual's experience. Casualty reports, hospital admission records, POW rolls, and burial records create a documentary density that no other life event matches for ordinary people in this era.",
+      "structural_beats": [
+        "The event itself: date, place, circumstances as documented in the CMSR, casualty report, or unit action report. What the record says happened — not a reconstruction, not a dramatization.",
+        "Immediate aftermath: hospital admission (which hospital, what treatment was noted), capture and transport to prison camp, or death and burial. Follow the documentary trail.",
+        "For wounds: nature of the wound as described in medical records or pension examination. Civil War and later records often specify the wound with clinical precision — 'gunshot wound, left thigh, minié ball' — and this specificity should be preserved.",
+        "For POW: identify the prison camp. Each camp has a specific, documentable history — mortality rates, conditions, exchange or parole status. Andersonville is not Elmira is not Point Lookout. Name the camp and its documented conditions.",
+        "For death: cause as stated in the record. Disease death should be treated with the same documentary precision and narrative gravity as combat death. 'Died of chronic diarrhea, General Hospital No. 9, Richmond, March 14, 1863' is a complete and devastating sentence. Do not elaborate.",
+        "What the record says versus what it implies. A CMSR entry 'wounded at Gettysburg, July 2, 1863' implies the ancestor was with the unit during the assault or defense at a specific part of the field. Unit history can narrow the inference — but the inference must be labeled as inference."
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{unit}",
+        "{rank}",
+        "{conflict}",
+        "{event_type}",
+        "{event_date}",
+        "{event_location}",
+        "{wound_description}",
+        "{hospital_name}",
+        "{prison_camp}",
+        "{cause_of_death}",
+        "{burial_location}"
+      ],
+      "constraints": [
+        "No glorification. A wound is an injury. A battle is a place where people were killed. Do not describe combat as glorious, heroic, or valiant. The record does not use those words and neither should the narrative.",
+        "No emotional projection. Do not write 'he must have felt' or 'the horror of.' Describe the wound, the camp, the hospital, the death. The reader supplies the feeling.",
+        "Disease death receives the same narrative gravity as combat death. In the Civil War, approximately two soldiers died of disease for every one killed in battle. In the Mexican-American War, the ratio was higher. Disease death was not lesser — it was the statistical norm.",
+        "For POW narratives: name the specific prison camp and its documented mortality rate if available. Do not generalize about 'prison camp conditions' — each camp had distinct conditions documented by survivors, inspectors, and postwar investigations.",
+        "For Confederate soldiers who died as POW in Union camps, or Union soldiers who died in Confederate camps: state the facts of the camp without framing one side's camps as worse than the other's. Both sides maintained camps where men died in large numbers. The record for each specific camp speaks for itself.",
+        "For African American soldiers: note that USCT regiments faced particular risks — the Confederate Congress authorized treating captured Black soldiers as enslaved laborers rather than prisoners of war. The Fort Pillow massacre (April 1864) and similar events are documented facts, not editorial commentary.",
+        "Quote wound descriptions and medical records as closely as possible. The clinical language of the era is more effective than any modern paraphrase.",
+        "If the ancestor died and a burial location is documented, name it. National cemeteries, regimental burial grounds, hospital cemetery plots — these are places that still exist or are documented."
+      ]
+    },
+    {
+      "situation_id": "pension_and_aftermath",
+      "display_name": "Pension and Post-Service Life",
+      "trigger_condition": "Ancestor (or ancestor's widow) filed a pension application. Federal pension files for Union veterans are held in Record Group 15 at the National Archives. Confederate pensions were administered by individual states and vary in detail and survival. Pension files often contain more biographical information than any other single document in the ancestor's life.",
+      "narrative_purpose": "Pension applications are biographical gold. They contain the veteran's own sworn testimony (or the widow's), testimony from comrades who served with them, testimony from neighbors who knew them, medical examination reports spanning decades, and detailed documentation of economic circumstances. For many ancestors, the pension file is the only place where their own words survive, however mediated by the legal form of the deposition.",
+      "structural_beats": [
+        "The application: when filed, what was claimed (disability, age, widow's pension). The filing itself tells a story — a veteran who waited twenty years to apply has a different story than one who applied immediately after discharge.",
+        "What the pension reveals about post-war life: where the veteran lived, what work they could or could not do, what injuries or illnesses persisted. Pension medical examinations were conducted repeatedly over decades and document the long deterioration of war wounds and war-acquired diseases.",
+        "Testimony: quote or closely paraphrase sworn statements from the veteran, from comrades, from neighbors. These are the ancestor's own words — extraordinarily rare in genealogical records for ordinary people. A comrade testifying 'I was with him when he was shot at Cold Harbor and helped carry him to the rear' is primary evidence of the highest order.",
+        "Economic circumstances: what the pension meant in practical terms. Pension amounts, combined with cost-of-living data, reveal whether the pension was adequate or a pittance. Many veterans and widows lived in poverty despite pensions.",
+        "The widow's pension variant: when the veteran died, the widow's application reveals her own circumstances — her age, her economic condition, whether she remarried (which disqualified her from the pension), who testified on her behalf. The widow's file often contains more biographical detail about the marriage and family than any other record."
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{conflict}",
+        "{unit}",
+        "{pension_application_date}",
+        "{pension_amount}",
+        "{disability_description}",
+        "{widow_name}",
+        "{comrade_testimony}",
+        "{post_war_occupation}",
+        "{post_war_residence}"
+      ],
+      "constraints": [
+        "Quote pension testimony when possible. Put the ancestor's words (or the comrade's, or the widow's) in quotation marks with attribution. These are primary source quotations and should be treated as such.",
+        "Do not editorialize pension testimony. Let the words stand. A veteran testifying about his disability does not need narrative commentary about how sad it is.",
+        "For Confederate pensions: note that these are state records, not federal. Each former Confederate state administered its own pension system with different eligibility criteria, application processes, and payment amounts. Virginia's pension records differ from North Carolina's differ from Texas's.",
+        "For African American veterans: note that USCT veterans were entitled to federal pensions on the same basis as white Union veterans, but faced significant bureaucratic obstacles — illiteracy, difficulty proving identity, discriminatory pension examiners, and the destruction of records. Many eligible veterans never received pensions.",
+        "Pension medical examinations should be described with clinical precision. 'Gunshot wound left thigh, ball not extracted, limb shortened one inch, unable to perform manual labor' is the kind of language these examinations used. Preserve it.",
+        "The widow's pension section should center the widow, not the deceased veteran. Her application is her story — her economic circumstances, her testimony, her survival.",
+        "Do not assume pension fraud. Rejected applications and suspended pensions were common, but the reasons were usually bureaucratic (missing records, inability to prove identity) rather than fraudulent. State the record's outcome without implying dishonesty."
+      ]
+    },
+    {
+      "situation_id": "veteran_in_community",
+      "display_name": "The Veteran in Community",
+      "trigger_condition": "Post-service records show the veteran's participation in veterans' organizations (GAR posts, Confederate memorial associations, VFW, American Legion), attendance at reunions, community roles, or commemorative activities. Also triggered by the contrast between public commemoration and private suffering documented in pension disability records.",
+      "narrative_purpose": "The veteran as community figure and as private survivor. Veterans' organizations, reunions, and memorial activities are documented in newspapers, organizational records, and cemetery records. Pension disability claims document the private reality. The gap between the two — the veteran who marched in the Memorial Day parade and also testified that he could not sleep, could not work, could not straighten his arm — is a recurring pattern that the narrative should present without editorial commentary.",
+      "structural_beats": [
+        "Organizational membership: GAR post (Union), United Confederate Veterans camp, VFW post, American Legion post. These organizations were social, political, and economic institutions — they advocated for pensions, provided mutual aid, and shaped how the war was publicly remembered.",
+        "Community standing: what the veteran's post-war record shows about their role. Property ownership, occupation, civic participation, church membership. The ordinary life that followed the extraordinary experience.",
+        "The gap between public and private: if pension records document disability, chronic illness, or economic hardship, and community records show the same veteran participating in public commemorative activities, present both without resolving the tension. The veteran who testified he could not lift his arm above his shoulder and also served as commander of his GAR post is not a contradiction — he is a person.",
+        "Reunions and commemorative events: if documented, note them. Regimental reunions, battlefield dedications, Memorial Day observances. These events are documented in newspapers and organizational records.",
+        "Death and burial: military headstone, burial in a national or veterans' cemetery, GAR or UCV funeral honors. The final documentary trace of the military identity."
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{conflict}",
+        "{unit}",
+        "{veterans_organization}",
+        "{post_war_occupation}",
+        "{post_war_residence}",
+        "{community_roles}",
+        "{death_date}",
+        "{burial_location}",
+        "{headstone_type}"
+      ],
+      "constraints": [
+        "Do not sentimentalize veterans' organizations. The GAR was also a powerful political lobby. The UCV was deeply invested in Lost Cause mythology. VFW and American Legion posts served practical mutual-aid functions. Present them as institutions, not as pure expressions of brotherhood.",
+        "For Confederate memorial associations and UCV: do not use Lost Cause framing. Do not describe Confederate service as a noble cause, a defense of home, or a fight for states' rights. State the facts of the veteran's participation in commemorative organizations without endorsing the organizations' ideology.",
+        "For African American veterans: note the specific significance of military service as a claim to citizenship and rights. Black veterans' organizations, including Black GAR posts (which were often segregated), were civil rights institutions as much as veterans' groups. USCT veterans' advocacy for pensions and recognition is a documented political movement.",
+        "Present the gap between public commemoration and private suffering as documented fact, not as irony or pathos. Do not write 'ironically' or 'despite his suffering.' Present the pension testimony and the organizational record side by side. The reader sees the gap.",
+        "If the veteran's grave has a military headstone, note the type (federal government-issued headstones have specific designs by era) and whether the grave is in a national cemetery, a veterans' section of a civilian cemetery, or a family plot.",
+        "Do not assume all veterans were damaged or all veterans were heroic. The record shows what it shows for each individual. Some veterans prospered; some did not. The template serves both outcomes."
+      ]
+    }
+  ],
+  "editorial_guidelines": {
+    "overarching_principle": "Military records are documents, not stories. The narrative template extracts biographical information from military records and presents it in a structured, historically grounded narrative. It does not glorify war, project emotion onto the ancestor, or confuse inference with documentation. The power of military records is their specificity — a clerk wrote down what the ancestor looked like, what happened to them, and what they testified under oath. That specificity is more compelling than any narrative embellishment.",
+    "tone": "Factual, grounded, precise. Clinical when describing wounds and conditions — the medical and military language of the era is more effective than modern paraphrase. Respectful without being reverential. The ancestor was a person in a war, not a character in a war story.",
+    "record_provenance": {
+      "description": "Every factual claim in the military service arc must be traceable to a specific record type. The narrative must make clear where its information comes from.",
+      "record_types": [
+        {
+          "record": "Compiled Military Service Record (CMSR)",
+          "held_by": "National Archives, Record Group 94 (Union), Record Group 109 (Confederate)",
+          "contains": "Muster roll entries, enlistment papers, casualty sheets, hospital records, POW records, discharge papers — compiled into a single jacket for each soldier.",
+          "narrative_use": "The backbone of the individual soldier's documented service. Every CMSR entry is a dated, located fact."
+        },
+        {
+          "record": "Federal pension files",
+          "held_by": "National Archives, Record Group 15",
+          "contains": "Application forms, medical examinations, sworn testimony from the veteran, comrades, neighbors, and family members, correspondence with the Pension Bureau, marriage and death certificates.",
+          "narrative_use": "The richest biographical source for post-war life. Pension testimony is the ancestor's voice — or as close to it as the genealogical record gets."
+        },
+        {
+          "record": "State pension records (Confederate)",
+          "held_by": "State archives of former Confederate states",
+          "contains": "Application forms, proof of service, medical statements, economic condition statements. Vary significantly by state in detail and survival.",
+          "narrative_use": "The primary post-war source for Confederate veterans. Less detailed than federal files but often the only post-war biographical record."
+        },
+        {
+          "record": "Unit histories and Official Records",
+          "held_by": "Published sources — Official Records of the War of the Rebellion (Civil War), regimental histories, campaign histories",
+          "contains": "Unit movements, engagement reports, casualty lists, after-action reports.",
+          "narrative_use": "Provides context for the individual CMSR. If the CMSR says 'present' and the unit history says the regiment fought at Antietam that month, the inference is strong but must be labeled as inference."
+        }
+      ]
+    },
+    "what_NOT_to_do": [
+      "No glorification of war. Do not describe battles as 'glorious,' soldiers as 'brave,' or service as 'noble sacrifice.' Describe what happened. The reader decides what it meant.",
+      "No emotional projection. Never write 'he must have been terrified' or 'the family was devastated.' Describe the wound, the pension claim, the widow's application. The facts do the work.",
+      "No Lost Cause framing for Confederate service. Do not describe Confederate soldiers as defending their homes, fighting for a way of life, or serving a noble but doomed cause. State the facts of service.",
+      "No modern moral judgment imposed on the ancestor. The ancestor lived in their time. The narrative presents what the record documents, not what the narrator thinks about it.",
+      "No generic war history substituted for specific unit experience. 'The Civil War was a terrible conflict' is filler. 'The 14th Connecticut Infantry was engaged at Antietam on September 17, 1862, suffering 112 casualties out of approximately 400 men engaged' is data.",
+      "No conflation of individual record with unit history. If the CMSR does not specifically document the ancestor's presence at a battle, do not write that the ancestor 'fought at' that battle. Write that the ancestor's unit was engaged there and that the ancestor was listed as present for duty during that period.",
+      "No embellishment of physical descriptions. The enlistment record says 'five feet nine inches, dark complexion, brown eyes, black hair.' That is what the narrative says. Do not add 'a tall man for his era' or 'with piercing eyes.'",
+      "No dialect or vernacular in quoted testimony. Pension depositions were transcribed by clerks and are already mediated. Quote the transcription as written.",
+      "No assumptions about the ancestor's politics, motivations, or feelings about the war. The record documents actions, conditions, and testimony — not beliefs."
+    ]
+  },
+  "source_references": [
+    {
+      "source": "National Archives military service records",
+      "record_groups": "RG 94 (Records of the Adjutant General's Office — Regular Army and Union volunteer records), RG 109 (War Department Collection of Confederate Records), RG 15 (Records of the Department of Veterans Affairs — pension files)",
+      "access": "Available on-site at the National Archives in Washington, D.C. and through NARA's order-by-mail service. Indexed by Fold3 and Ancestry.com. CMSRs and pension files can be requested as complete digitized packages.",
+      "note": "Pension files are the single most underused genealogical source for military ancestors. A complete Civil War pension file can run to hundreds of pages and contain testimony spanning decades."
+    },
+    {
+      "source": "Compiled Military Service Records (CMSRs)",
+      "description": "Compiled by the War Department in the late 19th and early 20th centuries from original muster rolls, returns, hospital records, and other documents. One jacket per soldier. The CMSR is the starting point for any military ancestor research — it establishes the basic chronology of enlistment, service, and separation.",
+      "access": "National Archives (RG 94 for Union, RG 109 for Confederate). Digitized on Fold3 for most Civil War and later conflicts. Revolutionary War CMSRs are also available."
+    },
+    {
+      "source": "State pension records for Confederate veterans",
+      "description": "After the federal government excluded Confederate veterans from the federal pension system, former Confederate states established their own pension programs. These began at different dates (most in the 1880s-1890s) and varied significantly in eligibility, documentation requirements, and payment amounts. Some states have well-preserved, indexed files; others have fragmentary records.",
+      "access": "State archives of Alabama, Arkansas, Florida, Georgia, Kentucky, Louisiana, Mississippi, Missouri, North Carolina, Oklahoma (for Indian Territory veterans), South Carolina, Tennessee, Texas, and Virginia. Digitization varies by state — Ancestry and FamilySearch have significant holdings.",
+      "note": "Confederate pension applications from the early 20th century often contain detailed biographical statements from aged veterans and are valuable late-life sources even when the pension amount was small."
+    },
+    {
+      "source": "Fold3.com digital military records collection",
+      "description": "The largest online collection of U.S. military records, including digitized CMSRs, pension index cards, unit rosters, casualty lists, and military installation records from the Revolutionary War through recent conflicts.",
+      "access": "Subscription service (Fold3.com). Available free at many public libraries and through Ancestry institutional subscriptions.",
+      "note": "Fold3 provides browse access to original document images, which is essential — index entries frequently contain errors or omissions that are corrected only by viewing the original documents."
+    },
+    {
+      "source": "Official Records of the War of the Rebellion",
+      "description": "128 volumes of Union and Confederate military correspondence, orders, reports, and returns. The primary published source for Civil War unit movements and engagements. Available in full text online through Cornell University's Making of America project and other digital collections.",
+      "access": "Free online. Also referenced in regimental histories and the Civil War Sites Advisory Commission reports."
+    },
+    {
+      "source": "National Park Service Soldiers and Sailors Database",
+      "description": "Index of Civil War soldiers (Union and Confederate) with basic service information: name, rank, unit, and state. A starting point for identifying the unit, which then leads to CMSRs and unit histories.",
+      "access": "Free at nps.gov/civilwar/soldiers-and-sailors-database.htm"
+    }
+  ],
+  "data_dependencies": [
+    "migration_triggers (civil_war_displacement, wwii_relocation — military service is a primary driver of geographic mobility)",
+    "occupational_profiles (career_soldier, post-war occupation transitions — the shift from military to civilian employment)",
+    "historical_context_timelines (conflict-era economic, social, and political conditions at the ancestor's home and service locations)",
+    "county_source_profiles (for identifying available military-related records at the county level — muster locations, veterans' cemeteries, GAR/UCV organizational records)"
+  ]
+}

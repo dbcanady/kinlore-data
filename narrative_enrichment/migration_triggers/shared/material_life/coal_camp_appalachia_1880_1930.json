@@ -1,0 +1,257 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-17",
+  "_purpose": "Material life profile for Appalachian coal company towns, 1880-1930. Describes the physical reality of daily life for families living in company-owned housing in the narrow hollows of the Central Appalachian coalfields, where the coal operator controlled housing, wages, commerce, and community.",
+  "material_life_id": "coal_camp_appalachia_1880_1930",
+  "display_name": "Coal Camp Life, Appalachia, 1880-1930",
+  "era": "1880-1930",
+  "region": "Central Appalachian coalfields — West Virginia, eastern Kentucky, southwest Virginia, eastern Tennessee",
+  "population": "Mixed: native-born Appalachian families (former subsistence farmers displaced by land consolidation), African Americans recruited from the Deep South, and southeastern European immigrants (Italian, Hungarian, Polish, Slovak). All lived in company-owned housing, shopped at company stores, and worked underground. The workforce was deliberately multi-ethnic — companies recruited diverse groups to prevent labor solidarity — but residentially segregated within the camp, with 'colored row' at the far end of the hollow or across the creek.",
+  "economic_position": {
+    "positions": ["coal_loader", "skilled_miner", "company_man", "disabled_miner"],
+    "default_position": "coal_loader",
+    "position_guidance": {
+      "coal_loader": "Default framing. The ancestor loaded coal underground for piece-rate pay — paid by the ton, with deductions for rent, store, doctor, and tools. This was the majority of the workforce. Material life as described applies directly. They appear in mine employment records (where they survive), company payroll records, and census as 'coal miner' or 'coal loader.'",
+      "skilled_miner": "Adjust slightly upward. A shot-firer, timberman, motorman, or track layer earned a fixed daily rate rather than piece-rate. Slightly higher and more stable income, but still subject to the same deduction system and company housing. They may hold a specific job title in census or company records.",
+      "company_man": "The ancestor was on the company's management side — mine foreman, fire boss, superintendent, weighman, or company store clerk. Material life was modestly better: a larger house, possibly at a better location in the hollow, and a salary rather than piece-rate. But they were still company employees in company housing. They appear in company records with job titles and may appear differently in census (occupation: 'mine foreman' rather than 'coal miner').",
+      "disabled_miner": "The ancestor was injured or disabled — black lung, roof-fall injury, or other mine accident. Without workers' compensation (before 1910s-1920s), a disabled miner had no income, no medical care, and faced eviction from company housing. They may appear in charity records, county poorhouse records, or pension applications. The material life described in this file no longer applied — they had fallen out of even the minimal safety net the company provided."
+    },
+    "narrative_hooks": {
+      "coal_loader": "{ancestor_name} loaded coal in the {mine_name} mine in {county} for piece-rate pay — by the ton, minus deductions for rent, coal, store, doctor, and tool sharpening that could consume half the pay envelope before {pronoun_subject} saw a dollar.",
+      "skilled_miner": "{ancestor_name} worked as a {occupation} in the {mine_name} mine — a skilled position that paid a fixed daily rate rather than piece-rate, a distinction that meant steadier income but the same company house, the same deductions, the same coal dust.",
+      "company_man": "{ancestor_name} was on the company side in {county} — a {occupation} who lived in a slightly better house closer to the mine office and drew a salary rather than piece-rate, but who slept under the same company roof and breathed the same coal-heavy air.",
+      "disabled_miner": "After {injury_year}, {ancestor_name} could no longer work underground. Without workers' compensation, a disabled miner in {county} had no income, no pension, and faced eviction from the company house that came with the job."
+    }
+  },
+  "trigger_refs": [
+    "appalachian_out_migration"
+  ],
+  "sections": {
+    "housing": {
+      "narrative": "Company-built frame houses lined the hollow in identical rows, climbing the narrow valley from the mine mouth to the head of the creek. A typical house had three to four rooms — two down, one or two up — with walls of rough-sawn lumber, no insulation, and a tin roof that roared in the rain. There was no indoor plumbing in most camps until the 1920s or 1930s; families used outdoor privies and hauled water from a common spigot or well. Rent was deducted directly from the miner's pay envelope, as was the cost of coal for the heating stove — a supposed 'benefit' that still carried a charge. The houses were built cheap, maintained poorly, and owned entirely by the company; a miner who lost his job lost his home the same day.",
+      "details": [
+        {
+          "item": "Identical frame construction",
+          "description": "Company houses were built from a single plan — rough-sawn lumber walls, no foundation or a minimal stone pier, tin roof, and no insulation. Cracks between boards let in wind, dust, and coal soot. A family of six or eight occupied three to four rooms totaling 600 to 800 square feet. The houses were set on posts to follow the slope of the hollow, leaving crawl spaces underneath that harbored rats and standing water.",
+          "source": "Shifflett, 'Coal Towns,' pp. 49-56"
+        },
+        {
+          "item": "Rent and coal deductions",
+          "description": "Monthly rent of $2 to $8 was deducted from the miner's wages before he saw a dollar. Coal for the heating stove was provided by the company at a deducted price — typically $1 to $2 per month. Water, if piped, carried an additional charge. A miner's pay envelope often arrived already reduced by 30 to 50 percent from deductions for rent, coal, doctor, store credit, and tool sharpening.",
+          "source": "Corbin, 'Life, Work, and Rebellion in the Coal Fields,' pp. 10-15"
+        },
+        {
+          "item": "Racial segregation within camps",
+          "description": "Housing was strictly segregated by race and often by ethnicity. African American families were assigned to 'colored row,' typically at the most distant, least desirable end of the hollow — farthest from the company store, nearest to the refuse dump or coke ovens. Immigrant families might occupy a separate cluster. White native-born families received houses closest to the mine office and store. The segregation was company policy, enforced by the mine superintendent.",
+          "source": "Trotter, 'Coal, Class, and Color,' pp. 44-52"
+        },
+        {
+          "item": "Eviction as labor discipline",
+          "description": "Because the company owned every house, eviction was the ultimate weapon against labor unrest. A miner who joined a strike — or was merely suspected of union sympathy — could be evicted with his family and possessions set on the road within 24 hours. During the Paint Creek-Cabin Creek strike of 1912-1913, thousands of families were evicted into tent colonies in the middle of winter.",
+          "source": "Corbin, 'Life, Work, and Rebellion in the Coal Fields,' pp. 87-95"
+        }
+      ]
+    },
+    "food_and_cooking": {
+      "narrative": "The company store was the center of commerce and the instrument of dependency. Miners were paid in scrip — company-issued currency, metal tokens or paper certificates redeemable only at the company store — rather than U.S. dollars. The store marked up prices 10 to 40 percent above independent merchants in the nearest town, but the nearest town might be 15 miles away over bad roads, and the company store extended credit against future wages. The diet was heavy, calorie-dense, and monotonous: pinto beans, cornbread, fatback or salt pork, potatoes, canned goods, and biscuits. Women who could find level ground planted garden patches and canned everything the hollow would grow — beans, tomatoes, corn, kraut. Some families kept chickens or a pig in the yard behind the house.",
+      "details": [
+        {
+          "item": "Scrip system",
+          "description": "Companies issued their own currency — brass or aluminum tokens, pasteboard chits, or paper scrip — redeemable only at the company store. Miners could request an advance on wages in scrip, trapping them in a cycle of debt. Independent merchants in nearby towns sometimes accepted scrip at a discount of 10 to 30 percent, but most miners had no practical alternative to the company store. The scrip system was the literal basis of the phrase 'I owe my soul to the company store.'",
+          "source": "Corbin, 'Life, Work, and Rebellion in the Coal Fields,' pp. 11-13"
+        },
+        {
+          "item": "Company store markup",
+          "description": "Prices at the company store ran 10 to 40 percent higher than at independent merchants. A 1912 survey in West Virginia found flour at $1.00 per 24-pound sack at the company store versus $0.75 in town, and canned goods at similar premiums. The store was profitable for the operator independent of coal production — some companies made as much from the store as from the mine itself.",
+          "source": "Shifflett, 'Coal Towns,' pp. 73-80"
+        },
+        {
+          "item": "Staple diet",
+          "description": "The coal camp diet centered on pinto beans, cornbread made from stone-ground meal, fatback pork, potatoes, canned tomatoes, and biscuits with sorghum molasses. Soup beans cooked all day on the stove were the foundation meal. Fresh meat was rare except when a family butchered a hog in autumn or a man hunted squirrel and rabbit in the surrounding mountains. Coffee was a daily necessity; milk came from a family cow if one could be kept, otherwise from canned evaporated milk.",
+          "source": "Eller, 'Miners, Millhands, and Mountaineers,' pp. 188-192"
+        },
+        {
+          "item": "Gardens and food preservation",
+          "description": "Women planted gardens on any patch of level ground the hollow offered — on the hillside behind the house, along the creek bank, in cleared spots where sunlight reached. They canned beans, tomatoes, corn, peppers, and fruit in mason jars, filling rows of shelves in the cellar or back room. Canning was essential survival work; a family's winter food supply depended on what was put up in summer and fall. Some women sold or traded surplus to neighbors.",
+          "source": "Shifflett, 'Coal Towns,' pp. 84-88"
+        }
+      ]
+    },
+    "clothing": {
+      "narrative": "A miner's work clothes were overalls or heavy cotton trousers, a flannel or cotton shirt, thick-soled boots, and a cloth or leather cap fitted with a bracket for a carbide lamp. Everything he wore underground came home black with coal dust, and work clothes required separate washing — boiled in a kettle over an outdoor fire, scrubbed on a washboard, and hung to dry on lines strung between the houses. The company store was the only reliable source for clothing purchases, and families bought on credit against wages. Women sewed dresses, children's clothes, and household textiles from bolt cloth or flour sacks. Children's garments were handed down until they fell apart, patched and re-patched at the knees and elbows.",
+      "details": [
+        {
+          "item": "Miner's work clothing",
+          "description": "Underground work demanded heavy, durable clothing that could withstand constant abrasion against rock and coal. Overalls were the standard — bib overalls of heavy denim or duck cloth, worn over a long-sleeved cotton shirt for protection against scrapes. Boots were thick-soled and ankle-high. Clothing wore out rapidly in the mine; a pair of overalls might last only two to three months. The company store stocked work clothes as a staple item.",
+          "source": "Corbin, 'Life, Work, and Rebellion in the Coal Fields,' pp. 26-28"
+        },
+        {
+          "item": "Coal dust and laundry",
+          "description": "A miner emerged from the shaft black from head to foot — coal dust ground into skin, hair, and every fiber of clothing. Work clothes were washed separately from household laundry, boiled in a cast-iron kettle over an outdoor fire to loosen the embedded dust, then scrubbed by hand on a washboard. The wash water turned black. Drying lines behind coal camp houses were perpetually hung with dark, heavy work clothes. Wash day for miners' wives was a full day of brutal physical labor.",
+          "source": "Shifflett, 'Coal Towns,' pp. 90-93"
+        },
+        {
+          "item": "Women's sewing and hand-me-downs",
+          "description": "Women made children's clothing from bolt cloth purchased at the company store or from flour and feed sacks. Dresses, shirts, and trousers were cut from patterns shared among neighbors or copied from catalog illustrations. Every garment was handed down through successive children, patched repeatedly, and finally cut down for cleaning rags. A woman's sewing basket — needles, thread, patches, buttons — was among her essential possessions.",
+          "source": "Eller, 'Miners, Millhands, and Mountaineers,' pp. 195-197"
+        },
+        {
+          "item": "Carbide lamp and cap",
+          "description": "The miner's cap lamp was both a tool and an identifying mark of the trade. Carbide lamps, which generated light by dripping water onto calcium carbide to produce acetylene gas, replaced open-flame oil lamps in the early 1900s. The lamp attached to a leather or cloth cap and provided a focused beam. Miners purchased carbide from the company store. The smell of acetylene was the characteristic odor of a man coming home from the mine.",
+          "source": "Corbin, 'Life, Work, and Rebellion in the Coal Fields,' pp. 30-32"
+        }
+      ]
+    },
+    "hygiene_and_health": {
+      "narrative": "Coal dust was the defining environmental fact of camp life — in the air, the water, the house, the lungs. Men who worked underground for ten or twenty years developed coal workers' pneumoconiosis — black lung — a progressive, irreversible destruction of lung tissue that was not officially recognized as an occupational disease until the Federal Coal Mine Health and Safety Act of 1969. Before that recognition, a miner who could no longer breathe was simply a man who could no longer work. Underground, the dangers were immediate and violent: roof falls, gas explosions, rockbursts, and runaway mine cars killed and maimed with regularity. Above ground, typhoid and dysentery from contaminated water supplies, tuberculosis in overcrowded houses, and the absence of sanitation infrastructure made coal camps among the unhealthiest places in America.",
+      "details": [
+        {
+          "item": "Black lung (pneumoconiosis)",
+          "description": "Coal workers' pneumoconiosis results from years of inhaling fine coal dust, which accumulates in the lungs and destroys tissue. Symptoms progress from chronic cough and shortness of breath to complete respiratory disability. By the time a miner had worked 15 to 20 years underground, some degree of black lung was virtually certain. Companies denied the condition existed, attributing symptoms to asthma or tuberculosis. The disease was not recognized by federal law until 1969, leaving generations of disabled miners without compensation.",
+          "source": "Eller, 'Miners, Millhands, and Mountaineers,' pp. 220-224"
+        },
+        {
+          "item": "Mine accidents and fatalities",
+          "description": "Between 1890 and 1930, coal mining was the deadliest occupation in America. West Virginia's mines alone killed over 2,000 men in the decade 1900-1910. Roof falls were the most common cause of death, followed by explosions, haulage accidents, and electrocution after mechanization began. The Monongah disaster of 1907 killed 362 miners in a single explosion — the worst mining disaster in American history. Most families in a long-established camp had lost at least one relative underground.",
+          "source": "Corbin, 'Life, Work, and Rebellion in the Coal Fields,' pp. 35-42"
+        },
+        {
+          "item": "Company doctor system",
+          "description": "A company-employed physician served the camp, with a monthly fee of $1 to $2 per family deducted from wages — whether or not the family used his services. The doctor's quality varied enormously; some were competent and devoted, others were barely trained and rarely sober. The company doctor also served as gatekeeper, certifying whether a man was fit to work and whether an injury merited lost-time payment. In many camps he was the only medical professional within 15 miles.",
+          "source": "Shifflett, 'Coal Towns,' pp. 102-108"
+        },
+        {
+          "item": "Waterborne disease and sanitation",
+          "description": "Coal camps typically drew water from the same creeks that received mine drainage and outhouse runoff. Typhoid fever was endemic. A 1912 U.S. Public Health Service survey of coal camps in West Virginia found typhoid rates three to five times the national average. Outdoor privies lined the creek banks in many camps, and the water supply ran directly downstream. Indoor plumbing and sewage systems were rare before the 1920s and absent in many camps into the 1940s.",
+          "source": "Shifflett, 'Coal Towns,' pp. 110-115"
+        },
+        {
+          "item": "No workers' compensation",
+          "description": "Most Appalachian coal-producing states had no workers' compensation law until after 1910, and enforcement was weak for decades thereafter. A miner killed or permanently disabled in the mine left his family with no income, no home (eviction followed loss of employment), and no legal recourse. Widows took in boarders, sent children to work, or left the camp entirely. Fraternal organizations and the United Mine Workers provided some death benefits to members, but coverage was far from universal.",
+          "source": "Corbin, 'Life, Work, and Rebellion in the Coal Fields,' pp. 43-48"
+        }
+      ]
+    },
+    "transportation": {
+      "narrative": "The coal camp existed in a narrow hollow, often accessible only by the railroad spur that carried coal out of the mine. The mine mouth stood at one end of the hollow, the houses strung along the single road that followed the creek, and the world beyond was reached by rail or by a rough track climbing out of the valley. Walking was the primary mode of movement within the camp — from house to mine mouth, from house to company store, from house to church. The railroad that served the mine also provided irregular passenger service to the nearest town, but the fare was another deduction from the budget of a family already stretched thin. The isolation was geographic, economic, and deliberate; a workforce that could not easily leave was a workforce that could not easily organize.",
+      "details": [
+        {
+          "item": "Hollow geography",
+          "description": "Coal camps were built in narrow Appalachian hollows — steep-sided valleys carved by small creeks, typically 200 to 500 feet wide at the floor. The mine portal opened into the hillside at one end, the company store and mine office sat near the entrance, and rows of houses climbed the hollow along a single unpaved road. The surrounding ridges rose 500 to 1,500 feet on both sides, creating a natural enclosure. Some hollows were so narrow that houses were built on only one side of the road.",
+          "source": "Shifflett, 'Coal Towns,' pp. 30-36"
+        },
+        {
+          "item": "Railroad as lifeline and barrier",
+          "description": "The coal-hauling railroad was often the only modern transportation link between the camp and the outside world. Branch lines and spurs penetrated deep into the mountains to reach individual mines. Passenger service was irregular — perhaps one or two mixed trains per day that carried both freight and passengers. The railroad also served as a barrier to entry: companies controlled access to the spur line, and during labor disputes they used their control of transportation to prevent union organizers from reaching the camps.",
+          "source": "Eller, 'Miners, Millhands, and Mountaineers,' pp. 136-142"
+        },
+        {
+          "item": "Extreme isolation",
+          "description": "Many coal camps were 10 to 30 miles from the nearest independent town, connected only by the railroad and a wagon road that might be impassable in wet weather. Some camps in southern West Virginia and eastern Kentucky were accessible only by rail or on foot along creek beds. This isolation was not accidental — it reinforced company control by making it difficult for miners to shop elsewhere, seek alternative employment, or contact labor organizers. A miner's entire world could be contained within a single hollow.",
+          "source": "Gaventa, 'Power and Powerlessness,' pp. 63-70"
+        }
+      ]
+    },
+    "communication": {
+      "narrative": "Information flowed through the coal camp along channels the company could monitor and, when it chose, control. The company store served as the informal gathering point where news was exchanged — who was injured, which seam was working, what price coal was fetching. The mail came through the company post office. The company-supported church delivered sermons that rarely challenged the social order. Union organizers, when they could penetrate the camp's perimeter, brought newspapers, pamphlets, and an alternative account of the world. After 1890, the United Mine Workers Journal circulated among members. Letters connected immigrant miners to families in Hungary, Italy, and Poland, often written by the one literate man in the ethnic enclave. Radio arrived in the 1920s and broke the information monopoly in ways the companies could not control.",
+      "details": [
+        {
+          "item": "Company store as information hub",
+          "description": "The company store was more than a retail outlet — it was the social center of the camp. Men gathered on its porch or inside around the potbellied stove to exchange news, gossip, and grievances. The store bulletin board carried company announcements, work schedules, and notices. Because the store was company property, management could monitor conversations and identify troublemakers. The storekeeper often served as an informal intelligence agent for the mine superintendent.",
+          "source": "Shifflett, 'Coal Towns,' pp. 75-78"
+        },
+        {
+          "item": "Union press and organizers",
+          "description": "The United Mine Workers Journal, published from 1890, was the primary alternative information source for organized miners. Copies were passed from hand to hand and read aloud in homes and at meetings. Union organizers who entered the camps — often at personal risk, as companies employed armed guards and used trespass laws to keep them out — brought not only pamphlets but direct oral testimony about conditions and wages at other operations. During the Paint Creek-Cabin Creek conflict and the Mine Wars era, the suppression of union communication was a primary company tactic.",
+          "source": "Corbin, 'Life, Work, and Rebellion in the Coal Fields,' pp. 55-62"
+        },
+        {
+          "item": "Immigrant letters",
+          "description": "Southeastern European immigrants maintained correspondence with families in their home countries, often relying on a literate countryman to write letters in Hungarian, Italian, Polish, or Slovak. These letters served as both emotional lifeline and recruitment tool — descriptions of wages and conditions in the coalfields drew additional immigrants through chain migration. Letters were read aloud in boarding houses to groups of men from the same village. Some immigrant communities maintained their own ethnic fraternal lodges with their own newsletters.",
+          "source": "Trotter, 'Coal, Class, and Color,' pp. 23-28"
+        },
+        {
+          "item": "Church as controlled communication",
+          "description": "Company-supported churches — the company donated the land, built the structure, and sometimes paid the minister's salary — provided spiritual community but also served as instruments of social control. Ministers who preached patience and obedience were rewarded; those who supported labor organizing were replaced. Independent churches, particularly in Black communities, operated outside company control and became centers of autonomous communication and mutual aid.",
+          "source": "Gaventa, 'Power and Powerlessness,' pp. 75-80"
+        }
+      ]
+    },
+    "entertainment_and_social_life": {
+      "narrative": "Social life in the coal camp was shaped by the hollow's geography, the company's oversight, and the fierce human need for community in a hard place. Church was the anchor — Baptist, Methodist, Holiness, and Pentecostal congregations for white families, separate churches for Black miners and their families, Catholic parishes for Italian and Eastern European immigrants. Music was everywhere: on front porches after supper, at square dances in the schoolhouse, at union gatherings — the banjo, fiddle, and guitar traditions of Appalachia cross-pollinated in the coal camps with Black blues and immigrant folk music, making the camps one of the seedbeds of country and early blues music. Company-organized baseball teams played camps against each other. Men hunted squirrel, rabbit, and deer in the mountains above the hollow. And moonshine, distilled in the hills beyond the company's reach, was the universal solvent for the pressures of underground work.",
+      "details": [
+        {
+          "item": "Church life (segregated)",
+          "description": "Churches were the primary social institution outside company control, though company-supported churches were common. White families attended Baptist, Methodist, Holiness, or Pentecostal services; Black families organized their own Baptist and AME congregations, often in smaller buildings at the far end of camp. Catholic parishes served Italian, Hungarian, and Polish immigrants. Church provided not only worship but fellowship, mutual aid, and a space for conversation beyond the company's direct surveillance. Revival meetings drew people from multiple camps.",
+          "source": "Shifflett, 'Coal Towns,' pp. 130-138"
+        },
+        {
+          "item": "Front-porch music",
+          "description": "The front porch was the stage for Appalachian musical culture. After supper and on weekends, miners and their families gathered to play banjo, fiddle, guitar, and autoharp — performing ballads, dance tunes, and hymns passed down through generations. In the multi-ethnic coal camps, Appalachian string band music encountered African American blues and work songs, creating fertile ground for the musical fusions that would become commercial country and early rhythm-and-blues. Many early recording artists of the 1920s — Dock Boggs, Frank Hutchison, Dick Justice — were coal miners or miners' children.",
+          "source": "Eller, 'Miners, Millhands, and Mountaineers,' pp. 230-234"
+        },
+        {
+          "item": "Baseball and company recreation",
+          "description": "Companies organized baseball teams as a morale measure and a source of camp identity. Teams played against neighboring camps, drawing crowds from across the hollow and generating fierce local pride. Some operators built baseball diamonds and funded equipment. African American teams played in separate leagues. Beyond company-organized recreation, men fished in the creeks, hunted in the mountains, pitched horseshoes, and played cards. Children had the run of the hollow, swimming in the creek in summer and sledding the hillsides in winter.",
+          "source": "Shifflett, 'Coal Towns,' pp. 140-145"
+        },
+        {
+          "item": "Moonshine and social drinking",
+          "description": "Whiskey distilled in the mountains above the camp — corn liquor, white lightning, moonshine — was produced, sold, and consumed throughout the coalfields despite prohibition efforts by both companies and county authorities. Many camps were officially 'dry' by company rule, but enforcement was selective. Moonshine served as social lubricant, painkiller, and trade commodity. Its production was an act of economic independence in a system designed to eliminate alternatives to the company store.",
+          "source": "Corbin, 'Life, Work, and Rebellion in the Coal Fields,' pp. 105-110"
+        },
+        {
+          "item": "Union meetings as social events",
+          "description": "Where the United Mine Workers gained a foothold, union meetings served as social gatherings, political education, and community building — especially during organizing campaigns and strikes. Meetings were held in the woods, in private homes, or in rented halls outside the camp boundaries, often at night to avoid company surveillance. Singing was a central feature of union culture; labor songs adapted hymn tunes and mountain melodies. For many miners, the union was their first experience of democratic participation.",
+          "source": "Gaventa, 'Power and Powerlessness,' pp. 85-92"
+        }
+      ]
+    },
+    "household_goods": {
+      "narrative": "The household goods of a coal camp family were few, functional, and constrained by the limits of company housing and company wages. The company provided a coal-burning stove and basic furniture — iron bedsteads, a table, and straight-backed chairs — which remained company property and stayed with the house. Everything else a family owned, they purchased from the company store on credit or brought with them when they arrived. The miner's personal equipment — his carbide lamp, his lunch bucket, his pick — were the tools of a trade that could kill him. A woman's possessions centered on the domestic work that consumed her days: the sewing basket, the canning jars, the washtub. The family Bible, a quilt, and possibly a fiddle or banjo represented the slender thread of personal identity in a system designed to reduce everything to the company's ledger.",
+      "details": [
+        {
+          "item": "Company-provided furnishings",
+          "description": "The company typically supplied a coal-burning heating stove, a cookstove (or a combination unit), iron bedsteads, a plank table, and a few chairs. These items were company property, inventoried and inspected. They stayed with the house when a family moved or was evicted. Quality was minimal — the cheapest cast iron, the roughest lumber. Families supplemented with their own furniture when they could afford it, but most possessions were purchased on credit at the company store.",
+          "source": "Shifflett, 'Coal Towns,' pp. 56-60"
+        },
+        {
+          "item": "Miner's lunch bucket and carbide lamp",
+          "description": "The three-tier tin lunch pail — bottom section for water or coffee, middle section for the main meal (beans, cornbread, a piece of meat), top section for a dessert or biscuit — was the miner's daily companion underground. The carbide lamp, mounted on his cap, was his only source of light in the darkness of the mine. Both items were purchased from the company store. A miner's widow sometimes kept his lunch bucket and lamp as the most personal artifacts of his working life.",
+          "source": "Corbin, 'Life, Work, and Rebellion in the Coal Fields,' pp. 28-34"
+        },
+        {
+          "item": "Quilts and Bible",
+          "description": "Quilts were among the most personal possessions a coal camp family owned — made by women from scraps of worn-out clothing and bolt ends, each one a record of the fabrics that had passed through the household. Patterns were handed down through generations: wedding ring, log cabin, bear's paw, nine-patch. The family Bible, often the only book in the house, recorded births, marriages, and deaths in handwritten entries on its front pages — the family's only genealogical record.",
+          "source": "Eller, 'Miners, Millhands, and Mountaineers,' pp. 198-200"
+        },
+        {
+          "item": "Kerosene lamps and domestic tools",
+          "description": "Kerosene lamps provided evening light; electricity did not reach most coal camps until the 1920s or later. The washtub, washboard, flatiron, sewing basket, and canning jars were the essential tools of a woman's unrelenting domestic labor. A cast-iron kettle for boiling wash water over an outdoor fire was standard equipment. Women's work in a coal camp was as physically demanding as the mine itself — hauling water, scrubbing coal-blackened clothes, canning food, tending children, gardening on steep hillsides, and keeping a poorly built house functional.",
+          "source": "Shifflett, 'Coal Towns,' pp. 88-95"
+        },
+        {
+          "item": "Musical instruments",
+          "description": "A fiddle, banjo, guitar, or autoharp was a prized family possession, often the single item of discretionary value in the household. Instruments were handed down through families, traded, or occasionally ordered from a catalog. A man who could play was a social asset — welcome on any porch, in demand at dances and church, and a source of identity beyond his role as a coal loader. Some instruments survived when nothing else from a coal camp family's material life endured.",
+          "source": "Eller, 'Miners, Millhands, and Mountaineers,' pp. 232-235"
+        }
+      ]
+    }
+  },
+  "sensory_snapshot": "The hollow lies in blue shadow before dawn, the ridgelines sharp against a pale sky. Fog sits on the creek like a held breath. The coal tipple rises at the head of the hollow, a dark geometry of timbers and chutes, silent now but for the tick of cooling metal. Below it, identical frame houses descend in rows along the unpaved road, their tin roofs catching the first gray light, each with a thread of coal smoke rising from its stovepipe into the still air. The smell is coal — not burning, but the cold mineral presence of it in the dust, the creek water, the black smear on every porch step. A railroad spur runs along the creek bed, a line of empty hopper cars waiting. The company store, larger than any house, stands near the mine entrance with its porch and its dark windows. Behind the houses, the mountainside goes straight up into oak and laurel. The road ends at the mine mouth. There is no other way out of this hollow except the way in.",
+  "narrative_hooks": [
+    "A miner's pay envelope — already reduced by deductions for rent, coal, doctor, store credit, and tool sharpening — might contain almost nothing by payday; the ledger at the company store was the real accounting of his labor.",
+    "The three-tier lunch bucket, dented and coal-blackened, carried underground every shift, is sometimes the only physical artifact that survives from a coal camp family's daily life.",
+    "Front-porch music in the coal camps — where Appalachian fiddle tunes, African American blues, and immigrant folk songs mixed in the evening air — was one of the seedbeds of American popular music.",
+    "A family evicted during a strike had their possessions set on the road in the rain; losing the job meant losing the house, the store credit, the doctor, and the only community they knew.",
+    "The handwritten entries in a coal camp family's Bible — births, marriages, deaths, some with no other record — may be the only documentation of lives lived entirely within the company's shadow.",
+    "Colored row at the far end of the hollow, across the creek or beyond the coke ovens, was home to Black families recruited from Alabama and Mississippi who built their own churches, their own music, and their own community within the confines of the company's segregated geography."
+  ],
+  "source_references": [
+    "Eller, Ronald D. 'Miners, Millhands, and Mountaineers: Industrialization of the Appalachian South, 1880-1930.' University of Tennessee Press, 1982.",
+    "Corbin, David Alan. 'Life, Work, and Rebellion in the Coal Fields: The Southern West Virginia Miners, 1880-1922.' University of Illinois Press, 1981.",
+    "Shifflett, Crandall A. 'Coal Towns: Life, Work, and Culture in Company Towns of Southern Appalachia, 1880-1960.' University of Tennessee Press, 1991.",
+    "Trotter, Joe William Jr. 'Coal, Class, and Color: Blacks in Southern West Virginia, 1915-1932.' University of Illinois Press, 1990.",
+    "Gaventa, John. 'Power and Powerlessness: Quiescence and Rebellion in an Appalachian Valley.' University of Illinois Press, 1980."
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "_purpose": "Regional migration trigger — Appalachian families from eastern Kentucky, West Virginia, and southeastern Ohio hill country migrating to Cincinnati, Dayton, Columbus, Akron, and other Ohio industrial cities for factory work. Supplements the national appalachian_out_migration trigger with Ohio-specific destinations, Ohio-specific industries (auto plants, rubber factories, steel mills, defense plants), and the specific transportation corridors (US Route 23 and US Route 25 — the 'Hillbilly Highway') that channeled this migration along predictable paths from the 1900s through the 1970s.",
+  "migration_id": "oh_appalachian_to_river_cities",
+  "display_name": "Appalachian Migration to Ohio River and Industrial Cities",
+  "short_description": "Between 1900 and 1970, hundreds of thousands of Appalachian families from the coal hollows of eastern Kentucky, the creek beds of West Virginia, and the hill farms of southeastern Ohio followed US Routes 23 and 25 north to Cincinnati, Dayton, Columbus, Akron, and other Ohio factory cities. They came in waves — a pre-World War I trickle, a steady 1920s-30s flow, a massive WWII defense-plant surge, and a final 1950s-60s exodus driven by coal mechanization. Locals called it the 'Hillbilly Highway.' The families who traveled it called it necessity.",
+  "era": "1900-1970",
+  "estimated_scale": "Estimates range from 500,000 to over one million Appalachian migrants to Ohio between 1940 and 1970 alone. The 1960 census showed that Hamilton County (Cincinnati) had more Kentucky-born residents than any county in Kentucky except Jefferson (Louisville). Montgomery County (Dayton) and Franklin County (Columbus) showed similar surges. Eastern Kentucky counties — Breathitt, Wolfe, Owsley, Magoffin, Floyd, Pike — lost 30-50% of their populations between 1940 and 1970.",
+  "involuntary": false,
+  "migration_class": "economic",
+  "coercion_note": "While legally voluntary, this migration was driven by the collapse of the coal economy through mechanization, the failure of hill farming on depleted soils, and the absence of any alternative employment in origin counties. When the continuous miner replaced hand-loading and the coal trucks replaced railroad cars, there was no 'choice' to stay — there was simply nothing to stay for. Federal poverty programs in the 1960s documented Appalachian Kentucky and West Virginia as the poorest regions in America.",
+  "regional_scope": "Eastern Kentucky coalfield and hill counties, southern West Virginia coalfield counties, and southeastern Ohio hill counties to Ohio River cities (Cincinnati, Portsmouth, Ironton) and inland industrial cities (Dayton, Columbus, Springfield, Akron, Canton, Youngstown). Migration distances ranged from 80 miles (southeastern Ohio to Columbus) to 250+ miles (Pike County, Kentucky to Akron).",
+  "trigger_type": "regional",
+  "parent_trigger_ref": "appalachian_out_migration",
+  "phases": [
+    {
+      "phase_id": "pre_wwi_trickle",
+      "phase_name": "Pre-World War I Trickle",
+      "date_range": "1900-1917",
+      "description": "The earliest Appalachian migrants to Ohio cities were young men seeking seasonal or temporary industrial work — steel mills along the Ohio River in Ironton and Portsmouth, railroad shops in Columbus, and early manufacturing in Cincinnati. Most intended to return. Some did. But the ones who stayed became the kinship anchors for everything that followed. Cincinnati's riverfront wards and the West End began receiving Kentucky families as early as the 1890s. This phase was small in scale — hundreds, not thousands — but it established the family networks and boarding arrangements that would channel the later waves."
+    },
+    {
+      "phase_id": "interwar_steady_flow",
+      "phase_name": "Interwar Steady Flow",
+      "date_range": "1920-1941",
+      "description": "Coal mine closures in the 1920s, the Great Depression's devastation of Appalachian subsistence economies, and the growth of Ohio auto and parts manufacturing created a sustained migration. GM's plants in Dayton and Moraine, Delco and Frigidaire operations, and Cincinnati's diverse manufacturing base drew families who could no longer hold on in the hollows. The 1937 Ohio River flood — which devastated river towns from Portsmouth to Cincinnati — paradoxically drew more Appalachian labor for reconstruction. US Route 25 through Lexington and US Route 23 through Pikeville and Portsmouth became established migration corridors. Greyhound and regional bus lines carried families who could not afford automobiles."
+    },
+    {
+      "phase_id": "wwii_surge_and_postwar_exodus",
+      "phase_name": "WWII Surge and Postwar Mechanization Exodus",
+      "date_range": "1941-1970",
+      "description": "World War II defense production created an insatiable demand for factory labor. Wright-Patterson Air Force Base and Wright Aeronautical in Dayton, Cincinnati's machine tool and ordnance plants, Akron's rubber factories producing military tires and equipment, and the massive Ravenna Arsenal in Portage County all recruited from Appalachia. After the war, returning veterans who had seen the world outside the hollows did not go back. Then the continuous miner arrived in the late 1940s — a machine that did the work of fifteen men — and the coal industry shed hundreds of thousands of jobs across Appalachian Kentucky and West Virginia in a single decade. The 1950s and 1960s were the peak of the exodus. Entire communities emptied. Breathitt County, Kentucky lost 36% of its population between 1950 and 1970. The migrants filled Cincinnati's Over-the-Rhine, Lower Price Hill, and Camp Washington; Dayton's East Side and West Side factory neighborhoods; Columbus's Hilltop and Linden districts; and Akron's Kenmore and South Akron neighborhoods."
+    }
+  ],
+  "push_factors": [
+    {
+      "factor_id": "coal_mechanization",
+      "factor": "Coal mine mechanization eliminating hand-loading jobs",
+      "severity": 5,
+      "description": "The continuous mining machine, introduced in the late 1940s and widespread by the mid-1950s, replaced hand-loading with mechanical extraction. A single continuous miner did the work of fifteen hand-loaders. Eastern Kentucky coal employment dropped from 63,000 in 1948 to 18,000 by 1960. Men who had spent twenty years underground — the only skill their counties offered — were suddenly unemployable. The mechanization was not gradual; entire mines converted within months. Families that had depended on coal wages for two or three generations had no fallback.",
+      "date_range": "1948-1965",
+      "regional_scope": "Eastern Kentucky: Pike, Floyd, Harlan, Letcher, Perry, Knott, Breathitt, Leslie, Bell counties. Southern West Virginia: McDowell, Mingo, Logan, Boone, Raleigh counties.",
+      "narrative_hook": "The company brought in the continuous miner at {mine_name} in {county} in {year}, and by the end of the month half the crew was laid off. {ancestor_name} had loaded coal by hand for {years} years — it was the only work the county had. The machine didn't need {pronoun_object}. Nobody in {county} needed {pronoun_object}. A cousin in {destination_city} said the plant was hiring."
+    },
+    {
+      "factor_id": "mine_closures_depletion",
+      "factor": "Mine closures from seam depletion and market collapse",
+      "severity": 4,
+      "description": "Beyond mechanization, many Appalachian coal seams were simply playing out by mid-century. The thick, easily accessible seams that had made the coalfields profitable were exhausted. What remained was thin-seam coal that cost more to extract. When demand dropped — as railroads switched from coal to diesel in the 1950s, and natural gas displaced coal for home heating — marginal mines closed permanently. Company towns that had existed only to serve the mine emptied within months of closure. Families who lived in company housing were evicted when the mine shut down.",
+      "date_range": "1930-1965",
+      "regional_scope": "Eastern Kentucky and southern West Virginia coalfield counties",
+      "narrative_hook": "The {mine_name} tipple in {county} had been running since {ancestor_name}'s grandfather went underground. When the company posted the closure notice in {year}, the seam was down to thirty inches and the coal wasn't worth the cost of getting it out. The company houses emptied in weeks. There was nothing left in {county} to keep anyone."
+    },
+    {
+      "factor_id": "hill_farm_failure",
+      "factor": "Subsistence hill farm failure on depleted soils",
+      "severity": 3,
+      "description": "Southeastern Ohio and eastern Kentucky hill farms had never been productive by midwestern standards — steep terrain, thin soils, short growing seasons. Generations of corn and tobacco cultivation on hillside plots exhausted what fertility existed. Farm subdivision among large families (six to ten children) made each parcel smaller and less viable. By the 1930s, many hill farms could not feed a family even in good years. The 1930 and 1940 census returns for southeastern Ohio hill counties (Vinton, Meigs, Athens, Gallia, Jackson) show 'farmer' as the occupation alongside marginal acreage that could not have produced a living wage.",
+      "date_range": "1900-1960",
+      "regional_scope": "Southeastern Ohio: Vinton, Meigs, Athens, Gallia, Jackson, Hocking, Morgan counties. Eastern Kentucky hill counties beyond the coalfields.",
+      "narrative_hook": "The {surname} farm in {county} was {acres} acres, mostly hillside so steep you couldn't plow it with a mule. {ancestor_name} grew corn and tobacco on the creek bottom and ran a few hogs in what was left of the timber. It fed the family in good years. In bad years it didn't. When {relative_name} wrote from {destination_city} that the factory paid ${wage} a week, the arithmetic was simple."
+    },
+    {
+      "factor_id": "flooding_disasters",
+      "factor": "Catastrophic flooding from deforested watersheds and strip mining",
+      "severity": 4,
+      "description": "Decades of logging and strip mining removed forest cover from Appalachian watersheds. When heavy rains came, there was nothing to hold the water. Flash floods ripped through narrow hollows with devastating regularity. The 1927 floods in eastern Kentucky, the 1937 Ohio River flood (which inundated Cincinnati, Portsmouth, and every river town in between), the 1957 floods in Harlan and Perry counties, and the 1963 floods across eastern Kentucky each displaced thousands of families. Many never returned. Flooding was not merely a natural disaster — it was an industrial consequence of the extraction economy, and it drove families out of hollows that had been habitable for generations.",
+      "date_range": "1920-1965",
+      "regional_scope": "Eastern Kentucky, southern West Virginia, and Ohio River corridor",
+      "narrative_hook": "The flood of {year} came down the creek in {county} and took everything below the second step — the furniture, the garden, the chickens, the root cellar full of canned goods. {ancestor_name} had rebuilt after the last flood and the one before that. This time there was nothing left to rebuild with. {relative_name} in {destination_city} said come on up, there's room and the plant is hiring."
+    },
+    {
+      "factor_id": "no_public_services",
+      "factor": "Absence of schools, medical care, and public infrastructure",
+      "severity": 3,
+      "description": "Appalachian counties in Kentucky and West Virginia ranked at the bottom of every national measure of public services. Schools were one-room buildings with untrained teachers and five-month terms. The nearest hospital might be fifty miles over mountain roads. Roads themselves were unpaved and impassable in winter. When families weighed staying against leaving, the prospect of schools for their children and a doctor when someone was sick mattered as much as wages. President Kennedy's visit to eastern Kentucky in 1960 and the subsequent War on Poverty documented conditions that had persisted for decades.",
+      "date_range": "1900-1965",
+      "regional_scope": "Eastern Kentucky, southern West Virginia, southeastern Ohio hill counties",
+      "narrative_hook": "{ancestor_name} might have stayed in {county} — the pay wasn't everything. But the school ran five months a year, the nearest doctor was in {town_name}, and when {child_name} got sick with {illness} there was nobody to help. In {destination_city} there were schools that ran nine months, a hospital, and a doctor who didn't charge a day's wages to look at a child."
+    }
+  ],
+  "pull_factors": [
+    {
+      "factor_id": "auto_manufacturing",
+      "factor": "Auto plants and parts manufacturing in Dayton and the Miami Valley",
+      "description": "General Motors' operations in Dayton and Moraine — including Delco (later Delco-Moraine), Frigidaire, Inland Manufacturing, and GM assembly — employed tens of thousands of workers. Chrysler's Airtemp division, Ford suppliers, and hundreds of smaller parts manufacturers throughout the Miami Valley created an ecosystem of factory jobs that did not require prior industrial experience. A man who had loaded coal by hand could learn to run a press or work an assembly line. Starting wages at GM in the 1950s were $1.65-$2.25 per hour — more than most coal miners had ever earned.",
+      "narrative_hook": "{ancestor_name} hired on at {plant_name} in {destination_city} in {year}. The foreman didn't ask about experience — there was a line of men from Kentucky at the hiring gate every Monday morning and the plant needed hands. The first paycheck was ${amount}. It was more money than the mine in {county} had paid in a month."
+    },
+    {
+      "factor_id": "rubber_factories_akron",
+      "factor": "Rubber industry in Akron",
+      "description": "Goodyear, Firestone, B.F. Goodrich, and General Tire made Akron the 'Rubber Capital of the World.' The rubber factories employed over 60,000 workers at peak production. The work was hot, smelly, and repetitive, but it paid union wages after the CIO organized the rubber workers in the 1930s. Akron drew heavily from West Virginia and southeastern Ohio — families who came up US Route 21 and State Route 8. The city's South Akron and Kenmore neighborhoods developed identifiable Appalachian enclaves.",
+      "narrative_hook": "Akron smelled like burning rubber from ten miles out. {ancestor_name} walked into {plant_name} in {year} and the heat hit like opening an oven door. But Goodyear was paying ${wage} an hour and the union meant nobody could fire you for looking at the foreman wrong. In {county}, the mine boss could fire a man for breathing too loud."
+    },
+    {
+      "factor_id": "steel_mills_ohio_river",
+      "factor": "Steel mills and iron furnaces along the Ohio River",
+      "description": "The Ohio River corridor from Ironton and Portsmouth north to Steubenville and Weirton supported steel mills, blast furnaces, rolling mills, and ancillary industries that employed thousands. Armco Steel in Middletown, Republic Steel in Canton, and U.S. Steel operations throughout the Mahoning Valley offered industrial wages to Appalachian migrants who were already near the Ohio River. For families from the Kentucky side, Cincinnati and the Ohio River towns were the nearest industrial employment — closer than Detroit or Chicago, reachable by bus in a single day.",
+      "narrative_hook": "The steel mill in {destination_city} was visible from across the river — the glow of the furnaces at night, the smoke rising above the valley like the mountains were on fire. {ancestor_name} crossed the river from {origin} in {year} and hired on at {mill_name}. The work was as dangerous as the mine, but the pay was better and {pronoun_subject} could see the sky."
+    },
+    {
+      "factor_id": "wwii_defense_plants",
+      "factor": "World War II defense production creating massive labor demand",
+      "description": "Ohio's defense plants needed workers desperately after 1941. Wright-Patterson Air Force Base and Wright Aeronautical in Dayton, Cincinnati Milling Machine (which produced artillery), the Cincinnati Ordnance District, Ravenna Arsenal in Portage County (which manufactured ammunition), and dozens of smaller operations converted to war production. The War Manpower Commission actively recruited from Appalachia. Women as well as men were hired. Defense wages — boosted by overtime and premium pay — were the highest industrial wages Appalachian migrants had ever seen. Many families that came for the war stayed for the peace.",
+      "narrative_hook": "In {year}, the war plant in {destination_city} was running three shifts and couldn't fill them. {ancestor_name} came up from {county} because the government was hiring anybody who could stand on their feet for eight hours. The pay was ${wage} an hour with overtime — war wages. When the war ended, {pronoun_subject} didn't go back. The hollow had nothing the factory hadn't already replaced."
+    },
+    {
+      "factor_id": "kinship_networks",
+      "factor": "Established kinship networks in destination cities",
+      "description": "By the 1940s, every hollow in eastern Kentucky and southern West Virginia had at least one family member in an Ohio city. These kin provided housing (migrants slept on couches, in spare rooms, and in basements until they found their own apartments), job information (a cousin at the plant could put in a word with the foreman), and cultural continuity. Appalachian neighborhoods in Cincinnati, Dayton, and Columbus were organized by county of origin — families from Breathitt County in one block, families from Floyd County in the next. Saturday night gatherings, Sunday church, and Friday payday recreated hollow-community rhythms in an urban setting.",
+      "narrative_hook": "{relative_name} had been in {destination_city} since {earlier_year} and knew the foreman at {plant_name}. When {ancestor_name} got off the bus at the {station_name} depot, {relative_name} was waiting with a place to sleep and a promise that the plant was hiring. Half of {origin_county} was already in {destination_city} by then. It was the hollow transplanted, with paychecks."
+    }
+  ],
+  "affected_counties": [
+    "Pike KY", "Floyd KY", "Harlan KY", "Letcher KY", "Perry KY",
+    "Knott KY", "Breathitt KY", "Wolfe KY", "Owsley KY", "Magoffin KY",
+    "Leslie KY", "Bell KY", "Clay KY", "Lee KY", "Johnson KY",
+    "Martin KY", "Lawrence KY", "Elliott KY", "Morgan KY", "Menifee KY",
+    "McDowell WV", "Mingo WV", "Logan WV", "Boone WV", "Raleigh WV",
+    "Wyoming WV", "Fayette WV", "Kanawha WV",
+    "Vinton OH", "Meigs OH", "Gallia OH", "Jackson OH", "Athens OH",
+    "Hocking OH", "Morgan OH", "Pike OH", "Scioto OH", "Lawrence OH",
+    "Adams OH"
+  ],
+  "transportation": {
+    "description": "The primary migration corridors were US Route 23 (from Pikeville, Kentucky through Portsmouth, Ohio to Columbus) and US Route 25 (from eastern Kentucky through Lexington to Cincinnati and Dayton). These two highways — which Appalachian migrants called the 'Hillbilly Highway' — carried more families north than any railroad or bus line. Greyhound and Southeastern Greyhound Lines served the corridor through the 1940s and 1950s for families who could not yet afford cars. By the 1950s, most families drove — overloaded cars and trucks with mattresses tied to the roof, heading north on two-lane roads that wound through the mountains before straightening out in the Ohio flatlands. The journey from Pike County, Kentucky to Cincinnati was roughly 200 miles; to Dayton, 250; to Columbus, 180 via Portsmouth.",
+    "route_refs": ["intercity_bus"],
+    "route_notes": "US Route 23 was the dominant corridor — running from the coalfields of Pike and Floyd counties through Prestonsburg, Paintsville, and Ashland to Portsmouth, then north through Chillicothe to Columbus. US Route 25 ran from the Kentucky interior through Lexington, Georgetown, and Covington/Newport into Cincinnati. US Route 52 followed the Ohio River from Huntington, WV through Ironton and Portsmouth. After 1970, Interstate 71 (Cincinnati to Columbus) and Interstate 75 (Cincinnati to Dayton) replaced the old routes.",
+    "what_they_carried": "Everything a family owned that would fit in a car or truck — clothing, quilts, cookware, canned goods, a few tools. Musical instruments (guitar, banjo, fiddle) traveled when furniture did not. The family Bible. Photographs. Children. Some families loaded everything onto a flatbed truck; others made multiple trips. The poorest arrived with a suitcase and whatever they could carry on the Greyhound.",
+    "what_they_left_behind": "Mountain homesteads — often log or frame houses on land that had been in the family for generations. Family cemeteries on hillsides, inaccessible except on foot. Church communities (Baptist, Holiness, Church of God). Gardens, orchting patches, the seasonal rhythms of hollow life. Many families maintained ownership of the home place for decades after leaving — returning for holidays, Decoration Day, and family reunions. The houses slowly fell in.",
+    "cost_of_travel": "Greyhound fare from Pikeville to Cincinnati: approximately $8-$12 in the 1950s. Gasoline for a car trip: $3-$5 (at $0.25-$0.30 per gallon for a 200-mile trip). The financial barrier to migration was not travel cost but the cost of establishing a household at the destination — first month's rent, food until the first paycheck, work clothes.",
+    "seasonal_departure_pattern": "Departures occurred year-round but peaked in early spring (March-April) when road conditions improved and factory hiring picked up, and again in early fall (September-October). Some families timed departures to coincide with the start of school in destination cities, wanting children enrolled before the term was well underway. Defense plant migration during WWII was continuous and not seasonal."
+  },
+  "destination_refs": ["cincinnati", "dayton", "columbus_oh", "akron", "portsmouth_oh", "springfield_oh"],
+  "occupation_refs": ["factory_worker", "auto_worker", "steelworker", "rubber_worker", "defense_worker"],
+  "record_implications": [
+    {
+      "record_type": "Factory employment records",
+      "description": "GM, Delco, Frigidaire, and Chrysler personnel files document workers by name, hire date, job classification, previous residence, and sometimes next of kin. Goodyear, Firestone, and B.F. Goodrich maintained similar records in Akron. These records often note 'last previous address' in an Appalachian county — direct documentation of the migration.",
+      "where_to_find": "Wright State University Special Collections (Dayton area industries), University of Akron Archival Services (rubber industry records), Ohio History Connection (Columbus). Some GM records at the Benson Ford Research Center, Dearborn, MI. Access varies — some corporate records remain restricted."
+    },
+    {
+      "record_type": "Census bridge documentation",
+      "description": "The genealogical fingerprint: an ancestor appears as 'coal miner' or 'farmer' in a Kentucky or West Virginia county in one census, then as 'factory worker,' 'auto assembler,' or 'rubber worker' in an Ohio city in the next census. The 1940 census is particularly valuable because it asks 'place of residence five years ago' — documenting exactly where a family was in 1935.",
+      "where_to_find": "Census records on FamilySearch.org, Ancestry.com, and NARA. The 1940 census 'place of residence in 1935' question provides migration documentation unavailable in earlier censuses."
+    },
+    {
+      "record_type": "School enrollment records",
+      "description": "Ohio public school enrollment forms typically recorded the child's name, date of birth, parent or guardian, address, and previous school attended. A child enrolled at a Cincinnati or Dayton school whose previous school was in Breathitt County or Pike County documents the family's migration with specificity. Schools in heavily Appalachian neighborhoods sometimes noted 'transferred from Kentucky' or 'transferred from West Virginia.'",
+      "where_to_find": "Cincinnati Public Schools records at the Cincinnati History Library and Archives. Dayton Public Schools records at the Dayton Metro Library Local History Collection. Columbus Public Schools records at the Columbus Metropolitan Library. Access and survival vary by district."
+    },
+    {
+      "record_type": "Church transfer letters",
+      "description": "Baptist, Holiness, and Church of God congregations maintained membership rolls and issued transfer letters when families moved. A letter of dismissal from a mountain church to a Cincinnati or Dayton church documents both the departure date and the destination. Appalachian migrants often founded new congregations in Ohio cities rather than joining existing churches — the founding records of these congregations list charter members and their origins.",
+      "where_to_find": "Individual church records — check with active congregations. Southern Baptist Convention Historical Library and Archives, Nashville, TN. Some records at the American Baptist Historical Society. Holiness and Church of God records at the Dixon Pentecostal Research Center, Lee University, Cleveland, TN."
+    },
+    {
+      "record_type": "Urban Appalachian Council records",
+      "description": "The Urban Appalachian Council (UAC), founded in Cincinnati in 1974, documented the Appalachian migrant community through surveys, oral histories, and social service records. The UAC's records provide demographic data, community histories, and individual narratives of the migration experience that are unavailable elsewhere.",
+      "where_to_find": "Urban Appalachian Community Coalition records at the University of Cincinnati Archives and Rare Books Library. Additional UAC materials at the Cincinnati History Library and Archives."
+    }
+  ],
+  "counter_narratives": [
+    "Not all Appalachian migrants were desperately poor. Many were skilled miners, experienced mechanics, or small business owners who calculated that Ohio factory wages offered a better return than staying. The 'barefoot hillbilly' stereotype erases the agency and competence of families who made rational economic decisions in a collapsing regional economy.",
+    "Appalachian migration to Ohio paralleled the Black Great Migration to the same cities in the same decades — but the two streams occupied separate neighborhoods, separate churches, separate factories (or separate job classifications within the same factory), and separate narrative traditions. Both groups were economic refugees; both faced discrimination at the destination; both built durable communities. The parallel is important and the separation is important, and neither should erase the other.",
+    "The 'hillbilly' stigma that Appalachian migrants faced in Ohio cities was real — 'No Hillbillies' signs in rental listings, 'briar' as an epithet, assumptions of ignorance and backwardness — but it was qualitatively different from the racial discrimination faced by Black migrants. Appalachian whites could and did assimilate into the white mainstream within a generation in ways that were structurally unavailable to Black Americans. Conflating the two experiences obscures more than it illuminates.",
+    "Return migration was common and underreported. Many Appalachian families in Ohio maintained deep ties to the home county — returning for holidays, Decoration Day, family reunions, and eventually retirement. Some families oscillated between Ohio and Appalachia for years, following seasonal work or family obligations. The migration was not always a one-way trip, and the home place remained central to identity even for families who never moved back."
+  ],
+  "narrative_hooks": [
+    "In {year}, {ancestor_name} loaded the family into a {vehicle} and pointed it north on Route {route_number} out of {county}. The road climbed out of the hollow, over the ridge, and down into the flatlands where the factories were. Behind them was a house that had been in the {surname} family for {generations} generations. Ahead was a city where a cousin had already found work and said there was room.",
+    "The first thing {ancestor_name} noticed in {destination_city} was the noise — not the silence of the hollow broken by creek water and birdsong, but the constant industrial hum of a city that made things for a living. The second thing was the paycheck. After {years} years in the mines — or on a hill farm that never paid in cash — a factory wage of ${amount} a week felt like arriving in a different country.",
+    "By {year}, the {surname} family had been in {destination_city} long enough to have their own church (a storefront Baptist congregation on {street_name} where the preacher was from {origin_county}), their own grocery (which stocked cornmeal, pinto beans, and fatback), and their own name for what they were: not hillbillies, not briars, but people from home, making a living where the living could be made.",
+    "Half of {origin_county} ended up in {destination_city} — that's not exaggeration, that's census data. {ancestor_name} could walk three blocks from {pronoun_possessive} apartment and hear the same accents, eat the same food, and worship in the same tradition as if the hollow had picked itself up and set back down in Ohio. The geography changed. The people didn't."
+  ],
+  "source_references": [
+    {
+      "source_id": "berry_2000",
+      "citation": "Berry, Chad. Southern Migrants, Northern Exiles. Urbana: University of Illinois Press, 2000.",
+      "relevance": "The definitive scholarly study of Appalachian migration to midwestern cities, with extensive documentation of the Ohio corridor, push and pull factors, community formation, and cultural adaptation. Berry coined the framework that treats Appalachian out-migration as a diaspora rather than simple economic relocation."
+    },
+    {
+      "source_id": "obermiller_maloney_2002",
+      "citation": "Obermiller, Phillip J., and Michael E. Maloney, eds. Appalachia: Social Context Past and Present. 4th ed. Dubuque, IA: Kendall/Hunt Publishing, 2002.",
+      "relevance": "Collected essays on Appalachian social history with substantial coverage of urban Appalachian communities in Ohio cities, particularly Cincinnati. Includes demographic data, community profiles, and analysis of class and cultural identity among Appalachian migrants."
+    },
+    {
+      "source_id": "obermiller_wagner_tucker_2000",
+      "citation": "Obermiller, Phillip J., Thomas E. Wagner, and E. Bruce Tucker, eds. Appalachian Odyssey: Historical Perspectives on the Great Migration. Westport, CT: Praeger, 2000.",
+      "relevance": "Multi-author volume documenting the Appalachian out-migration with specific chapters on Ohio destinations, the 'Hillbilly Highway' transportation corridors, and the formation of urban Appalachian communities."
+    },
+    {
+      "source_id": "eller_2008",
+      "citation": "Eller, Ronald D. Uneven Ground: Appalachia Since 1945. Lexington: University Press of Kentucky, 2008.",
+      "relevance": "Documents the postwar economic collapse that drove the peak migration decades (1945-1970), including coal mechanization, the War on Poverty, and federal policies affecting Appalachian out-migration to Ohio and other destinations."
+    },
+    {
+      "source_id": "mccoy_watkins_1981",
+      "citation": "McCoy, Clyde B., and James S. Brown. 'Appalachian Migration to Midwestern Cities.' In The Invisible Minority: Urban Appalachians, edited by William W. Philliber and Clyde B. McCoy. Lexington: University Press of Kentucky, 1981.",
+      "relevance": "Pioneering quantitative study of Appalachian migration to Ohio cities, documenting migration streams from specific Kentucky and West Virginia counties to specific Ohio destinations. Provides demographic data on migration scale and timing."
+    },
+    {
+      "source_id": "borman_obermiller_1994",
+      "citation": "Borman, Kathryn M., and Phillip J. Obermiller, eds. From Mountain to Metropolis: Appalachian Migrants in American Cities. Westport, CT: Bergin and Garvey, 1994.",
+      "relevance": "Collected studies of Appalachian migrant communities in urban settings, with substantial focus on Cincinnati and Dayton. Covers education, employment, health, and community institutions among urban Appalachians."
+    },
+    {
+      "source_id": "hartigan_1999",
+      "citation": "Hartigan, John, Jr. Racial Situations: Class Predicaments of Whiteness in Detroit. Princeton: Princeton University Press, 1999.",
+      "relevance": "While focused on Detroit, Hartigan's analysis of how 'hillbilly' identity functioned as a racialized class marker in northern industrial cities is directly applicable to the Ohio experience. Documents the 'briar' stigma and its relationship to white working-class identity."
+    },
+    {
+      "source_id": "urban_appalachian_council",
+      "citation": "Urban Appalachian Council. Records and Publications, 1974-present. Cincinnati, OH. Held at University of Cincinnati Archives and Rare Books Library.",
+      "relevance": "Primary documentation of Cincinnati's Appalachian migrant community — oral histories, demographic surveys, community profiles, and social service records. The UAC is the most important institutional archive for studying urban Appalachian life in Cincinnati."
+    }
+  ]
+}

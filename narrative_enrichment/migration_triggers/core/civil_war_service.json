@@ -1,0 +1,292 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-17",
+  "migration_id": "civil_war_service",
+  "display_name": "Civil War Military Service",
+  "short_description": "Military service in the Civil War, 1861-1865, encompassing Union and Confederate forces from all states. Approximately 3.2 million men served — 2.1 million Union and 1 million Confederate — making it the most pervasive military mobilization in American history relative to population. This trigger covers the service itself and the decades-long aftermath of demobilization, disability, and pension dependency. Complements civil_war_displacement, which addresses the civilian refugee experience.",
+  "era": "1861-1870",
+  "estimated_scale": "Approximately 3.2 million men served (2.1 million Union, ~1 million Confederate). Roughly 750,000 died — 360,000 Union and approximately 290,000 Confederate — with disease killing roughly two soldiers for every one killed in combat. An additional 400,000+ were wounded. These numbers meant that virtually every community in the country was affected.",
+  "involuntary": false,
+  "migration_class": "military",
+  "template_refs": [
+    {
+      "template_id": "military_service_arc",
+      "relationship": "primary_narrative_template",
+      "description": "This trigger activates the military_service_arc template for Civil War ancestors. The template provides the narrative structure (enlistment, service, wound/capture/death, pension, veteran in community); this trigger provides the historical context, push/pull factors, and record guidance specific to the Civil War."
+    }
+  ],
+  "companion_triggers": [
+    {
+      "trigger_id": "civil_war_displacement",
+      "relationship": "complementary",
+      "description": "civil_war_displacement covers the civilian refugee experience — Confederate civilians fleeing battle zones, freedpeople migrating to Union lines, and soldiers who settled where they served. This trigger covers the military service itself. Both may apply to the same family: one member served, others were displaced."
+    }
+  ],
+  "phases": [
+    {
+      "phase_number": 1,
+      "name": "Volunteer Rush",
+      "era": "1861-1862",
+      "description": "The firing on Fort Sumter (April 1861) produced an immediate volunteer surge on both sides. Lincoln called for 75,000 militia for 90 days; the Confederacy called for 100,000 volunteers. Initial enlistments were for 90 days (Union) or 12 months (Confederate), reflecting the widespread assumption that the war would be short. State governors raised regiments from their counties — men enlisted with neighbors, cousins, and coworkers, forming companies that bore the names of their home communities. By mid-1861, it was clear the war would not be short, and three-year enlistments became standard. The first major battles — Bull Run, Wilson's Creek, Shiloh — shattered illusions about a quick resolution.",
+      "narrative_hook": "When {ancestor_name} enlisted in {unit} at {enlistment_location} in {year}, the regiment was filled with men from {origin_county} — neighbors who had known each other before the war and would share the same camps, marches, and battles for the next three years."
+    },
+    {
+      "phase_number": 2,
+      "name": "Conscription and Grinding War",
+      "era": "1862-1864",
+      "description": "Volunteer enthusiasm faded as casualty lists grew. The Confederacy enacted conscription in April 1862 — the first draft in American history — requiring military service from all white men aged 18-35 (later 17-50). The Union followed with the Enrollment Act of March 1863. Both systems allowed substitution (paying another man to serve in your place) and the Union permitted commutation ($300 to avoid service entirely until mid-1864). The draft was deeply unpopular: the New York Draft Riots (July 1863) killed over 100 people. 'Rich man's war, poor man's fight' was not merely a slogan — it described the structural reality of substitution and commutation. Meanwhile, approximately 180,000 African Americans served in United States Colored Troops regiments, most enlisting after the Emancipation Proclamation. Combat became increasingly brutal: the Wilderness, Spotsylvania, Cold Harbor, and the Overland Campaign produced casualties on an industrial scale.",
+      "narrative_hook": "By {year}, the initial volunteers were dead, wounded, or exhausted, and the armies needed men. Whether {ancestor_name} volunteered for bounty money, was drafted under the Enrollment Act, or enlisted in a USCT regiment, the war they entered bore no resemblance to the one the first volunteers had imagined."
+    },
+    {
+      "phase_number": 3,
+      "name": "Final Campaigns",
+      "era": "1864-1865",
+      "description": "The final phase of the war was characterized by total war strategy. Sherman's March to the Sea (November-December 1864) cut a swath of destruction across Georgia. Sheridan devastated the Shenandoah Valley. Grant besieged Petersburg for nine months (June 1864-April 1865), grinding down the Army of Northern Virginia in trench warfare that foreshadowed World War I. Confederate armies disintegrated through desertion, disease, and defeat. Lee surrendered at Appomattox Court House on April 9, 1865; Johnston surrendered near Durham, NC on April 26. Scattered Confederate forces surrendered through June 1865.",
+      "narrative_hook": "If {ancestor_name} was still in the ranks in 1864-1865, they endured the war's most destructive phase — the campaigns that broke the Confederacy but at a human cost that left permanent scars on every community that sent men to fight."
+    },
+    {
+      "phase_number": 4,
+      "name": "Demobilization",
+      "era": "1865-1870",
+      "description": "The Union Army demobilized rapidly: from over one million men under arms in April 1865 to approximately 80,000 by November 1866. Confederate soldiers simply went home — those who could. Demobilization meant the return of hundreds of thousands of men who were physically or psychologically damaged, into communities whose economies and social structures had been transformed by four years of war. Many did not return to their pre-war homes. Veterans' communities formed around shared experience. The federal pension system for Union veterans began during the war and expanded dramatically afterward, eventually becoming the largest social welfare program in the world by the 1890s. Confederate veterans received no federal pensions; former Confederate states established their own pension systems decades later.",
+      "narrative_hook": "When {ancestor_name} mustered out in {year}, the war was over but its consequences were not. The pension application, the disability claim, the search for work with a body that no longer functioned as it had — these defined the decades after Appomattox for millions of veterans."
+    }
+  ],
+  "push_factors": [
+    {
+      "factor": "State and local social pressure to enlist",
+      "severity": 4,
+      "description": "In 1861-1862, communities organized public rallies, published lists of enlistees, and pressured men of military age to volunteer. Women presented flags to departing regiments and shamed men who stayed home. Local newspapers published the names of those who enlisted — and implicitly, those who did not. This pressure was effective: most early enlistments were driven by community expectation as much as individual conviction."
+    },
+    {
+      "factor": "Conscription",
+      "severity": 5,
+      "description": "The Confederate Conscription Act (April 1862) and the Union Enrollment Act (March 1863) compelled military service under penalty of law. Confederate conscription was broader and earlier; Union conscription was administered through a lottery system that disproportionately affected the poor, since wealthy men could pay for substitutes or $300 commutation. Conscription was the most coercive domestic policy the federal government had ever imposed, and resistance ranged from evasion to open violence."
+    },
+    {
+      "factor": "Defense of home community",
+      "severity": 4,
+      "description": "For men in border states and areas threatened by invasion, enlistment was directly linked to community defense. Confederate soldiers from Virginia, Tennessee, and the Carolinas often enlisted to defend their immediate region. Union soldiers from border states like Kentucky, Missouri, and Maryland faced the reality of enemy forces operating in their home counties. This factor was distinct from abstract patriotism — it was about protecting specific places and specific people."
+    },
+    {
+      "factor": "Economic incentive and bounties",
+      "severity": 3,
+      "description": "Federal, state, and local governments offered cash bounties to encourage enlistment, particularly after 1862 when volunteer rates declined. Federal bounties reached $300-$400; combined with state and local bounties, a new recruit might receive $500-$1,000 — more than a year's wages for most laborers. The bounty system created its own economy and its own abuses, including 'bounty jumping' (enlisting, collecting the bounty, deserting, and re-enlisting under a different name). For impoverished men, the bounty was often the deciding factor."
+    }
+  ],
+  "pull_factors": [
+    {
+      "factor": "Patriotism and ideology",
+      "severity": 3,
+      "description": "Union soldiers frequently cited preservation of the Union and, after 1863, emancipation as motivations. Confederate soldiers cited defense of their states and communities. These ideological motivations were real and documented in letters and diaries, but they interacted with economic, social, and personal factors in ways that resist simple classification. The narrative should report what the record documents about an individual ancestor's stated motivations without projecting ideological commitment."
+    },
+    {
+      "factor": "Bounty payments and enlistment bonuses",
+      "severity": 3,
+      "description": "Cash bounties and enlistment bonuses were a direct economic pull, particularly for later enlistees. Combined federal, state, and local bounties could exceed $1,000 by 1864 — a sum that represented transformative wealth for a laboring family. Some men enlisted explicitly for the money and said so in letters home."
+    },
+    {
+      "factor": "Escape from economic stagnation",
+      "severity": 2,
+      "description": "For men with limited economic prospects — landless laborers, younger sons with no inheritance, recent immigrants without established livelihoods — military service offered pay, food, clothing, and the prospect of post-war benefits. The $13/month Union private's pay (reduced to $7 for USCT soldiers until June 1864, when Congress equalized pay) was reliable income for men who had struggled to find steady work."
+    },
+    {
+      "factor": "Adventure and peer pressure",
+      "severity": 3,
+      "description": "Particularly among the initial volunteers of 1861, the excitement of military life and the fear of missing the action drove enlistment. Young men enlisted in groups — a company was often a single neighborhood or workplace. The peer pressure of watching friends and brothers march away was a powerful pull, distinct from community social pressure (which was a push). Letters home from the first months of service often reflected excitement rather than dread."
+    }
+  ],
+  "transportation": {
+    "methods": [
+      {
+        "mode": "Railroad",
+        "description": "Railroads were the primary means of moving troops to and between theaters. The Union military railroad system became the largest rail operation in the world. Confederate railroads, inferior in capacity and maintenance, deteriorated steadily as the war progressed. A soldier might travel by rail from his home county to a state rendezvous camp, then by rail to the theater of operations."
+      },
+      {
+        "mode": "On foot (march)",
+        "description": "Infantry soldiers marched. The Army of the Potomac and the Army of Northern Virginia marched hundreds of miles during each campaign. Sherman's forces marched from Chattanooga to Atlanta to Savannah to Raleigh — roughly 1,200 miles. The daily march was the defining physical experience of Civil War service: 10-20 miles per day carrying 40-60 pounds of equipment."
+      },
+      {
+        "mode": "River and coastal transport",
+        "description": "The Union used its naval superiority to move troops by river and along the coast. The Tennessee, Cumberland, Mississippi, and James rivers were major military corridors. Coastal transport moved troops between theaters and supported amphibious operations along the Confederate coastline."
+      },
+      {
+        "mode": "Wagon and ambulance",
+        "description": "Supply wagons and ambulances followed the armies. Wounded soldiers were evacuated by ambulance wagon — a bone-jarring, often lethal experience on Civil War roads. Supply trains stretched for miles behind marching armies."
+      }
+    ],
+    "routes": [
+      "Home county to state rendezvous and training camp (by rail or march)",
+      "Eastern Theater: Virginia campaigns (Washington-Richmond corridor, Shenandoah Valley)",
+      "Western Theater: Tennessee-Mississippi-Georgia campaigns (Shiloh, Vicksburg, Chattanooga, Atlanta)",
+      "Trans-Mississippi Theater: Missouri, Arkansas, Louisiana, Texas operations",
+      "Sherman's March: Chattanooga to Atlanta to Savannah to Raleigh"
+    ]
+  },
+  "origin_regions": [
+    "All Union states (primary: New York, Pennsylvania, Ohio, Illinois, Indiana)",
+    "All Confederate states (primary: Virginia, North Carolina, Tennessee, Georgia, Alabama)",
+    "Border states: Kentucky, Missouri, Maryland, Delaware, West Virginia (divided loyalties, sent men to both armies)",
+    "United States Colored Troops recruited from both free and formerly enslaved populations across all states"
+  ],
+  "counties_most_affected": [
+    "Sampson NC",
+    "Nash NC",
+    "Cumberland NC",
+    "Northampton PA",
+    "New York NY",
+    "Cook IL",
+    "Hamilton OH",
+    "Henrico VA",
+    "Davidson TN",
+    "Fulton GA",
+    "Jefferson KY",
+    "Jackson MO",
+    "Allegheny PA",
+    "Suffolk MA",
+    "Marion IN"
+  ],
+  "destination_refs": [
+    {
+      "location": "State rendezvous camps",
+      "role": "Every state established camps where recruits mustered, received initial training, and were organized into regiments. Camp Curtin (Harrisburg PA), Camp Chase (Columbus OH), Camp Douglas (Chicago IL), Camp Mangum (Raleigh NC), and dozens of others were the first military destination for most soldiers."
+    },
+    {
+      "location": "Washington, DC and fortifications",
+      "role": "The Union capital was ringed by fortifications and camps housing hundreds of thousands of soldiers. For many Union soldiers, Washington was their first exposure to a large city and to the apparatus of federal government."
+    },
+    {
+      "location": "Richmond, VA",
+      "role": "The Confederate capital and hub of the Eastern Theater. Confederate soldiers from across the South funneled through Richmond to the Army of Northern Virginia."
+    },
+    {
+      "location": "Chattanooga-Atlanta corridor",
+      "role": "The critical Western Theater axis. The campaigns from Shiloh (1862) through Atlanta (1864) moved along the Tennessee-Georgia corridor, concentrating hundreds of thousands of soldiers from both armies."
+    },
+    {
+      "location": "Vicksburg, MS",
+      "role": "The key to control of the Mississippi River. The Vicksburg Campaign (1862-1863) drew Union forces from across the Midwest and Confederate forces from across the Deep South."
+    }
+  ],
+  "chain_migration": {
+    "pattern": "community_mobilization",
+    "description": "Civil War regiments were raised locally, meaning companies were composed of men from the same county, town, or neighborhood. This was not chain migration in the traditional sense — it was mass mobilization along existing community lines. The consequence was that a single battle could devastate a single community: when a company took heavy casualties, the losses concentrated in one place. After the war, the same community bonds shaped veterans' organizations and pension claim networks, as former comrades testified for each other's pension applications.",
+    "agency": "variable — ranging from eager volunteerism (1861) to compelled service under conscription (1863-1865) to economically motivated enlistment for bounties"
+  },
+  "what_happened_to_those_who_stayed": "Men who avoided service through exemption, substitution, commutation, or evasion faced social stigma in many communities, though attitudes varied by region and class. In the Confederacy, exemptions for overseers of 20 or more enslaved people (the 'Twenty Negro Law') concentrated resentment among non-slaveholding families. In the Union, the $300 commutation fee was roughly a year's wages for a laborer, making draft avoidance an explicitly class-based privilege. Women, children, and the elderly who remained at home managed farms, businesses, and households under wartime conditions — an experience documented in letters but rarely in official records.",
+  "record_implications": [
+    {
+      "record_type": "Compiled Military Service Records (CMSRs)",
+      "implication": "One jacket per soldier, compiled from muster rolls, enlistment papers, casualty sheets, hospital records, POW records, and discharge papers. Available for both Union (NARA RG 94) and Confederate (NARA RG 109) soldiers. The CMSR is the starting point for any Civil War ancestor research — it establishes the chronology of service. Digitized on Fold3 and Ancestry."
+    },
+    {
+      "record_type": "Federal pension files",
+      "implication": "Union veterans and their widows filed pension claims with the Bureau of Pensions. These files — held in NARA RG 15 — can run to hundreds of pages and contain sworn testimony from the veteran, comrades, neighbors, and family members; medical examination reports spanning decades; marriage and death documentation; and correspondence. The pension file is often the richest single biographical source for a Civil War ancestor. Confederate veterans were excluded from federal pensions."
+    },
+    {
+      "record_type": "State adjutant general records",
+      "implication": "Each state maintained records of the regiments it raised. State adjutant general reports, published during or after the war, list officers and men by regiment and company, often with enlistment dates, discharge dates, and casualty information. Quality and detail vary by state."
+    },
+    {
+      "record_type": "Unit histories and Official Records of the War of the Rebellion",
+      "implication": "The 128-volume Official Records and hundreds of published regimental histories document unit movements and engagements. These provide the context for individual CMSRs — if the CMSR shows the ancestor present for duty and the unit history shows the regiment in battle, the inference (though not proof) is strong."
+    },
+    {
+      "record_type": "Muster rolls",
+      "implication": "Bimonthly muster rolls list every man in a company with notations: present, absent sick, absent without leave, deserted, wounded, killed, captured. These rolls are the documentary backbone of the CMSR and provide a granular timeline of the ancestor's service."
+    },
+    {
+      "record_type": "Hospital records and medical records",
+      "implication": "Union hospital registers, case files, and surgical reports document admissions, diagnoses, treatments, and outcomes. Confederate medical records are more fragmentary but survive in some state archives. These records often contain the most detailed physical descriptions of ancestors available."
+    },
+    {
+      "record_type": "Prisoner of war records",
+      "implication": "Rolls of prisoners at camps like Andersonville, Elmira, Point Lookout, and Camp Douglas document captured soldiers. POW rolls include name, rank, unit, date and place of capture, and disposition (exchanged, paroled, died, released). Each camp has a documented history and mortality rate."
+    },
+    {
+      "record_type": "Confederate state pension applications",
+      "implication": "Former Confederate states established pension systems beginning in the 1880s-1890s. Applications filed decades after the war contain biographical statements, proof of service, medical conditions, and economic circumstances. Filed in the state of residence at time of application, not necessarily the state of service. Quality and survival vary by state — North Carolina, Virginia, and Texas have particularly strong collections."
+    },
+    {
+      "record_type": "National Cemetery records and burial records",
+      "implication": "Soldiers who died in service were buried in national cemeteries, regimental burial grounds, or local churchyards. National cemetery interment records document name, rank, unit, date and cause of death, and grave location. Confederate cemeteries are maintained by various state and private organizations."
+    }
+  ],
+  "counter_narratives": [
+    {
+      "narrative": "Not all soldiers were willing",
+      "description": "After 1862, conscription made military service compulsory for millions. The Confederate draft was the first in American history; the Union draft followed in 1863. Both systems allowed wealthy men to avoid service through substitution or commutation, creating a class-based system that was widely resented. Desertion rates were significant on both sides — roughly 200,000 Union and 104,000 Confederate soldiers deserted during the war. Desertion was not cowardice in every case; many men deserted to care for starving families at home, particularly in the Confederacy's final year. The record should note whether service was voluntary or compelled."
+    },
+    {
+      "narrative": "Service did not end at Appomattox",
+      "description": "For hundreds of thousands of veterans, the war's physical and psychological consequences lasted a lifetime. Amputations, chronic disease acquired in camp, untreated wounds, and what the era called 'soldier's heart' (post-traumatic stress) shaped post-war lives and family economics for decades. The federal pension system — which eventually encompassed over one million veterans and dependents — represented an acknowledgment that the cost of service extended far beyond the battlefield. Many veterans never recovered the earning capacity they had before the war."
+    },
+    {
+      "narrative": "USCT service was an assertion of citizenship",
+      "description": "The approximately 180,000 African Americans who served in United States Colored Troops regiments were not simply soldiers — they were men making a claim to citizenship through military service. They served under white officers, were paid less than white soldiers until June 1864, and faced the threat of being treated as enslaved persons rather than prisoners of war if captured. Despite these conditions, USCT regiments compiled distinguished combat records at Fort Wagner, the Crater, New Market Heights, and dozens of other engagements. The narrative of USCT service must acknowledge both the discrimination within the system and the agency of the men who enlisted."
+    }
+  ],
+  "material_life_refs": [
+    {
+      "profile_id": "antebellum_yeoman_farm_1820_1860",
+      "relevance": "The material life most soldiers left behind. The pre-war yeoman farm — its rhythms, its scale, its limitations — is the baseline against which the disruption of military service should be measured."
+    },
+    {
+      "profile_id": "sharecropper_cabin_1865_1940",
+      "relevance": "The post-war material reality for many Southern veterans, both white and Black, who returned to an agricultural economy devastated by war and transformed by emancipation."
+    }
+  ],
+  "community_texture_refs": [
+    {
+      "texture_id": "eastern_nc_farm_community",
+      "relevance": "Origin community context for ancestors from Sampson, Nash, and Cumberland counties in North Carolina — the rural farming communities that sent men to NC regiments."
+    },
+    {
+      "texture_id": "shenandoah_valley_farm_community",
+      "relevance": "Origin community context for Virginia soldiers from the Valley, which was both a major recruiting ground and a major theater of operations."
+    },
+    {
+      "texture_id": "pa_anthracite_patch_town",
+      "relevance": "Origin community context for Pennsylvania soldiers from mining and industrial counties including Northampton, illustrating the non-agricultural working-class communities that also sent men to war."
+    }
+  ],
+  "seasonal_departure_pattern": "Enlistment surged in the spring and summer of 1861, immediately after Fort Sumter. Subsequent enlistment patterns were driven more by military need and political events than by seasonal cycles: the draft calls of 1863-1864, bounty increases, and major defeats all produced enlistment spikes. Demobilization in 1865 concentrated in the spring and summer months following Lee's surrender in April.",
+  "gender_pattern": "Military service was exclusively male, though an estimated 400-750 women disguised their sex and served in both armies. Women's documented roles included nursing (Clara Barton, Dorothea Dix's corps, Confederate hospital matrons), espionage, and running households and farms in men's absence. Widows and mothers became the primary pension claimants after the war, and their pension files contain some of the most detailed biographical records of ordinary women in the nineteenth century.",
+  "source_references": [
+    {
+      "author": "James M. McPherson",
+      "title": "Battle Cry of Freedom: The Civil War Era",
+      "year": 1988,
+      "publisher": "Oxford University Press",
+      "relevance": "The standard one-volume history of the Civil War era. Provides the political, military, and social context for all phases of the war. Essential for understanding the context in which individual soldiers served."
+    },
+    {
+      "author": "Bell Irvin Wiley",
+      "title": "The Life of Billy Yank: The Common Soldier of the Union",
+      "year": 1952,
+      "publisher": "Bobbs-Merrill",
+      "relevance": "Ground-level study of Union soldiers' daily experience: camp life, march, combat, disease, food, recreation, and morale. Drawn from soldiers' letters and diaries. The companion to Life of Johnny Reb."
+    },
+    {
+      "author": "Bell Irvin Wiley",
+      "title": "The Life of Johnny Reb: The Common Soldier of the Confederacy",
+      "year": 1943,
+      "publisher": "Bobbs-Merrill",
+      "relevance": "The Confederate counterpart to Billy Yank. Wiley's paired studies remain the foundational works on the common soldier's experience, covering both armies with comparable methodology and sympathy."
+    },
+    {
+      "author": "National Archives and Records Administration",
+      "title": "Guide to Federal Records Relating to the Civil War",
+      "year": 1962,
+      "publisher": "NARA",
+      "relevance": "The essential reference for locating Civil War military records in the federal system. Identifies record groups, series, and finding aids for CMSRs, pension files, unit records, and related documentation."
+    },
+    {
+      "author": "James M. McPherson",
+      "title": "For Cause and Comrades: Why Men Fought in the Civil War",
+      "year": 1997,
+      "publisher": "Oxford University Press",
+      "relevance": "Analysis of soldiers' motivations drawn from letters and diaries. Useful for understanding the range of reasons men enlisted and continued to serve, without projecting modern assumptions."
+    }
+  ]
+}

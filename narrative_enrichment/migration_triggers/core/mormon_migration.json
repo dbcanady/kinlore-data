@@ -1,0 +1,291 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+
+  "migration_id": "mormon_migration",
+  "display_name": "Latter-day Saint Migration",
+  "short_description": "The migration of members of the Church of Jesus Christ of Latter-day Saints from New York through Ohio, Missouri, and Illinois, culminating in the 1846-1847 exodus to the Great Salt Lake Valley and subsequent colonization of over 350 settlements across the Intermountain West. One of the best-documented migrations in American history due to meticulous LDS Church record-keeping.",
+  "era": "1830-1869",
+  "estimated_scale": "~70,000 crossed the Plains by 1869; an additional ~30,000 foreign converts arrived via the Perpetual Emigrating Fund",
+  "involuntary": false,
+  "coercion_note": "While voluntary in the sense of religious conviction, LDS migration was driven by repeated violent expulsion — mob violence in Missouri (Haun's Mill massacre 1838, Extermination Order), the murder of Joseph Smith in Illinois (1844), and forced winter exodus from Nauvoo (1846). The 'choice' was between leaving and facing mob destruction.",
+  "migration_class": "religious",
+
+  "phases": [
+    {
+      "phase_id": "gathering_period",
+      "phase_name": "The Gathering: New York to Ohio to Missouri to Illinois",
+      "date_range": "1830-1846",
+      "peak_years": "1831-1839",
+      "catalyst": "Joseph Smith's founding of the Church of Christ (1830) launched a theology of 'gathering' — the belief that converts should physically relocate to build Zion. Kirtland, Ohio, served as headquarters (1831-1838) while Independence, Missouri, was designated as the site of Zion. Missouri settlers turned violently hostile. Governor Boggs issued the Extermination Order (1838), and Latter-day Saints were driven into Illinois at gunpoint in winter. Nauvoo, Illinois, became the largest city in the state by 1844, but Joseph Smith's murder by a mob at Carthage Jail (June 27, 1844) and escalating anti-Mormon violence forced another expulsion.",
+      "origin_regions": [
+        "Western New York (Palmyra, Fayette — 'Burned-Over District')",
+        "New England converts (Vermont, Massachusetts, Connecticut)",
+        "Upper South converts (Virginia, Kentucky, Tennessee)"
+      ],
+      "counties_most_affected": [
+        "Wayne NY",
+        "Geauga OH",
+        "Jackson MO",
+        "Clay MO",
+        "Caldwell MO",
+        "Daviess MO",
+        "Hancock IL"
+      ],
+      "primary_destinations": [
+        "Kirtland, OH (1831-1838)",
+        "Independence / Far West, MO (1831-1839)",
+        "Nauvoo, IL (1839-1846)"
+      ],
+      "primary_route": "overland_wagon",
+      "route_description": "Overland by wagon and canal boat. Kirtland converts traveled west by Erie Canal and Great Lakes steamers. Missouri migrants moved overland through Indiana and Illinois. The 1838-1839 expulsion from Missouri was a forced winter march of approximately 10,000 people into Quincy, Illinois."
+    },
+    {
+      "phase_id": "exodus_and_trek",
+      "phase_name": "Exodus and Trek to the Great Salt Lake",
+      "date_range": "1846-1849",
+      "peak_years": "1847-1848",
+      "catalyst": "Mob violence and political pressure made remaining in Nauvoo untenable after Joseph Smith's murder. Brigham Young organized a planned evacuation beginning February 1846, crossing the frozen Mississippi into Iowa. The vanguard company of 148 pioneers reached the Salt Lake Valley on July 24, 1847. Approximately 3,000 crossed in 1847, with larger companies following in 1848-1849. The Mormon Battalion (500 men enlisted for the Mexican-American War) marched separately to California, sending their pay back to fund the migration.",
+      "origin_regions": [
+        "Nauvoo, Illinois (primary staging point)",
+        "Winter Quarters, Nebraska Territory (staging camp 1846-1848)"
+      ],
+      "counties_most_affected": [
+        "Hancock IL",
+        "Pottawattamie IA",
+        "Douglas NE (Winter Quarters)"
+      ],
+      "primary_destinations": [
+        "Salt Lake Valley, UT"
+      ],
+      "primary_route": "mormon_trail",
+      "route_description": "The Mormon Trail: Nauvoo → Sugar Creek (IA) → Garden Grove (IA) → Mt. Pisgah (IA) → Winter Quarters (Council Bluffs) → Platte River Road → Fort Laramie → South Pass → Fort Bridger → Echo Canyon → Salt Lake Valley. Approximately 1,300 miles from Winter Quarters. The Saints deliberately traveled the NORTH bank of the Platte to avoid conflict with Oregon and California emigrants on the south bank."
+    },
+    {
+      "phase_id": "perpetual_emigrating_fund",
+      "phase_name": "Perpetual Emigrating Fund and Foreign Convert Migration",
+      "date_range": "1849-1869",
+      "peak_years": "1852-1860",
+      "catalyst": "Brigham Young established the Perpetual Emigrating Fund (PEF) in 1849 to subsidize the emigration of converts too poor to finance their own passage. Missionaries in Britain, Scandinavia, and Western Europe recruited tens of thousands of converts who sailed to New Orleans or New York, traveled to outfitting points in Iowa or Nebraska, and crossed the Plains by wagon or handcart. The 1856 handcart disaster (Martin and Willie companies) killed over 200 people caught by early winter storms in Wyoming. The transcontinental railroad (completed 1869) ended the overland trail era.",
+      "origin_regions": [
+        "England (Lancashire, London, Midlands — largest single source)",
+        "Wales (Merthyr Tydfil mining communities)",
+        "Scotland",
+        "Denmark",
+        "Sweden and Norway",
+        "Switzerland and German states"
+      ],
+      "counties_most_affected": [
+        "Lancashire EN",
+        "London EN",
+        "Staffordshire EN",
+        "Glamorgan WA",
+        "Copenhagen DK"
+      ],
+      "primary_destinations": [
+        "Salt Lake City, UT",
+        "Provo, UT",
+        "Logan, UT",
+        "St. George, UT",
+        "Colonization settlements across UT, ID, AZ, NV, WY"
+      ],
+      "primary_route": "atlantic_crossing_steerage_then_mormon_trail",
+      "route_description": "Atlantic crossing (Liverpool to New Orleans or New York, 4-8 weeks), then river steamer up the Mississippi and Missouri to outfitting points (Iowa City, Florence/Winter Quarters). Overland by ox-drawn wagon or handcart (1856-1860) to Salt Lake City. After 1869, railroad replaced the overland trail entirely."
+    }
+  ],
+
+  "push_factors": [
+    {
+      "factor_id": "missouri_extermination_order",
+      "name": "Missouri Extermination Order (1838)",
+      "severity": 5,
+      "description": "Governor Lilburn Boggs issued Executive Order 44 on October 27, 1838, declaring that 'the Mormons must be treated as enemies, and must be exterminated or driven from the State.' This was the only official government order in American history calling for the extermination of a religious group. Three days earlier, a mob had killed 17 Latter-day Saints at Haun's Mill, including children. Approximately 10,000 Saints were expelled from Missouri in the winter of 1838-1839."
+    },
+    {
+      "factor_id": "joseph_smith_murder",
+      "name": "Murder of Joseph Smith (1844)",
+      "severity": 5,
+      "description": "On June 27, 1844, a mob of 150-200 men stormed Carthage Jail in Hancock County, Illinois, and killed Joseph Smith and his brother Hyrum. Smith was the prophet, president, and organizing force of the entire LDS community. His murder removed the last political protection Nauvoo had and signaled to surrounding communities that violence against Mormons would go unpunished. Illinois authorities made no serious effort to prosecute the killers."
+    },
+    {
+      "factor_id": "nauvoo_expulsion",
+      "name": "Forced evacuation from Nauvoo (1846)",
+      "severity": 5,
+      "description": "After Smith's death, anti-Mormon mob violence escalated throughout 1845. Homes and farms were burned. Brigham Young negotiated a deadline to leave, and the evacuation began in February 1846 — crossing the Mississippi on ice during one of the coldest winters on record. The last 600 Saints remaining in Nauvoo were driven out at cannon-point in September 1846 (the 'Battle of Nauvoo'). Nauvoo's population dropped from approximately 12,000 to near zero within months."
+    },
+    {
+      "factor_id": "european_poverty",
+      "name": "European poverty and limited social mobility for converts",
+      "severity": 3,
+      "description": "British and Scandinavian converts to Mormonism were overwhelmingly working-class: factory operatives in Lancashire, miners in Wales and Cornwall, tenant farmers in Denmark and Sweden. Conversion to an unpopular American religion further marginalized them socially. The promise of land, community, and equality in Zion was inseparable from escape from industrial poverty."
+    }
+  ],
+
+  "pull_factors": [
+    {
+      "factor_id": "zion_theology",
+      "name": "Theology of Zion — building the Kingdom of God",
+      "description": "LDS theology required the physical gathering of the faithful to build Zion, a literal community of Saints preparing for the Second Coming. This was not metaphorical — converts were expected to uproot their lives and relocate. The gathering imperative created a migration engine unlike any other in American history: every convert was a potential migrant, and the church provided organizational infrastructure to move them."
+    },
+    {
+      "factor_id": "perpetual_emigrating_fund",
+      "name": "Perpetual Emigrating Fund subsidizing passage",
+      "description": "The PEF, established 1849, functioned as a revolving loan fund. The church advanced passage money to converts who repaid the loan after settling in Utah. Between 1849 and 1887, the PEF assisted approximately 26,000 emigrants. This eliminated the financial barrier that prevented most working-class Europeans from emigrating. Recipients were expected to repay so the fund could bring the next family — creating a self-sustaining migration pipeline."
+    },
+    {
+      "factor_id": "theocratic_community",
+      "name": "Self-governing theocratic community in the Great Basin",
+      "description": "Utah's isolation offered what no other American location could: a community governed entirely by LDS leadership, free from the mob violence and political hostility that had destroyed every previous settlement. Brigham Young chose the Great Basin precisely because no one else wanted it. The geographic barrier of the Rocky Mountains and the Great Basin Desert provided natural defense against the persecution that had driven the Saints westward."
+    },
+    {
+      "factor_id": "colonization_land",
+      "name": "Church-directed land distribution in the colonization corridor",
+      "description": "Brigham Young directed the settlement of over 350 communities across Utah, Idaho, Nevada, Arizona, Wyoming, and parts of California. Settlers were 'called' to specific locations, assigned land, and organized into wards and stakes. The church provided seeds, tools, and irrigation expertise. For converts from landless backgrounds in Britain or Scandinavia, this was a direct path to land ownership that bypassed the chaos of the open frontier."
+    }
+  ],
+
+  "transportation": {
+    "primary_mode": "Ox-drawn wagon (1847-1860s), handcart (1856-1860), railroad after 1869",
+    "route_refs": ["mormon_trail", "atlantic_crossing_steerage"],
+    "what_they_carried": "Flour, bacon, sugar, rifles, ammunition, seeds, farming tools, bedding, clothing, scriptures, and family records. The church published detailed outfitting lists specifying exact quantities per person. Handcart emigrants were limited to 17 pounds of luggage per adult. British converts often carried tools of their trade — looms, cobbler's lasts, mining equipment.",
+    "what_they_left_behind": "Homes (often burned or confiscated), established farms, businesses, extended family who did not convert, church buildings painstakingly constructed then abandoned. Nauvoo emigrants left a city with a temple that had cost over $1 million (1840s dollars) to build. European converts left their home countries permanently — most never returned.",
+    "cost": "Wagon outfit (wagon, oxen, supplies): $250-$500 per family. Handcart outfit: $15-$30 per person. PEF-subsidized Atlantic passage: $25-$45 from Liverpool. Total cost Winter Quarters to Salt Lake: $100-$300 per family by wagon, $10-$20 per person by handcart.",
+    "seasonal_departure_pattern": "Spring departures from outfitting points (April-May) were essential to cross the Plains before winter. The 1856 handcart disaster (Martin and Willie companies) resulted from dangerously late departures in July and August. Atlantic crossings were year-round but spring sailings were preferred. Railroad after 1869 eliminated seasonal constraints."
+  },
+
+  "destination_refs": [
+    {
+      "destination_id": "salt_lake_city_ut",
+      "name": "Salt Lake City, Utah",
+      "peak_arrival_years": "1847-1869",
+      "notes": "Central gathering place and church headquarters. Laid out in a grid pattern by Brigham Young. Population reached 12,000 by 1860. Every overland and railroad migrant passed through Salt Lake before assignment to outlying settlements."
+    },
+    {
+      "destination_id": "provo_ut",
+      "name": "Provo, Utah",
+      "peak_arrival_years": "1849-1860",
+      "notes": "Second-largest settlement. Founded 1849 at the south end of Utah Lake. Agricultural center and site of early conflicts with Ute people (Walker War 1853-1854)."
+    },
+    {
+      "destination_id": "st_george_ut",
+      "name": "St. George, Utah",
+      "peak_arrival_years": "1861-1870",
+      "notes": "Southern colonization anchor. Settlers were 'called' to grow cotton in the desert heat — the 'Dixie Mission.' Many were British textile workers whose skills were redirected to desert agriculture. Extraordinarily harsh conditions."
+    },
+    {
+      "destination_id": "logan_ut",
+      "name": "Logan, Utah",
+      "peak_arrival_years": "1859-1870",
+      "notes": "Northern colonization anchor in Cache Valley. Heavy Scandinavian settlement. Agricultural community that became a center of Danish and Swedish convert colonies."
+    },
+    {
+      "destination_id": "colonization_corridor",
+      "name": "350+ settlements across UT, ID, AZ, NV, WY",
+      "peak_arrival_years": "1849-1900",
+      "notes": "Brigham Young directed a systematic colonization program unmatched in American frontier history. Settlers were called by church authority to specific locations, forming an interconnected network of agricultural communities from southern Idaho to northern Arizona."
+    }
+  ],
+
+  "chain_migration": {
+    "pattern": "institutional_directed",
+    "description": "LDS migration was not chain migration in the traditional sense — it was institutionally directed. The church organized wagon companies, assigned departure dates, published outfitting lists, employed agents at ports and railheads, and assigned settlers to specific communities upon arrival. Individual initiative was subordinated to church planning. However, within that institutional framework, family ties operated: converts typically traveled with extended kin groups, and settled families wrote letters encouraging unconverted relatives to join them.",
+    "gender_pattern": "Families migrated as units. Single men were common in early wagon companies; single women were rare on the trail but constituted a significant portion of PEF-assisted British emigrants. Polygamy created a distinct demographic pattern: some men were 'called' to missions in Europe and returned with additional wives, while women in plural marriages sometimes traveled separately to join a husband already in Utah.",
+    "typical_lag_years": "1-3 years between a family member's conversion in Europe and their arrival in Utah, depending on PEF funding availability",
+    "narrative_hook": "When {ancestor_name} received the call to gather to Zion in {year}, the decision had likely already been made by the act of baptism. The {family_name} family joined the {company_name} company at {outfitting_point} and crossed {distance} miles of open prairie with {company_size} other Saints."
+  },
+
+  "what_happened_to_those_who_stayed": {
+    "demographic_change": "Nauvoo's population collapsed from approximately 12,000 to fewer than 1,000 within two years of the 1846 exodus. The city was occupied by a French Icarian socialist colony (1849-1856) before fading into a small river town. In Britain, LDS congregations shrank as the most committed members emigrated, leaving branches composed primarily of new converts, the elderly, and those too poor even for PEF assistance.",
+    "economic_change": "Mormon-built infrastructure in Kirtland, Far West, and Nauvoo was confiscated, burned, or left to decay. The Nauvoo Temple — the most expensive building in Illinois at the time — was burned by arsonists in 1848 and destroyed by a tornado in 1850. Property claims were never compensated. In Britain, emigration of skilled workers (especially Welsh miners and Lancashire textile workers) represented a measurable loss of industrial labor.",
+    "cultural_change": "LDS communities that did not follow Brigham Young formed the Reorganized Church of Jesus Christ of Latter Day Saints (RLDS, now Community of Christ) under Joseph Smith III. This succession crisis permanently divided the movement. Some former Latter-day Saints in Illinois and Missouri blended back into Protestant communities, their brief LDS affiliation erased from family memory within a generation.",
+    "narrative_hook": "Not every member of the {family_name} family made the trek to Utah. Those who stayed in {origin_county} faced a different kind of disappearance — their LDS affiliation quietly dropped from the record as they rejoined the churches their neighbors attended."
+  },
+
+  "record_implications": [
+    {
+      "pattern": "Ancestor appears in the LDS Church Pioneer Database or Overland Travel records",
+      "interpretation": "Confirms participation in the overland migration with company name, departure date, and arrival date. These records are among the most precise migration documentation in American genealogy.",
+      "research_tip": "Search the Mormon Pioneer Overland Travel database (history.churchofjesuschrist.org) by surname. Records include company rosters, departure/arrival dates, and sometimes journal entries mentioning individuals by name. Cross-reference with the LDS Church History Library catalog for personal journals and ward records."
+    },
+    {
+      "pattern": "Ancestor appears in Perpetual Emigrating Fund records",
+      "interpretation": "Confirms the ancestor was a foreign convert whose passage was subsidized by the church. PEF records document origin (often to the parish level in Britain), ship name, port of departure, outfitting point, and wagon/handcart company assignment.",
+      "research_tip": "PEF records are held by the LDS Church History Library in Salt Lake City and are increasingly available on FamilySearch.org. Cross-reference with British passenger departure lists (available through FindMyPast) and the Mormon Immigration Index for ship manifests."
+    },
+    {
+      "pattern": "Ancestor appears in LDS ward records (membership, blessing, ordination) in both origin and destination locations",
+      "interpretation": "Ward records create a documentary chain linking an individual across multiple locations. A membership record in a Nauvoo ward followed by a record in a Salt Lake City ward precisely documents the migration. British branch records followed by Utah ward records document the transatlantic journey.",
+      "research_tip": "LDS ward and branch records are available on FamilySearch.org. Search by name and filter by location. British branch records often include detailed membership registers with dates of baptism, confirmation, and emigration — the emigration date was recorded because the member was being transferred."
+    },
+    {
+      "pattern": "Ancestor listed in Nauvoo property records or temple records (1840-1846)",
+      "interpretation": "Confirms presence in Nauvoo during the critical pre-exodus period. Temple records (baptisms for the dead, endowments) are especially significant because they document theological commitment, not just geographic presence.",
+      "research_tip": "Nauvoo property records are in the Hancock County Recorder's Office and have been digitized. The Nauvoo Temple records are held by the LDS Church History Library. The published 'Nauvoo Neighbor' and 'Times and Seasons' newspapers contain names, property transactions, and church announcements searchable through online newspaper archives."
+    },
+    {
+      "pattern": "Ancestor absent from an expected location after 1846 with no death record",
+      "interpretation": "Sudden disappearance from Illinois, Iowa, or Missouri records after 1846 — especially for families previously identified as LDS — likely indicates participation in the westward exodus rather than death.",
+      "research_tip": "Check Utah territorial census records (1850, 1851, 1856) and early Salt Lake County records. The 1850 federal census captured many early Utah settlers. If the ancestor was British, check the Mormon Immigration Index for Atlantic crossing records."
+    }
+  ],
+
+  "counter_narratives": [
+    {
+      "claim": "Not all early Latter-day Saints stayed in the faith",
+      "context": "Apostasy rates were substantial throughout the early LDS period. Roughly one-third of converts in Kirtland apostatized during the 1837-1838 financial crisis. Prominent leaders including Oliver Cowdery, David Whitmer, and Thomas Marsh left the church. In Britain, many who signed up for PEF assistance abandoned the church after reaching Utah, having used the emigration fund as a subsidized ticket to America. The LDS Pioneer Database documents arrivals but not departures — tracing an ancestor into Utah does not guarantee they remained LDS."
+    },
+    {
+      "claim": "Polygamy significantly shaped migration and settlement patterns",
+      "context": "Plural marriage, practiced openly from 1852 to the 1890 Manifesto, affected migration in multiple ways. Some converts were drawn to Utah specifically by polygamy; others left the church over it. Federal anti-polygamy raids (1880s-1890s) drove polygamous families underground or into exile in Mexico and Canada, creating secondary migrations. The 1882 Edmunds Act and 1887 Edmunds-Tucker Act disfranchised polygamists and dissolved the PEF. Family reconstruction for polygamous households requires tracking multiple wives and their children across multiple households, sometimes in different settlements or territories."
+    },
+    {
+      "claim": "The Mountain Meadows Massacre (1857) is an essential part of the migration story",
+      "context": "On September 11, 1857, a combined force of Mormon militia and Paiute allies killed approximately 120 men, women, and older children in the Baker-Fancher emigrant train at Mountain Meadows, southern Utah. Only 17 young children were spared. The massacre occurred during the 'Utah War' when federal troops were marching toward Utah, and local leaders feared the emigrant train was a hostile force. Brigham Young's degree of responsibility remains debated but institutional culpability is not in question. John D. Lee was executed in 1877 as the sole person convicted. This event must be acknowledged honestly in any narrative involving 1850s Utah settlement."
+    }
+  ],
+
+  "source_references": [
+    {
+      "author": "Leonard J. Arrington",
+      "title": "Great Basin Kingdom: An Economic History of the Latter-day Saints, 1830-1900",
+      "year": 1958,
+      "type": "book",
+      "notes": "Foundational economic history of LDS settlement by the first professionally trained historian given access to church financial records. Essential for understanding the PEF, colonization economics, and cooperative enterprise."
+    },
+    {
+      "author": "Richard E. Bennett",
+      "title": "Mormons at the Missouri, 1846-1852: 'And Should We Die...'",
+      "year": 1987,
+      "type": "book",
+      "notes": "Definitive account of the Winter Quarters period, the most dangerous phase of the migration. Documents the approximately 600 deaths at Winter Quarters and the organizational decisions that shaped the trek."
+    },
+    {
+      "author": "Wallace Stegner",
+      "title": "The Gathering of Zion: The Story of the Mormon Trail",
+      "year": 1964,
+      "type": "book",
+      "notes": "The most readable narrative history of the overland migration by a non-LDS author. Stegner treats the Saints with respect while maintaining critical distance. Particularly strong on the handcart companies and the 1856 disaster."
+    },
+    {
+      "author": "Will Bagley",
+      "title": "Blood of the Prophets: Brigham Young and the Massacre at Mountain Meadows",
+      "year": 2002,
+      "type": "book",
+      "notes": "Investigative history of the Mountain Meadows Massacre. Important counter-narrative source that documents institutional responsibility and the decades-long cover-up."
+    },
+    {
+      "author": "Fred E. Woods",
+      "title": "Gathering to Nauvoo: Mormon Immigration, 1840-1846",
+      "year": 2002,
+      "type": "article",
+      "notes": "Published in BYU Studies. Documents the mechanics of early LDS migration to Nauvoo including British converts who arrived before the exodus. Useful for tracing pre-Utah migration paths."
+    },
+    {
+      "author": "William G. Hartley",
+      "title": "My Best for the Kingdom: History and Autobiography of John Lowe Butler, a Mormon Frontiersman",
+      "year": 1993,
+      "type": "book",
+      "notes": "Microhistory following one family through every phase of LDS migration from New York to Utah. Demonstrates the record trail and lived experience at the individual level."
+    }
+  ]
+}

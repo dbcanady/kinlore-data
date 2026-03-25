@@ -1,0 +1,162 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "_purpose": "Audience adaptation template that modifies the output of other narrative templates. Covers NP-12 (Audience-Adapted Summary) and NP-13 (Gift Narrative). Does NOT generate primary content — calibrates existing content for a target reader.",
+  "template_id": "audience_adapter",
+  "display_name": "Audience Adapter",
+  "description": "The only template that modifies other templates' output rather than generating its own primary content. Tells GENO how to adjust tone, complexity, emphasis, and framing for different readers. The same ancestor data should produce a different narrative for a 14-year-old nephew than for a 70-year-old grandmother than for an academic researcher. Also handles NP-13 (Gift Narrative) — special outputs designed as gifts for living people, using ancestor data to illuminate the recipient's own story.",
+  "revenue_tier": "varies by audience profile — see individual profiles",
+  "tier_guidance": {
+    "option_a": "Default general_audience profile. No audience adaptation unless specifically requested.",
+    "white_glove": "Customer may specify a target audience or gift recipient. Full audience adaptation applied. Gift Narratives require recipient profile data."
+  },
+  "how_this_template_works": {
+    "mechanism": "This template does NOT generate content independently. It modifies the output of other templates.",
+    "pipeline_position": "Applied LAST — after all other templates have generated their content.",
+    "compatible_templates": [
+      "letter_home",
+      "record_silences",
+      "what_they_saw",
+      "fork_in_the_road",
+      "military_service_arc",
+      "document_deep_read",
+      "economic_life_story",
+      "naming_as_evidence",
+      "convergence"
+    ],
+    "what_changes": "How the material is presented, what is emphasized, and what context is provided.",
+    "what_does_NOT_change": "Facts, evidence, confidence levels. The data is sacred regardless of audience."
+  },
+  "audience_profiles": [
+    {
+      "profile_id": "family_elder",
+      "display_name": "Family Elder",
+      "description": "A grandmother, great-aunt, or elder relative who may have personal memories of some of the people in the report. Knows the family stories. Cares about getting the names right.",
+      "revenue_tier": "both",
+      "adjustments": {
+        "tone": "Respectful, warm, assumes familiarity with family context. The reader already knows the cast of characters — write accordingly.",
+        "complexity": "Moderate. Can handle historical context but not genealogical jargon or academic framing.",
+        "emphasis": "Family relationships, continuity, generational connections. 'Your mother's people' framing. Naming patterns they will recognize.",
+        "what_to_include": [
+          "Family connections and relationship mapping",
+          "Confirmations of known family stories — or gentle, respectful corrections when the record says otherwise",
+          "Naming patterns they will recognize (who was named for whom)",
+          "References to people and places they may remember firsthand"
+        ],
+        "what_to_minimize": [
+          "Statistical context and demographic analysis",
+          "Economic analysis and wage data",
+          "Academic framing and methodology discussion",
+          "Genealogical terminology"
+        ],
+        "format_preference": "Flowing narrative with personal address. Minimize charts, tables, and bulleted lists. Let the text carry the story."
+      }
+    },
+    {
+      "profile_id": "young_relative",
+      "display_name": "Young Relative",
+      "description": "A teenager, young adult, or child being introduced to family history for the first time. Needs context explained. Needs to understand WHY this matters.",
+      "revenue_tier": "both",
+      "adjustments": {
+        "tone": "Direct, engaging, slightly less formal. Not condescending — treat them as smart but uninformed. The reader is capable; they just do not have the background yet.",
+        "complexity": "Simpler sentences, more context provided. Explain things an adult might take for granted: what a census is, why people migrated, what sharecropping was, what a county seat means.",
+        "emphasis": "'These people are related to YOU' framing. Connect ancestor decisions to the reader's current life — where they live, why their family is where it is, how one person's choice a century ago shaped everything after.",
+        "what_to_include": [
+          "Vivid sensory and material details that make the past concrete",
+          "Direct connections to the reader's present life and geography",
+          "Ages of ancestors — teenagers relate to 'she was 16 when she walked into the mill'",
+          "Brief explanations of historical context that adults might take for granted"
+        ],
+        "what_to_minimize": [
+          "Lengthy record analysis and source discussion",
+          "Excessive caveats and hedging — keep confidence gating but state it simply ('we think' instead of 'the preponderance of available evidence suggests')",
+          "Academic apparatus and methodology",
+          "Long paragraphs without narrative momentum"
+        ],
+        "format_preference": "Shorter paragraphs, more narrative momentum, less academic apparatus. The text should pull the reader forward."
+      }
+    },
+    {
+      "profile_id": "genealogy_researcher",
+      "display_name": "Genealogy Researcher",
+      "description": "Someone who already knows how to read records, understands genealogical methodology, and wants the evidence trail, not the emotion.",
+      "revenue_tier": "both — especially valuable for White Glove",
+      "adjustments": {
+        "tone": "Professional, precise, evidence-first. The reader knows the field — write as a colleague, not a guide.",
+        "complexity": "Full complexity. Use genealogical terminology without explanation: CMSR, enumeration district, probate, Soundex, FAN cluster. Do not explain census methodology or record types.",
+        "emphasis": "Source citations, evidence analysis, conflicting records, and next-steps research suggestions for extending the line.",
+        "what_to_include": [
+          "Full citations: repository, record group, series, box number if known",
+          "Analysis of record reliability and potential conflicts between sources",
+          "Research suggestions for extending the line — what records to check next and where",
+          "Methodology notes: how inferences were drawn, what alternatives were considered"
+        ],
+        "what_to_minimize": [
+          "Speculative narrative and 'what they saw' descriptions",
+          "Emotional framing and personal address",
+          "Background explanations of standard genealogical concepts",
+          "Creative or literary elements"
+        ],
+        "format_preference": "Structured, with clear source citations inline or as endnotes. Tabular format acceptable for data comparison. Evidence summaries welcome."
+      }
+    },
+    {
+      "profile_id": "general_audience",
+      "display_name": "General Audience",
+      "description": "The default KinLore customer. No assumed genealogical knowledge. Interested in the story. Wants to feel connected to their ancestors. This is the baseline output.",
+      "revenue_tier": "both",
+      "adjustments": {
+        "note": "None. This IS the default. Included for completeness and to explicitly define the baseline against which other profiles adapt. If no audience is specified, produce general_audience output."
+      }
+    },
+    {
+      "profile_id": "gift_recipient",
+      "display_name": "Gift Recipient (NP-13)",
+      "description": "A living person receiving a KinLore report as a gift. The narrative is customized to connect ancestor data to the recipient's known life circumstances. This is the most personalized output and the highest-touch product.",
+      "revenue_tier": "White Glove exclusive",
+      "adjustments": {
+        "tone": "Personal, warm, celebratory without being saccharine. This is a gift — it should feel like one. Not gushing. Genuine.",
+        "complexity": "Moderate. Accessible but not dumbed down. The recipient may or may not know genealogy — write for a thoughtful adult.",
+        "emphasis": "Connections between ancestor and recipient. Shared traits, shared geography, shared occupations, shared life events. 'Your great-grandfather was also 25 when he started over in a new city.'",
+        "what_to_include": [
+          "Explicit connections to the recipient's life — requires recipient profile data",
+          "Ancestor stories selected for relevance to the recipient's circumstances",
+          "The 'why this matters to YOU' framing throughout",
+          "Shared geography, occupations, ages at key life events, personality echoes where documented"
+        ],
+        "what_to_minimize": [
+          "Extensive record analysis and source apparatus",
+          "Research caveats — keep confidence gating but integrate it gracefully into the narrative",
+          "Generic historical context that does not connect to the recipient"
+        ],
+        "format_preference": "Polished narrative with personal address ('your great-grandmother'). May include a cover letter or introduction section addressed directly to the recipient.",
+        "special_handling": {
+          "required_input": "A brief profile of the recipient: name, age, location, relationship to the ancestor, and any known interests or life circumstances that might connect to ancestor stories.",
+          "fallback": "If no recipient profile is provided, warn the operator and fall back to general_audience.",
+          "connection_rules": "Connections between ancestor and recipient must be documented or clearly flagged as speculative. NEVER invent connections."
+        }
+      }
+    }
+  ],
+  "constraints": [
+    "Facts are NEVER changed by audience adaptation. The data is sacred regardless of audience.",
+    "Confidence levels are NEVER softened for easier audiences. A 'probable' inference stays 'probable' — the language may change ('we think' vs. 'the evidence suggests') but the uncertainty is preserved.",
+    "Gift Narratives MUST NOT invent connections between ancestor and recipient. Connections must be documented or clearly flagged as speculative.",
+    "Do not condescend to any audience. A young_relative profile simplifies language, not intelligence. A family_elder profile respects, not patronizes.",
+    "The genealogy_researcher profile must cite sources at a professional standard. If the source citation is incomplete, flag it — do not hide it.",
+    "General_audience is always the default. If no audience is specified, produce general_audience output.",
+    "The adaptation is a calibration, not a rewrite. The facts do not change. The evidence does not change. The confidence levels do not change."
+  ],
+  "editorial_guidelines": {
+    "pipeline_position": "This template should be applied LAST — after all other templates have generated their content.",
+    "invisibility_principle": "The audience adapter should be invisible to the reader. The output should feel natural for the target audience, not like a translation or a simplified version of something else.",
+    "emotional_register": "Avoid the temptation to make young_relative output 'fun' or family_elder output 'nostalgic.' Match the emotional register of the content, not a stereotype of the audience.",
+    "gift_recipient_fallback": "For gift_recipient: if no recipient profile is provided, warn the operator and fall back to general_audience. Do not attempt to generate a Gift Narrative without recipient data.",
+    "no_stereotyping": "Each audience profile describes adjustments to presentation, not assumptions about the reader's intelligence, emotional capacity, or interests beyond what is stated."
+  },
+  "data_dependencies": [
+    "All other templates' output — this template modifies existing content, not raw data",
+    "Customer specification of target audience (profile_id)",
+    "Recipient profile data (for gift_recipient only): name, age, location, relationship to ancestor, interests or life circumstances"
+  ]
+}

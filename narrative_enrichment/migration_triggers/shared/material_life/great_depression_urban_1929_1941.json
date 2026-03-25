@@ -1,0 +1,261 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-18",
+  "_purpose": "Material life profile for urban families during the Great Depression, 1929-1941. Describes the physical reality of daily life in American cities during the worst economic catastrophe in national history. Unemployment reached 25% nationally and higher in industrial cities. Bank failures wiped out savings. Evictions were commonplace. This profile covers the material experience of working-class and recently middle-class urban families — people who had jobs and homes one year and lost both the next. It includes both white and Black urban workers, with attention to the racial dimension: Black workers were 'first fired, last hired' and faced Depression conditions on top of existing racial discrimination. The Depression transformed the relationship between Americans and their government, between families and the economy, and between self-reliance and collective survival.",
+  "material_life_id": "great_depression_urban_1929_1941",
+  "display_name": "Great Depression Urban Life, 1929-1941",
+  "era": "1929-1941",
+  "region": "American cities nationwide — industrial Midwest (Detroit, Cleveland, Chicago, Pittsburgh), Northeast (New York City, Philadelphia, Boston), and West Coast (Los Angeles, San Francisco, Seattle). The urban experience of the Depression, where unemployment was concentrated in manufacturing, construction, and service industries. Industrial cities dependent on a single industry (Detroit on automobiles, Pittsburgh on steel, Akron on rubber) were hit hardest.",
+  "population": "Working-class and recently middle-class families who lost jobs, savings, and housing during the Depression. Factory workers laid off as production collapsed. Small business owners bankrupted as customers disappeared. Clerks, office workers, and salesmen dismissed as businesses contracted. Both white and Black urban workers, though Black workers were 'first fired, last hired' — the racial dimension of the Depression meant that Black unemployment in cities like Detroit, Chicago, and Philadelphia ran 40-60%, roughly double the white rate. By 1933, perhaps 15 million Americans were unemployed, and millions more were working reduced hours at reduced pay.",
+  "economic_position": {
+    "positions": ["unemployed", "wpa_worker", "factory_worker_reduced", "domestic_worker"],
+    "default_position": "unemployed",
+    "position_guidance": {
+      "unemployed": "This is the file's default framing. The ancestor lost their job during the Depression and could not find steady work. They survived through a combination of family support, charity, odd jobs, and eventually government relief. Material life was drastically reduced from pre-Depression levels. They appear in census records (1930 or 1940) with occupation listed but may show 'none' or 'unemployed' under weeks worked. Relief records, if they survive, document their descent from self-sufficiency to public assistance.",
+      "wpa_worker": "Adjust framing: the ancestor found employment through the Works Progress Administration (WPA), Civilian Conservation Corps (CCC), Public Works Administration (PWA), or other New Deal work programs. WPA wages ($55-94 per month depending on skill level and region) were below private-sector rates but provided income, structure, and dignity. WPA workers built schools, roads, bridges, parks, airports, and public buildings that still stand. They appear in WPA payroll records and the 1940 census, which specifically asked about government emergency work.",
+      "factory_worker_reduced": "Adjust framing: the ancestor kept a factory job but at drastically reduced hours and wages. Many factories did not close entirely but cut to two or three days per week at reduced hourly rates. A worker earning $30 per week in 1929 might earn $10 per week in 1932. The material effect was severe poverty without total unemployment — enough income to avoid relief but not enough to maintain the pre-Depression standard of living. Union membership, where it existed, provided some protection against the worst cuts.",
+      "domestic_worker": "Significant adjustment needed. The ancestor worked as a domestic — cleaning, cooking, laundering, or child-minding for middle-class and wealthy families. This was one of the few employment categories that continued through the Depression, though wages were drastically cut. In many cities, Black women stood on street corners in 'slave markets' (the contemporary term) where white housewives hired daily domestic help for as little as 15-30 cents an hour. Domestic workers are among the most invisible Depression-era workers in the historical record — they appear in census records but rarely in employment or relief data."
+    },
+    "narrative_hooks": {
+      "unemployed": "The {factory_name} closed in {year}, and {ancestor_name} was out of work. The savings — what there were — lasted {duration}. Then the family survived on odd jobs, neighbors' help, and eventually the relief office. This was the arithmetic of the Depression: one day you had a job, a paycheck, and a plan for the future. The next day you had none of those things.",
+      "wpa_worker": "{ancestor_name} went on the WPA in {year}, earning ${wage_amount} a month building {project_description} in {city}. It was government work, and some people looked down on it, but it was work — real work, with a paycheck — and in {year} that was more than most people had.",
+      "factory_worker_reduced": "The {factory_name} didn't close — it cut to three days a week at reduced pay. {ancestor_name} kept working, but the paycheck that had been ${pre_depression_wage} dropped to ${depression_wage}. Not enough to save, barely enough to live on, but enough to stay off relief. That distinction — between the employed and the unemployed, between self-supporting and on the dole — mattered enormously to people who had been raised to believe that hard work guaranteed a living.",
+      "domestic_worker": "{ancestor_name} found work where work could be found — cleaning houses, doing laundry, minding children for families who could still afford to hire help. The pay was {wage_amount} a day, sometimes less. The work was steady if you were reliable, but it left no record beyond the census entry that reads 'domestic' under occupation."
+    }
+  },
+  "trigger_refs": ["economic_panics_20c"],
+
+  "sections": {
+    "housing": {
+      "narrative": "Housing during the Depression ranged from the apartments and row houses that working families had occupied before the crash — now increasingly difficult to afford — to the doubled-up quarters of families who moved in with relatives, to the Hoovervilles and shanty camps that appeared on the margins of every major city. Eviction was the constant threat. When the rent could not be paid, families moved — to cheaper quarters, to relatives' spare rooms, to the street. By 1932-1933, evictions were so common that neighbors sometimes physically resisted sheriffs and moving crews, carrying furniture back into apartments as fast as it was carried out. Housing conditions deteriorated as landlords deferred maintenance and families crowded into smaller and smaller spaces.",
+      "details": [
+        {
+          "item": "The pre-Depression apartment and its loss",
+          "description": "Before the crash, a working-class family in a city like Detroit, Chicago, or Cleveland typically rented a flat or apartment — three to five rooms with indoor plumbing, gas for cooking and lighting, and often steam heat from a building furnace. Rent ran $20-40 per month, manageable on a factory wage of $25-35 per week. When unemployment struck, rent was one of the first obligations to fall behind. Landlords, facing their own mortgage payments, initially tolerated arrears, then served eviction notices. The family's next move was to cheaper quarters — a smaller apartment, a rear flat, a basement room — and the move after that might be to relatives or the street.",
+          "source": "McElvaine, Robert S. 'The Great Depression: America, 1929-1941.' Times Books, 1984."
+        },
+        {
+          "item": "Doubling up with relatives",
+          "description": "The most common Depression housing strategy was doubling up — moving in with parents, siblings, in-laws, or other relatives. Young couples who had established independent households moved back to parents' homes. Adult children who had left home returned. Extended families that had dispersed across a city or region reconsolidated under one roof. The 1940 census recorded millions of 'doubled-up' households — two or more families sharing a single dwelling. This strategy preserved shelter but strained relationships, privacy, and dignity. Grandparents, parents, and grandchildren in a four-room flat was not comfort, but it was survival.",
+          "source": "Kennedy, David M. 'Freedom from Fear: The American People in Depression and War, 1929-1945.' Oxford UP, 1999."
+        },
+        {
+          "item": "Hoovervilles and shanty camps",
+          "description": "Hoovervilles — named in bitter mockery of President Hoover — were shanty camps built by the homeless on vacant lots, in city parks, under bridges, and along waterfronts. New York's largest Hooverville was in Central Park. Seattle's was on the waterfront. St. Louis, Chicago, and dozens of other cities had their own. Shelters were built from scrap lumber, flattened tin cans, cardboard, and tar paper. Residents organized themselves: Hoovervilles had unofficial mayors, rules about sanitation, and communal cooking arrangements. Most were eventually demolished by authorities, but they returned until the economy improved. They were visible proof that the system had failed.",
+          "source": "Terkel, Studs. 'Hard Times: An Oral History of the Great Depression.' Pantheon Books, 1970."
+        },
+        {
+          "item": "Utility shutoffs and cold-water flats",
+          "description": "Families who kept their apartments often lost their utilities. Gas and electric companies disconnected service for nonpayment. Families cooked on kerosene stoves or over open fires (a dangerous practice in apartment buildings), heated with whatever fuel could be scavenged (broken furniture, scrap wood from demolition sites, stolen coal from railroad yards), and used candles or kerosene lamps for light. Cold-water flats — apartments without hot water or heat — were endurable in summer but brutal in northern winters. Children were sent to school partly because schools were warm, regardless of the quality of education.",
+          "source": "Green, Harvey. 'The Uncertainty of Everyday Life, 1915-1945.' HarperCollins, 1992."
+        }
+      ]
+    },
+
+    "food_and_cooking": {
+      "narrative": "Hunger was the Depression's most basic and most widespread hardship. Not the hunger of true famine — Americans did not starve in large numbers — but the chronic, grinding hunger of inadequate nutrition: meals skipped, portions reduced, cheap starches substituted for protein and fresh vegetables. Breadlines, soup kitchens, and food distribution by churches and charities kept millions of people alive but fed them monotonous, nutritionally insufficient meals. Women stretched household food budgets with extraordinary ingenuity, finding ways to feed families on a few dollars a week. The experience of hunger — and the fear of hunger — marked the Depression generation permanently, shaping attitudes toward food, waste, and saving that lasted the rest of their lives.",
+      "details": [
+        {
+          "item": "Breadlines and soup kitchens",
+          "description": "Breadlines — long queues of unemployed men waiting for free bread or a bowl of soup — became the defining image of the Depression. Churches, charitable organizations (Salvation Army, Catholic Charities), and private donors operated soup kitchens that served thousands of meals daily in major cities. Al Capone's soup kitchen in Chicago served 120,000 meals in the winter of 1930-1931. The menu was typically thin soup or stew, bread, and coffee. The breadline was a place of shame for men who had been self-supporting workers — standing in line for free food was experienced as a personal humiliation, regardless of the economic forces that had created the need.",
+          "source": "Terkel, Studs. 'Hard Times.' Pantheon Books, 1970."
+        },
+        {
+          "item": "Stretching the food budget",
+          "description": "Women who managed Depression-era household food budgets performed daily miracles of resourcefulness. A family might eat on $3-5 per week when times were worst. Strategies included: buying day-old bread at half price, using bones and scraps for soup stock, extending meat with fillers (breadcrumbs, potatoes, rice), cooking large pots of beans or stew to last several days, foraging dandelion greens from vacant lots, and growing small kitchen gardens where space permitted. Recipes of the era reflect this desperation: 'Depression cake' (no eggs, no butter, no milk), ketchup sandwiches, sugar sandwiches, and 'water pie' appear in family recipe collections from the period.",
+          "source": "McElvaine, Robert S. 'The Great Depression.' Times Books, 1984."
+        },
+        {
+          "item": "Government food distribution",
+          "description": "New Deal relief programs included direct food distribution — surplus commodities (flour, cornmeal, canned beef, dried beans, butter, cheese) distributed through local relief agencies. The Federal Surplus Commodities Corporation (1933) bought agricultural surpluses and distributed them to the unemployed, addressing both farm overproduction and urban hunger. Food stamps were piloted in 1939 in Rochester, New York. School lunch programs expanded significantly during the Depression, providing the only reliable meal for millions of children. These programs were bureaucratic, sometimes humiliating to applicants, and never fully adequate — but they prevented mass starvation.",
+          "source": "Kennedy, David M. 'Freedom from Fear.' Oxford UP, 1999."
+        },
+        {
+          "item": "The racial dimension of hunger",
+          "description": "Black urban families experienced Depression hunger more severely and earlier than white families. Higher unemployment rates meant less money for food. Discrimination in relief distribution — some local agencies gave Black families smaller rations or refused them aid entirely — compounded the problem. In cities like Detroit and Chicago, Black neighborhoods had fewer grocery stores, higher food prices, and less access to charitable food distribution. Black churches and mutual aid organizations stepped in where government and white charities failed, organizing their own soup kitchens and food distribution systems. The National Urban League documented these disparities extensively.",
+          "source": "Greenberg, Cheryl Lynn. 'To Ask for an Equal Chance: African Americans in the Great Depression.' Rowman and Littlefield, 2009."
+        }
+      ]
+    },
+
+    "clothing": {
+      "narrative": "Depression-era clothing told a story of genteel decline. Families that had dressed well before the crash wore their pre-Depression wardrobes until the clothes wore out, then patched, mended, and made over what they had. New clothing purchases stopped or dropped to bare minimums — one pair of shoes per year, if that. Women's sewing skills, which had been declining as ready-made clothing became affordable in the 1920s, revived out of necessity. Flour sack fabric — the printed cotton fabric used to package flour and animal feed — became a primary source of material for women's dresses and children's clothing. The visible deterioration of a family's clothing was a public marker of their economic decline.",
+      "details": [
+        {
+          "item": "Mending, patching, and making over",
+          "description": "Clothing repair became a daily domestic task. Women darned socks, patched trousers and shirts, turned collars and cuffs on men's dress shirts (reversing the worn side to the inside), and let out hems on children's clothing as they grew. A dress might be taken apart, the fabric turned to hide the faded side, and the garment re-sewn in a different style. Coats were re-lined with blanket material. Shoes were resoled with cardboard inserts when the leather wore through. The visible state of a family's clothing — patched but clean vs. ragged and dirty — signaled whether the family was maintaining standards under pressure or had given up.",
+          "source": "Green, Harvey. 'The Uncertainty of Everyday Life.' HarperCollins, 1992."
+        },
+        {
+          "item": "Flour sack clothing",
+          "description": "Feed and flour companies began packaging their products in printed cotton sacks when they realized that rural and urban families were using the plain sacking for clothing. By the mid-1930s, companies like Pillsbury, Gold Medal, and Bemis competed with increasingly attractive fabric prints — flowers, plaids, and geometric patterns — designed to appeal to women who would choose one brand over another based on the fabric pattern. A 100-pound flour sack yielded enough fabric for a child's dress or a woman's blouse. Matching prints were sought by mothers who wanted their children's clothes to match. The flour sack dress became a symbol of Depression-era resourcefulness — poverty made wearable by ingenuity.",
+          "source": "McElvaine, Robert S. 'The Great Depression.' Times Books, 1984."
+        },
+        {
+          "item": "Men's clothing and the appearance of employment",
+          "description": "For unemployed men seeking work, maintaining the appearance of employability was critical — and increasingly difficult as clothing wore out. A man in a frayed collar, a threadbare suit, and worn-out shoes was less likely to be hired than one who looked presentable. Charitable organizations distributed used clothing, and pawnshops did brisk business in clothing — men pawned their good suits when they needed cash and tried to redeem them before job interviews. The daily struggle to look employed while being unemployed was psychologically devastating. As one man told Studs Terkel: 'I didn't want to be seen in my old clothes. I stayed in the house.'",
+          "source": "Terkel, Studs. 'Hard Times.' Pantheon Books, 1970."
+        },
+        {
+          "item": "Children's clothing and school attendance",
+          "description": "Children's clothing was a particularly painful pressure point for Depression families. Children who lacked adequate clothing — shoes especially — were kept home from school rather than sent in visibly ragged condition. Teachers and school nurses reported children attending in clothes too thin for winter weather, without shoes, or wearing shoes several sizes too large (hand-me-downs from older siblings or charity). WPA sewing rooms, staffed by unemployed women, produced children's clothing for distribution through relief agencies. The stigma of wearing charity clothing — identifiable by its institutional uniformity — was keenly felt by children, who were taunted by classmates whose families were managing better.",
+          "source": "Kennedy, David M. 'Freedom from Fear.' Oxford UP, 1999."
+        }
+      ]
+    },
+
+    "hygiene_and_health": {
+      "narrative": "The Depression's health effects were paradoxical. Overall mortality rates did not spike as dramatically as might be expected — partly because decreased industrial activity meant less pollution and fewer workplace accidents. But malnutrition, untreated illness, mental health deterioration, and the toll of chronic stress took an enormous toll that statistics only partially capture. Families who could not afford doctors treated illnesses at home or went untreated. Dental care was abandoned almost entirely. Hospital charity wards filled beyond capacity. The psychological effects of unemployment — depression, anxiety, shame, family tension, alcoholism — were devastating and largely unaddressed. The Depression generation's stoicism about health problems, reluctance to see doctors, and refusal to waste food all trace to these years.",
+      "details": [
+        {
+          "item": "Untreated illness and home remedies",
+          "description": "When medical care cost money the family did not have, illness went untreated. Doctor visits ($2-5 per visit) and prescriptions were luxuries that unemployed families could not afford. Home remedies revived: mustard plasters for chest congestion, onion poultices for earaches, aspirin for pain, and patent medicines (often alcohol-based) for everything else. Dental care was abandoned almost universally — teeth were pulled rather than filled because extraction was cheaper, and many families could not afford even that. Public health clinics, where they existed, were overwhelmed. Hospitals accepted charity cases but required humiliating means-testing. Treatable conditions became chronic; chronic conditions became disabling.",
+          "source": "Green, Harvey. 'The Uncertainty of Everyday Life.' HarperCollins, 1992."
+        },
+        {
+          "item": "Malnutrition and its effects",
+          "description": "Chronic malnutrition — not starvation, but inadequate nutrition over months and years — was widespread among Depression-era children and adults. Diets heavy in cheap starches (bread, potatoes, rice, beans) and lacking in protein, fresh vegetables, and dairy produced vitamin deficiencies, stunted growth, and weakened immune systems. Rickets (vitamin D deficiency), pellagra (niacin deficiency), and scurvy (vitamin C deficiency) appeared in urban populations where they had not been seen in decades. School nurses documented underweight children, children with poor teeth and skin lesions from malnutrition, and children who fainted from hunger during morning classes.",
+          "source": "Kennedy, David M. 'Freedom from Fear.' Oxford UP, 1999."
+        },
+        {
+          "item": "Mental health and the psychological toll",
+          "description": "The psychological effects of unemployment were devastating and largely invisible in the historical record. Men who had defined themselves by their work — their skill, their paycheck, their role as provider — experienced unemployment as a personal failure regardless of its economic causes. Depression (the psychological condition) accompanied the Depression (the economic condition). Suicide rates increased. Domestic violence increased. Alcoholism — despite Prohibition, which ended in 1933 — was widespread. Family roles reversed: women who found domestic work or relief employment became breadwinners while husbands sat idle. Children saw their fathers humiliated. These psychological wounds healed slowly, if at all.",
+          "source": "Terkel, Studs. 'Hard Times.' Pantheon Books, 1970."
+        },
+        {
+          "item": "Public health and sanitation",
+          "description": "Municipal services — garbage collection, water treatment, public health inspection — were cut during the Depression as city tax revenues collapsed. The result was deteriorating sanitation in already overcrowded neighborhoods. Hoovervilles had minimal or no sanitation — open latrines, no running water, no garbage collection. Tuberculosis, which had been declining, stabilized or increased in crowded urban areas. Infantile paralysis (polio) outbreaks continued their frightening summer cycles. Public health nurses, their numbers reduced by budget cuts, struggled to maintain vaccination programs and disease surveillance with inadequate resources.",
+          "source": "Green, Harvey. 'The Uncertainty of Everyday Life.' HarperCollins, 1992."
+        }
+      ]
+    },
+
+    "transportation": {
+      "narrative": "The Depression reversed the transportation revolution of the 1920s for millions of families. Cars that could not be maintained were abandoned or sold for a fraction of their value. Gasoline cost money that unemployed workers did not have. Streetcars and buses charged fares that had to be weighed against the cost of food. Walking became the primary mode of transportation for the unemployed — walking to relief offices, walking to job sites, walking the streets looking for work. The hobo — a man riding freight trains from town to town in search of work — became an iconic Depression figure, though the reality of riding the rails was dangerous, illegal, and desperate rather than romantic.",
+      "details": [
+        {
+          "item": "The automobile and its loss",
+          "description": "In the 1920s, automobile ownership had become widespread among working-class families — by 1929, there was roughly one car for every five Americans. The Depression reversed this for millions. Cars were repossessed, sold, or abandoned when owners could not afford gasoline, tires, and repairs. Families who kept their cars used them sparingly or not at all. Some converted their cars to horse-drawn vehicles when they could not afford gasoline — 'Hoover wagons' or 'Bennett buggies' (in Canada). The loss of the car was a practical and psychological blow: it restricted job searches, isolated families from kin, and removed one of the most visible markers of working-class achievement.",
+          "source": "McElvaine, Robert S. 'The Great Depression.' Times Books, 1984."
+        },
+        {
+          "item": "Public transit and walking",
+          "description": "Streetcar and bus ridership declined during the Depression as fares (typically 5-10 cents) became a noticeable expense for families counting every penny. Many unemployed workers walked — to relief offices, to job sites, to WPA worksites, and simply around the city looking for odd jobs and day labor. A man looking for work might walk ten or fifteen miles in a day, visiting factories, shops, and construction sites to ask if anyone was hiring. Shoe leather wore out faster than it could be replaced. Walking the streets became the daily occupation of the unemployed — a visible, demoralizing activity that filled the hours that work had once occupied.",
+          "source": "Terkel, Studs. 'Hard Times.' Pantheon Books, 1970."
+        },
+        {
+          "item": "Riding the rails",
+          "description": "An estimated 250,000 to 500,000 people — mostly young men, but also families, women, and teenage boys — rode freight trains during the Depression, moving from city to city in search of work. Riding the rails was illegal (trespassing on railroad property) and dangerous — falls from moving trains, railroad police (bulls) who beat or shot trespassers, and exposure to weather killed hundreds annually. Hobo jungles — camps near railroad yards where transients cooked communal meals and shared information about job prospects and hostile towns — developed their own codes and culture. The experience marked those who survived it permanently.",
+          "source": "Kennedy, David M. 'Freedom from Fear.' Oxford UP, 1999."
+        },
+        {
+          "item": "Apple sellers and street commerce",
+          "description": "The apple seller — an unemployed man standing on a street corner selling apples for 5 cents each — became one of the Depression's most recognizable images. The International Apple Shippers' Association sold surplus apples to unemployed men on credit ($1.75 per crate of 72 apples) in 1930, and within weeks, 6,000 apple sellers appeared on New York City streets alone. Apple selling was a form of self-help that maintained a thin fiction of commercial enterprise rather than charity. Street-corner commerce — selling newspapers, shining shoes, peddling small goods — provided minimal income and, more importantly, a reason to be on the street with a purpose rather than simply idle.",
+          "source": "McElvaine, Robert S. 'The Great Depression.' Times Books, 1984."
+        }
+      ]
+    },
+
+    "communication": {
+      "narrative": "The Depression era was shaped by radio more than any other communication technology. Radio was free after the initial purchase of the set, and it became the lifeline connecting isolated, anxious families to news, entertainment, and — crucially — the voice of President Roosevelt in his fireside chats. Newspapers remained important but were an expense some families cut. Movie newsreels provided visual information about national events. The telephone, if the family could afford to keep service, connected kin across distances. But the most powerful communication during the Depression was word of mouth — rumors of jobs, warnings about relief office closures, tips about which charities were distributing food. The desperate search for information about employment and assistance drove a constant informal communication network through every Depression-era neighborhood.",
+      "details": [
+        {
+          "item": "Radio as lifeline",
+          "description": "Radio was the Depression's essential communication technology. A radio set purchased in the 1920s continued to provide free entertainment and information throughout the 1930s — no ongoing cost beyond electricity. By 1935, approximately 67% of American households had a radio. Families gathered around the set for evening programs: Amos 'n' Andy, The Shadow, Jack Benny, Fibber McGee and Molly, and Major Bowes' Amateur Hour. Radio dramas, comedy shows, and music provided escape from anxiety. Radio news kept families informed of national events. For isolated, unemployed families who could no longer afford movies or social outings, the radio was the last form of entertainment they could access.",
+          "source": "McElvaine, Robert S. 'The Great Depression.' Times Books, 1984."
+        },
+        {
+          "item": "FDR's fireside chats",
+          "description": "President Roosevelt's fireside chats — 30 evening radio addresses delivered between 1933 and 1944 — were the most important political communication events of the Depression era. Roosevelt spoke directly to the American people in conversational, accessible language, explaining bank closures, New Deal programs, and economic policy in terms ordinary listeners could understand. An estimated 60 million Americans listened to the first fireside chat on March 12, 1933, about the banking crisis. Families listened together, and the chats became communal events — neighbors gathered around the set that had the best reception. The fireside chats restored a measure of confidence and created a personal connection between the President and the public that had no precedent.",
+          "source": "Kennedy, David M. 'Freedom from Fear.' Oxford UP, 1999."
+        },
+        {
+          "item": "Newspapers and news access",
+          "description": "Daily newspapers cost 2-3 cents, and many families could not afford even that during the worst years. Newspapers were shared, read in libraries (where they were chained to tables to prevent theft), or found discarded. Headlines about bank failures, factory closures, and unemployment statistics were followed intently by families whose own fate depended on the same economic forces. Classified ads — the 'help wanted' section — were studied with desperate attention by unemployed workers. Small-town newspapers published relief rolls, adding public shame to private hardship. The newspaper remained the primary source of local information, but its reach contracted as subscribers dropped and advertising revenue collapsed.",
+          "source": "Green, Harvey. 'The Uncertainty of Everyday Life.' HarperCollins, 1992."
+        },
+        {
+          "item": "Word of mouth and the rumor economy",
+          "description": "In the absence of reliable information about jobs, relief programs, and economic conditions, word of mouth became the primary communication channel for unemployed workers. A rumor that a factory was hiring could send hundreds of men to the gate before dawn. Information about which relief agencies were distributing food, which charities were taking applications, and which neighborhoods had odd jobs available traveled through informal networks — barbershops, pool halls, church basements, and the streets themselves. This rumor economy was unreliable but essential. Men who stayed home and waited for news got none; men who circulated through the city, talking to everyone, occasionally found work.",
+          "source": "Terkel, Studs. 'Hard Times.' Pantheon Books, 1970."
+        }
+      ]
+    },
+
+    "entertainment_and_social_life": {
+      "narrative": "The Depression shrank the world of entertainment and social life to what was free or nearly free. The rich commercial entertainment culture of the 1920s — movies, dance halls, amusement parks, spectator sports — became inaccessible to families without income. What replaced it was radio (free after the purchase of the set), the public library, the neighborhood stoop and corner, church activities, and whatever families could improvise at home. Movies remained popular because admission was cheap (10-25 cents) and theaters offered heat, distraction, and the emotional release of laughing at comedies or escaping into adventure films. Social life contracted to the immediate neighborhood and the family, but it did not disappear — people found ways to maintain connections and find moments of pleasure even in the worst years.",
+      "details": [
+        {
+          "item": "Movies as escape",
+          "description": "Movie attendance held up surprisingly well during the Depression — weekly attendance dropped from 80 million in 1930 to 60 million in 1932-1933 but remained substantial. Admission was 10-25 cents, and many theaters offered double features, cartoons, newsreels, and serialized chapters for the price of a single ticket. Children's Saturday matinees cost a dime. For unemployed families, the movie theater offered warmth, darkness (hiding threadbare clothing), and two to three hours of escape from anxiety. Depression-era films — screwball comedies, musicals, gangster films, and adventure serials — provided fantasy worlds where problems were solvable and endings were happy. Shirley Temple, the Marx Brothers, and Fred Astaire earned their popularity by providing temporary relief from reality.",
+          "source": "Halberstam, David. 'The Fifties.' Villard Books, 1993."
+        },
+        {
+          "item": "Radio entertainment and family listening",
+          "description": "The radio was the Depression's great equalizer — rich and poor listened to the same programs at the same time. Evening radio listening became the family's primary shared entertainment. Programs like Amos 'n' Andy drew audiences of 40 million. The Lone Ranger, Little Orphan Annie, and The Shadow entertained children after school. Soap operas (named for their soap-company sponsors) engaged daytime listeners — primarily women. Music programs — big band broadcasts from hotel ballrooms, the Grand Ole Opry from Nashville — brought live performance into the home. Radio required nothing but a functioning set, and families protected their radios from repossession with the same determination they applied to keeping a roof over their heads.",
+          "source": "McElvaine, Robert S. 'The Great Depression.' Times Books, 1984."
+        },
+        {
+          "item": "Free and low-cost social activities",
+          "description": "Depression social life centered on what cost nothing: visiting neighbors, sitting on the stoop or front porch, playing cards, listening to the radio together, and attending church. Libraries reported surging circulation — unemployed workers read voraciously, and children used library reading rooms as warm, safe after-school refuges. Parks and public spaces saw increased use. Community gardens — organized on vacant lots by city governments and civic organizations — combined food production with outdoor social activity. Board games (Monopoly, introduced 1935, became a sensation — a game about real estate wealth played by people who had lost theirs) provided family entertainment. Singing around a piano, if the family had one, was common.",
+          "source": "Green, Harvey. 'The Uncertainty of Everyday Life.' HarperCollins, 1992."
+        },
+        {
+          "item": "Church and charitable organizations",
+          "description": "Churches and religious organizations became more central to social life during the Depression, both because they provided material assistance (food, clothing, fuel) and because they offered community and hope when other sources of both had collapsed. Church attendance increased during the early Depression years. Church basements hosted soup kitchens, clothing distribution, and community gatherings. The Salvation Army, Catholic Charities, Jewish welfare organizations, and Protestant denominational charities were among the first responders to Depression-era need, and their social programs became gathering points for communities under stress. For many families, the church was the last functioning community institution.",
+          "source": "Kennedy, David M. 'Freedom from Fear.' Oxford UP, 1999."
+        }
+      ]
+    },
+
+    "household_goods": {
+      "narrative": "Depression-era households experienced a material reversal that was psychologically devastating. Families that had spent the 1920s acquiring the markers of middle-class comfort — furniture sets, kitchen appliances, radios, automobiles — watched those possessions deteriorate, be repossessed, or be sold for fractions of their value. Pawnshops filled with wedding rings, watches, and musical instruments. Furniture was burned for heat. The material trajectory of the Depression ran downhill: each year, families owned less, used more makeshift substitutes, and became more skilled at making do with what remained. The survivors of the Depression became the most frugal generation in American history — people who saved string, reused aluminum foil, and never threw away anything that might someday be useful.",
+      "details": [
+        {
+          "item": "Pawnshops and the liquidation of possessions",
+          "description": "Pawnshops were the unofficial banking system of the Depression — the place where families converted possessions into cash to survive another week. Wedding rings, watches, musical instruments, jewelry, good clothing, tools, and cameras were pawned for a fraction of their value. Many items were never redeemed. The pawnshop transaction was a staged surrender of middle-class identity: first the luxuries went, then the comforts, then the necessities. A man who pawned his tools was admitting he had no prospect of work. A woman who pawned her wedding ring was sacrificing the symbol of family stability to maintain the reality of family survival.",
+          "source": "Terkel, Studs. 'Hard Times.' Pantheon Books, 1970."
+        },
+        {
+          "item": "Making do and improvisation",
+          "description": "Depression households ran on improvisation. When shoe soles wore through, cardboard inserts replaced leather. When window glass broke, cardboard or newspaper replaced glass. Worn-out clothing became cleaning rags. Tin cans became drinking cups, planters, and storage containers. Old newspapers served as insulation, shelf paper, and toilet paper. String was saved and reused. Broken items were repaired rather than replaced — again and again, until they could not be repaired further. This culture of extreme reuse shaped the habits of the Depression generation permanently. Decades later, in comfortable postwar homes, Depression survivors still washed aluminum foil, saved rubber bands, and refused to throw away anything that might conceivably be useful.",
+          "source": "McElvaine, Robert S. 'The Great Depression.' Times Books, 1984."
+        },
+        {
+          "item": "The radio as last luxury",
+          "description": "The radio was often the last consumer good a family held onto — the one item they would not pawn, sell, or sacrifice. A radio provided free entertainment, free news, and a connection to a world beyond the four walls of an increasingly bleak apartment. Radio sets purchased in the prosperous 1920s — large console models with wood cabinets — became the most valued pieces of furniture in Depression-era living rooms. When other furnishings were sold or burned for fuel, the radio remained. Its presence in the household was a marker of the line between hardship and despair — as long as the family had a radio, they had not lost everything.",
+          "source": "Green, Harvey. 'The Uncertainty of Everyday Life.' HarperCollins, 1992."
+        },
+        {
+          "item": "Relief supplies and government commodities",
+          "description": "Families on relief received government surplus commodities — canned beef, flour, cornmeal, dried beans, butter, and cheese — distributed through local relief agencies. The quality was adequate but monotonous, and the experience of receiving it was humiliating. Relief recipients might also receive coal for heating, used clothing, and occasionally furniture. WPA sewing rooms produced mattresses, clothing, and household textiles for distribution. These items were functional but carried the stigma of charity — they announced to neighbors that the family was 'on the dole.' Many families accepted relief only when the alternative was starvation or eviction, and the shame of receiving public assistance haunted Depression survivors for the rest of their lives.",
+          "source": "Kennedy, David M. 'Freedom from Fear.' Oxford UP, 1999."
+        },
+        {
+          "item": "Furniture as fuel",
+          "description": "In the coldest months, when families could not afford coal or gas for heating, furniture became fuel. Chairs, tables, bookshelves, and bed frames were broken up and burned in stoves and fireplaces. Vacant buildings were stripped of wood — bannisters, door frames, floorboards — for fuel. Children were sent to scavenge coal from railroad yards, picking up pieces that had fallen from tenders. The burning of furniture was both a practical survival measure and a symbolic act of desperation — the physical dismantling of the domestic environment that the family had built. By the time furniture was being burned, most other options had been exhausted.",
+          "source": "McElvaine, Robert S. 'The Great Depression.' Times Books, 1984."
+        }
+      ]
+    }
+  },
+
+  "sensory_snapshot": "The apartment is cold — the gas was shut off last month and the kerosene heater burns low, its blue flame giving more smell than warmth. Through the window, a gray November sky over rooftops and fire escapes. On the table, a pot of bean soup stretches into its third day, each serving thinner than the last. The radio is on, turned low — a dance band playing somewhere warm, somewhere that still has money. In the front room, a man sits in his good coat (he cannot afford to heat the apartment enough to take it off) reading yesterday's newspaper for the third time, studying the help-wanted columns that list nothing he has not already tried. The wallpaper peels at the ceiling corners. The children's shoes, resoled with cardboard, dry on the radiator that no longer heats. Somewhere down the hall, a baby cries. On the fire escape, a woman has hung laundry despite the cold — sheets and shirts that will freeze-dry in the wind. The smell of cabbage cooking drifts up the stairwell from the flat below. It is Wednesday, and Wednesday is the same as every other day when there is no work.",
+
+  "narrative_hooks": [
+    "{ancestor_name} lost {pronoun_possessive} job at the {factory_name} in {year}, along with {layoff_count} other workers. The factory did not close — it cut production by two-thirds and kept a skeleton crew. {ancestor_name} was not on the skeleton crew. The paycheck that had been ${pre_depression_wage} per week became nothing, and nothing is what the family had to work with.",
+    "The {year} census finds {ancestor_name} at {address} in {city} — the same address as {relative_name}'s family, two families in a flat meant for one. Doubling up was the Depression's most common housing strategy: cheaper than two rents, warmer than the street, but hard on everyone's dignity and everyone's nerves.",
+    "What {ancestor_name} saved during the Depression was not money — there was no money to save. What {pronoun_subject} saved was string, paper bags, rubber bands, tin foil, and the habit of never throwing away anything that might someday be useful. Decades later, in a comfortable house with a full refrigerator, {pronoun_subject} still could not waste food. The Depression did that to people.",
+    "The WPA payroll records show {ancestor_name} working on {project_description} in {city} in {year}, earning ${wage_amount} per month. It was government work, and people who had never needed government help before struggled with the humiliation of needing it now. But the work was real — roads, schools, bridges, parks — and the paycheck was real, and in {year}, reality was more valuable than pride.",
+    "On {date}, {ancestor_name} sat in the front room and listened to Franklin Roosevelt's voice coming through the radio — calm, confident, explaining what the government was going to do and why. Millions of families sat in the same position that night, listening to the same voice, wanting to believe that someone, somewhere, had a plan. The fireside chats did not end the Depression, but they ended the silence."
+  ],
+
+  "source_references": [
+    "McElvaine, Robert S. 'The Great Depression: America, 1929-1941.' Times Books, 1984.",
+    "Terkel, Studs. 'Hard Times: An Oral History of the Great Depression.' Pantheon Books, 1970.",
+    "Kennedy, David M. 'Freedom from Fear: The American People in Depression and War, 1929-1945.' Oxford University Press, 1999.",
+    "Green, Harvey. 'The Uncertainty of Everyday Life, 1915-1945.' HarperCollins, 1992.",
+    "Greenberg, Cheryl Lynn. 'To Ask for an Equal Chance: African Americans in the Great Depression.' Rowman and Littlefield, 2009.",
+    "Brandt, Allan M. 'The Cigarette Century: The Rise, Fall, and Deadly Persistence of the Product That Defined America.' Basic Books, 2007."
+  ]
+}

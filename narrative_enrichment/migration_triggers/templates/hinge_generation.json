@@ -1,0 +1,245 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-17",
+  "_purpose": "Narrative template for the generation where the family story pivots — where children's lives diverge significantly from parents' lives. Covers family dispersal after an anchor event, economic reset between generations, and cultural bridging where children straddle two worlds. Every claim requires multi-generational records showing the before and after. The hinge is visible only in retrospect.",
+  "template_id": "hinge_generation",
+  "display_name": "Hinge Generation",
+  "description": "Narrates the generation where the family story pivots — where children's lives diverge significantly from parents' lives. Three situations cover family dispersal after an anchor event, economic reset between generations, and cultural bridging where children straddle two worlds. The hinge generation is the fulcrum: the parent's world is documented in one set of records, the children's world in another, and the gap between them is the story. Every situation requires records from at least two generations. A single generation's records are a snapshot, not a hinge.",
+  "revenue_tier": "both — one situation (whichever has strongest record support) for Option A, all applicable situations for White Glove",
+  "tier_guidance": {
+    "option_a": "One situation only. Choose the situation with the strongest multi-generational record support — the one where you have documented evidence from both the parent's generation and the children's generation. 100-150 words. Cite at least one specific record from each generation.",
+    "white_glove": "All applicable situations. Full beat structure for each. 150-250 words per situation. Each situation must cite specific records by type, date, and jurisdiction from both generations. May include editorial annotation connecting the situations into a coherent pivot narrative."
+  },
+  "situations": [
+    {
+      "situation_id": "scattered_children",
+      "display_name": "The Scattering",
+      "geno_pattern": "supports NP-06, NP-08",
+      "trigger_condition": "Parent's death, economic failure, or community disruption leads to children dispersing to different locations visible in subsequent censuses. At least two children must end up in different counties or states. The scatter must be documented in actual records — census entries, property records, marriage records in different jurisdictions — not assumed from the absence of records in one place.",
+      "tone": "Documentary. The scatter is reconstructed from census entries and courthouse records in multiple jurisdictions. No sentimentality about the broken household. No triumphant framing of 'spreading out.' The tone is that of someone tracing addresses on a map and noticing that the pins are suddenly far apart.",
+      "structural_beats": [
+        {
+          "beat_number": 1,
+          "beat_name": "the_anchor",
+          "description": "The parent's documented presence — the last census showing the household intact, the last property record, the death record. This is the before. The household as it existed when the family was still in one place.",
+          "example": "The 1860 census shows Elias Boon in Sampson County with seven children in the household, the youngest three years old. He held 120 acres and listed $1,200 in real estate."
+        },
+        {
+          "beat_number": 2,
+          "beat_name": "the_break",
+          "description": "The event that broke the household — death, economic failure, displacement, or community disruption. This must be a documented event: a death record, a court filing, a property forfeiture, a known historical disruption. If the break is not documented, note that — the absence of a death record or court record is itself informative.",
+          "example": "Elias Boon does not appear in the 1870 census. No death record has been located in Sampson County. The household simply ceases to exist in the record between 1860 and 1870."
+        },
+        {
+          "beat_number": 3,
+          "beat_name": "the_scatter",
+          "description": "Where each child ended up, documented in subsequent census records, marriage records, or property records. Each child's destination must be grounded in a specific record. Map the scatter geographically — how far apart did they end up?",
+          "example": "The 1870 census locates three Boon children: one in Sampson County working as a farm laborer, one in Bladen County listed as a tenant, one in Robeson County. The other four have not been located in 1870 records."
+        },
+        {
+          "beat_number": 4,
+          "beat_name": "the_pattern",
+          "description": "Was the scatter random or did it follow kin networks, migration routes, or economic opportunities? Did children go where aunts, uncles, or cousins already lived? Did they follow a railroad line, a river, or a known migration corridor? The pattern — or the absence of a pattern — is the interpretive layer.",
+          "data_source": "migration_triggers, shared/routes, shared/destinations",
+          "example": "The Bladen County and Robeson County destinations were both adjacent counties — the scatter stayed regional, within a day's travel of the original homestead. This suggests kin networks or local labor markets, not long-distance migration."
+        },
+        {
+          "beat_number": 5,
+          "beat_name": "the_trace",
+          "description": "What survives of the connection between scattered siblings. Shared surnames appearing in the same destination community. Adjacent entries on census pages. Witnesses or bondsmen on each other's marriage records. Land transactions between siblings in different counties. The trace is the documentary evidence that the family remained connected — or the silence that suggests they did not.",
+          "example": "Two Boon brothers appear as witnesses on each other's marriage bonds in different counties in the 1870s — the only documentary evidence that the scattered siblings maintained contact."
+        }
+      ],
+      "variables": [
+        "{ancestor_name}",
+        "{death_year}",
+        "{children_list}",
+        "{destinations}",
+        "{pattern_type}"
+      ],
+      "constraints": [
+        "Each child's destination must be documented from an actual record — census entry, marriage record, property record, or tax list. Do not assume a child 'probably went to' a location.",
+        "Children not located in subsequent records must be noted as unlocated, not ignored. The ones who disappear from the record are part of the story.",
+        "No speculation about 'keeping in touch' or 'missing each other.' The emotional dimension of sibling separation is private and undocumented. Document the trace — witnesses, land transactions, shared destinations — and let the records speak.",
+        "The break event must be documented or its absence noted. If no death record, court record, or disruption event has been found, say so explicitly.",
+        "Geographic distance between destinations should be noted — adjacent counties vs. different states tell different stories about the severity of the scatter."
+      ],
+      "example_output": "The 1860 census shows Elias Boon's household intact in Sampson County — seven children, 120 acres, $1,200 in real estate. By 1870, Elias is gone from the record and the household has ceased to exist. No death record has been located. The children scatter to three counties: one stays in Sampson as a farm laborer, one turns up as a tenant in Bladen County, one in Robeson County. Four others have not been found in 1870 records at all. The scatter stayed regional — all within adjacent counties, suggesting local kin networks rather than long-distance migration. The only documentary evidence of continued connection: two brothers witnessed each other's marriage bonds in different counties in the 1870s. The family that was one household in 1860 became three addresses and four silences by 1870."
+    },
+    {
+      "situation_id": "economic_reset",
+      "display_name": "The Economic Reset",
+      "geno_pattern": "supports NP-06",
+      "trigger_condition": "Census wealth data, property records, or occupation changes show children starting from a fundamentally different economic position than their parents. Parent was landowner, children are tenants. Parent was tenant, children own land. Parent was a craftsman, children are factory workers. The reset is documented in records from both generations — not assumed from a single generation's data.",
+      "tone": "Arithmetic. The reset is told through numbers: acreages, valuations, census wealth columns, tax assessments. The gap between what the parent had and what the children started with is the story. No framing the decline as tragedy or the rise as triumph. The numbers are the narrative.",
+      "structural_beats": [
+        {
+          "beat_number": 1,
+          "beat_name": "parent_position",
+          "description": "The parent's documented economic position — census wealth columns (1850-1870), property records, tax rolls, probate inventory. This is the baseline. What the parent had at their peak or at the time of the generational transition.",
+          "data_source": "census_wealth_data, property_records, tax_assessment_records",
+          "example": "The 1860 census lists A.W. Bass with $800 in real estate and $400 in personal estate — above the county median for Sampson County, enough to place him in the upper half of local landholders."
+        },
+        {
+          "beat_number": 2,
+          "beat_name": "the_transition",
+          "description": "What happened between generations — inheritance divided among heirs, property lost to debt or tax sale, property accumulated through new opportunity, occupation shift driven by economic change. The transition event must be documented: a will, a deed, a court record, a shift visible in sequential censuses.",
+          "data_source": "probate_records, deed_records, court_records",
+          "example": "Bass's will divided the property among four children. The 1870 census shows none of them holding property valued above $200 — the $800 estate, split four ways and depreciated by war, left each heir with a fraction of the original."
+        },
+        {
+          "beat_number": 3,
+          "beat_name": "child_position",
+          "description": "The children's documented economic position in their own records — their first census entry as heads of household, their property records, their tax assessments. This is the after. What the children started with, compared to what the parent had.",
+          "data_source": "census_wealth_data, property_records, tax_assessment_records",
+          "example": "By 1880, the four Bass children were listed as tenant farmers, none owning land. The family had gone from landowner to tenant in one generation."
+        },
+        {
+          "beat_number": 4,
+          "beat_name": "the_arithmetic",
+          "description": "The numbers side by side: parent's acreage or wealth versus children's. Was the reset an equal division that left everyone with less? A total loss? An upward leap? Show the math. The arithmetic is the evidence that a reset occurred — without it, the claim is unsupported.",
+          "data_source": "wages_by_occupation, cost_of_living_benchmarks",
+          "example": "Parent: $800 in real estate, 1860. Four children: $0 in real estate each, 1880. Even accounting for the elimination of census wealth columns after 1870, the tax rolls confirm: none of the four appeared as landowners in Sampson County through 1890."
+        },
+        {
+          "beat_number": 5,
+          "beat_name": "the_meaning",
+          "description": "Was this reset typical for the county and era, or exceptional? A family losing land in Sampson County after the Civil War was the norm, not the exception. A family gaining land in the same period was remarkable. The community comparison determines whether this is a story about one family or about an entire generation.",
+          "data_source": "county_source_profiles, historical_context_timelines",
+          "example": "Across Sampson County, landowner-to-tenant transitions were common in the 1870s — the war, emancipation, and the crop lien system restructured the entire agricultural economy. The Bass family's decline was not individual failure. It was the county's story, documented in one family's records."
+        }
+      ],
+      "variables": [
+        "{parent_name}",
+        "{parent_value}",
+        "{child_name}",
+        "{child_value}",
+        "{transition_event}"
+      ],
+      "constraints": [
+        "Requires specific numbers from at least two generations. A reset without numbers is an assertion, not a documented finding.",
+        "No romanticizing decline. 'The family fell on hard times' is vague sentiment. 'The family went from $800 in real estate to $0 in one generation' is documented reality.",
+        "No celebrating rise. 'The family pulled themselves up' is mythology. 'The children held $2,000 in real estate where the parent held $200' is data.",
+        "Census wealth columns (1850-1870) are the gold standard for economic comparison. When available, use them. When not available (pre-1850 or post-1870), use tax rolls, deed records, or probate inventories and note the data source.",
+        "The community comparison must be documented, not assumed. If county-level data is unavailable, say so rather than asserting the reset was 'typical' or 'unusual.'",
+        "Acknowledge when the reset is ambiguous. A parent with $800 and children with $400 each might represent decline (less total) or stability (comparable per capita). Do not force a dramatic narrative onto modest shifts."
+      ],
+      "example_output": "A.W. Bass held $800 in real estate in the 1860 Sampson County census — above the county median, a working farm. His will divided the property among four children. By 1880, none of the four owned land. The tax rolls through 1890 confirm it: no Bass heir appeared as a landowner in Sampson County. The $800 estate became four tenant farm entries. This was not unique to the Bass family. Across Sampson County, the postwar transition from landowner to tenant was the dominant economic pattern of the 1870s. The Bass family's reset was the county's reset, documented in one family's census entries and one will."
+    },
+    {
+      "situation_id": "cultural_bridge",
+      "display_name": "The Bridge Generation",
+      "geno_pattern": "supports NP-09",
+      "trigger_condition": "Children's records show markers of a different cultural context than parents' records — different language in records, different naming patterns, different occupational class, different geographic context (rural to urban, South to North, Old Country to America). The bridge must be visible in actual records from both generations, not assumed from ethnicity or surname.",
+      "tone": "Observational. The bridge generation is identified by juxtaposing records from two worlds. The parent's records say one thing; the children's records say another. The template does not judge which world was better. It documents the transition and lets the records show the distance traveled in a single generation.",
+      "structural_beats": [
+        {
+          "beat_number": 1,
+          "beat_name": "world_one",
+          "description": "The parent's documented cultural context — the language of their records, their naming patterns (patronymics, traditional given names, naming after grandparents), their community (ethnic enclave, rural parish, immigrant neighborhood), their occupation. This is the world the children were born into.",
+          "data_source": "census_records, church_records, immigration_records, shared/community_texture",
+          "example": "Johann Knauss appears in the 1870 census in a German-speaking household in Lehigh County, Pennsylvania. His children's names follow German patronymic patterns. His occupation is listed as 'farmer' in a township where every surrounding household is also German-born."
+        },
+        {
+          "beat_number": 2,
+          "beat_name": "world_two",
+          "description": "The children's documented cultural context — how their records differ from their parents'. English-language records replacing German or Swedish. Anglicized names replacing traditional ones. Urban addresses replacing rural townships. White-collar occupations replacing agricultural ones. The children's records are the evidence of the bridge.",
+          "data_source": "census_records, city_directories, marriage_records, shared/community_texture",
+          "example": "By 1900, Johann's son appears as 'John Noose' in an English-language census entry in Allentown — urban, not rural. His occupation is 'clerk.' His children have English names: William, Mary, Charles. The German patronymic pattern is gone."
+        },
+        {
+          "beat_number": 3,
+          "beat_name": "the_bridge",
+          "description": "The specific records that show the transition happening — the first English-language record, the first urban census entry, the first non-agricultural occupation, the marriage to someone outside the ethnic community. These transitional records are the bridge itself, the documentary evidence of a generation crossing from one world to another.",
+          "data_source": "census_records, marriage_records, city_directories, school_records",
+          "example": "The bridge is visible in the 1890 city directory: John Knauss, clerk, 47 Hamilton Street, Allentown. This is the first record that places a Knauss in town rather than on a farm, the first that lists a non-agricultural occupation, the first that anglicizes the given name."
+        },
+        {
+          "beat_number": 4,
+          "beat_name": "the_evidence",
+          "description": "The full inventory of records that document the bridging — school records showing English-language education, marriage records showing intermarriage outside the ethnic community, occupation shifts documented in sequential censuses, geographic moves from ethnic enclave to mixed neighborhood. Each piece of evidence is a data point in the transition.",
+          "data_source": "census_records, marriage_records, school_records, city_directories, church_records",
+          "example": "Three records document the bridge: the 1885 marriage record (to a non-German spouse, recorded in English), the 1890 city directory (urban address, non-farm occupation), and the 1900 census (English-speaking household, children with English names). The transition took roughly fifteen years of documentary evidence."
+        }
+      ],
+      "variables": [
+        "{parent_name}",
+        "{child_name}",
+        "{world_one_markers}",
+        "{world_two_markers}",
+        "{bridge_record}"
+      ],
+      "constraints": [
+        "Cultural markers must be documented in records — language of the record, names on the record, occupations listed, addresses given. Do not assume cultural identity from surname or ethnicity alone.",
+        "No value judgment on assimilation or cultural preservation. The template documents what the records show, not whether the transition was good or bad, gained or lost.",
+        "The bridge is not instantaneous. Document the timeline — how many years, how many records span the transition. A bridge that took five years is a different story than one that took thirty.",
+        "Do not assume the bridge was complete. If the children's records still show markers of the parent's world — attending a German-language church while working as an English-speaking clerk — document the overlap. Most bridges were partial.",
+        "Immigration-specific bridging must use actual immigration and naturalization records where available, not assumptions about 'the immigrant experience.'",
+        "Rural-to-urban bridging is a valid cultural bridge even within the same ethnic group. A family that moved from a farming township to a mill town crossed a cultural boundary documented in occupation changes, household structure, and community context."
+      ],
+      "example_output": "Johann Knauss's 1870 census entry reads like a document from another country: German-born, farmer, Lehigh County township, surrounded by German-speaking households, children named in the patronymic tradition. His son's 1900 entry reads like a different family entirely: John Noose, clerk, Allentown, English-speaking household, children named William and Mary. The bridge between those two records spans about fifteen years — a marriage to a non-German spouse in 1885, a city directory listing in 1890, and the 1900 census that completes the transition. Johann's world was German, rural, and agricultural. His son's world was English, urban, and commercial. The bridge generation lived in both."
+    }
+  ],
+  "counter_narrative": "Sometimes the scatter was opportunity, not tragedy. And sometimes the reset was the necessary destruction that built something new. The hinge generation template defaults to documenting the pivot without assigning valence — but the records occasionally suggest that the break was chosen, not suffered. Children who scattered to cities may have been escaping, not fleeing. An economic reset from landowner to factory worker may have been a lateral move into a cash economy, not a decline. The cultural bridge may have been eagerly crossed. Read the records for direction, not just distance.",
+  "editorial_guidelines": {
+    "core_principle": "The hinge generation is visible only in retrospect. The people living through it did not know they were a pivot point. The parent did not know the household would scatter. The children did not know they were starting from a different economic baseline. The bridge generation did not wake up one morning and decide to live in a different world. This template narrates the hinge as it appears in the records — across two generations, across multiple documents, across the gap between what the parent's records show and what the children's records show. The hinge is a finding, not a premise.",
+    "when_to_use": "Use when records from two generations document a significant divergence — geographic scatter, economic reset, or cultural transition. The divergence must be visible in actual records from both generations. If you only have the parent's records or only the children's records, you have half a story. Use a different template.",
+    "when_NOT_to_use": [
+      "When only one generation's records are available. A hinge requires a before and an after.",
+      "When the change between generations is gradual and unremarkable. A family that farmed for three generations in the same county does not have a hinge generation — they have continuity. Continuity is also a story, but not this template's story.",
+      "When the hinge event is well-known and dominates the narrative. The Civil War was a hinge for millions of families — but if the specific family's records do not document how the war changed their trajectory, the historical event alone is insufficient. The template requires family-level evidence, not era-level assumption.",
+      "When the ancestor was enslaved and emancipation is the hinge. Emancipation was a hinge of such magnitude that it requires dedicated treatment — the Record Silences template handles the documentary void before emancipation, and the economic_reset situation may apply to the post-emancipation generation. Do not reduce emancipation to a 'cultural bridge.'"
+    ],
+    "tone_calibration": {
+      "description": "The tone is quieter than the Economic Life Story template — less arithmetic, more juxtaposition. The power comes from placing two generations' records side by side and letting the reader see the distance between them. The template does not explain the hinge; it documents it.",
+      "adjustments": [
+        {
+          "factor": "severity_of_scatter",
+          "guidance": "Adjacent-county scatter is a different story than cross-country dispersal. Adjust the narrative weight accordingly. A family that scattered from Sampson County to three adjacent counties is a local story. A family that scattered from Virginia to Ohio, Tennessee, and Texas is a national migration story."
+        },
+        {
+          "factor": "direction_of_reset",
+          "guidance": "Downward resets (landowner to tenant) and upward resets (tenant to landowner) require the same evidentiary standard but different narrative caution. Downward resets risk sentimentality. Upward resets risk triumphalism. Both should be told through numbers, not adjectives."
+        },
+        {
+          "factor": "completeness_of_bridge",
+          "guidance": "A complete cultural bridge (all markers changed) and a partial bridge (some markers changed, others retained) tell different stories. Document what changed and what persisted. A family that moved to the city but still attended the German-language church was living in both worlds simultaneously."
+        }
+      ]
+    },
+    "what_NOT_to_do": [
+      "No framing the hinge as destiny or fate. 'It was inevitable that the children would scatter' is speculation. Document what happened, not what was inevitable.",
+      "No sentimentalizing the parent generation. 'The old homestead' and 'the family place' are romantic constructions. Use the address, the acreage, the census entry.",
+      "No triumphalist framing of the children's generation. Children who moved to cities, learned English, or entered new occupations were not 'improving themselves.' They were adapting to documented economic and social conditions.",
+      "No assuming the hinge was traumatic. Some hinges were — death, failure, displacement. Others were simply the normal process of generational change accelerated by documented historical forces.",
+      "No collapsing multiple situations into one. If a family experienced both a scatter and an economic reset, document them separately. They may be causally connected, but the records for each situation should stand independently.",
+      "No speculation about family feelings. Do not write 'the siblings must have missed each other' or 'the children surely felt the loss of status.' Document the trace evidence — witnesses on records, land transactions between siblings, naming children after each other — and let the reader draw conclusions."
+    ]
+  },
+  "template_integrations": [
+    {
+      "template": "economic_life_story",
+      "relationship": "The economic_reset situation pairs directly with the property_trajectory situation in economic_life_story. If the property trajectory shows decline across generations, economic_reset documents the specific generational break point. Use economic_life_story for the long arc, hinge_generation for the specific pivot."
+    },
+    {
+      "template": "record_silences",
+      "relationship": "The silence_as_narrative situation in record_silences often applies to the parent generation in a hinge — the parent who disappears from the record, triggering the scatter. When the break event is undocumented, record_silences provides the framework for narrating what is not there."
+    },
+    {
+      "template": "fork_in_the_road",
+      "relationship": "The fork_in_the_road template explores counterfactual paths — what if the hinge had gone differently? If the hinge generation template documents what happened, fork_in_the_road can explore what might have happened if the scatter had not occurred, the economic reset had gone the other direction, or the cultural bridge had not been crossed."
+    }
+  ],
+  "data_dependencies": [
+    "census_records (across at least two generations — the before and after of the hinge)",
+    "property_records (deeds, wills, probate inventories — for documenting economic resets and the anchor before a scatter)",
+    "county_source_profiles (for community comparison in economic_reset and for understanding the scatter pattern)",
+    "historical_context_timelines (for macro-level forces behind the hinge — wars, panics, industrial transitions, migration waves)",
+    "migration_triggers (for understanding the forces that drove the scatter or the cultural bridge)",
+    "shared/routes (for identifying whether the scatter followed known migration corridors)",
+    "shared/destinations (for contextualizing where scattered children ended up)",
+    "shared/community_texture (for documenting the cultural worlds on either side of the bridge)",
+    "marriage_records (for documenting intermarriage as cultural bridge evidence and sibling trace connections)",
+    "church_records (for documenting language and cultural markers in the bridge generation)"
+  ]
+}

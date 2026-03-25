@@ -1,0 +1,216 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-18",
+  "migration_id": "gi_bill_migration",
+  "display_name": "Post-WWII GI Bill Migration and Suburban Settlement",
+  "short_description": "The Servicemen's Readjustment Act of 1944 (GI Bill) provided home loans, education benefits, and business loans to 16 million returning veterans, triggering the largest suburban expansion in American history. Veterans left home communities for college towns, suburban developments, and Sun Belt cities — reshaping American geography. FHA and VA mortgage programs made homeownership possible for working-class white veterans while systematically excluding Black veterans through redlining, restrictive covenants, and discriminatory administration of benefits.",
+  "era": "1944-1960",
+  "estimated_scale": "16 million veterans eligible; approximately 8 million used the education benefit; 4.3 million used VA home loans by 1955; suburban population doubled in the 1950s",
+  "involuntary": false,
+  "migration_class": "land_opportunity",
+  "phases": [
+    {
+      "phase_id": "education_migration",
+      "phase_name": "Education Migration",
+      "date_range": "1944-1950",
+      "description": "Veterans flooded colleges and universities under the GI Bill's education benefit, which paid tuition plus a monthly living allowance. By 1947, veterans accounted for 49% of all college admissions. Universities that had enrolled 1,500 students suddenly held 5,000. Married veterans lived in Quonset huts on campus edges while earning degrees their families had never imagined. Many attended schools far from their home communities — a Pennsylvania farm boy at the University of Michigan, a Texas rancher's son at Stanford — and never went back. They married local women, found professional work near the campus, and became the first generation of their families with college degrees. The education benefit was transformative for working-class white families. For Black veterans, it was a different story: most historically white universities refused admission, and historically Black colleges and universities were overwhelmed, turning away an estimated 20,000 qualified Black veterans in 1947 alone."
+    },
+    {
+      "phase_id": "suburban_settlement",
+      "phase_name": "Suburban Settlement Wave",
+      "date_range": "1946-1956",
+      "description": "FHA and VA mortgage programs enabled mass homeownership on terms that had never existed before: zero down payment, 30-year fixed rates, monthly payments lower than urban rent. Developers responded with planned communities on an industrial scale. Levittown, New York (1947) offered 17,447 identical Cape Cod houses at $7,990 each — affordable to any veteran with a steady job. Park Forest, Illinois; Lakewood, California; and hundreds of similar developments followed. Veterans who had traveled the country during military service chose not to return to their home counties. A man who had trained in San Diego and fought in the Pacific had no interest in returning to a coal town in West Virginia. The suburban explosion reshuffled American geography: families that had been rooted in the same county for four or five generations scattered to subdivisions where nobody shared their surname. The catch — and it was enormous — was that FHA underwriting guidelines explicitly penalized racially integrated neighborhoods. The agency's own Underwriting Manual stated that 'incompatible racial groups' lowered property values. Levittown's lease agreements barred Black families by covenant. The suburban dream was a white dream, enforced by federal policy."
+    },
+    {
+      "phase_id": "sun_belt_migration",
+      "phase_name": "Sun Belt Military Base Migration",
+      "date_range": "1950-1960",
+      "description": "Veterans who had trained at Southern and Western military bases during the war returned to those regions as civilians. Fort Hood, Texas; Fort Benning, Georgia; Luke Air Force Base, Arizona; Camp Pendleton, California — these installations had introduced millions of young men to climates and landscapes they had never imagined. After the war, many came back with their families. Arizona's population grew 50% in the 1950s. Florida's doubled. California added three million people in the same decade. The Sun Belt migration was not simply about climate preference — military bases converted to civilian employment, defense contractors built plants near their government clients, and the Korean War (1950-1953) maintained military spending in these regions. Veterans with security clearances and technical training found work in the emerging aerospace and defense industries that clustered around former wartime installations."
+    }
+  ],
+  "push_factors": [
+    {
+      "factor_id": "home_community_changed",
+      "factor": "Home community changed during absence",
+      "severity": 2,
+      "description": "A soldier who left a small town in 1942 and returned in 1945 or 1946 often found the hometown smaller, quieter, and more limited than he remembered. Three or four years of military service — seeing other cities, other regions, other ways of living — made the home county feel confining. The girl he might have married had married someone else. The job at the feed store felt small after commanding a platoon. This was not poverty or persecution — it was a mismatch between expanded horizons and unchanged circumstances.",
+      "date_range": "1945-1950",
+      "narrative_hook": "{ancestor_name} came home to {origin_county} in {year} after {service_duration} in the service and found that {origin_county} had not changed. {pronoun_subject} had."
+    },
+    {
+      "factor_id": "farm_consolidation",
+      "factor": "Farm consolidation eliminating small-farm viability",
+      "severity": 3,
+      "description": "Wartime mechanization had accelerated the consolidation of American agriculture. The tractor replaced the mule; the combine replaced the threshing crew. A returning farm boy found that the 80-acre family operation now competed against 500-acre mechanized farms. The equipment required to stay competitive — a tractor, a combine, a truck — cost more than the farm itself was worth. The GI Bill offered an alternative: a college degree and a desk job that paid more than dirt farming ever had.",
+      "date_range": "1945-1960",
+      "narrative_hook": "The {family_name} farm in {origin_county} had supported the family for generations, but by the time {ancestor_name} came home from the war, the neighbors were farming with machines that cost more than the entire property. The GI Bill offered a different kind of future."
+    },
+    {
+      "factor_id": "wartime_exposure",
+      "factor": "Wartime exposure to other regions and ways of life",
+      "severity": 2,
+      "description": "Military service was, for millions of young men, the first time they had traveled more than fifty miles from home. A boy from rural Mississippi trained in California. A kid from the Bronx trained in Georgia. They saw mountains, oceans, deserts, and cities they had only read about. This exposure was not a push factor in the traditional sense — nobody was fleeing danger — but it fundamentally altered what felt possible. Having seen San Francisco, returning to a crossroads in eastern Kentucky felt like a choice rather than a fate.",
+      "date_range": "1941-1946",
+      "narrative_hook": "Before the war, {ancestor_name} had likely never been more than {distance} miles from {origin_county}. The military sent {pronoun_object} to {training_location} and then to {theater}. After that, {origin_county} must have looked different."
+    },
+    {
+      "factor_id": "urban_housing_shortage",
+      "factor": "Critical housing shortage in cities",
+      "severity": 3,
+      "description": "Sixteen million veterans came home simultaneously to a housing market that had built almost nothing during fifteen years of Depression and war. Urban vacancy rates approached zero. Families doubled up with in-laws. Married veterans lived in converted chicken coops, trolley cars, and Quonset huts. The FHA/VA mortgage programs did not just make suburban homes affordable — they made suburban homes the only homes available. The housing crisis pushed veterans outward to new construction on former farmland at the city's edge.",
+      "date_range": "1945-1950",
+      "narrative_hook": "When {ancestor_name} came home from the service, there was nowhere to live. The apartment {pronoun_subject} had rented before the war was occupied. The city had a two-year waiting list for housing. A brand-new house in {destination_suburb} with zero money down began to look like the only option."
+    }
+  ],
+  "pull_factors": [
+    {
+      "factor_id": "free_education",
+      "factor": "Free college education under the GI Bill",
+      "description": "The GI Bill paid full tuition at any college or university that would admit the veteran, plus a monthly living stipend ($65 for single veterans, $90 for married). For families in which no one had ever attended college, this was a class transformation delivered by federal check. A coal miner's son could become an engineer. A sharecropper's grandson could become a teacher — if he could get admitted, which for Black veterans was the operative question.",
+      "narrative_hook": "No one in the {family_name} family had ever gone to college. The GI Bill changed that equation overnight. {ancestor_name}'s tuition was paid, a living stipend arrived monthly, and a degree that would have been unimaginable before the war was suddenly within reach."
+    },
+    {
+      "factor_id": "va_mortgage",
+      "factor": "FHA/VA zero-down-payment mortgages",
+      "description": "Before the GI Bill, a home purchase required a 50% down payment with a 5- to 10-year repayment term. The VA loan guarantee eliminated the down payment entirely and extended repayment to 30 years, cutting monthly payments to less than urban rent. A veteran earning $3,000 a year could buy a $7,000 house with no savings. This single provision created the American middle class as a homeowning class — but only for white veterans. FHA underwriting standards rated neighborhoods by racial composition, and the VA deferred to FHA guidelines. Black veterans were systematically denied loans in white suburbs and steered to overpriced, deteriorating urban housing.",
+      "narrative_hook": "The VA loan required zero money down. Zero. {ancestor_name} walked into a bank with a DD-214 and walked out with a mortgage for a house in {destination_suburb}. Monthly payments: ${monthly_payment}. Less than rent on the apartment {pronoun_subject} could not find in the city."
+    },
+    {
+      "factor_id": "suburban_developments",
+      "factor": "New suburban developments offering modern housing and amenities",
+      "description": "The postwar suburban developments were marketed as the fulfillment of the American Dream — a new house with modern appliances, a yard for the children, good schools, and a two-car garage. Developers like Levitt & Sons, Del Webb, and Lakewood Park Company mass-produced houses on an assembly-line model, keeping prices low enough for a veteran's salary. The suburbs offered something that older neighborhoods could not: everything was new, everything worked, and everyone was the same age with the same number of children.",
+      "narrative_hook": "The brochure for {destination_suburb} showed a house with a washing machine, a television antenna, and a backyard. {ancestor_name} had grown up with an outhouse and a hand pump. The monthly payment was ${monthly_payment}."
+    },
+    {
+      "factor_id": "sun_belt_employment",
+      "factor": "Sun Belt military bases converting to civilian employment centers",
+      "description": "Wartime military installations created permanent employment ecosystems. The aerospace industry clustered around Edwards Air Force Base, Vandenberg, and Cape Canaveral. Defense contractors built plants near their Pentagon clients in Northern Virginia, near test ranges in Arizona and New Mexico, and near shipyards in San Diego and Norfolk. A veteran with a security clearance and technical training could walk from military service into a civilian defense job in the same region where he had been stationed.",
+      "narrative_hook": "{ancestor_name} had been stationed at {base_name} during the war. When {pronoun_subject} mustered out, {pronoun_subject} already knew the area, already knew the employers, and had no compelling reason to go back to {origin_county}."
+    },
+    {
+      "factor_id": "american_dream_marketing",
+      "factor": "The American Dream explicitly marketed to returning veterans",
+      "description": "Advertisers, politicians, and the culture at large told returning veterans they had earned the good life — a house, a car, a college degree, a family. This was not just sentiment; it was federal policy backed by real money. The GI Bill was the most generous social program in American history, and it was explicitly framed as a reward for service. For white veterans, the reward was delivered in full. For Black veterans, the promise and the delivery diverged catastrophically.",
+      "narrative_hook": "The country told {ancestor_name} that {pronoun_subject} had earned a house, a degree, and a fresh start. The GI Bill was the check the government wrote to back that promise."
+    }
+  ],
+  "transportation": {
+    "primary_mode": "Automobile — the postwar car culture transformed American mobility",
+    "route_refs": [],
+    "what_they_carried": "A DD-214 discharge paper, which was the key to every benefit. A duffel bag of military-issue clothes. Whatever savings accumulated from military pay. A wife, possibly married in haste before shipping out or during leave. The expectation that the country owed them something, and the GI Bill confirmed it.",
+    "what_they_left_behind": "The home county. Parents who expected them to come back and take over the farm or the family business. A community that had known their name for generations. The certainty of a life that looked like their father's life.",
+    "cost_of_travel": "A used car: $200-$800. Gasoline: $0.21 per gallon in 1947. The Interstate Highway System (authorized 1956) would eventually make suburban commuting seamless, but in the late 1940s, veterans drove on two-lane state highways to reach their new subdivisions.",
+    "seasonal_departure_pattern": "No strong seasonal pattern. Veterans migrated when they were discharged (1945-1946), when fall semester began at their chosen college (1946-1948), or when their new house was completed (continuous through the 1950s). The education migration peaked in September; the suburban migration was year-round."
+  },
+  "origin_counties": [
+    "Various — nationwide. Veterans came from every county in America.",
+    "Rural counties disproportionately lost population as returning veterans chose not to come back.",
+    "Appalachian counties, Great Plains farming counties, and Deep South counties experienced the sharpest veteran out-migration."
+  ],
+  "origin_notes": "Unlike most migration triggers, the GI Bill migration had no concentrated origin geography. Every county in America sent men to war, and every county lost some of them to college towns, suburbs, and Sun Belt cities. The pattern was diffuse but the direction was consistent: rural to suburban, small town to metropolitan area, cold climate to warm.",
+  "counties_most_affected": [
+    "Nassau NY (Levittown)",
+    "Will IL (Park Forest)",
+    "Los Angeles CA (Lakewood)",
+    "Maricopa AZ (Phoenix suburban growth)",
+    "Hillsborough FL (Tampa suburban growth)",
+    "Orange CA (postwar suburban development)",
+    "Harris TX (Houston suburban expansion)",
+    "Fairfax VA (defense-related suburban growth)",
+    "San Diego CA (military-to-civilian employment corridor)",
+    "Montgomery MD (Washington DC suburban ring)"
+  ],
+  "destination_refs": [],
+  "destination_notes": "Suburban destinations were nationwide and newly built. Levittown, New York; Park Forest, Illinois; Lakewood, California; and hundreds of similar developments did not exist before the war. These were not established communities that received migrants — they were communities manufactured from scratch on former farmland, populated entirely by young veterans and their families. Sun Belt destinations — Phoenix, Tucson, San Diego, Tampa, Houston — gained population from veterans who had been stationed at nearby military bases.",
+  "chain_migration": {
+    "pattern": "military_cohort_clustering",
+    "description": "GI Bill migration did not follow the classic chain migration pattern of one family member scouting for others. Instead, military service itself created networks. Men who had served together stayed in contact and sometimes settled near each other after the war. College roommates — paired by the GI Bill — became lifelong friends in the same suburb. The chain was not familial but experiential: men who had shared foxholes trusted each other's judgment about where to live. Within the new suburbs, a different kind of community formed rapidly. Everyone was roughly the same age, roughly the same income, with roughly the same number of children. Block parties replaced church socials. The PTA replaced the Grange.",
+    "gender_pattern": "The GI Bill was overwhelmingly a male benefit — 97% of recipients were men. Women veterans were eligible but represented a tiny fraction of the total. Wives followed husbands to college towns and suburbs, often giving up jobs they had held during the war. The suburban migration reinforced a gender order in which the husband commuted and the wife managed the household. Rosie the Riveter became a suburban homemaker — not always by choice.",
+    "narrative_hook": "{ancestor_name} did not return to {origin_county} after the war. Instead, {pronoun_subject} followed the GI Bill to {destination} — first for {education_or_employment}, then for a house {pronoun_subject} could afford on a veteran's mortgage. The {family_name} family had been in {origin_county} for {generation_count} generations. {ancestor_name} was the one who left."
+  },
+  "what_happened_to_those_who_stayed": {
+    "demographic_change": "Rural counties across America lost their youngest and most ambitious generation. The men who came home from the war and stayed were often those without the educational preparation or the ambition to use the GI Bill's benefits. Counties that had been stable for a century began a slow population decline in the 1950s that continues today. The median age rose. Schools consolidated. Churches merged. Main Streets hollowed out as retail followed the population to suburban shopping centers.",
+    "economic_change": "Farm consolidation accelerated. The family farms that returning veterans declined to take over were absorbed by larger operations. Small towns lost their professional class — the veterans who might have become the local doctor, lawyer, or teacher instead became those things in a suburb two hundred miles away. Federal highway spending and suburban infrastructure investment drained public resources from rural areas toward metropolitan growth.",
+    "narrative_hook": "Had {ancestor_name} come home to {origin_county} instead of using the GI Bill to settle in {destination}, {pronoun_subject} would have watched the town shrink. The drugstore closed. The high school consolidated with the county seat. The young people left, one by one, until {origin_county} was a place people came from rather than a place people lived."
+  },
+  "record_implications": [
+    {
+      "pattern": "VA loan records at NARA and VA regional offices",
+      "interpretation": "VA loan applications contain detailed personal and financial information — name, service number, marital status, dependents, income, employment, and the specific property purchased. These records document the moment a veteran transitioned from military to civilian life and chose a specific place to settle.",
+      "research_tip": "VA loan records may be obtainable through NARA or the VA regional office that serviced the loan. The DD-214 (discharge paper) is the key linking document between military service records and VA benefit records."
+    },
+    {
+      "pattern": "GI Bill education records — college enrollment and graduation records for veterans",
+      "interpretation": "A veteran appearing in a college's enrollment records between 1944 and 1956 was almost certainly attending under the GI Bill. Many universities maintained separate files for GI Bill students. These records can document a family's first college graduate and explain why the family relocated to a college town far from the home county.",
+      "research_tip": "Contact the university registrar's office. Some institutions have transferred historical records to their archives. Alumni association records may supplement official enrollment files. The Veterans Administration also maintained records of educational benefit payments."
+    },
+    {
+      "pattern": "FHA mortgage records and HOLC redlining maps",
+      "interpretation": "Home Owners' Loan Corporation (HOLC) maps graded neighborhoods A through D, with D-rated ('redlined') neighborhoods being those with Black residents or other 'undesirable' populations. FHA underwriting guidelines followed these grades. A veteran whose home purchase was in a 'redlined' area — or who was denied a loan in a 'green' area — was experiencing federal racial discrimination in real time.",
+      "research_tip": "HOLC maps are digitized and searchable at the Mapping Inequality project (University of Richmond). Cross-reference an ancestor's postwar address with HOLC grades to understand the racial geography of their housing options. For Black veterans, the absence of a VA loan may be as significant as its presence — denial was the norm, not the exception."
+    },
+    {
+      "pattern": "Military service records — DD-214 discharge papers at NPRC St. Louis",
+      "interpretation": "The DD-214 is the foundational document for all veteran benefits. It records the veteran's name, service number, dates of service, branch, rank at discharge, decorations, and character of discharge. The character of discharge (honorable, general, dishonorable) determined benefit eligibility. Many Black veterans received 'blue discharges' (less-than-honorable, later redesignated) that excluded them from GI Bill benefits entirely.",
+      "research_tip": "Request DD-214 records through the National Personnel Records Center (NPRC) in St. Louis. Note that the 1973 fire destroyed approximately 80% of Army records for personnel discharged between 1912 and 1964. Navy, Marine Corps, and Air Force records were less affected. Alternative documentation sources include state adjutant general records and county veteran service officer files."
+    },
+    {
+      "pattern": "Suburban development records — plat maps, building permits, homeowner association records",
+      "interpretation": "Plat maps and building permits document when a subdivision was built and who purchased the first homes. In many postwar suburbs, the initial residents were overwhelmingly young veterans. Homeowner association records and deed restrictions — including racial covenants — document the legal mechanisms of suburban segregation.",
+      "research_tip": "County recorder's offices hold plat maps and deed records. Some restrictive covenants were recorded in the deed itself — a clause stating the property could not be sold to 'any person not of the Caucasian race.' These covenants were ruled unenforceable by Shelley v. Kraemer (1948) but remained on deeds and were informally enforced for decades."
+    }
+  ],
+  "counter_narratives": [
+    {
+      "narrative_id": "racial_exclusion",
+      "title": "The GI Bill was racially discriminatory in design and administration",
+      "description": "The GI Bill is often celebrated as the most democratic social program in American history. It was not. The legislation was shaped by Southern Democrats who ensured that benefit administration was handled at the state and local level — where Jim Crow officials controlled access. Black veterans were denied VA home loans in white suburbs through FHA redlining. They were refused admission to most white universities. Historically Black colleges and universities, already underfunded, could not absorb the demand — turning away an estimated 20,000 qualified Black veterans in 1947. The business loan program required bank participation, and banks in both North and South routinely denied Black applicants. Of the first 67,000 mortgages insured by the GI Bill in New York and northern New Jersey, fewer than 100 went to non-white borrowers. In Mississippi, only two of 3,229 VA-guaranteed home loans went to Black veterans by 1947. The GI Bill did not create the racial wealth gap in America, but it widened it by a chasm. White veterans used federal money to buy homes that appreciated for decades, fund college educations that lifted entire family lines into the professional class, and accumulate the intergenerational wealth that defines the American middle class. Black veterans were excluded from all of it. Ira Katznelson called it 'affirmative action for whites,' and the data supports the phrase.",
+      "narrative_hook": "If {ancestor_name} was a white veteran, the GI Bill likely transformed {pronoun_possessive} family's economic trajectory for generations. If {ancestor_name} was a Black veteran, {pronoun_subject} was entitled to the same benefits on paper — and systematically denied them in practice. The house {pronoun_subject} could not buy in {destination_suburb} would have been worth ${appreciation_value} by {later_year}. The degree {pronoun_subject} could not earn at {university} would have opened doors that remained closed. The GI Bill's racial exclusion was not a footnote. It was the main story for millions of Black veteran families.",
+      "kinlore_routing_note": "CRITICAL: Polsia must check the ancestor's race before generating GI Bill narrative. For white ancestors, use the standard benefits-and-opportunity framing. For Black ancestors, lead with the exclusion narrative — the denial of benefits IS the story. Do not sanitize. Do not equivocate. The federal government promised and then withheld."
+    },
+    {
+      "narrative_id": "unequal_utilization",
+      "title": "Not all veterans benefited equally even among white recipients",
+      "description": "The GI Bill's benefits were structured in ways that favored middle-class veterans over working-class ones. The education benefit required admission to a college — which required a high school diploma, which many rural and working-class veterans did not have. The business loan program had low utilization because it required a viable business plan and bank participation. Veterans with less-than-honorable discharges — including the discriminatory 'blue discharges' disproportionately given to Black soldiers and those suspected of homosexuality — were excluded from all benefits. An estimated 48,000 'blue discharge' veterans received nothing despite having served their country.",
+      "narrative_hook": "The GI Bill promised {ancestor_name} a college education, but {pronoun_subject} had left school in the eighth grade to work the farm. The Bill promised a home loan, but the bank wanted to see steady employment first. Not every veteran's story is a story of transformation. Some came home and simply went back to work."
+    },
+    {
+      "narrative_id": "suburban_costs",
+      "title": "The suburban expansion had enormous environmental and social costs",
+      "description": "The GI Bill-enabled suburban boom consumed farmland, created car dependency, hollowed out urban tax bases, and accelerated white flight from cities. Between 1950 and 1970, America's central cities lost population and revenue while suburbs grew — a pattern enabled by federal mortgage policy, highway construction, and tax structures that penalized cities and rewarded sprawl. The suburbs that the GI Bill built were ecologically destructive, socially isolating, and economically unsustainable without continuous public subsidy through highway funding, utility extensions, and school construction. The American Dream the GI Bill financed was also an American sprawl machine.",
+      "narrative_hook": "The house {ancestor_name} bought in {destination_suburb} sat on land that had been a {previous_use} two years earlier. The {family_name} family's American Dream was someone else's lost farmland — and the beginning of a pattern that would reshape the continent."
+    }
+  ],
+  "source_references": [
+    {
+      "source_id": "katznelson_2005",
+      "citation": "Katznelson, Ira. When Affirmative Action Was White: An Untold History of Racial Inequality in Twentieth-Century America. New York: W.W. Norton, 2005.",
+      "relevance": "The definitive scholarly account of how the GI Bill and other New Deal programs were designed and administered to benefit white Americans while excluding Black citizens. Essential for understanding the racial counter-narrative."
+    },
+    {
+      "source_id": "humes_2006",
+      "citation": "Humes, Edward. Over Here: How the GI Bill Transformed the American Dream. New York: Harcourt, 2006.",
+      "relevance": "Comprehensive narrative history of the GI Bill's origins, passage, and impact on American society. Strong on individual veteran stories and the education benefit."
+    },
+    {
+      "source_id": "jackson_1985",
+      "citation": "Jackson, Kenneth T. Crabgrass Frontier: The Suburbanization of the United States. New York: Oxford University Press, 1985.",
+      "relevance": "The standard history of American suburbanization, covering FHA policies, redlining, Levittown, and the racial geography of postwar housing. Essential context for the suburban settlement phase."
+    },
+    {
+      "source_id": "cohen_2003",
+      "citation": "Cohen, Lizabeth. A Consumers' Republic: The Politics of Mass Consumption in Postwar America. New York: Alfred A. Knopf, 2003.",
+      "relevance": "Analyzes the postwar suburban consumer economy and its racial and class dimensions. Documents how federal housing policy created distinct material lives for white and Black veterans."
+    },
+    {
+      "source_id": "frydl_2009",
+      "citation": "Frydl, Kathleen. The GI Bill. New York: Cambridge University Press, 2009.",
+      "relevance": "Political history of the GI Bill's passage through Congress and the compromises — particularly concessions to Southern Democrats on state-level administration — that enabled racial discrimination in benefit delivery."
+    },
+    {
+      "source_id": "rothstein_2017",
+      "citation": "Rothstein, Richard. The Color of Law: A Forgotten History of How Our Government Segregated America. New York: Liveright, 2017.",
+      "relevance": "Documents the federal government's direct role in creating residential segregation through FHA policy, VA loan administration, and public housing placement. Provides legal and policy context for the redlining that excluded Black veterans from suburban homeownership."
+    }
+  ]
+}

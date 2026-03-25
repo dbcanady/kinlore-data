@@ -1,0 +1,261 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-16",
+  "_purpose": "Regional migration trigger — SC Upcountry farm families to Piedmont textile mills in the Greenville-Spartanburg corridor. Supplements the national textile_mill_recruitment trigger with South Carolina-specific geography, mill companies, and push factors. SC had more mill villages per capita than any other state and its own distinct agricultural crisis driven by cotton monoculture collapse on red clay Piedmont soils, then boll weevil arrival in 1919.",
+  "migration_id": "sc_upcountry_farm_to_mill",
+  "display_name": "SC Upcountry Farm-to-Mill Migration",
+  "short_description": "Between 1880 and 1930, thousands of Upcountry South Carolina farm families — from Spartanburg, Greenville, Anderson, Pickens, and Oconee counties — abandoned failing cotton farms for textile mills in the Greenville-Spartanburg corridor. South Carolina had more mill villages per capita than any other Southern state, and the migration transformed the Upcountry from a landscape of struggling yeoman farmers into the textile manufacturing capital of the South.",
+  "era": "1880-1930",
+  "estimated_scale": "Tens of thousands of Upcountry SC farm families relocated to Piedmont mill towns. By 1907 South Carolina had 184 cotton mills employing over 30,000 operatives. Spartanburg and Greenville counties together accounted for the highest concentration of textile employment in the United States by 1920.",
+  "involuntary": false,
+  "migration_class": "economic",
+  "coercion_note": "While technically voluntary, the combination of cotton price collapse, soil exhaustion, boll weevil devastation, and crop lien debt left Upcountry farm families with no realistic alternative to mill work. Many families experienced the transition not as a choice but as the only remaining option after every other adaptation had failed.",
+  "regional_scope": "SC Upcountry Piedmont — farm families moving from outlying agricultural areas into mill villages clustered along the Greenville-Spartanburg corridor. Most moves were 10-40 miles, often within the same county. This was hyper-local migration: the farm was visible from the mill village in some cases.",
+  "trigger_type": "regional",
+  "parent_trigger_ref": "textile_mill_recruitment",
+  "phases": [
+    {
+      "phase_id": "agricultural_crisis_early_mill_expansion",
+      "phase_name": "Agricultural Crisis and Early Mill Expansion",
+      "date_range": "1880-1900",
+      "description": "Cotton prices fell from 15 cents per pound in 1870 to 5 cents by 1894. Upcountry SC farms on red clay Piedmont soils — never as productive as Delta bottomland — could not survive at those prices. Simultaneously, a wave of mill building swept the Upcountry: Pelzer Manufacturing Company (1881), Piedmont Manufacturing Company (1876, expanded 1880s), Clifton Manufacturing Company (Spartanburg, 1880), and dozens of smaller operations. SC's political leadership, led by figures like D.A. Tompkins and the Hammett family, promoted textile manufacturing as the salvation of the white South. Mill owners recruited directly from failing farms, promising cash wages, company housing, and work for the whole family. The first wave of farm-to-mill families made the transition during this period."
+    },
+    {
+      "phase_id": "mill_village_boom",
+      "phase_name": "Mill Village Boom and Kinship Chain Migration",
+      "date_range": "1900-1919",
+      "description": "By 1907, South Carolina had 184 cotton mills — more mill villages per capita than any other state. Greenville alone had over a dozen major operations: Brandon Mill, Monaghan Mill, Woodside Mill, American Spinning Company, Judson Mill, Poe Manufacturing. Spartanburg had Spartan Mills, Beaumont Manufacturing, Pacolet Manufacturing, and the massive Clifton complex. Migration became self-sustaining through kinship networks — a cousin at Brandon Mill wrote home that there was work and a house available, and family followed family. Entire rural communities in Anderson, Pickens, and Oconee counties partially depopulated as the younger generation left for the mill villages. The company village system was fully mature: company houses, company stores, company churches, company baseball teams."
+    },
+    {
+      "phase_id": "boll_weevil_and_final_wave",
+      "phase_name": "Boll Weevil Arrival and Final Agricultural Collapse",
+      "date_range": "1919-1930",
+      "description": "The boll weevil crossed into South Carolina around 1919 and devastated Upcountry cotton production by 1921-1922. Cotton yields in some SC counties dropped 50-70% in a single year. Families who had held onto their farms through the earlier price collapse now had no crop at all. This final wave of farm-to-mill migration was the most desperate — families arriving with nothing, competing for mill jobs that were becoming scarce as the post-WWI textile recession began. By 1930, the Upcountry agricultural economy had fundamentally restructured, and the mill village was the dominant form of community life in the Greenville-Spartanburg corridor."
+    }
+  ],
+  "push_factors": [
+    {
+      "factor_id": "cotton_price_collapse",
+      "factor": "Cotton price collapse from 15 cents to 5 cents per pound",
+      "severity": 5,
+      "description": "Cotton prices fell steadily from 15 cents per pound in 1870 to a nadir of approximately 5 cents per pound in 1894. For Upcountry SC farmers on red clay Piedmont soils — which produced lower yields per acre than Mississippi Delta or Alabama Black Belt land — the math became impossible. At 5 cents per pound, a farmer producing 300 pounds per acre grossed $15 per acre. After the merchant took his lien, there was nothing left. The price briefly recovered after 1900, but never returned to levels that made small-acreage Upcountry farming viable.",
+      "date_range": "1870-1900",
+      "regional_scope": "SC Upcountry Piedmont — Spartanburg, Greenville, Anderson, Pickens, Oconee, Laurens, Union counties",
+      "narrative_hook": "Cotton was bringing {price} cents a pound when {ancestor_name}'s father planted his first crop in {origin_county}. By {year}, it had dropped to five cents. At that price, the {acres} acres the {family_name} family worked didn't produce enough to clear the merchant's lien, let alone feed {family_size} mouths."
+    },
+    {
+      "factor_id": "soil_exhaustion_red_clay",
+      "factor": "Red clay Piedmont soil exhaustion from continuous cotton cultivation",
+      "severity": 4,
+      "description": "SC Upcountry Piedmont soils — red clay over granite substrate — eroded rapidly under continuous cotton cultivation without terracing or crop rotation. Without the replenishing alluvial deposits of bottomland, the topsoil washed into creeks during every rainstorm. Fields that produced 400 pounds of cotton per acre in the 1850s might yield 150-200 by the 1890s. The gullied red clay hillsides of the Upcountry became a visible landscape of agricultural failure — and many remain visible today.",
+      "date_range": "1860-1920",
+      "regional_scope": "SC Upcountry Piedmont",
+      "narrative_hook": "The red clay hills of {origin_county} had been planted in cotton since {ancestor_name}'s grandfather cleared the timber. By {year}, every rain washed more topsoil into the creeks. The gullies in the {family_name} fields were deep enough to hide a mule. The soil wasn't just tired — it was gone."
+    },
+    {
+      "factor_id": "boll_weevil",
+      "factor": "Boll weevil devastation of SC cotton crop",
+      "severity": 5,
+      "description": "The boll weevil (Anthonomus grandis) reached South Carolina around 1919, crossing from Georgia. By 1921-1922, Upcountry cotton production had collapsed. Some counties saw 50-70% yield reductions in a single season. The weevil destroyed the cotton squares (flower buds) before they could produce bolls, making the crop a total loss regardless of soil quality or farmer effort. For families already surviving on marginal yields and carrying crop lien debt, the weevil was the final blow. SC's state agricultural extension service promoted crop diversification (peaches, cotton-to-tobacco transition), but for many Upcountry families the damage was done before alternatives could take hold.",
+      "date_range": "1919-1925",
+      "regional_scope": "All SC cotton-producing counties, but especially devastating in the Upcountry where farms were already marginal",
+      "narrative_hook": "The boll weevil came to {origin_county} in {year} and ate what the bad prices and the worn-out soil had left. {ancestor_name} watched the cotton squares drop off the stalks before they could open. There was no crop that fall — not a reduced crop, no crop at all. The merchant wouldn't carry another year's lien on a field the weevil owned. The mill in {destination_town} was hiring."
+    },
+    {
+      "factor_id": "crop_lien_debt",
+      "factor": "Crop lien system trapping families in perpetual debt",
+      "severity": 4,
+      "description": "SC Upcountry farm families, like their counterparts across the South, operated under the crop lien system — purchasing seed, fertilizer, and supplies on credit from local merchants, secured by the coming crop. Interest rates of 30-60% (disguised as the markup between cash and credit prices) meant that a single bad year created a debt that compounded faster than any good year could repay. SC's lien laws were particularly favorable to merchants, who held legal priority over other creditors. The crop lien converted independent yeoman farmers into what was functionally debt peonage.",
+      "date_range": "1865-1920",
+      "regional_scope": "SC statewide, acute in Upcountry cotton-growing counties",
+      "narrative_hook": "{ancestor_name} owed {merchant_name}'s store in {town} for the seed, the guano, the side meat, and the cloth. The {crop} crop brought ${harvest_value} at the gin. After the merchant settled the account, {ancestor_name} still owed ${debt_remaining}. The mill at {destination_town} paid cash every Friday — no lien, no merchant, no waiting to see if the rain came."
+    },
+    {
+      "factor_id": "farm_subdivision",
+      "factor": "Farm subdivision among large families under SC inheritance law",
+      "severity": 3,
+      "description": "South Carolina's intestate succession divided land equally among heirs. Upcountry farm families were large — six to ten children was common — and each generation split the land further. A 200-acre farm that supported one family in 1860 became four 50-acre parcels by 1900, none large enough to be viable at collapsed cotton prices. Younger sons who inherited the smallest or poorest parcels were typically the first to leave for the mills.",
+      "date_range": "1865-1920",
+      "regional_scope": "SC Upcountry Piedmont",
+      "narrative_hook": "The old {family_name} place in {origin_county} had been {original_acres} acres when the grandfather built the house. By the time {ancestor_name} came of age, it had been divided among {heir_count} heirs and the piece that was left — {remaining_acres} acres of played-out red clay — wouldn't feed a dog, let alone a family of {family_size}."
+    }
+  ],
+  "pull_factors": [
+    {
+      "factor_id": "cash_wages",
+      "factor": "Regular cash wages at the textile mill",
+      "severity": 5,
+      "description": "SC textile mills paid $0.50-$1.25 per day for adult operatives in the 1890s-1910s, rising to $2-$3 per day by the 1920s. A family with three or four working members — father, mother, older children — could earn $15-$30 per week combined. For families who had never handled regular cash under the crop lien system, a weekly pay envelope was transformative. SC mills typically paid on Friday, and the Friday payday became the organizing rhythm of mill village life.",
+      "description_detail": "The family wage system was central to SC mill economics. Mill owners preferred to hire entire families precisely because they could pay each individual less while extracting maximum labor from the household unit.",
+      "narrative_hook": "{ancestor_name} had never seen ${amount} in cash at one time. On the farm in {origin_county}, everything went through {merchant_name}'s ledger — credit in, crop out, debt carried forward. The first Friday payday at {mill_name} put real money in {pronoun_possessive} hand. It wasn't a fortune. It was more than the farm had ever paid in a year."
+    },
+    {
+      "factor_id": "company_housing",
+      "factor": "Company-provided mill village housing",
+      "severity": 4,
+      "description": "SC mill villages provided frame houses — typically 3-5 rooms, built in identical rows on company land adjacent to the mill. Rent was deducted from wages (usually $0.25-$0.50 per room per week). Houses included a garden plot, a privy, and access to the company well. For families coming from deteriorating farmhouses on exhausted land, the mill house was dry, solid, and close to work. SC had more mill villages per capita than any other state — by 1920, an estimated 90,000 South Carolinians lived in company-owned housing. The trade-off was total dependence: eviction followed termination, usually within days.",
+      "narrative_hook": "The company house at {mill_name} village had {room_count} rooms, a tin roof, and a garden out back. {ancestor_name} had spent the last five years patching the farmhouse roof with pine bark and praying the chimney held through winter. The mill house came with the job — lose one, lose both — but at least the walls were plumb and the floor was level."
+    },
+    {
+      "factor_id": "mill_village_community",
+      "factor": "Mill village social infrastructure — church, school, baseball, community",
+      "severity": 3,
+      "description": "SC mill villages were self-contained communities with company-funded churches (overwhelmingly Baptist), company schools, company stores, baseball teams, and social events. For isolated farm families, the village offered a level of social infrastructure that rural life could not match. The mill school operated a full academic year (not the 3-4 months of rural schools). The mill church offered weekly worship without a 5-mile wagon ride. The baseball team gave young men a community identity. The density and proximity of village life — identical houses in rows, shared wells, common spaces — created intense social bonds that many former farm families found sustaining.",
+      "narrative_hook": "On the farm in {origin_county}, the nearest neighbor was a mile away and church was a half-day trip. In the mill village at {mill_name}, the neighbors were ten feet away on either side, the church bell rang on Sunday morning within earshot, and on Saturday afternoon the whole village turned out to watch the baseball team play. It wasn't privacy. It was something {ancestor_name}'s family hadn't had in years — community."
+    },
+    {
+      "factor_id": "kinship_networks",
+      "factor": "Kinship networks already established at destination mills",
+      "severity": 4,
+      "description": "Once the first families from an Upcountry SC community settled at a mill village, they became recruiters for their kin. A cousin at Monaghan Mill writes to a cousin in Pickens County: the mill is hiring, there's a house on the second row, the children can start in the spinning room Monday. SC's dense mill geography — multiple mills within a few miles of each other — meant that extended families could be spread across several villages while remaining in close contact. Mill superintendents actively encouraged kinship recruitment because family networks reduced turnover and created social pressure to maintain production.",
+      "narrative_hook": "When {relative_name} wrote from {destination_town} saying {mill_name} was hiring and there was a house available on the village row, {ancestor_name} didn't need convincing. Family was already there. The road from {origin_county} to {destination_town} had been traveled by {family_name} kin for years before {pronoun_subject} made the trip."
+    },
+    {
+      "factor_id": "proximity",
+      "factor": "Short distance — farms and mills in the same county or adjacent counties",
+      "severity": 3,
+      "description": "Unlike the NC mountain-to-Piedmont migration (which required 100+ mile journeys across mountain terrain), SC Upcountry farm-to-mill migration was often hyper-local. A farm family in western Spartanburg County might move 15 miles to the Clifton Manufacturing complex. A family in northern Greenville County might walk to Brandon Mill. The short distances reduced the practical barrier to migration and allowed families to maintain connections with those who stayed on the farm. Some families straddled both worlds — working at the mill during the week and returning to help with the farm on weekends.",
+      "narrative_hook": "{ancestor_name} could see the smokestacks of {mill_name} from the ridge above the {family_name} farm in {origin_county}. The move was {miles} miles — close enough to walk back on a Sunday to check on the old place. Far enough that the farm was someone else's problem now."
+    }
+  ],
+  "affected_counties": [
+    "Spartanburg SC",
+    "Greenville SC",
+    "Anderson SC",
+    "Pickens SC",
+    "Oconee SC",
+    "Laurens SC",
+    "Union SC",
+    "Cherokee SC",
+    "York SC",
+    "Abbeville SC",
+    "Newberry SC"
+  ],
+  "counties_most_affected": [
+    "Spartanburg SC",
+    "Greenville SC",
+    "Anderson SC"
+  ],
+  "destination_towns": [
+    "Greenville, SC — Brandon Mill (est. 1901, 600+ operatives, Brandon village a distinct community within Greenville)",
+    "Greenville, SC — Monaghan Mill (est. 1900, Lewis W. Parker; one of largest SC operations)",
+    "Greenville, SC — Woodside Mill (est. 1902, John T. Woodside; Woodside village housed 1,500+ residents)",
+    "Greenville, SC — Judson Mill (est. 1912, later J.P. Stevens)",
+    "Greenville, SC — American Spinning Company (est. 1895)",
+    "Greenville, SC — Poe Manufacturing Company (est. 1895)",
+    "Spartanburg, SC — Spartan Mills (est. 1888, John B. Cleveland; multiple plants)",
+    "Spartanburg, SC — Beaumont Manufacturing Company (est. 1880s)",
+    "Spartanburg, SC — Clifton Manufacturing Company (est. 1880, three plants on the Pacolet River — Clifton No. 1, No. 2, No. 3)",
+    "Spartanburg, SC — Pacolet Manufacturing Company (est. 1882, destroyed by 1903 flood, rebuilt)",
+    "Pelzer, SC — Pelzer Manufacturing Company (est. 1881, Anderson County, one of SC's largest early operations; Captain Ellison Smyth)",
+    "Piedmont, SC — Piedmont Manufacturing Company (est. 1876, Greenville County, one of SC's earliest large mills)",
+    "Newry, SC — Courtenay Manufacturing Company (est. 1893, Oconee County)"
+  ],
+  "destination_refs": ["piedmont_mill_village"],
+  "origin_community_refs": ["sc_upcountry_farm_community"],
+  "occupation_refs": ["textile_mill_hand", "farmer"],
+  "transportation": {
+    "primary_mode": "Wagon or on foot for most moves; railroad for families moving 20+ miles. Many moves were short enough that a family could load a wagon in the morning and be in the mill village by afternoon.",
+    "route_refs": [],
+    "route_notes": "No named migration routes — the distances were too short. The Southern Railway connected Greenville, Spartanburg, and Anderson. The Greenville & Columbia Railroad connected to the midlands. The Blue Ridge Railroad reached into Oconee and Pickens counties. But most Upcountry farm-to-mill moves were 10-30 miles by farm road or county road, not requiring rail transport.",
+    "what_they_carried": "Household goods, bedding, cookware, clothing, a few hand tools. Some brought a milk cow or chickens (mill villages often allowed garden livestock). Family Bible. Seeds for the mill house garden plot. Most left farm equipment behind — it was useless at the mill and often encumbered by the crop lien anyway.",
+    "what_they_left_behind": "Farm land — sometimes sold, sometimes simply abandoned to the merchant who held the lien. Family graveyards on the farm property (many Upcountry SC family cemeteries are still on former farmland, now overgrown). Church community, neighbors who stayed. The rhythms of agricultural self-sufficiency. For some, the graves of parents and grandparents who had cleared the original timber.",
+    "cost_of_travel": "Minimal in cash terms — most families traveled by wagon over short distances. The real cost was leaving the land the family had worked for two or three generations. Even played-out, debt-encumbered land held enormous emotional value to families whose identity was tied to their farm.",
+    "seasonal_departure_pattern": "Departures concentrated in late fall (October-December) after the crop was sold and the merchant's account was settled — or not settled. Some families departed in late winter (January-February) before committing to another year's planting and another year's crop lien. Mill hiring was year-round, but capacity expansions in spring and fall created seasonal hiring peaks."
+  },
+  "chain_migration": {
+    "pattern": "kinship_chain",
+    "description": "SC Upcountry farm-to-mill migration was driven overwhelmingly by kinship chains rather than formal recruitment. The short distances involved meant that news traveled easily between farm and mill village. A brother at Clifton Manufacturing writes to a brother in rural Spartanburg County; a daughter at Monaghan Mill sends word to her parents in Pickens County. Within a few years, entire extended families were clustered in the same mill village or distributed across several nearby villages. Mill superintendents encouraged this pattern because kinship networks created social stability and reduced labor turnover.",
+    "gender_pattern": "Entire families migrated. SC's family wage system required multiple earners — a single adult's mill wage could not sustain a family. Women and children entered the mill alongside men. Young unmarried women often preceded their families, taking spinner or winder positions and sending word home. Married women worked shifts while managing the household in the mill village. The transition from farm wife (unpaid, integrated labor) to mill operative (waged, scheduled labor) was disorienting — but it also made women's economic contribution visible for the first time.",
+    "narrative_hook": "After {relative_name} went to {mill_name} in {destination_town} and found work, {pronoun_subject} wrote back to {origin_county} that the mill was hiring and there was a house on the row. {ancestor_name} followed within {timeframe}. Within a year, three branches of the {family_name} family were living in mill villages within {miles} miles of each other."
+  },
+  "what_happened_to_those_who_stayed": "Not all Upcountry SC farm families left for the mills. Some diversified from cotton into peaches (which became a major Upcountry crop after the boll weevil), dairy farming, or truck farming vegetables for Greenville and Spartanburg markets. Others consolidated land by buying out departing neighbors at distressed prices. Elderly parents often stayed on the farm while their children went to the mill village, creating a pattern of elderly rural isolation visible in SC census records. Some families straddled both worlds — maintaining a nominal connection to the farm while working at the mill. The Upcountry counties that lost agricultural population between 1880 and 1930 eventually transitioned to different economies entirely: poultry, peaches, and eventually the post-WWII manufacturing diversification that brought automobile parts, tires, and other industries to the I-85 corridor.",
+  "race_routing": {
+    "applies_to": "African American ancestors",
+    "routing_note": "If the ancestor was African American and appears in census records near an SC textile mill in this era, they were almost certainly NOT employed as an operative inside the mill. South Carolina's textile industry maintained rigid racial exclusion from its inception through the mid-twentieth century — Black workers were confined to yard work, cotton bale handling, sweeping, and other outdoor labor, never operative positions on the mill floor. SC's racial exclusion was arguably more absolute than NC's — SC textile leaders explicitly promoted the industry as providing 'white jobs' for the 'white race' and used racial solidarity as a tool to suppress labor organizing. The parallel path for Black Upcountry SC farm families during this period was sharecropping persistence, domestic service, tobacco work, or out-migration — either to SC cities (Columbia, Charleston) or northward via the Great Migration.",
+    "alternative_trigger_refs": ["great_migration", "boll_weevil"],
+    "additional_context": "South Carolina's racial exclusion at textile mills was intertwined with the state's broader Jim Crow structure. Benjamin Tillman's political machine (1890s-1918) explicitly linked white supremacy to industrial development, framing textile work as racial uplift for poor whites while systematically excluding Black workers from the wage economy. The 1895 SC Constitution, drafted under Tillman's direction, effectively disenfranchised Black voters — the same political class that built the mills also built the Jim Crow state.",
+    "narrative_hook": "If {ancestor_name} was Black and living in {origin_county} in {year}, the textile mills that were transforming the Upcountry were not an option — the spinning rooms, the weave rooms, the card rooms were all whites-only. {ancestor_name} might have handled bales in the mill yard or swept the floors, but the wages inside were for white hands. The choices were sharecropping, domestic work, or leaving South Carolina. After the boll weevil came in {boll_weevil_year}, more chose to leave."
+  },
+  "record_implications": [
+    {
+      "record_type": "SC county deed books",
+      "description": "Deed books in Upcountry SC counties record farm land sales, foreclosures, and transfers that document the agricultural collapse. A deed from a {family_name} to a crossroads merchant may indicate crop lien foreclosure. Deeds from multiple family members in the same decade indicate farm subdivision among heirs.",
+      "where_to_find": "SC county register of deeds offices. Microfilmed records at the South Carolina Department of Archives and History (SCDAH), Columbia. Some indexed on FamilySearch."
+    },
+    {
+      "record_type": "Mill employment and payroll records",
+      "description": "Some SC mill companies' records survive. Payroll records list workers by name, job assignment, wages, and family composition. Employment records can confirm when an ancestor began mill work and what position they held. Mill housing records document which families occupied which houses.",
+      "where_to_find": "South Caroliniana Library at University of South Carolina (some mill company records). Greenville County Library System — South Carolina Room (local mill records). Spartanburg County Public Library — Kennedy Room (Spartanburg mill records). Individual company archives vary — Milliken, Springs Industries, and other successor companies may hold historical records."
+    },
+    {
+      "record_type": "Census bridge (farmer to operative)",
+      "description": "The critical genealogical evidence: the 1880 or 1900 census shows the ancestor as 'farmer' in a rural Upcountry county; the 1900 or 1910 census shows the same person as 'cotton mill operative,' 'spinner,' or 'weaver' in a mill village. This one-census jump IS the migration. The 1890 census was destroyed by fire, creating a 20-year gap between 1880 and 1900 that obscures exact migration dates.",
+      "where_to_find": "Federal census records on FamilySearch, Ancestry, and NARA. SC state census of 1875 (partial) at SCDAH may help fill the gap."
+    },
+    {
+      "record_type": "Church transfer letters",
+      "description": "Baptist and Methodist church records document family movement from rural Upcountry congregations to mill village churches. Baptist letters of dismissal are the most common form. These records create a paper trail of migration that census records alone cannot provide.",
+      "where_to_find": "Individual church records. South Carolina Baptist Historical Collection at Furman University Library, Greenville. Methodist records at Wofford College Library, Spartanburg. Some rural church records held by county historical societies."
+    },
+    {
+      "record_type": "Marriage records",
+      "description": "Upcountry farm family surnames appearing in Greenville or Spartanburg County marriage records in the 1880s-1920s indicate recent migration. Cross-reference with rural county marriage records to track kinship networks. Marriage within the mill village community — mill worker marrying mill worker — indicates established settlement.",
+      "where_to_find": "SC county probate court offices (marriage licenses post-1911). Earlier marriage records at SCDAH. FamilySearch has some indexed SC marriage records."
+    },
+    {
+      "record_type": "Confederate pension applications",
+      "description": "SC Confederate pension applications document veterans' disabilities, family size, property, and economic condition. Even if the ancestor was not the veteran, the veteran's application describes the family circumstances that pushed migration. SC pensions were categorized by disability class and economic need.",
+      "where_to_find": "South Carolina Department of Archives and History (SCDAH), Columbia. Indexed and partially digitized. Also available through Fold3 and some records on FamilySearch."
+    }
+  ],
+  "counter_narratives": [
+    "Not all Upcountry farm families who entered the mills were destitute. Some younger sons, who stood to inherit the smallest share of subdivided farms, chose mill work as genuine upward mobility — cash wages, a house, and proximity to Greenville or Spartanburg's growing commercial districts. The narrative of universal desperation, while true for many, erases the agency of families who made calculated economic decisions.",
+    "The mill villages were exploitative — but they were also communities. Families built genuine social bonds, raised children, founded churches, and created a culture that many descendants remember with affection alongside the hardship. Reducing mill village life to oppression alone misses the complexity of how people made meaning under difficult conditions.",
+    "Some families moved between mills repeatedly, following better wages or family connections. The 'settled mill village family' was not the only pattern — a significant minority were itinerant, working one mill for a season or a year before moving to another. SC's dense mill geography made this possible in ways other states' did not.",
+    "The racial exclusion of the mills shaped not only who entered them but who benefited from the broader economic transformation. Black Upcountry farm families facing the same agricultural crisis — same soil exhaustion, same boll weevil, same price collapse — were denied the mill option entirely. Their parallel story of adaptation, persistence, or departure is essential context for understanding what the mills meant."
+  ],
+  "narrative_hooks": [
+    "The {family_name} farm in {origin_county} had been planted in cotton since the grandfather cleared the red clay hillside. By {year}, the gullies in the fields were deep enough to lose a wagon wheel in, the cotton brought {price} cents a pound at the gin, and {merchant_name}'s store held a lien on the crop that was worth more than the crop itself. When word came that {mill_name} was hiring, {ancestor_name} didn't deliberate long.",
+    "There were {mill_count} textile mills within {miles} miles of the {family_name} farm. {ancestor_name} could hear the mill whistles on a still morning — calling the day shift, calling the night shift, calling anyone who could work a loom or tend a spinning frame. The farm was dying. The whistles were steady.",
+    "{ancestor_name} was the {birth_order} of {sibling_count} children on a {origin_county} farm that was shrinking with every generation. The oldest brother got the best land. The youngest got the red clay hillside that wouldn't grow grass. The mill at {destination_town} didn't care about birth order — it cared about whether you could run a loom twelve hours a day, six days a week. {ancestor_name} could.",
+    "The boll weevil came to {origin_county} in {boll_weevil_year} and finished what the bad prices started. {ancestor_name} watched the cotton squares fall off the stalks and knew there would be no crop that year — and no credit for next year either. By {departure_month}, the {family_name} family had loaded a wagon and made the {miles}-mile trip to {mill_name} village. They weren't the first family from {origin_county} to make that trip, and they wouldn't be the last."
+  ],
+  "source_references": [
+    {
+      "source_id": "hall_1987",
+      "citation": "Hall, Jacquelyn Dowd, James Leloudis, Robert Korstad, Mary Murphy, Lu Ann Jones, and Christopher B. Daly. Like a Family: The Making of a Southern Cotton Mill World. Chapel Hill: University of North Carolina Press, 1987.",
+      "relevance": "Definitive oral history of Southern mill culture, with extensive coverage of SC mill villages including Pelzer and Piedmont. Documents the farm-to-mill transition, family wage system, and kinship recruitment patterns."
+    },
+    {
+      "source_id": "carlton_1982",
+      "citation": "Carlton, David L. Mill and Town in South Carolina, 1880-1920. Baton Rouge: Louisiana State University Press, 1982.",
+      "relevance": "The essential study of SC textile industrialization. Documents the specific mills, the political economy of mill development, the role of town-mill social divisions, and the recruitment of Upcountry farm families. SC-specific in a way that Like a Family's regional focus is not."
+    },
+    {
+      "source_id": "simon_1998",
+      "citation": "Simon, Bryant. A Fabric of Defeat: The Politics of South Carolina Millhands, 1910-1948. Chapel Hill: University of North Carolina Press, 1998.",
+      "relevance": "Documents the political dimensions of SC mill village life, including how racial exclusion was used to suppress labor organizing and how mill workers navigated the state's political structure."
+    },
+    {
+      "source_id": "tullos_1989",
+      "citation": "Tullos, Allen. Habits of Industry: White Culture and the Transformation of the Carolina Piedmont. Chapel Hill: University of North Carolina Press, 1989.",
+      "relevance": "Cultural history of the Piedmont textile transformation, with particular attention to how farm families' culture adapted to and resisted industrial discipline. Covers SC Upcountry communities specifically."
+    },
+    {
+      "source_id": "edgar_1998",
+      "citation": "Edgar, Walter. South Carolina: A History. Columbia: University of South Carolina Press, 1998.",
+      "relevance": "Comprehensive state history with detailed coverage of the textile era, boll weevil impact, Tillmanite politics, and the transformation of the Upcountry economy."
+    },
+    {
+      "source_id": "hahn_1983",
+      "citation": "Hahn, Steven. The Roots of Southern Populism: Yeoman Farmers and the Transformation of the Georgia Upcountry, 1850-1890. Oxford: Oxford University Press, 1983.",
+      "relevance": "Georgia-focused but the Upcountry yeoman decline, crop lien analysis, and farm crisis framework applies directly to SC's parallel experience."
+    },
+    {
+      "source_id": "scdah_records",
+      "citation": "South Carolina Department of Archives and History. Confederate pension records, county deed books, and mill village records. Columbia, SC.",
+      "relevance": "Primary source repository for SC farm and mill records including pension applications, land transfers, and some surviving mill company records."
+    }
+  ]
+}
