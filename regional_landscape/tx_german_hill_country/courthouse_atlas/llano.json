@@ -1,0 +1,109 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-25",
+  "_purpose": "Courthouse Atlas for Llano County, TX. Llano County records date from county organization. Mixed English and German. The frontier location means records are sparser for the early period.",
+  "courthouse_atlas_id": "tx_llano_courthouse",
+  "display_name": "Llano County, Texas — Courthouse Atlas",
+  "county": "Llano",
+  "state": "TX",
+  "fips_code": "48299",
+  "cluster_ref": "tx_german_hill_country",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1900,
+      "location": "Llano, TX — 801 Ford St.",
+      "records_housed": ["deeds", "plats", "marriage licenses", "probate records", "court minutes", "brand records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1856-1870s",
+        "location": "Llano County seat, original building",
+        "fate": "Early courthouse — frame or limestone construction. Records transferred to successor buildings."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "llano_pre_organization_gap",
+      "date": "pre-1856",
+      "cause": "Records for the area before county organization are in parent counties or the Texas General Land Office",
+      "records_destroyed": [],
+      "records_survived": ["Parent county records", "Republic/state land grants"],
+      "scope": "partial",
+      "description": "Before Llano County was organized in 1856, the area was part of surrounding counties. Records for residents before organization are in the parent counties' records. Texas Republic and early statehood land grants are at the Texas General Land Office. No major courthouse fire or disaster has destroyed Llano County records.",
+      "narrative_impact": "If {ancestor_name} was in the Llano County area before 1856, {pronoun_possessive} records are likely in the parent county courthouse, not in Llano. The Texas General Land Office holds land grant records for the entire period.",
+      "source": "Texas State Library and Archives Commission. Works Progress Administration, Historical Records Survey: Texas County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1856,
+      "completeness": "Good from county organization. Early deeds may be in German in the German-settled portions of the county.",
+      "gaps": "Pre-organization records in parent counties.",
+      "repository": "Llano County Clerk; Texas General Land Office for land grants",
+      "online_access": "FamilySearch microfilm; Texas General Land Office online"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1856,
+      "completeness": "Good from county organization.",
+      "gaps": "Minor gaps in earliest years.",
+      "repository": "Llano County Clerk",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1856,
+      "completeness": "Good. German-language church marriage records supplement civil records for the German population.",
+      "gaps": "Minimal from county organization.",
+      "repository": "Llano County Clerk",
+      "online_access": "FamilySearch; Ancestry.com TX marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1856,
+      "completeness": "Good from county organization.",
+      "gaps": "Minimal.",
+      "repository": "Llano County Clerk",
+      "online_access": "FamilySearch microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1903,
+      "death_registration_start": 1903,
+      "completeness": "Standard TX pattern — spotty before 1910. German church records (baptism, burial) fill the gap before 1903 for the German population.",
+      "repository": "Texas Department of State Health Services; Llano County Clerk for delayed certificates"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "German-language church records",
+      "description": "German Lutheran, Catholic, and Methodist church records in Llano County supplement the civil records, particularly for vital events before 1903. Records are in German and may include the immigrant's birthplace in Germany.",
+      "repository": "Individual congregations; Concordia Historical Institute (Lutheran); Catholic Archdiocese of San Antonio",
+      "era_coverage": "1845-1920+",
+      "genealogical_value": "Essential for German families. Church baptism records serve as birth certificates before 1903. Church records often include the parents' German hometown.",
+      "source": "FamilySearch catalog for Llano County church records."
+    },
+    {
+      "source_type": "Texas General Land Office records",
+      "description": "Republic-era and early statehood land grants for the Llano County area. These records predate county organization and document the earliest settlers.",
+      "repository": "Texas General Land Office, Austin",
+      "era_coverage": "1836-1860",
+      "genealogical_value": "Critical for documenting the earliest settlers. Land grants establish arrival dates and land locations.",
+      "source": "Texas General Land Office online database."
+    }
+  ],
+  "narrative_hooks": [
+    "Texas did not require birth or death registration until 1903 — the absence of a civil birth record for {ancestor_name} before that date is standard, not suspicious. The German church baptism register is the birth certificate.",
+    "Llano County records begin in 1856 — if {ancestor_name} was here before that, the records are in the parent county courthouse or at the Texas General Land Office.",
+    "Early Llano County records may be in German — {ancestor_name}'s deed and marriage record were written in the language {pronoun_subject} spoke at home.",
+    "Naturalization records at the Llano County courthouse may include {ancestor_name}'s German hometown — the single most valuable detail for connecting the Texas family to the Old World."
+  ],
+  "source_references": [
+    "Texas State Library and Archives Commission. Guide to County Records.",
+    "Works Progress Administration. Historical Records Survey: Texas County Records. Austin, 1937-1942.",
+    "Texas General Land Office. Republic and State Land Grant Database.",
+    "FamilySearch catalog for Llano County, Texas."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "tx_llano",
+    "research_guidance_refs": ["immigrant_record_strategies", "southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-25",
+  "_purpose": "Micro-Migration Network Map for the TX German Hill Country cluster. Documents the Adelsverein colonization pipeline from German states through Indianola to the Hill Country, the Forty-Eighter refugee stream, chain migration from specific German villages, internal movement within the cluster, and Comanche displacement.",
+  "migration_network_id": "tx_german_hill_country_migration_networks",
+  "display_name": "TX German Hill Country — Micro-Migration Network Map",
+  "cluster_ref": "tx_german_hill_country",
+  "era_range": "1842-1920",
+  "migration_corridors": [
+    {
+      "corridor_id": "adelsverein_pipeline",
+      "corridor_name": "Adelsverein Colonization Pipeline: German States to Texas Hill Country via Indianola",
+      "origin_counties": ["Hesse-Nassau (Germany)", "Brunswick (Germany)", "Westphalia (Germany)", "Rhineland (Germany)", "Saxony (Germany)", "Baden (Germany)", "Various German states"],
+      "destination_area": "Comal County (New Braunfels) and Gillespie County (Fredericksburg) — primary destinations. Secondary spread to Kendall, Blanco, Hays, Williamson, Burnet, Llano counties.",
+      "era": "1844-1847",
+      "migration_type": "organized_colonization",
+      "scale": "Approximately 7,380 immigrants arrived through the Adelsverein between 1844 and 1847. An estimated 2,000-3,000 died at the Indianola staging area or on the road to the Hill Country before reaching their destination.",
+      "evidence": {
+        "census_evidence": "The 1850 federal census for Comal County shows over 60% of household heads born in German states. The specific German state of origin is sometimes recorded. Gillespie County shows similar concentrations.",
+        "ship_manifests": "Adelsverein ship passenger lists survive in German archives and at the Sophienburg Museum. The lists document the immigrant's German hometown (Heimatort), family composition, and date of embarkation from Bremen or other German ports.",
+        "adelsverein_records": "The society's administrative records — recruiting registers, financial accounts, correspondence — survive partially in German state archives (particularly Hesse and Nassau) and at the Sophienburg Museum. These records trace the organizational pipeline from recruitment in Germany through transport to Texas."
+      },
+      "chain_mechanics": {
+        "description": "The Adelsverein was an organized colonization scheme, not spontaneous chain migration. German noblemen recruited settlers in the German states, arranged transportation, and (in theory) provided land, supplies, and infrastructure at the destination. The reality was catastrophically worse than the promise: overcrowded ships, inadequate staging facilities at Indianola, insufficient wagons, and diseases that killed hundreds. The route was: German port (Bremen, Hamburg, or Antwerp) → Atlantic crossing (6-8 weeks) → Indianola, Texas (Carlshafen) → overland by ox wagon to New Braunfels (2-3 weeks) → and for the Fredericksburg settlers, another 2-3 days to the western frontier. After the Adelsverein's bankruptcy in 1847, chain migration replaced organized colonization — settlers who had survived wrote to relatives in Germany, and families followed on their own.",
+        "kinship_role": "After the Adelsverein collapsed, kinship networks became the primary migration mechanism. A family in Fredericksburg wrote to their village in Hesse; the letter was read in the Gasthaus; and the next spring, another family sailed from Bremen. Specific German villages sent clusters of families to specific Hill Country communities. The connection between a German village and a Texas town could persist for two generations.",
+        "timeline": "Adelsverein phase: 1844-1847. Chain migration phase: 1848-1880. Declining by the 1880s as the initial immigrant generation aged and the German-born population began to be replaced by Texas-born children."
+      },
+      "narrative_hook": "The Adelsverein brought {ancestor_name} from {german_origin} to Texas with promises of fertile land and German community — and delivered typhus at Indianola, a death march to the Hill Country, and a colony on limestone soil that could not grow what the brochure had promised. The promise was broken. The community endured.",
+      "source": "Biesele, The History of the German Settlements in Texas, ch. 3-5. Geue and Geue, A New Land Beckoned."
+    },
+    {
+      "corridor_id": "forty_eighter_refugee_stream",
+      "corridor_name": "Forty-Eighter Political Refugee Stream",
+      "origin_counties": ["Baden (Germany)", "Saxony (Germany)", "Rhineland-Palatinate (Germany)", "Hesse (Germany)", "Prussia (Germany)", "Various German states"],
+      "destination_area": "Comfort and Sisterdale (Kendall County) — primary Freidenker settlements. Secondary: New Braunfels, Fredericksburg, Boerne.",
+      "era": "1848-1860",
+      "migration_type": "political_refugee_migration",
+      "scale": "Hundreds of families and individuals. Smaller in number than the Adelsverein colonists but disproportionately influential — the Forty-Eighters included lawyers, journalists, military officers, university professors, and political activists who became community leaders.",
+      "evidence": {
+        "biographical_records": "Many Forty-Eighters were prominent enough to leave biographical records in both German and American sources. Ernst Kapp (geographer), Gustav Schleicher (later U.S. Congressman), Fritz Tegener (leader of the Nueces Massacre group) are documented in biographical dictionaries and memorial publications.",
+        "naturalization_records": "Forty-Eighters naturalized through county courts, and their naturalization records often include detailed information about their German political activities and reasons for emigration.",
+        "cemetery_evidence": "The Treue der Union monument in Comfort lists the names of the men killed at the Nueces, many of whom were Forty-Eighters or their sons."
+      },
+      "chain_mechanics": {
+        "description": "The Forty-Eighters came individually or in small groups, not through organized colonization. They chose the Texas Hill Country specifically because it offered an existing German-language community far from the anti-immigrant nativism of eastern cities. Comfort was founded in 1854 specifically as a Freidenker (freethinker) settlement — a community of politically liberal, religiously skeptical, university-educated Germans who wanted to build an intellectual community on the Texas frontier. The 'Latin Settlement' at Sisterdale (a few miles from Comfort) earned its nickname because the settlers debated philosophy in Latin in the cedar brakes.",
+        "kinship_role": "Political networks rather than family networks drove the Forty-Eighter migration. Men who had fought together in the 1848 revolutions emigrated together. University friendships and political associations created migration chains — a lawyer from Heidelberg would write to a former classmate in Baden, and the classmate would follow to Texas.",
+        "timeline": "Primary wave: 1849-1855 (immediate post-revolution refugees). Secondary wave: 1855-1860 (as repression continued in the German states)."
+      },
+      "narrative_hook": "When {ancestor_name} left {german_origin} after the failed revolution of 1848, {pronoun_subject} carried a price on {pronoun_possessive} head and a copy of Hegel in {pronoun_possessive} trunk — and chose Comfort, Texas, because it was the one place in the world where {pronoun_subject} could debate philosophy in German and no Prussian warrant could touch {pronoun_object}.",
+      "source": "Biesele, The History of the German Settlements in Texas, ch. 7. Lich, The German Texans, ch. 3."
+    },
+    {
+      "corridor_id": "comanche_displacement",
+      "corridor_name": "Comanche Displacement from the Hill Country",
+      "origin_counties": ["Gillespie (TX)", "Llano (TX)", "Blanco (TX)", "Burnet (TX)", "Kendall (TX)"],
+      "destination_area": "Comancheria (western Texas and Indian Territory) — gradual confinement followed by reservation placement",
+      "era": "1846-1875",
+      "migration_type": "forced_displacement",
+      "scale": "The Penateka Comanche band that occupied the Hill Country numbered an estimated 2,000-5,000 people at the time of German settlement. Disease, military campaigns, and the destruction of the bison herds reduced and displaced them over three decades.",
+      "evidence": {
+        "treaty_records": "The Meusebach-Comanche Treaty of 1847 documents the negotiation between German settlers and the Penateka Comanche. Federal Indian Affairs records document subsequent interactions.",
+        "military_records": "Texas Ranger and U.S. Army records document military encounters with the Comanche on the Hill Country frontier through the 1870s.",
+        "absence_of_records": "Comanche presence in the Hill Country left few permanent records recognizable in county courthouse research. Archaeological evidence (campsite artifacts, pictographs at Enchanted Rock) documents occupation, but the Comanche did not generate the written records that county-based genealogy depends on."
+      },
+      "chain_mechanics": {
+        "description": "The Comanche displacement from the Hill Country was not a single event but a thirty-year process. The Meusebach-Comanche Treaty of 1847 was a genuine peace agreement — unusual in that both sides honored it. The Penateka Comanche allowed German settlement on their eastern frontier in exchange for trade goods and recognition. But the treaty could not protect the Comanche from the broader Anglo-Texan expansion, the destruction of the bison herds, or the U.S. Army's post-Civil War campaigns against the Comanche. By 1875, the Comanche were confined to the reservation at Fort Sill in Indian Territory (Oklahoma). The Hill Country landscape that the Comanche had shaped through fire management and seasonal movement became the German-settled landscape we recognize today.",
+        "kinship_role": "Comanche bands maintained kinship and band structures through displacement. The Penateka band's displacement to the reservation preserved some community continuity even as the landscape was lost.",
+        "timeline": "Meusebach Treaty 1847; coexistence period 1847-1860; post-Civil War military campaigns 1867-1875; reservation confinement by 1875."
+      },
+      "dignity_note": "The Comanche occupied the Hill Country for centuries before German settlement. The Meusebach-Comanche Treaty was an honorable agreement honored by both sides — a rare event in the history of European-Indigenous relations. But the broader forces of Anglo-Texan expansion, bison destruction, and military campaign displaced the Comanche regardless of the treaty. The open savanna that the German settlers found was a Comanche-managed landscape. The cedar brake that replaced it was the result of ending the Comanche fire regime. The Hill Country's physical appearance is a monument to the Comanche's removal.",
+      "narrative_hook": "The Meusebach-Comanche Treaty was one of the few Indian treaties never broken — but the broader forces that displaced the Comanche from the Hill Country did not need to break the treaty to take the land. {ancestor_name} farmed a landscape the Comanche had shaped with fire for centuries, and the cedar that invaded after the Comanche were gone changed the land forever.",
+      "source": "Neighbours, Kenneth F. Robert Simpson Neighbors and the Texas Frontier. Waco: Texian Press, 1975. Hämäläinen, Pekka. The Comanche Empire. New Haven: Yale University Press, 2008."
+    },
+    {
+      "corridor_id": "village_chain_migration",
+      "corridor_name": "Village-to-Village Chain Migration: Specific German Towns to Specific Hill Country Communities",
+      "origin_counties": ["Specific villages in Hesse-Nassau, Brunswick, Westphalia, Rhineland, Baden"],
+      "destination_area": "Specific Hill Country towns — New Braunfels, Fredericksburg, Comfort, Boerne, and surrounding farming communities",
+      "era": "1848-1880",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of families over three decades. This was the primary migration mechanism after the Adelsverein's collapse.",
+      "evidence": {
+        "church_records": "German Lutheran and Catholic parish records in the Hill Country often record the immigrant's specific German village. Baptism records list godparents — who were often relatives or friends from the same German village, enabling reconstruction of the chain.",
+        "naturalization_records": "County court naturalization records frequently include the immigrant's specific place of origin in Germany.",
+        "cemetery_evidence": "Hill Country German cemeteries sometimes include birthplace inscriptions on gravestones — 'Geb. in Darmstadt, Hessen' (born in Darmstadt, Hesse)."
+      },
+      "chain_mechanics": {
+        "description": "After the Adelsverein's collapse, migration to the Hill Country continued through village-to-village chain migration. A family in Fredericksburg wrote to their relatives in a specific German village — Weilburg, Dillenburg, Usingen in Nassau; Wolfenbüttel, Holzminden in Brunswick; Münster, Bielefeld in Westphalia. The letter described conditions, advised on the route, and sometimes included money for passage. The response was typically the emigration of a brother, cousin, or neighbor. Over time, specific German villages developed connections to specific Hill Country communities, creating transatlantic kinship networks that persisted for decades.",
+        "kinship_role": "Kinship was the engine. Letters circulated through families and villages. Marriage connections created multiple channels — a family with daughters married to men in Fredericksburg had multiple kinship pulls toward Texas. Godparent relationships (documented in church records) trace these connections with precision.",
+        "timeline": "Active 1848-1880. Declining after 1880 as the immigrant generation aged and improved conditions in Germany reduced emigration push factors."
+      },
+      "narrative_hook": "{ancestor_name} came to Fredericksburg because a cousin was already there — the letter had arrived in the village in Hesse six months earlier, describing the springs and the limestone and the German-speaking community, and the cousin's word was worth more than any Adelsverein brochure.",
+      "source": "Jordan, German Seed in Texas Soil, ch. 3-4. Biesele, The History of the German Settlements in Texas, ch. 6."
+    }
+  ],
+  "internal_movement_patterns": [
+    {
+      "pattern_id": "new_braunfels_to_fredericksburg",
+      "pattern_name": "New Braunfels to Fredericksburg: Colony Seat to Frontier",
+      "description": "New Braunfels was the staging area for settlers heading to Fredericksburg and the western Hill Country. Families arriving from Indianola typically spent days to weeks in New Braunfels recovering and resupplying before the wagon journey west. Some families intended for Fredericksburg remained in New Braunfels when they learned of the frontier conditions. Others who initially settled in New Braunfels later moved to Fredericksburg or the surrounding area as the Comanche frontier was secured.",
+      "era": "1846-1870",
+      "counties_affected": ["Comal", "Gillespie", "Kendall", "Blanco"],
+      "narrative_hook": "New Braunfels was the gateway — {ancestor_name} rested at the Comal Springs after the death march from Indianola, and then had to decide: stay where the water was certain, or push eighty more miles west to the frontier at Fredericksburg."
+    },
+    {
+      "pattern_id": "upland_to_bottomland",
+      "pattern_name": "Upland to Bottomland Consolidation",
+      "description": "German settlers who initially claimed thin-soiled upland acreage gradually consolidated into the more productive river and creek bottomlands. Families that could not sustain themselves on the limestone uplands sold or abandoned upland claims and moved to bottomland farms or to the towns (New Braunfels, Fredericksburg, Comfort) where craft skills provided income. This internal consolidation shaped the settlement pattern: German farming communities concentrated in the river valleys; the uplands became ranching country.",
+      "era": "1850-1880",
+      "counties_affected": ["Gillespie", "Kendall", "Blanco", "Llano"],
+      "narrative_hook": "{ancestor_name} tried farming the limestone uplands and the limestone won — the family moved down to the Pedernales bottomland where the soil was deep enough to grow corn, and the upland claim became goat pasture."
+    }
+  ],
+  "settlement_clusters": [
+    {
+      "cluster_name": "New Braunfels German colony core",
+      "counties": ["Comal"],
+      "description": "New Braunfels was the Adelsverein's colony headquarters and remained the largest German settlement in the Hill Country. By 1860, the town had a complete German institutional infrastructure — churches, schools, newspaper, Vereins, brewery, mills, and a craft economy. The surrounding farming community spread along the Guadalupe and Comal river bottoms.",
+      "era": "1845-1920"
+    },
+    {
+      "cluster_name": "Fredericksburg western frontier colony",
+      "counties": ["Gillespie"],
+      "description": "Fredericksburg was the western anchor of the German settlement — the most isolated and the most purely German. The town maintained German-language dominance longer than any other Hill Country community. The surrounding farm and ranch community spread along the Pedernales valley and onto the limestone uplands.",
+      "era": "1846-1920"
+    },
+    {
+      "cluster_name": "Comfort-Sisterdale Freidenker community",
+      "counties": ["Kendall"],
+      "description": "Comfort and the nearby settlement of Sisterdale were the intellectual heart of the Forty-Eighter community — freethinkers who rejected organized religion, debated philosophy, and took a principled stand against slavery that cost thirty-four lives at the Nueces. The Treue der Union monument marks this community's defining moment.",
+      "era": "1854-1920"
+    },
+    {
+      "cluster_name": "Blackland Prairie cotton zone",
+      "counties": ["Williamson", "Hays"],
+      "description": "The eastern counties — Williamson and eastern Hays — were predominantly Anglo cotton country with German settlement on the western margins. Georgetown and San Marcos were market towns serving the cotton economy. A small Swedish colony at Palm Valley (Williamson County) added another ethnic dimension.",
+      "era": "1848-1920"
+    }
+  ],
+  "narrative_hooks": [
+    "The Adelsverein pipeline ran from Bremen to Indianola to New Braunfels to Fredericksburg — and {ancestor_name} followed it from the Rhine to the Pedernales, losing neighbors to disease at every stop.",
+    "The Forty-Eighters came because the revolution failed and the police were looking — {ancestor_name} chose the Hill Country over prison, and debated Hegel in a stone house in Comanche country.",
+    "Village-to-village, letter by letter, the migration chain ran from a specific farmhouse in Hesse to a specific stone house in Fredericksburg — {ancestor_name} followed a cousin's handwriting across the Atlantic.",
+    "The Comanche shaped the landscape the Germans inherited — open grassland maintained by fire, park-like savanna that became cedar brake when the Comanche were gone and the fire stopped.",
+    "New Braunfels was the staging area and Fredericksburg was the frontier — {ancestor_name} rested at the springs and then decided whether to stay or push west into a landscape that had never seen a plow."
+  ],
+  "source_references": [
+    "Biesele, Rudolph Leopold. The History of the German Settlements in Texas, 1831-1861. Austin: Von Boeckmann-Jones, 1930.",
+    "Jordan, Terry G. German Seed in Texas Soil: Immigrant Farmers in Nineteenth-Century Texas. Austin: University of Texas Press, 1966.",
+    "Geue, Chester W., and Ethel H. Geue. A New Land Beckoned: German Immigration to Texas, 1844-1847. Waco: Texian Press, 1966.",
+    "Lich, Glen E. The German Texans. San Antonio: University of Texas Institute of Texan Cultures, 1981.",
+    "Hämäläinen, Pekka. The Comanche Empire. New Haven: Yale University Press, 2008.",
+    "Neighbours, Kenneth F. Robert Simpson Neighbors and the Texas Frontier. Waco: Texian Press, 1975."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["tx_german_hill_country", "german_immigration"],
+    "route_refs": ["southern_pacific"],
+    "destination_refs": ["new_braunfels", "fredericksburg", "comfort", "boerne"],
+    "community_texture_refs": ["texas_german_hill_country"]
+  }
+}

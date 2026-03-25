@@ -1,6 +1,6 @@
 {
   "_schema_version": "1.0",
-  "_last_updated": "2026-03-20",
+  "_last_updated": "2026-03-25",
   "_purpose": "County-to-region lookup for Regional Landscape Profiles (Layer 4). Given an ancestor's county, Polsia finds the cluster directory and all associated profile files.",
   "_usage": "Look up county_to_region[state][county] to get the cluster_id. Then load files from regional_landscape/{cluster_id}/. If no match, the ancestor's county has no regional landscape data \u2014 skip and proceed with existing NEL. Do NOT report this as a gap.",
   "_overlap_note": "Some counties appear in multiple clusters (e.g., Hoke in both lumbee_corridor and nc_sandhills_upper_cape_fear; Bladen/Columbus in both lumbee_corridor and lower_cape_fear_wilmington). The county_to_region mapping picks one primary cluster per county. If the ancestor's identity suggests the other cluster (e.g., Lumbee heritage in Bladen County), load the alternate cluster manually.",
@@ -1303,6 +1303,98 @@
           "immigrant_enclave_progression",
           "company_town_lifecycle",
           "yeoman_farming_stability"
+        ]
+      }
+    },
+    "pa_anthracite": {
+      "cluster_id": "pa_anthracite",
+      "display_name": "PA Anthracite Coal Region",
+      "state": "PA",
+      "counties": [
+        "Schuylkill",
+        "Luzerne",
+        "Lackawanna",
+        "Carbon",
+        "Northumberland",
+        "Columbia",
+        "Lycoming",
+        "Sullivan"
+      ],
+      "era_range": "1840-1960",
+      "geographic_description": "The anthracite coal region of northeastern Pennsylvania — the Ridge and Valley Province where tightly folded geology trapped the hardest coal in America. Three anthracite fields (Northern, Middle, Southern) spread across eight counties, from Carbondale in the north through the Wyoming Valley to the Schuylkill County patch towns in the south. The landscape is defined by steep ridges, narrow coal-bearing valleys, breaker-dominated skylines, and the multi-ethnic patch towns that housed Irish, Welsh, Polish, Lithuanian, Slovak, Italian, and Ukrainian miners. Includes the peripheral lumber and agricultural counties (Lycoming, Sullivan, Columbia) whose economic relationship with the coal fields was intimate.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/pa_anthracite_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/pa_anthracite_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/pa_anthracite_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/pa_anthracite_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/pa_anthracite_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/pa_anthracite_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/pa_anthracite_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "pa_anthracite_exodus",
+          "se_european_wave",
+          "gilded_age_labor_conflict",
+          "gi_bill_migration",
+          "appalachian_out_migration"
+        ],
+        "community_texture_refs": [
+          "pa_anthracite_patch_town",
+          "eastern_european_industrial_enclave"
+        ],
+        "material_life_refs": [
+          "industrial_city_1880_1920",
+          "great_depression_urban_1929_1940"
+        ],
+        "life_pattern_refs": [
+          "company_town_lifecycle",
+          "immigrant_parish_lifecycle",
+          "boarding_house_matriarch",
+          "steel_city_immigrant_arc"
+        ],
+        "template_refs": [
+          "record_silences",
+          "what_they_saw",
+          "naming_as_evidence"
         ]
       }
     },
@@ -2817,6 +2909,93 @@
         ]
       }
     },
+    "tx_german_hill_country": {
+      "cluster_id": "tx_german_hill_country",
+      "display_name": "TX German Hill Country",
+      "state": "TX",
+      "counties": [
+        "Comal",
+        "Gillespie",
+        "Kendall",
+        "Blanco",
+        "Burnet",
+        "Llano",
+        "Hays",
+        "Williamson"
+      ],
+      "era_range": "1842-1920",
+      "geographic_description": "The Texas Hill Country west of the Balcones Escarpment — limestone hills, spring-fed rivers, and cedar brakes. The most concentrated German ethnic enclave in the American South, founded by the Adelsverein colonization scheme (1844-1847) and sustained by chain migration through the 1880s. New Braunfels (Comal County) was the colony seat; Fredericksburg (Gillespie County) was the western frontier; Comfort (Kendall County) was the Forty-Eighter freethinker heartland. The community that voted 398-16 against secession and lost 34 men at the Nueces Massacre for loyalty to the Union.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/tx_german_hill_country_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/tx_german_hill_country_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/tx_german_hill_country_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/tx_german_hill_country_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/tx_german_hill_country_seasonal.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/tx_german_hill_country_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/tx_german_hill_country_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "tx_german_hill_country",
+          "german_immigration",
+          "civil_war_service",
+          "stayed_and_adapted"
+        ],
+        "community_texture_refs": [
+          "texas_german_hill_country"
+        ],
+        "material_life_refs": [
+          "frontier_homestead_1780_1840"
+        ],
+        "life_pattern_refs": [
+          "immigrant_parish_lifecycle",
+          "yeoman_farming_stability"
+        ],
+        "template_refs": [
+          "naming_as_evidence",
+          "record_silences",
+          "what_they_saw"
+        ]
+      }
+    },
     "mn_settlement_frontier": {
       "cluster_id": "mn_settlement_frontier",
       "display_name": "MN Settlement Frontier",
@@ -3717,6 +3896,91 @@
           "sharecropping_trap"
         ]
       }
+    },
+    "ia_corn_belt": {
+      "cluster_id": "ia_corn_belt",
+      "display_name": "IA Corn Belt",
+      "state": "IA",
+      "counties": [
+        "Story",
+        "Boone",
+        "Marshall",
+        "Tama",
+        "Buena Vista",
+        "Sac",
+        "Calhoun",
+        "Greene"
+      ],
+      "era_range": "1833-1960",
+      "geographic_description": "Central Iowa agricultural heartland on the Des Moines Lobe and Iowan Surface glacial terrain. The most productive corn and soybean land on earth \u2014 flat, black-soiled prairie converted to cropland through drainage engineering and scientific agriculture. Iowa State College at Ames was the intellectual engine. The Meskwaki Settlement at Tama \u2014 the only Native American community in Iowa that bought back its own land \u2014 sits within the cluster. Coal mining in Boone County's Des Moines River valley provided an industrial counterpoint. German, Scandinavian, Czech, Italian, and Mexican settlement layers complement the dominant Yankee/upland South agricultural population.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/ia_corn_belt_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/ia_corn_belt_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/ia_corn_belt_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/ia_corn_belt_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/ia_corn_belt_seasonal.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/ia_corn_belt_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/ia_corn_belt_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "stayed_and_adapted",
+          "gi_bill_migration",
+          "gilded_age_labor_conflict",
+          "civil_war_service"
+        ],
+        "community_texture_refs": [],
+        "material_life_refs": [
+          "frontier_homestead_1780_1840",
+          "antebellum_yeoman_farm_1820_1860",
+          "small_town_merchant_1870_1930",
+          "great_depression_urban_1929_1940"
+        ],
+        "life_pattern_refs": [
+          "yeoman_farming_stability",
+          "company_town_lifecycle",
+          "immigrant_parish_lifecycle",
+          "depression_survival_strategies"
+        ]
+      }
     }
   },
   "county_to_region": {
@@ -3846,7 +4110,15 @@
       "Allegheny": "pa_western_frontier",
       "Beaver": "pa_western_frontier",
       "Butler": "pa_western_frontier",
-      "Lawrence": "pa_western_frontier"
+      "Lawrence": "pa_western_frontier",
+      "Schuylkill": "pa_anthracite",
+      "Luzerne": "pa_anthracite",
+      "Lackawanna": "pa_anthracite",
+      "Carbon": "pa_anthracite",
+      "Northumberland": "pa_anthracite",
+      "Columbia": "pa_anthracite",
+      "Lycoming": "pa_anthracite",
+      "Sullivan": "pa_anthracite"
     },
     "NY": {
       "Dutchess": "ny_hudson_valley",
@@ -3956,7 +4228,15 @@
       "Fayette": "ia_eastern",
       "Delaware": "ia_eastern",
       "Buchanan": "ia_eastern",
-      "Black Hawk": "ia_eastern"
+      "Black Hawk": "ia_eastern",
+      "Story": "ia_corn_belt",
+      "Boone": "ia_corn_belt",
+      "Marshall": "ia_corn_belt",
+      "Tama": "ia_corn_belt",
+      "Buena Vista": "ia_corn_belt",
+      "Sac": "ia_corn_belt",
+      "Calhoun": "ia_corn_belt",
+      "Greene": "ia_corn_belt"
     },
     "GA": {
       "Gwinnett": "ga_piedmont_cotton_belt",
@@ -4020,7 +4300,15 @@
       "Rusk": "tx_east_piney_woods",
       "Harrison": "tx_east_piney_woods",
       "Marion": "tx_east_piney_woods",
-      "Cass": "tx_east_piney_woods"
+      "Cass": "tx_east_piney_woods",
+      "Comal": "tx_german_hill_country",
+      "Gillespie": "tx_german_hill_country",
+      "Kendall": "tx_german_hill_country",
+      "Blanco": "tx_german_hill_country",
+      "Burnet": "tx_german_hill_country",
+      "Llano": "tx_german_hill_country",
+      "Hays": "tx_german_hill_country",
+      "Williamson": "tx_german_hill_country"
     },
     "MN": {
       "Goodhue": "mn_settlement_frontier",
@@ -4131,26 +4419,13 @@
       ],
       "character": "Central Iowa corn belt, Norwegian/German/Czech settlement, railroad towns, cooperative grain elevators"
     },
-    "tx_german_hill_country": {
-      "state": "TX",
-      "counties": [
-        "Gillespie",
-        "Comal",
-        "Kendall",
-        "Blanco",
-        "Llano",
-        "Mason",
-        "Kerr",
-        "Medina"
-      ],
-      "character": "German Texan settlement, Comanche frontier, Unionist during Civil War, Freethinker tradition"
-    }
+    "tx_german_hill_country": "BUILT — see clusters section above"
   },
   "statistics": {
-    "total_clusters_built": 43,
-    "total_clusters_planned": 3,
-    "total_counties_covered": 334,
-    "total_files_in_built_clusters": 969,
+    "total_clusters_built": 44,
+    "total_clusters_planned": 2,
+    "total_counties_covered": 342,
+    "total_files_in_built_clusters": 992,
     "states_represented": [
       "AL",
       "CT",

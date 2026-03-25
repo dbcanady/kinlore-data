@@ -1,0 +1,113 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-25",
+  "_purpose": "Road and connectivity network for the TX German Hill Country regional cluster. Documents transportation from the Adelsverein wagon road through the railroad era. The Hill Country was defined by its isolation — Fredericksburg was 80 miles from New Braunfels and 160 miles from the Gulf Coast port. The San Antonio-Fredericksburg wagon road was the lifeline. The railroad did not reach Fredericksburg until 1913, making the western Hill Country one of the last regions in settled Texas connected by rail.",
+  "connectivity_id": "tx_german_hill_country_roads",
+  "display_name": "TX German Hill Country — Road & Connectivity Network",
+  "cluster_ref": "tx_german_hill_country",
+  "era_range": "1842-1920",
+  "transportation_eras": [
+    {
+      "era_id": "colony_wagon_roads",
+      "era_name": "Colony Wagon Roads and the Indianola Lifeline",
+      "date_range": "1842-1870",
+      "primary_modes": ["ox-drawn wagon", "horseback", "foot", "mule pack train"],
+      "description": "The Adelsverein colonists arrived by ship at the Gulf Coast port of Indianola (Carlshafen) and traveled overland to the Hill Country — a journey of 150-200 miles through coastal prairie, cross-timbers, and the Balcones Escarpment. The road from Indianola to New Braunfels and on to Fredericksburg was the colony's lifeline — supplies, mail, immigrants, and trade goods moved on this single route. The road was unimproved: sandy on the coast, clay in the cross-timbers, rocky and steep on the escarpment. In wet weather, the journey from Indianola to New Braunfels could take three weeks. The Fredericksburg-San Antonio road (80 miles) was the primary commercial route — wool, hides, peaches, and livestock moved south to San Antonio; manufactured goods and supplies moved north. The road crossed the Balcones Escarpment at Boerne Pass and followed creek valleys through the limestone hills.",
+      "road_conditions": "Unimproved limestone and clay traces through Hill Country terrain. Rocky and steep on the escarpment crossings. Sand and clay on the coastal plain. Creek crossings by ford — subject to flash flooding. The Hill Country's rocky terrain was actually easier to travel in dry weather than the clay prairies, but the escarpment crossings were always difficult.",
+      "travel_times": [
+        { "from": "Indianola (Gulf Coast)", "to": "New Braunfels", "mode": "ox wagon", "time": "14-21 days", "conditions_note": "150 miles through coastal prairie and cross-timbers. The journey killed hundreds of Adelsverein colonists from disease and exposure." },
+        { "from": "New Braunfels", "to": "Fredericksburg", "mode": "wagon", "time": "2-3 days", "conditions_note": "80 miles through the Hill Country. The road was rocky but passable in dry weather." },
+        { "from": "Fredericksburg", "to": "San Antonio", "mode": "wagon", "time": "3-4 days", "conditions_note": "80 miles via Boerne Pass. The primary commercial route." },
+        { "from": "Typical Hill Country farm", "to": "Nearest town", "mode": "horseback or wagon", "time": "2-6 hours one way", "conditions_note": "The limestone terrain created good drainage but rocky roads. Creek crossings were the primary hazard." }
+      ],
+      "key_routes": [
+        { "route_name": "Indianola-New Braunfels-Fredericksburg (Adelsverein Road)", "type": "wagon road", "year_established": "1845", "description": "The colony's lifeline from the Gulf Coast to the Hill Country. Immigrants, supplies, and mail all moved on this single route. The road's southern section crossed the coastal prairie; the middle section crossed the cross-timbers; the northern section climbed the Balcones Escarpment.", "counties_served": ["Comal", "Gillespie"] },
+        { "route_name": "San Antonio-Fredericksburg Road (via Boerne)", "type": "wagon road", "year_established": "1840s-1850s", "description": "The primary commercial route connecting the Hill Country to San Antonio — the nearest major market. Wool, mohair, hides, peaches, and livestock moved south. The road crossed the Balcones Escarpment at Boerne Pass and followed Cibolo Creek and Cypress Creek valleys.", "counties_served": ["Comal", "Kendall", "Gillespie"] },
+        { "route_name": "Austin-Fredericksburg Road (via Johnson City and Blanco)", "type": "wagon road", "year_established": "1850s", "description": "Connected the Hill Country to Austin, the state capital. Passed through Blanco County and Johnson City. Less used commercially than the San Antonio road but important for political and administrative connections.", "counties_served": ["Blanco", "Gillespie", "Williamson"] },
+        { "route_name": "Upper Emigrant Road (San Antonio to El Paso, through Hill Country)", "type": "frontier road", "year_established": "1849", "description": "The California Gold Rush route that crossed the Hill Country between San Antonio and the western frontier. Passed through Gillespie County. Not primarily a Hill Country commercial route but it brought traffic and news through the settlements.", "counties_served": ["Gillespie", "Llano"] }
+      ],
+      "isolation_index": {
+        "description": "Extreme in the western counties, moderate in the eastern counties. Fredericksburg was 80 miles from New Braunfels and 80 miles from San Antonio — three to four days by wagon from either. Llano and Burnet counties were even more isolated. The eastern counties (Hays, Williamson) were closer to San Antonio and Austin and correspondingly less isolated. The Hill Country's isolation was not merely distance — the Balcones Escarpment was a physical barrier that made every journey longer and harder than the mileage suggested.",
+        "comparative_note": "More isolated than the Texas Blackland Prairie. Comparable to the Appalachian valleys in difficulty of access. The Hill Country's isolation was geographic (escarpment barrier), cultural (German-speaking community), and economic (subsistence agriculture distant from markets)."
+      },
+      "narrative_hook": "The road from Indianola to the Hill Country killed hundreds of {ancestor_name}'s fellow colonists before they ever saw the limestone hills — and the survivors arrived at a colony 200 miles from any market, connected to the outside world by a single wagon road.",
+      "source": "Geue and Geue, A New Land Beckoned. Jordan, German Seed in Texas Soil, ch. 3."
+    },
+    {
+      "era_id": "railroad_eastern_counties",
+      "era_name": "Railroad Reaches the Eastern Counties",
+      "date_range": "1870-1900",
+      "primary_modes": ["railroad (eastern counties)", "wagon (western counties)", "horseback", "stagecoach"],
+      "description": "The railroad reached the eastern counties first — Georgetown and San Marcos by the 1870s-1880s, connected to Austin and San Antonio. The SA&AP Railway reached Boerne and Comfort by 1887, connecting Kendall County to San Antonio. But the core Hill Country — Gillespie, Blanco, Llano, Burnet — remained wagon-road country. The result was a two-speed economy: railroad-connected eastern counties could ship cotton and livestock efficiently; the western counties still hauled wool and mohair by wagon to the nearest railhead. Fredericksburg's isolation was its defining feature — seventy years of wagon-road dependence created a self-contained German community that was linguistically and culturally insulated from the rest of Texas.",
+      "road_conditions": "County roads improved gradually but remained unpaved limestone and clay. The San Antonio-Fredericksburg road was graded but not surfaced. Travel in the western counties was still a wagon-road proposition.",
+      "travel_times": [
+        { "from": "Georgetown", "to": "Austin", "mode": "International-Great Northern Railroad", "time": "1-2 hours", "conditions_note": "30 miles by rail. Georgetown was now a cotton shipping center." },
+        { "from": "San Marcos", "to": "San Antonio", "mode": "International-Great Northern Railroad", "time": "2-3 hours", "conditions_note": "50 miles by rail." },
+        { "from": "Comfort", "to": "San Antonio", "mode": "SA&AP Railway", "time": "3-4 hours", "conditions_note": "60 miles by rail through the Hill Country." },
+        { "from": "Fredericksburg", "to": "Nearest railroad (Comfort)", "mode": "wagon", "time": "1-2 days", "conditions_note": "40 miles through the Hill Country. The wagon haul added cost and time to every transaction." }
+      ],
+      "key_routes": [
+        { "route_name": "International-Great Northern Railroad (Georgetown-Austin-San Antonio)", "type": "railroad", "year_established": "1870s-1880s", "description": "Connected the eastern counties to the state's two most important cities. Made Georgetown and San Marcos railroad towns.", "counties_served": ["Williamson", "Hays"] },
+        { "route_name": "San Antonio & Aransas Pass Railway (SA&AP, San Antonio-Boerne-Comfort-Kerrville)", "type": "railroad", "year_established": 1887, "description": "Extended railroad service into the Hill Country through Kendall County. Comfort and Boerne became railroad towns, cutting the isolation of the central Hill Country.", "counties_served": ["Kendall"] },
+        { "route_name": "San Antonio-Fredericksburg wagon road (still primary)", "type": "wagon road", "year_established": "1840s", "description": "Still the primary route for the western Hill Country. Wool, mohair, and peaches from Gillespie County moved by wagon to San Antonio or to the railroad at Comfort.", "counties_served": ["Gillespie", "Kendall"] }
+      ],
+      "isolation_index": {
+        "description": "Dramatically reduced in the eastern counties; still high in the western counties. Comfort's railroad connection (1887) was the first breach in the western Hill Country's isolation. But Fredericksburg, Blanco, Llano, and Burnet remained wagon-road country.",
+        "comparative_note": "By 1900, Georgetown and San Marcos were well-connected. Fredericksburg was still as isolated as it had been in 1850 — the railroad simply had not reached it."
+      },
+      "narrative_hook": "The railroad stopped at Comfort — and {ancestor_name} in Fredericksburg still hauled the wool and the peaches forty miles by wagon to the railhead, because the Hill Country's limestone canyons and the railroad's profit calculations had not yet agreed.",
+      "source": "Reed, A History of the Texas Railroads. Jordan, German Seed in Texas Soil, ch. 7."
+    },
+    {
+      "era_id": "fredericksburg_railroad_automobile",
+      "era_name": "Fredericksburg Railroad and the Automobile Age",
+      "date_range": "1900-1920",
+      "primary_modes": ["railroad", "automobile (emerging)", "wagon (declining)", "horseback"],
+      "description": "The Fredericksburg & Northern Railway finally reached Fredericksburg in 1913, ending seventy years of wagon-road isolation. The branch line connected Fredericksburg to the main-line railroad at Fredericksburg Junction (near present-day Highway 87 junction). The railroad transformed Fredericksburg's economy — peaches, wool, and mohair could ship directly by rail. Simultaneously, the automobile began appearing on Hill Country roads. The first automobiles struggled on the ungraded limestone roads, but by 1920, improved state highways were being planned. The automobile would eventually do for the Hill Country what the railroad could not — connect every farm and ranch to the road network, not just the towns on the railroad line.",
+      "road_conditions": "State highway construction beginning. The Old Spanish Trail highway project (forerunner of US 90) planned through the southern Hill Country. County roads still unimproved limestone. Automobiles capable of the journey on good days; impassable in rain.",
+      "travel_times": [
+        { "from": "Fredericksburg", "to": "San Antonio", "mode": "Fredericksburg & Northern Railway + main line", "time": "4-5 hours", "conditions_note": "The first rail journey in the colony's seventy-year history." },
+        { "from": "Fredericksburg", "to": "San Antonio", "mode": "automobile", "time": "3-4 hours (good conditions)", "conditions_note": "80 miles on ungraded road. Possible in dry weather; dangerous in rain." }
+      ],
+      "key_routes": [
+        { "route_name": "Fredericksburg & Northern Railway", "type": "branch-line railroad", "year_established": 1913, "description": "Connected Fredericksburg to the main-line railroad. A branch line that ended the colony's physical isolation. The rail service was limited — one or two trains daily — but it was transformative.", "counties_served": ["Gillespie"] }
+      ],
+      "isolation_index": {
+        "description": "Significantly reduced across the cluster. By 1920, every county in the cluster had either direct railroad service or an automobile road to a railroad town. The cultural isolation — the German-language community — survived the end of physical isolation by a generation.",
+        "comparative_note": "By 1920, the Hill Country was moderately well-connected. The cultural isolation that physical distance had sustained was now maintained by choice rather than geography."
+      },
+      "narrative_hook": "The train whistle in Fredericksburg in 1913 was a sound {ancestor_name}'s parents had never heard — seventy years after the Adelsverein colonists arrived by ox wagon, the colony was finally connected by rail to the world it had left behind.",
+      "source": "Reed, A History of the Texas Railroads. Lich, The German Texans, ch. 6."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1878, "event": "International-Great Northern Railroad reaches Georgetown", "impact": "Connects Williamson County to Austin and the national rail network. Georgetown becomes a cotton shipping center." },
+    { "year": 1881, "event": "International-Great Northern Railroad reaches San Marcos", "impact": "Connects Hays County to San Antonio and Austin." },
+    { "year": 1887, "event": "SA&AP Railway reaches Comfort and Boerne", "impact": "First railroad into the Hill Country interior. Kendall County connected to San Antonio." },
+    { "year": 1902, "event": "International-Great Northern Railroad reaches New Braunfels", "impact": "Connects the Adelsverein colony seat to San Antonio by rail." },
+    { "year": 1913, "event": "Fredericksburg & Northern Railway reaches Fredericksburg", "impact": "Ends seventy years of physical isolation for the western Hill Country." }
+  ],
+  "narrative_hooks": [
+    "The Adelsverein road from Indianola to the Hill Country was a death march — {ancestor_name} survived a journey that killed hundreds, through coastal swamp and cross-timber and escarpment, to reach a colony 200 miles from any market.",
+    "The San Antonio-Fredericksburg wagon road was the Hill Country's one connection to the world — {ancestor_name} hauled wool south and brought supplies north on a limestone road that had not changed in forty years.",
+    "The railroad stopped at Comfort for twenty-six years before it reached Fredericksburg — and in those years, {ancestor_name}'s community remained a German-speaking island, isolated by geography and connected by the wagon road.",
+    "When the Fredericksburg & Northern Railway arrived in 1913, {ancestor_name} could ship peaches by rail instead of wagon — and the Hill Country's economic calculus changed overnight.",
+    "The automobile on the Hill Country's limestone roads was the great equalizer — {ancestor_name} could reach San Antonio in a day without depending on the railroad's schedule or the wagon's pace."
+  ],
+  "source_references": [
+    "Geue, Chester W., and Ethel H. Geue. A New Land Beckoned: German Immigration to Texas, 1844-1847. Waco: Texian Press, 1966.",
+    "Jordan, Terry G. German Seed in Texas Soil: Immigrant Farmers in Nineteenth-Century Texas. Austin: University of Texas Press, 1966.",
+    "Reed, S. G. A History of the Texas Railroads. Houston: St. Clair Publishing, 1941.",
+    "Lich, Glen E. The German Texans. San Antonio: University of Texas Institute of Texan Cultures, 1981.",
+    "Biesele, Rudolph Leopold. The History of the German Settlements in Texas, 1831-1861. Austin: Von Boeckmann-Jones, 1930."
+  ],
+  "nel_cross_references": {
+    "route_refs": [
+      "southern_pacific"
+    ],
+    "trigger_refs": [
+      "tx_german_hill_country",
+      "german_immigration"
+    ]
+  }
+}
