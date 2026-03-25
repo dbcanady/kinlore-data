@@ -1,0 +1,560 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Ethnic heritage profile for Swiss immigrants (German-Swiss & French-Swiss) — provides cultural context for narrative generation covering 1710-1900 immigration from multiple cantons",
+
+  "profile_id": "swiss",
+  "display_name": "Swiss (German-Swiss & French-Swiss)",
+  "group_category": "germanic",
+  "alternate_terms": [
+    "Swiss German", "German-Swiss", "French-Swiss", "Switzer",
+    "Schweizer", "Bernese", "Zurichois", "Romand",
+    "Swiss Mennonite", "Swiss Reformed", "Swiss Brethren"
+  ],
+  "identification_clues": {
+    "surname_patterns": [
+      "German-Swiss cantonal surnames: Amstutz, Baumgartner, Brunner, Buerki/Bürki, Gerber, Graber, Gygax, Hirschi, Kennel, Leuenberger, Luginbuhl, Neuenschwander, Rupp, Scheidegger, Steiner, Stutzman/Stutesman, Tschantz, Walder, Wenger, Zuercher/Zurcher/Zuricher",
+      "French-Swiss surnames: Bonhomme, Bonjour, Chevalier, DuBois, Favre, Godet, Junod, Maillard, Perret, Piaget, Reymond, Rochat, Vuilleumier",
+      "Surnames ending in -li or -chi (Bernese dialect markers): Ruefli, Buerki, Hirschi, Aeschlimann",
+      "Occupational surnames reflecting precision trades: Uhrmacher (watchmaker), Kaesemacher/Kaeser (cheesemaker)",
+      "Double-barreled cantonal place-surnames: Zuercher (from Zurich), Berner (from Bern), Luzerner (from Lucerne), Thurgauer (from Thurgau)"
+    ],
+    "denomination_signals": [
+      "Swiss Reformed (Zwinglian — distinct from German Reformed/Heidelberg tradition)",
+      "Mennonite (Swiss Brethren origin, especially Emmental and Jura regions)",
+      "Amish (Swiss Anabaptist, primarily Bernese Oberland and Alsatian border)",
+      "Swiss Evangelical (post-1830s revival congregations)",
+      "Roman Catholic (from Catholic cantons: Lucerne, Fribourg, Valais, Uri, Schwyz)"
+    ],
+    "settlement_signals": [
+      "New Bern NC (1710 — de Graffenried's colony)",
+      "SE Pennsylvania (Lancaster, Berks counties — Swiss Mennonite communities)",
+      "New Glarus WI (1845 — Glarus canton colony)",
+      "Highland IL (Swiss colony founded 1831, Madison County)",
+      "Gruetli/Gruetli-Laager TN (Grundy County, 1869)",
+      "Tell City IN (Perry County, 1857 — Swiss Colonization Society)",
+      "Bernese settlements in Allen County IN and Adams County IN",
+      "Swiss colonies in Sauk County WI, Green County WI, Monroe WI"
+    ],
+    "record_signals": [
+      "Swiss cantonal citizenship registers (Bürgerregister) — civil registration earlier than most European countries",
+      "Swiss Reformed church records with cantonal origin noted",
+      "Colony founding documents (New Bern, New Glarus, Tell City) listing original settlers by canton",
+      "Naturalization records listing canton rather than just 'Switzerland'",
+      "Ship manifests noting 'Schweizer' or specific canton: 'Canton Bern', 'Canton Glarus'"
+    ],
+    "occupation_signals": [
+      "Cheesemaker/dairyman (distinctive Swiss dairy expertise)",
+      "Watchmaker/clockmaker (precision craft tradition)",
+      "Weaver (especially linen, from Appenzell and eastern cantons)",
+      "Farmer (diversified Alpine-style mixed farming)",
+      "Carpenter/joiner (precision woodworking tradition)",
+      "Baker/confectioner (Swiss baking tradition)",
+      "Innkeeper/hotelier (Swiss hospitality tradition transplanted)"
+    ]
+  },
+
+  "immigration_overview": {
+    "primary_period": "1710-1900",
+    "peak_decades": ["1730s", "1740s", "1840s", "1850s", "1880s"],
+    "waves": [
+      {
+        "wave_name": "Palatine-Swiss Colonial Wave",
+        "period": "1710-1750",
+        "origin_regions": ["Canton Bern (Emmental, Oberland)", "Canton Zurich", "Canton Basel", "Neuchâtel", "Cantons bordering the Palatinate"],
+        "push_factors": [
+          "Bernese government restrictions on Anabaptists — Mennonites and Swiss Brethren faced imprisonment, galley servitude, and expulsion decrees (1659-1743)",
+          "Devastating winter of 1708-1709 destroying crops across the Swiss plateau",
+          "Overpopulation in Alpine valleys with limited arable land — primogeniture in some cantons left younger sons landless",
+          "Economic depression following the Villmergen Wars (1656, 1712) between Protestant and Catholic cantons"
+        ],
+        "pull_factors": [
+          "Christoph von Graffenried's organized recruitment from Bern for New Bern NC colony (1710)",
+          "William Penn's agents actively recruiting Swiss sectarians alongside Palatine Germans",
+          "Religious liberty in Pennsylvania — critical for Mennonite and Amish families fleeing Bernese persecution",
+          "Fertile limestone farmland in Lancaster and Berks counties resembling Swiss plateau agriculture"
+        ],
+        "estimated_numbers": "Approximately 10,000-15,000, many traveling through the Palatinate and grouped with German emigrants in records",
+        "primary_ports_of_entry": ["Philadelphia", "Charleston SC (New Bern settlers)"],
+        "typical_journey": "Swiss emigrants typically traveled down the Rhine from Basel to Rotterdam, a journey of two to four weeks by barge, then waited in Rotterdam for passage to Philadelphia or other colonial ports — a crossing of eight to fourteen weeks. The New Bern colonists followed a different route via London, where Graffenried negotiated with the Lords Proprietors before sailing to the Carolina coast."
+      },
+      {
+        "wave_name": "Swiss Colony Founders",
+        "period": "1830-1860",
+        "origin_regions": ["Canton Glarus", "Canton Bern", "Canton Graubünden", "Canton Vaud", "Canton Neuchâtel", "Canton Fribourg"],
+        "push_factors": [
+          "Collapse of the handloom weaving industry in eastern cantons (Glarus, Appenzell, St. Gallen) due to English factory competition",
+          "Potato famine and crop failures across the Swiss plateau (1845-1847)",
+          "Political upheaval during the Sonderbund War (1847) between liberal Protestant and conservative Catholic cantons",
+          "Cantonal governments actively encouraging emigration of surplus population — Glarus canton partially funded the New Glarus colony"
+        ],
+        "pull_factors": [
+          "Organized colonization societies: the Glarner Emigration Society (1845), the Swiss Colonization Society of Cincinnati (Tell City, 1857)",
+          "Chain migration letters describing fertile Midwestern prairie land available at government prices",
+          "Railroad land grants in Wisconsin, Illinois, and Indiana marketed to Swiss colonists",
+          "Highland IL colony success (founded 1831) demonstrating viability of Swiss agricultural communities in America"
+        ],
+        "estimated_numbers": "Approximately 50,000-70,000 across three decades, with organized colonies accounting for perhaps 10% and individual/family migration the rest",
+        "primary_ports_of_entry": ["New York (Castle Garden after 1855)", "New Orleans (for Mississippi River corridor settlements)", "Baltimore"],
+        "typical_journey": "By the 1840s, Swiss emigrants typically sailed from Le Havre or Bremen to New York in four to six weeks on packet ships. Colony groups traveled together — the 193 Glarners who founded New Glarus sailed from Le Havre aboard the Superb and Rowena in April 1845, reaching St. Louis via New Orleans and the Mississippi before trekking overland to Green County, Wisconsin."
+      },
+      {
+        "wave_name": "Post-Civil War Economic Migration",
+        "period": "1865-1900",
+        "origin_regions": ["Canton Bern", "Canton Zurich", "Canton Aargau", "Canton Ticino (Italian-Swiss)", "Canton Vaud", "Canton Valais"],
+        "push_factors": [
+          "Swiss industrialization displacing traditional agricultural workers and artisans",
+          "Competition from factory-made cheese threatening Alpine dairy farmers",
+          "Military service requirements in the newly centralized Swiss federal army (1848 constitution) motivating some young men to emigrate",
+          "Limited land availability in a country where only 25% of terrain is arable"
+        ],
+        "pull_factors": [
+          "Homestead Act (1862) offering free land — particularly attractive to Swiss farmers accustomed to small holdings",
+          "Established Swiss colonies in Wisconsin, Indiana, and Tennessee serving as reception communities",
+          "American demand for Swiss dairy expertise — Wisconsin cheese industry actively recruited Swiss cheesemakers",
+          "Railroad and steamship company agents marketing passage and settlement packages in Swiss newspapers"
+        ],
+        "estimated_numbers": "Approximately 80,000-100,000, the largest wave numerically but more dispersed than earlier organized colonies",
+        "primary_ports_of_entry": ["New York (Ellis Island after 1892)", "Baltimore", "Philadelphia"],
+        "typical_journey": "Steamship passage from Le Havre, Bremen, or Genoa to New York in ten to fourteen days by the 1880s. Railroad connections from New York to Midwestern destinations added three to five days. Many Swiss immigrants arrived with more capital than other European groups, reflecting Switzerland's relatively higher standard of living."
+      }
+    ],
+    "narrative_hooks": [
+      "If {ancestor_name} arrived from Switzerland in the colonial era, they likely traveled down the Rhine from Basel alongside Palatine Germans — and American records probably recorded them simply as 'German' or 'Palatine,' erasing their distinct Swiss cantonal identity.",
+      "The {surname} family's Swiss origins may be recoverable from cantonal citizenship registers (Bürgerregister), which recorded family membership by commune and have survived with remarkable completeness since the sixteenth century.",
+      "When {ancestor_name} left {state} for America, they were not simply 'Swiss' — they were Bernese, Glarner, or Vaudois, with a cantonal identity as fierce as any American's attachment to their home state."
+    ]
+  },
+
+  "settlement_patterns": {
+    "primary_destinations": [
+      {
+        "region": "New Bern, North Carolina",
+        "period": "1710-1720s",
+        "why": "Baron Christoph von Graffenried recruited approximately 650 colonists from Bern and the Palatinate to establish a colony at the confluence of the Neuse and Trent rivers. The colony was devastated by the Tuscarora War (1711-1715) but survivors formed the nucleus of New Bern's European population.",
+        "community_character": "A planned colonial settlement that quickly lost its distinctly Swiss character after the Tuscarora War scattered settlers and English colonists predominated. Swiss surnames persisted but cultural cohesion dissolved within a generation."
+      },
+      {
+        "region": "Southeastern Pennsylvania (Lancaster, Berks, Chester counties)",
+        "period": "1710-1790",
+        "why": "Swiss Mennonites and Reformed settlers found religious liberty and fertile limestone farmland resembling the Swiss Mittelland. They arrived alongside — and were often indistinguishable from — Palatine Germans, forming the broader Pennsylvania Dutch community.",
+        "community_character": "Swiss Mennonite communities maintained distinct worship practices and endogamous marriage patterns within the larger German-speaking Pennsylvania Dutch world. Farms were compact, intensively managed, and built around the distinctive Swiss-German bank barn."
+      },
+      {
+        "region": "New Glarus and Green County, Wisconsin",
+        "period": "1845-1900",
+        "why": "The Glarner Emigration Society of 1845 purchased land in Green County as a relief colony for economically displaced families from Canton Glarus. The colony became the most culturally persistent Swiss settlement in America.",
+        "community_character": "A remarkably insular community where Glarus dialect, Swiss Reformed worship, cheesemaking, and yodeling traditions survived well into the twentieth century. The colony maintained direct institutional ties to Canton Glarus for decades."
+      },
+      {
+        "region": "Highland, Illinois (Madison County)",
+        "period": "1831-1870",
+        "why": "Founded by Joseph Suppiger and Kaspar Koepfli from Canton Lucerne, Highland became the first organized Swiss colony in the Midwest and proved that Swiss agricultural methods could succeed on the Illinois prairie.",
+        "community_character": "Unlike many Swiss settlements, Highland drew from Catholic cantons alongside Protestant ones, creating an unusual ecumenical Swiss community. The colony's success was widely publicized in Swiss newspapers and stimulated further emigration."
+      },
+      {
+        "region": "Tell City, Indiana (Perry County)",
+        "period": "1857-1880",
+        "why": "The Swiss Colonization Society of Cincinnati planned Tell City as an industrial Swiss colony on the Ohio River, named for the legendary William Tell. The site was chosen for river commerce access and timber resources.",
+        "community_character": "A town built on Swiss precision — the grid was surveyed before settlement, lots allocated by lottery, and communal institutions (Turnverein, singing societies, cooperative brewery) established from day one. Furniture manufacturing became the dominant industry."
+      },
+      {
+        "region": "Gruetli-Laager, Tennessee (Grundy County)",
+        "period": "1869-1890",
+        "why": "Swiss colonists from multiple cantons established a mountain colony on the Cumberland Plateau, attracted by cheap Reconstruction-era land and a climate resembling the Swiss Alps. The colony was named for the Rütli meadow, site of the legendary Swiss oath of confederation.",
+        "community_character": "An isolated mountain community that preserved Swiss German dialect and customs longer than lowland settlements. The colony struggled economically — thin mountain soil proved far less productive than the Swiss plateau — and many families eventually migrated to nearby Chattanooga or Nashville."
+      }
+    ],
+    "chain_migration_networks": [
+      "Cantonal networks were the primary chain migration mechanism — families from Canton Glarus went to New Glarus, families from Canton Bern to Lancaster County or Adams County Indiana, families from Canton Lucerne to Highland IL",
+      "Swiss emigration societies (Auswanderungsvereine) organized group departures and pre-purchased land, creating instant community rather than isolated individual settlement",
+      "The Swiss consular network in America facilitated connections between new arrivals and established colonies — Swiss consuls in Cincinnati, St. Louis, and New York directed immigrants toward Swiss settlements",
+      "Swiss-American newspapers (Der Grütlianer, Neue Zürcher Zeitung American correspondence) carried settlement reports and recruiting notices that channeled migration to specific destinations"
+    ],
+    "clustering_factors": [
+      "Cantonal identity — settlers from the same canton clustered together, maintaining dialect and institutional ties to their home commune",
+      "Organized colonization — more than any other European group, Swiss immigrants formed planned colonies with advance land purchases and institutional blueprints",
+      "Dairy farming expertise — Swiss cheesemakers concentrated in Wisconsin's Green County and surrounding areas where the rolling terrain and cool climate suited dairy operations",
+      "Swiss Reformed or Mennonite church as social anchor — the congregation defined community boundaries"
+    ],
+    "secondary_migration": [
+      "Swiss from SE Pennsylvania moved south along the Great Wagon Road into the Shenandoah Valley and Piedmont NC alongside Pennsylvania Dutch neighbors",
+      "Failed or struggling colonies (Gruetli TN, some Minnesota settlements) generated secondary migration to nearby cities — Chattanooga, Nashville, Minneapolis",
+      "Second-generation Swiss in Wisconsin and Illinois dispersed westward into Iowa, Minnesota, and the Dakotas during the Homestead Act era",
+      "Swiss dairy families followed the cheese industry from Green County WI into Dodge County and Fond du Lac County as production expanded"
+    ],
+    "urban_vs_rural": "Overwhelmingly rural in settlement preference. Swiss immigrants were disproportionately farmers, dairymen, and village artisans who sought to replicate Swiss agricultural communes in America. Urban Swiss immigrants existed — particularly watchmakers in cities like New York and Cincinnati — but the dominant pattern was organized rural colony settlement. This rural preference persisted longer than for most European groups because the colony structure provided social infrastructure that eliminated the need for urban ethnic neighborhoods.",
+    "narrative_hooks": [
+      "If {ancestor_name} settled in {county}, {state}, look for an organized Swiss colony nearby — Swiss immigrants were far more likely than other groups to arrive as part of a planned colonization effort rather than as individual pioneers.",
+      "The {surname} family's cantonal origin may explain their specific settlement choice: Bernese to Pennsylvania and Indiana, Glarner to Wisconsin, Lucerners to Illinois — cantonal loyalty channeled migration as precisely as a railroad timetable.",
+      "By the time {ancestor_name}'s children came of age, they faced the choice that defined Swiss-American communities: stay in the insular colony world their parents had built, or join the broader American mainstream that surrounded it."
+    ]
+  },
+
+  "church_and_records": {
+    "primary_denominations": [
+      {
+        "denomination": "Swiss Reformed (Zwinglian)",
+        "record_types_kept": ["baptism", "marriage", "burial", "confirmation", "communion rolls", "family registers (Familienregister)"],
+        "record_language": "German (Swiss German dialect occasionally in informal entries); French for Romand congregations",
+        "typical_record_detail": "Excellent detail — baptismal records typically name both parents, godparents (often with residence and occupation), and sometimes note cantonal origin. Marriage records include parents of both parties. Swiss Reformed records in America often maintained a dual-register system, recording events in both the American congregation and reporting back to the home parish in Switzerland.",
+        "genealogical_value": "High — among the most detailed Protestant records in America, and uniquely cross-referenceable with Swiss cantonal archives"
+      },
+      {
+        "denomination": "Swiss Mennonite / Swiss Brethren",
+        "record_types_kept": ["baptism (adult believers)", "marriage", "burial", "membership lists", "discipline records", "migration certificates"],
+        "record_language": "German (Pennsylvania German dialect in later American records)",
+        "typical_record_detail": "Variable — early Swiss Mennonite records are sparse because the community was semi-underground in Switzerland. American records improve after 1750 but remain less detailed than Reformed records. Migration certificates (Wanderbriefe) documenting a member's good standing are genealogically invaluable when they survive.",
+        "genealogical_value": "Medium to high — Mennonite church records are less systematic than Reformed but the community's strong endogamy and genealogical awareness have produced remarkable compiled family records (especially the Lancaster Mennonite Historical Society collections)"
+      },
+      {
+        "denomination": "Roman Catholic (from Catholic cantons)",
+        "record_types_kept": ["baptism", "marriage", "burial", "first communion", "confirmation"],
+        "record_language": "Latin (sacramental records); German or French (parish registers depending on canton of origin)",
+        "typical_record_detail": "Standard Catholic parish detail — baptismal records name parents and godparents, marriage records include witnesses. Catholic Swiss in America often joined existing German Catholic or Irish Catholic parishes rather than forming distinctly Swiss congregations.",
+        "genealogical_value": "Medium — records exist but Swiss Catholic immigrants are harder to distinguish from German or French Catholics in American parish records"
+      }
+    ],
+    "civil_record_interaction": "Switzerland maintained civil registration (Zivilstandsregister) at the cantonal level from 1876, but commune-level citizenship registers (Bürgerregister) date back centuries earlier and function as de facto civil records. In America, Swiss colony records often supplement church records — colony founding documents, land allocation records, and society minutes name members with cantonal origin, making them invaluable for tracing specific Swiss origins.",
+    "language_transition_timeline": [
+      {
+        "period": "1710-1800",
+        "language": "Swiss German dialect or French (Romand) in home and church; High German in formal records",
+        "context": "Colonial-era Swiss maintained their language within Pennsylvania Dutch communities, where Swiss German merged with Palatine German to form Pennsylvania Dutch dialect"
+      },
+      {
+        "period": "1800-1870",
+        "language": "German in church and colony records; English in civil records and increasingly in daily life",
+        "context": "Swiss colonies maintained German-language institutions — churches, schools, newspapers — but English was necessary for commerce and legal matters outside the colony"
+      },
+      {
+        "period": "1870-1920",
+        "language": "Transition to English in most public contexts; German or Swiss dialect retained in home and church",
+        "context": "Anti-German sentiment during World War I accelerated the language shift even in the most insular Swiss colonies. New Glarus switched to English-language worship in the 1920s."
+      },
+      {
+        "period": "1920-present",
+        "language": "English dominant; Swiss dialect survived only in the most conservative Mennonite and Amish communities",
+        "context": "The Swiss German dialect survives primarily among Old Order Amish and some conservative Mennonite groups, who speak a variant traceable to Bernese Emmental origins"
+      }
+    ],
+    "key_repositories": [
+      "Swiss Federal Archives (Bundesarchiv), Bern — emigration permits and passport records",
+      "Cantonal archives (Staatsarchiv) — each canton maintains its own archives with Bürgerregister, church records, and emigration records; Canton Bern and Canton Glarus archives are especially rich for American genealogy",
+      "Lancaster Mennonite Historical Society — extensive Swiss Mennonite family files and migration records",
+      "New Glarus Historical Society — founding documents, colony records, and correspondence with Canton Glarus",
+      "FamilySearch — Swiss church records microfilmed extensively in partnership with cantonal archives",
+      "Mennonite Heritage Center, Harleysville PA — Swiss Brethren records and compiled genealogies",
+      "Swiss American Historical Society archives — immigration records and colony documentation"
+    ],
+    "record_survival_notes": "Swiss records on both sides of the Atlantic survive in exceptional condition. Swiss cantonal archives are among the best-preserved in Europe — Bürgerregister in many communes are continuous from the sixteenth century. American colony records survive well because organized colonies kept systematic documentation. The main gap is for colonial-era Swiss who arrived individually rather than in organized groups — these immigrants were typically recorded as 'German' or 'Palatine' and their Swiss origin is recoverable only through surname analysis and Swiss archival research.",
+    "narrative_hooks": [
+      "The records of {ancestor_name}'s Swiss Reformed congregation may contain a detail rare for Protestant churches: a dual-register entry linking the American baptism or marriage back to the family's home parish in Switzerland.",
+      "If the {surname} family were Mennonites in {county}, {state}, their migration certificate (Wanderbrief) — a letter from their Swiss congregation certifying their good standing — may survive at the Lancaster Mennonite Historical Society.",
+      "Because Switzerland maintained commune-level citizenship registers (Bürgerregister) centuries before most European civil registration, the {surname} family's Swiss origins may be traceable to a specific village even when American records say only 'from Switzerland.'"
+    ]
+  },
+
+  "naming_conventions": {
+    "surname_patterns": [
+      {
+        "pattern": "Cantonal place-derived surnames that function as ethnic markers",
+        "examples": ["Zuercher/Zurcher (from Zurich)", "Berner (from Bern)", "Basler (from Basel)", "Thurgauer (from Thurgau)", "Luzerner (from Lucerne)"],
+        "genealogical_implication": "These surnames directly indicate cantonal origin and can be cross-referenced with Swiss commune registers to identify the ancestral village"
+      },
+      {
+        "pattern": "Bernese dialect diminutive endings (-li, -chi, -i) distinguishing Swiss from German surnames",
+        "examples": ["Ruefli", "Hirschi", "Buerki/Bürki", "Aeschlimann", "Amstutz", "Neuenschwander"],
+        "genealogical_implication": "These dialect-specific endings are reliable Swiss markers — a surname ending in -li or -chi is almost certainly Swiss rather than German. The specific form can help identify the home canton."
+      },
+      {
+        "pattern": "French-Swiss (Romand) surnames from western cantons",
+        "examples": ["DuBois", "Bonhomme", "Favre", "Piaget", "Reymond", "Vuilleumier", "Rochat", "Junod"],
+        "genealogical_implication": "French-Swiss surnames are often misattributed to French (Huguenot) origin. Check for Swiss Reformed rather than French Reformed church affiliation, and look for origin in Vaud, Neuchâtel, or Geneva cantons rather than France."
+      },
+      {
+        "pattern": "Topographic Alpine surnames describing landscape features",
+        "examples": ["Bachmann (brook man)", "Brunner (spring/fountain)", "Berger (mountain dweller)", "Thalmann (valley man)", "Waldburger (forest citizen)"],
+        "genealogical_implication": "Common in Swiss German regions but easily confused with generic German equivalents. Context of settlement (Swiss colony area) and church affiliation help distinguish."
+      }
+    ],
+    "given_name_traditions": [
+      {
+        "tradition": "German-Swiss naming followed Reformed Protestant patterns: first child named for paternal grandparent, second for maternal, with biblical names common",
+        "examples": ["Hans/Johann", "Rudolf/Ruedi", "Heinrich", "Kaspar", "Ulrich", "Anna", "Barbara", "Elsbeth", "Verena", "Magdalena"],
+        "era": "1700-1850"
+      },
+      {
+        "tradition": "French-Swiss naming followed Romand patterns with French biblical and saints' names",
+        "examples": ["Jean/Jean-Pierre", "François", "Auguste", "Louis", "Marie", "Jeanne", "Henriette", "Louise"],
+        "era": "1710-1870"
+      },
+      {
+        "tradition": "Colony-era patriotic naming reflecting Swiss national identity",
+        "examples": ["Wilhelm/William (for William Tell)", "Arnold (for Arnold von Winkelried)", "Helvetia (female, rare)"],
+        "era": "1845-1900, especially in organized colonies"
+      }
+    ],
+    "americanization_patterns": [
+      {
+        "original": "Umlaut vowels (ä, ö, ü) in Swiss surnames",
+        "americanized": "Umlaut dropped or replaced: Zürcher → Zurcher/Zercher, Bürki → Burki/Birkey, Müller → Miller/Mueller",
+        "when": "Immediately upon arrival — American clerks could not write umlauts",
+        "how": "Clerks at ports and courthouses simply omitted the umlaut or substituted the nearest English vowel. Some families formally changed at naturalization."
+      },
+      {
+        "original": "Swiss German compound surnames",
+        "americanized": "Neuenschwander → Newschwander/Newswanger; Leuenberger → Lauenberger/Lonberger; Scheidegger → Shedaker/Shedeger",
+        "when": "Gradual across first and second generations (1750-1850 for colonial arrivals; 1860-1920 for later waves)",
+        "how": "Anglicization by phonetic approximation, often in multiple stages — each generation drifting further from the original spelling"
+      },
+      {
+        "original": "French-Swiss given names",
+        "americanized": "Jean-Pierre → John Peter; François → Francis; Auguste → Augustus/August; Marie → Mary",
+        "when": "First generation (upon arrival or at naturalization)",
+        "how": "Direct translation rather than phonetic approximation — French-Swiss names had obvious English equivalents"
+      }
+    ],
+    "common_name_traps": [
+      "Swiss 'Miller' may be anglicized Müller — identical to the most common German surname, making Swiss origin invisible without additional context",
+      "DuBois can be French Huguenot or French-Swiss — only church records and settlement context can distinguish",
+      "Steiner appears both as Swiss and generic German — check settlement area and church denomination",
+      "The surname 'Switzer' or 'Schweizer' sometimes appears as a descriptor ('the Swiss man') rather than a hereditary surname — it may indicate Swiss origin for a family whose actual surname was recorded differently",
+      "Swiss Mennonite surnames (Amstutz, Graber, Neuenschwander) are often confused with Pennsylvania Dutch/German Mennonite — they overlap in the same communities but trace to different European origins"
+    ],
+    "narrative_hooks": [
+      "The {surname} name carries a hidden clue: {americanization_detail}, tracing back to a specific Swiss canton that can be verified through Bürgerregister searches.",
+      "When {ancestor_name}'s surname was recorded as {americanized_form} in American records, the original Swiss form was likely {original_form} — a transformation that happened at the hands of English-speaking clerks who had never encountered Swiss German orthography.",
+      "French-Swiss families like the {surname}s are frequently misidentified as French Huguenots in American genealogy — the key distinction is church affiliation: Swiss Reformed rather than French Reformed, and origin in Vaud or Neuchâtel rather than France."
+    ]
+  },
+
+  "occupational_patterns": {
+    "by_era": [
+      {
+        "era": "1710-1790 (Colonial Period)",
+        "common_occupations": ["Farmer (diversified grain, livestock, orchard)", "Weaver (linen)", "Carpenter/joiner", "Miller", "Blacksmith", "Innkeeper"],
+        "why": "Colonial Swiss arrived primarily as agricultural families and village artisans. Swiss Mennonites in Pennsylvania became renowned farmers whose intensive cultivation methods — crop rotation, manuring, livestock integration — produced visibly higher yields than English neighbors.",
+        "economic_position": "Middling to prosperous yeoman farmers within one generation. Swiss settlers arrived with agricultural expertise that translated directly to American conditions, and their communal settlement patterns provided mutual support during establishment years."
+      },
+      {
+        "era": "1830-1870 (Colony Period)",
+        "common_occupations": ["Dairy farmer/cheesemaker", "Farmer (wheat, corn, livestock)", "Watchmaker/clockmaker", "Baker", "Brewer", "Furniture maker", "Teacher (in colony schools)"],
+        "why": "Organized colonies attracted skilled artisans alongside farmers. Swiss dairy expertise was in high demand — Wisconsin's cheese industry was built largely by Swiss immigrants who brought Alpine cheesemaking techniques to American dairylands.",
+        "economic_position": "Varied by colony success. New Glarus and Highland colonists achieved comfortable independence within a decade. Gruetli TN colonists struggled with poor soil. Urban Swiss watchmakers in Cincinnati and New York occupied a skilled artisan niche above most immigrant groups."
+      },
+      {
+        "era": "1870-1920 (Industrial Transition)",
+        "common_occupations": ["Dairy farmer (increasingly commercial)", "Cheese factory operator/manager", "Furniture manufacturer", "Merchant/shopkeeper", "Banker (in Swiss colony towns)", "Teacher", "Pastor"],
+        "why": "Swiss communities transitioned from subsistence to commercial agriculture, particularly in dairy. Tell City IN became a furniture manufacturing center. Swiss precision-craft traditions adapted to American industrial production.",
+        "economic_position": "Solidly middle class. Swiss immigrants and their children were disproportionately represented among independent landowners and skilled tradespeople. Swiss colony towns developed their own merchant and professional classes remarkably quickly."
+      }
+    ],
+    "occupational_clustering": [
+      "Wisconsin cheese industry — Swiss cheesemakers dominated Green County production and spread expertise throughout the state's dairy region",
+      "Tell City IN furniture industry — Swiss woodworking tradition evolved into industrial furniture manufacturing",
+      "Watchmaking enclaves in Cincinnati OH and New York City — Swiss precision-craft monopoly",
+      "Dairy farming in Green County WI, Sauk County WI, and surrounding areas — Swiss-managed operations produced most of the region's cheese through the 1920s",
+      "Highland IL brick and tile manufacturing — Swiss settlers exploited local clay deposits using techniques from home"
+    ],
+    "economic_mobility_trajectory": "Swiss immigrants followed an unusually rapid upward trajectory compared to most European immigrant groups. They arrived with higher average capital, stronger literacy rates, and transferable agricultural or craft skills. The colony structure provided instant community infrastructure — cooperative cheese factories, mutual aid, colony schools — that eliminated the isolated-immigrant penalty. By the second generation, Swiss-Americans were overwhelmingly independent landowners or skilled professionals. By the third generation, ethnic economic distinctiveness had largely dissolved into the broader American middle class.",
+    "narrative_hooks": [
+      "If {ancestor_name} was listed as a 'cheesemaker' in {county}, {state}, they carried an expertise that was essentially a Swiss monopoly in nineteenth-century America — the technical knowledge to produce hard cheese (Emmentaler, Gruyère) that no other immigrant group possessed.",
+      "The {surname} family's occupation as {occupation} in {year} placed them in the economic middle of their Swiss colony community — neither wealthy nor poor, but firmly in the independent artisan or farmer class that defined Swiss-American life.",
+      "Swiss precision — in watchmaking, woodworking, or dairy management — was not a stereotype but a documented competitive advantage that placed {ancestor_name}'s community above many neighboring immigrant settlements in economic stability."
+    ]
+  },
+
+  "cultural_markers": {
+    "foodways": [
+      "Cheese production and consumption — Swiss settlers introduced hard cheese varieties (Emmentaler, Gruyère, Sbrinz) to regions that knew only soft cheeses",
+      "Rösti (fried grated potato cake) — a Bernese staple that persisted in Swiss-American communities",
+      "Zopf (braided Sunday bread) — a Swiss baking tradition maintained in colony households",
+      "Fondue and raclette in community gatherings — communal cheese-eating traditions that reinforced social bonds",
+      "Dried beef (Bündnerfleisch) and smoked sausages — Alpine preservation techniques adapted to American ingredients",
+      "Swiss-style fruit brandies (Kirsch, Pflümli) — home distilling common in Swiss settlements"
+    ],
+    "holidays_and_traditions": [
+      "Swiss National Day (August 1) — celebrated in colonies with bonfires, patriotic speeches referencing the Rütli Oath, and communal feasting",
+      "Kilbi/Chilbi (harvest festival) — Swiss autumn harvest celebrations with music, dancing, and community gathering",
+      "Fasnacht (carnival) — pre-Lenten festival traditions varied by canton of origin; Basel Fasnacht traditions appeared in some Swiss-American communities",
+      "Schwingfest (Swiss wrestling festival) — organized in larger Swiss colonies as community athletic events",
+      "Yodeling and Alphorn gatherings — maintained especially in New Glarus and other Wisconsin Swiss communities well into the twentieth century"
+    ],
+    "social_organizations": [
+      "Grütli-Verein (Grütli Society) — Swiss patriotic and mutual aid societies found in most Swiss colonies, named for the legendary meadow of the Swiss founding oath",
+      "Swiss Singing Societies (Gesangvereine) — choral groups performing Swiss folk music and patriotic songs",
+      "Swiss Shooting Societies (Schützenvereine) — marksmanship clubs reflecting Switzerland's citizen-militia tradition",
+      "Turnverein — Swiss gymnastic societies (shared with German immigrants but maintained Swiss chapters)",
+      "Swiss Benevolent Societies — urban mutual aid organizations in New York, Cincinnati, and other cities with Swiss populations",
+      "Swiss Reformed church councils — functioned as de facto community governance in many colonies"
+    ],
+    "material_culture": [
+      "Swiss-German bank barns in Pennsylvania — barn construction technique shared with Palatine Germans but with distinctly Swiss variants",
+      "Chalet-style architecture in colony towns — New Glarus WI and Tell City IN featured Swiss-inspired building styles",
+      "Swiss embroidery and lacework (Appenzell tradition) — women's needlework tradition maintained for generations",
+      "Cowbells and Alpine pastoral artifacts displayed as cultural symbols",
+      "Precision woodworking — carved furniture, clock cases, and decorative items reflecting Swiss craft traditions"
+    ],
+    "music_and_arts": [
+      "Yodeling (Jodel) — the most recognizable Swiss cultural expression, maintained in Swiss-American communities as performance tradition",
+      "Alphorn playing — revived as heritage practice in Swiss festival contexts",
+      "Swiss folk dance (Ländler) — couple dance tradition that influenced early American country dance",
+      "Choral singing — four-part harmony tradition central to Swiss Reformed worship and community gatherings",
+      "Scherenschnitte (paper cutting) — Swiss decorative art tradition that paralleled Pennsylvania Dutch Fraktur"
+    ],
+    "language_markers": [
+      "Swiss German diminutive -li suffix (Chäsli for small cheese, Hüsli for small house) — distinguishable from standard German -chen/-lein",
+      "French-Swiss terms in Romand communities: 'Monsieur le Syndic' (mayor), 'commune' (township)",
+      "Canton-specific greeting forms: 'Grüezi' (Zurich), 'Grüessech' (Bern) — instead of standard German 'Guten Tag'",
+      "Swiss terms for American institutions: 'Gemeinde' (community/township), 'Landsgemeinde' (town meeting — reflecting Swiss direct democracy tradition)"
+    ],
+    "narrative_hooks": [
+      "The cultural world {ancestor_name} inhabited in {county} was recognizably Swiss — from the yodeling at harvest festivals to the cheese wheels aging in colony cellars, these were not generic immigrants but people rebuilding a specific cantonal world on American soil.",
+      "If {ancestor_name} attended the local Grütli-Verein meetings, they participated in a tradition stretching back to Switzerland's legendary founding — a community gathering that reinforced Swiss identity even as daily life became increasingly American.",
+      "The {surname} family's Swiss Reformed congregation was more than a church — it was the social, cultural, and institutional center of their colony world, governing everything from school instruction to moral discipline."
+    ]
+  },
+
+  "intermarriage_patterns": {
+    "endogamy_period": "Approximately two to three generations in organized colonies (roughly 1845-1920 for the colony-era wave), shorter for colonial-era Swiss who blended into the Pennsylvania Dutch community within one to two generations",
+    "endogamy_factors": [
+      "Colony structure created insular social worlds where Swiss young people met primarily other Swiss",
+      "Swiss Reformed or Mennonite church discipline discouraged marriage outside the congregation",
+      "Language barrier — Swiss German dialect speakers had limited social interaction with English-speaking neighbors in the first generation",
+      "Cantonal identity — some colonies maintained preferences for marriage within the same cantonal group (Glarners marrying Glarners in New Glarus)",
+      "Swiss parents' preference for matches with families of known reputation from the same canton of origin"
+    ],
+    "common_intermarriage_groups": [
+      "Germans — the most common intermarriage partners given linguistic and cultural similarity; Swiss-German boundary often invisible by second generation",
+      "Pennsylvania Dutch — colonial-era Swiss Mennonites and Reformed intermarried extensively with Palatine German neighbors",
+      "Scandinavians — in Wisconsin and Minnesota, second-generation Swiss sometimes married Norwegian or Swedish neighbors",
+      "Anglo-Americans — professional and merchant-class Swiss intermarried with native-born Americans earlier than farming families"
+    ],
+    "transition_timeline": "For colonial Swiss (1710-1790), intermarriage with Germans was common within the first generation, as Swiss and Palatine German communities were geographically intermingled and linguistically similar. For organized colonies (1845-1900), endogamy typically lasted two generations — the founding generation and their children married within the colony, but grandchildren increasingly married non-Swiss neighbors as English-language education and economic integration eroded social boundaries. French-Swiss intermarried earlier than German-Swiss, as their smaller numbers made endogamy impractical.",
+    "genealogical_implications": "Swiss endogamy in colony communities means that families within a colony are extensively interrelated — a researcher tracing one Swiss family in New Glarus or Tell City will inevitably encounter the same dozen surnames repeatedly. This interconnection is a research advantage: tracing one family illuminates others. The flip side is that when endogamy breaks down, Swiss identity disappears quickly from records — a Swiss grandmother married to a German or Anglo-American husband vanishes into the majority culture within one generation.",
+    "narrative_hooks": [
+      "When {ancestor_name} married in {year}, the choice of spouse likely reflected the social boundaries of their Swiss colony — in these tight-knit communities, marriages were negotiated within a network of families who had known each other since the founding generation.",
+      "If the {surname} family intermarried with German neighbors, the Swiss-German boundary was already dissolving — a process that makes {ancestor_name}'s distinct Swiss identity invisible in most American records unless colony or church records preserve it.",
+      "The marriage of {ancestor_name} to someone outside the Swiss community marked a generational turning point — the moment when cantonal loyalty yielded to the broader American identity that their grandchildren would take for granted."
+    ]
+  },
+
+  "genealogical_pitfalls": {
+    "common_traps": [
+      {
+        "trap": "Swiss lumped with 'German' in virtually all American records — census, naturalization, passenger lists, and church records rarely distinguish Swiss from German",
+        "why_it_happens": "German-speaking Swiss were linguistically indistinguishable from south German immigrants to English-speaking clerks. Census enumerators recorded country of birth as 'Germany' or 'Switzerland' inconsistently, and many Swiss who traveled through German ports were recorded with German origin.",
+        "how_to_avoid": "Look for Swiss colony settlement areas, Swiss Reformed (vs. German Reformed) church records, and distinctive Swiss surname patterns (-li, -chi endings, cantonal place-names). Cross-reference with Swiss cantonal Bürgerregister using the surname and approximate emigration date."
+      },
+      {
+        "trap": "Confusing cantonal identity — treating 'Swiss' as a monolithic group when cultural, linguistic, religious, and record patterns differ dramatically between cantons",
+        "why_it_happens": "Americans then and now think of Switzerland as a single entity, but a Bernese Mennonite farmer and a Genevan French-speaking watchmaker had almost nothing in common except a federal passport.",
+        "how_to_avoid": "Identify the specific canton of origin through surname analysis, church affiliation, and colony records. Research the canton-specific emigration records rather than searching generically for 'Swiss.'"
+      },
+      {
+        "trap": "Swiss Mennonites confused with Pennsylvania Dutch / German Mennonites",
+        "why_it_happens": "Both groups were Anabaptist, German-speaking, and settled in the same Pennsylvania communities. By 1800, Swiss Mennonite and German Mennonite congregations had often merged, and surnames intermingled through intermarriage.",
+        "how_to_avoid": "Swiss Mennonite surnames (Amstutz, Baumgartner, Graber, Neuenschwander, Zuercher) are distinguishable from Palatine Mennonite surnames (Brenneman, Eby, Hershey, Martin). Consult the Lancaster Mennonite Historical Society's Swiss Anabaptist files for pre-immigration records."
+      },
+      {
+        "trap": "French-Swiss misidentified as French Huguenots",
+        "why_it_happens": "French-speaking Swiss immigrants had French surnames and attended Reformed churches — exactly matching the profile of Huguenot refugees. In colonial Carolina and Virginia, French-Swiss and Huguenots sometimes settled in the same communities.",
+        "how_to_avoid": "Check whether the family's Reformed church was Swiss Reformed (Zwinglian) or French Reformed (Calvinist). Look for origin in Vaud, Neuchâtel, or Geneva rather than France. Swiss cantonal archives can confirm or deny Swiss origin for any surname."
+      },
+      {
+        "trap": "Assuming all Swiss immigrants came through established colonies",
+        "why_it_happens": "The prominence of organized colonies (New Glarus, Tell City, Highland) in Swiss-American history obscures the many individual and family-unit Swiss immigrants who settled independently and blended into the broader population.",
+        "how_to_avoid": "Search Swiss emigration permit records (Auswanderungsbewilligungen) in cantonal archives — these were required of Swiss citizens leaving permanently and recorded destination, family members, and commune of origin, regardless of whether the emigrant joined a colony."
+      }
+    ],
+    "record_gaps": [
+      {
+        "gap": "Colonial-era Swiss immigrants (1710-1750) rarely identified as Swiss in American records",
+        "period": "1710-1750",
+        "workaround": "Use Philadelphia ship lists (1727-1808 oath of allegiance records) cross-referenced with known Swiss surnames. The Krefeld/Germantown arrival records and New Bern colony lists are specific sources for early Swiss identification."
+      },
+      {
+        "gap": "Destroyed New Bern colony records from the Tuscarora War (1711-1715)",
+        "period": "1710-1715",
+        "workaround": "Graffenried's own accounts and Bernese cantonal emigration records partially reconstruct the original colony roster. Some survivors appear in later Craven County NC records."
+      },
+      {
+        "gap": "Swiss who emigrated through Le Havre recorded with French departure rather than Swiss origin",
+        "period": "1830-1890",
+        "workaround": "Cross-reference Le Havre passenger lists with Swiss cantonal emigration permits (many cantons required permits through the 1880s). The Swiss Federal Archives have compiled emigration indexes."
+      }
+    ],
+    "name_change_patterns": [
+      "Umlaut stripping: Zürcher → Zurcher → Zercher (progressive vowel shift across generations)",
+      "Compound surname simplification: Neuenschwander → Newschwander → Newswanger; Schwarzentrauber → Swartzentruber → Troyer",
+      "Translation surnames: Zimmermann → Carpenter; Schneider → Snyder/Taylor; Müller → Miller; Bauer → Bower/Farmer",
+      "Phonetic drift in French-Swiss names: Vuilleumier → Willomyer → Willimer; Favre → Faber → Faver"
+    ],
+    "research_tips": [
+      "Always search Swiss cantonal archives (Staatsarchiv) — Swiss record survival is among the best in Europe, and Bürgerregister can trace a family to a specific commune",
+      "The Swiss Emigration Database (maintained by the Swiss Federal Archives) indexes emigration permits from multiple cantons — search by surname and approximate date",
+      "For Swiss Mennonites, start with the Lancaster Mennonite Historical Society and the Global Anabaptist Mennonite Encyclopedia Online (GAMEO)",
+      "Colony records (founding documents, land allocation lists, society minutes) often survive at local historical societies in colony towns and are the fastest route to identifying cantonal origin",
+      "Swiss consular records in American cities (New York, Cincinnati, St. Louis, San Francisco) documented Swiss citizens abroad and may contain information not available from either American or Swiss government sources",
+      "The Historisches Lexikon der Schweiz (Historical Dictionary of Switzerland) online provides cantonal and commune histories that contextualize individual family migration"
+    ]
+  },
+
+  "nel_cross_references": {
+    "trigger_refs": [
+      "german_immigration",
+      "homestead_act",
+      "economic_panics_19c",
+      "stayed_and_adapted",
+      "civil_war_service",
+      "scots_irish_frontier"
+    ],
+    "community_texture_refs": [
+      "pa_dutch_lehigh_valley",
+      "german_midwest_1848_1900",
+      "shenandoah_valley_farm_community",
+      "great_plains_homesteader",
+      "minnesota_scandinavian_community"
+    ],
+    "material_life_refs": [
+      "frontier_log_cabin_1780_1840",
+      "antebellum_yeoman_farm_1820_1860",
+      "homestead_sodhouse_1862_1900",
+      "small_town_merchant_1830_1920"
+    ],
+    "life_pattern_refs": [
+      "yeoman_farming_stability",
+      "immigrant_parish_lifecycle",
+      "scandinavian_homestead_arc",
+      "new_england_farm_decline"
+    ],
+    "regional_landscape_refs": [
+      "pa_southeast_gateway",
+      "ne_nc_tidewater_albemarle",
+      "va_shenandoah_valley",
+      "oh_miami_valley",
+      "wi_southern_driftless",
+      "il_central_sangamon",
+      "in_central_white_river",
+      "mn_settlement_frontier"
+    ],
+    "other_heritage_refs": [
+      "german_colonial",
+      "german_48er",
+      "german_gilded_age",
+      "french_huguenot",
+      "quaker"
+    ]
+  },
+
+  "source_references": [
+    "Leo Schelbert, Swiss Migration to America: The Swiss Mennonites (New York: Arno Press, 1980). Chicago: reprint edition. Comprehensive study of Swiss Mennonite emigration from Canton Bern and their settlement in colonial Pennsylvania.",
+    "John Paul von Grueningen, ed., The Swiss in the United States (Madison, WI: Swiss-American Historical Society, 1940). Foundational multi-author study covering Swiss colony settlements across the Midwest with cantonal emigration data.",
+    "Leo Schelbert, 'Swiss,' in Stephan Thernstrom, ed., Harvard Encyclopedia of American Ethnic Groups (Cambridge, MA: Harvard University Press, 1980), 981-987. Authoritative overview of Swiss immigration patterns, settlement, and assimilation.",
+    "Delbert L. Gratz, Bernese Anabaptists and Their American Descendants (Scottdale, PA: Herald Press, 1953). Detailed genealogical study tracing Swiss Brethren families from Emmental to Pennsylvania and the Midwest.",
+    "Robert G. Bone, 'The Swiss Colony of New Glarus, 1845-1900,' (PhD diss., University of Wisconsin, 1939). Primary archival study of the Glarner colony using founding documents, correspondence with Canton Glarus, and colony records.",
+    "Todd D. Guenther, 'New Bern, North Carolina: A Swiss-Palatine Colony, 1710-1720,' in Swiss American Historical Society Review 46, no. 3 (2010): 5-28. Reconstruction of Graffenried's colony roster using Bernese cantonal records and colonial North Carolina sources.",
+    "Albert B. Faust, The German Element in the United States, 2 vols. (New York: Houghton Mifflin, 1909). Chapter on Swiss settlers distinguishing them from German immigration — early scholarly recognition of Swiss distinctiveness within the broader German-speaking migration."
+  ]
+}

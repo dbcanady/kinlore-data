@@ -1,0 +1,353 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Ethnic heritage profile for pre-famine Irish immigrants (1700-1844) — BOTH Catholic and Protestant Irish distinct from Scots-Irish, covering the diverse and often overlooked waves of Irish migration before An Gorta Mór",
+
+  "profile_id": "irish_prefamine",
+  "display_name": "Irish Pre-Famine Immigration (1700-1844)",
+  "group_category": "irish",
+  "alternate_terms": ["Pre-Famine Irish", "Early Irish immigrants", "Colonial Irish", "Catholic Irish (pre-1845)", "Protestant Irish (non-Scots-Irish)", "1798 exiles", "United Irishmen emigrants", "Irish canal workers"],
+  "identification_clues": {
+    "surname_patterns": [
+      "O' prefix (O'Brien, O'Connor, O'Donnell) — patronymic Ó, increasingly dropped in this era",
+      "Mc/Mac prefix in Catholic context (McCarthy, McGuire, McManus) — distinguishable from Scots-Irish only by denomination and settlement",
+      "Anglicized Irish surnames: Murphy, Kelly, Walsh, Ryan, Brennan, Daly, Burke, Fitzgerald, Quinn, Nolan, Connolly",
+      "Norman-Irish surnames: Fitzgerald, Burke, Power, Roche, Barry — families Gaelicized by 18th century but retaining Norman surnames",
+      "Leinster concentration: Byrne, Kavanagh, Doyle, Cullen (Wicklow/Wexford), Lawlor, Dunne (Laois/Offaly)"
+    ],
+    "denomination_signals": [
+      "Roman Catholic (majority)", "Church of Ireland / Anglican (Protestant Irish — NOT Scots-Irish)",
+      "Quaker (small but significant — Ulster and Leinster Protestants)", "Presbyterian in Leinster or Munster context (unusual — may be non-Scots-Irish)"
+    ],
+    "settlement_signals": [
+      "Philadelphia (Moyamensing, Southwark — predating famine by decades)",
+      "Baltimore (Fells Point — major entry for indentured servants)",
+      "New York City (waterfront wards, early Five Points)", "New Orleans (via Caribbean and direct routes)",
+      "Canal corridors: Erie, C&O, Pennsylvania Main Line", "Road camps: National Road, turnpike projects"
+    ],
+    "record_signals": [
+      "Pre-1820 passenger lists (sparse — Customs records required only after 1819)",
+      "Indentured servant contracts (Philadelphia, Baltimore — 1700-1780)",
+      "Catholic parish registers in Philadelphia, Baltimore, New York",
+      "Quaker meeting records mentioning Irish-born members",
+      "Canal company employment rolls", "Naturalization records listing 'Ireland' before 1845"
+    ],
+    "occupation_signals": [
+      "Canal laborer / navvy (overwhelmingly Irish by 1820s-1830s)", "Road construction laborer (turnpike, National Road)",
+      "Indentured servant (colonial era)", "Weaver / linen worker (Ulster, both denominations)",
+      "Domestic servant (women, 1790s+)", "Tavern keeper / grocer (small commercial class)"
+    ]
+  },
+
+  "immigration_overview": {
+    "primary_period": "1700-1844",
+    "peak_decades": ["1810s", "1820s", "1830s"],
+    "waves": [
+      {
+        "wave_name": "Colonial Irish Migration — Indentured and Voluntary", "period": "1700-1775",
+        "origin_regions": ["Munster (Cork, Kerry, Waterford, Limerick)", "Leinster (Wexford, Kilkenny, Dublin)", "Ulster (Catholic and Protestant — overlapping with Scots-Irish but distinct)"],
+        "push_factors": ["Penal Laws (1695-1829): Catholics barred from land ownership, education, professions — permanent underclass", "Rack-renting and forced consolidation of Catholic smallholdings", "Economic exclusion: Catholic artisans restricted by guild bans and trade limitations", "Transportation of political prisoners and petty criminals (involuntary)"],
+        "pull_factors": ["Indentured servitude offered passage for 4-7 years labor — only affordable route for most", "Catholic Maryland as religious refuge from the 1630s", "Philadelphia and Baltimore merchant networks recruiting workers", "Military service in colonial forces, some remaining after discharge"],
+        "estimated_numbers": "~50,000-100,000 Catholic and Protestant Irish (distinct from ~250,000 Scots-Irish), per Wokeck and Doyle",
+        "primary_ports_of_entry": ["Philadelphia", "Baltimore", "Charleston", "Savannah", "New York"],
+        "typical_journey": "Passage on returning cargo ships, 6-10 weeks. Many arrived as indentured servants, passage sold at dockside. Conditions harsh but mortality lower than later coffin ships. Some came via the Caribbean, transported to Barbados or Jamaica first."
+      },
+      {
+        "wave_name": "1798 Rebellion Exiles and Post-Rebellion Flight", "period": "1795-1810",
+        "origin_regions": ["Dublin (United Irishmen leadership)", "Wexford (1798 rising epicenter)", "Ulster (Catholic-Presbyterian radical alliance)", "Cork and Waterford (port connections)"],
+        "push_factors": ["Failed 1798 Rebellion: British suppression, executions, transportation to Australia", "Informer networks making residence dangerous for known republicans", "1801 Act of Union dissolved Irish Parliament", "Targeted repression of educated Catholics: professionals, teachers, journalists"],
+        "pull_factors": ["American sympathy for Irish republicanism", "Philadelphia and New York exile politics (Shamrock Society, Hibernian Society)", "Demand for educated, English-speaking immigrants", "Exile leaders (Emmet, MacNeven) creating reception networks in New York"],
+        "estimated_numbers": "~5,000-10,000 political refugees and families (Durey and Wilson estimates)",
+        "primary_ports_of_entry": ["New York", "Philadelphia", "Baltimore"],
+        "typical_journey": "Often arranged hurriedly under assumed names or forged papers. Some routed through France via United Irishmen alliance connections. Passage 4-6 weeks. Unlike earlier waves, disproportionately educated, politically articulate, and urban."
+      },
+      {
+        "wave_name": "Pre-Famine Mass Migration — Canal Era", "period": "1815-1844",
+        "origin_regions": ["Munster (Cork, Kerry, Tipperary, Limerick — largest source)", "Connacht (Galway, Mayo, Roscommon — increasingly from the west)", "Leinster (Kilkenny, Wexford, Carlow)", "Ulster (Donegal, Cavan, Monaghan — Catholic districts)"],
+        "push_factors": ["Post-Napoleonic agricultural collapse: grain prices halved after 1815", "Population doubled ~4M (1780) to ~8M (1841), fragmenting landholdings to unsustainable sizes", "Periodic crop failures (1817, 1822, 1831, 1839) foreshadowing the Great Famine", "Catholic Emancipation (1829) paradoxically accelerated emigration: rights without economic opportunity", "Landlord evictions shifting from tillage to pasture, requiring fewer tenants"],
+        "pull_factors": ["Canal construction demand: Erie (1817-1825), C&O (1828-1850), PA Main Line (1826-1834) — built substantially by Irish labor", "Cheap timber ship passage from Liverpool/Cork/Waterford — as low as 30-50 shillings by the 1830s", "Chain migration: 'American letters' and remittances funding relatives' passage", "Urban labor demand for construction, domestic service, dock work", "Seasonal migration tradition: many came intending to return, some becoming permanent"],
+        "estimated_numbers": "~800,000-1,000,000 to the US, 1815-1844 (Miller and Ó Gráda). Plus ~200,000 to British North America, many crossing into the US.",
+        "primary_ports_of_entry": ["New York", "Philadelphia", "Baltimore", "Boston", "New Orleans", "Quebec (overland to US)"],
+        "typical_journey": "Returning timber ships: 4-6 weeks, rough conditions but lower mortality than famine-era crossings. Liverpool emerged as the major transshipment port — Irish crossed the Irish Sea cheaply, then booked Atlantic passage. Many traveled in family or townland groups."
+      }
+    ],
+    "narrative_hooks": [
+      "When {ancestor_name} left Ireland in {year}, the Great Famine was still years away — but too many people, too little land, and a colonial system offering no path forward were already driving families out.",
+      "If {ancestor_name} arrived before 1845, they were part of an earlier migration invisible in popular memory — overshadowed by the catastrophe that followed.",
+      "The canal that {ancestor_name} likely helped build — dug by hand, in water, for a dollar a day and a ration of whiskey — was the infrastructure that made America's westward expansion possible."
+    ]
+  },
+
+  "settlement_patterns": {
+    "primary_destinations": [
+      {
+        "region": "Philadelphia (Moyamensing, Southwark, Kensington, Northern Liberties)", "period": "1700-1844",
+        "why": "Primary colonial port of entry. Catholic community from the 1730s. St. Mary's (1763) and St. Augustine's (1796) anchored Irish neighborhoods decades before the famine.",
+        "community_character": "Mixed Catholic and Protestant Irish. Small merchant/artisan class alongside laborers. Nativist violence predated the 1840s — 1834 and 1844 anti-Catholic riots targeted established communities."
+      },
+      {
+        "region": "Baltimore (Fells Point, Federal Hill, Locust Point)", "period": "1700-1844",
+        "why": "Major entry port for Irish indentured servants. First US archdiocese (1789) anchored Catholic institutional presence.",
+        "community_character": "Irish community intertwined with port economy: stevedores, shipbuilders, merchant sailors. Maryland's Catholic founding tradition gave Baltimore better Catholic infrastructure than any other American city."
+      },
+      {
+        "region": "New York City (Lower Manhattan waterfront, early Five Points)", "period": "1790-1844",
+        "why": "Primary entry port after 1800. St. Peter's Church (1785) and Shamrock Society (1816) anchored growing community.",
+        "community_character": "Fastest-growing Irish community by the 1830s. Pre-famine community included a small middle-class element: shopkeepers, publicans, teachers, political activists."
+      },
+      {
+        "region": "New Orleans (Faubourg Ste. Marie, later Irish Channel)", "period": "1800-1844",
+        "why": "Cotton trade ships from Liverpool offered cheap passage. Demand for levee/dock labor too dangerous for enslaved workers whose loss represented capital investment.",
+        "community_character": "Triracial social structure, French-speaking Catholic hierarchy. Yellow fever devastating. Pre-famine Irish laid groundwork for the massive Irish Channel of the 1850s."
+      },
+      {
+        "region": "Canal construction corridors (Erie, C&O, PA Main Line, Morris Canal)", "period": "1817-1844",
+        "why": "Canal companies recruited Irish labor aggressively, contracting with emigrant agents. Brutal and seasonal, but available.",
+        "community_character": "Rough, male-dominated canal camps — company towns without the town. Many settled permanently in towns along finished canals: Syracuse, Utica, Rochester, Lockport."
+      }
+    ],
+    "chain_migration_networks": [
+      "'American letter' remittance system: canal worker sends money to brother in Tipperary, who books passage to the same work camp",
+      "Townland/parish networks: same Irish parish clustered in same American neighborhoods and canal work gangs",
+      "Seasonal migration tradition (spailpín pattern): many came intending to return — some did, many stayed",
+      "Merchant/middleman networks: Irish shopkeepers as informal employment agents steering arrivals to work and housing"
+    ],
+    "clustering_factors": [
+      "Catholic parish as anchor (St. Mary's Philadelphia, St. Patrick's Baltimore, St. Peter's New York)",
+      "Ethnic work-gang recruitment for canal/road projects", "Irish speakers clustered together",
+      "Defensive clustering against nativist hostility (1830s-1840s anti-Catholic violence)"
+    ],
+    "secondary_migration": [
+      "Canal corridor settlement: workers stayed in towns along finished canals (Syracuse, Rochester, upstate NY, western PA)",
+      "Industrial cities: Pittsburgh, Cincinnati, St. Louis drew pre-famine Irish from canal/road work",
+      "Small numbers to agricultural frontiers via Catholic colonization (Kentucky, Missouri, Iowa)",
+      "1798 exiles dispersed into professional networks in New York, Philadelphia, Baltimore"
+    ],
+    "urban_vs_rural": "Predominantly urban but less monolithically so than the famine generation. Some had capital for agricultural frontiers (Kentucky, Missouri). Canal workers sometimes purchased farmland along completed waterways. But port cities offered community, Catholic infrastructure, and employment without capital.",
+    "narrative_hooks": [
+      "Before famine made Irish immigration synonymous with desperation, {ancestor_name} was part of an earlier, quieter migration — people who left not in panic but in calculation.",
+      "If {ancestor_name} settled along the Erie Canal corridor, they likely came as a canal laborer who stayed after the work ended — one of thousands who dug the ditch and built a life beside it."
+    ]
+  },
+
+  "church_and_records": {
+    "primary_denominations": [
+      {
+        "denomination": "Roman Catholic",
+        "record_types_kept": ["Baptismal registers (child, parents, godparents — sometimes birthplace)", "Marriage registers (couple, witnesses — sometimes parents/parish of origin)", "Burial registers (name, age, sometimes cause/birthplace)", "Pew rental records", "Parish census/status animarum (rare but invaluable)"],
+        "record_language": "Latin formulas with English names. Some French in New Orleans. Occasional Irish-language annotations.",
+        "typical_record_detail": "Variable by parish. Best registers (St. Mary's Philadelphia from 1763, St. Peter's New York from 1785) record parents, godparents, birthplace. Many early registers sparse: name and date only. Godparent selections reveal kinship networks.",
+        "genealogical_value": "HIGH but UNEVEN. Often the only documentation of Irish Catholic immigrants. Many early parishes had irregular record-keeping."
+      },
+      {
+        "denomination": "Church of Ireland (Anglican/Episcopalian in US)",
+        "record_types_kept": ["Baptismal registers", "Marriage registers", "Vestry minutes", "Burial records"],
+        "record_language": "English throughout",
+        "typical_record_detail": "Protestant Irish joined Episcopal churches. Records standardized: baptism with parents, marriage with witnesses. Smaller population than Catholic Irish.",
+        "genealogical_value": "MEDIUM — useful for Protestant Irish who were not Presbyterian. Often overlooked by researchers."
+      },
+      {
+        "denomination": "Society of Friends (Quaker)",
+        "record_types_kept": ["Monthly meeting minutes", "Birth/marriage registers", "Certificates of removal", "Memorial testimonies"],
+        "record_language": "English",
+        "typical_record_detail": "Exceptionally detailed. Names parents, birthplace, both families. Certificates of removal trace moves with precision. Irish Quakers in Ulster (Lisburn, Lurgan) and Leinster (Dublin, Mountmellick, Carlow).",
+        "genealogical_value": "VERY HIGH for the small population. Migration paper trail unmatched. Collections at Friends Historical Library (Dublin) and Swarthmore College."
+      }
+    ],
+    "civil_record_interaction": "Irish civil registration began 1864 (non-Catholic marriages 1845). For pre-famine emigrants, NO Irish civil records exist. 1821-1851 censuses destroyed in 1922 Four Courts fire. US census begins 1790 but names only heads of household until 1850. Tax lists, court records, naturalization proceedings fill gaps.",
+    "language_transition_timeline": [
+      { "period": "1700-1780", "language": "Irish (Gaelic) primary for many Catholic immigrants; English in records", "context": "Many monolingual or limited English. Invisible in records (always English/Latin). Language barrier drove enclave concentration." },
+      { "period": "1780-1830", "language": "Bilingual transition — Irish at home, English in public", "context": "Hedge schools and economic necessity drove English acquisition. Irish survived in prayer, song, family — no institutional support in America." },
+      { "period": "1830-1844", "language": "English dominant, Irish declining among western/rural immigrants", "context": "National Schools (1831) accelerated English in Ireland. Irish survived mainly among poorest and most rural immigrants." }
+    ],
+    "key_repositories": [
+      "Archdiocese of Philadelphia Archives — sacramental records from 1763",
+      "Archdiocese of Baltimore Archives — first US archdiocese (1789), early Irish parish registers",
+      "National Library of Ireland — Catholic parish registers free online at registers.nli.ie",
+      "PRONI, Belfast — Quaker, Church of Ireland, estate papers",
+      "NARA — Customs passenger lists (M237, M261), naturalization records",
+      "Historical Society of Pennsylvania — indenture records, Quaker minutes",
+      "FamilySearch.org — digitized parish records from Ireland and US dioceses"
+    ],
+    "record_survival_notes": "A patchwork. Ireland: no civil records before 1864; censuses destroyed; parish registers sporadic. America: parish records survive where parishes endured; pre-1820 passenger lists fragmentary (1819 Steerage Act first required manifests). Indentured servant records at PA and MD archives, incomplete. Richest sources often indirect: court records, tax lists, canal company papers.",
+    "narrative_hooks": [
+      "If {ancestor_name} arrived before 1820, finding their passenger record is unlikely — systematic manifests were not required until 1819.",
+      "The baptismal register at {parish_name} may hold {ancestor_name}'s earliest American record — a priest's notation connecting family to godparents and sometimes an Irish parish of origin."
+    ]
+  },
+
+  "naming_conventions": {
+    "surname_patterns": [
+      { "pattern": "Ó prefix → O' — transitional dropping/retention", "examples": ["Ó Briain → O'Brien / Brien / Bryan", "Ó Conchobhair → O'Connor / Connor"], "genealogical_implication": "O' actively dropping in this era. Same family as O'Brien and Brien in different documents. Search with AND without prefix." },
+      { "pattern": "Mac/Mc prefix — shared with Scots-Irish, context-dependent", "examples": ["Mac Cárthaigh → McCarthy", "Mac Uidhir → McGuire / Maguire"], "genealogical_implication": "McCarthy in Catholic records = likely Irish Catholic. McCullough in Presbyterian records = likely Scots-Irish. Without denomination, ambiguous." },
+      { "pattern": "Norman-Irish surnames — Anglo-Norman settlers fully Gaelicized by 1700", "examples": ["Fitzgerald (Mac Gearailt)", "Burke (de Búrca)", "Power (de Paor)", "Roche (de Róiste)"], "genealogical_implication": "Appear English but culturally Irish by 18th century. A Fitzgerald in Catholic records is Irish, not English." },
+      { "pattern": "Fully anglicized Irish surnames — indistinguishable from English", "examples": ["Ó Murchú → Murphy", "Ó Ceallaigh → Kelly", "Breathnach → Walsh"], "genealogical_implication": "Catholic parish registration or 'Ireland' in naturalization may be only distinguishing evidence." }
+    ],
+    "given_name_traditions": [
+      { "tradition": "Gaelic→English name transition (most active phase)", "examples": ["Diarmuid → Jeremiah", "Tadhg → Timothy", "Séamus → James", "Siobhán → Johanna", "Gobnat → Deborah (Munster)"], "era": "1700-1844 — accelerated by hedge schools and English institutions" },
+      { "tradition": "Parish-saint naming — children named for local patron saint", "examples": ["Finbarr (Cork)", "Brigid (Kildare)", "Colman (Cloyne)", "Attracta (Sligo)"], "era": "1700-1830 — saint names may indicate county of origin" },
+      { "tradition": "Grandparent/godparent naming pattern", "examples": ["First son for paternal grandfather, second for maternal; first daughter for maternal grandmother"], "era": "1700-1844 — usable for reconstructing family networks" }
+    ],
+    "americanization_patterns": [
+      { "original": "Irish-language given names (Tadhg, Diarmuid, Gobnat)", "americanized": "English equivalents (Timothy, Jeremiah, Deborah)", "when": "Often before emigration, during Ireland's shift to English (1780s-1830s)", "how": "Hedge school masters and priests assigned equivalents. Cultural, not bureaucratic — Tadhg became Timothy on arrival." },
+      { "original": "Ó/Mac surname prefixes", "americanized": "Retained, dropped, or fluctuating within one lifetime", "when": "1700-1844, most actively late 18th-early 19th century", "how": "Same man as O'Connor, Connor, and Conner in different records. Influenced by assimilation pressure, literacy, clerk preferences." },
+      { "original": "Phonetically opaque Irish surnames", "americanized": "Clerk approximations: Ó Suilleabháin → Sullivan, Mac Giolla Phádraig → Fitzpatrick", "when": "At first contact with English-speaking record keepers", "how": "Illiterate emigrants could not correct spelling. Same surname in wildly different forms across documents." }
+    ],
+    "common_name_traps": [
+      "'Irish' in records may mean Catholic Irish, Protestant Irish, or Scots-Irish — denomination is the only reliable discriminator",
+      "Same man may appear with/without O' or Mc prefix in consecutive records",
+      "Saint names (Finbarr, Colman) suggest county of origin but absence proves nothing",
+      "Women's names extremely repetitive (Mary, Bridget, Catherine, Margaret) — married surnames essential",
+      "Norman-Irish surnames (Fitzgerald, Burke, Power) routinely miscategorized as English origin"
+    ],
+    "narrative_hooks": [
+      "The name {surname} tells a layered story — it passed through Gaelic, through anglicization, through the pen of an American clerk, each stage altering it. The form in {ancestor_name}'s records may be three translations removed from its original sound.",
+      "If {ancestor_name} bore an Irish saint's name — {given_name} — it may point to a specific parish or county in Ireland, a clue embedded in the christening itself."
+    ]
+  },
+
+  "occupational_patterns": {
+    "by_era": [
+      {
+        "era": "1700-1780 (Colonial Era)",
+        "common_occupations": ["Indentured servant", "Farm laborer", "Weaver (linen)", "Domestic servant", "Soldier", "Mariner/sailor"],
+        "why": "Most arrived through indentured servitude. Penal Laws excluded Catholics from professions, leaving few transferable skills beyond agriculture and textiles.",
+        "economic_position": "Near bottom. Indentured servants bound 4-7 years. After freedom, most became tenant farmers or urban laborers."
+      },
+      {
+        "era": "1780-1815 (Early Republic)",
+        "common_occupations": ["Farm laborer", "Urban laborer (dock, construction)", "Weaver", "Domestic servant", "Tavern keeper", "Small merchant", "Teacher/journalist (1798 exiles)"],
+        "why": "Post-Revolution growth created demand. 1798 exile cohort injected an educated element — lawyers, editors, teachers — disproportionate to numbers.",
+        "economic_position": "Bottom to lower-middle. Exiles anomalous: Emmet became NY attorney general. Most remained laborers and servants."
+      },
+      {
+        "era": "1815-1844 (Canal Era)",
+        "common_occupations": ["Canal laborer / navvy", "Road/railroad construction laborer", "Domestic servant (women)", "Longshoreman", "Hod carrier", "Carter/drayman", "Tavern keeper / grocer"],
+        "why": "Canal/turnpike/railroad construction created insatiable demand. Irish filled it because work was too dangerous and poorly paid for native-born, and contractors recruited directly from emigrant streams.",
+        "economic_position": "Bottom of free labor hierarchy. Canal workers: $0.75-$1.00/day plus whiskey ration. Many died of cholera, cave-ins, blasting accidents. Women: $3-$6/month in domestic service."
+      }
+    ],
+    "occupational_clustering": [
+      "Canal labor: by the 1820s, virtually synonymous with Irish workers — Erie, C&O, PA Main Line built by Irish gangs",
+      "Domestic service: Irish women dominant in eastern cities from the 1790s, preceding famine-era explosion",
+      "Waterfront work: longshoremen, stevedores, draymen — Irish-dominated trades by the 1830s",
+      "Small commerce: tavern keepers and grocers as community institutions combining retail, banking, employment brokering"
+    ],
+    "economic_mobility_trajectory": "Slow but not negligible. Indentured servants eventually freed; frontier land offered a path upward. By the early republic, a small merchant/professional class existed in port cities. Canal era created Irish contractors and foremen alongside mass poverty. The 1798 exiles entered professional life at a level most Irish would not reach for two more generations.",
+    "narrative_hooks": [
+      "When the {year} census listed {ancestor_name}'s occupation as '{occupation},' it captured hard labor at the bottom — with the possibility, but not the guarantee, of something better.",
+      "If {ancestor_name} worked on the canal, the pay was a dollar a day and a gill of whiskey — and the risks included cholera, cave-ins, and blasting accidents no one bothered to record."
+    ]
+  },
+
+  "cultural_markers": {
+    "foodways": [
+      "Potato-based diet carried from Ireland — potatoes, buttermilk, oatmeal, supplemented with herring or salt pork",
+      "Whiskey (uisce beatha) central to social and economic life — distilling a carried skill, and the whiskey ration on canal gangs was contractual",
+      "Tea culture developing by the early 19th century — previously a luxury in Ireland, becoming a daily staple among Irish Americans",
+      "Communal eating traditions from canal camps and boarding houses shaping community patterns"
+    ],
+    "holidays_and_traditions": [
+      "St. Patrick's Day (March 17): colonial-era celebration — NY parade since 1762. Mass, procession, feast.",
+      "Pattern days (patron saint feasts): parish-specific, carried in memory but less visible in America",
+      "The 'American wake': farewell gathering treating departure as death — common from the 1820s",
+      "Faction fights: organized county-based brawls carried to canal camps, gradually suppressed"
+    ],
+    "social_organizations": [
+      "Hibernian Society for Relief of Emigrants (Philadelphia, 1790)", "Shamrock Society of New York (1816)",
+      "Friendly Sons of St. Patrick (Philadelphia 1771, New York 1784) — inclusive of Protestant and Catholic",
+      "Catholic benevolent societies: parish-based mutual aid", "Canal worker informal societies: mutual protection, wage negotiation"
+    ],
+    "material_culture": [
+      "Crucifixes, holy water fonts in Catholic homes — material faith in hostile Protestant environment",
+      "Ulster linen/textile skills applied in early American production",
+      "Clay pipes (dúidíns) — archaeologically significant in Irish sites",
+      "Basic furnishings reflecting poverty — inventories show beds, pots, little else"
+    ],
+    "music_and_arts": [
+      "Traditional music: fiddle, uilleann pipes, tin whistle at gatherings, wakes, holidays",
+      "Political ballads of 1798: 'The Wearing of the Green,' 'The Croppy Boy'; exile songs, emigrant laments",
+      "Seanchaí storytelling tradition: oral history at hearth gatherings and wakes",
+      "Hedge school learning carried by educated emigrants, particularly the 1798 cohort"
+    ],
+    "language_markers": [
+      "Townland/parish identification: 'from Skibbereen' not 'from Ireland'",
+      "Irish loanwords: 'colleen' (cailín), 'smithereens' (smidiríní), 'whiskey' (uisce beatha)",
+      "Hiberno-English: 'I'm after doing it,' 'himself' for household head",
+      "Code-switching: Irish in private, English in public — invisible in records but shaping community"
+    ],
+    "narrative_hooks": [
+      "The world {ancestor_name} carried from Ireland was more than a bundle of clothes — it was a language, a music, a way of marking saints' days and burying the dead that survived, transformed, in American soil."
+    ]
+  },
+
+  "intermarriage_patterns": {
+    "endogamy_period": "~1700-1860. Strong for Catholic Irish (religion, clustering, limited alternatives). Protestant Irish weaker — some merged with Scots-Irish or English within a generation.",
+    "endogamy_factors": ["Catholic dispensation required for mixed marriages", "Residential clustering limited marriage pool", "Shared Irish language preferred", "Anti-Catholic prejudice made Protestant intermarriage difficult", "Kinship networks arranged within-group marriages"],
+    "common_intermarriage_groups": [
+      "German Catholics (earliest common non-Irish Catholic intermarriage, Philadelphia/Baltimore)",
+      "French Catholics (New Orleans, frontier Kentucky/Missouri)",
+      "Scots-Irish: occasional in frontier areas, rare and socially fraught",
+      "Catholic and Protestant Irish: occasional intermarriage in less rigid colonial period"
+    ],
+    "transition_timeline": "Colonial-era intermarriage higher (small, dispersed community). Endogamy strengthened as community grew (1820s-1840s). Broader intermarriage followed famine-Irish timeline: weakening 1880s-1920s.",
+    "genealogical_implications": "Catholic Irish: both spouses likely Irish Catholic. Protestant Irish: check for Scots-Irish or English intermarriage (weaker institutional barriers). New Orleans: French Catholic spouses. Frontier: unexpected patterns reflect thin populations.",
+    "narrative_hooks": [
+      "When {ancestor_name} married {spouse_name}, the match was almost certainly arranged within the Irish community — the parish, the neighborhood, families who knew each other from the same counties back home."
+    ]
+  },
+
+  "genealogical_pitfalls": {
+    "common_traps": [
+      { "trap": "Conflating pre-famine Irish with Scots-Irish", "why_it_happens": "All labeled 'Irish' or 'from Ireland.' Before 1800 usually = Scots-Irish; after 1830 usually = Catholic Irish; 1800-1830 ambiguous.", "how_to_avoid": "Denomination primary: Catholic = Irish Catholic; Presbyterian = Scots-Irish. Settlement secondary: urban/canal = Catholic Irish; backcountry = Scots-Irish. Anglican = Protestant Irish (third group, often overlooked)." },
+      { "trap": "Assuming pre-famine Irish were all Catholic", "why_it_happens": "Post-famine immigration was overwhelmingly Catholic, coloring assumptions about earlier waves.", "how_to_avoid": "Check denomination evidence. Irish surname in Episcopal or Quaker context may indicate Protestant Irish heritage." },
+      { "trap": "Missing pre-1820 arrivals due to absent passenger lists", "why_it_happens": "1819 Steerage Act first required manifests. Earlier lists fragmentary.", "how_to_avoid": "Alternative evidence: indentured servant contracts, newspaper arrival notices, naturalization records, Catholic parish registration after probable arrival." },
+      { "trap": "Treating all pre-famine Irish as one group", "why_it_happens": "144 years, multiple distinct waves with different origins and class backgrounds.", "how_to_avoid": "Distinguish colonial indentured (1700-1775), 1798 exiles (1795-1810), and canal-era mass migration (1815-1844)." },
+      { "trap": "Conflating Protestant Irish with English", "why_it_happens": "Church of Ireland used English names, Anglican-derived churches — records indistinguishable without origin info.", "how_to_avoid": "Check naturalization records, birthplace documents. Settlement in known Irish communities provides circumstantial evidence." }
+    ],
+    "record_gaps": [
+      { "gap": "Pre-1820 passenger lists", "period": "Before 1820", "workaround": "NARA Customs lists (M237, M261). Filby's Passenger and Immigration Lists Index. Newspaper arrival notices. Indentured servant records at state archives." },
+      { "gap": "Irish Catholic parish registers — many not starting until 1820s", "period": "Before 1820", "workaround": "Penal-era registers at NLI online. Estate papers listing tenants. Tithe Applotment Books (1823-1837) as quasi-census." },
+      { "gap": "1821-1851 Irish census destroyed (1922 Four Courts fire)", "period": "1821-1851", "workaround": "Census fragments at PRONI/NAI. Old Age Pension claims (1908+) quoting destroyed entries. Griffith's Valuation (1847-1864)." },
+      { "gap": "Canal company employment records — mostly lost", "period": "1817-1850", "workaround": "State archives (NY for Erie, MD for C&O). Court records naming Irish workers. Catholic parish registers along canal routes." }
+    ],
+    "name_change_patterns": [
+      "O' prefix dropping: O'Sullivan → Sullivan, O'Brien → Brien",
+      "Gaelic→English given names, often before emigration: Tadhg → Timothy",
+      "Phonetic respelling: Ó Catháin → Kane / Cain / Keane",
+      "Norman-Irish (Fitzgerald, Burke, Power) misidentified as English"
+    ],
+    "research_tips": [
+      "Start with Catholic parish records — Philadelphia, Baltimore, New York diocesan archives may predate all other records",
+      "Search siblings: a brother's naturalization may name ship and arrival year",
+      "Check HSP and Maryland State Archives for colonial indentured servant records",
+      "1798 exiles: published lists exist (Wilson, Durey) — check court records, newspapers, professional directories",
+      "Canal geography: Irish ancestor in Syracuse/Lockport/Cumberland in 1820s-1830s = canal work likely",
+      "Griffith's Valuation by surname to identify possible Irish origin parishes",
+      "Do not assume Catholic: check Quaker or Church of Ireland connections, especially Leinster/southern Ulster"
+    ]
+  },
+
+  "nel_cross_references": {
+    "trigger_refs": ["irish_famine", "economic_panics_19c", "railroad_construction", "scots_irish_frontier", "civil_war_service", "war_of_1812_service"],
+    "community_texture_refs": ["boston_irish_1845_1900", "new_york_lower_east_side"],
+    "material_life_refs": ["immigrant_tenement_1845_1890", "frontier_log_cabin_1780_1840", "industrial_city_1880_1920", "free_black_community_1790_1865", "small_town_merchant_1830_1920"],
+    "life_pattern_refs": ["immigrant_parish_lifecycle", "indentured_servant_formation", "boarding_house_matriarch", "steel_city_immigrant_arc"],
+    "regional_landscape_refs": ["pa_southeast_gateway", "pa_western_frontier", "md_western_shore", "ny_hudson_valley", "ma_eastern_colonial"],
+    "route_refs": ["atlantic_crossing_steerage", "erie_canal", "pennsylvania_railroad"],
+    "destination_refs": ["philadelphia", "baltimore", "new_york_city", "new_orleans", "boston"],
+    "occupation_refs": ["domestic_servant", "railroad_laborer", "sailor_mariner", "carpenter", "merchant_storekeeper"],
+    "other_heritage_refs": ["irish_famine", "irish_postfamine", "scots_irish", "english_chesapeake", "quaker"]
+  },
+
+  "source_references": [
+    "Miller, Kerby A. Emigrants and Exiles: Ireland and the Irish Exodus to North America. New York: Oxford University Press, 1985.",
+    "Wokeck, Marianne S. Trade in Strangers: The Beginnings of Mass Migration to North America. University Park: Pennsylvania State University Press, 1999.",
+    "Kenny, Kevin. The American Irish: A History. New York: Longman, 2000.",
+    "Doyle, David Noel, and Owen Dudley Edwards, eds. America and Ireland, 1776-1976: The American Identity and the Irish Connection. Westport, CT: Greenwood Press, 1980.",
+    "Durey, Michael. Transatlantic Radicals and the Early American Republic. Lawrence: University Press of Kansas, 1997.",
+    "Wilson, David A. United Irishmen, United States: Immigrant Radicals in the Early Republic. Ithaca, NY: Cornell University Press, 1998.",
+    "Way, Peter. Common Labour: Workers and the Digging of North American Canals, 1780-1860. Cambridge: Cambridge University Press, 1993.",
+    "Ó Gráda, Cormac. Ireland: A New Economic History, 1780-1939. Oxford: Clarendon Press, 1994."
+  ]
+}
