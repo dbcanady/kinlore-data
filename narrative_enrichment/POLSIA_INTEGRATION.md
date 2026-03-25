@@ -1,9 +1,9 @@
 # Narrative Enrichment Layer -- Polsia Integration Guide
 
-**Version: 1.1**
+**Version: 1.2**
 **Schema Version: 1.0 (all data files)**
-**Last Updated: 2026-03-19**
-**Total Files: 290 (286 JSON + 2 guides + 1 validator + 1 schema doc) | Total Lines: ~45,000**
+**Last Updated: 2026-03-25**
+**Total Files: 338 (333 JSON + 2 guides + 1 validator + 2 schema docs) | Total Lines: ~55,000**
 
 This document governs how Polsia processes ancestor records through the Narrative Enrichment Layer (NEL). Read this FIRST. It tells you what exists, how to use it, and what rules you must follow.
 
@@ -11,7 +11,7 @@ This document governs how Polsia processes ancestor records through the Narrativ
 
 ## 1. What This Repository Contains
 
-286 JSON data files (plus 2 Markdown guides, 1 Python validator, and 1 schema doc) organized by function:
+333 JSON data files (plus 2 Markdown guides, 1 Python validator, and 2 schema docs) organized by function:
 
 ```
 migration_triggers/
@@ -46,9 +46,13 @@ migration_triggers/
 
 life_patterns/              22 Life Pattern files (settled-life arcs between migrations)
                              Schema: life_patterns/LIFE_PATTERN_SCHEMA.md
+
+ethnic_heritage/            46 ethnic heritage profiles (cultural context by ancestry group)
+                             1 index: ETHNIC_HERITAGE_INDEX.json
+                             Schema: ethnic_heritage/ETHNIC_HERITAGE_SCHEMA.md
 ```
 
-**Coverage:** ~97% of American genealogy migration patterns, 1717-1970. 32 core triggers + 19 regional triggers span 9 migration classes: immigration, economic, military, racial_flight, forced, disaster, land_opportunity, religious, labor_immigration, and family. Regional triggers cover 14 states with hyper-local intra-state migration patterns. 22 Life Patterns cover the settled-life arcs that unfold BETWEEN migrations — what happened while people stayed. Life Patterns connect to triggers through chain-link architecture (entry/exit conditions), enabling continuous multi-generational narrative chaining.
+**Coverage:** ~97% of American genealogy migration patterns, 1717-1970. 32 core triggers + 19 regional triggers span 9 migration classes: immigration, economic, military, racial_flight, forced, disaster, land_opportunity, religious, labor_immigration, and family. Regional triggers cover 14 states with hyper-local intra-state migration patterns. 22 Life Patterns cover the settled-life arcs that unfold BETWEEN migrations — what happened while people stayed. Life Patterns connect to triggers through chain-link architecture (entry/exit conditions), enabling continuous multi-generational narrative chaining. 46 Ethnic Heritage profiles provide culturally-specific context for 11 heritage group categories (colonial British, Germanic, Irish, Scandinavian, Southern/Eastern European, Slavic/Baltic, African American, French/Acadian, Asian American, Latin American, and other), enriching narratives with immigration waves, naming conventions, church records, occupational patterns, and cultural markers.
 
 For the full inventory with line counts, file lists, and build history, see `DESIGN_STATE.md`.
 
@@ -58,7 +62,7 @@ For the full inventory with line counts, file lists, and build history, see `DES
 
 **Input:** An ancestor record containing: name, dates (birth, marriage, death), locations (origin, destination), occupation, race/ethnicity, and any known record gaps.
 
-Process the ancestor through all 11 steps below. Steps 1-10 gather data. Step 11 is mandatory reporting.
+Process the ancestor through all 12 steps below. Steps 1-11 gather data. Step 12 is mandatory reporting.
 
 ### Step 1: Trigger Matching
 
@@ -70,29 +74,67 @@ Multiple triggers may match. Rank by era overlap and geographic specificity. Reg
 
 Each trigger contains: push/pull factors with severity scores (1-5), affected counties, era range, route references, destination references, occupation references, counter-narratives, record implications, and narrative hooks.
 
-### Step 2: Route Selection
+### Step 2: Ethnic Heritage Matching
+
+After trigger matching (and ideally after identifying the ancestor's surname, origin, denomination, and settlement area), match the ancestor against the 46 ethnic heritage profiles in `ethnic_heritage/`.
+
+**When to use:** Apply ethnic heritage matching to EVERY ancestor. Most ancestors will match at least one heritage profile. Some will match multiple (e.g., a Scots-Irish Quaker in the Shenandoah Valley matches both `scots_irish` and `quaker`).
+
+**How to match:** Use the `identification_clues` fields in each profile (or consult `ETHNIC_HERITAGE_INDEX.json` for a consolidated lookup table). Match on:
+
+- **surname_patterns** — Does the ancestor's surname match known patterns? (e.g., Mc/Mac patronymics signal Scots-Irish; -ski/-wicz signal Polish)
+- **denomination_signals** — Does the ancestor's church affiliation signal a specific heritage? (e.g., Lutheran + German surname = likely Germanic heritage)
+- **settlement_signals** — Was the ancestor in a known heritage concentration area? (e.g., Shenandoah Valley = Scots-Irish or German Colonial)
+- **record_signals** — Do the available records contain heritage markers? (e.g., parish records in Norwegian, naturalization from specific ports)
+- **occupation_signals** — Does the ancestor's occupation signal a specific heritage? (e.g., linen weaver = Scots-Irish; turpentine laborer in NC = likely African American)
+
+A single strong signal (surname + denomination match) is sufficient. Two or more weak signals from different clue categories also warrant a match.
+
+**What each profile provides:**
+- Immigration overview with specific waves, push/pull factors, ports of entry, and journey descriptions
+- Settlement patterns with chain migration networks and clustering factors
+- Church and records guidance (denominations, record languages, key repositories, survival notes)
+- Naming conventions with Americanization patterns and common research traps
+- Occupational patterns by era with economic mobility trajectory
+- Cultural markers (foodways, traditions, social organizations, material culture)
+- Intermarriage patterns and genealogical pitfalls
+- Cross-references to triggers, community textures, material life profiles, life patterns, and regional landscape clusters
+
+**How ethnic heritage interacts with other layers:** Ethnic heritage profiles provide the cultural WHY that enriches every other pipeline step:
+
+- **Triggers (Step 1):** Heritage profiles explain why a specific ethnic group was susceptible to a given trigger. A `german_colonial` profile explains why German settlers in the Shenandoah responded differently to the `scots_irish_frontier` trigger than their Scots-Irish neighbors.
+- **Routes (Step 3):** Heritage profiles name the ports of entry and typical journey patterns that connect to route files.
+- **Destinations (Step 4):** Heritage settlement patterns explain WHY an ancestor ended up in a specific destination and what community awaited them.
+- **Occupations (Step 5):** Heritage occupational clustering explains industry concentration patterns that supplement individual occupation profiles.
+- **Life Patterns (Step 7):** Heritage intermarriage timelines and economic mobility arcs add cultural depth to settled-life patterns.
+- **Community Texture (Step 8):** Heritage profiles name the churches, fraternal orders, and mutual aid societies that appear in community texture profiles — and explain their cultural significance.
+- **Templates (Step 10):** Heritage naming conventions feed directly into the `naming_as_evidence` template. Heritage immigration waves enrich `letter_home` and `what_they_saw` templates.
+
+Each profile's `nel_cross_references` section contains explicit links to related triggers, community textures, material life profiles, life patterns, and regional landscape clusters. Use these cross-references to pull heritage-specific context into every narrative layer.
+
+### Step 3: Route Selection
 
 Use the matched trigger's `route_refs` to pull transportation details from `shared/routes/`. 25 route files cover: overland trails, railroads, steamboats, canals, ocean crossings, intercity bus, and Pacific routes.
 
 Select the route that best matches the ancestor's origin-to-destination geography and era. If the trigger references multiple routes, prefer the one whose era range most closely aligns with the ancestor's travel year.
 
-### Step 3: Destination Lookup
+### Step 4: Destination Lookup
 
 Match the ancestor's destination city or county against the 82 destination profiles in `shared/destinations/`. Each profile contains: neighborhoods, major employers by era, institutions (churches, schools, mutual aid), housing stock, and a sensory snapshot.
 
 If no exact city match exists, check `alternate_ids` within existing profiles. Some profiles cover broader metro areas.
 
-### Step 4: Occupation Enrichment
+### Step 5: Occupation Enrichment
 
 Match the ancestor's listed occupation against 27 occupation profiles in `shared/occupations/`. Census occupation titles vary wildly across decades -- match on the closest equivalent. Each profile contains: daily work description, wages by era, working conditions, career trajectory, health risks, and narrative hooks.
 
-### Step 5: Material Life Grounding
+### Step 6: Material Life Grounding
 
 Match the ancestor's era + region against the 19 material life profiles in `shared/material_life/`. These provide the physical reality of daily existence: housing, food, clothing, hygiene, transportation, communication, entertainment, and household goods.
 
 Multiple profiles may apply if the ancestor lived across eras or moved between regions. Each profile cross-references its associated triggers via `trigger_refs`.
 
-### Step 6: Life Pattern Matching
+### Step 7: Life Pattern Matching
 
 If the ancestor STAYED in one place for an extended period (roughly a decade or more between migrations), match them against the 22 Life Pattern files in `life_patterns/`. Life Patterns describe what happened while people lived in one place — the economic arcs, family dynamics, community patterns, and occupational lifecycles that unfolded between migrations.
 
@@ -128,13 +170,13 @@ Match entry conditions by checking if the ancestor's PRIOR trigger match appears
 | `occupational_lifecycle` | Patterns defined by a specific occupation's arc over a career |
 | `social_transformation` | Patterns defined by large-scale social or structural change experienced while staying |
 
-### Step 7: Community Texture
+### Step 8: Community Texture
 
 Match the ancestor's settled community against the 33 community texture profiles in `shared/community_texture/`. These provide institutional fabric: churches (denomination, founding date), schools, fraternal orders, newspapers, mutual aid societies, and social geography.
 
 Three types: `destination_enclave` (ethnic/racial community at destination), `industrial_community` (company town, mill village), `origin_community` (the place they left).
 
-### Step 8: Wage Contextualization
+### Step 9: Wage Contextualization
 
 Pull wage and cost-of-living data from the 3 files in `shared/wages/`:
 - `wages_1850_1900.json` -- 33 occupation entries, 20 benchmarks
@@ -143,7 +185,7 @@ Pull wage and cost-of-living data from the 3 files in `shared/wages/`:
 
 Always present wages in context. "A mill operative's $1/day" means nothing without "when a pound of flour cost 3 cents." Every wage comparison must pair the wage with a contemporary cost benchmark from `cost_of_living.json`.
 
-### Step 9: Template Selection
+### Step 10: Template Selection
 
 Choose narrative templates from the 10 in `templates/` based on what the ancestor's records reveal:
 
@@ -165,13 +207,13 @@ Template constraints:
 - `audience_adapter`: Modifies OTHER template outputs for specific audiences. It is a post-processor, not standalone.
 - `convergence`: White Glove exclusive.
 
-### Step 10: Research Guidance
+### Step 11: Research Guidance
 
 When record gaps are detected, pull actionable research advice from the 10 files in `research_guidance/`. Files cover: census gaps, city directories, church records, vital records, name changes, military records, newspapers, property records, institutional records, and ethnic-specific sources.
 
 Every action step names the repository, record group, and access method. Common mistakes are called out per pattern. Advice is era-scoped to prevent anachronistic suggestions.
 
-### Step 11: Gap Detection (MANDATORY)
+### Step 12: Gap Detection (MANDATORY)
 
 After completing the pipeline, check what COULD NOT be matched. This step runs after EVERY ancestor, regardless of how complete the matches were.
 
@@ -286,7 +328,7 @@ Any `{variable}` remaining in output text is a bug. Every placeholder must resol
 
 ## 8. Schema Reference
 
-- **Schema version:** 1.0 throughout all 286 JSON files
+- **Schema version:** 1.0 throughout all 333 JSON files
 - **Data format:** JSON (all data files). Markdown (guide documents only).
 - **Push/pull factor severity scale:** 1 = minor influence, 5 = catastrophic/overwhelming. Measures historical severity, not build priority. Also used for Life Pattern exit condition severity.
 - **Priority scale (County Source Profiler, Layer 1):** 1-3 (NOT 1-5). Do not confuse with push/pull severity.
@@ -297,6 +339,7 @@ Any `{variable}` remaining in output text is a bug. Every placeholder must resol
 - **Chain-link references (Life Patterns only):** `entry_conditions[].fed_by_triggers` and `entry_conditions[].fed_by_patterns` link backward; `exit_conditions[].activates_triggers` and `exit_conditions[].activates_patterns` link forward. These are the connective tissue for multi-generational narratives.
 - **Life Pattern classes:** `economic_arc`, `family_dynamic`, `community_pattern`, `occupational_lifecycle`, `social_transformation`
 - **Life Pattern schema:** Full schema definition at `life_patterns/LIFE_PATTERN_SCHEMA.md`
+- **Ethnic Heritage profiles:** 46 profiles in `ethnic_heritage/` covering 11 group categories. Each profile contains `identification_clues` (surname, denomination, settlement, record, and occupation signals), `nel_cross_references` linking to triggers, community textures, material life, life patterns, and regional landscape clusters. Index at `ethnic_heritage/ETHNIC_HERITAGE_INDEX.json`. Schema at `ethnic_heritage/ETHNIC_HERITAGE_SCHEMA.md`.
 
 Full schema details, file-by-file inventory, and build history: `DESIGN_STATE.md`
 Roadmap and phase planning: `NEL_ROADMAP.md`
