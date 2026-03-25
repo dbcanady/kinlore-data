@@ -1,0 +1,113 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-25",
+  "_purpose": "Courthouse Atlas for Sac County, IA. Record survival, courthouse history, and known losses. Sac City is the county seat. Records are intact from county organization. German Lutheran and Catholic church records provide significant supplementary sources.",
+  "courthouse_atlas_id": "ia_sac_courthouse",
+  "display_name": "Sac County, Iowa — Courthouse Atlas",
+  "county": "Sac",
+  "state": "IA",
+  "fips_code": "19161",
+  "cluster_ref": "ia_corn_belt",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1889,
+      "location": "Sac City, IA — 100 NW State Street",
+      "records_housed": ["deeds", "plats", "vital records", "probate records", "court minutes", "naturalization records", "military discharge records", "drainage district records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1856–1875",
+        "location": "Sac City — frame building",
+        "fate": "Replaced as county developed."
+      },
+      {
+        "era": "1875–1888",
+        "location": "Sac City — brick courthouse",
+        "fate": "Replaced by current building. Records transferred intact."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "sac_no_major_loss",
+      "date": "N/A",
+      "cause": "None known",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "probate records", "court minutes", "marriage records", "naturalization records", "drainage district records"],
+      "scope": "none",
+      "description": "Sac County has no known major courthouse fire or record loss. Records are continuous from county organization. German immigrant naturalization records are significant for the county's German-descended population.",
+      "narrative_impact": "If {ancestor_name} settled in Sac County, the records at Sac City are intact. German Lutheran and Catholic church records provide essential supplementary documentation, especially for vital events before 1880.",
+      "source": "Hart, William H. History of Sac County, Iowa. Indianapolis: B. F. Bowen & Company, 1914."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1856,
+      "completeness": "Good — continuous from county organization. Federal GLO patents document original entries.",
+      "gaps": "Light activity before 1875 due to sparse settlement.",
+      "repository": "Sac County Recorder, Sac City; Iowa State Archives",
+      "online_access": "FamilySearch microfilm; Ancestry.com"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1860,
+      "completeness": "Good from the 1880s forward.",
+      "gaps": "Sparse before 1880.",
+      "repository": "Sac County Clerk of Court; Iowa State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1858,
+      "completeness": "Good from county organization.",
+      "gaps": "German-language marriages performed by Lutheran or Catholic clergy may not have been recorded civilly before 1880.",
+      "repository": "Sac County Recorder; Iowa State Archives",
+      "online_access": "FamilySearch; Ancestry.com Iowa marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1856,
+      "completeness": "Good.",
+      "gaps": "Minimal before 1880.",
+      "repository": "Sac County Courthouse; Iowa State Archives",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1880,
+      "death_registration_start": 1880,
+      "completeness": "Iowa vital registration from 1880. Rural compliance incomplete until approximately 1900.",
+      "repository": "Iowa Department of Public Health; Sac County Recorder; Iowa State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "German Lutheran and Catholic church records",
+      "description": "German Lutheran (Missouri Synod, Iowa Synod) and Catholic parishes maintained records in German through the early twentieth century. Records include baptisms, confirmations, marriages, and burials.",
+      "repository": "Individual congregations; Concordia Historical Institute (LCMS), St. Louis; Iowa Conference archives; FamilySearch microfilm",
+      "era_coverage": "1870–present",
+      "genealogical_value": "Church records supplement civil vital records, especially before 1880. German-language entries may record place of origin in Germany. Confirmation records provide parents' names and the child's age.",
+      "source": "Hart, History of Sac County."
+    },
+    {
+      "source_type": "Federal and Iowa state censuses",
+      "description": "Federal population schedules 1850–1940 and Iowa state censuses (1856, 1885, 1895, 1905, 1915, 1925).",
+      "repository": "National Archives; FamilySearch; Ancestry.com; Iowa State Archives",
+      "era_coverage": "1850–1940",
+      "genealogical_value": "Iowa state censuses fill the gaps between federal enumerations. The 1885 census captures the first substantial settler population.",
+      "source": "Iowa State Historical Society. Iowa Census Records Guide. Des Moines: ISHS, 2005."
+    }
+  ],
+  "narrative_hooks": [
+    "If {ancestor_name} was German Lutheran in Sac County, the church records may hold what the courthouse does not — baptismal records naming parents and godparents, in German, from before Iowa required vital registration in 1880.",
+    "The drainage district records at the Sac County courthouse document who invested in the tile that made the county productive — {ancestor_name}'s drainage assessments are a record of the hidden infrastructure beneath the corn.",
+    "Sac County's early records are thin before 1880 because the county was still being settled — the first deed books have wide gaps between entries, and the early censuses show a population that could barely fill a courtroom.",
+    "Iowa's state censuses — especially 1885 and 1895 — are essential for Sac County families, filling the gap left by the destroyed 1890 federal census during the county's peak settlement years."
+  ],
+  "source_references": [
+    "Hart, William H. History of Sac County, Iowa. Indianapolis: B. F. Bowen & Company, 1914.",
+    "Iowa State Historical Society. Iowa Census Records Guide. Des Moines: ISHS, 2005.",
+    "Schwieder, Dorothy. Iowa: The Middle Land. Ames: Iowa State University Press, 1996."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ia_sac",
+    "research_guidance_refs": ["census_gaps", "vital_records"],
+    "template_refs": ["record_silences"]
+  }
+}

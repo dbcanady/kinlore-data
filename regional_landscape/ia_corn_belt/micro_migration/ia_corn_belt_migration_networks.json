@@ -1,0 +1,205 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-25",
+  "_purpose": "Micro-Migration Network Map for the IA Corn Belt cluster. Documents migration corridors into, out of, and within the eight-county region, 1833-1960. Yankee/upland South westward migration, German settlement chains, Scandinavian stepping-stone migration, Swedish/Welsh/Italian mining migration to Boone County, Czech settlement in Tama County, Italian and Mexican labor migration to Marshalltown, Meskwaki return to Tama, and postwar educational out-migration define the patterns.",
+  "migration_network_id": "ia_corn_belt_migration_networks",
+  "display_name": "IA Corn Belt — Micro-Migration Network Map",
+  "cluster_ref": "ia_corn_belt",
+  "era_range": "1833-1960",
+  "migration_corridors": [
+    {
+      "corridor_id": "yankee_western_settlement",
+      "corridor_name": "Yankee and Upland South Westward Settlement",
+      "origin_counties": ["(New England, New York, Ohio, Indiana, Illinois — Yankee stream); (Kentucky, Virginia, Tennessee — upland South stream)"],
+      "destination_area": "Story, Boone, Marshall, Greene counties — upland prairie",
+      "era": "1850-1880",
+      "migration_type": "westward_settlement",
+      "scale": "Thousands of families. Native-born Americans from the eastern states were the first and largest settlement group in the Corn Belt. They arrived in central Iowa after farming in Ohio, Indiana, or Illinois for a generation. The Yankee stream (New England/New York background) and the upland South stream (Kentucky/Virginia/Tennessee) were both represented, with the Yankee stream dominant in Story and Marshall counties.",
+      "evidence": {
+        "census_evidence": "1860-1880 federal censuses show household heads born in Ohio, Indiana, Illinois, New York, and Pennsylvania in large numbers. Iowa state censuses (1856, 1885) confirm the pattern.",
+        "church_evidence": "Methodist, Presbyterian, and Baptist congregations established by Yankee and upland South settlers.",
+        "surname_clustering": "English and Scots-Irish surnames from the eastern migration stream cluster in central Iowa townships."
+      },
+      "chain_mechanics": {
+        "description": "The westward settlement of central Iowa followed the stepping-stone pattern — families that had farmed in Ohio or Indiana for a generation moved west to Iowa when land became cheaper than in the states they had filled. Information traveled through family networks: a brother who had moved first, a cousin at the land office, a letter describing the black prairie soil. The railroad accelerated the process after the 1860s, allowing settlers to reach central Iowa in days rather than weeks.",
+        "kinship_role": "Sibling and cousin chains were the primary mechanism. The first settler from a family scouted the land; subsequent arrivals clustered near the pioneer.",
+        "timeline": "Pioneer families 1850-1860; peak settlement 1860-1880; filling-in through 1890."
+      },
+      "narrative_hook": "When {ancestor_name} arrived in {county} County from {origin_state} around {year}, {pronoun_subject} was following a trail worn by a generation of eastern farmers moving west — through Ohio, through Indiana, through Illinois, and finally to Iowa, where the prairie was still unbroken and the soil was black six feet deep.",
+      "source": "Schwieder, Iowa: The Middle Land. Petersen, The Story of Iowa."
+    },
+    {
+      "corridor_id": "german_settlement_chains",
+      "corridor_name": "German Settlement Chains",
+      "origin_counties": ["(Germany: Rhineland, Westphalia, Bavaria, Hanover, Saxony); via Cincinnati, St. Louis, Dubuque, or directly via railroad"],
+      "destination_area": "Sac, Buena Vista, Calhoun, Greene, Boone, Marshall counties — German farming townships",
+      "era": "1860-1900",
+      "migration_type": "chain_migration",
+      "scale": "Hundreds of families in each county. German immigrants were the second-largest ethnic group in the Corn Belt cluster. Both Catholic and Lutheran Germans settled, typically in separate townships. The settlement pattern was church-centered — a German Lutheran or Catholic congregation was established, and subsequent families from the same German region were directed to it.",
+      "evidence": {
+        "census_evidence": "1870-1900 censuses show German-born household heads in every county, concentrated in specific townships. Sac County had particularly dense German settlement.",
+        "church_evidence": "German Lutheran (Missouri Synod, Iowa Synod) and Catholic parishes maintained German-language records.",
+        "surname_clustering": "German surnames cluster in identifiable townships across the cluster."
+      },
+      "chain_mechanics": {
+        "description": "German settlement in the Corn Belt followed both the church colony model (organized settlement around a parish) and the informal chain model (individual families following relatives). German Catholic settlers in Sac and Calhoun counties likely arrived via the Dubuque/Archdiocese pipeline. German Lutheran settlers came through multiple channels — some directly from Germany via the railroad, others from intermediate settlements in Ohio, Wisconsin, or Illinois.",
+        "kinship_role": "Parish networks and family chains worked together. A German Catholic family arriving in Iowa was directed to an existing German Catholic parish by the Archdiocese or by immigrant aid societies.",
+        "timeline": "Initial settlement 1860-1875; peak chain migration 1875-1895; filling-in through 1905."
+      },
+      "narrative_hook": "When {ancestor_name} arrived in {county} County from Germany around {year}, the German church was already built and the neighbors spoke {pronoun_possessive} language — a community transplanted from the Rhineland to the Iowa prairie, where the soil was different but the parish was familiar.",
+      "source": "Schwieder, Iowa: The Middle Land."
+    },
+    {
+      "corridor_id": "boone_mining_immigration",
+      "corridor_name": "Coal Mining Immigration to Boone County",
+      "origin_counties": ["(Sweden: Skane, Smaland, Varmland); (Wales: Glamorgan, Monmouth); (Italy: Calabria, Sicily); (African American — southern states)"],
+      "destination_area": "Boone County — Des Moines River valley mining camps",
+      "era": "1865-1920",
+      "migration_type": "labor_migration",
+      "scale": "Hundreds of families. Swedish miners were the largest immigrant group, followed by Welsh, Italian, and African American workers. The mining camps were ethnic enclaves — Swedish camps, Welsh camps, Italian camps — each with its own church, social organizations, and internal language.",
+      "evidence": {
+        "census_evidence": "1870-1920 censuses show Swedish, Welsh, and Italian miners in Boone County mining townships, with birthplaces concentrated in specific regions of origin.",
+        "church_evidence": "Swedish Lutheran (Augustana Synod), Welsh Congregational, and Italian Catholic churches in the mining communities.",
+        "employer_records": "Iowa Bureau of Mines annual reports document mine-by-mine employment."
+      },
+      "chain_mechanics": {
+        "description": "Mining immigration followed kinship chains similar to agricultural immigration — a miner who found work at a Boone County coal operation wrote home, and relatives followed. Swedish mining immigration connected Boone County to specific parishes in Skane and Smaland. The mining camp was the social unit — company houses, company store, and ethnic community all within walking distance of the mine shaft.",
+        "kinship_role": "Kinship chains organized the flow. A brother or cousin at the mine could secure employment for a new arrival.",
+        "timeline": "Initial mining labor 1865-1880; peak immigration 1880-1910; decline with mine closures 1910-1925."
+      },
+      "narrative_hook": "When {ancestor_name} came to Boone County from {origin_country} around {year}, the destination was a mine shaft in the Des Moines River valley — underground work in a camp where {pronoun_possessive} own language was spoken and the corn on the bluff above might as well have been on another planet.",
+      "source": "Schwieder, Black Diamonds. Schwieder, Iowa: The Middle Land."
+    },
+    {
+      "corridor_id": "czech_tama_settlement",
+      "corridor_name": "Czech Settlement in Tama County",
+      "origin_counties": ["(Bohemia/Moravia: Taborsko, Caslav, Chrudim regions); via Cedar Rapids IA, Chicago IL"],
+      "destination_area": "Tama County — Clutier, Vining area",
+      "era": "1870-1910",
+      "migration_type": "chain_migration",
+      "scale": "Hundreds of families. Czech settlement around Clutier and Vining was compact and culturally cohesive, connected to the larger Czech community in Cedar Rapids (Iowa's largest Czech community).",
+      "evidence": {
+        "census_evidence": "1880-1910 censuses show Czech-born families concentrated in the Clutier-Vining area.",
+        "church_evidence": "Czech Catholic parish records. ZCBJ (Western Bohemian Fraternal Association) lodge records.",
+        "cultural_evidence": "Czech language, foodways, and fraternal organizations maintained through the period."
+      },
+      "chain_mechanics": {
+        "description": "Czech migration to Tama County followed the parish-and-fraternal model. Families from specific Bohemian regions settled near each other and organized a Catholic parish and a ZCBJ lodge. The connection to Cedar Rapids (fifty miles east) provided a larger Czech institutional network.",
+        "kinship_role": "Village and family networks in Bohemia organized the chain. The ZCBJ lodge provided mutual aid and insurance that reinforced community cohesion.",
+        "timeline": "Initial settlement 1870-1880; consolidation 1880-1910."
+      },
+      "narrative_hook": "When {ancestor_name} settled near Clutier in Tama County, {pronoun_subject} joined a Czech community small enough that everyone knew everyone — organized around the Catholic parish and the ZCBJ lodge, connected to the larger Czech world at Cedar Rapids, and holding onto a language that the surrounding corn country did not speak.",
+      "source": "Schwieder, Iowa: The Middle Land."
+    },
+    {
+      "corridor_id": "marshalltown_labor_immigration",
+      "corridor_name": "Italian and Mexican Labor Migration to Marshalltown",
+      "origin_counties": ["(Italy: Calabria, Sicily, Campania); (Mexico: Guanajuato, Jalisco, Michoacan)"],
+      "destination_area": "Marshall County — Marshalltown",
+      "era": "1900-1960",
+      "migration_type": "labor_migration",
+      "scale": "Hundreds of families of each nationality. Italian families arrived first (1900s-1920s) for railroad and construction work. Mexican families followed (1910s-1920s) for railroad section work and meatpacking. Each group built distinct community institutions within Marshalltown.",
+      "evidence": {
+        "census_evidence": "1910-1940 censuses show growing Italian and Mexican populations in Marshalltown.",
+        "church_evidence": "Catholic parish records document both communities.",
+        "employer_records": "Railroad employment records and meatpacking employment records document the hiring of immigrant labor."
+      },
+      "chain_mechanics": {
+        "description": "Italian and Mexican migration to Marshalltown followed the kinship-chain pattern. An initial worker found employment (typically railroad section work for Mexicans, railroad shop or construction for Italians), then relatives followed. The railroad junction at Marshalltown was the magnet — section crews maintained track in every direction from the junction, and the meatpacking and manufacturing employers in town provided alternative employment.",
+        "kinship_role": "Kinship and hometown networks organized both migrations. A cousin in Marshalltown could secure work for a new arrival.",
+        "timeline": "Italian: 1900-1930; Mexican: 1910-1960."
+      },
+      "narrative_hook": "When {ancestor_name} arrived in Marshalltown from {origin_country} around {year}, the railroad junction was the reason — section work on the tracks that radiated in every direction from the town, and a community of countrymen who had come before and could say where to find work and a room.",
+      "source": "Schwieder, Iowa: The Middle Land. Valdes, Al Norte."
+    },
+    {
+      "corridor_id": "meskwaki_return",
+      "corridor_name": "Meskwaki Return to Tama County",
+      "origin_counties": ["Kansas (forced removal destination)"],
+      "destination_area": "Tama County — Iowa River valley (Meskwaki Settlement)",
+      "era": "1856-1857",
+      "migration_type": "self-determined_return",
+      "scale": "A community of approximately 100-200 people initially, growing through subsequent returns and natural increase.",
+      "evidence": {
+        "census_evidence": "BIA Indian census rolls document the Settlement population.",
+        "land_records": "Tama County deed records document the 1857 purchase and subsequent acquisitions.",
+        "federal_records": "BIA Sac and Fox Agency records at the National Archives."
+      },
+      "chain_mechanics": {
+        "description": "The Meskwaki return to Iowa was unique in American history — a Native people who used their own annuity and treaty payments to purchase land in their homeland after forced removal. The initial purchase of 80 acres in 1857 was organized by Meskwaki leaders who had never accepted removal as permanent. Subsequent purchases expanded the Settlement to over 3,000 acres by 1900 and over 8,000 acres by the late twentieth century. The land was held first in trust by the governor of Iowa, later transferred to federal trust.",
+        "kinship_role": "Clan and family structures organized the return. Meskwaki leaders directed the purchase and the settlement pattern.",
+        "timeline": "Initial return 1856; formal purchase 1857; ongoing expansion."
+      },
+      "narrative_hook": "The Meskwaki return to Tama County was not a migration in the ordinary sense — it was a people buying their own land back, using their own money, after the government had removed them to Kansas. The deed was filed at the same courthouse where every settler's claim was recorded.",
+      "source": "Daubenmier, The Meskwaki and Anthropologists."
+    }
+  ],
+  "internal_movement_patterns": [
+    {
+      "pattern_id": "farm_consolidation_out_migration",
+      "pattern_name": "Farm Consolidation and Out-Migration to Cities",
+      "description": "Throughout the 1920s-1960 period, young people from the agricultural counties moved to Des Moines, Ames, Waterloo, or out of state for employment or education. Farm consolidation reduced the number of families the land could support, and the GI Bill provided an educational exit ramp. The receiving cities (Des Moines, Ames, Cedar Rapids) grew while the agricultural counties' populations declined.",
+      "era": "1920-1960",
+      "evidence": "Census comparison shows population decline in the agricultural counties (Sac, Calhoun, Greene, Buena Vista) and growth in Story County (Ames) and Polk County (Des Moines). Iowa State College enrollment records show students from every county in the cluster.",
+      "narrative_hook": "When {ancestor_name}'s son left the farm in {county} County for Iowa State or Des Moines, it was a migration of fifty miles — but it crossed the line between two worlds, from the section-line road and the grain elevator to the campus or the city, and most who crossed it did not come back."
+    },
+    {
+      "pattern_id": "mining_camp_to_city",
+      "pattern_name": "Mining Camp Closures and Relocation to Cities",
+      "description": "When the Boone County coal mines closed (1910s-1930s), mining families relocated — some to Des Moines for factory work, others to Waterloo or out of state. The mining camp communities dissolved, and the ethnic enclaves (Swedish, Welsh, Italian) dispersed.",
+      "era": "1910-1940",
+      "evidence": "Census tracking shows former Boone County mining families appearing in Des Moines and other Iowa cities in subsequent enumerations.",
+      "narrative_hook": "When the mine closed, {ancestor_name}'s family left Boone County's Des Moines River valley for the city — the coal camp that had been home was emptying, the tipple was silent, and the Swedish church held its last service in a building that would be dismantled within the year."
+    }
+  ],
+  "settlement_clusters": [
+    {
+      "cluster_name": "Iowa State College Community (Story County)",
+      "counties": ["Story"],
+      "era": "1858-1960",
+      "ethnic_composition": "Mixed — college community drew from across Iowa and beyond. Faculty from eastern universities.",
+      "description": "Ames and the Iowa State College campus constituted a distinctive community within the agricultural landscape — an academic and research community that studied and improved the farming that surrounded it.",
+      "genealogical_significance": "Iowa State University archives hold student and faculty records. The university's role in agricultural research means that extension agents and agricultural researchers from across Iowa have records at Ames.",
+      "source": "Ross, A History of Iowa State College."
+    },
+    {
+      "cluster_name": "Meskwaki Settlement (Tama County)",
+      "counties": ["Tama"],
+      "era": "1857-present",
+      "ethnic_composition": "Meskwaki (Fox)",
+      "description": "The only Native American community in Iowa that purchased its own land. A sovereign community with its own governance, education, and cultural institutions within the surrounding agricultural county.",
+      "genealogical_significance": "Tribal enrollment records, BIA Indian census rolls, and Settlement governance records. Dual record systems — county records and tribal/BIA records. The Meskwaki Tribal Historic Preservation Office manages access to sensitive cultural records.",
+      "source": "Daubenmier, The Meskwaki and Anthropologists."
+    },
+    {
+      "cluster_name": "Czech Community (Tama County — Clutier/Vining)",
+      "counties": ["Tama"],
+      "era": "1870-1960",
+      "ethnic_composition": "Czech/Bohemian",
+      "description": "Compact Czech agricultural community organized around the Catholic parish and the ZCBJ lodge. Connected to the larger Iowa Czech community at Cedar Rapids.",
+      "genealogical_significance": "Catholic parish records, ZCBJ lodge records, and Czech-language cultural materials at the ZCBJ/Western Fraternal Life Association archives in Cedar Rapids.",
+      "source": "Schwieder, Iowa: The Middle Land."
+    }
+  ],
+  "narrative_hooks": [
+    "When {ancestor_name} arrived in {county} County from {origin_state}, {pronoun_subject} was following a trail that a thousand families had worn before — west from Ohio, west from Indiana, west from Illinois, to Iowa where the prairie was unbroken and the black soil ran six feet deep.",
+    "The German church that {ancestor_name} joined in {county} County was the endpoint of a chain that stretched back to the Rhineland — each link a family that had written home to say the soil was good, the parish was built, and the language was still spoken.",
+    "The Meskwaki who bought their own land at Tama in 1857 were making a migration that ran in the opposite direction from every other movement in the cluster — not west but back, not to new land but to their own, purchased with their own money after the government had removed them.",
+    "When {ancestor_name} came to the Boone County mines from Sweden, the chain that brought {pronoun_object} was the same kinship network that brought Norwegian farmers to Winneshiek County and German Catholics to Dubuque — a cousin who had gone first and could say there was work.",
+    "The GI Bill sent {ancestor_name} from {county} County to Iowa State or Des Moines — and the degree was the ticket out of a farm economy that could produce more corn with fewer people every year."
+  ],
+  "source_references": [
+    "Schwieder, Dorothy. Iowa: The Middle Land. Ames: Iowa State University Press, 1996.",
+    "Schwieder, Dorothy. Black Diamonds. Ames: Iowa State University Press, 1983.",
+    "Daubenmier, Judith M. The Meskwaki and Anthropologists. Lincoln: University of Nebraska Press, 2008.",
+    "Valdes, Dennis Nodin. Al Norte. Austin: University of Texas Press, 1991.",
+    "Petersen, William J. The Story of Iowa. New York: Lewis Historical Publishing, 1952.",
+    "Ross, Earle D. Iowa Agriculture. Iowa City: State Historical Society of Iowa, 1951."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["stayed_and_adapted", "gi_bill_migration", "gilded_age_labor_conflict"],
+    "destination_refs": [],
+    "community_texture_refs": [],
+    "life_pattern_refs": ["yeoman_farming_stability", "company_town_lifecycle", "immigrant_parish_lifecycle"]
+  }
+}

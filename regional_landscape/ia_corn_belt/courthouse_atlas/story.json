@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-25",
+  "_purpose": "Courthouse Atlas for Story County, IA. Record survival, courthouse history, and known losses. Nevada is the county seat (not Ames — a common error). Records are generally intact. Iowa State College records provide a significant supplementary source for families connected to the institution.",
+  "courthouse_atlas_id": "ia_story_courthouse",
+  "display_name": "Story County, Iowa — Courthouse Atlas",
+  "county": "Story",
+  "state": "IA",
+  "fips_code": "19169",
+  "cluster_ref": "ia_corn_belt",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1901,
+      "location": "Nevada, IA — 900 6th Street",
+      "records_housed": ["deeds", "plats", "vital records", "probate records", "court minutes", "naturalization records", "military discharge records", "drainage district records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1853–1868",
+        "location": "Nevada — frame courthouse",
+        "fate": "Replaced by brick building. Records transferred."
+      },
+      {
+        "era": "1868–1900",
+        "location": "Nevada — brick courthouse",
+        "fate": "Replaced by current building (1901). Records transferred intact."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "story_no_major_loss",
+      "date": "N/A",
+      "cause": "None known",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "probate records", "court minutes", "marriage records", "naturalization records", "drainage district records"],
+      "scope": "none",
+      "description": "Story County has no known major courthouse fire or catastrophic record loss. The orderly transfer of records through two courthouse transitions preserved a continuous archive from county organization in 1853. The county seat is Nevada, not Ames — a common error that can misdirect researchers.",
+      "narrative_impact": "If {ancestor_name} settled in Story County, the records at the courthouse in Nevada are intact and continuous from 1853. Iowa State College records at Ames provide an additional layer of documentation for families connected to the institution.",
+      "source": "Allen, William G. A History of Story County, Iowa. Des Moines: Iowa Printing Company, 1914."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1854,
+      "completeness": "Excellent — continuous from county organization. Land patent records from the General Land Office document original entries.",
+      "gaps": "No known significant gaps. Early preemption and homestead entries documented through federal GLO records.",
+      "repository": "Story County Recorder, Nevada; Iowa State Archives, Des Moines",
+      "online_access": "FamilySearch microfilm; Ancestry.com Iowa land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1856,
+      "completeness": "Good — probate records survive from early settlement.",
+      "gaps": "Early settlers dying intestate with minimal property may have no probate record.",
+      "repository": "Story County Clerk of Court, Nevada; Iowa State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1854,
+      "completeness": "Good — civil marriage records from early in the county's existence.",
+      "gaps": "Some early marriages performed by ministers or justices of the peace not recorded civilly before 1880.",
+      "repository": "Story County Recorder, Nevada; Iowa State Archives",
+      "online_access": "FamilySearch; Ancestry.com Iowa marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1853,
+      "completeness": "Good — county and district court minutes from organization.",
+      "gaps": "Justice of the peace records for outlying townships incomplete.",
+      "repository": "Story County Courthouse, Nevada; Iowa State Archives",
+      "online_access": "Limited — FamilySearch microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1880,
+      "death_registration_start": 1880,
+      "completeness": "Iowa required vital registration from 1880, but compliance in rural townships was incomplete until approximately 1900. Nevada and Ames had better compliance than the farming townships.",
+      "repository": "Iowa Department of Public Health; Story County Recorder; Iowa State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Iowa State College/University records",
+      "description": "Iowa State College (est. 1858, classes began 1869) maintained student records, faculty records, experiment station records, and extension service records. The university archives hold photographs, correspondence, and institutional records that may reference individual families — particularly farm families who participated in extension programs, 4-H, or cooperative experiments.",
+      "repository": "Iowa State University Special Collections and University Archives, Ames",
+      "era_coverage": "1869–present",
+      "genealogical_value": "If {ancestor_name} or family members attended Iowa State, student records document hometown, parents, course of study, and graduation. Extension service records may reference individual farms. Experiment station employment records are available.",
+      "source": "Ross, Earle D. A History of the Iowa State College. Ames: Iowa State College Press, 1942."
+    },
+    {
+      "source_type": "Federal and Iowa state censuses",
+      "description": "Federal population schedules 1850–1940 and Iowa state censuses (1856, 1885, 1895, 1905, 1915, 1925). Iowa's alternating state and federal censuses provide data approximately every five years.",
+      "repository": "National Archives; FamilySearch; Ancestry.com; Iowa State Archives",
+      "era_coverage": "1850–1940",
+      "genealogical_value": "Iowa state censuses fill the gaps between federal enumerations. The 1856 state census captures the earliest settlers. The 1925 state census is the most recent available.",
+      "source": "Iowa State Historical Society. Iowa Census Records Guide. Des Moines: ISHS, 2005."
+    },
+    {
+      "source_type": "Church records (multiple denominations)",
+      "description": "Methodist, Presbyterian, Baptist, and Lutheran congregations in Story County maintained baptismal, marriage, and burial records. The denominational mix reflects the county's Yankee and northern European settlement.",
+      "repository": "Individual congregations; Iowa Conference archives; FamilySearch microfilm",
+      "era_coverage": "1855–present",
+      "genealogical_value": "Church records supplement civil vital records, especially before 1880 when Iowa required vital registration.",
+      "source": "Allen, A History of Story County."
+    }
+  ],
+  "narrative_hooks": [
+    "The courthouse is in Nevada, not Ames — a fact that trips up researchers who assume the county seat is the college town. If {ancestor_name} did business at the Story County courthouse, {pronoun_subject} went to Nevada.",
+    "Iowa State College records at Ames may hold {ancestor_name}'s educational history — or, if {pronoun_subject} was a farmer, the extension service records that document how Iowa State's science reached every farm in the county.",
+    "Iowa's state censuses — 1856, 1885, 1895, 1905, 1915, 1925 — fill the gaps between the federal enumerations, giving {ancestor_name}'s family a record approximately every five years.",
+    "The drainage district records at the Story County courthouse are an underused genealogical source — they document who owned what land, what they paid for tile installation, and how the engineered landscape of the Corn Belt was built, farm by farm."
+  ],
+  "source_references": [
+    "Allen, William G. A History of Story County, Iowa. Des Moines: Iowa Printing Company, 1914.",
+    "Ross, Earle D. A History of the Iowa State College. Ames: Iowa State College Press, 1942.",
+    "Iowa State Historical Society. Iowa Census Records Guide. Des Moines: ISHS, 2005."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ia_story",
+    "research_guidance_refs": ["census_gaps", "vital_records"],
+    "template_refs": ["record_silences"]
+  }
+}

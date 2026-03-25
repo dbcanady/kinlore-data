@@ -1,0 +1,143 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-25",
+  "_purpose": "Road and connectivity network for the IA Corn Belt cluster. Documents how transportation shaped isolation, settlement, and migration across eight counties from military roads through railroad dominance to automobile highways. Unlike the ia_eastern cluster (Driftless terrain), the Corn Belt's flat prairie made road building easy but distances large. The railroad created the towns; the automobile killed the crossroads communities.",
+  "connectivity_id": "ia_corn_belt_roads",
+  "display_name": "IA Corn Belt — Road & Connectivity Network",
+  "cluster_ref": "ia_corn_belt",
+  "era_range": "1833-1960",
+  "transportation_eras": [
+    {
+      "era_id": "military_road_prairie",
+      "era_name": "Military Roads and Prairie Trails",
+      "date_range": "1833-1870",
+      "primary_modes": ["wagon on unimproved trail", "horseback", "stagecoach on military roads"],
+      "description": "Before the railroad, central Iowa's transportation was defined by distance across flat, treeless prairie. Military roads — the first improved routes — connected Des Moines to Fort Dodge and Dubuque. Local travel was by wagon on unimproved trails that followed section lines where possible. The flat terrain made road building easy in theory but the poorly drained soils created mud that was as impassable as any mountain road. Spring breakup could strand a farm for weeks. Stage lines connected county seats by the 1860s.",
+      "road_conditions": "Unimproved dirt tracks on native soil. The flat terrain meant no grades to negotiate but the poorly drained Des Moines Lobe soils turned to deep mud in spring and after rains. Prairie grass growing to the wagon ruts. No bridges — streams crossed at fords. The western counties (Buena Vista, Sac, Calhoun) had the worst roads because the wettest soils.",
+      "travel_times": [
+        {"from": "Ames (Story Co.)", "to": "Des Moines", "mode": "wagon", "time": "1-2 days", "conditions_note": "Military road — the best route in the cluster"},
+        {"from": "Jefferson (Greene Co.)", "to": "Des Moines", "mode": "wagon", "time": "2-3 days", "conditions_note": "Unimproved trail"},
+        {"from": "Storm Lake (Buena Vista Co.)", "to": "nearest railroad", "mode": "wagon", "time": "3-5 days", "conditions_note": "Before railroad arrival — long distances across wet prairie"},
+        {"from": "Typical farm", "to": "County seat", "mode": "wagon", "time": "3-8 hours", "conditions_note": "Flat terrain but mud in spring"}
+      ],
+      "key_routes": [
+        {"route_name": "Military Road (Des Moines to Fort Dodge)", "type": "territorial road", "year_established": "1850s", "description": "The primary north-south route through the cluster. Improved surface through Story and Boone counties. The best road in the region before the railroad.", "counties_served": ["Story", "Boone"]},
+        {"route_name": "Section-line roads", "type": "local roads", "year_established": "1850s-1870s", "description": "Iowa's township grid laid section-line roads every mile. On the flat prairie, these roads were straight but unimproved — dirt tracks that were passable in dry weather and impassable in wet.", "counties_served": ["all eight counties"]}
+      ],
+      "isolation_index": {
+        "description": "Moderate to severe. The flat terrain meant no topographic barriers, but distances were large and roads were poor. A farm in Buena Vista or Calhoun County was 50-80 miles from the nearest railroad before the 1880s. Spring mud could isolate a farm for weeks.",
+        "comparative_note": "The Corn Belt's isolation was different from the Driftless Area (ia_eastern) — not terrain-imposed but distance-imposed. The flat prairie was easy to cross in good weather but the distances were vast and the mud was legendary."
+      },
+      "narrative_hook": "Before the railroad, {ancestor_name} in {county} County was connected to the world by a wagon road that followed the section line — straight as a surveyor's chain, flat as a table, and in April, deep enough in mud to swallow a wheel hub.",
+      "source": "Schwieder, Iowa: The Middle Land. Petersen, The Story of Iowa."
+    },
+    {
+      "era_id": "railroad_town_creation",
+      "era_name": "Railroad Expansion and Town Creation",
+      "date_range": "1860-1920",
+      "primary_modes": ["railroad", "wagon on unimproved road", "horseback"],
+      "description": "The railroad created the Corn Belt's town pattern. Unlike the eastern United States, where towns grew at river crossings and natural harbors, central Iowa's towns were created by the railroad — placed at intervals determined by the railroad company, with the depot as the center and the grain elevator as the landmark. The Chicago and North Western, the Illinois Central, the Minneapolis and St. Louis, and the Rock Island laid lines across the cluster in the 1860s-1880s. Every 6-8 miles, the railroad placed a depot — and at each depot, a town formed around a grain elevator, a general store, a church, and eventually a school. These depot towns were the social and economic units of the Corn Belt, spaced at the distance a farmer could haul a load of grain to the elevator and return home in a single day by wagon.",
+      "road_conditions": "Local roads remained unimproved dirt. The flat terrain made road maintenance easier than in hilly country, but the poorly drained soils remained problematic. Section-line roads were the standard pattern — straight, one mile apart, connecting farms to the nearest depot town.",
+      "travel_times": [
+        {"from": "Ames", "to": "Chicago", "mode": "Chicago and North Western Railroad", "time": "8-12 hours", "conditions_note": "Daily passenger service"},
+        {"from": "Marshalltown", "to": "Chicago", "mode": "Chicago and North Western Railroad", "time": "6-10 hours", "conditions_note": "Through service"},
+        {"from": "Storm Lake", "to": "Des Moines", "mode": "railroad", "time": "4-6 hours", "conditions_note": "With connections"},
+        {"from": "Typical farm", "to": "Nearest depot town", "mode": "wagon", "time": "30 minutes to 2 hours", "conditions_note": "Flat terrain, 3-4 miles average"}
+      ],
+      "key_routes": [
+        {"route_name": "Chicago and North Western Railway (main line)", "type": "railroad", "year_established": "1860s", "description": "The primary east-west trunk line through the cluster. Connected Marshalltown, Ames, Boone, and points west to Chicago. The backbone of the cluster's transportation.", "counties_served": ["Marshall", "Story", "Boone", "Greene"]},
+        {"route_name": "Chicago and North Western (northwestern branch)", "type": "railroad", "year_established": "1880s", "description": "Branch line serving the northwestern counties. Connected Storm Lake, Sac City, and intermediate towns to the main line.", "counties_served": ["Buena Vista", "Sac", "Calhoun"]},
+        {"route_name": "Minneapolis and St. Louis Railway", "type": "railroad", "year_established": "1880s", "description": "North-south route through the eastern portion of the cluster. Connected Marshalltown to Minneapolis.", "counties_served": ["Marshall", "Tama"]},
+        {"route_name": "Iowa Central Railway", "type": "railroad", "year_established": "1870s", "description": "Connected Marshalltown to the north and south. Made Marshalltown a junction town.", "counties_served": ["Marshall"]}
+      ],
+      "isolation_index": {
+        "description": "Low for farms near depot towns (within 3-4 miles). Moderate for farms between depots. The flat terrain and section-line road grid made the depot town accessible year-round except during the worst spring mud.",
+        "comparative_note": "The Corn Belt's flat terrain and regular road grid created less isolation variation than the Driftless Area. Almost every farm was within a half-day's wagon trip of a depot town."
+      },
+      "narrative_hook": "The railroad created {ancestor_name}'s town — the depot came first, then the grain elevator, then the store and the church, all spaced six miles from the next depot town in a pattern the railroad company had drawn on a map before anyone lived there.",
+      "source": "Schwieder, Iowa: The Middle Land. Petersen, The Story of Iowa."
+    },
+    {
+      "era_id": "automobile_good_roads",
+      "era_name": "Automobile and Good Roads Era",
+      "date_range": "1910-1940",
+      "primary_modes": ["automobile", "railroad (declining passenger service)", "truck (emerging)"],
+      "description": "The automobile arrived on the flat Corn Belt prairie more easily than in the hilly Driftless Area — the terrain imposed no grades and the section-line road grid provided a ready-made network. But the roads themselves remained unimproved dirt, and the poorly drained Des Moines Lobe soils were notorious for spring mud. The Good Roads movement — county road improvement, state highway designation, and federal funding — gradually graveled and then paved the primary routes. The Lincoln Highway (US 30), designated in 1913 as America's first transcontinental automobile highway, crossed the southern edge of the cluster through Greene County (Jefferson) and Story County (Nevada/Ames). US 20 crossed the northern portion. The automobile doubled the range of a trip to town, which began killing the small depot communities — if a farmer could drive fifteen miles to a county-seat town with better stores, the crossroads store six miles away lost its customers.",
+      "road_conditions": "State highways graveled and gradually paved through the 1920s-1930s. County roads mostly graveled by the 1930s. Township roads remained dirt in many areas. The flat terrain made grading easy but the heavy black soil was difficult to maintain — rutting in wet weather was severe.",
+      "travel_times": [
+        {"from": "Ames", "to": "Des Moines", "mode": "automobile via Lincoln Highway (US 30)", "time": "1-2 hours", "conditions_note": "Paved highway by the 1930s"},
+        {"from": "Storm Lake", "to": "Des Moines", "mode": "automobile", "time": "3-4 hours", "conditions_note": "Partly paved by the late 1930s"},
+        {"from": "Typical farm", "to": "County seat", "mode": "automobile", "time": "20-60 minutes", "conditions_note": "Depending on road condition and distance"}
+      ],
+      "key_routes": [
+        {"route_name": "Lincoln Highway (US 30)", "type": "paved highway", "year_established": "1913 (designated); paved through 1920s-1930s", "description": "America's first transcontinental automobile highway. Crossed the cluster through Jefferson (Greene Co.) and Nevada/Ames (Story Co.). The most significant road in the cluster — connected Iowa to both coasts.", "counties_served": ["Greene", "Boone", "Story"]},
+        {"route_name": "US Highway 20", "type": "paved highway", "year_established": "1926", "description": "East-west route across northern Iowa. Served the northern portion of the cluster.", "counties_served": ["Buena Vista", "Sac", "Calhoun"]},
+        {"route_name": "US Highway 65 (north-south)", "type": "paved highway", "year_established": "1926", "description": "North-south route through Marshalltown and Ames.", "counties_served": ["Marshall", "Story"]}
+      ],
+      "isolation_index": {
+        "description": "Low and declining. The flat terrain and section-line grid made automobile travel relatively easy. Paved highways connected county seats. The remaining isolation was seasonal (spring mud on unpaved roads) rather than permanent.",
+        "comparative_note": "The Corn Belt's flat terrain made automobile adoption faster and more effective than in hilly regions. By the 1930s, automobile isolation was essentially a spring-mud problem, not a year-round condition."
+      },
+      "narrative_hook": "The Lincoln Highway ran through {county} County — America's first transcontinental road, carrying automobiles from New York to San Francisco past {ancestor_name}'s farm, where the corn came up to the highway shoulder and the world drove through without stopping.",
+      "source": "Schwieder, Iowa: The Middle Land. Hokanson, Drake. The Lincoln Highway: Main Street Across America. Iowa City: University of Iowa Press, 1988."
+    },
+    {
+      "era_id": "modern_highway",
+      "era_name": "Modern Highway Era",
+      "date_range": "1940-1960",
+      "primary_modes": ["automobile", "truck freight", "railroad (declining)"],
+      "description": "Postwar highway improvement connected every farm to the modern road network. County roads were graveled universally. State highways were paved. The Interstate Highway System was authorized in 1956 — I-35 would eventually run through Story County (Ames), and I-80 would cross the state just south of the cluster. Truck freight displaced railroad freight for local hauls, and the depot towns that had been created by the railroad began losing their shipping function. Railroad passenger service declined. By 1960, the automobile was the dominant mode and every farm was within an hour of a city.",
+      "road_conditions": "State highways fully paved. County roads graveled. Township roads improving. Spring mud still an issue on dirt roads but increasingly rare as gravel coverage expanded.",
+      "travel_times": [
+        {"from": "Ames", "to": "Des Moines", "mode": "automobile", "time": "45-60 minutes", "conditions_note": "Paved highway the entire route"},
+        {"from": "Storm Lake", "to": "Des Moines", "mode": "automobile", "time": "2.5-3 hours", "conditions_note": "Paved highway"},
+        {"from": "Typical farm", "to": "Nearest town", "mode": "automobile", "time": "10-30 minutes", "conditions_note": "Graveled or paved roads year-round"}
+      ],
+      "key_routes": [
+        {"route_name": "US 30 (Lincoln Highway) improvements", "type": "improved highway", "year_established": "1940s-1950s", "description": "Widened and improved. Would eventually become a four-lane expressway.", "counties_served": ["Greene", "Boone", "Story"]},
+        {"route_name": "Interstate Highway System authorized", "type": "planned interstate", "year_established": 1956, "description": "I-35 planned through Story County (Ames). I-80 across southern Iowa. Would transform the cluster's connectivity by the 1960s-1970s.", "counties_served": ["Story"]}
+      ],
+      "isolation_index": {
+        "description": "Minimal. By 1960, every farm in the cluster was within an hour's drive of a city. The flat terrain and modern road network eliminated the isolation that had defined pioneer-era farming.",
+        "comparative_note": "The Corn Belt reached minimum isolation earlier than the Driftless Area (ia_eastern) because the flat terrain made road improvement cheaper and more effective."
+      },
+      "narrative_hook": "By {year}, {ancestor_name} could drive from the farm to Ames or Des Moines in under an hour — a trip that would have taken {ancestor_name}'s grandparents two days by wagon across the same flat prairie that now carried a paved highway.",
+      "source": "Schwieder, Iowa: The Middle Land. Hokanson, The Lincoln Highway."
+    }
+  ],
+  "railroad_timeline": [
+    {
+      "railroad_name": "Chicago and North Western Railway",
+      "year_arrived": "1860s",
+      "stations": [
+        {"station_name": "Marshalltown", "county": "Marshall", "significance": "Major junction — C&NW met Iowa Central and M&StL. Commercial center."},
+        {"station_name": "Nevada", "county": "Story", "significance": "County seat connection."},
+        {"station_name": "Ames", "county": "Story", "significance": "Iowa State College town. Student and faculty traffic."},
+        {"station_name": "Boone", "county": "Boone", "significance": "Kate Shelley bridge crossing. Coal shipping point."},
+        {"station_name": "Jefferson", "county": "Greene", "significance": "County seat and Lincoln Highway junction."},
+        {"station_name": "Sac City", "county": "Sac", "significance": "County seat."},
+        {"station_name": "Storm Lake", "county": "Buena Vista", "significance": "County seat and lake resort. Buena Vista College town."},
+        {"station_name": "Rockwell City", "county": "Calhoun", "significance": "County seat."}
+      ],
+      "impact": "The C&NW was the railroad that created the Corn Belt's town pattern. Every depot town in the cluster existed because the C&NW put a station there.",
+      "source": "Petersen, The Story of Iowa."
+    }
+  ],
+  "narrative_hooks": [
+    "The railroad created {ancestor_name}'s town — placed a depot every six miles, and at each depot a grain elevator, a store, and a church grew up, in a pattern that the railroad company had drawn on a map before anyone lived there.",
+    "The Lincoln Highway carried America past {ancestor_name}'s farm — the first transcontinental road, running through {county} County from New York to San Francisco, paved and busy while the section-line road to the farm was still dirt.",
+    "Before the railroad, {ancestor_name}'s farm in {county} County was days from a market. After the railroad, it was hours. The grain elevator at the depot was the mechanism that converted distance into money.",
+    "The automobile killed the depot town that {ancestor_name} had known — when a farmer could drive fifteen miles to the county seat, the crossroads store six miles away lost its reason to exist.",
+    "Spring mud in {county} County was the annual reminder that the flat prairie that made farming easy made roads miserable — the black soil that grew the best corn in the world also made the worst mud."
+  ],
+  "source_references": [
+    "Schwieder, Dorothy. Iowa: The Middle Land. Ames: Iowa State University Press, 1996.",
+    "Petersen, William J. The Story of Iowa. New York: Lewis Historical Publishing, 1952.",
+    "Hokanson, Drake. The Lincoln Highway: Main Street Across America. Iowa City: University of Iowa Press, 1988.",
+    "Prior, Jean C. Landforms of Iowa. Iowa City: University of Iowa Press, 1991.",
+    "Federal Writers' Project. Iowa: A Guide to the Hawkeye State. New York: Viking Press, 1938."
+  ],
+  "nel_cross_references": {
+    "route_refs": []
+  }
+}

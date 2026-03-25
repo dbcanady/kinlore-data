@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-25",
+  "_purpose": "Courthouse Atlas for Greene County, IA. Record survival, courthouse history, and known losses. Jefferson is the county seat. Records are intact from county organization. The classic Iowa county-seat town with a courthouse square.",
+  "courthouse_atlas_id": "ia_greene_courthouse",
+  "display_name": "Greene County, Iowa — Courthouse Atlas",
+  "county": "Greene",
+  "state": "IA",
+  "fips_code": "19073",
+  "cluster_ref": "ia_corn_belt",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1917,
+      "location": "Jefferson, IA — 114 North Chestnut Street (courthouse square)",
+      "records_housed": ["deeds", "plats", "vital records", "probate records", "court minutes", "naturalization records", "military discharge records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1854–1870",
+        "location": "Jefferson — frame courthouse on the square",
+        "fate": "Replaced by brick building. Records transferred."
+      },
+      {
+        "era": "1870–1916",
+        "location": "Jefferson — brick courthouse",
+        "fate": "Replaced by current building (1917). Records transferred intact."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "greene_no_major_loss",
+      "date": "N/A",
+      "cause": "None known",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "probate records", "court minutes", "marriage records", "naturalization records"],
+      "scope": "none",
+      "description": "Greene County has no known major courthouse fire or catastrophic record loss. Records are continuous from county organization in 1854. The courthouse on the square in Jefferson has been the center of county business for over 160 years.",
+      "narrative_impact": "If {ancestor_name} settled in Greene County, the courthouse records at Jefferson are intact and continuous. The county's straightforward Yankee-and-northern-European settlement pattern makes record interpretation relatively uncomplicated.",
+      "source": "E. B. Stillman, Past and Present of Greene County, Iowa. Chicago: S. J. Clarke Publishing Company, 1907."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1854,
+      "completeness": "Excellent — continuous from county organization.",
+      "gaps": "No known significant gaps.",
+      "repository": "Greene County Recorder, Jefferson; Iowa State Archives",
+      "online_access": "FamilySearch microfilm; Ancestry.com"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1856,
+      "completeness": "Good — probate records from early settlement.",
+      "gaps": "Early settlers dying intestate without significant property may have no record.",
+      "repository": "Greene County Clerk of Court; Iowa State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1854,
+      "completeness": "Good — civil marriage records from county organization.",
+      "gaps": "Some early marriages not recorded civilly.",
+      "repository": "Greene County Recorder; Iowa State Archives",
+      "online_access": "FamilySearch; Ancestry.com Iowa marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1854,
+      "completeness": "Good.",
+      "gaps": "Justice of the peace records incomplete.",
+      "repository": "Greene County Courthouse, Jefferson; Iowa State Archives",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1880,
+      "death_registration_start": 1880,
+      "completeness": "Iowa vital registration from 1880. Jefferson had better compliance than rural townships.",
+      "repository": "Iowa Department of Public Health; Greene County Recorder; Iowa State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Jefferson Bee (newspaper)",
+      "description": "The Jefferson Bee was the county's newspaper of record — published continuously from the 1860s. It carried local news, legal notices, obituaries, and social columns.",
+      "repository": "State Historical Society of Iowa (microfilm); Jefferson Public Library",
+      "era_coverage": "1860s–present",
+      "genealogical_value": "Obituaries, marriage notices, local news columns, and legal advertisements. The Bee is the primary newspaper source for Greene County genealogy.",
+      "source": "State Historical Society of Iowa. Iowa Newspaper Guide."
+    },
+    {
+      "source_type": "Federal and Iowa state censuses",
+      "description": "Federal population schedules 1850–1940 and Iowa state censuses (1856, 1885, 1895, 1905, 1915, 1925).",
+      "repository": "National Archives; FamilySearch; Ancestry.com; Iowa State Archives",
+      "era_coverage": "1850–1940",
+      "genealogical_value": "Iowa's state censuses fill the gaps between federal enumerations. Greene County was well-settled by 1880.",
+      "source": "Iowa State Historical Society. Iowa Census Records Guide. Des Moines: ISHS, 2005."
+    },
+    {
+      "source_type": "Church records (Methodist, Presbyterian, Lutheran)",
+      "description": "Multiple denominations maintained records in Greene County. Methodist and Presbyterian churches were the earliest; German Lutheran congregations followed.",
+      "repository": "Individual congregations; FamilySearch microfilm; denominational archives",
+      "era_coverage": "1855–present",
+      "genealogical_value": "Church records supplement civil vital records before 1880.",
+      "source": "Stillman, Past and Present of Greene County."
+    }
+  ],
+  "narrative_hooks": [
+    "The Greene County courthouse on the square in Jefferson is the archetypal Iowa county seat — {ancestor_name}'s deeds, probate records, and marriage license are in the same building where every legal transaction in the county has been recorded since 1854.",
+    "The Jefferson Bee has been publishing since the 1860s — if {ancestor_name} died, married, or did anything newsworthy in Greene County, the Bee probably printed it.",
+    "Iowa's state censuses give Greene County families a record approximately every five years — filling the gap left by the 1890 census fire during the county's peak farming years.",
+    "Greene County's records are straightforward — no courthouse fire, no county seat fight, no major disruption. The challenge is not finding the records but reading the handwriting."
+  ],
+  "source_references": [
+    "Stillman, E. B. Past and Present of Greene County, Iowa. Chicago: S. J. Clarke Publishing Company, 1907.",
+    "Iowa State Historical Society. Iowa Census Records Guide. Des Moines: ISHS, 2005.",
+    "State Historical Society of Iowa. Iowa Newspaper Guide."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ia_greene",
+    "research_guidance_refs": ["census_gaps", "vital_records", "newspapers"],
+    "template_refs": ["record_silences"]
+  }
+}

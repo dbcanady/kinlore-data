@@ -1,0 +1,278 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-25",
+  "_purpose": "Local economy timeline for the IA Corn Belt cluster (Story, Boone, Marshall, Tama, Buena Vista, Sac, Calhoun, Greene counties). Covers 1833-1960 across six economic eras — from prairie settlement through the drainage revolution, corn-hog economy maturation, Depression, and postwar mechanization. Iowa State College at Ames was the agricultural knowledge engine. Coal mining at Boone County provided an industrial counterpoint. The cooperative movement — grain elevators, creameries, mutual insurance — defined the rural economy's institutional structure.",
+  "economy_id": "ia_corn_belt_economy",
+  "display_name": "IA Corn Belt — Local Economy Timeline",
+  "cluster_ref": "ia_corn_belt",
+  "era_range": "1833-1960",
+  "economic_eras": [
+    {
+      "era_id": "prairie_settlement",
+      "era_name": "Prairie Settlement and Subsistence Agriculture",
+      "date_range": "1833-1870",
+      "dominant_economy": "Subsistence farming on newly broken prairie; initial market connections through river towns and military roads",
+      "description": "The Black Hawk Purchase of 1832 and subsequent treaties opened central Iowa to settlement. The first Euro-American settlers arrived in the early 1850s, claiming quarter-sections of tallgrass prairie. Breaking the sod was the foundational act — heavy steel plows pulled by four to six oxen turned the dense prairie root mat for the first time. The first crops were corn and wheat, with hog production as the primary livestock enterprise. The economy was subsistence-oriented until the railroad arrived — farmers consumed most of what they grew, with modest surplus sold at the nearest river town or county seat. Iowa State College was established at Ames in 1858 (classes began 1869), planting the institutional seed that would transform Iowa agriculture. The Meskwaki purchased their own land at Tama in 1857, establishing an economic presence that existed alongside but separate from the settler economy.",
+      "county_specifics": [
+        {"county": "Story", "note": "Iowa State College (est. 1858) established. Nevada designated county seat. Prairie breaking from the mid-1850s."},
+        {"county": "Boone", "note": "Settlement along the Des Moines River valley. Early coal mining began in the 1860s in exposed seams."},
+        {"county": "Marshall", "note": "Marshalltown established at the Iowa River crossing. Early commercial development as a road junction."},
+        {"county": "Tama", "note": "Meskwaki land purchase (1857) — 80 acres along the Iowa River. Czech settlement at Clutier began in the 1870s. Toledo designated county seat."},
+        {"county": "Buena Vista", "note": "Almost unsettled before the 1880s. The wet, flat terrain discouraged early settlement."},
+        {"county": "Sac", "note": "Sparse settlement before the railroad. Sac City established on the North Raccoon River."},
+        {"county": "Calhoun", "note": "Among the last counties settled — wet terrain required drainage before farming was viable."},
+        {"county": "Greene", "note": "Jefferson established. Prairie settlement from the 1850s. Raccoon River timber was essential for early building."}
+      ],
+      "key_infrastructure": [
+        {"name": "Iowa State College of Agriculture and Mechanic Arts established", "year": 1858, "impact": "First institution to accept the Morrill Land-Grant Act. Would become the intellectual engine of Iowa agriculture."},
+        {"name": "Meskwaki land purchase at Tama", "year": 1857, "impact": "The only Native American community in Iowa that bought back its own land. Established a permanent Meskwaki presence in the cluster."},
+        {"name": "Chicago and North Western Railroad reaches central Iowa", "year": "1860s", "impact": "Connected the cluster's county seats to the Chicago market. Transformed subsistence farming into commercial agriculture."}
+      ],
+      "major_employers": [
+        {"name": "Subsistence and market agriculture", "type": "Self-employed agriculture", "era": "1850-1870", "counties_affected": ["Story", "Boone", "Marshall", "Tama", "Greene"], "employment_scale": "Dominant — each homestead was a family enterprise"},
+        {"name": "Coal mining (early operations)", "type": "Mining", "era": "1860-1870", "counties_affected": ["Boone"], "employment_scale": "Dozens of miners in small operations"}
+      ],
+      "wage_benchmarks": [
+        {"occupation": "Farm laborer", "wage": "$0.75-$1.25/day plus board", "year": 1860, "source": "Schwieder, Iowa: The Middle Land, ch. 3"},
+        {"occupation": "Prairie breaking (contract)", "wage": "$2.00-$3.00/acre", "year": 1855, "source": "Ross, Iowa Agriculture, ch. 4"}
+      ],
+      "narrative_hook": "When {ancestor_name} broke prairie in {county} County around {year}, {pronoun_subject} was turning soil that had never been plowed — six feet of black topsoil built by ten thousand years of grass, and the plow cut through roots so dense it took six oxen to pull the share.",
+      "source": "Schwieder, Iowa: The Middle Land. Ross, Iowa Agriculture."
+    },
+    {
+      "era_id": "railroad_corn_hog",
+      "era_name": "Railroad Arrival and the Corn-Hog Economy",
+      "date_range": "1870-1900",
+      "dominant_economy": "Corn and hog production for the Chicago market; railroad infrastructure; cooperative movement beginnings; coal mining at Boone",
+      "description": "The railroad transformed central Iowa's economy by connecting every county seat to the Chicago market. Corn production surged — shipped by rail as grain, or more profitably, 'on the hoof' as hogs that had been fattened on corn. The corn-hog cycle became the economic heartbeat: plant corn in May, fatten hogs through the fall, ship in November. The cooperative movement began — farmers organized cooperative grain elevators and creameries to market their products collectively and break the monopoly of private elevator operators who set prices at the railroad depot. Iowa State College began producing agricultural research and training county agents. In Boone County, coal mining expanded — Swedish, Welsh, and Italian immigrants arrived to work the Des Moines River valley mines, creating mining camps that were industrial enclaves in an agricultural landscape. In Tama County, the Meskwaki Settlement expanded through additional land purchases.",
+      "county_specifics": [
+        {"county": "Story", "note": "Iowa State College expanded. Ames grew as a college town. Corn-hog economy on the surrounding farms."},
+        {"county": "Boone", "note": "Coal mining peaked — Swedish, Welsh, and Italian miners in valley camps. Agricultural economy on the uplands."},
+        {"county": "Marshall", "note": "Marshalltown became a railroad junction (Chicago and North Western + Iowa Central). Commercial center developed."},
+        {"county": "Tama", "note": "Meskwaki Settlement expanded. Czech community at Clutier consolidated. Mixed farming economy."},
+        {"county": "Buena Vista", "note": "Railroad arrived in the 1880s. Settlement accelerated. Drainage tile installation began."},
+        {"county": "Sac", "note": "Railroad connection. German settlement consolidated. Corn-hog economy established."},
+        {"county": "Calhoun", "note": "Drainage districts organized. First tile installed. Agricultural development began in earnest."},
+        {"county": "Greene", "note": "Fully developed corn-hog economy. Jefferson's courthouse square served as commercial center."}
+      ],
+      "key_infrastructure": [
+        {"name": "Railroad network connects all eight county seats", "year": "1870s-1880s", "impact": "Every county seat became a railroad shipping point. Corn and hogs could reach Chicago within 24 hours."},
+        {"name": "Cooperative grain elevator movement", "year": "1880s", "impact": "Farmers organized to market grain collectively, breaking the monopoly of private elevator operators."},
+        {"name": "Drainage tile installation begins", "year": "1880s", "impact": "Clay tile pipes buried 4 feet underground began transforming poorly drained prairie into productive cropland. The investment that made the western counties (Buena Vista, Sac, Calhoun) viable."},
+        {"name": "Iowa State College Extension Service established", "year": 1906, "impact": "Carried scientific agriculture from the campus to every farm through county agents — the most effective agricultural education system in the world."}
+      ],
+      "major_employers": [
+        {"name": "Family farms (corn, hogs, dairy, small grains)", "type": "Self-employed agriculture", "era": "1870-1900", "counties_affected": ["all eight counties"], "employment_scale": "Dominant employment across the cluster"},
+        {"name": "Coal mining operations", "type": "Mining", "era": "1870-1900", "counties_affected": ["Boone"], "employment_scale": "Hundreds of miners at peak"},
+        {"name": "Railroad construction and operation", "type": "Corporate transportation", "era": "1870-1900", "counties_affected": ["Story", "Boone", "Marshall", "Greene"], "employment_scale": "Hundreds of construction workers; permanent section crews"}
+      ],
+      "wage_benchmarks": [
+        {"occupation": "Farm laborer (annual)", "wage": "$150-$300/year plus board", "year": 1890, "source": "Schwieder, Iowa: The Middle Land, ch. 5"},
+        {"occupation": "Coal miner", "wage": "$1.50-$2.50/day", "year": 1890, "source": "Schwieder, Black Diamonds, ch. 3"},
+        {"occupation": "Railroad section hand", "wage": "$1.25-$1.75/day", "year": 1890, "source": "Schwieder, Iowa: The Middle Land"}
+      ],
+      "narrative_hook": "By {year}, {ancestor_name} in {county} County was farming for Chicago — the corn went into the hogs, the hogs went onto the railroad, and the check came back from the packing house, a cycle so direct that the farmer and the Chicago butcher were separated by nothing but a boxcar and a day's travel.",
+      "source": "Schwieder, Iowa: The Middle Land. Ross, Iowa Agriculture. Schwieder, Black Diamonds."
+    },
+    {
+      "era_id": "drainage_golden_age",
+      "era_name": "The Drainage Revolution and the Golden Age of Iowa Farming",
+      "date_range": "1900-1920",
+      "dominant_economy": "Intensive corn-hog production on drained prairie; cooperative institutions maturing; Iowa State College driving agricultural innovation; wartime price boom",
+      "description": "The early twentieth century was the 'golden age' of Iowa farming. Corn prices rose, land values climbed, and the drainage revolution unlocked millions of acres of previously uncropable land. Drainage tile — factory-produced clay pipes — was installed by the mile. Drainage districts organized under Iowa law assessed property owners to fund main ditches and tile mains. Individual farmers connected their private tile systems to the district infrastructure. The result was a county-scale hydrological engineering project that transformed central Iowa's landscape. Iowa State College produced hybrid corn research, trained county agents, and built the Extension Service that carried scientific agriculture to every farm. Cooperative grain elevators and creameries were in every town. World War I boosted farm prices to unprecedented levels — corn at $1.50/bushel, hogs at $17/hundred weight — and farmers borrowed heavily to buy land and install tile at inflated prices. The stage was set for catastrophe.",
+      "county_specifics": [
+        {"county": "Story", "note": "Iowa State College research at peak influence. Hybrid corn breeding underway. County was a showcase for Extension Service programs."},
+        {"county": "Boone", "note": "Coal mining declining as cheaper out-of-state coal captured markets. Agricultural economy dominant on uplands."},
+        {"county": "Marshall", "note": "Marshalltown diversifying — railroad shops, early manufacturing, and commercial services alongside agriculture."},
+        {"county": "Tama", "note": "Meskwaki Settlement continuing to expand through land purchases. Iowan Surface soils naturally well-drained — less tile needed."},
+        {"county": "Buena Vista", "note": "Massive drainage infrastructure installed. Poorly drained prairie converted to productive cropland."},
+        {"county": "Sac", "note": "Drainage investment transforming wet prairie. German farming communities at peak prosperity."},
+        {"county": "Calhoun", "note": "Most intensively drained county in the cluster. Drainage districts organized at county scale."},
+        {"county": "Greene", "note": "Corn-hog economy at full maturity. Jefferson's commercial district prosperous."}
+      ],
+      "key_infrastructure": [
+        {"name": "Drainage tile manufacturing and installation at scale", "year": "1900-1920", "impact": "Factory-produced clay tile replaced hand-made tile. Professional tile contractors installed miles of drainage per season. The investment that created the modern Corn Belt."},
+        {"name": "Iowa State College Extension Service county agents", "year": "1906-1920", "impact": "Every county had an extension agent carrying scientific agriculture from the college to the farm. Corn yield increases, livestock improvement, and soil management practices spread through the agent system."},
+        {"name": "Wartime price boom", "year": "1917-1919", "impact": "Corn and hog prices doubled. Farmers borrowed to buy land and install tile at inflated prices. Land values peaked."}
+      ],
+      "major_employers": [
+        {"name": "Family farms (corn, hogs, dairy)", "type": "Self-employed agriculture", "era": "1900-1920", "counties_affected": ["all eight counties"], "employment_scale": "Dominant employment. Peak number of individual farms."},
+        {"name": "Tile drainage contractors", "type": "Construction", "era": "1900-1920", "counties_affected": ["Buena Vista", "Sac", "Calhoun", "Story", "Boone", "Greene"], "employment_scale": "Seasonal employment for dozens per county"},
+        {"name": "Cooperative grain elevators and creameries", "type": "Agricultural cooperative", "era": "1900-1920", "counties_affected": ["all eight counties"], "employment_scale": "2-5 employees per facility; one facility per town"}
+      ],
+      "wage_benchmarks": [
+        {"occupation": "Farm laborer (annual)", "wage": "$300-$500/year plus board", "year": 1915, "source": "Ross, Iowa Agriculture, ch. 8"},
+        {"occupation": "Tile drainage laborer", "wage": "$2.00-$3.00/day", "year": 1910, "source": "Prince, Wetlands of the American Midwest"},
+        {"occupation": "Cooperative elevator operator", "wage": "$60-$100/month", "year": 1915, "source": "Iowa Department of Agriculture reports"}
+      ],
+      "narrative_hook": "In the golden age before the crash, {ancestor_name} in {county} County was earning more from corn than {pronoun_possessive} father had imagined possible — wartime prices, drained land, and Iowa State's new seed varieties pushing yields higher every year. But the land that {pronoun_subject} bought at wartime prices with borrowed money would become the trap that the next decade would spring.",
+      "source": "Ross, Iowa Agriculture. Schwieder, Iowa: The Middle Land. Prince, Wetlands of the American Midwest."
+    },
+    {
+      "era_id": "depression_crisis",
+      "era_name": "The Farm Depression and the Great Depression",
+      "date_range": "1920-1940",
+      "dominant_economy": "Agricultural price collapse; farm foreclosures; cooperative and federal responses; coal mine closures; rural-to-urban migration beginning",
+      "description": "Iowa's agricultural depression began in 1920, a full decade before the national crash. Wartime prices had inflated land values, and farmers who had borrowed to buy land and install drainage at peak prices found themselves underwater when corn fell from $1.50 to $0.40/bushel. Between 1920 and 1933, Iowa lost more farms to foreclosure than any other state. The heavily drained western counties (Buena Vista, Sac, Calhoun) were especially vulnerable — the drainage investment that had made the land productive now added debt to the farm that the corn price could not service. Penny auctions — where neighbors bid pennies on foreclosed farm equipment and returned it to the owner — were acts of community resistance. Iowa Governor Clyde Herring declared a moratorium on farm foreclosures in 1933. The Boone County coal mines closed as out-of-state coal was cheaper. The cooperative movement provided some resilience — cooperative grain elevators could negotiate better prices than individual farmers, and cooperative insurance cushioned losses. But the stress was severe. The New Deal brought federal programs — AAA crop reduction, CCC conservation work, Farm Credit Administration refinancing — that stabilized the surviving farms.",
+      "county_specifics": [
+        {"county": "Story", "note": "Iowa State College enrollment fluctuated with farm income. Extension agents helped farmers navigate federal programs. University employment cushioned the town."},
+        {"county": "Boone", "note": "Coal mines closed. Mining families relocated to Des Moines or other industrial centers. Upland farms under foreclosure pressure."},
+        {"county": "Marshall", "note": "Marshalltown's diversified economy provided some cushion. Railroad employment declined."},
+        {"county": "Tama", "note": "Meskwaki Settlement maintained separate economy. Czech and Yankee farms under stress. The Iowan Surface farms were slightly less leveraged than the Des Moines Lobe farms."},
+        {"county": "Buena Vista", "note": "Heavy drainage debt made farms extremely vulnerable. Foreclosure rates among the highest in Iowa."},
+        {"county": "Sac", "note": "Corn-dependent economy devastated by price collapse. Some farmers burned corn for fuel because it was cheaper than coal."},
+        {"county": "Calhoun", "note": "Drainage district assessments continued even as farm income collapsed — farmers owed for infrastructure they could not profitably use."},
+        {"county": "Greene", "note": "Corn-hog economy under severe stress. Penny auctions documented in Jefferson Bee."}
+      ],
+      "key_infrastructure": [
+        {"name": "Penny auction movement", "year": "1932-1933", "impact": "Neighbors gathered at farm foreclosure sales, bid pennies, and returned the property. Acts of community solidarity across the cluster."},
+        {"name": "Iowa moratorium on farm foreclosures", "year": 1933, "impact": "Governor Herring halted farm foreclosure proceedings. Provided temporary relief to families facing loss."},
+        {"name": "Agricultural Adjustment Administration (AAA)", "year": 1933, "impact": "Paid farmers to reduce acreage. Controversial but stabilized prices."},
+        {"name": "Soil Conservation Service", "year": 1935, "impact": "Federal erosion control and conservation programs. Terracing, contour farming, and grass waterways introduced."}
+      ],
+      "major_employers": [
+        {"name": "Family farms (under stress)", "type": "Self-employed agriculture", "era": "1920-1940", "counties_affected": ["all eight counties"], "employment_scale": "Declining as foreclosures removed families"},
+        {"name": "CCC and WPA", "type": "Federal relief employment", "era": "1933-1942", "counties_affected": ["all eight counties"], "employment_scale": "Hundreds across the cluster — erosion control, road improvement, tree planting"}
+      ],
+      "wage_benchmarks": [
+        {"occupation": "Farm laborer", "wage": "$20-$35/month plus board", "year": 1935, "source": "Schwieder, Iowa: The Middle Land, ch. 10"},
+        {"occupation": "CCC enrollee", "wage": "$30/month ($25 sent home)", "year": 1935, "source": "Salmond, The Civilian Conservation Corps"}
+      ],
+      "narrative_hook": "The Depression hit {county} County twice — first in 1920, when corn prices collapsed a decade before Wall Street noticed, and again in 1933, when the drainage tile that {ancestor_name} had financed at wartime prices was still in the ground but the corn above it was worth less than the interest on the loan.",
+      "source": "Schwieder, Iowa: The Middle Land. Ross, Iowa Agriculture."
+    },
+    {
+      "era_id": "wwii_recovery",
+      "era_name": "War, Recovery, and the Hybrid Corn Revolution",
+      "date_range": "1940-1950",
+      "dominant_economy": "Wartime demand restoring farm income; hybrid corn transforming yields; beginning of mechanization; GI Bill as educational exit ramp",
+      "description": "World War II rescued the Corn Belt economy. Farm prices rose to levels not seen since 1918. Corn that had sold for $0.15/bushel in 1933 sold for $1.00/bushel in 1943. Hybrid corn — developed at Iowa State and commercialized by Pioneer Hi-Bred (Des Moines) and DeKalb — transformed yields from 40 to 60 bushels per acre. The labor shortage drew women and older children into heavier farm work. After the war, the GI Bill sent thousands of farm sons to Iowa State, Drake, or out-of-state schools — and many never returned to farming. The tractor replaced the horse on most farms by 1945, and the mechanical corn picker was replacing hand picking. Each machine that replaced labor reduced the number of people the land could support.",
+      "county_specifics": [
+        {"county": "Story", "note": "Iowa State College at peak wartime research. GI Bill enrollment surged. Ames grew as a college and light-industry town."},
+        {"county": "Boone", "note": "Agricultural recovery on the uplands. Mining valley reverting to forest. Farm boys at Iowa State ten miles east."},
+        {"county": "Marshall", "note": "Fisher Controls (est. 1942) added industrial employment. Marshalltown diversified further."},
+        {"county": "Tama", "note": "Agricultural recovery. Meskwaki community members served in WWII. Czech community maintained cohesion."},
+        {"county": "Buena Vista", "note": "Drainage investment finally paying returns as prices recovered. Hybrid corn on the drained ground pushed yields."},
+        {"county": "Sac", "note": "Wartime prices restored solvency. Mechanization accelerated. Population began declining."},
+        {"county": "Calhoun", "note": "Recovery from Depression. Drainage systems fully mature and productive. Farm consolidation beginning."},
+        {"county": "Greene", "note": "Wartime prosperity. GI Bill sending farm sons to college. Jefferson's commercial district stable."}
+      ],
+      "key_infrastructure": [
+        {"name": "Hybrid corn adoption reaches 100%", "year": "1940-1945", "impact": "Iowa shifted completely from open-pollinated to hybrid corn. Yields jumped 30-50%. The most significant agricultural technology adoption of the century."},
+        {"name": "GI Bill of Rights", "year": 1944, "impact": "Sent thousands of Corn Belt farm sons to college. Many never returned to farming."},
+        {"name": "Tractor replaces the horse", "year": "1940-1950", "impact": "Horse farming effectively ended by 1950. The 20% of cropland devoted to feeding draft animals was freed for commercial crops."}
+      ],
+      "major_employers": [
+        {"name": "Family farms (recovering)", "type": "Self-employed agriculture", "era": "1940-1950", "counties_affected": ["all eight counties"], "employment_scale": "Still dominant but declining in farm count"},
+        {"name": "Fisher Controls (Marshalltown)", "type": "Industrial manufacturing", "era": "1942-1950", "counties_affected": ["Marshall"], "employment_scale": "Hundreds"}
+      ],
+      "wage_benchmarks": [
+        {"occupation": "Farm family (annual net income)", "wage": "$2,500-$5,000/year", "year": 1945, "source": "USDA Agricultural Statistics, Iowa"},
+        {"occupation": "Fisher Controls worker", "wage": "$0.75-$1.25/hour", "year": 1948, "source": "Schwieder, Iowa: The Middle Land"}
+      ],
+      "narrative_hook": "After the war, {ancestor_name} came home to {county} County and found that the corn had changed — hybrid varieties from Iowa State and Pioneer were producing sixty bushels where forty had been a good year, and the tractor was doing the work of six horses. The farm that had nearly been lost to the bank in 1933 was suddenly profitable again.",
+      "source": "Schwieder, Iowa: The Middle Land. Ross, Iowa Agriculture."
+    },
+    {
+      "era_id": "mechanized_consolidation",
+      "era_name": "Mechanization, Consolidation, and Rural Depopulation",
+      "date_range": "1950-1960",
+      "dominant_economy": "Large-scale mechanized corn and soybean production; farm consolidation; rural population decline; small-town erosion; industrial diversification in Ames and Marshalltown",
+      "description": "The 1950s completed the transformation of the Iowa Corn Belt from a landscape of small, diversified, labor-intensive family farms to one of larger, mechanized, specialized operations. Mechanical corn pickers replaced the last hand pickers. Self-propelled combines appeared. Anhydrous ammonia (nitrogen fertilizer) pushed corn yields toward 80 bushels per acre. Soybeans — barely present before 1940 — became the second crop, creating the corn-soybean rotation that would define the landscape for the next century. The number of farms declined sharply as surviving operations absorbed their neighbors' land. The small crossroads communities that had served horse-era farming — spaced every 6-8 miles, within a half-day's round trip by wagon — lost their reason to exist as the automobile extended the range of a trip to town. Schools consolidated. Churches closed. The rural population declined while the county-seat towns and college towns (Ames, Marshalltown, Storm Lake) held steady or grew.",
+      "county_specifics": [
+        {"county": "Story", "note": "Iowa State University (renamed 1959) expanding. Ames growing. Farm consolidation in surrounding townships."},
+        {"county": "Boone", "note": "Agricultural county with proximity to Ames and Des Moines. Farm consolidation. Crossroads communities declining."},
+        {"county": "Marshall", "note": "Marshalltown industrial economy diversifying. Fisher Controls expanding. Fisher family became major employer."},
+        {"county": "Tama", "note": "Farm consolidation. Meskwaki Settlement maintaining its land base. Toledo and Tama towns stable."},
+        {"county": "Buena Vista", "note": "Corn-soybean rotation established. Farm consolidation. Storm Lake held by the college and lake recreation."},
+        {"county": "Sac", "note": "Population declining. Small communities losing businesses and schools. Corn-soybean economy dominant."},
+        {"county": "Calhoun", "note": "Most consolidated — fewer, larger farms on heavily drained ground. Drainage systems requiring ongoing maintenance."},
+        {"county": "Greene", "note": "Jefferson maintaining county-seat functions. Rural population declining. Corn-soybean-hog economy."}
+      ],
+      "key_infrastructure": [
+        {"name": "Anhydrous ammonia (nitrogen fertilizer) adoption", "year": "1950s", "impact": "Nitrogen fertilizer eliminated the need for clover and other nitrogen-fixing rotations. Corn-on-corn or corn-soybean replaced the older corn-oats-hay rotation."},
+        {"name": "Self-propelled combine", "year": "1950s", "impact": "One machine replaced the binder, the threshing crew, and the horse-drawn grain wagon. Harvest labor needs plummeted."},
+        {"name": "Rural school consolidation", "year": "1950s", "impact": "One-room schools closed across the cluster. Children bused to consolidated town schools. The one-room school had been a community anchor."},
+        {"name": "Iowa State renamed Iowa State University", "year": 1959, "impact": "Reflected the institution's broadening mission beyond agriculture and engineering."}
+      ],
+      "major_employers": [
+        {"name": "Family farms (mechanized, consolidating)", "type": "Self-employed agriculture", "era": "1950-1960", "counties_affected": ["all eight counties"], "employment_scale": "Fewer families on larger farms"},
+        {"name": "Iowa State University", "type": "Education/research", "era": "1950-1960", "counties_affected": ["Story"], "employment_scale": "Thousands — the largest employer in Story County"},
+        {"name": "Fisher Controls", "type": "Industrial manufacturing", "era": "1950-1960", "counties_affected": ["Marshall"], "employment_scale": "500-1,000"}
+      ],
+      "wage_benchmarks": [
+        {"occupation": "Farm family (annual net income, mechanized operation)", "wage": "$4,000-$10,000/year", "year": 1958, "source": "USDA Agricultural Statistics, Iowa"},
+        {"occupation": "Iowa State University professor", "wage": "$5,000-$10,000/year", "year": 1958, "source": "ISU salary records"},
+        {"occupation": "Fisher Controls factory worker", "wage": "$1.50-$2.50/hour", "year": 1958, "source": "Schwieder, Iowa: The Middle Land"}
+      ],
+      "narrative_hook": "By {year}, the corn in {county} County was producing eighty bushels an acre — twice what {ancestor_name}'s father had managed — but the farm needed half the labor, and the crossroads community that had been {ancestor_name}'s social world was losing its store, its school, and its reason to exist.",
+      "source": "Schwieder, Iowa: The Middle Land. Ross, Iowa Agriculture."
+    }
+  ],
+  "economic_turning_points": [
+    {
+      "year": 1858,
+      "event": "Iowa State College established at Ames",
+      "impact": "First institution to accept the Morrill Land-Grant Act. Would become the intellectual engine of Iowa agriculture through research, Extension Service, and training.",
+      "counties_most_affected": ["Story"],
+      "narrative_hook": "Iowa State College at Ames was the beginning of the Corn Belt as a system — not just land, but science applied to land, and the knowledge that would make central Iowa the most productive agricultural landscape on earth.",
+      "source": "Ross, A History of Iowa State College."
+    },
+    {
+      "year": 1857,
+      "event": "Meskwaki land purchase at Tama",
+      "impact": "The only tribe in the United States to buy back its own land after removal. Established a permanent Meskwaki presence in the heart of the Corn Belt.",
+      "counties_most_affected": ["Tama"],
+      "narrative_hook": "In 1857, while settlers were breaking prairie across central Iowa, the Meskwaki were buying land back — eighty acres along the Iowa River in Tama County, purchased with their own money, a deed recorded in the same courthouse that held every settler's claim.",
+      "source": "Daubenmier, The Meskwaki and Anthropologists."
+    },
+    {
+      "year": 1920,
+      "event": "Postwar agricultural price collapse",
+      "impact": "Farm prices collapsed a decade before the national Depression. Iowa lost more farms to foreclosure than any other state 1920-1933. Heavily drained counties were most vulnerable.",
+      "counties_most_affected": ["Buena Vista", "Sac", "Calhoun", "Greene", "Story", "Boone"],
+      "narrative_hook": "The farm depression hit {county} County in 1920 — ten years before Wall Street noticed — when the corn price fell and the mortgage payment, the tile assessment, and the land debt all stayed where they were.",
+      "source": "Schwieder, Iowa: The Middle Land."
+    },
+    {
+      "year": 1935,
+      "event": "Hybrid corn adoption begins in earnest",
+      "impact": "Hybrid corn varieties — developed at Iowa State and commercialized by Pioneer Hi-Bred — transformed yields. By 1945, 100% of Iowa corn acreage was hybrid. The most significant agricultural technology adoption of the century.",
+      "counties_most_affected": ["all eight counties"],
+      "narrative_hook": "The hybrid seed that {ancestor_name} planted in {year} looked the same going in the ground — but it came up different: taller, thicker, heavier-eared corn that produced sixty bushels where forty had been a miracle. Iowa State had bred the future, and Pioneer had packaged it.",
+      "source": "Ross, Iowa Agriculture."
+    },
+    {
+      "year": 1944,
+      "event": "GI Bill of Rights",
+      "impact": "Sent thousands of Corn Belt farm sons to college. Many never returned to farming. The most effective mechanism for moving young people out of the agricultural economy.",
+      "counties_most_affected": ["all eight counties"],
+      "narrative_hook": "The GI Bill gave {ancestor_name} a way out of the corn field — a college degree paid for by the government, a ticket to a life where the workday did not start at five in the morning with a milk bucket or a corn picker.",
+      "source": "Schwieder, Iowa: The Middle Land."
+    }
+  ],
+  "narrative_hooks": [
+    "In {county} County in the {decade}s, the corn-hog cycle was the economic clock — plant in May, fatten hogs through fall, ship in November, and pray the price in Chicago was high enough to cover the cost of production.",
+    "Iowa State at Ames was the brain of the Corn Belt — the hybrid corn that {ancestor_name} planted, the fertilizer {pronoun_subject} applied, and the extension agent who taught {pronoun_object} how to use both all came from the college ten miles away.",
+    "The drainage tile beneath {ancestor_name}'s field was the most expensive infrastructure on the farm — and during the Depression, the tile assessment was due whether the corn was worth picking or not.",
+    "The penny auction at {ancestor_name}'s neighbor's farm in {county} County was the community's answer to the bank — bid pennies on everything, hand it back to the owner, and dare the sheriff to call it illegal.",
+    "The GI Bill sent {ancestor_name}'s son from the corn field to the classroom — and the degree was the exit ramp from an economy that could produce more corn with fewer people every year.",
+    "By {year}, the cooperative elevator in {county} County's town was the only institution standing between the individual farmer and the Chicago market — a collective bargaining tool that the private grain buyers could not outbid."
+  ],
+  "source_references": [
+    "Schwieder, Dorothy. Iowa: The Middle Land. Ames: Iowa State University Press, 1996.",
+    "Ross, Earle D. Iowa Agriculture: An Historical Survey. Iowa City: State Historical Society of Iowa, 1951.",
+    "Ross, Earle D. A History of the Iowa State College. Ames: Iowa State College Press, 1942.",
+    "Schwieder, Dorothy. Black Diamonds: Life and Work in Iowa's Coal Mining Communities. Ames: Iowa State University Press, 1983.",
+    "Prince, Hugh. Wetlands of the American Midwest. Chicago: University of Chicago Press, 1997.",
+    "Daubenmier, Judith M. The Meskwaki and Anthropologists. Lincoln: University of Nebraska Press, 2008.",
+    "USDA Agricultural Statistics, Iowa, 1900-1960.",
+    "Iowa Department of Agriculture. Annual Reports, 1890-1960."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["stayed_and_adapted", "gi_bill_migration", "gilded_age_labor_conflict", "civil_war_service"],
+    "material_life_refs": ["frontier_homestead_1780_1840", "antebellum_yeoman_farm_1820_1860", "small_town_merchant_1870_1930", "great_depression_urban_1929_1940"],
+    "wage_table_refs": ["wages_by_occupation_1850_1900", "wages_by_occupation_1900_1950"],
+    "life_pattern_refs": ["yeoman_farming_stability", "company_town_lifecycle", "depression_survival_strategies"]
+  }
+}
