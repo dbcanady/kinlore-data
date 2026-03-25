@@ -1,0 +1,139 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Washington County, MS. Record survival, courthouse history, and known losses. Washington County's records have suffered from the catastrophic 1927 flood, courthouse fires, and the general fragility of records in a flood-prone Delta county. The county seat, Greenville, was rebuilt after an 1874 fire and again after the 1927 flood.",
+  "courthouse_atlas_id": "ms_washington_courthouse",
+  "display_name": "Washington County, Mississippi — Courthouse Atlas",
+  "county": "Washington",
+  "state": "MS",
+  "fips_code": "28151",
+  "cluster_ref": "ms_delta",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1955,
+      "location": "Greenville, MS — Washington Avenue",
+      "records_housed": ["deeds", "chancery court records", "circuit court records", "marriage records", "vital records post-1912"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1827-1874",
+        "location": "Greenville (original location)",
+        "fate": "Destroyed by fire in 1874. Many early records lost."
+      },
+      {
+        "era": "1874-1927",
+        "location": "Greenville (rebuilt on same site)",
+        "fate": "Severely damaged in the 1927 flood. Some records destroyed by water; others relocated but scattered."
+      },
+      {
+        "era": "1927-1955",
+        "location": "Temporary and reconstructed facilities",
+        "fate": "Replaced by the current 1955 courthouse."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "washington_1874_fire",
+      "date": "1874",
+      "cause": "Courthouse fire",
+      "records_destroyed": ["early deed books (partial)", "some chancery court records pre-1860", "scattered marriage records"],
+      "records_survived": ["some deed books were salvaged", "circuit court records (partial)"],
+      "scope": "significant",
+      "description": "The 1874 fire destroyed the original courthouse and many early records. Some bound volumes were rescued but others were consumed. The loss is most severe for antebellum records — deed books, wills, and court records from the county's earliest decades suffered the greatest damage.",
+      "narrative_impact": "If {ancestor_name} held property in Washington County before 1874, some deed records may have been lost in the fire. Earlier antebellum records are the most likely to be missing. Federal census records and state archives copies become critical substitutes.",
+      "source": "Mississippi Department of Archives and History, Guide to County Records."
+    },
+    {
+      "loss_id": "washington_1927_flood",
+      "date": "1927-04",
+      "cause": "Great Mississippi Flood of 1927",
+      "records_destroyed": ["water-damaged court files", "some marriage records", "loose papers in basement storage"],
+      "records_survived": ["most bound deed books (moved to upper floors)", "most circuit court records"],
+      "scope": "moderate",
+      "description": "The 1927 flood inundated Greenville and the courthouse. Records stored in basement and ground-floor areas suffered water damage. Some bound volumes survived because courthouse staff moved them to upper floors as the water rose. Loose papers and unboud files in lower storage were lost or damaged beyond recovery.",
+      "narrative_impact": "The 1927 flood created a second round of record loss on top of the 1874 fire. For ancestors in Washington County, the combination of fire and flood means that pre-1880 records are particularly fragile and incomplete.",
+      "source": "Barry, Rising Tide (1997); Mississippi Department of Archives and History."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1831,
+      "completeness": "Fair — gaps from 1874 fire, partial survival of antebellum deed books",
+      "gaps": "Some early deed books lost in 1874 fire. Post-1874 deed books largely intact despite 1927 flood.",
+      "repository": "Washington County Chancery Clerk, Greenville; MDAH microfilm",
+      "online_access": "FamilySearch microfilm; limited Ancestry.com coverage"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1834,
+      "completeness": "Fair — some antebellum records lost in 1874 fire",
+      "gaps": "Pre-1874 estate records are fragmentary. Post-1874 records more complete.",
+      "repository": "Washington County Chancery Clerk; MDAH",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1856,
+      "completeness": "Fair — some records lost in 1874 fire and 1927 flood",
+      "gaps": "Pre-1874 marriage records largely lost. Post-1874 records more complete but some water damage from 1927.",
+      "repository": "Washington County Circuit Clerk; MDAH microfilm",
+      "online_access": "FamilySearch; Ancestry.com MS marriages collection"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1856,
+      "completeness": "Fair — significant pre-1874 losses",
+      "gaps": "Chancery court minutes begin reliably post-1874. Circuit court records have some earlier fragments.",
+      "repository": "Washington County courthouse; MDAH",
+      "online_access": "Limited — MDAH microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1912,
+      "death_registration_start": 1912,
+      "completeness": "Compliance spotty until 1920s, especially for rural Black births and deaths",
+      "repository": "Mississippi State Department of Health; MDAH for delayed certificates"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1830-1940. Slave schedules 1850-1860. Agricultural schedules provide farm-level economic data.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1830-1940",
+      "genealogical_value": "Essential for tracking families across record gaps caused by the 1874 fire and 1927 flood. Slave schedules are the primary source for identifying enslaved individuals by age, sex, and slaveholder.",
+      "source": "National Archives and Records Administration."
+    },
+    {
+      "source_type": "Freedmen's Bureau records",
+      "description": "Records of the Bureau of Refugees, Freedmen, and Abandoned Lands for Washington County, 1865-1872. Labor contracts, marriage registrations, complaint records, and school reports.",
+      "repository": "National Archives; FamilySearch digitization",
+      "era_coverage": "1865-1872",
+      "genealogical_value": "Critical for identifying formerly enslaved individuals by name, family relationship, and former enslaver. Labor contracts from Washington County document the transition from slavery to sharecropping.",
+      "source": "National Archives, Records of the Bureau of Refugees, Freedmen, and Abandoned Lands (RG 105)."
+    },
+    {
+      "source_type": "Greenville newspapers",
+      "description": "Greenville Democrat-Times and predecessors. Published from the 1860s. Contains legal notices, estate sales, marriage and death announcements, and commercial news.",
+      "repository": "MDAH microfilm; Greenville public library",
+      "era_coverage": "1860s-present",
+      "genealogical_value": "Newspaper records fill gaps left by courthouse losses, especially for the 1874-1927 period. Legal notices published in the newspaper may be the only surviving record of some transactions.",
+      "source": "Mississippi Department of Archives and History."
+    }
+  ],
+  "narrative_hooks": [
+    "Washington County's courthouse has been burned (1874) and flooded (1927), which means that {ancestor_name}'s early records may not survive in the county vault — federal census records, Freedmen's Bureau files, and newspaper archives become the primary alternatives.",
+    "If {ancestor_name} was in Washington County before the 1874 fire, many deed and court records from that era were destroyed — the genealogist's challenge is to reconstruct the record trail from substitute sources that survived outside the courthouse.",
+    "The 1927 flood that devastated Greenville also damaged courthouse records stored in lower floors — {ancestor_name}'s paper trail may have literal watermarks, the Mississippi River's signature on the documents that documented lives it disrupted.",
+    "Mississippi did not require birth or death registration until 1912, and compliance was poor in rural areas for years afterward — the absence of a birth record for {ancestor_name} reflects the state's late adoption of vital records, not a mystery about the family.",
+    "The Freedmen's Bureau records for Washington County are among the most valuable substitute sources for {ancestor_name}'s post-emancipation family — they document names, family relationships, and former enslavers in a county where courthouse fires destroyed much of the early civil record."
+  ],
+  "source_references": [
+    "Mississippi Department of Archives and History. Guide to County Records. Jackson, MS.",
+    "Barry, John M. Rising Tide: The Great Mississippi Flood of 1927 and How It Changed America. New York: Simon & Schuster, 1997.",
+    "National Archives and Records Administration. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands (RG 105).",
+    "Cobb, James C. The Most Southern Place on Earth: The Mississippi Delta and the Roots of Regional Identity. New York: Oxford University Press, 1992."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ms_washington",
+    "research_guidance_refs": ["southern_courthouse_research", "freedmens_bureau"],
+    "template_refs": ["record_silences"]
+  }
+}

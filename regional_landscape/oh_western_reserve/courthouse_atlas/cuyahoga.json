@@ -1,0 +1,134 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Cuyahoga County, OH. Record survival, courthouse history, and known losses. Cuyahoga County has excellent record survival — no major courthouse fire — but the sheer volume of an industrial city's records creates its own research challenges. The immigrant communities that built Cleveland left records in a dozen languages scattered across parishes, fraternal halls, and consular offices.",
+  "courthouse_atlas_id": "oh_cuyahoga_courthouse",
+  "display_name": "Cuyahoga County, Ohio — Courthouse Atlas",
+  "county": "Cuyahoga",
+  "state": "OH",
+  "fips_code": "39035",
+  "cluster_ref": "oh_western_reserve",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1912,
+      "location": "Cleveland, OH — 1 Lakeside Avenue (Cuyahoga County Courthouse, part of the Group Plan civic center)",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes", "naturalization records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1810–1828",
+        "location": "Cleveland, Public Square area",
+        "fate": "Early frame courthouse. Replaced as the county grew. No significant record loss."
+      },
+      {
+        "era": "1828–1858",
+        "location": "Cleveland, Public Square",
+        "fate": "Brick courthouse. Served through the canal era. Replaced."
+      },
+      {
+        "era": "1858–1912",
+        "location": "Cleveland, Public Square",
+        "fate": "Stone courthouse. Survived into the industrial era. Replaced by the current monumental courthouse as part of the Group Plan civic center designed by Daniel Burnham."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "cuyahoga_no_major_loss",
+      "date": null,
+      "cause": "None — no major courthouse fire or catastrophic loss",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "marriage records", "probate records", "court minutes", "naturalization records"],
+      "scope": "none",
+      "description": "Cuyahoga County's courthouse has not experienced a significant fire or war damage. Records run continuously from the county's 1810 organization. The research challenge is not loss but volume — Cleveland's industrial-era records are massive, and the immigrant community records are dispersed across ethnic institutions. Naturalization records are particularly valuable and well-preserved.",
+      "narrative_impact": "If {ancestor_name} lived in Cuyahoga County after 1810, the county records almost certainly survive. The challenge is knowing where to look — county records for property and court activity, but church records, fraternal society records, and ethnic newspaper archives for the daily life of the immigrant community.",
+      "source": "Ohio History Connection. Guide to County Records in Ohio. Columbus, 2015."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1810,
+      "completeness": "Excellent — continuous from county organization",
+      "gaps": "No known gaps.",
+      "repository": "Cuyahoga County Recorder; Ohio History Connection microfilm",
+      "online_access": "FamilySearch; Ancestry.com Ohio land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1811,
+      "completeness": "Excellent — continuous probate records from near-organization",
+      "gaps": "No known significant gaps.",
+      "repository": "Cuyahoga County Probate Court; Ohio History Connection",
+      "online_access": "FamilySearch microfilm; limited digitization"
+    },
+    "marriages": {
+      "earliest_surviving": 1810,
+      "completeness": "Excellent — Ohio required marriage licenses from statehood (1803). Cuyahoga County records are continuous from organization.",
+      "gaps": "No known gaps. Records available in multiple formats.",
+      "repository": "Cuyahoga County Probate Court; Ohio History Connection",
+      "online_access": "FamilySearch; Ancestry.com Ohio marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1810,
+      "completeness": "Good to excellent",
+      "gaps": "Minor gaps in earliest volumes.",
+      "repository": "Cuyahoga County Clerk of Courts; Ohio History Connection",
+      "online_access": "Limited digitization via Ohio Memory"
+    },
+    "vital_records": {
+      "birth_registration_start": 1867,
+      "death_registration_start": 1867,
+      "completeness": "Ohio began statewide vital registration in 1867 but compliance was poor until approximately 1908. Cleveland city records may be more complete than county records for the city proper.",
+      "repository": "Ohio Department of Health; Cleveland city health department; Ohio History Connection for delayed certificates"
+    },
+    "naturalization_records": {
+      "earliest_surviving": 1818,
+      "completeness": "Excellent and extensive — Cleveland processed hundreds of thousands of naturalizations between 1880 and 1930. Records include declarations of intention, petitions, and certificates.",
+      "gaps": "Pre-1906 records are at the county level; post-1906 at the federal level (INS). Both are well-preserved for Cuyahoga County.",
+      "repository": "Cuyahoga County Archives; National Archives Great Lakes Region (Chicago); FamilySearch microfilm",
+      "online_access": "FamilySearch; Ancestry.com; Fold3",
+      "genealogical_value": "Critical for tracing immigrant families. Naturalization records provide country of origin, date of arrival, ship name (sometimes), and witnesses. Post-1906 records include photographs."
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Ethnic church records (Catholic, Orthodox, Lutheran)",
+      "description": "Cleveland's immigrant communities built hundreds of churches — Slovak Catholic, Hungarian Catholic, Polish Catholic, Slovenian Catholic, Russian Orthodox, Greek Orthodox, Romanian Orthodox, German Lutheran, Finnish Lutheran. Each parish maintained baptism, marriage, and burial records, often in the language of the congregation. These records are the primary genealogical source for immigrant families between census years.",
+      "repository": "Individual parishes (many still active); Catholic Diocese of Cleveland Archives; Orthodox church archives; Western Reserve Historical Society",
+      "era_coverage": "1870s–present",
+      "genealogical_value": "Essential for tracking immigrant families. Parish records identify godparents (kinship networks), village of origin in the old country, and date of arrival. Church transfer records track movement between parishes and cities.",
+      "source": "Barton, Peasants and Strangers (1975)."
+    },
+    {
+      "source_type": "Fraternal society records",
+      "description": "National Slovak Society, First Catholic Slovak Union, Hungarian Self-Culture Society, Polish National Alliance, and dozens more — fraternal societies provided life insurance, sick benefits, and social connections. Membership records, insurance applications, and meeting minutes document members' lives in detail.",
+      "repository": "Immigration History Research Center (University of Minnesota); Western Reserve Historical Society; individual fraternal organization archives",
+      "era_coverage": "1880s–1960s",
+      "genealogical_value": "Insurance applications provide birth date, birthplace, occupation, beneficiary, and sometimes immigration date. Meeting minutes name attendees and record community events.",
+      "source": "Barton, Peasants and Strangers (1975)."
+    },
+    {
+      "source_type": "Foreign-language newspapers",
+      "description": "Cleveland published newspapers in Slovak, Hungarian, Polish, Czech, Slovenian, Croatian, Italian, Lithuanian, German, and Yiddish. These papers carried birth, marriage, and death notices, society news, and advertisements that place individuals in specific neighborhoods.",
+      "repository": "Cleveland Public Library; Western Reserve Historical Society; Immigration History Research Center (University of Minnesota); Library of Congress (Chronicling America digitization project)",
+      "era_coverage": "1880s–1950s",
+      "genealogical_value": "Obituaries in foreign-language papers are often more detailed than English-language papers for immigrant families — listing village of origin, names of surviving relatives (including those in the old country), and fraternal affiliations.",
+      "source": "Van Tassel and Grabowski, Encyclopedia of Cleveland History (1996)."
+    }
+  ],
+  "narrative_hooks": [
+    "Cuyahoga County's courthouse survived every decade since 1810 — {ancestor_name}'s deeds, marriage records, and naturalization papers almost certainly still exist. The challenge is not loss but abundance — Cleveland's records are massive because the city was massive.",
+    "If {ancestor_name} was an immigrant in Cleveland, the county records tell part of the story — but the parish records at {church_name}, the fraternal society minutes, and the obituary in the Slovak or Hungarian newspaper tell the rest.",
+    "Cleveland's naturalization records are among the most complete in the nation — if {ancestor_name} became a citizen, the declaration of intention, the petition, and the certificate survive, and they record the village {pronoun_subject} left and the date {pronoun_subject} arrived.",
+    "The absence of property records for {ancestor_name} in Cleveland does not mean absence from the county — immigrant workers who rented rooms in boarding houses left no deeds but left church records, fraternal records, and naturalization papers that are equally revealing."
+  ],
+  "source_references": [
+    "Ohio History Connection. Guide to County Records in Ohio. Columbus, 2015.",
+    "Barton, Josef J. Peasants and Strangers: Italians, Rumanians, and Slovaks in an American City, 1890-1950. Cambridge: Harvard University Press, 1975.",
+    "Van Tassel, David D., and John J. Grabowski, eds. The Encyclopedia of Cleveland History. Bloomington: Indiana University Press, 1996."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "oh_cuyahoga",
+    "research_guidance_refs": ["institutional_records", "newspapers"],
+    "template_refs": ["record_silences"]
+  }
+}

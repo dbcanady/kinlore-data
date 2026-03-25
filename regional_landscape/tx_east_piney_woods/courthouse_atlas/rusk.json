@@ -1,0 +1,70 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Rusk County, TX. Record survival, courthouse history, and known losses for the epicenter of the East Texas Oil Field. Oil boom era records are supplemented by Texas Railroad Commission files.",
+  "courthouse_atlas_id": "tx_rusk_courthouse",
+  "display_name": "Rusk County, Texas — Courthouse Atlas",
+  "county": "Rusk",
+  "state": "TX",
+  "fips_code": "48401",
+  "cluster_ref": "tx_east_piney_woods",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1928, "location": "Henderson, TX — 115 N. Main Street", "records_housed": ["deeds", "plats", "mineral leases", "marriage licenses", "probate records", "court minutes"] },
+    "previous_courthouses": [
+      { "era": "1843–1878", "location": "Henderson, early frame courthouse", "fate": "Replaced as the county grew." },
+      { "era": "1878–1928", "location": "Henderson, brick courthouse", "fate": "Replaced by the current 1928 building, which served through the oil boom." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "rusk_no_major_loss", "date": null, "cause": "No major fire or destruction",
+      "records_destroyed": [], "records_survived": ["deed books", "mineral lease records", "marriage records", "probate files", "court minutes"],
+      "scope": "none",
+      "description": "Rusk County's courthouse has not experienced a major fire. Records are continuous from county organization in 1843. The oil boom (1930+) generated a massive volume of mineral lease, royalty, and property records that are housed at the courthouse and are essential for understanding family wealth during and after the boom.",
+      "narrative_impact": "Rusk County's records are intact — and the mineral lease records from the oil boom era are uniquely valuable. If {ancestor_name} owned land when the oil field was discovered, the lease records document what they received (or were cheated out of) for their mineral rights.",
+      "source": "Texas State Library and Archives Commission. County Records Inventory."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1843, "completeness": "Excellent.", "gaps": "None significant.", "repository": "Rusk County Clerk, Henderson", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1843, "completeness": "Good.", "gaps": "None significant.", "repository": "Rusk County Clerk", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1843, "completeness": "Good.", "gaps": "None significant.", "repository": "Rusk County Clerk", "online_access": "FamilySearch; Ancestry.com TX marriages" },
+    "court_minutes": { "earliest_surviving": 1843, "completeness": "Good.", "gaps": "None significant.", "repository": "Rusk County Clerk", "online_access": "FamilySearch microfilm" },
+    "vital_records": { "birth_registration_start": 1903, "death_registration_start": 1903, "completeness": "Spotty before 1910; improves significantly during oil boom era as population grew and services expanded.", "repository": "Texas Department of State Health Services" }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Texas Railroad Commission records",
+      "description": "The Texas Railroad Commission regulated oil production in the East Texas Oil Field from 1931. Well permits, production reports, and operator records document the oil industry in extraordinary detail.",
+      "repository": "Texas Railroad Commission, Austin; Texas State Library and Archives Commission",
+      "era_coverage": "1931–present",
+      "genealogical_value": "Documents oil lease operators and well owners. For families who leased mineral rights, Railroad Commission records show production volumes and can be cross-referenced with lease records at the county courthouse to understand economic impact.",
+      "source": "Texas Railroad Commission archives."
+    },
+    {
+      "source_type": "Henderson Daily News and Kilgore newspapers",
+      "description": "Local newspapers covered the oil boom in extraordinary detail — leases, well completions, court proceedings, boomtown social conditions.",
+      "repository": "Rusk County Library; East Texas Oil Museum, Kilgore College",
+      "era_coverage": "1890s–present",
+      "genealogical_value": "Rich source for oil boom era families. Newspapers document land transactions, court cases, boomtown conditions, and social disruption.",
+      "source": "Rusk County Library local history collection."
+    }
+  ],
+  "narrative_hooks": [
+    "Rusk County's mineral lease records tell the story of the oil boom in individual families — whether {ancestor_name} kept the mineral rights or sold them before the Joiner well came in determined generations of wealth or regret.",
+    "The courthouse in Henderson was built two years before the oil boom — the county clerk's office was designed for cotton-county paperwork and suddenly had to process thousands of mineral leases, royalty assignments, and court cases.",
+    "Texas vital records begin in 1903 but were poorly enforced in rural Rusk County until the oil boom brought population and infrastructure — the absence of early records is standard.",
+    "If {ancestor_name} was in Kilgore during the boom, the newspaper coverage is remarkably detailed — the chaos, the wealth, and the human cost are all documented in the daily press."
+  ],
+  "source_references": [
+    "Texas State Library and Archives Commission. County Records Inventory.",
+    "Texas Railroad Commission archives.",
+    "Rusk County Library local history collection.",
+    "Works Progress Administration. Historical Records Survey: Texas County Records. Austin, 1937–1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "tx_rusk",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

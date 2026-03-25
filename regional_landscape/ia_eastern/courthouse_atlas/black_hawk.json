@@ -1,0 +1,134 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Black Hawk County, IA. Record survival, courthouse history, and known losses. Waterloo is the county seat and the industrial center of northeastern Iowa — home to Rath Packing and John Deere. The 1857 courthouse fire is the defining record event, destroying most early territorial records.",
+  "courthouse_atlas_id": "ia_black_hawk_courthouse",
+  "display_name": "Black Hawk County, Iowa — Courthouse Atlas",
+  "county": "Black Hawk",
+  "state": "IA",
+  "fips_code": "19013",
+  "cluster_ref": "ia_eastern",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1965,
+      "location": "Waterloo, IA — 316 E. 5th Street",
+      "records_housed": ["deeds", "plats", "vital records", "probate records", "court minutes", "naturalization records", "military discharge records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1853–1857",
+        "location": "Cedar Falls — original frame courthouse",
+        "fate": "Destroyed by fire in 1857. Most early records lost. County seat contested between Cedar Falls and Waterloo."
+      },
+      {
+        "era": "1857–1902",
+        "location": "Waterloo — frame, then brick courthouse after county seat moved to Waterloo",
+        "fate": "Replaced by 1902 building. Records transferred."
+      },
+      {
+        "era": "1902–1964",
+        "location": "Waterloo — brick courthouse",
+        "fate": "Demolished and replaced by current building. Records transferred intact."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "black_hawk_1857_fire",
+      "date": "1857",
+      "cause": "Fire at the Cedar Falls courthouse",
+      "records_destroyed": ["early deed recordings (partial)", "early court minutes (partial)", "some territorial-era documents"],
+      "records_survived": ["post-1857 deeds (complete)", "post-1857 court records", "some early deed books that had been copied"],
+      "scope": "moderate",
+      "description": "The 1857 fire at the Cedar Falls courthouse destroyed a portion of the county's earliest records. The fire occurred during the contentious county seat battle between Cedar Falls and Waterloo. Some early deed records had been copied or were reconstructed from landowner copies after the fire. The loss is significant but not catastrophic — most records from 1858 onward are complete.",
+      "narrative_impact": "If {ancestor_name} was in Black Hawk County before 1857, the earliest records of {pronoun_possessive} land purchases or court appearances may have been destroyed in the Cedar Falls fire. The reconstructed records are incomplete, and the first years of the county's existence are the thinnest in the archive.",
+      "source": "Hartman, John C. History of Black Hawk County, Iowa. Chicago: S. J. Clarke Publishing, 1915."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1853,
+      "completeness": "Moderate — some pre-1857 records lost in the Cedar Falls fire. Post-1857 records are continuous and complete. Some early deeds were reconstructed from private copies.",
+      "gaps": "The 1857 fire gap is the primary concern. Land patents from the federal government (General Land Office records) survive independently at the National Archives and can substitute for lost county recordings.",
+      "repository": "Black Hawk County Recorder, Waterloo; Iowa State Archives; Bureau of Land Management (federal patents)",
+      "online_access": "FamilySearch microfilm; Ancestry.com Iowa land records; BLM GLO Records online"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1858,
+      "completeness": "Good from 1858 onward. Pre-1857 probate records may have been lost in the fire.",
+      "gaps": "Earliest years (1853-1857) are thin. Few probate filings in the first years of settlement when population was small and estates modest.",
+      "repository": "Black Hawk County Clerk of Court, Waterloo; Iowa State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1853,
+      "completeness": "Good — some early marriage records survived the fire or were reconstructed. Continuous from the late 1850s.",
+      "gaps": "Pre-1857 gap possible for some records. Church records supplement early civil records.",
+      "repository": "Black Hawk County Recorder, Waterloo; Iowa State Archives",
+      "online_access": "FamilySearch; Ancestry.com Iowa marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1858,
+      "completeness": "Good from 1858 onward. Pre-1857 court minutes largely lost in the fire.",
+      "gaps": "1853-1857 gap due to fire.",
+      "repository": "Black Hawk County Courthouse, Waterloo; Iowa State Archives",
+      "online_access": "Limited — some available on FamilySearch microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1880,
+      "death_registration_start": 1880,
+      "completeness": "Iowa required vital registration from 1880. Urban compliance in Waterloo was better than rural compliance in the surrounding townships. By 1900, Waterloo's registration was reasonably complete. The rural townships lagged until 1905-1910.",
+      "repository": "Iowa Department of Public Health; Black Hawk County Recorder; Iowa State Archives"
+    },
+    "naturalization_records": {
+      "earliest_surviving": 1858,
+      "completeness": "Good from 1858 onward. Important for German, Irish, and later African American migration documentation.",
+      "gaps": "Some immigrants naturalized at federal court in Dubuque rather than in Black Hawk County.",
+      "repository": "Black Hawk County District Court; National Archives — Kansas City; Iowa State Archives",
+      "online_access": "FamilySearch; Ancestry.com"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal land patents (General Land Office)",
+      "description": "Original federal land patents for Black Hawk County survive independently of the county records. These document the initial purchase from the federal government and are unaffected by the 1857 fire.",
+      "repository": "Bureau of Land Management, General Land Office Records; National Archives",
+      "era_coverage": "1840s–1870s",
+      "genealogical_value": "Critical for establishing initial land ownership before 1857. The GLO patent is the federal record of the original purchase, independent of any county deed recording that may have been lost.",
+      "source": "Bureau of Land Management. General Land Office Records. https://glorecords.blm.gov."
+    },
+    {
+      "source_type": "Rath Packing Company employment records",
+      "description": "Rath Packing Company (Waterloo, 1891–1985) maintained employee records that document the working-class population — including significant African American employment from the 1910s onward when Black workers were recruited from the South.",
+      "repository": "University of Northern Iowa Special Collections, Cedar Falls; Iowa State Historical Society",
+      "era_coverage": "1891–1985",
+      "genealogical_value": "Employment records may include hiring date, address, next of kin, and wage information. For African American families who migrated to Waterloo for packinghouse work, these records may be among the few sources documenting the family's arrival and early life in Iowa.",
+      "source": "Schwieder, Dorothy. Iowa: The Middle Land. Ames: Iowa State University Press, 1996."
+    },
+    {
+      "source_type": "Federal and Iowa state censuses",
+      "description": "Federal population schedules 1850–1940 and Iowa state censuses (1856, 1885, 1895, 1905, 1915, 1925). The 1856 census captures pre-fire settlers.",
+      "repository": "National Archives; FamilySearch; Ancestry.com; Iowa State Archives",
+      "era_coverage": "1850–1940",
+      "genealogical_value": "The 1856 Iowa state census is especially valuable for Black Hawk County because it documents settlers who may have lost county records in the 1857 fire. Iowa's state census series provides data every five years.",
+      "source": "Iowa State Historical Society. Iowa Census Records Guide. Des Moines: ISHS, 2005."
+    }
+  ],
+  "narrative_hooks": [
+    "The 1857 fire at the Cedar Falls courthouse destroyed some of Black Hawk County's earliest records — if {ancestor_name} arrived before that date, the deed or the court filing may exist only as a reconstruction, or may not exist at all.",
+    "Rath Packing Company's employment records in Waterloo may be the most important genealogical source for {ancestor_name}'s family if they came to Black Hawk County for packinghouse work — hiring records, addresses, and next-of-kin information that the census alone does not provide.",
+    "Iowa's 1856 state census captured Black Hawk County settlers a year before the fire — if {ancestor_name} was here that early, the census may be the only surviving record of {pronoun_possessive} presence in the county before the courthouse burned.",
+    "Federal land patents survive independently of county records — if {ancestor_name} purchased land directly from the government, the General Land Office patent exists in Washington regardless of what happened at the Cedar Falls courthouse in 1857."
+  ],
+  "source_references": [
+    "Hartman, John C. History of Black Hawk County, Iowa, and Its People. Chicago: S. J. Clarke Publishing, 1915.",
+    "Schwieder, Dorothy. Iowa: The Middle Land. Ames: Iowa State University Press, 1996.",
+    "Iowa State Historical Society. Iowa Census Records Guide. Des Moines: ISHS, 2005.",
+    "Bureau of Land Management. General Land Office Records. https://glorecords.blm.gov."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ia_black_hawk",
+    "research_guidance_refs": ["immigrant_record_sources", "african_american_research"],
+    "template_refs": ["record_silences"]
+  }
+}

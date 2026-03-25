@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Dent County, MO. Record survival and courthouse history. Dent County formed 1851. No major courthouse fire — records relatively well-preserved from county formation. Salem is the county seat. Adjacent to the Old Lead Belt — some mining company records supplement county records.",
+  "courthouse_atlas_id": "mo_dent_courthouse",
+  "display_name": "Dent County, Missouri — Courthouse Atlas",
+  "county": "Dent",
+  "state": "MO",
+  "fips_code": "29065",
+  "cluster_ref": "mo_ozarks_gateway",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1940,
+      "location": "Salem, MO — 112 E. Fifth Street",
+      "records_housed": ["deeds", "plats", "marriage records", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1851-1870s",
+        "location": "Salem, courthouse square",
+        "fate": "Early courthouse, replaced as county grew. Records transferred."
+      },
+      {
+        "era": "1870s-1940",
+        "location": "Salem",
+        "fate": "Replaced by the current WPA-era building in 1940. Records transferred intact."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "dent_civil_war_disruption",
+      "date": "1861-1865",
+      "cause": "Civil War guerrilla warfare disrupted record-keeping",
+      "records_destroyed": [],
+      "records_survived": ["Most county records survived; courthouse not burned"],
+      "scope": "minor",
+      "description": "The Civil War disrupted record-keeping in Dent County. Guerrilla activity made court sessions irregular. Some records from the war years are incomplete. The courthouse itself was not destroyed.",
+      "narrative_impact": "Records from 1861-1865 may have gaps — the guerrilla war made holding court an act of courage, and recording transactions was secondary to survival.",
+      "source": "Missouri State Archives. Guide to County Records on Microfilm: Dent County."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1851,
+      "completeness": "Good — continuous from county formation.",
+      "gaps": "Civil War-era recording may be incomplete.",
+      "repository": "Dent County Recorder of Deeds, Salem; Missouri State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1851,
+      "completeness": "Good — from county formation. Sparse in the earliest years.",
+      "gaps": "Few estates probated on the frontier.",
+      "repository": "Dent County Probate Court; Missouri State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1851,
+      "completeness": "Good — from county formation.",
+      "gaps": "Civil War-era gaps possible.",
+      "repository": "Dent County Recorder; Missouri State Archives",
+      "online_access": "FamilySearch; Ancestry.com MO marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1851,
+      "completeness": "Good — from county formation. Civil War-era sessions irregular.",
+      "gaps": "Irregular court sessions during the Civil War.",
+      "repository": "Missouri State Archives; Dent County Circuit Court",
+      "online_access": "Missouri State Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1883,
+      "death_registration_start": 1883,
+      "completeness": "Poor compliance in rural areas until approximately 1910. Salem compliance better than the surrounding hollows.",
+      "repository": "Missouri Department of Health and Senior Services; Missouri State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Iron furnace and mining company records",
+      "description": "Records from the iron furnaces in eastern Dent County and adjacent lead/zinc operations may document workers and families in the industrial economy.",
+      "repository": "Missouri Historical Society, St. Louis; State Historical Society of Missouri; Missouri Department of Natural Resources historical mining records",
+      "era_coverage": "1830s-1900s",
+      "genealogical_value": "Limited survival, but where records exist they document workers — including enslaved workers at the iron furnaces — who may not appear in other records.",
+      "source": "Rafferty, The Ozarks: Land and Life (2001)."
+    },
+    {
+      "source_type": "Salem newspapers",
+      "description": "The Dent County Republican and other Salem papers documented the community from the 1870s.",
+      "repository": "State Historical Society of Missouri; Dent County Library",
+      "era_coverage": "1870s-present",
+      "genealogical_value": "Good supplement. Court reporting, death notices, and property transfer announcements.",
+      "source": "State Historical Society of Missouri newspaper holdings."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1860-1940. First enumerated as Dent County in 1860.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1860-1940",
+      "genealogical_value": "Essential baseline.",
+      "source": "National Archives and Records Administration."
+    }
+  ],
+  "narrative_hooks": [
+    "Dent County's courthouse survived the Civil War — one of the lucky ones. If {ancestor_name} was in the county from 1851, the records are likely intact.",
+    "The iron furnace records in eastern Dent County may document workers the county records never mentioned — if {ancestor_name} worked at a furnace, the company's books may be the only evidence.",
+    "Missouri vital records were required from 1883, but in the hollows around Salem, nobody came to ask — if {ancestor_name} was born in a cabin on the Current River headwaters, the birth may never have been registered.",
+    "Dent County sits at the edge of the Old Lead Belt — if {ancestor_name} crossed into St. Francois County for mining work, the records shift from agricultural to industrial, from county court to company ledger."
+  ],
+  "source_references": [
+    "Missouri State Archives. Guide to County Records on Microfilm: Dent County.",
+    "Rafferty, Milton D. The Ozarks: Land and Life. 2nd ed. University of Arkansas Press, 2001.",
+    "Works Progress Administration. Historical Records Survey: Missouri County Records. Jefferson City, 1937-1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "mo_dent",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Tallahatchie County, MS. Split between two county seats — Charleston (First District) and Sumner (Second District). The Sumner courthouse is where Roy Bryant and J. W. Milam were tried and acquitted for the murder of Emmett Till in September 1955. Records survive from county formation (1833) with no major fire loss.",
+  "courthouse_atlas_id": "ms_tallahatchie_courthouse",
+  "display_name": "Tallahatchie County, Mississippi — Courthouse Atlas",
+  "county": "Tallahatchie",
+  "state": "MS",
+  "fips_code": "28135",
+  "cluster_ref": "ms_delta",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1909,
+      "location": "Charleston (First District) and Sumner (Second District) — two courthouses",
+      "records_housed": ["deeds (split by district)", "chancery court records", "circuit court records", "marriage records", "vital records post-1912"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1833-1909",
+        "location": "Various earlier structures at Charleston and Sumner",
+        "fate": "Replaced by current buildings as the county grew."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "tallahatchie_no_major_loss",
+      "date": "N/A",
+      "cause": "No major fire or catastrophic flood loss",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1833", "court records", "marriage records"],
+      "scope": "minimal",
+      "description": "Tallahatchie County's courthouses have not suffered major fire or catastrophic flood loss. Records from county formation (1833) survive, though early volumes show age-related deterioration. Like Bolivar County, the two-district system means records are split between Charleston and Sumner.",
+      "narrative_impact": "Tallahatchie County's records are relatively intact, but the two-courthouse system requires checking both locations. The Emmett Till trial records (September 1955) are part of the Sumner courthouse circuit court files.",
+      "source": "Mississippi Department of Archives and History, Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1833,
+      "completeness": "Good — continuous from county formation, split between districts",
+      "gaps": "Some early volumes in poor condition. Researchers must check both courthouses.",
+      "repository": "Tallahatchie County Chancery Clerk, Charleston and Sumner; MDAH microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1840,
+      "completeness": "Good from early county period",
+      "gaps": "Minor gaps in earliest records.",
+      "repository": "Tallahatchie County Chancery Clerk; MDAH",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1838,
+      "completeness": "Good — marriage records from early period",
+      "gaps": "Black marriages documented from 1865.",
+      "repository": "Tallahatchie County Circuit Clerk; MDAH microfilm",
+      "online_access": "FamilySearch; Ancestry.com MS marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1835,
+      "completeness": "Good — continuous from early county period",
+      "gaps": "The Emmett Till trial transcript (1955) is part of the circuit court records at Sumner.",
+      "repository": "Tallahatchie County courthouse (both districts); MDAH",
+      "online_access": "MDAH microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1912,
+      "death_registration_start": 1912,
+      "completeness": "Poor compliance in rural areas until 1930s.",
+      "repository": "Mississippi State Department of Health; MDAH"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1840-1940. Slave schedules 1850-1860.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1840-1940",
+      "genealogical_value": "Essential for tracking families. The 1870 census is the first to document formerly enslaved individuals by name.",
+      "source": "National Archives and Records Administration."
+    },
+    {
+      "source_type": "Freedmen's Bureau records",
+      "description": "Labor contracts, marriage registrations, and complaint files, 1865-1872.",
+      "repository": "National Archives; FamilySearch digitization",
+      "era_coverage": "1865-1872",
+      "genealogical_value": "Critical for Black families in a majority-Black county.",
+      "source": "National Archives, RG 105."
+    },
+    {
+      "source_type": "Emmett Till trial records",
+      "description": "Circuit court records from the September 1955 trial of Roy Bryant and J. W. Milam at Sumner. Trial transcript, jury records, witness lists.",
+      "repository": "Tallahatchie County Circuit Court, Sumner; FBI case files at National Archives",
+      "era_coverage": "1955",
+      "genealogical_value": "The trial records document community members who testified — witnesses, jurors, and court officers — and may identify families present in the county at that date.",
+      "source": "Whitfield, A Death in the Delta (1988)."
+    }
+  ],
+  "narrative_hooks": [
+    "Tallahatchie County has two courthouses, and {ancestor_name}'s records could be in either Charleston or Sumner — the genealogist must check both.",
+    "The Sumner courthouse where {ancestor_name}'s land records and court cases were filed is the same building where Emmett Till's murderers were acquitted in sixty-seven minutes — justice and injustice sharing the same vault.",
+    "Tallahatchie County's records survive from 1833 — older than many Delta counties — which means {ancestor_name}'s earliest deeds and court appearances are likely still in the vault.",
+    "The Freedmen's Bureau records for Tallahatchie County are the first documents to record the county's Black majority by name — and for {ancestor_name}'s family, they are the bridge from the anonymity of slavery to the documentation of freedom."
+  ],
+  "source_references": [
+    "Mississippi Department of Archives and History. Guide to County Records. Jackson, MS.",
+    "Whitfield, Stephen J. A Death in the Delta: The Story of Emmett Till. New York: Free Press, 1988.",
+    "National Archives and Records Administration. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands (RG 105)."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ms_tallahatchie",
+    "research_guidance_refs": ["southern_courthouse_research", "freedmens_bureau"],
+    "template_refs": ["record_silences"]
+  }
+}

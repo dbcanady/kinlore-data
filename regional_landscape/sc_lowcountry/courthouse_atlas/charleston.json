@@ -1,0 +1,156 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Charleston County, SC. Among the oldest records in the South — records from 1671, the colonial parish system, and the extraordinary Charleston County probate court inventories that listed enslaved people by name more often than most jurisdictions. Also documents the 1886 earthquake's impact on records and the unique ward/parish system for early record-keeping.",
+  "courthouse_atlas_id": "sc_charleston_courthouse",
+  "display_name": "Charleston County, South Carolina — Courthouse Atlas",
+  "county": "Charleston",
+  "state": "SC",
+  "fips_code": "45019",
+  "cluster_ref": "sc_lowcountry",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1792,
+      "location": "Charleston, SC — 84 Broad Street (Charleston County Courthouse, extensively renovated multiple times)",
+      "records_housed": ["deeds", "plats", "marriage settlements", "probate records", "court minutes", "miscellaneous records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1671–1711",
+        "location": "Various locations in colonial Charles Town — records kept in the colonial Secretary of State's office, not a dedicated courthouse",
+        "fate": "Colonial-era records from this period are held at the SC Department of Archives and History. Some of the oldest surviving civil records in the American South."
+      },
+      {
+        "era": "1711–1792",
+        "location": "Charles Town — the colonial court met in multiple locations. The colonial records were provincial, not county-level (SC did not create counties until 1769, and the judicial district system continued until 1868).",
+        "fate": "Provincial and district records survive in significant quantity at the SC Department of Archives and History."
+      }
+    ],
+    "notes": "South Carolina used a parish system for local governance before and alongside the county system. Charleston's civil parishes (St. Philip's, St. Michael's, St. Andrew's, St. James Goose Creek, St. Thomas and St. Denis, Christ Church) maintained baptism, marriage, and burial records separately from the colonial/county court. These parish registers are among the most important genealogical sources for colonial Charleston. The city of Charleston also maintained separate records from Charleston County — the distinction between city and county records is critical for research."
+  },
+  "record_losses": [
+    {
+      "loss_id": "charleston_1698_fire",
+      "date": "1698",
+      "cause": "Fire in Charles Town — damaged some colonial records",
+      "records_destroyed": ["Some early provincial records — extent of loss debated by historians"],
+      "records_survived": ["Most colonial records survived or were reconstructed"],
+      "scope": "minor",
+      "description": "A fire in 1698 damaged some early provincial records. The extent of loss is unclear — some records may have been reconstructed from other sources. The colony was only 28 years old, and the volume of records was small.",
+      "narrative_impact": "The 1698 fire may have destroyed some of the colony's earliest records, but enough survives from the 1670s-1690s that researchers can still trace colonial families. The loss is frustrating but not devastating.",
+      "source": "SC Department of Archives and History. Guide to Research Materials."
+    },
+    {
+      "loss_id": "charleston_civil_war_damage",
+      "date": "1861–1865",
+      "cause": "Civil War bombardment and the Great Fire of December 1861",
+      "records_destroyed": ["Some city records damaged by fire and bombardment; extent uncertain"],
+      "records_survived": ["County courthouse records largely survived", "parish registers survived", "probate records survived"],
+      "scope": "moderate",
+      "description": "Charleston was bombarded by Union forces throughout the war, and the Great Fire of December 1861 destroyed a large section of the city. Some city records were damaged, but the county courthouse records, parish registers, and probate court records survived in large part. The SC Secretary of State's colonial records had been moved to Columbia earlier.",
+      "narrative_impact": "The Civil War damaged but did not destroy Charleston's records. The city's long tenure as the colonial capital means that critical records exist in multiple repositories — parish registers, provincial records, and county records provide overlapping coverage.",
+      "source": "Fraser, Charleston! Charleston! (1989)."
+    },
+    {
+      "loss_id": "charleston_1886_earthquake",
+      "date": "1886-08-31",
+      "cause": "Charleston earthquake — structural damage to record storage buildings",
+      "records_destroyed": ["Some loose records damaged by falling masonry and water infiltration during emergency conditions"],
+      "records_survived": ["Bound volumes largely survived", "deed books survived", "probate records survived"],
+      "scope": "minor",
+      "description": "The 1886 earthquake damaged buildings that housed records, but most bound volumes survived. Loose papers — particularly those in offices that collapsed or suffered roof damage — were more vulnerable. The long-term impact was water damage from exposure during the weeks of rebuilding.",
+      "narrative_impact": "The earthquake damaged the buildings more than the records. If {ancestor_name}'s records are missing from this period, it is more likely that they were never created than that they were destroyed in the earthquake.",
+      "source": "Côté, City of Heroes (2006)."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1671,
+      "completeness": "Excellent — among the oldest continuous deed records in the South. Charleston's colonial deeds begin with the founding decade.",
+      "gaps": "Some gaps in the earliest colonial period. The transition from the colonial Secretary of State's records to the county recording system creates a research challenge — the records exist but in different repositories.",
+      "repository": "Charleston County Register of Deeds; SC Department of Archives and History (colonial and district era records)",
+      "online_access": "FamilySearch microfilm; Ancestry.com SC land records; Charleston County online deed search (modern records)"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1671,
+      "completeness": "Excellent — Charleston probate records are among the most genealogically valuable in the South. Estate inventories frequently list enslaved people by name (more commonly than most SC jurisdictions), making them critical for African American genealogy.",
+      "gaps": "Continuous from the colonial era. The Charleston probate court was the most active in the colony/state.",
+      "repository": "Charleston County Probate Court; SC Department of Archives and History (colonial wills, inventories, accounts)",
+      "online_access": "FamilySearch microfilm; Ancestry.com SC probate collection; SCDAH online catalog"
+    },
+    "marriages": {
+      "earliest_surviving": 1680,
+      "completeness": "Good — marriage settlements (prenuptial agreements, common among the planter class) survive from the colonial era. Parish registers record marriages from the earliest colonial period. SC did not require marriage licenses until 1911.",
+      "gaps": "Before 1911, marriages were recorded in parish registers, settlement records, or not at all. The parish system provides the best coverage for colonial and antebellum marriages.",
+      "repository": "Charleston County Probate Court; parish registers at individual churches and SCDAH; SC Department of Archives and History",
+      "online_access": "FamilySearch; Ancestry.com; published parish register transcriptions"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1692,
+      "completeness": "Good — court of common pleas and general sessions records survive from the colonial period. Charleston District court records (1769-1868) and Charleston County court records (1868-present) are distinct series.",
+      "gaps": "The transition from provincial to district to county court creates separate record series that must be searched independently.",
+      "repository": "SC Department of Archives and History; Charleston County Clerk of Court",
+      "online_access": "SCDAH microfilm; limited FamilySearch digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1915,
+      "death_registration_start": 1915,
+      "completeness": "Spotty until approximately 1920. City of Charleston Board of Health records predate statewide registration — some city births and deaths recorded from the 1880s.",
+      "repository": "SC Department of Health and Environmental Control (DHEC); City of Charleston Archives",
+      "notes": "For the colonial and antebellum period, parish registers (baptisms, burials) are the primary substitute for vital records. St. Philip's Church (Charleston) has registers from 1720. St. Michael's Church has registers from 1751."
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Anglican/Episcopal parish registers",
+      "description": "Charleston's colonial parishes — St. Philip's (1720), St. Michael's (1751), St. Andrew's, St. James Goose Creek, Christ Church, St. Thomas and St. Denis — maintained baptism, marriage, and burial registers that function as vital records for the colonial and antebellum periods. These registers record both white parishioners and, in some cases, enslaved people who were baptized.",
+      "repository": "Individual parish archives; SC Historical Society; SCDAH; published transcriptions (e.g., A. S. Salley's register publications)",
+      "era_coverage": "1720–present (varies by parish)",
+      "genealogical_value": "Critical for colonial Charleston research. Parish registers are often the only record of births, marriages, and deaths before 1915. The registers for St. Philip's and St. Michael's have been published.",
+      "source": "Salley, A. S., Jr. Register of St. Philip's Parish, Charles Town, South Carolina, 1720-1758. Columbia: Historical Commission of South Carolina, 1904."
+    },
+    {
+      "source_type": "Charleston slave sale records and estate inventories",
+      "description": "Charleston was the largest slave market in North America. Slave sale records — brokers' books, newspaper advertisements, and court-ordered estate sales — document the names, ages, skills, and family relationships of enslaved people. Estate inventories in the probate court frequently list enslaved people by name with valuations.",
+      "repository": "SC Department of Archives and History; Charleston County Probate Court; SC Historical Society; published brokers' records",
+      "era_coverage": "1690–1865",
+      "genealogical_value": "Essential for African American genealogy. Charleston's slave sale records are more detailed than most jurisdictions because the city was the center of the trade. Estate inventories that list enslaved people by name provide the closest thing to a census of enslaved individuals.",
+      "source": "Johnson, Walter. Soul by Soul: Life Inside the Antebellum Slave Market. Cambridge: Harvard University Press, 1999."
+    },
+    {
+      "source_type": "Free Negro books and badges",
+      "description": "Charleston maintained records of free people of color — registration books, badge records (free Black artisans were required to carry numbered badges), and court records of manumission. These records document the significant free Black community in colonial and antebellum Charleston.",
+      "repository": "SC Department of Archives and History; Charleston County Clerk of Court; SC Historical Society",
+      "era_coverage": "1740–1865",
+      "genealogical_value": "Critical for researching Charleston's free Black community — one of the largest in the South. Badge records identify individuals by name, occupation, and registration number.",
+      "source": "Koger, Larry. Black Slaveowners: Free Black Slave Masters in South Carolina, 1790-1860. Jefferson, NC: McFarland, 1985."
+    },
+    {
+      "source_type": "Freedmen's Bureau records",
+      "description": "The Bureau of Refugees, Freedmen, and Abandoned Lands maintained extensive records for the Charleston District — labor contracts, complaint registers, school reports, and marriage registers. Charleston was a major Freedmen's Bureau headquarters.",
+      "repository": "National Archives (RG 105); FamilySearch digitization; Freedmen's Bureau Online",
+      "era_coverage": "1865–1872",
+      "genealogical_value": "Essential for tracing African American families during the transition from slavery to freedom. Labor contracts name individuals, their former enslavers, and family members. Marriage registers document couples formalizing relationships that had existed under slavery.",
+      "source": "National Archives. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands, RG 105."
+    }
+  ],
+  "narrative_hooks": [
+    "Charleston's records stretch back to 1671 — {ancestor_name}'s deed, will, or court appearance may survive in one of the oldest continuous record systems in the American South.",
+    "The Charleston probate court's estate inventories often list enslaved people by name — if {ancestor_name} was enslaved in Charleston County, the probate records may preserve {pronoun_possessive} name, age, and skills in the document that valued {pronoun_object} as property.",
+    "Before 1911, South Carolina did not require marriage licenses — for {ancestor_name}'s marriage in Charleston, the parish register at St. Philip's or St. Michael's may be the only record, and those registers go back to 1720.",
+    "Charleston's free Negro badges documented a community of free Black artisans who were required to carry numbered metal tags — if {ancestor_name} was free and Black in antebellum Charleston, the badge record may preserve {pronoun_possessive} name and trade.",
+    "The parish system is the key to colonial Charleston records — {ancestor_name}'s baptism, marriage, or burial was recorded not by the county but by the parish vestry, and knowing which parish is the first research question."
+  ],
+  "source_references": [
+    "Fraser, Walter J., Jr. Charleston! Charleston!: The History of a Southern City. University of South Carolina Press, 1989.",
+    "SC Department of Archives and History. Guide to Research Materials in the South Carolina Department of Archives and History.",
+    "Salley, A. S., Jr. Register of St. Philip's Parish, Charles Town, South Carolina, 1720-1758. Historical Commission of South Carolina, 1904.",
+    "Koger, Larry. Black Slaveowners: Free Black Slave Masters in South Carolina, 1790-1860. McFarland, 1985.",
+    "Johnson, Walter. Soul by Soul: Life Inside the Antebellum Slave Market. Harvard University Press, 1999."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "sc_charleston",
+    "research_guidance_refs": ["southern_courthouse_research", "vital_records", "church_transfers"],
+    "template_refs": ["record_silences"]
+  }
+}

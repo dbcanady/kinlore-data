@@ -1,0 +1,241 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Local economy timeline for the LA Acadiana regional cluster (Lafayette, St. Martin, Vermilion, Iberia, Acadia, St. Landry, Evangeline, Assumption parishes). Covers 1760-1960 across six economic eras -- from Acadian exile subsistence through sugar plantation, prairie cattle, rice revolution, and the oil boom that transformed southwestern Louisiana. Acadiana's economy was always plural: sugar on the bayou levees, cattle on the prairies, fish and fur from the swamps, and rice on the converted grasslands, overlaid after 1900 by oil and gas extraction that dwarfed all other industries.",
+  "economy_id": "la_acadiana_economy",
+  "display_name": "LA Acadiana -- Local Economy Timeline",
+  "cluster_ref": "la_acadiana",
+  "era_range": "1760-1960",
+  "economic_eras": [
+    {
+      "era_id": "exile_settlement",
+      "era_name": "Exile Settlement and Subsistence Economy",
+      "date_range": "1760-1803",
+      "dominant_economy": "Subsistence farming on bayou margins; open-range cattle on prairies; fishing, trapping, and hunting in swamps and marshes; small-scale trade at colonial posts",
+      "description": "The Acadian exiles who reached the Attakapas and Opelousas districts beginning in 1765 built an economy from nothing. Expelled from Nova Scotia by the British during the Grand Derangement of 1755, scattered across the Atlantic world for a decade, they arrived in a subtropical landscape utterly unlike their maritime homeland. They adapted by combining French-Canadian farming traditions with the open-range cattle culture they found under Spanish colonial rule. Long-lot farms along the bayous produced corn, vegetables, and small amounts of cotton and indigo. Cattle on the treeless prairies were the primary source of wealth. Fishing, trapping, and moss gathering in the swamps supplemented the farm economy. The colonial posts at Opelousas and Attakapas (St. Martinville) served as trading centers.",
+      "county_specifics": [
+        { "county": "Lafayette", "note": "Prairie cattle and bayou-margin farming. Vermilionville (later Lafayette) was a small settlement at a Bayou Vermilion crossing." },
+        { "county": "St. Martin", "note": "The Attakapas Post at St. Martinville was the administrative and social center. Bayou Teche farms produced subsistence crops." },
+        { "county": "Vermilion", "note": "Prairie cattle country. The vacherie -- open-range cattle operation -- was the dominant economy. Abbeville not yet founded." },
+        { "county": "Iberia", "note": "Lower Teche farming. The Attakapas prairie extended into the northern portion. Salt from Avery Island was traded." },
+        { "county": "Acadia", "note": "Open prairie, largely uninhabited except by cattle grazers. Not yet a separate parish." },
+        { "county": "St. Landry", "note": "Opelousas Post -- the western trading center. Free Creole of Color community already established. Prairie-to-piney-woods transition." },
+        { "county": "Evangeline", "note": "Piney woods frontier. Sparse settlement. Subsistence farming and hog raising." },
+        { "county": "Assumption", "note": "Bayou Lafourche corridor. Acadian long-lot farms. Subsistence with early indigo cultivation." }
+      ],
+      "key_infrastructure": [
+        { "name": "Opelousas Post (colonial trading center)", "year": "1720s-1803", "impact": "Primary trading center for the western Attakapas-Opelousas district. Where surplus cattle, hides, and crops were exchanged for manufactured goods." },
+        { "name": "Attakapas Post at St. Martinville", "year": "1760s-1803", "impact": "Administrative center of the Attakapas district. Church, commandant, and trading post." },
+        { "name": "Bayou navigation by pirogue and flatboat", "year": "1760s-1803", "impact": "The bayous were the transportation system. Pirogues and flatboats moved goods and people along Bayou Teche, Bayou Vermilion, and Bayou Lafourche." }
+      ],
+      "major_employers": [
+        { "name": "Family subsistence farms", "type": "Family labor", "era": "1760-1803", "counties_affected": ["Lafayette", "St. Martin", "Vermilion", "Iberia", "Acadia", "St. Landry", "Evangeline", "Assumption"], "employment_scale": "Nearly universal" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Hired farm laborer", "wage": "Barter economy predominated; cash scarce in colonial Louisiana", "year": 1790, "source": "Brasseaux, The Founding of New Acadia, ch. 5" },
+        { "occupation": "Cattle vachero (hired cowboy)", "wage": "$8-$12/month (Spanish currency)", "year": 1790, "source": "Post, Cajun Sketches, ch. 3" }
+      ],
+      "narrative_hook": "In the {decade}s, {ancestor_name} was building a life from exile — farming bayou land in a language the government barely understood, running cattle on a prairie that looked nothing like Nova Scotia.",
+      "source": "Brasseaux, Carl A. The Founding of New Acadia. LSU Press, 1987. Post, Cajun Sketches. LSU Press, 1962."
+    },
+    {
+      "era_id": "sugar_and_cotton",
+      "era_name": "Sugar Plantation and Cotton Economy",
+      "date_range": "1803-1860",
+      "dominant_economy": "Sugar cane on bayou levees (Teche, Lafourche corridors); cotton on prairie margins and piney woods uplands; open-range cattle on prairies; enslaved labor powering the plantation economy; free Creole of Color farmers as independent operators",
+      "description": "The Louisiana Purchase (1803) opened Acadiana to Anglo-American capital and the full-scale plantation economy. Sugar cane — requiring massive capital investment in grinding equipment, enslaved labor, and drainage — came to dominate the Teche and Lafourche corridors. The great sugar plantations employed hundreds of enslaved workers and produced hogsheads of brown sugar shipped by steamboat to New Orleans. Cotton was grown on the upland margins where sugar could not reach. The Acadian small farmers were increasingly marginalized — pushed to the prairies and piney woods while the bayou levees were consolidated into plantations. The free Creole of Color community in St. Landry Parish maintained an independent economic position, some owning plantations and enslaved people themselves. The prairie cattle economy continued, supporting families who could not afford or did not want plantation agriculture.",
+      "county_specifics": [
+        { "county": "Lafayette", "note": "Mixed economy: small sugar on southern bayou margins, cattle on prairies, cotton on uplands." },
+        { "county": "St. Martin", "note": "Major sugar parish. Teche corridor plantations. Atchafalaya Basin fishing and trapping economy." },
+        { "county": "Vermilion", "note": "Prairie cattle country. Limited sugar along Vermilion River southern reaches." },
+        { "county": "Iberia", "note": "Premier sugar parish. Shadows-on-the-Teche, Darby, and other great plantations. Avery Island salt mining." },
+        { "county": "Acadia", "note": "Still open prairie. Cattle grazing. Not yet a separate parish." },
+        { "county": "St. Landry", "note": "Cotton and subsistence farming in piney woods. Creole of Color plantations near Opelousas. Mixed economy." },
+        { "county": "Evangeline", "note": "Piney woods subsistence. Cotton, corn, sweet potatoes. Small scale." },
+        { "county": "Assumption", "note": "Major sugar parish. Bayou Lafourche corridor. Dense plantation economy with large enslaved population." }
+      ],
+      "key_infrastructure": [
+        { "name": "Steamboat service on Bayou Teche and Bayou Lafourche", "year": "1820s-1860", "impact": "Connected the sugar parishes to New Orleans. Sugar hogsheads shipped downstream; manufactured goods returned upstream." },
+        { "name": "Sugar mills (plantation-scale grinding operations)", "year": "1820s-1860", "impact": "Each major plantation operated its own sugar house with crushing rollers, boiling kettles, and cooperage. Capital investment of $20,000-$100,000 per plantation." },
+        { "name": "Avery Island salt mining", "year": "1791-present", "impact": "The salt dome at Avery Island was mined from the colonial period. During the Civil War, the mine was a critical Confederate resource." }
+      ],
+      "major_employers": [
+        { "name": "Sugar plantations (Teche and Lafourche corridors)", "type": "Enslaved labor / plantation system", "era": "1803-1860", "counties_affected": ["St. Martin", "Iberia", "Assumption"], "employment_scale": "Enslaved people constituted majority of population in sugar parishes" },
+        { "name": "Prairie cattle operations (vacheries)", "type": "Family and hired labor", "era": "1803-1860", "counties_affected": ["Lafayette", "Vermilion", "Acadia"], "employment_scale": "Hundreds of operations, typically family-scale" },
+        { "name": "Small cotton farms (piney woods)", "type": "Family labor, some enslaved", "era": "1803-1860", "counties_affected": ["St. Landry", "Evangeline"], "employment_scale": "Dominant in upland areas" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Hired-out enslaved sugar worker", "wage": "$150-$250/year paid to enslaver", "year": 1850, "source": "Sitterson, Sugar Country, ch. 4" },
+        { "occupation": "Free laborer on sugar plantation (white or Creole)", "wage": "$15-$25/month plus rations", "year": 1850, "source": "Sitterson, Sugar Country, ch. 4" },
+        { "occupation": "Cotton farmer (annual return)", "wage": "$100-$400/year (depending on acreage and price)", "year": 1850, "source": "Post, Cajun Sketches, ch. 5" }
+      ],
+      "narrative_hook": "By the {decade}s, sugar was king on the Teche and Lafourche — {ancestor_name} either owned the cane fields, worked them, or watched from the prairie as the plantation economy remade the bayou country into a world of wealth built on enslaved labor.",
+      "source": "Sitterson, Sugar Country (1953). Brasseaux, Acadian to Cajun (1992)."
+    },
+    {
+      "era_id": "civil_war_reconstruction",
+      "era_name": "Civil War and Reconstruction",
+      "date_range": "1861-1877",
+      "dominant_economy": "Sugar economy disrupted by Union occupation; emancipation transforms labor system; sharecropping and wage labor replace slavery; cattle and subsistence farming less affected; postwar adjustment painful and violent",
+      "description": "The Civil War devastated the Acadiana sugar economy. Union forces occupied the Teche country in 1863 during the Bayou Teche Campaign, and Federal troops remained through Reconstruction. Sugar plantations were disrupted — some burned, equipment destroyed, enslaved workers freed. The Avery Island salt mine was destroyed by Union forces. Emancipation freed the large enslaved population of the sugar parishes, and the postwar labor system reorganized around sharecropping, wage labor, and centralized sugar mills that replaced individual plantation grinding operations. The prairie cattle economy and piney woods subsistence farming survived the war relatively intact. Reconstruction brought political upheaval — Black men voted and held office briefly, then were violently suppressed by white supremacist paramilitary organizations.",
+      "county_specifics": [
+        { "county": "Lafayette", "note": "Minor war damage compared to Teche corridor. Prairie economy persisted." },
+        { "county": "St. Martin", "note": "Teche Campaign battleground. Plantations disrupted. Postwar labor reorganization." },
+        { "county": "Vermilion", "note": "Limited war damage. Prairie cattle survived the conflict." },
+        { "county": "Iberia", "note": "Avery Island salt mine destroyed by Union forces. Plantation economy disrupted. Shadows-on-the-Teche occupied by Federal troops." },
+        { "county": "Acadia", "note": "Not yet a separate parish. Prairie economy persisted." },
+        { "county": "St. Landry", "note": "Opelousas Massacre of 1868 -- one of the worst Reconstruction-era racial massacres in Louisiana. Political violence severe." },
+        { "county": "Evangeline", "note": "Limited war damage. Piney woods economy largely unchanged." },
+        { "county": "Assumption", "note": "Sugar economy devastated. Large enslaved population freed. Postwar labor crisis." }
+      ],
+      "key_infrastructure": [
+        { "name": "Bayou Teche Campaign (Union military operations)", "year": "1863", "impact": "Federal occupation of the Teche corridor disrupted the sugar economy and emancipated enslaved workers." },
+        { "name": "Freedmen's Bureau posts", "year": "1865-1872", "impact": "Federal offices establishing labor contracts between former enslaved workers and former enslavers. Records document both freedpeople and labor conditions." },
+        { "name": "Centralized sugar mills replacing plantation sugar houses", "year": "1870s-1890s", "impact": "Smaller planters could no longer afford individual grinding operations. Centralized mills purchased cane from multiple farms, transforming the sugar economy from plantation to cooperative/corporate model." }
+      ],
+      "major_employers": [
+        { "name": "Sugar plantations (reorganized with wage/share labor)", "type": "Agricultural -- wage and sharecropping", "era": "1865-1877", "counties_affected": ["St. Martin", "Iberia", "Assumption"], "employment_scale": "Thousands of formerly enslaved workers now as wage laborers and sharecroppers" },
+        { "name": "Confederate military service", "type": "Military", "era": "1861-1865", "counties_affected": ["Lafayette", "St. Martin", "Vermilion", "Iberia", "Acadia", "St. Landry", "Evangeline", "Assumption"], "employment_scale": "Majority of military-age white men served" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Sugar field wage laborer (freedman)", "wage": "$10-$15/month plus rations", "year": 1867, "source": "Freedmen's Bureau records, National Archives" },
+        { "occupation": "Sugar field sharecropper (annual return)", "wage": "$50-$150/year after advances deducted", "year": 1870, "source": "Sitterson, Sugar Country, ch. 8" }
+      ],
+      "narrative_hook": "After the war, {ancestor_name} came back to a {county} Parish where the sugar houses were cold, the labor was free, and no one yet knew what the new world would look like.",
+      "source": "Sitterson, Sugar Country (1953). Brasseaux, Acadian to Cajun (1992). Taylor, Louisiana: A History (1984)."
+    },
+    {
+      "era_id": "rice_revolution",
+      "era_name": "The Rice Revolution and Prairie Transformation",
+      "date_range": "1880-1910",
+      "dominant_economy": "Mechanized rice cultivation on converted prairie; sugar cane continuing on bayou levees with centralized mills; cattle declining as prairies are fenced; Southern Pacific Railroad opening the prairies to Midwestern settlement",
+      "description": "The Southern Pacific Railroad reached the southwestern Louisiana prairies in the 1880s, and the railroad company aggressively promoted land sales to Midwestern farmers. These farmers — many from Iowa, Illinois, and Kansas — brought mechanized rice cultivation to the poorly drained prairies that had defeated cotton farming. The rice revolution transformed the prairie parishes (Acadia, Lafayette, Vermilion, western St. Landry) from open-range cattle country to irrigated rice paddies in a single generation. Towns like Crowley, Rayne, and Jennings sprang up along the railroad. The Acadian prairie cattlemen were displaced or absorbed. On the bayou levees, the sugar industry survived by consolidating into centralized mills that processed cane from multiple farms, replacing the old plantation sugar houses.",
+      "county_specifics": [
+        { "county": "Lafayette", "note": "Rice cultivation expanded across northern prairies. Lafayette grew as a commercial center." },
+        { "county": "St. Martin", "note": "Sugar continued on Teche levee. Limited rice on western prairie margins." },
+        { "county": "Vermilion", "note": "Rice on northern prairies. Cattle pushed to coastal marshes. Abbeville became rice marketing center." },
+        { "county": "Iberia", "note": "Sugar dominant on Teche levee. Rice on marginal lands. Tabasco production expanding on Avery Island." },
+        { "county": "Acadia", "note": "The rice capital. Crowley and Rayne founded as rice towns along the Southern Pacific. Virtually entire parish converted to rice." },
+        { "county": "St. Landry", "note": "Rice on western prairies. Cotton and subsistence in eastern piney woods. Opelousas remained commercial center." },
+        { "county": "Evangeline", "note": "Limited rice on prairie edges. Piney woods farming continued." },
+        { "county": "Assumption", "note": "Sugar continued on Bayou Lafourche with centralized mills. Dam at Donaldsonville (1904) disrupted bayou navigation." }
+      ],
+      "key_infrastructure": [
+        { "name": "Southern Pacific Railroad through the prairies", "year": "1880s", "impact": "Opened the prairie parishes to commercial agriculture and Midwestern settlement. Every significant rice town sits on the Southern Pacific route." },
+        { "name": "Rice irrigation pumping stations", "year": "1880s-1910", "impact": "Steam-powered (later diesel) pumps drew bayou water into leveed rice paddies. The pumping stations were the infrastructure that made rice cultivation possible on the flat, poorly drained prairies." },
+        { "name": "Centralized sugar mills", "year": "1880s-1910", "impact": "Large-scale processing facilities replaced individual plantation sugar houses. Farmers grew cane and sold it to the mill, separating growing from processing." }
+      ],
+      "major_employers": [
+        { "name": "Rice farms and rice mills (prairie parishes)", "type": "Agricultural -- commercial", "era": "1880-1910", "counties_affected": ["Acadia", "Lafayette", "Vermilion", "St. Landry"], "employment_scale": "Thousands of farm families and mill workers" },
+        { "name": "Centralized sugar mills (bayou parishes)", "type": "Agricultural-industrial", "era": "1880-1910", "counties_affected": ["St. Martin", "Iberia", "Assumption"], "employment_scale": "Hundreds per mill, with thousands of cane farmers supplying each mill" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Rice farm laborer", "wage": "$1.00-$1.50/day", "year": 1900, "source": "Post, Cajun Sketches, ch. 7" },
+        { "occupation": "Sugar mill worker (grinding season)", "wage": "$1.00-$2.00/day (seasonal)", "year": 1900, "source": "Sitterson, Sugar Country, ch. 10" },
+        { "occupation": "Rice mill worker", "wage": "$0.75-$1.25/day", "year": 1900, "source": "Conrad, The Cajuns, ch. 8" }
+      ],
+      "narrative_hook": "The railroad brought the Midwesterners, and the Midwesterners brought rice — by {year}, {ancestor_name}'s prairie was a grid of flooded paddies, and the cowboys who had worked the grass were learning to work the water.",
+      "source": "Post, Cajun Sketches (1962). Conrad, The Cajuns (1978). Sitterson, Sugar Country (1953)."
+    },
+    {
+      "era_id": "oil_boom",
+      "era_name": "The Oil Boom and Modernization",
+      "date_range": "1901-1945",
+      "dominant_economy": "Oil and gas extraction becomes dominant industry; Lafayette transforms into oil service capital; rice and sugar continue but are eclipsed; shrimping and fishing remain important in coastal parishes; Cajun French culture under pressure from English-speaking oil workers and enforced English in schools",
+      "description": "The Spindletop discovery (1901) in East Texas launched the Gulf Coast oil boom, and southwestern Louisiana's geology — salt domes, sedimentary basins — proved rich in petroleum. The Jennings field (1901) was Louisiana's first major oil strike. By the 1920s, oil and gas exploration had spread across Acadiana, with Lafayette emerging as the supply and service center for the industry. The oil industry brought English-speaking outsiders — Texans, Oklahomans, and company managers — into a French-speaking world. It also brought cash wages that dwarfed agricultural income, drawing young Cajun men out of the fields and into the oil patch. Simultaneously, Louisiana's Compulsory Education Act of 1916 required English-language schooling, and children were punished for speaking French at school. The oil economy and English-language education began the Americanization of Cajun culture that would accelerate after WWII.",
+      "county_specifics": [
+        { "county": "Lafayette", "note": "Oil service capital of the Gulf Coast. Company offices, pipe yards, drilling supply companies. Population boomed. English increasingly heard on streets." },
+        { "county": "St. Martin", "note": "Oil exploration in the Atchafalaya Basin. Some drilling on Teche levee land. Sugar continued." },
+        { "county": "Vermilion", "note": "Oil and gas in coastal marshes. Shrimping and trapping continued. Rice on prairies." },
+        { "county": "Iberia", "note": "Oil on salt dome flanks. Tabasco production continued. Sugar remained important." },
+        { "county": "Acadia", "note": "Some oil production. Rice remained dominant crop. Crowley retained rice capital identity." },
+        { "county": "St. Landry", "note": "Oil exploration in eastern portion. Agricultural economy persisted in piney woods." },
+        { "county": "Evangeline", "note": "Oil wells in eastern piney woods. Small farming continued." },
+        { "county": "Assumption", "note": "Oil and gas in swamp behind Bayou Lafourche levee. Sugar continued on diminished scale." }
+      ],
+      "key_infrastructure": [
+        { "name": "Jennings oil field (first Louisiana oil strike)", "year": 1901, "impact": "Launched the Louisiana oil industry. Within two decades, oil had become the most valuable industry in southwestern Louisiana." },
+        { "name": "Lafayette oil service district", "year": "1920s-1945", "impact": "Lafayette became the operational hub for offshore and onshore oil exploration in the Gulf region. Halliburton, Schlumberger, and other service companies established offices." },
+        { "name": "Highway system connecting Acadiana parishes", "year": "1920s-1930s", "impact": "Paved roads connected the parish seats and ended the isolation of prairie and piney woods communities. The Evangeline Highway (US 90) became the main east-west artery." }
+      ],
+      "major_employers": [
+        { "name": "Oil and gas companies (exploration and production)", "type": "Extractive industry", "era": "1901-1945", "counties_affected": ["Lafayette", "St. Martin", "Vermilion", "Iberia", "Acadia", "St. Landry", "Evangeline", "Assumption"], "employment_scale": "Thousands of direct employees, thousands more in service and supply" },
+        { "name": "Rice farms (prairie parishes)", "type": "Agricultural", "era": "1901-1945", "counties_affected": ["Acadia", "Lafayette", "Vermilion", "St. Landry"], "employment_scale": "Continued as major employer but eclipsed by oil" },
+        { "name": "Sugar mills (bayou parishes)", "type": "Agricultural-industrial", "era": "1901-1945", "counties_affected": ["St. Martin", "Iberia", "Assumption"], "employment_scale": "Declining but still significant" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Oil field roughneck", "wage": "$4.00-$6.00/day", "year": 1930, "source": "Bernard, The Cajuns, ch. 6" },
+        { "occupation": "Rice farmer (annual return)", "wage": "$300-$800/year", "year": 1930, "source": "Post, Cajun Sketches, ch. 7" },
+        { "occupation": "Sugar cane cutter (seasonal)", "wage": "$1.50-$2.50/day", "year": 1930, "source": "Sitterson, Sugar Country, ch. 12" }
+      ],
+      "narrative_hook": "The oil derricks changed everything — by {year}, {ancestor_name} could make more money in a week on a drilling rig than in a month cutting cane, and the English-speaking Texans who ran the rigs were remaking Lafayette into a city {pronoun_subject} barely recognized.",
+      "source": "Bernard, The Cajuns (2003). Post, Cajun Sketches (1962)."
+    },
+    {
+      "era_id": "postwar_transformation",
+      "era_name": "Postwar Transformation and Cultural Revival",
+      "date_range": "1945-1960",
+      "dominant_economy": "Oil and gas dominant; offshore drilling expanding into the Gulf; rice mechanized and consolidated; sugar continuing on reduced acreage; shrimping industrialized; Cajun cultural identity beginning to be reclaimed after decades of suppression",
+      "description": "After WWII, Acadiana's economy was dominated by oil and gas. Offshore drilling in the Gulf of Mexico — launched from bases in Lafayette, Morgan City, and Cameron — created a new frontier of extraction. The oil industry's cash wages accelerated the urbanization of Lafayette and the decline of small farming. Rice farming mechanized rapidly — fewer families working larger acreage. Sugar consolidated further into corporate operations. The cultural consequences were dramatic: Cajun soldiers who had served in WWII returned with English fluency and exposure to the wider world. The postwar generation was increasingly bilingual, and many families stopped speaking French at home to spare their children the punishment they had received in school. The Cajun cultural revival that would emerge in the 1960s and 1970s had its roots in this period's sense of loss.",
+      "county_specifics": [
+        { "county": "Lafayette", "note": "Population boom. Oil service capital. University of Southwestern Louisiana (now UL Lafayette) growing. Urban identity displacing rural character." },
+        { "county": "St. Martin", "note": "Sugar continued. Oil in basin. Atchafalaya Basin Floodway altered basin hydrology." },
+        { "county": "Vermilion", "note": "Shrimping industrialized at Intracoastal City and Delcambre. Rice consolidated. Oil in marshes." },
+        { "county": "Iberia", "note": "Sugar, oil, and Tabasco. New Iberia retained its character as the commercial center of the lower Teche." },
+        { "county": "Acadia", "note": "Rice farming mechanized. Fewer families on larger farms. Crowley's economy diversified modestly." },
+        { "county": "St. Landry", "note": "Agricultural diversification. Opelousas retained Creole cultural identity." },
+        { "county": "Evangeline", "note": "Oil supplementing small farming. Ville Platte emerging as music center." },
+        { "county": "Assumption", "note": "Sugar declining. Oil in swamp. Young people leaving for Lafayette and Baton Rouge." }
+      ],
+      "key_infrastructure": [
+        { "name": "Offshore drilling platforms in the Gulf of Mexico", "year": "1947-1960", "impact": "Kerr-McGee drilled the first productive offshore well out of sight of land in 1947. Lafayette and Morgan City became the staging bases for offshore operations." },
+        { "name": "Intracoastal Waterway", "year": "1944 (completed through Acadiana)", "impact": "Connected the Gulf Coast from Texas to Florida. Enabled industrial barge traffic and supported the oil industry's logistics." },
+        { "name": "CODOFIL (Council for Development of French in Louisiana)", "year": "1968 (just outside era range)", "impact": "The legislative effort to preserve French in Louisiana was a response to the cultural damage of the 1916-1960 English-only era. Its origins lie in the postwar period." }
+      ],
+      "major_employers": [
+        { "name": "Oil and gas industry (onshore and offshore)", "type": "Extractive and service", "era": "1945-1960", "counties_affected": ["Lafayette", "St. Martin", "Vermilion", "Iberia", "Acadia", "St. Landry", "Evangeline", "Assumption"], "employment_scale": "Dominant employer. Tens of thousands directly and indirectly." },
+        { "name": "Shrimping and commercial fishing", "type": "Maritime/agricultural", "era": "1945-1960", "counties_affected": ["Vermilion", "Iberia"], "employment_scale": "Thousands of boat operators and processors" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Oil field roughneck", "wage": "$8.00-$12.00/day", "year": 1955, "source": "Bernard, The Cajuns, ch. 8" },
+        { "occupation": "Offshore driller", "wage": "$10.00-$15.00/day", "year": 1955, "source": "Bernard, The Cajuns, ch. 8" },
+        { "occupation": "Shrimp boat captain (seasonal return)", "wage": "$2,000-$5,000/season", "year": 1955, "source": "Comeaux, Atchafalaya Swamp Life, ch. 7" }
+      ],
+      "narrative_hook": "By {year}, {ancestor_name}'s Acadiana was two worlds — the French-speaking grandparents on the farm and the English-speaking grandchildren at the oil company office, and the gap between them was measured in language as much as money.",
+      "source": "Bernard, The Cajuns (2003). Ancelet, Edwards, and Pitre, Cajun Country (1991)."
+    }
+  ],
+  "economic_turning_points": [
+    { "year": 1765, "event": "First Acadian exiles arrive in the Attakapas and Opelousas districts", "impact": "Foundation of the Acadian community in Louisiana -- every subsequent economic era builds on this exile settlement." },
+    { "year": 1803, "event": "Louisiana Purchase", "impact": "American sovereignty opens the region to Anglo capital, the plantation system, and the full-scale sugar economy that transforms the bayou corridors." },
+    { "year": 1863, "event": "Union forces occupy the Teche country (Bayou Teche Campaign)", "impact": "Disrupts the plantation economy and begins emancipation in the sugar parishes." },
+    { "year": 1880, "event": "Southern Pacific Railroad reaches the Louisiana prairies", "impact": "Opens the prairies to Midwestern rice farmers and commercial agriculture, transforming the landscape within a generation." },
+    { "year": 1901, "event": "Jennings oil field -- first major Louisiana oil strike", "impact": "Launches the oil and gas industry that will eclipse agriculture and transform Lafayette into a regional city." },
+    { "year": 1916, "event": "Louisiana Compulsory Education Act (English-only schooling)", "impact": "Begins the suppression of Cajun French in schools, with profound cultural and economic consequences." },
+    { "year": 1927, "event": "Great Mississippi Flood", "impact": "The Atchafalaya Basin is designated as a floodway, permanently altering the hydrology and economy of St. Martin and adjacent parishes." }
+  ],
+  "narrative_hooks": [
+    "Acadiana's economy was always plural — sugar on the bayou, cattle on the prairie, fish from the swamp, rice on the converted grassland, and oil underneath all of it. {ancestor_name} likely touched more than one of these economies in a single lifetime.",
+    "The oil derricks changed the arithmetic — {ancestor_name} could make more in a week on a drilling platform than in a month cutting cane, and the choice was reshaping every family in {county} Parish.",
+    "The rice revolution brought Midwesterners, English, and machines to {ancestor_name}'s prairie — the open range that had fed cattle for a century was fenced and flooded for a crop that had never been seen there before.",
+    "Sugar was the wealth that built the great houses along the Teche — and the enslaved labor that produced it was the moral cost that {ancestor_name}'s generation inherited.",
+    "The language died in the schools — {ancestor_name}'s children were punished for speaking French, and within a generation the tongue that had survived the Grand Derangement, the prairie, and the swamp fell silent in the classroom.",
+    "The Grand Derangement took everything once. The oil boom gave everything back — but in English."
+  ],
+  "source_references": [
+    "Brasseaux, Carl A. The Founding of New Acadia. Baton Rouge: Louisiana State University Press, 1987.",
+    "Brasseaux, Carl A. Acadian to Cajun. Jackson: University Press of Mississippi, 1992.",
+    "Sitterson, J. Carlyle. Sugar Country. Lexington: University of Kentucky Press, 1953.",
+    "Post, Lauren C. Cajun Sketches. Baton Rouge: Louisiana State University Press, 1962.",
+    "Conrad, Glenn R., ed. The Cajuns. Lafayette: Center for Louisiana Studies, 1978.",
+    "Bernard, Shane K. The Cajuns: Americanization of a People. Jackson: University Press of Mississippi, 2003.",
+    "Comeaux, Malcolm L. Atchafalaya Swamp Life. Baton Rouge: LSU, 1972.",
+    "Taylor, Joe Gray. Louisiana: A History. New York: W.W. Norton, 1984.",
+    "Ancelet, Barry Jean, Jay Edwards, and Glen Pitre. Cajun Country. Jackson: University Press of Mississippi, 1991."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["stayed_and_adapted", "civil_war_service", "reconstruction_era", "great_migration"],
+    "material_life_refs": ["frontier_homestead_1780_1840", "sharecropper_cabin_1865_1940", "postbellum_southern_farm_1865_1910"],
+    "life_pattern_refs": ["yeoman_farming_stability", "sharecropping_trap"]
+  }
+}

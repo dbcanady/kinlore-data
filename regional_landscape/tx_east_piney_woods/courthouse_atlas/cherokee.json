@@ -1,0 +1,71 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Cherokee County, TX. Record survival, courthouse history, and known losses. Cherokee County records date from 1846 organization. The iron furnace and penitentiary records supplement courthouse holdings.",
+  "courthouse_atlas_id": "tx_cherokee_courthouse",
+  "display_name": "Cherokee County, Texas — Courthouse Atlas",
+  "county": "Cherokee",
+  "state": "TX",
+  "fips_code": "48073",
+  "cluster_ref": "tx_east_piney_woods",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1941, "location": "Rusk, TX — courthouse square", "records_housed": ["deeds", "plats", "marriage licenses", "probate records", "court minutes"] },
+    "previous_courthouses": [
+      { "era": "1846–1870s", "location": "Rusk, original frame courthouse", "fate": "Served early period. Replaced as the county grew." },
+      { "era": "1870s–1941", "location": "Rusk, brick courthouse on the square", "fate": "No significant fire damage. Replaced by WPA-era building in 1941." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "cherokee_no_major_loss",
+      "date": null, "cause": "No major fire or destruction",
+      "records_destroyed": [], "records_survived": ["deed books", "marriage records", "probate files", "court minutes"],
+      "scope": "none",
+      "description": "Cherokee County's courthouse has not experienced a major fire. Records are continuous from county organization in 1846. The Texas State Penitentiary at Rusk (established 1883) holds separate convict records that are relevant to genealogical research — convict labor was used in iron furnaces and agriculture.",
+      "narrative_impact": "Cherokee County's records are intact, but for families connected to the penitentiary system — as convict laborers or as guards and staff — the prison records at the Texas State Library supplement the courthouse holdings.",
+      "source": "Texas State Library and Archives Commission. County Records Inventory."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1846, "completeness": "Good from county organization.", "gaps": "No known significant gaps.", "repository": "Cherokee County Clerk, Rusk", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1846, "completeness": "Good.", "gaps": "None significant.", "repository": "Cherokee County Clerk", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1846, "completeness": "Good.", "gaps": "None significant.", "repository": "Cherokee County Clerk", "online_access": "FamilySearch; Ancestry.com TX marriages" },
+    "court_minutes": { "earliest_surviving": 1846, "completeness": "Good.", "gaps": "None significant.", "repository": "Cherokee County Clerk", "online_access": "FamilySearch microfilm" },
+    "vital_records": { "birth_registration_start": 1903, "death_registration_start": 1903, "completeness": "Spotty before 1910.", "repository": "Texas Department of State Health Services" }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Texas State Penitentiary records (Rusk unit)",
+      "description": "The Texas State Penitentiary at Rusk (est. 1883) generated extensive records — convict registers, work assignments, disciplinary records, and death records. Convict leasing records document the use of prison labor in iron production and agriculture in Cherokee County.",
+      "repository": "Texas State Library and Archives Commission; Texas Department of Criminal Justice records",
+      "era_coverage": "1883–present",
+      "genealogical_value": "Relevant for families with members in the convict system. Also documents the broader community — prison guards, chaplains, medical staff, and families who lived in the prison town are documented in these records.",
+      "source": "Texas State Library and Archives Commission. Guide to Texas State Penitentiary Records."
+    },
+    {
+      "source_type": "Iron furnace operation records",
+      "description": "Records from the Nash Iron Works and Texas Iron Works are fragmentary but some survive in private collections and at the East Texas Research Center. They document enslaved and free workers at the furnaces.",
+      "repository": "East Texas Research Center, SFA; private collections",
+      "era_coverage": "1847–1870",
+      "genealogical_value": "Documents a rare industrial workforce in antebellum East Texas. Enslaved ironworkers may appear in these records with skills and work assignments noted.",
+      "source": "Dunn, 'Iron Making in Nineteenth-Century East Texas.'"
+    }
+  ],
+  "narrative_hooks": [
+    "Cherokee County's courthouse records survive from 1846 — if {ancestor_name} owned land, married, or appeared in court, the record is probably still there.",
+    "The Texas State Penitentiary at Rusk generated its own set of records — if {ancestor_name}'s family was connected to the prison system, the state archives in Austin hold documents the county courthouse does not.",
+    "Texas vital records start late — 1903 at earliest, unreliable until 1910. For {ancestor_name}'s birth before that date, the census and church records are the best sources.",
+    "If {ancestor_name} worked at the Nash Iron Works, records may survive that document skilled industrial labor in an era when most East Texas records show only farming."
+  ],
+  "source_references": [
+    "Texas State Library and Archives Commission. County Records Inventory.",
+    "Texas State Library and Archives Commission. Guide to Texas State Penitentiary Records.",
+    "Dunn, Jeff. 'Iron Making in Nineteenth-Century East Texas.' East Texas Historical Journal 33, no. 1 (1995).",
+    "Works Progress Administration. Historical Records Survey: Texas County Records. Austin, 1937–1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "tx_cherokee",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

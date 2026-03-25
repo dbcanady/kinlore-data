@@ -1,0 +1,139 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse & Records Survival Atlas for Plymouth County, MA. Plymouth Colony records date from 1633 — among the oldest continuous public records in North America. MA's unique town-based vital records system means town clerks, not the county, hold the primary birth/marriage/death records.",
+  "courthouse_atlas_id": "ma_plymouth_courthouse",
+  "display_name": "Plymouth County, Massachusetts — Courthouse Atlas",
+  "county": "Plymouth",
+  "state": "MA",
+  "fips_code": "25023",
+  "cluster_ref": "ma_eastern_colonial",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1820,
+      "location": "Plymouth, MA — Court Street (renovated 1857, expanded multiple times; additional county buildings at Brockton)",
+      "records_housed": ["probate records from 1686", "land deeds from 1685", "court minutes", "naturalization records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1685-1820",
+        "location": "Plymouth, town center",
+        "fate": "Replaced by current structure. Plymouth Colony records (1633-1685) predating county formation were transferred to the state."
+      }
+    ],
+    "special_note": "CRITICAL: Massachusetts is a town-based records state. Vital records (births, marriages, deaths) are kept by TOWN CLERKS, not the county. Each of Plymouth County's 27 towns maintains its own vital records, some dating to the 1630s. The county handles probate, land deeds, and court records. Researchers must check town-level records for vital events."
+  },
+  "record_losses": [
+    {
+      "loss_id": "plymouth_colony_fragmentation",
+      "date": "1685-1692",
+      "cause": "Colony merger with Massachusetts Bay Colony",
+      "records_destroyed": [],
+      "records_survived": ["Plymouth Colony court records 1633-1685", "Plymouth Colony vital records", "Plymouth Colony land records"],
+      "scope": "administrative reorganization — no destruction",
+      "description": "When Plymouth Colony was absorbed into the Province of Massachusetts Bay in 1692, colony-level records were transferred to provincial custody. The original Plymouth Colony records (court orders, vital records, and land grants from 1633) survived intact and are now held at the Plymouth County Registry of Deeds and the Massachusetts State Archives. These are among the most complete seventeenth-century colonial records in North America.",
+      "narrative_impact": "Plymouth Colony's exceptional record survival means that {ancestor_name}'s family may be traceable to the 1630s — an extraordinary depth for American genealogy. The absence of a record here is more likely to indicate that the family arrived later than that a record was lost.",
+      "source": "Stratton, Eugene Aubrey. Plymouth Colony: Its History and People, 1620-1691. Salt Lake City: Ancestry Publishing, 1986."
+    },
+    {
+      "loss_id": "plymouth_1884_fire",
+      "date": "1884",
+      "cause": "Fire at Registry of Deeds",
+      "records_destroyed": ["some grantor/grantee indexes (partially reconstructed)"],
+      "records_survived": ["deed books (original volumes survived)", "probate records", "court minutes"],
+      "scope": "partial — indexes damaged, underlying records survived",
+      "description": "A fire at the Registry of Deeds in 1884 damaged some index volumes but left the original deed books largely intact. The indexes were subsequently reconstructed from the surviving originals, though some early entries may have been lost in the process.",
+      "narrative_impact": "Deed research in Plymouth County for records before 1884 may require checking both the reconstructed indexes and the original deed books. A name missing from the index may still appear in the underlying volume.",
+      "source": "Plymouth County Registry of Deeds. Institutional history records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1685,
+      "completeness": "Excellent — continuous from county formation. Plymouth Colony land grants (1620-1685) survive at Massachusetts State Archives.",
+      "gaps": "Index gaps from 1884 fire. Underlying volumes intact.",
+      "repository": "Plymouth County Registry of Deeds, Plymouth; Massachusetts State Archives (colonial period)",
+      "online_access": "MassLandRecords.com (images from approximately 1900); FamilySearch microfilm for earlier periods"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1686,
+      "completeness": "Excellent — Plymouth County Probate Court records are continuous from formation. Pre-county probate (Plymouth Colony) survives at the State Archives.",
+      "gaps": "No significant gaps.",
+      "repository": "Plymouth County Probate and Family Court, Plymouth; Massachusetts State Archives",
+      "online_access": "FamilySearch microfilm; Ancestry.com Massachusetts probate collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1633,
+      "completeness": "Excellent — Massachusetts required town recording of marriages from the colonial period. Town clerks hold the original records; state-level copies begin 1841.",
+      "gaps": "Coverage varies by town — some have continuous records from the 1630s, others from later settlement dates. Scattered gaps in smaller towns.",
+      "repository": "Individual town clerk offices; Massachusetts Vital Records to 1850 (published); Massachusetts State Archives",
+      "online_access": "AmericanAncestors.org (NEHGS) — Massachusetts Vital Records to 1850; Ancestry.com; FamilySearch"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1633,
+      "completeness": "Extraordinary — Plymouth Colony court records are among the most complete seventeenth-century judicial records in America. Published as Records of the Colony of New Plymouth (Shurtleff and Pulsifer, eds.).",
+      "gaps": "Minimal. Some loose papers from the colonial period are fragmentary.",
+      "repository": "Massachusetts State Archives (originals); published editions widely available",
+      "online_access": "Published volumes digitized at Internet Archive and HathiTrust"
+    },
+    "vital_records": {
+      "birth_registration_start": 1633,
+      "death_registration_start": 1633,
+      "completeness": "Town-level vital records from the colonial period. Statewide registration mandated 1841 with increasing completeness. Pre-1841 records vary by town — Plymouth town has excellent early records; newer towns begin at formation.",
+      "repository": "Individual town clerks (originals); Massachusetts Registry of Vital Records (state copies from 1841); Massachusetts State Archives",
+      "special_note": "The published series 'Vital Records of [Town Name] Massachusetts to the Year 1850' covers many Plymouth County towns. These published volumes are essential finding aids."
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Published town vital records (to 1850)",
+      "description": "The Tanner Ritchie / Systematic Vital Records series published vital records of most Massachusetts towns through 1850. These printed volumes abstract births, marriages, and deaths from town clerk records and are widely available.",
+      "repository": "NEHGS Library (Boston); FamilySearch microfilm; many digitized at Internet Archive",
+      "era_coverage": "1630s-1850",
+      "genealogical_value": "The single most important genealogical resource for colonial-era Plymouth County families. Organized alphabetically by surname within each town.",
+      "source": "Various town vital records volumes. Boston: New England Historic Genealogical Society and predecessors, 1900-1940s."
+    },
+    {
+      "source_type": "Plymouth Colony records (published)",
+      "description": "Records of the Colony of New Plymouth, edited by Nathaniel Shurtleff and David Pulsifer (12 volumes, 1855-1861). Court orders, laws, land grants, vital records, and military records from 1620-1691.",
+      "repository": "Major research libraries; digitized at Internet Archive and HathiTrust",
+      "era_coverage": "1620-1691",
+      "genealogical_value": "The definitive source for Plymouth Colony families. Contains court orders naming individuals, land grants, militia lists, and vital records that trace families from arrival.",
+      "source": "Shurtleff, Nathaniel B., and David Pulsifer, eds. Records of the Colony of New Plymouth. 12 vols. Boston: William White, 1855-1861."
+    },
+    {
+      "source_type": "Mayflower Society lineage records",
+      "description": "The General Society of Mayflower Descendants has published multi-volume lineages tracing descendants of Mayflower passengers through five generations. The 'Silver Books' are rigorously documented and peer-reviewed.",
+      "repository": "NEHGS Library; Mayflower Society Library (Plymouth); major genealogical libraries",
+      "era_coverage": "1620-approximately 1800",
+      "genealogical_value": "If an ancestor connects to a Mayflower lineage, the published volumes provide documented proof back to 1620. The standard of evidence is high.",
+      "source": "General Society of Mayflower Descendants. Mayflower Families Through Five Generations. Plymouth, MA: various volumes, 1975-present."
+    },
+    {
+      "source_type": "Church records — Congregational and Baptist",
+      "description": "Town Congregational (later Unitarian/UCC) churches maintained membership rolls, baptism records, and disciplinary proceedings from the colonial period. Baptist churches date from the late 1600s in some towns.",
+      "repository": "Congregational Library (Boston); individual churches; Massachusetts State Archives; NEHGS Library",
+      "era_coverage": "1630s-present",
+      "genealogical_value": "Church records fill gaps in civil vital records, particularly before statewide registration (1841). Membership admission and dismissal records track family movements between towns.",
+      "source": "Congregational Library and Archives, Boston. Guide to Church Records in Massachusetts."
+    }
+  ],
+  "narrative_hooks": [
+    "Plymouth County's records stretch back to 1633 — if {ancestor_name}'s family was here in the colonial period, the court records, land grants, and vital records that documented their lives have likely survived for nearly four centuries.",
+    "Unlike most American counties, Plymouth County does not hold birth and death records — in Massachusetts, those belong to the town clerk of the town where the event occurred. Searching for {ancestor_name}'s birth means knowing which town {pronoun_subject} was born in.",
+    "The published Plymouth Colony records are one of the most complete seventeenth-century documentation sets in America — if {ancestor_name} appeared before the court, bought land, or served in King Philip's War, the record is probably in Shurtleff's published volumes.",
+    "The 1884 fire at the Registry of Deeds damaged indexes but spared the deed books — if {ancestor_name}'s land transaction is missing from the index, the deed itself may still exist in the underlying volume."
+  ],
+  "source_references": [
+    "Stratton, Eugene Aubrey. Plymouth Colony: Its History and People, 1620-1691. Salt Lake City: Ancestry Publishing, 1986.",
+    "Shurtleff, Nathaniel B., and David Pulsifer, eds. Records of the Colony of New Plymouth. 12 vols. Boston: William White, 1855-1861.",
+    "Plymouth County Registry of Deeds. Institutional history records.",
+    "Massachusetts State Archives. Guide to Public Records in Massachusetts. Boston: Secretary of the Commonwealth.",
+    "Various published town vital records volumes. Boston: NEHGS, 1900-1940s."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ma_plymouth",
+    "research_guidance_refs": ["new_england_town_records", "colonial_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

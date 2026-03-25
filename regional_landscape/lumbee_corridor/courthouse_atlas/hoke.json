@@ -1,0 +1,116 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Hoke County, NC. Created from Robeson County in 1911 — records begin at that date. Earlier records for Hoke County families are in Robeson County.",
+  "courthouse_atlas_id": "nc_hoke_courthouse",
+  "display_name": "Hoke County, North Carolina — Courthouse Atlas",
+  "county": "Hoke",
+  "state": "NC",
+  "fips_code": "37093",
+  "cluster_ref": "lumbee_corridor",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1911,
+      "location": "Raeford, NC — Main Street",
+      "records_housed": ["deeds from 1911", "marriages from 1911", "court minutes from 1911", "vital records indexes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "Pre-1911",
+        "location": "Robeson County Courthouse, Lumberton, NC",
+        "fate": "Hoke County was carved from Robeson County in 1911. All records before that date are filed in Robeson County. Lumberton is approximately 25 miles south of Raeford."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "hoke_no_major_losses",
+      "date": "N/A",
+      "cause": "None — Hoke County has experienced no major courthouse fire or catastrophic record loss",
+      "records_destroyed": [],
+      "records_survived": ["All major record series from 1911 onward"],
+      "scope": "none",
+      "description": "Hoke County's records are intact from the county's formation in 1911. The 1911 boundary is the key research challenge — families in this area before 1911 are documented in Robeson County records.",
+      "narrative_impact": "For {ancestor_name}'s family, the Hoke County courthouse has records beginning only in 1911. Everything before that date is in the Robeson County courthouse in Lumberton.",
+      "source": "NC State Archives. Guide to County Records. Raleigh, 2001."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1911,
+      "completeness": "Complete from county formation. Pre-1911 deeds in Robeson County.",
+      "gaps": "None in Hoke County records. The 1911 gap is jurisdictional.",
+      "repository": "Hoke County Register of Deeds, Raeford; NC State Archives microfilm",
+      "online_access": "Limited"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1911,
+      "completeness": "Complete from county formation",
+      "gaps": "Pre-1911 estates in Robeson County",
+      "repository": "Hoke County Clerk of Court; NC State Archives",
+      "online_access": "Limited"
+    },
+    "marriages": {
+      "earliest_surviving": 1911,
+      "completeness": "Complete from county formation. Three-race filing system applies.",
+      "gaps": "Pre-1911 marriages in Robeson County",
+      "repository": "Hoke County Register of Deeds; NC State Archives microfilm",
+      "online_access": "Limited"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1911,
+      "completeness": "Complete from county formation",
+      "gaps": "Pre-1911 court proceedings in Robeson County",
+      "repository": "Hoke County Clerk of Court; NC State Archives",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Spotty until approximately 1920",
+      "repository": "NC Office of Vital Records"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Robeson County records (pre-1911)",
+      "description": "All civil records for Hoke County families before 1911 are filed in Robeson County at the courthouse in Lumberton, NC.",
+      "repository": "Robeson County Courthouse, Lumberton, NC; NC State Archives microfilm",
+      "era_coverage": "1787-1911 (Robeson County formation to Hoke County formation)",
+      "genealogical_value": "Essential. No Hoke County substitute exists for this period.",
+      "source": "NC State Archives. Guide to County Records. Raleigh, 2001."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Before 1920, Hoke County families were enumerated in Robeson County. The 1920 census is the first to enumerate Hoke County separately.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790-1940",
+      "genealogical_value": "Must trace from Robeson County census (pre-1920) to Hoke County census (1920+).",
+      "source": "National Archives and Records Administration."
+    },
+    {
+      "source_type": "Fort Bragg military records",
+      "description": "Fort Bragg installation records, civilian employee records, and military service records for personnel stationed at the base in western Hoke County.",
+      "repository": "National Personnel Records Center, St. Louis; U.S. Army records at National Archives",
+      "era_coverage": "1918-present",
+      "genealogical_value": "Relevant for families employed at Fort Bragg or who served there. Civilian employee records may document hometown, next of kin, and demographic information.",
+      "source": "U.S. Army Center of Military History."
+    }
+  ],
+  "narrative_hooks": [
+    "Hoke County was carved from Robeson in 1911 — the courthouse in Raeford is younger than {ancestor_name}'s grandmother. Everything before 1911 is in Lumberton, twenty-five miles south, filed under the old county name.",
+    "If {ancestor_name}'s family was farming in what became Hoke County before 1911, the deed is in Robeson County's vault, not Hoke's — the county line moved, the records did not.",
+    "The 1920 census is the first that lists {ancestor_name}'s family under 'Hoke County.' Before that, the same family, the same farm, the same community — all filed under 'Robeson County.'",
+    "Fort Bragg absorbed the western third of Hoke County, and if {ancestor_name} worked at the base, the records are in the Army's files, not the county's."
+  ],
+  "source_references": [
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Lefler, H.T., and A.R. Newsome. North Carolina: The History of a Southern State. 3rd ed. Chapel Hill: University of North Carolina Press, 1973.",
+    "U.S. Army Center of Military History. Fort Bragg installation history."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_hoke",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

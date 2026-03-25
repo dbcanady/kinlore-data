@@ -1,0 +1,136 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the CT River Valley regional cluster. Documents how transportation shaped settlement, commerce, and migration from the Connecticut River's dominance as the original highway through the railroad era and the Interstate highway system. The Connecticut River was the colony's spine — everything oriented to the water until the railroad redirected the current of commerce.",
+  "connectivity_id": "ct_river_valley_roads",
+  "display_name": "CT River Valley — Road & Connectivity Network",
+  "cluster_ref": "ct_river_valley",
+  "era_range": "1633-1960",
+  "transportation_eras": [
+    {
+      "era_id": "river_and_trail",
+      "era_name": "The Connecticut River and Colonial Roads",
+      "date_range": "1633-1800",
+      "primary_modes": ["river vessel (flatboat, shallop, sloop)", "horseback", "oxcart on improved trace", "foot", "coastal sloop"],
+      "description": "The Connecticut River was the original highway. Navigable for ocean-going vessels to the falls at Windsor Locks (Enfield Falls), and for smaller craft above the falls to northern Vermont, the river carried everything — grain, livestock, timber downstream; manufactured goods and salt upstream. Overland roads connected the river towns to the interior, but they were crude — oxcart trails through the forest, following Native paths. The Boston Post Road, connecting New York to Boston through Connecticut's coastal towns, was the colony's primary east-west overland route. Interior roads to Tolland and Windham counties were the worst — rocky, steep, and impassable in mud season.",
+      "road_conditions": "River travel was reliable except during winter ice and spring flood. Overland roads were unimproved traces — passable on horseback, punishing by cart. The Post Road was the best-maintained route because it carried mail.",
+      "travel_times": [
+        { "from": "Hartford", "to": "New Haven", "mode": "horseback", "time": "1 day (35 miles)", "conditions_note": "Good weather on the Post Road. Longer in rain or snow." },
+        { "from": "Hartford", "to": "New London", "mode": "river and coastal sloop", "time": "1-2 days", "conditions_note": "Downstream to the Sound, then coastal. Wind-dependent." },
+        { "from": "Hartford", "to": "Windsor Locks (Enfield Falls)", "mode": "river sloop", "time": "Half day upstream", "conditions_note": "Tidal influence made upstream travel slower." },
+        { "from": "Hartford", "to": "Tolland (interior upland)", "mode": "horseback", "time": "Half day to full day (20 miles)", "conditions_note": "Rocky interior roads. Slow and difficult." }
+      ],
+      "key_routes": [
+        { "route_name": "Connecticut River (navigable corridor)", "type": "river navigation", "year_established": "Pre-contact — used by Native peoples for millennia", "description": "The central artery of the colony. Every significant settlement (Hartford, Middletown, Essex, Windsor, Wethersfield) sat on or near the river. Ocean-going vessels navigated to Windsor Locks.", "counties_served": ["Hartford", "Middlesex"] },
+        { "route_name": "Boston Post Road (coastal)", "type": "improved trace / post road", "year_established": "1673 (postal route established)", "description": "The primary overland route connecting New York, New Haven, and Boston. Followed the Long Island Sound coast through New Haven County. Carried mail, travelers, and commerce.", "counties_served": ["New Haven", "New London"] },
+        { "route_name": "Country Road to Windham / Tolland", "type": "unimproved trace", "year_established": "1700s", "description": "Interior roads connecting Hartford to the eastern uplands. Rocky, steep, and barely passable in mud season. These roads determined the economic isolation of the upland counties.", "counties_served": ["Tolland", "Windham"] }
+      ],
+      "isolation_index": {
+        "description": "Low along the Connecticut River; moderate to high in the interior uplands. The river towns were as connected as any in New England — maritime trade linked them to the Sound, New York, and the West Indies. The upland towns (Tolland, Windham counties) were isolated by bad roads and rocky terrain.",
+        "comparative_note": "The Connecticut River gave its valley better connectivity than inland New England. Hartford was closer (in travel time) to New York than to Windham County."
+      },
+      "narrative_hook": "The Connecticut River was {ancestor_name}'s highway — everything that mattered moved on its surface, and the farther {pronoun_subject} lived from the river, the farther {pronoun_subject} was from the world.",
+      "source": "Bushman, From Puritan to Yankee (1967). Main, Society and Economy in Colonial Connecticut (1985)."
+    },
+    {
+      "era_id": "turnpike_and_canal",
+      "era_name": "Turnpikes and the Canal Era",
+      "date_range": "1790-1850",
+      "primary_modes": ["stagecoach on turnpike", "horseback", "river vessel", "canal barge (limited)"],
+      "description": "Connecticut's turnpike era improved overland travel but could not match the river. Private turnpike companies built toll roads connecting major towns — the Hartford and New Haven Turnpike (1798), the Middlesex Turnpike, and others. These improved roads cut travel times and enabled regular stagecoach service. The Enfield Falls Canal (1829) bypassed the rapids at Windsor Locks, extending navigation upstream. The Farmington Canal (New Haven to Northampton, MA, 1835) was an ambitious attempt to create an interior water route but failed commercially within a decade — too slow, too expensive, and overtaken by the railroad almost immediately.",
+      "road_conditions": "Turnpikes were graded, ditched, and sometimes macadamized. A significant improvement over colonial traces but still rough by modern standards. Mud season (March-April) remained a challenge even on turnpikes.",
+      "travel_times": [
+        { "from": "Hartford", "to": "New Haven", "mode": "stagecoach on turnpike", "time": "5-6 hours", "conditions_note": "Regular service on the Hartford and New Haven Turnpike. Faster than colonial-era horseback." },
+        { "from": "New Haven", "to": "New York", "mode": "coastal steamboat", "time": "6-8 hours", "conditions_note": "Steamboat service began in the 1820s. Much faster than overland." },
+        { "from": "Hartford", "to": "Springfield, MA", "mode": "stagecoach / river", "time": "Half day", "conditions_note": "The Hartford-Springfield corridor was well-traveled." }
+      ],
+      "key_routes": [
+        { "route_name": "Hartford and New Haven Turnpike", "type": "toll road", "year_established": "1798", "description": "Connected Hartford to New Haven via Berlin and Meriden. One of the first turnpikes in New England. Enabled regular stagecoach service between the two capitals.", "counties_served": ["Hartford", "New Haven"] },
+        { "route_name": "Enfield Falls Canal", "type": "canal", "year_established": "1829", "description": "Bypassed the rapids at Windsor Locks on the Connecticut River, extending navigation upstream. Critical for upriver commerce.", "counties_served": ["Hartford"] },
+        { "route_name": "Farmington Canal (New Haven to Northampton)", "type": "canal", "year_established": "1835", "description": "Ambitious inland waterway connecting New Haven to the Connecticut River at Northampton, MA. Failed within a decade — too slow and immediately superseded by the railroad. The canal bed was later used for the railroad right-of-way.", "counties_served": ["New Haven", "Hartford"] }
+      ],
+      "isolation_index": {
+        "description": "Improved along turnpike routes; still high in the upland interior. The turnpikes connected the major towns but left the back roads of Tolland and Windham counties unchanged.",
+        "comparative_note": "Connecticut's turnpike network was denser than most New England states, reflecting its higher population density and commercial orientation."
+      },
+      "narrative_hook": "The turnpike brought the stagecoach to {ancestor_name}'s town — six hours from Hartford to New Haven on a graded road that charged tolls and promised to get you there before dark.",
+      "source": "Taylor, Robert J. Colonial Connecticut: A History. Millwood, NY: KTO Press, 1979."
+    },
+    {
+      "era_id": "railroad_era",
+      "era_name": "Railroad Era — Industry Follows the Rails",
+      "date_range": "1838-1920",
+      "primary_modes": ["railroad", "horse-drawn vehicle", "steamboat (declining)"],
+      "description": "The railroad transformed Connecticut's geography of commerce. The New Haven and Hartford Railroad (1838-1848) connected the colony's two capitals by rail. The Naugatuck Railroad (1849) linked the brass mills to Long Island Sound. The Shore Line (1852) connected New London to New Haven and New York. By 1860, every county seat had railroad service. The railroad made the Connecticut River less important as a transportation corridor — goods could move faster and more reliably by rail. The railroad also enabled the manufacturing revolution: factories no longer needed waterpower if they could receive coal by rail. Hartford's Colt armory, New Haven's Winchester factory, and the Naugatuck Valley brass mills all depended on railroad connections for raw materials and finished product shipment.",
+      "road_conditions": "Local roads remained unimproved. The railroad was the long-distance transportation mode; horse-drawn vehicles served the 'last mile' from depot to factory or farm.",
+      "travel_times": [
+        { "from": "Hartford", "to": "New Haven", "mode": "railroad", "time": "1.5-2 hours", "conditions_note": "Regular service. The same journey took 5-6 hours by stagecoach." },
+        { "from": "New Haven", "to": "New York", "mode": "railroad", "time": "2-3 hours", "conditions_note": "Shore Line route. Transformed New Haven into a commuting-distance suburb of New York." },
+        { "from": "New London", "to": "New Haven", "mode": "railroad (Shore Line)", "time": "2 hours", "conditions_note": "Connected New London to the national railroad network." },
+        { "from": "Waterbury", "to": "Bridgeport", "mode": "railroad (Naugatuck)", "time": "1.5 hours", "conditions_note": "Connected the brass mills to Long Island Sound shipping." },
+        { "from": "Willimantic", "to": "Hartford", "mode": "railroad", "time": "1-1.5 hours", "conditions_note": "Connected the thread mills to the state capital." }
+      ],
+      "key_routes": [
+        { "route_name": "New York, New Haven and Hartford Railroad ('the New Haven')", "type": "railroad", "year_established": "1838-1872 (consolidated)", "description": "The dominant railroad in Connecticut, eventually controlling virtually all rail traffic in the state. Connected New York, New Haven, Hartford, and Springfield. The 'New Haven' was one of the most heavily trafficked railroads in America.", "counties_served": ["Hartford", "New Haven", "New London", "Middlesex"] },
+        { "route_name": "Naugatuck Railroad", "type": "railroad", "year_established": "1849", "description": "Connected Waterbury and the Naugatuck Valley brass mills to Bridgeport on Long Island Sound. Essential for the brass industry.", "counties_served": ["New Haven"] },
+        { "route_name": "New London Northern Railroad", "type": "railroad", "year_established": "1851-1871", "description": "Connected New London northward through the Willimantic corridor to Vermont. Provided transportation for eastern Connecticut textile mills.", "counties_served": ["New London", "Windham", "Tolland"] }
+      ],
+      "isolation_index": {
+        "description": "Low everywhere the railroad reached; moderate in areas between rail lines. By 1870, nearly all of Connecticut was within a day's travel of a railroad depot.",
+        "comparative_note": "Connecticut's railroad density was among the highest in the nation, reflecting its compact geography and industrial economy."
+      },
+      "narrative_hook": "The railroad reached {town} and within a decade the world shrank — {ancestor_name} could get to Hartford in two hours, to New York in half a day, and the factory that employed {pronoun_object} could ship its products to the nation.",
+      "source": "Roth, Connecticut: An Inventory (1981). Grant, The Miracle of Connecticut (1992)."
+    },
+    {
+      "era_id": "highway_automobile",
+      "era_name": "Highway and Automobile Era",
+      "date_range": "1920-1960",
+      "primary_modes": ["automobile", "bus", "truck", "railroad (declining for passenger)"],
+      "description": "The automobile and Interstate highway system reshaped Connecticut. The Merritt Parkway (1938) and the Connecticut Turnpike (I-95, 1958) connected Fairfield County to New Haven and beyond. Interstate 91 (1958-1966) ran through the Connecticut River Valley from New Haven to Hartford to Springfield. These highways enabled suburbanization — middle-class families moved from Hartford, New Haven, and New London to surrounding towns while commuting to city jobs. The highways also accelerated the decline of the railroad for passenger service. The automobile gave workers mobility that undermined factory-town dependence — a worker with a car could live outside the mill village.",
+      "road_conditions": "State highways paved by the 1930s. Interstate construction in the 1950s-1960s. Rural roads in Tolland and Windham counties improved but some remained unpaved into the 1940s.",
+      "travel_times": [
+        { "from": "Hartford", "to": "New Haven", "mode": "automobile via US 5 / Route 15", "time": "1 hour", "conditions_note": "Two-lane highway. Interstate 91 (1960s) would cut this further." },
+        { "from": "New Haven", "to": "New York", "mode": "automobile via Merritt Parkway / I-95", "time": "1.5-2 hours", "conditions_note": "The Merritt Parkway (1938) was among the first limited-access highways in the nation." },
+        { "from": "Hartford", "to": "Willimantic", "mode": "automobile via Route 6", "time": "45 minutes", "conditions_note": "Improved state highway." },
+        { "from": "Groton", "to": "New Haven", "mode": "automobile via US 1 / I-95", "time": "1-1.5 hours", "conditions_note": "I-95 connected the coastline." }
+      ],
+      "key_routes": [
+        { "route_name": "Interstate 91 (New Haven–Hartford–Springfield)", "type": "Interstate highway", "year_established": "1958-1966", "description": "The highway equivalent of the Connecticut River — running through the valley from New Haven to Hartford and north to Springfield, MA. Enabled suburban commuting that drained Hartford's population.", "counties_served": ["Hartford", "New Haven", "Middlesex"] },
+        { "route_name": "Interstate 95 / Connecticut Turnpike (coastal)", "type": "Interstate highway", "year_established": "1958", "description": "Connected New Haven and New London along the coast. Part of the Boston-to-New York highway corridor.", "counties_served": ["New Haven", "New London", "Middlesex"] },
+        { "route_name": "Merritt Parkway", "type": "limited-access parkway", "year_established": "1938", "description": "Connected the New York suburbs in Fairfield County to New Haven. One of the first limited-access highways in the nation, designed for beauty as well as function (Art Deco bridges).", "counties_served": ["New Haven"] },
+        { "route_name": "Route 2 (Hartford to Norwich/New London)", "type": "state highway", "year_established": "1920s", "description": "Connected Hartford to eastern Connecticut through Tolland and Windham counties. The primary east-west route through the interior.", "counties_served": ["Hartford", "Tolland", "New London"] }
+      ],
+      "isolation_index": {
+        "description": "Very low across most of the cluster by 1960. The automobile and highway system ended the isolation of even the most remote Tolland and Windham County towns. Connecticut's compact geography meant that no point was more than two hours from any other.",
+        "comparative_note": "By 1960, Connecticut was one of the most connected states in the nation — dense highway network, compact geography, and proximity to New York and Boston."
+      },
+      "narrative_hook": "The Interstate cut through the Connecticut River Valley like a scar — {ancestor_name} watched it divide neighborhoods and drain the cities into suburbs, but it also meant that Hartford was forty minutes from New Haven, and the world was closer than it had ever been.",
+      "source": "Grant, The Miracle of Connecticut (1992). Roth, Connecticut: An Inventory (1981)."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1838, "line": "Hartford and New Haven Railroad (first segment)", "stations": ["Hartford", "Berlin", "Meriden", "New Haven"], "impact": "First railroad in Connecticut. Connected the two capitals." },
+    { "year": 1849, "line": "Naugatuck Railroad", "stations": ["Bridgeport", "Derby", "Ansonia", "Naugatuck", "Waterbury"], "impact": "Connected the brass mills to coastal shipping." },
+    { "year": 1851, "line": "New London Northern Railroad (first segment)", "stations": ["New London", "Norwich", "Willimantic"], "impact": "Connected eastern Connecticut mills to coastal ports." },
+    { "year": 1852, "line": "Shore Line Railroad (New Haven to New London)", "stations": ["New Haven", "Guilford", "Old Saybrook", "New London"], "impact": "Completed the coastal rail corridor from New York to Boston." },
+    { "year": 1872, "line": "New York, New Haven and Hartford Railroad (consolidated)", "stations": ["All major Connecticut towns"], "impact": "Monopoly railroad — controlled virtually all rail traffic in Connecticut." }
+  ],
+  "narrative_hooks": [
+    "The Connecticut River was {ancestor_name}'s first highway — but the railroad replaced it, the automobile replaced the railroad, and the Interstate replaced the automobile. Each replacement made the world smaller and the river less important.",
+    "Before the railroad, {ancestor_name}'s goods went to market on the Connecticut River — downstream to the Sound, aboard a sloop to New York. The railroad turned the river into scenery.",
+    "The Merritt Parkway was built for beauty — Art Deco bridges over a road designed to bring New Yorkers to Connecticut without showing them a factory. {ancestor_name} drove through a parkway that pretended Connecticut was still countryside.",
+    "Interstate 91 ran through the Connecticut River Valley like the river itself — but faster, louder, and cutting through neighborhoods that the river had built.",
+    "In {year}, {ancestor_name} could reach New York in two hours by automobile — a journey that took {pronoun_possessive} grandparents two days by stagecoach and their grandparents a week by horseback."
+  ],
+  "source_references": [
+    "Bushman, Richard L. From Puritan to Yankee. Cambridge: Harvard University Press, 1967.",
+    "Grant, Ellsworth S. The Miracle of Connecticut. Hartford: Connecticut Historical Society, 1992.",
+    "Roth, Matthew. Connecticut: An Inventory of Historic Engineering and Industrial Sites. Washington: Society for Industrial Archeology, 1981.",
+    "Main, Jackson Turner. Society and Economy in Colonial Connecticut. Princeton: Princeton University Press, 1985.",
+    "Taylor, Robert J. Colonial Connecticut: A History. Millwood, NY: KTO Press, 1979."
+  ],
+  "nel_cross_references": {
+    "route_refs": ["great_wagon_road", "new_england_maritime_routes", "erie_canal_corridor"]
+  }
+}

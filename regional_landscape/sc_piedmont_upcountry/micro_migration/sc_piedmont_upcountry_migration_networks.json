@@ -1,0 +1,183 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Micro-Migration Network Map for the SC Piedmont Upcountry cluster. Documents specific migration corridors, chain-migration mechanics, and settlement patterns that moved people into, out of, and within this eight-county region from 1760 to 1960.",
+  "migration_network_id": "sc_piedmont_upcountry_migration_networks",
+  "display_name": "SC Piedmont Upcountry — Micro-Migration Network Map",
+  "cluster_ref": "sc_piedmont_upcountry",
+  "era_range": "1760-1960",
+  "migration_corridors": [
+    {
+      "corridor_id": "great_wagon_road_scots_irish",
+      "corridor_name": "Great Wagon Road: Scots-Irish and German Settlement of the Upcountry",
+      "origin_counties": ["Augusta (VA)", "Rockbridge (VA)", "Rockingham (NC)", "Guilford (NC)", "Rowan (NC)", "Mecklenburg (NC)"],
+      "destination_area": "York, Chester, Spartanburg, Greenville, Union, Laurens, Anderson, Cherokee — the entire Upcountry",
+      "era": "1750-1800",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of families over two generations. The Scots-Irish were the dominant ethnic group in the Upcountry settlement. German families were a smaller but significant stream, concentrated in the York-Chester corridor.",
+      "evidence": {
+        "census_evidence": "The 1790 and 1800 federal census for SC Upcountry counties shows household heads with surnames characteristic of the Scots-Irish migration stream: McDowell, McCullough, Caldwell, Brandon, Gist, Bratton. Many of these surnames also appear in VA and NC Piedmont counties a generation earlier.",
+        "church_evidence": "Presbyterian and ARP (Associate Reformed Presbyterian) church records in York, Chester, and Mecklenburg counties document families arriving from Virginia and Pennsylvania Scots-Irish communities. Church transfer records track specific families.",
+        "surname_clustering": "Scots-Irish surnames — McDowell, McCullough, Caldwell, Brandon, Gist, Bratton, Gaston, Adair — dominate the early settlement records of York, Chester, and Spartanburg counties. German surnames — Kitchens (Kutschen), Houser, Barringer — appear in the York-Chester corridor."
+      },
+      "chain_mechanics": {
+        "description": "The Great Wagon Road was the highway of Scots-Irish migration from Ulster through Pennsylvania and the Shenandoah Valley into the Carolina backcountry. Families did not move in isolation — they moved in kinship clusters, with siblings, cousins, and church neighbors settling together in the same district. A family that arrived in York County in 1770 likely had kin who had preceded them by two to five years, and more kin who would follow within the decade.",
+        "kinship_role": "Kinship was everything. Scots-Irish families migrated as extended networks — brothers, brothers-in-law, and former neighbors from the same Ulster parish or Pennsylvania settlement moved together. Church connections (Presbyterian, ARP) reinforced kinship ties.",
+        "timeline": "First wave 1750-1760 (before Cherokee Wars closed the frontier). Second wave 1770-1790 (after Cherokee cessions). Third wave 1790-1810 (filling in the remaining land)."
+      },
+      "narrative_hook": "The Great Wagon Road brought {ancestor_name}'s people south from Virginia or Pennsylvania into the Upcountry — not as a lone family but as part of a kinship network, Scots-Irish cousins and church neighbors moving together into land the Cherokee had just lost.",
+      "source": "Fischer, Bound Away (2000). Ford, Origins of Southern Radicalism (1988). Edgar, South Carolina: A History (1998)."
+    },
+    {
+      "corridor_id": "appalachian_to_mills",
+      "corridor_name": "Appalachian Mountain-to-Mill Pipeline: Mountain Families to SC Upcountry Textile Mills",
+      "origin_counties": ["Buncombe (NC)", "Madison (NC)", "Yancey (NC)", "Mitchell (NC)", "Watauga (NC)", "Ashe (NC)", "Polk (NC)", "Henderson (NC)", "Transylvania (NC)", "Oconee (SC)", "Pickens (SC)"],
+      "destination_area": "Greenville, Spartanburg, Anderson, Cherokee — the textile mill villages of the northern Upcountry",
+      "era": "1890-1940",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of white mountain families over two generations. The mountain counties lost population steadily after 1900 as logging collapsed and subsistence farming on thin mountain soil could not produce cash income. Greenville and Spartanburg counties grew dramatically, with mountain families constituting a significant fraction of the mill village population.",
+      "evidence": {
+        "census_evidence": "1910 and 1920 census for Greenville and Spartanburg mill villages shows household heads born in NC mountain counties (Buncombe, Madison, Yancey, Mitchell, Henderson) and SC mountain counties (Oconee, Pickens). Generational pattern: parents born in mountains, older children born in mountains, younger children born in Greenville or Spartanburg — pinpointing migration date.",
+        "church_evidence": "Missionary Baptist and Primitive Baptist churches — denominations dominant in the mountains — were established in Greenville and Spartanburg mill villages by mountain migrants. The presence of these mountain denominations in Piedmont mill towns is evidence of concentrated mountain settlement.",
+        "surname_clustering": "Mountain surnames — Owenby, Buckner, Lunsford, Penland, Ramsey — appear in Greenville and Spartanburg mill village census records in clusters indicating chain migration from specific mountain communities."
+      },
+      "chain_mechanics": {
+        "description": "Mountain families came because the logging economy had collapsed and subsistence farming could not produce cash. Logging companies had employed mountain men for cash wages in the 1880s-1900s; when the timber was cut and the companies left, those families needed cash income and had no local source. The Upcountry mills recruited from the mountains through company agents and, more effectively, through kinship chains: one family member went to the mill, secured work and a company house, and sent word back. The mountain kinship networks were dense — intermarriage within communities meant that moving one family eventually pulled an entire network.",
+        "kinship_role": "Extended family networks were the primary mechanism. Mountain families were densely intermarried, and when one branch relocated to a mill village, the connected network followed over time. Mountain migrants clustered tightly in specific mill villages rather than dispersing.",
+        "timeline": "Trickle 1890-1900; first significant wave 1900-1915 (logging collapse); sustained flow 1915-1930; Depression push 1930-1940."
+      },
+      "narrative_hook": "The mountains had fed {ancestor_name}'s people for generations, but by {year} the logging companies had stripped the timber and moved on. When word came from a cousin in Greenville that the mills paid cash every Saturday, the mountains stopped being home and started being a place to leave.",
+      "source": "Eller, Ronald D. Miners, Millhands, and Mountaineers. University of Tennessee Press, 1982. Carlton, Mill and Town (1982). Hall et al., Like a Family (1987)."
+    },
+    {
+      "corridor_id": "nc_sc_cross_border",
+      "corridor_name": "NC-SC Cross-Border Textile Worker Movement",
+      "origin_counties": ["Gaston (NC)", "Cleveland (NC)", "Rutherford (NC)", "Mecklenburg (NC)"],
+      "destination_area": "Greenville, Spartanburg, Cherokee, York counties SC (and reverse — bidirectional)",
+      "era": "1890-1960",
+      "migration_type": "labor_market_movement",
+      "scale": "Continuous moderate flow in both directions. The NC-SC border was functionally invisible in the textile belt — the same companies operated plants on both sides, and workers moved between them as routinely as farmers moved between fields.",
+      "evidence": {
+        "census_evidence": "1910-1940 census for SC Upcountry mill towns shows significant numbers of NC-born household heads. The reverse is equally visible — NC mill town census sheets show SC-born workers.",
+        "church_evidence": "Church transfer letters moved freely across the border.",
+        "surname_clustering": "Less diagnostic than other corridors because the same Scots-Irish and English surnames dominate both sides."
+      },
+      "chain_mechanics": {
+        "description": "This was a single labor market spanning two states. Workers moved to chase better wages, escape abusive overseers, find mills without the stretch-out, or start fresh after being blacklisted. The border meant nothing to the industry.",
+        "kinship_role": "Less kinship-driven than other corridors — more driven by labor market conditions.",
+        "timeline": "Continuous from 1890s through 1960. Peak during strike periods (1929, 1934) when workers fled struck mills for operating ones across the state line."
+      },
+      "narrative_hook": "The state line meant nothing to {ancestor_name}'s family — the same companies ran mills in Gastonia and Spartanburg, and a worker who needed a fresh start could walk across the border and find the same work in a different company house.",
+      "source": "Carlton, Mill and Town (1982). Simon, A Fabric of Defeat (1998)."
+    },
+    {
+      "corridor_id": "york_county_charlotte_pull",
+      "corridor_name": "Charlotte Suburban Pull on York County",
+      "origin_counties": ["York (SC)"],
+      "destination_area": "Charlotte, NC, metropolitan area (but families stayed in York County, commuting across the Catawba)",
+      "era": "1940-1960",
+      "migration_type": "suburban_commuter_shift",
+      "scale": "Thousands of families shifted from mill employment to Charlotte-area jobs while remaining York County residents. This was not a migration out of the county but a transformation of the county's economic identity.",
+      "evidence": {
+        "census_evidence": "1950 and 1960 census for York County shows increasing numbers of workers listing Charlotte employers while maintaining York County residence.",
+        "church_evidence": "Church membership remained in York County congregations even as employment shifted to Charlotte."
+      },
+      "chain_mechanics": {
+        "description": "Charlotte's postwar growth pushed south across the Catawba River. New bridges and highway improvements made commuting from Fort Mill and Rock Hill feasible. York County families transitioned from mill employment to Charlotte-area jobs without moving — the county changed around them from an independent Upcountry mill county to a Charlotte suburb.",
+        "kinship_role": "Family networks within York County facilitated the transition — information about Charlotte jobs flowed through existing community networks.",
+        "timeline": "Beginning in the 1940s, accelerating through the 1950s, transformative by the 1960s."
+      },
+      "narrative_hook": "The Catawba River had separated York County from Charlotte for two centuries, but by {year} the bridges and highways had dissolved the barrier — {ancestor_name} could drive to a Charlotte job and come home to a South Carolina house, straddling two states and two centuries.",
+      "source": "Hanchett, Sorting Out the New South City (1998)."
+    },
+    {
+      "corridor_id": "black_out_migration",
+      "corridor_name": "Black Great Migration from the SC Upcountry",
+      "origin_counties": ["Greenville", "Spartanburg", "Anderson", "York", "Chester", "Union", "Laurens", "Cherokee"],
+      "destination_area": "Washington DC, Philadelphia, New York (Harlem), Baltimore, Detroit — via Southern Railway northbound through Charlotte and Washington",
+      "era": "1910-1960",
+      "migration_type": "chain_migration",
+      "scale": "Tens of thousands of Black families from the Upcountry over five decades. The Black population in Upcountry counties stagnated or declined relative to natural increase as outmigration drained the community.",
+      "evidence": {
+        "census_evidence": "1920-1960 census for Philadelphia, Washington DC, and New York shows concentrations of SC-born Black residents with Upcountry county birthplaces.",
+        "church_evidence": "Black Baptist and AME churches in Upcountry counties record substantial membership losses 1916-1960. Destination churches in northern cities show 'received by letter' entries from SC congregations."
+      },
+      "chain_mechanics": {
+        "description": "The Southern Railway's northbound line through Charlotte and Washington provided the physical connection. Chain migration followed church and kinship networks: a young man went north, found work, and sent word back. The push factors were severe: racial violence, economic exclusion from the best mill jobs, tenant farming's decline, and the systematic denial of political rights. The pull factors were wartime industrial employment and the promise of less overt racial oppression.",
+        "kinship_role": "Church networks were as important as blood kinship. AME and Baptist church connections channeled migrants to specific northern congregations that served as landing pads.",
+        "timeline": "Trickle 1910-1916; first surge 1917-1920 (WWI); sustained 1920-1940; second surge 1942-1955 (WWII); tapering 1955-1960."
+      },
+      "narrative_hook": "When {ancestor_name} boarded the Southern Railway at {town} heading north in {year}, {pronoun_subject} was following a path marked by kin and church — a cousin in Philadelphia, a deacon in Washington who knew where the jobs were, a brother in Harlem who said there was room.",
+      "source": "Wilkerson, Isabel. The Warmth of Other Suns. Random House, 2010. Gregory, James N. The Southern Diaspora. UNC Press, 2005."
+    }
+  ],
+  "internal_movement_patterns": [
+    {
+      "pattern_id": "farm_to_mill_within_county",
+      "pattern_name": "Farm-to-Mill within the Same County",
+      "description": "The most common migration in the Upcountry was the shortest — a family leaving their farm for a mill village in the same county. A Chester County farmer whose soil had washed away might walk five miles to the Eureka Mill. A Spartanburg County family on a ridge farm might move down to the Pacolet Manufacturing village. This movement was so short-distance that it barely appears in records — the family appears at the same county address in the next census, just at a mill village instead of a rural route.",
+      "era": "1880-1920",
+      "counties_affected": ["Greenville", "Spartanburg", "Anderson", "York", "Chester", "Union", "Laurens", "Cherokee"],
+      "narrative_hook": "{ancestor_name} did not travel far to reach the mill — the factory was visible from the farm that could no longer feed the family, and the walk from one world to the other was measured in miles, not days."
+    },
+    {
+      "pattern_id": "inter_mill_movement",
+      "pattern_name": "Movement Between Mill Villages",
+      "description": "Textile workers moved frequently between mill villages — chasing slightly better wages, escaping an abusive overseer, or following rumors that a particular mill had not yet implemented the stretch-out. The Greenville-Spartanburg corridor was dense enough that a family could change employers without leaving the county. After 1929 and 1934, sudden moves between mills often indicated blacklisting for union activity.",
+      "era": "1890-1960",
+      "counties_affected": ["Greenville", "Spartanburg", "Anderson", "York"],
+      "narrative_hook": "A family that worked at four different mills in ten years was not unstable — they were navigating an industry designed to keep them disposable. {ancestor_name} moved when the foreman got worse, the stretch-out got harder, or a cousin said the mill in the next town was hiring."
+    }
+  ],
+  "settlement_clusters": [
+    {
+      "cluster_name": "Greenville mill village cluster",
+      "counties": ["Greenville"],
+      "description": "Woodside, Judson, Brandon, Monaghan, Camperdown, Sans Souci, Dunean, and a dozen more — the Greenville mill villages formed a constellation around the city, each a self-contained community but all connected by the railroad and the labor market.",
+      "era": "1880-1960"
+    },
+    {
+      "cluster_name": "Spartanburg-Pacolet textile corridor",
+      "counties": ["Spartanburg"],
+      "description": "Clifton, Pacolet, Drayton, Glendale, Whitney, Spartan Mills — the mill villages along the Pacolet River and its tributaries formed the densest manufacturing cluster in the county.",
+      "era": "1880-1960"
+    },
+    {
+      "cluster_name": "Fort Mill Springs company town",
+      "counties": ["York"],
+      "description": "The Springs Cotton Mills complex at Fort Mill was one of the most complete company towns in the South — every aspect of daily life under the Springs family's control and provision.",
+      "era": "1888-1960"
+    }
+  ],
+  "narrative_hooks": [
+    "The Upcountry was settled by the Great Wagon Road, industrialized by the railroad, and suburbanized by the highway — {ancestor_name} lived through one of those transformations, and each one redrew the map of daily life.",
+    "The mountain-to-mill pipeline fed the Greenville-Spartanburg corridor for two generations — {ancestor_name}'s family traded thin mountain soil for the cotton lint and cash wages of the mill village.",
+    "The NC-SC border meant nothing to the textile belt — {ancestor_name} could cross it in an afternoon and find the same work, the same wages, and the same company house on the other side."
+  ],
+  "source_references": [
+    "Carlton, David L. Mill and Town in South Carolina, 1880-1920. Louisiana State University Press, 1982.",
+    "Eller, Ronald D. Miners, Millhands, and Mountaineers. University of Tennessee Press, 1982.",
+    "Ford, Lacy K. Origins of Southern Radicalism. Oxford University Press, 1988.",
+    "Fischer, David Hackett, and James C. Kelly. Bound Away. University of Virginia Press, 2000.",
+    "Hanchett, Thomas W. Sorting Out the New South City. University of North Carolina Press, 1998.",
+    "Wilkerson, Isabel. The Warmth of Other Suns. Random House, 2010.",
+    "Simon, Bryant. A Fabric of Defeat. University of North Carolina Press, 1998."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": [
+      "scots_irish_frontier",
+      "appalachian_out_migration",
+      "textile_mill_recruitment",
+      "great_migration",
+      "gi_bill_migration"
+    ],
+    "route_refs": [
+      "great_wagon_road",
+      "southern_railway_piedmont"
+    ],
+    "community_texture_refs": [
+      "piedmont_mill_village",
+      "appalachian_mountain_community"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Morgan County, GA. Record survival, courthouse history, and known losses. Morgan County's courthouse in Madison survived Sherman's March (the town was famously spared), and records are generally complete from the county's 1807 formation.",
+  "courthouse_atlas_id": "ga_morgan_courthouse",
+  "display_name": "Morgan County, Georgia — Courthouse Atlas",
+  "county": "Morgan",
+  "state": "GA",
+  "fips_code": "13211",
+  "cluster_ref": "ga_piedmont_cotton_belt",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1905, "location": "Madison, GA — courthouse square", "records_housed": ["deeds", "marriage licenses", "probate records", "court minutes"] },
+    "previous_courthouses": [
+      { "era": "1807-1905", "location": "Madison, GA", "fate": "Early courthouses replaced. Madison was famously spared during Sherman's March in November 1864 — Joshua Hill, a local Unionist, reportedly persuaded Federal officers to bypass the town. The courthouse and its records survived." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "morgan_no_major_loss", "date": null, "cause": "No major fire or war damage",
+      "records_destroyed": [], "records_survived": ["deed books", "will books", "court minutes", "marriage records", "estate files"],
+      "scope": "none",
+      "description": "Morgan County's records are among the most complete in the Georgia Piedmont. Madison's survival during Sherman's March preserved both the town's architecture and its courthouse records. Records run continuously from the county's 1807 formation.",
+      "narrative_impact": "Morgan County's records survived the war that destroyed so much else. If {ancestor_name} lived there after 1807, the deeds, wills, and court minutes almost certainly exist. This makes Morgan County one of the best-documented plantation counties in the Georgia Piedmont.",
+      "source": "GA Department of Archives and History. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1807, "completeness": "Excellent — continuous from county formation", "gaps": "No known significant gaps", "repository": "Morgan County Clerk of Superior Court; GA Archives microfilm", "online_access": "FamilySearch microfilm; Ancestry.com GA land records" },
+    "wills_estates": { "earliest_surviving": 1808, "completeness": "Excellent", "gaps": "No major gaps. Estate inventories are particularly detailed for antebellum period, including enslaved persons listed by name in many cases.", "repository": "Morgan County Probate Court; GA Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1808, "completeness": "Good from early period", "gaps": "Minor gaps in earliest years", "repository": "Morgan County Probate Court", "online_access": "FamilySearch; Ancestry.com GA marriages" },
+    "court_minutes": { "earliest_surviving": 1807, "completeness": "Excellent", "gaps": "No major gaps", "repository": "Morgan County Clerk of Superior Court; GA Archives", "online_access": "GA Archives microfilm" },
+    "vital_records": { "birth_registration_start": 1919, "death_registration_start": 1919, "completeness": "Spotty until mid-1920s", "repository": "GA Department of Public Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "Georgia Land Lottery records", "description": "The 1807 lottery distributed Morgan County lots.", "repository": "GA Department of Archives and History", "era_coverage": "1807", "genealogical_value": "Essential for initial land distribution.", "source": "Cadle, Georgia Land Surveying History and Law (1991)." },
+    { "source_type": "Estate inventories with enslaved persons", "description": "Morgan County's estate inventories are exceptionally detailed. Antebellum inventories frequently list enslaved persons by name, age, and sometimes family groupings. These records are critical for tracing enslaved ancestors.", "repository": "Morgan County Probate Court; GA Archives microfilm", "era_coverage": "1808-1865", "genealogical_value": "Among the most valuable records in the cluster for tracing enslaved families. The detail in Morgan County inventories exceeds many comparable Georgia counties.", "source": "GA Department of Archives and History." },
+    { "source_type": "Federal census schedules and slave schedules", "description": "Population schedules 1810-1940. Slave schedules 1850-1860 — critical for Morgan County given its high slaveholding.", "repository": "National Archives; FamilySearch; Ancestry.com", "era_coverage": "1810-1940", "genealogical_value": "Essential. The 1850 and 1860 slave schedules list slaveholders and the age/sex/color of enslaved people.", "source": "National Archives and Records Administration." }
+  ],
+  "narrative_hooks": [
+    "Madison survived Sherman's March — and with it, Morgan County's courthouse records going back to 1807. If {ancestor_name} lived there, the paper trail is among the most complete in the Georgia Piedmont.",
+    "Morgan County's estate inventories are exceptionally detailed for the antebellum period — if {ancestor_name} was enslaved in the county, the planter's estate inventory may list {pronoun_object} by name, age, and even family relationship.",
+    "The Georgia Land Lottery records for the 1807 drawing show who first claimed the Morgan County land that {ancestor_name}'s family later farmed — whether as owner, tenant, or sharecropper.",
+    "Georgia vital registration began in 1919 — before that, church records and family Bibles are the substitute for birth and death records in Morgan County."
+  ],
+  "source_references": [
+    "GA Department of Archives and History. Guide to County Records.",
+    "Cadle, Farris W. Georgia Land Surveying History and Law. University of Georgia Press, 1991.",
+    "Works Progress Administration. Historical Records Survey: Georgia. Atlanta, 1937-1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ga_morgan",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

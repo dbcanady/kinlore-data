@@ -1,0 +1,126 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Smith County, TN. Formed 1799. Courthouse fire in 1869 destroyed some early records — the most significant record loss in this cluster.",
+  "courthouse_atlas_id": "tn_smith_courthouse",
+  "display_name": "Smith County, Tennessee — Courthouse Atlas",
+  "county": "Smith",
+  "state": "TN",
+  "fips_code": "47159",
+  "cluster_ref": "tn_middle_nashville_basin",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1917,
+      "location": "Carthage, TN — Public Square",
+      "records_housed": ["deeds", "mortgages", "marriage licenses (post-1869)", "probate records (partial pre-1869)", "court minutes (post-1869)"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1800-1835",
+        "location": "Carthage, town center",
+        "fate": "Early frame courthouse."
+      },
+      {
+        "era": "1835-1869",
+        "location": "Carthage, Public Square",
+        "fate": "Brick courthouse. DESTROYED BY FIRE in 1869, with significant record loss."
+      },
+      {
+        "era": "1870-1917",
+        "location": "Carthage, rebuilt on the square",
+        "fate": "Replacement courthouse. Served until the current 1917 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "smith_courthouse_fire_1869",
+      "date": "1869",
+      "cause": "Courthouse fire",
+      "records_destroyed": ["Many early court minutes (pre-1869)", "Some early marriage bonds", "Loose court papers and estate files", "Some early tax records"],
+      "records_survived": ["Most deed books (saved or reconstructed)", "Some will books", "Some marriage records"],
+      "scope": "significant — the 1869 fire is the most serious record loss in this cluster",
+      "description": "The Smith County courthouse burned in 1869, destroying a significant portion of the county's early records. This is the most serious record loss in the Nashville Basin cluster. Deed books were partially saved because they were heavy, bound volumes that were sometimes stored in fireproof vaults or rescued during the fire. Court minutes, loose estate papers, and marriage bonds from the pre-1869 period were more severely damaged. Some records were reconstructed from memory and from copies held by private parties, but the reconstruction is incomplete. Researchers working in Smith County before 1869 face a thinner documentary record than in any other county in this cluster.",
+      "narrative_impact": "If {ancestor_name} lived in Smith County before 1869, the courthouse fire may have destroyed the records that would have documented {pronoun_possessive} life — court appearances, estate settlements, and the loose papers that recorded the daily business of a rural county. Deed books partially survived, but the supporting documentation is often gone.",
+      "source": "Tennessee State Library and Archives. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1800,
+      "completeness": "Fair — some deed books survived or were reconstructed after the 1869 fire, but gaps exist",
+      "gaps": "Some early deed records lost in the 1869 fire. Surviving books may have been reconstructed from grantee/grantor copies. Cross-reference with TSLA land grant records.",
+      "repository": "Smith County Register of Deeds; Tennessee State Library and Archives microfilm",
+      "online_access": "FamilySearch microfilm; limited Ancestry.com coverage"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1810,
+      "completeness": "Fair — some will books survived the fire; many loose estate papers lost",
+      "gaps": "Significant gaps in estate records before 1869. Some wills survive in copied form.",
+      "repository": "Smith County Probate Court; Tennessee State Library and Archives",
+      "online_access": "FamilySearch microfilm (limited)"
+    },
+    "marriages": {
+      "earliest_surviving": 1838,
+      "completeness": "Fair — most pre-1869 marriage bonds were destroyed or damaged. Marriage licenses from 1838 partially survive.",
+      "gaps": "Significant gaps in marriage records before 1869.",
+      "repository": "Smith County Clerk; Tennessee State Library and Archives",
+      "online_access": "FamilySearch; limited Ancestry coverage"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1870,
+      "completeness": "Good from 1870 forward; pre-1869 minutes largely destroyed",
+      "gaps": "Pre-1869 court minutes are the most significant loss. The frontier and antebellum period is poorly documented in court records.",
+      "repository": "Tennessee State Library and Archives",
+      "online_access": "TSLA microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Standard Tennessee pattern.",
+      "repository": "Tennessee Department of Health"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Tennessee State Land Grants",
+      "description": "Land grants from the state of Tennessee and earlier North Carolina grants document original land ownership in Smith County, predating the county court records and surviving the courthouse fire.",
+      "repository": "Tennessee State Library and Archives — Land Grant records; Secretary of State's office",
+      "era_coverage": "1790s-1850s",
+      "genealogical_value": "Critical for establishing early Smith County land ownership when the county deed books have gaps. State-level records were not affected by the county courthouse fire.",
+      "source": "Tennessee State Library and Archives. Land Grant collection guide."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1800-1940. Census records survive independently of the courthouse fire and provide the backbone for Smith County research.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1800-1940",
+      "genealogical_value": "Essential — for the pre-1869 period, census records may be the primary surviving documentation for many families.",
+      "source": "National Archives. Federal Census Schedules, Smith County, TN."
+    },
+    {
+      "source_type": "Church records",
+      "description": "Baptist, Methodist, and Presbyterian churches in Smith County maintained records independently of the courthouse. Some church records predate and survive the 1869 fire.",
+      "repository": "Individual congregations; Tennessee State Library and Archives",
+      "era_coverage": "1800s-present",
+      "genealogical_value": "Church records are particularly important for Smith County because they fill gaps created by the courthouse fire — baptism, marriage, and burial records that the county records no longer contain.",
+      "source": "Tennessee State Library and Archives. Guide to Church Records."
+    }
+  ],
+  "narrative_hooks": [
+    "The Smith County courthouse burned in 1869, and with it went much of {ancestor_name}'s paper trail — court minutes, estate papers, and marriage bonds from the county's first sixty years reduced to ash.",
+    "Smith County's deed books partially survived the fire because someone dragged the heavy leather-bound volumes out of the burning building — if {ancestor_name} owned land, the deed may have been saved by those hands.",
+    "When the courthouse burned, the state records did not — Tennessee land grants at the State Library document {ancestor_name}'s original land claim independently of anything the county clerk held.",
+    "For Smith County before 1869, the census may be the only government record that proves {ancestor_name} existed — the courthouse fire erased much of the documentary evidence that survived in every other county in this cluster."
+  ],
+  "source_references": [
+    "Tennessee State Library and Archives. Guide to County Records in the Tennessee State Library and Archives. Nashville: TSLA.",
+    "Tennessee State Library and Archives. Land Grant collection guide.",
+    "Sistler, Byron, and Barbara Sistler. Early Middle Tennessee Marriages. Nashville: Byron Sistler & Associates, 1988."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "tn_smith",
+    "research_guidance_refs": ["census_gaps", "vital_records", "property_records"],
+    "template_refs": ["record_silences"]
+  }
+}

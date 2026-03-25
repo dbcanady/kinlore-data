@@ -1,0 +1,124 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Wayne County, NC. Record survival, courthouse history, and known losses that shape what genealogists can and cannot find.",
+  "courthouse_atlas_id": "nc_wayne_courthouse",
+  "display_name": "Wayne County, North Carolina — Courthouse Atlas",
+  "county": "Wayne",
+  "state": "NC",
+  "fips_code": "37191",
+  "cluster_ref": "se_nc_coastal_plain",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1914,
+      "location": "Goldsboro, NC — 224 E. Walnut Street",
+      "records_housed": ["deeds", "plats", "vital records indexes", "court minutes post-1900", "estate files post-1900"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1782–1839",
+        "location": "Waynesborough (original county seat, east of Goldsboro)",
+        "fate": "Replaced when county seat moved to Goldsborough in 1847. Structure deteriorated and was demolished."
+      },
+      {
+        "era": "1850–1914",
+        "location": "Goldsboro, center square",
+        "fate": "Survived the Civil War despite Sherman's 1865 march through the area. Replaced by 1914 building when the county outgrew it."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "wayne_civil_war_minor",
+      "date": "1865-03",
+      "cause": "Civil War",
+      "records_destroyed": ["scattered loose papers", "some justice of the peace dockets"],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage bonds"],
+      "scope": "partial",
+      "description": "Sherman's army occupied Goldsboro in March 1865, and soldiers were quartered in or near public buildings. While the courthouse itself was not burned, some loose papers and justice of the peace records were damaged or scattered during the occupation. The bound volumes — deeds, wills, court minutes — survived intact, making Wayne County one of the better-preserved eastern NC counties.",
+      "narrative_impact": "Wayne County's record survival is unusually good for eastern NC. Gaps in {ancestor_name}'s record trail here are more likely due to illiteracy, poverty, or informal arrangements than courthouse destruction.",
+      "source": "Barrett, John G. The Civil War in North Carolina. Chapel Hill: UNC Press, 1963."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1780,
+      "completeness": "Good — continuous series from county formation",
+      "gaps": "No known significant gaps. Some early deed books show water damage but remain legible.",
+      "repository": "Wayne County Register of Deeds, Goldsboro; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com NC land records collection"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1780,
+      "completeness": "Good — wills and estate records survive from formation",
+      "gaps": "Some loose estate papers from the 1780s–1790s are fragmentary. Bound will books are intact.",
+      "repository": "Wayne County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm; NC State Archives digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1779,
+      "completeness": "Good — marriage bonds survive from county formation",
+      "gaps": "Bonds are more complete than registers. Register books begin later, approximately 1851.",
+      "repository": "Wayne County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com NC marriages collection"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1782,
+      "completeness": "Good — County Court minutes nearly continuous",
+      "gaps": "Minor gaps in the 1780s. Superior Court minutes begin 1807.",
+      "repository": "NC State Archives; Wayne County Clerk of Court",
+      "online_access": "NC State Archives microfilm; limited FamilySearch digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Spotty until approximately 1920. Goldsboro city records may predate county registration.",
+      "repository": "NC Office of Vital Records; NC State Archives for delayed birth certificates"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790–1940. Wayne County is enumerated from the first federal census. Agricultural and slave schedules (1850–1860) add economic detail.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790–1940",
+      "genealogical_value": "Essential for tracking families between land and court records. Slave schedules identify slaveholder property but not enslaved individuals by name.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Wayne County, NC."
+    },
+    {
+      "source_type": "WPA county records transcriptions",
+      "description": "The Works Progress Administration transcribed Wayne County deed and will abstracts in the 1930s, creating a secondary index to the originals.",
+      "repository": "NC State Archives; some at Wayne County Public Library",
+      "era_coverage": "1780s–1860s",
+      "genealogical_value": "Invaluable finding aid when original indexes are difficult to read. Not a substitute for the originals but provides a reliable pathway in.",
+      "source": "Works Progress Administration. Historical Records Survey: North Carolina County Records. Raleigh, 1937–1942."
+    },
+    {
+      "source_type": "Church records — Baptist and Methodist",
+      "description": "Numerous Baptist and Methodist congregations kept membership rolls, disciplinary minutes, and burial records. Some predate 1800.",
+      "repository": "NC Baptist Historical Collection, Wake Forest University; individual churches; NC State Archives",
+      "era_coverage": "1790s–present",
+      "genealogical_value": "Church records fill gaps in civil vital records before 1913 and provide family relationship evidence not found in land or court records.",
+      "source": "Paschal, George W. History of North Carolina Baptists. Raleigh: General Board of NC Baptist State Convention, 1930."
+    }
+  ],
+  "narrative_hooks": [
+    "Wayne County's courthouse survived the Civil War, which means that {ancestor_name}'s deed and will records likely still exist — a rare advantage in eastern North Carolina, where fire and war erased entire counties' paper trails.",
+    "If {ancestor_name} sold or bought land in Wayne County after {year}, the deed is probably still in the vault at Goldsboro — the chain of title runs unbroken back to 1780.",
+    "Before 1913, no North Carolina county required birth or death registration, so the absence of a birth record for {ancestor_name} reflects the era, not the family — church rolls and census records are the likeliest substitutes.",
+    "The WPA transcribers who came through Wayne County in the 1930s created typed abstracts of the oldest deed books, and those abstracts may be the clearest path to {ancestor_name}'s earliest land transactions in the county.",
+    "Wayne County's marriage bonds survive from 1779, making it possible to trace {surname} family alliances back to the county's very first generation — if {ancestor_name} married here, the bond almost certainly still exists."
+  ],
+  "source_references": [
+    "Barrett, John G. The Civil War in North Carolina. Chapel Hill: University of North Carolina Press, 1963.",
+    "Works Progress Administration. Historical Records Survey: North Carolina County Records. Raleigh, 1937–1942.",
+    "Paschal, George W. History of North Carolina Baptists. Raleigh: General Board of NC Baptist State Convention, 1930.",
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Bradley, Mark L. Last Stand in the Carolinas: The Battle of Bentonville. Campbell, CA: Savas Publishing, 1996."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_wayne",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

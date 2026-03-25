@@ -1,0 +1,113 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the TN East Great Valley cluster. The Great Valley was the highway — the natural corridor running northeast-southwest between parallel mountain ridges channeled all movement along the valley axis. The Great Wagon Road from Virginia brought the settlers. Cumberland Gap at the valley's southwestern end was the gateway west. The ET&V Railroad followed the valley corridor exactly. Everything in this cluster's transportation history is defined by the valley's geometry: easy movement northeast-southwest, extremely difficult movement in any other direction.",
+  "connectivity_id": "tn_east_great_valley_roads",
+  "display_name": "TN East Great Valley — Road & Connectivity Network",
+  "cluster_ref": "tn_east_great_valley",
+  "era_range": "1770-1960",
+  "transportation_eras": [
+    {
+      "era_id": "great_valley_corridor",
+      "era_name": "Great Valley Corridor: The Wilderness Road Era",
+      "date_range": "1770-1858",
+      "primary_modes": ["wagon on improved trace", "horseback", "river ferry/ford", "foot", "flatboat (limited)"],
+      "description": "The Great Valley was the natural corridor — a northeast-southwest trench between parallel mountain ridges that channeled all overland movement. The Great Wagon Road from Virginia entered the valley through the natural gap at the Virginia border (modern Bristol) and ran southwest through the valley to Knoxville and beyond. Daniel Boone's Wilderness Road branched west from the valley corridor to Cumberland Gap (1775), opening Kentucky. Every settlement in the cluster sat on or near this corridor. The valley's geography made northeast-southwest travel relatively easy (rolling terrain, good fords) and cross-ridge travel extremely difficult. The Nolichucky, Holston, and French Broad rivers were too rocky for reliable navigation but provided fords that became settlement sites. Livestock drove roads paralleled the main corridor, carrying hogs and cattle to Virginia markets every fall.",
+      "road_conditions": "Unimproved dirt and gravel traces. The valley's limestone base provided better drainage than Piedmont clay roads, but creek crossings were numerous. Mud was seasonal (spring), dust was seasonal (late summer). Mountain crossings (to reach Carter or Cocke counties off the main valley corridor) were steep, narrow, and dangerous.",
+      "travel_times": [
+        { "from": "Bristol (Sullivan Co.)", "to": "Jonesborough (Washington Co.)", "mode": "wagon", "time": "1.5-2 days", "conditions_note": "Approximately 25 miles along the valley road" },
+        { "from": "Jonesborough", "to": "Greeneville (Greene Co.)", "mode": "wagon", "time": "1-1.5 days", "conditions_note": "Approximately 20 miles through the valley" },
+        { "from": "Dandridge (Jefferson Co.)", "to": "Knoxville", "mode": "wagon", "time": "1.5-2 days", "conditions_note": "Approximately 30 miles. The most-traveled commercial route in the cluster." },
+        { "from": "Valley corridor", "to": "Mountain hollows (Carter, Cocke)", "mode": "horseback", "time": "4-8 hours one way", "conditions_note": "Ridge crossings steep and narrow. Some hollows required fording the same creek multiple times." },
+        { "from": "Valley corridor", "to": "Cumberland Gap", "mode": "wagon", "time": "3-4 days from Rogersville", "conditions_note": "The Wilderness Road corridor through the Clinch valley" }
+      ],
+      "key_routes": [
+        { "route_name": "Great Wagon Road / Great Valley Road", "type": "improved trace", "year_established": "1770s", "description": "The main corridor through the Great Valley from Virginia to Knoxville. Every significant settlement in the cluster sits on or near this road.", "counties_served": ["Sullivan", "Washington", "Greene", "Jefferson"] },
+        { "route_name": "Wilderness Road (to Cumberland Gap)", "type": "trace", "year_established": "1775", "description": "Daniel Boone's route from the Great Valley to Cumberland Gap and Kentucky. Branched from the valley corridor in the vicinity of modern Kingsport.", "counties_served": ["Sullivan", "Hawkins"] },
+        { "route_name": "Nolichucky River fords", "type": "river crossings", "year_established": "1780s", "description": "Fixed fording points on the Nolichucky in Washington and Greene counties. Ford locations became settlement sites and later town sites.", "counties_served": ["Washington", "Greene"] },
+        { "route_name": "Livestock drove roads", "type": "droving roads", "year_established": "1790s-1860", "description": "Parallel paths alongside the main road used for driving hogs and cattle northeast to Virginia markets. The fall drove was the primary cash-generating movement each year.", "counties_served": ["Washington", "Sullivan", "Greene", "Hawkins"] }
+      ],
+      "isolation_index": {
+        "description": "Low along the valley corridor; extreme in the mountains. The Great Valley was one of the best-connected frontier regions — the corridor provided direct access to Virginia and through it to the coast. But families off the valley floor in Carter, Cocke, or the mountain portions of other counties were profoundly isolated — a day's ride to the nearest town.",
+        "comparative_note": "Better connected than the Appalachian mountains to the south. Worse than the Virginia Piedmont. The valley geometry created a sharp contrast between connected valley and isolated mountain."
+      },
+      "narrative_hook": "The Great Valley Road was {ancestor_name}'s connection to the world — the same road that had brought {pronoun_possessive} grandparents from Virginia was the road that carried the tobacco to market and brought the goods from the outside.",
+      "source": "Fischer, David Hackett, and James C. Kelly. Bound Away: Virginia and the Westward Movement. Charlottesville: University of Virginia Press, 2000. Finger, Tennessee Frontiers, ch. 3."
+    },
+    {
+      "era_id": "railroad_arrival",
+      "era_name": "Railroad Era: The ET&V and its Branches",
+      "date_range": "1858-1920",
+      "primary_modes": ["railroad", "wagon on unimproved road", "horseback"],
+      "description": "The East Tennessee & Virginia Railroad reached the Great Valley in 1858, running northeast-southwest along the exact corridor the wagon road had followed — because the valley's geometry dictated the route. The railroad connected Bristol to Knoxville through the valley, with stations at Jonesborough, Greeneville, and other county seats. After the Civil War (during which the railroad was a military target and suffered significant damage from bridge burning and combat), the line was rebuilt and expanded. The ET&WNC narrow-gauge railroad (1882) branched from Johnson City through Carter County's Doe River gorge to the Cranberry iron mines. Johnson City was founded in 1869 at the railroad junction and grew rapidly as a transportation hub. By 1900, every county seat in the valley had railroad service, though mountain communities off the main line remained as isolated as ever.",
+      "road_conditions": "County roads remained unimproved dirt. The contrast between the railroad corridor (fast, reliable, connected to national markets) and the backcountry (unchanged from the wagon era) was stark. Mountain roads in Carter and Cocke counties were essentially unchanged from the frontier period.",
+      "travel_times": [
+        { "from": "Bristol", "to": "Knoxville", "mode": "railroad", "time": "4-5 hours", "conditions_note": "Through the valley corridor" },
+        { "from": "Jonesborough", "to": "Johnson City", "mode": "railroad", "time": "15-20 minutes", "conditions_note": "Three miles apart" },
+        { "from": "Elizabethton", "to": "Cranberry iron mines (NC)", "mode": "ET&WNC narrow gauge", "time": "3-4 hours", "conditions_note": "Through the Doe River gorge — dramatic mountain railroad" },
+        { "from": "Mountain hollow (off-railroad)", "to": "Nearest depot", "mode": "horseback or wagon", "time": "2-6 hours one way", "conditions_note": "Mountain communities remained a full day from the railroad" }
+      ],
+      "key_routes": [
+        { "route_name": "East Tennessee & Virginia Railroad (later Southern Railway)", "type": "railroad", "year_established": "1858", "description": "Main line through the Great Valley from Bristol to Knoxville. The economic backbone of the cluster. Destroyed during the Civil War (bridge burning, 1861), rebuilt afterward.", "counties_served": ["Sullivan", "Washington", "Greene", "Jefferson"] },
+        { "route_name": "ET&WNC Railroad ('Tweetsie')", "type": "narrow-gauge railroad", "year_established": "1882", "description": "Branched from Johnson City through Carter County's Doe River gorge to the Cranberry iron mines. One of the most dramatic mountain railroads in the Appalachians.", "counties_served": ["Washington", "Carter"] },
+        { "route_name": "Southern Railway main line (consolidated)", "type": "railroad", "year_established": "1894", "description": "The ET&V was absorbed into the Southern Railway system, connecting the Great Valley to the national rail network.", "counties_served": ["Sullivan", "Washington", "Greene", "Hawkins", "Jefferson"] }
+      ],
+      "isolation_index": {
+        "description": "Sharply reduced along the railroad corridor; unchanged in the mountains. The valley communities were as well-connected as any in the South by 1900. Mountain communities in Carter and Cocke counties remained a day's ride from the railroad.",
+        "comparative_note": "The railroad made the valley corridor competitive with Virginia's Great Valley. The mountain-valley isolation gap widened as the valley modernized and the mountains did not."
+      },
+      "narrative_hook": "The railroad followed the valley because the valley was the road — and when the ET&V reached {county_seat}, {ancestor_name}'s tobacco and livestock could reach Virginia in a day instead of a week.",
+      "source": "Eller, Miners, Millhands, and Mountaineers, ch. 5. Marsh, The Tweetsie Railroad."
+    },
+    {
+      "era_id": "highway_automobile_era",
+      "era_name": "Highway and Automobile Era",
+      "date_range": "1920-1960",
+      "primary_modes": ["automobile", "bus", "truck", "railroad"],
+      "description": "The automobile and paved highways transformed the Great Valley's daily geography. US Route 11E/11W (the Great Valley Highway) followed the old corridor from Bristol through the valley to Knoxville. US Route 19E connected Johnson City through Carter County toward the NC mountains. State highway construction in the 1920s-1930s paved connections between county seats. The most significant effect was the emergence of the Tri-Cities metropolitan area — Johnson City, Kingsport, and Bristol functioning as a single economic unit connected by highways. For mountain communities in Carter and Cocke counties, paved roads arrived later (many rural roads were not paved until the 1950s-1960s), but the automobile still reduced isolation significantly.",
+      "road_conditions": "US highways paved with asphalt by the 1930s. State highways paved through the 1930s-1940s. Mountain and rural roads often unpaved into the 1950s. The transition from dirt to pavement was the most significant change in mountain daily life since the railroad.",
+      "travel_times": [
+        { "from": "Johnson City", "to": "Kingsport", "mode": "automobile", "time": "30-45 minutes", "conditions_note": "US 11W — the Tri-Cities functioned as one city by car" },
+        { "from": "Johnson City", "to": "Bristol", "mode": "automobile", "time": "30-40 minutes", "conditions_note": "US 11E" },
+        { "from": "Greeneville", "to": "Johnson City", "mode": "automobile", "time": "30-45 minutes", "conditions_note": "US 11E through the valley" },
+        { "from": "Newport (Cocke Co.)", "to": "Knoxville", "mode": "automobile via US 25/70", "time": "1-1.5 hours", "conditions_note": "The French Broad corridor" },
+        { "from": "Mountain hollow", "to": "County seat", "mode": "automobile on rural road", "time": "30-90 minutes", "conditions_note": "Gravel or dirt roads, steep grades. Impassable in bad weather into the 1950s." }
+      ],
+      "key_routes": [
+        { "route_name": "US Route 11E/11W (Great Valley Highway)", "type": "US highway", "year_established": "1926", "description": "The automobile equivalent of the Great Valley Road. Connected the Tri-Cities through the valley to Knoxville. The most important highway in the cluster.", "counties_served": ["Sullivan", "Washington", "Greene", "Hawkins", "Jefferson"] },
+        { "route_name": "US Route 19E (Johnson City to NC mountains)", "type": "US highway", "year_established": "1926", "description": "Connected Johnson City through Carter County to the NC mountains. The route for mountain-to-valley commuting.", "counties_served": ["Washington", "Carter"] },
+        { "route_name": "US Route 25/70 (French Broad corridor)", "type": "US highway", "year_established": "1926", "description": "Followed the French Broad River through Cocke County to Knoxville. The connection between the most isolated county in the cluster and the nearest major city.", "counties_served": ["Cocke", "Jefferson"] }
+      ],
+      "isolation_index": {
+        "description": "Low across most of the valley by 1950. The Tri-Cities metropolitan area was well-connected. Mountain areas in Carter and Cocke counties remained partially isolated — paved roads reached some communities only in the 1950s-1960s.",
+        "comparative_note": "By 1950, the Great Valley corridor was as well-connected as most of the South. The mountain-valley gap was narrowing but had not closed."
+      },
+      "narrative_hook": "The automobile made the Tri-Cities one place — {ancestor_name} could live in Johnson City, work in Kingsport, and shop in Bristol, all before lunch. But up in the mountain hollows of Carter or Cocke County, the car sat on a dirt road that turned to mud in March and dust in August.",
+      "source": "Wolfe, Kingsport, Tennessee. Tennessee Department of Highways historical records."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1858, "railroad": "East Tennessee & Virginia Railroad", "stations_in_cluster": ["Bristol (Sullivan)", "Bluff City (Sullivan)", "Johnson's Depot/Johnson City (Washington)", "Jonesborough (Washington)", "Greeneville (Greene)", "Mossy Creek/Jefferson City (Jefferson)", "Dandridge (Jefferson)"], "impact": "Connected the Great Valley to Virginia and national markets. Every station became a shipping point for tobacco and agricultural products." },
+    { "year": 1861, "railroad": "ET&V Railroad bridge burning", "stations_in_cluster": [], "impact": "Coordinated bridge destruction by Unionists disrupted Confederate supply lines. Five ET&V bridges burned November 8-9, 1861. Reprisals included hangings of bridge burners." },
+    { "year": 1882, "railroad": "ET&WNC Railroad (narrow gauge)", "stations_in_cluster": ["Johnson City (Washington)", "Elizabethton (Carter)", "Hampton (Carter)", "Roan Mountain (Carter)", "Cranberry (NC)"], "impact": "Opened Cranberry iron mines via the Doe River gorge. Created an industrial corridor in mountain terrain." },
+    { "year": 1894, "railroad": "Southern Railway consolidation", "stations_in_cluster": ["All ET&V stations"], "impact": "ET&V absorbed into the Southern Railway system. National network connections improved." }
+  ],
+  "narrative_hooks": [
+    "The Great Valley was the road before there were roads — the same corridor that carried {ancestor_name}'s grandparents from Virginia carried the railroad, the highway, and eventually the interstate.",
+    "The ET&V Railroad followed the valley because the valley was the only flat ground — and when the bridge burners destroyed it in November 1861, they cut the Confederacy's supply line with the same geography that had built it.",
+    "The Tweetsie Railroad through the Doe River gorge was the most improbable railroad in the mountains — and {ancestor_name} rode it to work at the Cranberry mines, the train threading the gorge like a needle through stone.",
+    "Cumberland Gap was the gateway west — and {ancestor_name}'s people either went through it to Kentucky or watched their neighbors disappear through it, knowing the valley on this side was where they chose to stay.",
+    "By 1940, the Tri-Cities had three towns, three county seats, and one highway system — {ancestor_name} could work, worship, and shop in all three without noticing the county lines."
+  ],
+  "source_references": [
+    "Fischer, David Hackett, and James C. Kelly. Bound Away: Virginia and the Westward Movement. Charlottesville: University of Virginia Press, 2000.",
+    "Eller, Ronald D. Miners, Millhands, and Mountaineers. Knoxville: University of Tennessee Press, 1982.",
+    "Marsh, Mallory Hope. The Tweetsie Railroad. Charleston: Arcadia Publishing, 2014.",
+    "Wolfe, Margaret Ripley. Kingsport, Tennessee: A Planned American City. Lexington: University Press of Kentucky, 1987.",
+    "Fisher, Noel C. War at Every Door. Chapel Hill: University of North Carolina Press, 1997.",
+    "Finger, John R. Tennessee Frontiers. Bloomington: Indiana University Press, 2001."
+  ],
+  "nel_cross_references": {
+    "route_refs": ["great_wagon_road_south", "cumberland_gap_corridor"]
+  }
+}

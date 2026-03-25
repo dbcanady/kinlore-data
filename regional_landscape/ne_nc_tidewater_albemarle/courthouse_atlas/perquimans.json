@@ -1,0 +1,119 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Perquimans County, NC. Record survival, courthouse history. Quaker records are a major supplemental source.",
+  "courthouse_atlas_id": "nc_perquimans_courthouse",
+  "display_name": "Perquimans County, North Carolina — Courthouse Atlas",
+  "county": "Perquimans",
+  "state": "NC",
+  "fips_code": "37143",
+  "cluster_ref": "ne_nc_tidewater_albemarle",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1825,
+      "location": "Hertford, NC — Church Street",
+      "records_housed": ["deeds", "plats", "vital records indexes", "court minutes", "estate files"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1670s–1825",
+        "location": "Hertford area — Perquimans was one of the four original Albemarle precincts. Early courts met at various locations.",
+        "fate": "Earlier structures replaced over time. Records transferred to subsequent buildings."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "perquimans_no_major_loss",
+      "date": null,
+      "cause": "No significant loss event",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage bonds"],
+      "scope": "none",
+      "description": "Perquimans County's records have survived largely intact from the colonial era. The county escaped significant Civil War destruction. The Quaker community's parallel record-keeping provides a redundant documentation system that supplements county records with extraordinary detail.",
+      "narrative_impact": "Between the county courthouse and the Quaker meeting records, Perquimans County has one of the most complete documentary records in North Carolina. If {ancestor_name} was Quaker, the paper trail may include birth, death, marriage, migration, and disciplinary records reaching back to the 1680s.",
+      "source": "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh, 2001."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1681,
+      "completeness": "Excellent — among the oldest surviving deed records in North Carolina, reaching to the Lords Proprietors period",
+      "gaps": "No known significant gaps. Some early volumes show wear but remain legible.",
+      "repository": "Perquimans County Register of Deeds, Hertford; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com NC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1693,
+      "completeness": "Excellent — will books survive from the 1690s",
+      "gaps": "Minimal gaps. Some loose papers fragmentary in earliest decades.",
+      "repository": "Perquimans County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm; NC State Archives digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1740,
+      "completeness": "Good — marriage bonds from 1740. Quaker marriages documented separately in meeting records, often with earlier dates.",
+      "gaps": "Bonds more complete than registers. Quaker marriage records supplement and sometimes predate county records.",
+      "repository": "Perquimans County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com NC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1688,
+      "completeness": "Excellent — among the oldest court minutes in NC. Perquimans precinct court records date to the 1680s.",
+      "gaps": "Some gaps in the 1680s-1690s. Generally continuous from the early 1700s.",
+      "repository": "NC State Archives; Perquimans County Clerk of Court",
+      "online_access": "NC State Archives microfilm; published transcriptions available"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Spotty until approximately 1920.",
+      "repository": "NC Office of Vital Records; NC State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Quaker meeting records",
+      "description": "The Perquimans Monthly Meeting was established in the 1680s, making it one of the oldest Quaker meetings in the South. Birth, death, marriage, removal, and disciplinary records survive in remarkable completeness. These records are often more detailed than county records for the same families.",
+      "repository": "Guilford College Quaker Archives, Greensboro, NC; NC State Archives; FamilySearch microfilm",
+      "era_coverage": "1680s-1900s (declining after 1810 as Quakers migrated west)",
+      "genealogical_value": "Extraordinary. Quaker meeting minutes record births with parents' names, marriages with witnesses, removals (migration) with destination meetings named, and disciplinary proceedings with personal detail. Hinshaw's Encyclopedia of American Quaker Genealogy (Vol. 1, NC) abstracts these records and is fully indexed.",
+      "source": "Hinshaw, William Wade. Encyclopedia of American Quaker Genealogy. Vol. 1: North Carolina. Ann Arbor, MI: Edwards Brothers, 1936."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790-1940. Perquimans County enumerated from the first federal census.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790-1940",
+      "genealogical_value": "Essential for tracking families, especially after Quaker out-migration left gaps in meeting records. Census comparison between decades reveals which families left and approximately when.",
+      "source": "National Archives. Federal Census Schedules, Perquimans County, NC."
+    },
+    {
+      "source_type": "Quaker removal certificates and Ohio/Indiana meeting records",
+      "description": "When Quaker families left Perquimans County (primarily 1800-1830), they carried removal certificates to their new meetings. The receiving meetings in Ohio (particularly Belmont County) and Indiana (Wayne, Randolph, and Henry counties) recorded these arrivals, documenting the chain of migration.",
+      "repository": "Ohio Historical Society; Indiana Historical Society; Guilford College Quaker Archives",
+      "era_coverage": "1800-1840",
+      "genealogical_value": "If {ancestor_name} was Quaker and disappeared from Perquimans County records around 1810-1830, the removal certificate filed with the Perquimans Monthly Meeting and the receiving meeting's minutes in Ohio or Indiana may document the exact date, destination, and family composition of the move.",
+      "source": "Hinshaw, Encyclopedia of American Quaker Genealogy, Vols. 1 (NC), 4 (Ohio), 7 (Indiana)."
+    }
+  ],
+  "narrative_hooks": [
+    "Perquimans County's records reach back to 1681 — to the Lords Proprietors era — and for Quaker families, the meeting records are even older and more detailed than the county documents.",
+    "If {ancestor_name} was a Quaker in Perquimans County, the paper trail is extraordinary — the Monthly Meeting recorded births, deaths, marriages, migrations, and even moral failings with the precision of people who believed that every detail mattered.",
+    "When Perquimans County Quakers left for Ohio and Indiana between 1800 and 1830, they carried removal certificates that document the move — if {ancestor_name} disappeared from NC records in that era, the receiving meeting in Ohio or Indiana may hold the continuation of the story.",
+    "Perquimans County's deed records begin in 1681 — if {ancestor_name} owned land here, the chain of title may reach back to the colony's founding generation.",
+    "Before 1913, no North Carolina county required birth registration. For Quaker families in Perquimans, the Monthly Meeting's birth register is the substitute — and it is often more accurate than any government document would have been."
+  ],
+  "source_references": [
+    "Hinshaw, William Wade. Encyclopedia of American Quaker Genealogy. Vol. 1: North Carolina. Ann Arbor, MI: Edwards Brothers, 1936.",
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Haun, Weynette Parks. Perquimans County, North Carolina Court Minutes. Durham, NC: privately published, 1980s.",
+    "Weeks, Stephen Beauregard. Southern Quakers and Slavery. Baltimore: Johns Hopkins Press, 1896.",
+    "Winslow, Ellen Goode. History of Perquimans County. Raleigh: Edwards & Broughton, 1931."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_perquimans",
+    "research_guidance_refs": ["southern_courthouse_research", "quaker_records_research"],
+    "template_refs": ["record_silences"]
+  }
+}

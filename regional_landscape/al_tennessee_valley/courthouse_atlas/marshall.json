@@ -1,0 +1,113 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Marshall County, AL. Record survival and courthouse history. Marshall County was formed in 1836 from Cherokee cession lands — relatively late by Tennessee Valley standards. Records are largely complete from formation.",
+  "courthouse_atlas_id": "al_marshall_courthouse",
+  "display_name": "Marshall County, Alabama — Courthouse Atlas",
+  "county": "Marshall",
+  "state": "AL",
+  "fips_code": "01095",
+  "cluster_ref": "al_tennessee_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1957,
+      "location": "Guntersville, AL — 424 Blount Avenue",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1836–1868",
+        "location": "Warrenton (original county seat)",
+        "fate": "Warrenton was the original county seat, located in the center of the county on Sand Mountain. Records transferred when the county seat moved to Guntersville in 1868."
+      },
+      {
+        "era": "1868–1957",
+        "location": "Guntersville, courthouse square",
+        "fate": "Brick courthouse at Guntersville. Replaced by the current 1957 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "marshall_warrenton_transfer",
+      "date": "1868",
+      "cause": "County seat move from Warrenton to Guntersville — minor losses during transfer",
+      "records_destroyed": ["Some loose papers may have been lost during the county seat move"],
+      "records_survived": ["deed books", "will books", "marriage records", "court minutes"],
+      "scope": "minor",
+      "description": "The county seat moved from Warrenton (on Sand Mountain) to Guntersville (on the Tennessee River) in 1868. Bound record books were transferred intact. Warrenton subsequently declined and is now a small unincorporated community. The Civil War disrupted county operations — Marshall County saw guerrilla activity and both Union and Confederate forces moved through the area — but the courthouse was not deliberately destroyed.",
+      "narrative_impact": "Marshall County's records exist from 1836, but the county was formed late by regional standards — Cherokee removal had only occurred two years before. If {ancestor_name} was in this area before 1836, records would be in the pre-formation Cherokee Nation or under adjacent county jurisdictions.",
+      "source": "Alabama Department of Archives and History. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1836,
+      "completeness": "Good — continuous from county formation",
+      "gaps": "No major gaps",
+      "repository": "Marshall County Probate Office, Guntersville; ADAH microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1837,
+      "completeness": "Good",
+      "gaps": "Minor gaps in earliest loose papers",
+      "repository": "Marshall County Probate Office; ADAH",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1836,
+      "completeness": "Good",
+      "gaps": "No significant gaps",
+      "repository": "Marshall County Probate Office; ADAH microfilm",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1836,
+      "completeness": "Good",
+      "gaps": "Some disruption during Civil War guerrilla period",
+      "repository": "ADAH; Marshall County Circuit Clerk",
+      "online_access": "ADAH microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Spotty until approximately 1925. Sand Mountain communities had lower registration rates.",
+      "repository": "Alabama Department of Public Health; ADAH"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "TVA land acquisition and resettlement records",
+      "description": "Guntersville Dam (1939) created the largest TVA lake in Alabama and displaced families along the Tennessee River in Marshall County. TVA resettlement records document the displacement.",
+      "repository": "TVA Archives, Knoxville, TN; National Archives (RG 142); ADAH",
+      "era_coverage": "1935-1942",
+      "genealogical_value": "Documents families displaced by Guntersville Lake — names, property, compensation, and resettlement locations.",
+      "source": "Tennessee Valley Authority. Land Acquisition Records, Guntersville Dam Project."
+    },
+    {
+      "source_type": "Albertville market and trade records",
+      "description": "Albertville, on Sand Mountain, developed as the commercial center for the plateau. Market records, business directories, and newspaper records document the truck farming economy.",
+      "repository": "Albertville Public Library; Marshall County Historical Society",
+      "era_coverage": "1900-1960",
+      "genealogical_value": "For Sand Mountain families who appeared infrequently in courthouse records, Albertville market and business records may provide documentation.",
+      "source": "Marshall County Historical Society collections."
+    }
+  ],
+  "narrative_hooks": [
+    "Marshall County was not formed until 1836 — two years after Cherokee removal — so if {ancestor_name} was in this area before then, the records are in Cherokee Nation archives or adjacent Alabama county files.",
+    "The county seat moved from Warrenton on Sand Mountain to Guntersville on the river in 1868 — the move symbolized the county's shift from mountain to valley orientation.",
+    "If {ancestor_name}'s farm was on the Tennessee River flats near Guntersville, check TVA displacement records — Guntersville Dam drowned valley farmland in 1939.",
+    "Sand Mountain families left fewer courthouse records because they owned less property and did less legal business — the absence of records is the record of their economic life."
+  ],
+  "source_references": [
+    "Alabama Department of Archives and History. Guide to County Records in the Alabama State Archives. Montgomery: ADAH, 2005.",
+    "Tennessee Valley Authority. Land Acquisition Records, Guntersville Dam Project.",
+    "Marshall County Historical Society. Collections and Finding Aids."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "al_marshall",
+    "research_guidance_refs": ["freedmens_bureau_records"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Micro-Migration Network Map for the ND Red River Prairie cluster. Documents migration corridors into, out of, and within the eight-county region, 1870-1960. Norwegian chain migration from specific parishes, German-Russian colony settlement, and 1930s drought out-migration define the region's migration patterns.",
+  "migration_network_id": "nd_red_river_prairie_migration_networks",
+  "display_name": "ND Red River Prairie — Micro-Migration Network Map",
+  "cluster_ref": "nd_red_river_prairie",
+  "era_range": "1870-1960",
+
+  "migration_corridors": [
+    {
+      "corridor_id": "norwegian_chain_migration",
+      "corridor_name": "Norwegian Chain Migration: Parish to Township",
+      "origin_counties": ["(Norway: Balestrand, Vik, Sogndal, Gudbrandsdalen, Hallingdal, Trøndelag — specific parishes feeding specific ND townships)"],
+      "destination_area": "Traill, Cass, Grand Forks, Walsh, Richland, Barnes, Pembina counties — Norwegian settlement townships",
+      "era": "1870-1910",
+      "migration_type": "chain_migration",
+      "scale": "Tens of thousands of families over four decades. Norwegian immigrants were the single largest ethnic group in the cluster. By 1910, over 60% of the population in Traill County was Norwegian-born or children of Norwegian-born parents. Cass, Grand Forks, and Richland counties had similar concentrations in rural townships.",
+      "evidence": {
+        "census_evidence": "1880-1910 US Census records show entire townships in Traill, Cass, and Grand Forks counties where 80-90% of household heads listed Norway as birthplace. Birthplace specificity in Norwegian church records (naming the parish) confirms the parish-to-township chain.",
+        "church_evidence": "Norwegian Lutheran ministerialbok records name the parish of origin in Norway for each family. When plotted on a map, specific ND townships draw from specific Norwegian parishes — the Balestrand connection to Traill County documented by Jon Gjerde is the best-studied example.",
+        "surname_clustering": "Patronymic surnames from specific Norwegian parishes cluster in specific ND townships. The name tells you the parish; the parish tells you the township.",
+        "emigration_records": "Norwegian emigration records at the National Archives of Norway document departure by parish, ship, and date. These can be matched to American arrival and settlement records."
+      },
+      "chain_mechanics": {
+        "description": "Norwegian chain migration operated through parish-level kinship and community networks. A single family from a Norwegian parish — often a younger son without inheritance prospects — emigrated and settled on a homestead in Dakota Territory. Letters home (the 'America letter') described the land, the conditions, and the process. Within 2-5 years, siblings, cousins, and neighbors from the same parish followed, settling adjacent claims. Within a decade, an entire ND township might be populated by families from a single Norwegian parish or cluster of parishes. The chain was self-reinforcing: each arrival strengthened the community and made the next arrival easier.",
+        "kinship_role": "Sibling chains were the primary mechanism. An older brother established on a homestead provided the initial intelligence, sometimes sent prepaid passage tickets, and offered housing to new arrivals. Church connections supplemented kinship: the Norwegian Lutheran pastor sometimes coordinated settlement, steering newly arrived families to available claims near their parish connections.",
+        "timeline": "Pioneer families 1870-1878; peak chain migration 1878-1893; second wave from more interior Norwegian parishes 1893-1910; chain effectively closed by WWI immigration restrictions."
+      },
+      "narrative_hook": "When {ancestor_name} left {parish} in Norway for {county} County around {year}, {pronoun_subject} was following a path already worn smooth by kin — a brother or cousin who had written home to say the land was free, the soil was deep, and the church was already built.",
+      "source": "Gjerde, Jon. From Peasants to Farmers: The Migration from Balestrand, Norway, to the Upper Middle West. Cambridge: Cambridge University Press, 1985. Lovoll, Odd S. The Promise of America. Minneapolis: University of Minnesota Press, 1984."
+    },
+    {
+      "corridor_id": "german_russian_colony_settlement",
+      "corridor_name": "German-Russian Colony Settlement: Black Sea Steppe to Drift Prairie",
+      "origin_counties": ["(Russia/Ukraine: German colonies near Odessa, Beresan, Glückstal, Kassel — specific villages feeding specific ND communities)"],
+      "destination_area": "Richland, Stutsman, Barnes counties — German-Russian settlement clusters in western portions of the cluster",
+      "era": "1884-1910",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of families. German-Russian immigrants settled in distinct colonies, often clustered by village of origin in Russia. The settlement pattern was more compact and colony-oriented than Norwegian settlement, reflecting the village-based social organization of the Black Sea German communities.",
+      "evidence": {
+        "census_evidence": "1900 and 1910 US Census records show communities in western Richland, Stutsman, and Barnes counties where household heads list 'Russia' as birthplace but speak German. Church records and GRHC (Germans from Russia Heritage Collection) databases identify the specific German colony in Russia.",
+        "church_evidence": "German Reformed, Evangelical, and Catholic church records in German-Russian communities identify families by village of origin in Russia. Baptismal and marriage records maintained the German language through the 1920s.",
+        "surname_clustering": "Surnames from specific Black Sea German villages cluster in specific ND communities. The GRHC at NDSU has compiled village-by-village databases that document these connections.",
+        "emigration_records": "Russian and German colonial records document the German settlements on the Black Sea steppe. GRHC and AHSGR (American Historical Society of Germans from Russia) have compiled emigration databases."
+      },
+      "chain_mechanics": {
+        "description": "German-Russian settlement was colony-based. Advance scouts from a Black Sea German village traveled to Dakota Territory, evaluated the land, and reported back. If the report was favorable, entire village segments — 10-30 families — emigrated together and settled as a group on adjacent homesteads. The colony recreated the social structure of the Russian village: the church at the center, family compounds surrounding it, fields radiating outward. This pattern was fundamentally different from Norwegian settlement, which was individual-family-based. The trigger for emigration was the Russian government's withdrawal of military exemptions for Germans in the 1870s and the imposition of Russian-language education requirements.",
+        "kinship_role": "Extended family networks organized the colony migration. Entire extended families — grandparents, parents, adult children, married siblings — emigrated together. The village elder or pastor often served as the migration organizer.",
+        "timeline": "Scout missions 1884-1886; main colony settlement 1886-1900; secondary migration filling gaps 1900-1910."
+      },
+      "narrative_hook": "When {ancestor_name}'s family left their colony near {village} on the Black Sea for {county} County, they came not as a single family but as a village — twenty families who had lived as neighbors in Russia and would live as neighbors again on the Dakota prairie, rebuilding the same world with the same faces in a landscape that looked startlingly like the steppe they had left.",
+      "source": "Sallet, Richard. Russian-German Settlements in the United States. Fargo: NDIRS, 1974. Sherman, William C. Prairie Mosaic: An Ethnic Atlas of Rural North Dakota. Fargo: NDSU North Dakota Institute for Regional Studies, 1983."
+    },
+    {
+      "corridor_id": "wisconsin_minnesota_stepping_stone",
+      "corridor_name": "Wisconsin-Minnesota Stepping Stone to Dakota Territory",
+      "origin_counties": ["Dane County WI", "Goodhue County MN", "Fillmore County MN", "Houston County MN", "Winneshiek County IA"],
+      "destination_area": "Traill, Cass, Grand Forks, Richland counties",
+      "era": "1870-1895",
+      "migration_type": "step_migration",
+      "scale": "Thousands of families. Many Norwegian families in the Red River Valley had not come directly from Norway but had first settled in Wisconsin or Minnesota and moved west when ND land opened. The 'stepping-stone' pattern meant that a family's migration history included two or three American addresses before reaching Dakota Territory.",
+      "evidence": {
+        "census_evidence": "1880 and 1900 censuses show ND families where the parents list Norway as birthplace but older children were born in Wisconsin or Minnesota, while younger children were born in Dakota Territory — documenting the stepping-stone migration in a single census entry.",
+        "church_evidence": "Church transfer letters document families moving from Norwegian Lutheran congregations in Wisconsin and Minnesota to daughter congregations in Dakota Territory.",
+        "surname_clustering": "Surnames that cluster in specific Wisconsin and Minnesota Norwegian communities reappear in specific ND townships, documenting the westward chain.",
+        "newspaper_evidence": "Norwegian-language newspapers in Wisconsin and Minnesota carried letters from Dakota Territory settlers encouraging migration."
+      },
+      "chain_mechanics": {
+        "description": "The stepping-stone pattern was common among Norwegian immigrants who arrived in America in the 1850s-1860s and settled first in Wisconsin or southeastern Minnesota. By the 1870s, available homestead land in those states was exhausted, and the opening of Dakota Territory drew families westward. A family might have lived in Dane County, Wisconsin for 10-15 years before moving to Traill County, North Dakota. The children born during each stage document the migration timeline in census records.",
+        "kinship_role": "Same as the direct Norway-to-ND chain: siblings and parish connections drove the movement. A brother already in Dakota Territory provided the intelligence; the Wisconsin family followed.",
+        "timeline": "Active 1870-1895; tapering after 1895 as ND homestead land filled."
+      },
+      "narrative_hook": "{ancestor_name} came to {county} County not directly from Norway but by way of {stepping_stone} — a family that had crossed the Atlantic, spent a decade farming in Wisconsin, and then packed again for free land on the Dakota prairie. The children born along the way mark each stop like survey stakes.",
+      "source": "Gjerde, From Peasants to Farmers. Ostergren, Robert C. A Community Transplanted: The Trans-Atlantic Experience of a Swedish Immigrant Settlement in the Upper Middle West, 1835-1915. Madison: University of Wisconsin Press, 1988."
+    },
+    {
+      "corridor_id": "drought_outmigration",
+      "corridor_name": "1930s Drought Out-Migration: Prairie to Pacific Northwest and West Coast",
+      "origin_counties": ["Stutsman", "Barnes", "Pembina", "Walsh", "Traill", "Richland"],
+      "destination_area": "Pacific Northwest (Portland, Seattle, Spokane), California (Los Angeles basin, San Francisco Bay Area), Minneapolis-St. Paul",
+      "era": "1930-1945",
+      "migration_type": "economic_displacement",
+      "scale": "Thousands of families. Every county in the cluster except Cass lost population during the 1930s. Stutsman County lost over 15% of its population between 1930 and 1940. The drift prairie counties (Stutsman, Barnes) were hardest hit, but even the rich valley counties lost families.",
+      "evidence": {
+        "census_evidence": "1940 census shows significant populations of ND-born residents in Portland, Seattle, Los Angeles, and Minneapolis — many listing Stutsman, Barnes, and Pembina counties as birthplace.",
+        "church_evidence": "Norwegian Lutheran church records in ND show membership losses 1930-1945. Destination churches in Portland and Seattle show corresponding arrivals.",
+        "surname_clustering": "Surnames common in the drift prairie counties appear in Pacific Northwest church directories and city directories at rates indicating organized chain migration.",
+        "newspaper_evidence": "Fargo Forum and local papers document farm foreclosures, relief applications, and departures."
+      },
+      "chain_mechanics": {
+        "description": "The 1930s drought broke the economic foundation of marginal farms — the drift prairie in Stutsman and Barnes counties was hit hardest because the soil was thinnest and the moisture margin was smallest. Families that had survived the 1920s farm depression could not survive the added blow of drought. Out-migration followed the same kinship chains that had brought families to North Dakota: a brother or cousin who had already moved to Portland or Seattle provided initial housing and employment intelligence. The Pacific Northwest offered timber work, shipping, and — after 1940 — defense industry employment. Minneapolis-St. Paul absorbed the largest single share of ND migrants because it was closest and most familiar.",
+        "kinship_role": "Kinship chains operated in reverse — families followed relatives out just as they had followed relatives in. A cousin who had moved to Portland in 1932 provided the same function for 1935 migrants that the cousin in Dakota Territory had provided for 1882 immigrants from Norway.",
+        "timeline": "Trickle 1930-1933; peak out-migration 1934-1938; accelerated by WWII defense employment 1940-1945."
+      },
+      "narrative_hook": "When {ancestor_name} left {county} County for {destination} around {year}, {pronoun_subject} was following a relative who had gone first — the same kinship chain that had brought the family from Norway to Dakota Territory now carried them away from it, from a land that had stopped giving what it had once promised.",
+      "source": "Gregory, James N. The Southern Diaspora: How the Great Migrations of Black and White Southerners Transformed America. Chapel Hill: University of North Carolina Press, 2005. Robinson, History of North Dakota, ch. 20."
+    },
+    {
+      "corridor_id": "gi_bill_college_exit",
+      "corridor_name": "GI Bill College Exit: Farm to University to City",
+      "origin_counties": ["Cass", "Grand Forks", "Traill", "Richland", "Walsh", "Pembina", "Barnes", "Stutsman"],
+      "destination_area": "UND (Grand Forks), NDAC/NDSU (Fargo), out-of-state universities; then to Minneapolis, Denver, Seattle, and other cities",
+      "era": "1944-1960",
+      "migration_type": "educational_migration",
+      "scale": "Thousands of individuals. The GI Bill transformed the demographic trajectory of rural North Dakota by offering an alternative to farming. Many veterans who attended college never returned to the family farm — the education itself was the exit ramp from the agricultural economy.",
+      "evidence": {
+        "census_evidence": "1950 and 1960 censuses show population decline in rural townships across all eight counties (except Cass, where Fargo grew). UND and NDAC enrollment records show massive GI Bill enrollment 1946-1952.",
+        "church_evidence": "Rural church membership declined as families left farming. Urban churches in Fargo and Grand Forks grew.",
+        "university_records": "UND and NDAC enrollment records document GI Bill students by hometown, allowing tracking of which rural communities lost the most young people to education."
+      },
+      "chain_mechanics": {
+        "description": "The GI Bill created an unprecedented exit pathway. A farm son who had never expected to attend college received four years of tuition and living expenses. Many enrolled at UND or NDAC, earned degrees in engineering, education, or business, and took jobs in Fargo, Minneapolis, or further afield. The family farm, which had sustained three generations, was left to a single heir or sold to a neighbor who consolidated holdings. The GI Bill did not create the economic forces pushing people off the farm — mechanization and consolidation did that — but it provided the educational bridge that made non-agricultural careers accessible.",
+        "kinship_role": "Less kinship-driven than earlier migrations. The GI Bill was individual — each veteran made a separate decision. But the effect was cumulative: when three of four sons in a family used the GI Bill to leave farming, the one who stayed faced consolidation pressures alone.",
+        "timeline": "Peak enrollment 1946-1952; employment dispersion 1950-1960."
+      },
+      "narrative_hook": "The GI Bill offered {ancestor_name} something no previous generation had — a government-funded exit from the farm. {pronoun_subject_cap} enrolled at {university} in {year}, earned a degree, and took a job in {city} — and the 160-acre homestead that {pronoun_possessive} grandparents had broken with a walking plow was sold to the neighbor who needed more land to make the combine pay.",
+      "source": "Robinson, History of North Dakota, ch. 22. Drache, Beyond the Furrow, ch. 11."
+    }
+  ],
+
+  "internal_movement_patterns": [
+    {
+      "pattern_id": "drift_prairie_to_valley_retreat",
+      "pattern_name": "Drift Prairie to Valley Retreat",
+      "description": "During the 1930s drought, some families in Stutsman and Barnes counties (drift prairie) moved eastward to the Red River Valley proper (Cass, Traill, Grand Forks counties) where the deeper lakebed soils held moisture better. This was a short-distance migration — 50-100 miles — driven by soil quality rather than economic opportunity. Families that made this move essentially retreated from the marginal land back to the productive core of the cluster.",
+      "era": "1934-1940",
+      "evidence": "1940 census shows Stutsman- and Barnes-born families enumerated in Cass and Traill counties. Land records show farm sales in drift prairie townships and purchases in valley townships.",
+      "narrative_hook": "When the drought broke {ancestor_name}'s farm in {origin_county} County, the family did not leave North Dakota — they retreated fifty miles east to the valley, where the soil ran six feet deep and the wheat still grew, even in dry years."
+    },
+    {
+      "pattern_id": "farm_to_town_consolidation",
+      "pattern_name": "Farm-to-Town Migration within Counties",
+      "description": "Across all eight counties, the 1940-1960 period saw families move from farms to the nearest town — not leaving the county but leaving the land. Retired farmers moved to Valley City, Grafton, or Wahpeton. Families displaced by farm consolidation took town jobs while maintaining rural connections. This pattern depopulated rural townships while stabilizing (or growing) county seat populations.",
+      "era": "1940-1960",
+      "evidence": "Census comparison shows rural township population declining while town populations held steady or grew. School consolidation records document the closure of rural one-room schools.",
+      "narrative_hook": "{ancestor_name} did not leave {county} County — but {pronoun_subject} left the farm for town, trading the section-line road for a paved street and the one-room school for a consolidated district, in a migration of five miles that was as complete as any ocean crossing."
+    }
+  ],
+
+  "settlement_clusters": [
+    {
+      "cluster_name": "Norwegian Lutheran Parishes (Valley Floor)",
+      "counties": ["Traill", "Cass", "Grand Forks", "Richland", "Walsh"],
+      "era": "1875-1920",
+      "ethnic_composition": "90%+ Norwegian",
+      "description": "The densest Norwegian settlement in the United States. Entire townships populated from specific Norwegian parishes. The Norwegian Lutheran church was the institutional anchor. Ministerialbok records, bygdelag membership, and Norwegian-language newspapers document these communities in extraordinary detail.",
+      "genealogical_significance": "Parish-of-origin data in church records enables direct transatlantic family reconstruction — connecting a ND family to their specific Norwegian community.",
+      "source": "Gjerde, From Peasants to Farmers. Lovoll, The Promise of America."
+    },
+    {
+      "cluster_name": "German-Russian Colonies (Drift Prairie)",
+      "counties": ["Richland", "Stutsman", "Barnes"],
+      "era": "1884-1920",
+      "ethnic_composition": "90%+ German-Russian (Black Sea German and Volga German)",
+      "description": "Colony-based settlement replicating the village structure of the Black Sea steppe. German Reformed, Evangelical, and Catholic churches maintained German-language records. GRHC databases at NDSU document village-by-village connections between Russia and North Dakota.",
+      "genealogical_significance": "Village-of-origin data enables connection to Russian-era church records. The GRHC collection at NDSU is the primary research resource.",
+      "source": "Sallet, Russian-German Settlements. Sherman, Prairie Mosaic."
+    },
+    {
+      "cluster_name": "Polish Catholic Communities (Walsh County)",
+      "counties": ["Walsh"],
+      "era": "1883-1920",
+      "ethnic_composition": "Polish immigrants (from Russian and Prussian partitions)",
+      "description": "Polish Catholic parishes in Walsh County maintained sacramental records in Latin and Polish. Communities at Grafton, Warsaw, Minto and surrounding areas.",
+      "genealogical_significance": "Parish records connect Walsh County families to specific villages in partitioned Poland. Archdiocese of Fargo archives hold key records.",
+      "source": "Sherman, Prairie Mosaic."
+    },
+    {
+      "cluster_name": "Icelandic Settlement (Pembina County)",
+      "counties": ["Pembina"],
+      "era": "1878-1910",
+      "ethnic_composition": "Icelandic",
+      "description": "One of the few Icelandic settlement clusters in the United States. Tongue River valley in western Pembina County. Patronymic naming conventions create unique genealogical challenges.",
+      "genealogical_significance": "Small community makes individual identification possible. Icelandic naming conventions (patronymics) require understanding the system. Connections to Iceland and to the Icelandic community at Gimli, Manitoba.",
+      "source": "Walters, Modern Sagas."
+    }
+  ],
+
+  "narrative_hooks": [
+    "When {ancestor_name} left {parish} in Norway for {county} County, {pronoun_subject} was not stepping into the unknown — {pronoun_subject} was following a sibling who had written home to say the land was free, the soil was black, and the church had already been organized by families from the same parish.",
+    "The {surname} family did not come to {county} County alone — they came as part of a German-Russian colony, twenty families from the same village near the Black Sea, who rebuilt their world on the Dakota prairie with the same church, the same neighbors, and the same language.",
+    "When the drought of the 1930s drove {ancestor_name} out of {county} County, the kinship chain that had brought the family from Norway ran in reverse — a cousin in Portland, a brother in Minneapolis, someone who had gone first and could say there was work.",
+    "The GI Bill gave {ancestor_name} a way out that {pronoun_possessive} parents never had — a college degree that led to a city job, turning the farm son into an engineer and the homestead into an acquisition for the neighbor's combine.",
+    "{ancestor_name} came to {county} County by way of Wisconsin — a stepping-stone migration where the family had farmed for a decade before the free land in Dakota drew them west again, and the children born along the way mark each stop."
+  ],
+
+  "source_references": [
+    "Gjerde, Jon. From Peasants to Farmers: The Migration from Balestrand, Norway, to the Upper Middle West. Cambridge: Cambridge University Press, 1985.",
+    "Lovoll, Odd S. The Promise of America: A History of the Norwegian-American People. Minneapolis: University of Minnesota Press, 1984.",
+    "Sallet, Richard. Russian-German Settlements in the United States. Fargo: North Dakota Institute for Regional Studies, 1974.",
+    "Sherman, William C. Prairie Mosaic: An Ethnic Atlas of Rural North Dakota. Fargo: NDSU North Dakota Institute for Regional Studies, 1983.",
+    "Walters, Thorstina. Modern Sagas: The Story of the Icelanders in North America. Fargo: North Dakota Institute for Regional Studies, 1953.",
+    "Gregory, James N. The Southern Diaspora. Chapel Hill: University of North Carolina Press, 2005.",
+    "Robinson, Elwyn B. History of North Dakota. Lincoln: University of Nebraska Press, 1966.",
+    "Ostergren, Robert C. A Community Transplanted. Madison: University of Wisconsin Press, 1988."
+  ],
+
+  "nel_cross_references": {
+    "trigger_refs": ["homestead_act", "railroad_construction", "gi_bill_migration"],
+    "community_texture_refs": ["scandinavian_prairie_settlement"],
+    "route_refs": ["northern_pacific_railway", "great_northern_railway"],
+    "life_pattern_refs": ["homestead_proving_up"]
+  }
+}

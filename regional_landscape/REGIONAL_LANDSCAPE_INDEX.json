@@ -1,0 +1,4189 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "County-to-region lookup for Regional Landscape Profiles (Layer 4). Given an ancestor's county, Polsia finds the cluster directory and all associated profile files.",
+  "_usage": "Look up county_to_region[state][county] to get the cluster_id. Then load files from regional_landscape/{cluster_id}/. If no match, the ancestor's county has no regional landscape data \u2014 skip and proceed with existing NEL. Do NOT report this as a gap.",
+  "_overlap_note": "Some counties appear in multiple clusters (e.g., Hoke in both lumbee_corridor and nc_sandhills_upper_cape_fear; Bladen/Columbus in both lumbee_corridor and lower_cape_fear_wilmington). The county_to_region mapping picks one primary cluster per county. If the ancestor's identity suggests the other cluster (e.g., Lumbee heritage in Bladen County), load the alternate cluster manually.",
+  "clusters": {
+    "piedmont_nc_mill_belt": {
+      "cluster_id": "piedmont_nc_mill_belt",
+      "display_name": "NC Piedmont Mill Belt",
+      "state": "NC",
+      "counties": [
+        "Guilford",
+        "Alamance",
+        "Randolph",
+        "Gaston",
+        "Cabarrus",
+        "Forsyth",
+        "Davidson",
+        "Mecklenburg",
+        "Rowan"
+      ],
+      "era_range": "1830-1970",
+      "geographic_description": "Central NC Piedmont plateau between the Fall Line and the Blue Ridge foothills. Rolling red-clay terrain dissected by the Haw, Deep, Yadkin, and Catawba river systems. The industrial crescent: textile mills, furniture factories, tobacco manufacturing, and the emerging banking center of Charlotte. Where the farm-to-mill pipeline from eastern NC and the mountain-to-Piedmont pipeline from western NC both terminated.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 9,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/piedmont_nc_mill_belt_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/piedmont_nc_mill_belt_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/piedmont_nc_mill_belt_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/piedmont_nc_mill_belt_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 9,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/piedmont_nc_mill_belt_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/piedmont_nc_mill_belt_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/piedmont_nc_mill_belt_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "nc_mountain_to_piedmont_mills",
+          "nc_piedmont_tobacco_to_industry",
+          "nc_eastern_farm_to_mill",
+          "textile_mill_recruitment",
+          "appalachian_out_migration",
+          "gilded_age_labor_conflict",
+          "great_migration",
+          "gi_bill_migration"
+        ],
+        "community_texture_refs": [
+          "piedmont_mill_village",
+          "fayetteville_mill_district"
+        ],
+        "material_life_refs": [
+          "southern_mill_village_1880_1930",
+          "industrial_city_1880_1920",
+          "postwar_suburban_1945_1970"
+        ],
+        "life_pattern_refs": [
+          "company_town_lifecycle",
+          "mill_girl_pipeline",
+          "immigrant_parish_lifecycle",
+          "appalachian_subsistence_squeeze",
+          "depression_survival_strategies"
+        ]
+      }
+    },
+    "se_nc_coastal_plain": {
+      "cluster_id": "se_nc_coastal_plain",
+      "display_name": "SE North Carolina Coastal Plain",
+      "state": "NC",
+      "counties": [
+        "Wayne",
+        "Sampson",
+        "Cumberland",
+        "Nash",
+        "Johnston",
+        "Duplin",
+        "Lenoir",
+        "Wilson",
+        "Pitt"
+      ],
+      "era_range": "1750-1960",
+      "geographic_description": "Eastern NC coastal plain between the Fall Line and the tidewater. Flat to gently rolling sandy-loam terrain, tobacco and cotton country, drained by the Neuse, Tar, and Cape Fear river systems. Longleaf pine forests dominated until the turpentine and lumber industries cleared them in the 18th-19th centuries.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 9,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/se_nc_coastal_plain_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/se_nc_coastal_plain_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/se_nc_coastal_plain_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/se_nc_coastal_plain_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 9,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/se_nc_coastal_plain_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/se_nc_coastal_plain_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/se_nc_coastal_plain_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "nc_eastern_farm_to_mill",
+          "nc_piedmont_to_coastal_cities",
+          "nc_civil_war_veteran_settlement",
+          "nc_turpentine_belt_exodus",
+          "nc_tobacco_tenancy_decline",
+          "nc_wilmington_1898_exodus",
+          "civil_war_displacement",
+          "civil_war_service",
+          "antebellum_yeoman_south",
+          "reconstruction_era",
+          "textile_mill_recruitment",
+          "war_of_1812_service",
+          "stayed_and_adapted"
+        ],
+        "community_texture_refs": [
+          "eastern_nc_farm_community",
+          "fayetteville_mill_district",
+          "piedmont_mill_village"
+        ],
+        "material_life_refs": [
+          "antebellum_yeoman_farm_1820_1860",
+          "sharecropper_cabin_1865_1940",
+          "postbellum_southern_farm_1865_1910",
+          "southern_mill_village_1880_1930"
+        ],
+        "life_pattern_refs": [
+          "yeoman_farming_stability",
+          "tobacco_soil_exhaustion",
+          "sharecropping_trap",
+          "civil_war_widows_arc"
+        ]
+      }
+    },
+    "western_nc_mountains": {
+      "cluster_id": "western_nc_mountains",
+      "display_name": "Western NC Mountains",
+      "state": "NC",
+      "counties": [
+        "Buncombe",
+        "Madison",
+        "Yancey",
+        "Watauga",
+        "Ashe",
+        "Cherokee",
+        "Swain",
+        "Jackson",
+        "Haywood",
+        "Mitchell",
+        "Avery"
+      ],
+      "era_range": "1750-1960",
+      "geographic_description": "The southern Appalachian mountain core of western North Carolina, including the Great Smoky Mountains, the Blue Ridge, and the Black Mountains. Deeply dissected terrain of narrow hollows, steep ridges, and isolated coves drained by the French Broad, Pigeon, Toe, and Hiwassee river systems. Scots-Irish subsistence farming, Cherokee homeland (Eastern Band on the Qualla Boundary in Swain and Jackson counties), logging and mining boom (1880s-1920s), and the Asheville urban center that connected the mountains to the outside world.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 11,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/western_nc_mountains_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/western_nc_mountains_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/western_nc_mountains_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/western_nc_mountains_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 11,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/western_nc_mountains_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/western_nc_mountains_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/western_nc_mountains_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "community_texture_refs": [
+          "appalachian_mountain_community",
+          "eastern_band_cherokee"
+        ],
+        "material_life_refs": [
+          "frontier_cabin_1790_1840",
+          "antebellum_yeoman_farm_1820_1860",
+          "postbellum_southern_farm_1865_1910",
+          "sharecropper_cabin_1865_1940"
+        ],
+        "template_refs": [
+          "record_silences",
+          "economic_life_story",
+          "hinge_generation"
+        ]
+      }
+    },
+    "lumbee_corridor": {
+      "cluster_id": "lumbee_corridor",
+      "display_name": "Lumbee Corridor",
+      "state": "NC",
+      "counties": [
+        "Robeson",
+        "Scotland",
+        "Hoke",
+        "Bladen",
+        "Columbus"
+      ],
+      "era_range": "1730-1970",
+      "geographic_description": "The Lumber River corridor of south-central North Carolina, centered on Robeson County. Homeland of the Lumbee people, the largest Native American tribe east of the Mississippi without full federal recognition. Flat sandy-loam terrain of longleaf pine forest and river bottomland. The three-race social system (white, Indian, Black) that shaped every institution in Robeson County distinguishes this cluster from every other in the South.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 5,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/lumbee_corridor_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/lumbee_corridor_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/lumbee_corridor_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/lumbee_corridor_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 5,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/lumbee_corridor_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/lumbee_corridor_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/lumbee_corridor_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "stayed_and_adapted",
+          "civil_war_service",
+          "reconstruction_era",
+          "nc_eastern_farm_to_mill"
+        ],
+        "community_texture_refs": [
+          "eastern_nc_farm_community"
+        ],
+        "material_life_refs": [
+          "sharecropper_cabin_1865_1940",
+          "postbellum_southern_farm_1865_1910",
+          "free_black_community_1790_1865"
+        ]
+      }
+    },
+    "ne_nc_tidewater_albemarle": {
+      "cluster_id": "ne_nc_tidewater_albemarle",
+      "display_name": "NE NC Tidewater / Albemarle",
+      "state": "NC",
+      "counties": [
+        "Bertie",
+        "Hertford",
+        "Chowan",
+        "Perquimans",
+        "Pasquotank",
+        "Gates",
+        "Currituck",
+        "Dare",
+        "Tyrrell",
+        "Washington",
+        "Martin"
+      ],
+      "era_range": "1660-1960",
+      "geographic_description": "The oldest settled region of North Carolina, bordering the Albemarle Sound and the Virginia line. Flat tidewater terrain of swamp, pocosins, and Sound-front farmland drained by the Roanoke, Chowan, and Pasquotank rivers. Colonial first-settlement with Quaker presence (Perquimans), Anglican/Episcopal planter elite at Edenton, maritime economy on the Outer Banks (Currituck, Dare), and the South's oldest continuous free Black community (Hertford County).",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 11,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/ne_nc_tidewater_albemarle_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/ne_nc_tidewater_albemarle_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/ne_nc_tidewater_albemarle_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/ne_nc_tidewater_albemarle_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 11,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/ne_nc_tidewater_albemarle_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/ne_nc_tidewater_albemarle_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/ne_nc_tidewater_albemarle_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "nc_quaker_antislavery_migration",
+          "antebellum_yeoman_south",
+          "stayed_and_adapted",
+          "domestic_slave_trade"
+        ],
+        "material_life_refs": [
+          "antebellum_yeoman_farm_1820_1860",
+          "antebellum_plantation_1820_1860",
+          "free_black_community_1790_1865"
+        ],
+        "community_texture_refs": [
+          "eastern_nc_farm_community",
+          "deep_south_black_community"
+        ]
+      }
+    },
+    "nc_sandhills_upper_cape_fear": {
+      "cluster_id": "nc_sandhills_upper_cape_fear",
+      "display_name": "NC Sandhills / Upper Cape Fear",
+      "state": "NC",
+      "counties": [
+        "Moore",
+        "Harnett",
+        "Hoke",
+        "Scotland",
+        "Richmond",
+        "Anson",
+        "Montgomery"
+      ],
+      "era_range": "1740-1970",
+      "geographic_description": "The deep-sand longleaf pine country of south-central North Carolina, straddling the upper Cape Fear and Pee Dee river systems. The Scottish Highland settlement on the Upper Cape Fear (1730s-1770s) gave this cluster a cultural signature unlike any other in the South: Gaelic-speaking Presbyterian kirk sessions, clan-organized communities, and Mac/Mc surname clusters. Layered on top: turpentine/naval stores economy, Pee Dee cotton plantations (Anson, Richmond), the Pinehurst resort colony (Moore County after 1895), and the Harnett County textile mills.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 7,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/nc_sandhills_upper_cape_fear_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/nc_sandhills_upper_cape_fear_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/nc_sandhills_upper_cape_fear_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/nc_sandhills_upper_cape_fear_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 7,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/nc_sandhills_upper_cape_fear_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/nc_sandhills_upper_cape_fear_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/nc_sandhills_upper_cape_fear_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "community_texture_refs": [
+          "nc_sandhills_scottish_community",
+          "nc_sandhills_turpentine_community",
+          "eastern_nc_farm_community",
+          "piedmont_mill_village",
+          "deep_south_black_community"
+        ],
+        "material_life_refs": [
+          "antebellum_yeoman_farm_1820_1860",
+          "sharecropper_cabin_1865_1940",
+          "postbellum_southern_farm_1865_1910",
+          "frontier_log_cabin_1780_1840",
+          "southern_mill_village_1880_1930",
+          "free_black_community_1790_1865",
+          "small_town_merchant_1830_1920"
+        ],
+        "template_refs": [
+          "naming_as_evidence",
+          "economic_life_story",
+          "document_deep_read",
+          "hinge_generation",
+          "record_silences"
+        ]
+      }
+    },
+    "lower_cape_fear_wilmington": {
+      "cluster_id": "lower_cape_fear_wilmington",
+      "display_name": "Lower Cape Fear / Wilmington",
+      "state": "NC",
+      "counties": [
+        "New Hanover",
+        "Brunswick",
+        "Pender",
+        "Columbus",
+        "Bladen"
+      ],
+      "era_range": "1720-1960",
+      "geographic_description": "The port-city cluster at the mouth of the Cape Fear River and its hinterland counties. Culturally distinct from the inland coastal plain: rice-culture roots with Gullah-Geechee influence, Barbadian planter founding class, Anglican/Episcopal elite, maritime economy, the Waccamaw Siouan community at Lake Waccamaw (Columbus County), and the defining trauma of the 1898 Wilmington white supremacist coup that destroyed the most prosperous Black community in North Carolina.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 5,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/lower_cape_fear_wilmington_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/lower_cape_fear_wilmington_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/lower_cape_fear_wilmington_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/lower_cape_fear_wilmington_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 5,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/lower_cape_fear_wilmington_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/lower_cape_fear_wilmington_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/lower_cape_fear_wilmington_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "community_texture_refs": [
+          "cape_fear_port_community",
+          "eastern_nc_farm_community",
+          "deep_south_black_community"
+        ],
+        "material_life_refs": [
+          "antebellum_plantation_1820_1860",
+          "antebellum_yeoman_farm_1820_1860",
+          "sharecropper_cabin_1865_1940",
+          "free_black_community_1790_1865",
+          "small_town_merchant_1830_1920"
+        ],
+        "template_refs": [
+          "naming_as_evidence",
+          "economic_life_story",
+          "record_silences",
+          "hinge_generation"
+        ]
+      }
+    },
+    "sc_piedmont_upcountry": {
+      "cluster_id": "sc_piedmont_upcountry",
+      "display_name": "SC Piedmont Upcountry",
+      "state": "SC",
+      "counties": [
+        "Greenville",
+        "Spartanburg",
+        "Anderson",
+        "York",
+        "Chester",
+        "Union",
+        "Laurens",
+        "Cherokee"
+      ],
+      "era_range": "1760-1960",
+      "geographic_description": "The rolling red-clay Piedmont of upstate South Carolina, between the Blue Ridge escarpment and the Fall Line. Drained by the Saluda, Enoree, Tyger, Pacolet, Broad, and Catawba rivers. Cherokee frontier turned Scots-Irish yeoman country turned textile mill corridor. Distinct from the Lowcountry in economy, settlement pattern, and culture \u2014 small farms instead of plantations, Presbyterians instead of Anglicans, and after 1880, mill villages instead of rice fields.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/sc_piedmont_upcountry_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/sc_piedmont_upcountry_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/sc_piedmont_upcountry_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/sc_piedmont_upcountry_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/sc_piedmont_upcountry_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/sc_piedmont_upcountry_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/sc_piedmont_upcountry_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "scots_irish_frontier",
+          "appalachian_out_migration",
+          "textile_mill_recruitment",
+          "gilded_age_labor_conflict",
+          "great_migration",
+          "gi_bill_migration",
+          "civil_war_service",
+          "reconstruction_era",
+          "antebellum_yeoman_south",
+          "stayed_and_adapted"
+        ],
+        "community_texture_refs": [
+          "piedmont_mill_village",
+          "appalachian_mountain_community"
+        ],
+        "material_life_refs": [
+          "southern_mill_village_1880_1930",
+          "antebellum_yeoman_farm_1820_1860",
+          "postbellum_southern_farm_1865_1910",
+          "postwar_suburban_1945_1970"
+        ],
+        "life_pattern_refs": [
+          "company_town_lifecycle",
+          "appalachian_subsistence_squeeze",
+          "yeoman_farming_stability",
+          "depression_survival_strategies"
+        ]
+      }
+    },
+    "va_tidewater": {
+      "cluster_id": "va_tidewater",
+      "display_name": "Virginia Tidewater",
+      "state": "VA",
+      "counties": [
+        "James City",
+        "Charles City",
+        "Henrico",
+        "York",
+        "Surry",
+        "Isle of Wight",
+        "Gloucester",
+        "New Kent",
+        "King William"
+      ],
+      "era_range": "1607-1960",
+      "geographic_description": "The original English settlement in America, centered on the James and York rivers between the Chesapeake Bay and the Fall Line. Flat tidewater terrain of navigable rivers, plantation frontage, and tobacco culture. The most hierarchical society in colonial English America: great planters (Carter, Byrd, Harrison, Randolph), Anglican vestry government, and an enslaved population that reached 40-50% by 1750. Jamestown, Williamsburg, and the plantation houses along the James define the physical landscape.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 9,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/va_tidewater_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/va_tidewater_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/va_tidewater_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/va_tidewater_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 9,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/va_tidewater_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/va_tidewater_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/va_tidewater_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "antebellum_yeoman_south",
+          "domestic_slave_trade",
+          "reconstruction_era"
+        ],
+        "material_life_refs": [
+          "antebellum_plantation_1820_1860",
+          "antebellum_yeoman_farm_1820_1860",
+          "free_black_community_1790_1865"
+        ],
+        "community_texture_refs": [
+          "tidewater_plantation_community"
+        ],
+        "life_pattern_refs": [
+          "tobacco_soil_exhaustion",
+          "yeoman_farming_stability"
+        ]
+      }
+    },
+    "va_shenandoah_valley": {
+      "cluster_id": "va_shenandoah_valley",
+      "display_name": "Virginia Shenandoah Valley",
+      "state": "VA",
+      "counties": [
+        "Frederick",
+        "Shenandoah",
+        "Page",
+        "Warren",
+        "Rockingham",
+        "Augusta",
+        "Rockbridge",
+        "Botetourt"
+      ],
+      "era_range": "1730-1960",
+      "geographic_description": "The Great Valley of Virginia between the Blue Ridge and the Allegheny Front, drained by the Shenandoah River (north) and the headwaters of the James (south). Settled via the Great Wagon Road from Pennsylvania by two distinct ethnic streams: Scots-Irish Presbyterians on the ridges and German peace churches (Mennonite, Brethren) and Reformed/Lutheran congregations on the rich limestone valley floor. The Valley's Civil War devastation (Sheridan's Burning, 1864) and its dual German-Scots-Irish cultural landscape make it unique in the South.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/va_shenandoah_valley_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/va_shenandoah_valley_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/va_shenandoah_valley_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/va_shenandoah_valley_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/va_shenandoah_valley_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/va_shenandoah_valley_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/va_shenandoah_valley_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "community_texture_refs": [
+          "scots_irish_valley_community",
+          "german_reformed_community"
+        ],
+        "material_life_refs": [
+          "antebellum_yeoman_farm_1820_1860",
+          "frontier_log_cabin_1780_1840"
+        ],
+        "trigger_refs": [
+          "civil_war_service",
+          "civil_war_displacement",
+          "stayed_and_adapted"
+        ]
+      }
+    },
+    "va_piedmont_southside": {
+      "cluster_id": "va_piedmont_southside",
+      "display_name": "VA Piedmont Southside",
+      "state": "VA",
+      "counties": [
+        "Halifax",
+        "Pittsylvania",
+        "Charlotte",
+        "Mecklenburg",
+        "Brunswick",
+        "Lunenburg",
+        "Henry",
+        "Patrick"
+      ],
+      "era_range": "1720-1960",
+      "geographic_description": "The rolling Piedmont of south-central Virginia between the Blue Ridge foothills and the Fall Line, drained by the Dan, Staunton, and Roanoke rivers. A tobacco-culture landscape split between English-descended plantation culture in the eastern counties (Halifax, Mecklenburg, Brunswick, Lunenburg) and Scots-Irish yeoman culture in the western foothills (Henry, Patrick). The bright-leaf tobacco revolution, Danville's industrialization, and the Civil War devastation define the economic arc.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/va_piedmont_southside_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/va_piedmont_southside_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/va_piedmont_southside_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/va_piedmont_southside_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/va_piedmont_southside_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/va_piedmont_southside_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/va_piedmont_southside_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "tobacco_soil_exhaustion",
+          "antebellum_yeoman_south",
+          "scots_irish_frontier",
+          "reconstruction_era",
+          "stayed_and_adapted"
+        ],
+        "community_texture_refs": [
+          "eastern_nc_farm_community",
+          "appalachian_mountain_community"
+        ],
+        "material_life_refs": [
+          "antebellum_yeoman_farm_1820_1860",
+          "sharecropper_cabin_1865_1940",
+          "postbellum_southern_farm_1865_1910"
+        ],
+        "life_pattern_refs": [
+          "tobacco_soil_exhaustion",
+          "yeoman_farming_stability",
+          "sharecropping_trap"
+        ]
+      }
+    },
+    "md_western_shore": {
+      "cluster_id": "md_western_shore",
+      "display_name": "MD Western Shore",
+      "state": "MD",
+      "counties": [
+        "Anne Arundel",
+        "Prince George's",
+        "Charles",
+        "St. Mary's",
+        "Calvert",
+        "Howard"
+      ],
+      "era_range": "1634-1960",
+      "geographic_description": "The western shore of the Chesapeake Bay, from Annapolis south to St. Mary's City at the mouth of the Potomac. The founding settlement of Maryland (1634) and the center of Catholic persistence in English America \u2014 three centuries of Catholic families on the same land, worshipping in the same Jesuit mission chapels. Tobacco economy, Chesapeake Bay watermen culture, enslaved labor, and the postwar suburban transformation as Washington and Baltimore expanded outward.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 6,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/md_western_shore_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/md_western_shore_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/md_western_shore_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/md_western_shore_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 6,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/md_western_shore_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/md_western_shore_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/md_western_shore_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "domestic_slave_trade",
+          "civil_war_service",
+          "reconstruction_era",
+          "great_migration",
+          "stayed_and_adapted",
+          "war_of_1812_service"
+        ],
+        "community_texture_refs": [
+          "deep_south_black_community",
+          "shenandoah_valley_farm_community"
+        ],
+        "material_life_refs": [
+          "antebellum_plantation_1820_1860",
+          "free_black_community_1790_1865",
+          "postbellum_southern_farm_1865_1910",
+          "small_town_merchant_1830_1920"
+        ],
+        "life_pattern_refs": [
+          "tobacco_soil_exhaustion",
+          "indentured_servant_formation",
+          "military_family_circuit"
+        ]
+      }
+    },
+    "md_eastern_shore": {
+      "cluster_id": "md_eastern_shore",
+      "display_name": "MD Eastern Shore",
+      "state": "MD",
+      "counties": [
+        "Talbot",
+        "Dorchester",
+        "Caroline",
+        "Queen Anne's",
+        "Kent",
+        "Cecil"
+      ],
+      "era_range": "1631-1960",
+      "geographic_description": "The Delmarva Peninsula counties of Maryland's Eastern Shore, bounded by the Chesapeake Bay (west), the Mason-Dixon Line (north), and the Choptank and Nanticoke river systems (south). Defined by the Bay \u2014 which was simultaneously the road to market and the wall that isolated the Shore from the Western Shore for three centuries until the Bay Bridge (1952). Tobacco-to-grain transition, Chesapeake watermen culture (oystering, crabbing, skipjack fleet), Quaker communities (Third Haven, 1661), the largest free Black population in the slaveholding South, Frederick Douglass's birthplace (Talbot County), Harriet Tubman's homeland (Dorchester County), the Underground Railroad corridor through Cecil County, the canning industry, and the distinctive Eastern Shore accent.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 6,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/md_eastern_shore_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/md_eastern_shore_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/md_eastern_shore_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/md_eastern_shore_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 6,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/md_eastern_shore_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/md_eastern_shore_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/md_eastern_shore_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "antebellum_yeoman_south",
+          "civil_war_service",
+          "reconstruction_era",
+          "great_migration",
+          "domestic_slave_trade",
+          "stayed_and_adapted",
+          "war_of_1812_service"
+        ],
+        "community_texture_refs": [],
+        "material_life_refs": [
+          "colonial_farm_1680_1780",
+          "antebellum_yeoman_farm_1820_1860",
+          "sharecropper_cabin_1865_1940",
+          "postbellum_southern_farm_1865_1910"
+        ],
+        "life_pattern_refs": [
+          "yeoman_farming_stability",
+          "sharecropping_trap",
+          "tobacco_soil_exhaustion"
+        ]
+      }
+    },
+    "pa_southeast_gateway": {
+      "cluster_id": "pa_southeast_gateway",
+      "display_name": "PA Southeast Gateway",
+      "state": "PA",
+      "counties": [
+        "Chester",
+        "Lancaster",
+        "Bucks",
+        "Delaware",
+        "Montgomery",
+        "Berks"
+      ],
+      "era_range": "1680-1960",
+      "geographic_description": "Southeastern Pennsylvania from the Delaware River to the Susquehanna, encompassing William Penn's original settlement and its agricultural hinterland. Uniquely layered cultural landscape: Quaker plain culture, German (PA Dutch) agricultural tradition, Scots-Irish frontier temperament, and later immigrant communities. Lancaster County is the heartland of American Mennonitism and the Amish. The richest agricultural region in colonial America and the gateway through which the Great Wagon Road funneled settlers south and west.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 6,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/pa_southeast_gateway_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/pa_southeast_gateway_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/pa_southeast_gateway_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/pa_southeast_gateway_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 6,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/pa_southeast_gateway_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/pa_southeast_gateway_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/pa_southeast_gateway_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "german_immigration",
+          "scots_irish_frontier",
+          "irish_famine",
+          "great_migration",
+          "stayed_and_adapted",
+          "indian_removal_trail_of_tears"
+        ],
+        "community_texture_refs": [
+          "pa_dutch_lehigh_valley",
+          "quaker_meeting_community",
+          "scots_irish_frontier"
+        ],
+        "material_life_refs": [
+          "frontier_log_cabin_1780_1840",
+          "antebellum_yeoman_farm_1820_1860",
+          "small_town_merchant_1830_1920",
+          "free_black_community_1790_1865"
+        ],
+        "life_pattern_refs": [
+          "yeoman_farming_stability",
+          "immigrant_parish_lifecycle",
+          "indentured_servant_formation"
+        ],
+        "template_refs": [
+          "naming_as_evidence",
+          "record_silences",
+          "what_they_saw"
+        ]
+      }
+    },
+    "pa_western_frontier": {
+      "cluster_id": "pa_western_frontier",
+      "display_name": "PA Western Frontier",
+      "state": "PA",
+      "counties": [
+        "Westmoreland",
+        "Fayette",
+        "Washington",
+        "Greene",
+        "Allegheny",
+        "Beaver",
+        "Butler",
+        "Lawrence"
+      ],
+      "era_range": "1758-1960",
+      "geographic_description": "The western Pennsylvania corridor from the Allegheny Front to the Ohio border, centered on Pittsburgh at the confluence of the three rivers. A Scots-Irish frontier that became the most ethnically diverse industrial corridor in the nation within two generations. French and Indian War frontier, Whiskey Rebellion, National Road, iron and glass, the steel-and-coke empire, massive Eastern/Southern European immigration, and the labor wars that defined American industrial history.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/pa_western_frontier_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/pa_western_frontier_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/pa_western_frontier_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/pa_western_frontier_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/pa_western_frontier_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/pa_western_frontier_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/pa_western_frontier_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "scots_irish_frontier",
+          "gilded_age_labor_conflict",
+          "gi_bill_migration"
+        ],
+        "community_texture_refs": [
+          "eastern_european_industrial_enclave",
+          "irish_urban_enclave",
+          "german_ethnic_community"
+        ],
+        "material_life_refs": [
+          "frontier_subsistence_1750_1820",
+          "free_labor_industrial_1870_1910",
+          "great_depression_urban_1929_1940"
+        ],
+        "life_pattern_refs": [
+          "immigrant_enclave_progression",
+          "company_town_lifecycle",
+          "yeoman_farming_stability"
+        ]
+      }
+    },
+    "ny_hudson_valley": {
+      "cluster_id": "ny_hudson_valley",
+      "display_name": "NY Hudson Valley",
+      "state": "NY",
+      "counties": [
+        "Dutchess",
+        "Ulster",
+        "Orange",
+        "Columbia",
+        "Albany",
+        "Rensselaer",
+        "Greene",
+        "Washington"
+      ],
+      "era_range": "1614-1960",
+      "geographic_description": "The Hudson River corridor from the Tappan Zee to the Mohawk confluence, including both shores and the Catskill hinterland. Layered cultural landscape: Dutch underneath (patroon manor system, Dutch Reformed churches, patronymic naming), English overlay, Huguenot stone houses at New Paltz, Palatine German settlements, Yankee incursion from the east, and Irish and Italian communities built on canal and quarry work. The valley's tenant-farmer system persisted into the 1840s Anti-Rent Wars.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/ny_hudson_valley_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/ny_hudson_valley_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/ny_hudson_valley_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/ny_hudson_valley_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/ny_hudson_valley_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/ny_hudson_valley_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/ny_hudson_valley_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "german_immigration",
+          "irish_famine",
+          "stayed_and_adapted",
+          "economic_panics_19c"
+        ],
+        "community_texture_refs": [
+          "new_york_lower_east_side",
+          "german_midwest_1848_1900"
+        ],
+        "material_life_refs": [
+          "immigrant_tenement_1845_1890",
+          "small_town_merchant_1830_1920",
+          "free_black_community_1790_1865"
+        ],
+        "template_refs": [
+          "naming_as_evidence",
+          "what_they_saw",
+          "record_silences"
+        ],
+        "life_pattern_refs": [
+          "immigrant_parish_lifecycle",
+          "new_england_farm_decline"
+        ]
+      }
+    },
+    "ma_eastern_colonial": {
+      "cluster_id": "ma_eastern_colonial",
+      "display_name": "MA Eastern Colonial",
+      "state": "MA",
+      "counties": [
+        "Plymouth",
+        "Norfolk",
+        "Bristol",
+        "Barnstable",
+        "Essex",
+        "Suffolk"
+      ],
+      "era_range": "1620-1960",
+      "geographic_description": "The original settlement core of Massachusetts \u2014 Plymouth Colony, Massachusetts Bay, and their hinterlands. Glaciated coastal terrain from Cape Cod to Cape Ann, with Boston Harbor as the commercial hub. Puritan town-meeting culture, maritime economy (cod, whaling, merchant shipping), early industrialization (shoes, textiles), and successive immigrant waves (Irish, French Canadian, Portuguese, Cape Verdean) that transformed the Yankee landscape. Massachusetts' unique TOWN-based record system (vital records kept by town clerks, not county officials, from the 1630s) makes this cluster genealogically distinctive.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 6,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/ma_eastern_colonial_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/ma_eastern_colonial_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/ma_eastern_colonial_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/ma_eastern_colonial_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 6,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/ma_eastern_colonial_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/ma_eastern_colonial_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/ma_eastern_colonial_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "industrial_revolution",
+          "civil_war_service",
+          "great_migration",
+          "gi_bill_migration",
+          "gilded_age_labor_conflict",
+          "irish_famine_immigration",
+          "textile_mill_recruitment",
+          "war_of_1812_service",
+          "stayed_and_adapted"
+        ],
+        "community_texture_refs": [
+          "boston_irish_enclave",
+          "new_bedford_whaling_community",
+          "new_england_puritan_town",
+          "french_canadian_mill_community"
+        ],
+        "material_life_refs": [
+          "colonial_farm_1680_1780",
+          "industrial_city_1880_1920",
+          "great_depression_urban_1929_1941",
+          "postwar_suburban_1945_1970",
+          "new_england_colonial_farmstead_1620_1780",
+          "new_england_maritime_household_1700_1860",
+          "southern_mill_village_1880_1930"
+        ],
+        "occupation_refs": [
+          "sailor_mariner",
+          "merchant_storekeeper",
+          "textile_mill_hand",
+          "minister_preacher"
+        ],
+        "destination_refs": [
+          "boston",
+          "boston_irish_enclave",
+          "new_bedford",
+          "fall_river",
+          "connecticut_western_reserve"
+        ],
+        "route_refs": [
+          "coastal_steamer",
+          "intercity_bus"
+        ],
+        "template_refs": [
+          "naming_as_evidence",
+          "economic_life_story",
+          "document_deep_read",
+          "record_silences",
+          "what_they_saw",
+          "hinge_generation",
+          "fork_in_the_road"
+        ],
+        "life_pattern_refs": []
+      }
+    },
+    "ky_bluegrass": {
+      "cluster_id": "ky_bluegrass",
+      "display_name": "KY Bluegrass",
+      "state": "KY",
+      "counties": [
+        "Fayette",
+        "Bourbon",
+        "Clark",
+        "Madison",
+        "Jessamine",
+        "Woodford",
+        "Scott",
+        "Mercer"
+      ],
+      "era_range": "1775-1960",
+      "geographic_description": "The phosphate-rich limestone basin of central Kentucky, centered on Lexington. The Bluegrass is fundamentally a Virginia transplant culture \u2014 planter aristocracy, enslaved workforce, county court system, and Anglican-to-Episcopal-to-Presbyterian denomination ladder all came through Cumberland Gap from the Tidewater and the Valley. Hemp cultivation with enslaved labor, horse breeding, bourbon distilling, and Transylvania University defined the planter-class economy.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/ky_bluegrass_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/ky_bluegrass_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/ky_bluegrass_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/ky_bluegrass_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/ky_bluegrass_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/ky_bluegrass_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/ky_bluegrass_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "scots_irish_frontier",
+          "antebellum_yeoman_south",
+          "domestic_slave_trade",
+          "civil_war_service",
+          "reconstruction_era"
+        ],
+        "community_texture_refs": [
+          "scots_irish_frontier",
+          "shenandoah_valley_farm_community",
+          "deep_south_black_community"
+        ],
+        "material_life_refs": [
+          "antebellum_plantation_1820_1860",
+          "antebellum_yeoman_farm_1820_1860",
+          "frontier_log_cabin_1780_1840",
+          "free_black_community_1790_1865",
+          "postbellum_southern_farm_1865_1910",
+          "small_town_merchant_1830_1920"
+        ],
+        "life_pattern_refs": [
+          "yeoman_farming_stability",
+          "tobacco_soil_exhaustion",
+          "civil_war_widows_arc"
+        ],
+        "template_refs": [
+          "naming_as_evidence",
+          "record_silences",
+          "what_they_saw"
+        ]
+      }
+    },
+    "ky_pennyroyal_green_river": {
+      "cluster_id": "ky_pennyroyal_green_river",
+      "display_name": "KY Pennyroyal / Green River",
+      "state": "KY",
+      "counties": [
+        "Barren",
+        "Warren",
+        "Logan",
+        "Christian",
+        "Todd",
+        "Simpson",
+        "Allen",
+        "Monroe"
+      ],
+      "era_range": "1790-1960",
+      "geographic_description": "The Pennyroyal Plateau and Green River country of south-central Kentucky, from Bowling Green to the Tennessee border. Dark-fired tobacco kingdom, Black Patch Wars (1904-1909), Shaker communities at South Union (Logan County), and the Mammoth Cave country. A Virginia-Carolina transplant culture built on tobacco and enslaved labor, with less of the planter aristocracy of the Bluegrass and more of the yeoman-slaveholding middle class.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/ky_pennyroyal_green_river_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/ky_pennyroyal_green_river_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/ky_pennyroyal_green_river_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/ky_pennyroyal_green_river_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/ky_pennyroyal_green_river_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/ky_pennyroyal_green_river_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/ky_pennyroyal_green_river_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "scots_irish_frontier",
+          "antebellum_yeoman_south",
+          "civil_war_service",
+          "stayed_and_adapted"
+        ],
+        "community_texture_refs": [
+          "upper_south_tobacco_farm",
+          "shaker_community"
+        ],
+        "material_life_refs": [
+          "antebellum_yeoman_farm_1820_1860",
+          "southern_slaveholding_farm_1830_1860",
+          "postbellum_southern_farm"
+        ],
+        "life_pattern_refs": [
+          "yeoman_farming_stability",
+          "slaveholding_planter_lifecycle"
+        ]
+      }
+    },
+    "tn_east_great_valley": {
+      "cluster_id": "tn_east_great_valley",
+      "display_name": "TN East Great Valley",
+      "state": "TN",
+      "counties": [
+        "Washington",
+        "Sullivan",
+        "Greene",
+        "Carter",
+        "Hawkins",
+        "Cocke",
+        "Grainger",
+        "Jefferson"
+      ],
+      "era_range": "1770-1960",
+      "geographic_description": "The Great Valley of East Tennessee, from the Virginia line to the French Broad River. Fertile valley floor for agriculture, mountain barriers to commerce, and fierce independence that resisted both plantation slavery and industrial domination. Watauga frontier, State of Franklin, Scots-Irish backcountry settlement, Unionist corridor during the Civil War, and Appalachian industrialization via the railroad after 1858.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/tn_east_great_valley_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/tn_east_great_valley_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/tn_east_great_valley_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/tn_east_great_valley_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/tn_east_great_valley_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/tn_east_great_valley_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/tn_east_great_valley_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "scots_irish_frontier",
+          "antebellum_yeoman_south",
+          "civil_war_service",
+          "stayed_and_adapted",
+          "trail_of_tears"
+        ],
+        "community_texture_refs": [
+          "appalachian_mountain_community",
+          "scots_irish_frontier_settlement"
+        ],
+        "material_life_refs": [
+          "frontier_homestead_1780_1840",
+          "antebellum_yeoman_farm_1820_1860"
+        ],
+        "life_pattern_refs": [
+          "yeoman_farming_stability"
+        ]
+      }
+    },
+    "tn_middle_nashville_basin": {
+      "cluster_id": "tn_middle_nashville_basin",
+      "display_name": "TN Middle Nashville Basin",
+      "state": "TN",
+      "counties": [
+        "Davidson",
+        "Williamson",
+        "Rutherford",
+        "Maury",
+        "Wilson",
+        "Sumner",
+        "Smith",
+        "Robertson"
+      ],
+      "era_range": "1780-1960",
+      "geographic_description": "The limestone Nashville Basin of Middle Tennessee, centered on Nashville and ringed by the Highland Rim. Cumberland Compact frontier, cotton-tobacco plantation wealth in the rich central basin, Civil War destruction (Stones River, Nashville, Franklin), phosphate mining, and Nashville's transformation into a New South city. The planter class was powerful but never as dominant as in the Deep South \u2014 yeoman farmers on the Highland Rim surrounded the basin's plantation core.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/tn_middle_nashville_basin_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/tn_middle_nashville_basin_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/tn_middle_nashville_basin_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/tn_middle_nashville_basin_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/tn_middle_nashville_basin_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/tn_middle_nashville_basin_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/tn_middle_nashville_basin_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "cumberland_gap_migration",
+          "antebellum_yeoman_south",
+          "domestic_slave_trade",
+          "reconstruction_era",
+          "civil_war_service"
+        ],
+        "community_texture_refs": [
+          "plantation_south",
+          "nashville_black_community"
+        ],
+        "material_life_refs": [
+          "plantation_south_1800_1860",
+          "antebellum_yeoman_farm_1820_1860",
+          "postbellum_southern_farm_1870_1910"
+        ],
+        "life_pattern_refs": [
+          "yeoman_farming_stability",
+          "planter_class_lifecycle"
+        ]
+      }
+    },
+    "oh_miami_valley": {
+      "cluster_id": "oh_miami_valley",
+      "display_name": "OH Miami Valley",
+      "state": "OH",
+      "counties": [
+        "Montgomery",
+        "Greene",
+        "Clark",
+        "Butler",
+        "Warren",
+        "Preble",
+        "Miami",
+        "Champaign"
+      ],
+      "era_range": "1795-1960",
+      "geographic_description": "The Miami River watershed of southwestern Ohio, centered on Dayton. Settled by a mix of Virginians from the south, New Englanders from the Connecticut Western Reserve, and German settlers from Pennsylvania. The Miami and Erie Canal, the National Road, and later the railroad created a transportation crossroads. Wright Brothers aviation, NCR manufacturing, Patterson Field (later Wright-Patterson AFB), and the defense-industrial economy defined the twentieth century.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/oh_miami_valley_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/oh_miami_valley_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/oh_miami_valley_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/oh_miami_valley_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/oh_miami_valley_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/oh_miami_valley_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/oh_miami_valley_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "community_texture_refs": [
+          "quaker_meeting_community",
+          "german_brethren_community",
+          "ohio_canal_town"
+        ],
+        "material_life_refs": [
+          "frontier_cabin_1790_1840",
+          "antebellum_yeoman_farm_1820_1860",
+          "small_town_merchant_1850_1920",
+          "postwar_suburban_1945_1960"
+        ],
+        "template_refs": [
+          "record_silences",
+          "economic_life_story",
+          "hinge_generation"
+        ]
+      }
+    },
+    "oh_western_reserve": {
+      "cluster_id": "oh_western_reserve",
+      "display_name": "OH Western Reserve",
+      "state": "OH",
+      "counties": [
+        "Cuyahoga",
+        "Summit",
+        "Portage",
+        "Trumbull",
+        "Geauga",
+        "Lake",
+        "Ashtabula",
+        "Medina"
+      ],
+      "era_range": "1796-1960",
+      "geographic_description": "The Connecticut Western Reserve of northeastern Ohio, from the Lake Erie shore south to the Portage escarpment. New England farming colony turned canal transshipment hub turned one of the great industrial corridors of the world. Cleveland became the fifth-largest American city; Akron became the rubber capital of the world. Iron ore from the Mesabi Range, coal from Appalachia, and the labor of immigrants from thirty countries fueled the transformation.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/oh_western_reserve_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/oh_western_reserve_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/oh_western_reserve_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/oh_western_reserve_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/oh_western_reserve_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/oh_western_reserve_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/oh_western_reserve_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "se_european_wave",
+          "great_migration",
+          "irish_famine",
+          "german_immigration",
+          "appalachian_out_migration",
+          "gi_bill_migration"
+        ],
+        "community_texture_refs": [
+          "immigrant_parish_neighborhood"
+        ],
+        "material_life_refs": [
+          "industrial_city_1880_1920",
+          "postwar_suburban_1945_1970"
+        ],
+        "life_pattern_refs": [
+          "immigrant_parish_lifecycle"
+        ],
+        "template_refs": [
+          "what_they_saw",
+          "economic_life_story"
+        ]
+      }
+    },
+    "oh_southeast_appalachian": {
+      "cluster_id": "oh_southeast_appalachian",
+      "display_name": "OH Southeast Appalachian",
+      "state": "OH",
+      "counties": [
+        "Washington",
+        "Athens",
+        "Meigs",
+        "Gallia",
+        "Lawrence",
+        "Scioto",
+        "Jackson",
+        "Vinton"
+      ],
+      "era_range": "1788-1960",
+      "geographic_description": "The unglaciated Appalachian hill country of southeastern Ohio, from Marietta (the first permanent American settlement in the Northwest Territory, 1788) south to the Ohio River. A series of boom-bust resource cycles \u2014 salt, iron, coal, oil \u2014 layered on a subsistence farming base that could never support the population the booms attracted. New England settlers on the Muskingum, Virginia-Kentucky families crossing the Ohio, Welsh iron workers, and Appalachian out-migration defined the population layers.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/oh_southeast_appalachian_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/oh_southeast_appalachian_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/oh_southeast_appalachian_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/oh_southeast_appalachian_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/oh_southeast_appalachian_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/oh_southeast_appalachian_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/oh_southeast_appalachian_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "scots_irish_frontier",
+          "appalachian_out_migration",
+          "stayed_and_adapted",
+          "civil_war_service"
+        ],
+        "community_texture_refs": [
+          "appalachian_mountain_community"
+        ],
+        "material_life_refs": [
+          "frontier_homestead_1780_1840",
+          "antebellum_yeoman_farm_1820_1860"
+        ],
+        "life_pattern_refs": [
+          "yeoman_farming_stability"
+        ]
+      }
+    },
+    "in_central_white_river": {
+      "cluster_id": "in_central_white_river",
+      "display_name": "IN Central White River",
+      "state": "IN",
+      "counties": [
+        "Marion",
+        "Hamilton",
+        "Hancock",
+        "Hendricks",
+        "Morgan",
+        "Johnson",
+        "Shelby",
+        "Madison"
+      ],
+      "era_range": "1820-1960",
+      "geographic_description": "The central Indiana plain along the White River, centered on Indianapolis. The Crossroads of America: a region defined not by a single industry but by its position at the intersection of every transportation network that crossed the Midwest. Upland South settlers from Kentucky, Virginia, and North Carolina mixed with Yankee migrants from New England and New York. The National Road, railroad hub, natural gas boom, automobile age, and postwar suburbanization shaped the economic arc.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/in_central_white_river_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/in_central_white_river_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/in_central_white_river_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/in_central_white_river_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/in_central_white_river_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/in_central_white_river_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/in_central_white_river_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "community_texture_refs": [
+          "quaker_meeting_community"
+        ],
+        "material_life_refs": [
+          "frontier_homestead_1780_1840",
+          "antebellum_yeoman_farm_1820_1860",
+          "industrial_city_1880_1920",
+          "postwar_suburban_1945_1970"
+        ],
+        "life_pattern_refs": [
+          "yeoman_farming_stability",
+          "immigrant_parish_lifecycle"
+        ],
+        "template_refs": [
+          "naming_as_evidence"
+        ]
+      }
+    },
+    "il_central_sangamon": {
+      "cluster_id": "il_central_sangamon",
+      "display_name": "IL Central Sangamon",
+      "state": "IL",
+      "counties": [
+        "Sangamon",
+        "Macon",
+        "Christian",
+        "Shelby",
+        "Moultrie",
+        "Piatt",
+        "DeWitt",
+        "Logan"
+      ],
+      "era_range": "1818-1960",
+      "geographic_description": "The central Illinois prairie, Lincoln country. The transformation of tallgrass prairie into the most productive agricultural land on earth, layered with state government (Springfield), agribusiness (Decatur/ADM), coal mining (Christian, Shelby counties), and the Lincoln-to-Route 66 tourism that gave Springfield a second economy. German and Yankee settlement, corn-hog economy, railroad towns, and the cooperative grain elevator movement.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/il_central_sangamon_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/il_central_sangamon_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/il_central_sangamon_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/il_central_sangamon_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/il_central_sangamon_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/il_central_sangamon_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/il_central_sangamon_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "civil_war_service",
+          "stayed_and_adapted",
+          "great_migration"
+        ],
+        "community_texture_refs": [
+          "small_town_midwest"
+        ],
+        "material_life_refs": [
+          "frontier_homestead_1780_1840",
+          "antebellum_yeoman_farm_1820_1860",
+          "small_town_merchant_1870_1930"
+        ],
+        "life_pattern_refs": [
+          "yeoman_farming_stability"
+        ]
+      }
+    },
+    "ga_piedmont_cotton_belt": {
+      "cluster_id": "ga_piedmont_cotton_belt",
+      "display_name": "GA Piedmont Cotton Belt",
+      "state": "GA",
+      "counties": [
+        "Gwinnett",
+        "DeKalb",
+        "Newton",
+        "Morgan",
+        "Greene",
+        "Oglethorpe",
+        "Walton",
+        "Clarke"
+      ],
+      "era_range": "1790-1960",
+      "geographic_description": "The Georgia Piedmont cotton belt east of Atlanta, from the edge of the metropolitan area to the old plantation counties on the upper Oconee River. Cherokee and Creek cession lands, Georgia Land Lottery distribution, cotton gin revolution, massive enslaved populations in the eastern counties (Morgan, Greene, Oglethorpe), Sherman's March devastation, sharecropping, boll weevil collapse, and Atlanta's suburban pull that began transforming the western counties (Gwinnett, DeKalb) by mid-century.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/ga_piedmont_cotton_belt_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/ga_piedmont_cotton_belt_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/ga_piedmont_cotton_belt_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/ga_piedmont_cotton_belt_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/ga_piedmont_cotton_belt_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/ga_piedmont_cotton_belt_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/ga_piedmont_cotton_belt_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "trail_of_tears",
+          "antebellum_yeoman_south",
+          "domestic_slave_trade",
+          "great_migration",
+          "reconstruction_era",
+          "stayed_and_adapted"
+        ],
+        "community_texture_refs": [
+          "eastern_nc_farm_community"
+        ],
+        "material_life_refs": [
+          "antebellum_yeoman_farm_1820_1860",
+          "antebellum_plantation_1820_1860",
+          "sharecropper_cabin_1865_1940",
+          "postbellum_southern_farm_1865_1910",
+          "free_black_community_1790_1865"
+        ],
+        "life_pattern_refs": [
+          "yeoman_farming_stability",
+          "sharecropping_trap"
+        ],
+        "template_refs": [
+          "record_silences",
+          "what_they_saw",
+          "economic_life_story"
+        ]
+      }
+    },
+    "al_tennessee_valley": {
+      "cluster_id": "al_tennessee_valley",
+      "display_name": "AL Tennessee Valley",
+      "state": "AL",
+      "counties": [
+        "Madison",
+        "Limestone",
+        "Morgan",
+        "Lawrence",
+        "Jackson",
+        "Marshall",
+        "DeKalb",
+        "Cherokee"
+      ],
+      "era_range": "1809-1960",
+      "geographic_description": "The Tennessee River valley of north Alabama, from the Shoals (Muscle Shoals, Florence) to the Paint Rock Valley at the Georgia line. Defined by extremes: the richest cotton land in north Alabama (Madison, Limestone bottomland) alongside some of the poorest subsistence farms in the state (Sand Mountain, Cherokee County ridges). Cherokee and Chickasaw cession, cotton frontier, Civil War devastation, tenant farming, and the twentieth-century pivot from agriculture to federal investment (TVA, Redstone Arsenal, Marshall Space Flight Center).",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/al_tennessee_valley_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/al_tennessee_valley_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/al_tennessee_valley_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/al_tennessee_valley_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/al_tennessee_valley_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/al_tennessee_valley_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/al_tennessee_valley_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "scots_irish_frontier",
+          "antebellum_yeoman_south",
+          "domestic_slave_trade",
+          "indian_removal_trail_of_tears",
+          "great_migration",
+          "reconstruction_era"
+        ],
+        "community_texture_refs": [
+          "deep_south_black_community",
+          "east_tennessee_mountain_community",
+          "wwii_defense_boomtown",
+          "shenandoah_valley_farm_community"
+        ],
+        "material_life_refs": [
+          "antebellum_plantation_1820_1860",
+          "antebellum_yeoman_farm_1820_1860",
+          "frontier_log_cabin_1780_1840",
+          "sharecropper_cabin_1865_1940",
+          "postwar_suburban_1945_1970"
+        ],
+        "life_pattern_refs": [
+          "yeoman_farming_stability",
+          "sharecropping_trap",
+          "appalachian_subsistence_squeeze"
+        ],
+        "template_refs": [
+          "naming_as_evidence",
+          "what_they_saw"
+        ]
+      }
+    },
+    "al_black_belt": {
+      "cluster_id": "al_black_belt",
+      "display_name": "AL Black Belt",
+      "state": "AL",
+      "counties": [
+        "Dallas",
+        "Marengo",
+        "Sumter",
+        "Greene",
+        "Perry",
+        "Hale",
+        "Wilcox",
+        "Lowndes"
+      ],
+      "era_range": "1817-1960",
+      "geographic_description": "The Alabama Black Belt \u2014 named for its dark, fertile prairie soil and its Black-majority population. The cotton plantation core of Alabama, centered on Selma (Dallas County). Creek and Choctaw cession, the most extreme plantation economy in the Deep South, Civil War destruction, sharecropping, boll weevil devastation, the Great Migration depopulation, and the civil rights epicenter (Selma-to-Montgomery March, Lowndes County Freedom Organization). The American South's story in its most extreme form.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/al_black_belt_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/al_black_belt_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/al_black_belt_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/al_black_belt_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/al_black_belt_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/al_black_belt_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/al_black_belt_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "domestic_slave_trade",
+          "antebellum_yeoman_south",
+          "reconstruction_era",
+          "stayed_and_adapted",
+          "great_migration"
+        ],
+        "community_texture_refs": [
+          "black_belt_plantation_community",
+          "gees_bend_community",
+          "great_migration_destination_enclave"
+        ],
+        "material_life_refs": [
+          "sharecropper_cabin_1865_1940",
+          "antebellum_yeoman_farm_1820_1860"
+        ],
+        "life_pattern_refs": [
+          "tenant_farming_cycle",
+          "sharecropping_debt_cycle"
+        ],
+        "template_refs": [
+          "what_they_saw",
+          "economic_life_story"
+        ]
+      }
+    },
+    "ms_delta": {
+      "cluster_id": "ms_delta",
+      "display_name": "MS Delta",
+      "state": "MS",
+      "counties": [
+        "Washington",
+        "Bolivar",
+        "Sunflower",
+        "Leflore",
+        "Coahoma",
+        "Tunica",
+        "Tallahatchie",
+        "Humphreys"
+      ],
+      "era_range": "1830-1960",
+      "geographic_description": "Yazoo-Mississippi Delta alluvial floodplain \u2014 NOT the river delta at the Gulf, but the inland delta between the Mississippi and Yazoo rivers. Last American frontier cleared for cotton post-Civil War. Majority-Black population (80%+ in many counties). Sharecropping/tenant farming as near-universal system. Blues music birthplace. Emmett Till murder (Tallahatchie County, 1955). Fannie Lou Hamer (Sunflower County). Extreme wealth inequality. The most intensive cotton monoculture and the most oppressive racial system in the American South.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/ms_delta_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/ms_delta_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/ms_delta_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/ms_delta_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/ms_delta_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/ms_delta_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/ms_delta_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "domestic_slave_trade",
+          "reconstruction_era",
+          "great_migration",
+          "stayed_and_adapted",
+          "gilded_age_labor_conflict"
+        ],
+        "material_life_refs": [
+          "sharecropper_cabin_1865_1940",
+          "postbellum_southern_farm_1865_1910",
+          "great_depression_urban_1929_1941"
+        ],
+        "community_texture_refs": [
+          "eastern_nc_farm_community"
+        ],
+        "life_pattern_refs": [
+          "sharecropping_trap",
+          "civil_war_widows_arc",
+          "depression_survival_strategies"
+        ]
+      }
+    },
+    "ms_natchez_hill_country": {
+      "cluster_id": "ms_natchez_hill_country",
+      "display_name": "MS Natchez / Hill Country",
+      "state": "MS",
+      "counties": [
+        "Adams",
+        "Jefferson",
+        "Claiborne",
+        "Copiah",
+        "Hinds",
+        "Warren",
+        "Yazoo",
+        "Rankin"
+      ],
+      "era_range": "1798-1960",
+      "geographic_description": "The loess bluffs and piney hills of southwestern and central Mississippi, from Natchez on the Mississippi River to Jackson in the interior. The oldest settled region of Mississippi (Natchez under French, British, and Spanish rule before American sovereignty). Natchez nabobs \u2014 the wealthiest planter class in the antebellum South \u2014 on the river bluffs, while the hill country behind them was yeoman farm territory. Vicksburg (Warren County) was the Gibraltar of the Confederacy. The cotton kingdom in its most concentrated form.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/ms_natchez_hill_country_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/ms_natchez_hill_country_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/ms_natchez_hill_country_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/ms_natchez_hill_country_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/ms_natchez_hill_country_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/ms_natchez_hill_country_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/ms_natchez_hill_country_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "domestic_slave_trade",
+          "antebellum_yeoman_south",
+          "reconstruction_era",
+          "great_migration"
+        ],
+        "material_life_refs": [
+          "antebellum_yeoman_farm_1820_1860",
+          "sharecropper_cabin_1865_1940",
+          "postbellum_southern_farm_1865_1910"
+        ],
+        "community_texture_refs": [
+          "eastern_nc_farm_community"
+        ],
+        "life_pattern_refs": [
+          "sharecropping_trap",
+          "yeoman_farming_stability"
+        ]
+      }
+    },
+    "tx_east_piney_woods": {
+      "cluster_id": "tx_east_piney_woods",
+      "display_name": "TX East Piney Woods",
+      "state": "TX",
+      "counties": [
+        "Nacogdoches",
+        "Angelina",
+        "Cherokee",
+        "Smith",
+        "Rusk",
+        "Harrison",
+        "Marion",
+        "Cass"
+      ],
+      "era_range": "1820-1960",
+      "geographic_description": "The piney woods of deep East Texas, from the Sabine River to the Trinity. The oldest Anglo-settled region of Texas \u2014 Nacogdoches was already a Spanish villa when Stephen F. Austin's colonists arrived. Southern migration frontier: families from Alabama, Mississippi, Georgia, and the Carolinas brought cotton culture, enslaved labor, and the Southern Baptist church. Harrison County had the largest enslaved population in Texas. The East Texas Oil Field (Kilgore-Henderson, 1930s) transformed the economy overnight.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/tx_east_piney_woods_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/tx_east_piney_woods_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/tx_east_piney_woods_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/tx_east_piney_woods_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/tx_east_piney_woods_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/tx_east_piney_woods_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/tx_east_piney_woods_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "antebellum_yeoman_south",
+          "domestic_slave_trade",
+          "scots_irish_frontier",
+          "reconstruction_era"
+        ],
+        "community_texture_refs": [
+          "deep_south_black_community",
+          "mississippi_delta_cotton"
+        ],
+        "material_life_refs": [
+          "antebellum_plantation_1820_1860",
+          "antebellum_yeoman_farm_1820_1860",
+          "postbellum_southern_farm_1865_1910"
+        ],
+        "life_pattern_refs": [
+          "yeoman_farming_stability"
+        ],
+        "template_refs": [
+          "naming_as_evidence",
+          "what_they_saw"
+        ]
+      }
+    },
+    "mn_settlement_frontier": {
+      "cluster_id": "mn_settlement_frontier",
+      "display_name": "MN Settlement Frontier",
+      "state": "MN",
+      "counties": [
+        "Goodhue",
+        "Fillmore",
+        "Blue Earth",
+        "Stearns",
+        "Meeker",
+        "Kandiyohi",
+        "Nicollet",
+        "Otter Tail"
+      ],
+      "era_range": "1850-1940",
+      "geographic_description": "The arc of initial European settlement across southern and central Minnesota, from the Mississippi River bluffs (Goodhue, Fillmore) through the Minnesota River valley (Blue Earth, Nicollet) to the central lakes and western prairies (Stearns, Meeker, Kandiyohi, Otter Tail). Defined by its immigrant ethnic mosaic: Norwegian Lutherans, Swedish Lutherans (Augustana Synod), German Catholics (Stearns County around St. John's Abbey), and the cooperative movement that made Minnesota politics distinctive. The 1862 Dakota War reshaped the western counties.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/mn_settlement_frontier_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/mn_settlement_frontier_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/mn_settlement_frontier_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/mn_settlement_frontier_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/mn_settlement_frontier_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/mn_settlement_frontier_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/mn_settlement_frontier_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "scandinavian_immigration",
+          "stayed_and_adapted"
+        ],
+        "community_texture_refs": [
+          "scandinavian_lutheran_settlement"
+        ],
+        "life_pattern_refs": [
+          "immigrant_language_shift"
+        ]
+      }
+    },
+    "nd_red_river_prairie": {
+      "cluster_id": "nd_red_river_prairie",
+      "display_name": "ND Red River Prairie",
+      "state": "ND",
+      "counties": [
+        "Cass",
+        "Grand Forks",
+        "Traill",
+        "Richland",
+        "Walsh",
+        "Pembina",
+        "Stutsman",
+        "Barnes"
+      ],
+      "era_range": "1870-1940",
+      "geographic_description": "The flat, fertile Red River Valley and adjacent drift prairie of eastern North Dakota. The richest wheat-growing land on the continent, settled in a rush after the Northern Pacific Railroad arrived (1872). Norwegian Lutheran culture dominated, but the ethnic mosaic included German-Russian colonies (Richland, Stutsman, Barnes), Polish Catholic parishes (Walsh County), Icelandic Lutherans (Pembina County), and the oldest community in North Dakota: the Metis at Pembina, whose Catholic parish records predate American sovereignty. Bonanza farms, cooperative grain elevators, and the Nonpartisan League defined the political economy.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/nd_red_river_prairie_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/nd_red_river_prairie_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/nd_red_river_prairie_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/nd_red_river_prairie_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/nd_red_river_prairie_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/nd_red_river_prairie_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/nd_red_river_prairie_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "community_texture_refs": [
+          "scandinavian_prairie_settlement"
+        ],
+        "life_pattern_refs": [
+          "homestead_proving_up",
+          "yeoman_farming_stability"
+        ]
+      }
+    },
+    "ia_eastern": {
+      "cluster_id": "ia_eastern",
+      "display_name": "IA Eastern",
+      "state": "IA",
+      "counties": [
+        "Dubuque",
+        "Clayton",
+        "Winneshiek",
+        "Allamakee",
+        "Fayette",
+        "Delaware",
+        "Buchanan",
+        "Black Hawk"
+      ],
+      "era_range": "1833-1960",
+      "geographic_description": "Northeastern Iowa from the Mississippi River bluffs to the Cedar River prairie, encompassing the western extension of the Driftless Area and the transition to the Iowan Surface. Lead mining at Dubuque (1788), Norwegian chain migration via Wisconsin (Winneshiek/Allamakee), German Catholic colony settlement (Dubuque/Clayton/Delaware), Amish/Mennonite communities (Fayette/Buchanan), Czech/Bohemian settlement (Spillville), African American Great Migration to Waterloo's Rath Packing plant, dairy farming as the defining economy, and the Driftless Area's unglaciated terrain \u2014 steep bluffs, narrow valleys, karst topography \u2014 that shaped settlement patterns fundamentally different from the flat prairie to the west.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/ia_eastern_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/ia_eastern_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/ia_eastern_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/ia_eastern_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/ia_eastern_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/ia_eastern_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/ia_eastern_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "civil_war_service",
+          "stayed_and_adapted",
+          "gi_bill_migration"
+        ],
+        "community_texture_refs": [],
+        "material_life_refs": [
+          "frontier_homestead_1780_1840",
+          "antebellum_yeoman_farm_1820_1860",
+          "small_town_merchant_1870_1930"
+        ],
+        "life_pattern_refs": [
+          "yeoman_farming_stability",
+          "immigrant_parish_lifecycle",
+          "depression_survival_strategies"
+        ]
+      }
+    },
+    "sd_eastern_homestead": {
+      "cluster_id": "sd_eastern_homestead",
+      "display_name": "SD Eastern Homestead",
+      "state": "SD",
+      "counties": [
+        "Minnehaha",
+        "Brookings",
+        "Beadle",
+        "Brown",
+        "Yankton",
+        "Bon Homme",
+        "Codington",
+        "Davison"
+      ],
+      "era_range": "1860-1940",
+      "geographic_description": "The eastern South Dakota prairie from the Big Sioux River to the James River valley, settled in the railroad homestead rush of 1878-1890. Norwegian Lutherans dominated the eastern tier (Minnehaha, Brookings, Codington), German-Russian Catholics and Evangelicals settled the James River corridor (Brown, Beadle, Davison), Czech settlers founded the Tabor colony in Bon Homme County (1869), and Hutterite colonies established communal farms before their 1918 exodus to Canada. Yankton was the territorial capital and gateway town. Sod houses, grain elevators, and the boom-bust wheat economy defined the landscape.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/sd_eastern_homestead_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/sd_eastern_homestead_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/sd_eastern_homestead_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/sd_eastern_homestead_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/sd_eastern_homestead_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/sd_eastern_homestead_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/sd_eastern_homestead_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "community_texture_refs": [
+          "scandinavian_prairie_settlement",
+          "german_russian_prairie_colony",
+          "czech_bohemian_colony"
+        ]
+      }
+    },
+    "sc_lowcountry": {
+      "cluster_id": "sc_lowcountry",
+      "display_name": "SC Lowcountry",
+      "state": "SC",
+      "counties": [
+        "Charleston",
+        "Berkeley",
+        "Colleton",
+        "Beaufort",
+        "Georgetown",
+        "Williamsburg"
+      ],
+      "era_range": "1670-1960",
+      "geographic_description": "The tidal coast of South Carolina from Georgetown to Beaufort \u2014 sea islands, salt marsh, tidal rivers, and the engineered rice field landscape. Charleston as colonial port city (founded 1670), the rice and indigo empire built on enslaved West African labor and expertise, Gullah/Geechee cultural heartland, Sullivan's Island (entry point for 40% of enslaved Africans in North America), Sea Island cotton, the beginning and end of the Civil War, and the long decline from colonial wealth to twentieth-century poverty and military economy.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 6,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/sc_lowcountry_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/sc_lowcountry_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/sc_lowcountry_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/sc_lowcountry_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 6,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/sc_lowcountry_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/sc_lowcountry_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/sc_lowcountry_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "domestic_slave_trade",
+          "antebellum_yeoman_south",
+          "civil_war_service",
+          "civil_war_displacement",
+          "reconstruction_era",
+          "great_migration",
+          "stayed_and_adapted"
+        ],
+        "community_texture_refs": [
+          "gullah_geechee_community",
+          "lowcountry_plantation_community"
+        ],
+        "material_life_refs": [
+          "colonial_farm_1680_1780",
+          "antebellum_yeoman_farm_1820_1860",
+          "sharecropper_cabin_1865_1940"
+        ],
+        "life_pattern_refs": [
+          "sharecropping_trap",
+          "civil_war_widows_arc"
+        ]
+      }
+    },
+    "la_acadiana": {
+      "cluster_id": "la_acadiana",
+      "display_name": "LA Acadiana",
+      "state": "LA",
+      "counties": [
+        "Lafayette",
+        "St. Martin",
+        "Vermilion",
+        "Iberia",
+        "Acadia",
+        "St. Landry",
+        "Evangeline",
+        "Assumption"
+      ],
+      "era_range": "1760-1960",
+      "geographic_description": "The Cajun heartland of southwestern Louisiana, stretching from the Atchafalaya Basin to the Gulf Coast marshes and from the Bayou Teche corridor to the open prairies. Settled by Acadian exiles from Nova Scotia after the 1755 Grand Derangement, layered with Creole of Color communities, French Catholic culture, Napoleonic Code civil law, and a bilingual landscape that persisted into the twentieth century. Prairie cattle country, sugar cane plantations along the bayous, rice revolution on the prairies, and the oil boom that brought English and modernity to a French-speaking world.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/la_acadiana_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/la_acadiana_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/la_acadiana_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/la_acadiana_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/la_acadiana_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/la_acadiana_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/la_acadiana_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "stayed_and_adapted",
+          "civil_war_service",
+          "reconstruction_era",
+          "great_migration"
+        ],
+        "community_texture_refs": [
+          "deep_south_black_community"
+        ],
+        "material_life_refs": [
+          "frontier_homestead_1780_1840",
+          "sharecropper_cabin_1865_1940",
+          "postbellum_southern_farm_1865_1910"
+        ],
+        "life_pattern_refs": [
+          "yeoman_farming_stability",
+          "sharecropping_trap"
+        ]
+      }
+    },
+    "mo_ozarks_gateway": {
+      "cluster_id": "mo_ozarks_gateway",
+      "display_name": "MO Ozarks Gateway",
+      "state": "MO",
+      "counties": [
+        "Franklin",
+        "Gasconade",
+        "Crawford",
+        "Phelps",
+        "Pulaski",
+        "Laclede",
+        "Texas",
+        "Dent"
+      ],
+      "era_range": "1800-1960",
+      "geographic_description": "Missouri Ozarks hill country from the Missouri River Rhineland (German settlement in Franklin/Gasconade) through the deeply dissected Salem Plateau interior. Two cultures sharing one landscape: German vineyards and wheat fields on the Missouri River bottom, and Upper South Appalachian-style subsistence farming on the cherty Ozark ridges. Route 66 corridor, Fort Leonard Wood (massive WWII impact), lead/zinc mining proximity, Ozark timber industry, moonshine culture, and Civil War bushwhacker guerrilla warfare.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/mo_ozarks_gateway_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/mo_ozarks_gateway_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/mo_ozarks_gateway_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/mo_ozarks_gateway_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/mo_ozarks_gateway_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/mo_ozarks_gateway_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/mo_ozarks_gateway_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "scots_irish_frontier",
+          "civil_war_service",
+          "appalachian_out_migration",
+          "stayed_and_adapted",
+          "gi_bill_migration"
+        ],
+        "community_texture_refs": [
+          "appalachian_mountain_community"
+        ],
+        "material_life_refs": [
+          "frontier_homestead_1780_1840",
+          "antebellum_yeoman_farm_1820_1860",
+          "postbellum_southern_farm_1865_1910"
+        ],
+        "life_pattern_refs": [
+          "appalachian_subsistence_squeeze",
+          "yeoman_farming_stability",
+          "depression_survival_strategies"
+        ]
+      }
+    },
+    "wi_southern_driftless": {
+      "cluster_id": "wi_southern_driftless",
+      "display_name": "WI Southern Driftless",
+      "state": "WI",
+      "counties": [
+        "Dane",
+        "Rock",
+        "Green",
+        "Lafayette",
+        "Iowa",
+        "Grant",
+        "Sauk",
+        "Richland"
+      ],
+      "era_range": "1827-1960",
+      "geographic_description": "The unglaciated Southern Driftless Area of southwestern Wisconsin \u2014 the only part of the upper Midwest that the glaciers missed. Deeply dissected dolomite ridges and narrow coulees (valleys) create terrain unlike anything else in Wisconsin. Lead mining frontier (1827), Cornish and Welsh miners, Yankee agricultural settlement, Norwegian chain migration, Swiss colony at New Glarus, German farming communities, dairy revolution, Progressive Era politics, and the state capital at Madison on the Driftless-glacial boundary.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/wi_southern_driftless_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/wi_southern_driftless_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/wi_southern_driftless_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/wi_southern_driftless_migration_networks.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/wi_southern_driftless_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/wi_southern_driftless_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/wi_southern_driftless_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "civil_war_service",
+          "stayed_and_adapted",
+          "gi_bill_migration"
+        ],
+        "community_texture_refs": [
+          "scandinavian_lutheran_settlement"
+        ],
+        "material_life_refs": [
+          "frontier_homestead_1780_1840",
+          "antebellum_yeoman_farm_1820_1860",
+          "small_town_merchant_1870_1930",
+          "postwar_suburban_1945_1970"
+        ],
+        "life_pattern_refs": [
+          "yeoman_farming_stability",
+          "immigrant_parish_lifecycle",
+          "depression_survival_strategies"
+        ]
+      }
+    },
+    "nj_delaware_valley": {
+      "cluster_id": "nj_delaware_valley",
+      "display_name": "NJ Delaware Valley",
+      "state": "NJ",
+      "counties": [
+        "Burlington",
+        "Camden",
+        "Cumberland",
+        "Gloucester",
+        "Hunterdon",
+        "Mercer",
+        "Salem",
+        "Warren"
+      ],
+      "era_range": "1660-1960",
+      "geographic_description": "The West Jersey side of the Delaware River from Warren County's Delaware Water Gap to Salem County's tidal marshes. Swedish/Finnish colonial settlement predating the English, Quaker West Jersey colony, Delaware River ferry commerce, Pine Barrens iron furnaces and cranberry bogs, South Jersey glass industry, Italian agricultural colonies at Vineland, Jewish agricultural colonies at Alliance, Camden's industrial complex (Campbell Soup, RCA Victor, NY Shipbuilding), Trenton pottery industry, and Philadelphia suburban expansion across the Delaware. The cluster spans Coastal Plain, Piedmont, and Ridge and Valley terrain \u2014 the most geologically diverse cluster in the system.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/nj_delaware_valley_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/nj_delaware_valley_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/nj_delaware_valley_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/nj_delaware_valley_migration.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/nj_delaware_valley_seasonal.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/nj_delaware_valley_cultural.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/nj_delaware_valley_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "quaker_migration",
+          "scots_irish_frontier",
+          "great_migration",
+          "industrial_revolution",
+          "gi_bill_migration",
+          "civil_war_service",
+          "stayed_and_adapted"
+        ],
+        "community_texture_refs": [
+          "quaker_meeting_community"
+        ],
+        "material_life_refs": [
+          "antebellum_yeoman_farm_1820_1860",
+          "industrial_city_1880_1920",
+          "free_black_community_1790_1865",
+          "postwar_suburban_1945_1970"
+        ],
+        "life_pattern_refs": [
+          "yeoman_farming_stability",
+          "immigrant_parish_lifecycle",
+          "industrial_worker_cycle"
+        ]
+      }
+    },
+    "ct_river_valley": {
+      "cluster_id": "ct_river_valley",
+      "display_name": "CT River Valley",
+      "state": "CT",
+      "counties": [
+        "Hartford",
+        "Middlesex",
+        "New Haven",
+        "New London",
+        "Tolland",
+        "Windham"
+      ],
+      "era_range": "1633-1960",
+      "geographic_description": "Central Connecticut from the tidal Connecticut River valley through the upland hills to Long Island Sound. Puritan settlement core, Yankee manufacturing belt, insurance capital, shade tobacco country along the river flats, and New England's industrial corridor from Hartford through New Haven.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 6,
+          "path": "county_landscape/{county}.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 6,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/ct_river_valley_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/ct_river_valley_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/ct_river_valley_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/ct_river_valley_migration_networks.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/ct_river_valley_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/ct_river_valley_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/ct_river_valley_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "civil_war_service",
+          "industrial_revolution",
+          "great_migration",
+          "gi_bill_migration",
+          "gilded_age_labor_conflict"
+        ],
+        "community_texture_refs": [
+          "immigrant_industrial_neighborhood"
+        ],
+        "material_life_refs": [
+          "colonial_farm_1680_1780",
+          "industrial_city_1880_1920",
+          "postwar_suburban_1945_1970"
+        ],
+        "life_pattern_refs": [
+          "immigrant_parish_lifecycle",
+          "company_town_lifecycle",
+          "mill_girl_pipeline"
+        ]
+      }
+    },
+    "ga_wiregrass_coastal_plain": {
+      "cluster_id": "ga_wiregrass_coastal_plain",
+      "display_name": "GA Wiregrass Coastal Plain",
+      "state": "GA",
+      "counties": [
+        "Berrien",
+        "Brooks",
+        "Coffee",
+        "Colquitt",
+        "Lowndes",
+        "Thomas",
+        "Tift",
+        "Ware"
+      ],
+      "era_range": "1820-1960",
+      "geographic_description": "South Georgia wiregrass and coastal plain from the Fall Line to the Florida border. Late-settled frontier of longleaf pine, naval stores, and open-range cattle, transitioning to tobacco and peanut agriculture. Valdosta as regional center, Okefenokee Swamp, turpentine camps, and the southern terminus of the Cotton Belt corridor.",
+      "profile_types": {
+        "county_landscape": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "county_landscape/{county}.json"
+        },
+        "courthouse_atlas": {
+          "granularity": "per_county",
+          "file_count": 8,
+          "path": "courthouse_atlas/{county}.json"
+        },
+        "local_economy": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "local_economy/ga_wiregrass_coastal_plain_economy.json"
+        },
+        "road_connectivity": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "road_connectivity/ga_wiregrass_coastal_plain_roads.json"
+        },
+        "information_landscape": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "information_landscape/ga_wiregrass_coastal_plain_information.json"
+        },
+        "micro_migration": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "micro_migration/ga_wiregrass_coastal_plain_migration_networks.json"
+        },
+        "seasonal_calendar": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "seasonal_calendar/ga_wiregrass_coastal_plain_seasons.json"
+        },
+        "cultural_markers": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "cultural_markers/ga_wiregrass_coastal_plain_culture.json"
+        },
+        "hidden_history": {
+          "granularity": "regional",
+          "file_count": 1,
+          "path": "hidden_history/ga_wiregrass_coastal_plain_hidden.json"
+        }
+      },
+      "nel_cross_references": {
+        "trigger_refs": [
+          "trail_of_tears",
+          "reconstruction_era",
+          "great_migration",
+          "stayed_and_adapted",
+          "domestic_slave_trade"
+        ],
+        "community_texture_refs": [
+          "turpentine_camp_community"
+        ],
+        "material_life_refs": [
+          "frontier_homestead_1780_1840",
+          "sharecropper_cabin_1865_1940",
+          "postbellum_southern_farm_1865_1910"
+        ],
+        "life_pattern_refs": [
+          "yeoman_farming_stability",
+          "sharecropping_trap"
+        ]
+      }
+    }
+  },
+  "county_to_region": {
+    "NC": {
+      "Guilford": "piedmont_nc_mill_belt",
+      "Alamance": "piedmont_nc_mill_belt",
+      "Randolph": "piedmont_nc_mill_belt",
+      "Gaston": "piedmont_nc_mill_belt",
+      "Cabarrus": "piedmont_nc_mill_belt",
+      "Forsyth": "piedmont_nc_mill_belt",
+      "Davidson": "piedmont_nc_mill_belt",
+      "Mecklenburg": "piedmont_nc_mill_belt",
+      "Rowan": "piedmont_nc_mill_belt",
+      "Wayne": "se_nc_coastal_plain",
+      "Sampson": "se_nc_coastal_plain",
+      "Cumberland": "se_nc_coastal_plain",
+      "Nash": "se_nc_coastal_plain",
+      "Johnston": "se_nc_coastal_plain",
+      "Duplin": "se_nc_coastal_plain",
+      "Lenoir": "se_nc_coastal_plain",
+      "Wilson": "se_nc_coastal_plain",
+      "Pitt": "se_nc_coastal_plain",
+      "Buncombe": "western_nc_mountains",
+      "Madison": "western_nc_mountains",
+      "Yancey": "western_nc_mountains",
+      "Watauga": "western_nc_mountains",
+      "Ashe": "western_nc_mountains",
+      "Cherokee": "western_nc_mountains",
+      "Swain": "western_nc_mountains",
+      "Jackson": "western_nc_mountains",
+      "Haywood": "western_nc_mountains",
+      "Mitchell": "western_nc_mountains",
+      "Avery": "western_nc_mountains",
+      "Robeson": "lumbee_corridor",
+      "Scotland": "lumbee_corridor",
+      "Hoke": "lumbee_corridor",
+      "Bertie": "ne_nc_tidewater_albemarle",
+      "Hertford": "ne_nc_tidewater_albemarle",
+      "Chowan": "ne_nc_tidewater_albemarle",
+      "Perquimans": "ne_nc_tidewater_albemarle",
+      "Pasquotank": "ne_nc_tidewater_albemarle",
+      "Gates": "ne_nc_tidewater_albemarle",
+      "Currituck": "ne_nc_tidewater_albemarle",
+      "Dare": "ne_nc_tidewater_albemarle",
+      "Tyrrell": "ne_nc_tidewater_albemarle",
+      "Washington": "ne_nc_tidewater_albemarle",
+      "Martin": "ne_nc_tidewater_albemarle",
+      "Moore": "nc_sandhills_upper_cape_fear",
+      "Harnett": "nc_sandhills_upper_cape_fear",
+      "Richmond": "nc_sandhills_upper_cape_fear",
+      "Anson": "nc_sandhills_upper_cape_fear",
+      "Montgomery": "nc_sandhills_upper_cape_fear",
+      "New Hanover": "lower_cape_fear_wilmington",
+      "Brunswick": "lower_cape_fear_wilmington",
+      "Pender": "lower_cape_fear_wilmington",
+      "Columbus": "lower_cape_fear_wilmington",
+      "Bladen": "lower_cape_fear_wilmington"
+    },
+    "SC": {
+      "Greenville": "sc_piedmont_upcountry",
+      "Spartanburg": "sc_piedmont_upcountry",
+      "Anderson": "sc_piedmont_upcountry",
+      "York": "sc_piedmont_upcountry",
+      "Chester": "sc_piedmont_upcountry",
+      "Union": "sc_piedmont_upcountry",
+      "Laurens": "sc_piedmont_upcountry",
+      "Cherokee": "sc_piedmont_upcountry",
+      "Charleston": "sc_lowcountry",
+      "Berkeley": "sc_lowcountry",
+      "Colleton": "sc_lowcountry",
+      "Beaufort": "sc_lowcountry",
+      "Georgetown": "sc_lowcountry",
+      "Williamsburg": "sc_lowcountry"
+    },
+    "VA": {
+      "James City": "va_tidewater",
+      "Charles City": "va_tidewater",
+      "Henrico": "va_tidewater",
+      "York": "va_tidewater",
+      "Surry": "va_tidewater",
+      "Isle of Wight": "va_tidewater",
+      "Gloucester": "va_tidewater",
+      "New Kent": "va_tidewater",
+      "King William": "va_tidewater",
+      "Frederick": "va_shenandoah_valley",
+      "Shenandoah": "va_shenandoah_valley",
+      "Page": "va_shenandoah_valley",
+      "Warren": "va_shenandoah_valley",
+      "Rockingham": "va_shenandoah_valley",
+      "Augusta": "va_shenandoah_valley",
+      "Rockbridge": "va_shenandoah_valley",
+      "Botetourt": "va_shenandoah_valley",
+      "Halifax": "va_piedmont_southside",
+      "Pittsylvania": "va_piedmont_southside",
+      "Charlotte": "va_piedmont_southside",
+      "Mecklenburg": "va_piedmont_southside",
+      "Brunswick": "va_piedmont_southside",
+      "Lunenburg": "va_piedmont_southside",
+      "Henry": "va_piedmont_southside",
+      "Patrick": "va_piedmont_southside"
+    },
+    "MD": {
+      "Anne Arundel": "md_western_shore",
+      "Prince George's": "md_western_shore",
+      "Charles": "md_western_shore",
+      "St. Mary's": "md_western_shore",
+      "Calvert": "md_western_shore",
+      "Howard": "md_western_shore",
+      "Talbot": "md_eastern_shore",
+      "Dorchester": "md_eastern_shore",
+      "Caroline": "md_eastern_shore",
+      "Queen Anne's": "md_eastern_shore",
+      "Kent": "md_eastern_shore",
+      "Cecil": "md_eastern_shore"
+    },
+    "PA": {
+      "Chester": "pa_southeast_gateway",
+      "Lancaster": "pa_southeast_gateway",
+      "Bucks": "pa_southeast_gateway",
+      "Delaware": "pa_southeast_gateway",
+      "Montgomery": "pa_southeast_gateway",
+      "Berks": "pa_southeast_gateway",
+      "Westmoreland": "pa_western_frontier",
+      "Fayette": "pa_western_frontier",
+      "Washington": "pa_western_frontier",
+      "Greene": "pa_western_frontier",
+      "Allegheny": "pa_western_frontier",
+      "Beaver": "pa_western_frontier",
+      "Butler": "pa_western_frontier",
+      "Lawrence": "pa_western_frontier"
+    },
+    "NY": {
+      "Dutchess": "ny_hudson_valley",
+      "Ulster": "ny_hudson_valley",
+      "Orange": "ny_hudson_valley",
+      "Columbia": "ny_hudson_valley",
+      "Albany": "ny_hudson_valley",
+      "Rensselaer": "ny_hudson_valley",
+      "Greene": "ny_hudson_valley",
+      "Washington": "ny_hudson_valley"
+    },
+    "MA": {
+      "Plymouth": "ma_eastern_colonial",
+      "Norfolk": "ma_eastern_colonial",
+      "Bristol": "ma_eastern_colonial",
+      "Barnstable": "ma_eastern_colonial",
+      "Essex": "ma_eastern_colonial",
+      "Suffolk": "ma_eastern_colonial"
+    },
+    "KY": {
+      "Fayette": "ky_bluegrass",
+      "Bourbon": "ky_bluegrass",
+      "Clark": "ky_bluegrass",
+      "Madison": "ky_bluegrass",
+      "Jessamine": "ky_bluegrass",
+      "Woodford": "ky_bluegrass",
+      "Scott": "ky_bluegrass",
+      "Mercer": "ky_bluegrass",
+      "Barren": "ky_pennyroyal_green_river",
+      "Warren": "ky_pennyroyal_green_river",
+      "Logan": "ky_pennyroyal_green_river",
+      "Christian": "ky_pennyroyal_green_river",
+      "Todd": "ky_pennyroyal_green_river",
+      "Simpson": "ky_pennyroyal_green_river",
+      "Allen": "ky_pennyroyal_green_river",
+      "Monroe": "ky_pennyroyal_green_river"
+    },
+    "TN": {
+      "Washington": "tn_east_great_valley",
+      "Sullivan": "tn_east_great_valley",
+      "Greene": "tn_east_great_valley",
+      "Carter": "tn_east_great_valley",
+      "Hawkins": "tn_east_great_valley",
+      "Cocke": "tn_east_great_valley",
+      "Grainger": "tn_east_great_valley",
+      "Jefferson": "tn_east_great_valley",
+      "Davidson": "tn_middle_nashville_basin",
+      "Williamson": "tn_middle_nashville_basin",
+      "Rutherford": "tn_middle_nashville_basin",
+      "Maury": "tn_middle_nashville_basin",
+      "Wilson": "tn_middle_nashville_basin",
+      "Sumner": "tn_middle_nashville_basin",
+      "Smith": "tn_middle_nashville_basin",
+      "Robertson": "tn_middle_nashville_basin"
+    },
+    "OH": {
+      "Montgomery": "oh_miami_valley",
+      "Greene": "oh_miami_valley",
+      "Clark": "oh_miami_valley",
+      "Butler": "oh_miami_valley",
+      "Warren": "oh_miami_valley",
+      "Preble": "oh_miami_valley",
+      "Miami": "oh_miami_valley",
+      "Champaign": "oh_miami_valley",
+      "Cuyahoga": "oh_western_reserve",
+      "Summit": "oh_western_reserve",
+      "Portage": "oh_western_reserve",
+      "Trumbull": "oh_western_reserve",
+      "Geauga": "oh_western_reserve",
+      "Lake": "oh_western_reserve",
+      "Ashtabula": "oh_western_reserve",
+      "Medina": "oh_western_reserve",
+      "Washington": "oh_southeast_appalachian",
+      "Athens": "oh_southeast_appalachian",
+      "Meigs": "oh_southeast_appalachian",
+      "Gallia": "oh_southeast_appalachian",
+      "Lawrence": "oh_southeast_appalachian",
+      "Scioto": "oh_southeast_appalachian",
+      "Jackson": "oh_southeast_appalachian",
+      "Vinton": "oh_southeast_appalachian"
+    },
+    "IN": {
+      "Marion": "in_central_white_river",
+      "Hamilton": "in_central_white_river",
+      "Hancock": "in_central_white_river",
+      "Hendricks": "in_central_white_river",
+      "Morgan": "in_central_white_river",
+      "Johnson": "in_central_white_river",
+      "Shelby": "in_central_white_river",
+      "Madison": "in_central_white_river"
+    },
+    "IL": {
+      "Sangamon": "il_central_sangamon",
+      "Macon": "il_central_sangamon",
+      "Christian": "il_central_sangamon",
+      "Shelby": "il_central_sangamon",
+      "Moultrie": "il_central_sangamon",
+      "Piatt": "il_central_sangamon",
+      "DeWitt": "il_central_sangamon",
+      "Logan": "il_central_sangamon"
+    },
+    "IA": {
+      "Dubuque": "ia_eastern",
+      "Clayton": "ia_eastern",
+      "Winneshiek": "ia_eastern",
+      "Allamakee": "ia_eastern",
+      "Fayette": "ia_eastern",
+      "Delaware": "ia_eastern",
+      "Buchanan": "ia_eastern",
+      "Black Hawk": "ia_eastern"
+    },
+    "GA": {
+      "Gwinnett": "ga_piedmont_cotton_belt",
+      "DeKalb": "ga_piedmont_cotton_belt",
+      "Newton": "ga_piedmont_cotton_belt",
+      "Morgan": "ga_piedmont_cotton_belt",
+      "Greene": "ga_piedmont_cotton_belt",
+      "Oglethorpe": "ga_piedmont_cotton_belt",
+      "Walton": "ga_piedmont_cotton_belt",
+      "Clarke": "ga_piedmont_cotton_belt",
+      "Berrien": "ga_wiregrass_coastal_plain",
+      "Brooks": "ga_wiregrass_coastal_plain",
+      "Coffee": "ga_wiregrass_coastal_plain",
+      "Colquitt": "ga_wiregrass_coastal_plain",
+      "Lowndes": "ga_wiregrass_coastal_plain",
+      "Thomas": "ga_wiregrass_coastal_plain",
+      "Tift": "ga_wiregrass_coastal_plain",
+      "Ware": "ga_wiregrass_coastal_plain"
+    },
+    "AL": {
+      "Madison": "al_tennessee_valley",
+      "Limestone": "al_tennessee_valley",
+      "Morgan": "al_tennessee_valley",
+      "Lawrence": "al_tennessee_valley",
+      "Jackson": "al_tennessee_valley",
+      "Marshall": "al_tennessee_valley",
+      "DeKalb": "al_tennessee_valley",
+      "Cherokee": "al_tennessee_valley",
+      "Dallas": "al_black_belt",
+      "Marengo": "al_black_belt",
+      "Sumter": "al_black_belt",
+      "Greene": "al_black_belt",
+      "Perry": "al_black_belt",
+      "Hale": "al_black_belt",
+      "Wilcox": "al_black_belt",
+      "Lowndes": "al_black_belt"
+    },
+    "MS": {
+      "Adams": "ms_natchez_hill_country",
+      "Jefferson": "ms_natchez_hill_country",
+      "Claiborne": "ms_natchez_hill_country",
+      "Copiah": "ms_natchez_hill_country",
+      "Hinds": "ms_natchez_hill_country",
+      "Warren": "ms_natchez_hill_country",
+      "Yazoo": "ms_natchez_hill_country",
+      "Rankin": "ms_natchez_hill_country",
+      "Washington": "ms_delta",
+      "Bolivar": "ms_delta",
+      "Sunflower": "ms_delta",
+      "Leflore": "ms_delta",
+      "Coahoma": "ms_delta",
+      "Tunica": "ms_delta",
+      "Tallahatchie": "ms_delta",
+      "Humphreys": "ms_delta"
+    },
+    "TX": {
+      "Nacogdoches": "tx_east_piney_woods",
+      "Angelina": "tx_east_piney_woods",
+      "Cherokee": "tx_east_piney_woods",
+      "Smith": "tx_east_piney_woods",
+      "Rusk": "tx_east_piney_woods",
+      "Harrison": "tx_east_piney_woods",
+      "Marion": "tx_east_piney_woods",
+      "Cass": "tx_east_piney_woods"
+    },
+    "MN": {
+      "Goodhue": "mn_settlement_frontier",
+      "Fillmore": "mn_settlement_frontier",
+      "Blue Earth": "mn_settlement_frontier",
+      "Stearns": "mn_settlement_frontier",
+      "Meeker": "mn_settlement_frontier",
+      "Kandiyohi": "mn_settlement_frontier",
+      "Nicollet": "mn_settlement_frontier",
+      "Otter Tail": "mn_settlement_frontier"
+    },
+    "ND": {
+      "Cass": "nd_red_river_prairie",
+      "Grand Forks": "nd_red_river_prairie",
+      "Traill": "nd_red_river_prairie",
+      "Richland": "nd_red_river_prairie",
+      "Walsh": "nd_red_river_prairie",
+      "Pembina": "nd_red_river_prairie",
+      "Stutsman": "nd_red_river_prairie",
+      "Barnes": "nd_red_river_prairie"
+    },
+    "SD": {
+      "Minnehaha": "sd_eastern_homestead",
+      "Brookings": "sd_eastern_homestead",
+      "Beadle": "sd_eastern_homestead",
+      "Brown": "sd_eastern_homestead",
+      "Yankton": "sd_eastern_homestead",
+      "Bon Homme": "sd_eastern_homestead",
+      "Codington": "sd_eastern_homestead",
+      "Davison": "sd_eastern_homestead"
+    },
+    "LA": {
+      "Lafayette": "la_acadiana",
+      "St. Martin": "la_acadiana",
+      "Vermilion": "la_acadiana",
+      "Iberia": "la_acadiana",
+      "Acadia": "la_acadiana",
+      "St. Landry": "la_acadiana",
+      "Evangeline": "la_acadiana",
+      "Assumption": "la_acadiana"
+    },
+    "MO": {
+      "Franklin": "mo_ozarks_gateway",
+      "Gasconade": "mo_ozarks_gateway",
+      "Crawford": "mo_ozarks_gateway",
+      "Phelps": "mo_ozarks_gateway",
+      "Pulaski": "mo_ozarks_gateway",
+      "Laclede": "mo_ozarks_gateway",
+      "Texas": "mo_ozarks_gateway",
+      "Dent": "mo_ozarks_gateway"
+    },
+    "WI": {
+      "Dane": "wi_southern_driftless",
+      "Rock": "wi_southern_driftless",
+      "Green": "wi_southern_driftless",
+      "Lafayette": "wi_southern_driftless",
+      "Iowa": "wi_southern_driftless",
+      "Grant": "wi_southern_driftless",
+      "Sauk": "wi_southern_driftless",
+      "Richland": "wi_southern_driftless"
+    },
+    "NJ": {
+      "Burlington": "nj_delaware_valley",
+      "Camden": "nj_delaware_valley",
+      "Cumberland": "nj_delaware_valley",
+      "Gloucester": "nj_delaware_valley",
+      "Hunterdon": "nj_delaware_valley",
+      "Mercer": "nj_delaware_valley",
+      "Salem": "nj_delaware_valley",
+      "Warren": "nj_delaware_valley"
+    },
+    "CT": {
+      "Hartford": "ct_river_valley",
+      "Middlesex": "ct_river_valley",
+      "New Haven": "ct_river_valley",
+      "New London": "ct_river_valley",
+      "Tolland": "ct_river_valley",
+      "Windham": "ct_river_valley"
+    }
+  },
+  "future_clusters": {
+    "_note": "Planned but not yet built. Listed here for roadmap visibility.",
+    "pa_anthracite_coal": {
+      "state": "PA",
+      "counties": [
+        "Schuylkill",
+        "Luzerne",
+        "Carbon",
+        "Northumberland",
+        "Lackawanna",
+        "Columbia",
+        "Dauphin",
+        "Lebanon"
+      ],
+      "character": "Anthracite mining, Welsh/Irish/Eastern European immigration, company towns, labor conflict"
+    },
+    "ia_corn_belt": {
+      "state": "IA",
+      "counties": [
+        "Story",
+        "Boone",
+        "Marshall",
+        "Hardin",
+        "Hamilton",
+        "Webster",
+        "Grundy",
+        "Tama"
+      ],
+      "character": "Central Iowa corn belt, Norwegian/German/Czech settlement, railroad towns, cooperative grain elevators"
+    },
+    "tx_german_hill_country": {
+      "state": "TX",
+      "counties": [
+        "Gillespie",
+        "Comal",
+        "Kendall",
+        "Blanco",
+        "Llano",
+        "Mason",
+        "Kerr",
+        "Medina"
+      ],
+      "character": "German Texan settlement, Comanche frontier, Unionist during Civil War, Freethinker tradition"
+    }
+  },
+  "statistics": {
+    "total_clusters_built": 43,
+    "total_clusters_planned": 3,
+    "total_counties_covered": 334,
+    "total_files_in_built_clusters": 969,
+    "states_represented": [
+      "AL",
+      "CT",
+      "GA",
+      "IA",
+      "IL",
+      "IN",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "MN",
+      "MO",
+      "MS",
+      "NC",
+      "ND",
+      "NJ",
+      "NY",
+      "OH",
+      "PA",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "VA",
+      "WI"
+    ],
+    "total_states": 25,
+    "county_overlap_notes": [
+      "Hoke (NC): in both lumbee_corridor and nc_sandhills_upper_cape_fear \u2014 mapped to lumbee_corridor",
+      "Scotland (NC): in both lumbee_corridor and nc_sandhills_upper_cape_fear \u2014 mapped to lumbee_corridor",
+      "Columbus (NC): in both lumbee_corridor and lower_cape_fear_wilmington \u2014 mapped to lower_cape_fear_wilmington",
+      "Bladen (NC): in both lumbee_corridor and lower_cape_fear_wilmington \u2014 mapped to lower_cape_fear_wilmington"
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Micro-Migration Network Map for the IL Central Sangamon cluster. Documents specific migration corridors, chain-migration mechanics, and settlement patterns that moved people into, out of, and within this eight-county region from 1818 to 1960. The defining corridors are the Butternut migration from the Upper South, the Yankee migration from New England/NY/OH, and the Great Migration of Black families out of the cluster to northern cities.",
+  "migration_network_id": "il_central_sangamon_migration_networks",
+  "display_name": "IL Central Sangamon — Micro-Migration Network Map",
+  "cluster_ref": "il_central_sangamon",
+  "era_range": "1818-1960",
+  "migration_corridors": [
+    {
+      "corridor_id": "butternut_upper_south",
+      "corridor_name": "Butternut Migration: Upper South Families to Central Illinois",
+      "origin_counties": ["Bourbon (KY)", "Fayette (KY)", "Madison (KY)", "Lincoln (KY)", "Davidson (TN)", "Sumner (TN)", "Giles (TN)", "Patrick (VA)", "Henry (VA)", "Halifax (VA)"],
+      "destination_area": "Sangamon, Macon, Christian, Shelby, Moultrie, DeWitt, Logan — all eight counties, concentrated in the southern and central portions",
+      "era": "1818-1850",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of families over two generations. The Upper South settlers — called 'Butternuts' for their butternut-dyed homespun clothing — constituted the majority of the first white population in central Illinois.",
+      "evidence": {
+        "census_evidence": "The 1830-1850 federal censuses for Sangamon, Macon, and Christian counties show household heads born overwhelmingly in KY, TN, VA, and NC. The Kentucky birthplace dominates — Lincoln himself exemplified the pattern (born KY, moved to IN, then IL).",
+        "church_evidence": "Baptist and Methodist church records document families arriving from Kentucky and Tennessee congregations. Church transfer letters track specific families across state lines.",
+        "surname_clustering": "Butternut surnames dominate the early settlement records: English and Scots-Irish names common to the Upper South (Robinson, Johnson, Edwards, Taylor, Baker, Campbell). These overlap with similar names in KY and TN county records one generation earlier."
+      },
+      "chain_mechanics": {
+        "description": "Butternut families migrated along kinship chains — a brother or cousin went first, secured land, and sent word back. The route was overland through Indiana, following the National Road or parallel traces. Families moved in clusters, with neighbors from the same KY or TN county settling in the same IL township. The timber along the Sangamon attracted families from wooded country who distrusted the open prairie. By the 1840s, entire KY and TN communities had transplanted themselves to central Illinois.",
+        "kinship_role": "Kinship was the engine. Extended family networks migrated together — brothers, brothers-in-law, and former neighbors from the same KY county settled within riding distance of each other. The cemetery records tell the story: KY birthplaces on headstones clustered by township.",
+        "timeline": "First wave 1818-1830 (IL statehood pull). Second wave 1830-1845 (land availability and kin networks established). Slowing by 1850 as the best land was taken and Yankee settlers began arriving in larger numbers."
+      },
+      "narrative_hook": "The Butternuts came from Kentucky and Tennessee — {ancestor_name}'s people traveling overland through Indiana in butternut-dyed homespun, following a cousin's letter that said the black soil along the Sangamon grew corn like nothing they had seen.",
+      "source": "Power, History of the Early Settlers (1876). Bogue, From Prairie to Corn Belt (1963). Davis, James E. Frontier Illinois. Bloomington: Indiana University Press, 1998."
+    },
+    {
+      "corridor_id": "yankee_migration",
+      "corridor_name": "Yankee Migration: New England and New York Families to Central Illinois",
+      "origin_counties": ["Various counties in VT, CT, MA, NY, OH"],
+      "destination_area": "Primarily the northern portion of the cluster — Piatt, DeWitt, Logan, and northern Sangamon",
+      "era": "1830-1860",
+      "migration_type": "chain_migration",
+      "scale": "Hundreds to low thousands of families. Fewer in number than the Butternuts but disproportionately influential in commerce, education, and politics. The Yankee settlers brought capital, education, and commercial agriculture techniques that transformed the frontier economy.",
+      "evidence": {
+        "census_evidence": "1850-1860 census for Piatt, DeWitt, and Logan counties shows increasing numbers of New England and New York-born household heads. These families tended to settle on the open prairie rather than the timber — they had the capital for steel plows and tile drainage.",
+        "church_evidence": "Presbyterian and Congregational church records signal Yankee origin. The presence of these denominations in central Illinois townships identifies concentrations of New England-origin settlement.",
+        "surname_clustering": "Yankee surnames — Fuller, Woodworth, Osgood, Griswold, Lathrop — appear in the northern cluster counties and are distinctive from the Butternut surnames."
+      },
+      "chain_mechanics": {
+        "description": "Yankee settlers came via the Erie Canal, the Great Lakes, and overland from Ohio. They brought capital that the Butternuts generally lacked — enough to buy improved land, purchase steel plows, and invest in tile drainage. The Illinois Central Railroad's land grant (1850) attracted Yankee buyers specifically because the railroad marketed its land in New England and New York newspapers. The cultural difference between Butternuts and Yankees was sharp: different accents, different churches, different politics (Butternuts tended Democratic; Yankees tended Whig/Republican), and different farming practices.",
+        "kinship_role": "Less kinship-driven than the Butternut migration — more driven by commercial opportunity and railroad land marketing. However, Yankee families still moved in networks, with church and business connections replacing the kinship chains.",
+        "timeline": "Trickle 1830-1845; significant wave 1850-1860 (railroad land sales); tapering after the Civil War."
+      },
+      "narrative_hook": "The Yankees came from New England and New York with capital and steel plows — {ancestor_name} may have been one of them, or may have watched them arrive in {county} County with money enough to buy the land and the equipment that the Butternut families could not afford.",
+      "source": "Bogue, From Prairie to Corn Belt (1963). Davis, Frontier Illinois (1998)."
+    },
+    {
+      "corridor_id": "german_irish_immigration",
+      "corridor_name": "German and Irish Immigrant Settlement",
+      "origin_counties": ["Various — Germany (Bavaria, Hesse, Saxony), Ireland"],
+      "destination_area": "Scattered across the cluster; German communities concentrated in Sangamon and Macon counties; Irish concentrations in Springfield and along railroad construction routes",
+      "era": "1840-1880",
+      "migration_type": "chain_migration",
+      "scale": "Several hundred families. Not the dominant population but a significant minority that established churches, schools, and cultural institutions.",
+      "evidence": {
+        "census_evidence": "1860-1880 census shows clusters of German-born and Irish-born household heads in specific townships. German-born farmers concentrated in areas where they purchased Illinois Central land grant acreage.",
+        "church_evidence": "German Lutheran and German Catholic parishes mark concentrations of German settlement. Irish Catholic parishes in Springfield document the urban Irish community.",
+        "surname_clustering": "German surnames — Mueller, Schmidt, Weber, Braun, Keil — cluster in specific townships. Irish surnames concentrate in Springfield city wards."
+      },
+      "chain_mechanics": {
+        "description": "German immigrants came via New Orleans or New York, traveled up the Mississippi or overland, and purchased farmland — often Illinois Central land grant acreage marketed in German-language newspapers. They established German-language churches, schools, and social organizations. Irish immigrants arrived through similar channels but concentrated more in Springfield's urban economy — railroad labor, state government employment, and small business. The German farming communities maintained linguistic and cultural cohesion through the nineteenth century.",
+        "kinship_role": "German communities were strongly kinship-driven — families from the same German village settled in the same Illinois township. Irish settlement was more individualized but church networks provided community structure.",
+        "timeline": "German settlement 1840-1880; Irish settlement concentrated 1840-1870, then continuing through chain migration."
+      },
+      "narrative_hook": "The German families who settled {county} County came from villages in Bavaria or Hesse — {ancestor_name}'s neighbors spoke German at home, worshipped at the Lutheran or Catholic church, and farmed the black prairie soil with techniques they had brought from the Rhineland.",
+      "source": "Bogue, From Prairie to Corn Belt (1963). Kamphoefner, Walter D. The Westfalians: From Germany to Missouri. Princeton University Press, 1987."
+    },
+    {
+      "corridor_id": "black_great_migration_out",
+      "corridor_name": "Black Great Migration from Central Illinois to Northern Cities",
+      "origin_counties": ["Sangamon", "Macon", "Christian"],
+      "destination_area": "Chicago (primary), Detroit, Cleveland, St. Louis — via the Illinois Central Railroad northbound",
+      "era": "1910-1960",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of Black families from the cluster over five decades. Springfield's Black community was significant (approximately 5% of the city population by 1900) and experienced the devastating 1908 race riot, which accelerated outmigration.",
+      "evidence": {
+        "census_evidence": "1920-1960 census for Chicago shows concentrations of IL-born Black residents with Sangamon and Macon County birthplaces.",
+        "church_evidence": "Black Baptist and AME churches in Springfield and Decatur record membership losses as families moved north. Chicago South Side churches received members by letter from central IL congregations."
+      },
+      "chain_mechanics": {
+        "description": "The Illinois Central Railroad's northbound line provided the physical connection — a direct route from Springfield to Chicago, the same train that carried the corn. Chain migration followed church and kinship networks: a young man went to Chicago, found work at the stockyards or the steel mills, and sent word back. The Springfield Race Riot of 1908 was a powerful push factor — the violence demonstrated that even in Lincoln's city, Black lives were not safe. The pull factors were Chicago's industrial employment and the promise of less overt racial restriction.",
+        "kinship_role": "Church networks were as important as blood kinship. AME and Baptist church connections channeled migrants to specific Chicago congregations that served as landing pads. Springfield's Black middle class — doctors, teachers, barbers — had particularly strong network connections to Chicago.",
+        "timeline": "Trickle 1910-1916; first surge 1917-1920 (WWI industrial demand); sustained 1920-1940; second surge 1942-1955 (WWII); continuing 1955-1960."
+      },
+      "narrative_hook": "When {ancestor_name} boarded the Illinois Central at Springfield heading north to Chicago in {year}, {pronoun_subject} was following a path the corn had blazed — the same railroad that carried grain to Chicago carried {pronoun_object} to the South Side, where a cousin had a room and the stockyards were hiring.",
+      "source": "Grossman, James R. Land of Hope: Chicago, Black Southerners, and the Great Migration. Chicago: University of Chicago Press, 1989. Senechal, Sociogenesis of a Race Riot (1990)."
+    },
+    {
+      "corridor_id": "pana_black_strikebreakers",
+      "corridor_name": "Black Strikebreaker Migration to Pana (Christian County)",
+      "origin_counties": ["Various counties in AL"],
+      "destination_area": "Pana (Christian County)",
+      "era": "1898-1899",
+      "migration_type": "recruited_labor",
+      "scale": "Several hundred Black workers and their families imported from Alabama by mine operators to break a coal miners' strike. The importation triggered the Pana mine wars — racial violence that reshaped the county.",
+      "evidence": {
+        "census_evidence": "1900 census for Pana shows a spike in Alabama-born Black residents not present in the 1890 census.",
+        "church_evidence": "Black churches established in Pana after 1898 document the new community."
+      },
+      "chain_mechanics": {
+        "description": "This was not voluntary chain migration — it was recruited labor brought in specifically to break a strike. The mine operators in Christian County recruited Black workers from Alabama with promises of high wages, then transported them to Pana to replace striking white miners. The result was racial violence that included shootings and arson. Some of the imported workers stayed and established a permanent Black community in Pana; others left after the violence. The episode left a legacy of racial tension in a county that had been almost entirely white.",
+        "kinship_role": "Minimal — this was corporate recruitment, not kinship-driven migration.",
+        "timeline": "1898-1899 for the initial importation. The community that remained persisted."
+      },
+      "narrative_hook": "The Black families who arrived in Pana in 1898 did not come by choice in the usual sense — they came because the mine operators brought them from Alabama to break a strike, and the violence that met them was the price of someone else's labor dispute.",
+      "source": "Hicken, Victor. 'The Virden and Pana Mine Wars of 1898.' Journal of the Illinois State Historical Society 52 (1959)."
+    }
+  ],
+  "internal_movement_patterns": [
+    {
+      "pattern_id": "timber_to_prairie",
+      "pattern_name": "Timber-to-Prairie Movement within the Cluster",
+      "description": "The earliest settlers clustered along the timber (Sangamon River, Salt Creek, Kaskaskia). As the steel plow and tile drainage became available in the 1840s-1860s, families expanded from the timber onto the open prairie. This was the shortest migration — a family might move five miles from a timbered creek bottom to the open upland — but it represented a fundamental shift from timber-dependent to prairie-farming culture.",
+      "era": "1840-1870",
+      "counties_affected": ["Sangamon", "Macon", "Christian", "Shelby", "Moultrie", "Piatt", "DeWitt", "Logan"],
+      "narrative_hook": "{ancestor_name} moved from the timber along the creek to the open prairie a few miles away — a short walk, but a cultural revolution. The timber had meant safety; the prairie meant risk and, eventually, wealth."
+    },
+    {
+      "pattern_id": "farm_to_county_seat",
+      "pattern_name": "Farm-to-County Seat Movement",
+      "description": "As agriculture mechanized in the late nineteenth and early twentieth centuries, fewer hands were needed on the farm. Older farmers retired to county seats. Young people who did not inherit land moved to Springfield or Decatur for employment. This was the quiet rural depopulation that emptied the farmsteads while the county seats grew modestly.",
+      "era": "1880-1960",
+      "counties_affected": ["Sangamon", "Macon", "Christian", "Shelby", "Moultrie", "Piatt", "DeWitt", "Logan"],
+      "narrative_hook": "When the tractor replaced the hired man, {ancestor_name}'s children had a choice — inherit the farm or move to Springfield. Most chose Springfield, and the farmhouse stood empty."
+    }
+  ],
+  "settlement_clusters": [
+    {
+      "cluster_name": "Springfield Black community (pre-1908)",
+      "counties": ["Sangamon"],
+      "description": "Springfield had a significant Black community by the 1870s — concentrated in specific neighborhoods, with churches, schools, and businesses. The 1908 race riot devastated this community — businesses burned, residents driven out, at least seven killed. The riot accelerated outmigration to Chicago.",
+      "era": "1865-1960"
+    },
+    {
+      "cluster_name": "German farming settlements (Sangamon-Macon)",
+      "counties": ["Sangamon", "Macon"],
+      "description": "German immigrant farmers settled in clusters in specific townships, establishing German-language churches and maintaining cultural cohesion through the nineteenth century. These communities were identifiable by church denomination (Lutheran or Catholic), surname clustering, and land purchase patterns.",
+      "era": "1840-1920"
+    },
+    {
+      "cluster_name": "Pana Black community (post-1898)",
+      "counties": ["Christian"],
+      "description": "The Black community established in Pana after the 1898 mine wars. Though small, it represented the only significant Black population in Christian County and was the product of an unusual migration — corporate recruitment to break a strike.",
+      "era": "1898-1960"
+    }
+  ],
+  "narrative_hooks": [
+    "The Butternuts came from Kentucky and the Yankees came from New England — {ancestor_name} was one or the other, and in central Illinois the two cultures settled side by side, attended different churches, voted different tickets, and eventually married each other's children.",
+    "The Illinois Central carried corn to Chicago and people from Springfield to the South Side — {ancestor_name} rode the same railroad in both directions.",
+    "The Springfield Race Riot of 1908 pushed Black families north on the Illinois Central — {ancestor_name}'s departure from Springfield was not a choice but a consequence of violence in Lincoln's city.",
+    "The German families who farmed Sangamon County spoke German at home, worshipped in German at the Lutheran church, and read a German-language newspaper from St. Louis — and their grandchildren spoke English and voted Republican.",
+    "The Black workers who arrived in Pana in 1898 came because the mine operators brought them — and the violence that met them was the beginning of a community nobody had planned."
+  ],
+  "source_references": [
+    "Power, John Carroll. History of the Early Settlers of Sangamon County, Illinois. Springfield, 1876.",
+    "Bogue, Allan G. From Prairie to Corn Belt. Chicago: University of Chicago Press, 1963.",
+    "Davis, James E. Frontier Illinois. Bloomington: Indiana University Press, 1998.",
+    "Grossman, James R. Land of Hope: Chicago, Black Southerners, and the Great Migration. Chicago: University of Chicago Press, 1989.",
+    "Senechal, Roberta. The Sociogenesis of a Race Riot. Urbana: University of Illinois Press, 1990.",
+    "Hicken, Victor. 'The Virden and Pana Mine Wars of 1898.' Journal of the Illinois State Historical Society 52 (1959).",
+    "Kamphoefner, Walter D. The Westfalians: From Germany to Missouri. Princeton: Princeton University Press, 1987."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["civil_war_service", "great_migration", "stayed_and_adapted", "appalachian_out_migration", "gi_bill_migration"],
+    "destination_refs": ["chicago_south_side"],
+    "community_texture_refs": ["small_town_midwest"]
+  }
+}

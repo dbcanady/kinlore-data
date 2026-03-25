@@ -1,0 +1,136 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Madison County, AL. Record survival, courthouse history, and known losses. Madison County was formed in 1808 — one of Alabama's earliest counties, predating Alabama statehood (1819). Alabama Territory records and Mississippi Territory records apply before statehood.",
+  "courthouse_atlas_id": "al_madison_courthouse",
+  "display_name": "Madison County, Alabama — Courthouse Atlas",
+  "county": "Madison",
+  "state": "AL",
+  "fips_code": "01089",
+  "cluster_ref": "al_tennessee_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1964,
+      "location": "Huntsville, AL — 100 Northside Square",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes", "military discharge records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1811–1840",
+        "location": "Huntsville, Courthouse Square",
+        "fate": "Early frame and brick courthouse. Replaced as the county grew. Madison County was part of Mississippi Territory until Alabama Territory was created in 1817 and achieved statehood in 1819. Records from before statehood may reference Mississippi Territory courts."
+      },
+      {
+        "era": "1840–1914",
+        "location": "Huntsville, Courthouse Square",
+        "fate": "Brick courthouse. Federal troops occupied Huntsville from 1862. The courthouse was used as military headquarters but not destroyed. Records survived the occupation."
+      },
+      {
+        "era": "1914–1964",
+        "location": "Huntsville, same site",
+        "fate": "Replaced by the current 1964 building as Huntsville's population grew during the aerospace boom."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "madison_1865_partial",
+      "date": "1862-1865",
+      "cause": "Federal military occupation — some records disturbed, limited losses",
+      "records_destroyed": ["Some loose court papers and county administrative records from the Civil War period"],
+      "records_survived": ["deed books", "will books", "marriage records", "court minute books", "tax records"],
+      "scope": "minor",
+      "description": "Federal forces occupied Huntsville from April 1862 through the end of the war. The courthouse was used as a military headquarters. While some loose papers were lost or damaged, the bound record books — deeds, wills, marriages, court minutes — survived the occupation. Madison County's records are remarkably complete from the county's 1808 formation. The biggest gap is not destruction but jurisdiction: records before Alabama statehood (1819) may be filed under Mississippi Territory or Alabama Territory and held at state archives rather than the county courthouse.",
+      "narrative_impact": "If {ancestor_name} lived in Madison County before Alabama became a state in 1819, the records exist but may be filed under Mississippi Territory or Alabama Territory — check the Alabama Department of Archives and History, not just the courthouse.",
+      "source": "Alabama Department of Archives and History. Guide to County Records in the Alabama State Archives. Montgomery: ADAH, 2005."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1808,
+      "completeness": "Excellent — continuous from county formation. Madison County deed books are among the oldest in Alabama.",
+      "gaps": "No significant gaps. Early deed books (1808-1819) reference Mississippi Territory and Alabama Territory.",
+      "repository": "Madison County Probate Office; Alabama Department of Archives and History (ADAH) microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com AL land records; Huntsville-Madison County Public Library digital collections"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1809,
+      "completeness": "Good — wills and estate records from near-formation. Probate records are well-preserved.",
+      "gaps": "Minor gaps in loose estate papers from the earliest decades. Bound probate minute books are complete.",
+      "repository": "Madison County Probate Office; ADAH",
+      "online_access": "FamilySearch microfilm; ADAH digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1809,
+      "completeness": "Good — marriage bonds and licenses from early period. Alabama statewide marriage registration began in 1936; county records predate this by over a century.",
+      "gaps": "Some gaps during the Civil War period (1862-1865) when normal county operations were disrupted by Federal occupation.",
+      "repository": "Madison County Probate Office; ADAH microfilm",
+      "online_access": "FamilySearch; Ancestry.com AL marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1808,
+      "completeness": "Good — County Court minutes from formation. Circuit Court records from 1819 (statehood).",
+      "gaps": "Some disruption during Federal occupation (1862-1865). Pre-statehood records may reference Mississippi Territory court system.",
+      "repository": "ADAH; Madison County Circuit Clerk",
+      "online_access": "ADAH microfilm; limited FamilySearch"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Spotty until approximately 1920. Alabama county health departments were established unevenly. Huntsville city records may predate county records.",
+      "repository": "Alabama Department of Public Health, Center for Health Statistics; ADAH for delayed certificates"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Huntsville Land Office records",
+      "description": "The Huntsville Land Office (established 1811) was the first federal land office in the Alabama Territory. Land entry records document the earliest European-American settlers and the land they claimed. These records predate county deed books for initial claims.",
+      "repository": "National Archives and Records Administration (NARA); Bureau of Land Management General Land Office records (glorecords.blm.gov); ADAH",
+      "era_coverage": "1811-1900s",
+      "genealogical_value": "Critical for identifying earliest settlers. Land entry records include name, date, acreage, section/township/range. Combined with county deeds, they establish complete ownership chains from the federal government to the first private owner.",
+      "source": "Dupre, Transforming the Cotton Frontier (1997)."
+    },
+    {
+      "source_type": "Slave schedules and slaveholder records",
+      "description": "Federal slave schedules (1850, 1860) enumerate enslaved people by age, sex, and color under the slaveholder's name. Madison County had one of the largest enslaved populations in north Alabama.",
+      "repository": "National Archives; Ancestry.com; FamilySearch",
+      "era_coverage": "1850-1860",
+      "genealogical_value": "Enslaved people are not named in the schedules. Cross-referencing with estate inventories, wills, and Freedmen's Bureau records is necessary to identify individuals. Madison County estate inventories frequently name enslaved people.",
+      "source": "Alabama Department of Archives and History. Slave Schedule Finding Aid."
+    },
+    {
+      "source_type": "Freedmen's Bureau records",
+      "description": "Bureau of Refugees, Freedmen, and Abandoned Lands records for Madison County document labor contracts, school enrollment, ration distribution, and complaints filed by freedpeople after the Civil War.",
+      "repository": "National Archives (M1900, M1027); FamilySearch digitized records; Freedmen's Bureau Online (freedmensbureau.com)",
+      "era_coverage": "1865-1872",
+      "genealogical_value": "Essential for identifying formerly enslaved people by name after emancipation. Labor contracts often list family members, former owners, and plantation locations. Marriage records from the Bureau are among the earliest legal records of Black marriages in the county.",
+      "source": "National Archives. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands (Record Group 105)."
+    },
+    {
+      "source_type": "Redstone Arsenal displacement records",
+      "description": "Federal government land acquisition records from the 1941 Redstone Arsenal creation document families displaced from 38,000 acres of Madison County farmland.",
+      "repository": "U.S. Army Corps of Engineers Huntsville; National Archives (RG 77); Huntsville-Madison County Public Library local history collection",
+      "era_coverage": "1941-1945",
+      "genealogical_value": "Documents families who lost land to military acquisition — includes names, property descriptions, and compensation records. Critical for families whose ancestral land was taken for the arsenal.",
+      "source": "Record, A Dream Come True (1970)."
+    }
+  ],
+  "narrative_hooks": [
+    "Madison County's records run from 1808 — before Alabama was a state, before the county was a year old, {ancestor_name}'s name may appear in deed books filed under Mississippi Territory.",
+    "The Huntsville Land Office opened in 1811 and recorded every acre of public land claimed in north Alabama — if {ancestor_name} was among the first settlers, the land entry record at the National Archives is the starting point.",
+    "Federal troops occupied the courthouse in 1862 and used it as a headquarters — the records survived, but {ancestor_name}'s courthouse business was conducted under Union military authority for three years.",
+    "If {ancestor_name} was enslaved in Madison County, the slave schedules of 1850 and 1860 recorded {pronoun_possessive} age and sex but not {pronoun_possessive} name — the Freedmen's Bureau records after 1865 are where the name appears."
+  ],
+  "source_references": [
+    "Alabama Department of Archives and History. Guide to County Records in the Alabama State Archives. Montgomery: ADAH, 2005.",
+    "Dupre, Daniel S. Transforming the Cotton Frontier: Madison County, Alabama, 1800-1840. Baton Rouge: Louisiana State University Press, 1997.",
+    "Record, James C. A Dream Come True: The Story of Madison County. Huntsville: John Hicklin Printing Company, 1970.",
+    "National Archives and Records Administration. Records of the Bureau of Land Management, Record Group 49. Washington: NARA.",
+    "Huntsville-Madison County Public Library. Heritage Room Local History Collection Finding Aid."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "al_madison",
+    "research_guidance_refs": ["freedmens_bureau_records", "land_office_records"],
+    "template_refs": ["record_silences"]
+  }
+}

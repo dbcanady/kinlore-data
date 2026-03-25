@@ -1,0 +1,155 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Micro-Migration Network Map for the SC Lowcountry cluster. Documents the migration corridors that defined the region — the forced migration of the Atlantic slave trade, the domestic slave trade, the Great Migration northward, and the internal movements between plantation, city, and sea island. The Lowcountry's migration story is inseparable from the slave trade.",
+  "migration_network_id": "sc_lowcountry_migration_networks",
+  "display_name": "SC Lowcountry — Micro-Migration Network Map",
+  "cluster_ref": "sc_lowcountry",
+  "era_range": "1670-1960",
+  "migration_corridors": [
+    {
+      "corridor_id": "atlantic_slave_trade",
+      "corridor_name": "The Atlantic Slave Trade: West Africa to Charleston via Sullivan's Island",
+      "origin_counties": ["West African coast — Sierra Leone, Senegambia, Windward Coast, Gold Coast, Bight of Biafra, Angola"],
+      "destination_area": "Charleston (Sullivan's Island quarantine), then dispersed to rice plantations in Charleston, Berkeley, Georgetown, Colleton, Beaufort counties",
+      "era": "1670-1808",
+      "migration_type": "forced_migration",
+      "scale": "An estimated 40% of all enslaved Africans brought to North America — approximately 200,000 people — entered through Charleston. Sullivan's Island served as the quarantine station where new arrivals were held for 10-14 days before sale. This was the largest forced migration entry point in North America.",
+      "evidence": {
+        "shipping_records": "Charleston's port records document slave ship arrivals — ship names, dates, cargo manifests, origins. The Trans-Atlantic Slave Trade Database (slavevoyages.org) compiles these records.",
+        "ethnographic_evidence": "The concentration of enslaved people from rice-growing regions of West Africa (Sierra Leone, Senegambia) was not random — Carolina planters specifically sought people with rice cultivation knowledge. Gullah language retains vocabulary from Mende, Temne, Wolof, and other West African languages.",
+        "archaeological_evidence": "Colono-Indian ware pottery found on Lowcountry plantations combines African ceramic traditions with local materials — physical evidence of African cultural persistence."
+      },
+      "chain_mechanics": {
+        "description": "This was not chain migration — it was forced importation. Enslaved Africans were captured, sold to European traders, transported across the Atlantic in conditions of extreme cruelty (the Middle Passage), quarantined at Sullivan's Island, and sold at auction in Charleston. Families were separated. Languages were deliberately mixed to prevent communication. Despite this, cultural connections persisted — people from the same regions were sometimes purchased together, and the task system on rice plantations allowed enough autonomy for cultural practices to survive. The Gullah/Geechee culture that developed was a synthesis of West African traditions adapted to the Lowcountry environment.",
+        "kinship_role": "Kinship was destroyed by the trade and rebuilt in the Lowcountry. Enslaved communities created new kinship networks through marriage, fictive kinship, and community bonds. These rebuilt kinship networks became the foundation of Gullah/Geechee communities.",
+        "timeline": "Trickle 1670s-1690s; major importation 1700-1740; continued at high volume 1740-1775; resumed after Revolution 1783-1808; illegal imports continued after 1808 federal ban."
+      },
+      "dignity_note": "Sullivan's Island was not an immigration station — it was a place of immense suffering. The people who passed through it were not immigrants but captives. Name the origin regions. Name the scale. Do not sanitize the trade.",
+      "narrative_hook": "An estimated four of every ten enslaved Africans who entered North America passed through Sullivan's Island — quarantined on the sand for two weeks before being taken to Charleston's wharves and sold. If {ancestor_name} was among them, {pronoun_possessive} feet touched that sand, and the journey from West Africa ended in a Lowcountry rice field.",
+      "source": "Eltis, David, and David Richardson. Atlas of the Transatlantic Slave Trade. Yale University Press, 2010. Littlefield, Daniel C. Rice and Slaves. University of Illinois Press, 1991."
+    },
+    {
+      "corridor_id": "domestic_slave_trade",
+      "corridor_name": "The Domestic Slave Trade: Upper South to Charleston and the Lowcountry",
+      "origin_counties": ["Virginia Tidewater and Piedmont counties", "Maryland Eastern Shore", "North Carolina Piedmont"],
+      "destination_area": "Charleston slave market, then dispersed to Lowcountry and Deep South plantations",
+      "era": "1808-1865",
+      "migration_type": "forced_migration",
+      "scale": "After the federal ban on the Atlantic trade in 1808, the domestic slave trade intensified. Charleston became a major hub — enslaved people sold from declining tobacco plantations in Virginia and Maryland were transported to Charleston's brokers and sold to cotton and sugar planters in the Deep South. An estimated 1 million enslaved people were sold from the Upper South to the Deep South between 1790 and 1860, with a significant fraction passing through Charleston.",
+      "evidence": {
+        "broker_records": "Charleston slave brokers' records — sale prices, descriptions of individuals sold, buyers' names — survive in some archives. Newspaper advertisements in the Charleston Courier and Mercury describe individuals for sale.",
+        "census_evidence": "The 1850 and 1860 slave schedules show concentrations of enslaved people in the Lowcountry by age and origin that are consistent with domestic trade importation."
+      },
+      "chain_mechanics": {
+        "description": "The domestic trade was a forced migration of enormous scale. Enslaved people were sold individually or in small groups, separated from families, and transported by ship (the coastal route) or overland (the slave coffle) to Charleston. From Charleston, they were sold to buyers from across the Deep South. The trade was conducted by professional slave brokers — Ryan's Mart, the Old Slave Mart — who specialized in the commerce of human beings.",
+        "kinship_role": "The domestic trade deliberately destroyed kinship. Families were separated. The terror of being 'sold south' was the defining fear of enslaved life in the Upper South.",
+        "timeline": "Intensified after 1808 federal ban on Atlantic trade; peak volume 1830-1860."
+      },
+      "dignity_note": "The domestic slave trade was a second Middle Passage — forced migration that separated families and destroyed communities with the same cruelty as the Atlantic trade. Name the scale. Name the brokers. Do not describe this as 'relocation.'",
+      "narrative_hook": "If {ancestor_name} was sold through Charleston's slave market — Ryan's Mart, the Old Slave Mart — {pronoun_subject} stood on an auction block while strangers examined {pronoun_possessive} teeth, hands, and back, and the highest bid determined where {pronoun_subject} would spend the rest of {pronoun_possessive} life.",
+      "source": "Johnson, Walter. Soul by Soul: Life Inside the Antebellum Slave Market. Harvard University Press, 1999. Deyle, Steven. Carry Me Back: The Domestic Slave Trade in American Life. New York: Oxford University Press, 2005."
+    },
+    {
+      "corridor_id": "great_migration_lowcountry",
+      "corridor_name": "The Great Migration: Lowcountry to Northern Cities",
+      "origin_counties": ["Charleston", "Berkeley", "Georgetown", "Beaufort", "Colleton", "Williamsburg"],
+      "destination_area": "New York (Harlem), Philadelphia, Washington DC, Baltimore, northern New Jersey — via railroad and coastal steamer",
+      "era": "1910-1960",
+      "migration_type": "chain_migration",
+      "scale": "Tens of thousands of Black families left the Lowcountry over five decades. The population of Black communities in the rural Lowcountry counties declined as outmigration exceeded natural increase. The Gullah/Geechee diaspora established communities in Harlem, Philadelphia, and other northern cities that maintained Lowcountry cultural connections.",
+      "evidence": {
+        "census_evidence": "1920-1960 census for New York, Philadelphia, and Washington DC shows concentrations of SC-born Black residents with Lowcountry birthplaces.",
+        "church_evidence": "AME, Baptist, and independent Black churches in northern cities received transfer letters from Lowcountry congregations. Some northern churches were explicitly Gullah/Geechee cultural institutions.",
+        "oral_history": "Gullah/Geechee diaspora oral histories documented by the Penn Center and academic researchers describe chain migration mechanics — a cousin in New York, a church contact in Philadelphia."
+      },
+      "chain_mechanics": {
+        "description": "The Great Migration from the Lowcountry followed church and kinship networks northward. The railroad — Atlantic Coast Line to Richmond, then Pennsylvania Railroad to Washington, Philadelphia, and New York — was the physical route. The social route was personal: a brother went north first, found work and housing, and sent word back. Gullah/Geechee migrants often clustered in specific northern neighborhoods, maintaining cultural connections to the sea islands. The push factors were severe: tenant farming poverty, racial violence, denial of political rights, and the collapse of the rice and cotton economies. The pull factors were wartime industrial jobs and the promise of less overt racial oppression.",
+        "kinship_role": "Church networks were as important as blood kinship. AME and Baptist church connections channeled migrants to specific northern congregations that served as landing pads and mutual aid societies.",
+        "timeline": "Trickle 1910-1916; first surge 1917-1920 (WWI); sustained 1920-1940; second surge 1942-1955 (WWII); tapering 1955-1960."
+      },
+      "narrative_hook": "When {ancestor_name} left the Lowcountry on the northbound train in {year}, {pronoun_subject} carried Gullah in {pronoun_possessive} speech, sweetgrass in {pronoun_possessive} memory, and the address of a cousin in Harlem who said there was work.",
+      "source": "Wilkerson, Isabel. The Warmth of Other Suns. Random House, 2010. Gregory, James N. The Southern Diaspora. UNC Press, 2005."
+    },
+    {
+      "corridor_id": "barbadian_founders",
+      "corridor_name": "Barbadian Founders: West Indies to Carolina",
+      "origin_counties": ["Barbados", "Jamaica", "other English Caribbean colonies"],
+      "destination_area": "Charleston, then coastal Lowcountry plantations",
+      "era": "1670-1720",
+      "migration_type": "free_colonial_settlement",
+      "scale": "Several hundred families from Barbados founded the colony and established the plantation model. These Barbadian planters brought enslaved people, the plantation system, and the cultural expectation of slave-based agriculture.",
+      "evidence": {
+        "colonial_records": "Colonial land grants, letters of instruction, and correspondence document the Barbadian founders by name.",
+        "surname_clustering": "Barbadian surnames — Middleton, Drayton, Colleton, Berkeley — dominate the colonial planter class and appear as county and parish names."
+      },
+      "chain_mechanics": {
+        "description": "The Barbadian founders were not random settlers — they were experienced plantation operators who transferred the sugar island model to the Carolina mainland. They brought enslaved people, management techniques, and the legal framework of slavery. The colony's first slave code (1696) was modeled on the Barbadian code.",
+        "kinship_role": "Family and business networks connected Carolina to Barbados for decades. Younger sons, indebted planters, and ambitious merchants sought new land in Carolina.",
+        "timeline": "Primary wave 1670-1700; continued trickle through 1720s."
+      },
+      "narrative_hook": "The men who founded Charleston came from Barbados with a formula — enslaved labor, export crops, and a legal system that made human beings into property. {ancestor_name}'s world was built on that formula.",
+      "source": "Wood, Black Majority (1974). Dunn, Richard S. Sugar and Slaves: The Rise of the Planter Class in the English West Indies, 1624-1713. Chapel Hill: UNC Press, 1972."
+    }
+  ],
+  "internal_movement_patterns": [
+    {
+      "pattern_id": "plantation_to_city_enslaved",
+      "pattern_name": "Plantation-to-City Movement of Enslaved Workers (Hiring Out)",
+      "description": "Enslaved people in the Lowcountry moved between plantation and city through the hiring-out system. Planters hired enslaved artisans to Charleston employers — carpenters, coopers, blacksmiths, domestic workers — creating a mobile enslaved workforce that carried information and cultural connections between the rural plantations and the city. Some hired-out workers lived semi-independently in Charleston, paying their enslaver a portion of their earnings.",
+      "era": "1700-1865",
+      "counties_affected": ["Charleston", "Berkeley", "Georgetown", "Beaufort", "Colleton"],
+      "narrative_hook": "The hiring-out system moved {ancestor_name} between the plantation and Charleston — a journey that crossed more than miles. In the city, {pronoun_subject} heard news, saw possibility, and carried both back to the quarters."
+    },
+    {
+      "pattern_id": "sea_island_to_mainland",
+      "pattern_name": "Sea Island to Mainland Movement",
+      "description": "Before bridges, the sea islands were connected to the mainland only by boat. Gullah/Geechee families moved between islands and mainland for work, trade, church, and family visits — a water-based mobility pattern that persisted from the colonial era through the mid-twentieth century. The building of bridges in the twentieth century transformed this pattern from water-based to road-based movement.",
+      "era": "1700-1960",
+      "counties_affected": ["Beaufort", "Charleston"],
+      "narrative_hook": "{ancestor_name} rowed between the island and the mainland the way a Piedmont farmer walked between the barn and the field — by water, by tide, by the knowledge of currents that only a lifetime on the marsh could teach."
+    }
+  ],
+  "settlement_clusters": [
+    {
+      "cluster_name": "Gullah/Geechee sea island communities",
+      "counties": ["Beaufort", "Charleston"],
+      "description": "The sea islands — St. Helena, Ladies, Hilton Head, Edisto, Johns, Wadmalaw, James — developed distinct Gullah/Geechee communities during slavery that persisted after emancipation. Freedpeople purchased land on the islands through tax sales and direct purchase, establishing self-sufficient communities that maintained African cultural practices, language, and foodways. The isolation of the islands was the key to cultural preservation.",
+      "era": "1700-1960"
+    },
+    {
+      "cluster_name": "Charleston free Black community",
+      "counties": ["Charleston"],
+      "description": "Antebellum Charleston had one of the largest free Black communities in the South — artisans, tradespeople, and in some cases property owners. The community was concentrated in specific wards on the east side of the peninsula. After emancipation, the community expanded but remained geographically concentrated.",
+      "era": "1740-1960"
+    },
+    {
+      "cluster_name": "Waccamaw Neck plantation complex",
+      "counties": ["Georgetown"],
+      "description": "The Waccamaw Neck had over 150 rice plantations in a single corridor. After emancipation, many freedpeople remained on the Neck, working as tenants or purchasing small plots. The concentrated community maintained Gullah cultural practices.",
+      "era": "1730-1960"
+    }
+  ],
+  "narrative_hooks": [
+    "Sullivan's Island was the entry point for an estimated 40% of all enslaved Africans who entered North America — the Ellis Island of Black America. {ancestor_name} may have passed through that sand.",
+    "The domestic slave trade moved {ancestor_name} through Charleston's auction houses — the Old Slave Mart, Ryan's Mart — where human beings were bought and sold with the same paperwork as livestock.",
+    "The Great Migration carried {ancestor_name} north on the same railroad that had carried cotton south — from the Lowcountry to Harlem, Philadelphia, or Washington, following the kinship and church networks that pointed the way.",
+    "The Gullah/Geechee communities on the sea islands survived because water kept the mainland out — {ancestor_name}'s community preserved African languages, foods, and traditions that the mainland had lost, protected by the same marsh that kept everyone else away.",
+    "The Barbadian founders brought the formula — enslaved labor, export crops, and a legal system built on human property — and {ancestor_name}'s world was built on the result."
+  ],
+  "source_references": [
+    "Eltis, David, and David Richardson. Atlas of the Transatlantic Slave Trade. Yale University Press, 2010.",
+    "Littlefield, Daniel C. Rice and Slaves: Ethnicity and the Slave Trade in Colonial South Carolina. University of Illinois Press, 1991.",
+    "Johnson, Walter. Soul by Soul: Life Inside the Antebellum Slave Market. Harvard University Press, 1999.",
+    "Deyle, Steven. Carry Me Back: The Domestic Slave Trade in American Life. Oxford University Press, 2005.",
+    "Wilkerson, Isabel. The Warmth of Other Suns. Random House, 2010.",
+    "Wood, Peter H. Black Majority. W. W. Norton, 1974.",
+    "Dunn, Richard S. Sugar and Slaves. UNC Press, 1972.",
+    "Gregory, James N. The Southern Diaspora. UNC Press, 2005."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["domestic_slave_trade", "great_migration", "civil_war_displacement", "reconstruction_era", "stayed_and_adapted"],
+    "destination_refs": ["new_york_harlem", "philadelphia", "washington_dc"],
+    "community_texture_refs": ["gullah_geechee_community", "lowcountry_plantation_community"]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Dutchess County, NY. Record survival, courthouse history, and the unique NY land record system (liber/page) from one of the original twelve counties (formed 1683). Dutch-era records predate the English system.",
+  "courthouse_atlas_id": "ny_dutchess_courthouse",
+  "display_name": "Dutchess County, New York — Courthouse Atlas",
+  "county": "Dutchess",
+  "state": "NY",
+  "fips_code": "36027",
+  "cluster_ref": "ny_hudson_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1903,
+      "location": "Poughkeepsie, NY — 10 Market Street",
+      "records_housed": ["deeds (liber/page system)", "mortgages", "lis pendens", "wills", "probate records", "court minutes", "naturalization records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1683-1720",
+        "location": "No permanent courthouse — court held in private homes and taverns in various locations",
+        "fate": "Dutchess County was formed in 1683 from Albany County but had no permanent courthouse for nearly 40 years. Court records from this period are fragmentary."
+      },
+      {
+        "era": "1720-1809",
+        "location": "Poughkeepsie, frame courthouse",
+        "fate": "Served as the county's first permanent courthouse. The 1788 NY ratification convention for the US Constitution was held here. Replaced by a stone courthouse."
+      },
+      {
+        "era": "1809-1903",
+        "location": "Poughkeepsie, stone courthouse on Market Street",
+        "fate": "Served through the Civil War. Replaced by the current Beaux-Arts courthouse in 1903."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "dutchess_no_major_fire",
+      "date": null,
+      "cause": "No major courthouse fire or war damage",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "naturalization records"],
+      "scope": "none",
+      "description": "Dutchess County has not experienced a major courthouse fire. Records from the county's formation (1683) survive, though the earliest volumes show wear and some entries are difficult to read. The county's pre-1683 records are filed under Albany County (the parent county). Dutch-era records for the region predate the English system and may be found in the New York State Archives' New Netherland collection.",
+      "narrative_impact": "The records survive. If {ancestor_name} lived in Dutchess County after 1683, the deed books, wills, and court minutes are likely intact. Gaps point to the ancestor's circumstances — tenant farmers on patroon land left fewer deed records because they did not own land.",
+      "source": "Dutchess County Clerk's Office. New York State Archives, Albany."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1718,
+      "completeness": "Good from 1718; earlier transactions may appear in Albany County records. Dutchess County uses the liber/page system — deeds are recorded in bound volumes (libers) referenced by liber number and page.",
+      "gaps": "The earliest deed books (pre-1720) are fragmentary. Some Dutch-era conveyances are recorded in the New Netherland papers at the New York State Archives.",
+      "repository": "Dutchess County Clerk's Office, Poughkeepsie; New York State Archives microfilm; FamilySearch",
+      "online_access": "FamilySearch microfilm; Ancestry.com NY land records; some volumes digitized by Dutchess County"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1720,
+      "completeness": "Good. Surrogate's Court records from the early 18th century survive.",
+      "gaps": "Pre-1720 probate matters were handled by Albany County.",
+      "repository": "Dutchess County Surrogate's Court, Poughkeepsie; New York State Archives",
+      "online_access": "FamilySearch microfilm; NY State Archives online catalog"
+    },
+    "marriages": {
+      "earliest_surviving": 1847,
+      "completeness": "New York State required marriage registration beginning in 1880, but some towns kept records earlier. The 1847-1849 NY marriage registration law produced a brief early series. Dutch Reformed and other church records supply marriages before civil registration.",
+      "gaps": "No mandatory civil marriage registration before 1880 (except the 1847-1849 experiment). Church records are the primary source for marriages before that date.",
+      "repository": "Town clerks; Dutchess County Clerk's Office; NY State Department of Health (post-1880)",
+      "online_access": "FamilySearch; Ancestry.com NY marriages; ItalianGen for some records"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1721,
+      "completeness": "Good. Court of Common Pleas and Sessions minutes survive from the early 18th century.",
+      "gaps": "Some early volumes are in poor condition. Pre-1683 judicial records are under Albany County.",
+      "repository": "Dutchess County Clerk's Office; New York State Archives",
+      "online_access": "Limited — some microfilm through FamilySearch"
+    },
+    "vital_records": {
+      "birth_registration_start": 1880,
+      "death_registration_start": 1880,
+      "completeness": "Mandatory from 1880 but spotty until the early 1900s. Town clerks maintained the registrations; compliance varied by town.",
+      "repository": "Town clerks; NY State Department of Health; NY State Archives for pre-1880 scattered records"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Dutch Reformed Church records",
+      "description": "The Dutch Reformed churches in the Hudson Valley — including congregations at Poughkeepsie, Fishkill, and Rhinebeck — maintained baptism, marriage, and burial records from the colonial period. These predate civil registration by over a century and are the primary source for Dutch-heritage families.",
+      "repository": "Reformed Church in America Archives, New Brunswick, NJ; New York Genealogical and Biographical Society; Holland Society of New York",
+      "era_coverage": "1680s-present",
+      "genealogical_value": "Critical. Dutch Reformed registers include baptism (doop) records with parents' and sponsors' names — a genealogical goldmine. Marriage records (trouw) list both parties and often parents. Records are in Dutch through the mid-18th century.",
+      "source": "Corwin, Edward T. A Manual of the Reformed Church in America. New York: Board of Publication, 1902."
+    },
+    {
+      "source_type": "Patroon and patent records",
+      "description": "The Rombout, Beekman, and other patent holders maintained rent rolls, lease records, and tenant lists. These document families that never appear in deed books because they were tenants, not owners.",
+      "repository": "New-York Historical Society; New York State Library; Dutchess County Historical Society",
+      "era_coverage": "1690s-1850s",
+      "genealogical_value": "Essential for identifying tenant families. Rent rolls list heads of household, acreage leased, and rent owed. Some leases include family members' names.",
+      "source": "Kim, Sung Bok. Landlord and Tenant in Colonial New York. University of North Carolina Press, 1978."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790-1940. Agricultural schedules (1850-1880). Manufacturing schedules (1820-1880). Dutchess County is enumerated from the first federal census.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790-1940",
+      "genealogical_value": "Essential for tracking families between land and probate records. Agricultural schedules document farm size, livestock, and production.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Dutchess County, NY."
+    }
+  ],
+  "narrative_hooks": [
+    "Dutchess County's deed books use the liber/page system — {ancestor_name}'s land transaction is recorded in a bound volume with a liber number, not a book-and-page like Southern counties. This is the NY standard and searching requires knowing the liber reference.",
+    "If {ancestor_name} was a tenant on the Beekman or Rombout Patent, the county deed books may hold no record of {pronoun_object} at all — tenants did not own land. Check the patent rent rolls at the New-York Historical Society.",
+    "Dutch Reformed church records predate English-language civil records in Dutchess County by decades — {ancestor_name}'s baptism may be recorded in Dutch, with parents' names and sponsors that identify the kinship network.",
+    "New York did not require civil marriage registration until 1880 — a missing marriage record for {ancestor_name} before that date is standard. Check Dutch Reformed, Quaker, and other church records."
+  ],
+  "source_references": [
+    "Kim, Sung Bok. Landlord and Tenant in Colonial New York. University of North Carolina Press, 1978.",
+    "Corwin, Edward T. A Manual of the Reformed Church in America. New York: Board of Publication, 1902.",
+    "Dutchess County Clerk's Office records guide.",
+    "New York State Archives. Guide to Records in the New York State Archives. Albany, 1993."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ny_dutchess",
+    "research_guidance_refs": ["property_records", "church_transfers"],
+    "template_refs": ["record_silences"]
+  }
+}

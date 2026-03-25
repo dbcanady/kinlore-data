@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Greene County, AL. Record survival, courthouse history, and known losses. Greene County (formed 1819, seat at Eutaw since 1838) has good record survival — the courthouse at Eutaw survived the Civil War and has not experienced a major fire.",
+  "courthouse_atlas_id": "al_greene_courthouse",
+  "display_name": "Greene County, Alabama — Courthouse Atlas",
+  "county": "Greene",
+  "state": "AL",
+  "fips_code": "01063",
+  "cluster_ref": "al_black_belt",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1869,
+      "location": "Eutaw, AL — Main Street. The 1869 courthouse is one of the oldest active courthouses in Alabama.",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1819–1838",
+        "location": "Erie, then other locations before Eutaw was established as seat",
+        "fate": "Early records transferred to Eutaw. Some loss of loose papers during moves."
+      },
+      {
+        "era": "1838–1869",
+        "location": "Eutaw, early courthouse",
+        "fate": "Replaced by the current 1869 building. Records transferred."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "greene_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire or significant war damage",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage records", "probate records"],
+      "scope": "none",
+      "description": "Greene County's courthouse has survived intact since the 1869 building was constructed. Earlier records from the county's 1819 formation were transferred and are largely extant. Note: Hale County was carved from Greene County in 1867, so pre-1867 Greene County records cover what is now Hale County as well.",
+      "narrative_impact": "Greene County's records survive from 1819. For ancestors who lived in what is now Hale County before 1867, search Greene County records — the jurisdictional boundary moved, but the records stayed at Eutaw.",
+      "source": "Alabama Department of Archives and History. Guide to Alabama County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1819,
+      "completeness": "Good — continuous from formation",
+      "gaps": "No significant gaps. Pre-1867 deeds cover both Greene and Hale counties.",
+      "repository": "Greene County Probate Office; ADAH microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1820,
+      "completeness": "Good — estate inventories from the 1820s are essential for documenting the county's massive enslaved population",
+      "gaps": "Minor gaps in earliest papers.",
+      "repository": "Greene County Probate Office; ADAH",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1823,
+      "completeness": "Good for white marriages. Freedmen's marriages from 1865.",
+      "gaps": "No significant gaps.",
+      "repository": "Greene County Probate Office; ADAH; Freedmen's Bureau at NARA",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1819,
+      "completeness": "Good",
+      "gaps": "Minor gaps in earliest volumes.",
+      "repository": "Greene County Clerk; ADAH",
+      "online_access": "ADAH microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Spotty until approximately 1920.",
+      "repository": "Alabama Center for Health Statistics; ADAH"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Freedmen's Bureau records",
+      "description": "Bureau records from the Eutaw sub-district document formerly enslaved families in Greene County.",
+      "repository": "NARA, RG 105; FamilySearch",
+      "era_coverage": "1865–1872",
+      "genealogical_value": "Critical for the transition from slavery. Greene County's massive enslaved population means these records are extensive and essential.",
+      "source": "NARA, Records of the Bureau of Refugees, Freedmen, and Abandoned Lands, RG 105."
+    },
+    {
+      "source_type": "Ku Klux Klan investigation records",
+      "description": "Federal investigations of Klan violence in Greene County during Reconstruction produced detailed witness testimony and documentation of the community.",
+      "repository": "NARA; published in Congressional documents (Ku Klux Klan hearings, 1871–72)",
+      "era_coverage": "1868–1872",
+      "genealogical_value": "Testimony names individuals — both victims and perpetrators — providing documentation of families during Reconstruction that county records do not capture.",
+      "source": "U.S. Congress, Joint Select Committee to Inquire into the Condition of Affairs in the Late Insurrectionary States, 1871–1872."
+    },
+    {
+      "source_type": "ADAH supplementary records",
+      "description": "ADAH holds county record microfilm, Confederate service records, and Reconstruction-era state records.",
+      "repository": "ADAH, Montgomery, AL",
+      "era_coverage": "1819–present",
+      "genealogical_value": "Backup repository.",
+      "source": "ADAH finding guides."
+    }
+  ],
+  "narrative_hooks": [
+    "Greene County's courthouse at Eutaw has stood since 1869 — one of the oldest active courthouses in Alabama — and the records inside it reach back to 1819. {ancestor_name}'s paper trail is likely intact.",
+    "If {ancestor_name} lived in what is now Hale County before 1867, search Greene County records at Eutaw — the boundary moved but the records stayed.",
+    "The Ku Klux Klan hearings of 1871–72 produced testimony that names Greene County families — victims of racial violence documented in federal records when local records preferred silence.",
+    "Greene County's estate inventories from the 1820s–1860s list enslaved people by name and age — {ancestor_name}'s enslaved family members may appear in these documents as property, the only record of their existence before emancipation."
+  ],
+  "source_references": [
+    "Alabama Department of Archives and History. Guide to Alabama County Records.",
+    "National Archives and Records Administration. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands, Record Group 105.",
+    "U.S. Congress, Joint Select Committee to Inquire into the Condition of Affairs in the Late Insurrectionary States, 1871–1872."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "al_greene",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the TN Middle Nashville Basin. Documents how transportation shaped settlement and migration from the Cumberland River flatboat era through the turnpike system, railroad age, and automobile era. Nashville's radial turnpike system was the skeleton of the basin's commercial geography.",
+  "connectivity_id": "tn_middle_nashville_basin_roads",
+  "display_name": "TN Middle Nashville Basin — Road & Connectivity Network",
+  "cluster_ref": "tn_middle_nashville_basin",
+  "era_range": "1780-1960",
+  "transportation_eras": [
+    {
+      "era_id": "river_and_trace",
+      "era_name": "River, Trace, and Frontier Roads",
+      "date_range": "1780-1830",
+      "primary_modes": ["flatboat on Cumberland River", "horseback", "wagon on trace", "foot", "keelboat"],
+      "description": "The Cumberland River was the basin's first highway — navigable from its mouth on the Ohio upstream to Nashville and beyond. Flatboats carried settlers, produce, and livestock downstream to New Orleans. The return journey was overland via the Natchez Trace from Mississippi to Nashville, a grueling 500-mile walk through Chickasaw and Choctaw territory. Overland routes into the basin followed Native and buffalo traces — the road from East Tennessee through the Cumberland Gap, and the road from Virginia through Kentucky. River ferries at fixed crossing points became settlement sites. Travel was slow, dangerous, and seasonal — spring floods made the Cumberland more navigable but the roads impassable.",
+      "road_conditions": "Traces through heavy forest and canebrake. Unimproved dirt and rock. Passable in dry weather; impassable in rain or flood. The Natchez Trace was the best-maintained route and still took two to three weeks.",
+      "travel_times": [
+        { "from": "Nashville", "to": "New Orleans (flatboat)", "mode": "flatboat", "time": "3-4 weeks downstream", "conditions_note": "One-way trip. The flatboat was sold for lumber at New Orleans. Return via Natchez Trace." },
+        { "from": "Nashville", "to": "Gallatin (Sumner)", "mode": "horseback", "time": "4-6 hours", "conditions_note": "Approximately 30 miles on improved trace" },
+        { "from": "Nashville", "to": "Franklin (Williamson)", "mode": "wagon", "time": "1 day", "conditions_note": "Approximately 20 miles through rolling limestone country" },
+        { "from": "Nashville", "to": "Carthage (Smith)", "mode": "flatboat upstream", "time": "3-5 days", "conditions_note": "Upstream travel was slow — poling and sailing against the current" }
+      ],
+      "key_routes": [
+        { "route_name": "Cumberland River", "type": "navigable river", "year_established": "Prehistoric / 1780 for European commerce", "description": "The defining transportation feature of the basin. Navigable from the Ohio River to Nashville and intermittently beyond. Flatboats, keelboats, and after 1818, steamboats.", "counties_served": ["Davidson", "Sumner", "Smith", "Wilson"] },
+        { "route_name": "Natchez Trace", "type": "improved trail", "year_established": "Prehistoric / improved 1801-1820", "description": "500 miles from Nashville to Natchez, Mississippi. The return route for flatboatmen who sold their boats in New Orleans and walked home. Also a mail route and military road.", "counties_served": ["Davidson", "Williamson", "Maury"] },
+        { "route_name": "Road to East Tennessee (through Lebanon)", "type": "wagon road", "year_established": "1790s", "description": "Connected Nashville through Wilson County to East Tennessee via the Cumberland Plateau. One of the earliest overland routes in the basin.", "counties_served": ["Davidson", "Wilson", "Smith"] }
+      ],
+      "isolation_index": {
+        "description": "Moderate to high. The Cumberland River provided a reliable trunk route, but communities away from the river were isolated. The Natchez Trace was a lifeline but dangerous. Overland roads were seasonal at best.",
+        "comparative_note": "Better connected than the Appalachian mountain counties (the Cumberland River was navigable), but more isolated than Virginia's Tidewater. The basin's flat terrain made road-building easier than in mountain Tennessee."
+      },
+      "narrative_hook": "The Cumberland River was {ancestor_name}'s highway — {pronoun_possessive} tobacco and cotton went downstream to Nashville by flatboat, and the return trip was overland, walking the Natchez Trace for three weeks through country where the dangers were both natural and human.",
+      "source": "Arnow, Seedtime on the Cumberland. Davis, William C. A Way Through the Wilderness: The Natchez Trace and the Civilization of the Southern Frontier. New York: HarperCollins, 1995."
+    },
+    {
+      "era_id": "turnpike_steamboat",
+      "era_name": "Turnpike System and Steamboat Era",
+      "date_range": "1830-1860",
+      "primary_modes": ["steamboat on Cumberland River", "wagon/stagecoach on macadamized turnpike", "horseback"],
+      "description": "The turnpike system radiating from Nashville was the basin's signature infrastructure achievement. Macadamized (crushed limestone) roads connected Nashville to every county seat in the cluster: the Franklin Turnpike south to Williamson County, the Murfreesboro Turnpike southeast to Rutherford County, the Columbia Turnpike southwest to Maury County, the Gallatin Turnpike northeast to Sumner County, the Lebanon Turnpike east to Wilson County, and the Springfield Turnpike north to Robertson County. These were toll roads, maintained to a standard that made them usable in most weather. The steamboat transformed river commerce — regular service connected Nashville to Louisville and New Orleans, with stops at Gallatin, Carthage, and intermediate landings.",
+      "road_conditions": "Macadamized turnpikes were crushed limestone surfaces, well-drained and usable in most weather. A dramatic improvement over the frontier traces. County roads away from the turnpikes remained unimproved dirt.",
+      "travel_times": [
+        { "from": "Nashville", "to": "Franklin (Williamson)", "mode": "stagecoach on turnpike", "time": "2-3 hours", "conditions_note": "Franklin Turnpike — approximately 20 miles on improved surface" },
+        { "from": "Nashville", "to": "Murfreesboro (Rutherford)", "mode": "stagecoach on turnpike", "time": "4-5 hours", "conditions_note": "Murfreesboro Turnpike — approximately 35 miles" },
+        { "from": "Nashville", "to": "Columbia (Maury)", "mode": "stagecoach on turnpike", "time": "5-6 hours", "conditions_note": "Columbia Turnpike — approximately 45 miles" },
+        { "from": "Nashville", "to": "Gallatin (Sumner)", "mode": "stagecoach on turnpike", "time": "2-3 hours", "conditions_note": "Gallatin Turnpike — approximately 30 miles" },
+        { "from": "Nashville", "to": "Louisville", "mode": "steamboat", "time": "2-3 days", "conditions_note": "Downstream on the Cumberland to the Ohio, then upstream to Louisville" }
+      ],
+      "key_routes": [
+        { "route_name": "Franklin Turnpike", "type": "macadamized toll road", "year_established": "1830s", "description": "Connected Nashville to Franklin (Williamson County). The primary corridor for Williamson County's cotton and tobacco to reach the Nashville market. Later the route of Hood's march to the Battle of Franklin.", "counties_served": ["Davidson", "Williamson"] },
+        { "route_name": "Murfreesboro Turnpike", "type": "macadamized toll road", "year_established": "1830s", "description": "Connected Nashville to Murfreesboro (Rutherford County). Heavily used by military forces during the Civil War.", "counties_served": ["Davidson", "Rutherford"] },
+        { "route_name": "Columbia Turnpike", "type": "macadamized toll road", "year_established": "1830s", "description": "Connected Nashville through Franklin to Columbia (Maury County). The route carried the basin's wealthiest counties' produce to market.", "counties_served": ["Davidson", "Williamson", "Maury"] },
+        { "route_name": "Gallatin Turnpike", "type": "macadamized toll road", "year_established": "1830s", "description": "Connected Nashville to Gallatin (Sumner County). Parallel to the Cumberland River in some sections.", "counties_served": ["Davidson", "Sumner"] },
+        { "route_name": "Cumberland River steamboat service", "type": "steamboat", "year_established": "1818 (first steamboat)", "description": "Regular steamboat service connected Nashville to Louisville, Paducah, and New Orleans. Stops at Gallatin, Carthage, and intermediate landings.", "counties_served": ["Davidson", "Sumner", "Smith"] }
+      ],
+      "isolation_index": {
+        "description": "Low for communities on the turnpike system or the Cumberland River. Moderate for farms between turnpikes. The radial turnpike system made Nashville accessible from every county seat in a single day.",
+        "comparative_note": "The Nashville turnpike system was one of the best road networks in the antebellum South. The flat limestone terrain made macadamized roads practical and durable."
+      },
+      "narrative_hook": "The turnpikes radiated from Nashville like spokes from a hub, and {ancestor_name}'s cotton and tobacco traveled the macadamized limestone of the {turnpike_name} to market — a day's journey that the previous generation had needed a week to make.",
+      "source": "Corlew, Tennessee: A Short History. University of Tennessee Press, 1981."
+    },
+    {
+      "era_id": "railroad_era",
+      "era_name": "Railroad Era",
+      "date_range": "1850-1920",
+      "primary_modes": ["railroad", "wagon on turnpike", "horseback"],
+      "description": "The railroad reached the Nashville Basin in the 1850s and transformed the commercial geography. The Nashville and Chattanooga Railroad (1853) connected Nashville to Lebanon (Wilson), Murfreesboro (Rutherford), and ultimately to Chattanooga and the Southeast. The Louisville and Nashville Railroad (1859) connected Nashville to Louisville. After the Civil War — during which the railroads were critical military infrastructure — the railroad network expanded. The Tennessee Central Railway (1902) connected Nashville through Wilson and Smith counties to the Upper Cumberland. By 1900, every county seat in the cluster had railroad service, and the turnpikes declined in commercial importance.",
+      "road_conditions": "Turnpikes still maintained but declining in importance for long-distance commerce. County roads remained largely unimproved. The contrast between railroad-served towns (growing) and off-railroad communities (stagnating) was stark.",
+      "travel_times": [
+        { "from": "Nashville", "to": "Murfreesboro", "mode": "railroad", "time": "1-2 hours", "conditions_note": "Nashville and Chattanooga Railroad" },
+        { "from": "Nashville", "to": "Lebanon", "mode": "railroad", "time": "1 hour", "conditions_note": "Nashville and Chattanooga Railroad" },
+        { "from": "Nashville", "to": "Louisville", "mode": "railroad", "time": "6-8 hours", "conditions_note": "L&N Railroad" },
+        { "from": "Nashville", "to": "Carthage (Smith)", "mode": "railroad", "time": "2-3 hours", "conditions_note": "Tennessee Central Railway (after 1902)" },
+        { "from": "Nashville", "to": "Gallatin", "mode": "railroad", "time": "45 minutes-1 hour", "conditions_note": "L&N branch line" }
+      ],
+      "key_routes": [
+        { "route_name": "Nashville and Chattanooga Railroad", "type": "railroad", "year_established": "1853", "description": "The basin's first railroad. Connected Nashville through Murfreesboro to Chattanooga. During the Civil War, this was the critical supply line for Federal forces.", "counties_served": ["Davidson", "Wilson", "Rutherford"] },
+        { "route_name": "Louisville and Nashville Railroad (L&N)", "type": "railroad", "year_established": "1859", "description": "Connected Nashville to Louisville and the national rail network. Became the dominant railroad in Middle Tennessee.", "counties_served": ["Davidson", "Sumner", "Robertson"] },
+        { "route_name": "Tennessee Central Railway", "type": "railroad", "year_established": "1902", "description": "Connected Nashville through Lebanon and Carthage to Cookeville and the Upper Cumberland. Opened the eastern portion of the cluster to rail commerce.", "counties_served": ["Davidson", "Wilson", "Smith"] },
+        { "route_name": "Nashville, Chattanooga & St. Louis Railway (NC&StL)", "type": "railroad", "year_established": "1873 (reorganized from N&C)", "description": "Successor to the Nashville and Chattanooga. Extended service to Columbia (Maury County) and beyond. The primary railroad serving the southern basin counties.", "counties_served": ["Davidson", "Williamson", "Maury", "Rutherford"] }
+      ],
+      "isolation_index": {
+        "description": "Low for railroad-served communities. Moderate for off-railroad farms — a farmer away from the railroad still needed a wagon to reach the depot.",
+        "comparative_note": "The Nashville Basin's railroad network was one of the best in the Upper South, second only to Virginia. Nashville's position as a railroad junction made it accessible from every direction."
+      },
+      "narrative_hook": "The railroad collapsed the basin's distances — what had taken {ancestor_name}'s father a full day by turnpike took an hour by train, and the depot at {town} became the new center of gravity for every farm within wagon range.",
+      "source": "Corlew, Tennessee: A Short History. University of Tennessee Press, 1981."
+    },
+    {
+      "era_id": "automobile_era",
+      "era_name": "Automobile Era and Suburban Expansion",
+      "date_range": "1920-1960",
+      "primary_modes": ["automobile", "railroad (declining for passengers)", "truck (replacing rail for freight)"],
+      "description": "The automobile transformed the basin's geography by the 1930s. The turnpikes were paved for automobile traffic, and new highways connected Nashville to the surrounding counties. US 41 (the Dixie Highway) ran through the basin, connecting Nashville to Chattanooga and to Louisville. US 31 connected Nashville to Franklin, Columbia, and points south. The automobile and the paved highway ended rural isolation — farm families could reach Nashville for shopping, medical care, and entertainment in hours rather than days. After WWII, the automobile enabled suburban development: Nashville's suburbs spread south into Williamson County and east into Wilson County. Old Hickory Dam (1954) and the creation of Percy Priest Lake (1968, beyond the cluster's era range) reshaped waterway geography.",
+      "road_conditions": "Paved highways on the main routes (US 41, US 31, US 70). County roads improved with federal and state funding but many remained gravel or dirt until the 1950s.",
+      "travel_times": [
+        { "from": "Nashville", "to": "Franklin", "mode": "automobile", "time": "30-45 minutes", "conditions_note": "US 31 — paved highway" },
+        { "from": "Nashville", "to": "Murfreesboro", "mode": "automobile", "time": "45 minutes-1 hour", "conditions_note": "US 41/70S — paved highway" },
+        { "from": "Nashville", "to": "Columbia", "mode": "automobile", "time": "1 hour", "conditions_note": "US 31 through Franklin" },
+        { "from": "Nashville", "to": "Gallatin", "mode": "automobile", "time": "30-40 minutes", "conditions_note": "US 31E — paved highway" }
+      ],
+      "key_routes": [
+        { "route_name": "US 31 (Nashville-Franklin-Columbia-Pulaski)", "type": "federal highway", "year_established": "1926 (numbered)", "description": "The successor to the Columbia and Franklin turnpikes. The primary north-south highway through the basin's western corridor.", "counties_served": ["Davidson", "Williamson", "Maury"] },
+        { "route_name": "US 41/70S (Nashville-Murfreesboro-Chattanooga)", "type": "federal highway", "year_established": "1926 (numbered)", "description": "The successor to the Murfreesboro Turnpike. Followed the old Nashville and Chattanooga Railroad corridor.", "counties_served": ["Davidson", "Rutherford"] },
+        { "route_name": "US 31E (Nashville-Gallatin-Scottsville)", "type": "federal highway", "year_established": "1926 (numbered)", "description": "The successor to the Gallatin Turnpike. Connected Nashville to Sumner County and beyond.", "counties_served": ["Davidson", "Sumner"] }
+      ],
+      "isolation_index": {
+        "description": "Low everywhere by 1950. The automobile and paved highways effectively ended rural isolation in the basin.",
+        "comparative_note": "The Nashville Basin was among the first rural regions in Tennessee to achieve near-universal automobile access, thanks to the flat terrain and the existing turnpike corridors that were easily paved."
+      },
+      "narrative_hook": "The automobile put Nashville within an hour of every farm in the basin, and for {ancestor_name}'s children, that meant the farm was no longer the whole world — it was a choice, not a sentence.",
+      "source": "Doyle, Nashville Since the 1920s. University of Tennessee Press, 1985."
+    }
+  ],
+  "railroad_timeline": [
+    { "railroad": "Nashville and Chattanooga Railroad", "year": 1853, "stations": ["Nashville", "Lebanon", "Murfreesboro"], "impact": "First railroad in the basin. Connected Nashville to the Southeast." },
+    { "railroad": "Louisville and Nashville Railroad (L&N)", "year": 1859, "stations": ["Nashville", "Gallatin"], "impact": "Connected Nashville to Louisville and the national rail network." },
+    { "railroad": "Nashville, Chattanooga & St. Louis Railway", "year": 1873, "stations": ["Nashville", "Franklin", "Columbia", "Murfreesboro"], "impact": "Expanded service to the southern basin counties." },
+    { "railroad": "Tennessee Central Railway", "year": 1902, "stations": ["Nashville", "Lebanon", "Carthage"], "impact": "Connected the eastern basin to Nashville. Opened Smith County to rail commerce." }
+  ],
+  "narrative_hooks": [
+    "The Cumberland River was {ancestor_name}'s first highway — flatboats downstream, the Natchez Trace walking home — and every improvement after that made the journey shorter until the automobile made it trivial.",
+    "The turnpike system radiated from Nashville like spokes from a wheel, and {ancestor_name}'s county sat at the end of one of those spokes — connected to the city by a macadamized limestone road that made a day trip possible for the first time.",
+    "The railroad collapsed the basin's distances — what had been a two-day wagon haul became a two-hour train ride, and the depot replaced the river landing as the center of {ancestor_name}'s economic world.",
+    "During the Civil War, the turnpikes and railroads that had carried cotton to market carried armies instead — and {ancestor_name} watched troops march past {pronoun_possessive} farm on the same road that had carried {pronoun_possessive} tobacco to Nashville.",
+    "The automobile ended rural isolation in the basin — by 1940, {ancestor_name} could drive to Nashville for a doctor, a department store, or a Grand Ole Opry show and be home by midnight."
+  ],
+  "source_references": [
+    "Arnow, Harriette Simpson. Seedtime on the Cumberland. New York: Macmillan, 1960.",
+    "Davis, William C. A Way Through the Wilderness: The Natchez Trace and the Civilization of the Southern Frontier. New York: HarperCollins, 1995.",
+    "Corlew, Robert E. Tennessee: A Short History. 2nd ed. Knoxville: University of Tennessee Press, 1981.",
+    "Durham, Walter T. Nashville: The Occupied City. Knoxville: University of Tennessee Press, 1985.",
+    "Doyle, Don H. Nashville Since the 1920s. Knoxville: University of Tennessee Press, 1985."
+  ],
+  "nel_cross_references": {
+    "route_refs": ["natchez_trace", "cumberland_river_corridor"],
+    "trigger_refs": ["civil_war_displacement", "gi_bill_migration"]
+  }
+}

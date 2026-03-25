@@ -1,0 +1,113 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Jackson County, AL. Record survival and courthouse history. Jackson County was formed in 1819, the year of Alabama statehood. The Scottsboro courthouse — site of the Scottsboro Boys trials (1931-1937) — is among the most historically significant courthouses in the American South.",
+  "courthouse_atlas_id": "al_jackson_courthouse",
+  "display_name": "Jackson County, Alabama — Courthouse Atlas",
+  "county": "Jackson",
+  "state": "AL",
+  "fips_code": "01071",
+  "cluster_ref": "al_tennessee_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1912,
+      "location": "Scottsboro, AL — 102 Laurel Street",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1819–1868",
+        "location": "Bellefonte (original county seat)",
+        "fate": "Bellefonte was the original county seat. Frame and later brick courthouse. County seat moved to Scottsboro in 1868. Records transferred."
+      },
+      {
+        "era": "1868–1912",
+        "location": "Scottsboro, original building",
+        "fate": "First Scottsboro courthouse. Replaced by the current 1912 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "jackson_bellefonte_transfer",
+      "date": "1868",
+      "cause": "County seat move from Bellefonte to Scottsboro — some records may have been lost in transfer",
+      "records_destroyed": ["Some loose court papers may have been lost during the county seat relocation"],
+      "records_survived": ["deed books", "will books", "marriage records", "most court minutes"],
+      "scope": "minor",
+      "description": "When the county seat moved from Bellefonte to Scottsboro in 1868, bound record books were transferred intact. Some loose papers and files may have been lost during the move. The Civil War disrupted normal county operations but did not destroy the courthouse at Bellefonte. Jackson County records are generally continuous from 1819.",
+      "narrative_impact": "If {ancestor_name} lived in Jackson County before 1868, the records were created at Bellefonte but are now housed at Scottsboro. The bound books survived; loose papers may not have.",
+      "source": "Alabama Department of Archives and History. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1819,
+      "completeness": "Good — continuous from county formation",
+      "gaps": "No major gaps",
+      "repository": "Jackson County Probate Office, Scottsboro; ADAH microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1820,
+      "completeness": "Good",
+      "gaps": "Minor gaps in earliest loose papers",
+      "repository": "Jackson County Probate Office; ADAH",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1819,
+      "completeness": "Good",
+      "gaps": "No significant gaps",
+      "repository": "Jackson County Probate Office; ADAH microfilm",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1819,
+      "completeness": "Good",
+      "gaps": "Minor gaps during Civil War",
+      "repository": "ADAH; Jackson County Circuit Clerk",
+      "online_access": "ADAH microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Spotty until approximately 1920. Sand Mountain communities had lower registration rates than the valley towns.",
+      "repository": "Alabama Department of Public Health; ADAH"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Scottsboro Boys trial records",
+      "description": "The trial records from the Scottsboro Boys cases (1931-1937) are among the most thoroughly documented criminal proceedings in Alabama history. Multiple trials, appeals to the US Supreme Court, and extensive national press coverage.",
+      "repository": "Jackson County Circuit Clerk (trial records); ADAH; Scottsboro Boys Museum, Scottsboro; National Archives (federal appeal records)",
+      "era_coverage": "1931-1937",
+      "genealogical_value": "The trial records and related newspaper coverage name jurors, witnesses, attorneys, and community members. For any family in Jackson County during 1931-1937, the Scottsboro case was the defining event — newspaper coverage is extensive and names many county residents.",
+      "source": "Carter, Dan T. Scottsboro: A Tragedy of the American South. Revised ed. Baton Rouge: Louisiana State University Press, 2007."
+    },
+    {
+      "source_type": "TVA land acquisition records",
+      "description": "TVA land purchases for Guntersville Dam (1939) displaced families along the Tennessee River in western Jackson County.",
+      "repository": "TVA Archives, Knoxville, TN; National Archives (RG 142); ADAH",
+      "era_coverage": "1935-1942",
+      "genealogical_value": "Documents families displaced by reservoir construction. Includes names, property descriptions, and compensation. For families who disappear from Jackson County records in the late 1930s, check TVA displacement records.",
+      "source": "Tennessee Valley Authority. Land Acquisition Records."
+    }
+  ],
+  "narrative_hooks": [
+    "The Scottsboro courthouse where {ancestor_name}'s records are filed is the same courthouse where nine Black teenagers were sentenced to death on fabricated charges in 1931 — the building holds both ordinary records and extraordinary injustice.",
+    "Jackson County's records start at Bellefonte, not Scottsboro — if {ancestor_name} appears before 1868, the records were created at a county seat that no longer exists.",
+    "If {ancestor_name}'s family lived on the Tennessee River bottom in western Jackson County and disappeared from records after 1937, check TVA's Guntersville Dam displacement files — the lake may have taken the farm.",
+    "Sand Mountain families in Jackson County left fewer records than valley families — the isolation and subsistence economy meant fewer deeds, fewer court appearances, and fewer traces in the paper trail."
+  ],
+  "source_references": [
+    "Alabama Department of Archives and History. Guide to County Records in the Alabama State Archives. Montgomery: ADAH, 2005.",
+    "Carter, Dan T. Scottsboro: A Tragedy of the American South. Revised ed. Baton Rouge: Louisiana State University Press, 2007.",
+    "Tennessee Valley Authority. Land Acquisition Records, Guntersville Dam Project."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "al_jackson",
+    "research_guidance_refs": ["freedmens_bureau_records"],
+    "template_refs": ["record_silences"]
+  }
+}

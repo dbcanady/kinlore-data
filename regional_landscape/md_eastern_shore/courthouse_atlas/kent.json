@@ -1,0 +1,127 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Kent County, MD. The oldest county on the Eastern Shore — records from 1648. Chestertown served as both county seat and commercial port. No catastrophic fire. Kent County's colonial records are among the most complete on the Eastern Shore, and the Washington College connection provides additional archival resources. The 1860 courthouse fire destroyed some records but was contained before catastrophic loss.",
+  "courthouse_atlas_id": "md_kent_courthouse",
+  "display_name": "Kent County, Maryland — Courthouse Atlas",
+  "county": "Kent",
+  "state": "MD",
+  "fips_code": "24029",
+  "cluster_ref": "md_eastern_shore",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1860,
+      "location": "Chestertown, MD — 103 N. Cross Street (rebuilt after 1860 fire; expanded and renovated)",
+      "records_housed": ["land records from 1648", "court records", "marriage licenses", "wills and estates"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1648-1698",
+        "location": "New Yarmouth (original county seat, now largely vanished). Courts met at various locations.",
+        "fate": "County seat moved to Chestertown by 1698."
+      },
+      {
+        "era": "1698-1860",
+        "location": "Chestertown — successive courthouse buildings on or near Cross Street.",
+        "fate": "The 1860 fire damaged the courthouse but records were largely saved. Rebuilt on the same site."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "kent_1860_courthouse_fire",
+      "date": "1860",
+      "cause": "Fire damaged the courthouse building",
+      "records_destroyed": ["some court minute books from the late 18th and early 19th centuries damaged or destroyed", "some loose papers and files lost"],
+      "records_survived": ["land record books largely survived — the bound volumes were removed during the fire", "wills and estate records largely survived", "early colonial records (the oldest volumes) had already been transferred to Annapolis and were not in the building"],
+      "scope": "moderate",
+      "description": "The 1860 courthouse fire in Chestertown damaged the building and destroyed some court records, but the damage was not catastrophic. The most critical records — the bound land record volumes and the early colonial records already at the State Archives — survived. Some loose court papers and minutes from the late 1700s and early 1800s were lost. The courthouse was rebuilt quickly, and record-keeping resumed without a significant gap.",
+      "narrative_impact": "If {ancestor_name} appears in Kent County court proceedings between roughly 1780 and 1860, there may be gaps. Land records, wills, and the earliest colonial records are intact.",
+      "source": "Maryland State Archives. Guide to Government Records. Annapolis, 2005. Usilton, Frederick G. History of Kent County, Maryland. Chestertown, 1916."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1648,
+      "completeness": "Very good. Land records from 1648 — among the oldest county-level land records in Maryland. The provincial patent books at the State Archives supplement the county records.",
+      "gaps": "Minor fragmentary gaps in the earliest decades. Substantially complete from the 1660s onward.",
+      "repository": "Maryland State Archives; Kent County Circuit Court, Chestertown",
+      "online_access": "Maryland State Archives (mdlandrec.net); FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1655,
+      "completeness": "Very good. Wills and inventories from 1655. Colonial-era inventories are detailed.",
+      "gaps": "Minor gaps before 1660.",
+      "repository": "Maryland State Archives; Kent County Register of Wills",
+      "online_access": "Maryland State Archives; FamilySearch"
+    },
+    "marriages": {
+      "earliest_surviving": 1796,
+      "completeness": "Marriage licenses from 1796. Earlier marriages in Anglican parish records and Quaker meeting records.",
+      "gaps": "No civil marriage records before 1796.",
+      "repository": "Maryland State Archives; Kent County Clerk of Court",
+      "online_access": "FamilySearch; Ancestry.com MD marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1648,
+      "completeness": "Good for the colonial period (early records at State Archives). Some gaps from the 1860 fire affecting 1780-1860 period.",
+      "gaps": "1860 fire caused some losses in court minutes from the late 18th and early 19th centuries.",
+      "repository": "Maryland State Archives",
+      "online_access": "Maryland State Archives; Archives of Maryland Online"
+    },
+    "vital_records": {
+      "birth_registration_start": 1898,
+      "death_registration_start": 1898,
+      "completeness": "Maryland statewide registration began 1898.",
+      "gaps": "No civil vital records before 1898.",
+      "repository": "Maryland Division of Vital Records; Maryland State Archives",
+      "online_access": "Maryland State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Chester Parish (Anglican/Episcopal) Records",
+      "repository": "Maryland Diocesan Archives; Maryland State Archives",
+      "date_range": "1690s-present",
+      "description": "Vestry books, baptism and burial registers for the established Anglican parish in Chestertown. Chester Parish records include vestry proceedings that document civil functions.",
+      "genealogical_value": "Very good for Anglican families. The vestry was a governing body — its records document poor relief, apprenticeship, and community governance."
+    },
+    {
+      "source_type": "Washington College Archives",
+      "repository": "Washington College, Chestertown",
+      "date_range": "1782-present",
+      "description": "The archives of Washington College (founded 1782) include records related to local families, particularly the planter class who supported the college.",
+      "genealogical_value": "Useful for families connected to the Kent County gentry. Trustee records, student records, and financial records document community leaders."
+    },
+    {
+      "source_type": "Quaker Meeting Records (Cecil Monthly Meeting overflow)",
+      "repository": "Friends Historical Library, Swarthmore College",
+      "date_range": "1680s-present",
+      "description": "Some Kent County Quaker families were connected to Cecil County monthly meetings. Cross-border meeting attendance was common.",
+      "genealogical_value": "Good for Quaker families, especially those in northern Kent County near the Cecil County border."
+    },
+    {
+      "source_type": "War of 1812 Damage Claims and Militia Records",
+      "repository": "National Archives; Maryland State Archives",
+      "date_range": "1813-1815",
+      "description": "Claims for property destroyed during the British raids on Georgetown and Fredericktown (1813) and militia muster rolls for the Kent County militia.",
+      "genealogical_value": "Documents families affected by the British raids. Damage claims list property losses and provide evidence of residence and economic status."
+    }
+  ],
+  "narrative_hooks": [
+    "Kent County's records reach back to 1648 — the oldest on the Eastern Shore — and if {ancestor_name} was in the county, the paper trail may stretch further back than any other county on the Delmarva.",
+    "The 1860 fire took some of Kent County's court records but the land books survived — {ancestor_name}'s deeds are intact even if the court case that disputed them may be lost.",
+    "Washington College opened in 1782, and {ancestor_name} lived in a county seat that valued learning — the planter class who built the college were the same families who held the enslaved community in bondage.",
+    "The War of 1812 damage claims name the families the British raided — and {ancestor_name}'s losses are documented in a government filing that records the cost of war at the level of a farm and a barrel of grain."
+  ],
+  "source_references": [
+    "Maryland State Archives. Guide to Government Records. Annapolis, 2005.",
+    "Usilton, Frederick G. History of Kent County, Maryland. Chestertown: published by the author, 1916.",
+    "National Archives. War of 1812 Service Records and Damage Claims."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "md_kent",
+    "research_guidance_refs": ["census_gaps", "vital_records", "property_records", "church_transfers"],
+    "template_refs": ["record_silences"]
+  }
+}

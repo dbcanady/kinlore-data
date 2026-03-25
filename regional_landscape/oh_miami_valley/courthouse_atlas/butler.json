@@ -1,0 +1,138 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Butler County, OH. Record survival, courthouse history, and known losses. Butler County was formed in 1803 from Hamilton County, with Hamilton as county seat. Positioned on the Great Miami River with direct access to Cincinnati markets, Butler County holds continuous records from formation with no major courthouse fire.",
+  "courthouse_atlas_id": "oh_butler_courthouse",
+  "display_name": "Butler County, Ohio — Courthouse Atlas",
+  "county": "Butler",
+  "state": "OH",
+  "fips_code": "39017",
+  "cluster_ref": "oh_miami_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1889,
+      "location": "Hamilton, OH — 130 High Street (historic courthouse; county offices also at Government Services Center, 315 High Street)",
+      "records_housed": ["deeds", "plats", "marriage records", "probate records", "court minutes", "naturalization records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1803–1817",
+        "location": "Hamilton, log courthouse",
+        "fate": "Outgrown. Records transferred intact."
+      },
+      {
+        "era": "1817–1855",
+        "location": "Hamilton, brick courthouse on High Street",
+        "fate": "Replaced with larger building. Records survived."
+      },
+      {
+        "era": "1855–1889",
+        "location": "Hamilton, enlarged courthouse on same site",
+        "fate": "Replaced by the 1889 Romanesque building. Records survived."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "butler_1913_flood",
+      "date": "1913-03-25",
+      "cause": "Great Flood of 1913",
+      "records_destroyed": ["private records in Hamilton flood zone", "some business records along the Great Miami River corridor"],
+      "records_survived": ["deed books", "probate records", "marriage records", "court minutes"],
+      "scope": "Private records significant; county records survived",
+      "description": "The Great Flood of March 1913 struck Hamilton as it struck Dayton — the Great Miami River overflowed and inundated the low-lying portions of the city. The courthouse, located on higher ground on High Street, survived with records intact. However, private records in flooded homes and businesses were destroyed. Hamilton's industrial district along the river suffered extensive damage. The flood killed approximately twenty people in Butler County.",
+      "narrative_impact": "If {ancestor_name} lived in low-lying Hamilton in March 1913, the flood likely destroyed personal papers and household records. The courthouse records survived, but the gap between what the courthouse recorded and what the family kept is the flood's invisible toll.",
+      "source": "Cone, Stephen D. Butler County, Ohio: History and Biographical Sketches. Hamilton, OH: B. F. Bowen & Co., 1905. Bock, Allan W. The Great Dayton Flood of 1913. Dayton: Landfall Press, 1997."
+    },
+    {
+      "loss_id": "butler_no_courthouse_fire",
+      "date": "N/A",
+      "cause": "None known",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1803", "probate records from 1803", "marriage records from 1803", "court minutes from 1803"],
+      "scope": "none",
+      "description": "Butler County has experienced no courthouse fire. Records run continuously from the 1803 formation. The county's proximity to Cincinnati meant early settlement and strong institutional record-keeping from the outset.",
+      "narrative_impact": "Butler County's complete courthouse record survival means that gaps in {ancestor_name}'s documentation reflect individual circumstances rather than institutional losses.",
+      "source": "Cone, Butler County, Ohio: History and Biographical Sketches."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1803,
+      "completeness": "Excellent — continuous series from county organization",
+      "gaps": "No known gaps. Early deeds include both VMD metes-and-bounds tracts (east of the Little Miami) and Congress Lands rectangular survey tracts.",
+      "repository": "Butler County Recorder, Hamilton; Ohio History Connection microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com OH land records; Butler County Recorder online portal"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1803,
+      "completeness": "Excellent — probate records from county organization",
+      "gaps": "Early loose papers fragile. Bound probate journals intact.",
+      "repository": "Butler County Probate Court, Hamilton; Ohio History Connection",
+      "online_access": "FamilySearch microfilm; limited online indexing"
+    },
+    "marriages": {
+      "earliest_surviving": 1803,
+      "completeness": "Excellent — marriage records from county organization",
+      "gaps": "Minimal. Ohio marriage licensing from 1803 provided earlier documentation than many states.",
+      "repository": "Butler County Probate Court; Ohio History Connection microfilm",
+      "online_access": "FamilySearch; Ancestry.com OH marriages collection"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1803,
+      "completeness": "Good — Court of Common Pleas minutes from organization",
+      "gaps": "Justice of the peace records incomplete before 1830.",
+      "repository": "Butler County Clerk of Courts; Ohio History Connection",
+      "online_access": "Limited — on-site or microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Ohio statewide registration began 1908. Hamilton city health records may predate this for the city proper. Probate court recorded some births/deaths from the 1860s under earlier statutes.",
+      "repository": "Butler County Probate Court; Ohio Department of Health; Lane Public Library, Hamilton (local history collection)"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Miami University records",
+      "description": "Miami University (founded 1809 in Oxford, Butler County) is one of the oldest public universities west of the Alleghenies. University records — enrollment, alumni, faculty — document the educated class across southwestern Ohio.",
+      "repository": "Miami University Libraries Special Collections, Oxford, OH; Ohio History Connection",
+      "era_coverage": "1809–present",
+      "genealogical_value": "Enrollment records document families who could afford higher education. Alumni directories trace post-graduation locations and occupations. Faculty records document the professional class in Butler County.",
+      "source": "Havighurst, Walter. The Miami Years, 1809-1984. New York: Putnam, 1984."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1800–1940. Manufacturing schedules (1820–1880) document Hamilton's industrial economy. Agricultural schedules (1850–1880) document the rural townships.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1800–1940",
+      "genealogical_value": "Essential for tracking families. The 1820 manufacturing schedules capture Hamilton's early paper mills and other industries on the Great Miami River.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Butler County, OH."
+    },
+    {
+      "source_type": "German-heritage church and fraternal records",
+      "description": "Butler County had a significant German population. German Reformed, Lutheran, and Catholic congregations maintained records in German. German fraternal organizations (Turnverein, singing societies) also documented members.",
+      "repository": "Individual congregations; Lane Public Library local history collection; Evangelical and Reformed Historical Society; Catholic Diocese of Cincinnati archives",
+      "era_coverage": "1830s–1920s",
+      "genealogical_value": "German-language church records provide details not found in English civil records — baptismal sponsors, parents' German birthplaces, family relationships. Fraternal organization records document social networks.",
+      "source": "Tolzmann, Don Heinrich. The German-American Experience. Amherst, NY: Humanity Books, 2000."
+    }
+  ],
+  "narrative_hooks": [
+    "Butler County's courthouse records run from 1803 without a break — if {ancestor_name} bought land, married, or died in this county, the record almost certainly survives in the Hamilton courthouse.",
+    "The 1913 flood swept through Hamilton along the Great Miami, and the water took the personal papers with it — {ancestor_name}'s courthouse records survived on higher ground, but the family Bible may have gone downstream.",
+    "If {ancestor_name} attended Miami University in Oxford, the university records may survive where family records do not — enrollment lists, alumni directories, and campus publications that documented students from across the Miami Valley.",
+    "Butler County sits at the junction of two land survey systems — Virginia Military District metes and bounds to the east, Congress Lands rectangular survey to the west. The survey type on {ancestor_name}'s deed tells you which side of the line the family settled."
+  ],
+  "source_references": [
+    "Cone, Stephen D. Butler County, Ohio: History and Biographical Sketches. Hamilton, OH: B. F. Bowen & Co., 1905.",
+    "Havighurst, Walter. The Miami Years, 1809-1984. New York: Putnam, 1984.",
+    "Bock, Allan W. The Great Dayton Flood of 1913. Dayton: Landfall Press, 1997.",
+    "Ohio History Connection. County Records Guide: Butler County."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "oh_butler",
+    "research_guidance_refs": ["census_gaps", "vital_records", "property_records", "immigrant_record_sources"],
+    "template_refs": ["record_silences"]
+  }
+}

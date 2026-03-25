@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Rutherford County, TN. Formed 1803. The 1862 courthouse fire during Civil War occupation destroyed some early records. Battle of Stones River fought through the county seat.",
+  "courthouse_atlas_id": "tn_rutherford_courthouse",
+  "display_name": "Rutherford County, Tennessee — Courthouse Atlas",
+  "county": "Rutherford",
+  "state": "TN",
+  "fips_code": "47149",
+  "cluster_ref": "tn_middle_nashville_basin",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1859,
+      "location": "Murfreesboro, TN — Public Square (historic courthouse, expanded and renovated multiple times)",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1804-1812",
+        "location": "Murfreesboro, near the public square",
+        "fate": "Early frame courthouse."
+      },
+      {
+        "era": "1812-1859",
+        "location": "Murfreesboro, Public Square",
+        "fate": "Brick courthouse. Some records damaged during Civil War occupation."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "rutherford_civil_war_damage",
+      "date": "1862-1863",
+      "cause": "Civil War occupation — both Federal and Confederate forces used Murfreesboro. Some court records disrupted or lost during the Battle of Stones River period.",
+      "records_destroyed": ["Some loose court papers from the 1862-1863 period", "Some early tax records"],
+      "records_survived": ["deed books", "most will books", "marriage bonds/licenses", "most court minutes"],
+      "scope": "moderate — early bound volumes survived; loose papers were more vulnerable",
+      "description": "Murfreesboro was occupied by both Confederate and Federal forces at different points during the war, and the Battle of Stones River (December 31, 1862 - January 2, 1863) was fought through and around the town. The courthouse was used as a military headquarters and hospital at various points. Bound record books (deeds, wills, court minutes) generally survived because they were heavy, valuable, and difficult to replace. Loose court papers, tax records, and some administrative files were disrupted or lost during the chaos of the battle and subsequent occupation.",
+      "narrative_impact": "If {ancestor_name} had business before the Rutherford County court between 1862 and 1865, the record may not survive — not because the courthouse burned but because two armies fought through the town and neither one worried about the clerk's filing system.",
+      "source": "Tennessee State Library and Archives. Guide to County Records. Cozzens, No Better Place to Die."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1804,
+      "completeness": "Good — deed books survive from near-formation with minor gaps",
+      "gaps": "Some early deed books show damage but are largely legible. The Civil War period shows gaps in new recordings but bound volumes survived.",
+      "repository": "Rutherford County Register of Deeds; Tennessee State Library and Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com Tennessee land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1805,
+      "completeness": "Good — most will books and estate records survive from the early period",
+      "gaps": "Some loose estate papers from the war years are missing. Bound will books are intact.",
+      "repository": "Rutherford County Probate Court; Tennessee State Library and Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1804,
+      "completeness": "Good — marriage bonds from formation; licenses from 1838",
+      "gaps": "Minor gaps in the earliest bond records.",
+      "repository": "Rutherford County Clerk; Tennessee State Library and Archives",
+      "online_access": "FamilySearch; Ancestry.com Tennessee marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1804,
+      "completeness": "Fair to good — some wartime disruption in the minute books reflecting government suspension during military occupation",
+      "gaps": "Gaps during the Civil War period (1862-1865) when normal court operations were suspended.",
+      "repository": "Tennessee State Library and Archives",
+      "online_access": "TSLA microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Standard Tennessee pattern — statewide registration from 1908, incomplete in rural areas until 1920s.",
+      "repository": "Tennessee Department of Health"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Stones River National Battlefield records",
+      "description": "Extensive military records document the Battle of Stones River, including unit rosters, casualty lists, and the Stones River National Cemetery burial register.",
+      "repository": "Stones River National Battlefield archives; National Archives; Tennessee State Library and Archives",
+      "era_coverage": "1862-1863",
+      "genealogical_value": "If an ancestor served in a unit engaged at Stones River, the battlefield records provide detail beyond standard compiled service records — hospital records, burial registers, and unit histories.",
+      "source": "Cozzens, Peter. No Better Place to Die. University of Illinois Press, 1990."
+    },
+    {
+      "source_type": "Church records",
+      "description": "Methodist, Baptist, and Presbyterian churches in Rutherford County maintained records. Some church records predate civil records for vital events.",
+      "repository": "Individual congregations; Tennessee State Library and Archives",
+      "era_coverage": "1810s-present",
+      "genealogical_value": "Supplement civil records, particularly for marriages before 1838 and vital events before 1908.",
+      "source": "Tennessee State Library and Archives. Guide to Church Records."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1800-1940. Agricultural schedules (1850-1880). Slave schedules (1850, 1860).",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1800-1940",
+      "genealogical_value": "Essential for tracking families. The 1870 census provides the first named listing of formerly enslaved families.",
+      "source": "National Archives. Federal Census Schedules, Rutherford County, TN."
+    }
+  ],
+  "narrative_hooks": [
+    "The Battle of Stones River was fought through Murfreesboro, and {ancestor_name}'s court records from the war years may not survive — not because the courthouse burned but because two armies turned the county seat into a battlefield.",
+    "Rutherford County's bound deed books and will books survived the war — the heavy leather-bound volumes were too valuable to discard and too cumbersome to steal. If {ancestor_name} owned land or left a will, the record is almost certainly still there.",
+    "If {ancestor_name} is buried in the Stones River National Cemetery, the burial register provides name, unit, date of death, and cause — a level of detail that Confederate records rarely match.",
+    "The gap in Rutherford County court minutes between 1862 and 1865 reflects not record loss but government collapse — there was no court session because there was no functioning government while the armies fought."
+  ],
+  "source_references": [
+    "Tennessee State Library and Archives. Guide to County Records in the Tennessee State Library and Archives. Nashville: TSLA.",
+    "Cozzens, Peter. No Better Place to Die: The Battle of Stones River. Urbana: University of Illinois Press, 1990.",
+    "Sistler, Byron, and Barbara Sistler. Early Middle Tennessee Marriages. Nashville: Byron Sistler & Associates, 1988."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "tn_rutherford",
+    "research_guidance_refs": ["census_gaps", "military_records", "vital_records"],
+    "template_refs": ["record_silences"]
+  }
+}

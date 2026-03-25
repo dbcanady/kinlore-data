@@ -1,0 +1,113 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Green County, WI. Records are excellent from county formation (1836). The Swiss colony at New Glarus generated distinctive records — Swiss German church registers, cheese factory patronage lists, and Emigration Society documents.",
+  "courthouse_atlas_id": "wi_green_courthouse",
+  "display_name": "Green County, Wisconsin — Courthouse Atlas",
+  "county": "Green",
+  "state": "WI",
+  "fips_code": "55045",
+  "cluster_ref": "wi_southern_driftless",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1891,
+      "location": "Monroe, WI — 1016 16th Avenue (historic courthouse, still in use with additions)",
+      "records_housed": ["deeds", "mortgages", "probate records", "court records", "vital records (post-1907)"]
+    },
+    "previous_courthouses": [
+      { "era": "1836-1861", "location": "Monroe, various early buildings", "fate": "Replaced. No fire loss." },
+      { "era": "1861-1891", "location": "Monroe, courthouse square", "fate": "Replaced by current Romanesque Revival building." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "green_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire or war damage",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage records", "probate files"],
+      "scope": "none",
+      "description": "Green County has experienced no significant courthouse fire or record loss. Records are continuous from the territorial era. The Swiss colony records at New Glarus add a unique genealogical layer.",
+      "narrative_impact": "Green County's records are intact. If {ancestor_name} lived here, the paper trail survives. For Swiss families, the Emigration Society records at the Wisconsin Historical Society may document the original emigration from Canton Glarus.",
+      "source": "Wisconsin Historical Society. Guide to Wisconsin County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1836,
+      "completeness": "Excellent — continuous from territorial era",
+      "gaps": "No known gaps",
+      "repository": "Green County Register of Deeds; Wisconsin Historical Society microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1838,
+      "completeness": "Good",
+      "gaps": "Minor in earliest territorial period",
+      "repository": "Green County Probate Court; Wisconsin Historical Society",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1838,
+      "completeness": "Good",
+      "gaps": "Minimal",
+      "repository": "Green County Register of Deeds; Wisconsin Historical Society",
+      "online_access": "FamilySearch; Ancestry.com WI marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1838,
+      "completeness": "Good",
+      "gaps": "Minor in territorial period",
+      "repository": "Green County Clerk of Courts; Wisconsin Historical Society",
+      "online_access": "Limited; WHS microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1907,
+      "death_registration_start": 1907,
+      "completeness": "Statewide registration from 1907. Pre-1907 rely on Swiss Reformed and Norwegian Lutheran church records.",
+      "repository": "Wisconsin Department of Health Services; Swiss colony church records at Wisconsin Historical Society"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Swiss Emigration Society records",
+      "description": "The Emigration Society of Canton Glarus organized the 1845 colony. Records include passenger lists, financial accounts, and correspondence documenting the founding families.",
+      "repository": "Wisconsin Historical Society; New Glarus Historical Society; Landesarchiv Glarus (Switzerland)",
+      "era_coverage": "1844-1860",
+      "genealogical_value": "Critical for tracing the original 108 colonists and subsequent Swiss arrivals. These records connect American families to their exact Swiss origins.",
+      "source": "Luchsinger, John. The Swiss Colony of New Glarus. Madison: State Historical Society of Wisconsin, 1879."
+    },
+    {
+      "source_type": "Swiss Reformed Church records (New Glarus)",
+      "description": "The Swiss Reformed Church at New Glarus maintained records in Swiss German. Baptisms, confirmations, marriages, and burials documented the colony's families.",
+      "repository": "New Glarus Historical Society; Wisconsin Historical Society; individual congregation",
+      "era_coverage": "1845-present",
+      "genealogical_value": "Essential for Swiss families. Records in Swiss German until the early twentieth century. Cross-referencing with Canton Glarus parish records enables complete genealogical chains.",
+      "source": "Luchsinger, The Swiss Colony of New Glarus (1879)."
+    },
+    {
+      "source_type": "Cheese factory records",
+      "description": "Green County's 100+ cheese factories maintained patronage lists, milk delivery records, and payment records. Where these survive, they document every dairy farmer in the factory's catchment area.",
+      "repository": "Green County Historical Society; Wisconsin Historical Society; individual factories or successors",
+      "era_coverage": "1870s-1960s",
+      "genealogical_value": "Cheese factory patronage lists document farm families between census years. Monthly payment records establish income levels and farm productivity.",
+      "source": "Apps, Jerry. Cheese: The Making of a Wisconsin Tradition. Amherst, WI: Amherst Press, 1998."
+    }
+  ],
+  "narrative_hooks": [
+    "Green County's records are complete from the territorial era — and for Swiss families at New Glarus, the Emigration Society records may trace {ancestor_name} all the way back to Canton Glarus.",
+    "The Swiss Reformed Church at New Glarus kept records in Swiss German — {ancestor_name}'s baptism may be recorded in a language that the grandchildren could no longer read.",
+    "Cheese factory patronage lists in Green County document every dairy farmer who delivered milk — {ancestor_name} appears not in the courthouse but in the factory ledger, measured in pounds of milk and checks per month.",
+    "Wisconsin vital records begin in 1907 — for {ancestor_name} before that date, the Swiss or Norwegian church records are the primary source."
+  ],
+  "source_references": [
+    "Wisconsin Historical Society. Guide to Wisconsin County Records.",
+    "Luchsinger, John. The Swiss Colony of New Glarus. Madison: State Historical Society of Wisconsin, 1879.",
+    "Apps, Jerry. Cheese: The Making of a Wisconsin Tradition. Amherst, WI: Amherst Press, 1998."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "wi_green",
+    "research_guidance_refs": ["vital_records", "church_transfers"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Coffee County, GA. Record survival, courthouse history, and known losses. Coffee County, formed 1854 from Clinch, Irwin, Telfair, and Ware counties. Douglas as county seat. The courthouse burned in 1897, destroying most early records — one of the more significant record losses in the Wiregrass.",
+  "courthouse_atlas_id": "ga_coffee_courthouse",
+  "display_name": "Coffee County, Georgia — Courthouse Atlas",
+  "county": "Coffee",
+  "state": "GA",
+  "fips_code": "13069",
+  "cluster_ref": "ga_wiregrass_coastal_plain",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1939, "location": "Douglas, GA — courthouse square", "records_housed": ["deeds", "marriage licenses", "probate records", "court minutes"] },
+    "previous_courthouses": [
+      { "era": "1854-1897", "location": "Douglas, GA — original frame courthouse", "fate": "Destroyed by fire 1897. Most records burned." },
+      { "era": "1898-1939", "location": "Douglas, GA — rebuilt courthouse", "fate": "Replaced by current courthouse in 1939." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "coffee_fire_1897",
+      "date": "1897",
+      "cause": "Courthouse fire",
+      "records_destroyed": ["Most deed books 1854-1897", "Court minutes 1854-1897", "Many marriage records", "Early will books"],
+      "records_survived": ["Some deed books re-recorded after the fire from private copies", "Some probate records that were in the probate judge's office (separate building)", "Tax digests (kept in separate locations)"],
+      "scope": "severe",
+      "description": "The 1897 courthouse fire destroyed the majority of Coffee County's first forty-three years of records. Deed books were the most severely impacted — most were total losses, though some property owners re-recorded their deeds from private copies after the fire. Court minutes, marriage records, and some probate files were destroyed. Tax digests and some probate records survived because they were kept in separate buildings. The fire is the most significant record loss in the cluster.",
+      "narrative_impact": "If {ancestor_name} was in Coffee County before 1897, the primary records are largely destroyed. The genealogist must reconstruct from surviving tax digests, federal census records, Huxford's compilations, and records in the four parent counties (Clinch, Irwin, Telfair, Ware). This is a genuine record wall — the fire eliminated the documentary foundation for nearly half a century of county history.",
+      "source": "GA Department of Archives and History. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1897, "completeness": "Reconstructed from 1897. Some earlier deeds re-recorded from private copies after the fire.", "gaps": "1854-1897 largely destroyed. Re-recorded deeds are selective — only property owners who still held their land in 1897 bothered to re-record.", "repository": "Coffee County Clerk of Superior Court; GA Archives microfilm", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1897, "completeness": "Good from 1897. Some pre-fire probate records survived in the probate judge's separate office.", "gaps": "Most pre-1897 estate files destroyed.", "repository": "Coffee County Probate Court; GA Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1897, "completeness": "Good from 1897. Pre-1897 marriages largely unrecoverable from county sources.", "gaps": "1854-1897 destroyed.", "repository": "Coffee County Probate Court", "online_access": "FamilySearch; Ancestry.com GA marriages" },
+    "court_minutes": { "earliest_surviving": 1897, "completeness": "Good from 1897.", "gaps": "1854-1897 destroyed.", "repository": "Coffee County Clerk of Superior Court; GA Archives", "online_access": "GA Archives microfilm" },
+    "vital_records": { "birth_registration_start": 1919, "death_registration_start": 1919, "completeness": "Spotty until mid-1920s.", "repository": "GA Department of Public Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "Parent county records (Clinch, Irwin, Telfair, Ware)", "description": "Coffee County was formed from four parent counties. Records for the area before 1854 — and in some cases before 1897, when duplicate records may exist — are in the parent counties.", "repository": "Respective county courthouses; GA Archives", "era_coverage": "Pre-1854", "genealogical_value": "Essential for tracing families in the Coffee County area before 1854 and for replacing records destroyed in the 1897 fire through cross-referencing.", "source": "GA Department of Archives and History." },
+    { "source_type": "Tax digests (survived fire)", "description": "Annual tax digests survived the fire because they were stored separately. These provide a year-by-year list of taxpayers and property that serves as a substitute census for the destroyed record period.", "repository": "Coffee County Tax Commissioner; GA Archives", "era_coverage": "1854-present", "genealogical_value": "The single most important substitute source. Tax digests name every taxpayer annually and list their property — the only continuous record for the 1854-1897 period.", "source": "GA Department of Archives and History." },
+    { "source_type": "Huxford's Pioneers of Wiregrass Georgia", "description": "Huxford documented Coffee County families from personal papers, interviews, and records that existed before or independent of the courthouse.", "repository": "Major Georgia libraries; Huxford Genealogical Society", "era_coverage": "1854-1920", "genealogical_value": "Particularly valuable for Coffee County because the courthouse records are gone. Huxford's work may be the only source for some pre-1897 families.", "source": "Huxford, Pioneers of Wiregrass Georgia." }
+  ],
+  "narrative_hooks": [
+    "The 1897 courthouse fire in Coffee County destroyed forty-three years of records — {ancestor_name}'s deeds, marriage records, and court appearances before that date are largely gone, and the genealogist must reconstruct from tax digests, census records, and Huxford's compilations.",
+    "The tax digests survived the fire because they were stored separately — if {ancestor_name} paid taxes in Coffee County between 1854 and 1897, the digest is the only county-level record that documents {pronoun_possessive} presence.",
+    "Coffee County was carved from four parent counties — if {ancestor_name} was in the area before 1854, the records are in Clinch, Irwin, Telfair, or Ware County, depending on which side of lines that no longer exist the family lived on.",
+    "The deeds that were re-recorded after the 1897 fire represent only the property that was still held by the same owners — if {ancestor_name} had sold or lost the property before 1897, the deed was not re-recorded and is permanently lost."
+  ],
+  "source_references": [
+    "GA Department of Archives and History. Guide to County Records.",
+    "Huxford, Folks. Pioneers of Wiregrass Georgia. 10 vols.",
+    "Works Progress Administration. Historical Records Survey: Georgia. Atlanta, 1937-1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ga_coffee",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Road and connectivity network for the MN Settlement Frontier regional cluster, documenting how transportation shaped isolation, settlement, and migration across eight counties from territorial trails to automobiles.",
+  "connectivity_id": "mn_settlement_frontier_roads",
+  "display_name": "MN Settlement Frontier — Road & Connectivity Network",
+  "cluster_ref": "mn_settlement_frontier",
+  "era_range": "1850-1940",
+
+  "transportation_eras": [
+    {
+      "era_id": "river_trail_and_oxcart",
+      "era_name": "River, Trail, and Oxcart",
+      "date_range": "1850-1870",
+      "primary_modes": ["river steamboat", "oxcart", "wagon on unimproved trail", "horseback", "canoe"],
+      "description": "Before the railroad, the Mississippi and Minnesota Rivers were the only reliable freight corridors. Overland travel meant unimproved trails through prairie and timber — rutted in wet weather, dusty in dry, and impassable during spring breakup and fall freeze. The Red River oxcart trails, running from the Canadian border through the western part of the cluster to St. Paul, were the main overland freight routes for the fur trade. A farm family arriving by steamboat at Red Wing or Mankato still faced a multi-day wagon journey to reach their claim in the interior counties.",
+      "road_conditions": "No engineered surfaces. Prairie trails followed section lines where surveyed, or natural ridgelines and river valleys where not. Spring thaw (April-May) made all roads impassable for weeks. Creek crossings were fords; bridges were rare. Winter travel on frozen ground or lake ice was sometimes faster than summer travel on muddy trails.",
+      "travel_times": [
+        { "from": "Red Wing (Goodhue Co.)", "to": "St. Paul", "mode": "steamboat", "time": "6-12 hours downstream, 1-2 days upstream", "conditions_note": "Navigation season April through November only. Ice closed the river for 5 months." },
+        { "from": "Mankato (Blue Earth Co.)", "to": "St. Paul", "mode": "steamboat via Minnesota River", "time": "2-4 days (water level dependent)", "conditions_note": "Minnesota River navigation unreliable; low water could strand boats for weeks." },
+        { "from": "Fergus Falls (Otter Tail Co.)", "to": "St. Cloud (Stearns Co.)", "mode": "wagon", "time": "4-5 days", "conditions_note": "No improved road. Trail through open prairie, lake detours constant." },
+        { "from": "Typical inland farm", "to": "Nearest county seat", "mode": "wagon or horseback", "time": "4-10 hours one way", "conditions_note": "A full day's round trip or more. Court day or mill visit consumed two working days." },
+        { "from": "Litchfield (Meeker Co.)", "to": "St. Paul", "mode": "wagon", "time": "5-7 days", "conditions_note": "Before railroad, the western counties were profoundly isolated from the territorial capital." }
+      ],
+      "key_routes": [
+        { "route_name": "Mississippi River", "type": "navigable river", "year_established": "pre-colonial", "description": "The primary transportation artery for Goodhue County and the eastern edge of the cluster. Red Wing was a major steamboat landing. Navigation above Lake Pepin was challenging but commercially critical.", "counties_served": ["Goodhue"] },
+        { "route_name": "Minnesota River", "type": "navigable river (seasonal)", "year_established": "pre-colonial", "description": "Connected Blue Earth and Nicollet counties to St. Paul. Shallow, winding, and unreliable — but the only commercial waterway for the south-central counties before the railroad.", "counties_served": ["Blue Earth", "Nicollet"] },
+        { "route_name": "Red River oxcart trails", "type": "overland trail", "year_established": "1820s", "description": "Fur trade trails connecting the Red River settlements (Pembina) to St. Paul passed through or near Stearns and Otter Tail counties. Oxcart trains of 50-200 carts carried furs south and trade goods north.", "counties_served": ["Stearns", "Otter Tail"] },
+        { "route_name": "Territorial Road: St. Paul to Sauk Rapids", "type": "territorial road (unimproved)", "year_established": "1850s", "description": "Legislative designation of a route from St. Paul through St. Cloud to the upper Mississippi. Designation meant little beyond a surveyed line; actual road conditions remained primitive.", "counties_served": ["Stearns"] }
+      ],
+      "isolation_index": {
+        "description": "Extreme in western counties. A family in Otter Tail County in 1870 was 200 miles from St. Paul with no railroad — equivalent to a week's wagon travel. Mail arrived irregularly. News of national events reached the frontier weeks late. The nearest physician might be a day's ride away.",
+        "comparative_note": "The western counties (Otter Tail, Kandiyohi, Meeker) in 1870 were as isolated as the Missouri frontier had been in the 1830s — closer to civilization by the calendar but separated by the same terrible roads."
+      },
+      "narrative_hook": "In {year}, {ancestor_name} was {distance} from the nearest railroad — which meant that the wheat had to go by wagon to the river landing, the mail came when someone brought it, and a doctor was a day's ride away if one existed at all.",
+      "source": "Lass, William E. Minnesota: A History. 2nd ed. W. W. Norton, 1998. Gilman, Rhoda R. The Red River Trails: Oxcart Routes Between St. Paul and the Selkirk Settlement, 1820-1870. MHS, 1979."
+    },
+    {
+      "era_id": "railroad_transformation",
+      "era_name": "Railroad Transformation",
+      "date_range": "1866-1900",
+      "primary_modes": ["railroad", "wagon on unimproved road", "horseback"],
+      "description": "The railroad's arrival was the single most transformative event in the economic and social life of every county in the cluster. Lines reached the southeastern counties first (Goodhue 1860s, Fillmore 1870s) and the western counties last (Otter Tail 1879). The railroad did not merely improve transportation — it created the economic geography of the region. Towns on the railroad line grew; towns bypassed by the railroad died. Willmar existed because the Great Northern chose it as a division point. Fergus Falls became a regional center because the Northern Pacific built through it. The railroad also determined which land was valuable and which was marginal — farms within wagon distance of a depot could ship grain profitably; farms further out could not. By 1900, the railroad network was complete and every county had access, but the pattern of winners and losers was permanently set.",
+      "road_conditions": "Township roads remained unimproved — dirt or gravel at best, mud in spring and fall. The critical distance was farm-to-depot: a farmer needed to be within 8-10 miles of a railroad siding to ship grain profitably. Beyond that distance, the cost of wagon hauling consumed the margin. County roads between towns improved slowly; state highway system not yet established.",
+      "travel_times": [
+        { "from": "Red Wing (Goodhue Co.)", "to": "St. Paul", "mode": "railroad", "time": "2-3 hours", "conditions_note": "Daily passenger service. Transformed Red Wing from river town to rail-connected city." },
+        { "from": "Willmar (Kandiyohi Co.)", "to": "St. Paul", "mode": "Great Northern Railway", "time": "5-6 hours", "conditions_note": "Division point meant multiple daily trains. Willmar became accessible after 1869." },
+        { "from": "Fergus Falls (Otter Tail Co.)", "to": "St. Paul", "mode": "Northern Pacific Railway", "time": "8-10 hours", "conditions_note": "After 1879. Reduced a week's wagon travel to a day's train ride." },
+        { "from": "Typical farm", "to": "Nearest railroad depot", "mode": "wagon", "time": "1-4 hours", "conditions_note": "The last miles from farm to depot remained horse-and-wagon throughout this era. Spring mud could make even a 3-mile trip take half a day." }
+      ],
+      "key_routes": [
+        { "route_name": "Chicago, Milwaukee & St. Paul Railway (Milwaukee Road)", "type": "railroad", "year_established": "1866-1880", "description": "Served the southeastern counties — Goodhue, Fillmore, Blue Earth. Connected to Chicago and the national market. Multiple branch lines reached into rural areas.", "counties_served": ["Goodhue", "Fillmore", "Blue Earth", "Nicollet"] },
+        { "route_name": "St. Paul & Pacific / Great Northern Railway", "type": "railroad", "year_established": "1869-1890", "description": "James J. Hill's railroad reached Willmar (1869) and extended westward. Willmar became a division point — a place where crews changed and locomotives were serviced. The Great Northern actively recruited Scandinavian settlers to fill its land grants.", "counties_served": ["Kandiyohi", "Meeker", "Stearns"] },
+        { "route_name": "Northern Pacific Railway", "type": "railroad", "year_established": "1871-1879", "description": "Reached Fergus Falls in 1879, completing the railroad network for the cluster. Connected Otter Tail County to Duluth and St. Paul.", "counties_served": ["Otter Tail"] },
+        { "route_name": "Winona & St. Peter Railroad", "type": "railroad", "year_established": "1870s", "description": "East-west line through the Minnesota River valley, serving Nicollet and Blue Earth counties.", "counties_served": ["Nicollet", "Blue Earth"] }
+      ],
+      "isolation_index": {
+        "description": "Dramatically reduced for rail-connected towns; unchanged for off-rail farms. A farmer in Fergus Falls after 1879 could reach St. Paul in a day; a farmer 15 miles north of Fergus Falls, beyond the depot, still measured distance in days of wagon travel.",
+        "comparative_note": "The railroad created a two-tier landscape: connected towns and isolated hinterland. This gap would not close until the automobile."
+      },
+      "narrative_hook": "The railroad that reached {county} County in {year} did not just connect {ancestor_name} to the outside world — it decided whether the town nearest the farm would grow or die, whether the wheat in the bin would sell for a profit or rot, and whether the children would stay in the county or ride the train to Minneapolis and never come back.",
+      "source": "Hidy, Ralph W., et al. The Great Northern Railway: A History. Harvard Business School Press, 1988. Lass, Minnesota: A History."
+    },
+    {
+      "era_id": "automobile_and_gravel",
+      "era_name": "Automobile and Gravel Road",
+      "date_range": "1910-1940",
+      "primary_modes": ["automobile", "railroad", "truck", "horse-drawn wagon (declining)"],
+      "description": "The automobile arrived in Minnesota's farm country in the 1910s and spread rapidly. By 1920, most farm families owned a car or truck — or shared one with a neighbor. Cars did not replace the railroad for freight, but they transformed personal mobility. A trip to town that consumed half a day by wagon took an hour by car. The Good Roads movement — pushed by automobile owners, farm organizations, and the state highway department — led to graded and graveled township roads throughout the 1920s and 1930s. State highways were paved with concrete or bituminous surface; township roads were graded dirt or gravel. The automobile also contributed to town consolidation: families drove past the crossroads hamlet to shop in the larger town, and small rural businesses closed. The creamery wagon that had collected milk cans from each farm was replaced by trucks, and the truck could travel further — meaning fewer, larger creameries.",
+      "road_conditions": "State highways graded and graveled or paved by 1930. Township roads graded but unpaved — passable in summer, treacherous in spring mud and winter snow. Snowplowing was minimal; many rural roads were impassable from December through March. The automobile era came with a seasonal asterisk in Minnesota: for five months of the year, the car might be up on blocks in the barn.",
+      "travel_times": [
+        { "from": "Red Wing (Goodhue Co.)", "to": "Minneapolis/St. Paul", "mode": "automobile", "time": "2-3 hours", "conditions_note": "On improved state highway. Faster than the train for direct destinations." },
+        { "from": "Fergus Falls (Otter Tail Co.)", "to": "Minneapolis", "mode": "automobile", "time": "4-5 hours", "conditions_note": "State highway largely graveled. Longer in spring mud season." },
+        { "from": "Typical farm", "to": "County seat", "mode": "automobile", "time": "30-60 minutes", "conditions_note": "Down from 4-8 hours by wagon. The automobile made the county seat accessible for casual shopping, not just quarterly court day." }
+      ],
+      "key_routes": [
+        { "route_name": "US Highway 52", "type": "federal highway", "year_established": "1926", "description": "Ran through Goodhue and Fillmore counties, connecting Rochester to the Twin Cities. Paved early; one of the better roads in the cluster.", "counties_served": ["Goodhue", "Fillmore"] },
+        { "route_name": "US Highway 169", "type": "federal highway", "year_established": "1926", "description": "Connected Mankato and St. Peter northward to Minneapolis through the Minnesota River valley.", "counties_served": ["Blue Earth", "Nicollet"] },
+        { "route_name": "US Highway 12", "type": "federal highway", "year_established": "1926", "description": "East-west route through Willmar and Litchfield, following the old Great Northern Railway corridor.", "counties_served": ["Kandiyohi", "Meeker"] },
+        { "route_name": "US Highway 59", "type": "federal highway", "year_established": "1926", "description": "North-south route through Fergus Falls, connecting Otter Tail County to the highway network.", "counties_served": ["Otter Tail"] }
+      ],
+      "isolation_index": {
+        "description": "Significantly reduced in summer; persistent in winter. The automobile made the county seat a casual errand rather than a major expedition, but Minnesota winters still isolated farm families for months at a time. Snowplowing on rural roads did not become routine until the 1940s-1950s.",
+        "comparative_note": "By 1930, a Minnesota farm family could reach Minneapolis in half a day — unless it was January, in which case the roads might be blocked for weeks."
+      },
+      "narrative_hook": "The automobile that {ancestor_name} bought in the {decade}s shrank the distances that had defined {county} County — the county seat was an hour away instead of a day — but the Minnesota winter still closed the roads every year, and the car went up on blocks in November and came down in April.",
+      "source": "Lass, Minnesota: A History. Federal Highway Administration. America's Highways 1776-1976. Washington, DC, 1976."
+    }
+  ],
+  "source_references": [
+    "Lass, William E. Minnesota: A History. 2nd ed. New York: W. W. Norton, 1998.",
+    "Gilman, Rhoda R. The Red River Trails: Oxcart Routes Between St. Paul and the Selkirk Settlement, 1820-1870. St. Paul: Minnesota Historical Society, 1979.",
+    "Hidy, Ralph W., Muriel E. Hidy, and Roy V. Scott. The Great Northern Railway: A History. Boston: Harvard Business School Press, 1988.",
+    "Federal Highway Administration. America's Highways 1776-1976. Washington, DC: Government Printing Office, 1976."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["railroad_construction", "homestead_act"],
+    "life_pattern_refs": ["homestead_proving_up"]
+  }
+}

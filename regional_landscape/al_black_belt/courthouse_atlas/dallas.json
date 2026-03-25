@@ -1,0 +1,129 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Dallas County, AL. Record survival, courthouse history, and known losses. Dallas County (formed 1818, seat at Selma) has relatively good record survival despite Civil War destruction of the industrial works — the courthouse itself survived. The AL Dept of Archives & History in Montgomery holds significant supplementary records.",
+  "courthouse_atlas_id": "al_dallas_courthouse",
+  "display_name": "Dallas County, Alabama — Courthouse Atlas",
+  "county": "Dallas",
+  "state": "AL",
+  "fips_code": "01047",
+  "cluster_ref": "al_black_belt",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1901,
+      "location": "Selma, AL — Lauderdale Street",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes", "tax records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1818–1840s",
+        "location": "Cahaba (Old Cahawba), then Selma after county seat transfer",
+        "fate": "Dallas County's original seat was at Cahaba (Cahawba), the first state capital. The seat moved to Selma in the 1860s. Early records were transferred; some loss during the moves is possible but not documented as catastrophic."
+      },
+      {
+        "era": "1840s–1901",
+        "location": "Selma, various buildings",
+        "fate": "The Civil War brought Wilson's Raid (April 1865), which destroyed Selma's industrial works but the courthouse was not burned. Records survived the war largely intact."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "dallas_civil_war_move",
+      "date": "1865",
+      "cause": "Wilson's Raid and wartime disruption",
+      "records_destroyed": ["Some loose papers may have been lost during the wartime chaos; no systematic destruction of courthouse records documented"],
+      "records_survived": ["deed books", "will books", "marriage records", "court minutes", "probate records"],
+      "scope": "minimal",
+      "description": "Wilson's cavalry burned Selma's Confederate arsenal, foundries, and warehouses on April 2, 1865, but the courthouse survived. Court records are largely intact from the county's 1818 formation. Some loose papers from the war years may have been lost, but bound volumes survived.",
+      "narrative_impact": "Dallas County's courthouse survived Wilson's Raid — {ancestor_name}'s deeds, wills, and court records likely exist from the county's earliest years. Gaps in the paper trail are more likely to reflect the ancestor's status (enslaved people were not recorded by name in county records before 1865) than courthouse losses.",
+      "source": "Alabama Department of Archives and History. Guide to Alabama County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1818,
+      "completeness": "Good — continuous series from county formation",
+      "gaps": "Some early deed books show wear but remain legible. Land records are essential for tracking planter families; enslaved people appear only as property in deed transfers and estate inventories.",
+      "repository": "Dallas County Probate Office; Alabama Department of Archives and History (ADAH) microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com AL land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1818,
+      "completeness": "Good — wills, estate inventories, and guardian records survive from near-formation",
+      "gaps": "Estate inventories are genealogically critical for the Black Belt: they list enslaved people by name, age, and sometimes family groupings — the primary documentary source for enslaved families before 1865.",
+      "repository": "Dallas County Probate Office; ADAH",
+      "online_access": "FamilySearch microfilm; limited ADAH digital access"
+    },
+    "marriages": {
+      "earliest_surviving": 1818,
+      "completeness": "Good for white marriages from formation. Freedmen's marriages recorded from 1865. Alabama required marriage licenses statewide from 1886.",
+      "gaps": "Enslaved marriages were not legally recognized and do not appear in county records. Freedmen's Bureau records (1865–1872) document some marriages that were retroactively formalized. Post-1865 Black marriages are filed separately in some periods.",
+      "repository": "Dallas County Probate Office; ADAH; Freedmen's Bureau records at NARA",
+      "online_access": "FamilySearch; Ancestry.com; Freedmen's Bureau records on FamilySearch"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1818,
+      "completeness": "Good — County Court and Circuit Court minutes from formation",
+      "gaps": "Minor gaps in earliest volumes.",
+      "repository": "Dallas County Clerk of Court; ADAH",
+      "online_access": "ADAH microfilm; limited FamilySearch"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Spotty until approximately 1920. Alabama's vital registration was among the latest in the South. The city of Selma may have earlier municipal records.",
+      "repository": "Alabama Center for Health Statistics; ADAH for delayed certificates"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Freedmen's Bureau records",
+      "description": "The Bureau of Refugees, Freedmen, and Abandoned Lands maintained offices in Selma. Records include labor contracts, marriage registrations, complaint records, and ration distribution lists — essential sources for documenting formerly enslaved families in the immediate post-war period.",
+      "repository": "National Archives (NARA), Record Group 105; digitized on FamilySearch",
+      "era_coverage": "1865–1872",
+      "genealogical_value": "Critical for bridging the gap between slavery (where individuals were listed as property) and freedom (where they appear as autonomous persons in county records). Labor contracts name individuals, their ages, family members, and the plantations where they had been enslaved.",
+      "source": "National Archives and Records Administration. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands, Record Group 105."
+    },
+    {
+      "source_type": "Federal census — slave schedules",
+      "description": "The 1850 and 1860 slave schedules list slaveholders and the age, sex, and color of enslaved people — but NOT their names. Dallas County's schedules are extensive given the large enslaved population.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1850, 1860",
+      "genealogical_value": "Limited for identifying specific individuals but valuable for establishing the size and demographic composition of a slaveholder's labor force. Cross-referencing with estate inventories (which DO name enslaved people) can sometimes link unnamed schedule entries to named individuals.",
+      "source": "National Archives. Federal Census Slave Schedules, Dallas County, AL."
+    },
+    {
+      "source_type": "Alabama Department of Archives and History",
+      "description": "ADAH in Montgomery holds extensive supplementary records for all Alabama counties, including census records, legislative petitions, Confederate service records, Reconstruction-era records, and county records on microfilm.",
+      "repository": "Alabama Department of Archives and History, 624 Washington Avenue, Montgomery, AL 36130",
+      "era_coverage": "1818–present",
+      "genealogical_value": "Essential backup repository. Many county records that have been lost or damaged at the local level survive in ADAH copies. Confederate service records and Reconstruction-era state records provide context for Civil War and postbellum families.",
+      "source": "Alabama Department of Archives and History finding guides."
+    },
+    {
+      "source_type": "Church records — Baptist and Methodist",
+      "description": "Dallas County's churches — both white and Black congregations — maintained membership rolls, baptism records, and burial records. Black Baptist churches, organized after 1865, are particularly valuable for documenting freedmen families.",
+      "repository": "Individual congregations; Samford University Baptist archives; ADAH",
+      "era_coverage": "1820s–present",
+      "genealogical_value": "Church records supplement civil records, particularly for Black families after 1865 when church membership was one of the first acts of community formation. Pre-1865, white church records may mention enslaved members.",
+      "source": "Samford University Library, Alabama Baptist Historical Collection."
+    }
+  ],
+  "narrative_hooks": [
+    "Dallas County's courthouse survived Wilson's Raid in 1865 — the foundries burned, but the records lived. {ancestor_name}'s deeds and wills likely survive from the county's earliest years.",
+    "Before 1865, {ancestor_name}'s enslaved ancestors appear in Dallas County records only as property — names in estate inventories, ages on slave schedules, but never as parties to a deed or a marriage. The Freedmen's Bureau records (1865–1872) bridge the gap between enslavement and personhood in the documentary record.",
+    "Alabama's vital registration began in 1908 — decades later than most Northern states — so the absence of a birth certificate for {ancestor_name} in Dallas County before that date reflects the state's record-keeping, not the ancestor's existence.",
+    "The Alabama Department of Archives and History in Montgomery holds backup copies of many Dallas County records — if the local courthouse cannot produce a record, ADAH is the next stop."
+  ],
+  "source_references": [
+    "Alabama Department of Archives and History. Guide to Alabama County Records.",
+    "National Archives and Records Administration. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands, Record Group 105.",
+    "Works Progress Administration. Historical Records Survey: Alabama County Records. Montgomery, 1937–1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "al_dallas",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

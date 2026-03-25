@@ -1,0 +1,197 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Road and connectivity network for the NC Sandhills / Upper Cape Fear regional cluster (Moore, Harnett, Hoke, Scotland, Richmond, Anson, Montgomery). Documents how transportation shaped isolation, settlement, and migration across seven counties from colonial traces to military highways.",
+  "connectivity_id": "nc_sandhills_upper_cape_fear_roads",
+  "display_name": "NC Sandhills / Upper Cape Fear — Road & Connectivity Network",
+  "cluster_ref": "nc_sandhills_upper_cape_fear",
+  "era_range": "1740-1960",
+
+  "transportation_eras": [
+    {
+      "era_id": "river_and_trace",
+      "era_name": "River and Trace",
+      "date_range": "1740-1849",
+      "primary_modes": ["river barge", "canoe", "wagon on unimproved trace", "horseback"],
+      "description": "Before the plank road era, the Cape Fear River and the Pee Dee River were the only reliable freight corridors in the region. The Cape Fear provided access to Fayetteville (Cross Creek) and ultimately Wilmington. The Pee Dee provided a southward route into South Carolina. Overland travel was brutally difficult — the deep Candor sand of the Sandhills proper swallowed wagon wheels to the axle hubs, and the Uwharrie Mountains of Montgomery County required steep, winding traces through rocky terrain. Scottish Highland settlers in the Cape Fear corridor used paths that followed ridgelines to avoid the sand and swamp of the lowlands. A farmer in Montgomery County hauling produce to Fayetteville faced a 3-4 day journey over 80 miles of unimproved track. The region's extreme isolation was a defining feature — families could live their entire lives within a 10-mile radius of their farm.",
+      "road_conditions": "No engineered surfaces. Sandy traces through longleaf pine forest became impassable bogs in wet weather and soft sand traps in dry. The Sandhills sand was notorious — unlike the clay and loam tracks of the Piedmont, these roads did not firm up when dry. Swamp crossings along the Cape Fear and Lumber River drainages required corduroy log roads. Bridges were rare; most creek crossings were fords.",
+      "travel_times": [
+        { "from": "Carthage (Moore Co.)", "to": "Fayetteville (Cumberland Co.)", "mode": "wagon", "time": "1.5-2 days", "conditions_note": "Deep sand through the Sandhills; shorter in winter when ground was firmer" },
+        { "from": "Troy (Montgomery Co.)", "to": "Fayetteville (Cumberland Co.)", "mode": "wagon", "time": "3-4 days", "conditions_note": "Uwharrie Mountains to Sandhills — rugged and isolated; the most difficult route in the cluster" },
+        { "from": "Wadesboro (Anson Co.)", "to": "Cheraw, SC", "mode": "wagon or river", "time": "1 day by wagon; faster by Pee Dee River", "conditions_note": "The Pee Dee corridor was the best natural route in the eastern half of the cluster" },
+        { "from": "Typical inland farm", "to": "Nearest county seat", "mode": "wagon or horseback", "time": "4-8 hours one way", "conditions_note": "A full day's round trip, consuming two working days minimum" }
+      ],
+      "key_routes": [
+        { "route_name": "Cape Fear River", "type": "navigable river", "year_established": "pre-colonial", "description": "Primary commercial artery for Moore, Harnett, and the western part of the cluster. Shallow-draft boats carried turpentine barrels and farm produce downstream to Fayetteville. Navigation was seasonal — low water in summer, flooding in spring.", "counties_served": ["Harnett", "Moore"] },
+        { "route_name": "Pee Dee River", "type": "navigable river", "year_established": "pre-colonial", "description": "Served Anson, Richmond, and Montgomery counties. Connected the eastern cluster to Cheraw, SC and ultimately to Georgetown and the coast. Cotton bales and timber floated downstream.", "counties_served": ["Anson", "Richmond", "Montgomery"] },
+        { "route_name": "Yadkin Road / Trading Path", "type": "unimproved trace", "year_established": "pre-colonial Native American trail, adapted by settlers", "description": "An ancient trade route through the Uwharries and Piedmont, used by colonial and early republic travelers moving between the Cape Fear corridor and the Yadkin Valley. Passed through Montgomery County's mountain terrain.", "counties_served": ["Montgomery", "Moore"] }
+      ],
+      "isolation_index": {
+        "description": "Extreme. The deep sand of the Sandhills made this one of the most isolated regions in eastern North Carolina. A family on a Moore County turpentine farm in 1800 might visit the county seat once or twice a year. Montgomery County's Uwharrie Mountain isolation was comparable to the Appalachian backcountry despite being barely 100 miles from the coast.",
+        "comparative_note": "The Sandhills' deep sand created transportation difficulties unique in the state — worse than the clay roads of the Piedmont and comparable to coastal swamp crossings without the benefit of navigable waterways."
+      },
+      "narrative_hook": "In {year}, {ancestor_name} lived in sand country where a loaded wagon sank to the axle hubs — the nearest market at Fayetteville was {distance} miles away, and the road there was not a road at all but a pair of ruts through longleaf pine forest that disappeared every time it rained.",
+      "source": "Watson, Harry L. An Independent People: The Way We Lived in North Carolina, 1770-1820. Chapel Hill: UNC Press, 1983. Meyer, Duane. The Highland Scots of North Carolina, 1732-1776. Chapel Hill: UNC Press, 1961."
+    },
+    {
+      "era_id": "plank_road_era",
+      "era_name": "Plank Road Era",
+      "date_range": "1849-1865",
+      "primary_modes": ["plank road wagon", "river barge", "stagecoach", "horseback"],
+      "description": "The plank road era was the Sandhills' first transportation revolution. The Fayetteville & Western Plank Road (completed 1849, 129 miles to Salem) passed through Moore County and opened the interior to market agriculture for the first time. Connecting plank roads extended the network — the Fayetteville & Albemarle Plank Road reached into Moore and Montgomery counties. For a region where the deep sand had made overland freight nearly impossible, plank roads were transformative. A wagon that had taken three days to reach Fayetteville could now make the trip in one day on smooth pine planks. But the era was brief — pine planks rotted in the humid climate within 5-8 years, requiring constant replacement, and the Civil War ended all maintenance. By 1870, the plank roads were gone, and the region reverted to its pre-plank-road isolation until the railroad arrived.",
+      "road_conditions": "Plank roads provided smooth, all-weather surfaces when new — 8-foot-wide lanes of pine planks laid on stringers, flanked by dirt shoulders. Toll gates every few miles charged 1-2 cents per mile. Away from plank roads, conditions remained unchanged. The plank road system deteriorated rapidly — a 5-year-old plank road was worse than no road at all, as rotting planks broke under wagon weight and the gaps trapped wheels.",
+      "travel_times": [
+        { "from": "Carthage (Moore Co.)", "to": "Fayetteville (Cumberland Co.)", "mode": "plank road wagon", "time": "8-10 hours (1 day)", "conditions_note": "Plank road cut travel time by more than half; toll cost approximately 50-75 cents for a loaded wagon" },
+        { "from": "Troy (Montgomery Co.)", "to": "Carthage (Moore Co.)", "mode": "connecting plank road", "time": "1 day", "conditions_note": "The Fayetteville & Albemarle Plank Road extended access into the Uwharries" },
+        { "from": "Typical farm (off plank road)", "to": "Nearest plank road access", "mode": "wagon on sand trace", "time": "2-4 hours", "conditions_note": "The last-mile problem persisted — getting to the plank road from a remote farm was still a sandy ordeal" }
+      ],
+      "key_routes": [
+        { "route_name": "Fayetteville & Western Plank Road", "type": "plank road", "year_established": 1849, "description": "At 129 miles, the longest plank road in the world. Connected Fayetteville to Salem (near Winston-Salem) through Moore County. The backbone of the Sandhills transportation network for 15 years. Toll revenue supported maintenance — when maintenance stopped during the Civil War, the road collapsed.", "counties_served": ["Moore", "Harnett"] },
+        { "route_name": "Fayetteville & Albemarle Plank Road", "type": "plank road", "year_established": "1850s", "description": "Extended from the main plank road into the interior, providing access for Montgomery County and the eastern Sandhills. Less well-maintained than the Western road and deteriorated faster.", "counties_served": ["Montgomery", "Moore"] }
+      ],
+      "isolation_index": {
+        "description": "Dramatically improved for communities along the plank road corridor; unchanged for the rest. Moore County's position on the main Fayetteville & Western route made it the best-connected county in the cluster for the first time. Montgomery County gained marginal improvement from the Albemarle branch. Anson and Richmond, oriented toward the Pee Dee rather than the Cape Fear system, saw little benefit.",
+        "comparative_note": "The plank road era proved that the Sandhills' isolation was solvable with investment — but the investment was unsustainable. Pine planks in humid NC had a 5-8 year lifespan, and no private toll company could generate enough revenue to keep the surface maintained."
+      },
+      "narrative_hook": "The plank road through {county} County was the first smooth surface {ancestor_name} had ever driven a wagon on — pine planks laid flat over the sand that had trapped every wheel for a hundred years. But the planks rotted before the war was over, and by 1870 the road was worse than the trace it had replaced.",
+      "source": "Starling, Robert B. 'The Plank Road Movement in North Carolina.' North Carolina Historical Review 16, nos. 1-2 (1939). Watson, Alan D. Internal Improvements in Antebellum North Carolina. Raleigh: NC Division of Archives and History, 2002."
+    },
+    {
+      "era_id": "railroad_era",
+      "era_name": "Railroad Era",
+      "date_range": "1870-1920",
+      "primary_modes": ["railroad", "wagon on unimproved road", "horseback"],
+      "description": "The railroad arrived later in the Sandhills than in the NC coastal plain or Piedmont. The Raleigh & Augusta Air Line Railroad reached Hamlet (Richmond County) in 1874, and the Seaboard Air Line made Hamlet a major junction by 1892. The Cape Fear & Yadkin Valley Railway reached Sanford (on Moore County's western edge) in the 1880s. The Aberdeen & Rockfish Railroad (1892) connected Aberdeen to Fayetteville, creating Pinehurst's lifeline to the outside world. These railroads remade the cluster's geography — Hamlet exploded from nothing to a significant town, Aberdeen became the gateway to the resort district, and counties with railroad access gained market connections that counties without it could only watch from a distance. Montgomery County, with no railroad through its mountain terrain, remained as isolated as it had been in the colonial era.",
+      "road_conditions": "County roads remained unimproved sand and dirt. The plank road system was gone. State government invested in railroads, not roads. Road maintenance depended on county corvee labor (required unpaid road work). In the Sandhills, this meant shoveling sand — a Sisyphean task. The deep sand made even horse-drawn travel miserable for families more than a few miles from a railroad depot.",
+      "travel_times": [
+        { "from": "Hamlet (Richmond Co.)", "to": "Fayetteville (Cumberland Co.)", "mode": "railroad", "time": "2 hours", "conditions_note": "Direct SAL service; daily departures" },
+        { "from": "Aberdeen (Moore Co.)", "to": "Fayetteville (Cumberland Co.)", "mode": "Aberdeen & Rockfish Railroad", "time": "1.5 hours", "conditions_note": "Connected the Pinehurst district to the Cape Fear corridor" },
+        { "from": "Hamlet (Richmond Co.)", "to": "Raleigh", "mode": "railroad", "time": "3-4 hours", "conditions_note": "SAL through-route via Sanford" },
+        { "from": "Troy (Montgomery Co.)", "to": "Nearest railroad depot", "mode": "wagon", "time": "4-6 hours one way", "conditions_note": "Montgomery County had no railroad — farmers hauled produce to the nearest depot in Stanly or Randolph County" }
+      ],
+      "key_routes": [
+        { "route_name": "Seaboard Air Line Railroad (Hamlet junction)", "type": "railroad", "year_established": "1874 (R&A Air Line); 1892 (SAL consolidation)", "description": "The intersection of north-south (Norfolk to Atlanta) and east-west (Raleigh to Charlotte) routes made Hamlet the most important railroad junction between Raleigh and Atlanta. Shops, roundhouses, and yards employed hundreds.", "counties_served": ["Richmond", "Scotland"] },
+        { "route_name": "Aberdeen & Rockfish Railroad", "type": "railroad", "year_established": 1892, "description": "Short line connecting Aberdeen (Moore County) to Fayetteville. Carried Pinehurst resort visitors, turpentine barrels, timber, and peaches. The resort economy depended on this connection.", "counties_served": ["Moore", "Harnett"] },
+        { "route_name": "Cape Fear & Yadkin Valley Railway", "type": "railroad", "year_established": "1880s", "description": "Connected Fayetteville to the Piedmont through Sanford. Served the western edge of Moore County. Later absorbed into the Atlantic Coast Line system.", "counties_served": ["Moore", "Harnett"] }
+      ],
+      "isolation_index": {
+        "description": "Sharply bifurcated. Richmond County (Hamlet) became one of the best-connected places in the cluster. Moore County gained rail access through Aberdeen and the CF&YV at Sanford. Montgomery County remained utterly isolated — no railroad line ever reached Troy. Anson County had limited rail service via branch lines from the main Piedmont corridor.",
+        "comparative_note": "Montgomery County's complete lack of railroad service through 1960 made it one of the most isolated counties in North Carolina, despite being only 100 miles from Charlotte. The Uwharrie terrain defeated every proposed rail route."
+      },
+      "narrative_hook": "The railroad reached Hamlet in {year}, and within a decade it was a town that existed because of the trains — shops, roundhouses, hotels, and a payroll that had nothing to do with farming. But in Montgomery County, twenty miles away through the Uwharries, {ancestor_name} still measured distance in hours behind a mule.",
+      "source": "Seaboard Air Line Railroad historical records. Aberdeen & Rockfish Railroad historical records. Trelease, Allen W. The North Carolina Railroad, 1849-1871, and the Modernization of North Carolina. Chapel Hill: UNC Press, 1991."
+    },
+    {
+      "era_id": "early_automobile",
+      "era_name": "Early Automobile",
+      "date_range": "1920-1940",
+      "primary_modes": ["automobile", "bus", "railroad", "wagon (declining)"],
+      "description": "The automobile era arrived slowly in the Sandhills — the deep sand that had defeated wagons was equally hostile to early cars. Governor Cameron Morrison's 'Good Roads' program (1921) began paving major routes, but rural Sandhills roads remained sandy and unimproved well into the 1930s. US Highway 1 (north-south through Moore and Hoke counties) and US Highway 74 (east-west through Anson, Richmond, and Scotland counties) became the first paved corridors. The automobile was transformative for Pinehurst — wealthy Northern visitors began driving to the resort rather than taking the train, and the route from New York to Pinehurst became a well-traveled corridor. For local farm families, automobile ownership came slowly — a Model T at $300 was beyond reach for most sharecroppers. The sand roads remained a barrier: even a car could get stuck in deep Sandhills sand.",
+      "road_conditions": "State highways paved with asphalt by the late 1920s. County and farm roads remained deep sand and clay, rutted and often impassable. The contrast between a smooth highway and a sandy farm lane was extreme in the Sandhills — more extreme than anywhere else in NC because of the unique soil conditions.",
+      "travel_times": [
+        { "from": "Carthage (Moore Co.)", "to": "Fayetteville (Cumberland Co.)", "mode": "automobile", "time": "1.5-2 hours", "conditions_note": "Paved highway for most of the route by the 1930s" },
+        { "from": "Wadesboro (Anson Co.)", "to": "Charlotte", "mode": "automobile via US 74", "time": "2 hours", "conditions_note": "US 74 was one of the first east-west paved routes in the southern Piedmont" },
+        { "from": "Troy (Montgomery Co.)", "to": "Asheboro (Randolph Co.)", "mode": "automobile", "time": "1.5-2 hours", "conditions_note": "Mountain roads through the Uwharries remained narrow and winding; pavement came late" },
+        { "from": "Typical Sandhills farm", "to": "Nearest paved road", "mode": "automobile or wagon", "time": "30-60 minutes", "conditions_note": "Deep sand farm lanes remained the bottleneck; some families kept a mule for the last mile" }
+      ],
+      "key_routes": [
+        { "route_name": "US Highway 1", "type": "paved highway", "year_established": 1926, "description": "North-south route from Maine to Florida, passing through Moore and Hoke counties via Southern Pines and Aberdeen. Became the primary automobile route to Pinehurst from the Northeast. Brought tourist traffic and roadside commerce.", "counties_served": ["Moore", "Hoke"] },
+        { "route_name": "US Highway 74", "type": "paved highway", "year_established": "late 1920s", "description": "East-west route through Anson, Richmond, and Scotland counties, connecting Wilmington to Charlotte. Gave the Pee Dee corridor a direct automobile route to Charlotte for the first time.", "counties_served": ["Anson", "Richmond", "Scotland"] },
+        { "route_name": "US Highway 220", "type": "paved highway", "year_established": "1930s", "description": "North-south route through the eastern edge of the cluster, connecting the Piedmont to the Sandhills. Provided some highway access for Montgomery County, though the main route bypassed Troy.", "counties_served": ["Montgomery", "Richmond"] }
+      ],
+      "isolation_index": {
+        "description": "Declining for automobile owners on paved routes; largely unchanged in the deep Sandhills and Uwharries. The sand roads that defeated wagons in 1800 still trapped cars in 1930. Montgomery County remained the most isolated county in the cluster, with narrow mountain roads and no direct highway connections. The automobile revolution passed by families who could not afford a car — sharecroppers and the poorest yeoman families still moved at mule speed.",
+        "comparative_note": "The Sandhills' unique sand soils made automobile travel more difficult than anywhere else in the NC Piedmont or coastal plain. A car that could cruise at 40 mph on a paved highway might average 5 mph on a sandy Sandhills farm road."
+      },
+      "narrative_hook": "US Highway 1 brought the automobile age through {county} County — but for {ancestor_name}, a mile off the pavement on a sandy farm lane, the new century looked a lot like the old one: deep ruts, slow going, and the horizon no closer than it had ever been.",
+      "source": "Brown, Cecil Kenneth. The State Highway System of North Carolina: Its Evolution and Present Status. Chapel Hill: UNC Press, 1931. Moore County Historical Association."
+    },
+    {
+      "era_id": "military_highway",
+      "era_name": "Military Highway Era",
+      "date_range": "1940-1960",
+      "primary_modes": ["automobile", "bus", "truck freight", "railroad (declining for passengers)"],
+      "description": "World War II broke the Sandhills' remaining isolation with federal defense dollars. Fort Bragg's expansion (1940-1942) required paved roads to handle military traffic — roads the state and counties could never have afforded. Military construction graded, drained, and paved farm-to-market roads across Hoke and Moore counties. Camp Mackall's construction in Richmond/Moore counties added another network of military roads. After the war, these became permanent public roads, ending the sand-trap transportation nightmare that had defined the region for two centuries. By 1960, automobile ownership was widespread even among moderate-income families, and bus service connected every county seat. Montgomery County remained the last holdout — mountain roads improved slowly, and Troy did not gain reliable highway connections until the 1950s.",
+      "road_conditions": "State highways fully paved. Military access roads built to high standards. Most county roads paved or hard-surfaced by 1955. The deep sand that had defined Sandhills transportation for 200 years was finally covered by asphalt and gravel. Rural electrification and telephone service accompanied road improvements.",
+      "travel_times": [
+        { "from": "Carthage (Moore Co.)", "to": "Fayetteville (Cumberland Co.)", "mode": "automobile", "time": "45 minutes-1 hour", "conditions_note": "Military-built roads made the trip routine; a journey that took 3 days in 1800" },
+        { "from": "Raeford (Hoke Co.)", "to": "Fort Bragg main gate", "mode": "automobile", "time": "15-20 minutes", "conditions_note": "Military construction paved the entire corridor" },
+        { "from": "Hamlet (Richmond Co.)", "to": "Charlotte", "mode": "automobile via US 74", "time": "1.5 hours", "conditions_note": "Improved highway; daily commuting was theoretically possible" },
+        { "from": "Troy (Montgomery Co.)", "to": "Asheboro (Randolph Co.)", "mode": "automobile", "time": "1 hour", "conditions_note": "Mountain roads finally improved but still narrow and winding" }
+      ],
+      "key_routes": [
+        { "route_name": "Military access roads (Fort Bragg)", "type": "paved military/public highway", "year_established": "1940-1943", "description": "Federal defense construction paved roads throughout Hoke and Moore counties. These roads served military logistics during the war and became the backbone of the postwar rural road network. The sand-trap problem was solved with federal dollars.", "counties_served": ["Hoke", "Moore", "Harnett"] },
+        { "route_name": "Camp Mackall access roads", "type": "paved military road", "year_established": 1942, "description": "Construction of Camp Mackall in Richmond/Moore counties required paved access roads that improved connectivity for the surrounding rural communities.", "counties_served": ["Richmond", "Moore"] },
+        { "route_name": "US Highway 1 (improved)", "type": "paved highway", "year_established": "improved 1940s-1950s", "description": "Widened and improved to handle military and growing civilian traffic. The primary north-south corridor through the Sandhills.", "counties_served": ["Moore", "Hoke"] }
+      ],
+      "isolation_index": {
+        "description": "Low for most of the cluster by 1960. The military road-building program accomplished in five years what 200 years of civilian effort had failed to do — pave the Sandhills. Montgomery County remained the most isolated, but even Troy gained improved highway access by the late 1950s.",
+        "comparative_note": "The Sandhills' transformation from one of NC's most isolated regions to a connected one was compressed into a single generation (1940-1960), driven almost entirely by military investment rather than civilian initiative."
+      },
+      "narrative_hook": "The Army paved the Sandhills — {ancestor_name} watched federal bulldozers grade roads across Hoke County that the state had never found the money to build. The sand that had trapped every wagon and car for 200 years disappeared under asphalt laid for military trucks.",
+      "source": "Lemmon, Sarah McCulloh. North Carolina's Role in World War II. Raleigh: NC Division of Archives and History, 1964. U.S. Army Corps of Engineers, Fort Bragg installation history."
+    }
+  ],
+
+  "railroad_timeline": [
+    {
+      "railroad_name": "Raleigh & Augusta Air Line Railroad / Seaboard Air Line Railroad",
+      "year_arrived": 1874,
+      "stations": [
+        { "station_name": "Hamlet", "county": "Richmond", "significance": "The junction that built a town. Intersection of north-south (Norfolk-Atlanta) and east-west (Raleigh-Charlotte) routes. Shops and roundhouses employed hundreds. The most important railroad point in the cluster." },
+        { "station_name": "Rockingham", "county": "Richmond", "significance": "County seat station; secondary to Hamlet but provided passenger and freight service." },
+        { "station_name": "Laurinburg", "county": "Scotland", "significance": "County seat after 1899; connected the Scottish Highland community to the rail network." }
+      ],
+      "impact": "Made Hamlet the dominant economic center of the eastern cluster. Railroad employment at wages far above farming created a new working class. The SAL's through-service from Norfolk to Atlanta brought the Sandhills into the national transportation network.",
+      "source": "Seaboard Air Line Railroad historical records."
+    },
+    {
+      "railroad_name": "Aberdeen & Rockfish Railroad",
+      "year_arrived": 1892,
+      "stations": [
+        { "station_name": "Aberdeen", "county": "Moore", "significance": "Gateway to Pinehurst. The A&R connected the resort district to Fayetteville and the SAL main line. Without this short line, Pinehurst could not have existed as a destination resort." },
+        { "station_name": "Raeford", "county": "Hoke", "significance": "Connected the future county seat to the rail network before Hoke County was even formed (1911)." }
+      ],
+      "impact": "The A&R was the lifeline for the Pinehurst/Southern Pines resort economy. Resort visitors arrived by train from New York, Philadelphia, and Boston, transferring at Aberdeen from main-line trains to the A&R for the final leg to Pinehurst. The railroad also carried turpentine, timber, and peaches from the Sandhills to market.",
+      "source": "Aberdeen & Rockfish Railroad historical records. Tufts Archives, Pinehurst."
+    },
+    {
+      "railroad_name": "Cape Fear & Yadkin Valley Railway",
+      "year_arrived": "1880s",
+      "stations": [
+        { "station_name": "Sanford", "county": "Moore (western edge) / Lee County", "significance": "Junction point connecting the Sandhills to the Piedmont rail network. Sanford grew as a railroad town and brick-manufacturing center." }
+      ],
+      "impact": "Provided the western Moore County area with rail access to Fayetteville and the Piedmont. Less important than the SAL junction at Hamlet for the cluster overall, but critical for the agricultural communities along the Deep River.",
+      "source": "Trelease, Allen W. The North Carolina Railroad, 1849-1871. Chapel Hill: UNC Press, 1991."
+    }
+  ],
+
+  "narrative_hooks": [
+    "In {year}, {ancestor_name} lived in the Sandhills, where the deep sand swallowed wagon wheels and made every trip to market a test of endurance — the nearest railroad depot was {distance} away, and the road there was not a road but a prayer.",
+    "The plank road through {county} County lasted barely fifteen years — long enough for {ancestor_name} to discover what a smooth road felt like, and short enough that the children never knew it.",
+    "The railroad junction at Hamlet changed what was possible in the Sandhills — {ancestor_name} could ship a barrel of turpentine to Norfolk in a day instead of floating it downriver for a week.",
+    "Montgomery County never got a railroad. {ancestor_name} in the Uwharries measured distance the same way in {later_year} as {pronoun_possessive} grandparents had in {early_year} — in hours behind a mule, through mountains too old and worn to build a grade across.",
+    "When Fort Bragg's bulldozers paved the Sandhills in {year}, they solved a transportation problem that 200 years of civilian effort had not — and {ancestor_name}'s family, for the first time, could reach Fayetteville without planning the trip around the weather and the sand.",
+    "US Highway 1 brought the automobile age through {county} County — Northern tourists drove to Pinehurst on smooth asphalt while {ancestor_name}, a mile off the pavement, still fought the same sand that had trapped every wheel since the colonial era."
+  ],
+
+  "source_references": [
+    "Watson, Harry L. An Independent People: The Way We Lived in North Carolina, 1770-1820. Chapel Hill: UNC Press, 1983.",
+    "Meyer, Duane. The Highland Scots of North Carolina, 1732-1776. Chapel Hill: UNC Press, 1961.",
+    "Starling, Robert B. 'The Plank Road Movement in North Carolina.' North Carolina Historical Review 16, nos. 1-2 (1939).",
+    "Watson, Alan D. Internal Improvements in Antebellum North Carolina. Raleigh: NC Division of Archives and History, 2002.",
+    "Trelease, Allen W. The North Carolina Railroad, 1849-1871, and the Modernization of North Carolina. Chapel Hill: UNC Press, 1991.",
+    "Brown, Cecil Kenneth. The State Highway System of North Carolina: Its Evolution and Present Status. Chapel Hill: UNC Press, 1931.",
+    "Lemmon, Sarah McCulloh. North Carolina's Role in World War II. Raleigh: NC Division of Archives and History, 1964.",
+    "Seaboard Air Line Railroad historical records.",
+    "Aberdeen & Rockfish Railroad historical records.",
+    "U.S. Army Corps of Engineers, Fort Bragg installation history."
+  ],
+
+  "nel_cross_references": {
+    "route_refs": [
+      "great_wagon_road",
+      "intercity_bus"
+    ]
+  }
+}

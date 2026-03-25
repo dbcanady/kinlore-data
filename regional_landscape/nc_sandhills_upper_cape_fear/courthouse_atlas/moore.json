@@ -1,0 +1,122 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Moore County, NC. Record survival, courthouse history, and known losses.",
+  "courthouse_atlas_id": "nc_moore_courthouse",
+  "display_name": "Moore County, North Carolina — Courthouse Atlas",
+  "county": "Moore",
+  "state": "NC",
+  "fips_code": "37125",
+  "cluster_ref": "nc_sandhills_upper_cape_fear",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1923,
+      "location": "Carthage, NC — Courthouse Square",
+      "records_housed": ["deeds", "plats", "vital records indexes", "court minutes", "estate files"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1784–1840s",
+        "location": "Carthage — original log/frame courthouse",
+        "fate": "Replaced as county grew. Early structure was modest — reflecting the sparse settlement of the Sandhills."
+      },
+      {
+        "era": "1840s–1923",
+        "location": "Carthage — brick courthouse",
+        "fate": "Served through the Civil War and Reconstruction. Replaced in 1923 with the current structure."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "moore_no_major_losses",
+      "date": "N/A",
+      "cause": "N/A",
+      "records_destroyed": ["No catastrophic record losses documented"],
+      "records_survived": ["Deed books from 1784", "Will books from 1784", "Marriage bonds from early 1800s", "Court minutes"],
+      "scope": "none",
+      "description": "Moore County is fortunate in having no documented catastrophic record loss. The courthouse was not burned during the Civil War. Sherman's march passed through neighboring counties but did not reach Carthage. The county's remote, sparsely populated character may have protected its records — there was nothing strategic to destroy.",
+      "narrative_impact": "Moore County's records survive in relatively good condition from county formation in 1784. If {ancestor_name}'s records are missing, the cause is more likely the informal record-keeping of a thinly populated frontier county than any destructive event.",
+      "source": "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1784,
+      "completeness": "Good — continuous series from county formation",
+      "gaps": "Early deed entries may be sparse, reflecting the small population. No known volume-level gaps.",
+      "repository": "Moore County Register of Deeds, Carthage; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com NC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1784,
+      "completeness": "Good from formation. Loose estate papers less complete for earliest decades.",
+      "gaps": "Some colonial-era loose papers may not have survived. Bound will books are intact.",
+      "repository": "Moore County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm; NC State Archives digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1800,
+      "completeness": "Good from early 1800s. Marriage bonds before 1800 may exist in scattered entries.",
+      "gaps": "Pre-1800 marriages may appear only in court minutes.",
+      "repository": "Moore County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com NC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1784,
+      "completeness": "Good from formation. The county's modest caseload meant thinner minutes than larger counties.",
+      "gaps": "Early minutes may be brief and formulaic.",
+      "repository": "NC State Archives; Moore County Clerk of Court",
+      "online_access": "NC State Archives microfilm; FamilySearch (partial)"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Spotty until approximately 1920.",
+      "repository": "NC Office of Vital Records; NC State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Turpentine and naval stores records",
+      "description": "Moore County's turpentine industry generated scattered business records — distillery accounts, labor contracts, and shipping records — that document families who appear in few other sources.",
+      "repository": "NC State Archives; scattered private collections",
+      "era_coverage": "1800–1880",
+      "genealogical_value": "Turpentine workers, particularly enslaved and later free Black laborers, may appear in these records when no other source names them.",
+      "source": "Outland, Robert B., III. Tapping the Pines. LSU Press, 2004."
+    },
+    {
+      "source_type": "Pinehurst resort records",
+      "description": "The Tufts Archives at the Given Memorial Library in Pinehurst contain records from the resort's founding in 1895, including employee records, hotel registers, and community records.",
+      "repository": "Given Memorial Library, Pinehurst, NC (Tufts Archives)",
+      "era_coverage": "1895–present",
+      "genealogical_value": "Local families employed as caddies, cooks, groundskeepers, and domestic workers appear in resort employment records that supplement standard county records.",
+      "source": "Tufts Archives finding aids, Given Memorial Library."
+    },
+    {
+      "source_type": "Fort Bragg land acquisition records",
+      "description": "When the Army acquired land for Fort Bragg (1918, expanded 1940), condemnation proceedings and land purchase records documented every property owner in the affected area.",
+      "repository": "National Archives (RG 77, Army Corps of Engineers); NC State Archives",
+      "era_coverage": "1918–1945",
+      "genealogical_value": "Military land acquisition records name property owners, describe parcels, and document families displaced by base construction. For ancestors whose farms were taken, these records may be the last property documentation.",
+      "source": "U.S. Army Corps of Engineers, Fort Bragg installation history files."
+    }
+  ],
+  "narrative_hooks": [
+    "Moore County's records survive intact from 1784 — no fire, no flood, no war destroyed them — which means if {ancestor_name}'s family was here, the deed books and court minutes likely hold their names in the clerk's own hand.",
+    "If {ancestor_name} worked in Moore County's turpentine camps before 1880, the distillery accounts and labor contracts may be the only records that name {pronoun_object} — the standard county records barely touched the turpentine workforce.",
+    "The Tufts Archives at Pinehurst hold employment records from the resort's earliest days — if {ancestor_name} worked as a caddy, cook, or groundskeeper after 1895, {pronoun_possessive} name may survive in a hotel ledger when it appears nowhere in the county courthouse.",
+    "When the Army bought land for Fort Bragg in {year}, every property owner was documented in the condemnation proceedings — if {ancestor_name}'s farm was in the base footprint, the government's purchase records are the last property record."
+  ],
+  "source_references": [
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Outland, Robert B., III. Tapping the Pines: The Naval Stores Industry in the American South. Baton Rouge: Louisiana State University Press, 2004.",
+    "Tufts Archives finding aids. Given Memorial Library, Pinehurst, NC.",
+    "Leary, Helen F. M., ed. North Carolina Research: Genealogy and Local History. 2nd ed. Raleigh: North Carolina Genealogical Society, 1996."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_moore",
+    "research_guidance_refs": ["southern_courthouse_research", "military_records"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Camden County, NJ. Record survival, courthouse history, and known losses. Camden County was created from Gloucester County in 1844, so its independent records begin at that date. Earlier records for the Camden area are in Gloucester County files.",
+  "courthouse_atlas_id": "nj_camden_courthouse",
+  "display_name": "Camden County, New Jersey — Courthouse Atlas",
+  "county": "Camden",
+  "state": "NJ",
+  "fips_code": "34007",
+  "cluster_ref": "nj_delaware_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1931,
+      "location": "Camden, NJ — 101 S. Fifth Street (Hall of Justice)",
+      "records_housed": ["deeds", "mortgages", "wills", "surrogate court records", "marriage licenses", "court minutes", "naturalizations"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1844–1855",
+        "location": "Camden — temporary quarters after separation from Gloucester County",
+        "fate": "Replaced by permanent courthouse"
+      },
+      {
+        "era": "1855–1931",
+        "location": "Camden — earlier courthouse building on Federal Street",
+        "fate": "Replaced by the 1931 building. No significant fire damage to records."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "camden_pre_1844_in_gloucester",
+      "date": "1844",
+      "cause": "County creation — Camden was carved from Gloucester County in 1844",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1844", "will books from 1844", "marriage licenses from 1844", "court minutes from 1844"],
+      "scope": "structural — pre-1844 records are in Gloucester County",
+      "description": "Camden County's independent records begin in 1844 when the county was created from Gloucester County. Records for the Camden area before 1844 — deeds, wills, court minutes — must be sought in Gloucester County's records at Woodbury. No significant fire or disaster has destroyed Camden County courthouse records since 1844.",
+      "narrative_impact": "If {ancestor_name} lived in what became Camden County before 1844, the records are in Gloucester County at Woodbury — not at Camden. This is a common research trap for Camden County families.",
+      "source": "Camden County Clerk's Office. Gloucester County Clerk's Office."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1844,
+      "completeness": "Complete from county formation. Pre-1844 deeds in Gloucester County records.",
+      "gaps": "No known gaps after 1844.",
+      "repository": "Camden County Clerk's Office; NJ State Archives",
+      "online_access": "FamilySearch microfilm; limited Ancestry.com"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1844,
+      "completeness": "Complete from county formation. Pre-1844 in Gloucester County.",
+      "gaps": "No known gaps after 1844.",
+      "repository": "Camden County Surrogate's Office; NJ State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1844,
+      "completeness": "Marriage licenses from 1844. NJ required licenses from 1795, so coverage is good.",
+      "gaps": "Pre-1844 in Gloucester County.",
+      "repository": "Camden County Clerk's Office",
+      "online_access": "FamilySearch; Ancestry.com NJ marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1844,
+      "completeness": "Complete from formation.",
+      "gaps": "Pre-1844 in Gloucester County.",
+      "repository": "Camden County Clerk's Office; NJ State Archives",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1848,
+      "death_registration_start": 1848,
+      "completeness": "NJ vital registration from 1848; spotty until 1900. Camden City compliance was better than rural areas.",
+      "repository": "NJ State Archives; NJ Department of Health"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Gloucester County records (pre-1844)",
+      "description": "All civil records for the Camden area before 1844 are in Gloucester County files at Woodbury. Deeds, wills, court minutes, and marriage records must be searched there for pre-1844 families.",
+      "repository": "Gloucester County Clerk's Office, Woodbury; NJ State Archives",
+      "era_coverage": "1686–1844",
+      "genealogical_value": "Essential for any Camden County family with roots before 1844.",
+      "source": "Gloucester County Clerk's Office."
+    },
+    {
+      "source_type": "Industrial employment records",
+      "description": "Campbell Soup Company, RCA Victor, and New York Shipbuilding Corporation maintained employment records that document Camden's industrial workforce. Access is variable — some records are in corporate archives, some at the Camden County Historical Society.",
+      "repository": "Camden County Historical Society; Hagley Museum and Library (DuPont/industrial collections); corporate archives (variable access)",
+      "era_coverage": "1869–1960",
+      "genealogical_value": "Important for industrial-era families. Employment records may be the primary documentation for immigrant workers who left few civil records.",
+      "source": "Camden County Historical Society collections guide."
+    },
+    {
+      "source_type": "Catholic parish records",
+      "description": "Camden's Catholic parishes served Italian, Polish, Irish, and later Puerto Rican communities. Sacramental records (baptism, marriage, burial) document immigrant families from the 1880s forward.",
+      "repository": "Individual parishes; Diocese of Camden archives",
+      "era_coverage": "1880–present",
+      "genealogical_value": "Critical for immigrant families. Ethnic parish records identify families by origin community.",
+      "source": "Diocese of Camden archives."
+    }
+  ],
+  "narrative_hooks": [
+    "Camden County's records begin in 1844 — everything before that is in Gloucester County at Woodbury. If {ancestor_name} lived in the Camden area before 1844, the research starts across the county line.",
+    "For industrial families, the factory records may tell more than the courthouse — Campbell Soup's employment records, RCA's personnel files, and the shipyard rosters document {ancestor_name}'s working life in ways the civil record cannot.",
+    "Catholic parish records are essential for Camden's immigrant communities — if {ancestor_name} was Italian, Polish, or Irish, the sacramental register at the ethnic parish is likely the first American document with the family name.",
+    "NJ vital records begin in 1848 — earlier than most states — so if {ancestor_name} was born or died in Camden County after that date, the state registration likely exists."
+  ],
+  "source_references": [
+    "Camden County Clerk's Office. Guide to Camden County Records.",
+    "Gloucester County Clerk's Office. Guide to Gloucester County Records.",
+    "Camden County Historical Society. Collections and Research Guide.",
+    "Diocese of Camden. Parish Records Guide."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nj_camden",
+    "research_guidance_refs": ["vital_records", "church_transfers", "institutional_records"],
+    "template_refs": ["record_silences"]
+  }
+}

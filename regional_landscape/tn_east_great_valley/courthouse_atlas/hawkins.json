@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Hawkins County, TN. Formed 1786 from Sullivan County. Seat: Rogersville. Records from 1786. The Rogersville Review (established 1840) provides newspaper documentation. Cherokee Lake (TVA, 1941) displaced some families whose property records may be in TVA archives.",
+  "courthouse_atlas_id": "tn_hawkins_courthouse",
+  "display_name": "Hawkins County, Tennessee — Courthouse Atlas",
+  "county": "Hawkins",
+  "state": "TN",
+  "fips_code": "47073",
+  "cluster_ref": "tn_east_great_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1937,
+      "location": "Rogersville, TN — Main Street",
+      "records_housed": ["deeds", "wills", "court minutes", "marriage records", "tax records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1786–1830s",
+        "location": "Rogersville",
+        "fate": "Early log and frame courthouses. Records maintained through early transitions."
+      },
+      {
+        "era": "1830s–1937",
+        "location": "Rogersville, Main Street",
+        "fate": "Brick courthouse. Survived the Civil War. Replaced by the current WPA-era building in 1937."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "hawkins_no_major_loss",
+      "date": null,
+      "cause": "None — no catastrophic fire or war destruction",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage records"],
+      "scope": "none",
+      "description": "Hawkins County's courthouse survived the Civil War and has not experienced a significant fire. Records from 1786 are generally well-preserved. The county's early records include pre-statehood NC grants and Territorial period documents. Court minutes may show gaps during Civil War disruption but the record books are intact.",
+      "narrative_impact": "If {ancestor_name} lived in Hawkins County after 1786, the records almost certainly survive. Gaps reflect the ancestor's circumstances (poverty, transience, mountain isolation) rather than courthouse losses.",
+      "source": "Tennessee State Library and Archives. Guide to County Records: Hawkins County."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1786,
+      "completeness": "Excellent — continuous from formation",
+      "gaps": "No significant gaps. Pre-1796 deeds are NC grants.",
+      "repository": "Hawkins County Register of Deeds, Rogersville; TSLA microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1787,
+      "completeness": "Good — bound volumes from near-formation",
+      "gaps": "Earliest loose estate papers may be fragmentary.",
+      "repository": "Hawkins County Clerk; TSLA",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1787,
+      "completeness": "Good",
+      "gaps": "Post-1838 records more standardized.",
+      "repository": "Hawkins County Clerk; TSLA microfilm",
+      "online_access": "FamilySearch; Ancestry.com TN marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1786,
+      "completeness": "Good — continuous with Civil War disruption",
+      "gaps": "Some disruption 1862-1864.",
+      "repository": "Hawkins County Clerk; TSLA",
+      "online_access": "TSLA digital collections (partial)"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Incomplete before approximately 1914.",
+      "repository": "Tennessee Department of Health; TSLA"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Rogersville Review newspaper",
+      "description": "The Rogersville Review, established 1840, is one of the oldest continuously published newspapers in Tennessee. It published court proceedings, estate notices, land sales, marriage announcements, and obituaries.",
+      "repository": "Hawkins County Library; Tennessee State Library and Archives microfilm; some Newspapers.com digitization",
+      "era_coverage": "1840-present",
+      "genealogical_value": "Excellent source for post-1840 documentation. Estate notices and sheriff's sale announcements name individuals and describe property. Obituaries provide family relationships.",
+      "source": "Tennessee Press Association. Tennessee Newspaper Archive finding aids."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790-1940.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790-1940",
+      "genealogical_value": "Essential for tracking families. Agricultural schedules (1850-1880) are particularly valuable for documenting farm operations.",
+      "source": "NARA. Federal Census Schedules, Hawkins County, TN."
+    },
+    {
+      "source_type": "TVA Cherokee Reservoir land records",
+      "description": "Cherokee Dam land acquisition displaced some Hawkins County families from Holston River bottomland. TVA records document every tract.",
+      "repository": "Tennessee Valley Authority Technical Library; National Archives Southeast Region",
+      "era_coverage": "1940-1942",
+      "genealogical_value": "Documents displaced families — names, tract locations, compensation, relocation patterns.",
+      "source": "Tennessee Valley Authority. Cherokee Reservoir: Report to the Congress. Knoxville: TVA, 1943."
+    }
+  ],
+  "narrative_hooks": [
+    "Hawkins County's courthouse has survived since 1786 without a major fire — {ancestor_name}'s records are almost certainly intact.",
+    "The Rogersville Review has printed local news since 1840 — if {ancestor_name} appeared in an estate notice, a court proceeding, or an obituary, the microfilm holds it.",
+    "Pre-statehood records in Hawkins County are North Carolina grants — {ancestor_name}'s earliest deed may carry the authority of a state three hundred miles to the east.",
+    "Cherokee Lake displaced some Holston bottomland families — if {ancestor_name}'s property was condemned by TVA, the records are in Knoxville."
+  ],
+  "source_references": [
+    "Tennessee State Library and Archives. Guide to County Records: Hawkins County.",
+    "Tennessee Valley Authority. Cherokee Reservoir: Report to the Congress. Knoxville: TVA, 1943.",
+    "Tennessee Press Association. Tennessee Newspaper Archive finding aids."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "tn_hawkins",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

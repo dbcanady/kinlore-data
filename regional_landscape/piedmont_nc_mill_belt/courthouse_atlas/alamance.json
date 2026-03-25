@@ -1,0 +1,122 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Alamance County, NC. Record survival, courthouse history, and known losses that shape what genealogists can and cannot find.",
+  "courthouse_atlas_id": "nc_alamance_courthouse",
+  "display_name": "Alamance County, North Carolina — Courthouse Atlas",
+  "county": "Alamance",
+  "state": "NC",
+  "fips_code": "37001",
+  "cluster_ref": "piedmont_nc_mill_belt",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1924,
+      "location": "Graham, NC — 1 Court Square",
+      "records_housed": ["deeds", "plats", "vital records indexes", "court minutes post-1900", "estate files post-1900", "marriage registers"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1849–1880s",
+        "location": "Graham, center of town",
+        "fate": "First courthouse built when Alamance County was formed from Orange County in 1849. Survived the Civil War. Replaced when outgrown."
+      },
+      {
+        "era": "1880s–1924",
+        "location": "Graham, same site",
+        "fate": "Second courthouse served until replaced by the 1924 building. No fire damage."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "alamance_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire or war damage. County formed in 1849, so records begin at that date.",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage registers", "estate files"],
+      "scope": "none",
+      "description": "Alamance County was formed from Orange County in 1849 and has suffered no major courthouse fire or war destruction. Records begin at the county's formation date and run continuously to the present. For pre-1849 records affecting Alamance County territory, Orange County (Hillsborough) is the parent county and holds the earlier record series.",
+      "narrative_impact": "Alamance County's records are complete from 1849, but {ancestor_name}'s family may have lived on the same land for decades before the county existed. If the family was in this area before 1849, look for them in Orange County records — same land, different courthouse.",
+      "source": "Whitaker, Walter. Centennial History of Alamance County, 1849-1949. Burlington: Burlington Chamber of Commerce, 1949."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1849,
+      "completeness": "Good — continuous series from county formation",
+      "gaps": "No known gaps. Pre-1849 deeds for land within current Alamance County boundaries are in Orange County records at Hillsborough.",
+      "repository": "Alamance County Register of Deeds, Graham; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com NC land records collection"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1849,
+      "completeness": "Good — wills and estate records from formation",
+      "gaps": "No significant gaps. Pre-1849 wills for this area are in Orange County records.",
+      "repository": "Alamance County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm; NC State Archives digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1849,
+      "completeness": "Good — marriage records from county formation",
+      "gaps": "Pre-1849 marriages are in Orange County records.",
+      "repository": "Alamance County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com NC marriages collection"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1849,
+      "completeness": "Good — continuous from formation",
+      "gaps": "No known gaps. Superior Court minutes begin at formation.",
+      "repository": "NC State Archives; Alamance County Clerk of Court",
+      "online_access": "NC State Archives microfilm; limited FamilySearch digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Spotty until approximately 1920.",
+      "repository": "NC Office of Vital Records; NC State Archives for delayed birth certificates"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Orange County parent records (pre-1849)",
+      "description": "All civil records for the territory that became Alamance County are found in Orange County (Hillsborough) before 1849. Orange County was formed in 1752 and has excellent record survival. Deeds, wills, marriages, and court minutes from Orange County cover Alamance territory families back to the colonial period.",
+      "repository": "Orange County Register of Deeds, Hillsborough; NC State Archives microfilm; FamilySearch",
+      "era_coverage": "1752–1849",
+      "genealogical_value": "Essential for any Alamance County family research before 1849. The family's land and court records will be filed under Orange County even though the physical land is in present-day Alamance.",
+      "source": "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790–1940. Before 1850, families in present-day Alamance territory were enumerated under Orange County. From 1850 onward, they appear under Alamance County. Slave schedules (1850, 1860) and agricultural schedules add economic context.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790–1940 (under Orange County before 1850)",
+      "genealogical_value": "Essential for tracking families across the 1849 county formation boundary. Census records provide continuity when the courthouse split created an artificial break in the civil record trail.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Alamance and Orange Counties, NC."
+    },
+    {
+      "source_type": "Textile mill company records",
+      "description": "Alamance County was one of the earliest textile manufacturing counties in NC — the Alamance Cotton Mill (est. 1837) predated the county's own formation. E.M. Holt and Company and successor operations maintained payroll and employment records that document worker families from the antebellum period forward.",
+      "repository": "Alamance County Historical Museum, Burlington; NC State Archives; some records at UNC-Chapel Hill Southern Historical Collection",
+      "era_coverage": "1837–1960s",
+      "genealogical_value": "Valuable for identifying textile worker families. Alamance County's claim as the birthplace of the Southern textile industry means company records here predate those in most other Piedmont counties.",
+      "source": "Glass, Brent D. The Textile Industry in North Carolina: A History. Raleigh: NC Division of Archives and History, 1992."
+    }
+  ],
+  "narrative_hooks": [
+    "Alamance County was formed from Orange County in 1849, so if {ancestor_name}'s family was here before that date, the paper trail leads to the Orange County courthouse in Hillsborough — same land, different filing cabinet.",
+    "If {ancestor_name} worked in Alamance County's textile mills, {pronoun_subject} was part of an industry older than the county itself — the Alamance Cotton Mill opened in 1837, twelve years before the county was carved out of Orange.",
+    "Before 1913, no North Carolina county required birth or death registration, so the absence of a birth record for {ancestor_name} in Alamance County reflects the era, not the family — church records, census schedules, and mill company payrolls are the likeliest substitutes.",
+    "Alamance County's courthouse has never burned, which means the deed that recorded {ancestor_name}'s land transaction in {year} is almost certainly still in the vault at Graham — the chain of title runs unbroken from 1849."
+  ],
+  "source_references": [
+    "Whitaker, Walter. Centennial History of Alamance County, 1849-1949. Burlington: Burlington Chamber of Commerce, 1949.",
+    "Glass, Brent D. The Textile Industry in North Carolina: A History. Raleigh: NC Division of Archives and History, 1992.",
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Works Progress Administration. Historical Records Survey: North Carolina County Records. Raleigh, 1937–1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_alamance",
+    "research_guidance_refs": ["southern_courthouse_research", "parent_county_research"],
+    "template_refs": ["record_silences"]
+  }
+}

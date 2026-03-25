@@ -1,0 +1,50 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Columbia County, NY. Record survival from a county formed 1786 from Albany County. No major fire — excellent record survival. Unique sources include Livingston Manor rent rolls and Palatine German church records.",
+  "courthouse_atlas_id": "ny_columbia_courthouse",
+  "display_name": "Columbia County, New York — Courthouse Atlas",
+  "county": "Columbia",
+  "state": "NY",
+  "fips_code": "36021",
+  "cluster_ref": "ny_hudson_valley",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1900, "location": "Hudson, NY — 401 Union Street", "records_housed": ["deeds", "mortgages", "wills", "probate records", "court minutes", "naturalization records"] },
+    "previous_courthouses": [
+      { "era": "1786-1847", "location": "Claverack, then Hudson — frame and stone buildings", "fate": "County seat moved from Claverack to Hudson in 1805. No significant fire damage." },
+      { "era": "1847-1900", "location": "Hudson, stone courthouse", "fate": "Served through the Civil War. Replaced by the current building." }
+    ]
+  },
+  "record_losses": [
+    { "loss_id": "columbia_no_major_loss", "date": null, "cause": "No major fire or war damage", "records_destroyed": [], "records_survived": ["deed books", "will books", "court minutes"], "scope": "none", "description": "Columbia County has not experienced a major courthouse fire. Records begin at the county's formation (1786); pre-1786 records for the area are under Albany County. Livingston Manor records are held separately by the New-York Historical Society and provide tenant documentation not available in courthouse records.", "narrative_impact": "Records survive. If {ancestor_name} was a tenant on the Livingston Manor, the courthouse may have limited records — check the Livingston family papers at the New-York Historical Society.", "source": "Columbia County Clerk's Office. New York State Archives." }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1786, "completeness": "Good from county formation. Pre-1786 deeds under Albany County.", "gaps": "Livingston Manor leases are not in the county deed books — they are in the Livingston family papers.", "repository": "Columbia County Clerk's Office, Hudson; NY State Archives microfilm", "online_access": "FamilySearch; Ancestry.com" },
+    "wills_estates": { "earliest_surviving": 1787, "completeness": "Good.", "gaps": "Pre-1786 probate under Albany County.", "repository": "Columbia County Surrogate's Court; NY State Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1847, "completeness": "Standard NY pattern.", "gaps": "Pre-1880 civil registration sparse.", "repository": "Town clerks; NY State Department of Health", "online_access": "FamilySearch; Ancestry.com" },
+    "court_minutes": { "earliest_surviving": 1786, "completeness": "Good from formation.", "gaps": "None significant.", "repository": "Columbia County Clerk's Office; NY State Archives", "online_access": "Limited" },
+    "vital_records": { "birth_registration_start": 1880, "death_registration_start": 1880, "completeness": "Standard NY pattern.", "repository": "Town clerks; NY State Department of Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "Livingston family papers and manor rent rolls", "description": "The Livingston Manor records document tenants on one of the largest landholdings in colonial and early national New York. Rent rolls list heads of household, acreage, and payments.", "repository": "New-York Historical Society; New York Public Library Manuscripts Division", "era_coverage": "1686-1850s", "genealogical_value": "Essential for tenant families. The deed books will not contain these families because they did not own land.", "source": "Kim, Sung Bok. Landlord and Tenant in Colonial New York. UNC Press, 1978." },
+    { "source_type": "Palatine German church records (Germantown)", "description": "Lutheran and Reformed church records at Germantown document the 1710 Palatine settlement and its descendants. Records are in German through the late 18th century.", "repository": "Evangelical Lutheran Church in America Archives; Reformed Church in America Archives; NY Genealogical and Biographical Society", "era_coverage": "1710-present", "genealogical_value": "Critical for Palatine families. Baptism records name parents and sponsors. Some records have been published by the German Genealogical Society of New York.", "source": "Otterness, Philip. Becoming German. Cornell University Press, 2004." },
+    { "source_type": "Shaker records (New Lebanon/Mount Lebanon)", "description": "The Shaker community at New Lebanon maintained membership records, correspondence, and community journals from the 1780s through dissolution.", "repository": "Western Reserve Historical Society, Cleveland; Library of Congress; Hancock Shaker Village archives", "era_coverage": "1780s-1947", "genealogical_value": "Valuable for identifying individuals who joined the Shakers. Membership records, admission books, and departure records track individuals entering and leaving the community.", "source": "Andrews, Edward Deming. The People Called Shakers. Oxford University Press, 1953." }
+  ],
+  "narrative_hooks": [
+    "If {ancestor_name} was a Livingston Manor tenant, the courthouse deed books will not mention {pronoun_object} — check the Livingston family papers at the New-York Historical Society for rent rolls that documented every tenant family.",
+    "Palatine German church records at Germantown are in German and predate English-language civil records — {ancestor_name}'s baptism may be recorded in the language {pronoun_possessive} family spoke at home.",
+    "The Shaker community at New Lebanon kept meticulous records — if {ancestor_name} joined or left the Shakers, admission and departure books document the event.",
+    "Columbia County was formed from Albany County in 1786 — {ancestor_name}'s pre-1786 records are filed under Albany County."
+  ],
+  "source_references": [
+    "Kim, Sung Bok. Landlord and Tenant in Colonial New York. University of North Carolina Press, 1978.",
+    "Otterness, Philip. Becoming German. Ithaca: Cornell University Press, 2004.",
+    "Andrews, Edward Deming. The People Called Shakers. New York: Oxford University Press, 1953.",
+    "New York State Archives. Guide to Records in the New York State Archives. Albany, 1993."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ny_columbia",
+    "research_guidance_refs": ["property_records", "church_transfers"],
+    "template_refs": ["record_silences"]
+  }
+}

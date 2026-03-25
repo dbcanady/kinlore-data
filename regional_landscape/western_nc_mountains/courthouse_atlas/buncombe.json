@@ -1,0 +1,137 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Buncombe County, NC. Record survival, courthouse history, and known losses for the regional hub of western North Carolina — Asheville's courthouse serves the most populous mountain county.",
+  "courthouse_atlas_id": "nc_buncombe_courthouse",
+  "display_name": "Buncombe County, North Carolina — Courthouse Atlas",
+  "county": "Buncombe",
+  "state": "NC",
+  "fips_code": "37021",
+  "cluster_ref": "western_nc_mountains",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1928,
+      "location": "Asheville, NC — 60 Court Plaza",
+      "records_housed": ["deeds", "plats", "vital records indexes", "court minutes post-1900", "estate files", "marriage licenses"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1792–1830s",
+        "location": "Morristown (original county seat, near present-day Asheville)",
+        "fate": "Small log structure, replaced as the county grew. County seat was formally renamed Asheville (after Samuel Ashe) in 1797. The original structure was demolished."
+      },
+      {
+        "era": "1830s–1876",
+        "location": "Asheville, downtown square",
+        "fate": "Frame courthouse on the public square. Survived the Civil War — Asheville was not a significant military target, though raiding parties passed through. Outgrown by the 1870s."
+      },
+      {
+        "era": "1876–1928",
+        "location": "Asheville, Court Square (Pack Square area)",
+        "fate": "Brick courthouse built during Reconstruction. Served through the Biltmore Era boom. Replaced by the current Art Deco structure in 1928 during the city's peak building era, just before the Depression crushed the local economy."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "buncombe_early_fragmentation",
+      "date": "1792-1830",
+      "cause": "Frontier conditions and county subdivision",
+      "records_destroyed": ["some early deed abstracts", "scattered loose papers from the 1790s"],
+      "records_survived": ["deed books from 1792", "will books", "court minutes from 1792"],
+      "scope": "minor",
+      "description": "Buncombe County was formed in 1792 and originally encompassed nearly all of western North Carolina. As new counties were carved from Buncombe (Haywood 1808, Henderson 1838, Madison 1851, and others), some records related to those areas were transferred or lost in the process. The core Buncombe records — deeds, wills, court minutes — survive from formation. Some early loose papers from the 1790s are fragmentary, reflecting frontier courthouse conditions rather than any specific disaster.",
+      "narrative_impact": "Buncombe County's records survived better than most mountain counties. If {ancestor_name} owned land or appeared in court here, the record likely still exists — a significant advantage in a region where fire destroyed multiple courthouses.",
+      "source": "Sondley, Forster A. A History of Buncombe County, North Carolina. 2 vols. Asheville: Advocate Printing, 1930."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1792,
+      "completeness": "Good — continuous series from county formation",
+      "gaps": "Some early deed books show wear and minor water damage but remain legible. Records from areas later subdivided into new counties may require checking both Buncombe and the successor county.",
+      "repository": "Buncombe County Register of Deeds, Asheville; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com NC land records collection; Buncombe County online land records (modern)"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1792,
+      "completeness": "Good — wills and estate records survive from formation",
+      "gaps": "Some loose estate papers from the 1790s-1800s are fragmentary. Bound will books are intact.",
+      "repository": "Buncombe County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm; NC State Archives digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1792,
+      "completeness": "Good — marriage bonds survive from county formation",
+      "gaps": "Bonds are more complete than registers. Register books begin later, approximately 1851. Some early bonds are difficult to read.",
+      "repository": "Buncombe County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com NC marriages collection"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1792,
+      "completeness": "Good — County and Superior Court minutes nearly continuous",
+      "gaps": "Minor gaps in the 1790s-1800s. Superior Court minutes begin later than County Court.",
+      "repository": "NC State Archives; Buncombe County Clerk of Court",
+      "online_access": "NC State Archives microfilm; limited FamilySearch digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Spotty until approximately 1920. Asheville city records may predate county registration. Buncombe had better compliance than most mountain counties due to Asheville's urban infrastructure.",
+      "repository": "NC Office of Vital Records; NC State Archives for delayed birth certificates"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1800–1940. Buncombe County enumerated from 1800. Agricultural schedules (1850–1880) provide farm detail. The 1800 and 1810 censuses include names from what later became multiple separate counties.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1800–1940",
+      "genealogical_value": "Essential for tracking mountain families. Early censuses cover the entire western NC region before county subdivision. Slave schedules (1850-1860) identify slaveholders but not enslaved individuals by name — slaveholding was limited in the mountains.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Buncombe County, NC."
+    },
+    {
+      "source_type": "Asheville city directories",
+      "description": "Asheville was the only mountain community large enough to produce city directories. Directories from the 1880s forward list residents by name, occupation, and address.",
+      "repository": "Pack Memorial Library, Asheville; NC State Archives; Ancestry.com (some digitized)",
+      "era_coverage": "1880s–present",
+      "genealogical_value": "Unique resource for mountain genealogy. Tracks families who moved from rural Buncombe into Asheville — the urban migration within the county. Not available for any other county in the mountain cluster.",
+      "source": "Various publishers. Asheville City Directories. Annual editions, 1883+."
+    },
+    {
+      "source_type": "Church records — Baptist, Methodist, Presbyterian",
+      "description": "Numerous congregations kept membership rolls, disciplinary minutes, and burial records. Presbyterian records are more common in Buncombe than in most mountain counties, reflecting Scots-Irish settlement patterns.",
+      "repository": "NC Baptist Historical Collection, Wake Forest University; Presbyterian Historical Society; individual churches; NC State Archives",
+      "era_coverage": "1790s–present",
+      "genealogical_value": "Church records fill gaps in civil vital records before 1913. Presbyterian session minutes are often particularly detailed, naming members with dates of admission, dismissal, and discipline.",
+      "source": "Sondley, Forster A. A History of Buncombe County, North Carolina. Asheville: Advocate Printing, 1930."
+    },
+    {
+      "source_type": "Biltmore Estate employee records",
+      "description": "The Biltmore Estate and its associated farms, forestry operations, and village employed hundreds of local workers from the 1890s onward. Some employee records survive.",
+      "repository": "Biltmore Estate archives (limited access); Pack Memorial Library, Asheville",
+      "era_coverage": "1889–present",
+      "genealogical_value": "Documents the economic relationship between the Vanderbilt estate and local families. Names, wages, and occupations for workers who appear in no other record type.",
+      "source": "Bryan, John M. Biltmore Estate: The Most Distinguished Private Place. New York: Rizzoli, 1994."
+    }
+  ],
+  "narrative_hooks": [
+    "Buncombe County's courthouse survived every war and fire that destroyed records across western North Carolina, which means {ancestor_name}'s deed and will records likely still exist from the county's very first year — 1792.",
+    "If {ancestor_name} appeared in court in Buncombe County, the minutes probably still exist — the record runs nearly unbroken from the frontier era, a remarkable survival for a mountain county.",
+    "Before 1913, no North Carolina county required birth or death registration, so the absence of a birth record for {ancestor_name} reflects the era, not the family — church rolls and census records are the likeliest substitutes in the mountains.",
+    "Buncombe County's early records cover an area that later became a dozen separate counties. If {ancestor_name} was in western NC before 1808, the Buncombe records may be the only place that history was written down.",
+    "The Asheville city directories, available from the 1880s, are the only resource of their kind in the mountain cluster — if {ancestor_name} moved into Asheville from the farm, the directory may be the first record that places them in town."
+  ],
+  "source_references": [
+    "Sondley, Forster A. A History of Buncombe County, North Carolina. 2 vols. Asheville: Advocate Printing, 1930.",
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Bryan, John M. Biltmore Estate: The Most Distinguished Private Place. New York: Rizzoli, 1994.",
+    "Dykeman, Wilma. The French Broad. New York: Rinehart, 1955.",
+    "Chase, Nan K. Asheville: A History. Jefferson, NC: McFarland, 2007."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_buncombe",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

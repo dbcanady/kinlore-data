@@ -1,0 +1,141 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the OH Western Reserve cluster. Documents how transportation shaped settlement, industrialization, and migration across the Reserve from the Connecticut Land Company surveys through the highway era. The Reserve was settled by ox-drawn wagons from New England, connected by the Ohio & Erie Canal, industrialized by the railroad, and suburbanized by the automobile and the Ohio Turnpike.",
+  "connectivity_id": "oh_western_reserve_roads",
+  "display_name": "OH Western Reserve — Road & Connectivity Network",
+  "cluster_ref": "oh_western_reserve",
+  "era_range": "1796-1960",
+  "transportation_eras": [
+    {
+      "era_id": "frontier_trails",
+      "era_name": "Frontier Trails and the Connecticut Land Company",
+      "date_range": "1796-1830",
+      "primary_modes": ["ox-drawn wagon", "horseback", "foot", "small boat on Lake Erie"],
+      "description": "The first Connecticut settlers reached the Western Reserve by two routes: overland from New England through New York and Pennsylvania, or by boat across Lake Erie from Buffalo. The overland route was punishing — hundreds of miles of forested roads through the Allegheny Plateau. The lake route was faster but dangerous and seasonal (Lake Erie was unnavigable in winter). Within the Reserve, movement followed a grid of township survey lines cut through the forest. The roads were unimproved traces through dense beech-maple forest — passable in dry weather, dangerous in rain, and impassable in winter. The isolation of the early Reserve was extreme.",
+      "road_conditions": "Unimproved forest traces following survey lines. Corduroy roads (logs laid across mud) at the worst spots. No bridges — streams forded or crossed by ferry. Travel through old-growth forest with tree roots, fallen logs, and seasonal mud.",
+      "travel_times": [
+        { "from": "Buffalo, NY", "to": "Cleveland", "mode": "lake schooner", "time": "3-5 days (weather-dependent)", "conditions_note": "Seasonal — Lake Erie was navigable May-November only. Storm risk." },
+        { "from": "Hartford, CT", "to": "Cleveland", "mode": "ox-drawn wagon (overland)", "time": "4-6 weeks", "conditions_note": "The standard migration journey. Families brought all possessions." },
+        { "from": "Cleveland", "to": "Warren (Trumbull Co.)", "mode": "horseback", "time": "2-3 days", "conditions_note": "Approximately 50 miles through dense forest on an unimproved trace." }
+      ],
+      "key_routes": [
+        { "route_name": "Buffalo-Cleveland lake route", "type": "Lake Erie sailing route", "year_established": "1796", "description": "The primary route for settlers arriving from New England via the Erie Canal corridor (before the Erie Canal) or overland to Buffalo. Moses Cleaveland's party arrived by this route.", "counties_served": ["Cuyahoga"] },
+        { "route_name": "Overland route from Pennsylvania", "type": "forest trace", "year_established": "1790s", "description": "Settlers from Connecticut and Massachusetts traveled overland through New York and Pennsylvania. The route crossed the Allegheny Plateau — dense forest, poor roads, and difficult river crossings.", "counties_served": ["Ashtabula", "Trumbull", "Portage"] },
+        { "route_name": "Cleveland-Warren road", "type": "forest trace", "year_established": "1800s", "description": "One of the first improved roads in the Reserve, connecting the lake port to the county seat.", "counties_served": ["Cuyahoga", "Portage", "Trumbull"] }
+      ],
+      "isolation_index": {
+        "description": "Extreme. The Western Reserve in its first generation was one of the most isolated settlements in the northeastern United States. Dense forest, no navigable rivers (the Cuyahoga was too rocky), and Lake Erie closed by ice five months of the year.",
+        "comparative_note": "More isolated than contemporaneous settlements in western New York or the Virginia Piedmont. The forest was denser and the winters more severe than most other frontier regions east of the Mississippi."
+      },
+      "narrative_hook": "The journey from Connecticut to the Western Reserve took {ancestor_name}'s family six weeks by ox-wagon — through the forests of New York and Pennsylvania, across rivers without bridges, to a place that Connecticut claimed and the forest still owned.",
+      "source": "Cherry, The Western Reserve and Early Ohio (1920). Rose, Cleveland: The Making of a City (1950)."
+    },
+    {
+      "era_id": "canal_era",
+      "era_name": "Canal and Early Railroad",
+      "date_range": "1825-1870",
+      "primary_modes": ["canal boat", "railroad (from 1850s)", "improved road", "Lake Erie steamboat"],
+      "description": "The Ohio & Erie Canal (completed 1832) transformed the Reserve's connectivity. The canal ran from Cleveland south through Akron to the Ohio River at Portsmouth, connecting the Great Lakes to the Ohio-Mississippi system. Lake Erie steamships replaced sailing vessels for the Buffalo-Cleveland route. The Erie Canal in New York (1825) made the Buffalo-Cleveland connection part of a continuous water route from New York City to the Ohio interior. Railroads arrived in the 1850s — the Cleveland, Columbus & Cincinnati Railroad (1851) and the Lake Shore & Michigan Southern Railroad connected Cleveland to the national rail network.",
+      "road_conditions": "Township roads improved by corvee labor but still mostly dirt. Main roads between county seats were the best; farm-to-market roads remained poor. The canal towpath doubled as a road along its route.",
+      "travel_times": [
+        { "from": "Cleveland", "to": "Akron", "mode": "canal boat", "time": "24-36 hours (including 21 locks)", "conditions_note": "The locks at Akron took hours to navigate." },
+        { "from": "Cleveland", "to": "Columbus", "mode": "railroad (from 1851)", "time": "8-10 hours", "conditions_note": "The first direct rail connection." },
+        { "from": "Buffalo", "to": "Cleveland", "mode": "Lake Erie steamship", "time": "12-18 hours", "conditions_note": "Steam replaced sail; faster and more reliable." },
+        { "from": "Farm (off-canal)", "to": "Nearest canal basin or rail depot", "mode": "wagon", "time": "2-4 hours one way", "conditions_note": "The canal and railroad created a two-speed economy — connected where they ran, isolated where they did not." }
+      ],
+      "key_routes": [
+        { "route_name": "Ohio & Erie Canal", "type": "canal", "year_established": "1827-1832", "description": "Connected Cleveland to the Ohio River via Akron. The canal's 21 locks at Akron were the engineering center of the system. Made Cleveland a transshipment hub between Lake Erie and the Ohio Valley.", "counties_served": ["Cuyahoga", "Summit"] },
+        { "route_name": "Cleveland, Columbus & Cincinnati Railroad", "type": "railroad", "year_established": 1851, "description": "First railroad connecting Cleveland to central Ohio. Began replacing canal traffic for passenger and high-value freight.", "counties_served": ["Cuyahoga"] },
+        { "route_name": "Lake Shore & Michigan Southern Railroad", "type": "railroad", "year_established": "1852", "description": "Connected Cleveland to Buffalo and Chicago along the Lake Erie shoreline. Made Cleveland a junction between east-west and north-south rail traffic.", "counties_served": ["Cuyahoga", "Lake", "Ashtabula"] }
+      ],
+      "isolation_index": {
+        "description": "Dramatically reduced along the canal and railroad corridors. Communities on the canal (Cleveland, Akron) and the railroad (Cleveland, Ashtabula, Painesville) were as well-connected as any in the Midwest. Communities off both remained isolated.",
+        "comparative_note": "Cleveland by 1860 was one of the best-connected cities in the Midwest — lake, canal, and railroad all converging at the Cuyahoga mouth."
+      },
+      "narrative_hook": "The canal reached Cleveland in 1832 and the world shrank — {ancestor_name} could ship wheat to New York and receive manufactured goods from Cincinnati on the same water highway, and the Ohio frontier suddenly felt less remote.",
+      "source": "Robison, 'The Ohio & Erie Canal' (1954). Rose, Cleveland: The Making of a City (1950)."
+    },
+    {
+      "era_id": "railroad_industrial",
+      "era_name": "Railroad and Industrial Corridor",
+      "date_range": "1870-1920",
+      "primary_modes": ["railroad (dominant)", "Lake Erie ore boats and freighters", "improved road", "interurban electric railway"],
+      "description": "The railroad made the Reserve's industrial transformation possible. Iron ore arrived from Minnesota's Mesabi Range by lake freighter; coal arrived from Pennsylvania and West Virginia by rail; finished steel and manufactured goods departed by both. Cleveland became one of the nation's most important railroad junctions. The interurban electric railway system (1890s-1930s) connected Cleveland to Akron, Elyria, Painesville, and smaller towns, providing commuter and freight service that anticipated the automobile's impact. Every county seat and most significant towns in the cluster had railroad service by 1890.",
+      "road_conditions": "Township roads remained largely unimproved. City streets were paved with brick or macadam. The contrast between urban pavement and rural mud was stark.",
+      "travel_times": [
+        { "from": "Cleveland", "to": "Akron", "mode": "railroad", "time": "1.5-2 hours", "conditions_note": "Multiple daily trains." },
+        { "from": "Cleveland", "to": "Ashtabula", "mode": "Lake Shore Railroad", "time": "2-3 hours", "conditions_note": "Along the lakeshore." },
+        { "from": "Cleveland", "to": "Warren (Trumbull)", "mode": "railroad", "time": "2-3 hours", "conditions_note": "Via the Erie Railroad or connecting service." },
+        { "from": "Cleveland", "to": "Akron", "mode": "interurban electric railway", "time": "2-2.5 hours", "conditions_note": "Northern Ohio Traction Company service." }
+      ],
+      "key_routes": [
+        { "route_name": "Lake Shore & Michigan Southern (NYC main line)", "type": "railroad", "year_established": "1852/consolidated 1869", "description": "Main east-west trunk line along the Lake Erie shoreline. Connected Cleveland to Buffalo, New York, and Chicago. The most important single railroad in the cluster.", "counties_served": ["Cuyahoga", "Lake", "Ashtabula"] },
+        { "route_name": "Erie Railroad (through Akron and Kent)", "type": "railroad", "year_established": "1850s/reorganized", "description": "Connected Akron and the portage summit to the east-west trunk system.", "counties_served": ["Summit", "Portage"] },
+        { "route_name": "Northern Ohio Traction Company (interurban)", "type": "electric interurban", "year_established": "1895", "description": "Electric railway connecting Cleveland to Akron via the Cuyahoga Valley. Provided commuter service and freight for communities between the cities.", "counties_served": ["Cuyahoga", "Summit"] },
+        { "route_name": "Lake Erie ore boat routes (Duluth/Marquette to Cleveland/Ashtabula)", "type": "Great Lakes shipping", "year_established": "1870s-1880s", "description": "Iron ore from Minnesota and Michigan traveled by bulk freighter to Cleveland, Ashtabula, and Fairport Harbor for transshipment to steel mills. The largest single freight movement on the Great Lakes.", "counties_served": ["Cuyahoga", "Ashtabula", "Lake"] }
+      ],
+      "isolation_index": {
+        "description": "Low in the urban-industrial corridor (Cleveland-Akron). Moderate in the rural counties (Geauga, eastern Ashtabula, southern Medina). The railroad network was dense — every county seat had service — but communities between rail lines remained road-dependent.",
+        "comparative_note": "Cleveland by 1900 was one of the best-connected cities in America — lake, rail, and interurban all converging. The cluster was better connected than most comparable regions."
+      },
+      "narrative_hook": "The railroad brought Minnesota's iron ore to Cleveland's furnaces and Appalachia's coal to Akron's boilers — {ancestor_name} lived at the convergence point, where raw materials from a thousand miles away were turned into the products that built the country.",
+      "source": "Van Tassel and Grabowski, Encyclopedia of Cleveland History (1996). Knepper, Akron: City at the Summit (1981)."
+    },
+    {
+      "era_id": "automobile_highway",
+      "era_name": "Automobile, Highway, and Suburban Dispersal",
+      "date_range": "1920-1960",
+      "primary_modes": ["automobile", "truck", "railroad (declining)", "Lake Erie shipping (declining)", "air (Cleveland Hopkins Airport)"],
+      "description": "The automobile and paved highways transformed the Reserve's geography of daily life. US Route 6 ran along the lakeshore; US Route 20 paralleled it inland; US Route 21 connected Cleveland to Akron. The Ohio Turnpike (1955) connected the Reserve to Pennsylvania and Indiana. The automobile enabled suburban dispersal — workers who had lived in walking distance of the factory could now drive from Parma, Lakewood, Cuyahoga Falls, or Mentor. The interurban railway system collapsed by 1940, replaced by the automobile. Cleveland Hopkins Airport (opened 1925, expanded postwar) connected the city to the national air network.",
+      "road_conditions": "State highways paved by the 1920s-1930s. County roads improved but many remained gravel into the 1940s. The Ohio Turnpike (1955) was a limited-access highway that transformed long-distance travel.",
+      "travel_times": [
+        { "from": "Cleveland", "to": "Akron", "mode": "automobile via US 21", "time": "45 minutes to 1 hour", "conditions_note": "Two-lane highway; faster via Turnpike after 1955." },
+        { "from": "Parma (suburb)", "to": "Cleveland (downtown)", "mode": "automobile", "time": "20-30 minutes", "conditions_note": "The commute that made suburbanization possible." },
+        { "from": "Cleveland", "to": "Ashtabula", "mode": "automobile via US 20", "time": "1.5-2 hours", "conditions_note": "Two-lane highway through lake country." },
+        { "from": "Cleveland", "to": "Pittsburgh", "mode": "Ohio Turnpike (from 1955)", "time": "2-2.5 hours", "conditions_note": "Limited-access highway." }
+      ],
+      "key_routes": [
+        { "route_name": "US Route 21 (Cleveland-Akron)", "type": "US highway", "year_established": 1926, "description": "The primary Cleveland-Akron highway. Followed the Cuyahoga Valley corridor that the canal and railroad had used before it.", "counties_served": ["Cuyahoga", "Summit"] },
+        { "route_name": "US Route 20 (lakeshore corridor)", "type": "US highway", "year_established": 1926, "description": "East-west highway through the cluster, running roughly parallel to the lakeshore. Connected Cleveland to Ashtabula and beyond.", "counties_served": ["Cuyahoga", "Lake", "Ashtabula"] },
+        { "route_name": "Ohio Turnpike (I-80/I-90)", "type": "limited-access toll highway", "year_established": 1955, "description": "Connected the cluster to Pennsylvania and Indiana. Accelerated suburban dispersal and truck freight. The Turnpike bypassed many traditional town centers.", "counties_served": ["Cuyahoga", "Summit", "Portage", "Trumbull", "Medina"] }
+      ],
+      "isolation_index": {
+        "description": "Low across the entire cluster by 1955. The automobile and highway network ended the isolation that had characterized rural Reserve communities for 150 years. Even Geauga and eastern Ashtabula counties were within an hour's drive of Cleveland or Akron.",
+        "comparative_note": "By 1955, the Western Reserve was one of the best-connected regions in the Midwest — highway, railroad, lake, and air transportation all available."
+      },
+      "narrative_hook": "The Ohio Turnpike connected the Reserve to the world beyond — {ancestor_name} could drive from Cleveland to Pittsburgh in two hours on a road that bypassed the old country towns and delivered the future at seventy miles an hour.",
+      "source": "Van Tassel and Grabowski, Encyclopedia of Cleveland History (1996)."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1851, "event": "Cleveland, Columbus & Cincinnati Railroad completed", "impact": "First railroad connecting Cleveland to central Ohio" },
+    { "year": 1852, "event": "Lake Shore & Michigan Southern Railroad reaches Ashtabula County", "impact": "Connects the Reserve to Buffalo and the East Coast" },
+    { "year": 1863, "event": "Ashtabula Harbor railroad docks opened for ore receiving", "impact": "Begins the ore transport chain that would feed the Mahoning Valley furnaces" },
+    { "year": 1880, "event": "Multiple railroads converge on Cleveland", "impact": "Cleveland becomes one of the nation's most important railroad junctions" },
+    { "year": 1895, "event": "Northern Ohio Traction Company (interurban) begins Cleveland-Akron service", "impact": "Electric railway connects the two cities and enables commuter settlement between them" },
+    { "year": 1898, "event": "Hulett ore unloaders installed at Conneaut", "impact": "Mechanized ore handling transforms Lake Erie port efficiency" }
+  ],
+  "narrative_hooks": [
+    "The journey from Connecticut to the Western Reserve took six weeks by ox-wagon — {ancestor_name}'s children made it in six hours by railroad, and their grandchildren in six hours by automobile.",
+    "The Ohio & Erie Canal connected Cleveland to the Ohio River and the world — {ancestor_name}'s wheat was suddenly worth something because the canal could carry it to market.",
+    "The ore boats that docked at Cleveland and Ashtabula carried Minnesota's iron to the Reserve's furnaces — {ancestor_name}'s livelihood depended on a supply chain that stretched from the Mesabi Range to the mills on the Cuyahoga.",
+    "The interurban railway that connected Cleveland to Akron was the first commuter rail in the cluster — {ancestor_name} could live in one city and work in the other, a daily journey that the ox-wagon pioneers would have found miraculous.",
+    "The Ohio Turnpike bypassed the old country towns and created a new geography — {ancestor_name} could reach Pittsburgh or Toledo without seeing a single crossroads that {pronoun_possessive} grandparents had relied on."
+  ],
+  "source_references": [
+    "Rose, William Ganson. Cleveland: The Making of a City. Cleveland: World Publishing, 1950.",
+    "Cherry, P.P. The Western Reserve and Early Ohio. Akron: R.L. Fouse, 1920.",
+    "Robison, John S. 'The Ohio & Erie Canal and Cleveland's Development.' Ohio History 63, no. 1 (1954): 1-25.",
+    "Van Tassel, David D., and John J. Grabowski, eds. The Encyclopedia of Cleveland History. Bloomington: Indiana University Press, 1996.",
+    "Knepper, George W. Akron: City at the Summit. Tulsa: Continental Heritage Press, 1981."
+  ],
+  "nel_cross_references": {
+    "route_refs": [],
+    "trigger_refs": [
+      "great_migration",
+      "industrial_revolution",
+      "appalachian_out_migration"
+    ]
+  }
+}

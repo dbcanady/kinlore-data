@@ -1,0 +1,122 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Gallia County, OH. County formed 1803 from Washington and Adams counties. Home to Gallipolis — the defrauded French settlement. Courthouse fire of 1878 destroyed some early records.",
+  "courthouse_atlas_id": "oh_gallia_courthouse",
+  "display_name": "Gallia County, Ohio — Courthouse Atlas",
+  "county": "Gallia",
+  "state": "OH",
+  "fips_code": "39053",
+  "cluster_ref": "oh_southeast_appalachian",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1878,
+      "location": "Gallipolis, OH — Second Avenue",
+      "records_housed": ["deeds", "mortgages", "marriage records", "probate records", "court journals"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1803–1840s",
+        "location": "Gallipolis, early frame structures",
+        "fate": "Early courthouses were modest frame buildings. Records transferred as buildings were replaced."
+      },
+      {
+        "era": "1840s–1878",
+        "location": "Gallipolis, center of town",
+        "fate": "Destroyed by fire in 1878. Some records lost in the fire — primarily loose papers and some early court files. Bound volumes were largely saved."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "gallia_1878_fire",
+      "date": "1878",
+      "cause": "Courthouse fire",
+      "records_destroyed": ["some early loose court papers", "some early estate files", "some naturalization records"],
+      "records_survived": ["deed books (bound volumes saved)", "will books (most)", "marriage records (most)", "court journals (most bound volumes)"],
+      "scope": "moderate",
+      "description": "The 1878 courthouse fire destroyed the building and some records — primarily loose papers, early court files, and some naturalization records. The bound record volumes (deed books, will books, court journals) were largely rescued from the burning building. The loss is significant but not catastrophic. Researchers working with pre-1878 Gallia County records should be aware that loose papers — individual estate files, naturalization petitions, court case files — may be missing even when the bound volumes survive.",
+      "narrative_impact": "The 1878 fire took the courthouse but not the core records — the deed books and will books survived because someone pulled them from the building. The loose papers that burned were the kind of records that tell the individual story: the estate file, the naturalization petition, the court case. If {ancestor_name}'s individual file is missing but the bound-volume entry survives, the fire is the likely explanation.",
+      "source": "Ohio Historical Society. Guide to County Records. Hardesty, H. H. Historical Hand-Atlas of Gallia County, Ohio. Chicago: H. H. Hardesty, 1882."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1803,
+      "completeness": "Good — bound volumes survived the 1878 fire. French Grant records supplement earliest period.",
+      "gaps": "Some loose instruments pre-1878 may have been lost in the fire.",
+      "repository": "Gallia County Recorder's Office; Ohio History Connection microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1804,
+      "completeness": "Good for bound volumes. Loose estate papers pre-1878 have gaps.",
+      "gaps": "Individual estate files from the pre-1878 period may be incomplete due to the fire.",
+      "repository": "Gallia County Probate Court; Ohio History Connection",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1803,
+      "completeness": "Good — marriage records largely survived the fire in bound volumes.",
+      "gaps": "Minor gaps in the earliest years.",
+      "repository": "Gallia County Probate Court; Ohio History Connection microfilm",
+      "online_access": "FamilySearch; Ancestry.com Ohio marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1803,
+      "completeness": "Good for bound journals. Individual case files pre-1878 have gaps.",
+      "gaps": "Loose court papers destroyed in the 1878 fire. Bound journals survived.",
+      "repository": "Gallia County Clerk of Courts; Ohio History Connection",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1867,
+      "death_registration_start": 1867,
+      "completeness": "Uneven compliance until early 1900s.",
+      "repository": "Gallia County Health Department; Ohio Department of Health"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "French Grant records",
+      "description": "Congressional records of the French Grant — the land given to the defrauded Gallipolis settlers — provide names, origins, and land assignments for the original French settlers.",
+      "repository": "National Archives; Ohio History Connection",
+      "era_coverage": "1795–1810s",
+      "genealogical_value": "Essential for identifying the original French settlers and their descendants. The French Grant patents name individuals and their land allotments.",
+      "source": "American State Papers: Public Lands, vol. 1."
+    },
+    {
+      "source_type": "Welsh church records",
+      "description": "Welsh Congregational, Calvinistic Methodist, and Baptist churches in the Welsh settlement area maintained records in Welsh. Some records have been translated.",
+      "repository": "Local congregations; Ohio History Connection; Welsh-American Heritage Museum, Oak Hill, OH",
+      "era_coverage": "1840s–1920s",
+      "genealogical_value": "Critical for Welsh families in the Raccoon Creek area. Church records document births, marriages, deaths, and memberships in a community that maintained Welsh-language institutions for decades.",
+      "source": "Evans, E. Estyn. 'The Welsh in Ohio.' Ohio History 85, no. 2 (1976): 119–142."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Gallia County is enumerated from 1810.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1810–present",
+      "genealogical_value": "Essential for bridging gaps caused by the 1878 fire. The 1810–1870 census schedules are particularly important when loose court papers are missing.",
+      "source": "National Archives and Records Administration."
+    }
+  ],
+  "narrative_hooks": [
+    "The 1878 courthouse fire took Gallia County's building but not its core records — the deed books and will books survived because somebody pulled them from the flames. The loose papers — estate files, court cases, naturalization petitions — were not so lucky.",
+    "If {ancestor_name} was among the original French settlers at Gallipolis, the Congressional records of the French Grant are the primary source — the county records that followed are secondary to the federal records that documented the fraud and its remedy.",
+    "Welsh families in northwestern Gallia County left records in two languages — English in the courthouse and Welsh in the chapel. If {ancestor_name} was Welsh, the chapel records at Raccoon Creek may hold more than the county recorder's office.",
+    "The 1878 fire explains why {ancestor_name}'s individual court file may be missing even when the bound-volume entry survives — the loose papers burned; the bound books were saved."
+  ],
+  "source_references": [
+    "Ohio Historical Society. Guide to County Records in the Ohio Historical Society Archives.",
+    "Hardesty, H. H. Historical Hand-Atlas of Gallia County, Ohio. Chicago: H. H. Hardesty, 1882.",
+    "Evans, E. Estyn. 'The Welsh in Ohio.' Ohio History 85, no. 2 (1976): 119–142.",
+    "American State Papers: Public Lands, vol. 1."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "oh_gallia",
+    "research_guidance_refs": ["midwestern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

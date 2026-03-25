@@ -1,0 +1,117 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Mercer County, NJ. Record survival, courthouse history, and known losses. Mercer was created from Burlington, Hunterdon, and Middlesex counties in 1838. Records begin at that date; earlier records split across three parent counties.",
+  "courthouse_atlas_id": "nj_mercer_courthouse",
+  "display_name": "Mercer County, New Jersey — Courthouse Atlas",
+  "county": "Mercer",
+  "state": "NJ",
+  "fips_code": "34021",
+  "cluster_ref": "nj_delaware_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1903,
+      "location": "Trenton, NJ — South Broad Street (Beaux-Arts building near the State House)",
+      "records_housed": ["deeds", "mortgages", "wills", "surrogate court records", "marriage licenses", "court minutes", "naturalizations"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1838–1903",
+        "location": "Trenton — earlier courthouse building",
+        "fate": "Replaced by current building. No significant record loss."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "mercer_pre_1838_split",
+      "date": "1838",
+      "cause": "County creation — Mercer carved from Burlington, Hunterdon, and Middlesex in 1838",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1838", "will books from 1838", "court minutes from 1838"],
+      "scope": "structural — pre-1838 records split across three parent counties",
+      "description": "Mercer County's independent records begin in 1838. Pre-1838 records for the Trenton area are primarily in Burlington County (Mount Holly); for the Princeton area in Middlesex County (New Brunswick) or Hunterdon County (Flemington), depending on the specific township. No major fire or disaster has destroyed Mercer County records since formation.",
+      "narrative_impact": "If {ancestor_name} lived in what became Mercer County before 1838, the records are split among three parent counties — Burlington (for the southern portion including Trenton), Hunterdon (western), and Middlesex (eastern, including Princeton). This triple-source search is a common research challenge.",
+      "source": "Mercer County Clerk's Office."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1838,
+      "completeness": "Complete from formation. Pre-1838 in parent counties.",
+      "gaps": "No gaps after 1838.",
+      "repository": "Mercer County Clerk's Office, Trenton; NJ State Archives",
+      "online_access": "FamilySearch microfilm; limited Ancestry.com"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1838,
+      "completeness": "Complete from formation.",
+      "gaps": "Pre-1838 split across parent counties.",
+      "repository": "Mercer County Surrogate's Office; NJ State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1838,
+      "completeness": "Good from formation. Pre-1838 in parent counties.",
+      "gaps": "None after formation.",
+      "repository": "Mercer County Clerk's Office",
+      "online_access": "FamilySearch; Ancestry.com NJ marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1838,
+      "completeness": "Good from formation.",
+      "gaps": "Pre-1838 in parent counties.",
+      "repository": "Mercer County Clerk's Office; NJ State Archives",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1848,
+      "death_registration_start": 1848,
+      "completeness": "Moderate; Trenton compliance better than rural areas.",
+      "repository": "NJ State Archives; NJ Department of Health"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "NJ State Archives (located in Trenton)",
+      "description": "The New Jersey State Archives in Trenton holds colonial records, state vital records, military records, and copies of county records from across New Jersey. For Mercer County researchers, the state archives are literally next door to the courthouse.",
+      "repository": "NJ State Archives, 225 West State Street, Trenton",
+      "era_coverage": "1664–present",
+      "genealogical_value": "Essential supplement to county records. Colonial Council minutes, governor's records, military muster rolls, and naturalization records all held here.",
+      "source": "NJ State Archives. Research Guide."
+    },
+    {
+      "source_type": "Trenton pottery industry records",
+      "description": "The Trenton pottery and ceramics industry maintained employment records, union records (the potters were among the earliest organized trades), and trade publications. The Trenton Potteries Company and Lenox China records document the industrial workforce.",
+      "repository": "Trenton City Museum at Ellarslie; NJ State Museum; Mercer County Library System local history collection",
+      "era_coverage": "1850–1960",
+      "genealogical_value": "Important for pottery-worker families. Union membership records and trade directories identify workers by name and specialty.",
+      "source": "Stern, The Pottery Industry of Trenton (1994)."
+    },
+    {
+      "source_type": "Princeton University archives",
+      "description": "Princeton University (founded 1746 as the College of New Jersey) maintains extensive archives including student records, faculty records, and local history materials that document the Princeton community.",
+      "repository": "Seeley G. Mudd Manuscript Library, Princeton University",
+      "era_coverage": "1746–present",
+      "genealogical_value": "Useful for families connected to the university community — students, faculty, and staff.",
+      "source": "Princeton University Library. Special Collections Guide."
+    }
+  ],
+  "narrative_hooks": [
+    "Mercer County was carved from three parent counties in 1838 — if {ancestor_name} lived in the Trenton area before that, look in Burlington County; if near Princeton, try Middlesex or Hunterdon. The triple split is the first research challenge.",
+    "The NJ State Archives in Trenton are the richest genealogical resource in the state — and they are in {ancestor_name}'s own county, holding colonial records, military muster rolls, and vital records that no county courthouse can match.",
+    "Trenton's pottery industry records document the city's skilled workers — if {ancestor_name} made china or tile, the union records and trade directories at the Trenton City Museum identify the potter by name and specialty.",
+    "Princeton University archives hold community records alongside student files — if {ancestor_name} worked for or around the college, the university archives may document a life the county records do not."
+  ],
+  "source_references": [
+    "Mercer County Clerk's Office. Guide to Mercer County Records.",
+    "NJ State Archives. Research Guide. Trenton, NJ.",
+    "Stern, Marc. The Pottery Industry of Trenton, New Jersey. New Brunswick: Rutgers University Press, 1994.",
+    "Princeton University Library. Special Collections Guide."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nj_mercer",
+    "research_guidance_refs": ["vital_records", "institutional_records", "property_records"],
+    "template_refs": ["record_silences"]
+  }
+}

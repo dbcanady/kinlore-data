@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Lowndes County, AL. Record survival, courthouse history, and known losses. Lowndes County (formed 1830, seat at Hayneville) has experienced a courthouse fire that destroyed some records. Civil rights-era records provide unique documentation.",
+  "courthouse_atlas_id": "al_lowndes_courthouse",
+  "display_name": "Lowndes County, Alabama — Courthouse Atlas",
+  "county": "Lowndes",
+  "state": "AL",
+  "fips_code": "01085",
+  "cluster_ref": "al_black_belt",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1906,
+      "location": "Hayneville, AL — Washington Street",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1830–1856",
+        "location": "Hayneville, early courthouse",
+        "fate": "Frame building. Some early records lost during this period due to inadequate storage."
+      },
+      {
+        "era": "1856–1906",
+        "location": "Hayneville, brick courthouse",
+        "fate": "Fire damage in the 1890s destroyed some records. The extent is debated. Replaced by the 1906 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "lowndes_1890s_fire",
+      "date": "circa 1890s",
+      "cause": "Fire damage to courthouse",
+      "records_destroyed": ["Some early deed books", "some early marriage records", "miscellaneous loose papers from 1830–1860"],
+      "records_survived": ["Most deed records reconstructed or preserved", "will books largely intact", "court minutes from later periods"],
+      "scope": "moderate",
+      "description": "Fire damage in the 1890s destroyed some of Lowndes County's earliest records, particularly from the 1830–1860 period. The loss was significant for the antebellum period but was partially mitigated by ADAH holdings and private document retention. Post-1870 records are more complete.",
+      "narrative_impact": "Some of Lowndes County's earliest records were damaged by fire — if {ancestor_name} held property before 1860, the deed may survive only in ADAH copies or private family papers. Post-1870 records are more reliable.",
+      "source": "Alabama Department of Archives and History. Guide to Alabama County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1830,
+      "completeness": "Fair — some early volumes damaged by fire. Post-1870 generally complete.",
+      "gaps": "1830–1860 records are incomplete. Some early deeds survive in reconstructed volumes.",
+      "repository": "Lowndes County Probate Office; ADAH microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1832,
+      "completeness": "Fair to good — will books largely survived the fire. Estate inventories are critical for documenting the county's massive enslaved population.",
+      "gaps": "Some early loose estate papers lost.",
+      "repository": "Lowndes County Probate Office; ADAH",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1833,
+      "completeness": "Fair — some early records damaged. Freedmen's marriages from 1865.",
+      "gaps": "1830–1860 marriage records are incomplete.",
+      "repository": "Lowndes County Probate Office; ADAH; Freedmen's Bureau at NARA",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1830,
+      "completeness": "Fair — some early minutes lost. Post-1870 more complete.",
+      "gaps": "1830–1860 minutes are fragmentary.",
+      "repository": "Lowndes County Clerk; ADAH",
+      "online_access": "ADAH microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Very spotty — Lowndes County's rural character meant low compliance with vital registration requirements.",
+      "repository": "Alabama Center for Health Statistics; ADAH"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Freedmen's Bureau records",
+      "description": "Bureau records from the Hayneville area document formerly enslaved families in Lowndes County.",
+      "repository": "NARA, RG 105; FamilySearch",
+      "era_coverage": "1865–1872",
+      "genealogical_value": "Essential. Lowndes County's enslaved population exceeded 80% in 1860 — the Bureau records are the primary bridge between slavery and freedom for the majority of the county's population.",
+      "source": "NARA, Records of the Bureau of Refugees, Freedmen, and Abandoned Lands, RG 105."
+    },
+    {
+      "source_type": "Civil rights movement records",
+      "description": "The Lowndes County Freedom Organization (1965–66), SNCC organizing records, federal voting rights enforcement records, and the investigations into the murders of Jonathan Daniels and Viola Liuzzo produced extensive documentation of the county's Black community.",
+      "repository": "Martin Luther King Jr. Center for Nonviolent Social Change (Atlanta); SNCC papers at various archives; FBI files (NARA); ADAH",
+      "era_coverage": "1963–1970",
+      "genealogical_value": "These records name individuals, document community networks, and provide family information in the context of voter registration and political organizing. For families active in the civil rights movement, these records supplement (and in some cases replace) courthouse records.",
+      "source": "Jeffries, Bloody Lowndes (2009)."
+    },
+    {
+      "source_type": "ADAH supplementary records",
+      "description": "ADAH holds county record microfilm and may hold copies of records lost in the courthouse fire.",
+      "repository": "ADAH, Montgomery, AL",
+      "era_coverage": "1830–present",
+      "genealogical_value": "Critical backup for fire losses.",
+      "source": "ADAH finding guides."
+    }
+  ],
+  "narrative_hooks": [
+    "Lowndes County's courthouse fire damaged some early records — but the greater record loss is not the fire, it is the 80% of the population that was enslaved and therefore excluded from the civil record as persons.",
+    "The civil rights movement in Lowndes County generated a documentary trail that rivals any courthouse — SNCC organizing records, federal investigation files, and voter registration records name families and document communities that the old system had kept out of the record.",
+    "Jonathan Daniels was shot on the Hayneville courthouse steps in August 1965 — the courthouse that held {ancestor_name}'s family records was also the site of a murder that demonstrated the cost of seeking justice in the Black Belt.",
+    "For {ancestor_name} in Lowndes County before 1860, the fire-damaged early records and the pre-1865 exclusion of enslaved people from civil records create a double gap — ADAH and the Freedmen's Bureau are the lifelines."
+  ],
+  "source_references": [
+    "Alabama Department of Archives and History. Guide to Alabama County Records.",
+    "Jeffries, Hasan Kwame. Bloody Lowndes: Civil Rights and Black Power in Alabama's Black Belt. New York: NYU Press, 2009.",
+    "National Archives and Records Administration. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands, Record Group 105."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "al_lowndes",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

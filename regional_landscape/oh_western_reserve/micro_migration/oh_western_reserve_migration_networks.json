@@ -1,0 +1,230 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Micro-Migration Network Map for the OH Western Reserve cluster. Documents the specific migration corridors, chain-migration mechanics, and settlement patterns that moved people into, out of, and within this eight-county region from 1796 to 1960. The Reserve was settled by Connecticut Yankees, diversified by Irish canal workers and German farmers, industrialized by the largest wave of Southern and Eastern European immigration in the Midwest, augmented by Appalachian hill families seeking rubber factory wages, and transformed by Black Great Migration families leaving Alabama, Mississippi, and Georgia for Cleveland's East Side.",
+  "migration_network_id": "oh_western_reserve_migration_networks",
+  "display_name": "OH Western Reserve -- Micro-Migration Network Map",
+  "cluster_ref": "oh_western_reserve",
+  "era_range": "1796-1960",
+  "migration_corridors": [
+    {
+      "corridor_id": "connecticut_yankee_pipeline",
+      "corridor_name": "Connecticut and New England Westward Pipeline to the Western Reserve",
+      "origin_counties": ["Hartford (CT)", "Litchfield (CT)", "New Haven (CT)", "Windham (CT)", "Hampshire (MA)", "Berkshire (MA)", "Windham (VT)"],
+      "destination_area": "Trumbull, Portage, Geauga, Ashtabula, Medina, Cuyahoga, Summit, Lake -- the entire Western Reserve",
+      "era": "1796-1840",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of families over two generations. The Connecticut Land Company's 1795 purchase of the eastern Reserve created a proprietary migration stream -- Connecticut and Massachusetts families constituted the overwhelming majority of settlers through the 1820s. Trumbull County was the earliest focal point; Ashtabula and Geauga filled last due to denser forest and more remote location.",
+      "evidence": {
+        "census_evidence": "The 1820 and 1830 federal censuses for Western Reserve counties show household heads with surnames characteristic of the Connecticut migration stream: Cleaveland, Huntington, Phelps, Loomis, Griswold, Cowles, Seymour. Many of these surnames appear in Connecticut town records a generation earlier. The 1850 census (first to record state of birth) confirms a dominant Connecticut-born cohort among older household heads.",
+        "church_evidence": "Congregational and Presbyterian church records in Trumbull, Portage, Geauga, and Ashtabula counties document families arriving from specific Connecticut parishes. Letters of dismission from Connecticut Congregational churches were presented at Ohio congregations. The Western Reserve's religious landscape was essentially transplanted Connecticut Congregationalism.",
+        "surname_clustering": "Connecticut surnames dominate early Reserve records: Cleaveland, Huntington, Phelps, Cowles, Griswold, Loomis, Seymour, Thrall, Benton. These names also cluster in specific Connecticut towns, allowing researchers to trace specific township-to-township migration chains."
+      },
+      "chain_mechanics": {
+        "description": "The Connecticut Land Company created the migration channel. Company agents and shareholders recruited settlers from their own Connecticut communities. A family that purchased land in Trumbull County in 1800 sent letters back to Connecticut describing conditions, and kin followed within one to five years. Connecticut institutions -- Congregational churches, town meetings, common schools -- were replicated wholesale in the Reserve, making the transition from old home to new home culturally seamless. The Fire Lands (western Reserve) had a separate but parallel mechanic: Connecticut families who had suffered property loss from British raids during the Revolution received compensation in Fire Lands acreage.",
+        "kinship_role": "Kinship and church membership were the primary recruitment channels. Connecticut families moved as extended networks -- siblings, in-laws, and neighbors from the same parish settling together in the same Ohio township. A settler who arrived alone typically had kin either preceding or following within a few years.",
+        "timeline": "First wave 1796-1810 (pioneer settlers, Trumbull as the center). Second wave 1810-1825 (filling the interior townships, including Geauga and Portage). Third wave 1825-1840 (last arrivals, after which non-Yankee immigration began to diversify the population)."
+      },
+      "narrative_hook": "{ancestor_name}'s family did not leave Connecticut for the unknown -- they left for Connecticut's western claim, where the townships were surveyed on a Connecticut grid, the church was Congregational, and the neighbors were the same families who had lived down the road in Hartford or Litchfield.",
+      "source": "Cherry, P.P. The Western Reserve and Early Ohio. Akron: R.L. Fouse, 1920. Benton, Elbert Jay. Cultural Story of an American City: Cleveland. Cleveland: Western Reserve Historical Society, 1943."
+    },
+    {
+      "corridor_id": "underground_railroad_lake_erie",
+      "corridor_name": "Underground Railroad: Lake Erie Crossings to Canada",
+      "origin_counties": ["Various counties in Kentucky, Virginia, and the Deep South (origin of freedom seekers); transit counties in southern and central Ohio"],
+      "destination_area": "Lake Erie ports -- Cleveland (Cuyahoga), Fairport Harbor (Lake), Ashtabula, Conneaut (Ashtabula) -- for crossing to Canada",
+      "era": "1830-1860",
+      "migration_type": "clandestine_escape_network",
+      "scale": "Hundreds to low thousands of documented freedom seekers crossed Lake Erie from Western Reserve ports. The actual number is impossible to determine because secrecy was the system's operating principle. Ashtabula County was the most active UGRR county in Ohio; Cleveland, Fairport Harbor, and Conneaut were major crossing points. Some freedom seekers settled in Black communities within the Reserve rather than crossing to Canada.",
+      "evidence": {
+        "census_evidence": "The 1850 and 1860 censuses show small but growing Black populations in Reserve counties -- particularly in Cuyahoga (Cleveland) and Ashtabula. Some were free-born northern Blacks; others were formerly enslaved people who had reached freedom via the UGRR and settled rather than continuing to Canada.",
+        "church_evidence": "Black church records in Cleveland and Oberlin (Lorain County, adjacent to the cluster) document members who had escaped slavery. St. John's AME in Cleveland was established in the 1830s and served as both a congregation and a UGRR station.",
+        "documentary_evidence": "Wilbur Siebert's documentation of UGRR routes identifies dozens of stations across the cluster. Congressman Joshua Giddings of Ashtabula County openly defied the Fugitive Slave Act. The Oberlin-Wellington Rescue of 1858 (Lorain County, adjacent) demonstrated the community's willingness to physically resist slave catchers."
+      },
+      "chain_mechanics": {
+        "description": "Freedom seekers crossed the Ohio River from Kentucky into southern Ohio and traveled north through a network of safe houses -- farms, churches, and sympathetic households. The Western Reserve's New England abolitionist culture made it the safest corridor in Ohio. Routes converged on Lake Erie ports where fishing boats, commercial vessels, and purpose-hired craft carried freedom seekers across to Canada. The network operated through personal trust: a conductor in Portage County knew the next station in Geauga County, who knew the boat captain at Fairport Harbor. No written records were kept by design.",
+        "kinship_role": "Kinship among Black communities was vital at the destination end -- free Black families in Cleveland and Oberlin provided shelter and information. Among the white operators of the UGRR, church networks (Congregational, Quaker, Wesleyan Methodist) provided the trust infrastructure.",
+        "timeline": "Active from the 1830s, intensifying after the Fugitive Slave Act of 1850 (which made harboring freedom seekers a federal crime and increased the stakes). The network operated until the Civil War made it unnecessary."
+      },
+      "narrative_hook": "The Western Reserve's Lake Erie shoreline was the last step to freedom -- {ancestor_name} either helped hide the people who crossed it or was one of them, and either way, the Reserve's conscience is part of the family's story.",
+      "source": "Siebert, Wilbur H. The Underground Railroad from Slavery to Freedom. New York: Macmillan, 1898. Brandt, Nat. The Town That Started the Civil War. Syracuse: Syracuse University Press, 1990."
+    },
+    {
+      "corridor_id": "european_immigration_cleveland",
+      "corridor_name": "European Immigration Corridors to Cleveland: Slovak, Hungarian, Polish, Italian, Slovenian, Czech, and Others",
+      "origin_counties": ["Various regions in Slovakia (Upper Hungary), Hungary, Poland (Congress Poland, Galicia), southern Italy (Campania, Calabria, Sicily), Slovenia, Croatia, Czech Bohemia and Moravia, Lithuania, Greece, Romania"],
+      "destination_area": "Cuyahoga County (Cleveland ethnic neighborhoods), Summit County (Akron), Trumbull County (Warren, Niles), Lake County (Fairport Harbor -- Finnish community)",
+      "era": "1870-1924",
+      "migration_type": "chain_migration",
+      "scale": "Hundreds of thousands of immigrants over five decades. Cleveland's foreign-born population reached 35% by 1910, and the second-generation percentage was even higher. By 1920, Cleveland had the largest Hungarian population outside Budapest, one of the largest Slovenian populations outside Ljubljana, and enormous Slovak, Polish, Italian, Czech, and Lithuanian communities. Each group concentrated in specific neighborhoods: Slovaks on the near East Side around East 55th Street, Poles on the near West Side (Tremont and Slavic Village), Italians in Big Italy (Mayfield Road) and Little Italy (Murray Hill), Hungarians in the Buckeye Road neighborhood, Slovenians in the St. Clair-Norwood corridor, Czechs in the Broadway neighborhood.",
+      "evidence": {
+        "census_evidence": "The 1900, 1910, and 1920 federal censuses for Cleveland enumerate block after block of immigrant households with birthplaces in Austria-Hungary (which encompasses Slovaks, Hungarians, Czechs, Slovenians, Croatians), Russian Poland, and Italy. The census enumerators recorded specific birthplaces that map to ethnic parishes.",
+        "church_evidence": "Ethnic parish records are the single richest genealogical source for immigrant families in Cleveland. Slovak parishes (St. Wendelin, St. Martin of Tours), Polish parishes (St. Stanislaus, Immaculate Heart of Mary), Slovenian parishes (St. Vitus, St. Lawrence), Hungarian parishes (St. Elizabeth, St. Emeric), Italian parishes (Holy Rosary, St. Anthony of Padua), Czech parishes (Our Lady of Lourdes), and Lithuanian parishes (Our Lady of Perpetual Help) maintained baptism, marriage, and burial registers. Many of these records are now held by the Diocese of Cleveland Archives.",
+        "surname_clustering": "Slovak surnames (Kovac, Horvath, Nagy, Varga, Toth) dominate the near East Side. Polish surnames (Kowalski, Nowak, Wozniak, Kaminski) cluster in Tremont and Slavic Village. Italian surnames (Russo, Romano, Esposito, Ferrara) concentrate in Little Italy and Big Italy. Slovenian surnames (Krall, Turk, Grdina) cluster in the St. Clair corridor."
+      },
+      "chain_mechanics": {
+        "description": "European immigration to Cleveland followed classic chain-migration mechanics. A young man from a Slovak village traveled steerage to New York, took the railroad to Cleveland, and found work through a countryman already at the steel mill or foundry. He saved money, sent a steamship ticket home, and his brother or cousin followed the same path. Within a decade, an entire village might have a colony in Cleveland. The ethnic parish was the anchor institution -- it was founded when enough families from the same region had gathered to support a priest who spoke their language. Boardinghouses run by immigrant women provided housing for single men and new arrivals. The fraternal benefit societies (Slovak Sokol, Polish National Alliance, Slovenian National Benefit Society, Italian Sons of Italy) provided insurance, social networking, and community identity.",
+        "kinship_role": "Kinship was the primary migration mechanism. Brothers followed brothers. Wives and children followed husbands once the husband had secured housing and stable employment. Village networks transplanted to Cleveland meant that a Slovak from Saris County might live on the same Cleveland block as a dozen families from the same county in Slovakia.",
+        "timeline": "Irish and German wave 1840s-1870s. Czech and Hungarian wave 1870s-1880s. Slovak, Polish, Italian, Slovenian, Croatian, Lithuanian, Greek, and Romanian wave 1880s-1914. Immigration effectively halted by WWI (1914-1918) and permanently restricted by the Immigration Act of 1924."
+      },
+      "narrative_hook": "When {ancestor_name} arrived in Cleveland from {origin_country} in {year}, {pronoun_subject} found a neighborhood that spoke {pronoun_possessive} language, a parish that celebrated {pronoun_possessive} saints, and a boarding house run by a woman from {pronoun_possessive} own village -- the Atlantic crossing was 3,000 miles, but the walk from the train station to the parish rectory was two blocks.",
+      "source": "Van Tassel, David D., and John J. Grabowski, eds. The Encyclopedia of Cleveland History. Bloomington: Indiana University Press, 1996. Barton, Josef J. Peasants and Strangers: Italians, Rumanians, and Slovaks in an American City, 1890-1950. Cambridge: Harvard University Press, 1975. Benkart, Paula K. 'Religion, Family, and Community among Hungarians Migrating to American Cities, 1880-1930.' PhD diss., Johns Hopkins University, 1975."
+    },
+    {
+      "corridor_id": "appalachian_to_akron_rubber",
+      "corridor_name": "Appalachian Migration to Akron Rubber Factories",
+      "origin_counties": ["Kanawha (WV)", "Fayette (WV)", "Raleigh (WV)", "Mingo (WV)", "Logan (WV)", "Pike (KY)", "Floyd (KY)", "Letcher (KY)", "Harlan (KY)", "Wise (VA)", "Lee (VA)", "Washington (VA)"],
+      "destination_area": "Summit County (Akron), Portage County (Ravenna, Kent -- secondary)",
+      "era": "1910-1945",
+      "migration_type": "chain_migration",
+      "scale": "Tens of thousands of white Appalachian families over three decades. Akron's population nearly tripled in the 1910s alone -- from 69,067 in 1910 to 208,435 in 1920 -- and Appalachian migrants constituted a large share of that growth. The rubber companies needed workers faster than European immigration could supply them, especially after WWI restricted transatlantic movement. Appalachian families from West Virginia, eastern Kentucky, and southwestern Virginia filled the gap.",
+      "evidence": {
+        "census_evidence": "The 1920 and 1930 federal censuses for Akron show large concentrations of household heads born in West Virginia, Kentucky, and Virginia -- particularly in the South Akron, Kenmore, and Goodyear Heights neighborhoods. Generational patterns confirm migration timing: parents born in WV or KY, older children born in WV or KY, younger children born in Ohio.",
+        "church_evidence": "Missionary Baptist and Church of God congregations -- denominations dominant in Appalachia but uncommon in northeastern Ohio -- appeared in Akron neighborhoods during the 1910s-1920s. Their presence marks concentrated Appalachian settlement.",
+        "surname_clustering": "Appalachian surnames (Combs, Slone, Mullins, Justice, Maynard, Hatfield, Blankenship) appear in Akron city directories and census records in clusters suggesting chain migration from specific mountain communities."
+      },
+      "chain_mechanics": {
+        "description": "The rubber factories recruited Appalachian workers through company agents and, more effectively, through kinship chains. A young man from Pike County, Kentucky, rode the railroad to Akron, hired on at Goodyear, and sent word back to the hollow. His cousin came next, then his brother, then his wife's family. The companies preferred Appalachian workers for the same reason they preferred European immigrants -- they would accept wages and conditions that established urban workers rejected. The mountain families adapted to factory discipline with difficulty -- the shift whistle replaced the rhythms of farming, logging, and mining that had governed mountain life.",
+        "kinship_role": "Kinship was the primary migration mechanism. Appalachian families were densely intermarried within mountain communities, and when one family branch relocated to Akron, the connected network followed. Mountain migrants clustered in specific Akron neighborhoods -- Kenmore, South Akron, Goodyear Heights -- creating transplanted mountain communities within the city.",
+        "timeline": "Trickle 1910-1915. First major wave 1915-1920 (WWI labor demand plus European immigration restriction). Sustained flow 1920-1930. Depression pause 1930-1935. Resumed flow 1935-1945 (union jobs and wartime demand)."
+      },
+      "narrative_hook": "The coal seams were giving out and the farms could not feed the family anymore -- when word came from a cousin in Akron that Goodyear paid cash every week, {ancestor_name} rode the railroad north out of {origin_county} County and traded the hollow for the factory floor.",
+      "source": "Knepper, George W. Akron: City at the Summit. Tulsa: Continental Heritage Press, 1981. Nelson, Daniel. American Rubber Workers and Organized Labor, 1900-1941. Princeton: Princeton University Press, 1988. Eller, Ronald D. Miners, Millhands, and Mountaineers. University of Tennessee Press, 1982."
+    },
+    {
+      "corridor_id": "black_great_migration_to_cleveland",
+      "corridor_name": "Black Great Migration to Cleveland's East Side",
+      "origin_counties": ["Jefferson (AL)", "Walker (AL)", "Bibb (AL)", "Dallas (AL)", "Lowndes (AL)", "Hinds (MS)", "Bolivar (MS)", "Washington (MS)", "Fulton (GA)", "Bibb (GA)", "Chatham (GA)"],
+      "destination_area": "Cuyahoga County (Cleveland -- Central, Hough, Glenville, Cedar-Central neighborhoods), Summit County (Akron -- limited)",
+      "era": "1916-1960",
+      "migration_type": "chain_migration",
+      "scale": "Cleveland's Black population grew from 8,448 (1910) to 147,847 (1950) -- an increase of 1,650% in four decades. The Great Migration brought families primarily from Alabama, Mississippi, and Georgia, with smaller streams from other Deep South states. Cleveland's Black community concentrated on the East Side -- the Central neighborhood was the original settlement, expanding into Hough by the 1920s, Cedar-Central in the 1930s, and Glenville by the 1940s-1950s as white families moved to the suburbs.",
+      "evidence": {
+        "census_evidence": "The 1920, 1930, and 1940 federal censuses for Cleveland's East Side wards enumerate block after block of Black households with birthplaces in Alabama, Mississippi, and Georgia. The Alabama connection was particularly strong -- Cleveland had one of the largest Alabama-born Black populations of any northern city.",
+        "church_evidence": "Black Baptist churches on Cleveland's East Side document members who transferred from Alabama and Mississippi congregations. Antioch Baptist Church, Olivet Institutional Baptist Church, and Mt. Zion Congregational Church were major receiving institutions. Church records often note the member's previous congregation and state of origin.",
+        "newspaper_evidence": "The Cleveland Call and Post (Black newspaper, founded 1927) documented migration patterns, community building, and discrimination. The Chicago Defender, widely distributed in the South, advertised Cleveland as a destination."
+      },
+      "chain_mechanics": {
+        "description": "The migration followed church and kinship networks. A Black man from Birmingham took the railroad north -- through Chattanooga, Cincinnati, and into Cleveland -- following word from a cousin or church member who had gone ahead. The first generation of migrants found work in Cleveland's steel mills, foundries, and service industries. They were excluded from the most skilled and highest-paying industrial jobs by both employer racism and white union exclusion. Housing was restricted by racial covenants and landlord discrimination to the East Side neighborhoods, which became increasingly overcrowded as the migration continued. The push factors were overwhelming: racial violence, sharecropping's economic trap, disenfranchisement, and the terror of the Jim Crow system. The pull factors were industrial wages, freedom from the most overt racial violence, and the possibility (however limited) of voting and educating children in integrated schools.",
+        "kinship_role": "Church networks were as important as blood kinship. A family's home church in Alabama or Mississippi was often the channel through which migration information traveled. Cleveland's Black churches served as the landing pad -- providing temporary housing, job information, and social networks for new arrivals.",
+        "timeline": "First wave 1916-1920 (WWI industrial demand). Sustained flow 1920-1930. Depression pause 1930-1935 (some return migration). Second surge 1940-1945 (WWII industrial demand). Continued flow 1945-1960."
+      },
+      "narrative_hook": "When {ancestor_name} stepped off the train at Cleveland's Union Terminal in {year}, {pronoun_subject} was leaving Alabama but not leaving kin -- a cousin in the Central neighborhood had a room, a deacon at Antioch Baptist knew which foundry was hiring, and the promise of wages paid in cash, not credit against next year's cotton, was enough to make 700 miles feel like deliverance.",
+      "source": "Phillips, Kimberley L. Alabama North: African-American Migrants, Community, and Working-Class Activism in Cleveland, 1915-1945. Urbana: University of Illinois Press, 1999. Kusmer, Kenneth L. A Ghetto Takes Shape: Black Cleveland, 1870-1930. Urbana: University of Illinois Press, 1976. Wilkerson, Isabel. The Warmth of Other Suns. New York: Random House, 2010."
+    },
+    {
+      "corridor_id": "finnish_lake_county",
+      "corridor_name": "Finnish Immigration to Lake County Ore Docks",
+      "origin_counties": ["Ostrobothnia (Finland)", "Satakunta (Finland)"],
+      "destination_area": "Lake County (Fairport Harbor), Ashtabula County (Ashtabula Harbor, Conneaut)",
+      "era": "1890-1920",
+      "migration_type": "chain_migration",
+      "scale": "Hundreds of Finnish families settled in the Lake Erie port communities, particularly Fairport Harbor, where Finns constituted a significant percentage of the population by 1910. The Finnish community was smaller than the Cleveland ethnic populations but remarkably concentrated -- Fairport Harbor was one of the most densely Finnish communities in the United States.",
+      "evidence": {
+        "census_evidence": "The 1910 and 1920 federal censuses for Fairport Harbor show a concentrated Finnish-born population working at the ore docks and in fishing. Finnish surnames (Koivisto, Niemi, Maki, Saari, Laine) dominate certain blocks.",
+        "church_evidence": "Finnish Evangelical Lutheran churches in Fairport Harbor and Ashtabula maintained records in Finnish and English. These records are among the best-preserved for the Finnish community."
+      },
+      "chain_mechanics": {
+        "description": "Finns arrived in the Lake Erie port towns because the ore docks offered work that resembled the maritime and dock labor they knew from Finland. Chain migration brought families from specific Finnish provinces -- a man from Ostrobothnia would recruit his brother and cousin from the same parish. The Finnish community maintained its cultural identity through the Lutheran church, the cooperative movement, and Finnish-language newspapers.",
+        "kinship_role": "Village-to-village chains from Finnish provinces to specific Lake Erie towns. The Finnish community was tight-knit and insular compared to the larger ethnic groups in Cleveland.",
+        "timeline": "1890-1914 main arrival period. WWI and the Immigration Act of 1924 ended significant new Finnish immigration."
+      },
+      "narrative_hook": "Fairport Harbor was Finnish country -- {ancestor_name} found ore dock work and a Lutheran church that preached in Finnish, and the Lake Erie shoreline looked enough like home that Ostrobothnia did not feel as far away as the map said.",
+      "source": "Hoglund, A. William. Finnish Immigrants in America, 1880-1920. Madison: University of Wisconsin Press, 1960. Van Tassel and Grabowski, Encyclopedia of Cleveland History (1996)."
+    }
+  ],
+  "internal_movement_patterns": [
+    {
+      "pattern_id": "ethnic_neighborhood_succession",
+      "pattern_name": "Ethnic Neighborhood Succession in Cleveland",
+      "description": "Cleveland's neighborhoods experienced sequential ethnic occupation as each wave of immigrants replaced the previous group. The Central neighborhood was Irish in the 1850s-1870s, Jewish and Italian in the 1890s-1910s, and Black in the 1920s-1940s. Tremont was Irish, then Polish and Ukrainian. Murray Hill went from general working class to solidly Italian. This succession pattern means that a family's neighborhood location in a specific decade is itself evidence of their ethnic group and class position. By the time the Great Migration brought Black families to Central, the previous residents had moved outward -- Jews to Cleveland Heights, Italians to Murray Hill and Collinwood, Irish to Lakewood.",
+      "era": "1870-1960",
+      "counties_affected": ["Cuyahoga"],
+      "narrative_hook": "The neighborhood where {ancestor_name} lived in {year} told the story without a word -- each block in Cleveland was a chapter in the city's immigration history, and a family's address was a map coordinate in the great ethnic sorting that the industrial city performed."
+    },
+    {
+      "pattern_id": "white_suburban_flight",
+      "pattern_name": "Postwar White Suburban Dispersal",
+      "description": "After WWII, white families left Cleveland's inner neighborhoods for the suburbs -- Parma (which exploded from 28,897 to 82,845 between 1950 and 1960), Lakewood, Euclid, Cleveland Heights, South Euclid, and Lyndhurst. In Summit County, Cuyahoga Falls, Stow, and Tallmadge drew families from Akron. This was not neutral suburbanization -- it was racially structured. FHA loan policies, racial covenants, and real estate steering directed white families to the suburbs while confining Black families to the inner city. A family that moved from Cleveland's Collinwood neighborhood to Euclid in 1952 was participating in a racial geography as much as a housing market.",
+      "era": "1945-1960",
+      "counties_affected": ["Cuyahoga", "Summit", "Lake", "Medina"],
+      "narrative_hook": "The suburbs were not just more house for the money -- they were the racial geography of postwar America drawn on the map of Cuyahoga County. {ancestor_name} moved to {suburb} because the GI Bill made the mortgage possible and the real estate agent made the neighborhood possible, and both systems had rules that were never written on the application."
+    },
+    {
+      "pattern_id": "rural_to_urban_within_reserve",
+      "pattern_name": "Rural Reserve Counties to Cleveland and Akron",
+      "description": "Throughout the industrial era, farm families from the rural Reserve counties -- Geauga, Medina, Portage, Ashtabula -- moved to Cleveland or Akron for factory employment. This was a quiet, continuous internal migration that does not appear in the dramatic narratives of European or Southern migration but was a significant population flow. A Geauga County dairy farmer's son who went to work at Republic Steel in Cleveland in 1925 was following the same economic logic as the Slovak immigrant -- the farm could not provide what the factory could.",
+      "era": "1870-1950",
+      "counties_affected": ["Geauga", "Medina", "Portage", "Ashtabula", "Cuyahoga", "Summit"],
+      "narrative_hook": "The dairy farm in Geauga County was beautiful in June and brutal in January, and when {ancestor_name} heard what the factories in Cleveland paid for a twelve-hour shift, the arithmetic was simple -- the farm would be there when {pronoun_subject} retired, but the wages were in the city."
+    }
+  ],
+  "settlement_clusters": [
+    {
+      "cluster_name": "Cleveland ethnic parish neighborhoods",
+      "counties": ["Cuyahoga"],
+      "description": "Cleveland's immigrant communities organized around ethnic parishes -- each nationality had its own church, its own language, its own fraternal hall, and its own commercial strip. The Slovak neighborhood around East 55th Street, the Polish neighborhoods in Tremont and Slavic Village, the Italian neighborhoods in Murray Hill and Big Italy (Mayfield Road), the Slovenian corridor along St. Clair Avenue, the Hungarian Buckeye Road neighborhood, the Czech Broadway neighborhood, and the Lithuanian neighborhood around East 79th Street -- each was a transplanted European village within the industrial city.",
+      "era": "1880-1960"
+    },
+    {
+      "cluster_name": "Cleveland Black East Side neighborhoods",
+      "counties": ["Cuyahoga"],
+      "description": "Cleveland's Black community concentrated on the East Side in an expanding corridor: Central (1900-1920), Hough (1920-1940), Cedar-Central (1930-1950), and Glenville (1940-1960). Each neighborhood represented a phase of the Great Migration and a stage in the community's growth. The concentration was not voluntary -- racial covenants, real estate steering, and bank redlining confined Black families to an expanding but still restricted zone.",
+      "era": "1910-1960"
+    },
+    {
+      "cluster_name": "Akron Appalachian neighborhoods",
+      "counties": ["Summit"],
+      "description": "Appalachian migrants to Akron concentrated in South Akron, Kenmore, and the neighborhoods around the Goodyear and Firestone plants. These communities retained Appalachian cultural markers -- Missionary Baptist and Church of God congregations, country music, family reunion patterns tied to the home county in West Virginia or Kentucky -- while adapting to the industrial rhythm of rubber factory shift work.",
+      "era": "1915-1960"
+    },
+    {
+      "cluster_name": "Fairport Harbor Finnish community",
+      "counties": ["Lake"],
+      "description": "Fairport Harbor's Finnish community was one of the most concentrated Finnish settlements in the United States -- a compact community organized around the Finnish Evangelical Lutheran church, cooperative institutions, and the ore dock economy that provided employment.",
+      "era": "1890-1960"
+    }
+  ],
+  "narrative_hooks": [
+    "The Western Reserve was settled by Connecticut, industrialized by Europe, and integrated by the South -- {ancestor_name} was part of one of those waves, and each wave built on the infrastructure the previous one had created.",
+    "Cleveland's neighborhoods were a map of the world's migration -- {ancestor_name}'s address told you where {pronoun_possessive} family came from, what language they spoke at home, and which parish they attended.",
+    "The rubber factories in Akron needed hands faster than Europe could supply them -- {ancestor_name} came from the Appalachian hollows because the mines and farms were failing and Goodyear paid in cash every week.",
+    "The Underground Railroad ran through every county in the Reserve, and {ancestor_name} lived in a community that had decided -- at legal risk and personal danger -- that freedom was worth hiding strangers in the barn.",
+    "When {ancestor_name} moved from Cleveland to {suburb} in {year}, it was called buying a house. What it was, was joining the racial sorting that would empty the city and fill the suburbs with families who looked like {pronoun_object}.",
+    "The Great Migration brought {ancestor_name}'s family 700 miles north, but the chain was only as long as the cousin who went first -- every family that came to Cleveland followed someone who had come before."
+  ],
+  "source_references": [
+    "Cherry, P.P. The Western Reserve and Early Ohio. Akron: R.L. Fouse, 1920.",
+    "Van Tassel, David D., and John J. Grabowski, eds. The Encyclopedia of Cleveland History. Bloomington: Indiana University Press, 1996.",
+    "Phillips, Kimberley L. Alabama North: African-American Migrants, Community, and Working-Class Activism in Cleveland, 1915-1945. Urbana: University of Illinois Press, 1999.",
+    "Kusmer, Kenneth L. A Ghetto Takes Shape: Black Cleveland, 1870-1930. Urbana: University of Illinois Press, 1976.",
+    "Barton, Josef J. Peasants and Strangers: Italians, Rumanians, and Slovaks in an American City, 1890-1950. Cambridge: Harvard University Press, 1975.",
+    "Siebert, Wilbur H. The Underground Railroad from Slavery to Freedom. New York: Macmillan, 1898.",
+    "Knepper, George W. Akron: City at the Summit. Tulsa: Continental Heritage Press, 1981.",
+    "Nelson, Daniel. American Rubber Workers and Organized Labor, 1900-1941. Princeton: Princeton University Press, 1988.",
+    "Eller, Ronald D. Miners, Millhands, and Mountaineers. Knoxville: University of Tennessee Press, 1982.",
+    "Hoglund, A. William. Finnish Immigrants in America, 1880-1920. Madison: University of Wisconsin Press, 1960.",
+    "Wilkerson, Isabel. The Warmth of Other Suns. New York: Random House, 2010.",
+    "Brandt, Nat. The Town That Started the Civil War. Syracuse: Syracuse University Press, 1990."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": [
+      "great_migration",
+      "se_european_wave",
+      "irish_famine",
+      "german_immigration",
+      "appalachian_out_migration",
+      "civil_war_service",
+      "gi_bill_migration",
+      "gilded_age_labor_conflict",
+      "industrial_revolution"
+    ],
+    "destination_refs": [
+      "cleveland"
+    ],
+    "route_refs": [],
+    "community_texture_refs": [
+      "immigrant_parish_neighborhood"
+    ]
+  }
+}

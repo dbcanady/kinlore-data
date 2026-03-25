@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Sumter County, AL. Record survival, courthouse history, and known losses. Sumter County (formed 1832 from Choctaw cession lands, seat at Livingston) has good record survival — no major courthouse fire. Records begin at county formation.",
+  "courthouse_atlas_id": "al_sumter_courthouse",
+  "display_name": "Sumter County, Alabama — Courthouse Atlas",
+  "county": "Sumter",
+  "state": "AL",
+  "fips_code": "01119",
+  "cluster_ref": "al_black_belt",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1902,
+      "location": "Livingston, AL — Washington Street",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1832–1840s",
+        "location": "Livingston, early frame courthouse",
+        "fate": "Served the county's earliest years. Replaced as the county grew."
+      },
+      {
+        "era": "1840s–1902",
+        "location": "Livingston, brick courthouse",
+        "fate": "Survived the Civil War without significant damage. Replaced by the 1902 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "sumter_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire or war damage to courthouse",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage records", "probate records"],
+      "scope": "none",
+      "description": "Sumter County's courthouse has not experienced a catastrophic fire. Records run from the county's 1832 formation. As with all Black Belt counties, the critical gap is not lost records but absent records — enslaved people were not documented as persons in county records before 1865.",
+      "narrative_impact": "Sumter County's records survive from 1832. If {ancestor_name} was free and white, the paper trail is likely continuous. If {ancestor_name} was enslaved, the records exist only as property entries — estate inventories, slave schedules, and deed transfers — until the Freedmen's Bureau and post-1865 county records give formerly enslaved people their own documentary identity.",
+      "source": "Alabama Department of Archives and History. Guide to Alabama County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1832,
+      "completeness": "Good — continuous from formation",
+      "gaps": "No significant gaps.",
+      "repository": "Sumter County Probate Office; ADAH microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1833,
+      "completeness": "Good — estate inventories from near-formation are a critical source for enslaved families",
+      "gaps": "Minor gaps in earliest loose papers.",
+      "repository": "Sumter County Probate Office; ADAH",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1833,
+      "completeness": "Good for white marriages. Freedmen's marriages from 1865.",
+      "gaps": "No known significant gaps in bound volumes.",
+      "repository": "Sumter County Probate Office; ADAH; Freedmen's Bureau at NARA",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1832,
+      "completeness": "Good",
+      "gaps": "Minor.",
+      "repository": "Sumter County Clerk; ADAH",
+      "online_access": "ADAH microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Spotty until approximately 1920.",
+      "repository": "Alabama Center for Health Statistics; ADAH"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Freedmen's Bureau records",
+      "description": "Bureau records from the Livingston sub-district document formerly enslaved families.",
+      "repository": "NARA, RG 105; FamilySearch",
+      "era_coverage": "1865–1872",
+      "genealogical_value": "Essential for documenting Black families transitioning from slavery. Labor contracts link individuals to specific plantations.",
+      "source": "NARA, Records of the Bureau of Refugees, Freedmen, and Abandoned Lands, RG 105."
+    },
+    {
+      "source_type": "Livingston University records",
+      "description": "Alabama's state normal school at Livingston (now the University of West Alabama) maintained enrollment records from 1835.",
+      "repository": "University of West Alabama archives",
+      "era_coverage": "1835–present",
+      "genealogical_value": "Enrollment and alumni records document families across the county. Teacher training records are particularly useful for identifying middle-class families.",
+      "source": "University of West Alabama archives."
+    },
+    {
+      "source_type": "ADAH supplementary records",
+      "description": "ADAH holds microfilm of Sumter County records, Confederate service records, and Reconstruction-era state records.",
+      "repository": "ADAH, Montgomery, AL",
+      "era_coverage": "1832–present",
+      "genealogical_value": "Backup repository for all county record types.",
+      "source": "ADAH finding guides."
+    }
+  ],
+  "narrative_hooks": [
+    "Sumter County's courthouse survived every decade since 1832 — {ancestor_name}'s deeds and wills almost certainly still exist, from Choctaw cession to the present.",
+    "Before 1865, {ancestor_name}'s enslaved ancestors appear in Sumter County estate inventories as names with ages and values — the cruel arithmetic of property law applied to human beings. After 1865, the Freedmen's Bureau records give those same people their own documentary voice.",
+    "Sumter County's records are intact, but the Black Belt's most important record gap is not lost documents — it is the systematic exclusion of enslaved people from the legal record as persons. The silence in the record IS the record of slavery.",
+    "Alabama vital registration began in 1908 — for {ancestor_name} born in Sumter County before that date, the census, the church roll, and the family Bible are the evidence."
+  ],
+  "source_references": [
+    "Alabama Department of Archives and History. Guide to Alabama County Records.",
+    "National Archives and Records Administration. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands, Record Group 105.",
+    "Works Progress Administration. Historical Records Survey: Alabama County Records. Montgomery, 1937–1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "al_sumter",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

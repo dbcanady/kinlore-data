@@ -1,0 +1,151 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the IA Eastern regional cluster. Documents how transportation shaped isolation, settlement, and migration across eight counties from Mississippi River steamboats through railroad dominance to automobile highways. The Mississippi River was the first corridor; the railroad created the interior towns; the automobile ended rural isolation.",
+  "connectivity_id": "ia_eastern_roads",
+  "display_name": "IA Eastern — Road & Connectivity Network",
+  "cluster_ref": "ia_eastern",
+  "era_range": "1833-1960",
+  "transportation_eras": [
+    {
+      "era_id": "river_and_trail",
+      "era_name": "River Commerce and Overland Trail",
+      "date_range": "1833-1860",
+      "primary_modes": ["Mississippi River steamboat", "wagon on unimproved trail", "horseback"],
+      "description": "The Mississippi River was the first highway — steamboats connected Dubuque, McGregor, Guttenberg, and Lansing to St. Louis and the national economy. But the river served only the eastern edge of the cluster. Inland communities were reached by unimproved wagon trails that followed ridgelines to avoid the worst of the Driftless Area's steep valleys. A farm twenty miles from the river existed in near-total isolation much of the year. The Driftless terrain made road-building extraordinarily difficult — every route had to negotiate steep grades, narrow valleys, and stream crossings that washed out in spring floods.",
+      "road_conditions": "No engineered surfaces. Wagon tracks on native soil, following ridgeline routes where possible to avoid the steep valley descents. Spring mud and summer dust made travel miserable. Valley roads crossed streams at fords that became impassable during high water. The steep grades in the Driftless counties — Clayton, Allamakee, Winneshiek — required locking wagon brakes on descents and double-teaming horses on ascents.",
+      "travel_times": [
+        {"from": "Dubuque", "to": "Decorah (Winneshiek Co.)", "mode": "wagon", "time": "2-3 days", "conditions_note": "Rough trail through Driftless terrain with steep grades"},
+        {"from": "McGregor (Clayton Co.)", "to": "Waterloo (Black Hawk Co.)", "mode": "wagon", "time": "3-4 days", "conditions_note": "No improved road; cross-country via ridgeline trails"},
+        {"from": "Dubuque", "to": "St. Louis", "mode": "steamboat", "time": "2-3 days downstream; 4-5 days upstream", "conditions_note": "Seasonal — April to November"},
+        {"from": "Typical inland farm", "to": "Nearest river town", "mode": "wagon", "time": "4-12 hours depending on distance and terrain", "conditions_note": "Driftless terrain doubled travel time compared to flat country"}
+      ],
+      "key_routes": [
+        {"route_name": "Mississippi River (steamboat navigation)", "type": "river navigation", "year_established": "1830s", "description": "Steamboat traffic connected the cluster's river towns — Dubuque, McGregor, Guttenberg, Lansing — to St. Louis and the national economy. Steamboats carried lead ore, agricultural products, immigrants, and manufactured goods. The river was the lifeline until railroads replaced it.", "counties_served": ["Dubuque", "Clayton", "Allamakee"]},
+        {"route_name": "Military Road (Dubuque to Iowa City)", "type": "territorial road", "year_established": 1839, "description": "The first engineered road in Iowa, built by the territorial government to connect Dubuque to the capital. Improved surface on the Dubuque end; deteriorating to trail further inland.", "counties_served": ["Dubuque", "Delaware"]}
+      ],
+      "isolation_index": {
+        "description": "Extreme for inland farms. The Driftless terrain created natural barriers to travel — a farm on a ridgetop in Clayton or Allamakee County might be ten miles from the river as the crow flies but twenty miles by the only wagon road that navigated the valleys. Winter isolation was severe but less lethal than on the Northern Plains because the forested terrain provided shelter and fuel.",
+        "comparative_note": "Eastern Iowa's Driftless terrain created isolation comparable to the Appalachian hill country — not the vast emptiness of the plains but the cramped, folded terrain that made every journey a contest with topography."
+      },
+      "narrative_hook": "Before the railroad, {ancestor_name} in {county} County was connected to the world by two things — the Mississippi River, which served only the eastern edge, and a wagon road that climbed every ridge and descended every valley between the farm and the landing.",
+      "source": "Petersen, William J. The Story of Iowa. New York: Lewis Historical Publishing, 1952. Mahoney, River Towns in the Great West."
+    },
+    {
+      "era_id": "railroad_expansion",
+      "era_name": "Railroad Expansion",
+      "date_range": "1855-1920",
+      "primary_modes": ["railroad", "wagon on unimproved road", "horseback"],
+      "description": "The railroad transformed the cluster by stages. The Dubuque and Pacific (later Illinois Central) was the first railroad west of the Mississippi in Iowa (1855). The Milwaukee Road, Chicago Great Western, and Rock Island expanded through the 1870s-1890s, connecting interior towns to Chicago. But the Driftless terrain challenged railroad engineering — grades, curves, and tunnel construction made railroad building more expensive per mile than on the flat prairies. Some communities that the railroad bypassed — McGregor, Lansing — declined while new railroad towns grew. The railroad did not end rural isolation for farms distant from the tracks, but it compressed time for those near a depot: a trip from Dubuque to Chicago that took a week by wagon took twelve hours by rail.",
+      "road_conditions": "Local roads remained unimproved dirt. The Driftless terrain made road improvement extraordinarily expensive — grading a road through a valley required cuts and fills that prairie counties never needed. Section-line roads, standard on the flat prairie, were impossible in the dissected terrain. Roads followed ridgelines and stream valleys, winding and steep.",
+      "travel_times": [
+        {"from": "Dubuque", "to": "Chicago", "mode": "Illinois Central Railroad", "time": "10-14 hours", "conditions_note": "Daily passenger service by the 1870s"},
+        {"from": "Waterloo", "to": "Chicago", "mode": "Illinois Central Railroad", "time": "8-12 hours", "conditions_note": "Through service"},
+        {"from": "Decorah", "to": "Dubuque", "mode": "Milwaukee Road", "time": "4-5 hours", "conditions_note": "Steep grades slowed service"},
+        {"from": "Typical farm", "to": "Nearest railroad depot", "mode": "wagon", "time": "1-4 hours", "conditions_note": "Driftless terrain doubled distances"}
+      ],
+      "key_routes": [
+        {"route_name": "Illinois Central Railroad", "type": "railroad", "year_established": 1855, "description": "First railroad west of the Mississippi in Iowa. Ran from Dubuque westward through Fayette and Black Hawk counties. Created Waterloo as a transportation hub.", "counties_served": ["Dubuque", "Delaware", "Buchanan", "Black Hawk"]},
+        {"route_name": "Milwaukee Road (Chicago, Milwaukee, St. Paul & Pacific)", "type": "railroad", "year_established": "1870s", "description": "Served the northern counties. Connected Decorah, McGregor, and communities through the Driftless terrain to Chicago and Milwaukee.", "counties_served": ["Clayton", "Winneshiek", "Allamakee", "Fayette"]},
+        {"route_name": "Chicago Great Western Railway", "type": "railroad", "year_established": "1880s", "description": "Served the western portion of the cluster. Connected Waterloo and Cedar Falls to the Chicago market.", "counties_served": ["Black Hawk", "Buchanan"]}
+      ],
+      "isolation_index": {
+        "description": "Sharply differentiated. Railroad towns were connected to Chicago and the world. Farms five miles from a depot — especially in the Driftless terrain — were still isolated by roads that were impassable in spring and treacherous in winter. The terrain amplified the isolation gap between railroad towns and surrounding farms.",
+        "comparative_note": "Eastern Iowa's Driftless terrain created a steeper isolation gradient than the flat prairies — the five miles between a farm and a depot might include a 400-foot descent into a valley and a 400-foot ascent on the other side."
+      },
+      "narrative_hook": "The railroad connected {county} County to Chicago — but {ancestor_name}'s farm was five miles from the depot, and those five miles of Driftless terrain included two valley crossings, three steep grades, and a stream ford that washed out every April.",
+      "source": "Schwieder, Iowa: The Middle Land. Petersen, The Story of Iowa."
+    },
+    {
+      "era_id": "automobile_good_roads",
+      "era_name": "Automobile and Good Roads Era",
+      "date_range": "1910-1940",
+      "primary_modes": ["automobile", "railroad", "wagon (declining)"],
+      "description": "The automobile arrived in northeastern Iowa in the 1910s, but the Driftless terrain meant that good roads arrived later than on the flat prairies. Steep grades, narrow valleys, and stream crossings made road improvement enormously expensive. The Iowa Highway Commission designated state highways in the 1910s-1920s, and federal funding under the Federal Aid Highway Act of 1921 supported construction. US Highway 20 (east-west through Dubuque and Waterloo) and US Highway 52 (north-south through Decorah) were the first improved routes. But county and township roads in the Driftless area remained unimproved well into the 1940s — gravel on the ridgetops, mud in the valleys, ice on the grades.",
+      "road_conditions": "State highways graveled and gradually paved through the 1920s-1930s. County roads in the Driftless terrain remained largely unimproved. The steep grades were treacherous in winter — ice on a 15% grade was lethal for horse-drawn and automobile traffic alike. Spring breakup turned valley roads to mud. The flat-terrain counties (Buchanan, Black Hawk) had better roads earlier.",
+      "travel_times": [
+        {"from": "Dubuque", "to": "Waterloo", "mode": "automobile via US 20", "time": "2-3 hours", "conditions_note": "Improved highway by the late 1920s"},
+        {"from": "Decorah", "to": "Dubuque", "mode": "automobile", "time": "2-3 hours", "conditions_note": "Winding road through Driftless terrain; steep grades"},
+        {"from": "Typical Driftless farm", "to": "Nearest town", "mode": "automobile", "time": "30-90 minutes", "conditions_note": "Steep grades and unimproved roads; winter driving hazardous"},
+        {"from": "Typical Iowan Surface farm (Buchanan/Black Hawk)", "to": "Nearest town", "mode": "automobile", "time": "20-40 minutes", "conditions_note": "Gentler terrain, better roads"}
+      ],
+      "key_routes": [
+        {"route_name": "US Highway 20 (Dubuque to Fort Dodge)", "type": "paved highway", "year_established": "1926 (designated); improved through 1930s", "description": "Primary east-west route through the cluster, connecting Dubuque to Waterloo and points west.", "counties_served": ["Dubuque", "Delaware", "Buchanan", "Black Hawk"]},
+        {"route_name": "US Highway 52 (Decorah to Dubuque)", "type": "paved highway", "year_established": "1926", "description": "North-south route through the Driftless terrain, connecting Decorah to Dubuque via Guttenberg.", "counties_served": ["Winneshiek", "Clayton", "Dubuque"]},
+        {"route_name": "US Highway 18 (east-west through Winneshiek)", "type": "paved highway", "year_established": "1926", "description": "East-west route through the northern counties.", "counties_served": ["Winneshiek", "Fayette"]}
+      ],
+      "isolation_index": {
+        "description": "Declining but terrain-dependent. Farms on the Iowan Surface (Buchanan, Black Hawk) had relatively good automobile access by the 1930s. Farms in the Driftless terrain (Clayton, Allamakee, Winneshiek) remained isolated by topography — steep grades and unimproved roads made automobile travel slow and dangerous, especially in winter.",
+        "comparative_note": "The Driftless terrain created a persistent isolation differential — automobile access improved faster on the flat ground than in the hills, widening the gap between the Iowan Surface counties and the Driftless counties."
+      },
+      "narrative_hook": "By {year}, {ancestor_name} could drive from the farm to Dubuque in two hours on US 20 — but the road from the ridgetop farm to the highway was the same narrow track it had always been, dropping five hundred feet into the valley and climbing five hundred feet out the other side.",
+      "source": "Schwieder, Iowa: The Middle Land. Prior, Landforms of Iowa."
+    },
+    {
+      "era_id": "modern_highway",
+      "era_name": "Modern Highway Era",
+      "date_range": "1940-1960",
+      "primary_modes": ["automobile", "truck freight", "railroad (declining passenger service)"],
+      "description": "World War II and postwar prosperity finally connected the rural Driftless terrain to the modern road network. Federal defense spending improved highways. County roads were graveled and some were paved. The automobile became universal. Truck freight began displacing railroad freight for local hauls. The Interstate highway system was authorized in 1956 — US 20 would eventually become a four-lane expressway, and I-380 would connect Waterloo to Cedar Rapids and the Interstate grid. By 1960, the isolation that had defined the Driftless terrain for a century was breaking, though steep valley roads remained challenging in winter.",
+      "road_conditions": "State highways fully paved. County roads increasingly graveled. Township roads in the Driftless terrain still challenging — steep grades, narrow rights-of-way, and limited maintenance budgets.",
+      "travel_times": [
+        {"from": "Dubuque", "to": "Chicago", "mode": "automobile", "time": "3-4 hours", "conditions_note": "Improved highway the entire route"},
+        {"from": "Waterloo", "to": "Des Moines", "mode": "automobile", "time": "2-3 hours", "conditions_note": "Paved highway"},
+        {"from": "Typical farm", "to": "Nearest town", "mode": "automobile", "time": "15-45 minutes", "conditions_note": "Most roads passable year-round by 1960; winter ice on Driftless grades still hazardous"}
+      ],
+      "key_routes": [
+        {"route_name": "US Highway 20 improvements", "type": "improved highway", "year_established": "1940s-1950s", "description": "Widened and improved east-west route. Would eventually become a four-lane expressway.", "counties_served": ["Dubuque", "Delaware", "Buchanan", "Black Hawk"]},
+        {"route_name": "Great River Road (Mississippi River scenic route)", "type": "scenic highway", "year_established": "1938 (designated)", "description": "North-south route along the Mississippi through Dubuque, Clayton, and Allamakee counties. Began attracting tourism.", "counties_served": ["Dubuque", "Clayton", "Allamakee"]}
+      ],
+      "isolation_index": {
+        "description": "Low and falling across the cluster. By 1960, automobile ownership was universal and most roads were passable year-round. The Driftless terrain still created winter driving hazards but no longer produced the seasonal isolation of the pre-automobile era.",
+        "comparative_note": "By 1960, the isolation gap between the Driftless counties and the Iowan Surface counties had narrowed significantly, though the terrain-driven differences in road quality persisted."
+      },
+      "narrative_hook": "By {year}, {ancestor_name} could drive from the ridgetop farm to Waterloo in an hour — a journey that would have taken {ancestor_name}'s grandparents two days by wagon through terrain so steep that every mile was a contest with gravity.",
+      "source": "Schwieder, Iowa: The Middle Land. Prior, Landforms of Iowa."
+    }
+  ],
+  "railroad_timeline": [
+    {
+      "railroad_name": "Dubuque and Pacific Railroad / Illinois Central",
+      "year_arrived": 1855,
+      "stations": [
+        {"station_name": "Dubuque", "county": "Dubuque", "significance": "First railroad west of the Mississippi in Iowa. Dubuque was the eastern terminus."},
+        {"station_name": "Manchester", "county": "Delaware", "significance": "County seat connection."},
+        {"station_name": "Independence", "county": "Buchanan", "significance": "County seat and commercial center."},
+        {"station_name": "Waterloo/Cedar Falls", "county": "Black Hawk", "significance": "Became the industrial center of northeastern Iowa."}
+      ],
+      "impact": "The railroad that created Waterloo as an industrial city and connected the interior of the cluster to the Mississippi and the national market. Every town on the IC line existed because the railroad put a depot there.",
+      "source": "Petersen, The Story of Iowa, vol. 2."
+    },
+    {
+      "railroad_name": "Chicago, Milwaukee, St. Paul & Pacific (Milwaukee Road)",
+      "year_arrived": "1870s",
+      "stations": [
+        {"station_name": "McGregor", "county": "Clayton", "significance": "Mississippi crossing point. Connected to Prairie du Chien, WI."},
+        {"station_name": "Elkader", "county": "Clayton", "significance": "County seat."},
+        {"station_name": "Decorah", "county": "Winneshiek", "significance": "Norwegian-American cultural capital. Luther College town."},
+        {"station_name": "Waukon", "county": "Allamakee", "significance": "County seat."}
+      ],
+      "impact": "Served the Driftless terrain counties that the IC did not reach. Steep grades and curves made service slower and more expensive than on the flat ground.",
+      "source": "Schwieder, Iowa: The Middle Land."
+    }
+  ],
+  "narrative_hooks": [
+    "The Mississippi was {county} County's first highway — steamboats carried lead, lumber, and immigrants between Dubuque and St. Louis before any road connected the interior to the river.",
+    "The railroad connected {town} to Chicago, but {ancestor_name}'s farm was five Driftless miles from the depot — five miles of valley crossings and steep grades that turned every trip into a contest with the terrain.",
+    "In the Driftless counties, roads were not lines but negotiations with topography — every route followed a ridge, descended a valley, crossed a stream, and climbed again, doubling the distance between any two points.",
+    "The automobile ended the isolation of {ancestor_name}'s ridgetop farm — but the road from the farm to the highway was still the same narrow track, dropping five hundred feet into the valley and climbing five hundred feet out.",
+    "When the Great River Road was designated in 1938, it began to transform the Mississippi bluff country from a transportation challenge into a scenic destination — the same terrain that had isolated {ancestor_name}'s community now attracted visitors who came to see what isolation looked like."
+  ],
+  "source_references": [
+    "Petersen, William J. The Story of Iowa. 4 vols. New York: Lewis Historical Publishing, 1952.",
+    "Schwieder, Dorothy. Iowa: The Middle Land. Ames: Iowa State University Press, 1996.",
+    "Mahoney, Timothy R. River Towns in the Great West. Cambridge: Cambridge University Press, 1990.",
+    "Prior, Jean C. Landforms of Iowa. Iowa City: University of Iowa Press, 1991.",
+    "Federal Writers' Project. Iowa: A Guide to the Hawkeye State. New York: Viking Press, 1938."
+  ],
+  "nel_cross_references": {
+    "route_refs": ["mississippi_river_steamboat", "illinois_central_railroad"]
+  }
+}

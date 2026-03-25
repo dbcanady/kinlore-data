@@ -1,0 +1,109 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Colleton County, SC. Records survival from 1798 (county formation from the old Colleton District). The courthouse at Walterboro has not suffered catastrophic loss, but the county's sparse population and rural character mean thinner records than Charleston.",
+  "courthouse_atlas_id": "sc_colleton_courthouse",
+  "display_name": "Colleton County, South Carolina — Courthouse Atlas",
+  "county": "Colleton",
+  "state": "SC",
+  "fips_code": "45029",
+  "cluster_ref": "sc_lowcountry",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1822,
+      "location": "Walterboro, SC — Hampton Street (extensively renovated; one of the oldest courthouses in continuous use in SC)",
+      "records_housed": ["deeds", "plats", "marriage licenses (1911-present)", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1798–1822",
+        "location": "Walterboro — original courthouse building",
+        "fate": "Replaced by the 1822 building, which still stands. No significant fire."
+      }
+    ],
+    "notes": "Colleton County was created in 1798 from Colleton District. Earlier records (colonial and district era) are at the SC Department of Archives and History or in Charleston. The old Colleton County (colonial, 1682–1769) was a much larger territory than the modern county."
+  },
+  "record_losses": [
+    {
+      "loss_id": "colleton_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire, war damage, or natural disaster destroyed courthouse records",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "probate records"],
+      "scope": "none",
+      "description": "Colleton County's courthouse has not suffered a catastrophic loss. Records run from the county's 1798 formation. The rural character of the county means that some record types are thinner than in more urban jurisdictions — fewer court cases, fewer deeds, fewer probate filings per decade. Gaps in the record more often reflect the ancestor's poverty or landlessness than courthouse destruction.",
+      "narrative_impact": "If {ancestor_name} lived in Colleton County after 1798, the county records likely survive. A gap in the record probably means the ancestor was a tenant, a laborer, or a sharecropper who left few county-level paper traces.",
+      "source": "SC Department of Archives and History. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1798,
+      "completeness": "Good from county formation. Earlier land records are in colonial/district records at SCDAH.",
+      "gaps": "No major gaps. Volume is lighter than Charleston due to smaller population.",
+      "repository": "Colleton County Register of Deeds; SCDAH (colonial/district era)",
+      "online_access": "FamilySearch microfilm; Ancestry.com SC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1798,
+      "completeness": "Good. Estate inventories are particularly valuable for the antebellum period — they list enslaved people as property.",
+      "gaps": "Loose estate papers for the earliest decades may be fragmentary.",
+      "repository": "Colleton County Probate Court; SCDAH",
+      "online_access": "FamilySearch microfilm; limited SCDAH digital"
+    },
+    "marriages": {
+      "earliest_surviving": 1911,
+      "completeness": "SC marriage licenses required from 1911. Earlier marriages recorded in church registers.",
+      "gaps": "Before 1911, church records (Baptist, Methodist, Episcopal) are the primary source.",
+      "repository": "Colleton County Probate Court; SCDAH",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1799,
+      "completeness": "Good from county formation.",
+      "gaps": "Minor gaps in earliest volumes.",
+      "repository": "Colleton County Clerk of Court; SCDAH",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1915,
+      "death_registration_start": 1915,
+      "completeness": "Spotty until early 1920s. Rural compliance lagged behind Charleston.",
+      "repository": "SC DHEC"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Freedmen's Bureau records — Colleton District",
+      "description": "The Freedmen's Bureau maintained records for the Colleton area — labor contracts, complaint registers, and ration records that document freedpeople's names, family relationships, and economic circumstances.",
+      "repository": "National Archives (RG 105); FamilySearch digitization",
+      "era_coverage": "1865–1872",
+      "genealogical_value": "Essential for African American genealogy in Colleton County during the transition from slavery to freedom.",
+      "source": "National Archives. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands, RG 105."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1800–1940. Slave schedules 1850, 1860. Agricultural schedules 1850–1880.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1800–1940",
+      "genealogical_value": "The primary systematic record for Colleton County families, especially for the large tenant and sharecropping population who left few county records.",
+      "source": "National Archives and Records Administration."
+    }
+  ],
+  "narrative_hooks": [
+    "Colleton County's courthouse has survived intact since 1822 — one of the oldest in South Carolina — and {ancestor_name}'s records are likely there, if {pronoun_subject} owned land or appeared in court.",
+    "If {ancestor_name} was a sharecropper or tenant in Colleton County, the courthouse may hold nothing — not because records were lost, but because the landless leave almost no county-level paper trail. The census, every ten years, may be the only record.",
+    "Before 1911, South Carolina did not require marriage licenses — {ancestor_name}'s marriage in Colleton County was recorded in a church book, if it was recorded at all.",
+    "The Freedmen's Bureau records for Colleton County may be the first place {ancestor_name} appears by name in a government record — the labor contract that documented freedom."
+  ],
+  "source_references": [
+    "SC Department of Archives and History. Guide to County Records in the South Carolina State Archives.",
+    "National Archives. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands, RG 105.",
+    "Edgar, Walter. South Carolina: A History. University of South Carolina Press, 1998."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "sc_colleton",
+    "research_guidance_refs": ["southern_courthouse_research", "vital_records"],
+    "template_refs": ["record_silences"]
+  }
+}

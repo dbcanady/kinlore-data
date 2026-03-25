@@ -1,0 +1,152 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the OH Southeast Appalachian regional cluster (Washington, Athens, Meigs, Gallia, Lawrence, Scioto, Jackson, Vinton). Documents how transportation shaped settlement, isolation, and migration from the Ohio River highway through the coal railroad era. Southeastern Ohio was connected by the river, bisected by Zane's Trace, and left behind by the railroads that served Pittsburgh and Cleveland instead. The hills between the rivers remained some of the most isolated terrain in the eastern United States well into the twentieth century.",
+  "connectivity_id": "oh_southeast_appalachian_roads",
+  "display_name": "OH Southeast Appalachian — Road & Connectivity Network",
+  "cluster_ref": "oh_southeast_appalachian",
+  "era_range": "1788-1960",
+  "transportation_eras": [
+    {
+      "era_id": "river_and_trace",
+      "era_name": "The Ohio River Highway and Frontier Traces",
+      "date_range": "1788-1840",
+      "primary_modes": ["flatboat and keelboat", "canoe", "horseback", "foot on blazed trail", "wagon on unimproved trace"],
+      "description": "The Ohio River was the primary transportation corridor for the entire region — the highway that brought settlers, carried trade goods, and connected every community along its banks to the national economy. Flatboats carried families downriver from Pittsburgh; keelboats hauled goods upstream at great labor. For the first generation of settlement, the river was the only reliable route. Overland travel was brutal: the Appalachian Plateau terrain — deep stream valleys, steep ridges, no navigable interior waterways — made road-building difficult and expensive. Zane's Trace (authorized 1796) was the first federal road in Ohio, running from Wheeling to Limestone (Maysville) Kentucky via Zanesville and Chillicothe. It passed through the northern edge of the cluster's influence area and connected the Ohio River crossings at Wheeling and Maysville. But Zane's Trace served the Scioto Valley, not the southeastern hills directly. Within the cluster, trails followed creek valleys between the Ohio River and interior settlements. The road from Marietta to Athens followed the Hocking River valley. The road from Gallipolis inland followed Raccoon Creek. These traces were passable on horseback and barely passable by wagon in dry weather.",
+      "road_conditions": "Unimproved traces through forest. Creek-valley routes that flooded in spring and fall. Ridge-top traces that avoided flooding but required steep climbs. No bridges on interior creeks — fording required. Mud in spring, dust in late summer, impassable in winter. Ohio Company settlement at Marietta maintained roads within the original purchase, but these were the exception.",
+      "travel_times": [
+        { "from": "Marietta", "to": "Athens", "mode": "horseback", "time": "1-2 days", "conditions_note": "Approximately 40 miles following the Hocking River valley. Creek crossings and hill grades slowed travel." },
+        { "from": "Gallipolis", "to": "Jackson", "mode": "horseback", "time": "2 days", "conditions_note": "Approximately 50 miles through unbroken hill country via Raccoon Creek. No improved road." },
+        { "from": "Marietta", "to": "Portsmouth (by river)", "mode": "flatboat downstream", "time": "2-3 days", "conditions_note": "Approximately 160 river miles. Downstream travel was fast; upstream return by keelboat took 2-3 weeks." },
+        { "from": "Typical hill farm", "to": "Nearest river town", "mode": "horseback or wagon", "time": "4-8 hours one way", "conditions_note": "Interior farms could be a full day's ride from the Ohio River. Salt, iron goods, and news came at this cost." }
+      ],
+      "key_routes": [
+        { "route_name": "Ohio River", "type": "navigable waterway", "year_established": "Prehistoric — first American navigation 1770s", "description": "The Ohio River was the region's lifeline — carrying settlers downriver from Pittsburgh, trade goods upstream from New Orleans, and connecting every river town to the national economy. Marietta, Gallipolis, Pomeroy, Ironton, and Portsmouth existed because the river passed them. Communities away from the river existed despite it.", "counties_served": ["Washington", "Meigs", "Gallia", "Lawrence", "Scioto"] },
+        { "route_name": "Zane's Trace", "type": "federal road", "year_established": 1797, "description": "The first federal road in Ohio, running from Wheeling (VA) to Maysville (KY) via Zanesville, Lancaster, and Chillicothe. It passed north of the cluster but its feeder roads connected to the Scioto Valley and influenced settlement patterns in Scioto and Jackson counties.", "counties_served": ["Scioto"] },
+        { "route_name": "Marietta-Athens road (Hocking River valley)", "type": "unimproved trace", "year_established": "1790s", "description": "Followed the Hocking River valley from Marietta to Athens. The primary overland route connecting the Ohio Company settlements to the interior. Ohio University's location at Athens was possible because this road existed.", "counties_served": ["Washington", "Athens"] },
+        { "route_name": "Raccoon Creek road (Gallipolis to interior)", "type": "unimproved trace", "year_established": "1800s", "description": "Followed Raccoon Creek northwest from Gallipolis into the interior hill country. The primary connection between the Ohio River at Gallipolis and the Jackson-Vinton county area.", "counties_served": ["Gallia", "Jackson", "Vinton"] }
+      ],
+      "isolation_index": {
+        "description": "Extreme in the interior; moderate along the river. River towns had regular contact with the national economy via boat traffic. Communities two ridges back from the river were among the most isolated in the eastern United States. A hill farm in Vinton County was a full day's ride from the nearest river landing and might see a visitor from outside the hollow once a month.",
+        "comparative_note": "More isolated than the Virginia Piedmont, the Kentucky Bluegrass, or even the SC Upcountry. Comparable to the most remote portions of Appalachian West Virginia. The terrain — deeply dissected plateau with no navigable interior waterways — made road-building more expensive per mile than almost any other region in the eastern U.S."
+      },
+      "narrative_hook": "The Ohio River brought {ancestor_name} to this country — downstream from Pittsburgh on a flatboat, watching the hills close in on both sides. But the river connected the towns along its banks. The hills behind them were another world, where the road was a trace through the timber and the nearest neighbor was a mile of creek bottom away.",
+      "source": "Hildreth, Samuel P. Pioneer History. Cincinnati: H. W. Derby, 1848. Cayton, Andrew R. L. The Frontier Republic. Kent, OH: Kent State University Press, 1986."
+    },
+    {
+      "era_id": "canal_and_steamboat",
+      "era_name": "Canal, Steamboat, and the Iron Roads",
+      "date_range": "1830-1870",
+      "primary_modes": ["steamboat", "canal boat", "wagon on improved turnpike", "horseback", "iron furnace roads"],
+      "description": "The steamboat transformed the Ohio River from a one-way highway (downstream by flatboat, upstream by pole and oar) into a two-way commercial corridor. By the 1840s, dozens of steamboats per day passed through the region. The Ohio & Erie Canal reached Portsmouth in 1832, connecting the Ohio River to the interior of Ohio — goods could now move by water from the Gulf of Mexico to Lake Erie. Inside the cluster, the Hanging Rock Iron Region created its own road network: each furnace needed roads to its ore banks, timber lots, and the river landings where pig iron was loaded onto boats. These iron roads were narrow, rutted wagon tracks through the forest, but they were the first roads in much of Lawrence, Jackson, and Vinton counties. The National Road (US Route 40) ran well north of the cluster through Zanesville and Columbus, but its feeder roads improved connections to the Scioto Valley. Turnpike companies built some improved roads between county seats, but the terrain made construction expensive and toll revenue could not cover maintenance.",
+      "road_conditions": "County roads remained unimproved outside the immediate approaches to county seats. Turnpikes existed between some towns but were often poorly maintained. Iron furnace roads were rough tracks passable by heavy wagons carrying pig iron but treacherous in wet weather. The contrast between the connected river corridor and the isolated interior was extreme — a Portsmouth merchant could receive goods from New Orleans in two weeks while a Vinton County farmer was a two-day wagon ride from the nearest town.",
+      "travel_times": [
+        { "from": "Marietta", "to": "Portsmouth (by steamboat)", "mode": "steamboat", "time": "10-14 hours downstream", "conditions_note": "Steamboat service was regular and fast. Return upstream took 18-24 hours." },
+        { "from": "Portsmouth", "to": "Chillicothe (by canal)", "mode": "canal boat", "time": "1-2 days", "conditions_note": "Ohio & Erie Canal. Slow but cheap for freight." },
+        { "from": "Ironton", "to": "Cincinnati (by steamboat)", "mode": "steamboat", "time": "8-12 hours downstream", "conditions_note": "The iron shipping route — pig iron from Hanging Rock went downstream to Cincinnati foundries." },
+        { "from": "Iron furnace", "to": "Nearest river landing", "mode": "heavy wagon", "time": "4-8 hours one way", "conditions_note": "Hauling pig iron by wagon was the bottleneck of the iron industry. Roads were narrow and steep." }
+      ],
+      "key_routes": [
+        { "route_name": "Ohio River (steamboat era)", "type": "navigable waterway", "year_established": "Steamboat service from 1810s", "description": "Peak steamboat traffic in the 1850s. Regular packet lines connected every river town to Cincinnati, Louisville, and Pittsburgh. The steamboat whistle was the sound of commerce arriving.", "counties_served": ["Washington", "Meigs", "Gallia", "Lawrence", "Scioto"] },
+        { "route_name": "Ohio & Erie Canal (Portsmouth terminus)", "type": "canal", "year_established": 1832, "description": "Connected Portsmouth to Chillicothe, Columbus, and Cleveland. Transformed Portsmouth from a river landing into a commercial junction.", "counties_served": ["Scioto"] },
+        { "route_name": "Hanging Rock iron furnace roads", "type": "unimproved industrial roads", "year_established": "1820s-1860s", "description": "Each furnace required roads to ore banks, charcoal kilns, and river landings. These roads — narrow, rutted, steep — were the first roads in much of the interior. When the furnaces closed, the roads were abandoned and the forest reclaimed them.", "counties_served": ["Lawrence", "Scioto", "Jackson", "Vinton"] }
+      ],
+      "isolation_index": {
+        "description": "Dramatically reduced along the river (steamboat made travel fast and regular). Portsmouth and Ironton were well-connected commercial towns. Interior hill country remained as isolated as before — the steamboat revolution stopped at the river bank.",
+        "comparative_note": "The gulf between river-connected and interior communities was at its widest. A Portsmouth merchant was better connected to Cincinnati than to a farm twenty miles up Symmes Creek."
+      },
+      "narrative_hook": "The steamboat whistle at {town} meant the world was arriving — mail, goods, newspapers, and people from Cincinnati and Pittsburgh. But {ancestor_name}, two ridges back from the river, heard nothing but the wind in the timber and the creek running over rock.",
+      "source": "Scheiber, Harry N. Ohio Canal Era. Athens: Ohio University Press, 1969. Stout, Wilber, and R. A. Schoenlaub. The Iron Ore Resources of Ohio. Columbus: Ohio Geological Survey, 1945."
+    },
+    {
+      "era_id": "railroad_coal",
+      "era_name": "Railroad, Coal, and the Hocking Valley",
+      "date_range": "1870-1920",
+      "primary_modes": ["railroad", "steamboat (declining)", "wagon on unimproved road", "horseback"],
+      "description": "The railroad came to southeastern Ohio to extract coal — not to connect communities. The Hocking Valley Railroad (later Columbus & Hocking Valley, later Chesapeake & Ohio) ran from Columbus south through the Sunday Creek and Hocking Valley coal fields to Athens and the Ohio River. The Scioto Valley Railway connected Portsmouth to Columbus. The Baltimore & Ohio ran through Marietta and Parkersburg. These lines served the extractive economy: coal went out, machinery came in. Mining towns that the railroad touched — Chauncey, Glouster, Nelsonville, Murray City — had jobs and commerce. Towns the railroad bypassed — which was most of them — remained as isolated as they had been in the wagon era. The fundamental problem was that southeastern Ohio's terrain made railroad construction expensive, and the sparse population did not generate enough passenger revenue to justify branch lines. The main lines followed the river valleys and the coal seams. The hill country between them had no rail service and no improved roads.",
+      "road_conditions": "Main-line railroad service existed along the Hocking Valley, the Scioto Valley, and the Ohio River corridor. County roads remained largely unimproved. Some gravel-surfaced turnpikes connected county seats. Coal mine roads were built to the mines and served no one else. The automobile was beginning to appear on improved roads by 1910 but had no impact on the hill country where roads were unsuitable.",
+      "travel_times": [
+        { "from": "Athens", "to": "Columbus", "mode": "railroad", "time": "3-4 hours", "conditions_note": "Hocking Valley Railroad. The first practical connection between southeastern Ohio and the state capital." },
+        { "from": "Portsmouth", "to": "Columbus", "mode": "railroad (Scioto Valley)", "time": "4-5 hours", "conditions_note": "Scioto Valley Railway. Connected Portsmouth to the interior for the first time by rail." },
+        { "from": "Marietta", "to": "Parkersburg WV", "mode": "railroad (B&O)", "time": "30 minutes to 1 hour", "conditions_note": "B&O Railroad bridge connected Marietta to the national rail network via Parkersburg." },
+        { "from": "Hill farm (off railroad)", "to": "Nearest railroad depot", "mode": "wagon", "time": "4-8 hours one way", "conditions_note": "Unchanged from the pre-railroad era. A family in Vinton County's interior could be a full day's ride from the nearest depot." }
+      ],
+      "key_routes": [
+        { "route_name": "Hocking Valley Railroad / Columbus & Hocking Valley / C&O", "type": "railroad", "year_established": "1870s", "description": "The coal railroad — ran from Columbus south through Nelsonville, Athens, and the Sunday Creek coal fields. Built to haul coal, it also provided the first passenger connection between southeastern Ohio and Columbus. Mining towns on the line grew; communities off it stagnated.", "counties_served": ["Athens", "Vinton", "Meigs"] },
+        { "route_name": "Scioto Valley Railway", "type": "railroad", "year_established": "1870s-1880s", "description": "Connected Portsmouth to Chillicothe and Columbus via the Scioto River valley. Replaced the canal as the primary freight route.", "counties_served": ["Scioto"] },
+        { "route_name": "Baltimore & Ohio Railroad (Marietta branch)", "type": "railroad", "year_established": "1860", "description": "Connected Marietta to the B&O main line at Parkersburg, WV, via the railroad bridge across the Ohio River. Linked Marietta to the national rail network.", "counties_served": ["Washington"] },
+        { "route_name": "Detroit, Toledo & Ironton Railroad", "type": "railroad", "year_established": "1890s (reorganized from earlier lines)", "description": "Connected Ironton to Springfield and Detroit. Henry Ford purchased the line in 1920 to supply iron ore. Provided Lawrence County's primary northbound rail connection.", "counties_served": ["Lawrence", "Jackson"] }
+      ],
+      "isolation_index": {
+        "description": "Sharply reduced along railroad corridors; unchanged in the interior. Athens, Portsmouth, Marietta, and Ironton had railroad connections. The coal mining towns on the Hocking Valley line had rail service. But the hill country between the valleys — Vinton County's interior, the ridges between Gallia and Jackson, the back hollows of Meigs County — had no rail service, no improved roads, and no practical connection to the outside world that was faster than a man on horseback.",
+        "comparative_note": "Southeastern Ohio's interior was more isolated than most of Appalachian West Virginia, which had denser railroad networks built for coal extraction. The southeastern Ohio coal seams were smaller and fewer, and the railroads followed."
+      },
+      "narrative_hook": "The railroad came for the coal, not for {ancestor_name}. It ran through the hollows where the seams were, and the towns it touched had jobs and a depot. The farm on the ridge two valleys over had what it always had — a wagon trace, a creek to ford, and a full day's ride to anywhere that mattered.",
+      "source": "Scheiber, Ohio Canal Era (1969). Eller, Ronald D. Miners, Millhands, and Mountaineers. University of Tennessee Press, 1982."
+    },
+    {
+      "era_id": "highway_and_outmigration",
+      "era_name": "Highway Era and the Road Out",
+      "date_range": "1920-1960",
+      "primary_modes": ["automobile", "bus", "truck", "railroad (declining passenger service)"],
+      "description": "The automobile and highway construction transformed southeastern Ohio — not by connecting the hill country to the national economy but by providing a road out. US Route 23 (the 'Hillbilly Highway') ran from Portsmouth north through Chillicothe to Columbus and became the primary migration corridor for southeastern Ohio families heading to factory jobs in Columbus and beyond. US Route 33 connected Athens to Columbus. US Route 35 ran east-west from Gallipolis to Dayton. State highway construction in the 1920s and 1930s paved connections between county seats for the first time. The New Deal — particularly the CCC and WPA — built roads, bridges, and trails in Wayne National Forest that improved access to the most remote areas. But the highways served the out-migration as much as they served the communities that remained. For the first time, a southeastern Ohio family could drive to Columbus in three hours and see the factory jobs that paid more in a week than the farm produced in a month. The Greyhound bus line connected county seats to the cities. The road that connected also drained: young families loaded cars and drove north, and the communities they left behind had fewer people, fewer taxpayers, and less reason for the state to invest in further road improvements.",
+      "road_conditions": "US and state highways paved with asphalt by the 1930s. County roads improved but many remained unpaved into the 1950s. The hill country's terrain meant that even paved roads were narrow, winding, and prone to washouts on steep grades. Winter ice was a hazard that could isolate communities for days.",
+      "travel_times": [
+        { "from": "Portsmouth", "to": "Columbus (via US 23)", "mode": "automobile", "time": "3 hours", "conditions_note": "Two-lane highway through Chillicothe. The migration corridor — the road that took thousands of families north." },
+        { "from": "Athens", "to": "Columbus (via US 33)", "mode": "automobile", "time": "2.5-3 hours", "conditions_note": "Winding two-lane road through the hills. Improved but still slow compared to flat-terrain highways." },
+        { "from": "Gallipolis", "to": "Dayton (via US 35)", "mode": "automobile", "time": "4-5 hours", "conditions_note": "US 35 was the east-west corridor. Connected Gallia and Meigs counties to Dayton's industrial economy." },
+        { "from": "Hill farm (interior Vinton Co.)", "to": "Nearest paved road", "mode": "automobile on gravel/dirt", "time": "30-60 minutes", "conditions_note": "Interior communities remained on unpaved roads into the 1950s. A Vinton County farmer could own a car and still be isolated by road conditions in winter." }
+      ],
+      "key_routes": [
+        { "route_name": "US Route 23 ('Hillbilly Highway')", "type": "US highway", "year_established": 1926, "description": "The primary north-south highway through southeastern Ohio — Portsmouth to Chillicothe to Columbus. Called the 'Hillbilly Highway' because it was the migration corridor for Appalachian families heading to Columbus, Toledo, and Detroit for factory jobs. The most important road in the cluster for the out-migration story.", "counties_served": ["Scioto"] },
+        { "route_name": "US Route 33 (Athens to Columbus)", "type": "US highway", "year_established": 1926, "description": "Connected Athens and the Hocking Valley to Columbus. The road Ohio University students and faculty traveled, and the road Athens County families used to reach the capital.", "counties_served": ["Athens"] },
+        { "route_name": "US Route 35 (Gallipolis to Dayton)", "type": "US highway", "year_established": 1926, "description": "The east-west corridor connecting the Ohio River at Gallipolis to Dayton. Provided southeastern Ohio's connection to the Dayton-Springfield industrial corridor.", "counties_served": ["Gallia", "Jackson", "Vinton"] },
+        { "route_name": "Ohio Route 7 (Ohio River road)", "type": "state highway", "year_established": "1920s", "description": "Followed the Ohio River from Marietta through Pomeroy, Gallipolis, Ironton, and Portsmouth. Connected every river town in the cluster by paved road for the first time. Replaced the steamboat as the river corridor's primary transportation.", "counties_served": ["Washington", "Meigs", "Gallia", "Lawrence", "Scioto"] },
+        { "route_name": "CCC and WPA roads in Wayne National Forest", "type": "federal project roads", "year_established": "1934-1942", "description": "Civilian Conservation Corps and WPA crews built and improved roads, bridges, and fire trails throughout Wayne National Forest. These projects provided the first reliable access to some of the most remote communities in the cluster.", "counties_served": ["Athens", "Vinton", "Lawrence", "Washington"] }
+      ],
+      "isolation_index": {
+        "description": "Moderate and declining by 1950 along highway corridors. Interior communities remained isolated by terrain and unpaved roads. The automobile helped — a family with a car could reach a paved road in an hour — but the topography that had isolated southeastern Ohio for 150 years was not erased by asphalt. Winter ice and spring washouts could isolate hill communities for days.",
+        "comparative_note": "By 1950, southeastern Ohio was better connected than it had ever been, but still more isolated than the Ohio River valley towns of West Virginia (which had denser railroad networks) or the Bluegrass of Kentucky. The highways that connected also drained — and the communities left behind were smaller and more isolated by their shrinking population than by their roads."
+      },
+      "narrative_hook": "US Route 23 was the road out — the highway that took {ancestor_name}'s children north to Columbus, following the cousins who had gone before them. The road that connected the hollows to the factories also emptied them, one family at a time.",
+      "source": "Eller, Ronald D. Uneven Ground: Appalachia since 1945. University Press of Kentucky, 2008. Federal Writers' Project. The Ohio Guide. Oxford University Press, 1940."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1832, "event": "Ohio & Erie Canal reaches Portsmouth", "impact": "First long-distance freight connection for southeastern Ohio — predates railroad era but functions similarly. Connected Portsmouth to interior Ohio." },
+    { "year": 1860, "event": "Baltimore & Ohio Railroad reaches Marietta via bridge from Parkersburg, WV", "impact": "First railroad connection in the cluster. Connected Marietta to the national rail network." },
+    { "year": 1870, "event": "Hocking Valley Railroad begins service from Columbus to the coal fields", "impact": "Connected Athens County and the Sunday Creek coal district to Columbus. Built for coal extraction but provided passenger service." },
+    { "year": 1878, "event": "Scioto Valley Railway connects Portsmouth to Chillicothe and Columbus", "impact": "Replaced the canal as Portsmouth's connection to interior Ohio." },
+    { "year": 1881, "event": "Columbus & Hocking Valley Railway reaches Pomeroy via the Hocking Valley", "impact": "Extended rail service to the Ohio River at Pomeroy, connecting the coal fields to river transportation." },
+    { "year": 1895, "event": "Detroit, Toledo & Ironton Railroad (reorganized) connects Ironton to Springfield", "impact": "Provided Lawrence County's primary northbound rail connection. Later purchased by Henry Ford in 1920." },
+    { "year": 1920, "event": "Henry Ford purchases the DT&I Railroad", "impact": "Ford used the line to ship iron ore from his Fayette County furnace. The purchase maintained rail service that might otherwise have been abandoned." }
+  ],
+  "narrative_hooks": [
+    "The Ohio River was the only highway southeastern Ohio ever had that worked — everything else was a trace through the timber, a coal railroad that served the mines, or a highway that taught {ancestor_name}'s children what they were missing.",
+    "The hill country between the rivers was two ridges and a century away from the world the steamboats connected — {ancestor_name}'s farm in {county} County was a full day's ride from any place that had a newspaper, a depot, or a reason to exist beyond what the hollows produced.",
+    "US Route 23 ran from Portsmouth to Columbus, and the locals called it the 'Hillbilly Highway' — because every family that loaded a car and drove north was leaving the hills for the factories, and {ancestor_name}'s family was one of them.",
+    "The railroad came for the coal, not the people — the Hocking Valley line ran through the hollows where the seams were, and the towns it touched survived while the communities it bypassed slowly emptied.",
+    "When the CCC boys built roads through Wayne National Forest in the 1930s, some of those communities had never had a road that could take a truck. The Depression brought the first roads to places the market economy had never bothered to reach."
+  ],
+  "source_references": [
+    "Hildreth, Samuel P. Pioneer History: Being an Account of the First Examinations of the Ohio Valley. Cincinnati: H. W. Derby, 1848.",
+    "Cayton, Andrew R. L. The Frontier Republic: Ideology and Politics in the Ohio Country, 1780-1825. Kent, OH: Kent State University Press, 1986.",
+    "Scheiber, Harry N. Ohio Canal Era: A Case Study of Government and the Economy, 1820-1861. Athens: Ohio University Press, 1969.",
+    "Stout, Wilber, and R. A. Schoenlaub. The Iron Ore Resources of Ohio. Ohio Geological Survey Bulletin 45. Columbus, 1945.",
+    "Eller, Ronald D. Miners, Millhands, and Mountaineers: Industrialization of the Appalachian South, 1880-1930. Knoxville: University of Tennessee Press, 1982.",
+    "Eller, Ronald D. Uneven Ground: Appalachia since 1945. Lexington: University Press of Kentucky, 2008.",
+    "Federal Writers' Project. The Ohio Guide. New York: Oxford University Press, 1940."
+  ],
+  "nel_cross_references": {
+    "route_refs": [
+      "ohio_river_corridor",
+      "great_wagon_road"
+    ],
+    "trigger_refs": [
+      "appalachian_out_migration",
+      "scots_irish_frontier",
+      "industrial_revolution",
+      "gi_bill_migration"
+    ]
+  }
+}

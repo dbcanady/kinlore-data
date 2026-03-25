@@ -1,0 +1,243 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Micro-Migration Network Map for the NJ Delaware Valley cluster. Documents specific migration corridors, chain-migration mechanics, and settlement patterns that moved people into, out of, and within this eight-county region from 1660 to 1960. West Jersey was both a destination (English Quakers, Swedish/Finnish colonists, Italian agricultural immigrants, Jewish agricultural colonists) and a pass-through corridor (migrants moving between Philadelphia and the Jersey shore or south toward the Carolinas). Philadelphia's gravitational pull defined migration into the cluster — people crossed the Delaware to reach cheaper land, lower taxes, and farming opportunities while staying within the Philadelphia commercial orbit.",
+  "migration_network_id": "nj_delaware_valley_migration",
+  "display_name": "NJ Delaware Valley — Micro-Migration Network Map",
+  "cluster_ref": "nj_delaware_valley",
+  "era_range": "1660-1960",
+  "migration_corridors": [
+    {
+      "corridor_id": "swedish_finnish_colonial",
+      "corridor_name": "Swedish and Finnish Colonial Settlement on the Delaware",
+      "origin_counties": ["Various — Sweden (Värmland, Dalarna, Uppland)", "Finland (Rautalampi region)"],
+      "destination_area": "Gloucester, Salem, Burlington counties — the lower Delaware River corridor",
+      "era": "1638-1680",
+      "migration_type": "colonial_settlement",
+      "scale": "Approximately 600-1,000 Swedish and Finnish settlers arrived in the Delaware Valley under the New Sweden colony (1638-1655) and continued under Dutch and English rule. Most settled on the New Jersey side of the Delaware.",
+      "evidence": {
+        "census_evidence": "The 1693 census of West Jersey identifies Swedish and Finnish families along the Delaware. Surnames like Rambo, Stille, Cock, Helm, Dalbo, and Bonde cluster in Gloucester and Salem counties.",
+        "church_evidence": "The Swedish Lutheran church at Swedesboro (Holy Trinity / Old Swedes', established 1703 on the site of earlier worship) recorded Swedish families in the original language. Baptismal and marriage records document the community through the colonial period.",
+        "surname_clustering": "Swedish surnames cluster along the Delaware from Gloucester Point south through Salem County. Finnish families, fewer in number, are identifiable by surnames like Stille and by references in Swedish colonial records."
+      },
+      "chain_mechanics": {
+        "description": "The New Sweden colony was a Crown enterprise — settlers were recruited by Swedish trading companies and transported at company expense. Finnish settlers from the forest-burning (svedjebruk) agricultural tradition were recruited because their slash-and-burn techniques were effective in clearing Delaware Valley forest. After the Dutch conquest of New Sweden in 1655 and the English takeover in 1664, Swedish and Finnish families remained on their land grants and gradually intermarried with the incoming English Quaker population. By the 1720s, most Swedish families were bilingual and attending Anglican or Quaker services alongside their Lutheran worship.",
+        "kinship_role": "The Swedish colonial community was small enough that kinship connected nearly every family. Intermarriage within the Swedish-Finnish community was the norm through the 1690s. Marriage with English Quaker families began in the early 1700s and accelerated assimilation.",
+        "timeline": "Initial settlement 1638-1655 (New Sweden). Continued settlement under Dutch rule 1655-1664. English takeover 1664. Gradual assimilation 1680-1750."
+      },
+      "narrative_hook": "The Swedish families on the Delaware were there before William Penn — when {ancestor_name}'s Quaker neighbors arrived in the 1680s, the Rambo and Stille families had already been farming the Gloucester County bottomland for two generations, worshipping at Old Swedes' Church, and speaking a language that would gradually give way to English.",
+      "source": "Johnson, Amandus. The Swedish Settlements on the Delaware. 2 vols. Philadelphia: University of Pennsylvania, 1911. Weslager, C. A. New Sweden on the Delaware, 1638-1655. Wilmington, DE: Middle Atlantic Press, 1988."
+    },
+    {
+      "corridor_id": "quaker_english_west_jersey",
+      "corridor_name": "English Quaker Migration to West Jersey",
+      "origin_counties": ["Various English counties (Yorkshire, Bristol, London, Sussex)", "Ireland (Dublin Quakers)"],
+      "destination_area": "Burlington, Salem, Gloucester counties — the Delaware River corridor",
+      "era": "1675-1720",
+      "migration_type": "religious_migration",
+      "scale": "Approximately 2,000-4,000 Quaker settlers arrived in West Jersey between 1675 and 1720. They established the legal framework, the meeting system, and the agricultural economy that defined the cluster for a century.",
+      "evidence": {
+        "census_evidence": "The 1693 West Jersey census and early tax lists show English Quaker surname dominance in Burlington and Salem counties: Stacy, Budd, Jennings, Gardiner, Fenwick, Revell.",
+        "church_evidence": "Quaker meeting records document arrivals from specific English meetings. Burlington Monthly Meeting (1678) and Salem Monthly Meeting (1676) recorded removal certificates that trace families from Bristol, London, and Yorkshire meetings.",
+        "surname_clustering": "English surnames cluster in Burlington (the colonial capital) and Salem (Fenwick's Colony). The Quaker meeting structure provides unusually precise documentation of origin and settlement."
+      },
+      "chain_mechanics": {
+        "description": "West Jersey was organized as a Quaker proprietorship from the beginning. John Fenwick purchased Salem in 1675 and brought settlers directly from England. The Burlington Company (1677) organized a larger migration of Yorkshire, London, and Bristol Quakers who settled Burlington and the surrounding townships. The migration was organized through Quaker meetings — entire meeting communities sometimes moved together. Removal certificates documented every family's departure from the English meeting and arrival at the New Jersey meeting. The West Jersey Concessions (1677), drafted with Quaker input, guaranteed religious liberty, trial by jury, and representative government — creating a legal framework that attracted Quaker settlers who found Penn's Pennsylvania too crowded or too expensive.",
+        "kinship_role": "Meeting connection was the organizing principle — families migrated within the Quaker network. A family leaving Yorkshire Meeting arrived at Burlington Meeting with a certificate that placed them immediately within the social, economic, and spiritual community. The meeting provided everything: worship, marriage regulation, poor relief, business networking, and dispute resolution.",
+        "timeline": "Fenwick's Colony at Salem 1675. Burlington settlement 1677-1678. Peak Quaker migration 1680-1700. Slowed after 1720 as the colony matured."
+      },
+      "narrative_hook": "When {ancestor_name}'s family crossed the Atlantic to Burlington in {year}, they carried a removal certificate from their English meeting — a document that was passport, reference letter, and church transfer in one, and that placed them in a community of Friends before they had unpacked.",
+      "source": "Pomfret, John E. The Province of West New Jersey. Princeton: Princeton University Press, 1956. Hinshaw, William Wade. Encyclopedia of American Quaker Genealogy, Vol. 2. Ann Arbor: Edwards Brothers, 1938."
+    },
+    {
+      "corridor_id": "scots_irish_hunterdon_warren",
+      "corridor_name": "Scots-Irish Settlement in Hunterdon and Warren Counties",
+      "origin_counties": ["Ulster (Ireland)", "Various — arriving via Philadelphia and New York"],
+      "destination_area": "Hunterdon and Warren counties — the Piedmont and Kittatinny Valley",
+      "era": "1720-1780",
+      "migration_type": "chain_migration",
+      "scale": "Several hundred Scots-Irish families settled in the upland portions of Hunterdon and Warren (then Sussex) counties, establishing Presbyterian congregations and farming communities on land the Quakers had not claimed.",
+      "evidence": {
+        "census_evidence": "The 1790 census for Hunterdon County shows Scots-Irish surnames (McPherson, McCrea, Fleming, Patterson) alongside Dutch and German names in the upland townships.",
+        "church_evidence": "Presbyterian church records at Flemington (Hunterdon) and in the Musconetcong Valley (Warren) document Scots-Irish families from the 1730s. The Amwell Presbyterian Church (1730s) is one of the earliest in the cluster."
+      },
+      "chain_mechanics": {
+        "description": "Scots-Irish families who arrived at Philadelphia often found the best Delaware Valley farmland claimed by Quakers and Germans. Some moved through Pennsylvania on the Great Wagon Road; others crossed into New Jersey and settled in the upland areas of Hunterdon County and the Kittatinny Valley that would become Warren County. These areas offered cheaper land and familiar terrain — rolling hills similar to Ulster. The settlement was organized through Presbyterian church networks rather than Quaker meetings. Some families settled permanently; others used New Jersey as a staging ground before moving west.",
+        "kinship_role": "Presbyterian church connections channeled settlement. Families from the same Ulster parish often settled together. The minister who organized a congregation was frequently the migration leader.",
+        "timeline": "First arrivals 1720s. Growing settlement 1730s-1760s. Warren County area settled primarily 1740s-1780s."
+      },
+      "narrative_hook": "{ancestor_name}'s Scots-Irish family found the Delaware River flatland already claimed by Quakers — so they moved inland to the Hunterdon hills where the land was steeper, the soil was thinner, and the Presbyterian church on the ridge was the one institution that connected them to Ulster.",
+      "source": "Leyburn, James G. The Scotch-Irish: A Social History. Chapel Hill: University of North Carolina Press, 1962. Snell, James P. History of Sussex and Warren Counties. Philadelphia: Everts and Peck, 1881."
+    },
+    {
+      "corridor_id": "italian_vineland_camden",
+      "corridor_name": "Italian Immigration to Vineland, Camden, and South Jersey",
+      "origin_counties": ["Southern Italy — Campania, Calabria, Abruzzo, Sicily", "Northern Italy — Piedmont (smaller numbers)"],
+      "destination_area": "Cumberland County (Vineland), Camden County (Camden city), Gloucester County",
+      "era": "1880-1930",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of Italian families settled in the Vineland agricultural colony and in Camden's industrial neighborhoods. By 1920, Italians were the largest foreign-born population in Camden and Vineland.",
+      "evidence": {
+        "census_evidence": "1900-1930 census for Vineland shows dense Italian-born population. Camden's 1920 census shows Italian neighborhoods in the waterfront and South Camden areas. Birthplace data identifies specific southern Italian provinces.",
+        "church_evidence": "Catholic parishes established to serve the Italian community: Our Lady of Mt. Carmel (Camden), Sacred Heart (Vineland). Parish sacramental records document families from the 1890s forward.",
+        "surname_clustering": "Italian surnames cluster in Vineland (agricultural families: Gallella, Paretti, Contino) and Camden (industrial families). The Vineland Italian community was distinctive because the families were agricultural settlers, not urban industrial workers."
+      },
+      "chain_mechanics": {
+        "description": "Charles K. Landis, founder of Vineland (1861), recruited Italian families from southern Italy as agricultural colonists — deliberately seeking farmers who could work the sandy Coastal Plain soil that Anglo-American farmers had found unproductive. Italian farming families arrived in Vineland beginning in the 1870s, and their intensive cultivation techniques (similar to Mediterranean agriculture) made the sandy soil productive for vegetables, fruit, and especially grapes. The wine grape industry in Vineland was built by Italian families. In Camden, Italian immigrants were recruited for industrial work — Campbell Soup, the shipyard, and construction. Chain migration connected specific southern Italian villages to specific neighborhoods: families from one Calabrian town settled on the same Camden block. The padroni system initially controlled labor placement, but kinship chains quickly became the dominant mechanism.",
+        "kinship_role": "Village-of-origin connections were paramount. Families from the same Italian village settled together, married within the community, and recreated the social structure of the paese in New Jersey. The festa (patron saint festival) of the home village was celebrated in the new settlement.",
+        "timeline": "First Italian families in Vineland 1870s. Growing flow 1890-1914. Camden Italian community growing 1900-1920. Immigration restriction (1924) slowed new arrivals. Second generation dominant by 1940s."
+      },
+      "narrative_hook": "The Vineland experiment was unique in the Italian American story — {ancestor_name}'s family came not to a factory but to a farm, recruited to work sandy soil that Anglo-American farmers had abandoned, and the Mediterranean techniques that had fed Calabria for centuries turned Cumberland County sand into the most productive vegetable land in South Jersey.",
+      "source": "Martinelli, Phylis Cancilla. Undocumented Americans: The Italian-American Experience. Lanham, MD: University Press of America, 2003. Vecoli, Rudolph J. 'The Italian Immigrants in the United States Labor Movement.' In The Italian Americans, edited by Salvatore J. LaGumina. New York: Center for Migration Studies, 1999."
+    },
+    {
+      "corridor_id": "jewish_agricultural_colonies",
+      "corridor_name": "Jewish Agricultural Colonies in Cumberland and Salem Counties",
+      "origin_counties": ["Russian Empire — Pale of Settlement (Ukraine, Lithuania, Belarus, Poland)"],
+      "destination_area": "Cumberland County (Alliance, Carmel, Rosenhayn, Norma, Brotmanville), Salem County (Woodbine project nearby in Cape May County)",
+      "era": "1882-1920",
+      "migration_type": "organized_settlement",
+      "scale": "Approximately 2,000-3,000 Jewish settlers established agricultural colonies in Cumberland County between 1882 and 1910. The colonies were among the largest Jewish agricultural settlements in America.",
+      "evidence": {
+        "census_evidence": "1900-1920 census for Deerfield and other Cumberland County townships shows Russian and Polish Jewish families listing occupation as 'farmer' — unusual in the American Jewish population.",
+        "church_evidence": "Synagogue records at Alliance (Eben Ha-Ezer synagogue, 1882 — one of the oldest surviving synagogues in southern New Jersey) and cemetery records document the founding families.",
+        "surname_clustering": "Jewish surnames cluster in the Alliance-Norma-Brotmanville area of Cumberland County: Kotinsky, Bayuk, Levin, Greenblatt, Lipman."
+      },
+      "chain_mechanics": {
+        "description": "The Jewish agricultural colonies were organized by the Alliance Israelite Universelle and the Hebrew Emigrant Aid Society (HEAS) in response to pogroms in the Russian Empire beginning in 1881. The colonies were deliberately placed on cheap farmland in Cumberland County — land that Anglo-American and even Italian farmers considered marginal. Alliance (1882) was the first colony, followed by Carmel, Rosenhayn, Norma, and Brotmanville. The colonies were intended to demonstrate that Jewish immigrants could become self-sufficient farmers rather than urban workers. Many colonists had no farming experience and struggled with the sandy Coastal Plain soil. Some colonies succeeded as farming communities; others evolved into small towns as residents shifted to manufacturing (particularly the clothing industry). The Baron de Hirsch Fund provided loans and support after 1891.",
+        "kinship_role": "Colony settlement was organized by relief agencies rather than kinship chains initially, but once established, the colonies attracted family members and landsmen (people from the same Russian or Polish town). The shtetl networks of the Pale of Settlement were partially reconstituted in the Cumberland County settlements.",
+        "timeline": "First colony (Alliance) established 1882. Multiple colonies established 1882-1895. Baron de Hirsch Fund support from 1891. Peak agricultural period 1890-1920. Gradual transition to manufacturing and outmigration 1920-1960."
+      },
+      "narrative_hook": "{ancestor_name}'s family fled the pogroms of the Russian Empire for a farm in Cumberland County — an improbable destination for a people associated with urban commerce, but the Alliance colony was designed to prove that Jewish immigrants could work the land, and the sandy soil of South Jersey became the testing ground for that experiment.",
+      "source": "Brandes, Joseph. Immigrants to Freedom: Jewish Communities in Rural New Jersey Since 1882. Philadelphia: University of Pennsylvania Press, 1971. Eisenberg, Ellen. Jewish Agricultural Colonies in New Jersey, 1882-1920. Syracuse, NY: Syracuse University Press, 1995."
+    },
+    {
+      "corridor_id": "black_great_migration_camden",
+      "corridor_name": "Black Great Migration into Camden and Trenton",
+      "origin_counties": ["Virginia", "Maryland", "North Carolina", "South Carolina", "Georgia — via railroad to Philadelphia/Camden"],
+      "destination_area": "Camden County (Camden city), Mercer County (Trenton), Burlington County (industrial towns)",
+      "era": "1916-1960",
+      "migration_type": "chain_migration",
+      "scale": "Tens of thousands of Black families moved to Camden and Trenton during the Great Migration. Camden's Black population grew from approximately 6,000 in 1910 to over 30,000 by 1950.",
+      "evidence": {
+        "census_evidence": "1920-1960 census for Camden and Trenton shows rapidly growing Black populations with birthplaces in Virginia, Maryland, North Carolina, and South Carolina.",
+        "church_evidence": "Black Baptist and AME churches in Camden (Kaighn Avenue Baptist, Mt. Zion AME) and Trenton grew rapidly during the migration period. Church records document new members arriving from Southern states."
+      },
+      "chain_mechanics": {
+        "description": "The railroads that terminated at Camden brought Black migrants north along with the freight. Campbell Soup Company, New York Shipbuilding Corporation, and RCA Victor hired Black workers, particularly during wartime labor shortages. Camden's Black community was concentrated in specific neighborhoods — initially near the waterfront, later expanding south and east. Chain migration followed church and kinship networks — a family from Virginia's Southside would settle in Camden because a cousin or church member was already working at the soup factory. Trenton's pottery and steel industries provided similar employment draws. Housing discrimination confined Black families to specific neighborhoods, creating the dense urban communities that characterized mid-century Camden.",
+        "kinship_role": "Church networks were primary. A letter from a cousin at the Camden shipyard or the Campbell factory was the typical catalyst. AME and Baptist church connections channeled migrants to specific congregations that served as arrival infrastructure — providing housing referrals, job connections, and community orientation.",
+        "timeline": "First wave 1916-1920 (WWI labor demand). Continued 1920-1940. Second wave 1941-1955 (WWII and postwar industrial boom)."
+      },
+      "narrative_hook": "When {ancestor_name} arrived in Camden from {origin_state} in {year}, the Campbell factory was hiring and a church member from home knew where to find a room — the Great Migration brought families north on a chain of kinship and faith that stretched from the tobacco fields to the soup factory.",
+      "source": "Wilkerson, Isabel. The Warmth of Other Suns. New York: Random House, 2010. Dorwart, Jeffery M. Camden County, New Jersey. New Brunswick: Rutgers University Press, 2001."
+    },
+    {
+      "corridor_id": "polish_hungarian_camden_trenton",
+      "corridor_name": "Polish, Hungarian, and Eastern European Immigration to Camden and Trenton",
+      "origin_counties": ["Poland (Galicia, Congress Poland)", "Hungary (including Slovak and Carpatho-Rusyn regions)", "Ukraine (Galicia)"],
+      "destination_area": "Camden County (Camden — Whitman Park, Cramer Hill), Mercer County (Trenton — Chambersburg)",
+      "era": "1890-1924",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of Polish, Hungarian, and other Eastern European families settled in Camden and Trenton between 1890 and 1924. Trenton's Chambersburg neighborhood became the primary Polish-Hungarian enclave.",
+      "evidence": {
+        "census_evidence": "1900-1920 census for Camden and Trenton shows growing populations born in Austria-Hungary, Russian Poland, and the Russian Empire. Trenton's Chambersburg ward was majority Eastern European by 1910.",
+        "church_evidence": "Catholic and Eastern Orthodox parishes established to serve specific ethnic communities: Sacred Heart (Polish, Trenton), St. Stephen's (Hungarian, Trenton), St. Joseph's (Polish, Camden). Parish records document families from the 1890s."
+      },
+      "chain_mechanics": {
+        "description": "Eastern European immigrants were drawn to the industrial employment available in Camden and Trenton — pottery, steel, wire rope, rubber, and food processing. Trenton's pottery industry was particularly attractive to skilled workers from regions with ceramic traditions. Polish and Hungarian immigrants typically arrived via New York or Philadelphia and were directed to New Jersey industrial towns by labor agents, letters from kin, or information networks at port of arrival. Each ethnic group concentrated in specific neighborhoods and established its own parish, mutual aid society, and social institutions. The ethnic parish was the organizing institution — the Polish parish, the Hungarian parish, and the Slovak parish served distinct communities even when the factories employed them side by side.",
+        "kinship_role": "Village-of-origin and regional connections drove settlement clustering. Letters home describing wages and conditions at specific factories catalyzed chain migration. Boarding houses run by established immigrants provided arrival infrastructure for newcomers from the same region.",
+        "timeline": "First arrivals 1880s-1890s. Peak immigration 1900-1914. Interrupted by WWI. Immigration restriction (1924) ended large-scale flow. Second generation dominant by 1940s."
+      },
+      "narrative_hook": "When {ancestor_name} arrived in Trenton's Chambersburg from {origin_region} in {year}, the pottery factory was hiring and a boarding house on the next block was run by a woman from the same province — the neighborhood was a map of the old country, one block per village, with the church steeple marking the center.",
+      "source": "Cummings, Richard O. Trenton's Immigrants. Trenton: Trenton Historical Society, 1987. Bukowczyk, John J. And My Children Did Not Know Me: A History of Polish-Americans. Bloomington: Indiana University Press, 1987."
+    }
+  ],
+  "internal_movement_patterns": [
+    {
+      "pattern_id": "farm_to_city_delaware_corridor",
+      "pattern_name": "Farm-to-City Movement along the Delaware Corridor",
+      "description": "As Camden and Trenton industrialized in the late 1800s, farm families from Burlington, Gloucester, Salem, and Cumberland counties moved to the cities for factory employment. A Burlington County farm family's son might move to Camden for work at Campbell Soup or the shipyard. A Salem County family's daughter might move to Camden for domestic service or factory work. This movement was short-distance — often within the same county or to an adjacent county — but marked a permanent economic transition from agricultural to industrial life.",
+      "era": "1870-1940",
+      "counties_affected": ["Burlington", "Camden", "Gloucester", "Salem", "Cumberland"],
+      "narrative_hook": "{ancestor_name} did not travel far to reach the factory — the Campbell Soup plant in Camden was visible across the river from the Burlington County farm, and the walk from one economy to the other was measured in a ferry ride and a generation."
+    },
+    {
+      "pattern_id": "pine_barrens_isolation_and_movement",
+      "pattern_name": "Pine Barrens Internal Circulation",
+      "description": "The Pine Barrens of Burlington County constituted an isolated internal region with its own migration patterns. Workers moved between iron furnaces, then between cranberry bogs and glass factories as the iron industry declined. Families circulated within the Pine Barrens — Batsto to Atsion to Martha Furnace — following employment. Movement outward from the Pine Barrens to the coastal towns or to Camden was a more significant transition, often marking the end of the isolated furnace-community way of life.",
+      "era": "1760-1920",
+      "counties_affected": ["Burlington", "Camden"],
+      "narrative_hook": "Movement within the Pine Barrens was not migration in the ordinary sense — {ancestor_name} moved from furnace to furnace through sand roads and cedar swamps, following the iron or the cranberries, never leaving the forest that was both prison and home."
+    },
+    {
+      "pattern_id": "suburban_outward_push",
+      "pattern_name": "Philadelphia Suburban Push Eastward across the Delaware",
+      "description": "From 1926 (Benjamin Franklin Bridge opening) onward, Philadelphia's suburban development pushed eastward into New Jersey. Camden County suburbs (Haddonfield, Collingswood, Merchantville) grew first, followed by Burlington County (Willingboro/Levittown NJ, 1958) and Gloucester County (Deptford, Washington Township). Each generation's suburb was the next generation's inner ring. The pattern accelerated after WWII, when the GI Bill enabled homeownership and the automobile enabled commuting. Black families were systematically excluded from many suburban developments through restrictive covenants and discriminatory lending practices.",
+      "era": "1926-1960",
+      "counties_affected": ["Camden", "Burlington", "Gloucester"],
+      "narrative_hook": "The suburban frontier rolled east from Philadelphia after the bridge opened in 1926 — {ancestor_name}'s generation saw the orchards between the railroad stations fill with houses, and the farms that had been Quaker since the 1680s became building lots for families escaping the city the Quakers had built."
+    }
+  ],
+  "settlement_clusters": [
+    {
+      "cluster_name": "Burlington Quaker corridor",
+      "counties": ["Burlington"],
+      "description": "The oldest English-speaking settlement corridor in West Jersey. Burlington was the colonial capital, and Quaker meetings stretched from Burlington south along the Delaware. The meeting system provided the social infrastructure for a corridor of English-speaking agricultural communities that maintained cultural continuity for over two centuries.",
+      "era": "1677-present"
+    },
+    {
+      "cluster_name": "Salem-Gloucester Swedish colonial zone",
+      "counties": ["Salem", "Gloucester"],
+      "description": "The Swedish and Finnish families who settled along the lower Delaware predated the English Quaker migration by forty years. Their log-cabin construction techniques, Lutheran worship, and river-oriented economy were gradually absorbed into the English-Quaker cultural framework, but place names (Swedesboro) and church records preserve the Swedish colonial presence.",
+      "era": "1638-1800"
+    },
+    {
+      "cluster_name": "Vineland Italian agricultural colony",
+      "counties": ["Cumberland"],
+      "description": "The planned agricultural settlement at Vineland (founded 1861) became the destination for Italian immigrant families beginning in the 1870s. Italian intensive farming techniques made the sandy Coastal Plain soil productive, and the grape and vegetable industries the Italians built transformed Cumberland County agriculture.",
+      "era": "1870-present"
+    },
+    {
+      "cluster_name": "Alliance-Norma Jewish agricultural colonies",
+      "counties": ["Cumberland"],
+      "description": "Jewish agricultural colonies established in the 1880s by refugees from Russian pogroms. Alliance (1882), Carmel, Rosenhayn, Norma, and Brotmanville constituted the largest Jewish agricultural settlement experiment in America. Some colonies succeeded as farming communities; others evolved into small manufacturing towns.",
+      "era": "1882-1960"
+    },
+    {
+      "cluster_name": "Camden industrial neighborhoods",
+      "counties": ["Camden"],
+      "description": "Camden's ethnic neighborhoods — Italian South Camden, Polish Whitman Park, Black waterfront district — were organized by industry and ethnicity. Each neighborhood had its own parish or church, its own mutual aid society, and its own connection to a specific factory. The neighborhoods were the migration chain made visible on the city map.",
+      "era": "1870-1960"
+    },
+    {
+      "cluster_name": "Warren-Hunterdon German-Dutch farming belt",
+      "counties": ["Warren", "Hunterdon"],
+      "description": "German and Dutch Reformed families who settled the Kittatinny Valley and Hunterdon Piedmont in the early 1700s created a farming culture distinct from the Quaker Delaware corridor. German Lutheran and Dutch Reformed churches served as community anchors. The population was culturally closer to the PA Dutch of southeastern Pennsylvania than to the Quaker communities along the Delaware.",
+      "era": "1720-present"
+    }
+  ],
+  "narrative_hooks": [
+    "The Swedish families were there before the Quakers — when {ancestor_name}'s English meeting arrived in the 1680s, the Rambo family had already been farming the Gloucester County bottomland for two generations, and the log cabins they built became the model the English copied.",
+    "The Quaker removal certificate was a passport, a reference letter, and a church transfer all in one document — and it is the genealogical gold standard for tracking {ancestor_name}'s family from Bristol Meeting to Burlington Meeting across the Atlantic.",
+    "The Italian families at Vineland turned Anglo-American failure into Mediterranean success — {ancestor_name}'s family farmed sandy soil the English had abandoned, using techniques that had fed Calabria for centuries, and built a grape industry in the Pine Barrens.",
+    "The Jewish agricultural colonies at Alliance and Norma were an experiment in reinvention — {ancestor_name}'s family fled the pogroms of the Pale for a farm in Cumberland County, proving that the shtetl-dweller could become a farmer if given land and left alone.",
+    "The Great Migration brought {ancestor_name} north to the Campbell factory in Camden — a chain of kinship and church that connected the tobacco fields of Virginia to the soup plant across the Delaware from Philadelphia.",
+    "The suburban frontier rolled east after the bridge opened in 1926 — {ancestor_name}'s generation crossed the Delaware for a house with a yard in Cherry Hill or Willingboro, and the Quaker farmland became the commuter's lawn."
+  ],
+  "source_references": [
+    "Pomfret, John E. The Province of West New Jersey. Princeton: Princeton University Press, 1956.",
+    "Johnson, Amandus. The Swedish Settlements on the Delaware. 2 vols. Philadelphia: University of Pennsylvania, 1911.",
+    "Hinshaw, William Wade. Encyclopedia of American Quaker Genealogy, Vol. 2. Ann Arbor: Edwards Brothers, 1938.",
+    "Leyburn, James G. The Scotch-Irish: A Social History. Chapel Hill: University of North Carolina Press, 1962.",
+    "Brandes, Joseph. Immigrants to Freedom: Jewish Communities in Rural New Jersey Since 1882. Philadelphia: University of Pennsylvania Press, 1971.",
+    "Eisenberg, Ellen. Jewish Agricultural Colonies in New Jersey, 1882-1920. Syracuse, NY: Syracuse University Press, 1995.",
+    "Wilkerson, Isabel. The Warmth of Other Suns. New York: Random House, 2010.",
+    "Dorwart, Jeffery M. Camden County, New Jersey. New Brunswick: Rutgers University Press, 2001.",
+    "Weslager, C. A. New Sweden on the Delaware, 1638-1655. Wilmington, DE: Middle Atlantic Press, 1988."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["quaker_migration", "scots_irish_frontier", "great_migration", "gi_bill_migration", "italian_immigration", "jewish_immigration"],
+    "route_refs": ["rotterdam_philadelphia_pipeline", "great_wagon_road"],
+    "community_texture_refs": ["quaker_meeting_community", "jewish_agricultural_colony", "italian_south_jersey"]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Road and connectivity network for the SC Piedmont Upcountry regional cluster. Documents how transportation shaped settlement, industrialization, and migration across the Upcountry from the Great Wagon Road through the highway era. The Upcountry was settled by the Great Wagon Road, industrialized by the railroad, and suburbanized by the automobile.",
+  "connectivity_id": "sc_piedmont_upcountry_roads",
+  "display_name": "SC Piedmont Upcountry — Road & Connectivity Network",
+  "cluster_ref": "sc_piedmont_upcountry",
+  "era_range": "1750-1960",
+  "transportation_eras": [
+    {
+      "era_id": "pre_railroad",
+      "era_name": "Great Wagon Road and the Cherokee Frontier",
+      "date_range": "1750-1850",
+      "primary_modes": ["wagon on improved trace", "horseback", "river ferry", "foot"],
+      "description": "The Great Wagon Road — running south from Pennsylvania through the Shenandoah Valley and into the Carolina Piedmont — was the primary artery that populated the SC Upcountry. Scots-Irish, German, and English families traveled this road from Virginia into the Carolina backcountry, establishing every significant settlement in the cluster. The road crossed the Catawba River into York County and continued south through Chester to Camden, or branched west through Spartanburg and Greenville toward the Cherokee frontier. The Upcountry's rivers — the Catawba, Broad, Saluda, and their tributaries — were too rocky and shallow for navigation, making overland routes essential. River ferries at fixed crossing points became the sites of settlements and later towns. Travel was slow but the Piedmont's rolling terrain was easier than the Coastal Plain's swamps.",
+      "road_conditions": "Unimproved red clay traces. Firm in dry weather, dangerously slick in rain. Rolling terrain required grading. Creek crossings were numerous but usually fordable. County corvee labor maintained roads with variable results.",
+      "travel_times": [
+        { "from": "Spartanburg", "to": "Greenville", "mode": "wagon", "time": "1.5-2 days", "conditions_note": "Approximately 30 miles on the improved trace; rolling terrain" },
+        { "from": "Chester", "to": "York", "mode": "wagon", "time": "1-1.5 days", "conditions_note": "Approximately 25 miles. The road between the two county seats was one of the better-traveled Upcountry routes." },
+        { "from": "Typical farm", "to": "Nearest county seat", "mode": "horseback or wagon", "time": "3-6 hours one way", "conditions_note": "Upcountry counties were large; farms at the edges could be a full day's ride from the courthouse." }
+      ],
+      "key_routes": [
+        { "route_name": "Great Wagon Road (SC extension)", "type": "improved trace", "year_established": "circa 1750-1760", "description": "Extended from Charlotte south through York and Chester counties. This was the migration highway that settled the Upcountry. Every town on the route existed because the road passed through it.", "counties_served": ["York", "Chester"] },
+        { "route_name": "Cherokee Path / State Road to Greenville", "type": "improved trace", "year_established": "circa 1770-1790", "description": "The old Cherokee trading path became the road connecting the lower Upcountry to Greenville and the foothills. Ran from Laurens through the Reedy River corridor to Greenville.", "counties_served": ["Laurens", "Greenville"] },
+        { "route_name": "Broad River ferries", "type": "river crossings", "year_established": "1780s", "description": "Multiple ferry crossings on the Broad River connected Union and Chester counties to Spartanburg and York. The ferry crossings were critical nodes in the transportation network.", "counties_served": ["Union", "Chester", "Spartanburg", "York"] }
+      ],
+      "isolation_index": {
+        "description": "Moderate. The Great Wagon Road provided a trunk route, but communities away from it were a full day's ride from any town. The absence of navigable rivers meant all freight moved by wagon at high cost.",
+        "comparative_note": "Better connected than the SC Coastal Plain (no swamps) but more isolated than the Virginia Piedmont. The Cherokee frontier to the northwest limited westward expansion until the 1780s."
+      },
+      "narrative_hook": "The Great Wagon Road brought {ancestor_name}'s people into the Upcountry from Virginia or Pennsylvania — the same rutted trace that carried thousands before them, red clay that turned to grease in the rain and baked hard as brick in the summer.",
+      "source": "Fischer, David Hackett, and James C. Kelly. Bound Away: Virginia and the Westward Movement. University of Virginia Press, 2000. Edgar, South Carolina: A History, 1998."
+    },
+    {
+      "era_id": "railroad_arrival",
+      "era_name": "Railroad Arrival and the Industrial Corridor",
+      "date_range": "1850-1900",
+      "primary_modes": ["railroad", "wagon on unimproved road", "horseback"],
+      "description": "The railroad reached the Upcountry in stages: the Charlotte, Columbia & Augusta Railroad connected Charlotte to the SC Midlands through York and Chester counties by the 1850s. The Spartanburg & Union Railroad (1859) linked Spartanburg to the main line. The Greenville & Columbia Railroad extended service to Greenville. After the Civil War, the Richmond & Danville system (later Southern Railway) consolidated these lines and added new connections. By 1890, every county seat in the cluster had railroad service, and the Greenville-Spartanburg axis was connected to both Charlotte and Atlanta. The railroad did not merely connect the Upcountry — it created the industrial corridor. Textile mills could not operate without railroad sidings to receive raw cotton and ship finished cloth. Towns on the railroad grew; towns bypassed by it stagnated.",
+      "road_conditions": "County roads remained unimproved dirt and clay. Away from the railroad, conditions were unchanged from the pre-railroad era. The contrast between the railroad corridor (connected, growing) and the backcountry (isolated, stagnant) was stark.",
+      "travel_times": [
+        { "from": "Greenville", "to": "Spartanburg", "mode": "railroad", "time": "1-2 hours", "conditions_note": "The two cities were connected by direct rail service. The same journey took 2 days by wagon." },
+        { "from": "Spartanburg", "to": "Charlotte", "mode": "railroad", "time": "3-4 hours", "conditions_note": "Through the Piedmont corridor via Gastonia" },
+        { "from": "Chester", "to": "Columbia", "mode": "railroad", "time": "3-4 hours", "conditions_note": "Charlotte, Columbia & Augusta Railroad" },
+        { "from": "Typical farm (off-railroad)", "to": "Nearest depot", "mode": "wagon", "time": "2-4 hours one way", "conditions_note": "The depot replaced the river landing as the critical freight point" }
+      ],
+      "key_routes": [
+        { "route_name": "Southern Railway main line (Greenville-Spartanburg-Charlotte)", "type": "railroad", "year_established": "1870s-1894 (consolidated)", "description": "The dominant railroad through the Upcountry industrial corridor. Connected Greenville and Spartanburg to Charlotte and thence to the national network.", "counties_served": ["Greenville", "Spartanburg", "Cherokee", "York"] },
+        { "route_name": "Charlotte, Columbia & Augusta Railroad", "type": "railroad", "year_established": "1852-1860s", "description": "Connected Charlotte through York and Chester counties to Columbia. Made Chester and York railroad towns.", "counties_served": ["York", "Chester"] },
+        { "route_name": "Greenville & Columbia Railroad", "type": "railroad", "year_established": "1853", "description": "Connected Greenville to Columbia through Laurens County, providing the Upcountry's connection to the state capital.", "counties_served": ["Greenville", "Laurens"] }
+      ],
+      "isolation_index": {
+        "description": "Sharply reduced along the railroad corridor; unchanged in the backcountry. The Greenville-Spartanburg-Charlotte axis was one of the best-connected in the South. But a farm five miles from the nearest depot remained a day's ride from the railroad.",
+        "comparative_note": "By 1890, the Upcountry's rail density exceeded most of the SC Coastal Plain. The industrial corridor was as well-connected as any region in the South."
+      },
+      "narrative_hook": "The railroad reached {town} and within a decade the place changed from a crossroads with a courthouse to a town with a depot, a cotton buyer, and a mill site — {ancestor_name} heard the whistle before {pronoun_subject} saw the factory.",
+      "source": "Carlton, Mill and Town, ch. 2. Edgar, South Carolina: A History, 1998."
+    },
+    {
+      "era_id": "highway_era",
+      "era_name": "Highway Era and Suburban Expansion",
+      "date_range": "1920-1960",
+      "primary_modes": ["automobile", "bus", "truck", "railroad"],
+      "description": "The automobile and paved highways transformed the Upcountry's geography of daily life. US Route 29 — the Piedmont corridor highway — connected Greenville and Spartanburg to Charlotte. US Route 76 connected Anderson to Greenville and Spartanburg. State highway construction in the 1920s-1930s paved connections between county seats. The most significant effect was on York County: highway improvements and new bridges across the Catawba River enabled commuting between Fort Mill/Rock Hill and Charlotte, beginning York County's transformation from an independent mill county into a Charlotte suburb. For mill workers, the automobile undermined the company's control — a worker with a car could live outside the mill village and escape the company's surveillance of daily life.",
+      "road_conditions": "State highways paved with asphalt by the late 1920s-1930s. County roads improved but many remained unpaved into the 1940s. The transition from dirt to pavement was the most significant change in rural daily life since the railroad.",
+      "travel_times": [
+        { "from": "Greenville", "to": "Spartanburg", "mode": "automobile via US 29", "time": "45 minutes to 1 hour", "conditions_note": "Two-lane highway; the cities were close enough to function as a single economic unit" },
+        { "from": "Fort Mill (York Co.)", "to": "Charlotte", "mode": "automobile", "time": "20-30 minutes", "conditions_note": "After bridge improvements in the 1940s-1950s, the commute was feasible. This distance shaped York County's future." },
+        { "from": "Anderson", "to": "Greenville", "mode": "automobile via US 76", "time": "1 hour", "conditions_note": "Connected Anderson to the Greenville industrial corridor" },
+        { "from": "Chester", "to": "Rock Hill", "mode": "automobile", "time": "30-45 minutes", "conditions_note": "Chester families increasingly looked to Rock Hill and Charlotte for employment as local agriculture declined." }
+      ],
+      "key_routes": [
+        { "route_name": "US Route 29 (Piedmont corridor)", "type": "US highway", "year_established": 1926, "description": "The automobile equivalent of the old Great Wagon Road corridor. Connected Greenville, Spartanburg, and Charlotte. The most important highway in the Upcountry.", "counties_served": ["Greenville", "Spartanburg", "Cherokee", "York"] },
+        { "route_name": "US Route 76 (Anderson-Greenville-Spartanburg)", "type": "US highway", "year_established": 1926, "description": "Connected Anderson across the Upcountry to Greenville and Spartanburg. Enabled Anderson County workers to access the larger mill corridor.", "counties_served": ["Anderson", "Greenville", "Spartanburg"] },
+        { "route_name": "Catawba River bridges (York County)", "type": "highway bridges", "year_established": "1920s-1950s", "description": "New and improved bridges across the Catawba connected Fort Mill and Rock Hill to Charlotte, enabling the commuter pattern that transformed York County.", "counties_served": ["York"] }
+      ],
+      "isolation_index": {
+        "description": "Low across most of the cluster by 1950. The automobile and paved roads ended the isolation that had defined the Upcountry's rural communities for 150 years. York County became functionally part of the Charlotte metropolitan area.",
+        "comparative_note": "By 1950, the Upcountry was one of the best-connected areas in the South. The Greenville-Spartanburg-Charlotte highway corridor was a major economic axis."
+      },
+      "narrative_hook": "The highway across the Catawba bridge turned York County from a mill town into a Charlotte suburb — {ancestor_name} could work in North Carolina and sleep in South Carolina, straddling two states and two economies with a twenty-minute drive.",
+      "source": "Hanchett, Thomas W. Sorting Out the New South City. UNC Press, 1998. Edgar, South Carolina: A History, 1998."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1852, "event": "Charlotte, Columbia & Augusta Railroad reaches York and Chester counties", "impact": "Connects the eastern Upcountry to Charlotte and Columbia" },
+    { "year": 1853, "event": "Greenville & Columbia Railroad completed", "impact": "Connects Greenville to the state capital through Laurens" },
+    { "year": 1859, "event": "Spartanburg & Union Railroad opens", "impact": "Links Spartanburg to the main line system" },
+    { "year": 1873, "event": "Atlanta & Charlotte Air Line Railway reaches Spartanburg", "impact": "Connects the Upcountry to Atlanta, opening the Georgia market" },
+    { "year": 1894, "event": "Southern Railway consolidation", "impact": "Most Upcountry lines consolidated under Southern Railway, creating efficient through-routes from Washington to Atlanta via Greenville-Spartanburg" },
+    { "year": 1904, "event": "Duke Power begins Catawba River dam construction", "impact": "Hydroelectric power from the Catawba freed mills from waterpower sites, enabling expansion across the corridor" }
+  ],
+  "narrative_hooks": [
+    "The Great Wagon Road brought {ancestor_name}'s people into the Upcountry, and 150 years later the highway that followed the same route carried their grandchildren to Charlotte for work.",
+    "The railroad made the Greenville-Spartanburg textile corridor possible — without rail sidings to receive cotton and ship cloth, no mill could operate at scale, and {ancestor_name}'s livelihood depended on that connection.",
+    "When the Catawba bridge improvements connected Fort Mill to Charlotte in the {decade}s, York County stopped being a South Carolina mill town and started being a North Carolina suburb — {ancestor_name}'s family was part of that transformation."
+  ],
+  "source_references": [
+    "Carlton, David L. Mill and Town in South Carolina, 1880-1920. Louisiana State University Press, 1982.",
+    "Edgar, Walter. South Carolina: A History. University of South Carolina Press, 1998.",
+    "Hanchett, Thomas W. Sorting Out the New South City. University of North Carolina Press, 1998.",
+    "Fischer, David Hackett, and James C. Kelly. Bound Away: Virginia and the Westward Movement. University of Virginia Press, 2000."
+  ],
+  "nel_cross_references": {
+    "route_refs": [
+      "great_wagon_road",
+      "southern_railway_piedmont"
+    ],
+    "trigger_refs": [
+      "scots_irish_frontier",
+      "appalachian_out_migration",
+      "textile_mill_recruitment"
+    ]
+  }
+}

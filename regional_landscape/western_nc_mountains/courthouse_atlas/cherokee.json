@@ -1,0 +1,131 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Cherokee County, NC. Record survival, courthouse history, and known losses for the westernmost NC county — formed from Cherokee land after the 1838 removal, with records beginning only at that point. The courthouse fire of 1865 destroyed early records.",
+  "courthouse_atlas_id": "nc_cherokee_courthouse",
+  "display_name": "Cherokee County, North Carolina — Courthouse Atlas",
+  "county": "Cherokee",
+  "state": "NC",
+  "fips_code": "37039",
+  "cluster_ref": "western_nc_mountains",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1927,
+      "location": "Murphy, NC — Peachtree Street",
+      "records_housed": ["deeds post-1865", "plats", "court minutes post-1865", "estate files", "marriage licenses"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1839–1865",
+        "location": "Murphy, NC (original courthouse)",
+        "fate": "Destroyed during the Civil War in 1865. Federal and Confederate forces both operated in the area, and the courthouse was burned during the final months of the war. Early records from county formation through 1865 were largely destroyed."
+      },
+      {
+        "era": "1865–1927",
+        "location": "Murphy, NC (rebuilt structures)",
+        "fate": "Replacement structures served until the 1927 building was erected."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "cherokee_1865_fire",
+      "date": "1865",
+      "cause": "Civil War — courthouse burned",
+      "records_destroyed": ["deed books 1839-1865 (most)", "will books 1839-1865", "court minutes 1839-1865", "estate files 1839-1865", "marriage bonds 1839-1865"],
+      "records_survived": ["some deeds re-recorded after the war from private copies", "scattered records removed from courthouse before the fire"],
+      "scope": "catastrophic",
+      "description": "The Cherokee County courthouse at Murphy was burned during the Civil War, destroying virtually all records from the county's formation in 1839 through 1865. Cherokee County was one of the last areas of North Carolina to be settled by white families — the Cherokee removal of 1838 opened the land, and the county was formed the following year. The courthouse fire erased the first twenty-six years of white settlement records. The irony is painful: the Cherokee presence of centuries left no courthouse records, and the white settlement that replaced it lost its first generation of records to fire.",
+      "narrative_impact": "The courthouse fire at Murphy destroyed {ancestor_name}'s earliest Cherokee County records — and since the county did not exist before 1839, there are no pre-formation records to fall back on. The first generation of settlement is a near-total blank.",
+      "source": "Inscoe, John C., and Gordon B. McKinney. The Heart of Confederate Appalachia: Western North Carolina in the Civil War. Chapel Hill: University of North Carolina Press, 2004."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1865,
+      "completeness": "Post-1865 records are continuous. Pre-1865 deeds exist only where re-recorded from private copies.",
+      "gaps": "Catastrophic loss of 1839-1865 records. Some land grants from the initial white settlement survive at the NC State Archives in Raleigh, separate from the county records.",
+      "repository": "Cherokee County Register of Deeds, Murphy; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; limited Ancestry.com coverage"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1865,
+      "completeness": "Post-1865 only. Pre-1865 wills and estate files destroyed.",
+      "gaps": "Complete loss before 1865. The first generation of settlers — those who took up Cherokee land in the 1840s-1850s — left no surviving probate trail in the county.",
+      "repository": "Cherokee County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm; limited digitization"
+    },
+    "marriages": {
+      "earliest_surviving": 1865,
+      "completeness": "Post-1865 reasonably complete.",
+      "gaps": "Total loss before 1865. First-generation marriages (1839-1865) exist only in church records, census household analysis, or neighboring county records if the marriage was performed elsewhere.",
+      "repository": "Cherokee County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; limited coverage"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1865,
+      "completeness": "Post-1865 reasonably complete",
+      "gaps": "Total loss before 1865.",
+      "repository": "NC State Archives; Cherokee County Clerk of Court",
+      "online_access": "NC State Archives microfilm; very limited digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Poor until the 1920s. Cherokee County was the most remote county in western NC — Murphy was farther from Raleigh than any other county seat in the state.",
+      "repository": "NC Office of Vital Records; NC State Archives for delayed birth certificates"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1840–1940 (Cherokee formed 1839; first enumerated 1840). The 1840, 1850, and 1860 censuses are the only surviving government records for Cherokee County families before the courthouse fire.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1840–1940",
+      "genealogical_value": "The pre-1865 censuses are irreplaceable — the 1850 and 1860 censuses are the only records naming all household members in Cherokee County before the fire. The 1840 census names only heads of household but is the first enumeration of the county.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Cherokee County, NC."
+    },
+    {
+      "source_type": "NC land grant records",
+      "description": "Original land grants from North Carolina to initial settlers after the Cherokee removal. These grants document the first white land claims in the county and are held in Raleigh.",
+      "repository": "NC State Archives — Secretary of State land grant files",
+      "era_coverage": "1839–1860s",
+      "genealogical_value": "The land grants may be the only surviving official record of the first generation of white settlement. They name the grantee, acreage, watercourse, and date — basic information that replaces the burned county deeds.",
+      "source": "NC State Archives. Land Grant Files, Secretary of State Records."
+    },
+    {
+      "source_type": "Cherokee removal records",
+      "description": "Federal records of the Cherokee removal (1838) document the Cherokee families displaced from the area that became Cherokee County. These records are at the National Archives and have been partially digitized.",
+      "repository": "National Archives — Bureau of Indian Affairs records; FamilySearch; Fold3.com",
+      "era_coverage": "1835–1842",
+      "genealogical_value": "For Cherokee descendants researching ancestry in this area, the removal records — census rolls, property valuations, emigration rolls — are the primary source. For white settlers who arrived immediately after removal, these records document the landscape they entered.",
+      "source": "Finger, John R. The Eastern Band of Cherokees, 1819-1900. Knoxville: University of Tennessee Press, 1984."
+    },
+    {
+      "source_type": "Church records — Baptist and Methodist",
+      "description": "Baptist and Methodist churches established in Cherokee County after white settlement kept membership rolls and minutes.",
+      "repository": "Individual churches; NC Baptist Historical Collection, Wake Forest University; NC State Archives",
+      "era_coverage": "1840s–present",
+      "genealogical_value": "Church records are among the few sources documenting Cherokee County families before 1865. Membership and burial records provide dates and family connections not available anywhere else.",
+      "source": "Inscoe, John C. Mountain Masters, Slavery, and the Sectional Crisis in Western North Carolina. Knoxville: University of Tennessee Press, 1989."
+    }
+  ],
+  "narrative_hooks": [
+    "Cherokee County's courthouse burned during the Civil War, and since the county did not exist before 1839, there are no earlier records to fall back on — {ancestor_name}'s first generation on this land left almost no paper trail.",
+    "The land {ancestor_name} settled in Cherokee County had been Cherokee homeland until 1838. The removal records in Washington may document the families who were forced to leave; the NC land grants in Raleigh document the families who moved in to replace them.",
+    "For {ancestor_name}'s family in Cherokee County before 1865, the federal census is likely the only surviving government record — the courthouse fire took everything else, and the county was too new to have accumulated records anywhere else.",
+    "Murphy was farther from Raleigh than any other county seat in North Carolina, and that distance meant that {ancestor_name}'s family lived at the very edge of the state's administrative reach — records were sparse even before the fire destroyed them.",
+    "The absence of pre-1865 records in Cherokee County means that {ancestor_name}'s connection to this land must be traced through federal censuses, state land grants, church records, and the family memory that no fire could burn."
+  ],
+  "source_references": [
+    "Inscoe, John C., and Gordon B. McKinney. The Heart of Confederate Appalachia: Western North Carolina in the Civil War. Chapel Hill: University of North Carolina Press, 2004.",
+    "Finger, John R. The Eastern Band of Cherokees, 1819-1900. Knoxville: University of Tennessee Press, 1984.",
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Inscoe, John C. Mountain Masters, Slavery, and the Sectional Crisis in Western North Carolina. Knoxville: University of Tennessee Press, 1989."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_cherokee",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records", "burned_county_strategies"],
+    "template_refs": ["record_silences"]
+  }
+}

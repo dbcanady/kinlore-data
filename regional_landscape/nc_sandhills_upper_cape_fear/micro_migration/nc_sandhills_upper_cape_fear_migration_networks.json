@@ -1,0 +1,304 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Micro-Migration Network Map for the NC Sandhills / Upper Cape Fear regional cluster (Moore, Harnett, Hoke, Scotland, Richmond, Anson, Montgomery counties). Documents the specific migration corridors, chain-migration mechanics, internal movement patterns, and settlement clusters that moved people into, out of, and within this seven-county region from 1740 to 1960. The Sandhills cluster had two dominant migration stories: the Scottish Highland settlement of the 1730s-1780s, and the farm-to-mill pipeline that fed textile mills in Harnett County and beyond. Turpentine labor migration, Great Migration corridors, and Fort Bragg displacement add additional layers.",
+  "migration_network_id": "nc_sandhills_upper_cape_fear_migration_networks",
+  "display_name": "NC Sandhills / Upper Cape Fear — Micro-Migration Network Map",
+  "cluster_ref": "nc_sandhills_upper_cape_fear",
+  "era_range": "1740-1960",
+
+  "migration_corridors": [
+    {
+      "corridor_id": "scottish_highland_chain",
+      "corridor_name": "Scottish Highland Chain Migration: Argyll to the Upper Cape Fear",
+      "origin_counties": ["Scotland", "Hoke", "Moore", "Richmond"],
+      "destination_area": "Upper Cape Fear Valley — centered on Cross Creek (later Fayetteville) and extending into the Sandhills from the Raft Swamp to the Little River",
+      "era": "1732-1783",
+      "migration_type": "chain_migration",
+      "scale": "Several thousand Highlanders over five decades. The Upper Cape Fear Highland settlement was the largest concentration of Scottish Gaelic speakers in colonial America. Estimates range from 5,000 to 12,000 Scots settling in the region by 1776, with the heaviest influx in the 1760s-1775 period after the failed Highland Clearances accelerated.",
+      "evidence": {
+        "census_evidence": "No colonial census exists, but post-Revolutionary tax lists and the 1790 federal census show dense clustering of Scottish surnames (MacDonald, McNeill, McLaurin, McInnis, McRae, Campbell, Stewart, Cameron, McKay, Gilchrist) across Cumberland, Moore, Richmond, and the territory that became Scotland and Hoke counties. The 1790 census for the region shows a higher proportion of Scottish-origin surnames than any comparable area in the Southern colonies.",
+        "church_evidence": "Presbyterian session records from Longstreet, Bethesda, Barbecue, and other congregations in the upper Cape Fear document Gaelic-speaking members and Gaelic-language services through the 1820s. The Argyll Colony's churches maintained rolls that effectively function as immigration registers for Highland families.",
+        "surname_clustering": "The surnames MacDonald, McNeill, McLaurin, McInnis, McRae, and Campbell cluster so densely in the upper Cape Fear that their presence in any record from this region is almost diagnostic of the Scottish Highland settlement. The prefix 'Mc' or 'Mac' in the Sandhills counties is the single strongest cultural marker for this migration stream.",
+        "newspaper_evidence": "Colonial recruitment notices in Scottish newspapers (Scots Magazine, Edinburgh Advertiser) promoted the Cape Fear settlement. Governor Gabriel Johnston's recruitment efforts in the 1730s-1740s are documented in the Colonial Records of North Carolina."
+      },
+      "chain_mechanics": {
+        "description": "The Highland migration operated through clan and kinship networks with remarkable precision. A tacksman (lease-holding farmer) or minor laird in Argyll, Inverness-shire, or the Western Isles would arrange passage for his extended family and tenants, corresponding with kinsmen already established on the Cape Fear. The pioneer families — the McNeills and MacDougalds who arrived in the 1730s-1740s — sent letters back to Scotland describing available land, and entire townships in Argyll emptied over a decade as families followed their kin. The migration was organized at the community level: families from the same glen, the same parish, the same island settled together on the Cape Fear, reconstituting their Highland social structure in the Carolina Sandhills.",
+        "kinship_role": "Clan affiliation and township of origin in Scotland determined settlement location on the Cape Fear. Families from Kintyre settled near families from Kintyre; families from Jura near Jura families. The tacksman-tenant relationship sometimes survived the crossing — a Highland leader brought his dependents and settled them on adjacent grants. Marriage within the Highland community was the norm for at least two generations, creating endogamous enclaves where Gaelic was spoken and Presbyterian worship was conducted in the old tongue.",
+        "timeline": "Pioneer families 1732-1740; steady growth 1740-1760; peak migration 1760-1775 (post-Culloden economic collapse and Clearances); abrupt halt at the Revolution (1776); Loyalist exodus 1781-1783; post-war re-establishment by families who remained."
+      },
+      "narrative_hook": "When {ancestor_name}'s people left Argyll for the Cape Fear, they followed a chain of kin that stretched across the Atlantic — letters from a brother already in Carolina, a tacksman organizing the passage, and the promise that on the upper Cape Fear they could hear Gaelic preached on Sunday and live among their own people as they had in Scotland.",
+      "source": "Meyer, Duane. The Highland Scots of North Carolina, 1732-1776. Chapel Hill: University of North Carolina Press, 1961. Parker, Anthony J. Scottish Highlanders in Colonial America. Norcross, GA: Windsor Publications, 1997. McLean, J. P. An Historical Account of the Settlements of Scotch Highlanders in America Prior to the Peace of 1783. Cleveland: Helman-Taylor, 1900."
+    },
+    {
+      "corridor_id": "loyalist_exodus_1781",
+      "corridor_name": "Loyalist Exodus After the Revolution",
+      "origin_counties": ["Moore", "Hoke", "Scotland", "Richmond", "Anson"],
+      "destination_area": "Nova Scotia, New Brunswick, Upper Canada (Ontario), Bahamas, and back to Scotland",
+      "era": "1781-1790",
+      "migration_type": "forced_displacement",
+      "scale": "Hundreds to low thousands of Scottish Highland families left the upper Cape Fear after the British defeat. The Battle of Moores Creek Bridge (February 1776) was the turning point — Highland Loyalists who had mustered for the Crown were decisively defeated, and the victorious Whig government confiscated Loyalist property throughout the war. Not all Scots were Loyalists, but the Highland community was disproportionately Loyalist, and the exodus was significant enough to reshape the demographic balance of the region.",
+      "evidence": {
+        "census_evidence": "Comparison of pre-war tax lists with the 1790 census shows the disappearance of numerous Scottish surnames from the upper Cape Fear. Some appear in Nova Scotia and New Brunswick land grant records. The Loyalist Claims Commission records at the National Archives (UK) document Cape Fear Highlanders filing claims for confiscated property.",
+        "church_evidence": "Presbyterian session records show membership losses in the 1780s, and some congregations struggled for years to reconstitute after the war. Ministers who had been Loyalist sympathizers fled, leaving congregations without Gaelic-speaking clergy.",
+        "surname_clustering": "Surnames that disappear from the upper Cape Fear after 1783 — certain branches of MacDonald, McLeod, and Campbell — appear in Nova Scotia land grant records and Loyalist refugee lists.",
+        "newspaper_evidence": "Fayetteville Gazette and other post-war publications carried notices of confiscated Loyalist properties and confiscation act enforcement."
+      },
+      "chain_mechanics": {
+        "description": "The Loyalist exodus was not chain migration but forced departure. Families whose property had been confiscated under NC's confiscation acts had no legal basis to remain. The British government offered land grants in Nova Scotia and New Brunswick to displaced Loyalists, and some Highland families took these offers, reconstituting Cape Fear communities in Maritime Canada. Others returned to Scotland, though many found that the Highland society they had left no longer existed. A significant number of Highland families stayed on the Cape Fear by switching allegiance or marrying into Whig families — these are the families that appear in post-war records with the same surnames but different political affiliations.",
+        "kinship_role": "The same clan networks that had organized the original migration organized the departure. Loyalist families from the same Cape Fear settlements often relocated together to the same Nova Scotia township. The kinship chain worked in both directions — into the Cape Fear and out of it.",
+        "timeline": "Initial departures 1776-1781 (families of men imprisoned or killed after Moores Creek Bridge); peak exodus 1781-1784 (British evacuation and confiscation enforcement); final departures by 1790."
+      },
+      "narrative_hook": "After Moores Creek Bridge, the world turned upside down for the Highland families on the upper Cape Fear — {ancestor_name}'s kin who had come to Carolina to rebuild what Scotland had taken from them found that the new country was taking it all over again, this time for choosing the wrong side.",
+      "source": "McEachern, Leora H., and Isabel M. Williams. Wilmington-New Hanover Safety Committee Minutes, 1774-1776. Wilmington, NC: Wilmington-New Hanover County American Revolution Bicentennial Association, 1974. Walker, James W. St. G. The Black Loyalists: The Search for a Promised Land in Nova Scotia and Sierra Leone, 1783-1870. New York: Africana Publishing, 1976. Meyer, Highland Scots of North Carolina, chs. 8-10."
+    },
+    {
+      "corridor_id": "farm_to_mill_harnett",
+      "corridor_name": "Farm-to-Mill Pipeline: Sandhills and Pee Dee Farms to Harnett County Textile Mills",
+      "origin_counties": ["Moore", "Hoke", "Scotland", "Richmond", "Anson", "Montgomery"],
+      "destination_area": "Harnett County mill villages — Erwin (Duke Manufacturing / Erwin Cotton Mills), Dunn, Lillington, and adjacent Cumberland County mills",
+      "era": "1893-1940",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of families over two generations. The Erwin Cotton Mills Company alone employed over 1,500 workers by 1920, drawn primarily from surrounding Sandhills and Piedmont farm communities. Dunn and Lillington mills added additional hundreds. The population of Erwin grew from nothing (the town was created by the mill) to over 3,000 by 1920.",
+      "evidence": {
+        "census_evidence": "1900 and 1910 US Census enumeration of Erwin, Dunn, and Lillington shows dense clustering of households listing birthplaces in Moore, Richmond, Anson, and Montgomery counties. Parents born in Sandhills farm counties, children born in Harnett County — indicating family-unit migration within a single generation.",
+        "church_evidence": "Baptist and Methodist church records in Erwin and Dunn show transfers from congregations in Moore, Richmond, and Anson counties. The Erwin mill village churches were effectively transplanted rural congregations with new buildings.",
+        "surname_clustering": "Surnames common in the Sandhills farm counties — Thomas, McNeill, Monroe, McLeod, McInnis (Scottish origin names from the Highland settlement) — appear in Erwin and Dunn mill village census records at rates indicating organized chain migration.",
+        "newspaper_evidence": "Dunn Daily Record and Harnett County News carried mill employment notices and reported on population growth in mill villages. Erwin Cotton Mills Company recruitment records (where they survive) document active recruitment in surrounding counties."
+      },
+      "chain_mechanics": {
+        "description": "The Erwin Cotton Mills Company (founded 1893 by the Duke family interests) created the town of Erwin from whole cloth — building houses, a company store, churches, and schools to attract labor. The first wave of workers came from failing Sandhills farms where the turpentine industry had collapsed and sandy soil could not sustain intensive cotton or tobacco farming. These pioneer families wrote home describing cash wages, company housing, and a school for the children. Within five years, siblings, cousins, and church neighbors followed. The mill village was designed as a self-contained community, and the families who filled it recreated their rural social networks within the village framework — neighbors from the same Moore County township lived on the same Erwin street.",
+        "kinship_role": "Sibling chains were primary. An older brother or married sister established in the mill village provided initial housing and a reference to the mill superintendent. The pattern was identical to the coastal plain farm-to-mill pipeline but fed from the Sandhills rather than from the eastern tobacco counties. Scottish-descended families from Moore and Richmond counties brought their Presbyterian and Baptist affiliations with them.",
+        "timeline": "Pioneer families 1893-1900; peak chain migration 1900-1920; self-sustaining community by 1920; continued growth through 1940 as agricultural depression pushed more families off the land."
+      },
+      "narrative_hook": "When {ancestor_name} left the sandy farm in {county} County for the mill at Erwin, the decision was simple arithmetic — the turpentine was gone, the soil was played out, and at the mill there was cash money every Friday and a house with a floor that wasn't dirt.",
+      "source": "Hall, Jacquelyn Dowd, et al. Like a Family: The Making of a Southern Cotton Mill World. Chapel Hill: University of North Carolina Press, 1987, chs. 1-3. Tullos, Allen. Habits of Industry: White Culture and the Transformation of the Carolina Piedmont. Chapel Hill: University of North Carolina Press, 1989. Glass, Brent D. The Textile Industry in North Carolina: A History. Raleigh: NC Division of Archives and History, 1992."
+    },
+    {
+      "corridor_id": "great_migration_pee_dee",
+      "corridor_name": "Great Migration: Pee Dee Corridor to Philadelphia, New York, and Washington DC",
+      "origin_counties": ["Anson", "Richmond", "Scotland", "Montgomery"],
+      "destination_area": "Philadelphia (North Philadelphia), New York City (Harlem, Brooklyn), Washington DC (Shaw/U Street corridor), and Baltimore",
+      "era": "1910-1960",
+      "migration_type": "chain_migration",
+      "scale": "Tens of thousands of Black families from the Pee Dee counties over five decades. The Black population of Anson County dropped from approximately 10,000 in 1910 to under 7,000 by 1960 despite natural increase. Richmond and Scotland counties showed similar declines. The Seaboard Air Line Railroad through Hamlet was the physical corridor northward.",
+      "evidence": {
+        "census_evidence": "1920-1960 US Census records show concentrations of NC-born Black residents in Philadelphia, New York, and Washington DC listing birthplaces in Anson, Richmond, and Scotland counties. Place-of-birth tabulations for these cities confirm the Pee Dee corridor as a significant feeder region.",
+        "church_evidence": "Black Baptist and AME Zion churches in Wadesboro, Rockingham, and Laurinburg record membership losses 1916-1945. Destination churches in Philadelphia and New York show transfers from Pee Dee corridor congregations. The Laurinburg Institute, a Black preparatory school in Scotland County, maintained alumni networks that connected Sandhills families to northern opportunities.",
+        "surname_clustering": "Surnames concentrated in the Pee Dee counties — Leak, Liles, Covington, Sturdivant, Little — appear in Philadelphia and New York census records in clusters indicating chain migration from specific Anson and Richmond County communities.",
+        "newspaper_evidence": "The Pittsburgh Courier and Baltimore Afro-American circulated in the Pee Dee corridor through Pullman porters on the Seaboard Air Line. Local newspapers in Wadesboro and Rockingham noted population changes and departure patterns."
+      },
+      "chain_mechanics": {
+        "description": "The Seaboard Air Line Railroad through Hamlet was the physical corridor. A northbound SAL ticket from Hamlet to Richmond cost approximately $3-5 in the 1920s; from Richmond, the Pennsylvania Railroad carried migrants to Philadelphia, New York, and intermediate cities. The chain worked through kin: a young man went north, found work in a factory or on the docks, secured lodging, and sent word — and sometimes a ticket — back to siblings and cousins in Anson or Richmond County. The Laurinburg Institute also functioned as a migration facilitation point — educated young people who left Scotland County for northern colleges often became the anchors for family chains.",
+        "kinship_role": "The pioneer migrant was typically a young man aged 18-25. Wives, siblings, parents, and cousins followed in stages. Church deacons and Laurinburg Institute connections supplemented family kinship as migration facilitators. Within five years, extended families had reassembled in northern cities, often in the same neighborhood.",
+        "timeline": "Trickle 1910-1916; first surge 1917-1920 (WWI labor demand); sustained flow 1920-1940; second surge 1942-1955 (WWII defense industry); tapering 1955-1960."
+      },
+      "narrative_hook": "When {ancestor_name} bought a northbound ticket at the Hamlet depot around {year}, {pronoun_subject} was following the Seaboard Air Line out of the Pee Dee and toward a city where a cousin had written to say the work was there — the same rail line that had brought cotton south now carried Black families north.",
+      "source": "Wilkerson, Isabel. The Warmth of Other Suns: The Epic Story of America's Great Migration. New York: Random House, 2010. Gregory, James N. The Southern Diaspora: How the Great Migrations of Black and White Southerners Transformed America. Chapel Hill: University of North Carolina Press, 2005, ch. 2. Hahn, Steven. A Nation Under Our Feet: Black Political Struggles in the Rural South from Slavery to the Great Migration. Cambridge: Harvard University Press, 2003."
+    },
+    {
+      "corridor_id": "turpentine_labor_southward",
+      "corridor_name": "Turpentine Belt Labor Migration Southward",
+      "origin_counties": ["Moore", "Hoke", "Scotland", "Richmond"],
+      "destination_area": "South Carolina lowcountry, Georgia coastal plain, and northern Florida — following the retreating longleaf pine frontier",
+      "era": "1830-1900",
+      "migration_type": "labor_recruitment",
+      "scale": "Hundreds to low thousands of workers over seven decades. Primarily enslaved laborers moved by their enslavers before 1865; free Black and poor white laborers followed the industry southward after emancipation. The Sandhills turpentine belt was exhausted earlier than the SE Coastal Plain belt because the pine stands were thinner on the deep sand soils.",
+      "evidence": {
+        "census_evidence": "1850 and 1860 census slave schedules for Moore and Richmond counties show turpentine operators with enslaved workforces. Post-war census records (1870, 1880) show NC-born turpentine workers enumerated in SC and GA counties, with Sandhills-area birthplaces.",
+        "church_evidence": "Limited direct evidence. Church membership records show departures but rarely specify that turpentine work was the reason.",
+        "surname_clustering": "Surnames associated with Sandhills turpentine operations appear in SC and GA turpentine district census records at rates suggesting organized labor movement.",
+        "newspaper_evidence": "Fayetteville Observer and Carthage Blade carried notices of turpentine operations and labor movements."
+      },
+      "chain_mechanics": {
+        "description": "Before 1865, this was forced labor movement — enslavers relocated their enslaved turpentine crews to new pine forests as Sandhills stands were exhausted. The deep Candor sand of Moore and Hoke counties supported thinner longleaf stands than the coastal plain, and the turpentine economy peaked earlier and crashed harder in the Sandhills. After emancipation, experienced turpentine hands followed the work southward through labor recruitment networks. By 1890, the Sandhills turpentine industry was effectively dead, and the workers had either moved south, moved to the mills, or stayed to farm the exhausted sandy soil.",
+        "kinship_role": "Before emancipation, kinship was severed by enslaver decisions. After 1865, family units moved together when possible, and experienced workers recruited kin.",
+        "timeline": "Enslaved labor relocation 1830-1865; free labor recruitment 1865-1890; Sandhills turpentine industry effectively ended by 1900."
+      },
+      "narrative_hook": "When the last longleaf pines in {county} County were bled dry of resin, the turpentine workers — including {ancestor_name} or {pronoun_possessive} people — had to follow the trees south or find something else entirely. The sand remained, but the work was gone.",
+      "source": "Outland, Robert B., III. Tapping the Pines: The Naval Stores Industry in the American South. Baton Rouge: Louisiana State University Press, 2004, chs. 3-5. Cecelski, David S. The Waterman's Song: Slavery and Freedom in Maritime North Carolina. Chapel Hill: University of North Carolina Press, 2001."
+    },
+    {
+      "corridor_id": "fort_bragg_displacement",
+      "corridor_name": "Fort Bragg Land Acquisition Displacement",
+      "origin_counties": ["Hoke", "Moore"],
+      "destination_area": "Adjacent areas of Hoke and Cumberland counties — displaced families relocated within a 20-mile radius; some moved to Fayetteville or to mill villages in Harnett County",
+      "era": "1918-1942",
+      "migration_type": "forced_displacement",
+      "scale": "Hundreds of families displaced during the original 1918 Fort Bragg land acquisition and the massive 1940-1942 expansion for WWII. The reservation ultimately covered over 160,000 acres, consuming farmland and crossroads communities in southern Hoke and western Cumberland counties. Camp Mackall (1942) displaced additional families in Richmond and Scotland counties.",
+      "evidence": {
+        "census_evidence": "Comparison of 1910/1920 and 1930/1940 census records for the Fort Bragg reservation area shows the disappearance of farming households. Some reappear in adjacent townships or in Fayetteville.",
+        "church_evidence": "Several rural churches were abandoned when their congregations were displaced. Some congregations reconstituted outside the reservation boundaries. Church histories document the disruption.",
+        "surname_clustering": "Families that appear on the 1910 or 1920 census within the reservation boundary — farming families with Scottish and English surnames common to Hoke County — reappear in Fayetteville city directories, Harnett County mill villages, or adjacent Hoke County townships by 1930 or 1940.",
+        "newspaper_evidence": "Fayetteville Observer and Raeford News covered the land acquisitions and the impact on displaced families. Government acquisition records document individual transactions."
+      },
+      "chain_mechanics": {
+        "description": "This was government-forced displacement, not chain migration. The War Department acquired land by purchase or condemnation, and families had to leave regardless of their wishes. The original 1918 acquisition was relatively small, but the 1940-1942 expansion for WWII was massive and rapid. Families received compensation (often below market value for their land) and had to find new homes. Many had farmed the same sandy Hoke County soil for generations and had no experience with town life. The displacement disproportionately affected poor white and Black farming families whose land was on the deep sand — precisely the terrain the Army wanted for training.",
+        "kinship_role": "Displaced families relied on kin outside the reservation boundary for temporary housing. Some families split — younger members took jobs at the expanding base while older members attempted to reestablish farms elsewhere. The displacement accelerated the farm-to-wage transition that the textile mills had begun.",
+        "timeline": "Original acquisition 1918; slow expansion through the 1920s-1930s; massive WWII expansion 1940-1942; Camp Mackall acquisition 1942."
+      },
+      "narrative_hook": "The letter from the War Department told {ancestor_name} what the family had feared — the farm in {county} County was inside the new reservation boundary, and no amount of Sandhills sand was going to stop the United States Army. They had ninety days to leave land their people had worked since the turpentine days.",
+      "source": "Lemmon, Sarah McCulloh. North Carolina's Role in World War II. Raleigh: NC Division of Archives and History, 1964. Fayetteville Observer coverage, 1918-1942. Fort Bragg historical files, US Army Center of Military History."
+    },
+    {
+      "corridor_id": "uwharrie_gold_rush",
+      "corridor_name": "Uwharrie Gold Rush Migration",
+      "origin_counties": ["Montgomery"],
+      "destination_area": "Montgomery County's Uwharrie Mountain gold belt — drawing prospectors and miners from adjacent counties and from as far as Pennsylvania and Germany; later outmigration to the California and Georgia gold fields",
+      "era": "1799-1849",
+      "migration_type": "labor_recruitment",
+      "scale": "Hundreds of individuals over five decades. The Reed Gold Mine (1799, Cabarrus County) triggered the broader NC gold rush, and Montgomery County's Uwharrie Mountains contained significant deposits. The scale was modest compared to California but significant for the region. By the 1830s, several hundred miners worked Montgomery County claims. After California gold was discovered in 1848, many experienced NC miners left for the West.",
+      "evidence": {
+        "census_evidence": "1830 and 1840 census records for Montgomery County show clusters of non-local-born households in mining districts — men from Pennsylvania, Virginia, and Germany appearing in a county that was otherwise entirely local-born.",
+        "church_evidence": "Limited. Mining communities were transient and generated few church records. Some miners appear in Methodist circuit rider records.",
+        "surname_clustering": "German mining surnames (Barringer, Troutman, Pfeiffer) appear in Montgomery County records alongside the Scots-Irish and English farm surnames, signaling in-migration from the German settlements of Rowan and Cabarrus counties.",
+        "newspaper_evidence": "Raleigh newspapers and the Carolina Watchman carried reports of Montgomery County gold strikes and mining operations."
+      },
+      "chain_mechanics": {
+        "description": "Gold rush migration was opportunity-driven, not kinship-driven in its initial phase. Word of gold discoveries spread through newspapers and word of mouth, and experienced miners from the Pennsylvania and Virginia gold fields came to the Uwharries. But after the initial rush, mining partnerships formed along kinship lines — brothers, cousins, and in-laws staked adjacent claims and shared equipment. When California gold beckoned after 1848, these same kinship groups departed together. The Uwharrie gold rush was brief but left its mark in Montgomery County court records (mining claims, partnerships, disputes) and in the German surnames that became permanent fixtures of the county's population.",
+        "kinship_role": "Initial migration was individual or small-group. Once mining communities formed, kinship organized partnerships and claims. Departure for California after 1848 followed the same kinship chains.",
+        "timeline": "Initial discoveries 1799-1810; growth 1810-1830; peak mining activity 1830-1848; California exodus 1849-1852; residual mining through 1860s."
+      },
+      "narrative_hook": "If {ancestor_name} appeared in Montgomery County in the 1830s with no apparent connection to the farming families around {pronoun_object}, check the gold fields — the Uwharrie Mountains drew miners from Pennsylvania and Germany who came for the gold and sometimes stayed for the land.",
+      "source": "Knapp, Richard F. Golden Promise in the Piedmont: The Story of John Reed's Mine. Raleigh: NC Division of Archives and History, 1975. Green, Fletcher M. 'Gold Mining: A Forgotten Industry of Ante-Bellum North Carolina.' North Carolina Historical Review 14, no. 1 (January 1937): 1-19."
+    }
+  ],
+
+  "internal_movement_patterns": [
+    {
+      "pattern_id": "tenant_rotation_sandhills",
+      "description": "Annual or biennial movement of sharecropping and tenant families between farms within the Sandhills counties. The pattern was identical to the coastal plain tenant rotation but was exacerbated by the Sandhills' poor soil — farms on deep Candor sand exhausted quickly, and tenants moved not only for better terms but because the soil itself could not sustain repeated cropping. A family might appear in a different Moore or Hoke County township in every census despite never moving more than ten miles. In the Pee Dee bottomland counties (Anson, Richmond), tenant rotation followed the cotton economy and was closer to the Deep South pattern, with larger plantations and more structured landlord-tenant relationships.",
+      "era": "1865-1940",
+      "driver": "Crop lien debt, soil exhaustion on sandy Sandhills soil, landlord-tenant disputes, and search for marginally better terms. The Sandhills' poor soil quality made the rotation cycle faster than in richer agricultural regions — a farm on deep sand might be cropped out in three to five years, forcing both landlord and tenant to move to fresh ground.",
+      "evidence": "Census comparison 1880-1920 shows families whose township or county changed while remaining within the Sandhills cluster. Moore County court records (crop lien filings) document the same family names cycling through different landlords. The exhaustion of Sandhills soil is documented in USDA soil surveys and in NC Agricultural Extension reports from the early 1900s.",
+      "source": "Ransom, Roger L., and Richard Sutch. One Kind of Freedom: The Economic Consequences of Emancipation. 2nd ed. Cambridge: Cambridge University Press, 2001, chs. 4, 8. Daniel, Pete. Breaking the Land: The Transformation of Cotton, Tobacco, and Rice Cultures since 1880. Urbana: University of Illinois Press, 1985."
+    },
+    {
+      "pattern_id": "county_formation_record_splits",
+      "description": "The Sandhills cluster experienced late county formations that split record trails. Scotland County was carved from Richmond in 1899; Hoke County was carved from Robeson in 1911. When a new county formed, the families living within its boundaries suddenly appeared in a different county's records — not because they moved, but because the county moved around them. This creates the illusion of migration in record indexes. A Richmond County family that appears in Scotland County records after 1899 may not have moved at all. Similarly, Hoke County families have pre-1911 records in Robeson County. Montgomery was formed from Anson in 1779, and all pre-1779 records for the Uwharrie area are in Anson County at Wadesboro.",
+      "era": "1750-1911",
+      "driver": "Political reorganization, not physical movement. County formation in NC was driven by population growth and the inconvenience of traveling long distances to a distant county seat. Each formation split record trails and can confuse genealogical research.",
+      "evidence": "NC county formation records and enabling legislation. The boundary between Richmond and Scotland, and between Robeson and Hoke, can be traced in the enabling acts. Families that appear to 'move' from one county to another at exactly the formation date were simply absorbed into the new jurisdiction.",
+      "source": "Powell, William S. The North Carolina Gazetteer. 2nd ed. Chapel Hill: University of North Carolina Press, 2010. NC State Archives. Guide to County Records."
+    },
+    {
+      "pattern_id": "resort_service_migration",
+      "description": "After 1895, the Pinehurst and Southern Pines resort colony in Moore County drew a distinctive migration stream: Black service workers from surrounding counties who staffed the hotels, golf courses, and private estates. These workers came from Moore, Hoke, Richmond, and Cumberland counties, and they constituted a permanent service workforce that lived in the segregated communities surrounding the white resort zone. The resort also drew white workers — groundskeepers, construction workers, and merchants — but the Black service workforce was the larger and more genealogically significant stream because it concentrated a population that might otherwise have dispersed through the Great Migration.",
+      "era": "1895-1960",
+      "driver": "Cash wages in the resort service economy, which offered year-round employment (the resort season ran October through April, but maintenance and construction provided summer work) at rates above agricultural labor. The resort economy functioned as an alternative to both farming and the Great Migration — families could earn cash wages without leaving the Sandhills.",
+      "evidence": "Census records for Southern Pines and Pinehurst show Black service workers with birthplaces in surrounding counties. Pinehurst resort employment records (where they survive) document the workforce. Church records in the Black communities of Southern Pines and Aberdeen document in-migration from surrounding counties.",
+      "source": "Tufts, James W. The Tufts Archives: History of Pinehurst. Pinehurst, NC: Tufts Archives, various dates. Grimsley, Wayne. Golf's Greatest Rivalry: Arnold Palmer, Jack Nicklaus, and the Story of the Masters. New York: Ballantine Books, 2012 (for context on Pinehurst's cultural significance)."
+    },
+    {
+      "pattern_id": "hamlet_railroad_junction_pull",
+      "description": "After the Seaboard Air Line Railroad established its junction at Hamlet (Richmond County) in the 1890s, the town drew workers from surrounding counties for railroad employment — shop workers, section hands, porters, telegraph operators, and the service economy that supported the junction. Hamlet grew from a crossroads to a significant town, and its population was drawn heavily from Scotland, Anson, and Montgomery counties. The railroad also made Hamlet a hub for onward migration — families leaving the Pee Dee for northern cities passed through Hamlet, and some stayed.",
+      "era": "1892-1960",
+      "driver": "Railroad wages, which were significantly higher than agricultural wages and offered year-round employment. The SAL's Hamlet shops provided skilled trades employment (machinists, boilermakers, car repairers) that paid industrial wages in a rural Southern setting.",
+      "evidence": "Census records for Hamlet show railroad occupations and birthplaces from surrounding counties. Seaboard Air Line employment records (held at various repositories including the Virginia Museum of Transportation). Hamlet city directories list workers by occupation and address.",
+      "source": "Prince, Richard E. Seaboard Air Line Railway: Steam Boats, Locomotives, and History. Bloomington: Indiana University Press, 2000. Hamlet city directories, various dates."
+    }
+  ],
+
+  "settlement_clusters": [
+    {
+      "cluster_name": "Highland Scots in the Raft Swamp / Lumber River Corridor",
+      "destination": "The corridor along the Raft Swamp and Lumber River in what became Scotland and Hoke counties — centered on Laurinburg, Red Springs, and Raeford",
+      "origin_county": "Argyll, Inverness-shire, and the Western Isles of Scotland (via Upper Cape Fear staging area)",
+      "era": "1740-1800",
+      "evidence": "1790 census for Bladen and Anson counties (parent jurisdictions) shows dense Scottish surname clustering along the Raft Swamp. Presbyterian church records at Longstreet and Bethesda document Gaelic-speaking congregations. Land grant records show Scots acquiring contiguous tracts along the river corridors, creating ethnic enclaves that persisted for generations.",
+      "key_surnames": ["MacDonald", "McNeill", "McLaurin", "McInnis", "McRae", "Campbell", "Stewart", "Cameron", "McKay", "Gilchrist"],
+      "narrative_hook": "The river corridor where {ancestor_name} settled was as Scottish as Argyll itself — the church services were in Gaelic, the surnames were Highland, and the community was bound by clan ties that had crossed the Atlantic intact.",
+      "source": "Meyer, Duane. The Highland Scots of North Carolina, 1732-1776. Chapel Hill: University of North Carolina Press, 1961. Parker, Anthony J. Scottish Highlanders in Colonial America. Norcross, GA: Windsor Publications, 1997."
+    },
+    {
+      "cluster_name": "Sandhills Farm Families in Erwin Mill Village",
+      "destination": "Erwin, Harnett County, North Carolina — company-owned mill village surrounding Erwin Cotton Mills (Duke interests)",
+      "origin_county": "Moore, Richmond, and Montgomery counties primarily; some families from Hoke and Scotland",
+      "era": "1893-1930",
+      "evidence": "1900 and 1910 US Census enumeration of Erwin township shows dense clustering of households with birthplaces in Moore, Richmond, and Montgomery counties. Baptist and Presbyterian church membership records at Erwin show transfers from Sandhills congregations. The pattern is consistent with chain migration from farms made unviable by turpentine exhaustion and poor sandy soil.",
+      "key_surnames": ["Thomas", "McNeill", "Monroe", "McLeod", "McInnis", "Cameron"],
+      "narrative_hook": "By the time {ancestor_name}'s family reached Erwin around {year}, the mill village already held neighbors from {county} County — Scottish names from the Sandhills, transplanted from farms where the turpentine was gone and the sand grew nothing but wiregrass.",
+      "source": "Hall et al., Like a Family, chs. 1-2. Glass, Brent D. The Textile Industry in North Carolina: A History. Raleigh: NC Division of Archives and History, 1992."
+    },
+    {
+      "cluster_name": "Pee Dee Black Families in Philadelphia",
+      "destination": "Philadelphia, Pennsylvania — North Philadelphia corridor",
+      "origin_county": "Anson, Richmond, and Scotland counties",
+      "era": "1916-1960",
+      "evidence": "Philadelphia 1920 and 1930 census enumeration shows NC-born Black residents from Pee Dee corridor counties concentrated in North Philadelphia neighborhoods. Block-level analysis shows clusters of households from the same NC counties. Philadelphia Tribune community notices document 'Carolina socials' organized by county of origin. Church membership records at destination congregations show transfers from Pee Dee churches.",
+      "key_surnames": ["Leak", "Liles", "Covington", "Sturdivant", "Little"],
+      "narrative_hook": "By the time {ancestor_name} reached Philadelphia in the {decade}s, North Philadelphia already felt like a Pee Dee County reunion — the church was full of people from back home, the accents were familiar, and the landlady knew where you came from by your last name.",
+      "source": "Gregory, James N. The Southern Diaspora: How the Great Migrations of Black and White Southerners Transformed America. Chapel Hill: University of North Carolina Press, 2005, ch. 4. Wilkerson, The Warmth of Other Suns."
+    },
+    {
+      "cluster_name": "Fort Bragg Military Families",
+      "destination": "Fayetteville, Cumberland County, and Spring Lake — residential areas surrounding Fort Bragg",
+      "origin_county": "National — Fort Bragg drew military families from across the United States, fundamentally changing the Sandhills demographic character after 1940",
+      "era": "1918-1960",
+      "evidence": "Fayetteville city directories and Cumberland County census records show explosive population growth correlated with Fort Bragg expansion. Marriage records in Hoke, Cumberland, and Moore counties show local women marrying servicemen from out-of-state origins at rates far above pre-1918 patterns. The military population introduced surnames, denominations, and cultural patterns entirely foreign to the Sandhills region.",
+      "key_surnames": "Not applicable — the military settlement cluster was national in origin, not regionally specific",
+      "narrative_hook": "Fort Bragg brought the world to the Sandhills — when {ancestor_name} married a soldier from {origin_state} in {year}, {pronoun_subject} joined a community that spoke with accents from every state in the Union, in a place where the sand and longleaf pines suddenly belonged to the United States Army.",
+      "source": "Lemmon, Sarah McCulloh. North Carolina's Role in World War II. Raleigh: NC Division of Archives and History, 1964. Fort Bragg historical records, US Army Center of Military History."
+    }
+  ],
+
+  "narrative_hooks": [
+    "The {surname} family's move from the Scottish Highlands to the Upper Cape Fear was not a leap into the unknown — it was a chain of kin reaching across the Atlantic, letter by letter, family by family, until the Sandhills sounded like Argyll on a Sunday morning.",
+    "When {ancestor_name} left {county} County for the mills at Erwin around {year}, {pronoun_subject} followed a relative who had gone first — the mill villages were not places people found on a map but places they heard about from a brother who wrote home to say the pay was cash.",
+    "After Moores Creek Bridge, the Loyalist families on the Upper Cape Fear lost everything — land confiscated, neighbors turned hostile, and the only option was Nova Scotia or back to a Scotland that no longer existed the way they remembered it.",
+    "The annual shuffle of tenant families between farms in {county} County meant that {ancestor_name} might appear in a different township in every census — not because {pronoun_subject} was restless but because the Sandhills sand wore out faster than the debt at the furnishing store.",
+    "When {ancestor_name} bought a northbound ticket at Hamlet around {year}, {pronoun_subject} followed the Seaboard Air Line out of the Pee Dee toward a city where a cousin had written to say the work was there.",
+    "The letter from the War Department said the farm was inside the new Fort Bragg boundary — and for a family that had worked that {county} County sand since the turpentine days, ninety days was not enough time to say goodbye to a place.",
+    "If {ancestor_name} appeared in Montgomery County in the 1830s with no apparent connection to the farming families around {pronoun_object}, check the gold fields — the Uwharrie Mountains drew miners who came for the gold and sometimes stayed for the land.",
+    "Before Scotland County existed, it was Richmond County — and before Hoke County existed, it was Robeson County. The {surname} family didn't move; the county lines moved around them."
+  ],
+
+  "source_references": [
+    "Meyer, Duane. The Highland Scots of North Carolina, 1732-1776. Chapel Hill: University of North Carolina Press, 1961.",
+    "Parker, Anthony J. Scottish Highlanders in Colonial America. Norcross, GA: Windsor Publications, 1997.",
+    "McLean, J. P. An Historical Account of the Settlements of Scotch Highlanders in America Prior to the Peace of 1783. Cleveland: Helman-Taylor, 1900.",
+    "Hall, Jacquelyn Dowd, James Leloudis, Robert Korstad, Mary Murphy, Lu Ann Jones, and Christopher B. Daly. Like a Family: The Making of a Southern Cotton Mill World. Chapel Hill: University of North Carolina Press, 1987.",
+    "Outland, Robert B., III. Tapping the Pines: The Naval Stores Industry in the American South. Baton Rouge: Louisiana State University Press, 2004.",
+    "Wilkerson, Isabel. The Warmth of Other Suns: The Epic Story of America's Great Migration. New York: Random House, 2010.",
+    "Gregory, James N. The Southern Diaspora: How the Great Migrations of Black and White Southerners Transformed America. Chapel Hill: University of North Carolina Press, 2005.",
+    "Knapp, Richard F. Golden Promise in the Piedmont: The Story of John Reed's Mine. Raleigh: NC Division of Archives and History, 1975.",
+    "Ransom, Roger L., and Richard Sutch. One Kind of Freedom: The Economic Consequences of Emancipation. 2nd ed. Cambridge: Cambridge University Press, 2001.",
+    "Lemmon, Sarah McCulloh. North Carolina's Role in World War II. Raleigh: NC Division of Archives and History, 1964.",
+    "Glass, Brent D. The Textile Industry in North Carolina: A History. Raleigh: NC Division of Archives and History, 1992.",
+    "Tullos, Allen. Habits of Industry: White Culture and the Transformation of the Carolina Piedmont. Chapel Hill: University of North Carolina Press, 1989.",
+    "Daniel, Pete. Breaking the Land: The Transformation of Cotton, Tobacco, and Rice Cultures since 1880. Urbana: University of Illinois Press, 1985.",
+    "Powell, William S. The North Carolina Gazetteer. 2nd ed. Chapel Hill: University of North Carolina Press, 2010.",
+    "Hahn, Steven. A Nation Under Our Feet: Black Political Struggles in the Rural South from Slavery to the Great Migration. Cambridge: Harvard University Press, 2003."
+  ],
+
+  "nel_cross_references": {
+    "trigger_refs": [
+      "great_migration",
+      "textile_mill_recruitment",
+      "nc_eastern_farm_to_mill",
+      "nc_highland_scots_settlement",
+      "nc_sandhills_turpentine",
+      "reconstruction_era",
+      "civil_war_displacement",
+      "civil_war_service",
+      "stayed_and_adapted",
+      "antebellum_yeoman_south",
+      "domestic_slave_trade",
+      "war_of_1812_service"
+    ],
+    "destination_refs": [
+      "philadelphia",
+      "philadelphia_north",
+      "new_york_city",
+      "baltimore",
+      "washington_dc",
+      "piedmont_mill_district"
+    ],
+    "community_texture_refs": [
+      "eastern_nc_farm_community",
+      "fayetteville_mill_district",
+      "nc_sandhills_scottish_community",
+      "nc_sandhills_turpentine_community"
+    ]
+  }
+}

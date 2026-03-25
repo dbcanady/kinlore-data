@@ -1,0 +1,113 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Hamilton County, IN. Record survival and courthouse history for the county centered on Noblesville. No major record losses — well-preserved from 1823 organization.",
+  "courthouse_atlas_id": "in_hamilton_courthouse",
+  "display_name": "Hamilton County, Indiana — Courthouse Atlas",
+  "county": "Hamilton",
+  "state": "IN",
+  "fips_code": "18057",
+  "cluster_ref": "in_central_white_river",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1879,
+      "location": "Noblesville, IN — Courthouse Square",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1823-1835",
+        "location": "Noblesville, original log courthouse",
+        "fate": "Early log structure replaced as the county grew."
+      },
+      {
+        "era": "1835-1879",
+        "location": "Noblesville, same square",
+        "fate": "Brick courthouse. Replaced by the current Second Empire-style building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "hamilton_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire or flood damage to county records",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage records"],
+      "scope": "none",
+      "description": "Hamilton County's records are well-preserved from the 1823 organization. The 1879 courthouse has survived without significant fire or flood damage. Records run continuously. Quaker meeting records in the eastern townships supplement county records and are particularly well-maintained.",
+      "narrative_impact": "If {ancestor_name} lived in Hamilton County, the records survive. For Quaker families, the meeting records at Westfield and elsewhere may contain more family detail than the county courthouse — baptisms, marriages, disciplinary actions, and certificates of removal that track migration.",
+      "source": "Indiana Commission on Public Records. Guide to Indiana County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1823,
+      "completeness": "Excellent — continuous from county organization",
+      "gaps": "No known significant gaps.",
+      "repository": "Hamilton County Recorder; Indiana State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com Indiana land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1823,
+      "completeness": "Good — probate records survive from near-organization",
+      "gaps": "Earliest loose papers fragmentary; bound volumes intact.",
+      "repository": "Hamilton County Clerk; Indiana State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1833,
+      "completeness": "Good — marriage records continuous from the 1830s",
+      "gaps": "First decade of county organization may have fewer records.",
+      "repository": "Hamilton County Clerk; Indiana State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com Indiana marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1823,
+      "completeness": "Good — Circuit Court records well-preserved",
+      "gaps": "Minor gaps in earliest volumes.",
+      "repository": "Hamilton County Clerk; Indiana State Archives",
+      "online_access": "Indiana State Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1882,
+      "death_registration_start": 1882,
+      "completeness": "Spotty until approximately 1900.",
+      "repository": "Indiana State Department of Health; Indiana State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Quaker meeting records",
+      "description": "Friends meetings at Westfield, Cicero, and other Hamilton County communities maintained detailed records — minutes, membership rolls, certificates of removal, marriage records, and disciplinary proceedings.",
+      "repository": "Indiana Yearly Meeting Archives at Earlham College (Richmond, IN); some records at Indiana Historical Society",
+      "era_coverage": "1820s-present",
+      "genealogical_value": "Quaker records are among the most genealogically valuable church records in America. Certificates of removal document migration between meetings with specific dates and family details. Disciplinary records reveal individual circumstances. Quaker records often predate and supplement county records.",
+      "source": "Indiana Yearly Meeting Archives finding aids, Earlham College."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1830-1940. Hamilton County first enumerated in 1830.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1830-1940",
+      "genealogical_value": "Essential for tracking families. Agricultural schedules (1850-1880) document farm size, value, and production.",
+      "source": "National Archives and Records Administration."
+    }
+  ],
+  "narrative_hooks": [
+    "Hamilton County's records survive complete from 1823 — if {ancestor_name} owned land, married, or appeared in court, the documentation is almost certainly at Noblesville or the State Archives.",
+    "For Quaker families in Hamilton County, the meeting records at Earlham College may hold more about {ancestor_name} than the county courthouse — certificates of removal, marriage under the care of the meeting, and disciplinary minutes.",
+    "Before Indiana's 1882 vital registration, a missing birth or death record for {ancestor_name} is standard — Quaker meeting records, church records, and federal census are the primary substitutes.",
+    "Hamilton County's 1879 courthouse still stands on the square at Noblesville — {ancestor_name}'s deed or marriage record may be in the same building where it was originally filed."
+  ],
+  "source_references": [
+    "Indiana Commission on Public Records. Guide to Indiana County Records.",
+    "Indiana Yearly Meeting Archives finding aids, Earlham College, Richmond, IN.",
+    "Baber, Augustus. Hamilton County History. Noblesville: self-published, 1901."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "in_hamilton",
+    "research_guidance_refs": ["census_gaps", "vital_records", "church_transfers"],
+    "template_refs": ["record_silences"]
+  }
+}

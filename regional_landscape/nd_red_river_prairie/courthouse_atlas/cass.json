@@ -1,0 +1,123 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Cass County, ND. Record survival, courthouse history, and known losses. Cass County's records are among the most complete in North Dakota, anchored by the county seat at Fargo and the Northern Pacific Railway's early presence.",
+  "courthouse_atlas_id": "nd_cass_courthouse",
+  "display_name": "Cass County, North Dakota — Courthouse Atlas",
+  "county": "Cass",
+  "state": "ND",
+  "fips_code": "38017",
+  "cluster_ref": "nd_red_river_prairie",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1904,
+      "location": "Fargo, ND — 211 9th Street South",
+      "records_housed": ["deeds", "mortgages", "marriage records", "probate records", "court minutes", "vital records indexes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1873–1882",
+        "location": "Fargo — wooden frame building",
+        "fate": "Destroyed in the Great Fargo Fire of June 7, 1893. However, the county had already moved to a new courthouse before this fire. Some early records stored in temporary locations were lost or damaged."
+      },
+      {
+        "era": "1882–1904",
+        "location": "Fargo — brick building replaced the original frame courthouse",
+        "fate": "Replaced by the current 1904 structure when the county outgrew it."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "cass_fargo_fire_1893",
+      "date": "1893-06-07",
+      "cause": "Great Fargo Fire",
+      "records_destroyed": ["scattered early justice of the peace records", "some early township records stored in temporary locations"],
+      "records_survived": ["deed books (moved to brick courthouse before fire)", "court minutes from 1873", "marriage records from 1872", "probate records"],
+      "scope": "minor",
+      "description": "The Great Fargo Fire of June 7, 1893, destroyed 31 blocks of downtown Fargo including the original NP passenger depot, hotels, and commercial buildings. The county courthouse had been replaced with a brick building in 1882 and was not directly destroyed, but some records stored in ancillary locations were lost. The main record series — deeds, court minutes, marriages — survived intact because they were in the brick courthouse.",
+      "narrative_impact": "Cass County's record survival is good for North Dakota. If {ancestor_name} owned land, married, or appeared in court in Cass County after 1872, the records almost certainly survive. Gaps are more likely due to the frontier nature of early record-keeping than to destruction.",
+      "source": "Caron, Danielle. 'The Great Fargo Fire of 1893.' Fargo Forum historical archives; State Historical Society of North Dakota."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1872,
+      "completeness": "Good — continuous series from county organization (1873). The earliest deed books show transactions related to Northern Pacific land grants.",
+      "gaps": "No known significant gaps. Some very early homestead final certificates are filed federally rather than in county records.",
+      "repository": "Cass County Recorder's Office, Fargo; State Historical Society of North Dakota",
+      "online_access": "FamilySearch microfilm; partial Ancestry.com coverage; BLM General Land Office Records (homestead patents)"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1875,
+      "completeness": "Good — probate records survive from the mid-1870s forward",
+      "gaps": "Very few estates were filed in the earliest years — the population was young and mobile. Probate becomes more frequent after 1890.",
+      "repository": "Cass County Clerk of Court, Fargo; State Historical Society of North Dakota",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1872,
+      "completeness": "Good — marriage licenses from county organization",
+      "gaps": "Norwegian immigrant families sometimes married in church ceremonies without obtaining a county license in the earliest years. Norwegian Lutheran church records (ministerialbok) fill this gap.",
+      "repository": "Cass County Recorder's Office, Fargo",
+      "online_access": "FamilySearch; Ancestry.com ND marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1873,
+      "completeness": "Good — district court minutes survive from county organization",
+      "gaps": "Justice of the peace records are fragmentary for the earliest period.",
+      "repository": "Cass County Clerk of Court; State Historical Society of North Dakota",
+      "online_access": "Limited — primarily microfilm at SHSND"
+    },
+    "vital_records": {
+      "birth_registration_start": 1893,
+      "death_registration_start": 1893,
+      "completeness": "North Dakota began requiring birth and death registration in 1893 — earlier than most states. Compliance was spotty in rural areas until approximately 1910. Fargo city records may be more complete than county rural records for the 1893-1910 period.",
+      "repository": "ND Department of Health Vital Records; State Historical Society of North Dakota for pre-1930 delayed certificates"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Norwegian Lutheran church records (ministerialbok)",
+      "description": "Norwegian Lutheran congregations maintained meticulous records in the Norwegian ministerialbok tradition — baptisms, confirmations, marriages, burials, and communion attendance recorded in the minister's official register. These records were kept in Norwegian through the 1920s in many congregations. They often predate civil vital registration and provide family relationship information not found in any civil record.",
+      "repository": "Norwegian-American Historical Association (NAHA), Northfield, MN; individual congregations; Evangelical Lutheran Church in America (ELCA) archives, Elk Grove Village, IL; some at State Historical Society of North Dakota",
+      "era_coverage": "1878–1940",
+      "genealogical_value": "Essential for Norwegian immigrant families. Baptismal records name both parents plus witnesses (often relatives). Burial records provide death dates and sometimes cause of death and birthplace in Norway. Confirmation records provide birth date and parents' names for teenagers.",
+      "source": "Lovoll, Odd S. The Promise of America: A History of the Norwegian-American People. Minneapolis: University of Minnesota Press, 1984."
+    },
+    {
+      "source_type": "Federal homestead records",
+      "description": "Homestead application files contain the homesteader's name, age, citizenship status, family size, description of improvements, testimony of witnesses, and the final certificate transferring title. These files are held at the National Archives and are available online through the BLM General Land Office Records.",
+      "repository": "National Archives and Records Administration; BLM General Land Office Records (glorecords.blm.gov)",
+      "era_coverage": "1868–1940",
+      "genealogical_value": "Homestead files are among the most detailed records available for Northern Plains settlers. The application asks for birthplace, age, and citizenship status. The proof-up testimony (typically five years after filing) includes witness statements describing the homesteader's improvements, cultivation, and continuous residence. Naturalization papers are sometimes filed with the homestead record.",
+      "source": "National Archives and Records Administration. Homestead Records at the National Archives."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1880–1940 (Cass County was not separately enumerated in 1870). Agricultural schedules (1880) provide farm-level detail. The 1900 census asks for immigration year and naturalization status — critical for immigrant families.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1880–1940",
+      "genealogical_value": "Essential for tracking families between land records. The 1900 and 1910 censuses ask for number of years married, number of children born, and number surviving — demographic data not available from any other source.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Cass County, ND."
+    }
+  ],
+  "narrative_hooks": [
+    "Cass County's records survived the Great Fargo Fire of 1893 because the county had already moved to a brick courthouse — which means that {ancestor_name}'s deed, marriage record, or court case is almost certainly still in the vault at Fargo.",
+    "If {ancestor_name} filed a homestead claim in Cass County, the original application file at the National Archives may contain {pronoun_possessive} age, birthplace, citizenship status, and a detailed description of what {pronoun_subject} built on the claim — one of the most informative single documents in Northern Plains genealogy.",
+    "Before North Dakota required birth registration in 1893, the Norwegian Lutheran ministerialbok may be the only record of {ancestor_name}'s birth — kept in Norwegian by the pastor, recording baptism, parents' names, and the witnesses who stood at the font.",
+    "The gap in {ancestor_name}'s Cass County records between 1880 and 1900 is partly explained by the 1890 census fire — the national loss of the 1890 federal census destroyed the only record that would have documented twenty years of the most rapid settlement in North Dakota history."
+  ],
+  "source_references": [
+    "State Historical Society of North Dakota. Guide to County Records in the State Historical Society of North Dakota. Bismarck: SHSND, 2003.",
+    "Caron, Danielle. 'The Great Fargo Fire of 1893.' Fargo Forum historical archives.",
+    "Lovoll, Odd S. The Promise of America: A History of the Norwegian-American People. Minneapolis: University of Minnesota Press, 1984.",
+    "National Archives and Records Administration. Homestead Records at the National Archives. Washington, DC.",
+    "BLM General Land Office Records. glorecords.blm.gov."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nd_cass",
+    "research_guidance_refs": ["census_gaps", "vital_records", "property_records"],
+    "template_refs": ["record_silences"]
+  }
+}

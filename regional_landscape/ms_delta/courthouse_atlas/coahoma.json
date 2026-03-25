@@ -1,0 +1,126 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Coahoma County, MS. County seat: Clarksdale. Records survive from county formation (1836). No major courthouse fire, but some records suffered from poor storage, humidity, and general Delta deterioration. Clarksdale's records are more urban than most Delta counties, reflecting its role as a commercial center.",
+  "courthouse_atlas_id": "ms_coahoma_courthouse",
+  "display_name": "Coahoma County, Mississippi — Courthouse Atlas",
+  "county": "Coahoma",
+  "state": "MS",
+  "fips_code": "28027",
+  "cluster_ref": "ms_delta",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1913,
+      "location": "Clarksdale, MS — First Street",
+      "records_housed": ["deeds", "chancery court records", "circuit court records", "marriage records", "vital records post-1912"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1836-1860s",
+        "location": "Port Royal (original county seat on the Mississippi River)",
+        "fate": "County seat moved to Friars Point as Port Royal declined."
+      },
+      {
+        "era": "1860s-1892",
+        "location": "Friars Point",
+        "fate": "County seat moved to Clarksdale in 1892 when the railroad made Clarksdale the commercial center."
+      },
+      {
+        "era": "1892-1913",
+        "location": "Clarksdale (earlier structure)",
+        "fate": "Replaced by current 1913 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "coahoma_relocation_losses",
+      "date": "1836-1892",
+      "cause": "Multiple county seat relocations",
+      "records_destroyed": ["some early loose papers lost in moves from Port Royal to Friars Point to Clarksdale"],
+      "records_survived": ["bound deed books from 1836", "most court records"],
+      "scope": "minor",
+      "description": "The county seat moved twice — from Port Royal to Friars Point to Clarksdale — and each move risked some record loss. Bound volumes survived the moves; loose papers and unboud files were more vulnerable.",
+      "narrative_impact": "Coahoma County's records survive from 1836 despite the moves. The primary risk is to early loose papers — supplementary court files, justice of the peace records, and loose estate papers.",
+      "source": "Mississippi Department of Archives and History, Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1836,
+      "completeness": "Good — continuous from county formation",
+      "gaps": "Minor deterioration in earliest volumes.",
+      "repository": "Coahoma County Chancery Clerk, Clarksdale; MDAH microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1840,
+      "completeness": "Good from early county period",
+      "gaps": "Some early estate papers fragmentary.",
+      "repository": "Coahoma County Chancery Clerk; MDAH",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1838,
+      "completeness": "Good — marriage records from early county period",
+      "gaps": "Black marriages documented from 1865.",
+      "repository": "Coahoma County Circuit Clerk; MDAH microfilm",
+      "online_access": "FamilySearch; Ancestry.com MS marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1837,
+      "completeness": "Good — largely continuous",
+      "gaps": "Minor gaps in 1840s-1850s.",
+      "repository": "Coahoma County courthouse; MDAH",
+      "online_access": "MDAH microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1912,
+      "death_registration_start": 1912,
+      "completeness": "Better compliance in Clarksdale urban area than rural areas. Rural Black vital events significantly underregistered.",
+      "repository": "Mississippi State Department of Health; MDAH"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1840-1940. Slave schedules 1850-1860.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1840-1940",
+      "genealogical_value": "Essential for tracking families. Coahoma County's censuses document the explosive population growth as the Delta was cleared and settled.",
+      "source": "National Archives and Records Administration."
+    },
+    {
+      "source_type": "Freedmen's Bureau records",
+      "description": "Labor contracts, marriage registrations, and complaint files for Coahoma County, 1865-1872.",
+      "repository": "National Archives; FamilySearch digitization",
+      "era_coverage": "1865-1872",
+      "genealogical_value": "Critical for Black families. Coahoma County's Bureau office was active and generated substantial documentation.",
+      "source": "National Archives, RG 105."
+    },
+    {
+      "source_type": "Clarksdale Press Register newspaper",
+      "description": "Local newspaper published from the 1890s. Legal notices, obituaries, cotton market reports, and community news.",
+      "repository": "MDAH microfilm; Carnegie Public Library, Clarksdale",
+      "era_coverage": "1890s-present",
+      "genealogical_value": "Obituaries and legal notices supplement court records. Blues-related cultural coverage from the 1920s-1940s provides community context.",
+      "source": "Mississippi Department of Archives and History."
+    }
+  ],
+  "narrative_hooks": [
+    "Coahoma County's records go back to 1836, making it one of the older Delta counties — if {ancestor_name} was in the county early, the deed and court records probably still exist in Clarksdale.",
+    "The county seat moved three times — Port Royal, Friars Point, Clarksdale — and {ancestor_name}'s earliest records may reference place names that no longer exist as functioning towns.",
+    "The Freedmen's Bureau office in Coahoma County generated extensive records of the transition from slavery to freedom — if {ancestor_name} was newly free in 1865, these records are the first place to look for family connections.",
+    "Clarksdale's vital records compliance was better than rural Delta areas, so {ancestor_name}'s birth or death is more likely to be officially recorded if the event occurred in town rather than on a remote plantation."
+  ],
+  "source_references": [
+    "Mississippi Department of Archives and History. Guide to County Records. Jackson, MS.",
+    "National Archives and Records Administration. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands (RG 105).",
+    "Cobb, James C. The Most Southern Place on Earth: The Mississippi Delta and the Roots of Regional Identity. New York: Oxford University Press, 1992."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ms_coahoma",
+    "research_guidance_refs": ["southern_courthouse_research", "freedmens_bureau"],
+    "template_refs": ["record_silences"]
+  }
+}

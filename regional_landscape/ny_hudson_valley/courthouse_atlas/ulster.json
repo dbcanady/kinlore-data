@@ -1,0 +1,122 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Ulster County, NY. Record survival, courthouse history, and the impact of the 1777 British burning of Kingston on county records. One of the original twelve NY counties (formed 1683).",
+  "courthouse_atlas_id": "ny_ulster_courthouse",
+  "display_name": "Ulster County, New York — Courthouse Atlas",
+  "county": "Ulster",
+  "state": "NY",
+  "fips_code": "36111",
+  "cluster_ref": "ny_hudson_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1818,
+      "location": "Kingston, NY — 285 Wall Street (extensively renovated)",
+      "records_housed": ["deeds (liber/page system)", "mortgages", "lis pendens", "wills", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1683-1777",
+        "location": "Kingston — various buildings including the Senate House area",
+        "fate": "British forces under General Vaughan burned Kingston on October 16, 1777. The county clerk reportedly removed many records before the attack, saving critical land records. Some records were lost."
+      },
+      {
+        "era": "1777-1818",
+        "location": "Kingston, rebuilt structures",
+        "fate": "Temporary facilities after the burning. Replaced by the current stone courthouse in 1818."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "kingston_burning_1777",
+      "date": "1777-10-16",
+      "cause": "British burning of Kingston during the Revolutionary War",
+      "records_destroyed": ["Some early court records", "possible loss of scattered loose papers and early minutes"],
+      "records_survived": ["Most deed books (removed before the fire)", "will books", "key court minutes"],
+      "scope": "moderate — most critical records were saved",
+      "description": "When British troops burned Kingston on October 16, 1777, the county clerk had been warned and removed most of the recorded volumes. The deed books, which constituted the most important series, survived. However, some loose papers, early court documents, and miscellaneous records may have been destroyed. The burning also destroyed private records — family Bibles, personal correspondence, and business papers — throughout Kingston.",
+      "narrative_impact": "The 1777 burning of Kingston is the defining record event for Ulster County. If {ancestor_name}'s records from the 1770s are incomplete, the British fire may be the reason — but the most critical land records were saved by a clerk who had the foresight to move them before the torch.",
+      "source": "Schoonmaker, Marius. The History of Kingston, New York. New York: Burr Printing House, 1888."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1684,
+      "completeness": "Good — the earliest deed books survive from near the county's formation. The county clerk removed them before the 1777 burning. Uses the standard NY liber/page system.",
+      "gaps": "Minor gaps in the earliest volumes. Some Dutch-era transactions are in the New Netherland records at the State Archives.",
+      "repository": "Ulster County Clerk's Office, Kingston; New York State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com NY land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1787,
+      "completeness": "Good from the post-Revolution period. Pre-1777 wills may be incomplete due to the burning.",
+      "gaps": "Pre-Revolution probate records are fragmentary.",
+      "repository": "Ulster County Surrogate's Court, Kingston; New York State Archives",
+      "online_access": "FamilySearch microfilm; limited online access"
+    },
+    "marriages": {
+      "earliest_surviving": 1847,
+      "completeness": "Same pattern as all NY counties — 1847-1849 brief registration, then 1880 mandatory. Church records fill the gaps.",
+      "gaps": "No mandatory civil registration before 1880 except the 1847-1849 period.",
+      "repository": "Town clerks; NY State Department of Health",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1693,
+      "completeness": "Fair. Some early volumes may have sustained damage or loss in the 1777 burning. Post-Revolution records are complete.",
+      "gaps": "1770s records may be incomplete due to the burning and wartime disruption.",
+      "repository": "Ulster County Clerk's Office; New York State Archives",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1880,
+      "death_registration_start": 1880,
+      "completeness": "Standard NY pattern. Huguenot church records at New Paltz supplement vital records for the early colonial period.",
+      "repository": "Town clerks; NY State Department of Health"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Huguenot church records (New Paltz)",
+      "description": "The Huguenot Reformed Church at New Paltz maintained baptism, marriage, and burial records from the 1680s. These are among the earliest continuous church records in New York and document the founding Huguenot families — DuBois, Hasbrouck, Deyo, Bevier, Freer, LeFevre.",
+      "repository": "Huguenot Historical Society, New Paltz; Reformed Church in America Archives",
+      "era_coverage": "1680s-present",
+      "genealogical_value": "Exceptional. The Huguenot records name parents, sponsors, and witnesses, enabling detailed family reconstruction. Records are in French and Dutch through the 18th century.",
+      "source": "LeFevre, Ralph. History of New Paltz, New York. Albany: Fort Orange Press, 1903."
+    },
+    {
+      "source_type": "Delaware & Hudson Canal company records",
+      "description": "The D&H Canal Company maintained employment records, payroll, and property records for canal workers and facilities at Rondout and along the canal route.",
+      "repository": "D&H Canal Historical Society; New York State Library; Minisink Valley Historical Society",
+      "era_coverage": "1828-1899",
+      "genealogical_value": "Valuable for identifying canal workers — many Irish immigrants. Employment records establish dates of residence.",
+      "source": "Wakefield, Manville B. Coal Boats to Tidewater. Grahamsville, NY: Wakefair Press, 1965."
+    },
+    {
+      "source_type": "Bluestone quarry records",
+      "description": "Quarry operators maintained some employment and production records. Where these survive, they document quarry workers' names and dates of employment.",
+      "repository": "Ulster County Historical Society; scattered private holdings",
+      "era_coverage": "1830s-1920s",
+      "genealogical_value": "Limited but valuable when found. Many quarry workers were Irish and German immigrants who left few other records.",
+      "source": "Evers, Alf. The Catskills: From Wilderness to Woodstock. Doubleday, 1972."
+    }
+  ],
+  "narrative_hooks": [
+    "The British burned Kingston in 1777, but the county clerk saved the deed books — {ancestor_name}'s land records likely survived the fire that destroyed the first capital of New York State.",
+    "If {ancestor_name} was Huguenot, the church records at New Paltz may trace the family to the original 1677 settlement — the Huguenot Reformed Church kept records in French that predate English-language civil records by a century.",
+    "Ulster County uses the liber/page system for deeds — {ancestor_name}'s property transfer is in a bound volume referenced by liber number and page, the standard New York format.",
+    "New York's marriage registration did not begin until 1880 — if {ancestor_name} married in Ulster County before that date, the record is in a church register, not the county clerk's office."
+  ],
+  "source_references": [
+    "Schoonmaker, Marius. The History of Kingston, New York. New York: Burr Printing House, 1888.",
+    "LeFevre, Ralph. History of New Paltz, New York. Albany: Fort Orange Press, 1903.",
+    "Wakefield, Manville B. Coal Boats to Tidewater. Grahamsville, NY: Wakefair Press, 1965.",
+    "New York State Archives. Guide to Records in the New York State Archives. Albany, 1993."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ny_ulster",
+    "research_guidance_refs": ["property_records", "church_transfers"],
+    "template_refs": ["record_silences"]
+  }
+}

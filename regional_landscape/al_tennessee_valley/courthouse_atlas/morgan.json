@@ -1,0 +1,123 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Morgan County, AL. Record survival, courthouse history, and known losses. Morgan County was formed in 1818 (as Cotaco County, renamed Morgan in 1821). Decatur suffered significant Civil War destruction — the town was burned in 1862.",
+  "courthouse_atlas_id": "al_morgan_courthouse",
+  "display_name": "Morgan County, Alabama — Courthouse Atlas",
+  "county": "Morgan",
+  "state": "AL",
+  "fips_code": "01103",
+  "cluster_ref": "al_tennessee_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1938,
+      "location": "Decatur, AL — 302 Lee Street NE",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1818–1823",
+        "location": "Somerville (original county seat)",
+        "fate": "First county seat was Somerville, east of Decatur. Early frame courthouse. County seat moved to Decatur in 1891."
+      },
+      {
+        "era": "1823–1862",
+        "location": "Somerville",
+        "fate": "Brick courthouse at Somerville. Records housed here during the antebellum period."
+      },
+      {
+        "era": "1862–1891",
+        "location": "Somerville (county seat remained here during and after war)",
+        "fate": "Somerville courthouse survived the Civil War because the fighting concentrated on Decatur. The county seat was not moved to Decatur until 1891."
+      },
+      {
+        "era": "1891–1938",
+        "location": "Decatur, new courthouse",
+        "fate": "County seat moved to Decatur in 1891 — Decatur had become the dominant town due to its railroad junction. Records transferred from Somerville."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "morgan_no_major_loss",
+      "date": null,
+      "cause": "None — the courthouse at Somerville was not in the line of fire during the Civil War; Decatur was burned but was not the county seat",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "marriage records", "court minutes", "tax records"],
+      "scope": "none",
+      "description": "Morgan County's records survived the Civil War because the county seat was at Somerville, not at Decatur. While Federal forces burned much of Decatur in 1862, Somerville was not significantly damaged. When the county seat moved to Decatur in 1891, records were transferred intact. Morgan County records are continuous from the county's 1818 formation as Cotaco County.",
+      "narrative_impact": "If {ancestor_name} lived in Morgan County, the records almost certainly survive — the accident of having the county seat at Somerville rather than Decatur during the Civil War saved the paper trail.",
+      "source": "Alabama Department of Archives and History. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1818,
+      "completeness": "Good — continuous from county formation (as Cotaco County)",
+      "gaps": "No major gaps. Early records reference the county as 'Cotaco' before the 1821 rename.",
+      "repository": "Morgan County Probate Office, Decatur; ADAH microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1819,
+      "completeness": "Good",
+      "gaps": "Minor gaps in loose papers from earliest decades",
+      "repository": "Morgan County Probate Office; ADAH",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1818,
+      "completeness": "Good — marriage bonds from formation",
+      "gaps": "No significant gaps",
+      "repository": "Morgan County Probate Office; ADAH microfilm",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1818,
+      "completeness": "Good",
+      "gaps": "No significant gaps",
+      "repository": "ADAH; Morgan County Circuit Clerk",
+      "online_access": "ADAH microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Spotty until approximately 1920",
+      "repository": "Alabama Department of Public Health; ADAH"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Railroad employment records",
+      "description": "Decatur was a major railroad junction. Louisville & Nashville Railroad and Southern Railway employment records may document workers at the Decatur yards and shops.",
+      "repository": "L&N Railroad Collection at University of Louisville Archives; Southern Railway records at various repositories; ADAH",
+      "era_coverage": "1855-1960",
+      "genealogical_value": "Railroad employment records document workers by name, date, position, and wages. For families who worked the railroad rather than the land, these records replace land records as the primary documentation.",
+      "source": "University of Louisville Archives. L&N Railroad Collection Finding Aid."
+    },
+    {
+      "source_type": "Freedmen's Bureau records",
+      "description": "Bureau records for Morgan County document labor contracts and marriages among formerly enslaved people.",
+      "repository": "National Archives (RG 105); FamilySearch",
+      "era_coverage": "1865-1872",
+      "genealogical_value": "Essential for tracing Black families after emancipation. Morgan County had significant slaveholding in the river bottomland.",
+      "source": "National Archives. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands (RG 105)."
+    }
+  ],
+  "narrative_hooks": [
+    "Morgan County's records survived the Civil War because the county seat was at Somerville, not Decatur — the Federal army burned Decatur but left the records alone at a courthouse twelve miles away.",
+    "The county was originally Cotaco County — if {ancestor_name} appears in records before 1821, look for 'Cotaco County' in the index, not 'Morgan.'",
+    "If {ancestor_name} worked the railroad at Decatur, the county records may say less about {pronoun_object} than the L&N employment files — railroad workers left a paper trail at the depot, not the courthouse.",
+    "Somerville was the county seat for seventy years before Decatur took over in 1891 — if {ancestor_name} went to court before 1891, {pronoun_subject} went to Somerville."
+  ],
+  "source_references": [
+    "Alabama Department of Archives and History. Guide to County Records in the Alabama State Archives. Montgomery: ADAH, 2005.",
+    "University of Louisville Archives. Louisville and Nashville Railroad Collection Finding Aid.",
+    "National Archives and Records Administration. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands (RG 105)."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "al_morgan",
+    "research_guidance_refs": ["freedmens_bureau_records"],
+    "template_refs": ["record_silences"]
+  }
+}

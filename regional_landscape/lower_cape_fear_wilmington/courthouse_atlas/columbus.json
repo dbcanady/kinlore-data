@@ -1,0 +1,113 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Columbus County, NC. Record survival for an inland county formed in 1808, with generally good preservation but limited pre-formation records.",
+  "courthouse_atlas_id": "nc_columbus_courthouse",
+  "display_name": "Columbus County, North Carolina — Courthouse Atlas",
+  "county": "Columbus",
+  "state": "NC",
+  "fips_code": "37047",
+  "cluster_ref": "lower_cape_fear_wilmington",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1914,
+      "location": "Whiteville, NC — 111 Washington Street",
+      "records_housed": ["deeds", "plats", "vital records indexes", "court minutes", "estate files"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1808–1858",
+        "location": "Whiteville, NC — original courthouse on the public square",
+        "fate": "Replaced by a larger structure as the county grew."
+      },
+      {
+        "era": "1858–1914",
+        "location": "Whiteville, NC",
+        "fate": "Survived the Civil War without significant damage. Replaced by the 1914 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "columbus_no_major_loss",
+      "date": null,
+      "cause": "No catastrophic loss",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1808", "court minutes from 1808", "marriage records from 1808"],
+      "scope": "minimal",
+      "description": "Columbus County has no documented catastrophic loss of records. The courthouse survived the Civil War, and no major fires or floods have destroyed records. The bound volumes — deeds, wills, court minutes — are intact from the county's formation in 1808. Some early loose papers have deteriorated in the humid climate.",
+      "narrative_impact": "Columbus County's records are unusually complete for an eastern NC county. If {ancestor_name} owned land, married, or died here after 1808, the records almost certainly survive.",
+      "source": "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1808,
+      "completeness": "Good — continuous from county formation.",
+      "gaps": "No significant gaps. Pre-1808 records in Bladen and Brunswick county files (parent counties).",
+      "repository": "Columbus County Register of Deeds, Whiteville; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; limited Ancestry.com coverage"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1808,
+      "completeness": "Good — estate records from formation forward.",
+      "gaps": "Pre-1808 estates in parent county records.",
+      "repository": "Columbus County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1808,
+      "completeness": "Good — marriage bonds from county formation.",
+      "gaps": "Pre-1808 marriages in Bladen and Brunswick county records.",
+      "repository": "Columbus County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com NC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1808,
+      "completeness": "Good — County Court minutes continuous from formation.",
+      "gaps": "No significant gaps.",
+      "repository": "NC State Archives; Columbus County Clerk of Court",
+      "online_access": "NC State Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Spotty until 1920s. Rural, dispersed population made registration enforcement difficult.",
+      "repository": "NC Office of Vital Records; NC State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Bladen and Brunswick County records (pre-1808)",
+      "description": "Columbus County was carved from Bladen and Brunswick counties in 1808. All records for the area before that date are filed in the parent counties' courthouses and at the NC State Archives.",
+      "repository": "Bladen County Clerk of Court, Elizabethtown; Brunswick County offices; NC State Archives",
+      "era_coverage": "1734-1808",
+      "genealogical_value": "Essential for pre-1808 research. Bladen County records are better preserved than Brunswick's colonial records.",
+      "source": "NC State Archives. Guide to County Records, 2001."
+    },
+    {
+      "source_type": "Waccamaw Siouan tribal records and oral history",
+      "description": "The Waccamaw Siouan community centered around Lake Waccamaw has maintained oral histories and some institutional records (school records, church records) that document a community largely invisible in the standard county records. The tribe received state recognition in 1971.",
+      "repository": "Waccamaw Siouan Tribal Office, Bolton, NC; NC Commission of Indian Affairs records at NC State Archives",
+      "era_coverage": "1800s-present",
+      "genealogical_value": "Critical for families with Waccamaw Siouan heritage. Standard county records may classify these ancestors as 'free colored' or 'mulatto,' erasing their Indigenous identity.",
+      "source": "Lerch, Patricia Barker. 'State-Recognized Indians of North Carolina.' In Indians of the Southeastern United States, ed. Paredes, 44-71. University of Alabama Press, 1992."
+    }
+  ],
+  "narrative_hooks": [
+    "Columbus County's courthouse has survived intact since 1808 — {ancestor_name}'s deed, will, or marriage bond is almost certainly still in the vault at Whiteville.",
+    "Before Columbus County existed in 1808, {ancestor_name}'s family records were filed in Bladen or Brunswick County — the parent counties that were carved up to create Columbus.",
+    "If {ancestor_name} was Waccamaw Siouan, the county records may classify the family as 'free colored' or use other terms that erased their Indigenous identity. The tribal oral history and community records tell a different story than the courthouse.",
+    "Columbus County is one of the few eastern NC counties with no major record loss — no courthouse fire, no war damage, no flood. If {ancestor_name} left a paper trail here, it probably survived."
+  ],
+  "source_references": [
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Lerch, Patricia Barker. 'State-Recognized Indians of North Carolina, Including a History of the Waccamaw Siouan.' In Indians of the Southeastern United States in the Late 20th Century, ed. J. Anthony Paredes, 44-71. Tuscaloosa: University of Alabama Press, 1992.",
+    "Leary, Helen F. M., ed. North Carolina Research: Genealogy and Local History. 2nd ed. Raleigh: North Carolina Genealogical Society, 1996."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_columbus",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

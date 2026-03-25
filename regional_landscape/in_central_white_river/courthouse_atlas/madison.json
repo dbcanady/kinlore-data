@@ -1,0 +1,55 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Madison County, IN. Record survival for the county centered on Anderson. Well-preserved from 1823 organization. GM/industrial employment records are a critical substitute source.",
+  "courthouse_atlas_id": "in_madison_courthouse",
+  "display_name": "Madison County, Indiana — Courthouse Atlas",
+  "county": "Madison",
+  "state": "IN",
+  "fips_code": "18095",
+  "cluster_ref": "in_central_white_river",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1880, "location": "Anderson, IN — Courthouse Square", "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court records"] },
+    "previous_courthouses": [
+      { "era": "1823-1844", "location": "Anderson, original log courthouse", "fate": "Log structure replaced." },
+      { "era": "1844-1880", "location": "Anderson, same square", "fate": "Brick courthouse. Served through Civil War. Replaced by current Second Empire building." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "madison_no_major_loss", "date": null, "cause": "None", "records_destroyed": [], "records_survived": ["deed books", "will books", "court minutes", "marriage records"], "scope": "none",
+      "description": "Madison County's records are well-preserved from the 1823 organization. No major fire or flood damage. The 1880 courthouse survives. For industrial workers in Anderson, county records may be supplemented by factory employment records where they survive.",
+      "narrative_impact": "If {ancestor_name} lived in Madison County, the county records survive. But for factory workers in Anderson who rented rather than owned, the county deed books may be empty — check city directories, census records, and any surviving GM/Delco-Remy employment records.",
+      "source": "Indiana Commission on Public Records. Guide to Indiana County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1823, "completeness": "Excellent", "gaps": "None known.", "repository": "Madison County Recorder; Indiana State Archives", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1823, "completeness": "Good", "gaps": "Earliest loose papers fragmentary.", "repository": "Madison County Clerk; Indiana State Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1830, "completeness": "Good", "gaps": "First few years after organization may have fewer records.", "repository": "Madison County Clerk; Indiana State Archives", "online_access": "FamilySearch; Ancestry.com" },
+    "court_minutes": { "earliest_surviving": 1823, "completeness": "Good", "gaps": "Minor early gaps.", "repository": "Madison County Clerk", "online_access": "Indiana State Archives microfilm" },
+    "vital_records": { "birth_registration_start": 1882, "death_registration_start": 1882, "completeness": "Spotty until approximately 1900. Anderson city health records may predate 1882 for the city proper.", "repository": "Indiana State Department of Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "City directories — Anderson", "description": "Annual city directories for Anderson list residents by name with address and occupation.", "repository": "Anderson Public Library; Indiana State Library; Ancestry.com", "era_coverage": "1887-present (coinciding with gas boom)", "genealogical_value": "Critical for tracking factory workers between census years. Directories begin with the gas boom and track the population explosion. Occupation listings distinguish factory from farm workers.", "source": "Anderson Public Library local history collection." },
+    { "source_type": "Federal census schedules", "description": "Population and manufacturing schedules 1830-1940.", "repository": "National Archives; FamilySearch; Ancestry.com", "era_coverage": "1830-1940", "genealogical_value": "Manufacturing schedules (1880) capture the pre-gas-boom economy. 1900 and 1910 census capture the boom's population growth.", "source": "National Archives and Records Administration." },
+    { "source_type": "UAW Local records", "description": "United Auto Workers local union records for Anderson plants may document members, grievances, and strike participation.", "repository": "Walter P. Reuther Library, Wayne State University (Detroit); Anderson Public Library", "era_coverage": "1937-present", "genealogical_value": "Union membership records document employment when company records are unavailable. Strike participation records may explain sudden relocations or job changes.", "source": "Walter P. Reuther Library finding aids, Wayne State University." }
+  ],
+  "narrative_hooks": [
+    "Madison County's records survive complete from 1823 — but for factory workers in Anderson who rented and never appeared in deed books, city directories may be the key to tracking {ancestor_name}.",
+    "Anderson city directories begin with the gas boom in 1887 — {ancestor_name}'s arrival in the boomtown is likely captured in the first year the directory was published.",
+    "If {ancestor_name} was a UAW member at Delco-Remy, the union records at the Reuther Library in Detroit may document what the county courthouse does not — employment, strikes, and grievances.",
+    "Before 1882, a missing vital record for {ancestor_name} in Madison County is standard — check church records and the federal census."
+  ],
+  "source_references": [
+    "Indiana Commission on Public Records. Guide to Indiana County Records.",
+    "Forkner, John L., and Byron H. Dyson. Historical Sketches and Reminiscences of Madison County, Indiana. Anderson: Mitchell, 1897.",
+    "Anderson Public Library local history collection.",
+    "Walter P. Reuther Library finding aids, Wayne State University."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "in_madison",
+    "research_guidance_refs": ["census_gaps", "vital_records", "institutional_records"],
+    "template_refs": ["record_silences"]
+  }
+}

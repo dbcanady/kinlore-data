@@ -1,0 +1,141 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Road and Connectivity Profile for the Virginia Tidewater cluster. Transportation from river navigation to roads to railroads — the networks that connected and isolated the Tidewater counties from 1607 through 1870.",
+  "roads_id": "va_tidewater_roads",
+  "display_name": "Virginia Tidewater — Road and Connectivity Profile",
+  "cluster_ref": "va_tidewater",
+  "state": "VA",
+  "era_range": "1607–1870",
+  "transportation_eras": [
+    {
+      "era": "1607–1700",
+      "era_name": "Water is the Road",
+      "description": "In the first century of English settlement, rivers were the primary transportation network. The James, York, Pamunkey, Mattaponi, and Chickahominy Rivers — all navigable by oceangoing or coastal vessels for significant distances — served as highways. Every plantation of consequence had a river landing where tobacco hogsheads were rolled to the water's edge and loaded onto ships. Overland roads were rudimentary: sandy tracks through pine forest, impassable in wet weather, rarely more than horse paths. The road from Jamestown to Middle Plantation (later Williamsburg) was one of the few maintained routes.",
+      "primary_modes": ["river navigation by shallop, pinnace, and oceangoing vessel", "horseback", "foot travel on forest paths", "canoe (adopted from Powhatan practice)"],
+      "key_routes": [
+        {
+          "route_name": "James River navigation",
+          "description": "The James River was navigable by oceangoing vessels to the fall line at present-day Richmond. Tobacco ships from England anchored at plantation landings throughout the Tidewater. The James was the primary commercial artery of the colony.",
+          "travel_time": "Jamestown to the fall line: 1-2 days by sail, depending on wind and tide."
+        },
+        {
+          "route_name": "York River navigation",
+          "description": "The York River was navigable by large vessels to West Point and by smaller vessels into the Pamunkey and Mattaponi tributaries. Yorktown controlled the narrows.",
+          "travel_time": "Yorktown to West Point: half a day by sail."
+        },
+        {
+          "route_name": "Jamestown-Middle Plantation road",
+          "description": "The overland route from Jamestown to Middle Plantation (Williamsburg), roughly 7 miles through sandy pine woods. One of the first maintained roads in Virginia.",
+          "travel_time": "2-3 hours on horseback; half a day on foot."
+        }
+      ],
+      "isolation_index": {
+        "description": "Tidewater counties were connected by water but isolated by land. A family on a creek without navigable access to a major river was effectively marooned. The tidal creek geography of Gloucester, York, and James City counties created a landscape where the nearest neighbor by water might be miles away by road.",
+        "most_connected": "James City County (capital at Jamestown, river access)",
+        "most_isolated": "Surry County (south bank, dependent on ferry across mile-wide James)"
+      },
+      "source": "Fischer, David Hackett. Albion's Seed: Four British Folkways in America. Oxford University Press, 1989."
+    },
+    {
+      "era": "1700–1780",
+      "era_name": "Roads Emerge, Rivers Remain Dominant",
+      "description": "The colonial government required counties to maintain roads, but the results were uneven. The main road from Williamsburg to Richmond through New Kent County was the most traveled overland route — stage stops, taverns, and ordinaries lined the road. The road from Williamsburg to Hampton and Norfolk developed as a secondary route. Ferries connected the south-bank counties (Surry, Isle of Wight) to the north bank. Rivers remained the primary commercial transportation — roads carried people and light goods, rivers carried tobacco.",
+      "primary_modes": ["river navigation", "horseback", "horse-drawn wagon and cart", "stagecoach (on major routes)", "ferry"],
+      "key_routes": [
+        {
+          "route_name": "Williamsburg-Richmond road (through New Kent)",
+          "description": "The main overland route between Virginia's colonial capital and the emerging commercial center at the fall line. Taverns at regular intervals served travelers. Martha Dandridge traveled this road to St. Peter's Church for her wedding to George Washington in 1759.",
+          "travel_time": "Williamsburg to Richmond: 1-2 days by horseback or stage."
+        },
+        {
+          "route_name": "Williamsburg-Yorktown road",
+          "description": "Connecting the capital to the principal port on the York River. Important for commerce and government business.",
+          "travel_time": "Half a day by horseback."
+        },
+        {
+          "route_name": "Scotland-Jamestown ferry (Surry-James City)",
+          "description": "The primary ferry crossing connecting Surry County on the south bank to the Jamestown road on the north bank. A flat-bottomed barge carried passengers, horses, and wagons across the mile-wide James.",
+          "travel_time": "30 minutes to 1 hour for the crossing, depending on wind and current."
+        },
+        {
+          "route_name": "Smithfield-Norfolk road",
+          "description": "Connecting Isle of Wight County to the growing port of Norfolk. Important for the hog and peanut economy.",
+          "travel_time": "1 day by wagon."
+        }
+      ],
+      "isolation_index": {
+        "description": "Roads improved connectivity but remained sandy, rutted, and weather-dependent. The Tidewater's flat terrain meant that roads were often waterlogged in spring and summer. Ferries were critical for cross-river movement but were unreliable in bad weather.",
+        "most_connected": "James City County (capital, roads in all directions)",
+        "most_isolated": "King William County (interior, no direct water access to the Chesapeake)"
+      },
+      "source": "Isaac, Rhys. The Transformation of Virginia, 1740-1790. Chapel Hill: UNC Press, 1982."
+    },
+    {
+      "era": "1780–1860",
+      "era_name": "Turnpikes, Steamboats, and the First Railroad",
+      "description": "The capital moved to Richmond in 1780, reorienting the Tidewater's road network. Turnpikes (toll roads) improved the main routes but remained expensive for ordinary travelers. Steamboat service on the James and York Rivers began in the 1810s-1820s, dramatically improving travel times and reliability. The Richmond & York River Railroad (completed 1861, though partially operational earlier) connected Richmond to West Point through New Kent and King William counties. The railroad promised to transform the interior counties but was completed just in time for the Civil War.",
+      "primary_modes": ["steamboat", "stagecoach", "horseback", "wagon", "railroad (emerging)", "ferry"],
+      "key_routes": [
+        {
+          "route_name": "James River steamboat service",
+          "description": "Regular steamboat service between Richmond and Norfolk, with stops at plantation landings along the James. Transformed travel from days to hours.",
+          "travel_time": "Richmond to Norfolk: 8-12 hours by steamboat (vs. 2-3 days by road)."
+        },
+        {
+          "route_name": "Richmond & York River Railroad",
+          "description": "Railroad connecting Richmond to West Point through New Kent and King William counties. Partially operational in the 1850s, completed 1861. Became a military supply line during the Civil War.",
+          "travel_time": "Richmond to West Point: 2-3 hours by rail."
+        },
+        {
+          "route_name": "Richmond-Williamsburg turnpike",
+          "description": "Improved road replacing the colonial-era route through New Kent. Toll gates at intervals.",
+          "travel_time": "1 day by stage; faster by private horse."
+        }
+      ],
+      "isolation_index": {
+        "description": "Steamboats connected river counties more tightly to Richmond and Norfolk. Interior counties without river navigation or railroad access remained isolated. The railroad's arrival in King William and New Kent counties was transformative but arrived too late to fully develop before the war.",
+        "most_connected": "Henrico County / Richmond (capital, railroad hub, steamboat terminus)",
+        "most_isolated": "Surry County (still dependent on ferry; no railroad until the 20th century)"
+      },
+      "source": "Dunaway, Wayland F. History of the James River and Kanawha Company. New York: Columbia University Press, 1922."
+    },
+    {
+      "era": "1862–1870",
+      "era_name": "Military Roads and Postwar Rebuilding",
+      "description": "The Civil War both destroyed and built transportation infrastructure. Union armies built corduroy roads, repaired bridges, and operated the captured railroad. The existing road network was churned to mud by military traffic. After the war, transportation recovery was slow — the railroad was rebuilt, but county roads deteriorated without the labor system that had maintained them (enslaved road crews were gone, and county governments had no money for replacements).",
+      "primary_modes": ["railroad (rebuilt)", "steamboat (resumed)", "wagon", "horseback", "foot travel"],
+      "key_routes": [
+        {
+          "route_name": "Peninsula military corridor",
+          "description": "McClellan's advance created a military road network from Fort Monroe to the Chickahominy crossings. Some of these military roads became permanent improvements; others reverted to forest.",
+          "travel_time": "Fort Monroe to the Chickahominy: 2-3 days by army march (15-20 miles/day)."
+        }
+      ],
+      "isolation_index": {
+        "description": "Postwar connectivity was uneven. Richmond recovered relatively quickly. Rural counties fell behind as road maintenance collapsed. The ferry at Scotland-Jamestown continued to operate, keeping Surry marginally connected.",
+        "most_connected": "Henrico County / Richmond (railroad hub, steamboat)",
+        "most_isolated": "Surry, King William (no railroad, limited road maintenance)"
+      },
+      "source": "Sears, Stephen W. To the Gates of Richmond. Boston: Ticknor & Fields, 1992."
+    }
+  ],
+  "narrative_hooks": [
+    "In {ancestor_name}'s Virginia, the river was the road — everything that mattered came by water, and a family without a river landing was a family without a connection to the wider world.",
+    "The ferry at Scotland was {ancestor_name}'s lifeline — the flat-bottomed barge that carried {pronoun_object} across the mile-wide James was the only connection between Surry County's south-bank isolation and the markets, courts, and churches on the north side.",
+    "The Williamsburg-Richmond road that passed through {ancestor_name}'s county was Virginia's main street — every traveler, every stagecoach, every army that moved between the two capitals passed through New Kent, and the taverns at the crossroads were where the news arrived.",
+    "When the railroad reached {ancestor_name}'s county, it changed the speed of everything — goods that took two days by wagon reached Richmond in hours, and the world that had seemed distant was suddenly close."
+  ],
+  "source_references": [
+    "Isaac, Rhys. The Transformation of Virginia, 1740-1790. Chapel Hill: University of North Carolina Press, 1982.",
+    "Fischer, David Hackett. Albion's Seed: Four British Folkways in America. New York: Oxford University Press, 1989.",
+    "Dunaway, Wayland F. History of the James River and Kanawha Company. New York: Columbia University Press, 1922.",
+    "Sears, Stephen W. To the Gates of Richmond: The Peninsula Campaign. Boston: Ticknor & Fields, 1992.",
+    "Kulikoff, Allan. Tobacco and Slaves. Chapel Hill: University of North Carolina Press, 1986."
+  ],
+  "nel_cross_references": {
+    "route_refs": ["atlantic_coastal_route", "james_river_route"],
+    "trigger_refs": ["civil_war_displacement", "civil_war_service"],
+    "life_pattern_refs": ["tobacco_soil_exhaustion"]
+  }
+}

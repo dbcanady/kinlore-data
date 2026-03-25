@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Chester County, SC. Record survival, courthouse history, and known losses.",
+  "courthouse_atlas_id": "sc_chester_courthouse",
+  "display_name": "Chester County, South Carolina — Courthouse Atlas",
+  "county": "Chester",
+  "state": "SC",
+  "fips_code": "45023",
+  "cluster_ref": "sc_piedmont_upcountry",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1852,
+      "location": "Chester, SC — 140 Main Street (one of the oldest courthouses still in use in SC)",
+      "records_housed": ["deeds", "plats", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1785–1826",
+        "location": "Chester (formerly Chesterville), courthouse square",
+        "fate": "Early frame courthouse. Chester County was created from the old Camden District. Replaced as county grew."
+      },
+      {
+        "era": "1826–1852",
+        "location": "Chester, courthouse square",
+        "fate": "Brick courthouse. Replaced by the current 1852 structure which still stands — one of the oldest courthouses in continuous use in South Carolina."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "chester_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire or war damage",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage bonds/licenses", "estate files"],
+      "scope": "none",
+      "description": "Chester County's courthouse — the 1852 building, remarkably still in use — survived the Civil War without major damage and has never experienced a catastrophic fire. Records run continuously from the county's 1785 formation. This makes Chester one of the best-preserved counties in the Upcountry for genealogical research. The old Camden District records cover the pre-1785 period.",
+      "narrative_impact": "If {ancestor_name} lived in Chester County after 1785, the records are there — in one of the oldest courthouses still standing in South Carolina. Gaps in the paper trail point to the ancestor's circumstances rather than record loss.",
+      "source": "SC Department of Archives and History. Guide to County Records in the South Carolina State Archives."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1785,
+      "completeness": "Excellent — continuous from county formation",
+      "gaps": "No known significant gaps. Camden District records cover the pre-1785 period.",
+      "repository": "Chester County Register of Deeds; SC Department of Archives and History microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com SC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1786,
+      "completeness": "Good — from near-formation",
+      "gaps": "Some early loose papers are fragmentary. Camden District probate records cover pre-1785.",
+      "repository": "Chester County Probate Court; SC Department of Archives and History",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1785,
+      "completeness": "Good — marriage bonds from formation. Licenses required statewide 1911.",
+      "gaps": "Pre-1911 coverage through bonds and church records.",
+      "repository": "Chester County Probate Court; SC Department of Archives and History",
+      "online_access": "FamilySearch; Ancestry.com SC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1785,
+      "completeness": "Good — continuous from formation",
+      "gaps": "No significant gaps.",
+      "repository": "SC Department of Archives and History; Chester County Clerk of Court",
+      "online_access": "SC Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1915,
+      "death_registration_start": 1915,
+      "completeness": "Spotty until approximately 1920.",
+      "repository": "SC DHEC; SC Department of Archives and History"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Camden District records",
+      "description": "Chester County was part of the old Camden District before 1785. District court records, deeds, and other legal documents covering the Chester area before county formation are essential for tracing early families.",
+      "repository": "SC Department of Archives and History",
+      "era_coverage": "1769–1785",
+      "genealogical_value": "Essential for pre-1785 families. The Camden District covered a vast area of the colonial backcountry, and its records include some of the earliest legal documentation for the Upcountry.",
+      "source": "SC Department of Archives and History. Camden District Records finding aid."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790–1940. Chester County is enumerated from the first federal census.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790–1940",
+      "genealogical_value": "Essential baseline. Slave schedules (1850, 1860) are particularly important for Chester County given its significant slaveholding population.",
+      "source": "National Archives and Records Administration."
+    },
+    {
+      "source_type": "Associate Reformed Presbyterian (ARP) church records",
+      "description": "Chester County had a strong ARP presence — Scots-Irish congregations that maintained detailed session records. These churches were among the best record-keepers in the Upcountry.",
+      "repository": "Individual congregations; ARP denominational archives at Erskine College, Due West, SC",
+      "era_coverage": "1780s–present",
+      "genealogical_value": "ARP session records include membership rolls, baptisms, marriages, disciplinary actions, and certificates of dismission. For Scots-Irish families, these records may predate and supplement county records.",
+      "source": "Erskine College ARP Archives."
+    }
+  ],
+  "narrative_hooks": [
+    "Chester County's 1852 courthouse still stands — one of the oldest in South Carolina still in use — and {ancestor_name}'s records are likely in the same building where they were originally filed.",
+    "Before 1785, Chester County was part of the Camden District, and {ancestor_name}'s earliest records are filed under that older jurisdiction at the SC Department of Archives and History.",
+    "If {ancestor_name} was ARP (Associate Reformed Presbyterian), the church session records at Erskine College may hold more detail than the courthouse — the Scots-Irish churches kept records that would make a Moravian Brother nod with approval.",
+    "Chester County's slaveholding rate was higher than the northern Upcountry counties — if {ancestor_name} owned enslaved people, the estate inventories and bills of sale in the courthouse provide the documentation. If {ancestor_name} was enslaved, the slave schedules and postwar Freedmen's Bureau records are the starting point."
+  ],
+  "source_references": [
+    "SC Department of Archives and History. Guide to County Records in the South Carolina State Archives.",
+    "SC Department of Archives and History. Camden District Records finding aid.",
+    "Works Progress Administration. Historical Records Survey: South Carolina County Records. Columbia, 1937–1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "sc_chester",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

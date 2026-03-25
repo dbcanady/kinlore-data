@@ -1,0 +1,122 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Salem County, NJ. Record survival, courthouse history, and known losses. Salem holds some of the oldest English-language records in the Delaware Valley — deeds from the 1670s Fenwick Colony. Also holds pre-1748 Cumberland County records.",
+  "courthouse_atlas_id": "nj_salem_courthouse",
+  "display_name": "Salem County, New Jersey — Courthouse Atlas",
+  "county": "Salem",
+  "state": "NJ",
+  "fips_code": "34033",
+  "cluster_ref": "nj_delaware_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1908,
+      "location": "Salem, NJ — Market Street",
+      "records_housed": ["deeds", "mortgages", "wills", "surrogate court records", "marriage licenses", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1675–1817",
+        "location": "Salem — various structures from the colonial period",
+        "fate": "Replaced over time. Records transferred."
+      },
+      {
+        "era": "1817–1908",
+        "location": "Salem — earlier brick courthouse",
+        "fate": "Replaced by current building. No major record loss."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "salem_no_major_loss",
+      "date": null,
+      "cause": "No major fire or disaster destroying records",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1670s", "will books from 1680s", "court minutes from 1681", "marriage licenses from 1795"],
+      "scope": "none",
+      "description": "Salem County's records are among the oldest in New Jersey, reflecting its status as the site of the first English-speaking settlement on the Delaware (Fenwick's Colony, 1675). Deed books survive from the 1670s. The records also include pre-1748 material for what became Cumberland County. No major fire or flood has destroyed courthouse records.",
+      "narrative_impact": "If {ancestor_name} was part of Fenwick's Colony or the early Quaker settlement, Salem County holds records from the 1670s — the oldest English-language civil records on the Delaware River. Gaps point to circumstance, not loss.",
+      "source": "Salem County Clerk's Office."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1675,
+      "completeness": "Exceptional — among the oldest in New Jersey and the Delaware Valley",
+      "gaps": "Some very early deeds in fragile condition. Fenwick Colony records are the earliest.",
+      "repository": "Salem County Clerk's Office, Salem; NJ State Archives",
+      "online_access": "FamilySearch microfilm; limited Ancestry.com"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1680,
+      "completeness": "Very good from the colonial era",
+      "gaps": "Some early loose papers fragmentary.",
+      "repository": "Salem County Surrogate's Office; NJ State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1795,
+      "completeness": "Good from 1795. Earlier marriages in Quaker meeting records and church records.",
+      "gaps": "No civil records before 1795.",
+      "repository": "Salem County Clerk's Office",
+      "online_access": "FamilySearch; Ancestry.com NJ marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1681,
+      "completeness": "Very good from the colonial era",
+      "gaps": "Minor condition issues with earliest volumes.",
+      "repository": "Salem County Clerk's Office; NJ State Archives",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1848,
+      "death_registration_start": 1848,
+      "completeness": "Spotty until 1900. Rural compliance was low.",
+      "repository": "NJ State Archives; NJ Department of Health"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Salem Quaker meeting records",
+      "description": "Salem Monthly Meeting (established 1676) is one of the oldest Quaker meetings in America. Meeting records document the founding families of the West Jersey colony. Salem Quarterly Meeting records cover the broader South Jersey Quaker community.",
+      "repository": "Friends Historical Library, Swarthmore College; Salem County Historical Society",
+      "era_coverage": "1676–present",
+      "genealogical_value": "Exceptional. Salem's Quaker records document the colony's founding generation — births, marriages, deaths, removals, and disciplinary actions from the earliest years of English settlement on the Delaware.",
+      "source": "Hinshaw, Encyclopedia of American Quaker Genealogy (1938)."
+    },
+    {
+      "source_type": "Swedish/Finnish colonial records",
+      "description": "The Swedish Lutheran church at Swedesboro (Holy Trinity / Old Swedes') served the Swedish and Finnish families who predated the English Quaker settlement. Records in Swedish and English.",
+      "repository": "Holy Trinity Church, Swedesboro; Swedish Colonial Society; NJ State Archives",
+      "era_coverage": "1640s–1800",
+      "genealogical_value": "Critical for families with Swedish or Finnish roots. These records predate any English civil records in the region.",
+      "source": "Johnson, The Swedish Settlements on the Delaware (1911)."
+    },
+    {
+      "source_type": "Cumberland County pre-1748 records",
+      "description": "Cumberland County was carved from Salem in 1748. Pre-1748 records for the Cohansey Creek and Maurice River areas are in Salem County files.",
+      "repository": "Salem County Clerk's Office; NJ State Archives",
+      "era_coverage": "1675–1748",
+      "genealogical_value": "Essential for any Cumberland County family with roots before 1748.",
+      "source": "Salem County Clerk's Office."
+    }
+  ],
+  "narrative_hooks": [
+    "Salem County holds some of the oldest English-language records on the Delaware — deeds from the 1670s Fenwick Colony, when the settlement predated Philadelphia itself.",
+    "For Quaker families, Salem Monthly Meeting records from 1676 document the colony's founding generation — if {ancestor_name} was among Fenwick's settlers, the meeting register is the primary evidence.",
+    "Salem County also holds pre-1748 Cumberland County records — if {ancestor_name}'s family was on the Cohansey before Cumberland was created, the deed is at Salem.",
+    "Swedish colonial records at Old Swedes' Church in Swedesboro predate the English records — if {ancestor_name} had Swedish or Finnish roots, the church register goes back to the 1640s."
+  ],
+  "source_references": [
+    "Salem County Clerk's Office. Guide to Salem County Records.",
+    "Hinshaw, William Wade. Encyclopedia of American Quaker Genealogy, Vol. 2. Ann Arbor: Edwards Brothers, 1938.",
+    "Johnson, Amandus. The Swedish Settlements on the Delaware. 2 vols. Philadelphia: University of Pennsylvania, 1911.",
+    "Cushing, Thomas, and Charles E. Sheppard. History of the Counties of Gloucester, Salem, and Cumberland, New Jersey. Philadelphia: Everts and Peck, 1883."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nj_salem",
+    "research_guidance_refs": ["quaker_records", "property_records"],
+    "template_refs": ["record_silences", "document_deep_read"]
+  }
+}

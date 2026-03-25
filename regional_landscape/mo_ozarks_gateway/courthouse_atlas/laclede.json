@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Laclede County, MO. Record survival and courthouse history. Laclede County formed 1849. No major courthouse fire — records are relatively well-preserved from county formation. Lebanon is the county seat.",
+  "courthouse_atlas_id": "mo_laclede_courthouse",
+  "display_name": "Laclede County, Missouri — Courthouse Atlas",
+  "county": "Laclede",
+  "state": "MO",
+  "fips_code": "29105",
+  "cluster_ref": "mo_ozarks_gateway",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1925,
+      "location": "Lebanon, MO — 200 N. Adams Avenue",
+      "records_housed": ["deeds", "plats", "marriage records", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1849-1870s",
+        "location": "Lebanon, courthouse square",
+        "fate": "Replaced as county grew. Records transferred."
+      },
+      {
+        "era": "1870s-1925",
+        "location": "Lebanon",
+        "fate": "Replaced by the current 1925 building. Records transferred intact."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "laclede_civil_war_disruption",
+      "date": "1861-1865",
+      "cause": "Civil War guerrilla warfare disrupted record-keeping; some records incomplete during war years",
+      "records_destroyed": [],
+      "records_survived": ["Most county records survived; courthouse not burned"],
+      "scope": "minor",
+      "description": "The Civil War disrupted record-keeping in Laclede County. Guerrilla activity made court sessions irregular and dangerous. Some records from the war years are incomplete or missing. The courthouse itself was not burned — unusual for a Missouri Ozark county in the guerrilla zone.",
+      "narrative_impact": "Records from 1861-1865 may have gaps — the guerrilla war made holding court dangerous and recording transactions secondary to survival.",
+      "source": "Missouri State Archives. Guide to County Records on Microfilm: Laclede County."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1849,
+      "completeness": "Good — continuous from county formation.",
+      "gaps": "Civil War-era recording may be incomplete.",
+      "repository": "Laclede County Recorder of Deeds, Lebanon; Missouri State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1849,
+      "completeness": "Good — from county formation.",
+      "gaps": "Sparse in earliest years; few estates to probate on the frontier.",
+      "repository": "Laclede County Probate Court; Missouri State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1849,
+      "completeness": "Good — from county formation.",
+      "gaps": "Civil War-era gaps possible.",
+      "repository": "Laclede County Recorder; Missouri State Archives",
+      "online_access": "FamilySearch; Ancestry.com MO marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1849,
+      "completeness": "Good — from county formation with Civil War-era gaps.",
+      "gaps": "Sessions irregular during the Civil War.",
+      "repository": "Missouri State Archives; Laclede County Circuit Court",
+      "online_access": "Missouri State Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1883,
+      "death_registration_start": 1883,
+      "completeness": "Poor compliance in rural areas until approximately 1910. Lebanon compliance better than the surrounding hollows.",
+      "repository": "Missouri Department of Health and Senior Services; Missouri State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Lebanon newspapers",
+      "description": "The Laclede County Republican and its successor papers documented births, deaths, marriages, court proceedings, and community events from the 1870s.",
+      "repository": "State Historical Society of Missouri; Laclede County Library",
+      "era_coverage": "1870s-present",
+      "genealogical_value": "Good supplement to courthouse records. Court session reporting, property transfers, and obituaries are particularly useful.",
+      "source": "State Historical Society of Missouri newspaper holdings."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1850-1940. First enumerated as Laclede County in 1850.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1850-1940",
+      "genealogical_value": "Essential baseline. The 1860 census is particularly valuable for documenting the pre-war population in a county that was heavily disrupted by guerrilla warfare.",
+      "source": "National Archives and Records Administration."
+    },
+    {
+      "source_type": "Route 66 business records",
+      "description": "Motor courts, cafes, and gas stations along Route 66 through Lebanon kept business records that may document employment and community members in the highway era.",
+      "repository": "Laclede County Historical Society; Route 66 Association of Missouri",
+      "era_coverage": "1926-1960s",
+      "genealogical_value": "Limited but occasionally useful for tracking families in the Route 66 economy.",
+      "source": "Route 66 Association of Missouri archives."
+    }
+  ],
+  "narrative_hooks": [
+    "Laclede County's courthouse survived the Civil War intact — unusual in the Missouri Ozarks. If {ancestor_name} was in the county from 1849, the deed and marriage records are there.",
+    "Missouri vital records were required from 1883 but rarely enforced in the hollows — if {ancestor_name} was born in a cabin east of Lebanon, the birth certificate may never have been filed.",
+    "The 1860 census is the last snapshot of Laclede County before the guerrilla war tore it apart — if {ancestor_name} was enumerated that year, the census may be the last normal record before four years of chaos.",
+    "The Laclede County Republican documented the community from the 1870s — if {ancestor_name} died or appeared in court, the newspaper may hold the notice."
+  ],
+  "source_references": [
+    "Missouri State Archives. Guide to County Records on Microfilm: Laclede County.",
+    "State Historical Society of Missouri newspaper holdings.",
+    "Works Progress Administration. Historical Records Survey: Missouri County Records. Jefferson City, 1937-1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "mo_laclede",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

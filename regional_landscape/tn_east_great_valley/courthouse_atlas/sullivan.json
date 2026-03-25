@@ -1,0 +1,127 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Sullivan County, TN. Formed 1779 from Washington County. Seat: Blountville. Courthouse survived the Civil War without major damage. Records from 1779 onward are generally well-preserved.",
+  "courthouse_atlas_id": "tn_sullivan_courthouse",
+  "display_name": "Sullivan County, Tennessee — Courthouse Atlas",
+  "county": "Sullivan",
+  "state": "TN",
+  "fips_code": "47163",
+  "cluster_ref": "tn_east_great_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1921,
+      "location": "Blountville, TN",
+      "records_housed": ["deeds", "wills", "court minutes", "marriage records", "tax records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1779–1830s",
+        "location": "Blountville, original site",
+        "fate": "Early log and frame courthouses. Records maintained through transitions."
+      },
+      {
+        "era": "1830s–1864",
+        "location": "Blountville",
+        "fate": "Brick courthouse. Minor damage during Civil War when Confederate and Union forces skirmished near Blountville (Battle of Blountville, September 1863), but the courthouse survived."
+      },
+      {
+        "era": "1864–1921",
+        "location": "Blountville",
+        "fate": "Rebuilt/repaired courthouse served until replaced by the current 1921 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "sullivan_civil_war_minor_damage",
+      "date": "1863",
+      "cause": "Battle of Blountville — minor disruption",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage records"],
+      "scope": "minor",
+      "description": "The Battle of Blountville (September 22, 1863) was a skirmish between Union cavalry under Col. John W. Foster and Confederate forces under Col. James E. Carter. The fighting occurred near but not in the courthouse. County records survived intact. Court business was disrupted during periods of military occupation but records were maintained.",
+      "narrative_impact": "Sullivan County records are continuous from 1779. Civil War gaps are operational (court not meeting), not destructive. If {ancestor_name}'s legal transactions are absent during 1862-1864, the war disrupted civil government, but the records themselves survive.",
+      "source": "Tennessee State Library and Archives. Guide to County Records: Sullivan County."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1779,
+      "completeness": "Excellent — continuous from county formation",
+      "gaps": "No significant gaps. Pre-1796 deeds are NC grants.",
+      "repository": "Sullivan County Register of Deeds, Blountville; Tennessee State Library and Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com TN land records (partial)"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1780,
+      "completeness": "Good — wills and estate records from near-formation",
+      "gaps": "Earliest loose papers may be fragmentary. Bound volumes intact.",
+      "repository": "Sullivan County Clerk; Tennessee State Library and Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1785,
+      "completeness": "Good — marriage bonds from the 1780s",
+      "gaps": "Some early bonds are damaged. Post-1838 records more complete under state registration.",
+      "repository": "Sullivan County Clerk; Tennessee State Library and Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com TN marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1779,
+      "completeness": "Excellent — among the earliest county court records in Tennessee",
+      "gaps": "Civil War disruption 1862-1864. Otherwise continuous.",
+      "repository": "Sullivan County Clerk; Tennessee State Library and Archives",
+      "online_access": "TSLA digital collections (partial)"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Incomplete before approximately 1914. City health departments in Bristol and Kingsport may have earlier records.",
+      "repository": "Tennessee Department of Health; TSLA for delayed certificates"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Long Island treaty records",
+      "description": "The treaties negotiated at Long Island of the Holston (within modern Sullivan County/Kingsport) are documented in colonial and early federal records. These name participants and describe land transactions that established the basis for settlement.",
+      "repository": "North Carolina State Archives; Tennessee State Library and Archives; published in Williams, Tennessee During the Revolutionary War",
+      "era_coverage": "1770s-1790s",
+      "genealogical_value": "Treaty records and associated petitions name early settlers and their land claims.",
+      "source": "Williams, Samuel Cole. Tennessee During the Revolutionary War. Nashville: Tennessee Historical Commission, 1944."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790-1940. Sullivan County is enumerated from the earliest TN census.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790-1940",
+      "genealogical_value": "Essential for tracking families. The industrial growth of Kingsport (1917+) and Bristol means census records after 1920 show significant population changes.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Sullivan County, TN."
+    },
+    {
+      "source_type": "Kingsport and Bristol industrial records",
+      "description": "Tennessee Eastman Company, Kingsport Press, and other industrial employers maintained personnel records. Bristol's railroad and commercial firms also kept records. Where these survive, they document workers not otherwise found in county records.",
+      "repository": "East Tennessee State University Archives; Tennessee Eastman corporate archives (access varies); Bristol Public Library local history collection",
+      "era_coverage": "1917-1960",
+      "genealogical_value": "Critical for post-1917 ancestor tracking in Kingsport. Industrial employment records may be the primary documentation for workers who rented company housing and owned no property.",
+      "source": "Wolfe, Margaret Ripley. Kingsport, Tennessee: A Planned American City. Lexington: University Press of Kentucky, 1987."
+    }
+  ],
+  "narrative_hooks": [
+    "Sullivan County's records reach to 1779, and the courthouse has never burned. If {ancestor_name} lived here, the paper trail almost certainly survives.",
+    "The Battle of Blountville in 1863 brought the war to the courthouse steps — but the records survived. {ancestor_name}'s deeds, wills, and court proceedings were not casualties.",
+    "If {ancestor_name} worked at Tennessee Eastman or Kingsport Press after 1917, the company records may hold more about {pronoun_object} than the courthouse — employment dates, wages, and housing assignments that county records never captured.",
+    "Sullivan County's marriage bonds reach to the 1780s — and if {ancestor_name} married here before Tennessee was a state, the bond is a North Carolina document in a Tennessee courthouse."
+  ],
+  "source_references": [
+    "Tennessee State Library and Archives. Guide to County Records: Sullivan County.",
+    "Williams, Samuel Cole. Tennessee During the Revolutionary War. Nashville: Tennessee Historical Commission, 1944.",
+    "Wolfe, Margaret Ripley. Kingsport, Tennessee: A Planned American City. Lexington: University Press of Kentucky, 1987.",
+    "Fisher, Noel C. War at Every Door. Chapel Hill: University of North Carolina Press, 1997."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "tn_sullivan",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

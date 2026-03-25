@@ -1,0 +1,51 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Albany County, NY. One of the original twelve NY counties (formed 1683) — the parent county for much of upstate New York. Dutch-era records predate the English system. Critical note: Albany County originally encompassed all of New York north and west of Dutchess and Ulster counties; many other counties were carved from it.",
+  "courthouse_atlas_id": "ny_albany_courthouse",
+  "display_name": "Albany County, New York — Courthouse Atlas",
+  "county": "Albany",
+  "state": "NY",
+  "fips_code": "36001",
+  "cluster_ref": "ny_hudson_valley",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1916, "location": "Albany, NY — 16 Eagle Street", "records_housed": ["deeds", "mortgages", "lis pendens", "wills", "court minutes", "naturalization records"] },
+    "previous_courthouses": [
+      { "era": "1683-1740", "location": "Albany — fort and stadthuys (city hall)", "fate": "Early records kept in the Dutch tradition at the city hall. The transition from Dutch to English record-keeping created dual systems for a generation." },
+      { "era": "1740-1809", "location": "Albany, dedicated courthouse buildings on State Street", "fate": "Frame and stone courthouses. No significant fire damage to records." },
+      { "era": "1809-1916", "location": "Albany, stone courthouse", "fate": "Served through the Civil War. Replaced by the current building." }
+    ]
+  },
+  "record_losses": [
+    { "loss_id": "albany_minor_1880_fire", "date": "1880-03-29", "cause": "New York State Capitol fire (separate from county courthouse)", "records_destroyed": ["Some state library collections (not county records)", "State survey maps and documents"], "records_survived": ["County deed books", "will books", "court minutes — county records were housed separately from state records"], "scope": "none for county records — the 1880 Capitol fire destroyed state collections but not Albany County courthouse records", "description": "The 1880 fire in the New York State Capitol destroyed portions of the State Library collection, including some historical manuscripts. Albany County courthouse records were housed separately and were not affected. However, researchers should be aware that some state-level records (surveys, colonial papers) relevant to Albany County may have been lost in the Capitol fire.", "narrative_impact": "Albany County's own records survive intact. But researchers seeking colonial-era state papers (land surveys, colonial correspondence) should note that the 1880 Capitol fire may have destroyed copies that supplemented the county records.", "source": "New York State Archives. Guide to Records in the New York State Archives. Albany, 1993." }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1630, "completeness": "Exceptional — Dutch-era records from the Rensselaerwyck patroonship and Fort Orange are the oldest continuous European land records in New York. The transition from Dutch to English recording systems (1664) created overlapping documentation.", "gaps": "The earliest Dutch records are in the New York State Archives, not the county clerk's office. English-language deed recording begins after 1664.", "repository": "Albany County Clerk's Office; New York State Archives (Dutch records); New York State Library", "online_access": "FamilySearch; Ancestry.com; NY State Archives digital collections" },
+    "wills_estates": { "earliest_surviving": 1680, "completeness": "Excellent. Surrogate's Court records from the colonial period.", "gaps": "Dutch-era estate matters may appear in the New Netherland papers rather than county records.", "repository": "Albany County Surrogate's Court; NY State Archives", "online_access": "FamilySearch; NY State Archives online catalog" },
+    "marriages": { "earliest_surviving": 1847, "completeness": "Standard NY pattern. Dutch Reformed church records fill the pre-civil-registration gap.", "gaps": "Pre-1880 civil registration sparse.", "repository": "Town clerks; NY State Department of Health", "online_access": "FamilySearch; Ancestry.com" },
+    "court_minutes": { "earliest_surviving": 1668, "completeness": "Excellent. Among the oldest court records in New York.", "gaps": "Dutch-era court records (Rensselaerswijck court) are in the State Archives.", "repository": "Albany County Clerk's Office; NY State Archives", "online_access": "NY State Archives digital collections; limited FamilySearch" },
+    "vital_records": { "birth_registration_start": 1880, "death_registration_start": 1880, "completeness": "Standard NY pattern. Albany city vital records may predate county-level registration.", "repository": "City of Albany; Town clerks; NY State Department of Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "New Netherland records (Dutch colonial)", "description": "The New Netherland papers — administrative records of the Dutch colony from 1624 to 1664 — are the foundational records for the Albany area. They include court proceedings, land grants, notarial records, and administrative correspondence. The New Netherland Institute has translated much of this material.", "repository": "New York State Archives; New York State Library; New Netherland Institute translations", "era_coverage": "1624-1664", "genealogical_value": "Essential for the earliest European families in the Hudson Valley. Records are in Dutch. The New Netherland Institute's translations make them accessible to non-Dutch-reading researchers.", "source": "Gehring, Charles T., trans. New York Historical Manuscripts: Dutch. Syracuse: Syracuse University Press, various volumes." },
+    { "source_type": "Dutch Reformed Church records (Albany)", "description": "The First Church in Albany (Dutch Reformed) maintained records from the 1640s — among the oldest church records in New York.", "repository": "First Church in Albany archives; Reformed Church in America Archives; NY Genealogical and Biographical Society", "era_coverage": "1640s-present", "genealogical_value": "Critical. Baptism records with parents and sponsors. Marriage records. Burial records. All in Dutch through the mid-18th century.", "source": "Corwin, Edward T. A Manual of the Reformed Church in America. Board of Publication, 1902." },
+    { "source_type": "Erie Canal and transportation company records", "description": "The canal companies, steamboat lines, and later the New York Central Railroad maintained employment and operational records.", "repository": "New York State Archives; New York State Museum; Albany Institute of History and Art", "era_coverage": "1825-1960", "genealogical_value": "Useful for identifying canal workers, dock laborers, and railroad employees. Many were Irish and German immigrants.", "source": "Sheriff, Carol. The Artificial River. Hill and Wang, 1996." }
+  ],
+  "narrative_hooks": [
+    "Albany County's records are the oldest in upstate New York — the Dutch began recording at Fort Orange in the 1630s. {ancestor_name}'s earliest records may be in Dutch, predating the English takeover by decades.",
+    "Albany County was the parent county for most of upstate New York — if {ancestor_name}'s county was carved from Albany after 1683, the earliest records are filed under Albany County.",
+    "The Erie Canal made Albany a crossroads — if {ancestor_name} passed through heading west, naturalization records, canal employment records, or boarding house registrations at Albany may document the passage.",
+    "The 1880 Capitol fire destroyed state records but not county records — {ancestor_name}'s Albany County deeds and wills survived."
+  ],
+  "source_references": [
+    "Gehring, Charles T., trans. New York Historical Manuscripts: Dutch. Syracuse: Syracuse University Press, various volumes.",
+    "Corwin, Edward T. A Manual of the Reformed Church in America. New York: Board of Publication, 1902.",
+    "Sheriff, Carol. The Artificial River. New York: Hill and Wang, 1996.",
+    "New York State Archives. Guide to Records in the New York State Archives. Albany, 1993."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ny_albany",
+    "research_guidance_refs": ["property_records", "church_transfers", "vital_records"],
+    "template_refs": ["record_silences"]
+  }
+}

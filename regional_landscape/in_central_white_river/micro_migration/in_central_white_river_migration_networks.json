@@ -1,0 +1,173 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Micro-Migration Network Map for the IN Central White River cluster. Documents specific migration corridors, chain mechanics, and settlement patterns that moved people into, out of, and within this eight-county region from 1820 to 1960. Central Indiana was a destination rather than a source — people came from the Upland South, from Germany and Ireland, from Appalachian Kentucky, and from the rural South through the Great Migration.",
+  "migration_network_id": "in_central_white_river_migration_networks",
+  "display_name": "IN Central White River — Micro-Migration Network Map",
+  "cluster_ref": "in_central_white_river",
+  "era_range": "1820-1960",
+  "migration_corridors": [
+    {
+      "corridor_id": "upland_south_settlement",
+      "corridor_name": "Upland South Settlement: Kentucky, Virginia, and Carolina Families into Central Indiana",
+      "origin_counties": ["Various KY counties (Fayette, Madison, Lincoln, Bourbon)", "Various VA counties (Augusta, Rockbridge, Shenandoah)", "Various NC counties (Guilford, Randolph, Rowan)"],
+      "destination_area": "All eight counties in the cluster",
+      "era": "1820-1850",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of families over two generations. The Upland South was the dominant source of central Indiana's founding population.",
+      "evidence": {
+        "census_evidence": "The 1830 and 1840 federal census for central Indiana counties shows household heads with surnames characteristic of Kentucky and Virginia — many traceable to specific Upland South counties a generation earlier.",
+        "church_evidence": "Baptist and Methodist church records in central Indiana trace congregational origins to Kentucky and Virginia parent churches. Quaker certificates of removal document the North Carolina-to-Indiana pipeline precisely.",
+        "surname_clustering": "Kentucky and Virginia surnames dominate the earliest settlement records across all eight counties."
+      },
+      "chain_mechanics": {
+        "description": "Central Indiana was settled primarily by Upland South families moving north — not plantation slaveholders but yeoman farmers from Kentucky, Virginia, Tennessee, and North Carolina seeking cheap, productive land. They followed two corridors: the Ohio River to Madison and then north on the Michigan Road to Indianapolis, or overland through the National Road from Virginia and Ohio. Quaker families from North Carolina came specifically to escape slavery — their migration was ideologically motivated and communally organized.",
+        "kinship_role": "Kinship networks were the primary mechanism. A brother settled in Hamilton County and wrote home that the land was good; the extended family followed within a decade.",
+        "timeline": "Initial wave 1820-1830 (New Purchase lands open). Main wave 1830-1845. Tailing off by 1850 as most available land was claimed."
+      },
+      "narrative_hook": "The road from Kentucky to central Indiana was well-worn by the time {ancestor_name} traveled it — every family in the county seemed to have cousins south of the Ohio River, and the settlement was as much a transplanted neighborhood as a new frontier.",
+      "source": "Thornbrough, Indiana in the Civil War Era (1965). Madison, James H. The Indiana Way. Bloomington: Indiana University Press, 1986."
+    },
+    {
+      "corridor_id": "nc_quaker_migration",
+      "corridor_name": "North Carolina Quaker Migration to Central Indiana",
+      "origin_counties": ["Guilford (NC)", "Randolph (NC)", "Chatham (NC)", "Wayne (NC)"],
+      "destination_area": "Hendricks County (Plainfield), Hamilton County (Westfield, Cicero), Wayne County (Richmond — outside cluster but the Indiana Quaker hub)",
+      "era": "1820-1845",
+      "migration_type": "ideological_chain_migration",
+      "scale": "Hundreds of families. A significant minority of the settlement population but disproportionately influential due to community organization and anti-slavery activism.",
+      "evidence": {
+        "census_evidence": "North Carolina birthplaces in Hendricks and Hamilton County census records cluster in Quaker townships.",
+        "church_evidence": "Quaker certificates of removal trace specific families from NC yearly meetings to Indiana meetings — the most precise migration documentation available for any group in central Indiana.",
+        "surname_clustering": "Quaker surnames — Hadley, Henley, Mendenhall, Coffin, Osborn — appear in both NC and IN meeting records."
+      },
+      "chain_mechanics": {
+        "description": "North Carolina Quakers migrated to Indiana to escape living in a slave state. The migration was communally organized: Indiana Yearly Meeting coordinated the reception of families, the Plainfield and Westfield meetings received certificates of removal, and the community provided material support for new arrivals. This was not random frontier movement — it was planned religious migration.",
+        "kinship_role": "Quaker kinship and meeting networks were inseparable. Extended families migrated together, and the meeting's certificate system ensured that arriving families were vouched for and received.",
+        "timeline": "Main wave 1820-1840. Tapered off by 1845 as most motivated families had departed NC."
+      },
+      "narrative_hook": "{ancestor_name}'s family left North Carolina not because the soil was exhausted but because the institution of slavery was intolerable — they walked away from everything they had built rather than raise children in a slave state, and the Plainfield meeting was waiting to receive them.",
+      "source": "Hamm, Thomas D. The Quakers in America. New York: Columbia University Press, 2003. Thornbrough, The Negro in Indiana before 1900 (1957)."
+    },
+    {
+      "corridor_id": "german_immigration",
+      "corridor_name": "German Immigration to Indianapolis",
+      "origin_counties": ["Various German states — Württemberg, Baden, Bavaria, Hesse, Saxony, Prussia"],
+      "destination_area": "Marion County (Indianapolis south side), with secondary settlement in surrounding counties",
+      "era": "1840-1890",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of families. By 1860, approximately one-third of Indianapolis's population was German-born or first-generation German-American.",
+      "evidence": {
+        "census_evidence": "1860 census for Indianapolis shows dense German-born populations on the south side. Naturalization records at the Marion County courthouse document the process.",
+        "church_evidence": "German Lutheran, Catholic, and Reformed church records document arrivals. St. John's Evangelical, Sacred Heart Catholic, and Zion Evangelical maintained German-language records into the twentieth century.",
+        "surname_clustering": "German surnames dominate south-side Indianapolis census records from 1860 through 1920."
+      },
+      "chain_mechanics": {
+        "description": "German immigration to Indianapolis followed the national pattern — political refugees after 1848, economic migrants through the 1850s-1880s, and family reunification through the end of the century. Indianapolis's railroad connections made it accessible from eastern ports. The German community on the south side of Indianapolis was self-sustaining: German churches, schools, newspapers, social organizations (Turnverein, Liederkranz), and businesses created a parallel cultural world within the city.",
+        "kinship_role": "Family and village networks channeled migrants to Indianapolis. A letter from a brother who had found work prompted the next family member's emigration.",
+        "timeline": "Trickle 1835-1848. First surge 1848-1860 (political refugees and economic migrants). Sustained flow 1860-1890. Declining after 1890 as German immigration nationally slowed."
+      },
+      "narrative_hook": "Indianapolis's south side in {year} was as German as Stuttgart — {ancestor_name} could go from church to the Turnverein to the beer hall without speaking a word of English, and the neighbors would not have noticed.",
+      "source": "Bodenhamer and Barrows, Encyclopedia of Indianapolis (1994). Leary, Indianapolis: The Story of a City (1971)."
+    },
+    {
+      "corridor_id": "black_great_migration",
+      "corridor_name": "Black Great Migration to Indianapolis from Kentucky, Tennessee, and the Upper South",
+      "origin_counties": ["Various KY counties", "Various TN counties", "Various AL and MS counties (later wave)"],
+      "destination_area": "Marion County (Indianapolis — Indiana Avenue corridor, Martindale-Brightwood neighborhoods)",
+      "era": "1910-1960",
+      "migration_type": "chain_migration",
+      "scale": "Tens of thousands. Indianapolis's Black population grew from approximately 22,000 in 1910 to 98,000 in 1960.",
+      "evidence": {
+        "census_evidence": "1920-1960 census for Indianapolis shows concentrations of Kentucky- and Tennessee-born Black residents in the Indiana Avenue corridor.",
+        "church_evidence": "Black Baptist and AME churches in Indianapolis record substantial membership growth from Southern transfers. Bethel AME and Second Christian Church were institutional anchors."
+      },
+      "chain_mechanics": {
+        "description": "Indianapolis's railroad connections made it a natural destination for Black migrants from the Upper South. The migration followed church and kinship networks — a young man from Kentucky found work in Indianapolis, joined a church, and sent word south. Indiana Avenue became the center of Black Indianapolis, with churches, businesses, jazz clubs, and the Madam C.J. Walker Manufacturing Company. The Klan's 1920s stronghold in Indiana created a hostile environment, but the economic pull of factory jobs and the relative improvement over Southern racial violence sustained the migration.",
+        "kinship_role": "Church networks were as important as blood kinship. Indianapolis Black churches served as landing pads — providing housing referrals, job leads, and social integration.",
+        "timeline": "Trickle before 1910. First surge 1917-1920 (WWI). Sustained 1920-1940. Second surge 1942-1955 (WWII). Continuing 1955-1960."
+      },
+      "narrative_hook": "When {ancestor_name} arrived in Indianapolis from {origin_county} in {year}, Indiana Avenue was the destination — the churches, the clubs, the Walker Building, and the promise that the North, for all its Klan marches, was still better than what {pronoun_subject} had left.",
+      "source": "Thornbrough, Emma Lou. The Negro in Indiana before 1900 (1957). Pierce, Richard B. Polite Protest: The Political Economy of Race in Indianapolis, 1920-1970. Bloomington: Indiana University Press, 2005."
+    },
+    {
+      "corridor_id": "appalachian_factory_migration",
+      "corridor_name": "Appalachian Kentucky to Central Indiana Factories",
+      "origin_counties": ["Various eastern KY counties (Harlan, Pike, Floyd, Letcher, Perry)"],
+      "destination_area": "Marion County (Indianapolis east side), Madison County (Anderson GM plants)",
+      "era": "1940-1960",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of families. Eastern Kentucky coalfield decline pushed families toward Indianapolis and Anderson factory jobs, particularly after WWII.",
+      "evidence": {
+        "census_evidence": "1950 and 1960 census for Indianapolis and Anderson show clusters of eastern Kentucky-born residents.",
+        "church_evidence": "Holiness and Pentecostal churches established in Indianapolis by Kentucky migrants."
+      },
+      "chain_mechanics": {
+        "description": "The decline of eastern Kentucky coal mining after WWII pushed families toward factory employment. Indianapolis and Anderson, with their automotive and manufacturing plants, were accessible destinations. The migration followed the same kinship-chain pattern as the earlier Upland South settlement — a cousin in Anderson wrote home about GM wages, and the family followed.",
+        "kinship_role": "Family networks channeled migrants to specific neighborhoods and workplaces.",
+        "timeline": "Beginning in the 1940s, accelerating through the 1950s."
+      },
+      "narrative_hook": "The coal mines in eastern Kentucky were closing, and {ancestor_name} heard about the GM wages in Anderson from a cousin who had already made the move — the factory paid more in a week than the mine had paid in a month, and the roof did not collapse.",
+      "source": "Eller, Ronald D. Miners, Millhands, and Mountaineers. University of Tennessee Press, 1982. Bodenhamer and Barrows, Encyclopedia of Indianapolis (1994)."
+    }
+  ],
+  "internal_movement_patterns": [
+    {
+      "pattern_id": "farm_to_city",
+      "pattern_name": "Farm-to-City Movement within the Cluster",
+      "description": "The most common internal migration was the short-distance farm-to-city move — a family from Hamilton, Hancock, Hendricks, Morgan, Johnson, or Shelby County relocating to Indianapolis for factory employment or service-sector work. The interurban and later the automobile enabled this without requiring a complete uprooting — a family could maintain connections to their home county while working in Marion County.",
+      "era": "1880-1960",
+      "counties_affected": ["Marion", "Hamilton", "Hancock", "Hendricks", "Morgan", "Johnson", "Shelby", "Madison"],
+      "narrative_hook": "The move from the farm in {county} County to the factory in Indianapolis was the shortest migration in the family's history — ten miles that crossed the boundary between the agricultural world and the industrial one."
+    },
+    {
+      "pattern_id": "suburban_reverse",
+      "pattern_name": "Indianapolis-to-Suburb Movement",
+      "description": "After WWII, the reverse of the farm-to-city pattern: Indianapolis families moving to suburban homes in Hamilton, Hancock, Hendricks, and Johnson counties. GI Bill mortgages financed the move. The flat terrain offered no natural barriers to suburban expansion.",
+      "era": "1945-1960",
+      "counties_affected": ["Marion", "Hamilton", "Hancock", "Hendricks", "Johnson"],
+      "narrative_hook": "{ancestor_name} left the city for the suburbs — trading an Indianapolis apartment for a ranch house on former farmland in {county} County, paid for by the same GI Bill that had put {pronoun_object} through school."
+    }
+  ],
+  "settlement_clusters": [
+    {
+      "cluster_name": "Indianapolis German South Side",
+      "counties": ["Marion"],
+      "description": "The densest German-American settlement in central Indiana — churches, Turnverein, newspapers, and beer halls creating a self-sustaining German cultural world within the larger city. Centered on South Meridian Street and the neighborhoods south of Washington Street.",
+      "era": "1845-1920"
+    },
+    {
+      "cluster_name": "Indiana Avenue Black community",
+      "counties": ["Marion"],
+      "description": "The center of Black Indianapolis — churches, businesses, jazz clubs, the Walker Building, and the institutional infrastructure of a community that grew from 10,000 to nearly 100,000 in fifty years.",
+      "era": "1870-1960"
+    },
+    {
+      "cluster_name": "Quaker belt (Hendricks-Hamilton)",
+      "counties": ["Hendricks", "Hamilton"],
+      "description": "Quaker meeting communities at Plainfield (Hendricks) and Westfield/Cicero (Hamilton). Anti-slavery strongholds connected by certificates of removal to the larger Indiana Yearly Meeting network centered at Richmond.",
+      "era": "1820-present"
+    }
+  ],
+  "narrative_hooks": [
+    "Central Indiana was a destination — people came from Kentucky, Virginia, North Carolina, Germany, Ireland, and the Deep South, and {ancestor_name} was one of them.",
+    "The Quaker migration from North Carolina was ideological — {ancestor_name}'s family did not leave because the land was poor but because the institution next to them was intolerable.",
+    "Indianapolis's German south side was a complete world — {ancestor_name} could live, work, worship, and die in German without the English language ever becoming necessary.",
+    "Indiana Avenue was the destination — {ancestor_name} arrived from {origin} and found a community already built by the migrants who had come before.",
+    "The move from {county} County farm to Indianapolis factory was the migration that changed everything — {ancestor_name} traded the cycle of planting and harvest for the cycle of shift whistle and paycheck."
+  ],
+  "source_references": [
+    "Thornbrough, Emma Lou. Indiana in the Civil War Era, 1850-1880. Indianapolis: Indiana Historical Bureau, 1965.",
+    "Thornbrough, Emma Lou. The Negro in Indiana before 1900. Indianapolis: Indiana Historical Bureau, 1957.",
+    "Pierce, Richard B. Polite Protest: The Political Economy of Race in Indianapolis, 1920-1970. Bloomington: Indiana University Press, 2005.",
+    "Bodenhamer, David J., and Robert G. Barrows, eds. The Encyclopedia of Indianapolis. Bloomington: Indiana University Press, 1994.",
+    "Hamm, Thomas D. The Quakers in America. New York: Columbia University Press, 2003.",
+    "Eller, Ronald D. Miners, Millhands, and Mountaineers. Knoxville: University of Tennessee Press, 1982.",
+    "Madison, James H. The Indiana Way. Bloomington: Indiana University Press, 1986."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["civil_war_service", "great_migration", "gi_bill_migration", "stayed_and_adapted", "appalachian_out_migration", "reconstruction_era"],
+    "destination_refs": [],
+    "community_texture_refs": ["quaker_meeting_community"]
+  }
+}

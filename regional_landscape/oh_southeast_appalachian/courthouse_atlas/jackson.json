@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Jackson County, OH. County formed 1816 from Scioto, Gallia, Athens, and Ross counties. Heart of the Hanging Rock Iron Region and 'Little Wales.' No major record loss events — records run from formation.",
+  "courthouse_atlas_id": "oh_jackson_courthouse",
+  "display_name": "Jackson County, Ohio — Courthouse Atlas",
+  "county": "Jackson",
+  "state": "OH",
+  "fips_code": "39079",
+  "cluster_ref": "oh_southeast_appalachian",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1880,
+      "location": "Jackson, OH — Main Street",
+      "records_housed": ["deeds", "mortgages", "marriage records", "probate records", "court journals"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1816–1847",
+        "location": "Jackson, OH — town square",
+        "fate": "Early frame courthouse. Replaced when outgrown."
+      },
+      {
+        "era": "1847–1880",
+        "location": "Jackson, OH — same site",
+        "fate": "Brick courthouse. Replaced by the current 1880 building. No catastrophic damage; records transferred intact."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "jackson_no_major_loss",
+      "date": null,
+      "cause": "No major fire, flood, or war damage",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1816", "will books", "court minutes", "marriage records"],
+      "scope": "none",
+      "description": "Jackson County's courthouse has not experienced a major fire or catastrophic record loss. Records run continuously from the 1816 formation. The county's iron furnace records, salt works records, and Welsh church records supplement the courthouse documentation. Some early volumes show wear but remain usable.",
+      "narrative_impact": "Jackson County's records are intact from 1816. If {ancestor_name} lived in the county, the records exist. For Welsh families, the chapel records at Raccoon Creek and the Welsh-American Heritage Museum supplement the courthouse documentation with records in both English and Welsh.",
+      "source": "Ohio Historical Society. Guide to County Records in the Ohio Historical Society Archives."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1816,
+      "completeness": "Good — continuous from formation",
+      "gaps": "No significant gaps. Scioto Salt Springs land records (state-owned) are in state archives.",
+      "repository": "Jackson County Recorder's Office; Ohio History Connection microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1817,
+      "completeness": "Good",
+      "gaps": "Some early loose estate papers are fragmentary.",
+      "repository": "Jackson County Probate Court; Ohio History Connection",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1816,
+      "completeness": "Good — continuous from formation",
+      "gaps": "Minimal.",
+      "repository": "Jackson County Probate Court; Ohio History Connection microfilm",
+      "online_access": "FamilySearch; Ancestry.com Ohio marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1816,
+      "completeness": "Good",
+      "gaps": "Minor wear on earliest volumes.",
+      "repository": "Jackson County Clerk of Courts; Ohio History Connection",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1867,
+      "death_registration_start": 1867,
+      "completeness": "Uneven until early 1900s. Welsh community may have better church records than vital registration for early period.",
+      "repository": "Jackson County Health Department; Ohio Department of Health"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Welsh church records",
+      "description": "Welsh Congregational, Calvinistic Methodist, and Baptist church records from the Raccoon Creek settlement area. Some records in Welsh language.",
+      "repository": "Welsh-American Heritage Museum, Oak Hill, OH; local congregations; Ohio History Connection",
+      "era_coverage": "1840s–1920s",
+      "genealogical_value": "Essential for Welsh families. Chapel records may be the only documentation of vital events for Welsh-speaking families who interacted primarily with their ethnic community. Eisteddfod programs and Welsh-language publications document community members.",
+      "source": "Evans, E. Estyn. 'The Welsh in Ohio.' Ohio History 85, no. 2 (1976): 119–142."
+    },
+    {
+      "source_type": "Scioto Salt Springs records",
+      "description": "State of Ohio records of the Scioto Salt Springs — leases, production records, and operator names.",
+      "repository": "Ohio History Connection",
+      "era_coverage": "1800–1840s",
+      "genealogical_value": "Documents salt works operators, lessees, and laborers. State records supplement county records for this important early industry.",
+      "source": "Jakle, 'Salt and the Initial Settlement of the Ohio Valley' (1967)."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Jackson County enumerated from 1820.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1820–present",
+      "genealogical_value": "Essential. Census records for the Welsh settlement townships show the ethnic community — Welsh-born household heads, Welsh-language churches noted in census remarks.",
+      "source": "National Archives and Records Administration."
+    }
+  ],
+  "narrative_hooks": [
+    "Jackson County's records are intact from 1816 — no fire, no flood, no significant loss. If {ancestor_name} was in the county, the paper trail is there.",
+    "For Welsh families in Jackson County, the courthouse is only half the story — the Welsh chapel records at Raccoon Creek, the eisteddfod programs, and the Welsh-language newspapers document a community that maintained a separate institutional life alongside the English-language county records.",
+    "The Scioto Salt Springs were state-owned land, and the records of who operated them and who worked them are in the state archives, not the county courthouse — if {ancestor_name} was connected to the salt works, look to Columbus, not Jackson.",
+    "The Welsh-American Heritage Museum in Oak Hill, Jackson County, holds records that no other institution has — chapel minute books, eisteddfod programs, and family papers from the Welsh community that are not duplicated at the courthouse or the state archives."
+  ],
+  "source_references": [
+    "Ohio Historical Society. Guide to County Records in the Ohio Historical Society Archives.",
+    "Evans, E. Estyn. 'The Welsh in Ohio.' Ohio History 85, no. 2 (1976): 119–142.",
+    "Jakle, John A. 'Salt and the Initial Settlement of the Ohio Valley.' Ph.D. diss., Indiana University, 1967."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "oh_jackson",
+    "research_guidance_refs": ["midwestern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Johnston County, NC. Record survival, courthouse history, and Civil War-era impacts from Sherman's Carolina Campaign.",
+  "courthouse_atlas_id": "nc_johnston_courthouse",
+  "display_name": "Johnston County, North Carolina — Courthouse Atlas",
+  "county": "Johnston",
+  "state": "NC",
+  "fips_code": "37101",
+  "cluster_ref": "se_nc_coastal_plain",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1921,
+      "location": "Smithfield, NC — Market Street",
+      "records_housed": ["deeds", "plats", "vital records indexes", "court minutes", "estate files"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1746–1779",
+        "location": "Near present-day Smithfield (exact site uncertain)",
+        "fate": "Original colonial courthouse was a wooden structure. Replaced as the county grew."
+      },
+      {
+        "era": "1779–1838",
+        "location": "Smithfield",
+        "fate": "Replaced by a more substantial building when the old structure became inadequate."
+      },
+      {
+        "era": "1838–1921",
+        "location": "Smithfield, Market Street",
+        "fate": "Brick building. Survived the Civil War — Sherman's forces passed through Smithfield in March 1865 but did not burn the courthouse. Replaced by the current structure."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "johnston_civil_war_disruption",
+      "date": "1865-03",
+      "cause": "Civil War",
+      "records_destroyed": ["some loose court papers", "scattered tax records"],
+      "records_survived": ["deed books from 1746", "will books from 1746", "court minutes", "marriage bonds"],
+      "scope": "partial",
+      "description": "Johnston County was directly in the path of Sherman's Carolina Campaign in March 1865. The Battle of Bentonville (March 19–21, 1865) was fought in the eastern part of the county, the last major Confederate offensive of the war. Sherman's troops passed through Smithfield, and while individual farms and plantation houses suffered extensive damage and foraging, the courthouse itself survived. Some loose papers were scattered or lost during the occupation, but the bound record books — deeds, wills, court minutes — remained intact. The disruption to civil government during 1862–1865 created gaps in routine record keeping.",
+      "narrative_impact": "Johnston County's records survived the war, but the county itself was devastated. If {ancestor_name} was farming here in 1865, Sherman's foragers likely took livestock, fences, and provisions. The records may survive, but the family's pre-war prosperity probably did not.",
+      "source": "Bradley, Mark L. Last Stand in the Carolinas: The Battle of Bentonville. Campbell, CA: Savas Publishing, 1996."
+    },
+    {
+      "loss_id": "johnston_colonial_gaps",
+      "date": "1746–1770",
+      "cause": "deterioration",
+      "records_destroyed": ["some earliest deed entries", "court minutes from 1746–1759 are fragmentary"],
+      "records_survived": ["deed books from approximately 1759", "will records from approximately 1760"],
+      "scope": "partial",
+      "description": "Johnston County was formed in 1746, but the earliest records from the first decade or so are incomplete. Colonial-era record keeping on the North Carolina frontier was inconsistent, and storage conditions in wooden courthouses led to deterioration. Records become more reliable from approximately 1759 onward.",
+      "narrative_impact": "Families present in Johnston County at its formation in 1746 may be difficult to trace in county records alone. Colonial tax lists and the Colonial Records of North Carolina may fill some gaps.",
+      "source": "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1759,
+      "completeness": "Good from approximately 1759. Earliest decade fragmentary.",
+      "gaps": "Records from 1746–1758 are incomplete. Continuous series from the 1760s onward.",
+      "repository": "Johnston County Register of Deeds, Smithfield; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com NC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1760,
+      "completeness": "Good from the 1760s. Some early loose estate papers are lost.",
+      "gaps": "First decade of the county poorly represented. Post-1770 reasonably complete.",
+      "repository": "Johnston County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm; NC State Archives digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1764,
+      "completeness": "Marriage bonds survive from the 1760s. Reasonably complete series.",
+      "gaps": "Some early bonds may be missing. Register volumes begin approximately 1851.",
+      "repository": "Johnston County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com NC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1759,
+      "completeness": "Good from 1759. Early entries brief and sometimes difficult to read.",
+      "gaps": "1746–1758 fragmentary. Civil War years show reduced entries but no total gap.",
+      "repository": "NC State Archives; Johnston County Clerk of Court",
+      "online_access": "NC State Archives microfilm; limited FamilySearch digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Spotty until approximately 1920, particularly in rural districts.",
+      "repository": "NC Office of Vital Records; NC State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Colonial Records of North Carolina",
+      "description": "Published colonial records include Johnston County court references, land grants, and militia lists from the 1740s–1770s that supplement the fragmentary earliest courthouse records.",
+      "repository": "NC State Archives; major research libraries; digitized at docsouth.unc.edu",
+      "era_coverage": "1746–1776",
+      "genealogical_value": "Critical for the county's earliest families when courthouse records are incomplete. Land grants and militia musters name individuals not found in surviving county records.",
+      "source": "Saunders, William L., ed. Colonial Records of North Carolina. Raleigh: State of NC, 1886–1890."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790–1940. Johnston County enumerated from the first federal census. Wilson County was carved from Johnston in 1855 — pre-1855 Wilson families appear in Johnston records.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790–1940",
+      "genealogical_value": "Essential for tracking families. Note that pre-1855 families in the Wilson County area were enumerated in Johnston County.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Johnston County, NC."
+    },
+    {
+      "source_type": "Battle of Bentonville records and accounts",
+      "description": "Military records, pension files, and published accounts of the Battle of Bentonville (March 1865) document the war's impact on Johnston County families.",
+      "repository": "National Archives (pension files); Bentonville Battlefield State Historic Site; NC State Archives",
+      "era_coverage": "1861–1865",
+      "genealogical_value": "Pension files name wives, children, and dependents. Battlefield damage claims document property losses and family circumstances in 1865.",
+      "source": "Bradley, Mark L. Last Stand in the Carolinas: The Battle of Bentonville. Campbell, CA: Savas Publishing, 1996."
+    }
+  ],
+  "narrative_hooks": [
+    "Johnston County's courthouse survived Sherman's march, which means {ancestor_name}'s deed and will records likely still sit in the vault at Smithfield — but the family's farm in 1865 was another matter entirely, as foraging armies stripped the county of livestock, fences, and provisions.",
+    "If {ancestor_name} was in Johnston County in March 1865, the Battle of Bentonville was fought less than twenty miles from Smithfield — the last major battle of the Carolinas campaign, close enough that gunfire probably carried on the spring air.",
+    "Johnston County was formed in 1746, but its earliest records are fragmentary — if {ancestor_name} was among the county's founding families, the Colonial Records of North Carolina and early land grants may be the only surviving documentation.",
+    "Before 1913, no North Carolina county required birth or death registration, so the absence of a birth record for {ancestor_name} in Johnston County is expected — church records and family Bibles filled the gap that government record keeping had not yet closed.",
+    "Wilson County was carved from Johnston in 1855, which means that if {ancestor_name} lived in the Wilson area before that date, their records — deeds, wills, court minutes — are filed in Smithfield, not Wilson."
+  ],
+  "source_references": [
+    "Bradley, Mark L. Last Stand in the Carolinas: The Battle of Bentonville. Campbell, CA: Savas Publishing, 1996.",
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Saunders, William L., ed. Colonial Records of North Carolina. 10 vols. Raleigh: State of North Carolina, 1886–1890.",
+    "Barrett, John G. The Civil War in North Carolina. Chapel Hill: University of North Carolina Press, 1963."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_johnston",
+    "research_guidance_refs": ["southern_courthouse_research", "colonial_era_records", "civil_war_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

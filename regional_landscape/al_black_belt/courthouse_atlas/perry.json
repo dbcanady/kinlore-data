@@ -1,0 +1,124 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Perry County, AL. Record survival, courthouse history, and known losses. Perry County (formed 1819, seat at Marion) has experienced some record losses but retains most records from formation. Marion's educational institutions provide supplementary documentary sources.",
+  "courthouse_atlas_id": "al_perry_courthouse",
+  "display_name": "Perry County, Alabama — Courthouse Atlas",
+  "county": "Perry",
+  "state": "AL",
+  "fips_code": "01105",
+  "cluster_ref": "al_black_belt",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1856,
+      "location": "Marion, AL — Washington Street. The antebellum courthouse has been modified but remains in use.",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1819–1856",
+        "location": "Marion, early courthouse buildings",
+        "fate": "Early frame and brick buildings replaced by the 1856 courthouse. Records transferred. Minor losses during moves."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "perry_minor_losses",
+      "date": "Various",
+      "cause": "Aging, moves, minor damage — no catastrophic fire",
+      "records_destroyed": ["Some early loose papers from 1819–1840 period"],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage records"],
+      "scope": "minimal",
+      "description": "Perry County has not experienced a major courthouse fire. Some early loose papers from the county's first decades are missing or damaged, but bound volumes — deed books, will books, court minutes — survive from the 1820s. The 1856 courthouse has served continuously, providing record stability.",
+      "narrative_impact": "Perry County's records are largely intact from the 1820s. Gaps in {ancestor_name}'s paper trail are more likely to reflect status (enslaved persons excluded from civil records) than courthouse losses.",
+      "source": "Alabama Department of Archives and History. Guide to Alabama County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1820,
+      "completeness": "Good — continuous series from near-formation",
+      "gaps": "Minor gaps in earliest volumes.",
+      "repository": "Perry County Probate Office; ADAH microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1820,
+      "completeness": "Good — estate inventories are critical for documenting the enslaved population",
+      "gaps": "Some early loose estate papers missing.",
+      "repository": "Perry County Probate Office; ADAH",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1822,
+      "completeness": "Good. Freedmen's marriages from 1865.",
+      "gaps": "No significant gaps in bound volumes.",
+      "repository": "Perry County Probate Office; ADAH; Freedmen's Bureau at NARA",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1820,
+      "completeness": "Good",
+      "gaps": "Minor.",
+      "repository": "Perry County Clerk; ADAH",
+      "online_access": "ADAH microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Spotty until approximately 1920.",
+      "repository": "Alabama Center for Health Statistics; ADAH"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Judson College records",
+      "description": "Judson College (founded 1838, closed 2021) maintained enrollment, academic, and institutional records for Alabama's oldest women's college.",
+      "repository": "Samford University archives (successor repository); ADAH",
+      "era_coverage": "1838–2021",
+      "genealogical_value": "Enrollment records document daughters of Perry County planter families and, later, middle-class families across Alabama. May identify family connections through student records.",
+      "source": "Samford University Library, Special Collections."
+    },
+    {
+      "source_type": "Lincoln Normal School / Lincoln University records",
+      "description": "Lincoln Normal School (founded 1867) educated Black students in Perry County — teachers, ministers, and community leaders.",
+      "repository": "ADAH; some records at Alabama State University archives",
+      "era_coverage": "1867–1970",
+      "genealogical_value": "Enrollment records document Black families investing in education during and after Reconstruction. Attendance at Lincoln confirms community standing and family investment in education.",
+      "source": "Anderson, The Education of Blacks in the South (1988)."
+    },
+    {
+      "source_type": "Freedmen's Bureau records",
+      "description": "Bureau records from the Marion sub-district.",
+      "repository": "NARA, RG 105; FamilySearch",
+      "era_coverage": "1865–1872",
+      "genealogical_value": "Essential for documenting formerly enslaved families.",
+      "source": "NARA, Records of the Bureau of Refugees, Freedmen, and Abandoned Lands, RG 105."
+    },
+    {
+      "source_type": "ADAH supplementary records",
+      "description": "ADAH holds county record microfilm and supplementary state records.",
+      "repository": "ADAH, Montgomery, AL",
+      "era_coverage": "1819–present",
+      "genealogical_value": "Backup repository for all record types.",
+      "source": "ADAH finding guides."
+    }
+  ],
+  "narrative_hooks": [
+    "Perry County's 1856 courthouse still stands — {ancestor_name}'s deeds and wills are likely intact from the county's earliest decades.",
+    "Marion's educational institutions — Judson College, Lincoln Normal School — created documentary trails that supplement the courthouse records. If {ancestor_name}'s children attended school in Marion, the institutional records may provide details the county records lack.",
+    "Before 1865, {ancestor_name}'s enslaved family appears in Perry County records only as property. After 1865, the Freedmen's Bureau records and Lincoln Normal School enrollment records provide the first documentation of Black families as persons rather than assets.",
+    "Jimmie Lee Jackson's death in Perry County in 1965 was documented in law enforcement records, medical records, and federal investigation files — the paper trail of his murder became part of the documentary evidence that produced the Voting Rights Act."
+  ],
+  "source_references": [
+    "Alabama Department of Archives and History. Guide to Alabama County Records.",
+    "Anderson, James D. The Education of Blacks in the South, 1860–1935. Chapel Hill: University of North Carolina Press, 1988.",
+    "National Archives and Records Administration. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands, Record Group 105."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "al_perry",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

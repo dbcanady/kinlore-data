@@ -1,0 +1,149 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Montgomery County, OH. Record survival, courthouse history, and known losses that shape what genealogists can and cannot find. Montgomery County (county seat: Dayton) was formed in 1803 from Hamilton County and has maintained excellent early records despite the catastrophic 1913 Great Dayton Flood, which destroyed private records across the city but spared the courthouse on higher ground.",
+  "courthouse_atlas_id": "oh_montgomery_courthouse",
+  "display_name": "Montgomery County, Ohio — Courthouse Atlas",
+  "county": "Montgomery",
+  "state": "OH",
+  "fips_code": "39113",
+  "cluster_ref": "oh_miami_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1850,
+      "location": "Dayton, OH — 41 N. Perry Street (Old Courthouse, now museum); county offices relocated to Courts Building, 301 W. Third Street",
+      "records_housed": ["deeds", "plats", "marriage records", "probate records", "court minutes", "naturalization records", "birth and death certificates (post-1908)"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1803–1817",
+        "location": "Dayton, log courthouse near Main and Second Streets",
+        "fate": "Outgrown and replaced. Early records transferred intact to successor building."
+      },
+      {
+        "era": "1817–1850",
+        "location": "Dayton, brick courthouse on the same block",
+        "fate": "Replaced by the monumental 1850 Greek Revival courthouse. Records survived transfer."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "montgomery_1913_flood_private",
+      "date": "1913-03-25",
+      "cause": "Great Dayton Flood",
+      "records_destroyed": ["private family records", "business ledgers in flood zone", "church records in low-lying areas"],
+      "records_survived": ["deed books", "probate records", "court minutes", "marriage records", "naturalization records"],
+      "scope": "Private records catastrophic; county records survived",
+      "description": "The Great Dayton Flood of March 25, 1913, inundated over one-third of the city when the Great Miami, Stillwater, and Mad Rivers overflowed simultaneously. Water reached twenty feet in parts of downtown. The courthouse, located on higher ground at Third and Main, survived with records intact. However, the flood destroyed private records across the city — family Bibles, letters, business ledgers, church records in low-lying congregations, and personal papers were lost in thousands of homes and businesses. At least 360 people died. The flood is the most significant record-loss event in the cluster, not because it destroyed courthouse records, but because it obliterated the personal documentation of an entire generation.",
+      "narrative_impact": "If {ancestor_name} lived in Dayton in March 1913, the flood either killed someone they knew or destroyed everything in their home. The courthouse survived, but the family Bible, the letters from the old country, and the business records did not. A gap in personal documentation for any Dayton family around 1913 should be attributed to the flood until proven otherwise.",
+      "source": "Bock, Allan W. The Great Dayton Flood of 1913. Dayton: Landfall Press, 1997."
+    },
+    {
+      "loss_id": "montgomery_no_courthouse_fire",
+      "date": "N/A",
+      "cause": "None known",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1803", "probate records from 1803", "court minutes from 1803", "marriage records from 1803"],
+      "scope": "none",
+      "description": "Montgomery County has experienced no courthouse fire or deliberate record destruction. The 1850 courthouse was built to last and served continuously. County records run in unbroken series from the 1803 formation. This makes Montgomery County one of the best-documented counties in Ohio for genealogical research.",
+      "narrative_impact": "Montgomery County's excellent record survival means that gaps in {ancestor_name}'s paper trail are more likely due to the ancestor's circumstances — tenancy, transience, or the informality of early frontier transactions — than courthouse losses.",
+      "source": "Drury, Augustus Waldo. History of the City of Dayton and Montgomery County, Ohio. 2 vols. Chicago: S. J. Clarke, 1909."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1803,
+      "completeness": "Excellent — continuous series from county organization",
+      "gaps": "No known gaps. Virginia Military District surveys (metes and bounds) in the eastern portion create complex but well-documented land chains. Township-range surveys in the western portion are more straightforward.",
+      "repository": "Montgomery County Recorder, Dayton; Ohio History Connection microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com OH land records; Montgomery County Recorder online index"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1803,
+      "completeness": "Excellent — probate records survive from county organization",
+      "gaps": "Early loose papers are fragile but legible. Bound probate journals intact. Estate inventories from the 1803-1830 period are particularly detailed for frontier Ohio.",
+      "repository": "Montgomery County Probate Court, Dayton; Ohio History Connection",
+      "online_access": "FamilySearch microfilm; limited online indexing"
+    },
+    "marriages": {
+      "earliest_surviving": 1803,
+      "completeness": "Excellent — marriage records from county organization",
+      "gaps": "Ohio required marriage licenses from 1803 but enforcement was inconsistent in the frontier period. Some early marriages were solemnized without a license. After 1850, records are comprehensive.",
+      "repository": "Montgomery County Probate Court; Ohio History Connection microfilm",
+      "online_access": "FamilySearch; Ancestry.com OH marriages collection"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1803,
+      "completeness": "Excellent — Court of Common Pleas and county court minutes from organization",
+      "gaps": "Justice of the peace dockets are incomplete before 1830.",
+      "repository": "Montgomery County Clerk of Courts; Ohio History Connection",
+      "online_access": "Limited — primarily on-site or microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Ohio required vital registration beginning in 1908. Compliance was spotty in rural townships until the 1910s. Dayton city health department records may predate 1908 for the city proper. The probate court recorded some births and deaths as early as the 1860s under earlier Ohio statutes, but compliance was minimal.",
+      "repository": "Montgomery County Probate Court (pre-1908 records); Ohio Department of Health; Dayton Metro Library local history collection"
+    },
+    "naturalization_records": {
+      "earliest_surviving": 1840,
+      "completeness": "Good — declarations and final papers survive from the 1840s. Critical for German, Irish, and later immigrant groups.",
+      "gaps": "Some early declarations may have been filed in Hamilton County (Cincinnati) before Montgomery County courts handled naturalizations regularly.",
+      "repository": "Montgomery County Court of Common Pleas; National Archives — Chicago; Ohio History Connection",
+      "online_access": "FamilySearch; Ancestry.com immigration and naturalization collections"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "NCR (National Cash Register) company records",
+      "description": "NCR was Dayton's dominant employer from the 1880s through the mid-twentieth century. Company records include employee files, payroll records, and the extensive NCR employee welfare programs documented in company publications. John H. Patterson's paternalistic management style generated extraordinary documentation of employee lives.",
+      "repository": "Dayton History (formerly Montgomery County Historical Society); NCR Archive at Dayton History; Ohio History Connection",
+      "era_coverage": "1884–1960",
+      "genealogical_value": "NCR employee records can establish dates of employment, wages, and family circumstances for workers. The company's employee magazines, welfare reports, and photography collection document workers by name and image. If {ancestor_name} worked at NCR, the company may have documented {pronoun_object} more thoroughly than any government agency.",
+      "source": "Crowther, Samuel. John H. Patterson: Pioneer in Industrial Welfare. Garden City, NY: Doubleday, 1923."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1800–1940. Manufacturing schedules (1820–1880) are particularly valuable for Dayton's industrial economy. Agricultural schedules (1850–1880) document farming families.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1800–1940",
+      "genealogical_value": "Essential for tracking families. The 1820 manufacturing census captures early Dayton industries. The 1850–1880 agricultural schedules document farm size, crops, and livestock for the rural townships.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Montgomery County, OH."
+    },
+    {
+      "source_type": "German-language church records",
+      "description": "German Reformed, German Baptist Brethren (Dunker), and German Evangelical Lutheran congregations in Montgomery County maintained records in German through the 1890s and sometimes later. These include baptisms, confirmations, marriages, burials, and communion rolls.",
+      "repository": "Individual congregations; Evangelical and Reformed Historical Society, Lancaster, PA; Brethren Historical Library and Archives, Elgin, IL; Dayton Metro Library local history collection",
+      "era_coverage": "1810s–1920s",
+      "genealogical_value": "German-language church records often contain details not found in English-language civil records — parents' German place of origin, godparents (revealing kinship networks), and family relationships documented across generations of congregational membership. A family's shift from German-language to English-language church membership marks the generational assimilation boundary.",
+      "source": "Tolzmann, Don Heinrich. The German-American Experience. Amherst, NY: Humanity Books, 2000."
+    },
+    {
+      "source_type": "Dayton city directories",
+      "description": "Annual city directories for Dayton published from the 1850s. List residents by name with address, occupation, and sometimes employer.",
+      "repository": "Dayton Metro Library; Ohio History Connection; Ancestry.com city directory collection",
+      "era_coverage": "1850s–1960",
+      "genealogical_value": "City directories fill the decade-long gaps between census enumerations. They track year-by-year changes in address and occupation. For industrial workers, directories may list the specific factory. The absence of a name in one year followed by appearance the next year documents arrival date.",
+      "source": "Williams' Dayton Directory (various publishers and years)."
+    }
+  ],
+  "narrative_hooks": [
+    "Montgomery County's courthouse survived the 1913 flood — the deed books, the probate records, the marriage licenses all made it. But the flood took the family Bible from {ancestor_name}'s house on the first floor, and no courthouse can replace what the water carried away.",
+    "The county records run from 1803 without a break — if {ancestor_name} bought land, married, or died in Montgomery County, the paper trail almost certainly exists in the Dayton courthouse.",
+    "If {ancestor_name} worked at NCR, the company may have documented {pronoun_possessive} life more thoroughly than any government agency — John Patterson's welfare programs tracked employees from hire to retirement, and NCR's employee records survive where many companies' do not.",
+    "The Virginia Military District land in eastern Montgomery County was surveyed by metes and bounds, not the rectangular grid — {ancestor_name}'s land description reads like directions through a landscape rather than a number on a map, and the irregular boundaries meant survey disputes that fill the court dockets."
+  ],
+  "source_references": [
+    "Drury, Augustus Waldo. History of the City of Dayton and Montgomery County, Ohio. 2 vols. Chicago: S. J. Clarke, 1909.",
+    "Bock, Allan W. The Great Dayton Flood of 1913. Dayton: Landfall Press, 1997.",
+    "Crowther, Samuel. John H. Patterson: Pioneer in Industrial Welfare. Garden City, NY: Doubleday, 1923.",
+    "Tolzmann, Don Heinrich. The German-American Experience. Amherst, NY: Humanity Books, 2000.",
+    "Ohio History Connection. County Records Guide: Montgomery County."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "oh_montgomery",
+    "research_guidance_refs": ["census_gaps", "vital_records", "property_records", "immigrant_record_sources"],
+    "template_refs": ["record_silences", "what_they_saw"]
+  }
+}

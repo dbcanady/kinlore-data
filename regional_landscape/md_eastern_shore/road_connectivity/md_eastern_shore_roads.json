@@ -1,0 +1,131 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the MD Eastern Shore regional cluster. The Eastern Shore was a water civilization — the Chesapeake Bay and its tidal rivers were the highways for three centuries. The Bay was simultaneously the road to market and the wall that separated the Shore from the Western Shore. Overland roads were poor, railroads arrived late, and the 1952 Bay Bridge was the most transformative infrastructure event in the region's history.",
+  "connectivity_id": "md_eastern_shore_roads",
+  "display_name": "MD Eastern Shore — Road & Connectivity Network",
+  "cluster_ref": "md_eastern_shore",
+  "era_range": "1631-1960",
+  "transportation_eras": [
+    {
+      "era_id": "water_highways",
+      "era_name": "Water Highways: The Chesapeake as Road and Wall",
+      "date_range": "1631-1830",
+      "primary_modes": ["sailing vessel", "coastal sloop", "canoe/dugout", "horseback", "wagon on unimproved road"],
+      "description": "The Eastern Shore was connected by water and isolated by land. Every significant plantation had creek or river frontage with a wharf. Tobacco and grain moved by water to Chestertown, Oxford, or directly onto oceangoing vessels. The Chesapeake Bay was the highway — but it was also the barrier that separated the Eastern Shore from the Western Shore and the rest of Maryland. The ferry crossing from Annapolis to the Shore took hours and depended on weather and wind. Overland roads were unimproved dirt — rutted, muddy in wet weather, and barely passable in the flat, marshy terrain of the southern counties. The only overland route to the Eastern Shore from the mainland ran through Cecil County and the head of the Bay — a long, roundabout journey.",
+      "road_conditions": "Terrible. Flat terrain and poor drainage made Eastern Shore roads worse than the Western Shore's. In Dorchester County, roads through the marshes were barely more than raised tracks. Creek crossings required ferries or fords. In wet weather, travel between counties could take days.",
+      "travel_times": [
+        { "from": "Easton (Talbot)", "to": "Annapolis", "mode": "ferry across Bay", "time": "4-8 hours depending on wind and weather", "conditions_note": "Ferry service irregular. Weather could delay crossings by days." },
+        { "from": "Chestertown (Kent)", "to": "Baltimore", "mode": "sailing vessel down Chester River and up Bay", "time": "1-2 days", "conditions_note": "Entirely by water. The most reliable route." },
+        { "from": "Cambridge (Dorchester)", "to": "Easton (Talbot)", "mode": "horseback/wagon", "time": "4-6 hours", "conditions_note": "Overland route crossing the Choptank River — ferry required." },
+        { "from": "Elkton (Cecil)", "to": "Philadelphia", "mode": "horseback/wagon", "time": "1-2 days", "conditions_note": "Overland through New Castle, DE. The only land route off the Delmarva." }
+      ],
+      "key_routes": [
+        { "route_name": "Chesapeake Bay", "type": "water route", "year_established": "1631 (English use)", "description": "The Bay was the primary highway. Every Eastern Shore county had Bay or tributary access. Sailing vessels of all sizes used the Bay for commercial transport.", "counties_served": ["Talbot", "Dorchester", "Queen Anne's", "Kent", "Cecil"] },
+        { "route_name": "Chester River", "type": "water route", "year_established": "1631", "description": "Navigable to Chestertown. The commercial artery for Kent and northern Queen Anne's counties.", "counties_served": ["Kent", "Queen Anne's"] },
+        { "route_name": "Choptank River", "type": "water route", "year_established": "1669", "description": "Navigable to Cambridge and beyond. The commercial artery for Talbot and Dorchester counties.", "counties_served": ["Talbot", "Dorchester", "Caroline"] },
+        { "route_name": "King's Highway (overland)", "type": "improved trace", "year_established": "early 1700s", "description": "The main overland road running the length of the Eastern Shore from Cecil County south through Kent, Queen Anne's, Talbot, and Dorchester. Poorly maintained but the only continuous land route.", "counties_served": ["Cecil", "Kent", "Queen Anne's", "Talbot", "Dorchester", "Caroline"] },
+        { "route_name": "Annapolis-Eastern Shore ferry", "type": "ferry", "year_established": "1683", "description": "Ferry service from Annapolis to Kent Island or Talbot County. The primary crossing point between the Eastern Shore and the colonial capital. Service irregular and weather-dependent.", "counties_served": ["Queen Anne's", "Talbot"] }
+      ],
+      "isolation_index": {
+        "description": "High for all counties except Cecil (which had overland access to Pennsylvania). The Bay was the road but also the wall. The Eastern Shore was more isolated from the Western Shore than counties on the Western Shore were from each other. Internal isolation varied: waterfront counties (Kent, Talbot, Queen Anne's) were well-connected by water; interior Caroline County and inland Dorchester were the most isolated.",
+        "comparative_note": "The Eastern Shore was among the most isolated regions in the mid-Atlantic colonies. The Bay separated it from the seat of government. The Delmarva's narrow geography funneled all overland traffic through Cecil County."
+      },
+      "narrative_hook": "The Bay was {ancestor_name}'s road and {ancestor_name}'s wall — the water carried the grain to market and brought the goods from England, but it also separated the Eastern Shore from the government, the courts, and the rest of Maryland by hours of open water.",
+      "source": "Clemens, The Atlantic Economy. Cornell University Press, 1980. Footner, Rivers of the Eastern Shore. Farrar and Rinehart, 1944."
+    },
+    {
+      "era_id": "steamboat_era",
+      "era_name": "The Steamboat Era: Every Landing a Port",
+      "date_range": "1813-1952",
+      "primary_modes": ["steamboat", "sailing vessel (declining)", "wagon/cart", "horseback"],
+      "description": "The steamboat transformed the Eastern Shore's connection to Baltimore without changing its fundamental water dependence. Beginning in the 1810s, regular steamboat service connected dozens of Eastern Shore landings to Baltimore's Light Street wharves. Every creek-side hamlet with a steamboat wharf was connected to the city. The steamboat schedule structured commercial life — produce shipped to Baltimore in the morning arrived at the Light Street markets by afternoon. The steamboat was the Eastern Shore's lifeline for over a century, and its decline in the 1930s-1940s (replaced by improved roads and trucks) was felt as a loss of connection.",
+      "road_conditions": "Overland roads improved slowly. County roads remained unimproved dirt well into the twentieth century. The contrast between the steamboat connection (fast, reliable, direct to Baltimore) and the overland roads (slow, muddy, indirect) kept the Shore water-dependent.",
+      "travel_times": [
+        { "from": "Easton (Talbot)", "to": "Baltimore", "mode": "steamboat", "time": "4-6 hours", "conditions_note": "Daily service from multiple landings. Reliable schedule." },
+        { "from": "Cambridge (Dorchester)", "to": "Baltimore", "mode": "steamboat via Choptank", "time": "6-8 hours", "conditions_note": "Steamers stopped at multiple landings along the Choptank and Bay." },
+        { "from": "Chestertown (Kent)", "to": "Baltimore", "mode": "steamboat via Chester River", "time": "4-5 hours", "conditions_note": "Direct service from Chestertown wharves." },
+        { "from": "Centreville (Queen Anne's)", "to": "Baltimore", "mode": "steamboat from Queenstown", "time": "3-4 hours", "conditions_note": "Queenstown was the closest steamboat landing to Centreville." }
+      ],
+      "key_routes": [
+        { "route_name": "Baltimore Steam Packet Company lines", "type": "steamboat", "year_established": "1813+", "description": "Regular steamboat service connecting Eastern Shore landings to Baltimore. Multiple routes — Chester River line, Choptank River line, Bay line. The steamboat was the Shore's primary commercial connection.", "counties_served": ["Kent", "Queen Anne's", "Talbot", "Dorchester"] },
+        { "route_name": "Annapolis-Matapeake ferry", "type": "ferry", "year_established": "1919 (automobile ferry)", "description": "The automobile ferry between Annapolis (Sandy Point) and Matapeake (Queen Anne's County). The primary automobile crossing before the Bay Bridge.", "counties_served": ["Queen Anne's"] },
+        { "route_name": "PW&B Railroad (Cecil County)", "type": "railroad", "year_established": 1837, "description": "The Philadelphia, Wilmington and Baltimore Railroad through Cecil County was the only railroad connection between the Eastern Shore and the mainland. No railroad served the Shore's southern counties.", "counties_served": ["Cecil"] }
+      ],
+      "isolation_index": {
+        "description": "Moderate for waterfront counties (steamboat connection to Baltimore). High for interior counties (Caroline). Cecil County: low (railroad). The southern Shore counties (Dorchester, Caroline) remained the most isolated — the steamboat reached Cambridge but not the interior marshes and farmland.",
+        "comparative_note": "The steamboat reduced the Shore's commercial isolation but did not change its physical isolation. The Bay still had to be crossed by water. The Eastern Shore remained culturally distinct and physically separate."
+      },
+      "narrative_hook": "The steamboat whistle at {landing} was the sound of the outside world arriving — {ancestor_name} shipped produce to Baltimore in the morning and had the city's newspapers by evening, all without touching a road.",
+      "source": "Holly, David C. Steamboat on the Chesapeake: Emma Giles and the Tolchester Line. Centreville, MD: Tidewater Publishers, 1987. Wennersten, Maryland's Eastern Shore, 1992."
+    },
+    {
+      "era_id": "automobile_and_bridge",
+      "era_name": "The Automobile, the Bridge, and the End of Isolation",
+      "date_range": "1920-1960",
+      "primary_modes": ["automobile", "truck", "steamboat (declining)", "railroad (Cecil County)", "ferry (until 1952)"],
+      "description": "The automobile arrived on the Eastern Shore in the 1910s-1920s but changed the region's connectivity less than expected — because there was no bridge. Automobiles could reach the Shore only through Cecil County (the long way) or by the automobile ferry from Sandy Point to Matapeake (weather-dependent, limited capacity). The Bay Bridge, opened July 30, 1952, was the revolution. The 4.3-mile span connected the Shore to the Western Shore in minutes instead of hours. The bridge transformed the Shore from an isolated agricultural peninsula to a commuting-distance exurb of Baltimore and Washington. Route 50 became the Shore's Main Street — the corridor of development, commerce, and change.",
+      "road_conditions": "Roads improved significantly after World War II. Route 50 paved and widened. County roads paved in the 1930s-1950s. The automobile replaced the horse and the steamboat, but until the bridge, the automobile's impact was limited by the Bay crossing.",
+      "travel_times": [
+        { "from": "Kent Island (Queen Anne's)", "to": "Annapolis", "mode": "Bay Bridge", "time": "15-20 minutes", "conditions_note": "After 1952. Compared to hours by ferry." },
+        { "from": "Easton (Talbot)", "to": "Baltimore", "mode": "automobile via Bay Bridge", "time": "1.5-2 hours", "conditions_note": "After 1952. Compared to 4-6 hours by steamboat." },
+        { "from": "Cambridge (Dorchester)", "to": "Baltimore", "mode": "automobile via Bay Bridge", "time": "2-2.5 hours", "conditions_note": "After 1952." },
+        { "from": "Chestertown (Kent)", "to": "Baltimore", "mode": "automobile via Route 301", "time": "1.5-2 hours", "conditions_note": "Route 301 through Cecil County. The bridge was less critical for Kent County than for the southern counties." }
+      ],
+      "key_routes": [
+        { "route_name": "Chesapeake Bay Bridge", "type": "bridge", "year_established": 1952, "description": "4.3-mile span from Sandy Point (Anne Arundel County) to Kent Island (Queen Anne's County). The most transformative infrastructure project in Eastern Shore history. Ended three centuries of physical isolation.", "counties_served": ["Queen Anne's", "Talbot", "Dorchester", "Caroline", "Kent"] },
+        { "route_name": "US Route 50", "type": "highway", "year_established": "1950s improvements", "description": "The main east-west highway across the Eastern Shore, from the Bay Bridge through Easton to Salisbury and Ocean City. Became the Shore's commercial corridor after the bridge opened.", "counties_served": ["Queen Anne's", "Talbot", "Dorchester", "Caroline"] },
+        { "route_name": "US Route 301", "type": "highway", "year_established": "1930s-1940s", "description": "North-south highway through the upper Shore, connecting Cecil County to Kent County and points south. The overland route to the Shore before the bridge.", "counties_served": ["Cecil", "Kent", "Queen Anne's"] }
+      ],
+      "isolation_index": {
+        "description": "After the bridge (1952): dramatically reduced for all counties. Queen Anne's County went from high isolation to direct connection overnight. The southern counties (Dorchester, Caroline) remained more isolated than the northern counties but were connected by Route 50 to the bridge. Cecil County's isolation was already low (railroad and highway).",
+        "comparative_note": "The bridge was the dividing line in Eastern Shore history. Before 1952, the Shore was a separate world. After 1952, it was part of the Baltimore-Washington metropolitan region — connected, accessible, and increasingly vulnerable to the development and cultural change that connection brought."
+      },
+      "narrative_hook": "The bridge opened in 1952, and {ancestor_name}'s Eastern Shore — where the Bay had been a wall for three centuries — became a suburb of Baltimore. The same water that had kept the Shore apart now had concrete and steel across it, and nothing was the same.",
+      "source": "Horton, Bay Country. Johns Hopkins University Press, 1987. Wennersten, Maryland's Eastern Shore, 1992."
+    }
+  ],
+  "railroad_timeline": [
+    {
+      "railroad": "Philadelphia, Wilmington and Baltimore Railroad (PW&B)",
+      "year": 1837,
+      "route": "Through Cecil County — Perryville, North East, Elkton",
+      "stations": ["Perryville", "North East", "Elkton"],
+      "impact": "Connected Cecil County to the Philadelphia-Baltimore industrial corridor. The only railroad on the Delmarva to reach the mainland.",
+      "source": "Wennersten, Maryland's Eastern Shore, 1992."
+    },
+    {
+      "railroad": "Queen Anne's Railroad (Maryland, Delaware and Virginia Railway)",
+      "year": 1869,
+      "route": "Queenstown to Love Point (Queen Anne's County) — connecting to ferry to Baltimore",
+      "stations": ["Queenstown", "various stops", "Love Point"],
+      "impact": "A short-line railroad connecting the Queen Anne's County interior to the Bay ferry at Love Point. Passengers and freight transferred from railroad to steamboat for the Bay crossing.",
+      "source": "Wennersten, Maryland's Eastern Shore, 1992."
+    },
+    {
+      "railroad": "Baltimore, Chesapeake and Atlantic Railway",
+      "year": 1890,
+      "route": "Claiborne (Talbot County) through Easton to Ocean City",
+      "stations": ["Claiborne", "Easton", "Cambridge (branch)", "Salisbury", "Ocean City"],
+      "impact": "Connected the middle and lower Eastern Shore to the ferry at Claiborne (Bay crossing to Baltimore). The railroad opened the Shore's interior to commercial agriculture and the canning industry.",
+      "source": "Wennersten, Maryland's Eastern Shore, 1992."
+    }
+  ],
+  "narrative_hooks": [
+    "The Bay was four miles wide at the crossing — and for three centuries, those four miles kept {ancestor_name}'s Eastern Shore a separate world, reachable only by water, unreachable in a storm.",
+    "The steamboat at {landing} ran on a schedule — Tuesday and Thursday to Baltimore, Wednesday and Friday back — and {ancestor_name}'s life was organized around that schedule, because the steamboat was the only way to market.",
+    "The railroad came through Cecil County in 1837 but stopped at the head of the Bay — and {ancestor_name} in Talbot or Dorchester County had no railroad at all, just the steamboat and the dirt road.",
+    "When the bridge opened in 1952, {ancestor_name} could drive to Annapolis in twenty minutes — a crossing that had taken {pronoun_possessive} grandparents a full day by ferry, if the weather cooperated.",
+    "Route 50 after the bridge was the Eastern Shore's Main Street — and {ancestor_name} watched the traffic increase year by year, carrying people who came for the view but brought the city with them."
+  ],
+  "source_references": [
+    "Clemens, Paul G. E. The Atlantic Economy and Colonial Maryland's Eastern Shore. Ithaca: Cornell University Press, 1980.",
+    "Holly, David C. Steamboat on the Chesapeake: Emma Giles and the Tolchester Line. Centreville, MD: Tidewater Publishers, 1987.",
+    "Footner, Hulbert. Rivers of the Eastern Shore. New York: Farrar and Rinehart, 1944.",
+    "Wennersten, John R. Maryland's Eastern Shore. Centerville, MD: Tidewater Publishers, 1992.",
+    "Horton, Tom. Bay Country. Baltimore: Johns Hopkins University Press, 1987."
+  ],
+  "nel_cross_references": {
+    "route_refs": []
+  }
+}

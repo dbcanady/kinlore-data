@@ -1,0 +1,146 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for James City County, VA. Record survival, courthouse history, and known losses — including the impact of fires, capital moves, and Civil War damage on colonial and antebellum records.",
+  "courthouse_atlas_id": "va_james_city_courthouse",
+  "display_name": "James City County, Virginia — Courthouse Atlas",
+  "county": "James City",
+  "state": "VA",
+  "fips_code": "51095",
+  "cluster_ref": "va_tidewater",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1932,
+      "location": "Williamsburg, VA — 5201 Monticello Avenue (modern judicial center)",
+      "records_housed": ["deeds post-1865", "court orders post-1865", "vital records indexes", "modern estate files"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1634–1699",
+        "location": "Jamestown — exact locations varied; courts met in statehouses and public buildings on Jamestown Island",
+        "fate": "Multiple statehouses burned (1655, 1676 during Bacon's Rebellion, 1698). Records were damaged or destroyed in each fire. The 1676 fire during Bacon's Rebellion was particularly destructive."
+      },
+      {
+        "era": "1699–1862",
+        "location": "Williamsburg — courts moved with the capital; James City County shared court facilities in or near the colonial capital",
+        "fate": "The colonial-era courthouse survived intact through the 18th century. Records remained in Williamsburg through the Civil War."
+      },
+      {
+        "era": "1862–1865",
+        "location": "Williamsburg — under Union occupation",
+        "fate": "Union forces occupied Williamsburg from May 1862 through the end of the war. Some records were damaged or scattered during military occupation, though the major bound volumes survived."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "james_city_1676_fire",
+      "date": "1676",
+      "cause": "Bacon's Rebellion — burning of Jamestown",
+      "records_destroyed": ["early court orders (pre-1676)", "some early land patents", "loose papers"],
+      "records_survived": ["some deed abstracts survive in colonial records at Richmond", "York County records (which overlap) provide partial substitute"],
+      "scope": "major",
+      "description": "Nathaniel Bacon's rebels burned Jamestown in September 1676, destroying public buildings and an unknown quantity of records. The extent of loss is difficult to quantify because no inventory of pre-1676 records survives. The earliest surviving James City County court records date to the early 1700s, suggesting that most 17th-century records were lost in this or subsequent fires.",
+      "narrative_impact": "The burning of Jamestown in 1676 may have destroyed the record of {ancestor_name}'s earliest land acquisition or court appearance. For families in James City County before 1676, the fire created a genealogical wall that few can breach without recourse to colonial-level records in London or Richmond.",
+      "source": "Morgan, Edmund S. American Slavery, American Freedom. New York: W. W. Norton, 1975."
+    },
+    {
+      "loss_id": "james_city_civil_war",
+      "date": "1862-1865",
+      "cause": "Civil War — Union occupation of Williamsburg",
+      "records_destroyed": ["some loose papers and estate files", "scattered court records"],
+      "records_survived": ["deed books", "will books (partial)", "some court order books"],
+      "scope": "partial",
+      "description": "Union occupation of Williamsburg from May 1862 onward caused some damage to county records, though the destruction was less systematic than in counties where courthouses were burned. Some records were removed by Confederate officials before the occupation; not all were returned after the war.",
+      "narrative_impact": "The Civil War occupation added a second layer of loss to a county already scarred by the 1676 fire. {ancestor_name}'s records may survive in Williamsburg, in the Library of Virginia in Richmond, or in neither — the scattered custody of James City records is itself part of the county's story.",
+      "source": "Sears, Stephen W. To the Gates of Richmond. Boston: Ticknor & Fields, 1992."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1634,
+      "completeness": "Fragmentary before 1700. Some colonial-era deeds survive as abstracts in the colonial records at the Library of Virginia. More continuous from the early 1700s onward.",
+      "gaps": "Major gap in original county records before 1676 due to the Jamestown fire. Some deeds reconstructed from colonial patent books and General Court records.",
+      "repository": "James City County Clerk of Court, Williamsburg; Library of Virginia, Richmond; Colonial Williamsburg Foundation archives",
+      "online_access": "FamilySearch microfilm; Ancestry.com VA land records; Library of Virginia digital collections"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1700,
+      "completeness": "Fragmentary. Some colonial-era wills survive in the General Court records or as copies in estate files.",
+      "gaps": "Pre-1700 wills largely lost. 18th-century wills survive unevenly — some volumes are complete, others have significant gaps.",
+      "repository": "James City County Clerk of Court; Library of Virginia",
+      "online_access": "FamilySearch microfilm; Library of Virginia digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1760,
+      "completeness": "Bonds and licenses survive from the mid-18th century. Earlier marriages must be reconstructed from church records (Bruton Parish) or court orders.",
+      "gaps": "No marriage bonds survive before approximately 1760. Bruton Parish registers partially fill this gap.",
+      "repository": "James City County Clerk of Court; Library of Virginia; Bruton Parish records at Colonial Williamsburg",
+      "online_access": "FamilySearch; Ancestry.com VA marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1700,
+      "completeness": "Fragmentary before 1750. More continuous after 1750.",
+      "gaps": "Pre-1676 court minutes destroyed in Jamestown fires. Reconstruction-era records survive.",
+      "repository": "Library of Virginia; James City County Clerk of Court",
+      "online_access": "Library of Virginia microfilm; limited FamilySearch digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1912,
+      "death_registration_start": 1912,
+      "completeness": "Virginia state registration began 1912. Earlier vital events tracked through church records (Bruton Parish) and county court orders.",
+      "repository": "Virginia Department of Health, Office of Vital Records; Library of Virginia for delayed certificates"
+    },
+    "church_records": {
+      "parish": "Bruton Parish (Church of England / Episcopal)",
+      "earliest_surviving": 1674,
+      "completeness": "Bruton Parish vestry book survives from 1674 — one of the most important colonial church records in Virginia. Contains tithable lists, poor relief, vestry elections, and processioning records. The register of baptisms, marriages, and burials is fragmentary but covers key periods.",
+      "repository": "Bruton Parish Church, Williamsburg; Colonial Williamsburg Foundation; Library of Virginia",
+      "online_access": "Published transcriptions available; some FamilySearch digitization"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Bruton Parish vestry records",
+      "description": "The vestry book of Bruton Parish (1674–present) is one of the most important colonial records in Virginia. It contains tithable lists, processioning records, poor relief entries, and vestry minutes that function as civil records in a colony where the parish was a unit of government.",
+      "repository": "Bruton Parish Church; Colonial Williamsburg Foundation; published transcriptions",
+      "era_coverage": "1674–present",
+      "genealogical_value": "For families in James City County before 1700, Bruton Parish records may be the only surviving documentation. Tithable lists serve as proto-census records. Processioning records describe property boundaries.",
+      "source": "Chamberlayne, C. G., ed. The Vestry Book of Bruton Parish, Virginia. Richmond: Library Board, 1941."
+    },
+    {
+      "source_type": "Colonial patent books and land grants",
+      "description": "Virginia colonial land patents — grants from the Crown — survive from 1623 onward in the patent books held at the Library of Virginia. These include headright claims that document the arrival of specific individuals.",
+      "repository": "Library of Virginia, Richmond; published abstracts by Nell Marion Nugent",
+      "era_coverage": "1623–1774",
+      "genealogical_value": "For the earliest James City County settlers, patent books are often the only surviving documentation. Headright entries document both the patentee and the individuals whose passage paid for the land.",
+      "source": "Nugent, Nell Marion. Cavaliers and Pioneers: Abstracts of Virginia Land Patents and Grants. Richmond: Virginia State Library, 1934."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790–1940. James City County enumerated from the first federal census. Slave schedules (1850–1860) identify slaveholders but not enslaved individuals by name.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790–1940",
+      "genealogical_value": "Essential baseline for tracking families. The 1790 census for James City County is one of the earliest surviving Virginia returns.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, James City County, VA."
+    }
+  ],
+  "narrative_hooks": [
+    "The burning of Jamestown in 1676 may have destroyed the earliest record of {ancestor_name}'s family in Virginia — a fire set by rebels that consumed not just buildings but the paper trail of a colony's first seventy years.",
+    "Bruton Parish's vestry book — surviving from 1674 — may be the only place where {ancestor_name}'s name appears in the colonial record, because the parish church was the government's local arm and its records outlasted the courthouse.",
+    "James City County's records have been scattered across three centuries and half a dozen repositories — if {ancestor_name}'s deed is not in Williamsburg, it may be in Richmond at the Library of Virginia, or in the colonial patent books, or in a London archive that holds copies the colony never kept.",
+    "The headright system that built colonial Virginia is documented in the patent books — and if {ancestor_name} arrived before 1700, someone claimed fifty acres for transporting {pronoun_object} across the Atlantic, and that claim may be the first written record of {pronoun_possessive} existence."
+  ],
+  "source_references": [
+    "Morgan, Edmund S. American Slavery, American Freedom: The Ordeal of Colonial Virginia. New York: W. W. Norton, 1975.",
+    "Chamberlayne, C. G., ed. The Vestry Book of Bruton Parish, Virginia, 1674-1797. Richmond: Library Board, 1941.",
+    "Nugent, Nell Marion. Cavaliers and Pioneers: Abstracts of Virginia Land Patents and Grants. Richmond: Virginia State Library, 1934.",
+    "Sears, Stephen W. To the Gates of Richmond: The Peninsula Campaign. Boston: Ticknor & Fields, 1992.",
+    "Library of Virginia. A Guide to Virginia County and City Records on Microfilm. Richmond, 2001."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "va_james_city",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

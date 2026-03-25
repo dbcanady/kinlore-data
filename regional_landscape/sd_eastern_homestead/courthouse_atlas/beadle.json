@@ -1,0 +1,134 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Beadle County, SD. Record survival, courthouse history, and known losses for Huron — the county that nearly became the state capital.",
+  "courthouse_atlas_id": "sd_beadle_courthouse",
+  "display_name": "Beadle County, South Dakota — Courthouse Atlas",
+  "county": "Beadle",
+  "state": "SD",
+  "fips_code": "46005",
+  "cluster_ref": "sd_eastern_homestead",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1937,
+      "location": "Huron, SD — 450 3rd Street SE",
+      "records_housed": ["deeds", "plats", "mortgages", "court records", "vital records indexes", "naturalization records", "estate files"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1880–1903",
+        "location": "Huron, frame building near Dakota Avenue",
+        "fate": "Outgrown during the boom decade and replaced by a brick structure."
+      },
+      {
+        "era": "1903–1937",
+        "location": "Huron, brick building on 3rd Street",
+        "fate": "Served until replaced by a WPA-era courthouse in 1937. Records transferred intact."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "beadle_1890_census",
+      "date": "1921-01-10",
+      "cause": "Fire at the U.S. Commerce Department building, Washington, D.C.",
+      "records_destroyed": ["1890 federal census — Beadle County schedules"],
+      "records_survived": ["All locally held county records"],
+      "scope": "complete for 1890 census",
+      "description": "The 1890 census destruction eliminates the federal snapshot of Beadle County at the peak of the Great Dakota Boom. The county population had grown from under 500 in 1880 to over 15,000 by 1890 — a transformation undocumented in census records.",
+      "narrative_impact": "Huron's campaign to become the state capital brought thousands of people to Beadle County in the 1880s, and the lost 1890 census was the only federal snapshot of that population at its peak.",
+      "source": "Blake, Kellee. 'First in the Path of the Firemen: The Fate of the 1890 Population Census.' Prologue Magazine 28, no. 1 (Spring 1996)."
+    },
+    {
+      "loss_id": "beadle_land_office_transition",
+      "date": "1880s",
+      "cause": "Transfer between federal land offices",
+      "records_destroyed": [],
+      "records_survived": ["Original homestead patents at GLO", "county-level deed recordings"],
+      "scope": "minor — organizational gaps only",
+      "description": "Beadle County homestead claims were processed at multiple federal land offices as the system expanded westward — initially at Yankton, then Mitchell, then Huron's own land office opened in 1883. The transitions created filing delays and occasional confusion about which office held the original case file.",
+      "narrative_impact": "If {ancestor_name}'s homestead case file seems to be missing, check multiple land offices — the Huron, Mitchell, and Yankton offices all processed Beadle County claims at different times.",
+      "source": "Schell, Herbert S. History of South Dakota. 4th ed. Pierre: South Dakota State Historical Society Press, 2004."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1880,
+      "completeness": "Good — continuous from county organization. The volume of homestead filings in the 1880s is enormous relative to population.",
+      "gaps": "No known significant gaps.",
+      "repository": "Beadle County Register of Deeds, Huron; SD State Archives",
+      "online_access": "FamilySearch microfilm; BLM General Land Office patent database"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1884,
+      "completeness": "Good — probate records from the mid-1880s forward",
+      "gaps": "Very few probate records before 1890 — the population was young, recently arrived, and land-rich but cash-poor, leaving little to probate.",
+      "repository": "Beadle County Clerk of Court; SD State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1881,
+      "completeness": "Good — marriage licenses from 1881 forward",
+      "gaps": "Some territorial-era marriages recorded in Brookings or Yankton before Beadle County was organized.",
+      "repository": "Beadle County Register of Deeds; SD State Archives",
+      "online_access": "FamilySearch; Ancestry.com SD marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1880,
+      "completeness": "Good — county and circuit court records from organization",
+      "gaps": "Territorial-era criminal cases may also be filed in SD State Archives territorial records.",
+      "repository": "Beadle County Clerk of Court; SD State Archives",
+      "online_access": "Limited — microfilm at SD State Archives"
+    },
+    "vital_records": {
+      "birth_registration_start": 1905,
+      "death_registration_start": 1905,
+      "completeness": "Incomplete before approximately 1910. Huron city records may predate county registration for urban births and deaths.",
+      "repository": "SD Department of Health, Office of Vital Records; SD State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1880–1940 (excluding 1890). The 1880 census shows the sparse pre-boom population. The 1900 census reveals the survivors of the 1890s bust.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1880–1940",
+      "genealogical_value": "The contrast between 1880 and 1900 tells the boom-bust story — many families enumerated in 1900 were not present in 1880, having arrived during the lost 1890 census decade.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Beadle County, Dakota Territory / South Dakota."
+    },
+    {
+      "source_type": "Huron newspapers",
+      "description": "The Huron Daily Plainsman (and predecessors) published from the early 1880s. The state capital campaign of 1889–1890 generated extensive political coverage that names local citizens.",
+      "repository": "SD State Historical Society; Newspapers.com; Beadle County Historical Society",
+      "era_coverage": "1882–present",
+      "genealogical_value": "Newspaper columns document arrivals, departures, farm sales, and social events during the boom — filling the gap left by the missing 1890 census.",
+      "source": "South Dakota State Historical Society. Guide to South Dakota Newspapers. Pierre: SD State Historical Society, 2003."
+    },
+    {
+      "source_type": "Homestead case files",
+      "description": "Federal homestead case files from the Huron, Mitchell, and Yankton land offices contain sworn testimony about residence, improvements, and neighbors.",
+      "repository": "National Archives — Washington, DC (Record Group 49); BLM GLO patent database",
+      "era_coverage": "1880s–1910s",
+      "genealogical_value": "Homestead files for Beadle County are particularly valuable because the boom produced thousands of filings in a short period — the witness testimony in these files creates a social map of who lived near whom.",
+      "source": "Szucs, Loretto Dennis, and Sandra Hargreaves Luebking. The Source: A Guidebook to American Genealogy. 3rd ed. Provo, UT: Ancestry, 2006."
+    }
+  ],
+  "narrative_hooks": [
+    "Beadle County's courthouse records survive intact from 1880 — no fire, no flood, no destruction — which means {ancestor_name}'s homestead deed is likely still on file in Huron.",
+    "The 1890 census fire erased the federal record of {ancestor_name}'s household during the boom decade — but the Huron newspapers of the 1880s name names, and the homestead files at the National Archives contain sworn testimony about who lived where.",
+    "If {ancestor_name} filed a homestead claim in Beadle County, the case file may have been processed at the Yankton, Mitchell, or Huron land office depending on the year — check all three when searching National Archives records.",
+    "South Dakota's vital records begin only in 1905, so a child born on a Beadle County homestead in the 1880s or 1890s has no birth certificate unless a church recorded the baptism or the family Bible preserved the date.",
+    "Huron's campaign to become the state capital in 1889 filled the newspapers with citizens' names — if {ancestor_name} lived in Beadle County that year, a petition signature or a newspaper mention may place the family in the historical record."
+  ],
+  "source_references": [
+    "Schell, Herbert S. History of South Dakota. 4th ed. Pierre: South Dakota State Historical Society Press, 2004.",
+    "Blake, Kellee. 'First in the Path of the Firemen: The Fate of the 1890 Population Census.' Prologue Magazine 28, no. 1 (Spring 1996).",
+    "Szucs, Loretto Dennis, and Sandra Hargreaves Luebking. The Source: A Guidebook to American Genealogy. 3rd ed. Provo, UT: Ancestry, 2006.",
+    "South Dakota State Historical Society. Guide to South Dakota Newspapers. Pierre: SD State Historical Society, 2003."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "sd_beadle",
+    "research_guidance_refs": ["immigrant_records_research"],
+    "template_refs": ["record_silences"]
+  }
+}

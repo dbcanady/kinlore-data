@@ -1,0 +1,111 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the SC Lowcountry regional cluster. Documents how transportation shaped settlement and commerce in a landscape defined by water — where rivers and the sea were highways and overland travel was secondary to waterborne movement until the railroad era.",
+  "connectivity_id": "sc_lowcountry_roads",
+  "display_name": "SC Lowcountry — Road & Connectivity Network",
+  "cluster_ref": "sc_lowcountry",
+  "era_range": "1670-1960",
+  "transportation_eras": [
+    {
+      "era_id": "water_highways",
+      "era_name": "Water Highways: Rivers and the Sea as Roads",
+      "date_range": "1670-1850",
+      "primary_modes": ["river boat (periauger, bateau, flatboat)", "coastal vessel (schooner, sloop)", "ferry", "horseback on sandy trace", "foot"],
+      "description": "The Lowcountry was a water world. Rivers — the Ashley, Cooper, Waccamaw, Pee Dee, Combahee, Edisto, Santee — were the primary highways. Rice was transported by flatboat from plantation to port. People traveled by river in periaugers (large dugout canoes). Coastal schooners connected Charleston to Georgetown, Beaufort, and Savannah. Overland roads were sandy traces through pine barrens and swamp — difficult, slow, and often impassable. The sea islands were accessible only by boat until the twentieth century. Charleston's harbor was the hub of the entire system — everything came through the port.",
+      "road_conditions": "Sandy traces through pine forest, swamp causeways built of logs (corduroy roads), ferry crossings at every significant river. Roads were passable in dry weather but dissolved in rain. The overland route from Charleston to Georgetown was a multi-day journey through dense forest and swamp.",
+      "travel_times": [
+        { "from": "Charleston", "to": "Georgetown (by coastal schooner)", "mode": "coastal vessel", "time": "1-2 days (depending on wind)", "conditions_note": "The sea route was faster and easier than overland, but weather-dependent" },
+        { "from": "Charleston", "to": "Beaufort (by coastal vessel)", "mode": "coastal vessel", "time": "1 day (favorable wind)", "conditions_note": "Port Royal Sound accessible from the sea" },
+        { "from": "Rice plantation", "to": "Charleston (by river)", "mode": "flatboat or periauger", "time": "1-3 days downstream, 3-7 days upstream", "conditions_note": "Tidal rivers — timing the tide was essential" },
+        { "from": "Charleston", "to": "Georgetown (overland)", "mode": "horseback", "time": "3-5 days", "conditions_note": "Through pine barrens and across multiple ferry crossings. Rarely attempted when a boat was available" }
+      ],
+      "key_routes": [
+        { "route_name": "Cooper River corridor (Charleston to upper Cooper plantations)", "type": "river highway", "year_established": "1680s", "description": "The primary artery of the rice empire. Rice, people, and goods moved by water between Charleston and the Cooper River plantations. Enslaved Africans arrived at Sullivan's Island and were transported by boat to the river plantations.", "counties_served": ["Charleston", "Berkeley"] },
+        { "route_name": "Coastal route (Charleston-Beaufort-Savannah)", "type": "coastal vessel", "year_established": "1680s", "description": "Coastal schooners connected the Lowcountry's ports. This was the primary connection between Charleston and the sea islands.", "counties_served": ["Charleston", "Beaufort", "Colleton"] },
+        { "route_name": "Santee Canal (Cooper River to Santee River)", "type": "canal", "year_established": 1800, "description": "The first canal in the United States. Connected the Cooper River to the Santee, enabling rice transport from the Santee plantations to Charleston without the dangerous coastal voyage.", "counties_served": ["Berkeley"] },
+        { "route_name": "King's Highway (colonial post road — Charleston north)", "type": "improved road", "year_established": "1730s", "description": "The colonial post road running north from Charleston through Georgetown toward Wilmington, NC. The overland route was secondary to the coastal sea route but carried mail and land travelers.", "counties_served": ["Charleston", "Berkeley", "Georgetown", "Williamsburg"] }
+      ],
+      "isolation_index": {
+        "description": "High for anyone away from navigable water. The Lowcountry was well-connected along its rivers and coast but deeply isolated in the interior pine barrens and swamps. The sea islands were entirely water-dependent — their isolation preserved Gullah culture precisely because no road connected them to the mainland.",
+        "comparative_note": "The Lowcountry's water connectivity was excellent by colonial standards — better than most inland regions. But the isolation of the sea islands and the interior was extreme."
+      },
+      "narrative_hook": "In {year}, {ancestor_name} traveled by water because the Lowcountry had no other option — the rivers were the roads, the tide was the clock, and a periauger on the Cooper River was faster than any horse on the sandy traces through the pines.",
+      "source": "Coclanis, The Shadow of a Dream (1989). Fraser, Charleston! Charleston! (1989)."
+    },
+    {
+      "era_id": "railroad_era",
+      "era_name": "Railroad and the Reorientation of the Lowcountry",
+      "date_range": "1830-1920",
+      "primary_modes": ["railroad", "coastal steamer", "river boat (declining)", "wagon on improved road"],
+      "description": "The South Carolina Railroad (1833) — one of the earliest in America — connected Charleston to Hamburg (near Augusta, GA), reorienting Charleston's trade from the coastal/river system toward the interior. The railroad reached Georgetown by the 1890s. The Northeastern Railroad connected Charleston to Florence and the Pee Dee. But the railroad did not transform the Lowcountry the way it transformed the Piedmont — there was no industrial revolution waiting for rail sidings. The railroad moved rice, cotton, and lumber, but the Lowcountry's economy was declining, not growing. The sea islands remained unconnected by road or rail until the twentieth century.",
+      "road_conditions": "County roads remained sandy and difficult. The Lowcountry's flat, wet terrain made road-building expensive — corduroy roads through swamp, causeways over marsh, bridges over tidal creeks. Away from the railroad, conditions were unchanged.",
+      "travel_times": [
+        { "from": "Charleston", "to": "Georgetown (by rail)", "mode": "railroad", "time": "3-4 hours", "conditions_note": "The Atlantic Coast Line Railroad connected Charleston to Georgetown via the Northeastern Railroad and branch lines" },
+        { "from": "Charleston", "to": "Walterboro (Colleton Co.) by rail", "mode": "railroad", "time": "2-3 hours", "conditions_note": "The ACL line running south from Charleston through Colleton toward Savannah" },
+        { "from": "Charleston", "to": "Beaufort (by rail and ferry)", "mode": "railroad + ferry", "time": "4-6 hours", "conditions_note": "Railroad to Port Royal, then ferry to Beaufort town. No direct rail connection to the sea islands" }
+      ],
+      "key_routes": [
+        { "route_name": "South Carolina Railroad (Charleston to Hamburg)", "type": "railroad", "year_established": 1833, "description": "One of the first railroads in America. Connected Charleston to the interior — cotton from the Upcountry and Georgia flowed to Charleston's wharves by rail.", "counties_served": ["Charleston", "Berkeley"] },
+        { "route_name": "Northeastern Railroad (Charleston to Florence)", "type": "railroad", "year_established": 1856, "description": "Connected Charleston through Berkeley and Williamsburg counties to Florence and the Pee Dee region. Carried lumber, tobacco, and passengers.", "counties_served": ["Charleston", "Berkeley", "Williamsburg"] },
+        { "route_name": "Atlantic Coast Line (Charleston to Savannah)", "type": "railroad", "year_established": "1870s-1890s (consolidated)", "description": "The coastal railroad running south from Charleston through Colleton County toward Savannah. Carried the region's lumber and naval stores.", "counties_served": ["Charleston", "Colleton"] }
+      ],
+      "isolation_index": {
+        "description": "Reduced along the railroad corridors but unchanged on the sea islands and in the interior. The railroad served towns, not farms. A Black sharecropper five miles from the nearest depot was as isolated in 1900 as in 1800.",
+        "comparative_note": "The Lowcountry's railroad network was less dense than the Piedmont's. The terrain — swamp, marsh, tidal rivers — made railroad construction expensive."
+      },
+      "narrative_hook": "The railroad reached {town} and changed the direction of commerce — but {ancestor_name} on a sea island or a Combahee River farm was still a boat ride from anything, and the railroad whistle was a sound heard but not ridden.",
+      "source": "Edgar, South Carolina: A History (1998). Fraser, Charleston! Charleston! (1989)."
+    },
+    {
+      "era_id": "bridge_highway_era",
+      "era_name": "Bridges, Highways, and the End of Island Isolation",
+      "date_range": "1920-1960",
+      "primary_modes": ["automobile", "bus", "truck", "railroad (declining for passengers)"],
+      "description": "The automobile and highway era brought the most profound change in Lowcountry connectivity since the rivers were first navigated. Bridges to the sea islands ended centuries of water-dependent isolation. US Route 17 — the coastal highway — connected Charleston to Georgetown, Beaufort, and Savannah by paved road. The bridges to Hilton Head (1956), to St. Helena Island, and to the other sea islands connected Gullah communities to the mainland for the first time — a change that brought economic opportunity but also threatened the cultural isolation that had preserved Gullah language and traditions. The Charleston area's military installations generated road and bridge improvements funded by the federal government.",
+      "road_conditions": "US highways paved by the 1930s. State and county roads improved through New Deal programs. Sea island roads remained unpaved until mid-century. The transition from water to road fundamentally changed daily life on the islands.",
+      "travel_times": [
+        { "from": "Charleston", "to": "Georgetown via US 17", "mode": "automobile", "time": "1.5-2 hours", "conditions_note": "Two-lane highway along the coast" },
+        { "from": "Charleston", "to": "Beaufort via US 17/21", "mode": "automobile", "time": "1.5-2 hours", "conditions_note": "Through Colleton County" },
+        { "from": "St. Helena Island", "to": "Beaufort", "mode": "automobile (after bridge)", "time": "15-20 minutes", "conditions_note": "Before the bridge: 30-60 minutes by boat" },
+        { "from": "Charleston", "to": "Moncks Corner (Berkeley Co.)", "mode": "automobile", "time": "30-45 minutes", "conditions_note": "US 52 north from Charleston" }
+      ],
+      "key_routes": [
+        { "route_name": "US Route 17 (Ocean Highway)", "type": "US highway", "year_established": 1926, "description": "The coastal highway connecting Georgetown, Charleston, and Beaufort. The Lowcountry's first continuous paved overland route along the coast.", "counties_served": ["Georgetown", "Charleston", "Colleton", "Beaufort"] },
+        { "route_name": "Sea island bridges", "type": "highway bridges", "year_established": "1920s-1950s (various)", "description": "Bridges connecting the sea islands to the mainland ended centuries of isolation. Each bridge was a cultural as well as physical connection — bringing economic opportunity and threatening cultural preservation simultaneously.", "counties_served": ["Beaufort", "Charleston"] },
+        { "route_name": "US Route 52 (Charleston to Moncks Corner and inland)", "type": "US highway", "year_established": 1926, "description": "Connected Charleston north through Berkeley County toward the interior.", "counties_served": ["Charleston", "Berkeley"] }
+      ],
+      "isolation_index": {
+        "description": "Dramatically reduced by the 1950s. The sea islands, isolated for centuries, were connected to the mainland by bridge. But the reduction of isolation came with cultural cost — the same bridges that brought economic access brought outside influences that began to erode Gullah language and traditions.",
+        "comparative_note": "The Lowcountry was among the last regions on the East Coast to have its island communities connected by bridge. The timing — mid-twentieth century — meant that Gullah culture survived longer than comparable African-influenced coastal cultures elsewhere."
+      },
+      "narrative_hook": "The bridge to {island_name} ended two centuries of isolation — {ancestor_name} could drive to the mainland in minutes instead of rowing for an hour, but the bridge carried the outside world in both directions, and what came back was not all welcome.",
+      "source": "Jones-Jackson, When Roots Die (1987). Edgar, South Carolina: A History (1998)."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1833, "event": "South Carolina Railroad opens (Charleston to Hamburg) — one of the first railroads in America", "impact": "Reoriented Charleston's commerce from the river system toward the interior" },
+    { "year": 1856, "event": "Northeastern Railroad connects Charleston to Florence through Berkeley and Williamsburg counties", "impact": "Connected the Lowcountry to the Pee Dee region" },
+    { "year": 1870, "event": "Railroad reconstruction after Civil War damage", "impact": "Restored connections but the economy they served was declining" },
+    { "year": 1894, "event": "Atlantic Coast Line Railroad consolidation", "impact": "Through-service from Charleston south to Savannah and north to Florence/Richmond" },
+    { "year": 1926, "event": "US Route 17 established as the coastal highway", "impact": "Automobile travel began to supplement and replace railroad for passengers" }
+  ],
+  "narrative_hooks": [
+    "The Lowcountry was a water world — {ancestor_name} traveled by river because the rivers were the roads, and the tide set the schedule for everything from rice harvest to family visits.",
+    "The sea islands' isolation preserved Gullah culture for two centuries — the water that kept the mainland out kept Africa in. When the bridge to {island_name} was built, the isolation ended and the preservation became a choice instead of a fact.",
+    "The railroad changed Charleston's direction of trade — from the rivers and the coast toward the interior — but for {ancestor_name} on a Combahee River plantation, the railroad whistle was a distant sound in a world still governed by the tide.",
+    "US Route 17 was the first paved road that connected the Lowcountry's counties by land — {ancestor_name} could drive from Georgetown to Beaufort in a day on a road that would have taken a week by horse.",
+    "The Santee Canal was the first canal in America, built for one purpose — to carry rice from the upper Santee to Charleston without risking the coastal voyage. {ancestor_name}'s crop floated through it."
+  ],
+  "source_references": [
+    "Coclanis, Peter A. The Shadow of a Dream. Oxford University Press, 1989.",
+    "Fraser, Walter J., Jr. Charleston! Charleston! University of South Carolina Press, 1989.",
+    "Edgar, Walter. South Carolina: A History. University of South Carolina Press, 1998.",
+    "Jones-Jackson, Patricia. When Roots Die. University of Georgia Press, 1987.",
+    "National Park Service. Charles Pinckney National Historic Site Interpretive Materials."
+  ],
+  "nel_cross_references": {
+    "route_refs": ["coastal_packet_route", "southern_railway_piedmont"],
+    "trigger_refs": ["domestic_slave_trade", "great_migration"]
+  }
+}

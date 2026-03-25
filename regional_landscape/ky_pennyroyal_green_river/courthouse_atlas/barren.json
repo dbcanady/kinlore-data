@@ -1,0 +1,136 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Barren County, Kentucky. Record survival, courthouse history, and known losses for the eastern anchor of the Pennyroyal cluster — formed 1799 from Warren and Green counties, with Glasgow as county seat. Barren County's records are generally well-preserved despite an 1864 courthouse fire that destroyed some early records.",
+  "courthouse_atlas_id": "ky_barren_courthouse",
+  "display_name": "Barren County, Kentucky — Courthouse Atlas",
+  "county": "Barren",
+  "state": "KY",
+  "fips_code": "21009",
+  "cluster_ref": "ky_pennyroyal_green_river",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1965,
+      "location": "Glasgow, KY — 100 Courthouse Square",
+      "records_housed": ["deeds", "wills", "court order books", "marriage records", "tax lists", "circuit court records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1799-1840s",
+        "location": "Glasgow — original log and frame structure on the public square",
+        "fate": "Replaced as the county grew. Early records transferred to successor building. Some early loose papers deteriorated from exposure and handling."
+      },
+      {
+        "era": "1840s-1864",
+        "location": "Glasgow — brick courthouse on the public square",
+        "fate": "Damaged by fire during the Civil War in October 1864 when Confederate guerrillas raided Glasgow. Some records destroyed; most bound volumes survived because they had been moved to private homes for safekeeping earlier in the war."
+      },
+      {
+        "era": "1865-1965",
+        "location": "Glasgow — rebuilt courthouse on the same site",
+        "fate": "Served for a century. Records from this era are well-preserved. Replaced by the current 1965 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "barren_1864_fire",
+      "date": "1864-10",
+      "cause": "Civil War guerrilla raid — Confederate irregulars burned portions of the courthouse during a raid on Glasgow",
+      "records_destroyed": ["some early tax lists", "some loose court papers", "scattered justice of the peace dockets"],
+      "records_survived": ["deed books", "will books", "court order books", "marriage bonds"],
+      "scope": "moderate",
+      "description": "In October 1864, Confederate guerrillas raided Glasgow and set fire to portions of the courthouse. The damage was real but not catastrophic. Earlier in the war, county officials and private citizens had removed the most valuable bound records — deed books, will books, and court order books — to private homes and cellars. These core genealogical records survived. Some tax lists from the county's earliest decades, loose court papers, and justice of the peace records were lost. The fire was part of a broader pattern of guerrilla activity in the Pennyroyal during the final year of the war.",
+      "narrative_impact": "If {ancestor_name}'s early tax records or loose court papers from Barren County cannot be found, the 1864 fire is the likely explanation. However, the core deed and will books survived — if {ancestor_name} owned land or left an estate, those records almost certainly exist.",
+      "source": "Collins, Lewis, and Richard H. Collins. History of Kentucky. Covington, KY: Collins and Company, 1874."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1799,
+      "completeness": "Good — deed books survive from county formation, though the earliest volumes show wear",
+      "gaps": "No major gaps. Early deed books were among those removed from the courthouse before the 1864 fire.",
+      "repository": "Barren County Clerk, Glasgow; Kentucky Department for Libraries and Archives (KDLA) microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com Kentucky land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1799,
+      "completeness": "Good — will books and estate records survive from county formation",
+      "gaps": "Some loose estate papers from the earliest decades may have been lost in the 1864 fire or simple deterioration. Bound will books are intact.",
+      "repository": "Barren County Clerk; KDLA microfilm",
+      "online_access": "FamilySearch microfilm; KDLA digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1799,
+      "completeness": "Good — marriage bonds survive from county formation; marriage registers begin in the 1850s",
+      "gaps": "Marriage bonds are more complete than minister returns for the pre-1850 period. Some early bonds show damage but remain legible.",
+      "repository": "Barren County Clerk; KDLA microfilm",
+      "online_access": "FamilySearch; Ancestry.com Kentucky marriages collection"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1799,
+      "completeness": "Good — county court order books survive from formation",
+      "gaps": "Some early loose papers lost in the 1864 fire. Bound order books survived and are continuous.",
+      "repository": "Barren County Clerk; KDLA microfilm",
+      "online_access": "KDLA microfilm; limited FamilySearch digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1852,
+      "death_registration_start": 1852,
+      "completeness": "Kentucky mandated registration beginning in 1852, but compliance was extremely spotty in rural counties until the early 1910s. Barren County records from 1852-1910 are fragmentary. Statewide registration became reliable by approximately 1911.",
+      "repository": "Kentucky Office of Vital Statistics, Frankfort; KDLA for pre-1911 registers"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Warren and Green County parent records (pre-1799)",
+      "description": "Barren County was formed from Warren and Green counties in 1799. All records before that date — land grants, court orders, tax lists — are in the parent county records.",
+      "repository": "Warren County Clerk, Bowling Green; Green County Clerk, Greensburg; KDLA microfilm",
+      "era_coverage": "1792-1799",
+      "genealogical_value": "Essential for any family claiming to be in the Barren County area before 1799. Warren County (formed 1797 from Logan) and Green County (formed 1793 from Lincoln and Nelson) hold the earliest records for the region.",
+      "source": "Jillson, Willard Rouse. The Kentucky Land Grants. Louisville: Standard Printing Company, 1925."
+    },
+    {
+      "source_type": "Virginia land grants (pre-1792)",
+      "description": "Kentucky was part of Virginia until statehood in 1792. Early land grants for the Pennyroyal region were issued under Virginia authority. The Virginia Land Office records include military bounty land warrants, treasury warrants, and surveys for what became Barren County.",
+      "repository": "Kentucky Secretary of State, Land Office Division; Library of Virginia",
+      "era_coverage": "1780s-1792",
+      "genealogical_value": "Critical for tracing the earliest settlers. Virginia military bounty land warrants from Revolutionary War service were a primary mechanism for settling the Pennyroyal. The grants often record the grantee's Virginia county of origin.",
+      "source": "Jillson, Willard Rouse. Old Kentucky Entries and Deeds. Louisville: Standard Printing Company, 1926."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1800-1940. Agricultural schedules (1850-1880) and slave schedules (1850-1860). Barren County is enumerated from the 1800 census.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1800-1940",
+      "genealogical_value": "Essential for tracking families between land and court records. Agricultural schedules are particularly valuable for the tobacco-farming Pennyroyal. Slave schedules (1850, 1860) list slaveholders and the age, sex, and color of enslaved people.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Barren County, KY."
+    },
+    {
+      "source_type": "Church records — Baptist and Presbyterian",
+      "description": "Baptist and Presbyterian congregations were established in Barren County from its formation. The Great Revival of 1800 at nearby Gasper River (Logan County) generated a wave of church formation. Minute books record memberships, baptisms, marriages, disciplinary actions, and dismissal letters.",
+      "repository": "Southern Baptist Theological Seminary Archives, Louisville; individual congregations; Kentucky Historical Society",
+      "era_coverage": "1800s-present",
+      "genealogical_value": "Baptist church minute books are among the richest genealogical sources for rural Kentucky. Dismissal letters track migration between congregations. Disciplinary records document personal details found nowhere else.",
+      "source": "Spencer, J. H. A History of Kentucky Baptists from 1769 to 1885. Cincinnati: J. R. Baumes, 1885."
+    }
+  ],
+  "narrative_hooks": [
+    "Barren County's courthouse burned during a Confederate guerrilla raid in 1864, but the deed books and will books had already been smuggled to safety — if {ancestor_name} owned land or left an estate, those records survived the war.",
+    "Before Barren County existed in 1799, {ancestor_name}'s earliest records were filed in Warren or Green County — and those parent county records hold the key to the family's first years in the Pennyroyal.",
+    "Kentucky's vital registration law dates to 1852, but compliance in rural Barren County was a suggestion rather than a requirement — if {ancestor_name} was born or died before 1911, church records and family Bible entries are likely the only trail.",
+    "The Baptist church minute books from Barren County record what the courthouse never did — who was disciplined for drinking, who was dismissed to move to another county, and who married whom when the state was not yet keeping track."
+  ],
+  "source_references": [
+    "Collins, Lewis, and Richard H. Collins. History of Kentucky. Covington, KY: Collins and Company, 1874.",
+    "Jillson, Willard Rouse. The Kentucky Land Grants. Louisville: Standard Printing Company, 1925.",
+    "Spencer, J. H. A History of Kentucky Baptists from 1769 to 1885. Cincinnati: J. R. Baumes, 1885.",
+    "Works Progress Administration. Historical Records Survey: Kentucky County Records. Frankfort, 1937-1942.",
+    "Kentucky Department for Libraries and Archives. Guide to Kentucky County Records on Microfilm. Frankfort, various editions."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ky_barren",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

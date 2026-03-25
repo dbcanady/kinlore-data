@@ -1,0 +1,133 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Yazoo County, MS. Formed in 1823 from Hinds County on Choctaw cession lands. Yazoo City is the county seat. The county has experienced multiple devastating fires, including the 1904 Yazoo City fire that destroyed much of the town and damaged courthouse records. Yazoo County straddles the boundary between the Delta bottomlands and the loess hills, making it a geographic and economic transition zone.",
+  "courthouse_atlas_id": "ms_yazoo_courthouse",
+  "display_name": "Yazoo County, Mississippi — Courthouse Atlas",
+  "county": "Yazoo",
+  "state": "MS",
+  "fips_code": "28163",
+  "cluster_ref": "ms_natchez_hill_country",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1907,
+      "location": "Yazoo City, MS — Main Street (rebuilt after the 1904 fire on the same site)",
+      "records_housed": ["deeds (post-1850s)", "wills", "marriage records (post-1850s)", "court minutes (post-1860s)", "chancery court records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1823-1850s",
+        "location": "Yazoo City (originally called 'Hanan's Bluff') — early frame courthouse",
+        "fate": "Replaced by a more substantial building as the county grew. Records survived the transition."
+      },
+      {
+        "era": "1850s-1904",
+        "location": "Yazoo City — brick courthouse on Main Street",
+        "fate": "The Great Fire of 1904 swept through Yazoo City on May 25, 1904, destroying over three hundred buildings in the business district, including significant damage to the courthouse. Some bound record volumes were rescued. Loose papers and some early volumes were destroyed."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "yazoo_1904_fire",
+      "date": "1904-05-25",
+      "cause": "Great Fire of Yazoo City — fire destroyed over 300 buildings in the downtown area",
+      "records_destroyed": ["some early deed books (1823-1850s)", "loose estate papers", "some early marriage records", "some court filings and correspondence", "tax assessment records"],
+      "records_survived": ["deed books from approximately 1850s onward (rescued from the courthouse)", "will books (most volumes saved)", "some marriage records from mid-19th century", "court minutes from approximately 1860s onward"],
+      "scope": "major",
+      "description": "The Great Fire of Yazoo City on May 25, 1904, was one of the most destructive fires in Mississippi history. Starting in a residential area, the fire swept through the business district, destroying over three hundred buildings, multiple churches, and heavily damaging the courthouse. Citizens made heroic efforts to remove records from the building, and many bound volumes were saved. However, the earliest records — those from the county's first decades — suffered the heaviest losses. The fire destroyed approximately twenty-five years of the county's earliest documentation.",
+      "narrative_impact": "The 1904 fire made Yazoo City famous for the wrong reason — and if {ancestor_name} was in Yazoo County before the 1850s, the courthouse records that documented {pronoun_possessive} earliest years there may have burned with the town. Federal census records and state land office files become the essential substitutes for the lost decades.",
+      "source": "Mississippi Department of Archives and History. Guide to Official Records in the Mississippi Department of Archives and History. Jackson, 1994."
+    },
+    {
+      "loss_id": "yazoo_civil_war",
+      "date": "1863",
+      "cause": "Civil War military operations — Union raids in the Yazoo River area during the Vicksburg Campaign",
+      "records_destroyed": ["minor — some papers scattered during raids"],
+      "records_survived": ["most bound volumes — Yazoo City was not systematically burned"],
+      "scope": "minor",
+      "description": "Union forces operated in the Yazoo River area as part of the Vicksburg Campaign, and Confederate forces burned supply depots to prevent capture. Yazoo City suffered some damage from these operations but was not systematically destroyed like Jackson. Courthouse records experienced minor disruption but no major destruction during the war.",
+      "narrative_impact": "The Civil War disrupted record-keeping in Yazoo County but did not destroy the courthouse. The 1904 fire was the more damaging event by far.",
+      "source": "Bearss, Edwin C. The Campaign for Vicksburg. 3 vols. Dayton, OH: Morningside Press, 1985-1986."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1855,
+      "completeness": "Incomplete before the mid-1850s due to 1904 fire. Good from the 1850s onward.",
+      "gaps": "Major gap 1823-1855 due to fire. State land office records at MDAH partially fill the gap for initial patent transactions.",
+      "repository": "Yazoo County Chancery Clerk, Yazoo City; Mississippi Department of Archives and History",
+      "online_access": "FamilySearch microfilm; limited MDAH digital collections"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1840,
+      "completeness": "Some will books survived the 1904 fire. Loose estate papers from the earliest decades are largely lost.",
+      "gaps": "1823-1840 estate records are fragmentary. Later records are more complete.",
+      "repository": "Yazoo County Chancery Clerk; Mississippi Department of Archives and History",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1845,
+      "completeness": "Partial — some mid-19th century marriage records survived the 1904 fire. Earlier records were destroyed.",
+      "gaps": "1823-1845 marriage records largely lost.",
+      "repository": "Yazoo County Circuit Clerk; Mississippi Department of Archives and History",
+      "online_access": "FamilySearch; Ancestry.com MS marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1860,
+      "completeness": "Court minutes from approximately 1860 onward survived. Earlier minutes lost in the 1904 fire.",
+      "gaps": "1823-1860 court minutes largely destroyed.",
+      "repository": "Yazoo County Circuit Clerk; Mississippi Department of Archives and History",
+      "online_access": "MDAH microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1912,
+      "death_registration_start": 1912,
+      "completeness": "Mississippi statewide registration began 1912.",
+      "repository": "Mississippi State Department of Health, Vital Records"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Mississippi state land office records",
+      "description": "Original land patents survive at the state level, independent of the Yazoo City courthouse. These document the first purchases of public land after the Choctaw cession opened the area to white settlement.",
+      "repository": "Mississippi Secretary of State, Land Office; Mississippi Department of Archives and History; Bureau of Land Management General Land Office records (online)",
+      "era_coverage": "1820s-1860s",
+      "genealogical_value": "Critical for the 1823-1855 gap in county deed records. BLM General Land Office records are searchable online and document who first acquired each tract from the federal government.",
+      "source": "Bureau of Land Management. General Land Office Records. https://glorecords.blm.gov."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1830-1940. Slave schedules 1850-1860. These survived in Washington, unaffected by the Yazoo City fire.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1830-1940",
+      "genealogical_value": "Census records are the most important substitute for the county records lost in the 1904 fire. For the period 1823-1855, census schedules may be the only enumeration of who lived in Yazoo County.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Yazoo County, MS."
+    },
+    {
+      "source_type": "Yazoo Herald newspaper",
+      "description": "The Yazoo Herald has published since the antebellum period and contains marriage notices, death notices, estate sale advertisements, and legal notices that substitute for lost courthouse records.",
+      "repository": "Mississippi Department of Archives and History microfilm; Yazoo County Library System",
+      "era_coverage": "1840s-present",
+      "genealogical_value": "Newspaper legal notices (estate settlements, land sales, strayed livestock) duplicate information that was filed at the courthouse and may have been destroyed in the 1904 fire.",
+      "source": "Yazoo Herald, Yazoo City, MS. Microfilm at MDAH."
+    }
+  ],
+  "narrative_hooks": [
+    "The Great Fire of 1904 took three hundred buildings and a generation of records with them. If {ancestor_name} was in Yazoo County before the 1850s, the courthouse records may have burned with the town — and the family's story for those decades depends on what the federal census and the state land office preserved in buildings far from Yazoo City.",
+    "Yazoo County sits where the Delta flatlands meet the loess hills — and {ancestor_name}'s experience depended on which side of that line {pronoun_subject} lived on. The bottomlands grew cotton with enslaved labor; the hills grew cotton with smaller farms and fewer enslaved people. The geography was the first fact of economic life.",
+    "The Yazoo Herald may hold the only surviving notice of {ancestor_name}'s marriage, death, or estate sale — because the newspaper printed what the courthouse filed, and the newspaper survived the 1904 fire in archives the courthouse did not reach.",
+    "When Yazoo City burned in 1904, the citizens carried record books from the courthouse while the town collapsed around them. The volumes they saved are the reason {ancestor_name}'s deed may still exist. The volumes they could not reach are the reason other records do not."
+  ],
+  "source_references": [
+    "Mississippi Department of Archives and History. Guide to Official Records in the Mississippi Department of Archives and History. Jackson, 1994.",
+    "Bureau of Land Management. General Land Office Records. https://glorecords.blm.gov.",
+    "Bearss, Edwin C. The Campaign for Vicksburg. 3 vols. Dayton, OH: Morningside Press, 1985-1986.",
+    "Morris, Willie. Yazoo: Integration in a Deep-Southern Town. New York: Harper's Magazine Press, 1971."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ms_yazoo",
+    "research_guidance_refs": ["southern_courthouse_research", "census_gaps"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Hancock County, IN. Record survival and courthouse history for the National Road county centered on Greenfield. Well-preserved records from 1828 organization.",
+  "courthouse_atlas_id": "in_hancock_courthouse",
+  "display_name": "Hancock County, Indiana — Courthouse Atlas",
+  "county": "Hancock",
+  "state": "IN",
+  "fips_code": "18059",
+  "cluster_ref": "in_central_white_river",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1897, "location": "Greenfield, IN — Courthouse Square", "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court records"] },
+    "previous_courthouses": [
+      { "era": "1828-1853", "location": "Greenfield, original site", "fate": "Early frame courthouse. Replaced." },
+      { "era": "1853-1897", "location": "Greenfield, same square", "fate": "Brick courthouse. Served through the Civil War. Replaced by current Romanesque Revival building." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "hancock_no_major_loss", "date": null, "cause": "None", "records_destroyed": [], "records_survived": ["deed books", "will books", "court minutes", "marriage records"], "scope": "none",
+      "description": "Hancock County's records are well-preserved from the 1828 organization. No major fire or flood damage. Records run continuously.",
+      "narrative_impact": "If {ancestor_name} lived in Hancock County, the records survive. The county's agricultural character means most families appear in deed records and agricultural census schedules.",
+      "source": "Indiana Commission on Public Records. Guide to Indiana County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1828, "completeness": "Excellent", "gaps": "None known.", "repository": "Hancock County Recorder; Indiana State Archives", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1828, "completeness": "Good", "gaps": "Earliest loose papers fragmentary.", "repository": "Hancock County Clerk; Indiana State Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1828, "completeness": "Good", "gaps": "None significant.", "repository": "Hancock County Clerk; Indiana State Archives", "online_access": "FamilySearch; Ancestry.com" },
+    "court_minutes": { "earliest_surviving": 1828, "completeness": "Good", "gaps": "Minor early gaps.", "repository": "Hancock County Clerk; Indiana State Archives", "online_access": "Indiana State Archives microfilm" },
+    "vital_records": { "birth_registration_start": 1882, "death_registration_start": 1882, "completeness": "Spotty until approximately 1900.", "repository": "Indiana State Department of Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "Federal census schedules", "description": "Population schedules 1830-1940. Agricultural schedules particularly valuable for farming county.", "repository": "National Archives; FamilySearch; Ancestry.com", "era_coverage": "1830-1940", "genealogical_value": "Agricultural schedules document farm size, value, livestock, and crops.", "source": "National Archives and Records Administration." },
+    { "source_type": "Church records — Methodist and Baptist", "description": "Methodist and Baptist churches served most of Hancock County's population. Records supplement civil records before vital registration.", "repository": "Individual congregations; Indiana United Methodist Archives at DePauw University", "era_coverage": "1830s-present", "genealogical_value": "Baptisms, marriages, and burials. Church transfer records track migration.", "source": "Indiana United Methodist Archives, DePauw University." }
+  ],
+  "narrative_hooks": [
+    "Hancock County's 1897 courthouse still stands at Greenfield — {ancestor_name}'s records may be in the same building where the original documents were filed.",
+    "Before 1882, a missing birth record for {ancestor_name} in Hancock County is standard — check church records and the federal census.",
+    "Hancock County was a farming county, and farmers appear in the records — deed books, agricultural census schedules, and tax lists all track {ancestor_name}'s land and livelihood.",
+    "If {ancestor_name} passed through Hancock County on the National Road, the county records may not have captured {pronoun_object} at all — transient families left fewer traces than settled ones."
+  ],
+  "source_references": [
+    "Indiana Commission on Public Records. Guide to Indiana County Records.",
+    "Binford, John H. History of Hancock County. Greenfield: King and Binford, 1882.",
+    "Indiana United Methodist Archives finding aids, DePauw University."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "in_hancock",
+    "research_guidance_refs": ["census_gaps", "vital_records"],
+    "template_refs": ["record_silences"]
+  }
+}

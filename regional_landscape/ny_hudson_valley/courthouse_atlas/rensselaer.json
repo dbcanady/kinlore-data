@@ -1,0 +1,50 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Rensselaer County, NY. Formed 1791 from Albany County. No major fire. Unique sources include Rensselaerwyck patroonship rent rolls and Troy collar factory employment records.",
+  "courthouse_atlas_id": "ny_rensselaer_courthouse",
+  "display_name": "Rensselaer County, New York — Courthouse Atlas",
+  "county": "Rensselaer",
+  "state": "NY",
+  "fips_code": "36083",
+  "cluster_ref": "ny_hudson_valley",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1894, "location": "Troy, NY — Congress Street and Second Street", "records_housed": ["deeds", "mortgages", "wills", "court minutes", "naturalization records"] },
+    "previous_courthouses": [
+      { "era": "1791-1831", "location": "Troy, earlier courthouse", "fate": "Frame courthouse. No significant fire." },
+      { "era": "1831-1894", "location": "Troy, stone courthouse", "fate": "Served through the Civil War. Replaced by the current Romanesque building." }
+    ]
+  },
+  "record_losses": [
+    { "loss_id": "rensselaer_no_major_loss", "date": null, "cause": "No major fire or war damage to courthouse", "records_destroyed": [], "records_survived": ["deed books", "will books", "court minutes", "naturalization records"], "scope": "none", "description": "Rensselaer County has not experienced a major courthouse fire. Records begin at the county's 1791 formation; pre-1791 records are under Albany County. The city of Troy experienced devastating fires in 1820 and 1862 that destroyed large portions of the commercial district and private records, but the courthouse records survived both fires.", "narrative_impact": "{ancestor_name}'s county records survive. However, the Troy fires of 1820 and 1862 may have destroyed private records — family Bibles, business papers, church records — that supplemented the courthouse record.", "source": "Rensselaer County Clerk's Office. Weise, Arthur James. Troy's One Hundred Years. Troy, 1891." }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1791, "completeness": "Good from county formation. Pre-1791 under Albany County.", "gaps": "Rensselaerwyck tenant records are in the Van Rensselaer family papers, not county deed books.", "repository": "Rensselaer County Clerk's Office, Troy; NY State Archives", "online_access": "FamilySearch; Ancestry.com" },
+    "wills_estates": { "earliest_surviving": 1791, "completeness": "Good.", "gaps": "Pre-1791 under Albany County.", "repository": "Rensselaer County Surrogate's Court; NY State Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1847, "completeness": "Standard NY pattern.", "gaps": "Pre-1880 civil registration sparse.", "repository": "Town clerks; City of Troy Clerk; NY State Department of Health", "online_access": "FamilySearch; Ancestry.com" },
+    "court_minutes": { "earliest_surviving": 1791, "completeness": "Good.", "gaps": "Pre-1791 under Albany County.", "repository": "Rensselaer County Clerk's Office; NY State Archives", "online_access": "Limited" },
+    "vital_records": { "birth_registration_start": 1880, "death_registration_start": 1880, "completeness": "Standard NY pattern. Troy city records may have earlier scattered vital records.", "repository": "City of Troy; town clerks; NY State Department of Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "Van Rensselaer family papers and Rensselaerwyck rent rolls", "description": "The Rensselaerwyck patroonship records include tenant lists, rent rolls, lease agreements, and correspondence documenting every family that farmed on the patroonship.", "repository": "New York State Library, Albany; New-York Historical Society; Albany Institute of History and Art", "era_coverage": "1630s-1850s", "genealogical_value": "Essential for tenant families who never appear in county deed books because they never owned land. Rent rolls name heads of household and sometimes family members.", "source": "Kim, Sung Bok. Landlord and Tenant in Colonial New York. UNC Press, 1978." },
+    { "source_type": "Troy collar and shirt factory records", "description": "Cluett, Peabody & Co. and other Troy collar manufacturers maintained employment records, payroll, and personnel files. Some of these records survive in corporate archives and historical society collections.", "repository": "Rensselaer County Historical Society; Troy Public Library; Rensselaer Polytechnic Institute Archives", "era_coverage": "1830s-1960s", "genealogical_value": "Valuable for identifying factory workers — predominantly women. Employment records establish dates of residence and sometimes include family information.", "source": "Turbin, Carole. Working Women of Collar City. University of Illinois Press, 1992." },
+    { "source_type": "Troy city directories", "description": "City directories for Troy begin in the 1830s and provide annual snapshots of residents, occupations, and addresses.", "repository": "Troy Public Library; Rensselaer County Historical Society; Ancestry.com (digitized)", "era_coverage": "1830s-1960s", "genealogical_value": "Essential for tracking urban residents between census years. The directories list occupation, making them particularly useful for identifying collar factory workers, iron workers, and other Troy industrial employees.", "source": "Troy city directories, various publishers." }
+  ],
+  "narrative_hooks": [
+    "Rensselaer County was carved from Albany County in 1791 — {ancestor_name}'s pre-1791 records are under Albany County, not Rensselaer.",
+    "If {ancestor_name} was a Rensselaerwyck tenant, the county deed books are silent — the patroon's records at the New York State Library are where the tenant documentation lives.",
+    "The Troy city fires of 1820 and 1862 destroyed private records across the commercial district — {ancestor_name}'s family Bible, business papers, or church records may have been lost even though the courthouse survived.",
+    "Troy's collar factory records, where they survive, document workers the county records may miss — women who earned wages but owned no property and appeared in no tax rolls."
+  ],
+  "source_references": [
+    "Kim, Sung Bok. Landlord and Tenant in Colonial New York. University of North Carolina Press, 1978.",
+    "Turbin, Carole. Working Women of Collar City. Urbana: University of Illinois Press, 1992.",
+    "Weise, Arthur James. Troy's One Hundred Years. Troy: William H. Young, 1891.",
+    "New York State Archives. Guide to Records in the New York State Archives. Albany, 1993."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ny_rensselaer",
+    "research_guidance_refs": ["property_records", "church_transfers"],
+    "template_refs": ["record_silences"]
+  }
+}

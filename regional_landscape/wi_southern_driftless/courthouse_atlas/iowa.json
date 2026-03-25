@@ -1,0 +1,105 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Iowa County, WI. Records are good from the territorial period (county formed 1829 — one of the earliest in Wisconsin). The courthouse at Dodgeville houses records from the oldest organized county in the Driftless cluster.",
+  "courthouse_atlas_id": "wi_iowa_courthouse",
+  "display_name": "Iowa County, Wisconsin — Courthouse Atlas",
+  "county": "Iowa",
+  "state": "WI",
+  "fips_code": "55049",
+  "cluster_ref": "wi_southern_driftless",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1859,
+      "location": "Dodgeville, WI — 222 N. Iowa Street (historic courthouse, expanded with additions)",
+      "records_housed": ["deeds", "mortgages", "probate records", "court records", "vital records (post-1907)"]
+    },
+    "previous_courthouses": [
+      { "era": "1829-1844", "location": "Mineral Point (original county seat)", "fate": "County seat moved to Dodgeville in 1861. Mineral Point served as territorial capital briefly." },
+      { "era": "1844-1859", "location": "Dodgeville, various buildings", "fate": "Replaced by current 1859 building." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "iowa_no_major_loss",
+      "date": null,
+      "cause": "None — no major courthouse fire",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage records", "territorial-era records"],
+      "scope": "none",
+      "description": "Iowa County's records survive from the territorial period. As one of Wisconsin's earliest counties, it holds records that predate most other counties in the cluster. Some of the earliest territorial records overlap with what later became Lafayette County (carved from Iowa County in 1846) and Grant County.",
+      "narrative_impact": "Iowa County was one of the first organized counties in Wisconsin — if {ancestor_name} was in the lead mining district in the 1830s, Iowa County's territorial records are the starting point.",
+      "source": "Wisconsin Historical Society. Guide to Wisconsin County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1829,
+      "completeness": "Good — territorial-era records survive, though earliest entries are sparse",
+      "gaps": "Some pre-1836 territorial records fragmentary. Post-statehood (1848) excellent.",
+      "repository": "Iowa County Register of Deeds; Wisconsin Historical Society",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1835,
+      "completeness": "Good",
+      "gaps": "Minor in territorial period",
+      "repository": "Iowa County Probate Court; Wisconsin Historical Society",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1832,
+      "completeness": "Good — among the earliest marriage records in Wisconsin",
+      "gaps": "Scattered gaps in territorial era",
+      "repository": "Iowa County Register of Deeds; Wisconsin Historical Society",
+      "online_access": "FamilySearch; Ancestry.com WI marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1830,
+      "completeness": "Fair to good — territorial court records survive but are sometimes fragmented",
+      "gaps": "Some territorial-era justice records scattered",
+      "repository": "Iowa County Clerk of Courts; Wisconsin Historical Society",
+      "online_access": "Limited; WHS microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1907,
+      "death_registration_start": 1907,
+      "completeness": "Statewide registration from 1907.",
+      "repository": "Wisconsin Department of Health Services"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Mineral Point territorial records",
+      "description": "Mineral Point served as territorial capital and as the county seat before Dodgeville. Territorial government records, mining claim documentation, and early court records from Mineral Point are critical sources.",
+      "repository": "Wisconsin Historical Society; National Archives (GLO records); Mineral Point Historical Society",
+      "era_coverage": "1827-1848",
+      "genealogical_value": "Essential for early mining families. Mineral Point records predate most Wisconsin county records and document the founding generation of Euro-American settlement.",
+      "source": "Schafer, The Wisconsin Lead Region (1932)."
+    },
+    {
+      "source_type": "Pendarvis historic site records",
+      "description": "The Cornish stone row houses at Mineral Point (Pendarvis, now a state historic site) have associated historical documentation including property records, construction records, and oral histories of Cornish mining families.",
+      "repository": "Wisconsin Historical Society (Pendarvis site files); Mineral Point Historical Society",
+      "era_coverage": "1830s-1900s",
+      "genealogical_value": "Useful for Cornish families at Mineral Point. Oral histories collected in the twentieth century document family traditions and migration patterns.",
+      "source": "Wisconsin Historical Society, Pendarvis Historic Site."
+    }
+  ],
+  "narrative_hooks": [
+    "Iowa County holds some of the oldest records in Wisconsin — if {ancestor_name} was in the lead district in the 1830s, the territorial records at the courthouse and the Wisconsin Historical Society are the first place to look.",
+    "Mineral Point was the capital of the Wisconsin Territory — {ancestor_name}'s mining claim may be filed in records older than the state itself.",
+    "Iowa County's 1859 courthouse still stands — the records inside span from the territorial era through the dairy revolution, documenting families who transitioned from mining to farming on the same Driftless hills.",
+    "Wisconsin vital registration began in 1907 — for {ancestor_name} before that date, Cornish Methodist or Norwegian Lutheran church records are the primary substitute."
+  ],
+  "source_references": [
+    "Wisconsin Historical Society. Guide to Wisconsin County Records.",
+    "Schafer, Joseph. The Wisconsin Lead Region. Madison: State Historical Society of Wisconsin, 1932.",
+    "Wisconsin Historical Society, Pendarvis Historic Site documentation."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "wi_iowa",
+    "research_guidance_refs": ["vital_records", "property_records"],
+    "template_refs": ["record_silences"]
+  }
+}

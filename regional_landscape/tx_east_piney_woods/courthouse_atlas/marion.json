@@ -1,0 +1,68 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Marion County, TX. Record survival and courthouse history for the county of Jefferson — the antebellum steamboat port. Records date from 1860 county organization.",
+  "courthouse_atlas_id": "tx_marion_courthouse",
+  "display_name": "Marion County, Texas — Courthouse Atlas",
+  "county": "Marion",
+  "state": "TX",
+  "fips_code": "48315",
+  "cluster_ref": "tx_east_piney_woods",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1912, "location": "Jefferson, TX — 102 W. Austin Street", "records_housed": ["deeds", "plats", "marriage licenses", "probate records", "court minutes"] },
+    "previous_courthouses": [
+      { "era": "1860–1912", "location": "Jefferson, downtown", "fate": "Marion County was created in 1860, carved from Cass County. Early records transferred or newly created. No significant fire damage." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "marion_no_major_loss", "date": null, "cause": "No major fire or destruction",
+      "records_destroyed": [], "records_survived": ["deed books", "marriage records", "probate files", "court minutes"],
+      "scope": "none",
+      "description": "Marion County's courthouse has not experienced a major fire. Records begin from county creation in 1860. For records predating 1860, researchers must check Cass County records, as Marion was carved from Cass County. Jefferson's steamboat-era commercial records — shipping manifests, warehouse receipts — are separate from the courthouse and partially preserved at the Jefferson Historical Museum.",
+      "narrative_impact": "If {ancestor_name} was in the Jefferson area before 1860, records are in Cass County's files. After 1860, Marion County records are intact. The historical museum in Jefferson holds commercial and steamboat-era records not available at the courthouse.",
+      "source": "Texas State Library and Archives Commission. County Records Inventory."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1860, "completeness": "Good from county creation. For pre-1860 deeds, check Cass County.", "gaps": "None significant after 1860.", "repository": "Marion County Clerk, Jefferson", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1860, "completeness": "Good.", "gaps": "None significant.", "repository": "Marion County Clerk", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1860, "completeness": "Good.", "gaps": "None significant.", "repository": "Marion County Clerk", "online_access": "FamilySearch; Ancestry.com TX marriages" },
+    "court_minutes": { "earliest_surviving": 1860, "completeness": "Good.", "gaps": "None significant.", "repository": "Marion County Clerk", "online_access": "FamilySearch microfilm" },
+    "vital_records": { "birth_registration_start": 1903, "death_registration_start": 1903, "completeness": "Spotty before 1910.", "repository": "Texas Department of State Health Services" }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Jefferson Historical Museum and Excelsior House archives",
+      "description": "The Jefferson Historical Museum and the Excelsior House hotel hold collections related to Jefferson's steamboat era — shipping records, hotel registers, commercial correspondence, and photographs.",
+      "repository": "Jefferson Historical Museum, Jefferson, TX; Excelsior House archives",
+      "era_coverage": "1845–1900",
+      "genealogical_value": "Steamboat-era hotel registers and shipping manifests can document individuals passing through Jefferson — particularly useful for families arriving in East Texas via the water route from New Orleans and Shreveport.",
+      "source": "Jefferson Historical Museum finding aids."
+    },
+    {
+      "source_type": "Cass County records (pre-1860)",
+      "description": "Marion County was created from Cass County in 1860. Records for the Jefferson area before that date are in Cass County's files at the Linden courthouse.",
+      "repository": "Cass County Clerk, Linden, TX",
+      "era_coverage": "1846–1860",
+      "genealogical_value": "Essential for pre-1860 research in the Jefferson area. Deeds, marriages, and court records filed before Marion County's creation are in Cass County.",
+      "source": "Texas State Library and Archives Commission."
+    }
+  ],
+  "narrative_hooks": [
+    "Marion County was carved from Cass County in 1860 — if {ancestor_name} was in Jefferson before that date, the records are at the Cass County courthouse in Linden, not in Jefferson.",
+    "The Jefferson Historical Museum holds steamboat-era records that the courthouse does not — shipping manifests and hotel registers that may document {ancestor_name}'s arrival in East Texas by water from New Orleans.",
+    "Marion County's records start in 1860 — the year the county was created, the year before the Civil War, and the beginning of a new record series for a town that was already Texas's second-largest city.",
+    "Texas vital records start in 1903 — for {ancestor_name}'s birth in Marion County before that date, census records and church records are the primary sources."
+  ],
+  "source_references": [
+    "Texas State Library and Archives Commission. County Records Inventory.",
+    "Jefferson Historical Museum finding aids.",
+    "Works Progress Administration. Historical Records Survey: Texas County Records. Austin, 1937–1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "tx_marion",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

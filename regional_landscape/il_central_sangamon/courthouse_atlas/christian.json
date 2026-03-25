@@ -1,0 +1,123 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Christian County, IL. Record survival, courthouse history, and known losses that shape what genealogists can and cannot find.",
+  "courthouse_atlas_id": "il_christian_courthouse",
+  "display_name": "Christian County, Illinois — Courthouse Atlas",
+  "county": "Christian",
+  "state": "IL",
+  "fips_code": "17021",
+  "cluster_ref": "il_central_sangamon",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1902,
+      "location": "Taylorville, IL — 101 S. Main Street",
+      "records_housed": ["deeds", "plats", "vital records", "probate records", "court minutes", "marriage records", "military discharge records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1839–1858",
+        "location": "Taylorville, original frame courthouse on the public square",
+        "fate": "Christian County was carved from Sangamon County in 1839. The first courthouse was a modest frame building. Early records transferred to successor."
+      },
+      {
+        "era": "1858–1902",
+        "location": "Taylorville, brick courthouse on the public square",
+        "fate": "Served through the Civil War and the coal mining boom. Replaced by the current 1902 building. Records survived the transition."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "christian_1858_partial",
+      "date": "1858",
+      "cause": "Deterioration and disorganization during courthouse transition",
+      "records_destroyed": ["some loose papers from commissioners' court 1839–1855"],
+      "records_survived": ["deed books", "will books", "marriage records", "bound court records"],
+      "scope": "minor",
+      "description": "When Christian County moved from its original frame courthouse to the 1858 brick building, some loose administrative papers from the earliest years of county governance were lost to deterioration or disorganization. The bound record books — deeds, wills, marriages — survived the transfer intact. The loss primarily affects commissioners' court proceedings and early administrative filings from the 1839–1855 period.",
+      "narrative_impact": "If {ancestor_name} had business before the Christian County commissioners' court in its earliest years — road petitions, minor civil matters, or administrative filings — the record may not survive. The core genealogical records (deeds, marriages, wills) are intact from 1839.",
+      "source": "Bateman, Newton, and Paul Selby. Historical Encyclopedia of Illinois and History of Christian County. Chicago: Munsell, 1918."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1839,
+      "completeness": "Excellent — continuous series from county formation",
+      "gaps": "No known significant gaps. Christian County was carved from Sangamon County in 1839; deeds before that date are found in Sangamon County records.",
+      "repository": "Christian County Recorder, Taylorville; Illinois State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com IL land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1839,
+      "completeness": "Good — probate records from county formation",
+      "gaps": "Estate inventories from the earliest years are sparse. Bound will books are intact.",
+      "repository": "Christian County Probate Court, Taylorville; Illinois State Archives; IRAD at UIS",
+      "online_access": "FamilySearch microfilm; limited digitization"
+    },
+    "marriages": {
+      "earliest_surviving": 1839,
+      "completeness": "Good — marriage licenses from county formation (Illinois required licenses from 1836, so Christian County's records begin at formation)",
+      "gaps": "Earliest records are minimal in detail. Coverage improves after 1850.",
+      "repository": "Christian County Clerk, Taylorville; Illinois State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com IL marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1839,
+      "completeness": "Good — circuit court minutes from county formation. Commissioners' court records have some early gaps.",
+      "gaps": "Some loose papers from 1839–1855 lost during courthouse transition.",
+      "repository": "Christian County Circuit Court, Taylorville; Illinois State Archives",
+      "online_access": "Illinois State Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1877,
+      "death_registration_start": 1877,
+      "completeness": "Illinois required county-level registration from 1877, but compliance was poor in rural townships until statewide enforcement in 1916. Rural Christian County was especially affected — Taylorville records are more complete than outlying areas.",
+      "repository": "Christian County Clerk; Illinois Department of Public Health; Illinois State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Coal mining company records and miners' union records",
+      "description": "Christian County was a significant coal-producing county from the 1870s through the mid-20th century. Mines near Taylorville, Pana, and Assumption employed hundreds of families. Where company records and United Mine Workers of America local records survive, they document workers by name, date, and sometimes nationality.",
+      "repository": "Illinois State Archives; University of Illinois Archives (UMWA records); Taylorville Public Library local history collection",
+      "era_coverage": "1870s–1950s",
+      "genealogical_value": "Coal mining records can identify families that left few other records. Mine safety inspection reports list employees by name. UMWA records, where they survive, document members' names, dues payments, and sometimes dependents. The Pana mine labor conflicts of 1898–1899 generated newspaper coverage and court records that name specific workers.",
+      "source": "Hicken, Victor. Illinois in the Civil War. 2nd ed. Urbana: University of Illinois Press, 1991."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1840–1940 (1839 formation means the first full census was 1840). Agricultural schedules (1850–1880) document the prairie farming economy.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1840–1940",
+      "genealogical_value": "Essential for tracking families. Agricultural schedules are particularly valuable for understanding the scale and nature of prairie farming in Christian County. The 1850 census is the first to list all household members by name.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Christian County, IL."
+    },
+    {
+      "source_type": "Sangamon County records (pre-1839 parent county)",
+      "description": "Christian County was formed from Sangamon County in 1839. Families residing in what became Christian County before 1839 appear in Sangamon County's deed books, court records, and marriage registers.",
+      "repository": "Sangamon County Recorder, Springfield; Illinois State Archives",
+      "era_coverage": "1821–1839",
+      "genealogical_value": "Critical for tracing families before 1839. Land purchases, marriages, and court proceedings involving residents of the future Christian County are filed under Sangamon County for the pre-formation period.",
+      "source": "Power, John Carroll. History of the Early Settlers of Sangamon County, Illinois. Springfield: Edwin A. Wilson, 1876."
+    }
+  ],
+  "narrative_hooks": [
+    "Christian County was carved from Sangamon County in 1839, so if {ancestor_name} lived in this part of central Illinois before that date, {pronoun_possessive} records are filed under Sangamon County — a common trap for genealogists searching the wrong county.",
+    "The core deed and marriage records for Christian County survive unbroken from 1839, so if {ancestor_name} bought land or married here, the paper trail almost certainly exists.",
+    "If {ancestor_name} worked in the Christian County coal mines — near Taylorville, Pana, or Assumption — mine inspection reports and union records may provide documentation that the county courthouse does not hold.",
+    "Before 1877, Illinois did not require birth or death registration, and rural Christian County was slow to comply even after that date — so the absence of a vital record for {ancestor_name} born here before 1916 reflects the system, not the family.",
+    "The 1898 Pana mine strike brought national attention and armed conflict to Christian County — if {ancestor_name} was a miner in that era, the court records and newspaper coverage from the strike may name {pronoun_object} directly."
+  ],
+  "source_references": [
+    "Bateman, Newton, and Paul Selby. Historical Encyclopedia of Illinois and History of Christian County. Chicago: Munsell, 1918.",
+    "Power, John Carroll. History of the Early Settlers of Sangamon County, Illinois. Springfield: Edwin A. Wilson, 1876.",
+    "Illinois State Archives. Descriptive Inventory of the Archives of the State of Illinois. 2nd ed. Springfield: Office of the Secretary of State, 1978.",
+    "National Archives and Records Administration. Federal Census Schedules, Christian County, IL."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "il_christian",
+    "research_guidance_refs": ["census_gaps", "property_record_strategies"],
+    "template_refs": ["record_silences"]
+  }
+}

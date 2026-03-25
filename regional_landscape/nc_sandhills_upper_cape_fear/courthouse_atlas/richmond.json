@@ -1,0 +1,49 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Richmond County, NC. Record survival, courthouse history, and known losses for a county formed in 1779.",
+  "courthouse_atlas_id": "nc_richmond_courthouse",
+  "display_name": "Richmond County, North Carolina — Courthouse Atlas",
+  "county": "Richmond",
+  "state": "NC",
+  "fips_code": "37153",
+  "cluster_ref": "nc_sandhills_upper_cape_fear",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1921, "location": "Rockingham, NC", "records_housed": ["deeds", "plats", "vital records indexes", "court minutes", "estate files"] },
+    "previous_courthouses": [
+      { "era": "1779–1830s", "location": "Rockingham — early frame courthouse", "fate": "Replaced as county grew." },
+      { "era": "1830s–1921", "location": "Rockingham — brick courthouse", "fate": "Served through Civil War and Reconstruction. Replaced in 1921." }
+    ]
+  },
+  "record_losses": [
+    { "loss_id": "richmond_1874_fire", "date": "1874", "cause": "fire", "records_destroyed": ["Some estate papers", "scattered court documents"], "records_survived": ["Deed books from 1779", "Will books from 1779", "Court minutes (most volumes)"], "scope": "partial", "description": "A fire in 1874 damaged some Richmond County records. The bound deed books and will books survived, but some loose papers — estate inventories, guardianship files, and scattered court documents — were lost. The fire was not a total destruction; the most critical genealogical records (deeds and wills) survived.", "narrative_impact": "Richmond County's deed and will books survive from 1779, but some loose estate papers were lost in the 1874 fire. If {ancestor_name}'s estate inventory is missing from this period, the fire is the likely explanation.", "source": "NC State Archives. Guide to County Records." }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1779, "completeness": "Good — continuous series from county formation", "gaps": "No known volume-level gaps.", "repository": "Richmond County Register of Deeds, Rockingham; NC State Archives microfilm", "online_access": "FamilySearch microfilm; Ancestry.com NC land records" },
+    "wills_estates": { "earliest_surviving": 1779, "completeness": "Good for bound volumes. Some loose estate papers lost in 1874 fire.", "gaps": "Loose estate papers 1779–1874 may be incomplete.", "repository": "Richmond County Clerk of Court; NC State Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1785, "completeness": "Good from mid-1780s.", "gaps": "Early marriage bonds may be incomplete.", "repository": "Richmond County Register of Deeds; NC State Archives", "online_access": "FamilySearch; Ancestry.com NC marriages" },
+    "court_minutes": { "earliest_surviving": 1779, "completeness": "Good. Most volumes survived the 1874 fire.", "gaps": "Minor gaps possible in earliest years.", "repository": "NC State Archives; Richmond County Clerk of Court", "online_access": "NC State Archives microfilm" },
+    "vital_records": { "birth_registration_start": 1913, "death_registration_start": 1913, "completeness": "Spotty until ~1920.", "repository": "NC Office of Vital Records; NC State Archives" }
+  },
+  "substitute_sources": [
+    { "source_type": "Anson County records (pre-1779)", "description": "Richmond County was formed from Anson in 1779. Records before that date are in Anson County, which itself was formed in 1750 from Bladen.", "repository": "Anson County Register of Deeds, Wadesboro; NC State Archives", "era_coverage": "1750–1779", "genealogical_value": "Essential for Richmond County families with pre-Revolutionary roots. Anson County's 1750 formation gives access to mid-colonial records.", "source": "NC State Archives. Guide to County Records." },
+    { "source_type": "Scottish settlement records", "description": "Richmond County was part of the Scottish Highland settlement zone. Emigration records, kirk session records, and published genealogies for Cape Fear Scots families are critical substitute sources.", "repository": "National Records of Scotland, Edinburgh; UNC Chapel Hill NC Collection", "era_coverage": "1730s–1800s", "genealogical_value": "Scottish surnames (McNeill, McLeod, McLean, McRae, Cameron) can be traced to specific Highland parishes using Scottish records.", "source": "Meyer, Duane. The Highland Scots of North Carolina, 1732-1776. UNC Press, 1961." },
+    { "source_type": "Seaboard Air Line Railroad records", "description": "The Hamlet railroad junction generated employment records and depot records that document railroad workers and their families.", "repository": "Scattered — CSX Transportation archives; NC State Archives; local historical collections", "era_coverage": "1870s–1960", "genealogical_value": "Railroad employees — section hands, depot agents, shop workers — appear in railroad payroll and personnel records that supplement county courthouse records.", "source": "Seaboard Air Line Railroad historical records." }
+  ],
+  "narrative_hooks": [
+    "Richmond County's records reach back to 1779 — Revolutionary War era — and the deed books and will books survived the 1874 courthouse fire that destroyed some loose papers.",
+    "Scotland County was carved from Richmond in 1899 — if {ancestor_name}'s family was in what is now Scotland County before 1899, the records are here in Rockingham.",
+    "Before Richmond County existed, this territory was Anson County — if {ancestor_name} was here in the colonial period, the trail leads to Wadesboro and the Anson County records that begin in 1750.",
+    "The Hamlet railroad junction employed hundreds — if {ancestor_name} worked for the Seaboard Air Line after 1870, railroad payroll records may document {pronoun_object} when county records cannot."
+  ],
+  "source_references": [
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Meyer, Duane. The Highland Scots of North Carolina, 1732-1776. Chapel Hill: University of North Carolina Press, 1961.",
+    "Leary, Helen F. M., ed. North Carolina Research: Genealogy and Local History. 2nd ed. Raleigh: North Carolina Genealogical Society, 1996."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_richmond",
+    "research_guidance_refs": ["southern_courthouse_research", "scottish_immigration_research"],
+    "template_refs": ["record_silences"]
+  }
+}

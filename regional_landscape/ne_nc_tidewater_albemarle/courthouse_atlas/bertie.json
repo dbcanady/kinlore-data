@@ -1,0 +1,124 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Bertie County, NC. Record survival, courthouse history, and known losses.",
+  "courthouse_atlas_id": "nc_bertie_courthouse",
+  "display_name": "Bertie County, North Carolina — Courthouse Atlas",
+  "county": "Bertie",
+  "state": "NC",
+  "fips_code": "37015",
+  "cluster_ref": "ne_nc_tidewater_albemarle",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1889,
+      "location": "Windsor, NC — King Street",
+      "records_housed": ["deeds", "plats", "vital records indexes", "court minutes post-1900", "estate files"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1722–1770s",
+        "location": "Various locations — Bertie was one of NC's original precincts (1722). Early courts met at private homes and taverns.",
+        "fate": "No permanent courthouse structure until mid-18th century. Records from this era are fragmentary."
+      },
+      {
+        "era": "1770s–1889",
+        "location": "Windsor, NC — earlier courthouse on the same square",
+        "fate": "Replaced by the 1889 courthouse. The earlier structure deteriorated but was not destroyed — records were transferred intact."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "bertie_civil_war_minor",
+      "date": "1862-1865",
+      "cause": "Civil War — Union raids and occupation",
+      "records_destroyed": ["scattered loose papers", "some justice of the peace dockets"],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage bonds"],
+      "scope": "minor",
+      "description": "Union forces raided the Albemarle region repeatedly after the Burnside Expedition (February 1862) captured Roanoke Island. Some loose papers and minor court records were damaged during raids on Windsor, but the bound volumes survived. Bertie County's early records are among the most complete in the Albemarle region.",
+      "narrative_impact": "Bertie County's record survival is unusually good for eastern NC — the bound volumes from the 1720s forward are largely intact. If {ancestor_name}'s records are missing here, the cause is more likely illiteracy, poverty, or informal arrangements than courthouse destruction.",
+      "source": "Barrett, John G. The Civil War in North Carolina. Chapel Hill: UNC Press, 1963."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1722,
+      "completeness": "Good — nearly continuous from the precinct era",
+      "gaps": "Some early deed books show water damage. A few pages in the 1720s-1730s volumes are difficult to read but not lost.",
+      "repository": "Bertie County Register of Deeds, Windsor; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com NC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1728,
+      "completeness": "Good — will books and estate papers survive from the precinct era",
+      "gaps": "Some loose estate papers from the 1720s-1740s are fragmentary. Bound will books are generally intact.",
+      "repository": "Bertie County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm; NC State Archives digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1762,
+      "completeness": "Good — marriage bonds survive from 1762",
+      "gaps": "Bonds are more complete than registers. Register books begin later, approximately 1868 for the formal register.",
+      "repository": "Bertie County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com NC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1724,
+      "completeness": "Excellent — among the oldest surviving county court minutes in North Carolina",
+      "gaps": "Minor gaps in the 1720s. Generally continuous from the 1730s forward.",
+      "repository": "NC State Archives; Bertie County Clerk of Court",
+      "online_access": "NC State Archives microfilm; limited FamilySearch digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Spotty until approximately 1920. Some delayed birth certificates filed later.",
+      "repository": "NC Office of Vital Records; NC State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790-1940. Bertie County is enumerated from the first federal census. Agricultural and slave schedules (1850-1860) document the plantation economy in detail.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790-1940",
+      "genealogical_value": "Essential for tracking families. Slave schedules identify slaveholder property but not enslaved individuals by name. The 1870 census is particularly valuable for documenting formerly enslaved families immediately after emancipation.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Bertie County, NC."
+    },
+    {
+      "source_type": "Freedmen's Bureau records",
+      "description": "The Freedmen's Bureau maintained records for Bertie County including labor contracts, marriage registrations, and complaints. These document the transition from slavery to freedom for the county's large Black population.",
+      "repository": "National Archives (Record Group 105); FamilySearch digitization",
+      "era_coverage": "1865-1872",
+      "genealogical_value": "Critical for Black families. Labor contracts name both employer and laborer, often with family members. Marriage registrations document unions that had existed during slavery but lacked legal recognition.",
+      "source": "Records of the Bureau of Refugees, Freedmen, and Abandoned Lands. National Archives, RG 105."
+    },
+    {
+      "source_type": "Church records — Baptist and Methodist",
+      "description": "Both white and Black Baptist and Methodist congregations in Bertie County maintained membership rolls and minutes. Some records predate 1800.",
+      "repository": "NC Baptist Historical Collection, Wake Forest University; individual churches; NC State Archives",
+      "era_coverage": "1790s-present",
+      "genealogical_value": "Church records fill gaps before 1913 vital records and provide relationship evidence not found elsewhere. Black church records after 1865 are particularly important.",
+      "source": "Paschal, George W. History of North Carolina Baptists. Raleigh: NC Baptist State Convention, 1930."
+    }
+  ],
+  "narrative_hooks": [
+    "Bertie County's records reach back to 1722 — among the oldest in North Carolina — which means that {ancestor_name}'s family may have a paper trail stretching to the colony's earliest decades.",
+    "If {ancestor_name} sold or bought land in Bertie County after {year}, the deed almost certainly still exists — the chain of title runs nearly unbroken from the precinct era.",
+    "Before 1913, North Carolina required no birth or death registration. The absence of a birth record for {ancestor_name} reflects the era, not the family — church records, census data, and Freedmen's Bureau files are the likeliest substitutes.",
+    "For enslaved ancestors in Bertie County, the Freedmen's Bureau records are the most likely bridge between slavery and freedom — labor contracts and marriage registrations that first document people as named individuals with families.",
+    "Bertie County's court minutes from the 1720s forward are among the most complete in NC — and for {ancestor_name}, those minutes may contain apprenticeship indentures, debt cases, or guardianship records that reveal family circumstances no other source captures."
+  ],
+  "source_references": [
+    "Barrett, John G. The Civil War in North Carolina. Chapel Hill: University of North Carolina Press, 1963.",
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Paschal, George W. History of North Carolina Baptists. Raleigh: NC Baptist State Convention, 1930.",
+    "Records of the Bureau of Refugees, Freedmen, and Abandoned Lands. National Archives, RG 105.",
+    "Haun, Weynette Parks. Bertie County, North Carolina County Court Minutes. Durham, NC: privately published, 1980s."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_bertie",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records", "freedmens_bureau_research"],
+    "template_refs": ["record_silences"]
+  }
+}

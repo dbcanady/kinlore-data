@@ -1,0 +1,127 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Lancaster County, PA. Record survival, courthouse history, and known losses. Records from 1729 county formation, exceptional completeness for the colonial and early republic periods.",
+  "courthouse_atlas_id": "pa_lancaster_courthouse",
+  "display_name": "Lancaster County, Pennsylvania — Courthouse Atlas",
+  "county": "Lancaster",
+  "state": "PA",
+  "fips_code": "42071",
+  "cluster_ref": "pa_southeast_gateway",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1854,
+      "location": "Lancaster, PA — 50 N. Duke Street (with modern judicial center adjacent)",
+      "records_housed": ["deeds", "wills", "orphans' court records", "marriage licenses", "court minutes", "naturalizations"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1729–1739",
+        "location": "Lancaster — temporary facilities",
+        "fate": "Early court sessions held in private homes and taverns."
+      },
+      {
+        "era": "1739–1787",
+        "location": "Lancaster — Penn Square, first permanent courthouse",
+        "fate": "Served during the period when Lancaster was the state capital (1799–1812). Replaced by later buildings."
+      },
+      {
+        "era": "1787–1854",
+        "location": "Lancaster — rebuilt on the same site",
+        "fate": "Replaced by the current 1854 building. No significant fire damage to records."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "lancaster_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire or war damage to courthouse records",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1729", "will books from 1729", "orphans' court records", "court minutes", "marriage licenses from 1885", "naturalizations from 1729"],
+      "scope": "none",
+      "description": "Lancaster County's courthouse records are remarkably complete from the county's 1729 formation. No significant fire has destroyed records. The naturalization records are particularly valuable — Lancaster was a primary destination for German immigrants, and naturalization proceedings document arrivals from the Palatinate, Baden, Alsace, and Switzerland throughout the colonial period. The county's records also include the period when Lancaster served as the Pennsylvania state capital (1799–1812).",
+      "narrative_impact": "If {ancestor_name} lived in Lancaster County after 1729, the records are almost certainly intact. For German immigrant families, the naturalization records may be the first American document bearing the family name — and the spelling may differ significantly from the German original.",
+      "source": "Lancaster County Historical Society. Guide to Lancaster County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1729,
+      "completeness": "Excellent — continuous from county formation",
+      "gaps": "No known significant gaps.",
+      "repository": "Lancaster County Recorder of Deeds; PA State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com PA land records; Lancaster County online portal"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1729,
+      "completeness": "Excellent — continuous from formation. Estate inventories are particularly detailed for German farming families.",
+      "gaps": "Loose papers from earliest decades may be incomplete. Bound volumes are intact.",
+      "repository": "Lancaster County Register of Wills; PA State Archives",
+      "online_access": "FamilySearch microfilm; Lancaster County Archives online"
+    },
+    "marriages": {
+      "earliest_surviving": 1885,
+      "completeness": "Marriage licenses from 1885. Earlier marriages require church records — Lutheran, Reformed, Mennonite, Amish, and Quaker records are extensive.",
+      "gaps": "No civil marriage licenses before 1885. Church records fill this gap effectively for most families.",
+      "repository": "Lancaster County Register of Wills; Lancaster County Historical Society (church records)",
+      "online_access": "FamilySearch; Ancestry.com PA marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1729,
+      "completeness": "Excellent",
+      "gaps": "Minor condition issues with earliest volumes.",
+      "repository": "Lancaster County Archives; PA State Archives",
+      "online_access": "Lancaster County Archives; limited FamilySearch"
+    },
+    "vital_records": {
+      "birth_registration_start": 1893,
+      "death_registration_start": 1893,
+      "completeness": "PA vital registration began in 1893. Compliance was inconsistent until approximately 1906.",
+      "repository": "PA Division of Vital Records; PA State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "German church records — Lutheran and Reformed",
+      "description": "Lancaster County's German churches — Lutheran and Reformed congregations, often sharing the same building (union churches) — maintained baptism, marriage, and burial records in German from the 1720s. These records are often more complete than civil records for German families before 1885. Augustus Lutheran Church (Trappe), Trinity Lutheran (Lancaster), and First Reformed Church (Lancaster) hold key collections.",
+      "repository": "Lancaster County Historical Society; Lutheran Archives Center at Philadelphia; Evangelical and Reformed Historical Society at Lancaster Theological Seminary; PA State Archives microfilm",
+      "era_coverage": "1720s–present",
+      "genealogical_value": "Critical for German families. Baptism records name parents (sometimes grandparents). Marriage records name both families. Records are in German script (Kurrent/Fraktur) until the mid-1800s — reading them requires paleographic skill.",
+      "source": "Humphrey, John T. Pennsylvania Births, Lancaster County, 1723–1777. Washington, DC: Humphrey Publications, 1997."
+    },
+    {
+      "source_type": "Mennonite and Amish records",
+      "description": "Lancaster County's Mennonite and Amish communities maintained their own records — some formal (Mennonite conference minutes, membership lists) and some informal (family Bibles, community genealogies). The Lancaster Mennonite Historical Society holds the largest collection of plain-sect genealogical records in the world.",
+      "repository": "Lancaster Mennonite Historical Society, Lancaster, PA; Muddy Creek Farm Library (Old Order Mennonite records)",
+      "era_coverage": "1710s–present",
+      "genealogical_value": "Essential for plain-sect families. The Mennonite Historical Society's collections include family genealogies, church records, and community histories that trace families back to the Swiss and Palatinate origins.",
+      "source": "Lancaster Mennonite Historical Society. Guide to Mennonite Genealogical Collections."
+    },
+    {
+      "source_type": "Colonial naturalization records",
+      "description": "Lancaster County's naturalization proceedings document German immigrants taking the oath of allegiance to the British crown (colonial era) or to the United States (post-1776). These records often provide the immigrant's name, place of origin, occupation, and date of arrival.",
+      "repository": "Lancaster County Archives; PA State Archives",
+      "era_coverage": "1729–1900+",
+      "genealogical_value": "May be the earliest American record of an immigrant ancestor. Name spellings were often Anglicized or phonetically transcribed — Schneider became Snyder, Zimmermann became Carpenter, Mueller became Miller.",
+      "source": "Strassburger, Ralph Beaver, and William John Hinke. Pennsylvania German Pioneers. Norristown, PA: Pennsylvania German Society, 1934."
+    }
+  ],
+  "narrative_hooks": [
+    "Lancaster County's records run from 1729 without a major gap — if {ancestor_name} lived here, the courthouse almost certainly holds {pronoun_possessive} deeds, will, and court appearances.",
+    "For German immigrant families, the Lancaster County naturalization records may be the first American document bearing {ancestor_name}'s surname — and the clerk who wrote it may have spelled it very differently from the way it was spelled in the Palatinate.",
+    "Pennsylvania did not require marriage licenses until 1885, so a missing marriage for {ancestor_name} before that date is normal — check the Lutheran, Reformed, Mennonite, or Amish church records, which are extensive for Lancaster County.",
+    "The Lancaster Mennonite Historical Society holds the largest collection of plain-sect genealogical records in the world — if {ancestor_name} was Mennonite or Amish, the family's story likely runs back to the Palatinate in those files."
+  ],
+  "source_references": [
+    "Lancaster County Historical Society. Guide to Lancaster County Records.",
+    "Strassburger, Ralph Beaver, and William John Hinke. Pennsylvania German Pioneers. Norristown, PA: Pennsylvania German Society, 1934.",
+    "Humphrey, John T. Pennsylvania Births, Lancaster County, 1723–1777. Washington, DC: Humphrey Publications, 1997.",
+    "Lancaster Mennonite Historical Society. Guide to Mennonite Genealogical Collections."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "pa_lancaster",
+    "research_guidance_refs": ["church_transfers", "property_records"],
+    "template_refs": ["record_silences", "naming_as_evidence"]
+  }
+}

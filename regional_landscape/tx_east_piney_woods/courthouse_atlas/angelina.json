@@ -1,0 +1,114 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Angelina County, TX. Record survival, courthouse history, and known losses for the timber capital of East Texas. Company town records (Southern Pine Lumber Company at Diboll) are as important as courthouse records for documenting sawmill families.",
+  "courthouse_atlas_id": "tx_angelina_courthouse",
+  "display_name": "Angelina County, Texas — Courthouse Atlas",
+  "county": "Angelina",
+  "state": "TX",
+  "fips_code": "48005",
+  "cluster_ref": "tx_east_piney_woods",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1955,
+      "location": "Lufkin, TX — 215 E. Lufkin Avenue",
+      "records_housed": ["deeds", "plats", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1846–1892",
+        "location": "Marion (original county seat), then Homer",
+        "fate": "Angelina County was organized in 1846. The county seat moved from Marion to Homer before settling at Lufkin after the railroad arrived. Early records transferred with each move."
+      },
+      {
+        "era": "1892–1955",
+        "location": "Lufkin, courthouse square",
+        "fate": "Served until replaced by the current building. No significant fire damage to records."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "angelina_no_major_fire",
+      "date": null,
+      "cause": "No major courthouse fire or destruction",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "marriage records", "probate files", "court minutes"],
+      "scope": "none",
+      "description": "Angelina County's courthouse has not experienced a major fire or disaster. Records are reasonably continuous from county organization in 1846. The primary record gap is not at the courthouse but in the private sector — sawmill company records that documented entire communities were often destroyed when mills closed or changed hands.",
+      "narrative_impact": "If {ancestor_name}'s records are missing in Angelina County, the gap is more likely in the company records than the courthouse — sawmill families who never owned property left fewer traces in the county recorder's office than in the company payroll ledger.",
+      "source": "Texas State Library and Archives Commission. County Records Inventory."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1846,
+      "completeness": "Good from county organization.",
+      "gaps": "No known significant gaps.",
+      "repository": "Angelina County Clerk, Lufkin",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1846,
+      "completeness": "Good.",
+      "gaps": "Early probate records are thin — the county's population was small before the timber boom.",
+      "repository": "Angelina County Clerk",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1846,
+      "completeness": "Good from county organization.",
+      "gaps": "None significant.",
+      "repository": "Angelina County Clerk",
+      "online_access": "FamilySearch; Ancestry.com TX marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1846,
+      "completeness": "Good.",
+      "gaps": "None significant.",
+      "repository": "Angelina County Clerk",
+      "online_access": "FamilySearch microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1903,
+      "death_registration_start": 1903,
+      "completeness": "Spotty before 1910. Rural Angelina County — particularly sawmill communities in the forest — was among the slowest in Texas to comply with vital registration.",
+      "repository": "Texas Department of State Health Services"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Southern Pine Lumber Company records (Temple Industries)",
+      "description": "The Temple family's Southern Pine Lumber Company operated at Diboll from 1893. Some company records — payroll, housing, store accounts — have been preserved. The History Center in Diboll holds an extensive collection of Temple Industries records and Diboll community history.",
+      "repository": "The History Center, Diboll, TX; East Texas Research Center, Stephen F. Austin State University",
+      "era_coverage": "1893–present",
+      "genealogical_value": "Critical for documenting sawmill families. Company records can establish dates of arrival, employment tenure, family composition, and wages — information the courthouse does not hold for families who never owned property.",
+      "source": "The History Center, Diboll, TX, finding aids."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1850–1940. Angelina County's census enumerations are particularly valuable because they document the sawmill community populations that left few other records.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1850–1940",
+      "genealogical_value": "Essential. Census records may be the only documentation for itinerant sawmill families who moved with the timber companies.",
+      "source": "National Archives and Records Administration."
+    }
+  ],
+  "narrative_hooks": [
+    "Angelina County's courthouse survived intact, but the records {ancestor_name} left behind depend on whether {pronoun_subject} owned land or worked for the company — the courthouse has the deeds; the company had the payroll.",
+    "The History Center in Diboll holds the records of the Southern Pine Lumber Company — if {ancestor_name} worked at the Diboll mill, the company's files may document {pronoun_possessive} daily life in ways the county recorder never did.",
+    "Texas vital registration began in 1903 but was poorly enforced in rural sawmill communities — the absence of a birth record for {ancestor_name} in Angelina County before 1910 is typical, not unusual.",
+    "Sawmill families who moved from camp to camp left traces in census records but nowhere else — if {ancestor_name} followed the timber, the ten-year census may be the only fixed point."
+  ],
+  "source_references": [
+    "Texas State Library and Archives Commission. County Records Inventory.",
+    "The History Center, Diboll, TX, finding aids.",
+    "East Texas Research Center, Stephen F. Austin State University.",
+    "Works Progress Administration. Historical Records Survey: Texas County Records. Austin, 1937–1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "tx_angelina",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

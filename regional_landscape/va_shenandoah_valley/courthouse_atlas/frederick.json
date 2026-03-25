@@ -1,0 +1,134 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Frederick County, Virginia. Record survival, courthouse history, and known losses that shape what genealogists can and cannot find in the northern gateway county of the Shenandoah Valley.",
+  "courthouse_atlas_id": "va_frederick_courthouse",
+  "display_name": "Frederick County, Virginia — Courthouse Atlas",
+  "county": "Frederick",
+  "state": "VA",
+  "fips_code": "51069",
+  "cluster_ref": "va_shenandoah_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1840,
+      "location": "Winchester, VA — 5 North Kent Street (extensively renovated 1940s and later; judicial annex added)",
+      "records_housed": ["deeds", "wills", "court order books", "marriage registers", "plats", "fiduciary records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1743–1770s",
+        "location": "Winchester — original log courthouse near the intersection of Loudoun and Cameron Streets",
+        "fate": "Replaced by a stone courthouse as Winchester grew. The earliest court records were kept in this building during Lord Fairfax's residency in the county."
+      },
+      {
+        "era": "1770s–1840",
+        "location": "Winchester — stone courthouse on the public square",
+        "fate": "Served through the Revolution and early Republic. Replaced by the 1840 Greek Revival building still standing (with modifications). Records transferred intact."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "frederick_civil_war_damage",
+      "date": "1861–1865",
+      "cause": "Civil War occupation and repeated changes of hands",
+      "records_destroyed": ["scattered loose papers", "some justice of the peace dockets", "some chancery loose papers"],
+      "records_survived": ["deed books", "will books", "court order books", "marriage bonds and registers"],
+      "scope": "minor",
+      "description": "Winchester changed hands an estimated 72 times during the Civil War. The courthouse was used as headquarters, hospital, and barracks at various points by both armies. Despite this, the bound record books survived remarkably well — Winchester's records are among the best-preserved in the Valley. Some loose papers, justice of the peace records, and chancery files were damaged or lost during the repeated occupations, but the core genealogical records remained intact.",
+      "narrative_impact": "Frederick County's record survival is unusually good given the county's wartime ordeal. If {ancestor_name}'s records are missing from Winchester, the gap is more likely due to the family's pre-1743 presence in Orange County (Frederick's parent) than to wartime destruction.",
+      "source": "Quarles, Garland R. Some Worthy Lives: Mini-Biographies, Winchester and Frederick County. Winchester: Winchester-Frederick County Historical Society, 1988."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1743,
+      "completeness": "Excellent — continuous series from county formation",
+      "gaps": "No known significant gaps. Early deed books are in good condition. Some pre-1743 land records are in Orange County.",
+      "repository": "Frederick County Circuit Court, Winchester; Library of Virginia microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com Virginia land records; Library of Virginia digital collections"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1743,
+      "completeness": "Excellent — wills and estate records survive from county formation",
+      "gaps": "Minor — some loose estate papers from the 1740s–1760s are fragmentary. Bound will books are intact and continuous.",
+      "repository": "Frederick County Circuit Court; Library of Virginia",
+      "online_access": "FamilySearch microfilm; Library of Virginia digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1771,
+      "completeness": "Good — marriage bonds survive from 1771; minister returns are scattered before 1853",
+      "gaps": "Marriage bonds 1771–1850 are fairly complete. Marriage registers begin 1853 under Virginia law. Some Quaker and German Reformed marriages not recorded in civil records.",
+      "repository": "Frederick County Circuit Court; Library of Virginia microfilm",
+      "online_access": "FamilySearch; Ancestry.com Virginia marriages collection"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1743,
+      "completeness": "Excellent — County Court order books are nearly continuous from formation",
+      "gaps": "Minor gaps in the 1740s. The court order books are a critical source for the earliest Valley settlement — they contain road orders, estate settlements, and land disputes that predate many deed records.",
+      "repository": "Frederick County Circuit Court; Library of Virginia microfilm",
+      "online_access": "Library of Virginia microfilm; limited FamilySearch digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1853,
+      "death_registration_start": 1853,
+      "completeness": "Virginia mandated registration 1853–1896 (spotty compliance), then again from 1912. The 1853–1896 registers exist for Frederick County but are incomplete. The gap from 1896–1912 is nearly total.",
+      "repository": "Virginia Department of Health, Office of Vital Records; Library of Virginia for pre-1896 registers"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Orange County parent records (pre-1743)",
+      "description": "Frederick County was formed from Orange County in 1743. All Valley records before that date — land grants, court orders, tithables — are in the Orange County records, which survive well.",
+      "repository": "Orange County Circuit Court; Library of Virginia",
+      "era_coverage": "1734–1743",
+      "genealogical_value": "Essential for any family claiming to be in the Valley before 1743. Lord Fairfax's Northern Neck grants are a separate system from the standard Virginia patent process.",
+      "source": "Hofstra, Warren R. A Separate Place: The Formation of Clarke County, Virginia. Lanham, MD: Rowman & Littlefield, 1999."
+    },
+    {
+      "source_type": "Lord Fairfax's Northern Neck grant books",
+      "description": "The Northern Neck Proprietary (lands between the Rappahannock and Potomac) issued its own land grants separate from the colonial government. Frederick County fell within this proprietary. The grant books survive at the Library of Virginia.",
+      "repository": "Library of Virginia, Northern Neck Land Grants",
+      "era_coverage": "1730s–1800",
+      "genealogical_value": "Critical for tracing original land acquisition in the lower Valley. These grants predate and supplement the county deed books. They often record the grantee's origin (e.g., 'of Chester County, Pennsylvania').",
+      "source": "Northern Neck Land Grants. Library of Virginia, Richmond."
+    },
+    {
+      "source_type": "Quaker meeting records — Hopewell Monthly Meeting",
+      "description": "The Hopewell Friends Meeting near Winchester kept meticulous birth, death, marriage, and disownment records from the 1730s. Quaker records are among the best genealogical sources for early Valley families.",
+      "repository": "Friends Historical Library, Swarthmore College; microfilm at Library of Virginia",
+      "era_coverage": "1734–present",
+      "genealogical_value": "Quaker records predate county formation and fill gaps in civil vital records. Disownment minutes (for marrying outside the faith, joining the militia, etc.) record family relationships and social conflicts not found elsewhere.",
+      "source": "Hinshaw, William Wade. Encyclopedia of American Quaker Genealogy, Vol. 6: Virginia. Ann Arbor: Edwards Brothers, 1950."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790–1940. Frederick County is enumerated from the first federal census. Agricultural and slave schedules (1850–1860) add economic detail. The 1810 and 1820 censuses for Frederick are complete.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790–1940",
+      "genealogical_value": "Essential for tracking families between land and court records. Note that the independent city of Winchester is enumerated separately from Frederick County beginning in the mid-1800s.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Frederick County, VA."
+    }
+  ],
+  "narrative_hooks": [
+    "Frederick County's courthouse survived 72 changes of hands during the Civil War, which means that {ancestor_name}'s deed and will records almost certainly still exist in Winchester — one of the best-preserved record sets in the Valley.",
+    "Before Frederick County existed in 1743, {ancestor_name}'s earliest land records were filed in Orange County — a Piedmont courthouse sixty miles east of the Valley — because Virginia's administrative reach had not yet caught up with its frontier settlement.",
+    "If {ancestor_name} acquired land through Lord Fairfax's Northern Neck grant system, the records are at the Library of Virginia in a separate collection from the county deeds — and those grants sometimes record where the grantee came from, linking Valley settlement to Pennsylvania or New Jersey origins.",
+    "The Hopewell Quaker Meeting near Winchester kept records from the 1730s — older than Frederick County itself — and if {ancestor_name} was among the Friends, the meeting minutes may record births, marriages, and even the family quarrels that no courthouse ever documented.",
+    "Virginia required vital registration from 1853 to 1896, then stopped for sixteen years — so if {ancestor_name} was born or died between 1896 and 1912, no civil record was required, and church or cemetery records are the only trail.",
+    "The Frederick County court order books from the 1740s are a genealogist's goldmine — road petitions that name every landowner along the route, estate inventories that list every spoon and cow, and land disputes that reveal who lived next to whom on the frontier."
+  ],
+  "source_references": [
+    "Quarles, Garland R. Some Worthy Lives: Mini-Biographies, Winchester and Frederick County. Winchester: Winchester-Frederick County Historical Society, 1988.",
+    "Hofstra, Warren R. A Separate Place: The Formation of Clarke County, Virginia. Lanham, MD: Rowman & Littlefield, 1999.",
+    "Hinshaw, William Wade. Encyclopedia of American Quaker Genealogy, Vol. 6: Virginia. Ann Arbor: Edwards Brothers, 1950.",
+    "Northern Neck Land Grants. Library of Virginia, Richmond.",
+    "Cartmell, T. K. Shenandoah Valley Pioneers and Their Descendants: A History of Frederick County, Virginia. Winchester: Eddy Press, 1909.",
+    "Library of Virginia. A Guide to Virginia County and City Records on Microfilm. Richmond, various editions."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "va_frederick",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

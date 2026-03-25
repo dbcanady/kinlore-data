@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Delaware County, PA. Created from Chester County in 1789 — pre-1789 records are at Chester County. Some of the oldest European records in the Delaware Valley (Swedish settlement records from the 1640s).",
+  "courthouse_atlas_id": "pa_delaware_courthouse",
+  "display_name": "Delaware County, Pennsylvania — Courthouse Atlas",
+  "county": "Delaware",
+  "state": "PA",
+  "fips_code": "42045",
+  "cluster_ref": "pa_southeast_gateway",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1932,
+      "location": "Media, PA — 201 W. Front Street",
+      "records_housed": ["deeds from 1789", "wills", "orphans' court records", "marriage licenses", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1789–1850",
+        "location": "Chester, PA — the original county seat (same location as pre-1789 Chester County seat)",
+        "fate": "Delaware County used the existing Chester courthouse when the county was created. Some records from the Chester County era remained here."
+      },
+      {
+        "era": "1850–1932",
+        "location": "Media, PA — the county seat moved to Media in 1851",
+        "fate": "The move from Chester to Media was contentious. Records were transferred. The Media courthouse served until the current 1932 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "delaware_split_records",
+      "date": "1789",
+      "cause": "County creation — jurisdictional split from Chester County",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1789", "will books from 1789", "court minutes from 1789"],
+      "scope": "jurisdictional",
+      "description": "Delaware County was created from Chester County in 1789. Records predating 1789 for the territory that became Delaware County are at the Chester County Archives in West Chester. The jurisdictional split means that a family living in what is now Delaware County before 1789 must be researched in Chester County records. Some very early records — particularly deeds and wills — may have been copied at the time of separation, but the originals are at Chester County. Post-1789 records at Media are continuous and complete.",
+      "narrative_impact": "If {ancestor_name} lived in what is now Delaware County before 1789, the records are at the Chester County Archives in West Chester — not at Media. This jurisdictional fact splits the family's paper trail between two courthouses.",
+      "source": "Delaware County Historical Society. Guide to Delaware County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1789,
+      "completeness": "Excellent from 1789. Pre-1789 deeds are at Chester County.",
+      "gaps": "The 1789 split means pre-1789 deeds for Delaware County territory are at West Chester.",
+      "repository": "Delaware County Recorder of Deeds, Media; Chester County Archives (pre-1789)",
+      "online_access": "FamilySearch microfilm; Ancestry.com PA land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1789,
+      "completeness": "Good from 1789. Pre-1789 wills at Chester County.",
+      "gaps": "Pre-1789 estates filed at Chester County.",
+      "repository": "Delaware County Register of Wills; Chester County Archives (pre-1789)",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1885,
+      "completeness": "From 1885. Earlier marriages in church records — Swedish/Finnish Lutheran (Holy Trinity Old Swedes, built 1699), Quaker meeting records, and English church records.",
+      "gaps": "No civil licenses before 1885. Swedish colonial church records predate English settlement.",
+      "repository": "Delaware County Register of Wills; Holy Trinity (Old Swedes) Church archives",
+      "online_access": "FamilySearch; Ancestry.com PA marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1789,
+      "completeness": "Complete from county formation.",
+      "gaps": "Pre-1789 court minutes are at Chester County.",
+      "repository": "Delaware County Archives; PA State Archives",
+      "online_access": "Limited FamilySearch microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1893,
+      "death_registration_start": 1893,
+      "completeness": "PA registration from 1893. Chester city records may predate this.",
+      "repository": "PA Division of Vital Records"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Swedish colonial church records — Holy Trinity (Old Swedes)",
+      "description": "Holy Trinity Church in Chester (built 1699, but the congregation dates to the 1640s) maintained records of Swedish and Finnish settlers and their descendants. These are among the oldest European church records in the Delaware Valley.",
+      "repository": "Holy Trinity (Old Swedes) Church, Chester; Swedish Colonial Society; Historical Society of Pennsylvania",
+      "era_coverage": "1640s–present",
+      "genealogical_value": "Exceptional for Swedish/Finnish ancestry. Baptism, marriage, and burial records predate Penn's arrival by forty years. Records are in Swedish until the English-language transition in the 1700s.",
+      "source": "Johnson, Amandus. The Swedish Settlements on the Delaware. University of Pennsylvania, 1911."
+    },
+    {
+      "source_type": "Quaker meeting records",
+      "description": "Chester Monthly Meeting and other Delaware County Quaker meetings maintained records from the 1680s.",
+      "repository": "Friends Historical Library, Swarthmore College; Delaware County Historical Society",
+      "era_coverage": "1680s–present",
+      "genealogical_value": "Detailed records of Quaker families. Chester Monthly Meeting records are among the oldest Quaker records in Pennsylvania.",
+      "source": "Hinshaw, William Wade. Encyclopedia of American Quaker Genealogy, Vol. 2. Ann Arbor: Edwards Brothers, 1938."
+    },
+    {
+      "source_type": "Industrial and shipyard records",
+      "description": "Sun Shipbuilding (Chester), Baldwin Locomotive (Eddystone), and other industrial employers maintained employment records. Wartime production records (WWI and WWII) are particularly extensive.",
+      "repository": "Delaware County Historical Society; Hagley Museum and Library; National Archives (wartime production records)",
+      "era_coverage": "1870s–1960s",
+      "genealogical_value": "Employment records document workers by name, address, and dates. Shipyard records from WWII are particularly detailed due to federal requirements.",
+      "source": "Delaware County Historical Society. Industrial Records Collection."
+    }
+  ],
+  "narrative_hooks": [
+    "Delaware County was carved from Chester County in 1789 — {ancestor_name}'s pre-1789 records are at the Chester County Archives in West Chester, not at Media, and missing this fact can cost a researcher years.",
+    "The Swedish settlers at Upland (Chester) kept church records a generation before Penn arrived — if {ancestor_name} has Swedish or Finnish roots, Holy Trinity Old Swedes Church may hold the oldest family records in Pennsylvania.",
+    "For {ancestor_name} in Delaware County's industrial era, the shipyard and factory employment records may document daily life more completely than the courthouse — but whether those records survived the mill closures is the key question.",
+    "Pennsylvania marriage licenses begin in 1885 — for {ancestor_name} before that date, check Swedish Lutheran, Quaker, or English church records, depending on the family's tradition."
+  ],
+  "source_references": [
+    "Delaware County Historical Society. Guide to Delaware County Records.",
+    "Johnson, Amandus. The Swedish Settlements on the Delaware. Philadelphia: University of Pennsylvania, 1911.",
+    "Hinshaw, William Wade. Encyclopedia of American Quaker Genealogy, Vol. 2. Ann Arbor: Edwards Brothers, 1938."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "pa_delaware",
+    "research_guidance_refs": ["church_transfers", "property_records"],
+    "template_refs": ["record_silences"]
+  }
+}

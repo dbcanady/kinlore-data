@@ -1,0 +1,48 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Scott County, KY. Formed 1792, same year as Kentucky statehood. Records begin from formation. No major courthouse fire. Georgetown College archives provide supplementary records.",
+  "courthouse_atlas_id": "ky_scott_courthouse",
+  "display_name": "Scott County, Kentucky — Courthouse Atlas",
+  "county": "Scott",
+  "state": "KY",
+  "fips_code": "21209",
+  "cluster_ref": "ky_bluegrass",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1877, "location": "Georgetown, KY — Main Street (renovated 1960s)", "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court orders"] },
+    "previous_courthouses": [
+      { "era": "1792-1810s", "location": "Georgetown, early courthouses", "fate": "Replaced. Records transferred." },
+      { "era": "1810s-1877", "location": "Georgetown, Main Street", "fate": "Replaced by current building. No significant fire." }
+    ]
+  },
+  "record_losses": [
+    { "loss_id": "scott_no_major_loss", "date": null, "cause": "None", "records_destroyed": [], "records_survived": ["deed books", "will books", "court orders", "marriage bonds", "tax lists"], "scope": "none",
+      "description": "Scott County has no record of a major courthouse fire. Records run continuously from the 1792 formation.",
+      "narrative_impact": "If {ancestor_name} was in Scott County after 1792, the records survive.",
+      "source": "Kentucky Department for Libraries and Archives. Guide to Kentucky County Court Records." }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1792, "completeness": "Excellent — continuous from formation.", "gaps": "None known.", "repository": "Scott County Clerk; KDLA microfilm", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1792, "completeness": "Good.", "gaps": "Minor gaps in early loose papers.", "repository": "Scott County Clerk; KDLA", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1792, "completeness": "Good — bonds from formation.", "gaps": "Ministers' returns sporadic before 1852.", "repository": "Scott County Clerk; KDLA", "online_access": "FamilySearch; Ancestry.com" },
+    "court_minutes": { "earliest_surviving": 1792, "completeness": "Good.", "gaps": "Minor.", "repository": "KDLA; Scott County Clerk", "online_access": "KDLA microfilm" },
+    "vital_records": { "birth_registration_start": 1911, "death_registration_start": 1911, "completeness": "Spotty until 1915.", "repository": "Kentucky Cabinet for Health and Family Services; KDLA" }
+  },
+  "substitute_sources": [
+    { "source_type": "Georgetown College records", "description": "Georgetown College (Baptist, founded 1829) maintained enrollment records, alumni records, and institutional papers that document Scott County families.", "repository": "Georgetown College Library, Georgetown, KY", "era_coverage": "1829-present", "genealogical_value": "Identifies families in the Bluegrass Baptist community. Enrollment records place individuals at specific dates.", "source": "Harrison and Klotter, A New History of Kentucky (1997)." },
+    { "source_type": "Federal census schedules", "description": "Population schedules 1800-1940. Slave schedules 1850-1860.", "repository": "National Archives; FamilySearch; Ancestry.com", "era_coverage": "1800-1940", "genealogical_value": "Essential baseline.", "source": "National Archives and Records Administration." },
+    { "source_type": "Virginia land grants (pre-1792)", "description": "Scott County's earliest settlers held Virginia land grants. Pre-statehood land records are in Virginia files.", "repository": "Virginia Land Office, Library of Virginia; KDLA", "era_coverage": "1775-1792", "genealogical_value": "Links earliest settlers to Virginia origins and military service.", "source": "Jillson, The Kentucky Land Grants (1925)." }
+  ],
+  "narrative_hooks": [
+    "Scott County's records start with Kentucky statehood — if {ancestor_name} was here after 1792, the paper trail is clean.",
+    "Georgetown College records document Baptist families that the courthouse may not distinguish — if {ancestor_name} was connected to the college, the institutional records add depth.",
+    "Before statehood, {ancestor_name}'s Scott County land was granted under Virginia law — the Virginia Land Office holds the warrants.",
+    "Scott County's courthouse escaped every fire and every war — the records are as complete as any in the Bluegrass."
+  ],
+  "source_references": [
+    "Kentucky Department for Libraries and Archives. Guide to Kentucky County Court Records.",
+    "Harrison, Lowell H., and James C. Klotter. A New History of Kentucky. Lexington: University Press of Kentucky, 1997.",
+    "Jillson, Willard Rouse. The Kentucky Land Grants. Louisville: Filson Club Publications, 1925."
+  ],
+  "nel_cross_references": { "layer1_county_profile_ref": "ky_scott", "research_guidance_refs": ["southern_courthouse_research"], "template_refs": ["record_silences"] }
+}

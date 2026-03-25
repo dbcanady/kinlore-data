@@ -1,0 +1,133 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the NJ Delaware Valley cluster. Documents how transportation shaped settlement, commerce, and migration from the colonial ferry crossings through the New Jersey Turnpike. West Jersey's transportation story is defined by the Delaware River — every road, canal, and railroad either crossed it, paralleled it, or oriented toward it.",
+  "connectivity_id": "nj_delaware_valley_roads",
+  "display_name": "NJ Delaware Valley — Road & Connectivity Network",
+  "cluster_ref": "nj_delaware_valley",
+  "era_range": "1660-1960",
+  "transportation_eras": [
+    {
+      "era_id": "colonial_ferry_roads",
+      "era_name": "Colonial Ferry Crossings and Sand Roads",
+      "date_range": "1660-1800",
+      "primary_modes": ["ferry across the Delaware", "wagon on sand road", "horseback", "river flatboat", "foot"],
+      "description": "Colonial West Jersey's transportation was defined by the Delaware River crossings. Ferries at Burlington, Cooper's Ferry (Camden), Gloucester, and Salem connected the New Jersey farms to Philadelphia's markets. Inland roads were sand-surfaced on the Coastal Plain — passable in dry weather but difficult in rain and nearly impassable in spring mud. The Pine Barrens had virtually no roads — the iron furnace communities were reached by rough sand tracks. Warren and Hunterdon counties on the Piedmont had somewhat better road surfaces but steeper terrain. Travel times were measured in days, and the Delaware River was faster than any road.",
+      "road_conditions": "Sand roads on the Coastal Plain — soft, rutted, and slow. Better on the Piedmont where red shale and limestone provided firmer surfaces. The Pine Barrens sand roads were the worst in the cluster — deep sand that bogged wagons and exhausted horses.",
+      "travel_times": [
+        { "from": "Burlington", "to": "Philadelphia (by ferry)", "mode": "ferry", "time": "30-60 minutes", "conditions_note": "Dependent on tide and wind" },
+        { "from": "Camden (Cooper's Ferry)", "to": "Philadelphia", "mode": "ferry", "time": "15-30 minutes", "conditions_note": "The shortest crossing on the Delaware" },
+        { "from": "Trenton", "to": "Philadelphia", "mode": "wagon on road", "time": "1-2 days", "conditions_note": "30 miles through Burlington County" },
+        { "from": "Salem", "to": "Philadelphia", "mode": "wagon + ferry", "time": "2-3 days", "conditions_note": "60 miles on sand roads to the ferry" }
+      ],
+      "key_routes": [
+        { "route_name": "King's Highway (Burlington to Salem)", "type": "colonial road", "year_established": "1680s", "description": "Connected the West Jersey communities along the Delaware. Sand-surfaced. Followed the Inner Coastal Plain above the tidal marshes.", "counties_served": ["Burlington", "Camden", "Gloucester", "Salem"] },
+        { "route_name": "Burlington-Trenton Road", "type": "colonial road", "year_established": "1700s", "description": "Connected the two most important towns in West Jersey. Followed the Delaware River.", "counties_served": ["Burlington", "Mercer"] },
+        { "route_name": "Pine Barrens furnace roads", "type": "industrial tracks", "year_established": "1760s", "description": "Rough sand tracks connecting the iron furnaces to the Delaware River landings. Barely passable.", "counties_served": ["Burlington"] }
+      ],
+      "isolation_index": {
+        "description": "Moderate along the Delaware corridor — ferry access to Philadelphia compensated for poor road quality. High in the Pine Barrens interior — furnace communities were effectively isolated. Moderate in the Piedmont (Hunterdon, Warren) — better road surfaces but longer distances.",
+        "comparative_note": "Less connected than southeastern Pennsylvania across the river, primarily because the Coastal Plain sand roads were inferior to the Pennsylvania Piedmont's clay and shale roads."
+      },
+      "narrative_hook": "The ferry was {ancestor_name}'s lifeline — the sand road from the farm to the Delaware crossing was the connection to Philadelphia, and on the other side of the river was the market, the courthouse, and the world.",
+      "source": "Wacker and Clemens, Land Use in Early New Jersey (1995). Pomfret, West New Jersey (1956)."
+    },
+    {
+      "era_id": "canal_turnpike_era",
+      "era_name": "Canal and Turnpike Era",
+      "date_range": "1800-1850",
+      "primary_modes": ["canal boat", "turnpike wagon", "ferry", "horseback"],
+      "description": "The canal era transformed West Jersey's transportation. The Delaware and Raritan Canal (1834) connected Bordentown (Burlington County) to New Brunswick, carrying coal and freight across New Jersey. The Morris Canal (1831) connected Phillipsburg (Warren County) to Newark through a system of inclined planes that carried canal boats over the Highlands ridges. Turnpike companies built improved roads — the Burlington-Camden Turnpike, the Salem Turnpike — with gravel or plank surfaces. The combination of canal and turnpike reduced travel times and freight costs significantly.",
+      "road_conditions": "Turnpikes improved to gravel or plank surface. Non-turnpike roads remained sand or dirt. The contrast between turnpike and back road was dramatic — the difference between a commercial route and a farm lane.",
+      "travel_times": [
+        { "from": "Phillipsburg (Warren)", "to": "Newark", "mode": "Morris Canal", "time": "5-7 days", "conditions_note": "102 miles with 23 inclined planes — the most extraordinary canal engineering in America" },
+        { "from": "Bordentown (Burlington)", "to": "New Brunswick", "mode": "Delaware and Raritan Canal", "time": "1-2 days", "conditions_note": "44 miles of slack-water canal" },
+        { "from": "Camden", "to": "South Amboy", "mode": "Camden and Amboy Railroad (from 1834)", "time": "3-4 hours", "conditions_note": "First railroad across New Jersey" }
+      ],
+      "key_routes": [
+        { "route_name": "Delaware and Raritan Canal", "type": "canal", "year_established": 1834, "description": "Connected the Delaware at Bordentown to the Raritan at New Brunswick. Carried anthracite coal east. The feeder canal ran along the Delaware from Trenton to Bordentown.", "counties_served": ["Burlington", "Mercer"] },
+        { "route_name": "Morris Canal", "type": "canal with inclined planes", "year_established": 1831, "description": "102 miles from Phillipsburg to Newark. The inclined planes lifted boats over the Highlands ridges on water-powered railways.", "counties_served": ["Warren"] },
+        { "route_name": "Camden and Amboy Railroad", "type": "railroad", "year_established": 1834, "description": "First railroad across New Jersey. Connected Camden to New York via South Amboy.", "counties_served": ["Camden", "Burlington", "Mercer"] }
+      ],
+      "isolation_index": {
+        "description": "Low along canal and railroad corridors. The Camden and Amboy Railroad connected West Jersey to New York for the first time. Interior areas — particularly the Pine Barrens — remained isolated.",
+        "comparative_note": "The Camden and Amboy Railroad made Camden a transit point between New York and Philadelphia — a geographic advantage that would define the city."
+      },
+      "narrative_hook": "The Morris Canal's inclined planes were the most extraordinary thing {ancestor_name} would see in a lifetime — loaded canal boats rising over mountain ridges on water-powered railways, engineering that seemed impossible until the cable tightened and the boat went up.",
+      "source": "Lee, The Morris Canal (1979). Dorwart, Camden County (2001)."
+    },
+    {
+      "era_id": "railroad_dominance",
+      "era_name": "Railroad Dominance",
+      "date_range": "1850-1920",
+      "primary_modes": ["railroad", "wagon on improved road", "ferry (declining)", "trolley (post-1890)"],
+      "description": "The railroad era completed West Jersey's connection to the national economy. The Pennsylvania Railroad (successor to the Camden and Amboy) made Camden a major rail terminal. The West Jersey Railroad connected Camden south through Gloucester, Salem, and Cumberland counties, and branch lines reached every county seat. The Central Railroad of New Jersey connected Warren and Hunterdon counties to New York. Railroads made truck farming commercially viable over distances that wagons could not cover — South Jersey produce reached Philadelphia, New York, and beyond by rail. The ferry system gradually declined as railroad bridges and tunnels replaced water crossings.",
+      "road_conditions": "County roads improved but remained secondary to rail. Trolley lines extended urban access from Camden, Trenton, and other cities into surrounding communities.",
+      "travel_times": [
+        { "from": "Camden", "to": "Philadelphia", "mode": "ferry (still required until bridge)", "time": "15-20 minutes", "conditions_note": "The railroad delivered passengers to the Camden terminal; the ferry crossed to Philadelphia" },
+        { "from": "Bridgeton (Cumberland)", "to": "Philadelphia", "mode": "West Jersey Railroad", "time": "2-3 hours", "conditions_note": "Via Camden" },
+        { "from": "Phillipsburg (Warren)", "to": "New York", "mode": "Central Railroad of NJ", "time": "3-4 hours", "conditions_note": "Via the Lehigh Valley corridor" }
+      ],
+      "key_routes": [
+        { "route_name": "Pennsylvania Railroad (Camden terminal)", "type": "railroad", "year_established": "1870s", "description": "The PRR's main line terminated at Camden, with ferry connection to Philadelphia. Camden became a major rail yard.", "counties_served": ["Camden", "Burlington", "Mercer"] },
+        { "route_name": "West Jersey Railroad", "type": "railroad", "year_established": "1860s", "description": "Connected Camden south through Woodbury, Bridgeton, and the agricultural counties.", "counties_served": ["Camden", "Gloucester", "Salem", "Cumberland"] },
+        { "route_name": "Central Railroad of New Jersey", "type": "railroad", "year_established": "1850s", "description": "Connected Phillipsburg and the Lehigh Valley corridor to New York.", "counties_served": ["Warren", "Hunterdon"] }
+      ],
+      "isolation_index": {
+        "description": "Near zero along railroad corridors. The Pine Barrens remained the most isolated area. Rural areas more than five miles from a railroad station were still wagon-dependent.",
+        "comparative_note": "Well connected to both Philadelphia and New York by the 1870s."
+      },
+      "narrative_hook": "The railroad made {ancestor_name}'s South Jersey produce perishable instead of impossible — a basket of tomatoes picked in Gloucester County in the morning was on a Philadelphia dinner table by evening, and the railroad schedule replaced the tide table.",
+      "source": "Dorwart, Camden County (2001). Schmidt, Agriculture in New Jersey (1973)."
+    },
+    {
+      "era_id": "highway_suburban_era",
+      "era_name": "Highway and Suburban Era",
+      "date_range": "1920-1960",
+      "primary_modes": ["automobile", "bus", "truck", "commuter railroad"],
+      "description": "The automobile and highway transformed West Jersey as completely as the railroad had. The Delaware River Bridge (1926, later the Benjamin Franklin Bridge) finally connected Camden to Philadelphia without a ferry — the first fixed link across the river. The White Horse Pike and Black Horse Pike connected Camden to the Atlantic shore and became suburban strip corridors. The New Jersey Turnpike (1951) cut through Burlington and Mercer counties, connecting the cluster to the national highway system. Levittown NJ (Willingboro, 1958) was designed for automobile commuters. The automobile enabled suburban development far from railroad stations, and the suburban frontier advanced south and east from Camden, consuming farmland.",
+      "road_conditions": "State highways paved. County roads increasingly paved after 1940. The New Jersey Turnpike was the state's first limited-access toll highway.",
+      "travel_times": [
+        { "from": "Camden", "to": "Philadelphia", "mode": "automobile via Benjamin Franklin Bridge", "time": "10-15 minutes", "conditions_note": "The bridge replaced centuries of ferry service" },
+        { "from": "Willingboro (Burlington)", "to": "Camden/Philadelphia", "mode": "automobile", "time": "30-45 minutes", "conditions_note": "Via NJ Turnpike or Route 130" },
+        { "from": "Bridgeton (Cumberland)", "to": "Philadelphia", "mode": "automobile", "time": "1-1.5 hours", "conditions_note": "Via Route 49 and NJ Turnpike" }
+      ],
+      "key_routes": [
+        { "route_name": "Benjamin Franklin Bridge", "type": "highway bridge", "year_established": 1926, "description": "First fixed bridge connecting Camden to Philadelphia. Eliminated the ferry crossing that had defined the relationship for 250 years.", "counties_served": ["Camden"] },
+        { "route_name": "New Jersey Turnpike", "type": "toll highway", "year_established": 1951, "description": "Limited-access highway from the Delaware Memorial Bridge through Burlington and Mercer counties to New York.", "counties_served": ["Salem", "Gloucester", "Camden", "Burlington", "Mercer"] },
+        { "route_name": "White Horse Pike / Black Horse Pike", "type": "US highways", "year_established": "1920s", "description": "Connected Camden to the Atlantic shore. Became suburban commercial corridors.", "counties_served": ["Camden", "Gloucester"] }
+      ],
+      "isolation_index": {
+        "description": "Low across the entire cluster by 1960. The automobile ended rural isolation everywhere except the deepest Pine Barrens, where sand roads persisted.",
+        "comparative_note": "Fully integrated into the Philadelphia-New York corridor by 1960."
+      },
+      "narrative_hook": "The Benjamin Franklin Bridge replaced the ferry in 1926 — and {ancestor_name} drove across the Delaware in ten minutes instead of waiting thirty minutes for a boat, a change that collapsed 250 years of water between two cities.",
+      "source": "Dorwart, Camden County (2001). Gans, The Levittowners (1967)."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1834, "event": "Camden and Amboy Railroad completed — first railroad across New Jersey", "impact": "Connected Camden to New York via South Amboy" },
+    { "year": 1860, "event": "West Jersey Railroad extends south from Camden to Bridgeton", "impact": "Connected the agricultural counties to the Camden rail hub" },
+    { "year": 1876, "event": "Central Railroad of NJ reaches Phillipsburg", "impact": "Connected Warren County to New York" },
+    { "year": 1926, "event": "Benjamin Franklin Bridge opens — first fixed crossing", "impact": "Eliminated the Camden-Philadelphia ferry" },
+    { "year": 1951, "event": "New Jersey Turnpike opens", "impact": "Limited-access highway transformed the corridor" }
+  ],
+  "narrative_hooks": [
+    "The Delaware River was the road before roads existed — {ancestor_name}'s ferry crossing to Philadelphia was the lifeline that connected West Jersey to the world.",
+    "The Morris Canal's inclined planes carried loaded canal boats over New Jersey's mountains — {ancestor_name} watching engineering that seemed impossible until the water turbine tightened the cable and the boat went up the hill.",
+    "The Benjamin Franklin Bridge replaced the ferry in 1926 — and the ten-minute drive that replaced the thirty-minute boat ride collapsed the distance between Camden and Philadelphia.",
+    "The New Jersey Turnpike cut through {ancestor_name}'s county in 1951 — a limited-access highway that divided the old agricultural landscape from the new suburban future.",
+    "Sand roads were the curse of South Jersey travel — {ancestor_name}'s wagon bogged in deep sand on the Coastal Plain while the Pennsylvania Piedmont across the river had firm clay roads."
+  ],
+  "source_references": [
+    "Wacker, Peter O., and Paul G. E. Clemens. Land Use in Early New Jersey. Newark: New Jersey Historical Society, 1995.",
+    "Lee, James. The Morris Canal: A Photographic History. York, PA: Canal Captain's Press, 1979.",
+    "Dorwart, Jeffery M. Camden County, New Jersey. New Brunswick: Rutgers University Press, 2001.",
+    "Gans, Herbert J. The Levittowners. New York: Pantheon Books, 1967.",
+    "Schmidt, Hubert G. Agriculture in New Jersey. New Brunswick: Rutgers University Press, 1973."
+  ],
+  "nel_cross_references": {
+    "route_refs": ["rotterdam_philadelphia_pipeline"],
+    "trigger_refs": ["quaker_migration", "industrial_revolution", "gi_bill_migration"]
+  }
+}

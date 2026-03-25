@@ -1,0 +1,109 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Hunterdon County, NJ. Record survival, courthouse history, and known losses. Hunterdon's records are well-preserved from 1714 formation, with the 1935 Lindbergh kidnapping trial as the most famous proceeding in the courthouse's history.",
+  "courthouse_atlas_id": "nj_hunterdon_courthouse",
+  "display_name": "Hunterdon County, New Jersey — Courthouse Atlas",
+  "county": "Hunterdon",
+  "state": "NJ",
+  "fips_code": "34019",
+  "cluster_ref": "nj_delaware_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1828,
+      "location": "Flemington, NJ — Main Street (Greek Revival building; site of the Lindbergh trial, 1935)",
+      "records_housed": ["deeds", "mortgages", "wills", "surrogate court records", "marriage licenses", "court minutes", "naturalizations"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1714–1828",
+        "location": "Flemington area — earlier structures",
+        "fate": "Replaced by current building. Records transferred."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "hunterdon_no_major_loss",
+      "date": null,
+      "cause": "No major fire or disaster",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1714", "will books from 1714", "court minutes", "marriage licenses from 1795"],
+      "scope": "none",
+      "description": "Hunterdon County's records are well-preserved from the county's 1714 formation. No significant courthouse fire or flood has destroyed records. The 1828 courthouse — still in use — is one of the oldest continuously operating courthouses in New Jersey. The Lindbergh kidnapping trial (1935) is the most famous proceeding held in the building.",
+      "narrative_impact": "If {ancestor_name} lived in Hunterdon County after 1714, the records almost certainly survive. The county's rural character and stable courthouse history have preserved documentation that busier jurisdictions sometimes lost.",
+      "source": "Hunterdon County Clerk's Office."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1714,
+      "completeness": "Very good from formation.",
+      "gaps": "No significant gaps.",
+      "repository": "Hunterdon County Clerk's Office, Flemington; NJ State Archives",
+      "online_access": "FamilySearch microfilm; limited Ancestry.com"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1714,
+      "completeness": "Very good.",
+      "gaps": "Some early loose papers fragmentary.",
+      "repository": "Hunterdon County Surrogate's Office; NJ State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1795,
+      "completeness": "Good from 1795.",
+      "gaps": "Earlier marriages in church records (Dutch Reformed, Presbyterian, Quaker).",
+      "repository": "Hunterdon County Clerk's Office",
+      "online_access": "FamilySearch; Ancestry.com NJ marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1714,
+      "completeness": "Good.",
+      "gaps": "Minor.",
+      "repository": "Hunterdon County Clerk's Office; NJ State Archives",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1848,
+      "death_registration_start": 1848,
+      "completeness": "Spotty until 1900. Rural compliance was lower than urban.",
+      "repository": "NJ State Archives; NJ Department of Health"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Dutch Reformed church records",
+      "description": "The Dutch Reformed churches in Hunterdon County (Readington, Amwell, Raritan) document the Dutch-origin families who were among the earliest settlers. Records in Dutch and English include baptisms, marriages, deaths, and membership.",
+      "repository": "Reformed Church in America Archives, New Brunswick; Hunterdon County Historical Society; NJ State Archives",
+      "era_coverage": "1720–present",
+      "genealogical_value": "Critical for Dutch-origin families. Church records predate civil vital records by over a century.",
+      "source": "Holland Society of New York. Records of the Reformed Dutch Church in America."
+    },
+    {
+      "source_type": "Morris Canal records",
+      "description": "The Morris Canal Company maintained records for the canal's operation through Hunterdon County's northern edge (the feeder canal along the Delaware and the main canal through Warren County). Employee and boat registration records exist.",
+      "repository": "NJ State Archives; Canal Society of New Jersey archives",
+      "era_coverage": "1831–1924",
+      "genealogical_value": "Useful for families involved in canal transportation.",
+      "source": "Lee, The Morris Canal (1979)."
+    }
+  ],
+  "narrative_hooks": [
+    "Hunterdon County's records begin in 1714 and are among the best-preserved in New Jersey — if {ancestor_name} owned land or went before the court, the documentation survives at Flemington.",
+    "The Flemington courthouse where {ancestor_name}'s ancestors' deeds were recorded is the same building where the Lindbergh trial was held in 1935 — a Greek Revival courthouse that has served the county since 1828.",
+    "Dutch Reformed church records are essential for Hunterdon's earliest families — if {ancestor_name} was Dutch, the church register at Readington or Amwell holds records that predate the civil system by a century.",
+    "NJ vital records begin in 1848, but rural Hunterdon compliance was poor — if {ancestor_name}'s birth or death is missing, check church records and cemetery inscriptions."
+  ],
+  "source_references": [
+    "Hunterdon County Clerk's Office. Guide to Hunterdon County Records.",
+    "Holland Society of New York. Records of the Reformed Dutch Church in America.",
+    "Snell, James P. History of Hunterdon and Somerset Counties. Philadelphia: Everts and Peck, 1881.",
+    "Lee, James. The Morris Canal. York, PA: Canal Captain's Press, 1979."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nj_hunterdon",
+    "research_guidance_refs": ["property_records", "church_transfers"],
+    "template_refs": ["record_silences", "document_deep_read"]
+  }
+}

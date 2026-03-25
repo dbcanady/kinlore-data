@@ -1,0 +1,134 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Micro-Migration Network Map for the MN Settlement Frontier regional cluster (Goodhue, Fillmore, Blue Earth, Stearns, Meeker, Kandiyohi, Nicollet, Otter Tail counties). Documents the specific migration corridors, chain-migration mechanics, and settlement patterns that moved people into, within, and out of this eight-county region from 1850 to 1940.",
+  "migration_network_id": "mn_settlement_frontier_migration_networks",
+  "display_name": "MN Settlement Frontier — Micro-Migration Network Map",
+  "cluster_ref": "mn_settlement_frontier",
+  "era_range": "1850-1940",
+
+  "migration_corridors": [
+    {
+      "corridor_id": "sogn_to_goodhue",
+      "corridor_name": "Sogn, Norway to Goodhue County — Norwegian Chain Migration",
+      "origin_counties": ["Sogn og Fjordane fylke, Norway (Balestrand, Vik, Leikanger, Sogndal)"],
+      "destination_area": "Goodhue County, Minnesota — Holden, Aspelund, Vang, and Lands townships",
+      "era": "1855-1890",
+      "migration_type": "chain_migration",
+      "scale": "Hundreds of families over three decades. By 1880, specific townships in Goodhue County were almost entirely Sogn-dialect Norwegian. The chain operated continuously from the mid-1850s through the 1880s.",
+      "evidence": {
+        "census_evidence": "1870 and 1880 US Census enumerations of Holden and Aspelund townships show overwhelming concentrations of Norwegian-born residents listing birthplace in Sogn. Children born in Wisconsin or Iowa indicate staged migration (Norway → Wisconsin → Minnesota).",
+        "church_evidence": "Norwegian Lutheran congregations in Goodhue County maintained ministerialbok entries recording the immigrant's home parish in Norway. Holden Lutheran Church records show clusters of families from Balestrand and Vik parishes. Gjerde's study of Balestrand emigration confirms the chain.",
+        "surname_clustering": "Surnames associated with specific Sogn parishes — Lunde, Brekke, Fjaerestad, Sande — appear in Goodhue County census records in clusters that mirror the parish-to-township migration pattern.",
+        "emigration_records": "Norwegian emigration protocols (Emigrantprotokollene) for Bergen police district show departures to 'Minnesota' listing family members who later appear in Goodhue County records."
+      },
+      "chain_mechanics": {
+        "description": "Pioneer families from specific Sogn parishes settled in Goodhue County in the late 1850s. They wrote Amerika-brev (America letters) home describing the land, the climate, and the opportunities. These letters were read aloud in the home parish and sometimes published in Norwegian newspapers. Within a few years, siblings, cousins, and neighbors from the same parish followed. The chain was parish-specific: families from Balestrand settled in the same townships as earlier Balestrand emigrants, not alongside families from other Sogn parishes.",
+        "kinship_role": "Sibling chains were the primary mechanism. An elder brother or married couple arrived first, secured land, and then sent for younger siblings. The entire family network — parents, siblings, in-laws — might relocate over a decade. The arriving family stayed with established kin until they could build their own house.",
+        "timeline": "Pioneer families 1855-1860; peak chain migration 1865-1880; self-sustaining Norwegian community by 1885."
+      },
+      "narrative_hook": "When {ancestor_name} left {parish_name} in Sogn around {year}, {pronoun_subject} was not stepping into the unknown — a brother, a cousin, or a neighbor from the same valley had already written home to say that the land in Goodhue County was good, the soil was deep, and there were people from home to meet at the dock in Red Wing.",
+      "source": "Gjerde, Jon. From Peasants to Farmers: The Migration from Balestrand, Norway, to the Upper Middle West. Cambridge: Cambridge University Press, 1985. Qualey, Carlton C. Norwegian Settlement in the United States. NAHA, 1938."
+    },
+    {
+      "corridor_id": "valdres_to_otter_tail",
+      "corridor_name": "Valdres, Norway to Otter Tail County — Norwegian Chain Migration",
+      "origin_counties": ["Oppland fylke, Norway (Valdres district: Vang, Slidre, Nord-Aurdal, Etnedal)"],
+      "destination_area": "Otter Tail County, Minnesota — specific townships centered on Trefoldighet (Fergus Falls), Friberg, Tumuli, and surrounding areas",
+      "era": "1875-1900",
+      "migration_type": "chain_migration",
+      "scale": "Hundreds of families. By 1900, Otter Tail County was the most heavily Norwegian county in Minnesota, and Valdres-dialect speakers dominated specific townships. The migration was later than the Sogn-to-Goodhue chain because Otter Tail County was not accessible until the 1870s.",
+      "evidence": {
+        "census_evidence": "1880, 1900, and 1910 US Census enumerations of Otter Tail County townships show dense clusters of Norwegian-born residents. The 1900 census 'mother tongue' column confirms Valdres-dialect speakers concentrated in specific areas.",
+        "church_evidence": "Valdres-background congregations maintained separate parish registers from Sogn-background congregations even when located in adjacent townships. The dialect difference was sufficient to sustain separate worship communities.",
+        "surname_clustering": "Valdres farm names used as surnames — Bø, Hegg, Strand, Tveit, Lien — cluster in Otter Tail County townships in patterns matching the parish-of-origin data from Norwegian records.",
+        "emigration_records": "Emigration protocols from Christiania (Oslo) police district document Valdres families departing for 'Fergus Falls, Minnesota' by name in the 1880s and 1890s."
+      },
+      "chain_mechanics": {
+        "description": "The Valdres-to-Otter Tail chain operated on the same principles as the Sogn-to-Goodhue chain but was one generation later. Pioneer families arrived in the 1870s when the railroad opened Otter Tail County to settlement. Amerika-brev sent back to Valdres described a landscape of lakes and hills that reminded settlers of home. The railroad companies — especially the Northern Pacific — actively recruited in Norway, and their agents distributed promotional literature in Norwegian. But the actual migration decisions were driven by kinship, not advertising.",
+        "kinship_role": "Extended family networks. A married couple with children arrived first, followed by siblings and parents within two to five years. Young single men sometimes came ahead to work as farm laborers and save for their own homesteads. Marriage often occurred between families from the same Valdres parish, reinforcing the chain.",
+        "timeline": "Pioneer families 1875-1880; peak chain migration 1882-1895; community self-sustaining by 1900."
+      },
+      "narrative_hook": "The Valdres dialect that {ancestor_name} spoke was as distinctive as an accent can be — and in Otter Tail County in the {decade}s, you could tell which township a family lived in by which Norwegian valley their grandparents had left. The Valdres people stayed together, worshipped together, and married each other, a thousand miles from the mountains but as close to home as the language could carry them.",
+      "source": "Qualey, Norwegian Settlement. Semmingsen, Ingrid. Norway to America. University of Minnesota Press, 1978. Gjerde, From Peasants to Farmers."
+    },
+    {
+      "corridor_id": "german_catholic_colonization",
+      "corridor_name": "German Catholic Colonization — Bavaria/Westphalia to Stearns County",
+      "origin_counties": ["Bavaria, Westphalia, Rhineland (German states) and secondary migration from Wisconsin, Indiana, Ohio, Pennsylvania"],
+      "destination_area": "Stearns County, Minnesota — Sauk River valley settlements: St. Joseph, Cold Spring, Richmond, St. Cloud",
+      "era": "1856-1880",
+      "migration_type": "organized_colonization",
+      "scale": "Thousands of families. By 1880, Stearns County was overwhelmingly German Catholic. The colonization effort was organized and deliberate, not spontaneous chain migration.",
+      "evidence": {
+        "census_evidence": "1860, 1870, and 1880 US Census enumerations of Stearns County show dense concentrations of German-born residents, with secondary birthplaces in Wisconsin, Indiana, and Ohio indicating staged migration.",
+        "church_evidence": "Catholic parish sacramental registers at St. Joseph, Assumption (Cold Spring), and other parishes record the homeland diocese and parish of immigrant parishioners. St. John's Abbey archives contain correspondence with German Catholic bishops regarding colonization.",
+        "surname_clustering": "German Catholic surnames — Schaefer, Schwartz, Mueller, Keller, Pfannenstein, Bresnahan (Irish Catholic from mixed settlements) — dominate Stearns County records from the 1860s onward.",
+        "colonization_records": "Father Francis Xavier Pierz's recruitment letters published in German Catholic newspapers (Der Wahrheitsfreund, Cincinnati) are preserved and document the organized colonization effort."
+      },
+      "chain_mechanics": {
+        "description": "The Stearns County German Catholic settlement was unusual because it was organized from the top. Father Pierz published recruitment letters in German Catholic newspapers across the eastern United States, describing cheap land and the opportunity to build a Catholic community free from Protestant dominance. The Benedictine monks who founded St. John's Abbey (1856) provided institutional anchor — a monastery, a school, and a network of parish priests who served the expanding settlements. Families arrived not as isolated pioneers but as members of a planned community. Once established, the settlement generated its own chain migration as letters home brought relatives and neighbors from Germany and from German Catholic settlements in Wisconsin and Ohio.",
+        "kinship_role": "Parish and village networks were as important as family ties. Families from the same German village or diocese settled near each other. The Catholic parish was the organizing unit — families joined a parish, and the parish determined their social world. Marriage between German Catholic families from different origin regions (Bavaria and Westphalia) was common once both groups were established.",
+        "timeline": "Organized colonization 1856-1870; self-sustaining chain migration 1870-1890; community fully established by 1880."
+      },
+      "narrative_hook": "When {ancestor_name} came to Stearns County, {pronoun_subject} was not answering a railroad advertisement — {pronoun_subject} was answering a priest's call. Father Pierz had written in the German Catholic papers that the land was cheap, the community was Catholic, and the Benedictine brothers at St. John's would see that no family was abandoned to the prairie alone.",
+      "source": "Barry, Colman J. Worship and Work: Saint John's Abbey and University, 1856-1992. Liturgical Press, 1993. Rippley, La Vern J. The German-Americans. Twayne Publishers, 1976."
+    },
+    {
+      "corridor_id": "stepped_westward_migration",
+      "corridor_name": "Stepped Westward Migration — Goodhue/Fillmore to Otter Tail/Kandiyohi",
+      "origin_counties": ["Goodhue", "Fillmore", "Blue Earth", "Nicollet"],
+      "destination_area": "Otter Tail, Kandiyohi, Meeker counties — the western portion of the cluster",
+      "era": "1870-1895",
+      "migration_type": "chain_migration",
+      "scale": "Significant but difficult to quantify precisely. Census birthplace data shows children born in Goodhue or Fillmore counties appearing in Otter Tail or Kandiyohi County households, indicating family movement westward within Minnesota.",
+      "evidence": {
+        "census_evidence": "1880 and 1900 census records in Otter Tail and Kandiyohi counties show families with older children born in Goodhue, Fillmore, or Blue Earth counties and younger children born in the western county — indicating westward movement within the cluster.",
+        "church_evidence": "Congregation membership records show 'dismissed to' and 'received from' entries tracking families between eastern and western cluster congregations.",
+        "land_evidence": "Homestead filings in Otter Tail and Kandiyohi counties by individuals whose earlier land transactions appear in Goodhue or Fillmore County deed books."
+      },
+      "chain_mechanics": {
+        "description": "As the eastern counties filled up and land prices rose, younger sons and newly married couples moved westward to cheaper land in the recently opened western counties. This was not a long-distance migration but a regional shift — a family that had been in Goodhue County for fifteen years sending a married son to take a homestead in Otter Tail County. The kinship chain operated within Minnesota rather than across the Atlantic. Norwegian families moving from Goodhue to Otter Tail carried their Sogn or Valdres dialect and their congregation affiliation with them.",
+        "kinship_role": "Father-to-son and brother-to-brother chains. The established farmer in Goodhue County helped finance the younger man's homestead claim in Otter Tail County. Visits between eastern and western family branches maintained the connection across the 150-200 miles that separated them.",
+        "timeline": "Began in the early 1870s as western counties opened; peaked 1880-1895; largely complete by 1900 as homestead land was exhausted."
+      },
+      "narrative_hook": "When {ancestor_name} left the family farm in {origin_county} County for a homestead in {destination_county} County around {year}, {pronoun_subject} was following the same logic that had brought {pronoun_possessive} parents to Minnesota in the first place — the older land was taken, the family was growing, and the new land to the west was cheap enough to start again.",
+      "source": "Gjerde, From Peasants to Farmers. Qualey, Norwegian Settlement."
+    },
+    {
+      "corridor_id": "twin_cities_out_migration",
+      "corridor_name": "Farm-to-City: MN Settlement Frontier to Twin Cities",
+      "origin_counties": ["Goodhue", "Fillmore", "Blue Earth", "Stearns", "Meeker", "Kandiyohi", "Nicollet", "Otter Tail"],
+      "destination_area": "Minneapolis and St. Paul, Minnesota — with secondary destinations in Duluth, Rochester, and Fargo",
+      "era": "1900-1940",
+      "migration_type": "economic_migration",
+      "scale": "Thousands of individuals per decade. Every county in the cluster lost population to the Twin Cities during this era. Rural-to-urban migration was the dominant demographic trend of the early twentieth century.",
+      "evidence": {
+        "census_evidence": "Census birthplace data shows individuals born in cluster counties enumerated in Minneapolis and St. Paul. City directory entries confirm ongoing migration from rural Minnesota.",
+        "church_evidence": "Norwegian Lutheran and German Catholic congregations in Minneapolis and St. Paul received transfer members from rural cluster congregations. Minneapolis had 'colony' congregations that drew from specific rural areas.",
+        "employment_evidence": "Minneapolis flour mills, railroads, and manufacturing employed workers from across rural Minnesota. The Great Northern Railway recruited from the same communities it had originally settled."
+      },
+      "chain_mechanics": {
+        "description": "The farm-to-city pipeline operated on familiar chain-migration mechanics: a young person left the farm for a Twin Cities job, found housing, and then siblings and neighbors followed. The pathways were specific: Norwegian farm youth from Goodhue and Fillmore counties clustered in Minneapolis neighborhoods near Norwegian Lutheran churches. German Catholic youth from Stearns County found work through St. Cloud connections to Minneapolis Catholic institutions. The migration was selective — it drained the young and the ambitious, leaving aging parents on increasingly marginal farms.",
+        "kinship_role": "Sibling and cousin chains. An older sister established in Minneapolis provided a room and an introduction to a potential employer for a younger brother arriving from the farm. Church connections provided the social network.",
+        "timeline": "Began slowly in the 1890s; accelerated 1900-1920; intensified during the agricultural depression of the 1920s; continued through the 1930s."
+      },
+      "narrative_hook": "When {ancestor_name}'s {child_or_sibling} left the farm in {county} County for Minneapolis around {year}, {pronoun_subject} joined a steady stream of farm children who had decided that milking cows at five AM in January was not the life they wanted — the city offered wages, warmth, and a world beyond the township line.",
+      "source": "Lass, Minnesota: A History. Gjerde, From Peasants to Farmers. Lovoll, Odd S. A Century of Urban Life: The Norwegians in Chicago before 1930. NAHA, 1988."
+    }
+  ],
+  "source_references": [
+    "Gjerde, Jon. From Peasants to Farmers: The Migration from Balestrand, Norway, to the Upper Middle West. Cambridge: Cambridge University Press, 1985.",
+    "Qualey, Carlton C. Norwegian Settlement in the United States. Northfield, MN: Norwegian-American Historical Association, 1938.",
+    "Semmingsen, Ingrid. Norway to America: A History of the Migration. Minneapolis: University of Minnesota Press, 1978.",
+    "Barry, Colman J. Worship and Work: Saint John's Abbey and University, 1856-1992. Collegeville, MN: Liturgical Press, 1993.",
+    "Rippley, La Vern J. The German-Americans. Boston: Twayne Publishers, 1976.",
+    "Lass, William E. Minnesota: A History. 2nd ed. New York: W. W. Norton, 1998.",
+    "Lovoll, Odd S. A Century of Urban Life: The Norwegians in Chicago before 1930. Northfield, MN: Norwegian-American Historical Association, 1988."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["scandinavian_immigration", "homestead_act", "railroad_construction"],
+    "community_texture_refs": ["scandinavian_lutheran_settlement"],
+    "life_pattern_refs": ["immigrant_language_shift", "homestead_proving_up"]
+  }
+}

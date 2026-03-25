@@ -1,0 +1,113 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Harnett County, NC. Record survival, courthouse history, and known losses for a county formed in 1855 from Cumberland.",
+  "courthouse_atlas_id": "nc_harnett_courthouse",
+  "display_name": "Harnett County, North Carolina — Courthouse Atlas",
+  "county": "Harnett",
+  "state": "NC",
+  "fips_code": "37085",
+  "cluster_ref": "nc_sandhills_upper_cape_fear",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1939,
+      "location": "Lillington, NC",
+      "records_housed": ["deeds", "plats", "vital records indexes", "court minutes", "estate files"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1855–1882",
+        "location": "Toomer, NC (original county seat)",
+        "fate": "County seat moved to Lillington in 1882. The Toomer courthouse was a small frame structure. Records were transferred to Lillington."
+      },
+      {
+        "era": "1882–1939",
+        "location": "Lillington, NC",
+        "fate": "Replaced by the current 1939 WPA-era building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "harnett_civil_war_minor",
+      "date": "1865-03",
+      "cause": "Civil War — Sherman's march",
+      "records_destroyed": ["Some loose court papers potentially disrupted during passage of troops"],
+      "records_survived": ["Deed books", "Will books", "Court minutes from 1855"],
+      "scope": "minimal",
+      "description": "Sherman's army crossed the Cape Fear near Lillington in March 1865, but the courthouse — then at Toomer — was not targeted. Harnett County was only ten years old and had limited infrastructure. No significant record losses are documented from the Civil War period.",
+      "narrative_impact": "Harnett County's records from its 1855 formation survive in good condition. If {ancestor_name}'s records are missing, the county's young age at the time of the Civil War means limited pre-war documentation, not destruction.",
+      "source": "Barrett, John G. Sherman's March Through the Carolinas. UNC Press, 1956."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1855,
+      "completeness": "Good from formation. Pre-1855 records for this territory are in Cumberland County.",
+      "gaps": "No known gaps.",
+      "repository": "Harnett County Register of Deeds, Lillington; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com NC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1855,
+      "completeness": "Good from formation. Pre-1855 estates are in Cumberland County.",
+      "gaps": "None known.",
+      "repository": "Harnett County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1855,
+      "completeness": "Good from formation.",
+      "gaps": "Pre-1855 marriages are in Cumberland County records.",
+      "repository": "Harnett County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com NC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1855,
+      "completeness": "Good from formation.",
+      "gaps": "None known. Early volumes are thin, reflecting small population.",
+      "repository": "NC State Archives; Harnett County Clerk of Court",
+      "online_access": "NC State Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Spotty until approximately 1920.",
+      "repository": "NC Office of Vital Records; NC State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Cumberland County pre-1855 records",
+      "description": "Harnett County was carved from Cumberland in 1855. All records for this territory before that date are in the Cumberland County courthouse in Fayetteville.",
+      "repository": "Cumberland County Register of Deeds, Fayetteville; NC State Archives",
+      "era_coverage": "Pre-1855",
+      "genealogical_value": "Essential for any Harnett County family with roots before 1855. Cumberland's records survive from 1754, so deep colonial-era documentation is available.",
+      "source": "NC State Archives. Guide to County Records."
+    },
+    {
+      "source_type": "Erwin Cotton Mills company records",
+      "description": "The Erwin Cotton Mills (Duke family) maintained employment records, payroll ledgers, and company housing records. Some survive in scattered archives.",
+      "repository": "Duke University Rubenstein Library (Duke family papers); NC State Archives",
+      "era_coverage": "1892–1960",
+      "genealogical_value": "Mill workers who appear in no other county records may be documented in company employment records. Housing assignments can confirm residence.",
+      "source": "Duke University finding aids, Rubenstein Library."
+    }
+  ],
+  "narrative_hooks": [
+    "Harnett County was carved from Cumberland in 1855 — if {ancestor_name}'s family was here before that date, the records are in Fayetteville, in Cumberland County's courthouse, not in Lillington.",
+    "The Erwin Cotton Mills kept their own records of the workers in their company houses — if {ancestor_name} worked at the mill after 1892, {pronoun_possessive} name may survive in Duke family business papers as well as in the county records.",
+    "Harnett County's records survived the Civil War intact — the county was barely ten years old when Sherman passed through, and there was nothing strategic enough to burn.",
+    "Before 1913, no birth or death certificates exist for Harnett County — if {ancestor_name} was born or died before that date, church records, cemetery transcriptions, and Cumberland County's pre-1855 records are the alternatives."
+  ],
+  "source_references": [
+    "Barrett, John G. Sherman's March Through the Carolinas. Chapel Hill: University of North Carolina Press, 1956.",
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Leary, Helen F. M., ed. North Carolina Research: Genealogy and Local History. 2nd ed. Raleigh: North Carolina Genealogical Society, 1996."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_harnett",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Texas County, MO. Record survival and courthouse history. Texas County formed 1845. The courthouse burned in 1860, destroying most early records. The county's extreme isolation meant vital records were poorly reported long after state registration began. Houston is the county seat.",
+  "courthouse_atlas_id": "mo_texas_courthouse",
+  "display_name": "Texas County, Missouri — Courthouse Atlas",
+  "county": "Texas",
+  "state": "MO",
+  "fips_code": "29215",
+  "cluster_ref": "mo_ozarks_gateway",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1933,
+      "location": "Houston, MO — 210 N. Grand Avenue",
+      "records_housed": ["deeds", "plats", "marriage records", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1845-1860",
+        "location": "Houston",
+        "fate": "Destroyed by fire in 1860, on the eve of the Civil War. Most records lost."
+      },
+      {
+        "era": "1860-1933",
+        "location": "Houston (rebuilt and later replaced)",
+        "fate": "Replaced by the current WPA-era building in 1933."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "texas_1860_fire",
+      "date": "1860",
+      "cause": "Courthouse fire",
+      "records_destroyed": ["Most deed records pre-1860", "most court records pre-1860", "most probate records pre-1860", "tax records pre-1860"],
+      "records_survived": ["Some marriage records (partial)", "records reconstructed after the fire (incomplete)"],
+      "scope": "catastrophic",
+      "description": "The 1860 courthouse fire destroyed nearly all of Texas County's records from its formation in 1845. The timing was devastating — the fire occurred on the eve of the Civil War, and the chaos of the guerrilla war made reconstruction of the records impossible during the 1860s. Some records were reconstructed from memory and private copies in the late 1860s-1870s, but the pre-1860 record is largely lost.",
+      "narrative_impact": "If {ancestor_name} was in Texas County before 1860, the courthouse fire erased the official record. The Civil War that followed made reconstruction impossible. For families who settled in the 1840s and 1850s, the county's records begin at zero.",
+      "source": "Missouri State Archives. Guide to County Records on Microfilm: Texas County."
+    },
+    {
+      "loss_id": "texas_civil_war_gap",
+      "date": "1861-1865",
+      "cause": "Civil War guerrilla warfare — courts nonfunctional for extended periods",
+      "records_destroyed": [],
+      "records_survived": ["Minimal records from the war years"],
+      "scope": "significant",
+      "description": "The Civil War rendered county government in Texas County essentially nonfunctional. Guerrilla bands controlled the countryside. Courts did not regularly sit. Deeds were not recorded. Probate was not administered. A five-year gap in county records follows immediately after the fifteen-year gap created by the 1860 fire.",
+      "narrative_impact": "Texas County records have a twenty-year effective gap from 1845 to 1865 — the fire destroyed the first fifteen years and the war paralyzed the next five. If {ancestor_name} was in Texas County during this period, the records are silent.",
+      "source": "Missouri State Archives. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1860,
+      "completeness": "Post-1860 only, with significant gaps during the Civil War. Reasonably complete from approximately 1870.",
+      "gaps": "Pre-1860 records destroyed by fire. 1861-1865 records sparse.",
+      "repository": "Texas County Recorder of Deeds, Houston; Missouri State Archives",
+      "online_access": "FamilySearch microfilm (partial)"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1866,
+      "completeness": "Post-Civil War only. Very few estates probated before the war in this frontier county.",
+      "gaps": "Complete gap from 1845 to approximately 1866.",
+      "repository": "Texas County Probate Court; Missouri State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1850,
+      "completeness": "Partial — some marriage records predate the fire (may have been reconstructed). Complete from approximately 1870.",
+      "gaps": "Significant gaps in pre-1870 marriage records.",
+      "repository": "Texas County Recorder; Missouri State Archives",
+      "online_access": "FamilySearch; Ancestry.com MO marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1866,
+      "completeness": "Post-Civil War only.",
+      "gaps": "Complete gap from 1845 to 1866.",
+      "repository": "Missouri State Archives; Texas County Circuit Court",
+      "online_access": "Missouri State Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1883,
+      "death_registration_start": 1883,
+      "completeness": "Extremely poor compliance. Texas County was the most isolated county in the cluster — many births and deaths were never registered even after 1910. The nearest registrar could be a day's ride away.",
+      "repository": "Missouri Department of Health and Senior Services; Missouri State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1850-1940. The census is the single most important source for Texas County families before 1870, given the catastrophic courthouse fire and Civil War gaps.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1850-1940",
+      "genealogical_value": "Critical — the 1850 and 1860 census are the only reliable documentation for many families whose courthouse records burned.",
+      "source": "National Archives and Records Administration."
+    },
+    {
+      "source_type": "Church records (Baptist, Methodist, Christian Church)",
+      "description": "Baptist and Methodist church records from Texas County hollows. Many congregations were small and kept minimal records, but where records survive they may be the only documentation of births, marriages, and deaths.",
+      "repository": "State Historical Society of Missouri; Missouri Baptist Historical Commission; individual church holdings",
+      "era_coverage": "1840s-present",
+      "genealogical_value": "Variable but potentially the only source for vital events in the most isolated communities. Church records may predate the 1860 courthouse fire.",
+      "source": "Missouri Baptist Historical Commission records."
+    },
+    {
+      "source_type": "Family Bible records and cemetery transcriptions",
+      "description": "In a county with catastrophic record loss, family Bibles and cemetery stones may be the only documentation of vital events. Cemetery transcription projects by the Texas County Genealogical and Historical Society have documented many of the county's small family cemeteries.",
+      "repository": "Texas County Genealogical and Historical Society; FamilySearch user-submitted records",
+      "era_coverage": "1840s-present",
+      "genealogical_value": "Essential. In a county with twenty years of record silence, a family Bible that records births and deaths is irreplaceable.",
+      "source": "Texas County Genealogical and Historical Society publications."
+    }
+  ],
+  "narrative_hooks": [
+    "Texas County lost its records twice — the courthouse fire in 1860 destroyed the first fifteen years, and the Civil War silenced the next five. If {ancestor_name} was in the county before 1865, the official record is nearly empty.",
+    "A family Bible in Texas County is worth more than a courthouse — if {ancestor_name}'s family recorded births and deaths in the Bible's front pages, that handwritten page may be the only evidence the county's records cannot provide.",
+    "The census taker who rode into the Jacks Fork valley in 1850 documented families the courthouse fire would erase ten years later — the federal census may be the only proof {ancestor_name} existed.",
+    "Vital records in Texas County were a polite fiction — the state required registration from 1883, but in a county where the nearest registrar was a day's ride, births and deaths happened without the government knowing."
+  ],
+  "source_references": [
+    "Missouri State Archives. Guide to County Records on Microfilm: Texas County.",
+    "Texas County Genealogical and Historical Society. Cemetery transcription publications.",
+    "Works Progress Administration. Historical Records Survey: Missouri County Records. Jefferson City, 1937-1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "mo_texas",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

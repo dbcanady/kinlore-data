@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Union County, SC. Record survival, courthouse history, and known losses.",
+  "courthouse_atlas_id": "sc_union_courthouse",
+  "display_name": "Union County, South Carolina — Courthouse Atlas",
+  "county": "Union",
+  "state": "SC",
+  "fips_code": "45087",
+  "cluster_ref": "sc_piedmont_upcountry",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1911,
+      "location": "Union, SC — 210 W. Main Street",
+      "records_housed": ["deeds", "plats", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1785–1823",
+        "location": "Union (formerly Unionville), courthouse square",
+        "fate": "Early log and frame courthouse. Union County was formed from the old Ninety Six District."
+      },
+      {
+        "era": "1823–1911",
+        "location": "Union, courthouse square",
+        "fate": "Brick courthouse. Survived the Civil War and Reconstruction without destruction. Served nearly ninety years before replacement."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "union_minor_losses",
+      "date": null,
+      "cause": "Minor water damage and deterioration over time — no catastrophic event",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage bonds/licenses", "estate files"],
+      "scope": "minimal",
+      "description": "Union County's courthouse survived the Civil War and Reconstruction without major damage. No catastrophic fire has occurred. Some early records show age-related deterioration, and loose papers from the eighteenth century are fragmentary. The Ninety Six District records cover the pre-1785 period. Union County's records are generally well-preserved for the Upcountry.",
+      "narrative_impact": "If {ancestor_name} lived in Union County after 1785, the records are likely intact. The county's Reconstruction-era violence — KKK activity, political murders — generated federal court records that supplement the county records with testimony and detail the county records never captured.",
+      "source": "SC Department of Archives and History. Guide to County Records in the South Carolina State Archives."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1785,
+      "completeness": "Good — continuous from county formation",
+      "gaps": "No significant gaps. Ninety Six District records cover pre-1785.",
+      "repository": "Union County Register of Deeds; SC Department of Archives and History microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com SC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1787,
+      "completeness": "Good — from near-formation",
+      "gaps": "Some early loose papers are fragmentary.",
+      "repository": "Union County Probate Court; SC Department of Archives and History",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1785,
+      "completeness": "Good — marriage bonds from formation. Licenses required statewide 1911.",
+      "gaps": "Pre-1911 coverage through bonds and church records.",
+      "repository": "Union County Probate Court; SC Department of Archives and History",
+      "online_access": "FamilySearch; Ancestry.com SC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1786,
+      "completeness": "Good — continuous from near-formation",
+      "gaps": "Minor gaps in earliest volumes.",
+      "repository": "SC Department of Archives and History; Union County Clerk of Court",
+      "online_access": "SC Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1915,
+      "death_registration_start": 1915,
+      "completeness": "Spotty until approximately 1920.",
+      "repository": "SC DHEC; SC Department of Archives and History"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Ninety Six District records",
+      "description": "Union County was part of the old Ninety Six District before 1785. District records cover the pre-county period for the Broad River area.",
+      "repository": "SC Department of Archives and History",
+      "era_coverage": "1769–1785",
+      "genealogical_value": "Essential for pre-1785 families in the Union County area.",
+      "source": "SC Department of Archives and History."
+    },
+    {
+      "source_type": "Federal Ku Klux Klan trial records",
+      "description": "Union County experienced significant KKK violence during Reconstruction. Federal trial records and the Joint Select Committee hearings (1871–1872) include testimony from Union County victims and perpetrators.",
+      "repository": "National Archives and Records Administration; published in KKK Testimony (13 vols., 1872)",
+      "era_coverage": "1868–1872",
+      "genealogical_value": "Valuable for documenting both Black victims and white perpetrators. Testimony names individuals and describes events in detail not available from county records.",
+      "source": "Joint Select Committee to Inquire into the Condition of Affairs in the Late Insurrectionary States. Testimony. 13 vols. Washington, DC, 1872."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790–1940. Union County enumerated from the first federal census.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790–1940",
+      "genealogical_value": "Essential baseline. Agricultural schedules (1850–1880) are useful for understanding the cotton economy's decline.",
+      "source": "National Archives and Records Administration."
+    }
+  ],
+  "narrative_hooks": [
+    "Union County's records run unbroken from 1785, but the deepest testimony about Reconstruction-era life comes from the federal KKK trial records — sworn depositions that name names and describe violence the county records passed over in silence.",
+    "Before 1785, Union County was part of the Ninety Six District, and {ancestor_name}'s earliest records are under that jurisdiction at the SC Archives.",
+    "If {ancestor_name} lost land to the federal government for the Sumter National Forest in the 1930s, the condemnation records document the sale — and the price paid for three generations of family ground.",
+    "South Carolina's lack of marriage licenses before 1911 and vital records before 1915 means that for {ancestor_name}, church records and family Bibles are the primary evidence of births, marriages, and deaths."
+  ],
+  "source_references": [
+    "SC Department of Archives and History. Guide to County Records in the South Carolina State Archives.",
+    "Joint Select Committee to Inquire into the Condition of Affairs in the Late Insurrectionary States. Testimony. 13 vols. Washington, DC, 1872.",
+    "Works Progress Administration. Historical Records Survey: South Carolina County Records. Columbia, 1937–1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "sc_union",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

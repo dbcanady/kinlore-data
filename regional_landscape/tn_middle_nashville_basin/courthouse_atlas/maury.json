@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Maury County, TN. Formed 1807. No major courthouse fire; records survive from formation. Excellent early records reflecting the county's antebellum wealth.",
+  "courthouse_atlas_id": "tn_maury_courthouse",
+  "display_name": "Maury County, Tennessee — Courthouse Atlas",
+  "county": "Maury",
+  "state": "TN",
+  "fips_code": "47119",
+  "cluster_ref": "tn_middle_nashville_basin",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1904,
+      "location": "Columbia, TN — Public Square",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1807-1835",
+        "location": "Columbia, town center",
+        "fate": "Early frame and then brick courthouse. Replaced as the county's prosperity demanded a more substantial building."
+      },
+      {
+        "era": "1835-1904",
+        "location": "Columbia, Public Square",
+        "fate": "Substantial brick courthouse reflecting the county's antebellum wealth. Survived the Civil War. Replaced by the current 1904 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "maury_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire or destruction",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1807", "will books", "court minutes", "marriage bonds/licenses", "estate files", "tax records"],
+      "scope": "none",
+      "description": "Maury County's courthouse has not suffered a major fire, and the Civil War — though devastating to the county's economy and population — did not result in record destruction. The county's antebellum wealth ensured meticulous record-keeping, particularly in estate records where enslaved people were documented as property. The Spring Hill-Franklin-Nashville corridor saw heavy military activity in late 1864, but Columbia was not the site of a major engagement. Records run continuously from the 1807 formation.",
+      "narrative_impact": "Maury County's records survive intact from 1807 — if {ancestor_name} lived here, the documentary trail is as complete as Tennessee offers. The county's wealth meant that property transfers, estate settlements, and court proceedings were carefully recorded.",
+      "source": "Tennessee State Library and Archives. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1807,
+      "completeness": "Excellent — continuous series from formation",
+      "gaps": "No significant gaps. Maury County's deed records are particularly valuable for documenting the plantation economy.",
+      "repository": "Maury County Register of Deeds; Tennessee State Library and Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com Tennessee land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1808,
+      "completeness": "Excellent — estate records reflect the county's plantation wealth in detail",
+      "gaps": "Minor gaps in the earliest loose papers. Bound volumes complete. Estate inventories frequently list enslaved people by name, age, and sometimes family relationship.",
+      "repository": "Maury County Probate Court; Tennessee State Library and Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1808,
+      "completeness": "Good — marriage bonds from formation; licenses from 1838",
+      "gaps": "Some gaps in the earliest bond records.",
+      "repository": "Maury County Clerk; Tennessee State Library and Archives",
+      "online_access": "FamilySearch; Ancestry.com Tennessee marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1808,
+      "completeness": "Good — continuous series with minor wartime disruption",
+      "gaps": "Some disruption during Civil War years reflecting government interruption.",
+      "repository": "Tennessee State Library and Archives",
+      "online_access": "TSLA microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Standard Tennessee pattern.",
+      "repository": "Tennessee Department of Health"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Phosphate mining company records",
+      "description": "Phosphate mining companies operating in Maury County (1890s-1940s) maintained employment records, payroll ledgers, and accident reports. Where these records survive, they document workers — predominantly Black men — who might appear nowhere else in the county records.",
+      "repository": "Tennessee State Library and Archives; limited company archives; some at University of Tennessee Special Collections",
+      "era_coverage": "1890s-1940s",
+      "genealogical_value": "Potentially valuable for identifying Black workers in the phosphate industry. Mining company payrolls may be the only record of some workers' presence in the county between census years.",
+      "source": "Hayes, C. Willard. 'The Tennessee Phosphates.' USGS Twenty-Second Annual Report, 1902."
+    },
+    {
+      "source_type": "Columbia Race Riot investigation records (1946)",
+      "description": "The investigation and trial records from the 1946 Columbia Race Riot document names, addresses, and relationships within the Black community. The NAACP defense records (Thurgood Marshall's files) are also relevant.",
+      "repository": "Tennessee State Library and Archives; NAACP Papers at Library of Congress; National Archives",
+      "era_coverage": "1946-1948",
+      "genealogical_value": "The arrest records, trial transcripts, and newspaper coverage document the Black community in Columbia in extraordinary detail — names, occupations, addresses, and family relationships of over 100 individuals.",
+      "source": "Egerton, John. Speak Now Against the Day. Knopf, 1994."
+    },
+    {
+      "source_type": "Church records and cemetery transcriptions",
+      "description": "Maury County's churches (Presbyterian, Methodist, Baptist, and after 1865, Black Baptist and AME) maintained records. Cemetery transcriptions by the Maury County Historical Society provide death dates and family relationships.",
+      "repository": "Individual congregations; Maury County Historical Society; Tennessee State Library and Archives",
+      "era_coverage": "1810s-present",
+      "genealogical_value": "Supplement civil records for vital events before 1908.",
+      "source": "Tennessee State Library and Archives. Guide to Church Records."
+    }
+  ],
+  "narrative_hooks": [
+    "Maury County's records survive intact from 1807 — {ancestor_name}'s property transactions, estate settlements, and court appearances are almost certainly documented in unbroken series.",
+    "If {ancestor_name} was enslaved in Maury County, the estate inventories may list {pronoun_object} by name — Maury County's wealthy planters died with detailed inventories of everything they owned, including the people they held in bondage.",
+    "The Columbia Race Riot of 1946 generated arrest records that document Black community members by name, address, and occupation — if {ancestor_name}'s family was in Columbia in 1946, the riot records may be the most detailed snapshot of the Black community that exists.",
+    "If {ancestor_name} worked the phosphate mines, the company payroll may be the only record of {pronoun_possessive} existence between census years — the mines kept books, even when the county did not."
+  ],
+  "source_references": [
+    "Tennessee State Library and Archives. Guide to County Records in the Tennessee State Library and Archives. Nashville: TSLA.",
+    "Hayes, C. Willard. 'The Tennessee Phosphates.' Twenty-Second Annual Report USGS, 1902.",
+    "Egerton, John. Speak Now Against the Day. New York: Alfred A. Knopf, 1994."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "tn_maury",
+    "research_guidance_refs": ["census_gaps", "vital_records", "property_records"],
+    "template_refs": ["record_silences"]
+  }
+}

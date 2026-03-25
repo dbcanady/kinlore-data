@@ -1,0 +1,56 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Clarke County, GA. Record survival, courthouse history. Clarke County, formed 1801, is the seat of Athens and the University of Georgia. Records are generally complete, with the added resource of university archives and the Hargrett Rare Book and Manuscript Library.",
+  "courthouse_atlas_id": "ga_clarke_courthouse",
+  "display_name": "Clarke County, Georgia — Courthouse Atlas",
+  "county": "Clarke",
+  "state": "GA",
+  "fips_code": "13059",
+  "cluster_ref": "ga_piedmont_cotton_belt",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1914, "location": "Athens, GA", "records_housed": ["deeds", "marriage licenses", "probate records", "court minutes"] },
+    "previous_courthouses": [
+      { "era": "1801-1914", "location": "Athens, GA", "fate": "Several courthouses served the county. Athens was not destroyed during the Civil War. No major fire damage to records." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "clarke_no_major_loss", "date": null, "cause": "No major fire or war damage",
+      "records_destroyed": [], "records_survived": ["deed books from 1801", "will books", "court minutes", "marriage records"],
+      "scope": "none",
+      "description": "Clarke County records survive from the county's 1801 formation. Athens was not destroyed during the Civil War, and the courthouse has not suffered significant fire damage.",
+      "narrative_impact": "{ancestor_name}'s Clarke County records likely survive from the county's formation. Athens's university resources — particularly the Hargrett Library — provide additional documentation not available in most county seats.",
+      "source": "GA Department of Archives and History. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1801, "completeness": "Good from formation", "gaps": "No major gaps", "repository": "Clarke County Clerk of Superior Court; GA Archives microfilm", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1802, "completeness": "Good", "gaps": "No major gaps", "repository": "Clarke County Probate Court; GA Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1805, "completeness": "Good from early 1800s", "gaps": "Minor early gaps", "repository": "Clarke County Probate Court", "online_access": "FamilySearch; Ancestry.com" },
+    "court_minutes": { "earliest_surviving": 1801, "completeness": "Good", "gaps": "No major gaps", "repository": "Clarke County Clerk of Superior Court", "online_access": "Limited digitization" },
+    "vital_records": { "birth_registration_start": 1919, "death_registration_start": 1919, "completeness": "Spotty until mid-1920s", "repository": "GA Department of Public Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "University of Georgia archives — Hargrett Rare Book and Manuscript Library", "description": "The Hargrett Library holds extensive manuscript collections related to Georgia Piedmont families, including plantation papers, personal correspondence, business records, and the papers of the university's founders and early faculty. These collections document elite Clarke County families in extraordinary detail.", "repository": "Hargrett Rare Book and Manuscript Library, University of Georgia, Athens", "era_coverage": "1785-present", "genealogical_value": "Exceptional for elite and professional families connected to the university. Plantation papers document both slaveholding families and enslaved communities. Faculty papers include correspondence with families across the Piedmont.", "source": "Hargrett Library finding aids, University of Georgia." },
+    { "source_type": "Georgia Factory records", "description": "The Georgia Factory, established 1833 on the North Oconee, was one of Georgia's earliest cotton mills. Where factory records survive, they document workers and operations.", "repository": "Hargrett Library; GA Archives (fragmentary)", "era_coverage": "1833-1880s", "genealogical_value": "Valuable for identifying early industrial workers in Athens — both free white operatives and enslaved laborers.", "source": "Thomas, A Portrait of Historic Athens and Clarke County (1992)." },
+    { "source_type": "Federal census schedules", "description": "Population schedules 1810-1940. Slave schedules 1850-1860.", "repository": "National Archives; FamilySearch; Ancestry.com", "era_coverage": "1810-1940", "genealogical_value": "Essential. Census records capture both the university community and the surrounding agricultural population.", "source": "National Archives and Records Administration." }
+  ],
+  "narrative_hooks": [
+    "Clarke County's courthouse records survive from 1801, and the University of Georgia's Hargrett Library adds a second archive that most county seats cannot match — {ancestor_name} may appear in university manuscript collections as well as courthouse records.",
+    "If {ancestor_name} worked at the Georgia Factory in Athens, {pronoun_subject} was part of one of the earliest cotton mills in the state — and the records may survive at the university archive.",
+    "Athens survived the Civil War — the university, the factory, the town, and the courthouse records all came through intact, making Clarke County one of the best-documented in the cluster.",
+    "Georgia vital registration began in 1919. For Clarke County before that date, church records and the university community's unusually detailed correspondence are the best substitutes."
+  ],
+  "source_references": [
+    "GA Department of Archives and History. Guide to County Records.",
+    "Thomas, Frances Taliaferro. A Portrait of Historic Athens and Clarke County. University of Georgia Press, 1992.",
+    "Hargrett Rare Book and Manuscript Library finding aids, University of Georgia.",
+    "Works Progress Administration. Historical Records Survey: Georgia. Atlanta, 1937-1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ga_clarke",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

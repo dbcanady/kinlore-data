@@ -1,0 +1,58 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Berrien County, GA. Record survival, courthouse history, and known losses. Berrien County, formed 1856 from Coffee, Irwin, and Lowndes counties. Nashville as county seat. No major courthouse fire but early records are thin due to the county's extreme rural character and sparse population.",
+  "courthouse_atlas_id": "ga_berrien_courthouse",
+  "display_name": "Berrien County, Georgia — Courthouse Atlas",
+  "county": "Berrien",
+  "state": "GA",
+  "fips_code": "13019",
+  "cluster_ref": "ga_wiregrass_coastal_plain",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1897, "location": "Nashville, GA — courthouse square (renovated 1950s)", "records_housed": ["deeds", "marriage licenses", "probate records", "court minutes"] },
+    "previous_courthouses": [
+      { "era": "1856-1897", "location": "Nashville, GA — original frame courthouse", "fate": "Replaced by current courthouse. Records transferred." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "berrien_thin_early_records",
+      "date": null,
+      "cause": "Sparse frontier population and limited record-keeping capacity",
+      "records_destroyed": [],
+      "records_survived": ["Deed books from 1856", "Marriage records from 1858", "Probate records", "Court minutes"],
+      "scope": "minimal",
+      "description": "Berrien County's early records survive but are thin — the county was so sparsely populated and so remote that the volume of legal transactions was small. The courthouse had no full-time clerk for much of the antebellum period. Records are present but brief: deed descriptions are minimal, court minutes are sparse, and marriage records show the basic information without elaboration. This is not record loss — it is the documentary footprint of a county that had very few people and very little commerce.",
+      "narrative_impact": "If {ancestor_name} was in Berrien County before 1890, the records exist but are sparse. The genealogist should expect brief entries, inconsistent indexing, and long gaps between recorded transactions — not because records were lost but because there were so few people generating records.",
+      "source": "GA Department of Archives and History. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1856, "completeness": "Present but thin before 1890. Fuller from the 1890s when the railroad and population growth increased transaction volume.", "gaps": "No physical gaps; low volume in early decades.", "repository": "Berrien County Clerk of Superior Court; GA Archives microfilm", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1857, "completeness": "Present but few estates recorded before 1880. Wiregrass families had little property to probate.", "gaps": "Low volume, not loss.", "repository": "Berrien County Probate Court; GA Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1858, "completeness": "Fair from 1858. Some marriages likely went unrecorded — the county seat was too remote for many families to reach for a marriage license.", "gaps": "Underregistration in outlying areas.", "repository": "Berrien County Probate Court", "online_access": "FamilySearch; Ancestry.com GA marriages" },
+    "court_minutes": { "earliest_surviving": 1856, "completeness": "Present but thin. Court sessions were infrequent and business was minimal.", "gaps": "No physical gaps.", "repository": "Berrien County Clerk of Superior Court; GA Archives", "online_access": "GA Archives microfilm" },
+    "vital_records": { "birth_registration_start": 1919, "death_registration_start": 1919, "completeness": "Spotty until 1930s. Berrien County's remote rural population was among the last in Georgia to comply with vital registration requirements.", "repository": "GA Department of Public Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "Huxford's Pioneers of Wiregrass Georgia", "description": "Huxford documented Berrien County families extensively. For this county, Huxford's work may contain more biographical detail than the courthouse records themselves, because he drew on family interviews and personal papers that are not in the public record.", "repository": "Major Georgia libraries; Huxford Genealogical Society", "era_coverage": "1856-1920", "genealogical_value": "Often the most detailed source for Berrien County families. Particularly valuable for families that never appeared in court records because they had no property disputes, no estates to settle, and no marriages recorded at the courthouse.", "source": "Huxford, Pioneers of Wiregrass Georgia." },
+    { "source_type": "Tax digests", "description": "Annual tax digests listing all taxable property and taxpayers. Filed at the county level and at the GA Archives.", "repository": "Berrien County Tax Commissioner; GA Archives", "era_coverage": "1856-present", "genealogical_value": "The most reliable annual record for placing families in Berrien County. Tax digests name every taxpayer and list their property, providing a year-by-year census of the county's population that is more complete than the decennial federal census.", "source": "GA Department of Archives and History." },
+    { "source_type": "Federal census schedules", "description": "Population schedules 1860-1940.", "repository": "National Archives; FamilySearch; Ancestry.com", "era_coverage": "1860-1940", "genealogical_value": "The federal census is critical for Berrien County because local records are so thin. The 1860 census is the first to enumerate Berrien County as a separate entity.", "source": "National Archives and Records Administration." }
+  ],
+  "narrative_hooks": [
+    "Berrien County's courthouse records survive but they are the records of a frontier — thin, brief, and infrequent, because {ancestor_name} lived in a county so remote that a trip to the courthouse in Nashville was a full day's journey.",
+    "Huxford's Pioneers of Wiregrass Georgia may contain more about {ancestor_name}'s family than the courthouse does — Huxford interviewed descendants and collected family papers that the sparse county records never captured.",
+    "The tax digests are the backbone of Berrien County genealogy — if {ancestor_name} paid taxes, the digest places the family in the county year by year, a more reliable record than the courthouse's thin deed and marriage books.",
+    "Berrien County's vital records compliance was among the last in Georgia — if {ancestor_name} was born or died in rural Berrien before the 1930s, the birth or death may simply not have been officially recorded."
+  ],
+  "source_references": [
+    "GA Department of Archives and History. Guide to County Records.",
+    "Huxford, Folks. Pioneers of Wiregrass Georgia. 10 vols.",
+    "Works Progress Administration. Historical Records Survey: Georgia. Atlanta, 1937-1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ga_berrien",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

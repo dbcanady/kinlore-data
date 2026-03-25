@@ -1,0 +1,191 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Micro-Migration Network Map for the PA Western Frontier cluster. Documents migration corridors, chain-migration mechanics, and settlement patterns that moved people into, out of, and within this eight-county region from 1758 to 1960. The distinctive feature is the massive Southern and Eastern European immigration wave (1880-1920) that transformed the region from a Scots-Irish frontier into the most ethnically diverse industrial corridor in America.",
+  "migration_network_id": "pa_western_frontier_migration_networks",
+  "display_name": "PA Western Frontier — Micro-Migration Network Map",
+  "cluster_ref": "pa_western_frontier",
+  "era_range": "1758-1960",
+  "migration_corridors": [
+    {
+      "corridor_id": "scots_irish_frontier_settlement",
+      "corridor_name": "Scots-Irish and German Frontier Settlement via Forbes Road",
+      "origin_counties": ["Cumberland (PA)", "Lancaster (PA)", "York (PA)", "Augusta (VA)", "Rockbridge (VA)", "Frederick (MD)"],
+      "destination_area": "Westmoreland, Fayette, Washington, Allegheny, Greene — the entire western frontier",
+      "era": "1758-1810",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of families over two generations. The Scots-Irish were the dominant ethnic group in the initial settlement. German families were a significant secondary stream.",
+      "evidence": {
+        "census_evidence": "The 1790 federal census for western PA counties shows household heads with characteristic Scots-Irish surnames: McConnell, McCullough, Craig, Crawford, Irwin, Stewart. Many appear in Cumberland County records a generation earlier.",
+        "church_evidence": "Presbyterian church records track families from eastern PA and Virginia congregations to western PA settlements. Session minutes document letters of transfer.",
+        "surname_clustering": "Scots-Irish surnames — McConnell, McCullough, Craig, Crawford, Irwin, Stewart, McKee — dominate the early records of every county in the cluster."
+      },
+      "chain_mechanics": {
+        "description": "Forbes Road was the highway. Families moved in kinship clusters — brothers, cousins, church neighbors settling together. The pattern was identical to the Great Wagon Road settlement of the Carolinas, and many western PA families had kin in the Shenandoah Valley or the Carolina Piedmont.",
+        "kinship_role": "Kinship was the primary mechanism. Presbyterian church connections reinforced family ties. A man who had served in Forbes's army in 1758 might return with his family in 1770, having seen the land and identified claims.",
+        "timeline": "First wave 1758-1770 (after French and Indian War). Second wave 1770-1790 (post-Revolution). Third wave 1790-1810 (filling in remaining land)."
+      },
+      "narrative_hook": "Forbes Road brought {ancestor_name}'s people across the Alleghenies — not as a lone family but as part of a Scots-Irish kinship network, Presbyterians who had crossed the ocean from Ulster and were crossing the mountains for the same reason: land.",
+      "source": "Buck, Planting of Civilization (1939). Fischer, Albion's Seed (1989)."
+    },
+    {
+      "corridor_id": "southern_eastern_european_immigration",
+      "corridor_name": "Southern and Eastern European Immigration to the Steel-and-Coke Corridor",
+      "origin_counties": ["Villages in Slovakia (Upper Hungary), southern Italy (Calabria, Sicily, Abruzzi), Poland (Galicia, Russian Poland), Croatia, Hungary, Lithuania, Serbia, Greece, Ukraine"],
+      "destination_area": "Allegheny County (Pittsburgh steel mills), Fayette County (Connellsville coke region), Westmoreland County (coal and coke), Beaver County (Aliquippa, glass), Lawrence County (New Castle tin plate and glass), Washington County (Monongahela valley mills)",
+      "era": "1880-1920",
+      "migration_type": "chain_migration",
+      "scale": "Hundreds of thousands. Between 1880 and 1920, western PA received one of the largest concentrations of Southern and Eastern European immigrants in America. By 1910, foreign-born and first-generation Americans constituted the majority of the industrial workforce.",
+      "evidence": {
+        "census_evidence": "1900-1920 federal census for mill towns and coke patches shows overwhelming concentrations of foreign-born workers from Slovakia, Italy, Poland, Croatia, Hungary. Birthplace data in the census identifies specific regions of origin.",
+        "church_evidence": "Ethnic parish records — Slovak Catholic, Polish Catholic, Italian Catholic, Croatian Catholic, Serbian Orthodox, Byzantine Catholic, Greek Orthodox — document arrivals, marriages, baptisms, and deaths with village-of-origin data that civil records lack.",
+        "surname_clustering": "Ethnic surname clusters map to specific mill towns and coke patches: Slovak names (Kovac, Horvath, Novak) cluster in steel towns; Italian names (Rossi, Lombardi, Ferrara) cluster in coke patches and mill neighborhoods; Polish names (Kowalski, Nowak, Wisniewski) in coal towns."
+      },
+      "chain_mechanics": {
+        "description": "Chain migration from specific Old World villages to specific New World mill towns. A single man came first, found work, and sent word (and steamship tickets) back to the village. The village network funneled subsequent migrants to the same mill town, creating concentrations of families from the same European village in the same American company patch. Padrone (labor broker) systems also recruited workers, particularly among Italians. The chain was reinforced by ethnic parishes that served as social and institutional anchors.",
+        "kinship_role": "Village-level kinship was paramount. A man from Zemplen County, Slovakia, went to the same Homestead address where his cousin had gone. An Italian from Calabria went to the same coke patch in Fayette County where his paesano had preceded him. The chain was geographic, familial, and religious simultaneously.",
+        "timeline": "Trickle 1880-1890; first wave 1890-1900; peak 1900-1914 (cut off by WWI); reduced flow 1918-1924 (quota laws). The Immigration Acts of 1921 and 1924 ended the mass migration."
+      },
+      "narrative_hook": "When {ancestor_name} arrived in Pittsburgh from {village}, {pronoun_subject} followed a chain of kin and paesani that connected a specific Slovak village to a specific South Side street — the path was marked by cousins, and the destination was the mill where the cousin already worked.",
+      "source": "Bodnar, Immigration and Industrialization (1977). Stolarik, Growing Up on the South Side (1985). Briggs, John W. An Italian Passage: Immigrants to Three American Cities, 1890–1930. Yale University Press, 1978."
+    },
+    {
+      "corridor_id": "black_great_migration",
+      "corridor_name": "Black Great Migration to Pittsburgh",
+      "origin_counties": ["Counties in Virginia, North Carolina, South Carolina, Georgia, Alabama, Mississippi — via railroad through Washington DC or directly to Pittsburgh"],
+      "destination_area": "Allegheny County — Pittsburgh's Hill District, Homewood, East Liberty; secondarily to Beaver County mill towns",
+      "era": "1916-1960",
+      "migration_type": "chain_migration",
+      "scale": "Tens of thousands. Pittsburgh's Black population grew from approximately 25,000 in 1910 to over 100,000 by 1950. The Hill District became the center of Black cultural life in western PA.",
+      "evidence": {
+        "census_evidence": "1920-1960 census for Pittsburgh shows dramatic increase in Southern-born Black residents. Birthplace data identifies specific states of origin — Virginia and the Carolinas were the dominant feeders.",
+        "church_evidence": "Black Baptist and AME churches in Pittsburgh's Hill District show 'received by letter' entries from Southern congregations. Church transfer records track migration chains."
+      },
+      "chain_mechanics": {
+        "description": "Railroad connections — particularly the Pennsylvania Railroad and the B&O — brought Southern Black workers to Pittsburgh. The chain followed church and kinship networks. A man found work at a steel mill, secured housing in the Hill District or Homewood, and sent word back. The Pittsburgh Courier (Black newspaper) carried employment advertisements and community news that reached Southern readers. The push was Southern racial violence and economic exclusion; the pull was wartime industrial employment.",
+        "kinship_role": "Church connections were as important as blood kinship. Baptist and AME congregations channeled migrants to specific Pittsburgh neighborhoods and specific mills.",
+        "timeline": "Trickle before 1916; first wave 1917-1920 (WWI); sustained 1920-1940; second wave 1942-1955 (WWII)."
+      },
+      "narrative_hook": "When {ancestor_name} boarded the train heading north to Pittsburgh in {year}, {pronoun_subject} was following a chain marked by kin and church — a cousin in the Hill District, a deacon who knew where the mills were hiring, and the Pittsburgh Courier that said the North needed hands.",
+      "source": "Gottlieb, Peter. Making Their Own Way: Southern Blacks' Migration to Pittsburgh, 1916–1930. Urbana: University of Illinois Press, 1987. Trotter, Joe William. River Jordan: African American Urban Life in the Ohio Valley. Lexington: University Press of Kentucky, 1998."
+    },
+    {
+      "corridor_id": "westward_through_pittsburgh",
+      "corridor_name": "Westward Migration Through Pittsburgh — Gateway to the West",
+      "origin_counties": ["Eastern PA, New England, Virginia, Maryland — families passing through"],
+      "destination_area": "Ohio, Indiana, Illinois, Kentucky — via the Ohio River from Pittsburgh",
+      "era": "1770-1850",
+      "migration_type": "through_migration",
+      "scale": "Tens of thousands of families. Pittsburgh was the embarkation point for westward migration via the Ohio River. Many families stopped briefly in western PA before continuing west; some decided to stay.",
+      "evidence": {
+        "census_evidence": "The population of Ohio Valley counties grew explosively in the early 1800s, with many settlers listing PA birthplaces in census records.",
+        "church_evidence": "Church transfer records track families from western PA congregations to Ohio and Indiana congregations."
+      },
+      "chain_mechanics": {
+        "description": "Pittsburgh was the funnel. Families arriving from the East waited at Pittsburgh to build or purchase flatboats, then floated down the Ohio to their destination. The waiting period could be weeks — and during that time, some families decided the Pittsburgh area itself was their destination. The through-migration created commercial opportunity: boat builders, outfitters, tavern keepers, and suppliers in Pittsburgh all profited from the traffic.",
+        "kinship_role": "Less kinship-driven than other corridors. This was a national migration stream, not a local chain. But families from the same eastern community often traveled together.",
+        "timeline": "Peak 1790-1830. Declining after canal and railroad made direct routes available."
+      },
+      "narrative_hook": "{ancestor_name} came to Pittsburgh intending to go west — but the city at the forks of the Ohio was opportunity enough, and the flatboat that should have carried the family to Cincinnati was never built.",
+      "source": "Buck, Planting of Civilization (1939). Lorant, Pittsburgh (1999)."
+    },
+    {
+      "corridor_id": "appalachian_to_pittsburgh",
+      "corridor_name": "Appalachian Migration to Pittsburgh Industrial Corridor",
+      "origin_counties": ["West Virginia mountain counties, southwestern PA farm communities, Kentucky and Virginia mountain counties"],
+      "destination_area": "Allegheny County steel mills, Fayette and Westmoreland coal mines, Beaver County mills",
+      "era": "1900-1960",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of families. Appalachian workers from West Virginia and the surrounding rural counties moved to Pittsburgh-area mills and mines as farm income declined.",
+      "evidence": {
+        "census_evidence": "1920-1960 census for Pittsburgh-area mill towns shows West Virginia-born household heads in working-class neighborhoods.",
+        "church_evidence": "Baptist and Church of God congregations in mill towns established by Appalachian migrants."
+      },
+      "chain_mechanics": {
+        "description": "The pattern was identical to the mountain-to-mill pipeline in the Carolinas: farming declined, logging collapsed, and the mills paid cash. Kinship networks channeled Appalachian migrants to specific mill towns where kin had already established a foothold.",
+        "kinship_role": "Extended family networks were the primary mechanism. Dense intermarriage in Appalachian communities meant one family's relocation eventually pulled an entire network.",
+        "timeline": "Steady flow 1900-1960. Accelerating during Depression and WWII."
+      },
+      "narrative_hook": "The West Virginia hills stopped feeding {ancestor_name}'s family, and the Pittsburgh mills started — the transition was measured in miles, not culture, because the Appalachian settlement in the mill town kept the old ways alive in a new landscape.",
+      "source": "Eller, Ronald D. Miners, Millhands, and Mountaineers. University of Tennessee Press, 1982."
+    }
+  ],
+  "internal_movement_patterns": [
+    {
+      "pattern_id": "mill_to_mill_movement",
+      "pattern_name": "Movement Between Mill Towns and Coke Patches",
+      "description": "Workers moved frequently between mill towns and coke patches within the cluster — chasing better wages, escaping dangerous conditions, or following rumors of hiring. The dense industrial network of western PA meant a worker could change employers without leaving the region. Movement between Fayette coke patches, Allegheny steel mills, and Beaver glass factories was common.",
+      "era": "1880-1960",
+      "counties_affected": ["Allegheny", "Fayette", "Westmoreland", "Beaver", "Washington", "Lawrence"],
+      "narrative_hook": "{ancestor_name} worked at three different mills in five years — not because the family was unstable, but because the mills competed for labor and a man who heard about better pay in Aliquippa would leave Homestead before the next shift."
+    },
+    {
+      "pattern_id": "farm_to_industry_within_cluster",
+      "pattern_name": "Farm-to-Industry Within the Cluster",
+      "description": "The most common short-distance migration: farm families in Washington, Greene, Butler, and the rural portions of Westmoreland leaving agriculture for industrial employment in the Pittsburgh corridor. A Washington County farmer's son might walk to a Monongahela valley coal mine; a Butler County farm daughter might find domestic work in a Pittsburgh household.",
+      "era": "1870-1940",
+      "counties_affected": ["Washington", "Greene", "Butler", "Westmoreland"],
+      "narrative_hook": "The farm was twenty miles from the mill, but the distance between those two worlds was measured in centuries — {ancestor_name} crossed from agricultural time to industrial time in a single generation."
+    }
+  ],
+  "settlement_clusters": [
+    {
+      "cluster_name": "Pittsburgh South Side / South Slopes ethnic neighborhoods",
+      "counties": ["Allegheny"],
+      "description": "The South Side and South Slopes of Pittsburgh were a vertical city of ethnic neighborhoods stacked on hillsides above the Jones & Laughlin and other steel works. Slovak, Croatian, Polish, Lithuanian, and Serbian neighborhoods were marked by their parish churches. Each ethnic group occupied specific streets and blocks.",
+      "era": "1880-1960"
+    },
+    {
+      "cluster_name": "Connellsville coke region patch towns",
+      "counties": ["Fayette", "Westmoreland"],
+      "description": "Dozens of company patches along the Youghiogheny valley — Leisenring, Trotter, Moyer, Adelaide, Jimtown — each a cluster of identical frame houses for mine and coke workers. The patches were organized by ethnicity: Slovak patches, Italian patches, Polish patches.",
+      "era": "1880-1930"
+    },
+    {
+      "cluster_name": "Aliquippa ethnic plans",
+      "counties": ["Beaver"],
+      "description": "Jones & Laughlin's company town at Aliquippa was divided into numbered 'plans' — Plan 6 for Serbians, Plan 11 for Italians, Plan 12 for Black workers. Each plan was a self-contained ethnic neighborhood with its own church, stores, and social hierarchy.",
+      "era": "1907-1960"
+    },
+    {
+      "cluster_name": "Hill District, Pittsburgh",
+      "counties": ["Allegheny"],
+      "description": "Pittsburgh's Hill District was the center of Black cultural life in western PA — jazz clubs, the Pittsburgh Courier newspaper, churches, and a vibrant community that was also overcrowded, underserved, and largely destroyed by urban renewal in the 1950s-1960s.",
+      "era": "1916-1960"
+    }
+  ],
+  "narrative_hooks": [
+    "The chain from the Old World village to the New World mill town was marked by kin — {ancestor_name} followed a cousin to a specific street in a specific neighborhood where the language, the church, and the food were all from home.",
+    "Pittsburgh was the Gateway to the West — {ancestor_name} may have come intending to continue down the Ohio, but the forks of the rivers were opportunity enough.",
+    "The ethnic neighborhood was a transplanted village — {ancestor_name}'s parish, lodge, and street were all from the same corner of Slovakia or Italy, and the mill whistle was the only American sound.",
+    "The Great Migration brought {ancestor_name} north to Pittsburgh's Hill District, where the jazz clubs and the Pittsburgh Courier made the neighborhood feel like the capital of Black America — until urban renewal tore it down.",
+    "Western PA's industrial corridor was the most ethnically diverse place in America — {ancestor_name}'s neighbors spoke twelve languages, worshipped in five rites, and all worked the same twelve-hour shift."
+  ],
+  "source_references": [
+    "Bodnar, John. Immigration and Industrialization: Ethnicity in an American Mill Town, 1870–1940. Pittsburgh: University of Pittsburgh Press, 1977.",
+    "Gottlieb, Peter. Making Their Own Way: Southern Blacks' Migration to Pittsburgh, 1916–1930. Urbana: University of Illinois Press, 1987.",
+    "Stolarik, M. Mark. Growing Up on the South Side. Lewisburg, PA: Bucknell University Press, 1985.",
+    "Briggs, John W. An Italian Passage: Immigrants to Three American Cities, 1890–1930. New Haven: Yale University Press, 1978.",
+    "Buck, Solon J., and Elizabeth H. Buck. The Planting of Civilization in Western Pennsylvania. Pittsburgh: University of Pittsburgh Press, 1939.",
+    "Eller, Ronald D. Miners, Millhands, and Mountaineers. Knoxville: University of Tennessee Press, 1982.",
+    "Lorant, Stefan. Pittsburgh: The Story of an American City. 5th ed. Pittsburgh: Esselmont Books, 1999.",
+    "Trotter, Joe William. River Jordan: African American Urban Life in the Ohio Valley. Lexington: University Press of Kentucky, 1998."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": [
+      "scots_irish_frontier",
+      "industrial_revolution",
+      "great_migration",
+      "appalachian_out_migration",
+      "gi_bill_migration"
+    ],
+    "destination_refs": [
+      "pittsburgh_pa",
+      "ohio_river_valley"
+    ],
+    "community_texture_refs": [
+      "immigrant_industrial_neighborhood",
+      "appalachian_mountain_community"
+    ]
+  }
+}

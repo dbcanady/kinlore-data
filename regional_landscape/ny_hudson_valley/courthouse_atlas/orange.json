@@ -1,0 +1,50 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Orange County, NY. Record survival from one of the original twelve NY counties (formed 1683). Strong record survival — no major fire — with unique Revolutionary War military records from the West Point/Newburgh corridor.",
+  "courthouse_atlas_id": "ny_orange_courthouse",
+  "display_name": "Orange County, New York — Courthouse Atlas",
+  "county": "Orange",
+  "state": "NY",
+  "fips_code": "36071",
+  "cluster_ref": "ny_hudson_valley",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1841, "location": "Goshen, NY — 255 Main Street (renovated)", "records_housed": ["deeds", "mortgages", "lis pendens", "wills", "court minutes", "naturalization records"] },
+    "previous_courthouses": [
+      { "era": "1683-1727", "location": "No permanent courthouse — courts held at various locations", "fate": "Orange County was originally much larger, including Rockland County (split 1798) and parts of Sullivan." },
+      { "era": "1727-1841", "location": "Goshen, earlier courthouse buildings", "fate": "Frame and stone courthouses served the county. No significant fire damage." }
+    ]
+  },
+  "record_losses": [
+    { "loss_id": "orange_no_major_loss", "date": null, "cause": "No major fire or war damage", "records_destroyed": [], "records_survived": ["deed books", "will books", "court minutes", "naturalization records"], "scope": "none", "description": "Orange County has not experienced a major courthouse fire. Records run continuously from the county's early period. The county seat at Goshen was not targeted by the British during the Revolution (Kingston and the river towns were the targets). Records from the earliest period may be incomplete due to the county's slow organization, but no catastrophic loss has occurred.", "narrative_impact": "{ancestor_name}'s records in Orange County almost certainly survive from the relevant era. Gaps are more likely to reflect the ancestor's circumstances than record destruction.", "source": "Orange County Clerk's Office. New York State Archives." }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1703, "completeness": "Good. Continuous from the early 18th century. Liber/page system.", "gaps": "Pre-1700 transactions are rare and may appear in Albany County records.", "repository": "Orange County Clerk's Office, Goshen; NY State Archives microfilm", "online_access": "FamilySearch; Ancestry.com NY land records" },
+    "wills_estates": { "earliest_surviving": 1787, "completeness": "Good from the post-Revolution period.", "gaps": "Pre-Revolution wills are fragmentary.", "repository": "Orange County Surrogate's Court, Goshen; NY State Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1847, "completeness": "Standard NY pattern — 1847-1849 brief registration, then 1880 mandatory.", "gaps": "Pre-1880 civil records are sparse.", "repository": "Town clerks; NY State Department of Health", "online_access": "FamilySearch; Ancestry.com" },
+    "court_minutes": { "earliest_surviving": 1727, "completeness": "Good from the county's organization.", "gaps": "Pre-1727 judicial matters handled by Albany or Ulster counties.", "repository": "Orange County Clerk's Office; NY State Archives", "online_access": "Limited" },
+    "vital_records": { "birth_registration_start": 1880, "death_registration_start": 1880, "completeness": "Standard NY pattern.", "repository": "Town clerks; NY State Department of Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "Continental Army records (West Point/Newburgh)", "description": "The Revolutionary War military presence in Orange County generated extensive records — muster rolls, supply requisitions, court-martial records, and orderly books from the West Point garrison, New Windsor cantonment, and Newburgh headquarters.", "repository": "National Archives; West Point Military Academy Archives; New-York Historical Society", "era_coverage": "1775-1783", "genealogical_value": "Exceptional for identifying Revolutionary War soldiers and camp followers. Muster rolls name individuals. Supply records identify local farmers who provisioned the army.", "source": "Diamant, Lincoln. Chaining the Hudson. Fordham University Press, 2004." },
+    { "source_type": "Iron works company records", "description": "The Sterling Iron Works and related operations in the Ramapo Highlands maintained employment, production, and property records.", "repository": "New-York Historical Society; Orange County Historical Society; scattered private collections", "era_coverage": "1750s-1890s", "genealogical_value": "Valuable for identifying iron workers and their families. Workers included enslaved people (pre-1827), free Blacks, and immigrant laborers.", "source": "Ransom, James M. Vanishing Ironworks of the Ramapos. Rutgers University Press, 1966." },
+    { "source_type": "Quaker meeting records", "description": "Orange County had significant Quaker settlements, particularly in the Warwick-New Milford area. Meeting records include births, marriages, deaths, removals, and disciplinary minutes.", "repository": "Haviland Records Room, New York Yearly Meeting, New York; Swarthmore College Friends Historical Library", "era_coverage": "1740s-present", "genealogical_value": "Quaker records are among the most detailed available — removal certificates document migration with precision. Hinshaw's Encyclopedia of American Quaker Genealogy abstracts many Orange County entries.", "source": "Hinshaw, William Wade. Encyclopedia of American Quaker Genealogy. Ann Arbor: Edwards Brothers, 1936." }
+  ],
+  "narrative_hooks": [
+    "Orange County's courthouse has never burned — {ancestor_name}'s deeds, wills, and court records survive from the 18th century forward, recorded in the liber/page system standard to New York.",
+    "If {ancestor_name} served in the Continental Army at West Point or New Windsor, the military records at the National Archives may document {pronoun_possessive} service — muster rolls, pay records, and orderly books from the most important garrison of the Revolution.",
+    "Quaker meeting records in Orange County document births, marriages, and removals with a precision that civil records would not match for a century — if {ancestor_name} was a Friend, the meeting house kept better records than the courthouse.",
+    "New York marriage registration did not begin until 1880 — {ancestor_name}'s marriage in Orange County before that date is in a church register."
+  ],
+  "source_references": [
+    "Diamant, Lincoln. Chaining the Hudson. New York: Fordham University Press, 2004.",
+    "Ransom, James M. Vanishing Ironworks of the Ramapos. New Brunswick: Rutgers University Press, 1966.",
+    "Hinshaw, William Wade. Encyclopedia of American Quaker Genealogy. Ann Arbor: Edwards Brothers, 1936.",
+    "New York State Archives. Guide to Records in the New York State Archives. Albany, 1993."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ny_orange",
+    "research_guidance_refs": ["property_records", "church_transfers"],
+    "template_refs": ["record_silences"]
+  }
+}

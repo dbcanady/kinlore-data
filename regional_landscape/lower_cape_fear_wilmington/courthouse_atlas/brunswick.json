@@ -1,0 +1,125 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Brunswick County, NC. Record survival, courthouse history, and known losses — including the catastrophic loss of many colonial and early records.",
+  "courthouse_atlas_id": "nc_brunswick_courthouse",
+  "display_name": "Brunswick County, North Carolina — Courthouse Atlas",
+  "county": "Brunswick",
+  "state": "NC",
+  "fips_code": "37019",
+  "cluster_ref": "lower_cape_fear_wilmington",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1910,
+      "location": "Bolivia, NC (county seat moved from Smithville/Southport in 1977; records held at the Bolivia courthouse and register of deeds office)",
+      "records_housed": ["deeds", "plats", "vital records indexes", "court minutes", "estate files"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1764–1808",
+        "location": "Smithville (now Southport), NC",
+        "fate": "Early courthouse served the colonial and early republic periods. Records from the colonial period are largely lost."
+      },
+      {
+        "era": "1808–1910",
+        "location": "Smithville/Southport, NC",
+        "fate": "Served as courthouse through the Civil War. Some records survived Federal occupation. Replaced by 1910 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "brunswick_colonial_losses",
+      "date": "1700s",
+      "cause": "Neglect, decay, and disorganization of colonial records",
+      "records_destroyed": ["most colonial-era court minutes before 1764", "many early land records"],
+      "records_survived": ["some deed abstracts", "colonial land grants (at state level)"],
+      "scope": "substantial",
+      "description": "Brunswick County's colonial records are among the poorest in the Cape Fear region. Before the county seat was established at Smithville in the 1760s, records were kept haphazardly by colonial officials. Many early documents deteriorated in the humid coastal climate or were lost during the Revolution. The colonial records that survive are primarily at the state level — land grants, council journals, and correspondence in the Colonial Records of North Carolina.",
+      "narrative_impact": "If {ancestor_name} lived in Brunswick County before 1764, local records may not exist. The colonial grants and state-level records are the primary path to documentation — the county courthouse simply does not have them.",
+      "source": "Hofmann, Margaret M. Colony of North Carolina: Abstracts of Land Patents. Vol. 1-2. Weldon, NC: Roanoke News Co., 1982-1984."
+    },
+    {
+      "loss_id": "brunswick_civil_war_damage",
+      "date": "1862-1865",
+      "cause": "Civil War — Federal occupation and military activity",
+      "records_destroyed": ["some loose papers and court dockets"],
+      "records_survived": ["deed books", "most will books", "marriage bonds"],
+      "scope": "partial",
+      "description": "Federal forces occupied the mouth of the Cape Fear from early in the war, and Fort Fisher's fall in January 1865 brought military activity throughout lower Brunswick County. Smithville (Southport) was occupied. Some courthouse records were damaged or scattered during the occupation, but the bound volumes — deeds, wills — survived intact.",
+      "narrative_impact": "Brunswick County's bound records survived the war. Gaps in {ancestor_name}'s record trail during the 1860s are more likely due to the chaos of war disrupting normal record-keeping than to deliberate destruction.",
+      "source": "Fonvielle, Chris E., Jr. The Wilmington Campaign. Campbell, CA: Savas Publishing, 1997."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1764,
+      "completeness": "Fair — continuous from the mid-colonial period. Colonial-era deeds before 1764 are largely absent from county records.",
+      "gaps": "Pre-1764 gap is the most significant. Some water damage to early volumes from the coastal climate.",
+      "repository": "Brunswick County Register of Deeds, Bolivia; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; limited Ancestry.com coverage"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1765,
+      "completeness": "Fair — estate records begin in the mid-18th century. Plantation estate inventories from the rice-growing period are genealogically valuable.",
+      "gaps": "Pre-1765 estate records are at the state level if they survive at all.",
+      "repository": "Brunswick County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1804,
+      "completeness": "Fair — marriage bonds begin in 1804. Earlier marriages recorded in church registers (St. Philip's Anglican, Southport).",
+      "gaps": "No marriage bonds before 1804. Church records partially fill this gap.",
+      "repository": "Brunswick County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com NC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1764,
+      "completeness": "Fair — County Court minutes begin 1764. Earlier court activity recorded in the colonial records at the state level.",
+      "gaps": "Pre-1764 court records are fragmentary or absent. Some gaps during the Revolution.",
+      "repository": "NC State Archives; Brunswick County Clerk of Court",
+      "online_access": "NC State Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Spotty until 1920s. Southport may have local records predating county registration.",
+      "repository": "NC Office of Vital Records; NC State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Colonial Records of North Carolina (state level)",
+      "description": "The Colonial Records (Saunders, ed.) and State Records (Clark, ed.) contain references to Brunswick County residents in land grants, council proceedings, and correspondence that predate county-level record survival.",
+      "repository": "NC State Archives; published volumes widely available in research libraries",
+      "era_coverage": "1663-1790",
+      "genealogical_value": "Essential for colonial-era families. Land grants, appointments, and legal proceedings name individuals who appear in no surviving county record.",
+      "source": "Saunders, William L., ed. The Colonial Records of North Carolina. 10 vols. Raleigh, 1886-1890."
+    },
+    {
+      "source_type": "St. Philip's Anglican Church records (Southport/Brunswick Town)",
+      "description": "The Anglican church served the colonial elite of Brunswick County. Parish registers of baptisms, marriages, and burials survive in fragmentary form and are among the oldest church records in the Lower Cape Fear.",
+      "repository": "Diocese of East Carolina archives; NC State Archives; some published transcriptions",
+      "era_coverage": "1740s-1780s (fragmentary)",
+      "genealogical_value": "One of the few sources for colonial-era family events in Brunswick County. Baptisms may record enslaved people as well as free families.",
+      "source": "Lee, Lawrence. The Lower Cape Fear in Colonial Days. Chapel Hill: UNC Press, 1965."
+    }
+  ],
+  "narrative_hooks": [
+    "Brunswick County's colonial records are among the poorest in the Cape Fear region — if {ancestor_name} lived here before 1764, the county courthouse has almost nothing. The search has to move to the state level, to the Colonial Records and the land grant offices.",
+    "The bound deed books survived the war, which means that {ancestor_name}'s property transactions from the 1800s onward are probably intact — but anything earlier requires looking beyond the county to state archives and church records.",
+    "If {ancestor_name} was part of the rice plantation community on the Cape Fear before emancipation, the estate inventories at the clerk of court's office may be the richest genealogical source — plantation inventories name enslaved people by first name, age, and sometimes skill.",
+    "St. Philip's Church in Southport kept registers that predate the county's own records — if {ancestor_name} was Anglican in colonial Brunswick County, the church register may be the oldest surviving proof of the family's existence."
+  ],
+  "source_references": [
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Hofmann, Margaret M. Colony of North Carolina: Abstracts of Land Patents. Vol. 1-2. Weldon, NC: Roanoke News Co., 1982-1984.",
+    "Fonvielle, Chris E., Jr. The Wilmington Campaign: Last Rays of Departing Hope. Campbell, CA: Savas Publishing, 1997.",
+    "Lee, Lawrence. The Lower Cape Fear in Colonial Days. Chapel Hill: University of North Carolina Press, 1965."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_brunswick",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

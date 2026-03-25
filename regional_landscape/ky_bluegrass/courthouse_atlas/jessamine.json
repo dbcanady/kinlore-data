@@ -1,0 +1,53 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Jessamine County, KY. Formed 1798 from Fayette County. Records begin from formation. No major courthouse fire. Camp Nelson records (1863-1866) at the National Archives are a critical supplementary source for Civil War-era families, especially Black families.",
+  "courthouse_atlas_id": "ky_jessamine_courthouse",
+  "display_name": "Jessamine County, Kentucky — Courthouse Atlas",
+  "county": "Jessamine",
+  "state": "KY",
+  "fips_code": "21113",
+  "cluster_ref": "ky_bluegrass",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1878, "location": "Nicholasville, KY — Main Street (extensively renovated)", "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court orders"] },
+    "previous_courthouses": [
+      { "era": "1798-1830s", "location": "Nicholasville, early courthouses", "fate": "Replaced. Records transferred intact." },
+      { "era": "1830s-1878", "location": "Nicholasville", "fate": "Replaced by current building. No major fire." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "jessamine_no_major_loss",
+      "date": null, "cause": "None — no major fire or disaster",
+      "records_destroyed": [], "records_survived": ["deed books", "will books", "court orders", "marriage bonds", "tax lists"],
+      "scope": "none",
+      "description": "Jessamine County has no record of a significant courthouse fire. Records run continuously from the 1798 formation. Small county size means the volume of records is manageable and well-maintained.",
+      "narrative_impact": "If {ancestor_name} was in Jessamine County after 1798, the courthouse records survive. For the 1780-1798 period, check Fayette County records (the parent county).",
+      "source": "Kentucky Department for Libraries and Archives. Guide to Kentucky County Court Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1798, "completeness": "Excellent — continuous from formation.", "gaps": "None known.", "repository": "Jessamine County Clerk; KDLA microfilm", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1798, "completeness": "Good — will books from formation.", "gaps": "Minor gaps in early loose papers.", "repository": "Jessamine County Clerk; KDLA", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1798, "completeness": "Good — bonds from formation.", "gaps": "Ministers' returns sporadic before 1852.", "repository": "Jessamine County Clerk; KDLA", "online_access": "FamilySearch; Ancestry.com" },
+    "court_minutes": { "earliest_surviving": 1798, "completeness": "Good.", "gaps": "Minor.", "repository": "KDLA; Jessamine County Clerk", "online_access": "KDLA microfilm" },
+    "vital_records": { "birth_registration_start": 1911, "death_registration_start": 1911, "completeness": "Spotty until 1915.", "repository": "Kentucky Cabinet for Health and Family Services; KDLA" }
+  },
+  "substitute_sources": [
+    { "source_type": "Camp Nelson military and refugee records", "description": "Camp Nelson records include USCT enlistment papers, Quartermaster records, medical records, Freedmen's Bureau records, and refugee camp documentation. Over 10,000 Black soldiers were recruited here. The November 1864 dependent expulsion generated correspondence and casualty reports.", "repository": "National Archives (RG 94, RG 105); Camp Nelson National Monument archives", "era_coverage": "1863-1872", "genealogical_value": "Critical for Black families in the Bluegrass. USCT enlistment records include physical descriptions, birthplace, and next of kin. Freedmen's Bureau marriage registers recorded marriages previously unrecognized by Kentucky law. The Camp Nelson records are among the most important sources for Black genealogy in Kentucky.", "source": "Sears, Camp Nelson, Kentucky (2002)." },
+    { "source_type": "Fayette County records (pre-1798)", "description": "Jessamine County was formed from Fayette. Pre-1798 records are in Fayette County.", "repository": "Fayette County Clerk; KDLA", "era_coverage": "1780-1798", "genealogical_value": "Essential for connecting pre-formation families.", "source": "KDLA county formation guide." },
+    { "source_type": "Federal census schedules", "description": "Population schedules 1800-1940. Slave schedules 1850-1860.", "repository": "National Archives; FamilySearch; Ancestry.com", "era_coverage": "1800-1940", "genealogical_value": "Essential baseline.", "source": "National Archives and Records Administration." }
+  ],
+  "narrative_hooks": [
+    "Camp Nelson's records at the National Archives are the most important source for Black families in the Bluegrass — if {ancestor_name} enlisted at Camp Nelson, the enlistment papers record physical description, birthplace, and the name of the enslaver left behind.",
+    "Jessamine County's courthouse survived without fire or disaster — if {ancestor_name} was here after 1798, the records exist. Before 1798, check Fayette County.",
+    "The Freedmen's Bureau marriage register at Camp Nelson recorded marriages that Kentucky law had previously refused to recognize — if {ancestor_name} married at the camp, the register preserved a relationship the state had tried to erase.",
+    "Jessamine County is small enough that the clerk's office probably knew {ancestor_name} by name — in a county this size, the records are personal."
+  ],
+  "source_references": [
+    "Kentucky Department for Libraries and Archives. Guide to Kentucky County Court Records.",
+    "Sears, Richard D. Camp Nelson, Kentucky: A Civil War History. Lexington: University Press of Kentucky, 2002.",
+    "Harrison, Lowell H., and James C. Klotter. A New History of Kentucky. Lexington: University Press of Kentucky, 1997."
+  ],
+  "nel_cross_references": { "layer1_county_profile_ref": "ky_jessamine", "research_guidance_refs": ["southern_courthouse_research"], "template_refs": ["record_silences"] }
+}

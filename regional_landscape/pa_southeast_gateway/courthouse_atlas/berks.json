@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Berks County, PA. Records from 1752 county formation. Reading courthouse survived without major fire. German naturalization records are a key genealogical resource.",
+  "courthouse_atlas_id": "pa_berks_courthouse",
+  "display_name": "Berks County, Pennsylvania — Courthouse Atlas",
+  "county": "Berks",
+  "state": "PA",
+  "fips_code": "42011",
+  "cluster_ref": "pa_southeast_gateway",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1932,
+      "location": "Reading, PA — 633 Court Street",
+      "records_housed": ["deeds from 1752", "wills", "orphans' court records", "marriage licenses", "court minutes", "naturalizations"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1752–1840",
+        "location": "Reading — early courthouse on Penn Square",
+        "fate": "The original courthouse served from the county's formation. Replaced as the county grew."
+      },
+      {
+        "era": "1840–1932",
+        "location": "Reading — expanded courthouse complex",
+        "fate": "Served until replaced by the current 1932 building. No significant fire damage to records."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "berks_pre_formation",
+      "date": "1752",
+      "cause": "County creation — prior records in Chester, Lancaster, and Philadelphia Counties",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1752", "will books from 1752", "court minutes from 1752", "naturalization records from 1752"],
+      "scope": "jurisdictional",
+      "description": "Berks County was created in 1752 from parts of Chester, Lancaster, and Philadelphia Counties. Records predating 1752 for Berks County territory may be found in all three parent counties. Post-1752 records at Reading are continuous and complete with no significant fire damage. The naturalization records are particularly extensive — Reading was a primary destination for German immigrants, and the court proceedings document thousands of naturalizations from the colonial period onward.",
+      "narrative_impact": "If {ancestor_name} lived in what is now Berks County before 1752, the records may be at Chester, Lancaster, or Philadelphia — three potential courthouses for pre-formation records. After 1752, the Reading courthouse holds a continuous and complete record.",
+      "source": "Historical Society of Berks County. Guide to Berks County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1752,
+      "completeness": "Excellent from county formation",
+      "gaps": "Pre-1752 records at parent counties (Chester, Lancaster, Philadelphia).",
+      "repository": "Berks County Recorder of Deeds, Reading; PA State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com PA land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1752,
+      "completeness": "Excellent. Estate inventories are detailed for German farming families — livestock, tools, household goods listed in detail.",
+      "gaps": "Pre-1752 at parent counties.",
+      "repository": "Berks County Register of Wills; PA State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1885,
+      "completeness": "From 1885. Earlier marriages extensively documented in German Lutheran and Reformed church records.",
+      "gaps": "No civil licenses before 1885.",
+      "repository": "Berks County Register of Wills; Historical Society of Berks County (church record transcriptions)",
+      "online_access": "FamilySearch; Ancestry.com PA marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1752,
+      "completeness": "Excellent",
+      "gaps": "None significant.",
+      "repository": "Berks County Archives; PA State Archives",
+      "online_access": "Limited FamilySearch"
+    },
+    "vital_records": {
+      "birth_registration_start": 1893,
+      "death_registration_start": 1893,
+      "completeness": "PA registration from 1893.",
+      "repository": "PA Division of Vital Records"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "German church records — Lutheran and Reformed",
+      "description": "Berks County's German churches maintained meticulous records in German script. Zion Lutheran (Reading), Christ Reformed (Reading), Oley Union Church, and dozens of rural congregations documented baptisms, marriages, and burials from the 1720s-1730s.",
+      "repository": "Historical Society of Berks County (transcriptions); Lutheran Archives Center, Philadelphia; Evangelical and Reformed Historical Society",
+      "era_coverage": "1720s–present",
+      "genealogical_value": "Critical for German families. Records are in German Kurrent script until mid-1800s. Baptism sponsors (Paten) named in records provide kinship connections. Church records predate county formation by 20+ years.",
+      "source": "Historical Society of Berks County. Church Record Collections."
+    },
+    {
+      "source_type": "Iron furnace records — Hopewell, Joanna, and others",
+      "description": "The charcoal iron furnaces of northern Berks County maintained business records — employee lists, charcoal production logs, casting records, and community accounts (the ironmaster's store). Hopewell Furnace (now a National Historic Site) has particularly well-preserved records.",
+      "repository": "Hopewell Furnace National Historic Site archives; Historical Society of Berks County; PA State Archives",
+      "era_coverage": "1750–1880",
+      "genealogical_value": "Documents ironworkers and their families by name. Store accounts reveal daily life details. Community records function similarly to later mill village records.",
+      "source": "Walker, Joseph E. Hopewell Village. University of Pennsylvania Press, 1966."
+    },
+    {
+      "source_type": "Reading Railroad employment records",
+      "description": "The Philadelphia and Reading Railroad was Reading's largest employer. Where employment records survive, they document workers by name, position, and dates of service.",
+      "repository": "Hagley Museum and Library; Historical Society of Berks County; Reading Railroad Heritage Museum",
+      "era_coverage": "1842–1971",
+      "genealogical_value": "May document workers not found in land records. Railroad employment was often the first industrial job for families leaving farming.",
+      "source": "Reading Railroad Heritage Museum collections."
+    }
+  ],
+  "narrative_hooks": [
+    "Berks County was carved from three parent counties in 1752 — if {ancestor_name} lived in what is now Berks before that date, the records could be at Chester, Lancaster, or Philadelphia, depending on exactly where the farm was.",
+    "The naturalization records at the Reading courthouse document thousands of German immigrants taking the oath — for {ancestor_name}, this may be the first American record bearing the family name, and the clerk likely spelled it by ear.",
+    "Hopewell Furnace's records document ironworkers and their families with the detail of a company town a century before the term existed — if {ancestor_name} worked the furnace, the ironmaster's books may hold more about them than the courthouse.",
+    "For Berks County before 1885, the German church records are the primary marriage source — Lutheran and Reformed registers documented marriages in German script that require paleographic skill to read but reward the effort with names, dates, and family connections the courthouse cannot provide."
+  ],
+  "source_references": [
+    "Historical Society of Berks County. Guide to Berks County Records.",
+    "Walker, Joseph E. Hopewell Village: The Dynamics of a Nineteenth Century Iron-Making Community. Philadelphia: University of Pennsylvania Press, 1966.",
+    "Strassburger, Ralph Beaver, and William John Hinke. Pennsylvania German Pioneers. Norristown, PA: Pennsylvania German Society, 1934."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "pa_berks",
+    "research_guidance_refs": ["church_transfers", "property_records"],
+    "template_refs": ["record_silences", "naming_as_evidence"]
+  }
+}

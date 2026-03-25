@@ -1,0 +1,116 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Cherokee County, SC. Record survival, courthouse history, and known losses.",
+  "courthouse_atlas_id": "sc_cherokee_courthouse",
+  "display_name": "Cherokee County, South Carolina — Courthouse Atlas",
+  "county": "Cherokee",
+  "state": "SC",
+  "fips_code": "45021",
+  "cluster_ref": "sc_piedmont_upcountry",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1928,
+      "location": "Gaffney, SC — 125 E. Floyd Baker Boulevard",
+      "records_housed": ["deeds", "plats", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1897–1928",
+        "location": "Gaffney, courthouse square",
+        "fate": "Cherokee County was not formed until 1897 (from portions of York, Spartanburg, and Union counties). The first courthouse was a modest brick building, replaced by the current 1928 structure."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "cherokee_late_formation",
+      "date": "1897",
+      "cause": "Late county formation — records before 1897 are split among parent counties (York, Spartanburg, Union)",
+      "records_destroyed": [],
+      "records_survived": ["Parent county records cover pre-1897 period"],
+      "scope": "moderate",
+      "description": "Cherokee County was formed in 1897 from portions of York, Spartanburg, and Union counties. This late formation means that all records for the area before 1897 are filed under one of the three parent counties. Researchers must determine which parent county held jurisdiction over their ancestor's specific location — a task complicated by the fact that the 1897 boundary lines split existing communities. The Cherokee County courthouse has not experienced fire or war damage since its 1897 establishment.",
+      "narrative_impact": "If {ancestor_name} lived in what is now Cherokee County before 1897, the records are filed under York, Spartanburg, or Union County — and knowing which parent county requires knowing exactly where on the map the family lived. The 1897 county formation drew lines through existing communities, splitting records between jurisdictions.",
+      "source": "SC Department of Archives and History. Guide to County Records in the South Carolina State Archives."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1897,
+      "completeness": "Good — continuous from county formation. Parent county records (York, Spartanburg, Union) cover pre-1897.",
+      "gaps": "The 1897 formation creates a seam. Deeds recorded before 1897 are in the parent county's books.",
+      "repository": "Cherokee County Register of Deeds; SC Department of Archives and History",
+      "online_access": "FamilySearch microfilm; Ancestry.com SC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1897,
+      "completeness": "Good — from formation. Parent county records cover earlier period.",
+      "gaps": "Pre-1897 wills and estates are under York, Spartanburg, or Union counties.",
+      "repository": "Cherokee County Probate Court; SC Department of Archives and History",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1897,
+      "completeness": "Good — from formation. SC marriage licenses required statewide 1911.",
+      "gaps": "Pre-1897 marriages under parent counties. Pre-1911 coverage through bonds.",
+      "repository": "Cherokee County Probate Court; SC Department of Archives and History",
+      "online_access": "FamilySearch; Ancestry.com SC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1897,
+      "completeness": "Good — from formation",
+      "gaps": "Pre-1897 court records under parent counties.",
+      "repository": "SC Department of Archives and History; Cherokee County Clerk of Court",
+      "online_access": "SC Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1915,
+      "death_registration_start": 1915,
+      "completeness": "Spotty until approximately 1920.",
+      "repository": "SC DHEC; SC Department of Archives and History"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Parent county records (York, Spartanburg, Union)",
+      "description": "All records for what is now Cherokee County before 1897 are filed under one of the three parent counties. Which parent county depends on the specific location within Cherokee County: the northeastern portion was York County, the southern portion was Spartanburg County, and the western portion was Union County.",
+      "repository": "York County Courthouse; Spartanburg County Courthouse; Union County Courthouse; SC Department of Archives and History",
+      "era_coverage": "1785–1897",
+      "genealogical_value": "Essential for any family in the Cherokee County area before 1897. The researcher must determine which parent county held jurisdiction — maps showing the 1897 boundary changes are available at the SC Department of Archives and History.",
+      "source": "SC Department of Archives and History."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790–1940. Before 1900, the Cherokee County area appears in York, Spartanburg, or Union county census schedules. The 1900 census is the first to enumerate Cherokee County as a separate entity.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790–1940 (under parent counties before 1900)",
+      "genealogical_value": "Essential baseline. The 1900 census, conducted three years after Cherokee County's formation, is the first independent enumeration. Pre-1900 census searches require knowing the parent county.",
+      "source": "National Archives and Records Administration."
+    },
+    {
+      "source_type": "Kings Mountain National Military Park records",
+      "description": "The Kings Mountain battlefield, now a National Military Park, has generated extensive historical research into the October 7, 1780, battle and the families present in the area during the Revolution.",
+      "repository": "Kings Mountain National Military Park archives; National Park Service; SC Department of Archives and History",
+      "era_coverage": "1780 and surrounding decades",
+      "genealogical_value": "Useful for documenting families present in the Kings Mountain area during the Revolution. Pension applications, muster rolls, and battle accounts name participants on both sides.",
+      "source": "National Park Service. Kings Mountain National Military Park historical resources."
+    }
+  ],
+  "narrative_hooks": [
+    "Cherokee County was not created until 1897, so {ancestor_name}'s records before that date are scattered across three parent counties — York, Spartanburg, and Union. Knowing exactly where the family farm sat on the map is the key to knowing which courthouse to search.",
+    "The 1900 census is the first to list Cherokee County as a separate entity — any census search for {ancestor_name} before that date requires knowing which parent county held the land.",
+    "If {ancestor_name} fought at Kings Mountain in 1780, the pension applications and muster rolls at the National Archives document the battle with a specificity the county records never captured — because Cherokee County did not exist for another 117 years.",
+    "Cherokee County's late formation (1897) means its courthouse records are among the newest in the Upcountry — but the families who lived there are among the oldest, with roots reaching back through York, Spartanburg, and Union counties to the Revolution."
+  ],
+  "source_references": [
+    "SC Department of Archives and History. Guide to County Records in the South Carolina State Archives.",
+    "National Park Service. Kings Mountain National Military Park historical resources.",
+    "Works Progress Administration. Historical Records Survey: South Carolina County Records. Columbia, 1937–1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "sc_cherokee",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

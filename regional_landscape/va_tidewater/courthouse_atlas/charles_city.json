@@ -1,0 +1,122 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Charles City County, VA. Record survival for one of Virginia's original shires (1634) — records survive from an unusually early date despite Civil War damage.",
+  "courthouse_atlas_id": "va_charles_city_courthouse",
+  "display_name": "Charles City County, Virginia — Courthouse Atlas",
+  "county": "Charles City",
+  "state": "VA",
+  "fips_code": "51036",
+  "cluster_ref": "va_tidewater",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1957,
+      "location": "Charles City, VA — Route 5 at the courthouse village",
+      "records_housed": ["deeds", "wills", "court orders", "plats", "vital records indexes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1634–1750s",
+        "location": "Various locations along the James River; courts met in taverns and private houses before a permanent courthouse was built",
+        "fate": "Early court locations are uncertain. Records from this era survive at the Library of Virginia."
+      },
+      {
+        "era": "1750s–1862",
+        "location": "Charles City Court House village on Route 5",
+        "fate": "The antebellum courthouse was damaged during the Civil War but not burned. Records were scattered during the Peninsula Campaign and Seven Days Battles (1862). Some were recovered; others were not."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "charles_city_civil_war",
+      "date": "1862",
+      "cause": "Civil War — Peninsula Campaign and Seven Days Battles",
+      "records_destroyed": ["some loose estate papers", "scattered court documents", "some order books"],
+      "records_survived": ["deed books from 1655", "will books from 1665", "some court order books"],
+      "scope": "partial",
+      "description": "Charles City County was in the direct path of McClellan's advance and the subsequent Seven Days Battles (June-July 1862). Harrison's Landing on the James River became a massive Union encampment. The courthouse was not burned, but records were scattered during military operations. Some volumes were removed by Confederate officials and later returned to the Library of Virginia; others were lost.",
+      "narrative_impact": "Charles City County's records survive from an extraordinarily early date — deeds from 1655, wills from 1665 — but Civil War damage means that some records from all periods have gaps. If {ancestor_name}'s record is missing, the war is the most likely cause.",
+      "source": "Sears, Stephen W. To the Gates of Richmond. Boston: Ticknor & Fields, 1992."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1655,
+      "completeness": "Good for a Virginia Tidewater county. Deed books survive from 1655 — among the earliest county-level deed records in Virginia.",
+      "gaps": "Some gaps in the 1680s and scattered volumes with war damage. Generally continuous from 1655 onward.",
+      "repository": "Charles City County Clerk of Court; Library of Virginia, Richmond",
+      "online_access": "FamilySearch microfilm; Ancestry.com VA land records; Library of Virginia digital collections"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1665,
+      "completeness": "Wills survive from 1665. Estate records more fragmentary.",
+      "gaps": "Some loose estate papers lost during the Civil War. Bound will books are largely intact.",
+      "repository": "Charles City County Clerk of Court; Library of Virginia",
+      "online_access": "FamilySearch microfilm; Library of Virginia digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1762,
+      "completeness": "Marriage bonds and licenses from the mid-18th century. Earlier marriages documented in church records (Westover Parish).",
+      "gaps": "No bonds survive before 1762. Church records partially fill the gap.",
+      "repository": "Charles City County Clerk of Court; Library of Virginia",
+      "online_access": "FamilySearch; Ancestry.com VA marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1655,
+      "completeness": "Fragmentary in early decades. More continuous after 1700.",
+      "gaps": "Significant gaps in order books from the Civil War period.",
+      "repository": "Library of Virginia; Charles City County Clerk of Court",
+      "online_access": "Library of Virginia microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1912,
+      "death_registration_start": 1912,
+      "completeness": "Virginia state registration began 1912. Earlier vital events in church records and court orders.",
+      "repository": "Virginia Department of Health, Office of Vital Records"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Westover Parish records",
+      "description": "Westover Parish (Church of England / Episcopal) served Charles City County. Parish register fragments and vestry minutes survive, providing baptism, marriage, and burial records that supplement the civil record.",
+      "repository": "Library of Virginia; Virginia Historical Society",
+      "era_coverage": "1720s–1800s",
+      "genealogical_value": "Parish records provide family relationship evidence for the colonial period, especially for marriages before 1762 when county marriage bonds do not survive.",
+      "source": "Chamberlayne, C. G., ed. The Vestry Book and Register of Bristol Parish, Virginia. Richmond, 1898."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790–1940. Slave schedules (1850–1860) document the slaveholding plantation families along the James River corridor.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790–1940",
+      "genealogical_value": "Essential for tracking families, especially the large enslaved populations on the James River plantations (Berkeley, Shirley, Westover).",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Charles City County, VA."
+    },
+    {
+      "source_type": "Plantation records (Berkeley, Shirley, Westover)",
+      "description": "The great James River plantations maintained private records — account books, slave lists, correspondence — that supplement the public record. Some collections survive in archives.",
+      "repository": "Virginia Historical Society; Library of Virginia; individual plantation archives",
+      "era_coverage": "1700s–1860s",
+      "genealogical_value": "Plantation records may document enslaved individuals by name where county records do not. They also reveal economic relationships between planters, tenants, and neighboring yeoman farmers.",
+      "source": "Various plantation collection finding aids at the Virginia Historical Society."
+    }
+  ],
+  "narrative_hooks": [
+    "Charles City County's deed books reach back to 1655 — if {ancestor_name} bought or sold land here in the colonial period, the record almost certainly survives, a paper trail older than most American courthouses.",
+    "The Civil War scattered some of Charles City County's records but did not destroy the oldest volumes — {ancestor_name}'s deed from {year} likely survived the same war that turned the county's plantation corridor into a battlefield.",
+    "If {ancestor_name} was enslaved on one of the great James River plantations — Berkeley, Shirley, Westover — the plantation's private records may contain {pronoun_possessive} name where the county records hold only the slaveholder's.",
+    "Westover Parish's register may record {ancestor_name}'s baptism or burial when the county courthouse has no record at all — in colonial Virginia, the church was the government's local arm, and its records sometimes outlasted everything else."
+  ],
+  "source_references": [
+    "Sears, Stephen W. To the Gates of Richmond: The Peninsula Campaign. Boston: Ticknor & Fields, 1992.",
+    "Library of Virginia. A Guide to Virginia County and City Records on Microfilm. Richmond, 2001.",
+    "Chamberlayne, C. G., ed. The Vestry Book and Register of Bristol Parish, Virginia. Richmond, 1898.",
+    "National Archives and Records Administration. Federal Census Schedules, Charles City County, VA."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "va_charles_city",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

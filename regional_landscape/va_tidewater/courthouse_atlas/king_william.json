@@ -1,0 +1,129 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for King William County, VA. Record survival for the county between the Pamunkey and Mattaponi Rivers — records survive from 1702 (county formation) with moderate completeness.",
+  "courthouse_atlas_id": "va_king_william_courthouse",
+  "display_name": "King William County, Virginia — Courthouse Atlas",
+  "county": "King William",
+  "state": "VA",
+  "fips_code": "51101",
+  "cluster_ref": "va_tidewater",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1957,
+      "location": "King William, VA — Route 30 at the courthouse village",
+      "records_housed": ["deeds", "wills", "court orders", "vital records indexes", "plats"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1702–1885",
+        "location": "King William Court House village — on the road between the Pamunkey and Mattaponi Rivers",
+        "fate": "The antebellum courthouse was destroyed by fire in 1885. This was the primary record loss event for the county."
+      },
+      {
+        "era": "1885–1957",
+        "location": "King William Court House — rebuilt after the fire",
+        "fate": "Replaced by the 1957 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "king_william_1885_fire",
+      "date": "1885",
+      "cause": "Courthouse fire",
+      "records_destroyed": ["most court order books before 1885", "some deed books", "loose papers", "marriage records (partial)"],
+      "records_survived": ["deed books from 1702 (some volumes survived)", "will books from 1702 (some volumes survived)", "some marriage bonds"],
+      "scope": "major",
+      "description": "The King William County courthouse burned in 1885, destroying many records. Unlike the Civil War losses in neighboring counties, this was a peacetime fire that destroyed irreplaceable documents. However, the loss was not total — some bound volumes survived the fire, and the Library of Virginia holds copies and fragments. The extent of surviving records varies by record type.",
+      "narrative_impact": "The 1885 courthouse fire in King William County creates a genealogical wall for many families. If {ancestor_name}'s court appearance, estate settlement, or apprenticeship record was in a volume that burned, the fire ended the paper trail — but deed and will books that survived may still document land transfers and inheritance.",
+      "source": "Library of Virginia. A Guide to Virginia County and City Records on Microfilm. Richmond, 2001."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1702,
+      "completeness": "Partial — some deed books survive from county formation (1702) but others were destroyed in the 1885 fire. Coverage is uneven.",
+      "gaps": "Significant gaps where individual volumes were destroyed. Post-1885 deeds are complete.",
+      "repository": "King William County Clerk of Court; Library of Virginia, Richmond",
+      "online_access": "FamilySearch microfilm; Library of Virginia digital collections"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1702,
+      "completeness": "Partial — some will books survive from county formation. Coverage is uneven due to the 1885 fire.",
+      "gaps": "Some will books destroyed. Estate loose papers are largely lost for the pre-1885 period.",
+      "repository": "King William County Clerk of Court; Library of Virginia",
+      "online_access": "FamilySearch microfilm; Library of Virginia digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1783,
+      "completeness": "Marriage bonds survive from approximately 1783. Some gaps due to the 1885 fire.",
+      "gaps": "No bonds before 1783. The fire destroyed some later marriage records as well.",
+      "repository": "King William County Clerk of Court; Library of Virginia",
+      "online_access": "FamilySearch; Ancestry.com VA marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1702,
+      "completeness": "Heavily damaged by the 1885 fire. Most order books before 1885 were destroyed.",
+      "gaps": "Major gaps throughout the pre-1885 period. Court minutes are the record type most affected by the fire.",
+      "repository": "Library of Virginia; King William County Clerk of Court",
+      "online_access": "Library of Virginia microfilm (limited)"
+    },
+    "vital_records": {
+      "birth_registration_start": 1912,
+      "death_registration_start": 1912,
+      "completeness": "Virginia state registration began 1912. Earlier vital events in church records.",
+      "repository": "Virginia Department of Health, Office of Vital Records"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "King and Queen County records (parent county)",
+      "description": "King William was formed from King and Queen County in 1702. King and Queen's records — which also suffered a courthouse fire in 1864 — may document King William families before the 1702 division.",
+      "repository": "Library of Virginia; King and Queen County Clerk of Court",
+      "era_coverage": "1691–1702",
+      "genealogical_value": "For families in King William County at its formation, the parent county's records (where they survive) document the pre-1702 period.",
+      "source": "Library of Virginia. A Guide to Virginia County and City Records on Microfilm. Richmond, 2001."
+    },
+    {
+      "source_type": "St. John's Parish records",
+      "description": "St. John's Parish (Church of England / Episcopal) served King William County. Parish records provide an alternative documentation source when county records are lost.",
+      "repository": "Library of Virginia; Virginia Historical Society",
+      "era_coverage": "1700s–1800s",
+      "genealogical_value": "Parish vestry records include tithable lists, processioning records, and poor relief entries. These function as substitute civil records when courthouse records are destroyed.",
+      "source": "Library of Virginia parish record collections."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790–1940. Critical for a county with significant record losses.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790–1940",
+      "genealogical_value": "Census records provide the baseline for family reconstruction when county records are fragmentary. The Pamunkey and Mattaponi reservations were enumerated separately in some census years.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, King William County, VA."
+    },
+    {
+      "source_type": "Pamunkey and Mattaponi tribal records",
+      "description": "The Pamunkey and Mattaponi tribes maintained their own records — tribute lists, membership rolls, and governance documents — independent of the county court system.",
+      "repository": "Pamunkey Indian Museum; Mattaponi tribal archives; Smithsonian Institution",
+      "era_coverage": "1646–present",
+      "genealogical_value": "For researchers tracing Pamunkey or Mattaponi ancestry, tribal records supplement and sometimes replace county records. The annual tribute lists document tribal membership across centuries.",
+      "source": "Rountree, Helen C. Pocahontas's People. Norman: University of Oklahoma Press, 1990."
+    }
+  ],
+  "narrative_hooks": [
+    "The 1885 courthouse fire in King William County destroyed records that had documented families since 1702 — if {ancestor_name}'s court record was in the wrong volume that day, it is gone, and the search must turn to church records, census data, and neighboring county files.",
+    "King William's parent county — King and Queen — also lost records to fire (1864), creating a double wall for families who lived in the area before 1702. But between the surviving volumes from both counties, some chains can be reconstructed.",
+    "The Pamunkey and Mattaponi people maintained their own records independent of the county courthouse — and if {ancestor_name} had any connection to the reservations, the tribal records may document what the 1885 fire destroyed.",
+    "Census records become essential in King William County because the courthouse fire eliminated so much of the civil record — for {ancestor_name}, the federal enumerator's visit every ten years may be the most reliable surviving documentation."
+  ],
+  "source_references": [
+    "Library of Virginia. A Guide to Virginia County and City Records on Microfilm. Richmond, 2001.",
+    "Rountree, Helen C. Pocahontas's People: The Powhatan Indians of Virginia Through Four Centuries. Norman: University of Oklahoma Press, 1990.",
+    "National Archives and Records Administration. Federal Census Schedules, King William County, VA."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "va_king_william",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

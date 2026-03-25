@@ -1,0 +1,134 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Macon County, IL. Record survival, courthouse history, and known losses that shape what genealogists can and cannot find.",
+  "courthouse_atlas_id": "il_macon_courthouse",
+  "display_name": "Macon County, Illinois — Courthouse Atlas",
+  "county": "Macon",
+  "state": "IL",
+  "fips_code": "17115",
+  "cluster_ref": "il_central_sangamon",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1939,
+      "location": "Decatur, IL — 253 E. Wood Street",
+      "records_housed": ["deeds", "plats", "vital records", "probate records", "court minutes", "marriage records", "military discharge records"],
+      "notes": "WPA-era construction. Macon County is the commercial hub of the cluster, with Decatur's grain processing and soybean industry driving record volume from the early 20th century forward."
+    },
+    "previous_courthouses": [
+      {
+        "era": "1829–1838",
+        "location": "Decatur, original log courthouse on the public square",
+        "fate": "This is where Abraham Lincoln first arrived in Illinois in March 1830 — the Lincoln family settled on the Sangamon River in what was then Macon County. The log courthouse was replaced as the county grew. Early records transferred."
+      },
+      {
+        "era": "1838–1860",
+        "location": "Decatur, brick courthouse on the public square",
+        "fate": "Lincoln practiced law in this courthouse. Replaced by a larger building."
+      },
+      {
+        "era": "1860–1891",
+        "location": "Decatur, same site",
+        "fate": "Served through the Civil War and early railroad era. Replaced due to growing county business."
+      },
+      {
+        "era": "1891–1939",
+        "location": "Decatur, Romanesque courthouse",
+        "fate": "Demolished and replaced by the current WPA-era building. Records transferred intact."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "macon_1839_fire",
+      "date": "1839",
+      "cause": "Fire in the original log courthouse",
+      "records_destroyed": ["some early commissioners' court records", "scattered loose papers from 1829–1839"],
+      "records_survived": ["deed books", "most court records transferred to the new building"],
+      "scope": "minor",
+      "description": "A fire in or near the original log courthouse in 1839 destroyed some early administrative records, including portions of the commissioners' court proceedings from the 1829–1839 period. The bound deed books survived, as did most court records that had already been transferred to the new brick courthouse. The loss is modest compared to many Illinois counties but creates gaps in the earliest decade of county governance.",
+      "narrative_impact": "If {ancestor_name} appeared before the Macon County commissioners' court between 1829 and 1839 — for road petitions, tavern licenses, or early land disputes — the record may not survive. Deed records from the same period are intact.",
+      "source": "Richmond, Mabel E. Centennial History of Decatur and Macon County. Decatur: Decatur Review, 1930."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1829,
+      "completeness": "Excellent — continuous series from county organization",
+      "gaps": "No known gaps in deed books. The railroad land grant era (1850s–1870s) and the Illinois Central's Decatur junction generated heavy land transaction volume, all well-documented.",
+      "repository": "Macon County Recorder, Decatur; Illinois State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com IL land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1831,
+      "completeness": "Good — probate records survive from the early settlement period",
+      "gaps": "Loose estate papers from the 1830s are fragmentary. Bound will books and probate registers are intact from the 1840s forward.",
+      "repository": "Macon County Probate Court, Decatur; Illinois State Archives; IRAD at UIS",
+      "online_access": "FamilySearch microfilm; limited digitization"
+    },
+    "marriages": {
+      "earliest_surviving": 1829,
+      "completeness": "Good — marriage records from county organization, though earliest records are sparse",
+      "gaps": "Pre-1836 records are marriage returns rather than licenses. Illinois required marriage licenses statewide from 1836.",
+      "repository": "Macon County Clerk, Decatur; Illinois State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com IL marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1839,
+      "completeness": "Good from 1839 forward — some loss of commissioners' court records before 1839 due to the courthouse fire",
+      "gaps": "1829–1839 commissioners' court records are incomplete. Circuit court records are continuous from the 1840s.",
+      "repository": "Macon County Circuit Court, Decatur; Illinois State Archives",
+      "online_access": "Illinois State Archives microfilm; limited FamilySearch digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1877,
+      "death_registration_start": 1877,
+      "completeness": "Illinois required county-level registration from 1877, but compliance was uneven until statewide enforcement in 1916. Decatur city records may be more complete than rural townships.",
+      "repository": "Macon County Clerk; Illinois Department of Public Health; Illinois State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "A. E. Staley Manufacturing Company records",
+      "description": "The Staley company, founded in Decatur in 1909, became one of the world's largest soybean and corn processors. Company records, employee publications (the Staley Journal), and related materials document workers and their families in the early-to-mid 20th century.",
+      "repository": "Decatur Public Library local history room; Macon County Historical Society; some materials at the Illinois State Historical Library",
+      "era_coverage": "1909–1960s",
+      "genealogical_value": "The Staley Journal (employee magazine) published names, photographs, and personal items about workers — marriages, births, deaths, retirements — providing a detailed record of working families in Decatur. Company directories and payroll records, where they survive, supplement census and vital records.",
+      "source": "Bridges, Roger D., and Robert W. Johannsen. A History of Illinois from Its Commencement as a State in 1818 to 1847. Urbana: University of Illinois Press, 1995."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1830–1940. Agricultural schedules (1850–1880) and manufacturing schedules (1850–1880) provide economic detail for Decatur's early industry.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1830–1940",
+      "genealogical_value": "Essential for tracking families. The 1830 census is the first to enumerate Macon County as a separate unit. Agricultural schedules reveal the transition from subsistence to commercial farming on the central Illinois prairie.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Macon County, IL."
+    },
+    {
+      "source_type": "Decatur city directories",
+      "description": "City directories for Decatur begin in the 1870s and provide annual snapshots of residents, occupations, and addresses.",
+      "repository": "Decatur Public Library local history room; Ancestry.com city directory collections",
+      "era_coverage": "1870s–1960s",
+      "genealogical_value": "City directories track families between census years and document occupational changes. For Decatur's railroad workers, grain elevator employees, and factory hands, directories often provide the only annual record of residence and employment.",
+      "source": "Various publishers. Decatur City Directories. Decatur, IL, 1870s–1960s."
+    }
+  ],
+  "narrative_hooks": [
+    "Macon County's deed books run unbroken from 1829 — the year the county was formed and only a year before the Lincoln family arrived — so if {ancestor_name} bought or sold land here, the transaction almost certainly survives.",
+    "The 1839 fire in the original Macon County courthouse destroyed some early commissioners' court records, so if {ancestor_name} petitioned for a road, a tavern license, or a small claim between 1829 and 1839, the record may be lost — but deed books from the same period survived.",
+    "If {ancestor_name} worked at the Staley plant or Decatur's grain elevators in the early 20th century, the Staley Journal and company records may document {pronoun_possessive} life in ways that civil records do not — photographs, work anniversaries, even bowling league scores.",
+    "Before 1877, Illinois did not require birth or death registration, so the absence of a vital record for {ancestor_name} in Macon County is standard for the era — church records, cemetery inscriptions, and census entries are the primary substitutes.",
+    "Abraham Lincoln's first Illinois home was in Macon County — if {ancestor_name} was among the early settlers of the 1830s, {pronoun_subject} and Lincoln literally walked the same prairie, and the same circuit court records may document both of them."
+  ],
+  "source_references": [
+    "Richmond, Mabel E. Centennial History of Decatur and Macon County. Decatur: Decatur Review, 1930.",
+    "Bridges, Roger D., and Robert W. Johannsen. A History of Illinois from Its Commencement as a State in 1818 to 1847. Urbana: University of Illinois Press, 1995.",
+    "Illinois State Archives. Descriptive Inventory of the Archives of the State of Illinois. 2nd ed. Springfield: Office of the Secretary of State, 1978.",
+    "National Archives and Records Administration. Federal Census Schedules, Macon County, IL."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "il_macon",
+    "research_guidance_refs": ["census_gaps", "city_directory_strategies", "property_record_strategies"],
+    "template_refs": ["record_silences"]
+  }
+}

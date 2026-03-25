@@ -1,0 +1,117 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Phelps County, MO. Record survival and courthouse history. Phelps County was formed in 1857 from Crawford County. No major courthouse fire — records are relatively well-preserved from county formation. Rolla is the county seat.",
+  "courthouse_atlas_id": "mo_phelps_courthouse",
+  "display_name": "Phelps County, Missouri — Courthouse Atlas",
+  "county": "Phelps",
+  "state": "MO",
+  "fips_code": "29161",
+  "cluster_ref": "mo_ozarks_gateway",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1903,
+      "location": "Rolla, MO — 200 N. Main Street",
+      "records_housed": ["deeds", "plats", "marriage records", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1857-1903",
+        "location": "Rolla, courthouse square",
+        "fate": "Replaced by the current 1903 building. Records transferred intact."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "phelps_formation_gap",
+      "date": "Pre-1857",
+      "cause": "County formation from Crawford County — pre-1857 records filed under Crawford County",
+      "records_destroyed": [],
+      "records_survived": ["Crawford County records cover the Phelps County area before 1857"],
+      "scope": "minor",
+      "description": "Phelps County was formed from Crawford County in 1857. Records for the area before that date are Crawford County records — and Crawford County lost many pre-1873 records in its courthouse fire. This creates a double gap: the Phelps County area before 1857 is documented by Crawford County records, many of which burned in 1873.",
+      "narrative_impact": "If {ancestor_name} was in what is now Phelps County before 1857, the records were filed under Crawford County — and many of those burned in 1873. The family's paper trail may have a forty-year gap from settlement to 1873.",
+      "source": "Missouri State Archives. Guide to County Records on Microfilm: Phelps County."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1857,
+      "completeness": "Good — continuous from county formation.",
+      "gaps": "Pre-1857 deeds are Crawford County records (many lost in 1873 fire).",
+      "repository": "Phelps County Recorder of Deeds, Rolla; Missouri State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1857,
+      "completeness": "Good — from county formation.",
+      "gaps": "Pre-1857 probate records are Crawford County records.",
+      "repository": "Phelps County Probate Court; Missouri State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1857,
+      "completeness": "Good — from county formation.",
+      "gaps": "Pre-1857 marriages filed under Crawford County.",
+      "repository": "Phelps County Recorder; Missouri State Archives",
+      "online_access": "FamilySearch; Ancestry.com MO marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1857,
+      "completeness": "Good — from county formation. Civil War-era sessions were irregular but records survive.",
+      "gaps": "Pre-1857 court records are Crawford County records.",
+      "repository": "Missouri State Archives; Phelps County Circuit Court",
+      "online_access": "Missouri State Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1883,
+      "death_registration_start": 1883,
+      "completeness": "Moderate — better compliance in Rolla than in the rural hollows. The School of Mines community was more likely to register vital events.",
+      "repository": "Missouri Department of Health and Senior Services; Missouri State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Missouri School of Mines (Missouri S&T) records",
+      "description": "Student records, faculty records, and institutional archives from the Missouri School of Mines (founded 1870) document families connected to the institution.",
+      "repository": "Missouri S&T Archives, Rolla; Curtis Laws Wilson Library",
+      "era_coverage": "1870-present",
+      "genealogical_value": "Valuable for families connected to the mining school — enrollment records, student directories, alumni records.",
+      "source": "Missouri S&T University Archives."
+    },
+    {
+      "source_type": "Rolla Herald / Rolla New Era newspapers",
+      "description": "Local newspapers in Rolla documented births, deaths, marriages, court proceedings, and community events.",
+      "repository": "State Historical Society of Missouri; Phelps County Historical Society",
+      "era_coverage": "1860s-present",
+      "genealogical_value": "Good supplement to courthouse records. Particularly useful for the Civil War era when court records may be incomplete.",
+      "source": "State Historical Society of Missouri newspaper holdings."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1860-1940 (first enumerated as Phelps County in 1860). Pre-1860 census for this area is under Crawford County.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1860-1940",
+      "genealogical_value": "Essential baseline, especially for pre-1857 families who must be tracked through Crawford County census records.",
+      "source": "National Archives and Records Administration."
+    }
+  ],
+  "narrative_hooks": [
+    "Phelps County was carved from Crawford County in 1857, and Crawford County's courthouse burned in 1873 — if {ancestor_name} was in the area before 1857, the records that documented {pronoun_possessive} presence may have burned in a different county's fire.",
+    "The Missouri School of Mines kept records of everyone who passed through — if {ancestor_name} attended the school, the archives in Rolla may hold enrollment records, grades, and correspondence that survive nowhere else.",
+    "Missouri vital records started in 1883 but were poorly enforced in the hollows — if {ancestor_name} was born in a cabin on Little Piney Creek, the birth may never have been registered.",
+    "Rolla's newspapers documented the community from the 1860s — if {ancestor_name} died, married, or appeared in court, the newspaper may hold the notice the courthouse never received."
+  ],
+  "source_references": [
+    "Missouri State Archives. Guide to County Records on Microfilm: Phelps County.",
+    "Missouri S&T University Archives finding aids.",
+    "State Historical Society of Missouri newspaper holdings.",
+    "Works Progress Administration. Historical Records Survey: Missouri County Records. Jefferson City, 1937-1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "mo_phelps",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

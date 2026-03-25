@@ -1,0 +1,251 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Local economy timeline for the MD Eastern Shore regional cluster (Talbot, Dorchester, Caroline, Queen Anne's, Kent, Cecil counties). Covers 1631-1960 across seven economic eras — from the first English settlement through the tobacco economy, the grain transition, the Chesapeake Bay harvest economy, the canning industry, and the poultry revolution. The Eastern Shore's economic story diverges from the Western Shore: tobacco came and went faster, grain replaced it more completely, the Bay harvest economy (oysters, crabs, fish) created a parallel economic track, and the canning industry provided the region's first industrial employment.",
+  "economy_id": "md_eastern_shore_economy",
+  "display_name": "MD Eastern Shore — Local Economy Timeline",
+  "cluster_ref": "md_eastern_shore",
+  "era_range": "1631-1960",
+  "economic_eras": [
+    {
+      "era_id": "settlement_and_tobacco",
+      "era_name": "Settlement and the Tobacco Economy",
+      "date_range": "1631-1740",
+      "dominant_economy": "Tobacco cultivation using indentured servant and enslaved labor; fur trade with Native peoples; subsistence farming; Chesapeake Bay fishery",
+      "description": "The Eastern Shore was settled from two directions: William Claiborne's trading post on Kent Island (1631) and the proprietary government's expansion across the Bay from St. Mary's City. Tobacco was the cash crop, grown on the well-drained upland soils and shipped from plantation wharves to England. The Eastern Shore's tobacco economy was smaller in scale than the Western Shore's — the plantations were generally smaller, the enslaved populations less concentrated — but the crop system was identical: clear, plant, exhaust, and move to fresh ground. The fur trade with the Nanticoke and Choptank peoples provided supplementary income in the earliest decades.",
+      "county_specifics": [
+        { "county": "Kent", "note": "Oldest English settlement in Maryland (1631). Chestertown became the customs port for the upper Shore. Tobacco and grain from the Chester River drainage shipped through Chestertown." },
+        { "county": "Talbot", "note": "Established 1662. The wealthiest county on the Shore. Large plantations on the Wye and Miles river necks. Third Haven Quaker Meeting established 1661." },
+        { "county": "Dorchester", "note": "Established 1669. Larger area but less productive farmland due to extensive marshes. Tobacco on the upland ridges. Timber industry supplemented agriculture." },
+        { "county": "Queen Anne's", "note": "Established 1706 from Talbot and Kent. Productive agricultural county. Queenstown was the early commercial center." },
+        { "county": "Cecil", "note": "Established 1674. Head of Elk (Elkton) served as the transfer point between Chesapeake water transport and overland routes to the Delaware. Dual economy: Coastal Plain tobacco and Piedmont mixed farming." },
+        { "county": "Caroline", "note": "Not yet a separate county (created 1773 from Dorchester and Queen Anne's). Territory was interior farmland, tobacco on better soils." }
+      ],
+      "key_infrastructure": [
+        { "name": "Kent Island trading post (Claiborne)", "year": 1631, "impact": "First English settlement in Maryland. Established fur trade with Native peoples and challenged the Calvert proprietary claim." },
+        { "name": "Chestertown customs port", "year": "1690s", "impact": "Official customs port for the upper Eastern Shore. Centralized trade and created a commercial center." },
+        { "name": "Plantation wharves (throughout)", "year": "1650s onward", "impact": "Tobacco shipped directly from plantation to ship, same as the Western Shore. Prevented town development." }
+      ],
+      "major_employers": [
+        { "name": "Tobacco plantations", "type": "Agriculture — tobacco", "era": "1631-1740", "counties_affected": ["Kent", "Talbot", "Dorchester", "Queen Anne's", "Cecil"], "employment_scale": "Indentured servants initially, transitioning to enslaved labor after the 1680s. Smaller holdings on average than the Western Shore." }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Indentured servant (upon freedom)", "wage": "Freedom dues: 50 acres, suit of clothes, tools (value ~£5-8 sterling)", "year": 1680, "source": "Clemens, The Atlantic Economy, ch. 2" },
+        { "occupation": "Free white laborer", "wage": "1,000-1,200 lbs tobacco/year (~£5-6 sterling)", "year": 1700, "source": "Clemens, The Atlantic Economy, ch. 3" }
+      ],
+      "narrative_hook": "In the {decade}s, {ancestor_name} grew tobacco on Eastern Shore soil that was newer to the crop than the Western Shore — the forest cleared later, the soil fresher, and the plantation wharves loading hogsheads onto sloops that sailed the same Bay.",
+      "source": "Clemens, Paul G. E. The Atlantic Economy and Colonial Maryland's Eastern Shore. Cornell University Press, 1980."
+    },
+    {
+      "era_id": "grain_transition",
+      "era_name": "The Grain Transition and Economic Divergence",
+      "date_range": "1740-1820",
+      "dominant_economy": "Wheat and corn replacing tobacco; grain export through Chestertown, Easton, and Oxford; diversified agriculture; enslaved labor continuing; Chesapeake Bay fishery growing",
+      "description": "The Eastern Shore's grain transition happened earlier and more completely than the Western Shore's. By 1780, the upper Eastern Shore counties (Kent, Queen Anne's, Talbot) were primarily grain country. Wheat went to Chestertown for export; corn fed livestock and local consumption. The grain economy required less labor per acre than tobacco, which affected slaveholding patterns — the Eastern Shore did not develop the massive enslaved populations of Prince George's County, but it maintained significant slaveholding, and the domestic slave trade affected the region as planters sold surplus enslaved labor south. Oxford and St. Michaels became commercial ports. The Chester River grain trade made Chestertown one of the most prosperous towns in colonial Maryland.",
+      "county_specifics": [
+        { "county": "Kent", "note": "Leading grain county. Chestertown's Chester River port handled wheat exports. Washington College founded 1782." },
+        { "county": "Talbot", "note": "Diversified from tobacco to grain, fruit (peaches), and livestock. Easton became the commercial center for the middle Shore." },
+        { "county": "Queen Anne's", "note": "Productive grain county. Centreville became county seat (moved from Queenstown 1782)." },
+        { "county": "Dorchester", "note": "Slower transition. Tobacco lingered longer on upland ridges. Timber and the Bay harvest supplemented grain." },
+        { "county": "Cecil", "note": "Dual economy: Piedmont dairy and grain, Coastal Plain grain. Head of Elk remained the transfer point." },
+        { "county": "Caroline", "note": "Created 1773. Interior grain and livestock county. No direct water access limited commercial agriculture." }
+      ],
+      "key_infrastructure": [
+        { "name": "Chestertown grain wharves", "year": "1750s", "impact": "Wheat and corn exported through Chestertown to the West Indies and Europe." },
+        { "name": "Oxford port (Talbot County)", "year": "1760s peak", "impact": "One of the busiest ports on the Shore. Declined after the Revolution as trade patterns shifted." },
+        { "name": "Washington College (Chestertown)", "year": 1782, "impact": "Tenth oldest college in America. Brought educational infrastructure to the Eastern Shore." }
+      ],
+      "major_employers": [
+        { "name": "Grain farms (mixed free and enslaved labor)", "type": "Agriculture — grain", "era": "1740-1820", "counties_affected": ["Kent", "Talbot", "Queen Anne's", "Cecil", "Caroline"], "employment_scale": "Enslaved labor still significant but farms needed fewer hands than tobacco. Free white laborers and tenant farmers increasingly important." }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Hired farm laborer (harvest)", "wage": "3-5 shillings/day during harvest", "year": 1790, "source": "Clemens, The Atlantic Economy, ch. 6" },
+        { "occupation": "Hired-out enslaved laborer", "wage": "£8-12/year paid to enslaver", "year": 1800, "source": "Fields, Slavery and Freedom on the Middle Ground, ch. 3" }
+      ],
+      "narrative_hook": "By the {decade}s, {ancestor_name}'s Eastern Shore had made the turn — tobacco exhausted and abandoned, wheat in the fields instead, and the Chester River sloops loading grain where they had loaded tobacco a generation before.",
+      "source": "Clemens, The Atlantic Economy. Cornell University Press, 1980. Fields, Slavery and Freedom on the Middle Ground. Yale University Press, 1985."
+    },
+    {
+      "era_id": "antebellum_diversification",
+      "era_name": "Antebellum Diversification: Grain, Oysters, and the Slave Trade",
+      "date_range": "1820-1860",
+      "dominant_economy": "Grain farming; Chesapeake Bay oystering and fishery growing; peach orchards; domestic slave trade draining enslaved population southward; free Black community growing; timber in Dorchester",
+      "description": "The antebellum Eastern Shore was a region in economic transition. Grain farming was profitable but not spectacularly so. The oyster economy was emerging — natural oyster bars in the Bay and the Choptank River were beginning to be harvested commercially. The domestic slave trade was draining enslaved workers southward — Eastern Shore planters sold enslaved people to traders who shipped them to the cotton and sugar plantations of the Deep South. This created a paradox: the Eastern Shore's free Black population was growing (the largest in any slave region) while the enslaved population was being sold away. The timber industry in Dorchester County provided employment that was brutal and low-wage. Peach orchards in Queen Anne's and Kent counties created a new agricultural sector.",
+      "county_specifics": [
+        { "county": "Talbot", "note": "Frederick Douglass born here (1818). The Wye House plantation (Lloyd family) exemplified the largest-scale Eastern Shore slavery. Diversified agriculture." },
+        { "county": "Dorchester", "note": "Harriet Tubman born here (~1822). Largest free Black population proportionally. Timber industry. The Underground Railroad most active in this county." },
+        { "county": "Kent", "note": "Grain farming stable. Chestertown commercial center declining slightly as Baltimore grew." },
+        { "county": "Queen Anne's", "note": "Peach orchards expanding. Grain stable. Steamboat connections to Baltimore strengthening." },
+        { "county": "Cecil", "note": "Railroad through the county (PW&B, 1837). Underground Railroad corridor to Pennsylvania at peak activity." },
+        { "county": "Caroline", "note": "Interior grain and livestock farming. Frederick Douglass born at the Talbot-Caroline border (Tuckahoe Creek)." }
+      ],
+      "key_infrastructure": [
+        { "name": "Philadelphia, Wilmington and Baltimore Railroad (PW&B)", "year": 1837, "impact": "Ran through Cecil County, connecting the upper Eastern Shore to the Philadelphia-Baltimore industrial corridor. Transformed Cecil County's economy." },
+        { "name": "Chesapeake Bay steamboat lines", "year": "1813+", "impact": "Regular steamboat service from Eastern Shore landings to Baltimore. The steamboat replaced the sailing vessel as the primary commercial transport." },
+        { "name": "Oyster tonging fleet expansion", "year": "1830s+", "impact": "Commercial oystering expanded from subsistence to market-scale. Tongers working the natural bars off Talbot, Dorchester, and Kent counties." }
+      ],
+      "major_employers": [
+        { "name": "Grain farms", "type": "Agriculture", "era": "1820-1860", "counties_affected": ["Kent", "Talbot", "Queen Anne's", "Cecil", "Caroline"], "employment_scale": "Mixed free and enslaved labor. Tenant farming increasing." },
+        { "name": "Timber operations (Dorchester)", "type": "Extractive", "era": "1820-1860", "counties_affected": ["Dorchester"], "employment_scale": "Both enslaved and free Black workers. Harsh, dangerous work." },
+        { "name": "Oyster tonging", "type": "Maritime", "era": "1830-1860", "counties_affected": ["Talbot", "Dorchester", "Kent"], "employment_scale": "Independent watermen and hired crew. Increasingly important income source." }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Free Black farm laborer", "wage": "$6-10/month plus board", "year": 1850, "source": "Fields, Slavery and Freedom on the Middle Ground, ch. 5" },
+        { "occupation": "Oyster tonger (independent)", "wage": "$2-4/day during season", "year": 1850, "source": "Wennersten, The Oyster Wars, ch. 2" }
+      ],
+      "narrative_hook": "In the {decade}s, {ancestor_name}'s Eastern Shore was a place where freedom and slavery existed on the same road — free Black families carrying their papers, enslaved families watching the slave trader's wagon, and the Chesapeake Bay offering oysters to anyone with a boat and tongs.",
+      "source": "Fields, Slavery and Freedom on the Middle Ground. Yale University Press, 1985. Wennersten, The Oyster Wars of Chesapeake Bay. Tidewater Publishers, 1981."
+    },
+    {
+      "era_id": "civil_war_and_emancipation",
+      "era_name": "Civil War, Emancipation, and Reconstruction",
+      "date_range": "1860-1880",
+      "dominant_economy": "Wartime disruption; Maryland emancipation (November 1864); labor reorganization; oyster economy expanding; sharecropping and tenant farming replacing slavery; canning industry beginning",
+      "description": "The Civil War disrupted the Eastern Shore's economy but did not destroy it — no major battles were fought on the Shore, though Union troops occupied the region and slaveholders faced the loss of their enslaved workforce. Maryland abolished slavery on November 1, 1864, and the transition to free labor was immediate and contested. Former enslavers attempted to retain control through apprenticeship laws (binding Black children to their former masters) and labor contracts designed to replicate slavery's control. The Freedmen's Bureau intervened in the worst abuses. The oyster economy expanded rapidly after the war, providing employment for Black watermen and processing workers. The canning industry began — Phillips Packing Company in Cambridge would become the largest canner on the Shore.",
+      "county_specifics": [
+        { "county": "Talbot", "note": "Union military presence. Apprenticeship abuses particularly severe — former slaveholders tried to bind Black children to service. Freedmen's Bureau active." },
+        { "county": "Dorchester", "note": "Large formerly enslaved population transitioning to free labor. Canning industry beginning in Cambridge. Timber industry continuing." },
+        { "county": "Kent", "note": "Grain farming reorganized with free labor. Chestertown's economy stabilized." },
+        { "county": "Queen Anne's", "note": "Agricultural transition to free labor. Peach and grain farming continued." },
+        { "county": "Cecil", "note": "Railroad corridor insulated from the worst economic disruption. Transition to free labor smoother than in southern counties." },
+        { "county": "Caroline", "note": "Interior farming county transitioned to tenant farming and free labor." }
+      ],
+      "key_infrastructure": [
+        { "name": "Phillips Packing Company (Cambridge)", "year": "1862 (predecessor operations)", "impact": "The beginning of the Dorchester County canning industry. Would become one of the largest canning operations on the East Coast." },
+        { "name": "Freedmen's Bureau offices", "year": "1865-1872", "impact": "Bureau offices in Easton and Cambridge supervised labor contracts, arbitrated disputes, and registered marriages for formerly enslaved families." }
+      ],
+      "major_employers": [
+        { "name": "Grain and truck farms (free labor)", "type": "Agriculture", "era": "1864-1880", "counties_affected": ["all"], "employment_scale": "Former enslaved workers hired as laborers or became tenant farmers/sharecroppers. Wages low, conditions harsh." },
+        { "name": "Oyster fleet and packing houses", "type": "Maritime/Industrial", "era": "1865-1880", "counties_affected": ["Talbot", "Dorchester", "Kent"], "employment_scale": "Growing rapidly. Black watermen and processing workers formed the labor base." }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Free Black farm laborer (post-emancipation)", "wage": "$8-12/month", "year": 1866, "source": "Freedmen's Bureau records, Maryland" },
+        { "occupation": "Oyster shucker (packing house)", "wage": "1-2 cents per pint of meat", "year": 1870, "source": "Wennersten, The Oyster Wars, ch. 3" }
+      ],
+      "narrative_hook": "On November 1, 1864, {ancestor_name} was free — but freedom on the Eastern Shore meant a labor contract that looked suspiciously like the system it replaced, wages that barely covered food, and an apprenticeship law that tried to bind {pronoun_possessive} children to the same master who had held them in bondage.",
+      "source": "Fields, Slavery and Freedom on the Middle Ground. Yale University Press, 1985. Berlin, Ira, et al. Freedom: A Documentary History of Emancipation. Cambridge University Press, 1982."
+    },
+    {
+      "era_id": "bay_harvest_economy",
+      "era_name": "The Bay Harvest Economy and the Canning Era",
+      "date_range": "1880-1920",
+      "dominant_economy": "Oyster wars and industrial oystering; crabbing; canning industry (tomatoes, oysters, peaches, corn); truck farming; grain continuing; skipjack fleet at peak",
+      "description": "The Bay harvest economy reached its peak between 1880 and 1920. The oyster industry was enormous — Maryland harvested 15 million bushels of oysters annually at peak — and the Eastern Shore's share was substantial. The 'oyster wars' between Maryland and Virginia tongers and dredgers, and between legal and illegal oystermen, made the Bay a sometimes violent workplace. The skipjack fleet — sail-powered dredge boats unique to the Chesapeake — worked the oyster bars. On shore, the canning industry processed oysters, tomatoes, peaches, corn, and crabs. Cambridge, Easton, and smaller towns had canneries that employed hundreds of workers — primarily Black women and men in the processing plants. Truck farming (tomatoes, sweet potatoes, sweet corn, peas) replaced grain as the primary crop in some counties. The economy was seasonal, with distinct agricultural, canning, and oystering seasons.",
+      "county_specifics": [
+        { "county": "Talbot", "note": "Tilghman Island became the skipjack fleet's home port. St. Michaels and Oxford as maritime centers. Easton as the commercial capital of the Shore." },
+        { "county": "Dorchester", "note": "Cambridge became a major canning center. Phillips Packing Company grew to regional dominance. The Blackwater marshes provided muskrat trapping income." },
+        { "county": "Kent", "note": "Rock Hall as a watermen's community. Crabbing and oystering. Grain farming continued on the uplands." },
+        { "county": "Queen Anne's", "note": "Peach orchards at peak. Steamer connections to Baltimore at peak. Agricultural prosperity." },
+        { "county": "Cecil", "note": "Railroad economy continued. Less dependent on the Bay harvest than southern counties." },
+        { "county": "Caroline", "note": "Truck farming and canneries in Denton and Federalsburg. Interior county dependent on agriculture, not the water." }
+      ],
+      "key_infrastructure": [
+        { "name": "Skipjack fleet (Tilghman Island, Deal Island)", "year": "1880s peak", "impact": "Sail-powered oyster dredge boats — the last commercial sailing fleet in North America. By law, oyster dredging in Maryland was permitted only under sail." },
+        { "name": "Canneries (Cambridge, Easton, Denton, Federalsburg, Oxford)", "year": "1880-1920", "impact": "The canning industry was the Eastern Shore's first industrial employer. Processing plants for tomatoes, oysters, peaches, corn, and crabs." },
+        { "name": "Steamboat lines to Baltimore", "year": "Peak 1880-1920", "impact": "Daily steamer service from every significant landing on the Shore. The steamboat was the lifeline to the city — produce shipped to Baltimore, goods returned." }
+      ],
+      "major_employers": [
+        { "name": "Canneries", "type": "Industrial processing", "era": "1880-1920", "counties_affected": ["Dorchester", "Talbot", "Caroline", "Kent", "Queen Anne's"], "employment_scale": "Hundreds per plant. Seasonal employment — heavy in summer (tomatoes) and fall/winter (oysters). Predominantly Black labor in the processing plants." },
+        { "name": "Oyster fleet", "type": "Maritime", "era": "1880-1920", "counties_affected": ["Talbot", "Dorchester", "Kent"], "employment_scale": "Hundreds of independent watermen and hired crew. White and Black watermen, though the fleet was largely white-owned. Dangerous work." },
+        { "name": "Truck farms", "type": "Agriculture", "era": "1880-1920", "counties_affected": ["Caroline", "Queen Anne's", "Kent", "Talbot"], "employment_scale": "Seasonal labor. Migrant workers began arriving on the Shore by the 1890s." }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Oyster shucker", "wage": "1-3 cents per pint", "year": 1900, "source": "Wennersten, The Oyster Wars, ch. 4" },
+        { "occupation": "Cannery worker (tomatoes)", "wage": "$0.75-1.25/day", "year": 1900, "source": "Wennersten, Maryland's Eastern Shore, ch. 6" },
+        { "occupation": "Skipjack captain (share system)", "wage": "$500-1,500/season (share of catch)", "year": 1900, "source": "Wennersten, The Oyster Wars, ch. 4" }
+      ],
+      "narrative_hook": "In the {decade}s, {ancestor_name}'s Eastern Shore ran on three calendars — the farm calendar, the cannery calendar, and the Bay calendar — and a family that worked all three could survive, but none of them paid enough alone.",
+      "source": "Wennersten, The Oyster Wars. Tidewater Publishers, 1981. Wennersten, Maryland's Eastern Shore, 1992."
+    },
+    {
+      "era_id": "depression_and_decline",
+      "era_name": "Depression, Decline, and the Great Migration",
+      "date_range": "1920-1945",
+      "dominant_economy": "Oyster stocks declining; canning industry consolidating; poultry industry emerging (1920s-1930s); Great Migration drawing Black workers to Baltimore, Philadelphia, and New York; Great Depression devastating the agricultural economy",
+      "description": "The Eastern Shore's Bay harvest economy peaked and began to decline after 1920. Oyster stocks were depleted by decades of overharvesting. The canning industry consolidated — smaller operations closed, and Phillips Packing Company absorbed competitors. The Great Depression devastated the agricultural economy: crop prices collapsed, banks failed, and tenant farmers were evicted. The Great Migration accelerated — Black families left the Eastern Shore for Baltimore, Philadelphia, and New York, driven by economic collapse and the violence of racial segregation. The poultry industry arrived in the 1920s and began transforming the Shore's agriculture — contract broiler farming replaced traditional crops in Caroline and other interior counties.",
+      "county_specifics": [
+        { "county": "Dorchester", "note": "Phillips Packing Company survived the Depression as the dominant employer. Cambridge's Black community diminished by the Great Migration. Muskrat trapping provided Depression-era income." },
+        { "county": "Talbot", "note": "Agricultural depression hit hard. Easton retained commercial function. The wealthy maintained waterfront estates." },
+        { "county": "Caroline", "note": "Poultry industry arrived — broiler houses began appearing across the county. Interior agricultural economy deeply depressed." },
+        { "county": "Kent", "note": "Agricultural decline. Rock Hall watermen community surviving on diminished oyster stocks." },
+        { "county": "Queen Anne's", "note": "Agricultural depression. Peach orchards declining. Steamboat service declining as roads improved." },
+        { "county": "Cecil", "note": "Railroad corridor buffered some of the agricultural depression. Industrial employment at Elkton diversifying." }
+      ],
+      "key_infrastructure": [
+        { "name": "Commercial broiler industry begins", "year": "1923 (Delmarva)", "impact": "Contract poultry farming began on the Delmarva Peninsula. Feed companies provided chicks and feed; farmers provided the house and labor. Transformed the agricultural economy." },
+        { "name": "Automobile roads improved (US Route 50, US Route 301)", "year": "1920s-1930s", "impact": "Improved roads reduced the Eastern Shore's dependence on steamboats. The automobile connected the Shore to Baltimore and Washington by road." },
+        { "name": "Blackwater National Wildlife Refuge", "year": 1933, "impact": "Federal refuge established on 8,000+ acres of Dorchester County marsh. Preserved habitat but displaced trapping families." }
+      ],
+      "major_employers": [
+        { "name": "Phillips Packing Company", "type": "Industrial", "era": "1920-1945", "counties_affected": ["Dorchester"], "employment_scale": "Largest single employer on the Shore. Hundreds of workers at peak season." },
+        { "name": "Poultry contract farms", "type": "Agriculture", "era": "1930-1945", "counties_affected": ["Caroline", "Queen Anne's", "Dorchester"], "employment_scale": "Growing rapidly. Each broiler house employed one farm family." }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Cannery worker", "wage": "$0.50-1.00/day (Depression rates)", "year": 1935, "source": "Wennersten, Maryland's Eastern Shore, ch. 7" },
+        { "occupation": "Poultry contract farmer (net income)", "wage": "$500-1,500/year", "year": 1940, "source": "Horton, Bay Country, ch. 4" }
+      ],
+      "narrative_hook": "In the {decade}s, {ancestor_name}'s Eastern Shore was losing its people — the young left for Baltimore and Philadelphia because the cannery paid fifty cents a day and the city paid a dollar, and the train from Elkton ran north every morning.",
+      "source": "Fields, Slavery and Freedom on the Middle Ground. Yale University Press, 1985. Horton, Bay Country. Johns Hopkins University Press, 1987."
+    },
+    {
+      "era_id": "bridge_and_transformation",
+      "era_name": "The Bridge and the End of Isolation",
+      "date_range": "1945-1960",
+      "dominant_economy": "Poultry industry dominant; Chesapeake Bay Bridge (1952) connecting the Shore to the Western Shore; suburban development beginning in Queen Anne's County; watermen culture surviving but declining; canning industry declining",
+      "description": "The Chesapeake Bay Bridge, opened July 30, 1952, was the most consequential event in the Eastern Shore's twentieth-century history. For three centuries, the Shore had been separated from the Western Shore by the Bay — reachable only by ferry or by the long drive through Cecil County. The bridge connected the Shore to Annapolis and Baltimore by road, and the consequences were immediate: development pressure on waterfront property, out-of-state tourists and retirees, rising land values, and the beginning of the cultural transformation that would erode the Shore's distinctive character. The poultry industry continued to expand, replacing traditional agriculture as the primary farm enterprise. The watermen culture — oystering, crabbing, fishing — survived but was increasingly marginalized by declining stocks, rising costs, and competition from cheaper seafood imports.",
+      "county_specifics": [
+        { "county": "Queen Anne's", "note": "Bay Bridge terminus. Most immediately affected by the bridge. Kent Island began suburban transformation." },
+        { "county": "Talbot", "note": "Waterfront property values rose. The beginning of the 'come-here' influx — retirees and second-home owners from Washington and Baltimore." },
+        { "county": "Dorchester", "note": "Further from the bridge, less immediately affected. Canning industry declining. Poultry industry growing." },
+        { "county": "Caroline", "note": "Poultry industry dominant. Interior county least affected by the bridge." },
+        { "county": "Kent", "note": "Watermen community at Rock Hall surviving. Agricultural economy continuing but aging." },
+        { "county": "Cecil", "note": "Already connected by railroad and highway. Bridge had less impact than on the southern counties." }
+      ],
+      "key_infrastructure": [
+        { "name": "Chesapeake Bay Bridge", "year": 1952, "impact": "4.3-mile span from Sandy Point (Anne Arundel) to Kent Island (Queen Anne's). Ended three centuries of isolation. The single most transformative infrastructure project in the Eastern Shore's history." },
+        { "name": "US Route 50 improvements", "year": "1950s", "impact": "The bridge created demand for improved roads. Route 50 became the Eastern Shore's main artery, running from the bridge through Easton to Salisbury and Ocean City." }
+      ],
+      "major_employers": [
+        { "name": "Poultry industry (contract farming and processing)", "type": "Agriculture/Industrial", "era": "1945-1960", "counties_affected": ["Caroline", "Queen Anne's", "Dorchester", "Kent"], "employment_scale": "Dominant agricultural employer. Processing plants in Salisbury (outside the cluster) but contract farms throughout." },
+        { "name": "Tourism and hospitality (emerging)", "type": "Service", "era": "1952-1960", "counties_affected": ["Queen Anne's", "Talbot"], "employment_scale": "Small but growing. The bridge opened the Shore to day-trippers and vacationers." }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Poultry processing plant worker", "wage": "$1.00-1.50/hour", "year": 1955, "source": "Horton, Bay Country, ch. 5" },
+        { "occupation": "Waterman (crabbing, independent)", "wage": "$20-40/day during season", "year": 1955, "source": "Horton, Bay Country, ch. 3" }
+      ],
+      "narrative_hook": "The bridge opened in 1952, and {ancestor_name}'s Eastern Shore — the one where the Bay was a wall between two worlds — became a suburb of Baltimore, connected by four miles of concrete and steel to everything it had been separated from for three centuries.",
+      "source": "Horton, Bay Country. Johns Hopkins University Press, 1987. Wennersten, Maryland's Eastern Shore, 1992."
+    }
+  ],
+  "economic_turning_points": [
+    { "year": 1631, "event": "Claiborne's Kent Island trading post — first English settlement in Maryland", "impact": "Established fur trade and English presence on the Eastern Shore before the Calvert proprietary." },
+    { "year": 1780, "event": "Grain transition essentially complete on the upper Shore", "impact": "Wheat replaced tobacco as the cash crop, changing labor patterns and reducing dependence on large enslaved workforces." },
+    { "year": 1808, "event": "End of international slave trade accelerates domestic trade", "impact": "Eastern Shore planters began selling enslaved workers southward through Baltimore traders." },
+    { "year": 1837, "event": "PW&B Railroad through Cecil County", "impact": "Connected the upper Eastern Shore to the Philadelphia-Baltimore industrial corridor." },
+    { "year": 1864, "event": "Maryland abolishes slavery (November 1)", "impact": "The labor system that had built the Eastern Shore ended. Sharecropping, tenant farming, and wage labor replaced it." },
+    { "year": 1880, "event": "Oyster industry at peak — 15 million bushels/year from Maryland waters", "impact": "The Bay harvest economy reached its zenith. The oyster wars began." },
+    { "year": 1923, "event": "Commercial broiler industry begins on the Delmarva", "impact": "Contract poultry farming began replacing traditional agriculture." },
+    { "year": 1952, "event": "Chesapeake Bay Bridge opens", "impact": "Ended three centuries of physical isolation from the Western Shore. Began the Eastern Shore's transformation from agricultural peninsula to Washington-Baltimore exurb." }
+  ],
+  "narrative_hooks": [
+    "The Eastern Shore's economy was a three-legged stool — the farm, the water, and the cannery — and {ancestor_name} needed at least two of the three to survive.",
+    "When the tobacco gave out, {ancestor_name}'s family turned to wheat — and when the wheat alone was not enough, the Bay offered oysters to anyone with a boat and the will to work the bars.",
+    "The domestic slave trade drained the Eastern Shore of its enslaved workers — sold south to the cotton fields — and {ancestor_name}'s community grew smaller with every trader's wagon.",
+    "The cannery whistle in {town} called {ancestor_name} to a job that paid by the piece — peeled tomatoes, shucked oysters, picked crabs — and the speed of {pronoun_possessive} hands was the measure of the day.",
+    "The poultry house changed everything — {ancestor_name} went from growing corn for sale to growing chickens on contract, and the profit margin was a razor that the feed company held.",
+    "The bridge opened in 1952, and the Eastern Shore that {ancestor_name} had known — isolated, self-contained, reachable only by water or the long way through Cecil County — ended with the first car across."
+  ],
+  "source_references": [
+    "Clemens, Paul G. E. The Atlantic Economy and Colonial Maryland's Eastern Shore. Ithaca: Cornell University Press, 1980.",
+    "Fields, Barbara J. Slavery and Freedom on the Middle Ground. New Haven: Yale University Press, 1985.",
+    "Wennersten, John R. The Oyster Wars of Chesapeake Bay. Centerville, MD: Tidewater Publishers, 1981.",
+    "Wennersten, John R. Maryland's Eastern Shore: A Journey in Time and Place. Centerville, MD: Tidewater Publishers, 1992.",
+    "Horton, Tom. Bay Country. Baltimore: Johns Hopkins University Press, 1987.",
+    "Berlin, Ira, et al. Freedom: A Documentary History of Emancipation. Cambridge: Cambridge University Press, 1982."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["antebellum_yeoman_south", "civil_war_service", "reconstruction_era", "great_migration", "domestic_slave_trade", "stayed_and_adapted", "war_of_1812_service"],
+    "material_life_refs": ["colonial_farm_1680_1780", "antebellum_yeoman_farm_1820_1860", "sharecropper_cabin_1865_1940", "postbellum_southern_farm_1865_1910"],
+    "wage_table_refs": []
+  }
+}

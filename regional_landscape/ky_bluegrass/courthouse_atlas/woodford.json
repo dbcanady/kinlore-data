@@ -1,0 +1,48 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Woodford County, KY. Formed 1789 from Fayette County. Records begin from formation, pre-statehood. No major courthouse fire. One of the most complete record sets in the Bluegrass.",
+  "courthouse_atlas_id": "ky_woodford_courthouse",
+  "display_name": "Woodford County, Kentucky — Courthouse Atlas",
+  "county": "Woodford",
+  "state": "KY",
+  "fips_code": "21239",
+  "cluster_ref": "ky_bluegrass",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1969, "location": "Versailles, KY — Main Street", "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court orders"] },
+    "previous_courthouses": [
+      { "era": "1789-1810s", "location": "Versailles, early courthouses", "fate": "Replaced. Records transferred." },
+      { "era": "1810s-1969", "location": "Versailles, Main Street (multiple buildings)", "fate": "Replaced by current building. No major fire." }
+    ]
+  },
+  "record_losses": [
+    { "loss_id": "woodford_no_major_loss", "date": null, "cause": "None", "records_destroyed": [], "records_survived": ["deed books", "will books", "court orders", "marriage bonds", "tax lists"], "scope": "none",
+      "description": "Woodford County has no record of a major courthouse fire. Records run continuously from the 1789 formation — pre-statehood records created under Virginia law. The county's wealth produced extensive records across all categories.",
+      "narrative_impact": "If {ancestor_name} was in Woodford County after 1789, the records survive. Gaps reflect the ancestor's status, not courthouse losses.",
+      "source": "Kentucky Department for Libraries and Archives. Guide to Kentucky County Court Records." }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1789, "completeness": "Excellent — continuous from formation.", "gaps": "None known.", "repository": "Woodford County Clerk; KDLA microfilm", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1789, "completeness": "Excellent — will books and estate inventories from formation. Estate inventories listing enslaved people are extensive.", "gaps": "Minor gaps in early loose papers.", "repository": "Woodford County Clerk; KDLA", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1789, "completeness": "Good — bonds from formation.", "gaps": "Ministers' returns sporadic before 1852.", "repository": "Woodford County Clerk; KDLA", "online_access": "FamilySearch; Ancestry.com" },
+    "court_minutes": { "earliest_surviving": 1789, "completeness": "Good.", "gaps": "Minor wear on earliest volumes.", "repository": "KDLA; Woodford County Clerk", "online_access": "KDLA microfilm" },
+    "vital_records": { "birth_registration_start": 1911, "death_registration_start": 1911, "completeness": "Spotty until 1915.", "repository": "Kentucky Cabinet for Health and Family Services; KDLA" }
+  },
+  "substitute_sources": [
+    { "source_type": "Bourbon distillery records", "description": "Distillery records — production logs, employee lists, barrel inventories — document workers in the bourbon industry. The Old Oscar Pepper Distillery (later Woodford Reserve) maintained production records from the early 1800s.", "repository": "Kentucky Historical Society; Filson Historical Society; individual distillery archives", "era_coverage": "1800s-present", "genealogical_value": "Identifies distillery workers and coopers. Production records establish presence at specific dates.", "source": "Veach, Kentucky Bourbon Whiskey (2013)." },
+    { "source_type": "Thoroughbred breeding and racing records", "description": "The American Stud Book and Thoroughbred breeding farm records document not only horses but the people who bred, trained, and cared for them — including enslaved and free Black grooms and trainers.", "repository": "Keeneland Library, Lexington; Kentucky Historical Society", "era_coverage": "1800s-present", "genealogical_value": "Identifies individuals associated with the horse industry, including Black horsemen whose skills were essential but whose names were rarely recorded in standard sources.", "source": "Wall, How Kentucky Became Southern (2010)." },
+    { "source_type": "Federal census schedules", "description": "Population schedules 1790-1940. Slave schedules 1850-1860.", "repository": "National Archives; FamilySearch; Ancestry.com", "era_coverage": "1790-1940", "genealogical_value": "Essential baseline.", "source": "National Archives and Records Administration." }
+  ],
+  "narrative_hooks": [
+    "Woodford County's records are as well-preserved as any in the Bluegrass — if {ancestor_name} was here after 1789, the courthouse has the trail.",
+    "The distillery records on Glenn's Creek document workers the courthouse may miss — if {ancestor_name} was a cooper, distiller, or warehouse worker, the production logs may record what the deed books do not.",
+    "Thoroughbred breeding records at the Keeneland Library document the people behind the horses — including the Black grooms and trainers whose skills made the Bluegrass horse industry possible but whose names rarely appear in standard records.",
+    "Woodford County records begin under Virginia law — {ancestor_name}'s earliest deeds may cross-reference Virginia land grants filed in Richmond, not Versailles."
+  ],
+  "source_references": [
+    "Kentucky Department for Libraries and Archives. Guide to Kentucky County Court Records.",
+    "Veach, Michael R. Kentucky Bourbon Whiskey. Lexington: University Press of Kentucky, 2013.",
+    "Wall, Maryjean. How Kentucky Became Southern. Lexington: University Press of Kentucky, 2010."
+  ],
+  "nel_cross_references": { "layer1_county_profile_ref": "ky_woodford", "research_guidance_refs": ["southern_courthouse_research"], "template_refs": ["record_silences"] }
+}

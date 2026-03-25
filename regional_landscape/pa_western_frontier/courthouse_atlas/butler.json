@@ -1,0 +1,126 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Butler County, PA. Formed 1800 from Allegheny County. County seat at Butler. Agricultural county with early iron furnaces on Slippery Rock Creek, later oil and gas development. Good record survival from county formation.",
+  "courthouse_atlas_id": "pa_butler_courthouse",
+  "display_name": "Butler County, Pennsylvania — Courthouse Atlas",
+  "county": "Butler",
+  "state": "PA",
+  "fips_code": "42019",
+  "cluster_ref": "pa_western_frontier",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1907,
+      "location": "Butler, PA — 124 W. Diamond Street",
+      "records_housed": ["deeds", "wills", "orphans' court records", "marriage licenses", "court minutes", "naturalization records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1800–1808",
+        "location": "Butler, PA",
+        "fate": "Log courthouse. Butler County was carved from Allegheny County in a region still transitioning from frontier to settled agricultural land."
+      },
+      {
+        "era": "1808–1855",
+        "location": "Butler, PA — Diamond (town square)",
+        "fate": "Frame and brick courthouse. Served the growing agricultural and early iron-producing county."
+      },
+      {
+        "era": "1855–1907",
+        "location": "Butler, PA — Diamond",
+        "fate": "Brick courthouse. Served through the Civil War and the oil boom era. A fire in the courthouse on January 11, 1883, caused some record damage."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "butler_1883_fire",
+      "date": "1883-01-11",
+      "cause": "Fire in the 1855 courthouse",
+      "records_destroyed": ["Some prothonotary office records", "loose case files in offices directly affected"],
+      "records_survived": ["deed books", "will books", "court minute books", "the bound record volumes were saved"],
+      "scope": "minor",
+      "description": "A fire on January 11, 1883, damaged the Butler County courthouse. The fire affected offices and some loose files, but the bound record books — deeds, wills, court minutes — were rescued. The loss was primarily to loose papers, case files, and office materials. The bound volumes that form the genealogical backbone of the records survived intact.",
+      "narrative_impact": "If {ancestor_name} had deeds, wills, or court records in Butler County, the bound volumes survived the 1883 fire. Some individual case files may have been lost, but the indexed volumes that genealogists rely on are intact from 1800.",
+      "source": "McKee, J.A. History of Butler County, Pennsylvania. Chicago: Waterman, Watkins & Co., 1895."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1800,
+      "completeness": "Good — continuous from county formation. Survived the 1883 fire.",
+      "gaps": "No known significant gaps in bound deed books. Pre-1800 deeds for the Butler area filed under Allegheny County.",
+      "repository": "Butler County Recorder of Deeds; Pennsylvania State Archives microfilm",
+      "online_access": "FamilySearch microfilm; limited Ancestry.com"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1800,
+      "completeness": "Good — from county formation. Bound will books survived the fire.",
+      "gaps": "Some early loose estate papers may have been affected by the 1883 fire.",
+      "repository": "Butler County Register of Wills; Pennsylvania State Archives microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1885,
+      "completeness": "Marriage licenses from 1885. Pre-1885 marriages through church records.",
+      "gaps": "85-year gap between county formation (1800) and marriage license law (1885) filled by church records. Presbyterian and Lutheran congregations were particularly strong in Butler County.",
+      "repository": "Butler County Clerk of the Orphans' Court; Pennsylvania State Archives",
+      "online_access": "FamilySearch"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1800,
+      "completeness": "Good — bound volumes continuous from formation",
+      "gaps": "Some loose case files lost in the 1883 fire.",
+      "repository": "Butler County Prothonotary; Pennsylvania State Archives microfilm",
+      "online_access": "PA State Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1893,
+      "death_registration_start": 1893,
+      "completeness": "Spotty until approximately 1906.",
+      "repository": "Pennsylvania Department of Health; Pennsylvania State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Iron furnace records",
+      "description": "Butler County had early charcoal iron furnaces along Slippery Rock Creek and Connoquenessing Creek. Furnace account books and daybooks document workers, ore suppliers, and charcoal burners.",
+      "repository": "Butler County Historical Society; Pennsylvania State Archives; Hagley Museum and Library",
+      "era_coverage": "1800–1860s",
+      "genealogical_value": "Iron furnace account books name workers (including woodcutters and colliers) and record wages, purchases, and dates of employment. These records document families who owned no land and appear in few county records.",
+      "source": "Bining, Arthur Cecil. Pennsylvania Iron Manufacture in the Eighteenth Century. Harrisburg: Pennsylvania Historical Commission, 1938."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1800–1940. Agricultural and manufacturing schedules provide detail on iron production and farming.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1800–1940",
+      "genealogical_value": "Essential baseline. Manufacturing schedules (1820–1880) document iron furnaces. Agricultural schedules show the farming economy that supported the rural portions of the county.",
+      "source": "National Archives and Records Administration."
+    },
+    {
+      "source_type": "Presbyterian and Lutheran church records",
+      "description": "Butler County's earliest congregations were Presbyterian (Scots-Irish) and Lutheran (German). Church records supplement civil records, particularly for marriages before 1885.",
+      "repository": "Individual congregations; Presbyterian Historical Society; Evangelical Lutheran Church archives; Butler County Historical Society",
+      "era_coverage": "1800–present",
+      "genealogical_value": "Essential for pre-1885 marriages and for tracing the ethnic origins of settler families. German Lutheran records may be in German script for the earliest entries.",
+      "source": "Butler County Historical Society. Church Records Collection."
+    }
+  ],
+  "narrative_hooks": [
+    "Butler County's courthouse fire in 1883 damaged some loose files, but the bound deed and will books survived — if {ancestor_name} owned land or left a will, the record is there from 1800.",
+    "If {ancestor_name} worked at one of Butler County's charcoal iron furnaces along Slippery Rock Creek, the furnace account books may name {pronoun_object} when the county records do not — furnace workers who owned no land left their traces in company daybooks.",
+    "Pre-1800 records for {ancestor_name}'s land in the Butler County area are filed under Allegheny County — the parent county whose records cover the earliest deeds.",
+    "Pennsylvania's marriage license law started in 1885 — if {ancestor_name} married in Butler County before that date, the Presbyterian or Lutheran church records are the first place to look."
+  ],
+  "source_references": [
+    "Pennsylvania Historical and Museum Commission. Guide to the Record Groups in the Pennsylvania State Archives.",
+    "McKee, J.A. History of Butler County, Pennsylvania. Chicago: Waterman, Watkins & Co., 1895.",
+    "Bining, Arthur Cecil. Pennsylvania Iron Manufacture in the Eighteenth Century. Harrisburg: Pennsylvania Historical Commission, 1938."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "pa_butler",
+    "research_guidance_refs": ["property_record_strategies", "church_record_transfers"],
+    "template_refs": ["record_silences"]
+  }
+}

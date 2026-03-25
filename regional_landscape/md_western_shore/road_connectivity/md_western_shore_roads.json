@@ -1,0 +1,113 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the MD Western Shore regional cluster. Documents how transportation shaped settlement, trade, and migration from the water-based colonial economy through the railroad era to the automobile age. The Western Shore was a water-first civilization — the Chesapeake Bay and its tributaries were the highways, and roads were an afterthought until the railroad arrived.",
+  "connectivity_id": "md_western_shore_roads",
+  "display_name": "MD Western Shore — Road & Connectivity Network",
+  "cluster_ref": "md_western_shore",
+  "era_range": "1634-1960",
+  "transportation_eras": [
+    {
+      "era_id": "water_highways",
+      "era_name": "Water Highways: The Chesapeake as Road System",
+      "date_range": "1634-1830",
+      "primary_modes": ["sailing vessel", "coastal sloop", "canoe/bateau", "horseback", "wagon on unimproved road"],
+      "description": "The Western Shore was built on water transportation. Every significant plantation had creek frontage with a wharf. Tobacco hogsheads were rolled to the wharf and loaded onto coastal sloops or directly onto oceangoing vessels. The Chesapeake Bay, Potomac River, Patuxent River, and their tidal tributaries were the road system. Overland roads existed but were unimproved, seasonal, and unreliable — red clay and sand that turned to mud in rain. Towns were rare because the plantation wharf made them unnecessary: tobacco went directly from plantation to ship, and English goods returned the same way. Annapolis was the exception — the capital required a concentrated settlement.",
+      "road_conditions": "Terrible. Overland roads were unimproved dirt and sand — narrow, rutted, and impassable in wet weather. Creek crossings required ferries or fords. The absence of good roads was not a failure of engineering but a consequence of the water-based economy — if everything moved by water, who needed roads?",
+      "travel_times": [
+        { "from": "Annapolis", "to": "Upper Marlboro (Prince George's)", "mode": "horseback", "time": "4-6 hours", "conditions_note": "Overland route through rolling terrain with creek crossings" },
+        { "from": "Annapolis", "to": "Port Tobacco (Charles County)", "mode": "sailing vessel via Chesapeake and Potomac", "time": "1-2 days depending on wind", "conditions_note": "By water was often faster than overland despite the distance" },
+        { "from": "Annapolis", "to": "St. Mary's City", "mode": "sailing vessel", "time": "1-2 days", "conditions_note": "Down the Bay — entirely a water journey" },
+        { "from": "Typical plantation", "to": "County seat", "mode": "horseback", "time": "2-6 hours one way", "conditions_note": "Depended on distance and creek crossings" }
+      ],
+      "key_routes": [
+        { "route_name": "Chesapeake Bay (the 'Great Highway')", "type": "water route", "year_established": "1634 (English use)", "description": "The Bay was the primary transportation artery — connecting every Western Shore county to Baltimore, Virginia, and the Atlantic. Sailing vessels of all sizes used the Bay, from oceangoing tobacco ships to local oyster boats.", "counties_served": ["Anne Arundel", "Calvert", "St. Mary's"] },
+        { "route_name": "Potomac River", "type": "water route", "year_established": "1634", "description": "Connected Charles and St. Mary's counties to Virginia, Georgetown, and the Bay. The Potomac was wide and deep enough for oceangoing vessels.", "counties_served": ["Charles", "St. Mary's", "Prince George's"] },
+        { "route_name": "Patuxent River", "type": "water route", "year_established": "1634", "description": "The Patuxent was navigable for small vessels upstream to near Upper Marlboro. It formed the boundary between several counties and served as a commercial artery for interior plantations.", "counties_served": ["Prince George's", "Calvert", "St. Mary's", "Anne Arundel"] },
+        { "route_name": "Post road: Annapolis to Upper Marlboro", "type": "improved trace", "year_established": "circa 1700", "description": "Overland route connecting the colonial capital to Prince George's County seat. One of the few maintained overland routes.", "counties_served": ["Anne Arundel", "Prince George's"] }
+      ],
+      "isolation_index": {
+        "description": "Low along waterways, high away from water. Any plantation with creek frontage was well-connected by water. Any farm without water access was a day's ride from civilization on a bad road.",
+        "comparative_note": "The Western Shore was better connected by water than most colonial regions were by road. But the dependence on water made the region uniquely vulnerable to weather, tides, and the geography of navigable streams."
+      },
+      "narrative_hook": "The road to Annapolis was a mud track through the woods — but {ancestor_name} rarely used it, because the creek at the foot of the plantation ran to the Bay, and the Bay ran everywhere that mattered.",
+      "source": "Land, Colonial Maryland. KTO Press, 1981. Walsh, Motives of Honor, Pleasure, and Profit. UNC Press, 2010."
+    },
+    {
+      "era_id": "railroad_arrival",
+      "era_name": "Railroad and the End of the Water Monopoly",
+      "date_range": "1830-1900",
+      "primary_modes": ["railroad", "steamboat", "wagon", "horseback"],
+      "description": "The B&O Railroad transformed Howard County's economy from 1830, but the railroad's impact on the rest of the Western Shore was slower and more uneven. Steamboats on the Chesapeake Bay and the Potomac supplemented sailing vessels and connected small landings to Baltimore. The southern counties (Charles, St. Mary's, Calvert) were the last to get railroad service — the Pope's Creek branch of the Pennsylvania Railroad did not reach Charles County until the 1870s, and St. Mary's County never got a railroad at all. This differential access to the railroad widened the economic gap between the northern counties (connected, growing) and the southern counties (isolated, declining).",
+      "road_conditions": "Overland roads improved slowly. Turnpikes connected Annapolis and Baltimore. County roads remained unimproved dirt. The contrast between the railroad corridor (Howard County) and the road-dependent southern counties was stark.",
+      "travel_times": [
+        { "from": "Ellicott City", "to": "Baltimore", "mode": "railroad (B&O)", "time": "30-45 minutes", "conditions_note": "The B&O's first line — revolutionary speed" },
+        { "from": "Annapolis", "to": "Baltimore", "mode": "railroad (Annapolis & Elkridge)", "time": "1-2 hours", "conditions_note": "Branch line connecting the capital to the main B&O line" },
+        { "from": "La Plata (Charles Co.)", "to": "Washington", "mode": "railroad (Pope's Creek branch)", "time": "2-3 hours", "conditions_note": "After the railroad arrived in the 1870s" },
+        { "from": "Leonardtown (St. Mary's Co.)", "to": "Annapolis", "mode": "steamboat + overland", "time": "1 full day", "conditions_note": "St. Mary's County never got a railroad — steamboat to Baltimore or overland were the only options" }
+      ],
+      "key_routes": [
+        { "route_name": "B&O Railroad (main line through Howard County)", "type": "railroad", "year_established": 1830, "description": "The first commercial railroad in the United States. Ran from Baltimore through Ellicott City and westward. Gave Howard County a transportation advantage shared by no other Western Shore county.", "counties_served": ["Howard"] },
+        { "route_name": "Annapolis & Elkridge Railroad", "type": "railroad", "year_established": 1840, "description": "Connected Annapolis to the B&O main line at Annapolis Junction. Gave the capital railroad access to Baltimore.", "counties_served": ["Anne Arundel"] },
+        { "route_name": "Pope's Creek branch (Pennsylvania Railroad)", "type": "railroad", "year_established": "1870s", "description": "Branch line from Washington to Pope's Creek on the Potomac, passing through Charles County. La Plata became the county seat because the railroad went there and bypassed Port Tobacco.", "counties_served": ["Charles", "Prince George's"] },
+        { "route_name": "Chesapeake Bay steamboat lines", "type": "steamboat", "year_established": "1810s-1860s", "description": "Steamboats connected small landings on the Bay and rivers to Baltimore. The steamboat replaced the sailing vessel as the primary water transport mode but served the same function.", "counties_served": ["Anne Arundel", "Calvert", "St. Mary's"] }
+      ],
+      "isolation_index": {
+        "description": "Howard County: low (railroad from 1830). Anne Arundel: moderate (railroad from 1840, steamboat). Prince George's: moderate (branch line). Charles: moderate-high (branch line late). Calvert: high (no railroad). St. Mary's: very high (no railroad, steamboat only).",
+        "comparative_note": "St. Mary's County was the most isolated county on the Western Shore through the entire nineteenth century — the founding county of Maryland became its most remote."
+      },
+      "narrative_hook": "The railroad reached {town} and the world accelerated — {ancestor_name} could get to Baltimore in hours instead of days. But in St. Mary's County, the railroad never came at all, and the steamboat whistle was the closest thing to the modern world.",
+      "source": "Dilts, The Great Road. Stanford University Press, 1993. Land, Colonial Maryland. KTO Press, 1981."
+    },
+    {
+      "era_id": "automobile_era",
+      "era_name": "Automobile, Highways, and the Washington Suburban Pull",
+      "date_range": "1920-1960",
+      "primary_modes": ["automobile", "bus", "truck", "railroad"],
+      "description": "The automobile and state highway construction finally connected the southern Western Shore counties to Washington and Baltimore. Route 2 ran south from Baltimore through Anne Arundel County. Route 4 connected Washington to Calvert County. Route 5 connected Washington to St. Mary's County via Charles County. Route 301 provided a Potomac crossing connecting the Western Shore to Virginia. These highways transformed the region: Prince George's County became a Washington suburb, northern Anne Arundel became a Baltimore suburb, and even the southern counties — Charles, Calvert, St. Mary's — were within commuting distance of Washington by 1960. The military installations (Fort Meade, Andrews, Pax River) generated traffic that justified road improvements.",
+      "road_conditions": "State highways paved by the 1930s. County roads improved but many remained unpaved into the 1940s. The transition from dirt to pavement ended the isolation that had defined the southern Western Shore counties for three centuries.",
+      "travel_times": [
+        { "from": "Prince George's County (northern tier)", "to": "Washington DC", "mode": "automobile", "time": "20-40 minutes", "conditions_note": "By 1950, the commute was routine" },
+        { "from": "Leonardtown (St. Mary's)", "to": "Washington DC", "mode": "automobile via Route 5", "time": "2-3 hours", "conditions_note": "Still remote but reachable by car" },
+        { "from": "Solomons (Calvert)", "to": "Washington DC", "mode": "automobile via Route 4", "time": "1.5-2 hours", "conditions_note": "Connected the oyster country to the capital" },
+        { "from": "Ellicott City (Howard)", "to": "Washington DC", "mode": "automobile via Route 29/1", "time": "45 minutes to 1 hour", "conditions_note": "Howard County was the corridor between the two cities" }
+      ],
+      "key_routes": [
+        { "route_name": "US Route 301 (Potomac crossing)", "type": "US highway", "year_established": 1926, "description": "The primary north-south highway through the Western Shore, with a Potomac crossing connecting Maryland to Virginia. Ran through Charles and Prince George's counties.", "counties_served": ["Charles", "Prince George's"] },
+        { "route_name": "MD Route 2 (Baltimore-Annapolis corridor)", "type": "state highway", "year_established": "1920s", "description": "Connected Baltimore to Annapolis, enabling the suburban expansion of northern Anne Arundel County.", "counties_served": ["Anne Arundel"] },
+        { "route_name": "MD Route 4 (Washington to Calvert County)", "type": "state highway", "year_established": "1920s", "description": "Connected Washington to Prince Frederick and Solomons, opening Calvert County to the capital's influence.", "counties_served": ["Prince George's", "Calvert"] },
+        { "route_name": "MD Route 5 (Washington to St. Mary's)", "type": "state highway", "year_established": "1920s", "description": "The road to the Patuxent River Naval Air Station. Connected St. Mary's County to Washington for the first time by a paved highway.", "counties_served": ["Prince George's", "Charles", "St. Mary's"] }
+      ],
+      "isolation_index": {
+        "description": "Low across the entire cluster by 1960. The automobile and paved highways ended three centuries of isolation for the southern Western Shore counties. Prince George's County was fully suburban. St. Mary's County, while still rural, was accessible.",
+        "comparative_note": "The automobile did for the southern Western Shore what the railroad had done for Howard County a century earlier — connected it to the urban economies of Washington and Baltimore."
+      },
+      "narrative_hook": "Route 5 paved the road to St. Mary's County, and for the first time in three centuries {ancestor_name} could drive from the founding site of Maryland to the nation's capital in a single afternoon.",
+      "source": "Virta, Prince George's County. Donning Company, 1984."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1830, "event": "B&O Railroad reaches Ellicott's Mills — first commercial railroad in America", "impact": "Transforms Howard County's economic prospects" },
+    { "year": 1840, "event": "Annapolis & Elkridge Railroad connects Annapolis to B&O main line", "impact": "Gives the state capital railroad access to Baltimore" },
+    { "year": 1872, "event": "Pope's Creek branch reaches Charles County", "impact": "First railroad service for Charles County; prompts county seat move from Port Tobacco to La Plata" },
+    { "year": 1894, "event": "Washington, Baltimore & Annapolis Electric Railway", "impact": "Electric interurban connected Annapolis to both Baltimore and Washington" }
+  ],
+  "narrative_hooks": [
+    "The Chesapeake Bay was the Western Shore's first highway — {ancestor_name} moved by water because the roads were impassable and the Bay connected every creek-front plantation to the world.",
+    "The B&O Railroad reached Howard County in 1830 — the first railroad in America — and {ancestor_name}'s county was connected to Baltimore and the future.",
+    "St. Mary's County never got a railroad — the founding county of Maryland was its most isolated, and {ancestor_name} relied on steamboat and horseback while Howard County had trains.",
+    "Route 5 to St. Mary's County paved a connection that had taken three centuries to build — {ancestor_name} could finally drive from the site of Maryland's founding to the capital without losing a day to mud.",
+    "Port Tobacco died because the railroad went to La Plata — {ancestor_name}'s county seat moved because the old port's creek had silted shut and the new town had the track."
+  ],
+  "source_references": [
+    "Dilts, James D. The Great Road: The Building of the Baltimore and Ohio Railroad, 1828-1853. Stanford: Stanford University Press, 1993.",
+    "Land, Aubrey C. Colonial Maryland: A History. Millwood, NY: KTO Press, 1981.",
+    "Walsh, Lorena S. Motives of Honor, Pleasure, and Profit. Chapel Hill: University of North Carolina Press, 2010.",
+    "Virta, Alan. Prince George's County: A Pictorial History. Virginia Beach: Donning Company, 1984.",
+    "Wennersten, John R. Maryland's Eastern Shore. Centreville, MD: Tidewater Publishers, 1992."
+  ],
+  "nel_cross_references": {
+    "route_refs": ["chesapeake_bay_coastal", "potomac_river_corridor"],
+    "trigger_refs": ["war_of_1812_service", "domestic_slave_trade", "great_migration"]
+  }
+}

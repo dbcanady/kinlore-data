@@ -1,0 +1,133 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Clark County, OH. Record survival, courthouse history, and known losses. Clark County was formed in 1818 from Champaign, Madison, and Greene counties, with Springfield as county seat. The county has experienced no major courthouse fire, but the Springfield Race Riot of 1904 destroyed private records in the Black community and the 1913 flood damaged records in low-lying areas.",
+  "courthouse_atlas_id": "oh_clark_courthouse",
+  "display_name": "Clark County, Ohio — Courthouse Atlas",
+  "county": "Clark",
+  "state": "OH",
+  "fips_code": "39023",
+  "cluster_ref": "oh_miami_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1890,
+      "location": "Springfield, OH — 101 N. Limestone Street",
+      "records_housed": ["deeds", "plats", "marriage records", "probate records", "court minutes", "naturalization records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1818–1828",
+        "location": "Springfield, frame courthouse",
+        "fate": "Outgrown and replaced. Records transferred intact."
+      },
+      {
+        "era": "1828–1890",
+        "location": "Springfield, brick courthouse on same site",
+        "fate": "Served sixty years. Replaced by the 1890 Romanesque building. Records survived transfer."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "clark_1904_riot_private",
+      "date": "1904-03-07",
+      "cause": "Springfield Race Riot",
+      "records_destroyed": ["private records in Black neighborhoods targeted by mob"],
+      "records_survived": ["deed books", "probate records", "marriage records", "court minutes"],
+      "scope": "Private records in targeted neighborhoods; county records unaffected",
+      "description": "The Springfield Race Riot of March 7-8, 1904, saw a white mob attack the Black community after a Black man was accused of murder. The mob lynched Richard Dixon, burned Black-owned businesses along South Street, and destroyed homes. The National Guard was deployed. County courthouse records were unaffected, but private records — family Bibles, business ledgers, personal papers — in the destroyed homes and businesses were lost. Some Black families fled Springfield permanently, creating gaps in local church and civic records.",
+      "narrative_impact": "If {ancestor_name} was Black and lived in Springfield in 1904, the riot either displaced the family or destroyed personal records. The sudden departure of Black families after the riot creates a census-to-census gap — present in 1900, gone by 1910 — that is explained by violence, not voluntary migration.",
+      "source": "Dray, Philip. At the Hands of Persons Unknown: The Lynching of Black America. New York: Random House, 2002."
+    },
+    {
+      "loss_id": "clark_no_courthouse_fire",
+      "date": "N/A",
+      "cause": "None known",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1818", "probate records from 1818", "marriage records from 1818", "court minutes from 1818"],
+      "scope": "none",
+      "description": "Clark County has experienced no courthouse fire. Records run continuously from the 1818 formation. For the period before 1818, researchers should check Champaign, Greene, and Madison county records, as Clark County was carved from those three counties.",
+      "narrative_impact": "Clark County's complete record survival from 1818 means that gaps in {ancestor_name}'s paper trail are circumstantial rather than institutional. For ancestors present before 1818, check parent county records.",
+      "source": "Prince, Benjamin F. A Standard History of Springfield and Clark County, Ohio. 2 vols. Chicago: American Historical Society, 1922."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1818,
+      "completeness": "Excellent — continuous series from county formation",
+      "gaps": "No known gaps. Pre-1818 land transactions appear in Champaign and Greene county deed books.",
+      "repository": "Clark County Recorder, Springfield; Ohio History Connection microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com OH land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1818,
+      "completeness": "Excellent — probate records from county formation",
+      "gaps": "Early loose estate papers are fragile. Bound probate journals intact.",
+      "repository": "Clark County Probate Court, Springfield; Ohio History Connection",
+      "online_access": "FamilySearch microfilm; limited online indexing"
+    },
+    "marriages": {
+      "earliest_surviving": 1818,
+      "completeness": "Excellent — marriage records from county formation",
+      "gaps": "Minimal gaps after 1830.",
+      "repository": "Clark County Probate Court; Ohio History Connection microfilm",
+      "online_access": "FamilySearch; Ancestry.com OH marriages collection"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1818,
+      "completeness": "Good — Court of Common Pleas minutes from formation",
+      "gaps": "Justice of the peace records incomplete for early decades.",
+      "repository": "Clark County Clerk of Courts; Ohio History Connection",
+      "online_access": "Limited — on-site or microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Ohio statewide registration began 1908. Springfield city health records may predate this for the city proper. Some probate court birth/death records from the 1860s-1907.",
+      "repository": "Clark County Probate Court; Ohio Department of Health; Clark County Historical Society"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Springfield industrial and manufacturing records",
+      "description": "Springfield was a significant manufacturing center — the Champion Bar & Knife Works, Crowell-Weedon Company, Springfield Metallic Casket Company, and numerous agricultural implement manufacturers generated employee records. The International Harvester Company (which absorbed several Springfield implement firms) maintained extensive records.",
+      "repository": "Clark County Historical Society; Ohio History Connection; Wittenberg University Library Special Collections",
+      "era_coverage": "1850s–1960",
+      "genealogical_value": "Employee records from Springfield's factories document arrival dates, occupations, and family circumstances. The agricultural implement industry attracted skilled workers from across the Midwest, and company records track this workforce.",
+      "source": "Prince, A Standard History of Springfield and Clark County."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1820–1940. Manufacturing schedules (1820–1880) document Springfield's industrial economy.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1820–1940",
+      "genealogical_value": "Essential for tracking families. The 1850–1880 manufacturing schedules capture Springfield's industrial growth.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Clark County, OH."
+    },
+    {
+      "source_type": "Wittenberg University records",
+      "description": "Wittenberg University (founded 1845, Lutheran) in Springfield maintained enrollment, alumni, and faculty records. As a German Lutheran institution, it documented the German-heritage community.",
+      "repository": "Wittenberg University Library Special Collections; Evangelical Lutheran Church in America Archives",
+      "era_coverage": "1845–present",
+      "genealogical_value": "Enrollment records document German-heritage families who valued education. Alumni records provide post-graduation locations and occupations.",
+      "source": "Lentz, Harold H. A History of Wittenberg College, 1845-1945. Springfield, OH: Wittenberg Press, 1946."
+    }
+  ],
+  "narrative_hooks": [
+    "Clark County's courthouse records run unbroken from 1818 — but if {ancestor_name} was in the area before that year, check the parent counties: Champaign, Greene, and Madison all contributed territory, and the deed books in those counties hold the earlier records.",
+    "The Springfield Race Riot of 1904 destroyed homes and businesses in the Black community — {ancestor_name}'s family Bible may have burned with the house, and the absence of personal records after that date tells its own story.",
+    "If {ancestor_name} worked in Springfield's implement factories, the company records may have survived where the family records did not — check the Clark County Historical Society for employee ledgers from the Champion works and the casket company.",
+    "Ohio vital records begin in 1908 — no birth certificate for {ancestor_name} before that date is standard, not suspicious. Church records and census entries are the likely substitutes."
+  ],
+  "source_references": [
+    "Prince, Benjamin F. A Standard History of Springfield and Clark County, Ohio. 2 vols. Chicago: American Historical Society, 1922.",
+    "Dray, Philip. At the Hands of Persons Unknown: The Lynching of Black America. New York: Random House, 2002.",
+    "Lentz, Harold H. A History of Wittenberg College, 1845-1945. Springfield, OH: Wittenberg Press, 1946.",
+    "Ohio History Connection. County Records Guide: Clark County."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "oh_clark",
+    "research_guidance_refs": ["census_gaps", "vital_records", "property_records"],
+    "template_refs": ["record_silences", "what_they_saw"]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the TX East Piney Woods regional cluster. Documents how transportation shaped settlement, commerce, and migration across East Texas from El Camino Real through the oil field highway era. East Texas was connected first by Spanish colonial roads, then by steamboat through the cypress bayous, then by railroad logging lines that opened the pine forest, and finally by oil field highways that remade the landscape in a single generation.",
+  "connectivity_id": "tx_east_piney_woods_roads",
+  "display_name": "TX East Piney Woods — Road & Connectivity Network",
+  "cluster_ref": "tx_east_piney_woods",
+  "era_range": "1820-1960",
+  "transportation_eras": [
+    {
+      "era_id": "spanish_republic_roads",
+      "era_name": "Spanish Roads and Republic Trails",
+      "date_range": "1820-1860",
+      "primary_modes": ["wagon on improved trace", "horseback", "oxcart", "foot", "steamboat on Caddo Lake and Big Cypress Bayou"],
+      "description": "East Texas was connected to the outside world by two fundamentally different transportation systems. Overland, El Camino Real — the King's Highway from Nacogdoches to San Antonio — was the trunk road that had served the Spanish missions since the eighteenth century. It remained the primary east-west route into the Republic era. Trammel's Trace, a north-south trail from Fulton, Arkansas, to Nacogdoches, was the primary route for families migrating from the Upper South. Neither road was more than an improved trace — ungraded, unpaved, and impassable in wet weather. The second system was water. Caddo Lake and Big Cypress Bayou connected Jefferson in Marion County to Shreveport and the Red River, and thence to New Orleans via the Mississippi. Jefferson became the busiest inland port in Texas because it was the only East Texas town with reliable water access to markets. The interior counties — Cherokee, Smith, Angelina — had no navigable waterways and depended entirely on overland wagon hauling to reach either Nacogdoches or Jefferson.",
+      "road_conditions": "Unimproved sandy and red clay traces through dense pine and hardwood forest. Sand roads were passable in dry weather but heavy wagon loads sank. Clay stretches became impassable quagmires in rain. Creek crossings were by ford or ferry at established points. The dense forest canopy kept roads shaded and damp, extending mud season.",
+      "travel_times": [
+        { "from": "Nacogdoches", "to": "San Antonio (via El Camino Real)", "mode": "wagon", "time": "10-14 days", "conditions_note": "Approximately 280 miles through the cross-timbers. The road was well-established but long." },
+        { "from": "Nacogdoches", "to": "Jefferson", "mode": "wagon", "time": "3-4 days", "conditions_note": "Approximately 80 miles through the pine forest on traces of variable quality." },
+        { "from": "Jefferson", "to": "Shreveport", "mode": "steamboat via Caddo Lake", "time": "1 day", "conditions_note": "Caddo Lake navigation required knowledge of the cypress channels. Dependable from late fall through spring when water was high." },
+        { "from": "Tyler (Smith Co.)", "to": "Nearest market town", "mode": "wagon", "time": "2-3 days to Jefferson or Nacogdoches", "conditions_note": "Smith County was the most landlocked in the cluster — equidistant from both market towns and far from both." },
+        { "from": "Typical farm", "to": "Nearest county seat", "mode": "horseback or wagon", "time": "4-8 hours one way", "conditions_note": "Counties were large, farms scattered, and the pine forest limited road density." }
+      ],
+      "key_routes": [
+        { "route_name": "El Camino Real (King's Highway)", "type": "improved trace", "year_established": "circa 1690; in continuous use through Republic era", "description": "The oldest road in Texas. Ran from Natchitoches, Louisiana, through Nacogdoches to San Antonio. The eastern segment through Nacogdoches was the primary route connecting East Texas to the rest of the state and the gateway for American immigration under both Spanish and Mexican authority. Every family that came overland from Louisiana passed through Nacogdoches on this road.", "counties_served": ["Nacogdoches", "Cherokee"] },
+        { "route_name": "Trammel's Trace", "type": "frontier trace", "year_established": "circa 1813-1830s", "description": "A north-south trail cut by Nicholas Trammel from Fulton, Arkansas, to Nacogdoches. This was the primary route for families migrating from Tennessee, Arkansas, and the Upper South into East Texas. The trail crossed the Sulphur River and descended through the pine woods of Cass and Harrison counties before reaching Nacogdoches. Illegal immigrants during the Mexican period used this route to enter Texas outside the official colonization system.", "counties_served": ["Cass", "Harrison", "Nacogdoches"] },
+        { "route_name": "Big Cypress Bayou / Caddo Lake steamboat route", "type": "navigable waterway", "year_established": "1840s", "description": "The Great Raft on the Red River had created Caddo Lake, and its partial clearance in the 1830s-1840s opened steamboat navigation from Jefferson through the lake to Shreveport. This made Jefferson the commercial gateway to East Texas — cotton went out, manufactured goods came in. Harrison and Marion counties had a market connection no other East Texas county could match.", "counties_served": ["Harrison", "Marion"] },
+        { "route_name": "Nacogdoches-to-San Augustine road", "type": "improved trace", "year_established": "1820s", "description": "Connected Nacogdoches to the Redlands settlement around San Augustine. Part of the network of traces that linked the earliest Anglo settlements in East Texas.", "counties_served": ["Nacogdoches"] }
+      ],
+      "isolation_index": {
+        "description": "High in the interior, moderate along El Camino Real, and low at Jefferson. The pine forest created physical isolation — dense timber limited road building and visibility. A family on a farm in central Angelina County might be two days' wagon travel from any market. Jefferson was the exception — connected to New Orleans by water, it was the least isolated town in East Texas.",
+        "comparative_note": "More isolated than the Texas Blackland Prairie or the Alabama cotton belt. Comparable to the Arkansas Ozarks in overland difficulty. Jefferson's water connection was the one anomaly that brought the outside world to the region's doorstep."
+      },
+      "narrative_hook": "El Camino Real brought {ancestor_name}'s people into East Texas — the same road the Spanish missionaries had walked a century before, now carrying Alabama and Mississippi families and their enslaved workers deeper into the pine woods, where the land was cheap because it was far from everything.",
+      "source": "Jackson, Jack. Los Mesteños: Spanish Ranching in Texas, 1721-1821. College Station: Texas A&M University Press, 1986. Jordan, Terry G. Trails to Texas: Southern Roots of Western Cattle Ranching. Lincoln: University of Nebraska Press, 1981."
+    },
+    {
+      "era_id": "railroad_and_timber",
+      "era_name": "Railroad Arrival and the Timber Boom",
+      "date_range": "1870-1920",
+      "primary_modes": ["railroad", "logging tramway", "wagon on unimproved road", "horseback"],
+      "description": "The railroad reached East Texas in stages and transformed it utterly. The Texas & Pacific Railway built through Harrison County (Marshall) in 1871-1872, connecting the region to Dallas and points west. The International-Great Northern Railroad connected Tyler to Palestine and Houston by the 1870s. The Houston, East & West Texas Railway (later Southern Pacific) pushed through Angelina and Nacogdoches counties in the 1880s. But the most distinctive transportation feature of East Texas in this era was the logging tramway — narrow-gauge railroad lines built by lumber companies deep into the virgin pine forest to extract timber. These temporary railroads created temporary towns; when the timber was cut, the rails were pulled and the towns died. The standard-gauge railroads killed Jefferson's steamboat economy — the railroads bypassed the bayou, and by 1880 Marshall had replaced Jefferson as the commercial center of Harrison County. Tyler became the dominant city of the cluster by virtue of its railroad connections.",
+      "road_conditions": "County roads remained unimproved sand and clay. Away from the railroad, conditions were unchanged from the Republic era. Logging operations created corduroy roads (logs laid crosswise) through the worst swamp sections, but these deteriorated rapidly after the loggers moved on.",
+      "travel_times": [
+        { "from": "Marshall", "to": "Dallas", "mode": "Texas & Pacific Railroad", "time": "6-8 hours", "conditions_note": "Direct rail service. Marshall was now connected to the national railroad network." },
+        { "from": "Tyler", "to": "Houston", "mode": "International-Great Northern Railroad", "time": "8-10 hours", "conditions_note": "Through Palestine junction. Connected East Texas to the state's largest port city." },
+        { "from": "Lufkin (Angelina Co.)", "to": "Houston", "mode": "Houston, East & West Texas Railway", "time": "6-8 hours", "conditions_note": "The railroad made Lufkin a lumber shipping center." },
+        { "from": "Typical farm (off-railroad)", "to": "Nearest depot", "mode": "wagon", "time": "2-6 hours one way", "conditions_note": "The railroad created a two-speed economy — connected towns boomed while communities five miles from the depot remained in the pre-railroad world." }
+      ],
+      "key_routes": [
+        { "route_name": "Texas & Pacific Railway (Marshall corridor)", "type": "railroad", "year_established": 1872, "description": "The first major railroad through East Texas. Connected Marshall to Shreveport (east) and Dallas (west). Made Marshall the railroad capital of East Texas and killed Jefferson's steamboat economy within a decade.", "counties_served": ["Harrison", "Marion"] },
+        { "route_name": "International-Great Northern Railroad (Tyler-Palestine-Houston)", "type": "railroad", "year_established": "1870s", "description": "Connected Tyler to Houston through Palestine junction. Made Tyler the commercial center of the northern cluster counties.", "counties_served": ["Smith", "Cherokee"] },
+        { "route_name": "Houston, East & West Texas Railway (later Southern Pacific)", "type": "railroad", "year_established": "1880s", "description": "Pushed through the deep pine woods of Angelina and Nacogdoches counties. Made Lufkin and Nacogdoches railroad towns and opened the timber belt to industrial-scale logging.", "counties_served": ["Angelina", "Nacogdoches"] },
+        { "route_name": "Logging tramways (multiple companies)", "type": "narrow-gauge industrial railroad", "year_established": "1880s-1920s", "description": "Dozens of narrow-gauge logging tramways penetrated the virgin pine forest from main-line sidings. The Angelina & Neches River Railroad, the Texas Southeastern Railroad, and company-owned lines of Lutcher & Moore, Kirby Lumber, and Temple Lumber extended deep into the pine forest. These lines created temporary sawmill towns — Diboll, Keltys, Aldridge, Manning — that existed only as long as the timber lasted.", "counties_served": ["Angelina", "Nacogdoches", "Cherokee", "Rusk"] }
+      ],
+      "isolation_index": {
+        "description": "Sharply reduced along railroad corridors; unchanged in the deep woods. Marshall, Tyler, Nacogdoches, and Lufkin were now connected to the national market. But a farm or logging camp a few miles from the railroad remained as isolated as it had been in the Republic era.",
+        "comparative_note": "By 1900, the Tyler-Marshall railroad corridor was well-connected. The deep pine woods between the railroads remained among the most isolated areas in the South."
+      },
+      "narrative_hook": "The railroad reached {town} and within a year the steamboat was dead — {ancestor_name} watched the economy shift from water to rail, and the town that had been the gateway to East Texas was suddenly a backwater bypassed by iron.",
+      "source": "Maxwell, Robert S., and Robert D. Baker. Sawdust Empire: The Texas Lumber Industry, 1830-1940. College Station: Texas A&M University Press, 1983. Reed, S. G. A History of the Texas Railroads. Houston: St. Clair Publishing, 1941."
+    },
+    {
+      "era_id": "tyler_marshall_corridor",
+      "era_name": "Tyler-to-Marshall Corridor and Automobile Roads",
+      "date_range": "1920-1940",
+      "primary_modes": ["automobile", "railroad", "truck"],
+      "description": "The automobile and state highway construction reshaped East Texas travel in the 1920s-1930s. State Highway 31 connected Tyler to Longview and on to Marshall, creating an east-west corridor that followed the old Tyler-Marshall wagon road. US Highway 69 connected Tyler to Lufkin and Houston (north-south). US Highway 59 connected Nacogdoches to Houston. These paved highways ended the isolation of communities between the railroad lines, but the transformation was incomplete — many county roads remained unpaved sand into the 1950s. The discovery of the East Texas Oil Field in 1930 created explosive new road demands: oil field lease roads, pipeline right-of-way roads, and boomtown streets built overnight. Rusk, Smith, and Cherokee counties saw their road networks double in five years as the oil industry built access to every drilling site.",
+      "road_conditions": "State highways paved by the late 1920s-1930s. County roads improved but many remained unpaved sand or clay. Oil field lease roads were built quickly and maintained poorly — rutted, oily, and congested with trucks. The contrast between the paved state highway and the sand county road remained dramatic into the 1950s.",
+      "travel_times": [
+        { "from": "Tyler", "to": "Marshall", "mode": "automobile via SH 31", "time": "1.5-2 hours", "conditions_note": "Approximately 70 miles on paved highway. The old wagon road had taken 2-3 days." },
+        { "from": "Tyler", "to": "Houston", "mode": "automobile via US 69", "time": "4-5 hours", "conditions_note": "Through Lufkin. A trip that had been nearly impossible by wagon was now a long day's drive." },
+        { "from": "Nacogdoches", "to": "Houston", "mode": "automobile via US 59", "time": "3-4 hours", "conditions_note": "Direct highway connection to the state's largest city." },
+        { "from": "Oil field lease", "to": "Nearest supply town (Kilgore, Longview, Henderson)", "mode": "truck", "time": "30 minutes to 2 hours", "conditions_note": "Oil field roads were congested, rutted, and dangerous. Truck traffic was continuous." }
+      ],
+      "key_routes": [
+        { "route_name": "State Highway 31 (Tyler-Longview-Marshall)", "type": "state highway", "year_established": "1920s", "description": "The primary east-west highway connecting the three largest East Texas cities. This route roughly followed the old Tyler-to-Marshall wagon road and became the commercial spine of the cluster.", "counties_served": ["Smith", "Rusk", "Harrison"] },
+        { "route_name": "US Highway 69 (Tyler-Lufkin-Houston)", "type": "US highway", "year_established": "1926", "description": "The primary north-south route connecting East Texas to Houston. Made Tyler and Lufkin highway towns with direct access to the state's commercial capital.", "counties_served": ["Smith", "Cherokee", "Angelina"] },
+        { "route_name": "US Highway 59 (Nacogdoches-Houston)", "type": "US highway", "year_established": "1926", "description": "Connected Nacogdoches directly to Houston, giving the oldest Anglo town in Texas a modern highway connection to the state's largest city.", "counties_served": ["Nacogdoches", "Angelina"] },
+        { "route_name": "Oil field lease and pipeline roads (Rusk-Smith-Cherokee)", "type": "industrial roads", "year_established": "1930-1940", "description": "The East Texas Oil Field created a dense network of lease roads, pipeline right-of-way roads, and boomtown streets across Rusk, Smith, and Cherokee counties. Built to serve the oil industry, these roads had the secondary effect of connecting rural communities that had been unreachable by automobile.", "counties_served": ["Rusk", "Smith", "Cherokee"] }
+      ],
+      "isolation_index": {
+        "description": "Dramatically reduced. The automobile and paved highways ended the isolation that had defined East Texas since settlement. By 1940, Tyler was a four-hour drive from Houston and a two-hour drive from Dallas. But rural areas off the state highways — particularly in the deep pine woods of Angelina County — remained isolated enough that sand roads and distance still limited daily travel.",
+        "comparative_note": "By 1940, the Tyler-Marshall corridor was moderately well-connected. The deep rural areas between highways remained among the least connected in eastern Texas."
+      },
+      "narrative_hook": "The oil field carved roads into {county} County where no roads had been — lease roads, pipeline cuts, boomtown streets built in a week. {ancestor_name} could now drive to places that had been a day's ride through the pines.",
+      "source": "Olien, Roger M., and Diana Davids Olien. Oil in Texas: The Gusher Age, 1895-1945. Austin: University of Texas Press, 2002. Sitton, Thad. Backwoodsmen: Stockmen and Hunters along a Big Thicket River Valley. Norman: University of Oklahoma Press, 1995."
+    },
+    {
+      "era_id": "postwar_highway_expansion",
+      "era_name": "Postwar Highway Expansion",
+      "date_range": "1945-1960",
+      "primary_modes": ["automobile", "truck", "bus", "railroad (declining)"],
+      "description": "Postwar highway improvements completed the transformation of East Texas from an isolated pine woods region to a connected part of the state highway network. US highways 69, 59, and 80 (later I-20) were widened and improved. The Tyler-to-Dallas corridor became a major commuter route. Marshall's position on the future I-20 corridor ensured its continued significance. Railroad passenger service declined as automobile travel became dominant, but railroad freight remained critical for the surviving lumber industry and oil transport. The most significant change was cultural: East Texas families could now reach Dallas, Houston, or Shreveport in a few hours, breaking the cultural isolation that had kept the region a Southern enclave in the heart of Texas.",
+      "road_conditions": "Major highways paved and maintained. County roads increasingly paved or graveled. The last unpaved county roads in the cluster were paved or graveled by the late 1950s.",
+      "travel_times": [
+        { "from": "Tyler", "to": "Dallas", "mode": "automobile via US 69/US 80", "time": "1.5-2 hours", "conditions_note": "The Tyler-Dallas commuter corridor was emerging." },
+        { "from": "Marshall", "to": "Shreveport", "mode": "automobile via US 80", "time": "45 minutes to 1 hour", "conditions_note": "Marshall remained economically tied to Shreveport." },
+        { "from": "Lufkin", "to": "Houston", "mode": "automobile via US 59", "time": "2.5-3 hours", "conditions_note": "Angelina County was now within easy driving distance of Houston." }
+      ],
+      "key_routes": [
+        { "route_name": "US Highway 80 (Marshall-Dallas corridor, later I-20)", "type": "US highway", "year_established": "1926; widened postwar", "description": "The major east-west highway connecting Marshall through Longview and Tyler to Dallas. Would become Interstate 20. Made the entire cluster accessible to the Dallas-Fort Worth metropolitan area.", "counties_served": ["Harrison", "Rusk", "Smith"] },
+        { "route_name": "US Highway 59 (Nacogdoches-Houston, widened)", "type": "US highway", "year_established": "1926; improved postwar", "description": "Improved to handle increased traffic between East Texas and Houston. Would eventually become a limited-access highway.", "counties_served": ["Nacogdoches", "Angelina"] }
+      ],
+      "isolation_index": {
+        "description": "Low across the cluster by 1960. East Texas was no longer isolated. The cultural lag remained — the region still felt more Southern than Texan — but the physical isolation that had sustained that culture for a century was gone.",
+        "comparative_note": "By 1960, East Texas was as well-connected by highway as any comparable rural region in the South. The cultural distinctiveness survived the end of physical isolation by at least a generation."
+      },
+      "narrative_hook": "By the 1950s, {ancestor_name} could drive to Dallas in two hours, but the Piney Woods accent and the Southern cooking and the Baptist church said this was not the same Texas they found at the end of the highway.",
+      "source": "Sitton, Thad, and James H. Conrad. Nameless Towns: Texas Sawmill Communities, 1880-1942. Austin: University of Texas Press, 1998. Texas State Highway Department records, Texas State Library and Archives Commission."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1872, "event": "Texas & Pacific Railway reaches Marshall", "impact": "Connects East Texas to Dallas and the national rail network. Kills Jefferson's steamboat economy within a decade." },
+    { "year": 1874, "event": "International-Great Northern Railroad reaches Tyler", "impact": "Makes Tyler the railroad hub of the northern cluster counties." },
+    { "year": 1882, "event": "Houston, East & West Texas Railway reaches Nacogdoches and Lufkin", "impact": "Opens the deep pine belt to industrial-scale logging. Creates Lufkin as a lumber shipping center." },
+    { "year": 1890, "event": "Cotton Belt Route (St. Louis Southwestern) reaches Tyler", "impact": "Adds a second railroad connection for Tyler, linking the city to St. Louis." },
+    { "year": 1900, "event": "Peak of logging tramway construction in Angelina County", "impact": "Dozens of narrow-gauge lines penetrate the virgin pine forest. Temporary sawmill towns appear and disappear as the timber is cut." },
+    { "year": 1930, "event": "East Texas Oil Field discovery triggers railroad spur construction", "impact": "New spur lines built to oil loading facilities in Rusk, Smith, and Cherokee counties." }
+  ],
+  "narrative_hooks": [
+    "El Camino Real and Trammel's Trace were the two highways that brought {ancestor_name}'s people into East Texas — the Spanish road from the south and the Arkansas trace from the north, both of them little more than ruts through the pine woods.",
+    "The railroad killed Jefferson and made Marshall — {ancestor_name} watched the steamboat era end and the railroad era begin, and the town that had been the busiest port in Texas became a quiet bayou landing.",
+    "The logging tramways went where no road had been — narrow-gauge rails laid into the virgin pine forest, pulling out the timber and creating towns that lasted only as long as the trees did. When the rails were pulled up, {ancestor_name}'s community disappeared from the map.",
+    "The Tyler-to-Marshall corridor connected {ancestor_name}'s world by paved highway in the {decade}s — a two-hour drive that had been a three-day wagon trip a generation before.",
+    "The oil field carved roads into the pine woods overnight — {ancestor_name} could drive to the lease on roads that had not existed six months earlier, through a landscape the derricks had remade."
+  ],
+  "source_references": [
+    "Maxwell, Robert S., and Robert D. Baker. Sawdust Empire: The Texas Lumber Industry, 1830-1940. College Station: Texas A&M University Press, 1983.",
+    "Olien, Roger M., and Diana Davids Olien. Oil in Texas: The Gusher Age, 1895-1945. Austin: University of Texas Press, 2002.",
+    "Jordan, Terry G. Trails to Texas: Southern Roots of Western Cattle Ranching. Lincoln: University of Nebraska Press, 1981.",
+    "Jackson, Jack. Los Mesteños: Spanish Ranching in Texas, 1721-1821. College Station: Texas A&M University Press, 1986.",
+    "Reed, S. G. A History of the Texas Railroads. Houston: St. Clair Publishing, 1941.",
+    "Sitton, Thad, and James H. Conrad. Nameless Towns: Texas Sawmill Communities, 1880-1942. Austin: University of Texas Press, 1998."
+  ],
+  "nel_cross_references": {
+    "route_refs": [
+      "southern_pacific",
+      "missouri_kansas_texas"
+    ],
+    "trigger_refs": [
+      "antebellum_yeoman_south",
+      "domestic_slave_trade",
+      "gold_rush_mining_boom",
+      "reconstruction_era"
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Washington County, NC. Record survival, courthouse history. Battle of Plymouth damage.",
+  "courthouse_atlas_id": "nc_washington_courthouse",
+  "display_name": "Washington County, North Carolina — Courthouse Atlas",
+  "county": "Washington",
+  "state": "NC",
+  "fips_code": "37187",
+  "cluster_ref": "ne_nc_tidewater_albemarle",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1874,
+      "location": "Plymouth, NC — Third Street",
+      "records_housed": ["deeds", "plats", "vital records indexes", "court minutes post-1865", "estate files"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1799–1864",
+        "location": "Plymouth, NC — earlier courthouse",
+        "fate": "Damaged during the Battle of Plymouth (April 1864). Some records lost or damaged during the battle and subsequent Confederate occupation. Replaced by the 1874 courthouse."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "washington_battle_of_plymouth_1864",
+      "date": "1864-04",
+      "cause": "Battle of Plymouth — Civil War",
+      "records_destroyed": ["some loose papers", "scattered court records", "some justice of the peace dockets"],
+      "records_survived": ["most deed books", "most will books", "most marriage bonds"],
+      "scope": "partial",
+      "description": "The Battle of Plymouth (April 17-20, 1864) was the largest Confederate victory in eastern NC. The CSS Albemarle attacked Union gunboats while Confederate infantry stormed the town's earthworks. The fighting damaged buildings throughout Plymouth, and the courthouse area was in the zone of combat. Some loose papers and minor court records were lost or damaged. The bound volumes — deeds, wills, marriage bonds — largely survived, though some show damage from that period. The town changed hands again in October 1864.",
+      "narrative_impact": "The Battle of Plymouth damaged some records, but the bound volumes largely survived. Gaps in {ancestor_name}'s documentary trail in Washington County around the 1860s may reflect battle damage, but are more likely due to the general chaos of wartime disruption — families displaced, courts closed, normal recordkeeping suspended.",
+      "source": "Barrett, John G. The Civil War in North Carolina. Chapel Hill: UNC Press, 1963."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1799,
+      "completeness": "Good — generally continuous from county formation despite Civil War damage",
+      "gaps": "Some volumes from the 1860s show physical damage. No complete loss of deed books.",
+      "repository": "Washington County Register of Deeds, Plymouth; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com NC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1799,
+      "completeness": "Good — wills and estate records survive from county formation",
+      "gaps": "Some loose estate papers from the Civil War period are missing. Bound will books intact.",
+      "repository": "Washington County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1799,
+      "completeness": "Good — marriage bonds from county formation",
+      "gaps": "Bonds more complete than registers.",
+      "repository": "Washington County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com NC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1799,
+      "completeness": "Partial — some court minutes from the Civil War period are damaged or incomplete",
+      "gaps": "Gaps in the 1860s reflecting wartime disruption.",
+      "repository": "NC State Archives; Washington County Clerk of Court",
+      "online_access": "NC State Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Spotty until approximately 1920.",
+      "repository": "NC Office of Vital Records; NC State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1800-1940. Washington County enumerated from the second federal census.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1800-1940",
+      "genealogical_value": "Essential for tracking families, especially across the Civil War divide. The 1870 census is particularly valuable for documenting formerly enslaved families.",
+      "source": "National Archives. Federal Census Schedules, Washington County, NC."
+    },
+    {
+      "source_type": "Union military records — Plymouth garrison",
+      "description": "Union forces occupied Plymouth from 1862-1864, and the garrison generated records — muster rolls, hospital records, and prisoner-of-war records from the battle. The 85th New York Infantry was captured at Plymouth.",
+      "repository": "National Archives; state military archives",
+      "era_coverage": "1862-1865",
+      "genealogical_value": "If {ancestor_name} was associated with the Union garrison or the Freedmen's Bureau in Plymouth, military records may supplement the damaged courthouse record.",
+      "source": "National Archives. Union military records, Plymouth, NC garrison."
+    },
+    {
+      "source_type": "Freedmen's Bureau records",
+      "description": "The Freedmen's Bureau maintained records for Washington County including labor contracts and family documentation.",
+      "repository": "National Archives (Record Group 105); FamilySearch digitization",
+      "era_coverage": "1865-1872",
+      "genealogical_value": "Critical for Black families transitioning from slavery to freedom in a county where over half the antebellum population was enslaved.",
+      "source": "Records of the Bureau of Refugees, Freedmen, and Abandoned Lands. National Archives, RG 105."
+    }
+  ],
+  "narrative_hooks": [
+    "The Battle of Plymouth in April 1864 brought an ironclad ram and a full Confederate assault to {ancestor_name}'s county seat — the courthouse survived, but some records did not, and the gaps in the documentary trail from the 1860s may trace directly to that battle.",
+    "Washington County's records begin in 1799 and largely survived the Civil War despite the Battle of Plymouth — if {ancestor_name} owned land or filed a will here, the record probably still exists.",
+    "For enslaved ancestors in Washington County, the Freedmen's Bureau records are the bridge — labor contracts and marriage registrations that first document people as named individuals with families.",
+    "If {ancestor_name}'s court record from the 1860s is missing in Washington County, the Battle of Plymouth is the most likely explanation — the town changed hands twice in 1864, and records do not survive combat intact.",
+    "Before 1913, no North Carolina county required birth registration. In Washington County, where poverty and isolation compounded the problem, the census is often the only source for a birth date."
+  ],
+  "source_references": [
+    "Barrett, John G. The Civil War in North Carolina. Chapel Hill: University of North Carolina Press, 1963.",
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Records of the Bureau of Refugees, Freedmen, and Abandoned Lands. National Archives, RG 105.",
+    "National Archives. Federal Census Schedules, Washington County, NC.",
+    "Elliott, Robert G. Ironclad of the Roanoke: Gilbert Elliott's Albemarle. Shippensburg, PA: White Mane Publishing, 1994."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_washington",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records", "freedmens_bureau_research"],
+    "template_refs": ["record_silences"]
+  }
+}

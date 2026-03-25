@@ -1,0 +1,120 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse & Records Survival Atlas for Bristol County, MA. Records survival is excellent. Bristol County absorbed parts of Plymouth Colony territory in 1685. Town clerks hold vital records per Massachusetts's town-based system. Whaling-era records at New Bedford and Fall River textile records are significant substitute sources.",
+  "courthouse_atlas_id": "ma_bristol_courthouse",
+  "display_name": "Bristol County, Massachusetts — Courthouse Atlas",
+  "county": "Bristol",
+  "state": "MA",
+  "fips_code": "25005",
+  "cluster_ref": "ma_eastern_colonial",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1894,
+      "location": "Taunton, MA — Court Street. Additional court facilities in New Bedford and Fall River.",
+      "records_housed": ["deeds from 1686", "probate from 1686", "court records", "naturalization records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1685-1894",
+        "location": "Taunton and Bristol (original county seat was Bristol, RI — transferred to Taunton after RI border adjustment)",
+        "fate": "Replaced by current structure. Some early records transferred when the county seat moved."
+      }
+    ],
+    "special_note": "Bristol County's territory originally extended into Rhode Island (Bristol, Warren, Barrington were part of Massachusetts until the 1746/1747 boundary settlement). Some early Bristol County records reference locations now in Rhode Island. Vital records are held by individual town clerks."
+  },
+  "record_losses": [
+    {
+      "loss_id": "bristol_no_major_losses",
+      "date": "N/A",
+      "cause": "No major courthouse losses",
+      "records_destroyed": [],
+      "records_survived": ["deeds", "probate", "court minutes", "naturalization records"],
+      "scope": "none significant",
+      "description": "Bristol County has not experienced major courthouse fires or record destruction. The land and probate records are continuous from 1686. Individual town vital records have occasional gaps, particularly in smaller towns during the earliest settlement period.",
+      "narrative_impact": "Bristol County's record survival is strong. Gaps in {ancestor_name}'s trail are more likely due to the family's social position or the inherent difficulty of tracking maritime families who spent years at sea than to record destruction.",
+      "source": "Bristol County Registry of Deeds. Institutional records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1686,
+      "completeness": "Excellent — continuous from county formation under the Province charter.",
+      "gaps": "None significant. Some very early records reference Bristol, RI locations that are now in a different state.",
+      "repository": "Bristol County Registry of Deeds, Taunton (Northern District) and New Bedford (Southern District)",
+      "online_access": "MassLandRecords.com; FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1686,
+      "completeness": "Excellent from formation.",
+      "gaps": "None significant.",
+      "repository": "Bristol County Probate and Family Court, Taunton",
+      "online_access": "FamilySearch microfilm; Ancestry.com"
+    },
+    "marriages": {
+      "earliest_surviving": 1636,
+      "completeness": "Town-level records from earliest settlement. Taunton records from 1637, Rehoboth from 1643, Dartmouth (later New Bedford) from 1664. State copies from 1841.",
+      "gaps": "Some smaller towns have incomplete early records.",
+      "repository": "Individual town clerks; published Vital Records series; State Archives",
+      "online_access": "AmericanAncestors.org; FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1686,
+      "completeness": "Good from county formation.",
+      "gaps": "Minimal.",
+      "repository": "Massachusetts State Archives; Bristol County court system",
+      "online_access": "Limited digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1636,
+      "death_registration_start": 1636,
+      "completeness": "Town-level from earliest settlement. Published vital records volumes cover most towns to 1850.",
+      "repository": "Individual town clerks; State Registry of Vital Records (from 1841)",
+      "special_note": "New Bedford town records are especially important for tracking whaling families — many seamen's births, marriages, and deaths were recorded in New Bedford even when the events occurred elsewhere."
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "New Bedford Whaling Museum archives",
+      "description": "The world's largest archive of American whaling history. Crew lists, logbooks, ship registers, and business records of whaling firms document tens of thousands of individuals who shipped from New Bedford.",
+      "repository": "New Bedford Whaling Museum, New Bedford, MA",
+      "era_coverage": "1760s-1920s",
+      "genealogical_value": "Crew lists name every person who shipped on a whaling voyage — name, age, birthplace, race, and physical description. For maritime ancestors, these records may be the most detailed personal descriptions available.",
+      "source": "New Bedford Whaling Museum. Guide to Collections."
+    },
+    {
+      "source_type": "Fall River textile mill records",
+      "description": "Employment records, payroll records, and company housing records from Fall River's textile mills. Some survive at the Fall River Historical Society and the University of Massachusetts Dartmouth.",
+      "repository": "Fall River Historical Society; UMass Dartmouth Claire T. Carney Library",
+      "era_coverage": "1870s-1930s",
+      "genealogical_value": "Employment records can place an ancestor in a specific mill at a specific time, supplementing census records and vital records.",
+      "source": "Fall River Historical Society. Guide to Manuscript Collections."
+    },
+    {
+      "source_type": "Portuguese and Cape Verdean community records",
+      "description": "Portuguese-language church records, mutual aid society records, and community organization archives document the large Portuguese and Cape Verdean communities in New Bedford and Fall River.",
+      "repository": "Center for Portuguese Studies, UMass Dartmouth; individual parishes; New Bedford Free Public Library",
+      "era_coverage": "1860s-present",
+      "genealogical_value": "Critical for tracing Portuguese and Cape Verdean families. Records in Portuguese may require translation. Church records include baptisms, marriages, and funerals not always reflected in town vital records.",
+      "source": "Center for Portuguese Studies and Culture, UMass Dartmouth. Guide to Holdings."
+    }
+  ],
+  "narrative_hooks": [
+    "If {ancestor_name} shipped on a whaler out of New Bedford, the crew list that documents {pronoun_possessive} voyage survives at the Whaling Museum — name, age, birthplace, and physical description, written down before the ship cleared the harbor.",
+    "Bristol County's earliest records reference places that are now in Rhode Island — if {ancestor_name} appeared in Bristol County before 1747, the location may be modern-day Bristol or Warren, RI, not anywhere in Massachusetts.",
+    "The town clerk of {town}, not the county courthouse in Taunton, holds {ancestor_name}'s birth record — Massachusetts has kept vital records at the town level since the 1630s, and that system has never changed.",
+    "Fall River's mill records can place {ancestor_name} at a specific loom in a specific mill — employment records that survive at the Fall River Historical Society document the immigrant workforce that powered the city's textile industry."
+  ],
+  "source_references": [
+    "Bristol County Registry of Deeds. Institutional records.",
+    "New Bedford Whaling Museum. Guide to Collections. New Bedford, MA.",
+    "Fall River Historical Society. Guide to Manuscript Collections. Fall River, MA.",
+    "Massachusetts State Archives. Guide to Public Records. Boston.",
+    "Center for Portuguese Studies and Culture, UMass Dartmouth. Guide to Holdings."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ma_bristol",
+    "research_guidance_refs": ["new_england_town_records", "colonial_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

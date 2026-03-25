@@ -1,0 +1,50 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Washington County, NY. Formed 1772 from Albany County (originally as Charlotte County, renamed 1784). No major fire. Strong New England-pattern record-keeping. Quaker meeting records are a key substitute source.",
+  "courthouse_atlas_id": "ny_washington_courthouse",
+  "display_name": "Washington County, New York — Courthouse Atlas",
+  "county": "Washington",
+  "state": "NY",
+  "fips_code": "36115",
+  "cluster_ref": "ny_hudson_valley",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1873, "location": "Fort Edward, NY — Upper Broadway (county seat shared administratively with Hudson Falls)", "records_housed": ["deeds", "mortgages", "wills", "court minutes", "naturalization records"] },
+    "previous_courthouses": [
+      { "era": "1772-1788", "location": "Various locations — county disrupted by Revolutionary War frontier warfare", "fate": "The county was originally named Charlotte County (for the Queen). Renamed Washington County in 1784. Revolutionary War frontier raids from Canada disrupted civil administration." },
+      { "era": "1788-1873", "location": "Salem, then Fort Edward (county seat moved 1847)", "fate": "Frame and stone courthouses. No significant fire damage." }
+    ]
+  },
+  "record_losses": [
+    { "loss_id": "washington_rev_war_disruption", "date": "1777-1783", "cause": "Revolutionary War frontier warfare disrupted record-keeping", "records_destroyed": ["Some scattered early papers may have been lost during raids and evacuations"], "records_survived": ["Most deed books and court records survived the war period"], "scope": "minor", "description": "Washington County (then Charlotte County) was on the frontier during the Revolution. British and Loyalist raids from Canada drove settlers south, and civil administration was disrupted for several years. Most recorded volumes survived, but some loose papers and early minutes may have been lost. The county clerk's office was not specifically targeted.", "narrative_impact": "If {ancestor_name} lived in Washington County during the Revolution, records from the 1777-1783 period may be incomplete — not from fire but from the chaos of frontier warfare that scattered families and disrupted government.", "source": "Stone, William L. Washington County, New York: Its History to the Close of the Nineteenth Century. New York: New York History Company, 1901." }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1773, "completeness": "Good from near the county's formation. The earliest volumes show some gaps from Revolutionary War disruption.", "gaps": "Pre-1772 records under Albany County.", "repository": "Washington County Clerk's Office, Fort Edward; NY State Archives", "online_access": "FamilySearch; Ancestry.com" },
+    "wills_estates": { "earliest_surviving": 1788, "completeness": "Good from the post-Revolution period.", "gaps": "Pre-Revolution probate records are sparse.", "repository": "Washington County Surrogate's Court; NY State Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1847, "completeness": "Standard NY pattern.", "gaps": "Pre-1880 civil registration sparse. Quaker and Congregational church records fill the gap.", "repository": "Town clerks; NY State Department of Health", "online_access": "FamilySearch; Ancestry.com" },
+    "court_minutes": { "earliest_surviving": 1773, "completeness": "Fair — Revolutionary War era has gaps.", "gaps": "1777-1783 period disrupted.", "repository": "Washington County Clerk's Office; NY State Archives", "online_access": "Limited" },
+    "vital_records": { "birth_registration_start": 1880, "death_registration_start": 1880, "completeness": "Standard NY pattern.", "repository": "Town clerks; NY State Department of Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "Quaker meeting records (Easton, Saratoga Quarter)", "description": "The Society of Friends maintained meetings in Washington County from the 1770s. Meeting records include birth, marriage, death, removal certificates, and disciplinary minutes.", "repository": "Haviland Records Room, New York Yearly Meeting; Swarthmore College Friends Historical Library", "era_coverage": "1770s-present", "genealogical_value": "Exceptional. Quaker removal certificates document migration with precision — stating where a family came from and where they went. Hinshaw's Encyclopedia abstracts many Washington County entries.", "source": "Hinshaw, William Wade. Encyclopedia of American Quaker Genealogy. Ann Arbor: Edwards Brothers, 1936." },
+    { "source_type": "New England town records (transferred)", "description": "Washington County settlers from New England brought town-meeting governance. Town records include vital statistics, road records, poor relief, and militia lists from the late 18th century.", "repository": "Washington County town clerks; NY State Archives", "era_coverage": "1780s-present", "genealogical_value": "Valuable. New England-pattern town records are more detailed than typical NY town records because the settlers brought their record-keeping traditions.", "source": "Stone, William L. Washington County, New York. New York History Company, 1901." },
+    { "source_type": "Champlain Canal company records", "description": "Canal construction and operation records from the 1820s onward.", "repository": "NY State Archives; Washington County Historical Society", "era_coverage": "1823-1880s", "genealogical_value": "Useful for identifying canal workers and their families.", "source": "Whitford, Noble E. History of the Canal System of the State of New York. Albany: State of New York, 1906." }
+  ],
+  "narrative_hooks": [
+    "Washington County was originally Charlotte County — named for the Queen — and renamed after the Revolution. {ancestor_name}'s pre-1784 records are filed under 'Charlotte County' in the earliest volumes.",
+    "Quaker meeting records in Washington County are among the most genealogically valuable sources in the region — {ancestor_name}'s removal certificate documents where the family came from and where they went.",
+    "Revolutionary War frontier raids disrupted Washington County's civil administration — {ancestor_name}'s records from the 1777-1783 period may be incomplete because the government could barely function while the county was a war zone.",
+    "Washington County's New England settlers brought New England record-keeping — town records here are more detailed than in most NY counties because the Yankees who settled the county insisted on documenting everything."
+  ],
+  "source_references": [
+    "Stone, William L. Washington County, New York: Its History to the Close of the Nineteenth Century. New York: New York History Company, 1901.",
+    "Hinshaw, William Wade. Encyclopedia of American Quaker Genealogy. Ann Arbor: Edwards Brothers, 1936.",
+    "Whitford, Noble E. History of the Canal System of the State of New York. Albany: State of New York, 1906.",
+    "New York State Archives. Guide to Records in the New York State Archives. Albany, 1993."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ny_washington",
+    "research_guidance_refs": ["property_records", "church_transfers"],
+    "template_refs": ["record_silences"]
+  }
+}

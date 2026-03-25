@@ -1,0 +1,114 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Gloucester County, NJ. Record survival, courthouse history, and known losses. Gloucester is one of the original four counties of West Jersey (1686). Its records include pre-Camden County material (before 1844 split) and some of the oldest Swedish colonial documentation in the Delaware Valley.",
+  "courthouse_atlas_id": "nj_gloucester_courthouse",
+  "display_name": "Gloucester County, New Jersey — Courthouse Atlas",
+  "county": "Gloucester",
+  "state": "NJ",
+  "fips_code": "34015",
+  "cluster_ref": "nj_delaware_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1885,
+      "location": "Woodbury, NJ — North Broad Street",
+      "records_housed": ["deeds", "mortgages", "wills", "surrogate court records", "marriage licenses", "court minutes", "naturalizations"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1686–1787",
+        "location": "Gloucester Town (now Gloucester City) — the original county seat",
+        "fate": "County seat moved to Woodbury in 1787. Records transferred."
+      },
+      {
+        "era": "1787–1885",
+        "location": "Woodbury — earlier courthouse building",
+        "fate": "Replaced by current 1885 building. No major record loss."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "gloucester_no_major_loss",
+      "date": null,
+      "cause": "No major fire or disaster",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1686", "will books from 1686", "court minutes from 1686", "marriage licenses from 1795"],
+      "scope": "none",
+      "description": "Gloucester County's records are among the most complete in New Jersey, surviving from the county's 1686 formation. The records include material for what is now Camden County (which was carved from Gloucester in 1844). No major fire or flood has destroyed courthouse records. Some very early records are in fragile condition.",
+      "narrative_impact": "If {ancestor_name} lived in Gloucester County — or in what became Camden County — at any point after 1686, the records almost certainly survive at Woodbury. The pre-1844 Camden area records are here.",
+      "source": "Gloucester County Clerk's Office."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1686,
+      "completeness": "Excellent — continuous from county formation. Includes pre-1844 Camden County territory.",
+      "gaps": "No significant gaps. Very early deeds in fragile condition.",
+      "repository": "Gloucester County Clerk's Office, Woodbury; NJ State Archives",
+      "online_access": "FamilySearch microfilm; limited Ancestry.com"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1686,
+      "completeness": "Very good from formation.",
+      "gaps": "Some early loose papers fragmentary.",
+      "repository": "Gloucester County Surrogate's Office; NJ State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1795,
+      "completeness": "Good from 1795. Earlier marriages in church records.",
+      "gaps": "No civil records before 1795.",
+      "repository": "Gloucester County Clerk's Office",
+      "online_access": "FamilySearch; Ancestry.com NJ marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1686,
+      "completeness": "Very good from formation.",
+      "gaps": "Minor condition issues with earliest volumes.",
+      "repository": "Gloucester County Clerk's Office; NJ State Archives",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1848,
+      "death_registration_start": 1848,
+      "completeness": "Spotty until 1900.",
+      "repository": "NJ State Archives; NJ Department of Health"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Swedish colonial records",
+      "description": "The earliest European settlement in Gloucester County was Swedish/Finnish (1640s). Swedish church records from Gloria Dei (Old Swedes') Church and Holy Trinity (Old Swedes') at Swedesboro document the earliest European families. These records are in Swedish and English.",
+      "repository": "Swedish Colonial Society; Gloria Dei Church, Philadelphia; Holy Trinity (Old Swedes') Church, Swedesboro; NJ State Archives",
+      "era_coverage": "1640s–1800",
+      "genealogical_value": "Critical for families with Swedish or Finnish colonial roots. The Swedish church records predate any English civil records in the area by decades.",
+      "source": "Johnson, Amandus. The Swedish Settlements on the Delaware. 2 vols. Philadelphia: University of Pennsylvania, 1911."
+    },
+    {
+      "source_type": "Quaker meeting records",
+      "description": "Gloucester Monthly Meeting, Haddonfield Meeting, and Woodbury Meeting serve Gloucester County. Records include births, marriages, deaths, removals, and disciplinary minutes.",
+      "repository": "Friends Historical Library, Swarthmore College; Gloucester County Historical Society",
+      "era_coverage": "1686–present",
+      "genealogical_value": "Essential for Quaker families. Removal certificates track migration between meetings.",
+      "source": "Hinshaw, Encyclopedia of American Quaker Genealogy (1938)."
+    }
+  ],
+  "narrative_hooks": [
+    "Gloucester County holds the records for both itself and pre-1844 Camden County — if {ancestor_name} lived anywhere in the original Gloucester territory, the records are at Woodbury.",
+    "Swedish colonial records predate the English records by decades — if {ancestor_name} had Swedish or Finnish roots, the church register at Old Swedes' holds documentation the county courthouse cannot match.",
+    "Gloucester County's records run from 1686 — over three centuries of continuous documentation. Gaps in {ancestor_name}'s record point to circumstance, not loss.",
+    "Quaker meeting records at Haddonfield and Woodbury supplement the civil records — if {ancestor_name} was a Friend, the meeting minutes are likely more detailed than anything at the courthouse."
+  ],
+  "source_references": [
+    "Gloucester County Clerk's Office. Guide to Gloucester County Records.",
+    "Johnson, Amandus. The Swedish Settlements on the Delaware. 2 vols. Philadelphia: University of Pennsylvania, 1911.",
+    "Hinshaw, William Wade. Encyclopedia of American Quaker Genealogy, Vol. 2. Ann Arbor: Edwards Brothers, 1938.",
+    "Cushing, Thomas, and Charles E. Sheppard. History of the Counties of Gloucester, Salem, and Cumberland, New Jersey. Philadelphia: Everts and Peck, 1883."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nj_gloucester",
+    "research_guidance_refs": ["quaker_records", "property_records"],
+    "template_refs": ["record_silences", "document_deep_read"]
+  }
+}

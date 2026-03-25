@@ -1,0 +1,56 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Madison County, KY. Formed 1786 from Lincoln County. Records begin from formation. A fire in 1865 damaged some records during the turbulent postwar period. Berea College archives provide supplementary sources for eastern Madison County families.",
+  "courthouse_atlas_id": "ky_madison_courthouse",
+  "display_name": "Madison County, Kentucky — Courthouse Atlas",
+  "county": "Madison",
+  "state": "KY",
+  "fips_code": "21151",
+  "cluster_ref": "ky_bluegrass",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1962, "location": "Richmond, KY — Main Street", "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court orders"] },
+    "previous_courthouses": [
+      { "era": "1786-1840s", "location": "Richmond, early courthouses", "fate": "Replaced. Records transferred." },
+      { "era": "1840s-1865", "location": "Richmond, Main Street", "fate": "Fire in 1865 damaged some records. Extent of loss debated — most bound volumes survived." },
+      { "era": "1865-1962", "location": "Richmond, rebuilt", "fate": "Replaced by current building." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "madison_1865_fire",
+      "date": "1865",
+      "cause": "Fire — circumstances unclear, possibly related to postwar turbulence",
+      "records_destroyed": ["some loose court papers", "some early tax lists"],
+      "records_survived": ["most deed books", "will books", "marriage bonds", "many court order books"],
+      "scope": "partial",
+      "description": "A fire in 1865 damaged some Madison County records. The bound deed and will books largely survived, but some loose papers and early tax records were lost. The Battle of Richmond (1862) did not directly damage the courthouse, but the war's disruption affected record-keeping in the 1862-1865 period.",
+      "narrative_impact": "If {ancestor_name}'s records in Madison County show gaps around 1865, the fire may be responsible. Federal census records and Berea College archives are valuable substitutes.",
+      "source": "Kentucky Department for Libraries and Archives. Guide to Kentucky County Court Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1786, "completeness": "Good — most deed books survived the 1865 fire.", "gaps": "Some gaps in earliest records. Verify at KDLA.", "repository": "Madison County Clerk; KDLA microfilm", "online_access": "FamilySearch microfilm; Ancestry.com" },
+    "wills_estates": { "earliest_surviving": 1786, "completeness": "Good — will books from formation.", "gaps": "Some loose estate papers lost.", "repository": "Madison County Clerk; KDLA", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1786, "completeness": "Good — bonds from formation.", "gaps": "Ministers' returns sporadic before 1852.", "repository": "Madison County Clerk; KDLA", "online_access": "FamilySearch; Ancestry.com" },
+    "court_minutes": { "earliest_surviving": 1786, "completeness": "Partial — some court order books affected by 1865 fire.", "gaps": "Verify specific volumes at KDLA.", "repository": "KDLA; Madison County Clerk", "online_access": "KDLA microfilm" },
+    "vital_records": { "birth_registration_start": 1911, "death_registration_start": 1911, "completeness": "Spotty until 1915.", "repository": "Kentucky Cabinet for Health and Family Services; KDLA" }
+  },
+  "substitute_sources": [
+    { "source_type": "Berea College archives", "description": "Berea College maintained records of students, community members, and institutional activities that document Madison County families — particularly those from the mountain-edge eastern part of the county. Interracial enrollment records are unique.", "repository": "Berea College Special Collections, Berea, KY", "era_coverage": "1855-present", "genealogical_value": "Identifies families, particularly mountain and Black families, who may not appear prominently in courthouse records.", "source": "Peck, Berea's First 125 Years (1982)." },
+    { "source_type": "Battle of Richmond military records", "description": "Federal and Confederate military records for the Battle of Richmond (August 29-30, 1862) document units, casualties, and prisoners.", "repository": "National Archives; Kentucky Military History Museum", "era_coverage": "1862", "genealogical_value": "Identifies men present at the battle. Over 4,800 Union casualties (mostly captured) and hundreds of Confederate casualties.", "source": "Lambert, When the Ripe Pears Fell (1995)." },
+    { "source_type": "Federal census schedules", "description": "Population schedules 1790-1940. Slave schedules 1850-1860.", "repository": "National Archives; FamilySearch; Ancestry.com", "era_coverage": "1790-1940", "genealogical_value": "Essential baseline source.", "source": "National Archives and Records Administration." }
+  ],
+  "narrative_hooks": [
+    "The 1865 fire in Madison County damaged some records — if {ancestor_name}'s paper trail goes thin around that date, the fire is a likely explanation.",
+    "Berea College archives document families the courthouse may miss — if {ancestor_name} had ties to the mountain-edge communities of eastern Madison County, Berea's records are a crucial supplement.",
+    "The Battle of Richmond in August 1862 produced 4,800 Union casualties — if {ancestor_name} was among them, the military records at the National Archives may document a capture, wound, or death the courthouse never recorded.",
+    "Madison County was formed from Lincoln County in 1786 — {ancestor_name}'s pre-formation records are filed under Lincoln County at KDLA."
+  ],
+  "source_references": [
+    "Kentucky Department for Libraries and Archives. Guide to Kentucky County Court Records.",
+    "Lambert, D. Warren. When the Ripe Pears Fell. Richmond, KY: Madison County Historical Society, 1995.",
+    "Peck, Elisabeth S. Berea's First 125 Years. Lexington: University Press of Kentucky, 1982."
+  ],
+  "nel_cross_references": { "layer1_county_profile_ref": "ky_madison", "research_guidance_refs": ["southern_courthouse_research"], "template_refs": ["record_silences"] }
+}

@@ -1,0 +1,49 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Montgomery County, NC. Record survival and courthouse history for the Uwharrie Mountain county — formed 1779 from Anson.",
+  "courthouse_atlas_id": "nc_montgomery_courthouse",
+  "display_name": "Montgomery County, North Carolina — Courthouse Atlas",
+  "county": "Montgomery",
+  "state": "NC",
+  "fips_code": "37123",
+  "cluster_ref": "nc_sandhills_upper_cape_fear",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1937, "location": "Troy, NC", "records_housed": ["deeds", "plats", "vital records indexes", "court minutes", "estate files"] },
+    "previous_courthouses": [
+      { "era": "1779–1843", "location": "Various early locations; Lawrenceville was an early seat", "fate": "County seat moved to Troy in 1843." },
+      { "era": "1843–1937", "location": "Troy — successive frame and brick courthouses", "fate": "Replaced by the current WPA-era building in 1937. No catastrophic fire documented." }
+    ]
+  },
+  "record_losses": [
+    { "loss_id": "montgomery_early_gaps", "date": "1779–1820", "cause": "Frontier conditions and county seat relocations", "records_destroyed": ["Some early court records may have been lost or damaged during county seat moves"], "records_survived": ["Deed books from 1779", "Will books from 1780s", "Court minutes (most)"], "scope": "partial", "description": "Montgomery County's earliest records reflect the challenges of frontier record-keeping in the Uwharrie back-country. The county seat moved before settling at Troy in 1843, and some records may have been damaged or lost in transit. However, the bound deed books and will books survive from near the county's formation, making Montgomery County's records reasonably complete.", "narrative_impact": "Montgomery County's early records are thin but present. If {ancestor_name}'s record trail goes cold before 1820, frontier informality — not a fire or flood — is the likely explanation.", "source": "NC State Archives. Guide to County Records." }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1779, "completeness": "Good from formation. Early entries sparse.", "gaps": "No known volume-level gaps.", "repository": "Montgomery County Register of Deeds, Troy; NC State Archives microfilm", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1782, "completeness": "Good from the 1780s.", "gaps": "Very early estates may be incomplete.", "repository": "Montgomery County Clerk of Court; NC State Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1783, "completeness": "Good from the 1780s.", "gaps": "Pre-1783 marriages not documented as separate series.", "repository": "Montgomery County Register of Deeds; NC State Archives", "online_access": "FamilySearch; Ancestry.com NC marriages" },
+    "court_minutes": { "earliest_surviving": 1779, "completeness": "Fair — early volumes thin but present.", "gaps": "Possible gaps in earliest years.", "repository": "NC State Archives; Montgomery County Clerk of Court", "online_access": "NC State Archives microfilm" },
+    "vital_records": { "birth_registration_start": 1913, "death_registration_start": 1913, "completeness": "Spotty until approximately 1920.", "repository": "NC Office of Vital Records; NC State Archives" }
+  },
+  "substitute_sources": [
+    { "source_type": "Anson County records (pre-1779)", "description": "Montgomery County was formed from Anson in 1779. Records before that date are in Anson County at Wadesboro.", "repository": "Anson County Register of Deeds, Wadesboro; NC State Archives", "era_coverage": "1750–1779", "genealogical_value": "Essential for pre-Revolutionary families in the Uwharrie region.", "source": "NC State Archives. Guide to County Records." },
+    { "source_type": "Gold mining records", "description": "Montgomery County's gold mining era (1790s-1840s) generated mining claims, partnership agreements, and related court records. Some survive in the county court minutes and in state records.", "repository": "NC State Archives; Montgomery County Clerk of Court; NC Geological Survey historical files", "era_coverage": "1790s–1850s", "genealogical_value": "Mining records may document ancestors who appear in no other sources. Claims and partnerships name individuals and their associates.", "source": "Knapp, Richard F. Golden Promise in the Piedmont. NC Division of Archives and History, 1975." },
+    { "source_type": "Federal census from 1790", "description": "Montgomery County was enumerated in every federal census from 1790.", "repository": "National Archives; FamilySearch; Ancestry.com", "era_coverage": "1790–1940", "genealogical_value": "Continuous documentation. The county's small, stable population makes census tracking relatively straightforward.", "source": "National Archives. Federal Census Schedules, Montgomery County, NC." }
+  ],
+  "narrative_hooks": [
+    "Montgomery County's records reach back to 1779 — if {ancestor_name} was among the early settlers in the Uwharrie back-country, the deed books and court minutes may preserve {pronoun_possessive} name from the Revolutionary era.",
+    "The gold mining claims filed in Montgomery County's court records in the 1830s-1840s may be the only documentation for {ancestor_name}'s time in the Uwharries — mining records survive when other records do not.",
+    "Before Montgomery County existed, this was Anson County — if {ancestor_name} was here before 1779, the records begin in Wadesboro.",
+    "Montgomery County's records are reasonably complete despite the county seat's relocation to Troy in 1843 — the bound volumes survived the move, though some loose papers may not have."
+  ],
+  "source_references": [
+    "Knapp, Richard F. Golden Promise in the Piedmont: The Story of John Reed's Mine. Raleigh: NC Division of Archives and History, 1975.",
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Leary, Helen F. M., ed. North Carolina Research: Genealogy and Local History. 2nd ed. Raleigh: North Carolina Genealogical Society, 1996."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_montgomery",
+    "research_guidance_refs": ["southern_courthouse_research", "colonial_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

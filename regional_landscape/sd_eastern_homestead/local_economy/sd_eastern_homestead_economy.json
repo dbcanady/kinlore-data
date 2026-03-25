@@ -1,0 +1,224 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Local economy timeline for the SD Eastern Homestead regional cluster (Minnehaha, Brookings, Beadle, Brown, Yankton, Bon Homme, Codington, Davison counties). Covers 1860-1940 across four economic eras — from territorial frontier through the Dust Bowl. Railroad-driven settlement, the Great Dakota Boom and Bust, ethnic agricultural colonies, and the brutal cycle of wet-year optimism and drought collapse.",
+  "economy_id": "sd_eastern_homestead_economy",
+  "display_name": "SD Eastern Homestead — Local Economy Timeline",
+  "cluster_ref": "sd_eastern_homestead",
+  "era_range": "1860-1940",
+  "economic_eras": [
+    {
+      "era_id": "territorial_frontier",
+      "era_name": "Territorial Frontier — Missouri River Gateway",
+      "date_range": "1858-1878",
+      "dominant_economy": "Military provisioning, steamboat commerce, subsistence farming, and fur trade remnants along the Missouri River corridor",
+      "description": "The economy of southeastern Dakota Territory before the railroad was defined by the Missouri River. Yankton, the territorial capital from 1861, was the entry point for settlers, supplies, and government business arriving by steamboat from Sioux City and St. Louis. Fort Randall, established in 1856, provided the only reliable cash market — selling hay, grain, and timber to the military quartermaster was one of the few ways to earn actual currency. The fur trade was in decline but not yet dead. Bon Homme County received the earliest agricultural settlement, with Czech families at Tabor (1869) and Hutterite communal colonies (1874) establishing permanent farms before the railroad arrived. The economy was subsistence-plus: families grew enough to feed themselves and sold small surpluses to the military, to Yankton merchants, or to arriving settlers. There was almost no manufacturing and no financial infrastructure beyond the territorial government and a few merchant houses in Yankton.",
+      "county_specifics": [
+        { "county": "Yankton", "note": "Territorial capital and steamboat landing. The town had lawyers, merchants, newspapers, and a federal presence. The closest thing to an urban economy in the cluster before 1880." },
+        { "county": "Bon Homme", "note": "Earliest agricultural settlement. Czech families at Tabor and Hutterite colonies established permanent diversified farming before the railroad era. The Hutterites practiced communal agriculture with no private property — a fundamentally different economic model than individual homesteading." },
+        { "county": "Minnehaha", "note": "Sioux Falls was established in the 1850s near the falls of the Big Sioux River, but settlement was interrupted by the Dakota War of 1862. Resettlement began in the late 1860s." },
+        { "county": "Brookings", "note": "Essentially unsettled by whites until the late 1870s. The land was Sisseton-Wahpeton Dakota territory." },
+        { "county": "Beadle", "note": "Unsettled by whites. The James River corridor would not attract homesteaders until the railroad arrived." },
+        { "county": "Brown", "note": "Unsettled by whites. No town existed where Aberdeen would later stand." },
+        { "county": "Codington", "note": "Unsettled by whites until the late 1870s, when the railroad's approach triggered early land claims." },
+        { "county": "Davison", "note": "Sparsely settled before the railroad. Mitchell did not exist until 1880." }
+      ],
+      "key_infrastructure": [
+        { "name": "Missouri River steamboat service", "year": "1860s", "impact": "Only reliable freight and passenger corridor into the territory. Steamboats from Sioux City took days to reach Yankton; from St. Louis, weeks. Service was seasonal — ice closed the river from November through March." },
+        { "name": "Fort Randall military post", "year": 1856, "impact": "Military provisioning market. The fort purchased hay, grain, timber, and livestock from local settlers, providing the only institutional cash market in the territory before the railroad." },
+        { "name": "Yankton territorial government", "year": 1861, "impact": "Federal government presence brought salaries, construction contracts, and the land office system that would process homestead claims." }
+      ],
+      "major_employers": [
+        { "name": "U.S. Army (Fort Randall)", "type": "Military", "era": "1856-1892", "counties_affected": ["Yankton", "Bon Homme"], "employment_scale": "Garrison of 200-500 soldiers plus civilian teamsters, laundresses, and contract workers" },
+        { "name": "Dakota Territory government", "type": "Government", "era": "1861-1889", "counties_affected": ["Yankton"], "employment_scale": "Dozens of territorial employees — clerks, judges, surveyors, postal workers" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Farm laborer (seasonal)", "wage": "$1.00-$1.50/day", "year": 1870, "source": "Schell, History of South Dakota, ch. 8" },
+        { "occupation": "Military civilian teamster", "wage": "$25-$40/month plus rations", "year": 1870, "source": "Fort Randall quartermaster records; Frazer, Forts of the West" }
+      ],
+      "narrative_hook": "Before the railroad, everything in {ancestor_name}'s world arrived by steamboat — or didn't arrive at all. The Missouri River was the lifeline, and Yankton was the only town that mattered. A homesteader in the {decade}s sold to the Army at Fort Randall or sold to nobody.",
+      "source": "Schell, Herbert S. History of South Dakota. 4th ed. Pierre: South Dakota State Historical Society Press, 2004, chs. 5-8. Kingsbury, George W. History of Dakota Territory. Vol. 1. Chicago: S. J. Clarke Publishing Co., 1915."
+    },
+    {
+      "era_id": "great_dakota_boom",
+      "era_name": "Great Dakota Boom — Railroad-Driven Settlement",
+      "date_range": "1878-1890",
+      "dominant_economy": "Wheat monoculture on newly broken homestead land, railroad construction and commerce, town building",
+      "description": "The Great Dakota Boom was one of the most dramatic episodes of settlement in American history. The Chicago, Milwaukee & St. Paul and the Chicago & Northwestern railroads pushed into eastern Dakota Territory in the late 1870s, establishing division points that became instant towns: Aberdeen (1881), Huron (1880), Mitchell (1880), Watertown (1879), Brookings (1879). The railroads promoted settlement aggressively through land departments, immigration agents in Europe, and published brochures promising fertile soil and reliable rain. Homesteaders flooded in — the population of Brown County went from near zero to over 15,000 in a decade. Wheat was the universal crop: easy to grow on newly broken sod, easy to ship by rail, and profitable in the wet years of the early 1880s. The economy was almost entirely agricultural, with towns functioning as railroad shipping points and supply centers. Banks, implement dealers, grain elevators, and general stores appeared overnight. L. Frank Baum opened a store in Aberdeen in 1888. The Corn Palace was built in Mitchell in 1892. Sioux Falls grew to over 10,000 people and became the commercial capital of the cluster. The boom rested on two unstable foundations: the assumption that rainfall was permanent (the 'rain follows the plow' theory) and the assumption that wheat prices would hold.",
+      "county_specifics": [
+        { "county": "Minnehaha", "note": "Sioux Falls boomed as the commercial center. Quartzite quarrying, railroad shops, meatpacking, and the divorce trade (lenient SD residency laws attracted Eastern divorcees) diversified the economy beyond agriculture." },
+        { "county": "Brookings", "note": "South Dakota Agricultural College (now SDSU) opened in 1884, adding an institutional employer. Wheat farming dominated the surrounding countryside." },
+        { "county": "Beadle", "note": "Huron campaigned aggressively to become the state capital (lost to Pierre in 1890). The campaign brought investment and attention but the loss deflated the town's aspirations." },
+        { "county": "Brown", "note": "Aberdeen was established as 'Hub City' where three Milwaukee Road branch lines converged. Population growth was explosive. L. Frank Baum arrived in 1888 to run a general store." },
+        { "county": "Yankton", "note": "Lost the territorial capital to Pierre but maintained its position as the oldest and most established town in the cluster. College and institutional economy supplemented agriculture." },
+        { "county": "Bon Homme", "note": "Hutterite colonies operated the most efficient farms in the county — communal labor, no debt, diversified crops. Czech families at Tabor maintained European-style mixed farming." },
+        { "county": "Codington", "note": "Watertown grew around Lake Kampeska. The Chicago & Northwestern Railroad made it the commercial center of the northeastern part of the cluster." },
+        { "county": "Davison", "note": "Mitchell became a Milwaukee Road division point and built the first Corn Palace in 1892 to promote corn agriculture — a deliberate effort to distinguish the county from wheat-only areas." }
+      ],
+      "key_infrastructure": [
+        { "name": "Chicago, Milwaukee & St. Paul Railroad", "year": "1878-1882", "impact": "Established Aberdeen, Huron, Mitchell, and numerous smaller towns as division points and depot villages. The railroad literally created the settlement pattern — towns existed because the railroad needed them at specific intervals." },
+        { "name": "Chicago & Northwestern Railway", "year": "1879-1882", "impact": "Reached Watertown, Brookings, and connected eastern SD to Sioux City and Minneapolis markets. Competition with the Milwaukee Road ensured that most of the cluster had rail service by 1885." },
+        { "name": "Federal land offices (Yankton, Mitchell, Huron, Aberdeen, Watertown)", "year": "1870s-1900s", "impact": "Land offices processed the homestead claims that drove settlement. Each office served a region; their records document the boom in granular detail." },
+        { "name": "Sioux Falls quartzite quarries", "year": "1880s", "impact": "Local quartzite provided building material for Sioux Falls' most distinctive structures — the courthouse, the penitentiary, commercial blocks — and employed hundreds of quarry workers and stonecutters." }
+      ],
+      "major_employers": [
+        { "name": "Chicago, Milwaukee & St. Paul Railroad", "type": "Transportation", "era": "1878-1940", "counties_affected": ["Brown", "Beadle", "Davison", "Minnehaha"], "employment_scale": "Hundreds of permanent employees — section hands, depot agents, repair shop mechanics — plus thousands of seasonal construction workers during the building phase" },
+        { "name": "Chicago & Northwestern Railway", "type": "Transportation", "era": "1879-1940", "counties_affected": ["Codington", "Brookings", "Minnehaha"], "employment_scale": "Similar to Milwaukee Road — permanent section gangs plus construction crews" },
+        { "name": "Grain elevators and implement dealers", "type": "Agricultural commerce", "era": "1880-1940", "counties_affected": ["all eight counties"], "employment_scale": "Every depot town had at least one elevator operator and implement dealer — dozens of small businesses employing 2-10 people each, collectively the backbone of the non-farm economy" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Farm laborer (harvest)", "wage": "$1.50-$2.50/day", "year": 1885, "source": "Schell, History of South Dakota, ch. 15; Nelson, After the West Was Won, ch. 3" },
+        { "occupation": "Railroad section hand", "wage": "$1.25-$1.50/day", "year": 1885, "source": "Milwaukee Road payroll records; Lauck, Prairie Republic, ch. 4" },
+        { "occupation": "General store clerk", "wage": "$25-$40/month", "year": 1888, "source": "Koupal, Baum's Road to Oz" },
+        { "occupation": "Quarry worker (Sioux Falls)", "wage": "$1.75-$2.50/day", "year": 1890, "source": "Sioux Falls Argus-Leader archives; SD Bureau of Labor statistics" }
+      ],
+      "narrative_hook": "When {ancestor_name} arrived in {county} County in the {decade}s, the town was being built in real time — frame buildings going up along Main Street, the grain elevator rising beside the railroad track, and every train bringing more families with trunks, implements, and the belief that this land would make them prosperous.",
+      "source": "Schell, Herbert S. History of South Dakota. 4th ed. Pierre: South Dakota State Historical Society Press, 2004, chs. 11-15. Lauck, Jon K. Prairie Republic: The Political Culture of South Dakota, 1880-1940. Norman: University of Oklahoma Press, 2010. Koupal, Nancy Tystad, ed. Baum's Road to Oz: The Dakota Years. Pierre: South Dakota State Historical Society Press, 2000."
+    },
+    {
+      "era_id": "bust_and_adaptation",
+      "era_name": "Bust, Adaptation, and Ethnic Resilience",
+      "date_range": "1890-1920",
+      "dominant_economy": "Drought-cycle agriculture, diversification from wheat to corn and livestock, population loss in marginal counties, ethnic colony persistence, town-based non-farm employment",
+      "description": "The bust came with the drought of the late 1880s and 1890s. Rainfall dropped below the threshold needed for reliable wheat production. Wheat prices collapsed simultaneously. Brown County lost over 30% of its population between 1890 and 1900. L. Frank Baum went bankrupt in Aberdeen and left for Chicago. Hundreds of homesteads were abandoned across the James River corridor. The counties that survived best were those with advantages beyond wheat: Yankton and Bon Homme had deep loess soils, early settlement, and diversified agriculture. Minnehaha had Sioux Falls' non-agricultural economy. Codington had Lake Kampeska's water supply. Davison's corn-growing potential proved more resilient than wheat monoculture. The Hutterite colonies in Bon Homme County — which had practiced diversified communal farming from the start — were economically the most resilient operations in the cluster, until WWI persecution drove them to Canada. The statehood era (1889) brought political organization and a new round of institution-building — the state capital fight, state colleges, and the beginnings of regulatory infrastructure. But the fundamental economic reality was a decade of failure followed by cautious recovery, with families that survived learning to diversify beyond wheat.",
+      "county_specifics": [
+        { "county": "Brown", "note": "Worst-hit by the bust. Over 30% population loss. Aberdeen survived because the railroad junction provided non-farm employment, but the surrounding countryside emptied." },
+        { "county": "Beadle", "note": "Severe bust. Huron's state capital dreams collapsed. The town survived on railroad employment and its role as a James River corridor market center." },
+        { "county": "Brookings", "note": "South Dakota Agricultural College provided stability. The college promoted scientific agriculture — crop rotation, drought-resistant varieties — that eventually helped farmers adapt." },
+        { "county": "Minnehaha", "note": "Sioux Falls weathered the bust better than any other county seat because of its diversified economy — railroad shops, quarries, meatpacking, retail, and professional services." },
+        { "county": "Yankton", "note": "The oldest settlement with the deepest economic roots. Yankton College, the state hospital, and diversified agriculture cushioned the blow." },
+        { "county": "Bon Homme", "note": "Hutterite colonies were economically invulnerable to the bust — communal farming, no debt, diversified crops. But WWI anti-German persecution (1917-1918) drove most colonies to Canada. The Czech community at Tabor persisted through ethnic solidarity and diversified farming." },
+        { "county": "Codington", "note": "Lake Kampeska provided water security. Watertown's lake-country location and slightly higher precipitation made the bust less severe than in the James River counties." },
+        { "county": "Davison", "note": "Mitchell's corn-growing identity proved more resilient than wheat — the Corn Palace continued its annual festival even during the bust, though the irony of celebrating abundance during failure was not lost on anyone." }
+      ],
+      "key_infrastructure": [
+        { "name": "South Dakota statehood", "year": 1889, "impact": "Statehood brought state government institutions, court systems, and regulatory infrastructure. The state capital fight (won by Pierre) distributed institutional investment across the territory." },
+        { "name": "South Dakota Agricultural College (Brookings)", "year": 1884, "impact": "The college's experiment station promoted scientific agriculture — drought-resistant crops, crop rotation, soil conservation — that helped surviving farmers adapt to unreliable rainfall." },
+        { "name": "Sioux Falls meatpacking industry", "year": "1890s-1910s", "impact": "John Morrell & Company and other packers established operations in Sioux Falls, creating industrial employment that diversified the city's economy beyond agriculture and railroads." }
+      ],
+      "major_employers": [
+        { "name": "John Morrell & Company (Sioux Falls)", "type": "Manufacturing — meatpacking", "era": "1909-1940+", "counties_affected": ["Minnehaha"], "employment_scale": "Hundreds of workers; eventually became one of the largest employers in the state" },
+        { "name": "Railroad companies (continued)", "type": "Transportation", "era": "1890-1920", "counties_affected": ["all eight counties"], "employment_scale": "Railroad employment was the economic safety net during the bust — families that had one member working for the railroad survived while all-farm families failed" },
+        { "name": "State institutions (colleges, hospitals)", "type": "Government", "era": "1889-1940", "counties_affected": ["Brookings", "Yankton", "Minnehaha"], "employment_scale": "Hundreds of positions across the cluster, providing year-round salaried employment independent of the agricultural cycle" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Farm laborer", "wage": "$1.00-$1.50/day (depressed by labor surplus from failed farms)", "year": 1895, "source": "Schell, History of South Dakota, ch. 16" },
+        { "occupation": "Meatpacking worker (Sioux Falls)", "wage": "$1.50-$2.00/day", "year": 1910, "source": "SD Bureau of Labor reports" },
+        { "occupation": "Railroad section hand", "wage": "$1.50-$1.75/day", "year": 1910, "source": "Milwaukee Road payroll records" },
+        { "occupation": "State college faculty member", "wage": "$800-$1,500/year", "year": 1900, "source": "SDSU historical records" }
+      ],
+      "narrative_hook": "The bust of the {decade}s taught {ancestor_name} what the railroad brochures had not mentioned: this land sat on the edge of the reliable rainfall zone, and the edge was not a line but a gamble. The families that survived diversified — corn, livestock, a railroad job, anything that did not depend entirely on wheat and rain.",
+      "source": "Nelson, Paula M. After the West Was Won: Homesteaders and Town-Builders in Western South Dakota, 1900-1917. Iowa City: University of Iowa Press, 1986. Schell, History of South Dakota, chs. 16-18. Hostetler, John A. Hutterite Society. Baltimore: Johns Hopkins University Press, 1974."
+    },
+    {
+      "era_id": "depression_dust_bowl",
+      "era_name": "Depression and Dust Bowl",
+      "date_range": "1920-1940",
+      "dominant_economy": "Wheat and corn agriculture under extreme drought stress, federal relief programs, population loss, farm consolidation",
+      "description": "The 1920s brought agricultural depression to the Northern Plains before the 1929 stock market crash extended it to the rest of the country. Wheat prices that had soared during WWI collapsed in 1920 and never recovered to wartime levels. Farmers who had expanded acreage on borrowed money during the war found themselves underwater on mortgages. The 1930s drought then destroyed the crops that might have serviced those debts. The summer of 1934 brought temperatures above 110 degrees across the cluster. Grasshopper plagues stripped fields bare. Dust storms carried topsoil eastward. The James River shrank to disconnected pools. Lake Kampeska receded to a fraction of its normal surface. Federal relief programs — AAA crop allotments, WPA employment, CCC conservation work, Prairie States Forestry Project shelterbelts — kept the region alive but could not prevent massive population loss. Every county in the cluster lost population between 1930 and 1940 except Minnehaha (Sioux Falls). The families that stayed adapted by further diversifying: corn-hog operations, dairy, and off-farm employment. The families that left joined the westward migration to Oregon, Washington, and California.",
+      "county_specifics": [
+        { "county": "Brown", "note": "Devastated by both drought and Depression. Aberdeen's Hub City economy contracted sharply. Federal relief programs were essential to survival." },
+        { "county": "Beadle", "note": "Huron and the James River corridor experienced extreme drought. Federal shelterbelt planting (Prairie States Forestry Project) began in the mid-1930s." },
+        { "county": "Minnehaha", "note": "Sioux Falls' diversified economy (meatpacking, railroad, retail, professional services) made it the most resilient county seat. Population held steady." },
+        { "county": "Brookings", "note": "The Agricultural College's drought research became immediately relevant. WPA funded construction of the 1934 courthouse." },
+        { "county": "Yankton", "note": "Lewis and Clark Lake (later dam construction) and institutional employment cushioned the impact. The Missouri River corridor retained its long-term advantages." },
+        { "county": "Bon Homme", "note": "Some Hutterite colonies returned from Canada in the 1930s, drawn by cheap land and the end of wartime persecution. Czech families at Tabor survived through diversified farming and ethnic community solidarity." },
+        { "county": "Codington", "note": "Lake Kampeska's water supply was threatened by the drought. Watertown's economy contracted but the lake-country advantage persisted." },
+        { "county": "Davison", "note": "The Corn Palace's annual festival continued through the Depression — a stubborn assertion that the land could still produce. WPA funded the 1937 courthouse in Beadle County nearby." }
+      ],
+      "key_infrastructure": [
+        { "name": "Agricultural Adjustment Act (AAA)", "year": 1933, "impact": "Federal crop allotments and price supports stabilized farm income for those who remained on the land. Payments went to landowners, accelerating the consolidation of small homesteads into larger operations." },
+        { "name": "Prairie States Forestry Project", "year": "1935-1942", "impact": "Federal shelterbelt planting program established windbreak tree rows across the Northern Plains. Over 200 million trees planted nationally. The shelterbelts provided wind protection and visual evidence that the government was trying to prevent another dust bowl." },
+        { "name": "Works Progress Administration (WPA)", "year": "1935-1943", "impact": "WPA projects built courthouses, schools, roads, and public buildings across the cluster. WPA employment was often the only cash income available for families whose farms had failed." },
+        { "name": "Rural Electrification Administration (REA)", "year": "1935-1950", "impact": "Brought electricity to farm communities that had operated by kerosene lamp. Electric motors, radios, and refrigeration transformed daily life and agricultural productivity." }
+      ],
+      "major_employers": [
+        { "name": "WPA / federal relief programs", "type": "Government", "era": "1933-1943", "counties_affected": ["all eight counties"], "employment_scale": "Thousands of workers across the cluster building roads, courthouses, and public infrastructure. For many families, WPA wages were the only income." },
+        { "name": "John Morrell & Company (continued)", "type": "Manufacturing", "era": "1920-1940", "counties_affected": ["Minnehaha"], "employment_scale": "Continued as Sioux Falls' largest private employer, providing industrial wages independent of the agricultural cycle" },
+        { "name": "Railroad companies (declining)", "type": "Transportation", "era": "1920-1940", "counties_affected": ["all eight counties"], "employment_scale": "Railroad employment declined as automobile and truck competition eroded rail freight. But remaining railroad jobs were among the most stable employment in the cluster." }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Farm laborer (Depression)", "wage": "$0.75-$1.25/day (sharply depressed)", "year": 1934, "source": "Schell, History of South Dakota, ch. 21" },
+        { "occupation": "WPA worker", "wage": "$40-$55/month", "year": 1936, "source": "Works Progress Administration records; SD State Archives" },
+        { "occupation": "Meatpacking worker (Sioux Falls)", "wage": "$15-$20/week", "year": 1935, "source": "SD Bureau of Labor reports" }
+      ],
+      "narrative_hook": "In the {decade}s, {ancestor_name} watched the land that the railroad brochures had called paradise turn hostile — dust storms at noon, grasshoppers eating the fence posts, and the mortgage payment due on a crop that died in the field. The WPA check or the railroad paycheck was what kept the family from joining the westward exodus.",
+      "source": "Egan, Timothy. The Worst Hard Time: The Untold Story of Those Who Survived the Great American Dust Bowl. Boston: Houghton Mifflin, 2006. Schell, History of South Dakota, chs. 20-22. Nelson, After the West Was Won."
+    }
+  ],
+  "economic_turning_points": [
+    {
+      "year": 1880,
+      "event": "Railroads reach the James River corridor",
+      "impact": "The Chicago, Milwaukee & St. Paul Railroad established Mitchell (1880), Huron (1880), and Aberdeen (1881) as division points. The Chicago & Northwestern reached Watertown (1879) and Brookings (1879). Within five years, the population of the cluster increased tenfold. Towns appeared from nothing. The railroad created the entire settlement pattern — without it, the interior counties might not have been settled for another generation.",
+      "counties_most_affected": ["Beadle", "Brown", "Davison", "Codington", "Brookings"],
+      "narrative_hook": "The railroad reached {county} County in {year}, and within a decade the prairie that had been grass from horizon to horizon was wheat fields, depot towns, and grain elevators. {ancestor_name} came because the railroad made it possible — the train brought the family in and carried the wheat out.",
+      "source": "Schell, History of South Dakota, ch. 11."
+    },
+    {
+      "year": 1893,
+      "event": "Drought and Panic of 1893 — boom collapses",
+      "impact": "Consecutive drought years in the late 1880s and early 1890s, combined with the national financial panic of 1893, collapsed the boom economy. Wheat failed, banks failed, mortgage holders foreclosed. Brown County lost over 30% of its population. Baum went bankrupt. Hundreds of homesteads were abandoned. The bust proved that the 'rain follows the plow' theory was a lie — rainfall on the Northern Plains was cyclical, and the wet years that had attracted settlement were not the norm.",
+      "counties_most_affected": ["Brown", "Beadle", "Brookings"],
+      "narrative_hook": "By {year}, {ancestor_name} could count the abandoned homesteads visible from the kitchen window — each one a family that had believed the promotional brochures. The rain had not followed the plow. It had come and gone on its own schedule, and the schedule was merciless.",
+      "source": "Nelson, After the West Was Won. Schell, History of South Dakota, ch. 16."
+    },
+    {
+      "year": 1917,
+      "event": "WWI wheat boom and Hutterite persecution",
+      "impact": "Wartime demand drove wheat prices to their highest levels in history, encouraging farmers to expand acreage on borrowed money. Simultaneously, anti-German hysteria targeted the Hutterite colonies in Bon Homme County. Two Hutterite conscientious objectors died at Fort Leavenworth under abusive conditions. Most colonies fled to Canada, removing the best-managed farms from the cluster. The wartime wheat boom would prove to be a trap — when prices collapsed in 1920, the debt incurred during expansion became unpayable.",
+      "counties_most_affected": ["Bon Homme", "Brown", "Beadle"],
+      "narrative_hook": "The war sent wheat prices higher than {ancestor_name} had ever seen — and the temptation to plow every acre, mortgage the future, and bet on the price holding was irresistible. The Hutterite colonies in Bon Homme County, which had farmed without debt for forty years, were driven out by patriots who hated their German language more than they respected their agriculture.",
+      "source": "Hostetler, Hutterite Society. Schell, History of South Dakota, ch. 18."
+    },
+    {
+      "year": 1934,
+      "event": "Extreme drought and Dust Bowl peak",
+      "impact": "The summer of 1934 brought the worst drought in recorded Northern Plains history. Temperatures exceeded 110 degrees. Crops failed completely across the cluster. Grasshopper plagues consumed what the heat spared. Dust storms carried topsoil hundreds of miles east. Federal relief programs — AAA payments, WPA employment, and emergency livestock purchases — prevented mass starvation but could not prevent mass emigration. The drought broke the last illusion that the Northern Plains climate was reliably favorable for agriculture.",
+      "counties_most_affected": ["Brown", "Beadle", "Davison", "Codington"],
+      "narrative_hook": "In the summer of 1934, {ancestor_name} watched the corn curl brown in the field while the thermometer read 110 degrees and the grasshoppers ate what the heat had left. The Corn Palace in Mitchell stood decorated with last year's harvest — a monument to abundance in the middle of total failure.",
+      "source": "Egan, The Worst Hard Time. Schell, History of South Dakota, ch. 21."
+    }
+  ],
+  "narrative_hooks": [
+    "In {county} County in the {decade}s, the economy ran on wheat and prayer — wheat for the cash and prayer for the rain, because without rain the wheat was nothing and without wheat the family had nothing to sell.",
+    "{ancestor_name}'s livelihood in {county} depended on two things {pronoun_subject} could not control: the price of grain in Minneapolis and the rainfall that fell — or did not fall — between May and August.",
+    "The railroad brought {ancestor_name} to {county} County and the railroad carried the wheat out — but the railroad also carried away the families who could not survive the bust, and by {year} the depot was shipping more furniture than grain.",
+    "When the WPA came to {county} County in the 1930s, {ancestor_name} signed up for the same reason everyone else did — it was the only paycheck in a county where the crops were dead, the bank was closed, and the implement dealer had repossessed the tractor.",
+    "The Hutterite colonies in Bon Homme County proved that communal farming without debt could survive any drought — and then their neighbors drove them out for speaking German during a war. {ancestor_name} watched the best farms in the county go empty in 1918.",
+    "Sioux Falls survived every bust because it had something the farm towns lacked: an economy that did not depend entirely on rain. The quarries, the packing plant, the railroad shops — these kept people working when the wheat failed."
+  ],
+  "source_references": [
+    "Schell, Herbert S. History of South Dakota. 4th ed. Pierre: South Dakota State Historical Society Press, 2004.",
+    "Lauck, Jon K. Prairie Republic: The Political Culture of South Dakota, 1880-1940. Norman: University of Oklahoma Press, 2010.",
+    "Nelson, Paula M. After the West Was Won: Homesteaders and Town-Builders in Western South Dakota, 1900-1917. Iowa City: University of Iowa Press, 1986.",
+    "Egan, Timothy. The Worst Hard Time: The Untold Story of Those Who Survived the Great American Dust Bowl. Boston: Houghton Mifflin, 2006.",
+    "Hostetler, John A. Hutterite Society. Baltimore: Johns Hopkins University Press, 1974.",
+    "Koupal, Nancy Tystad, ed. Baum's Road to Oz: The Dakota Years. Pierre: South Dakota State Historical Society Press, 2000.",
+    "Kingsbury, George W. History of Dakota Territory. Vol. 1-2. Chicago: S. J. Clarke Publishing Co., 1915."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": [
+      "homestead_act",
+      "railroad_construction",
+      "stayed_and_adapted",
+      "gi_bill_migration",
+      "gilded_age_labor_conflict"
+    ],
+    "material_life_refs": [
+      "frontier_log_cabin_1780_1840",
+      "great_depression_urban_1929_1941",
+      "small_town_merchant_1830_1920"
+    ],
+    "occupation_refs": [
+      "general_farmer_midwest",
+      "yeoman_farmer_antebellum",
+      "railroad_laborer",
+      "merchant_storekeeper"
+    ],
+    "wage_table_refs": [
+      "wages_by_occupation_1850_1900",
+      "wages_by_occupation_1900_1950"
+    ]
+  }
+}

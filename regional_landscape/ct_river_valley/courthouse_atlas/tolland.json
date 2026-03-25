@@ -1,0 +1,106 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Tolland County, CT. Record survival and the CT probate district system. Tolland County's records are well-preserved — no major fire or war damage. The primary genealogical challenge is farm abandonment and outmigration to the Western Reserve, which means many Tolland County families disappear from local records as they moved to Ohio.",
+  "courthouse_atlas_id": "ct_tolland_courthouse",
+  "display_name": "Tolland County, Connecticut — Courthouse Atlas",
+  "county": "Tolland",
+  "state": "CT",
+  "fips_code": "09013",
+  "cluster_ref": "ct_river_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1894,
+      "location": "Rockville (Vernon), CT — 69 Brooklyn Street",
+      "records_housed": ["superior court records"],
+      "note": "Connecticut abolished county government in 1960. Land and vital records at TOWN level. Probate at PROBATE DISTRICT level."
+    },
+    "previous_courthouses": [
+      {
+        "era": "1786–1894",
+        "location": "Tolland, CT — town center",
+        "fate": "Tolland County was established in 1786 from Windham County. The county seat was at Tolland. No significant fire or war damage."
+      }
+    ],
+    "critical_note_ct_probate_system": "Tolland County contains approximately 5 probate districts: Stafford (est. 1759), Ellington (est. 1826), Bolton/Coventry, Tolland, and others. Each maintains its own records independently."
+  },
+  "record_losses": [
+    {
+      "loss_id": "tolland_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire or war damage",
+      "records_destroyed": [],
+      "records_survived": ["town vital records from settlement (1710s+)", "land records from settlement", "probate records from parent districts", "church records"],
+      "scope": "none",
+      "description": "Tolland County has experienced no significant record loss. Records survive from the settlement period (1710s–1720s for most towns). The primary genealogical challenge is not missing records but the outmigration of families to the Western Reserve in Ohio (1796–1840s), which means many Tolland County families simply vanish from local records as they moved west. Tracing these families requires connecting Tolland County records to Trumbull County, Ashtabula County, and other Western Reserve counties in Ohio.",
+      "narrative_impact": "If {ancestor_name} disappears from Tolland County records after 1800, the most likely explanation is not death or record loss — it is migration to the Western Reserve. Check Ohio's Western Reserve counties for the same surname.",
+      "source": "Kemp, Thomas Jay. Connecticut Researcher's Handbook. Detroit: Gale Research, 1981."
+    }
+  ],
+  "record_survival_summary": {
+    "vital_records": {
+      "earliest_surviving": 1713,
+      "completeness": "Good — town records begin with settlement dates (Tolland est. 1715, Coventry est. 1712, Bolton est. 1720)",
+      "gaps": "No significant gaps. Barbour Collection covers all Tolland County towns through approximately 1850.",
+      "repository": "Individual town clerks; Connecticut State Library (Barbour Collection, microfilm)",
+      "online_access": "FamilySearch; Ancestry.com; Connecticut State Library digital collections"
+    },
+    "land_records": {
+      "earliest_surviving": 1713,
+      "completeness": "Good — continuous from settlement",
+      "gaps": "No significant gaps.",
+      "repository": "Individual town clerks; Connecticut State Library (microfilm)",
+      "online_access": "FamilySearch microfilm"
+    },
+    "probate_records": {
+      "earliest_surviving": 1759,
+      "completeness": "Good — Stafford Probate District (est. 1759) is the oldest in the county. Earlier probate for Tolland County towns was handled by the Hartford or Windham probate districts.",
+      "gaps": "Pre-1759 probate records for Tolland County towns must be searched in the Hartford or Windham probate districts.",
+      "repository": "Individual probate courts; Connecticut State Library (microfilm)",
+      "online_access": "FamilySearch; Connecticut State Library digital collections"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1786,
+      "completeness": "Good from county establishment",
+      "gaps": "Pre-1786 court records are in Windham County records.",
+      "repository": "Connecticut State Library and Archives",
+      "online_access": "Limited"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source": "Barbour Collection of Connecticut Vital Records",
+      "repository": "Connecticut State Library, Hartford",
+      "description": "Comprehensive index of Connecticut vital records through approximately 1850. Covers all Tolland County towns.",
+      "genealogical_value": "Essential starting point for pre-1850 research."
+    },
+    {
+      "source": "Connecticut Western Reserve migration records",
+      "repository": "Western Reserve Historical Society, Cleveland; Connecticut State Library",
+      "description": "Records documenting the migration of Connecticut families to the Western Reserve in Ohio (1796–1840s). Includes land company records, emigrant lists, and correspondence.",
+      "genealogical_value": "Critical for tracing Tolland County families who disappeared from local records after 1800. The Connecticut Land Company records name shareholders and settlers."
+    },
+    {
+      "source": "Hale Cemetery Inscriptions — Tolland County",
+      "repository": "Connecticut State Library, Hartford",
+      "description": "Charles R. Hale's transcriptions of cemetery inscriptions across Tolland County towns.",
+      "genealogical_value": "Supplements vital records with death dates, ages, and family relationships from gravestone inscriptions."
+    }
+  ],
+  "narrative_hooks": [
+    "Tolland County's records survive intact — if {ancestor_name} lived here, the documents exist. The question is whether {pronoun_subject} stayed. Tolland County families left for Ohio's Western Reserve in such numbers that the absence of records after 1800 may mean migration, not death.",
+    "To find {ancestor_name} after they left Tolland County, look west — the same surnames that appear in Tolland's town records appear in Trumbull County, Ohio, a generation later, carried there by families who traded Connecticut's rocky soil for Ohio's black loam.",
+    "Connecticut's probate districts serve specific towns, not counties — {ancestor_name}'s estate was probated in a district court that may have covered only two or three towns.",
+    "The Barbour Collection at the Connecticut State Library is the key to Tolland County genealogy before 1850 — every birth, marriage, and death in every town, indexed and searchable."
+  ],
+  "source_references": [
+    "Kemp, Thomas Jay. Connecticut Researcher's Handbook. Detroit: Gale Research, 1981.",
+    "Connecticut State Library. Guide to Archives in the Connecticut State Library. Hartford: Connecticut State Library, 1981.",
+    "Cherry, Peter Boyd. The Western Reserve and Early Ohio. Akron: R.L. Fouse, 1921."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ct_tolland",
+    "research_guidance_refs": ["colonial_new_england_records"],
+    "template_refs": ["document_deep_read", "record_silences"]
+  }
+}

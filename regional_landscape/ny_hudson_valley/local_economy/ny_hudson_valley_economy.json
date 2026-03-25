@@ -1,0 +1,219 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Local economy timeline for the NY Hudson Valley regional cluster (Dutchess, Ulster, Orange, Columbia, Albany, Rensselaer, Greene, Washington counties). Covers 1614-1960 across six economic eras — from the Dutch fur trade through the patroon tenant system, Erie Canal commerce, ice harvesting, Catskill resort economy, and IBM's transformation of the region.",
+  "economy_id": "ny_hudson_valley_economy",
+  "display_name": "NY Hudson Valley — Local Economy Timeline",
+  "cluster_ref": "ny_hudson_valley",
+  "era_range": "1614-1960",
+  "economic_eras": [
+    {
+      "era_id": "dutch_fur_trade",
+      "era_name": "Dutch Fur Trade and New Netherland",
+      "date_range": "1614-1664",
+      "dominant_economy": "Beaver fur trade with Mahican and Mohawk peoples; subsistence farming on patroon land; Fort Orange as trade depot",
+      "description": "The Hudson Valley economy began as a Dutch West India Company enterprise — beaver pelts exchanged for European manufactures at Fort Orange (Albany). The patroon system granted vast tracts to investors who recruited tenant farmers from the Netherlands and the Rhineland. The Rensselaerwyck patroonship (1630) was the only commercially successful patroon venture, establishing a tenant-farming system that would persist for two centuries. The fur trade was the only export economy; farming was subsistence. The English takeover in 1664 changed the flag but not the economic structure.",
+      "county_specifics": [
+        { "county": "Albany", "note": "Fort Orange (1624) was the fur trade capital. Beverwijck (the settlement) was entirely oriented toward the beaver trade with the Mohawk and Mahican." },
+        { "county": "Rensselaer", "note": "Rensselaerwyck patroonship covered the east bank. Tenant farmers supplied the fort with grain and livestock." },
+        { "county": "Columbia", "note": "Southern portion included in the Livingston Patent area. Mahican territory." },
+        { "county": "Ulster", "note": "Esopus settlement (Wiltwyck/Kingston) established 1652. Conflicts with the Esopus people (Esopus Wars 1659-1663) disrupted farming." },
+        { "county": "Dutchess", "note": "Largely unsettled by Europeans during this period. Wappinger people occupied the central area." },
+        { "county": "Orange", "note": "Munsee Lenape territory. European settlement had not yet penetrated beyond the river corridor." },
+        { "county": "Greene", "note": "Catskill area used by fur traders but not settled." },
+        { "county": "Washington", "note": "Frontier — Mahican and later Abenaki territory. No European settlement." }
+      ],
+      "key_infrastructure": [
+        { "name": "Fort Orange (Albany)", "year": 1624, "impact": "The fur trade depot that anchored European presence in the upper Hudson Valley." },
+        { "name": "Rensselaerwyck patroonship", "year": 1630, "impact": "The only successful Dutch patroon venture. Established the tenant-farming system that persisted until the Anti-Rent Wars." }
+      ],
+      "major_employers": [
+        { "name": "Dutch West India Company (fur trade)", "type": "Commercial — export trade", "era": "1614-1664", "counties_affected": ["Albany", "Rensselaer"], "employment_scale": "Small — dozens of traders and soldiers at Fort Orange" },
+        { "name": "Rensselaerwyck tenant farms", "type": "Agriculture — tenant system", "era": "1630-1664", "counties_affected": ["Rensselaer", "Albany"], "employment_scale": "Hundreds of tenant families by 1664" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Fur trader", "wage": "Paid in goods and trade credit, not currency", "year": 1650, "source": "Venema, Beverwijck (2003)" },
+        { "occupation": "Tenant farmer", "wage": "Paid rent in wheat (typically 10 schepels/year) plus fowl and labor days", "year": 1650, "source": "Kim, Landlord and Tenant (1978)" }
+      ],
+      "narrative_hook": "In the {decade}s, the Hudson Valley was a fur trade economy — {ancestor_name} lived in a world where beaver pelts were currency and the entire purpose of the European settlements was to ship animal skins to Amsterdam.",
+      "source": "Venema, Janny. Beverwijck: A Dutch Village on the American Frontier. Verloren, 2003. Kim, Sung Bok. Landlord and Tenant in Colonial New York. UNC Press, 1978."
+    },
+    {
+      "era_id": "colonial_tenant_economy",
+      "era_name": "Colonial Tenant Economy and the Great Estates",
+      "date_range": "1664-1825",
+      "dominant_economy": "Tenant farming on great estates (wheat, livestock); small-scale manufacturing (gristmills, sawmills); river commerce; iron smelting (Orange County); Huguenot and Palatine German farming communities",
+      "description": "Under English and then American rule, the Hudson Valley developed a mixed agricultural economy dominated by the great estates. The Livingston Manor (Columbia), Van Rensselaer patroonship (Rensselaer/Albany), Beekman and Rombout Patents (Dutchess), and Hardenbergh Patent (Ulster/Greene) controlled hundreds of thousands of acres. Tenants paid rent in wheat and labor, building farms they did not own. Wheat was the cash crop; corn, livestock, and orchard products were subsistence. The Hudson River was the transportation artery — sloops carried wheat to New York City and returned with manufactured goods. Iron smelting in the Orange County Highlands (Sterling Iron Works) provided the region's only significant industrial activity before the canal era. The Revolution devastated parts of the valley (Kingston burned 1777; Orange County was a war zone) but did not alter the tenant-estate economic structure.",
+      "county_specifics": [
+        { "county": "Dutchess", "note": "Beekman and Rombout Patents dominated. Wheat farming on the central plateau. The county was one of the most productive wheat-growing areas in colonial New York." },
+        { "county": "Ulster", "note": "Kingston as commercial center. Huguenot farms at New Paltz. Hardenbergh Patent covered the mountain interior." },
+        { "county": "Orange", "note": "Sterling Iron Works and related furnaces in the Ramapo Highlands. West Point during the Revolution. Mixed farming in the valleys." },
+        { "county": "Columbia", "note": "Livingston Manor — one of the largest landholdings in North America. Palatine German community at Germantown (from 1710). The city of Hudson founded 1783 by Nantucket whalers." },
+        { "county": "Albany", "note": "State capital (1797). Commercial center. Fur trade declining, replaced by agricultural trade and government employment." },
+        { "county": "Rensselaer", "note": "Rensselaerwyck remained intact. Troy beginning to develop as an industrial village at the head of tidewater." },
+        { "county": "Greene", "note": "Catskill village as Hudson River port. Mountain interior largely unsettled." },
+        { "county": "Washington", "note": "New England settlement from the 1760s. Wheat and livestock farming on the Yankee pattern." }
+      ],
+      "key_infrastructure": [
+        { "name": "Hudson River sloop trade", "year": "1700s-1825", "impact": "Sloops were the economic lifeline — wheat went south, manufactured goods came north. Every river landing was a port." },
+        { "name": "Sterling Iron Works (Orange County)", "year": "1750s-1890s", "impact": "The Hudson Valley's first significant industrial enterprise. Produced iron for the Continental Army (including the Great Chain at West Point)." },
+        { "name": "Post roads (Albany-New York)", "year": "1700s", "impact": "The overland post road connected Albany to New York City, supplementing river transport. Taverns and stage stops became the nuclei of villages." }
+      ],
+      "major_employers": [
+        { "name": "Great estate tenant farms", "type": "Agriculture — tenant system", "era": "1664-1825", "counties_affected": ["Dutchess", "Columbia", "Rensselaer", "Albany", "Ulster"], "employment_scale": "Thousands of tenant families across the valley" },
+        { "name": "Sterling Iron Works", "type": "Manufacturing — iron smelting", "era": "1750s-1890s", "counties_affected": ["Orange"], "employment_scale": "Hundreds of workers including enslaved people (before 1827)" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Tenant farmer (wheat rent)", "wage": "Rent: 10-20 bushels wheat/year plus labor days; net income after rent: subsistence level", "year": 1790, "source": "Kim, Landlord and Tenant (1978)" },
+        { "occupation": "Farm laborer (hired)", "wage": "$8-$12/month plus board", "year": 1800, "source": "Ellis, Landlords and Farmers (1946)" },
+        { "occupation": "Iron furnace laborer", "wage": "$0.50-$0.75/day", "year": 1800, "source": "Ransom, Vanishing Ironworks (1966)" }
+      ],
+      "narrative_hook": "In {year}, {ancestor_name} farmed land in {county} County that belonged to one of the great estate families — growing wheat on soil {pronoun_subject} could improve but never own, paying rent in bushels to a landlord who might live in a Manhattan townhouse.",
+      "source": "Kim, Landlord and Tenant (1978). Ellis, David M. Landlords and Farmers in the Hudson-Mohawk Region. Cornell University Press, 1946."
+    },
+    {
+      "era_id": "canal_era",
+      "era_name": "Erie Canal and Commercial Transformation",
+      "date_range": "1825-1870",
+      "dominant_economy": "Canal commerce (Albany as terminus); Anti-Rent Wars and tenant land reform; dairy replacing wheat; ice harvesting; Troy collar manufacturing; Catskill tanbark industry; bluestone quarrying",
+      "description": "The Erie Canal (1825) and Champlain Canal (1823) transformed the Hudson Valley from an agricultural estate economy into a commercial corridor. Albany became one of the busiest commercial junctions in America. The canal brought competition from western wheat that doomed Hudson Valley grain farming, accelerating the shift to dairy. The Anti-Rent Wars (1839-1852) finally broke the patroon/tenant system. Troy emerged as an industrial city — collar and shirt manufacturing, iron foundries. The Catskill Mountains saw explosive growth in the tanbark industry (hemlock bark for leather tanning) and bluestone quarrying. The Delaware & Hudson Canal (1828) brought Pennsylvania coal through Ulster County. Ice harvesting on the Hudson became a major industry by 1850.",
+      "county_specifics": [
+        { "county": "Albany", "note": "Erie Canal terminus. Commercial hub. State government employment growing. Population surge from Irish and German immigration." },
+        { "county": "Rensselaer", "note": "Troy becomes 'Collar City' — collar manufacturing begins 1820s, dominates by 1860. Burden Iron Works. Anti-Rent activity on the Rensselaerwyck." },
+        { "county": "Dutchess", "note": "Anti-Rent Wars on the Beekman Patent. Wheat-to-dairy transition. Ice harvesting on the Hudson near Poughkeepsie." },
+        { "county": "Ulster", "note": "D&H Canal at Rondout. Bluestone quarrying boom. Kingston rebuilds as commercial center." },
+        { "county": "Columbia", "note": "Anti-Rent Wars on the Livingston Manor. Dairy transition. Shaker community at New Lebanon at its peak." },
+        { "county": "Orange", "note": "Black-dirt drainage begins. Iron industry continuing. Erie Railroad reaches the county 1841." },
+        { "county": "Greene", "note": "Tanbark industry peaks and crashes. Catskill Mountain House tourism. Bluestone quarrying." },
+        { "county": "Washington", "note": "Merino sheep boom peaks 1840s. Champlain Canal traffic. Dairy transition beginning." }
+      ],
+      "key_infrastructure": [
+        { "name": "Erie Canal (Albany terminus)", "year": 1825, "impact": "Transformed Albany into a national commercial junction. Every cargo and immigrant moving between the Atlantic coast and the Great Lakes passed through Albany." },
+        { "name": "Delaware & Hudson Canal (Rondout terminus)", "year": 1828, "impact": "Brought Pennsylvania coal to the Hudson Valley. Made Rondout/Kingston a major transshipment point." },
+        { "name": "Champlain Canal", "year": 1823, "impact": "Connected the Hudson to Lake Champlain, opening a water route to Canada through Washington County." },
+        { "name": "Erie Railroad", "year": 1841, "impact": "Connected the Hudson Valley to the Southern Tier and ultimately the Great Lakes, bypassing the canal system." }
+      ],
+      "major_employers": [
+        { "name": "Canal construction and operation", "type": "Transportation infrastructure", "era": "1817-1870", "counties_affected": ["Albany", "Washington", "Ulster"], "employment_scale": "Thousands of workers — predominantly Irish immigrants during construction" },
+        { "name": "Troy collar and shirt factories", "type": "Manufacturing — garments", "era": "1830s-1870", "counties_affected": ["Rensselaer"], "employment_scale": "Thousands — predominantly women" },
+        { "name": "Catskill tanneries", "type": "Manufacturing — leather", "era": "1817-1870", "counties_affected": ["Greene", "Ulster"], "employment_scale": "Hundreds of workers across dozens of tanneries" },
+        { "name": "Ice harvesting companies", "type": "Seasonal resource extraction", "era": "1840-1900", "counties_affected": ["Dutchess", "Columbia", "Ulster", "Greene"], "employment_scale": "Thousands of seasonal workers" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Canal laborer", "wage": "$0.50-$0.75/day", "year": 1830, "source": "Sheriff, The Artificial River (1996)" },
+        { "occupation": "Collar factory operative (female)", "wage": "$3.00-$5.00/week", "year": 1860, "source": "Turbin, Working Women (1992)" },
+        { "occupation": "Tanbark peeler", "wage": "$0.75-$1.00/day", "year": 1845, "source": "Evers, The Catskills (1972)" },
+        { "occupation": "Ice harvester (seasonal)", "wage": "$1.00-$1.50/day", "year": 1870, "source": "Weightman, Frozen-Water Trade (2003)" }
+      ],
+      "narrative_hook": "The Erie Canal turned Albany into the valve between the ocean and the interior, and {ancestor_name} lived at the junction — everything heading west passed through {pronoun_possessive} city, and the canal basin was a river of ambitions.",
+      "source": "Sheriff, Carol. The Artificial River. Hill and Wang, 1996. Turbin, Carole. Working Women of Collar City. University of Illinois Press, 1992. Evers, Alf. The Catskills. Doubleday, 1972."
+    },
+    {
+      "era_id": "gilded_age_industrial",
+      "era_name": "Gilded Age and Industrial Maturity",
+      "date_range": "1870-1920",
+      "dominant_economy": "Troy collar manufacturing at peak; railroad dominance (NYC Central); ice harvesting industrial scale; dairy economy fully established; Catskill resort tourism; brick manufacturing; cement industry (Rosendale, Ulster County)",
+      "description": "The Hudson Valley's economy matured and diversified in the Gilded Age. Troy produced 90% of America's detachable collars. The New York Central Railroad dominated freight and passenger transport. Ice harvesting became a massive industry employing thousands of seasonal workers. Dairy farming replaced grain as the agricultural base. The Catskill resort industry grew from the Mountain House model to include dozens of hotels and hundreds of boarding houses. Rosendale cement (Ulster County) was used to build the Brooklyn Bridge and the Capitol building. Brick manufacturing along the Hudson used the abundant clay deposits. Immigration — particularly Irish, German, and Italian — fed the industrial labor force.",
+      "county_specifics": [
+        { "county": "Albany", "note": "State government and railroads. Growing immigrant communities. Albany as a railroad junction city." },
+        { "county": "Rensselaer", "note": "Troy collar manufacturing peaks (90% of US production). Burden Iron Works. Troy Collar Laundry Union — early women's labor organizing." },
+        { "county": "Dutchess", "note": "Dairy economy. Ice harvesting. Poughkeepsie as a small industrial city (hat manufacturing, brewing)." },
+        { "county": "Ulster", "note": "Rosendale cement industry. Bluestone quarrying declining. D&H Canal closed 1899. Kingston as commercial center." },
+        { "county": "Columbia", "note": "Dairy farming dominant. Hudson as river port declining. Shaker community at New Lebanon declining." },
+        { "county": "Orange", "note": "Black-dirt onion farming at peak. Iron industry declining. Newburgh as river port." },
+        { "county": "Greene", "note": "Catskill resort tourism growing. Tanbark industry dead. Brick manufacturing along the Hudson." },
+        { "county": "Washington", "note": "Dairy farming. Sheep industry collapsed. Maple sugar production continuing." }
+      ],
+      "key_infrastructure": [
+        { "name": "New York Central Railroad", "year": "1853 (consolidated)", "impact": "Dominated the Hudson Valley corridor. Replaced the canal as the primary freight artery. The railroad followed the east bank through Rensselaer and the west bank through Albany." },
+        { "name": "Rosendale cement works", "year": "1828-1970", "impact": "Rosendale natural cement from Ulster County was used in the Brooklyn Bridge, the Statue of Liberty pedestal, and the US Capitol. The industry employed hundreds." },
+        { "name": "Hudson River ice industry", "year": "1855-1920", "impact": "Massive ice houses lined the Hudson from Dutchess to Albany counties. Natural ice was harvested, stored, and shipped to New York City, the Caribbean, and beyond." }
+      ],
+      "major_employers": [
+        { "name": "Troy collar and shirt industry", "type": "Manufacturing — garments", "era": "1870-1920", "counties_affected": ["Rensselaer"], "employment_scale": "Thousands — Cluett, Peabody & Co. alone employed over 5,000 by 1900" },
+        { "name": "New York Central Railroad", "type": "Transportation", "era": "1870-1960", "counties_affected": ["Albany", "Rensselaer", "Columbia", "Dutchess"], "employment_scale": "Thousands of employees at shops, yards, and stations" },
+        { "name": "Ice harvesting companies", "type": "Seasonal extraction", "era": "1855-1920", "counties_affected": ["Dutchess", "Columbia", "Ulster", "Greene", "Albany"], "employment_scale": "Thousands of seasonal workers — predominantly Irish and Italian immigrants" },
+        { "name": "Rosendale cement works", "type": "Manufacturing — cement", "era": "1828-1920", "counties_affected": ["Ulster"], "employment_scale": "Hundreds" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Collar factory operative (female)", "wage": "$5.00-$8.00/week", "year": 1890, "source": "Turbin, Working Women (1992)" },
+        { "occupation": "Railroad worker (section hand)", "wage": "$1.25-$1.75/day", "year": 1890, "source": "Stover, John F. American Railroads. University of Chicago Press, 1997" },
+        { "occupation": "Ice harvester", "wage": "$1.50-$2.00/day (seasonal)", "year": 1890, "source": "Weightman, Frozen-Water Trade (2003)" },
+        { "occupation": "Dairy farmer (annual net)", "wage": "$400-$800/year", "year": 1900, "source": "Ellis, Landlords and Farmers (1946)" }
+      ],
+      "narrative_hook": "By {year}, the Hudson Valley economy ran on collars, ice, cement, and milk — {ancestor_name} worked in an economy where Troy dressed America's necks, the river froze money every winter, and the dairy farms on the plateau sent butter to New York City by rail.",
+      "source": "Turbin, Working Women (1992). Weightman, Frozen-Water Trade (2003). Evers, The Catskills (1972)."
+    },
+    {
+      "era_id": "decline_and_transformation",
+      "era_name": "Decline and Transformation",
+      "date_range": "1920-1960",
+      "dominant_economy": "Collar industry declining; mechanical refrigeration destroying ice industry; dairy consolidation; Catskill resort peak and decline; IBM transforms Dutchess County; suburban commuter patterns emerging",
+      "description": "The 20th century brought structural decline to many Hudson Valley industries. Mechanical refrigeration killed the ice harvesting industry by the 1920s. Troy's collar industry declined as fashion shifted away from detachable collars. The Catskill resort industry peaked in the 1920s-1950s — the 'Borscht Belt' Jewish resort hotels in Sullivan and Ulster counties brought seasonal tourism to its zenith. Agriculture consolidated into larger dairy operations. The transformative event was IBM's arrival in Dutchess County: the company's Poughkeepsie complex became the birthplace of the mainframe computer, bringing thousands of well-paid technical jobs and converting farmland to suburbs. Hyde Park's association with FDR brought national attention. The New York State Thruway (1954) connected the valley to the interstate highway system.",
+      "county_specifics": [
+        { "county": "Albany", "note": "State government remained the anchor. Railroad employment declining. Suburban sprawl beginning." },
+        { "county": "Rensselaer", "note": "Troy collar industry declining. Cluett, Peabody survived by shifting to Arrow shirts. Population stagnating." },
+        { "county": "Dutchess", "note": "IBM transforms the county — Poughkeepsie plant becomes the center of the emerging computer industry. Population boom. Farmland converting to suburban housing." },
+        { "county": "Ulster", "note": "Catskill resort economy significant. Rosendale cement declining. Kingston adapting as a regional center." },
+        { "county": "Columbia", "note": "Dairy farming consolidating. Population declining. The county becomes increasingly rural and quiet." },
+        { "county": "Orange", "note": "West Point continues as a major employer. Suburban growth in the southern county (Newburgh-Middletown corridor). Black-dirt farming continues." },
+        { "county": "Greene", "note": "Catskill resorts declining. Agriculture minimal. The county transitions to a tourism-and-retirement economy." },
+        { "county": "Washington", "note": "Dairy farming continues as the economic base. Population declining. Rural character preserved." }
+      ],
+      "key_infrastructure": [
+        { "name": "IBM Poughkeepsie complex", "year": "1941 (expanded massively 1950s)", "impact": "Transformed Dutchess County from agricultural to technological. The birthplace of the IBM mainframe. Brought thousands of technical jobs and suburban housing." },
+        { "name": "New York State Thruway", "year": 1954, "impact": "Connected the Hudson Valley to the interstate highway system. Enabled commuter patterns between the valley and New York City." },
+        { "name": "Catskill resort hotel industry", "year": "1920s-1960s", "impact": "The 'Borscht Belt' resorts — Grossinger's, the Concord, and hundreds of smaller hotels — brought seasonal employment and tourism revenue to Ulster, Greene, and Sullivan counties." }
+      ],
+      "major_employers": [
+        { "name": "IBM (Poughkeepsie)", "type": "Manufacturing/Technology — computers", "era": "1941-1960+", "counties_affected": ["Dutchess"], "employment_scale": "Thousands by 1955 — the largest employer in Dutchess County" },
+        { "name": "New York State government", "type": "Government", "era": "1920-1960", "counties_affected": ["Albany"], "employment_scale": "Thousands — the largest employer in Albany County" },
+        { "name": "Catskill resort hotels", "type": "Tourism — seasonal", "era": "1920-1960", "counties_affected": ["Ulster", "Greene"], "employment_scale": "Thousands of seasonal workers" },
+        { "name": "West Point Military Academy", "type": "Military/Education", "era": "1920-1960", "counties_affected": ["Orange"], "employment_scale": "Thousands of military and civilian employees" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "IBM technician", "wage": "$70-$100/week", "year": 1955, "source": "Maney, The Maverick and His Machine (2003)" },
+        { "occupation": "State government clerk", "wage": "$2,500-$4,000/year", "year": 1950, "source": "McEneny, Albany (2006)" },
+        { "occupation": "Catskill hotel seasonal worker", "wage": "$20-$40/week plus tips and board", "year": 1950, "source": "Evers, The Catskills (1972)" }
+      ],
+      "narrative_hook": "By {year}, the Hudson Valley was transforming — the ice was gone, the collars were declining, and IBM was building the future in Poughkeepsie. {ancestor_name} lived through the moment when the valley stopped looking backward and started looking forward.",
+      "source": "Maney, Kevin. The Maverick and His Machine. Wiley, 2003. Evers, The Catskills (1972). McEneny, Albany (2006)."
+    }
+  ],
+  "economic_turning_points": [
+    { "year": 1624, "event": "Fort Orange established — fur trade economy begins", "impact": "The Hudson Valley's first European economy" },
+    { "year": 1664, "event": "English takeover — New Amsterdam becomes New York", "impact": "Changed the legal system but not the economic structure" },
+    { "year": 1710, "event": "Palatine German settlement at Germantown", "impact": "Failed naval stores scheme strands refugees who become farmers" },
+    { "year": 1825, "event": "Erie Canal opens at Albany", "impact": "Transforms the valley from agricultural estate to commercial corridor" },
+    { "year": 1839, "event": "Anti-Rent Wars begin on the Van Rensselaer estate", "impact": "Breaks the feudal tenant system that had defined the valley's social structure" },
+    { "year": 1855, "event": "Hudson River ice industry reaches industrial scale", "impact": "Seasonal employment for thousands" },
+    { "year": 1899, "event": "Delaware & Hudson Canal closes", "impact": "End of the canal era in Ulster County" },
+    { "year": 1915, "event": "Ashokan Reservoir completed — seven communities drowned", "impact": "New York City's water needs displace valley communities" },
+    { "year": 1941, "event": "IBM expands Poughkeepsie operations", "impact": "Beginning of Dutchess County's transformation to a technology economy" }
+  ],
+  "narrative_hooks": [
+    "The Hudson Valley economy was built on the beaver and the tenant — {ancestor_name} lived in a region where the patroon's rent collector was a more constant presence than the government.",
+    "The Erie Canal turned Albany into the front door to the American West, and {ancestor_name} lived at the threshold.",
+    "The ice on the Hudson was money in the bank — {ancestor_name} could earn winter wages cutting frozen water for shipment to New York and Havana.",
+    "Troy dressed America's necks — the collar factories where {ancestor_name} worked produced ninety percent of the nation's detachable collars.",
+    "When IBM arrived in Poughkeepsie, {ancestor_name}'s county jumped from the dairy barn to the computer room in a single generation.",
+    "The Anti-Rent Wars broke the feudal system that had defined the valley for two centuries — {ancestor_name}'s generation was the one that stopped paying wheat rent to a patroon."
+  ],
+  "source_references": [
+    "Kim, Sung Bok. Landlord and Tenant in Colonial New York. Chapel Hill: University of North Carolina Press, 1978.",
+    "Venema, Janny. Beverwijck: A Dutch Village on the American Frontier. Hilversum: Verloren, 2003.",
+    "Ellis, David M. Landlords and Farmers in the Hudson-Mohawk Region, 1790-1850. Ithaca: Cornell University Press, 1946.",
+    "Huston, Reeve. Land and Freedom. New York: Oxford University Press, 2000.",
+    "Sheriff, Carol. The Artificial River. New York: Hill and Wang, 1996.",
+    "Turbin, Carole. Working Women of Collar City. Urbana: University of Illinois Press, 1992.",
+    "Evers, Alf. The Catskills: From Wilderness to Woodstock. Garden City: Doubleday, 1972.",
+    "Weightman, Gavin. The Frozen-Water Trade. New York: Hyperion, 2003.",
+    "Maney, Kevin. The Maverick and His Machine. Hoboken: John Wiley & Sons, 2003.",
+    "McEneny, John J. Albany: Capital City on the Hudson. Sun Valley, CA: American Historical Press, 2006."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["german_immigration_pipeline", "civil_war_service", "industrial_revolution", "great_migration", "gi_bill_migration"],
+    "material_life_refs": ["colonial_farm_1680_1780", "antebellum_yeoman_farm_1820_1860", "industrial_city_1880_1920", "postwar_suburban_1945_1970"],
+    "life_pattern_refs": ["yeoman_farming_stability", "immigrant_parish_lifecycle", "company_town_lifecycle"]
+  }
+}

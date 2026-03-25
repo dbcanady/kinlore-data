@@ -1,0 +1,175 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Road and connectivity network for the Lower Cape Fear / Wilmington regional cluster. The Cape Fear River was the defining transportation corridor — the only navigable river in NC leading to a deep-water port. Every era of connectivity was shaped by this geography: the river came first, the railroads followed the river, and the highways followed the railroads. The interior counties (Bladen, Columbus) remained isolated long after Wilmington was connected to the world.",
+  "connectivity_id": "lower_cape_fear_wilmington_roads",
+  "display_name": "Lower Cape Fear / Wilmington — Road & Connectivity Network",
+  "cluster_ref": "lower_cape_fear_wilmington",
+  "era_range": "1725-1960",
+
+  "transportation_eras": [
+    {
+      "era_id": "river_and_coastal",
+      "era_name": "River and Coastal Navigation",
+      "date_range": "1725-1840",
+      "primary_modes": ["ocean vessel", "river flatboat", "canoe", "wagon on unimproved trace", "horseback"],
+      "description": "The Cape Fear River was the Lower Cape Fear's sole reliable transportation corridor for over a century. Ocean-going vessels sailed upriver 30 miles from the Atlantic to Wilmington's wharves. Flatboats and bateaux carried naval stores and lumber downstream from Bladen County and the interior. The Northeast Cape Fear (serving the Pender area) and the Waccamaw River (serving Columbus County) provided secondary water routes. Overland travel was miserable — sandy traces through pine forest and swamp, impassable for weeks after heavy rain. A wagon journey from Elizabethtown (Bladen) to Wilmington took 2-3 days over roughly 75 miles. The river mouth was guarded by treacherous shoals — Frying Pan Shoals extended 20 miles offshore, making the Cape Fear inlet one of the most dangerous approaches on the Atlantic coast. Ship pilots who knew the channels were essential and well-paid.",
+      "road_conditions": "No engineered surfaces. Deep sand in dry weather, impassable mud in wet. Swamp crossings required corduroy log roads or long detours. Few bridges — most creek crossings were fords that became impassable after rain. The King's Highway (coastal road to Charleston) was little more than a trace through the pine barrens.",
+      "travel_times": [
+        { "from": "Wilmington", "to": "Elizabethtown (Bladen Co.)", "mode": "wagon", "time": "2-3 days", "conditions_note": "Sandy trace through pine forest; Cape Fear River ferry crossings added delay" },
+        { "from": "Wilmington", "to": "Smithville/Southport (Brunswick Co.)", "mode": "coastal vessel or ferry", "time": "4-8 hours", "conditions_note": "Down the Cape Fear River or overland through swamp — river was preferred" },
+        { "from": "Wilmington", "to": "Whiteville (Columbus Co.)", "mode": "wagon", "time": "3-4 days", "conditions_note": "Through Green Swamp and pine barrens — one of the most difficult overland routes in eastern NC" },
+        { "from": "Wilmington", "to": "Charleston, SC", "mode": "coastal vessel", "time": "2-4 days by sea", "conditions_note": "Coastal navigation around Frying Pan Shoals; overland alternative took a week or more" }
+      ],
+      "key_routes": [
+        { "route_name": "Cape Fear River (navigable)", "type": "river navigation", "year_established": "pre-colonial", "description": "The defining transportation corridor. Ocean vessels reached Wilmington; flatboats and bateaux reached upstream to Fayetteville (the head of navigation). The only navigable river in NC leading to a deep-water port.", "counties_served": ["New Hanover", "Brunswick", "Bladen"] },
+        { "route_name": "Northeast Cape Fear River", "type": "river navigation", "year_established": "pre-colonial", "description": "Secondary water route serving the turpentine country northeast of Wilmington. Shallow-draft vessels carried naval stores barrels downstream to Wilmington.", "counties_served": ["New Hanover", "Pender"] },
+        { "route_name": "King's Highway (coastal trace)", "type": "unimproved trace", "year_established": "1730s", "description": "Colonial-era coastal road connecting Wilmington to Brunswick Town and south toward Georgetown and Charleston. Little more than a marked trail through pine forest and along beach strand.", "counties_served": ["New Hanover", "Brunswick"] }
+      ],
+      "isolation_index": {
+        "description": "Extreme for interior counties; moderate for Wilmington itself. Wilmington was connected to the Atlantic world through its port — merchants communicated with London and Charleston — but the interior counties of Bladen and Columbus existed in profound isolation. A family in Columbus County might be a full week's travel from the coast.",
+        "comparative_note": "Wilmington was simultaneously one of the best-connected towns in NC (via the ocean) and surrounded by some of the most isolated rural territory east of the Appalachians. The contrast was stark and persisted into the railroad era."
+      },
+      "narrative_hook": "In {year}, {ancestor_name} lived in a region where the river was the road — the Cape Fear carried everything that mattered between Wilmington and the world, while the overland routes through {county} County's sand and swamp were fit for nothing heavier than a man on horseback.",
+      "source": "Lee, Lawrence. The Lower Cape Fear in Colonial Days. Chapel Hill: University of North Carolina Press, 1965. Watson, Alan D. Wilmington, North Carolina, to 1861. Jefferson, NC: McFarland, 2003."
+    },
+    {
+      "era_id": "railroad_era",
+      "era_name": "Railroad Era",
+      "date_range": "1840-1920",
+      "primary_modes": ["railroad", "river steamer", "wagon on unimproved road", "horseback"],
+      "description": "The Wilmington & Weldon Railroad (1840) transformed Wilmington from a river port into a railroad hub — at 161 miles, it was the longest railroad in the world at completion. The Wilmington & Manchester Railroad (1854) extended service south to South Carolina. These lines ran through or near New Hanover County but bypassed the interior counties entirely. Bladen, Columbus, and most of the Pender area remained without rail service until branch lines slowly extended in the 1880s-1900s. The Civil War destroyed much of the railroad infrastructure — the Wilmington & Weldon was a primary Union target. Rebuilding occurred through the 1870s, and the consolidation of various lines into the Atlantic Coast Line Railroad (1900) made Wilmington the ACL's headquarters and a major rail hub. The railroad era created a sharp connectivity divide: Wilmington was linked to the national rail network, while Columbus County families still traveled by wagon on sand roads.",
+      "road_conditions": "County roads remained unimproved sand and dirt. Plank roads were not built in this region to the same extent as the Piedmont — the Lower Cape Fear's economy was oriented toward river and rail, not overland plank roads. Corvee labor maintained county roads poorly. The sandy, swampy terrain made road-building expensive relative to the tax base.",
+      "travel_times": [
+        { "from": "Wilmington", "to": "Weldon (Virginia border)", "mode": "Wilmington & Weldon Railroad", "time": "6-8 hours", "conditions_note": "The journey that took a week by wagon now took a day by rail" },
+        { "from": "Wilmington", "to": "Elizabethtown (Bladen Co.)", "mode": "wagon (no railroad)", "time": "2-3 days until branch line c. 1890s", "conditions_note": "Bladen County remained without direct railroad service for decades after Wilmington was connected" },
+        { "from": "Wilmington", "to": "Whiteville (Columbus Co.)", "mode": "wagon until branch line c. 1890s", "time": "3-4 days by wagon; 3-4 hours by rail after branch line", "conditions_note": "Columbus County's isolation persisted until late in the century" },
+        { "from": "Wilmington", "to": "Southport (Brunswick Co.)", "mode": "river steamer", "time": "3-4 hours", "conditions_note": "River steamers connected Wilmington to Southport until automobile roads made overland travel practical" }
+      ],
+      "key_routes": [
+        { "route_name": "Wilmington & Weldon Railroad", "type": "railroad", "year_established": 1840, "description": "World's longest railroad at completion, connecting Wilmington to the Virginia border. Made Wilmington a railroad hub. Ran northeast through the Pender area, bypassing Bladen and Columbus entirely.", "counties_served": ["New Hanover", "Pender"] },
+        { "route_name": "Wilmington & Manchester Railroad", "type": "railroad", "year_established": 1854, "description": "Connected Wilmington south through Brunswick County to South Carolina. Gave Brunswick its first rail service.", "counties_served": ["New Hanover", "Brunswick"] },
+        { "route_name": "Atlantic Coast Line Railroad (consolidated)", "type": "railroad", "year_established": 1900, "description": "Consolidated the Wilmington & Weldon and associated lines. Headquartered in Wilmington, making the city a major railroad center. Branch lines gradually extended into interior counties.", "counties_served": ["New Hanover", "Pender", "Bladen", "Columbus", "Brunswick"] },
+        { "route_name": "Cape Fear River steamboat service", "type": "river steamer", "year_established": "1840s-1900s", "description": "Regular steamer service between Wilmington, Southport, and upriver landings on the Cape Fear. Provided passenger and freight service that competed with and complemented the railroads.", "counties_served": ["New Hanover", "Brunswick", "Bladen"] }
+      ],
+      "isolation_index": {
+        "description": "Sharply divided. Wilmington was among the best-connected cities in NC — multiple rail lines, port, telegraph. Bladen and Columbus counties remained almost as isolated as they had been in the colonial era until branch lines arrived in the 1890s-1900s. The railroad created a two-class system of connected and unconnected communities.",
+        "comparative_note": "The Lower Cape Fear's connectivity gap between port city and interior was wider than in most NC clusters. A Wilmington merchant could telegraph London in an hour; a Columbus County farmer three days' ride away might not learn of a president's death for a week."
+      },
+      "narrative_hook": "The railroad ran through Wilmington and out the other side — but for {ancestor_name} in {county} County, the nearest depot was {distance} away, and the sand road between the farm and the tracks might as well have been an ocean.",
+      "source": "Trelease, Allen W. The North Carolina Railroad, 1849-1871, and the Modernization of North Carolina. Chapel Hill: University of North Carolina Press, 1991. Watson, Wilmington, to 1861."
+    },
+    {
+      "era_id": "early_automobile",
+      "era_name": "Early Automobile and Highway Era",
+      "date_range": "1920-1940",
+      "primary_modes": ["automobile", "bus", "railroad", "wagon (declining)"],
+      "description": "The automobile arrived in the Lower Cape Fear slowly and unevenly. Governor Cameron Morrison's 'Good Roads' campaign (1921) began paving major routes, but the sandy, swampy terrain of the coastal plain made road construction expensive. US Highway 17 along the coast and US 74/76 through Columbus County were among the first paved routes. US 421 connected Wilmington to the interior. For the first time, families in Bladen and Columbus counties could reach Wilmington in a single day by automobile — but only if they owned a car and the road was passable. Tenant farmers and sharecroppers, who could not afford automobiles, remained as isolated as their grandparents had been. The Great Depression slowed road construction, but New Deal programs (WPA, CCC) built secondary roads and bridges that began connecting the most remote communities.",
+      "road_conditions": "State highways paved by the late 1920s-1930s. County roads remained sand and clay. Brunswick County, with its extensive swampland and low tax base, had some of the worst roads in NC. The contrast between paved highways and sandy farm lanes was visible and class-coded.",
+      "travel_times": [
+        { "from": "Wilmington", "to": "Elizabethtown (Bladen Co.)", "mode": "automobile", "time": "2-3 hours", "conditions_note": "Paved highway for most of the route by the 1930s" },
+        { "from": "Wilmington", "to": "Whiteville (Columbus Co.)", "mode": "automobile via US 74/76", "time": "2-3 hours", "conditions_note": "First reliable year-round overland route to Columbus County" },
+        { "from": "Wilmington", "to": "Southport (Brunswick Co.)", "mode": "automobile and ferry", "time": "1.5-2 hours", "conditions_note": "Required ferry crossing of the Cape Fear River — no bridge at Southport until later" },
+        { "from": "Typical interior farm", "to": "Nearest county seat", "mode": "mule and wagon", "time": "3-5 hours one way", "conditions_note": "For families without automobiles, travel times remained unchanged from the 19th century" }
+      ],
+      "key_routes": [
+        { "route_name": "US Highway 17", "type": "paved highway", "year_established": 1926, "description": "Coastal route connecting Wilmington to Norfolk (north) and Myrtle Beach/Charleston (south). The first paved highway along the NC coast, bringing automobile traffic and early tourism.", "counties_served": ["New Hanover", "Brunswick", "Pender"] },
+        { "route_name": "US Highway 74/76", "type": "paved highway", "year_established": "late 1920s", "description": "East-west route connecting Wilmington through Columbus County to the Piedmont. Finally broke Columbus County's centuries-long isolation from the coast.", "counties_served": ["New Hanover", "Columbus"] },
+        { "route_name": "US Highway 421", "type": "paved highway", "year_established": "1920s-1930s", "description": "Connected Wilmington north through Pender and Bladen counties toward the interior. Followed the old Cape Fear River corridor.", "counties_served": ["New Hanover", "Pender", "Bladen"] }
+      ],
+      "isolation_index": {
+        "description": "Declining for automobile owners; unchanged for those without. The car split the Lower Cape Fear into two eras: families with automobiles experienced modern connectivity, while sharecropping families a mile off the highway still measured distance in hours behind a mule.",
+        "comparative_note": "The Lower Cape Fear's interior counties (Columbus, Bladen) achieved paved highway connections decades after the Piedmont — the sandy terrain and sparse population made them low priorities for state road investment."
+      },
+      "narrative_hook": "When the highway was paved through {county} County in the {decade}s, {ancestor_name} could see automobiles passing on smooth asphalt — but the sand lane between the farm and the highway had not changed since {pronoun_possessive} grandparents had first walked it.",
+      "source": "Brown, Cecil Kenneth. The State Highway System of North Carolina: Its Evolution and Present Status. Chapel Hill: University of North Carolina Press, 1931."
+    },
+    {
+      "era_id": "military_highway_era",
+      "era_name": "Military Construction and Modern Highway",
+      "date_range": "1940-1960",
+      "primary_modes": ["automobile", "bus", "truck freight", "railroad (declining for passengers)"],
+      "description": "World War II's military construction transformed the Lower Cape Fear's road network. The North Carolina Shipbuilding Company in Wilmington and Camp Davis in Pender County required access roads, housing construction, and utility infrastructure that the state and counties could never have afforded independently. Federal defense dollars paved roads, built bridges, and installed water and power lines across the region. After the war, this military-funded infrastructure became the backbone of the civilian road network. Automobile ownership became common among middle-income families by the 1950s. Bus service connected every county seat. By 1960, the physical isolation that had defined the Lower Cape Fear's interior counties for two centuries was effectively broken — though Brunswick County, separated from Wilmington by the Cape Fear River with no bridge at Southport, remained less accessible than the other counties.",
+      "road_conditions": "State highways fully paved. Military access roads built to high standards. Most county roads paved or hard-surfaced by 1955. The Cape Fear River remained a barrier for Brunswick County — ferries operated but no bridge connected Southport to Wilmington directly.",
+      "travel_times": [
+        { "from": "Wilmington", "to": "Elizabethtown (Bladen Co.)", "mode": "automobile", "time": "1-1.5 hours", "conditions_note": "Fully paved route — a journey that took 3 days in 1800" },
+        { "from": "Wilmington", "to": "Whiteville (Columbus Co.)", "mode": "automobile", "time": "1.5 hours", "conditions_note": "US 74/76 fully improved" },
+        { "from": "Wilmington", "to": "Holly Ridge/Camp Davis (Pender Co.)", "mode": "automobile", "time": "45 minutes", "conditions_note": "Military road construction made this route among the best in the region" },
+        { "from": "Typical farm", "to": "Nearest county seat", "mode": "automobile", "time": "15-30 minutes", "conditions_note": "Paved roads reached most rural communities — the county seat became a routine destination" }
+      ],
+      "key_routes": [
+        { "route_name": "Military access roads (shipyard and Camp Davis)", "type": "paved military/public highway", "year_established": "1941-1943", "description": "Federal defense construction paved roads throughout New Hanover and Pender counties. These roads served military logistics during the war and became permanent public roads afterward.", "counties_served": ["New Hanover", "Pender"] },
+        { "route_name": "US Highway 17 (improved)", "type": "paved highway", "year_established": "improved 1940s-1950s", "description": "Widened and improved to handle military and civilian traffic. The primary coastal highway, increasingly serving tourism as well as commerce.", "counties_served": ["New Hanover", "Brunswick", "Pender"] },
+        { "route_name": "Intracoastal Waterway", "type": "maintained waterway", "year_established": "1930s-1940s", "description": "Federal project creating a protected inland waterway along the coast. Passed through Brunswick and New Hanover counties, supporting commercial fishing, military logistics, and eventually recreational boating.", "counties_served": ["New Hanover", "Brunswick"] }
+      ],
+      "isolation_index": {
+        "description": "Low. By 1960, automobile ownership was nearly universal. The physical isolation that had defined the Lower Cape Fear's interior for two centuries was broken. Brunswick County remained slightly less accessible due to the Cape Fear River barrier, but ferry service was regular.",
+        "comparative_note": "The war accomplished in five years what two centuries of civilian road-building had failed to do — connect every community in the Lower Cape Fear to the regional economy through paved roads."
+      },
+      "narrative_hook": "The roads the Army built for the shipyard and Camp Davis were better than anything {county} County had ever seen — and when the war ended, the roads stayed. {ancestor_name} could reach Wilmington in an hour on pavement that the federal government paid for.",
+      "source": "Lemmon, Sarah McCulloh. North Carolina's Role in World War II. Raleigh: NC Division of Archives and History, 1964."
+    }
+  ],
+
+  "railroad_timeline": [
+    {
+      "railroad_name": "Wilmington & Weldon Railroad",
+      "year_arrived": 1840,
+      "stations": [
+        { "station_name": "Wilmington", "county": "New Hanover", "significance": "Southern terminus and port connection — the reason the railroad was built. Goods from the interior reached Wilmington's deep-water port via rail." },
+        { "station_name": "Burgaw", "county": "Pender (after 1875)", "significance": "Principal depot in the Pender area. Turpentine and lumber shipping point." },
+        { "station_name": "Rocky Point", "county": "Pender (after 1875)", "significance": "Rural depot serving the agricultural community along the Northeast Cape Fear." }
+      ],
+      "impact": "The longest railroad in the world at completion, running 161 miles from Wilmington to Weldon on the Virginia border. Transformed Wilmington from a river port into a railroad hub. The railroad ran northeast through the Pender area but bypassed Bladen, Columbus, and Brunswick counties entirely, leaving the interior isolated.",
+      "source": "Watson, Wilmington, to 1861, ch. 4."
+    },
+    {
+      "railroad_name": "Wilmington & Manchester Railroad",
+      "year_arrived": 1854,
+      "stations": [
+        { "station_name": "Wilmington", "county": "New Hanover", "significance": "Northern terminus" },
+        { "station_name": "Leland", "county": "Brunswick", "significance": "Depot serving northwestern Brunswick County" }
+      ],
+      "impact": "Connected Wilmington south through Brunswick County to South Carolina. Gave Brunswick County its first railroad access, though stations were few and far from the coast. The line was destroyed during the Civil War and rebuilt in the 1870s.",
+      "source": "Fonvielle, The Wilmington Campaign, ch. 1."
+    },
+    {
+      "railroad_name": "Atlantic Coast Line Railroad (consolidation)",
+      "year_arrived": 1900,
+      "stations": [
+        { "station_name": "Wilmington", "county": "New Hanover", "significance": "ACL headquarters city. Repair shops and offices employed thousands." },
+        { "station_name": "Burgaw", "county": "Pender", "significance": "County seat with ACL depot" },
+        { "station_name": "Whiteville", "county": "Columbus", "significance": "County seat connected by ACL branch line — ending Columbus County's isolation" },
+        { "station_name": "Elizabethtown", "county": "Bladen", "significance": "County seat connected by branch line" }
+      ],
+      "impact": "Consolidation of the Wilmington & Weldon and affiliated lines into the Atlantic Coast Line created a through-route from Florida to Virginia with Wilmington as headquarters. Branch lines finally reached Columbus and Bladen counties, ending their centuries of near-total isolation. The ACL was the largest employer in Wilmington and the largest employer of Black labor in eastern NC outside of agriculture.",
+      "source": "Johnston, Robert Wayne. The Atlantic Coast Line Railroad and Its Predecessor Lines. TLC Publishing, 2003."
+    }
+  ],
+
+  "narrative_hooks": [
+    "The Cape Fear River was the Lower Cape Fear's first and longest-serving highway — for over a century, everything {ancestor_name} produced or purchased moved on water, not roads.",
+    "For {ancestor_name}'s family in {county} County, the world beyond the county line was measured in days of wagon travel through sand and swamp — {distance} miles that felt like a continent.",
+    "The railroad reached Wilmington in 1840 and made it the biggest city in North Carolina — but for {ancestor_name} in {county} County, the nearest depot was years away from being built.",
+    "When the highway was paved through {county} County, {ancestor_name} could see the future passing at thirty miles an hour on smooth asphalt — and then walk back down a sand lane that had not changed since the colonial period.",
+    "The military roads built for the shipyard and Camp Davis were the best thing the war left behind — when the soldiers went home, the pavement stayed, and {ancestor_name}'s farm was connected to Wilmington for the first time by a road that did not depend on the weather.",
+    "Brunswick County was separated from Wilmington by the Cape Fear River — and without a bridge, {ancestor_name}'s family relied on the ferry, which ran on its own schedule and not on theirs."
+  ],
+
+  "source_references": [
+    "Lee, Lawrence. The Lower Cape Fear in Colonial Days. Chapel Hill: University of North Carolina Press, 1965.",
+    "Watson, Alan D. Wilmington, North Carolina, to 1861. Jefferson, NC: McFarland, 2003.",
+    "Trelease, Allen W. The North Carolina Railroad, 1849-1871, and the Modernization of North Carolina. Chapel Hill: University of North Carolina Press, 1991.",
+    "Brown, Cecil Kenneth. The State Highway System of North Carolina: Its Evolution and Present Status. Chapel Hill: University of North Carolina Press, 1931.",
+    "Fonvielle, Chris E., Jr. The Wilmington Campaign: Last Rays of Departing Hope. Campbell, CA: Savas Publishing, 1997.",
+    "Lemmon, Sarah McCulloh. North Carolina's Role in World War II. Raleigh: NC Division of Archives and History, 1964.",
+    "Johnston, Robert Wayne. The Atlantic Coast Line Railroad and Its Predecessor Lines. TLC Publishing, 2003."
+  ],
+
+  "nel_cross_references": {
+    "route_refs": [
+      "atlantic_coastal_steamer",
+      "intercity_bus"
+    ]
+  }
+}

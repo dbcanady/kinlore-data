@@ -1,0 +1,59 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Tift County, GA. Record survival, courthouse history, and known losses. Tift County, formed 1905 from Berrien, Irwin, and Worth counties, is the youngest county in the cluster. Records begin only from 1905; earlier records must be sought in the parent counties.",
+  "courthouse_atlas_id": "ga_tift_courthouse",
+  "display_name": "Tift County, Georgia — Courthouse Atlas",
+  "county": "Tift",
+  "state": "GA",
+  "fips_code": "13277",
+  "cluster_ref": "ga_wiregrass_coastal_plain",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1912, "location": "Tifton, GA — courthouse square (renovated 1950s)", "records_housed": ["deeds", "marriage licenses", "probate records", "court minutes"] },
+    "previous_courthouses": [
+      { "era": "1905-1912", "location": "Tifton, GA — temporary courthouse", "fate": "Replaced by permanent courthouse in 1912. Records transferred." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "tift_no_major_loss",
+      "date": null,
+      "cause": "No major fire or destruction",
+      "records_destroyed": [],
+      "records_survived": ["Deed books from 1905", "Marriage records from 1905", "Will books", "Court minutes"],
+      "scope": "none",
+      "description": "Tift County has experienced no major record loss since its formation in 1905. The county is young enough that its records are in generally good condition. The challenge for genealogists is not loss but the late start — families living in the area before 1905 were recorded in Berrien, Irwin, or Worth county records.",
+      "narrative_impact": "Tift County records start in 1905 — less than 60 years of county-level records by 1960. If {ancestor_name} was in the area before 1905, the genealogist must search the parent counties: Berrien (formed 1856), Irwin (formed 1818), or Worth (formed 1853).",
+      "source": "GA Department of Archives and History. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1905, "completeness": "Excellent from formation", "gaps": "No gaps. Pre-1905 deeds in parent counties (Berrien, Irwin, Worth).", "repository": "Tift County Clerk of Superior Court; GA Archives microfilm", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1905, "completeness": "Excellent from formation", "gaps": "Pre-1905 estates in parent counties.", "repository": "Tift County Probate Court; GA Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1905, "completeness": "Excellent", "gaps": "Pre-1905 marriages in parent counties.", "repository": "Tift County Probate Court", "online_access": "FamilySearch; Ancestry.com GA marriages" },
+    "court_minutes": { "earliest_surviving": 1905, "completeness": "Excellent", "gaps": "None.", "repository": "Tift County Clerk of Superior Court; GA Archives", "online_access": "GA Archives microfilm" },
+    "vital_records": { "birth_registration_start": 1919, "death_registration_start": 1919, "completeness": "Spotty until mid-1920s.", "repository": "GA Department of Public Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "Berrien County records (parent county)", "description": "The northern and eastern portions of Tift County were part of Berrien County before 1905. All land, court, and probate records for that area before 1905 are in Berrien County.", "repository": "Berrien County Clerk of Superior Court, Nashville, GA; GA Archives", "era_coverage": "1856-1905", "genealogical_value": "Essential for tracing land ownership and family records in the Tifton area before 1905.", "source": "GA Department of Archives and History." },
+    { "source_type": "Coastal Plain Experiment Station records", "description": "The Georgia Coastal Plain Experiment Station (est. 1918) maintained records of cooperating farmers, soil tests, and crop experiments that include family names and farm locations.", "repository": "University of Georgia Tifton Campus Archives", "era_coverage": "1918-present", "genealogical_value": "Documents farming families who cooperated with the experiment station. Useful for placing families on specific farms and documenting their agricultural practices.", "source": "University of Georgia College of Agricultural and Environmental Sciences." },
+    { "source_type": "Huxford's Pioneers of Wiregrass Georgia", "description": "Covers families in the Tift County area from pre-formation through early 1900s.", "repository": "Major Georgia libraries; Huxford Genealogical Society", "era_coverage": "1870-1920", "genealogical_value": "Documents founding families of the area that became Tift County.", "source": "Huxford, Pioneers of Wiregrass Georgia." }
+  ],
+  "narrative_hooks": [
+    "Tift County did not exist until 1905 — {ancestor_name}'s family was in Berrien or Irwin or Worth County before the lines were redrawn, and the genealogist must cross county boundaries that did not exist when the family first arrived.",
+    "The Coastal Plain Experiment Station records may place {ancestor_name}'s farm on a specific piece of Tifton loamy sand — the kind of soil documentation that no other Wiregrass county offers.",
+    "Tift County's records are in excellent condition because they are young — less than sixty years old by 1960 — but the late start means the earliest family stories are recorded elsewhere.",
+    "Before 1905, the Tifton area was railroad country in the middle of three counties' jurisdictions — {ancestor_name} may appear in the records of Berrien, Irwin, or Worth depending on which side of lines that no longer exist the family lived on."
+  ],
+  "source_references": [
+    "GA Department of Archives and History. Guide to County Records.",
+    "Huxford, Folks. Pioneers of Wiregrass Georgia. 10 vols.",
+    "University of Georgia College of Agricultural and Environmental Sciences. Tifton Campus Archives.",
+    "Works Progress Administration. Historical Records Survey: Georgia. Atlanta, 1937-1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ga_tift",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

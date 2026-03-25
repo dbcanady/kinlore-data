@@ -1,0 +1,105 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Rock County, WI. Record survival is good — no major courthouse fires or war damage. Records continuous from county formation (1839). The county's dual agricultural-industrial character means records span farm deeds and factory employment.",
+  "courthouse_atlas_id": "wi_rock_courthouse",
+  "display_name": "Rock County, Wisconsin — Courthouse Atlas",
+  "county": "Rock",
+  "state": "WI",
+  "fips_code": "55105",
+  "cluster_ref": "wi_southern_driftless",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1955,
+      "location": "Janesville, WI — 51 S. Main Street",
+      "records_housed": ["deeds", "mortgages", "probate records", "court records", "vital records (post-1907)"]
+    },
+    "previous_courthouses": [
+      { "era": "1839-1878", "location": "Janesville, various early buildings", "fate": "Replaced as the county grew. No significant fire loss." },
+      { "era": "1878-1955", "location": "Janesville, Main Street", "fate": "Limestone Romanesque building. Records transferred to current building." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "rock_no_major_loss",
+      "date": null,
+      "cause": "None — no significant fire or war damage",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage records", "probate files"],
+      "scope": "none",
+      "description": "Rock County has experienced no major courthouse fire or record loss. Records run continuously from the county's 1839 formation. Genealogical records are generally intact and accessible.",
+      "narrative_impact": "If {ancestor_name} lived in Rock County after 1839, the records very likely survive. Any gaps in the paper trail point to the ancestor's circumstances — factory workers who rented housing left fewer county records than landowners.",
+      "source": "Wisconsin Historical Society. Guide to Wisconsin County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1839,
+      "completeness": "Excellent — continuous from county formation",
+      "gaps": "No known gaps",
+      "repository": "Rock County Register of Deeds; Wisconsin Historical Society microfilm",
+      "online_access": "FamilySearch microfilm; some Ancestry.com collections"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1840,
+      "completeness": "Good",
+      "gaps": "Minor gaps in earliest loose papers",
+      "repository": "Rock County Probate Court; Wisconsin Historical Society",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1839,
+      "completeness": "Good — territorial and statehood records both survive",
+      "gaps": "Minimal",
+      "repository": "Rock County Register of Deeds; Wisconsin Historical Society",
+      "online_access": "FamilySearch; Ancestry.com WI marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1839,
+      "completeness": "Good",
+      "gaps": "Minor in territorial period",
+      "repository": "Rock County Clerk of Courts; Wisconsin Historical Society",
+      "online_access": "Limited; WHS microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1907,
+      "death_registration_start": 1907,
+      "completeness": "Statewide registration from 1907. Pre-1907 rely on church records and census.",
+      "repository": "Wisconsin Department of Health Services; Janesville city records may predate 1907"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "General Motors / Parker Pen company records",
+      "description": "GM's Janesville plant (1919-2009) and Parker Pen Company maintained employee records that documented thousands of Rock County workers. Whether these records survive and where they are held varies by company.",
+      "repository": "Rock County Historical Society; Hedberg Public Library (Janesville); company archives where accessible",
+      "era_coverage": "1919-present (GM); 1888-present (Parker Pen)",
+      "genealogical_value": "Employment records can establish dates of residence, wages, and family members where county records are sparse — particularly for factory workers who rented rather than owned homes.",
+      "source": "Goldstein, Amy. Janesville: An American Story. Simon & Schuster, 2017."
+    },
+    {
+      "source_type": "Church records — Norwegian Lutheran and Congregational",
+      "description": "Norwegian Lutheran and New England Congregational churches were the primary denominations. Both maintained records of baptisms, marriages, and burials.",
+      "repository": "Individual congregations; Wisconsin Historical Society; ELCA archives; Norwegian-American Historical Association",
+      "era_coverage": "1840s-present",
+      "genealogical_value": "Church records bridge the gap before statewide vital registration in 1907.",
+      "source": "Wisconsin Historical Society church records guide."
+    }
+  ],
+  "narrative_hooks": [
+    "Rock County's records survive intact from 1839 — if {ancestor_name} owned land, married, or appeared in court, the documentation is there.",
+    "If {ancestor_name} worked at the GM plant or Parker Pen in Janesville, company records may document what the county records do not — daily work life in an industrial economy.",
+    "Wisconsin vital registration began in 1907 — before that, {ancestor_name}'s birth or death must be traced through church records, census, or the Janesville newspaper.",
+    "Rock County sits on the glacial boundary — {ancestor_name}'s farm on the flat eastern prairie left different records than a farm in the hilly Driftless west, because flat land was easier to survey, easier to deed, and easier to subdivide."
+  ],
+  "source_references": [
+    "Wisconsin Historical Society. Guide to Wisconsin County Records. Madison: WHS, various editions.",
+    "Goldstein, Amy. Janesville: An American Story. New York: Simon & Schuster, 2017.",
+    "Wisconsin Historical Society church records guide."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "wi_rock",
+    "research_guidance_refs": ["vital_records", "church_transfers"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Leflore County, MS. County seat: Greenwood. Records survive from county formation (1871) with no major courthouse fire. The county was created from portions of Carroll, Sunflower, and Tallahatchie counties, so pre-1871 records are in those parent counties.",
+  "courthouse_atlas_id": "ms_leflore_courthouse",
+  "display_name": "Leflore County, Mississippi — Courthouse Atlas",
+  "county": "Leflore",
+  "state": "MS",
+  "fips_code": "28083",
+  "cluster_ref": "ms_delta",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1906,
+      "location": "Greenwood, MS — Main Street",
+      "records_housed": ["deeds", "chancery court records", "circuit court records", "marriage records", "vital records post-1912"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1871-1906",
+        "location": "Greenwood (earlier structure)",
+        "fate": "Replaced by current 1906 building as county grew."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "leflore_no_major_loss",
+      "date": "N/A",
+      "cause": "No major fire or flood loss at the courthouse",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1871", "court records", "marriage records"],
+      "scope": "minimal",
+      "description": "Leflore County's courthouse has not suffered a major fire or catastrophic flood loss. Records from county formation (1871) survive in generally good condition. The primary research challenge is the county's late formation — for ancestors in this area before 1871, records are in Carroll, Sunflower, or Tallahatchie counties.",
+      "narrative_impact": "Leflore County's records are relatively complete from 1871, but {ancestor_name}'s pre-1871 records must be sought in the parent counties — Carroll County to the east, Sunflower to the west, or Tallahatchie to the north.",
+      "source": "Mississippi Department of Archives and History, Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1871,
+      "completeness": "Good from county formation",
+      "gaps": "Pre-1871 deeds in Carroll, Sunflower, or Tallahatchie county records.",
+      "repository": "Leflore County Chancery Clerk, Greenwood; MDAH microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1871,
+      "completeness": "Good from county formation",
+      "gaps": "Pre-1871 estates in parent county records.",
+      "repository": "Leflore County Chancery Clerk; MDAH",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1871,
+      "completeness": "Good — both white and Black marriages documented from formation",
+      "gaps": "Pre-1871 marriages in parent county records.",
+      "repository": "Leflore County Circuit Clerk; MDAH microfilm",
+      "online_access": "FamilySearch; Ancestry.com MS marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1871,
+      "completeness": "Good — continuous from formation",
+      "gaps": "No significant gaps.",
+      "repository": "Leflore County courthouse; MDAH",
+      "online_access": "MDAH microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1912,
+      "death_registration_start": 1912,
+      "completeness": "Compliance improved through 1920s. Greenwood urban records better than rural.",
+      "repository": "Mississippi State Department of Health; MDAH"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1880-1940 (county created 1871; first census enumeration as Leflore County, 1880).",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1880-1940",
+      "genealogical_value": "The 1870 census lists this area under Carroll, Sunflower, or Tallahatchie counties — cross-referencing is essential.",
+      "source": "National Archives and Records Administration."
+    },
+    {
+      "source_type": "Greenwood Commonwealth newspaper",
+      "description": "The Greenwood Commonwealth has been published since the late 1890s. Contains legal notices, obituaries, and cotton market reports.",
+      "repository": "MDAH microfilm; Greenwood-Leflore Public Library",
+      "era_coverage": "1890s-present",
+      "genealogical_value": "Legal notices, estate settlements, and obituaries fill gaps in court records. Cotton market reports contextualize the agricultural economy.",
+      "source": "Mississippi Department of Archives and History."
+    },
+    {
+      "source_type": "Freedmen's Bureau records",
+      "description": "Pre-1871 records for this area filed under Carroll and Sunflower County Freedmen's Bureau offices.",
+      "repository": "National Archives; FamilySearch digitization",
+      "era_coverage": "1865-1872",
+      "genealogical_value": "Essential for Black families. Records filed under parent county names — search Carroll and Sunflower County Bureau records.",
+      "source": "National Archives, RG 105."
+    }
+  ],
+  "narrative_hooks": [
+    "Leflore County was not created until 1871 — if {ancestor_name} lived in this area before that date, the records are in Carroll, Sunflower, or Tallahatchie counties, and the genealogist must follow the jurisdictional trail backward.",
+    "Greenwood's courthouse survived without major fire or flood — a rare advantage in the Delta — which means {ancestor_name}'s post-1871 records are more likely to exist than in many neighboring counties.",
+    "The Freedmen's Bureau records for {ancestor_name}'s area are filed under the parent county names (Carroll or Sunflower), not under Leflore, which did not yet exist — a jurisdictional trap that catches researchers who search only by the modern county name.",
+    "Leflore County's late formation means the county itself has no antebellum records — the enslaved people who cleared the land, including {ancestor_name}'s family, appear in the records of counties that no longer exist in their original boundaries."
+  ],
+  "source_references": [
+    "Mississippi Department of Archives and History. Guide to County Records. Jackson, MS.",
+    "National Archives and Records Administration. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands (RG 105).",
+    "Cobb, James C. The Most Southern Place on Earth: The Mississippi Delta and the Roots of Regional Identity. New York: Oxford University Press, 1992."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ms_leflore",
+    "research_guidance_refs": ["southern_courthouse_research", "freedmens_bureau"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Bourbon County, KY. Formed 1786 from Fayette County. Records begin under Virginia law. Bourbon County experienced a significant courthouse fire in 1872 that destroyed some early records, making substitute sources critical for pre-1872 research.",
+  "courthouse_atlas_id": "ky_bourbon_courthouse",
+  "display_name": "Bourbon County, Kentucky — Courthouse Atlas",
+  "county": "Bourbon",
+  "state": "KY",
+  "fips_code": "21017",
+  "cluster_ref": "ky_bluegrass",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1901,
+      "location": "Paris, KY — Main Street",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court orders"]
+    },
+    "previous_courthouses": [
+      { "era": "1786-1800s", "location": "Paris, early log and frame structures", "fate": "Replaced as the county developed." },
+      { "era": "1800s-1872", "location": "Paris, Main Street", "fate": "Fire in 1872 damaged some courthouse records. The extent of loss is debated — some bound volumes survived; some loose papers were destroyed." },
+      { "era": "1872-1901", "location": "Paris, rebuilt on same site", "fate": "Replaced by the current 1901 building." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "bourbon_1872_fire",
+      "date": "1872",
+      "cause": "Courthouse fire",
+      "records_destroyed": ["some early loose papers", "some court order fragments"],
+      "records_survived": ["most deed books (bound volumes survived)", "most will books", "marriage bonds (largely intact)", "tax lists"],
+      "scope": "partial",
+      "description": "The 1872 courthouse fire in Bourbon County destroyed some records, particularly loose papers and some early court order fragments. However, the bound deed and will books largely survived the fire. Researchers should verify record availability for the period before 1872 against the KDLA catalog. The fire makes substitute sources (federal census, church records, Virginia land grants) more important for pre-1872 Bourbon County research.",
+      "narrative_impact": "If {ancestor_name} was in Bourbon County before 1872, some records may have been lost in the fire — check both the courthouse and KDLA for surviving records, and use census and church records to fill gaps.",
+      "source": "Kentucky Department for Libraries and Archives. Guide to Kentucky County Court Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1786,
+      "completeness": "Good — most bound deed books survived the 1872 fire. Virginia-era land grants cross-referenced at KDLA.",
+      "gaps": "Some gaps in the earliest records due to the 1872 fire. Verify against KDLA microfilm catalog.",
+      "repository": "Bourbon County Clerk; KDLA microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com Kentucky records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1786,
+      "completeness": "Good — bound will books largely survived. Estate inventories (listing enslaved people) available from the 1780s.",
+      "gaps": "Some loose estate papers lost in 1872 fire.",
+      "repository": "Bourbon County Clerk; KDLA",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1786,
+      "completeness": "Good — marriage bonds largely intact from county formation.",
+      "gaps": "Ministers' returns sporadic before 1852.",
+      "repository": "Bourbon County Clerk; KDLA microfilm",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1786,
+      "completeness": "Partial — some court order books damaged or lost in 1872 fire.",
+      "gaps": "Verify specific volumes against KDLA catalog.",
+      "repository": "KDLA; Bourbon County Clerk",
+      "online_access": "KDLA microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1911,
+      "death_registration_start": 1911,
+      "completeness": "Spotty until approximately 1915.",
+      "repository": "Kentucky Cabinet for Health and Family Services; KDLA"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Virginia land grants",
+      "description": "Pre-statehood land grants recorded in Virginia. Critical for Bourbon County settlers who arrived before 1792.",
+      "repository": "Virginia Land Office, Library of Virginia; KDLA",
+      "era_coverage": "1775-1800",
+      "genealogical_value": "Essential for identifying the earliest settlers. Virginia military warrants link to Revolutionary War service.",
+      "source": "Jillson, The Kentucky Land Grants (1925)."
+    },
+    {
+      "source_type": "Church records — Presbyterian and Baptist",
+      "description": "Presbyterian session records and Baptist church minute books supplement civil records. The Cane Ridge Meeting House (1791) and Paris Presbyterian Church records are particularly valuable.",
+      "repository": "Individual congregations; Presbyterian Historical Society; Southern Baptist Historical Library",
+      "era_coverage": "1790s-present",
+      "genealogical_value": "Church records fill gaps created by the 1872 fire. Presbyterian session records are well-maintained and document baptisms, marriages, deaths, and disciplinary actions.",
+      "source": "Clark, A History of Kentucky (1960)."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790-1940. Slave schedules 1850-1860. Agricultural schedules 1850-1880.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790-1940",
+      "genealogical_value": "Essential baseline source, especially where courthouse records were damaged by the 1872 fire.",
+      "source": "National Archives and Records Administration."
+    }
+  ],
+  "narrative_hooks": [
+    "The 1872 courthouse fire in Paris destroyed some of Bourbon County's earliest records — if {ancestor_name}'s paper trail goes cold before that date, the fire may be the reason, and church records and census returns are the way around it.",
+    "Bourbon County's records begin under Virginia law — {ancestor_name}'s earliest deeds and land grants may be filed in Virginia, not Kentucky, because the county existed before the state did.",
+    "The Cane Ridge Meeting House (1791) produced church records that are among the oldest in the Bluegrass — if {ancestor_name} worshipped there, the session records may document events the courthouse fire destroyed.",
+    "Estate inventories in Bourbon County listed enslaved people by name — these records survived the 1872 fire and may be the only record of {ancestor_name}'s existence if {pronoun_subject} was enslaved."
+  ],
+  "source_references": [
+    "Kentucky Department for Libraries and Archives. Guide to Kentucky County Court Records.",
+    "Jillson, Willard Rouse. The Kentucky Land Grants. Louisville: Filson Club Publications, 1925.",
+    "Clark, Thomas D. A History of Kentucky. Lexington: John Bradford Press, 1960."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ky_bourbon",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

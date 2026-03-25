@@ -1,0 +1,128 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the MO Ozarks Gateway regional cluster. Documents how transportation shaped settlement, isolation, and migration. The story is extreme isolation (pre-railroad), railroad breakthrough (1860s), Route 66 (1926), and Fort Leonard Wood military roads (1940s). The Ozarks Gateway was one of the most poorly connected regions in the eastern United States until the automobile age.",
+  "connectivity_id": "mo_ozarks_gateway_roads",
+  "display_name": "MO Ozarks Gateway — Road & Connectivity Network",
+  "cluster_ref": "mo_ozarks_gateway",
+  "era_range": "1800-1960",
+  "transportation_eras": [
+    {
+      "era_id": "river_and_trace",
+      "era_name": "River, Trace, and Total Isolation",
+      "date_range": "1800-1860",
+      "primary_modes": ["Missouri River steamboat (Franklin/Gasconade only)", "wagon on unimproved trace", "horseback", "foot", "log/canoe on Ozark streams"],
+      "description": "Before the railroad, the Ozarks Gateway had two transportation realities. Franklin and Gasconade counties on the Missouri River were connected to St. Louis and the national economy by steamboat — relatively fast, relatively reliable. The Ozark interior (Crawford, Phelps, Pulaski, Laclede, Texas, Dent) was among the most isolated inhabited regions in the eastern United States. Roads were unimproved traces following ridgetops and creek bottoms. The terrain — deeply dissected, chert-strewn, crossed by unbridged streams — made wheeled travel agonizingly slow and sometimes impossible. A family in the Jacks Fork valley of Texas County was three to five days by wagon from St. Louis, the nearest real market.",
+      "road_conditions": "Missouri River bottom roads were passable but flood-prone. Ozark interior roads were unimproved traces — chert-covered ridgetop routes in dry weather, creek-bottom routes that became impassable during spring floods. No bridges on most streams — crossings were fords that varied from ankle-deep to dangerous depending on rainfall.",
+      "travel_times": [
+        { "from": "Hermann (Gasconade)", "to": "St. Louis", "mode": "steamboat", "time": "1 day upstream", "conditions_note": "Steamboat service on the Missouri River was reliable from the 1820s. Hermann to St. Louis was approximately 90 river miles." },
+        { "from": "Rolla (Phelps)", "to": "St. Louis", "mode": "wagon", "time": "4-6 days", "conditions_note": "Approximately 110 miles on unimproved traces through the Ozarks. The terrain made the distance deceptive." },
+        { "from": "Houston (Texas Co.)", "to": "Rolla", "mode": "wagon", "time": "2-3 days", "conditions_note": "Approximately 60 miles through some of the most rugged terrain in Missouri." },
+        { "from": "Typical Ozark farm", "to": "Nearest county seat", "mode": "horseback or wagon", "time": "4-10 hours one way", "conditions_note": "Ozark counties were large and terrain was brutal. Farms in the deep hollows could be a full day's ride from the courthouse." }
+      ],
+      "key_routes": [
+        { "route_name": "Missouri River (steamboat corridor)", "type": "river navigation", "year_established": "1819 (first steamboat)", "description": "The Missouri River was the primary transportation artery for Franklin and Gasconade counties. Steamboats carried passengers, freight, and news from St. Louis upriver. The river was the reason for German settlement — Hermann was founded on the river for this reason.", "counties_served": ["Franklin", "Gasconade"] },
+        { "route_name": "Springfield-to-St. Louis trace (proto-Route 66 corridor)", "type": "unimproved trace", "year_established": "1820s-1830s", "description": "An overland route from St. Louis through the Ozarks to Springfield, following ridgetops where possible. This trace would eventually become the approximate route of the railroad and later Route 66.", "counties_served": ["Franklin", "Crawford", "Phelps", "Pulaski", "Laclede"] },
+        { "route_name": "Ridgetop and creek-bottom traces (Ozark interior)", "type": "unimproved trace", "year_established": "1820s", "description": "The only routes through the Ozark interior followed either ridgetops (drier but longer) or creek bottoms (shorter but flood-prone). These were not roads — they were worn paths that became impassable in wet weather.", "counties_served": ["all interior counties"] }
+      ],
+      "isolation_index": {
+        "description": "Extreme in the Ozark interior. Franklin and Gasconade counties on the Missouri River had adequate connectivity via steamboat. The interior counties — particularly Texas, Pulaski, and Dent — were among the most isolated areas in the eastern United States.",
+        "comparative_note": "The Missouri Ozark interior was as isolated as the most remote Appalachian hollows. The terrain was comparable and the road infrastructure was worse — Missouri had fewer state-supported roads than Virginia or Kentucky."
+      },
+      "narrative_hook": "Before the railroad, {ancestor_name} in {county} County was three days from anywhere — the road was a rutted trace on the ridgetop that turned to mud in the rain and dust in the summer, and the nearest market was a week's round trip by wagon.",
+      "source": "Sauer, The Geography of the Ozark Highland (1920). Rafferty, The Ozarks: Land and Life (2001)."
+    },
+    {
+      "era_id": "railroad_era",
+      "era_name": "Railroad Penetration of the Ozarks",
+      "date_range": "1860-1926",
+      "primary_modes": ["railroad", "wagon on unimproved road", "horseback", "Missouri River steamboat (declining)"],
+      "description": "The railroad reached the Ozarks in 1860 when the Pacific Railroad (later Missouri Pacific) extended to Rolla. The Frisco (St. Louis and San Francisco Railroad) continued the line southwest through the Ozarks toward Springfield in the 1870s-1880s. The railroad transformed the economies of towns it touched — Rolla, Cuba, Bourbon, Lebanon — while leaving the communities between the tracks unchanged. A farm five miles from the nearest depot was still a half-day from the railroad. The railroad enabled the timber industry (ties and lumber could be shipped) and the mining industry (ore could reach smelters) but did not end the isolation of the deep hollows.",
+      "road_conditions": "Unchanged away from the railroad. The Ozark interior roads remained unimproved dirt and chert traces. County road maintenance was minimal — corvee labor was required but produced poor results on terrain that defeated improvement.",
+      "travel_times": [
+        { "from": "Rolla", "to": "St. Louis", "mode": "railroad", "time": "4-6 hours", "conditions_note": "The same journey that took 4-6 days by wagon now took hours. The railroad collapsed distance." },
+        { "from": "Lebanon", "to": "Springfield", "mode": "railroad", "time": "2-3 hours", "conditions_note": "Frisco line connected Lebanon to Springfield." },
+        { "from": "Typical Ozark farm (off-railroad)", "to": "Nearest depot", "mode": "wagon", "time": "3-8 hours one way", "conditions_note": "The depot was the new critical destination, but reaching it still required the same terrible roads." }
+      ],
+      "key_routes": [
+        { "route_name": "Pacific Railroad / Missouri Pacific (St. Louis to Rolla)", "type": "railroad", "year_established": "1860", "description": "First railroad into the Ozarks. Connected Rolla to St. Louis, transforming Rolla from a crossroads into a regional center. The railroad was a Union military asset during the Civil War.", "counties_served": ["Franklin", "Crawford", "Phelps"] },
+        { "route_name": "Frisco Railroad (Rolla to Springfield and beyond)", "type": "railroad", "year_established": "1870s-1880s", "description": "Extended rail service southwest through the Ozarks. Stations at Cuba, Bourbon, Rolla, Waynesville area, and Lebanon created a string of towns along the route.", "counties_served": ["Crawford", "Phelps", "Pulaski", "Laclede"] },
+        { "route_name": "Missouri River railroad (along the Missouri River)", "type": "railroad", "year_established": "1850s-1860s", "description": "Rail service along the Missouri River corridor through Franklin and Gasconade counties. Gradually replaced steamboat service.", "counties_served": ["Franklin", "Gasconade"] }
+      ],
+      "isolation_index": {
+        "description": "Sharply reduced along the railroad corridor. Unchanged in the Ozark interior away from the tracks. Texas and Dent counties, with no railroad service through most of this period, remained deeply isolated.",
+        "comparative_note": "The railroad corridor through the Ozarks (Franklin-Crawford-Phelps-Laclede) was as well-connected as any comparable region. But a few miles off the tracks, nothing had changed."
+      },
+      "narrative_hook": "The railroad reached {town} and changed everything for the people who could get to it — but {ancestor_name} on the ridge five miles from the depot still traveled by mule on a road that had not improved since the war.",
+      "source": "Rafferty, The Ozarks: Land and Life (2001)."
+    },
+    {
+      "era_id": "route_66_era",
+      "era_name": "Route 66 and the Automobile Age",
+      "date_range": "1926-1945",
+      "primary_modes": ["automobile", "truck", "bus", "railroad"],
+      "description": "US Route 66, designated in 1926 and progressively paved through the Ozarks in the late 1920s and early 1930s, was the single most important transportation change in the cluster's history. The highway ran from St. Louis southwest through Franklin County, then through Crawford (Bourbon, Cuba), Phelps (Rolla), Pulaski (Waynesville), and Laclede (Lebanon) counties. For the first time, a paved road connected the Ozark interior to both St. Louis and Springfield. The automobile gave families in the hollows the ability to reach town, the hospital, and the outside world — if they could afford a car. Many could not. During World War II, Route 66 became a military corridor carrying troops and supplies to Fort Leonard Wood.",
+      "road_conditions": "Route 66 was paved — the first paved highway through the Ozarks. County roads remained largely unpaved into the 1940s-1950s. The contrast between Route 66 (smooth, paved, marked) and the roads leading to it (dirt, chert, unmarked) was the transportation equivalent of the economic divide.",
+      "travel_times": [
+        { "from": "Rolla", "to": "St. Louis", "mode": "automobile via Route 66", "time": "2-3 hours", "conditions_note": "The same journey that took 4-6 days by wagon in 1850 and 4-6 hours by train in 1870 now took 2-3 hours by car." },
+        { "from": "Lebanon", "to": "Springfield", "mode": "automobile via Route 66", "time": "1-1.5 hours", "conditions_note": "Two-lane highway through the Ozarks." },
+        { "from": "Rolla", "to": "Fort Leonard Wood", "mode": "automobile", "time": "30-45 minutes", "conditions_note": "Military traffic on Route 66 and connecting roads to the base." },
+        { "from": "Ozark farm (off-highway)", "to": "Route 66", "mode": "automobile on dirt road", "time": "30 minutes to 2 hours", "conditions_note": "Getting from the hollow to the highway was still the hard part." }
+      ],
+      "key_routes": [
+        { "route_name": "US Route 66", "type": "US highway", "year_established": 1926, "description": "The Mother Road through the Ozarks. Ran from St. Louis through the cluster to Springfield and beyond. Created a roadside economy and connected the Ozarks to the national automobile network for the first time.", "counties_served": ["Franklin", "Crawford", "Phelps", "Pulaski", "Laclede"] },
+        { "route_name": "State Highway 63 (Rolla south)", "type": "state highway", "year_established": "1920s", "description": "Connected Rolla to the deeper Ozarks to the south — West Plains, Thayer, and the Arkansas border. Provided a north-south corridor crossing Route 66.", "counties_served": ["Phelps", "Texas", "Dent"] },
+        { "route_name": "Military roads to Fort Leonard Wood", "type": "military construction", "year_established": "1940-1941", "description": "The Army built and improved roads connecting Fort Leonard Wood to Route 66 and to the surrounding region. These military roads were the first improved roads in parts of Pulaski County.", "counties_served": ["Pulaski", "Phelps"] }
+      ],
+      "isolation_index": {
+        "description": "Dramatically reduced along Route 66 and its feeder roads. Still significant in the deep hollows of Texas, Dent, and southern Pulaski counties where unpaved roads remained the norm.",
+        "comparative_note": "By 1945, the Route 66 corridor through the Ozarks was well-connected to the national highway system. Texas and Dent counties, without a major highway, remained isolated."
+      },
+      "narrative_hook": "Route 66 came through {county} County like a lifeline — the first paved road {ancestor_name} had ever seen, carrying traffic from Chicago to Los Angeles through a hollow that still heated with wood and carried water from the spring.",
+      "source": "Wallis, Route 66: The Mother Road (1990). Rafferty, The Ozarks: Land and Life (2001)."
+    },
+    {
+      "era_id": "postwar_highway",
+      "era_name": "Postwar Highway Expansion",
+      "date_range": "1945-1960",
+      "primary_modes": ["automobile", "truck", "bus", "railroad (declining)"],
+      "description": "The postwar period brought paved roads deeper into the Ozark interior. State highway improvements reached county seats that had been connected only by dirt roads. The Interstate Highway System (authorized 1956) would eventually replace Route 66 with I-44 through the cluster, but the interstate was not completed through the Ozarks until the 1960s-1970s. For the first time, families in most of the cluster could reach a town with a hospital, a bank, and a high school within an hour by automobile.",
+      "road_conditions": "State highways paved. County roads improving but many secondary roads still unpaved. The deepest hollows of Texas and Dent counties were the last to receive improved roads.",
+      "travel_times": [
+        { "from": "Salem (Dent)", "to": "Rolla", "mode": "automobile", "time": "45 minutes to 1 hour", "conditions_note": "State highway connection improved" },
+        { "from": "Houston (Texas)", "to": "Rolla", "mode": "automobile", "time": "1-1.5 hours", "conditions_note": "State highway but winding through Ozark terrain" }
+      ],
+      "key_routes": [
+        { "route_name": "I-44 corridor (future, replacing Route 66)", "type": "interstate highway", "year_established": "1956 (authorized), completed through area 1960s-1970s", "description": "The eventual replacement of Route 66 with a four-lane interstate through the Ozarks. Would further reduce travel times and bypass the small towns that Route 66 had sustained.", "counties_served": ["Franklin", "Crawford", "Phelps", "Pulaski", "Laclede"] }
+      ],
+      "isolation_index": {
+        "description": "Low to moderate across most of the cluster by 1960. Only the deepest hollows of Texas and Dent counties remained truly isolated.",
+        "comparative_note": "The Ozarks Gateway by 1960 was no longer among the most isolated regions in the eastern United States — but the cultural memory of isolation persisted."
+      },
+      "narrative_hook": "By 1960, {ancestor_name} could drive from the hollow to Rolla in an hour — a journey that had taken {pronoun_possessive} grandparents three days. The isolation that had defined the Ozarks for a century was ending, and with it, the way of life that isolation had sustained.",
+      "source": "Rafferty, The Ozarks: Land and Life (2001)."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1860, "railroad": "Pacific Railroad (later Missouri Pacific)", "event": "Reaches Rolla", "stations": ["Pacific (Franklin Co.)", "Sullivan (Franklin Co.)", "Cuba (Crawford Co.)", "Rolla (Phelps Co.)"], "impact": "First railroad into the Ozark interior. Rolla becomes a regional center and Civil War staging area." },
+    { "year": 1870, "railroad": "Atlantic and Pacific / Frisco", "event": "Extended southwest from Rolla through the Ozarks", "stations": ["Rolla", "Waynesville area", "Lebanon"], "impact": "Connected the western portion of the cluster to the railroad network. Created station towns along the route." },
+    { "year": 1882, "railroad": "Frisco Railroad", "event": "Hermann branch line", "stations": ["Hermann (Gasconade Co.)"], "impact": "Connected Hermann to the main line, enabling wine and agricultural shipments." }
+  ],
+  "narrative_hooks": [
+    "Before the railroad, the Ozarks hid people from the world — {ancestor_name} lived in a hollow where the nearest market was a week's round trip by wagon over roads that existed only because mules had worn them into the chert.",
+    "Route 66 was the crack in the Ozark wall — the first paved road {ancestor_name} had ever seen, carrying strangers through the county at speeds the mule had never imagined.",
+    "The railroad reached Rolla in 1860 and brought the Civil War with it — Union troops rode the cars into the Ozarks while {ancestor_name}'s family heard the whistle echo off the ridges for the first time.",
+    "Fort Leonard Wood's roads were the first improved roads parts of Pulaski County had ever seen — the Army paved what the county never could, for reasons the county's families never chose.",
+    "The Missouri River was the German settlers' highway — {ancestor_name} could ship wine to St. Louis by steamboat in a day while the hill families to the south were a week's wagon ride from anywhere."
+  ],
+  "source_references": [
+    "Rafferty, Milton D. The Ozarks: Land and Life. 2nd ed. Fayetteville: University of Arkansas Press, 2001.",
+    "Wallis, Michael. Route 66: The Mother Road. New York: St. Martin's Press, 1990.",
+    "Sauer, Carl O. The Geography of the Ozark Highland of Missouri. Chicago: University of Chicago Press, 1920.",
+    "Fellman, Michael. Inside War: The Guerrilla Conflict in Missouri During the American Civil War. New York: Oxford University Press, 1989.",
+    "Federal Writers' Project. Missouri: The WPA Guide to the Show Me State. New York: Duell, Sloan and Pearce, 1941."
+  ],
+  "nel_cross_references": {
+    "route_refs": []
+  }
+}

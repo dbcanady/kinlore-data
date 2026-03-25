@@ -1,0 +1,126 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Cocke County, TN. Formed 1797 from Jefferson County. Seat: Newport. A courthouse fire in 1876 destroyed some early records. Mountain isolation means some families left minimal county records regardless of courthouse survival.",
+  "courthouse_atlas_id": "tn_cocke_courthouse",
+  "display_name": "Cocke County, Tennessee — Courthouse Atlas",
+  "county": "Cocke",
+  "state": "TN",
+  "fips_code": "47029",
+  "cluster_ref": "tn_east_great_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1930,
+      "location": "Newport, TN — Main Street",
+      "records_housed": ["deeds", "wills", "court minutes", "marriage records", "tax records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1797–1830s",
+        "location": "Newport",
+        "fate": "Early log courthouse."
+      },
+      {
+        "era": "1830s–1876",
+        "location": "Newport",
+        "fate": "Brick courthouse. Damaged by fire in 1876 — some records lost."
+      },
+      {
+        "era": "1876–1930",
+        "location": "Newport",
+        "fate": "Rebuilt courthouse. Replaced by the current 1930 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "cocke_1876_fire",
+      "date": "1876",
+      "cause": "Courthouse fire",
+      "records_destroyed": ["some loose court papers", "some early tax records", "portions of early estate files"],
+      "records_survived": ["deed books (most)", "will books (most)", "marriage bonds (most)", "court minute books (most)"],
+      "scope": "moderate",
+      "description": "A courthouse fire in 1876 destroyed some records, primarily loose papers and files. The bound record books — deed books, will books, and court minute books — were largely saved, though some show fire damage. The loss is partial rather than catastrophic. Records before the fire are incomplete but not absent.",
+      "narrative_impact": "The 1876 fire means some Cocke County records from the 1797-1876 period have gaps. If {ancestor_name}'s estate file or tax records from before 1876 cannot be found, the fire may be responsible. Deed books and marriage bonds survived better than loose papers.",
+      "source": "Tennessee State Library and Archives. Guide to County Records: Cocke County."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1797,
+      "completeness": "Good — most deed books survived the 1876 fire",
+      "gaps": "Some damage to early volumes. Gaps in the earliest deed books are possible.",
+      "repository": "Cocke County Register of Deeds, Newport; TSLA microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1797,
+      "completeness": "Partial — bound volumes survived but loose estate files from before 1876 are incomplete",
+      "gaps": "Loose estate papers and inventories from the earliest decades may be lost to the fire.",
+      "repository": "Cocke County Clerk; TSLA",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1797,
+      "completeness": "Good — most marriage bonds survived",
+      "gaps": "Some early bonds may be missing or damaged.",
+      "repository": "Cocke County Clerk; TSLA microfilm",
+      "online_access": "FamilySearch; Ancestry.com TN marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1797,
+      "completeness": "Good — most minute books survived the fire, some with damage",
+      "gaps": "Fire damage to some volumes. Civil War disruption.",
+      "repository": "Cocke County Clerk; TSLA",
+      "online_access": "TSLA digital collections (partial)"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Incomplete before approximately 1914. Mountain families were particularly unlikely to register births and deaths.",
+      "repository": "Tennessee Department of Health; TSLA"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1800-1940. The census is particularly important for Cocke County because mountain families who left minimal county records (no property transactions, no court appearances) may appear only in census records.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1800-1940",
+      "genealogical_value": "Critical — may be the only documentation for mountain families who lived entirely outside the county record system. Agricultural schedules (1850-1880) document subsistence farming operations.",
+      "source": "NARA. Federal Census Schedules, Cocke County, TN."
+    },
+    {
+      "source_type": "Church records — Baptist and Methodist",
+      "description": "Missionary Baptist and Methodist churches in the valley and mountain hollows maintained records that supplement the partial county records. Church records may be the only documentation for families who did not interact with the county government.",
+      "repository": "Individual congregations; Carson-Newman University archives; East Tennessee Baptist Association historical records",
+      "era_coverage": "1800s-present",
+      "genealogical_value": "Valuable for documenting mountain families. Baptism records, death records, and church discipline minutes provide biographical data not available from damaged county records.",
+      "source": "East Tennessee Baptist Association. Historical Records (various)."
+    },
+    {
+      "source_type": "Federal revenue and moonshine enforcement records",
+      "description": "Cocke County's reputation for moonshine production means that federal revenue enforcement records — arrests, seizures, court proceedings — document individuals who might not appear in standard county records.",
+      "repository": "National Archives (RG 58, Internal Revenue Service); Federal court records at National Archives Southeast Region",
+      "era_coverage": "1870s-1960",
+      "genealogical_value": "Federal moonshine cases name individuals, describe their property and activities, and sometimes include testimony from neighbors. These records are an unconventional but valuable genealogical source for Cocke County.",
+      "source": "Dabney, Joseph Earl. Mountain Spirits: A Chronicle of Corn Whiskey. Asheville: Bright Mountain Books, 1974."
+    }
+  ],
+  "narrative_hooks": [
+    "The 1876 courthouse fire in Cocke County burned some of {ancestor_name}'s paper trail — deed books survived, but loose papers may not have. The fire is the explanation, not {ancestor_name}'s absence from the record.",
+    "Mountain families in Cocke County often left no county records at all — no deeds (they did not own titled land), no court appearances (they settled disputes themselves), no marriage licenses (they married by preacher). {ancestor_name}'s absence from the courthouse may mean mountain isolation, not fire loss.",
+    "If {ancestor_name} ran a still in the Cocke County hollows, the federal revenue records may hold more about {pronoun_object} than the county courthouse — the government documented the arrest even when the county never knew the still existed.",
+    "Cocke County's vital records before 1914 are particularly thin — mountain families were the last to comply with state registration requirements."
+  ],
+  "source_references": [
+    "Tennessee State Library and Archives. Guide to County Records: Cocke County.",
+    "Dabney, Joseph Earl. Mountain Spirits: A Chronicle of Corn Whiskey. Asheville: Bright Mountain Books, 1974.",
+    "East Tennessee Baptist Association. Historical Records (various)."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "tn_cocke",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

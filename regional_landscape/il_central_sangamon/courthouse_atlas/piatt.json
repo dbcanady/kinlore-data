@@ -1,0 +1,124 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Piatt County, IL. Record survival, courthouse history, and known losses that shape what genealogists can and cannot find.",
+  "courthouse_atlas_id": "il_piatt_courthouse",
+  "display_name": "Piatt County, Illinois — Courthouse Atlas",
+  "county": "Piatt",
+  "state": "IL",
+  "fips_code": "17147",
+  "cluster_ref": "il_central_sangamon",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1903,
+      "location": "Monticello, IL — 101 W. Washington Street",
+      "records_housed": ["deeds", "plats", "vital records", "probate records", "court minutes", "marriage records", "military discharge records"],
+      "notes": "The 1903 Beaux-Arts courthouse sits on the Monticello public square. Piatt County is the smallest county in the cluster by population."
+    },
+    "previous_courthouses": [
+      {
+        "era": "1841–1860",
+        "location": "Monticello, original frame courthouse",
+        "fate": "Piatt County was carved from DeWitt and Macon counties in 1841. The first courthouse was a frame building on the public square. Records transferred to successor."
+      },
+      {
+        "era": "1860–1903",
+        "location": "Monticello, brick courthouse on the public square",
+        "fate": "Served through the Civil War and the railroad era. Replaced by the current 1903 building. Records survived intact."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "piatt_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire or catastrophic loss",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage records", "probate files"],
+      "scope": "none",
+      "description": "Piatt County has experienced no major courthouse fire or record loss. Records run continuously from the county's 1841 formation. The county's small size and rural character — Monticello has never exceeded 6,000 in population — contributed to the stability of its documentary record.",
+      "narrative_impact": "Piatt County's intact record series means that if {ancestor_name} left a paper trail here — deeds, marriages, wills, court proceedings — it survives. The more common challenge in Piatt County is not record destruction but record sparseness: in a small farming county, many families left only census entries and church records.",
+      "source": "Piatt County History. Monticello: Piatt County Historical and Genealogical Society, 1968."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1841,
+      "completeness": "Excellent — continuous series from county formation",
+      "gaps": "No known gaps. Pre-1841 deeds for land in the future Piatt County are filed in DeWitt County (Clinton) or Macon County (Decatur) records.",
+      "repository": "Piatt County Recorder, Monticello; Illinois State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com IL land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1842,
+      "completeness": "Good — probate records from near-formation, though early volume is very low",
+      "gaps": "Few estates were probated in the county's first decade. The population was small and property values modest.",
+      "repository": "Piatt County Probate Court, Monticello; Illinois State Archives; IRAD at UIS",
+      "online_access": "FamilySearch microfilm; limited digitization"
+    },
+    "marriages": {
+      "earliest_surviving": 1841,
+      "completeness": "Good — marriage licenses from county formation",
+      "gaps": "Early records are minimal in detail but present. Coverage improves after 1860.",
+      "repository": "Piatt County Clerk, Monticello; Illinois State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com IL marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1841,
+      "completeness": "Good — commissioners' court and circuit court minutes from formation",
+      "gaps": "Justice of the peace records are incomplete. Bound court records are intact.",
+      "repository": "Piatt County Circuit Court, Monticello; Illinois State Archives",
+      "online_access": "Illinois State Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1877,
+      "death_registration_start": 1877,
+      "completeness": "Poor compliance before 1916. Rural Piatt County had very low vital registration rates in the 19th century.",
+      "repository": "Piatt County Clerk; Illinois Department of Public Health; Illinois State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "DeWitt and Macon County records (pre-1841 parent counties)",
+      "description": "Piatt County was formed from DeWitt and Macon counties in 1841. Families who settled before that date appear in the parent county records.",
+      "repository": "DeWitt County Recorder, Clinton; Macon County Recorder, Decatur; Illinois State Archives",
+      "era_coverage": "1829–1841 (Macon) / 1839–1841 (DeWitt)",
+      "genealogical_value": "Essential for tracing pioneer families before 1841. The researcher must determine which parent county's territory included the ancestor's land.",
+      "source": "Piatt County History. Monticello: Piatt County Historical and Genealogical Society, 1968."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1850–1940 (first census after formation). Agricultural schedules (1850–1880) document prairie farming operations.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1850–1940",
+      "genealogical_value": "The 1850 census is the first to enumerate Piatt County separately. Agricultural schedules are critical for understanding the economic life of farming families in this purely agricultural county.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Piatt County, IL."
+    },
+    {
+      "source_type": "Allerton Park and estate records",
+      "description": "Robert Allerton's estate near Monticello was one of the largest landholdings in central Illinois. Estate records, tenant ledgers, and employment records from the Allerton farms document many Piatt County families who worked as tenants or laborers on Allerton land from the 1890s through the 1940s.",
+      "repository": "University of Illinois Archives (Allerton collection); Piatt County Historical and Genealogical Society",
+      "era_coverage": "1890s–1946",
+      "genealogical_value": "For families who were tenants on Allerton land, the estate records may be the most detailed surviving documentation — including lease terms, acreage farmed, and payment records. These supplement the county recorder's records for landless families.",
+      "source": "University of Illinois Archives. Robert Allerton Collection finding aid."
+    }
+  ],
+  "narrative_hooks": [
+    "Piatt County's records run unbroken from 1841 — but in a county this small, many families left only census entries and church records. If {ancestor_name} was a tenant farmer or laborer, the courthouse may hold very little about {pronoun_object}.",
+    "Before 1841, what became Piatt County was split between DeWitt and Macon counties — if {ancestor_name} settled here before formation, the records are filed under one of the parent counties in Clinton or Decatur.",
+    "If {ancestor_name} farmed as a tenant on Allerton land near Monticello, the University of Illinois Archives may hold lease and payment records that the county courthouse does not — documenting {pronoun_possessive} farming operation in detail that public records rarely captured.",
+    "Vital registration in Piatt County was nearly nonexistent before 1916 — church records, cemetery inscriptions, and obituaries in the Monticello newspapers are the primary documentation of births and deaths before that date.",
+    "Piatt County's agricultural schedules (1850–1880) reveal exactly what {ancestor_name}'s farm produced and what it was worth — in a county where farming was the only occupation that mattered, these schedules are the closest thing to a family financial statement that survives."
+  ],
+  "source_references": [
+    "Piatt County History. Monticello: Piatt County Historical and Genealogical Society, 1968.",
+    "Illinois State Archives. Descriptive Inventory of the Archives of the State of Illinois. 2nd ed. Springfield: Office of the Secretary of State, 1978.",
+    "University of Illinois Archives. Robert Allerton Collection finding aid.",
+    "National Archives and Records Administration. Federal Census Schedules, Piatt County, IL."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "il_piatt",
+    "research_guidance_refs": ["census_gaps", "property_record_strategies"],
+    "template_refs": ["record_silences"]
+  }
+}

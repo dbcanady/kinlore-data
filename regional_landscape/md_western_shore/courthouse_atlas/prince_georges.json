@@ -1,0 +1,129 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Prince George's County, MD. Record survival from 1696, the devastating 1882 courthouse fire that destroyed most pre-Civil War records, and the critical substitute sources at the Maryland State Archives that partially compensate for the loss.",
+  "courthouse_atlas_id": "md_prince_georges_courthouse",
+  "display_name": "Prince George's County, Maryland — Courthouse Atlas",
+  "county": "Prince George's",
+  "state": "MD",
+  "fips_code": "24033",
+  "cluster_ref": "md_western_shore",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1939,
+      "location": "Upper Marlboro, MD — 14735 Main Street",
+      "records_housed": ["court records post-1882", "modern vital records indexes", "some reconstructed deed records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1696–1801",
+        "location": "Charles Town (near present-day Upper Marlboro) — moved to Upper Marlboro by the 1720s after Charles Town declined",
+        "fate": "Early court buildings replaced as the county seat consolidated at Upper Marlboro. Records survived the moves."
+      },
+      {
+        "era": "1801–1882",
+        "location": "Upper Marlboro — brick courthouse on Main Street",
+        "fate": "Destroyed by fire on December 28, 1882. The fire was catastrophic for genealogical research — most pre-Civil War deed books, will books, court minutes, and marriage records were destroyed."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "prince_georges_1882_fire",
+      "date": "1882-12-28",
+      "cause": "Courthouse fire — accidental origin",
+      "records_destroyed": ["deed books (most volumes pre-1865)", "will books (most pre-1865)", "marriage records (pre-1865)", "court minutes (most pre-1865)", "orphans' court records (most pre-1865)", "assessment records", "election records"],
+      "records_survived": ["some deed books had been copied or abstracted before the fire", "a few volumes were salvaged from the fire in damaged condition", "all records at the Maryland State Archives (provincial-level copies, prerogative court records, land patent books) were unaffected"],
+      "scope": "catastrophic",
+      "description": "The Prince George's County courthouse fire of December 28, 1882, was one of the worst record losses in Maryland history. The fire destroyed the bulk of the county's pre-Civil War records — deeds, wills, court minutes, marriages, and estate records accumulated since the county's founding in 1696. The loss is particularly devastating because Prince George's County was one of the most important plantation counties in Maryland, with a large enslaved population whose documentation was concentrated in these very records. The Maryland State Archives' provincial-level records — prerogative court wills and inventories, land patents, provincial court proceedings — partially compensate, but the county-level detail is largely gone.",
+      "narrative_impact": "The 1882 courthouse fire destroyed the paper trail of nearly two centuries of life in Prince George's County. If {ancestor_name} lived in the county before the Civil War, the deed, the will, or the court record that documented {pronoun_possessive} life may have burned on a December night in 1882 — and the search must shift to the Maryland State Archives in Annapolis, where provincial-level copies sometimes preserve what the county lost.",
+      "source": "Virta, Alan. Prince George's County: A Pictorial History. Virginia Beach: Donning Company, 1984."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1696,
+      "completeness": "Fragmentary before 1882. Some colonial-era deeds survive as abstracts or copies at the Maryland State Archives. Post-1882 records are complete. The Maryland land patent books at the State Archives partially compensate — they document original land grants (not subsequent transfers).",
+      "gaps": "Major gap: most deed books destroyed in 1882 fire. Colonial-era land patents survive at the State Archives.",
+      "repository": "Prince George's County Circuit Court, Upper Marlboro; Maryland State Archives, Annapolis",
+      "online_access": "Maryland State Archives (mdlandrec.net for post-1882); FamilySearch for surviving microfilmed records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1698,
+      "completeness": "County-level will books largely destroyed in 1882. However, the Maryland Prerogative Court records at the State Archives contain filed copies of many Prince George's County wills and inventories from the colonial period — this is the critical substitute source.",
+      "gaps": "County-level gap: 1696–1882. Prerogative Court copies at State Archives partially fill this gap for the colonial period (1698–1777). The gap is most severe for 1777–1882.",
+      "repository": "Maryland State Archives (prerogative court); Prince George's County Register of Wills (post-1882)",
+      "online_access": "Maryland State Archives; FamilySearch"
+    },
+    "marriages": {
+      "earliest_surviving": 1777,
+      "completeness": "Marriage licenses from 1777 were largely destroyed in the 1882 fire. Some survive in transcriptions published before the fire. Church records are the primary substitute.",
+      "gaps": "Major gap: most pre-1882 marriage records destroyed. Church records (St. Paul's, St. Barnabas) partially fill this gap.",
+      "repository": "Maryland State Archives; Prince George's County Clerk of Court (post-1882)",
+      "online_access": "FamilySearch; Ancestry.com MD marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1696,
+      "completeness": "Most pre-1882 court minutes destroyed. A few volumes survived the fire in damaged condition. Provincial court records at the State Archives contain some Prince George's County cases.",
+      "gaps": "Catastrophic gap: 1696–1882.",
+      "repository": "Maryland State Archives; Prince George's County Circuit Court",
+      "online_access": "Maryland State Archives for surviving fragments"
+    },
+    "vital_records": {
+      "birth_registration_start": 1898,
+      "death_registration_start": 1898,
+      "completeness": "Maryland statewide registration began 1898. Compliance improved through the 1910s. Earlier vital events tracked through church records.",
+      "repository": "Maryland Department of Health; Maryland State Archives"
+    },
+    "church_records": {
+      "parish": "St. Paul's Parish, Baden; St. Barnabas Parish, Upper Marlboro (Church of England / Episcopal). Catholic parishes: St. Ignatius (est. 1634 at Chapel Point, Charles County, served some PG families)",
+      "earliest_surviving": 1680,
+      "completeness": "Anglican parish registers survive from the late seventeenth century and are critical substitute sources after the 1882 courthouse fire. Catholic records from the Jesuit missions also cover Prince George's County families.",
+      "repository": "Maryland State Archives; Maryland Diocesan Archives; Georgetown University Archives (Jesuit records)",
+      "online_access": "Published transcriptions; some FamilySearch digitization"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Maryland Prerogative Court records (wills, inventories, administration accounts)",
+      "description": "The Prerogative Court system required filing of wills, inventories, and administration accounts at the provincial level. These records, held at the Maryland State Archives, survive intact and contain Prince George's County documents that were destroyed in the 1882 courthouse fire. The inventories are extraordinarily detailed — listing enslaved people by name, household goods item by item, and debts owed.",
+      "repository": "Maryland State Archives, Annapolis",
+      "era_coverage": "1698–1777 (prerogative court era); Register of Wills continues after 1777",
+      "genealogical_value": "Critical for Prince George's County before 1882. The prerogative court copies may be the only surviving documentation for colonial-era families. Inventories document enslaved people by name — essential for African American genealogy.",
+      "source": "Carr, Lois Green, and Lorena S. Walsh. 'Inventories and the Analysis of Wealth.' Historical Methods 13, no. 2 (1980)."
+    },
+    {
+      "source_type": "Maryland land patent books",
+      "description": "Colonial land patents — original grants from the proprietor — survive in the patent books at the Maryland State Archives from 1633 onward. These document the initial acquisition of land but not subsequent transfers. Headright entries name the individuals whose passage paid for the grant.",
+      "repository": "Maryland State Archives, Annapolis",
+      "era_coverage": "1633–1776",
+      "genealogical_value": "For colonial-era Prince George's County families whose deeds were destroyed in 1882, the land patent books may be the only surviving land documentation.",
+      "source": "Skordas, Gust. The Early Settlers of Maryland. Baltimore: Genealogical Publishing Co., 1968."
+    },
+    {
+      "source_type": "Published transcriptions and abstracts made before 1882",
+      "description": "Several genealogists and historians transcribed or abstracted Prince George's County records before the 1882 fire. These published works preserve information from records that no longer exist. Key publications include Bowie family papers, Baldwin collection abstracts, and various genealogical society publications.",
+      "repository": "Maryland Historical Society; Prince George's County Historical Society; published volumes",
+      "era_coverage": "1696–1882",
+      "genealogical_value": "Variable but sometimes irreplaceable. A transcription made before the fire may be the only surviving documentation for a specific transaction.",
+      "source": "Prince George's County Historical Society. Publications and Proceedings, various issues."
+    }
+  ],
+  "narrative_hooks": [
+    "The Prince George's County courthouse burned on December 28, 1882, and two centuries of records went with it — {ancestor_name}'s deed, will, or court record may have been among the thousands of documents consumed that night.",
+    "The Maryland State Archives in Annapolis holds the key to the 1882 loss — if {ancestor_name} died in colonial Prince George's County, the prerogative court inventory filed in Annapolis may list every item in the household, every enslaved person by name, and every debt owed.",
+    "For {ancestor_name} in Prince George's County before 1882, the church record may be the only surviving documentation — the Anglican parish registers outlasted the courthouse because they were kept at the church, not at the court.",
+    "The 1882 fire is not the end of the search — it is the beginning of a different search, one that leads to Annapolis, to church vestries, to published transcriptions made by genealogists who had the foresight to copy records before they burned."
+  ],
+  "source_references": [
+    "Virta, Alan. Prince George's County: A Pictorial History. Virginia Beach: Donning Company, 1984.",
+    "Carr, Lois Green, and Lorena S. Walsh. 'Inventories and the Analysis of Wealth and Consumption Patterns.' Historical Methods 13, no. 2 (1980).",
+    "Skordas, Gust. The Early Settlers of Maryland. Baltimore: Genealogical Publishing Co., 1968.",
+    "Maryland State Archives. Guide to Government Records. Annapolis, 2005."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "md_prince_georges",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

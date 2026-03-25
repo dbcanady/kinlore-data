@@ -1,0 +1,105 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Lafayette County, WI. Records are good from county formation (1846, from Iowa County). The lead mining era generated distinctive records — mining claims, territorial land office entries, and Cornish immigrant documentation.",
+  "courthouse_atlas_id": "wi_lafayette_courthouse",
+  "display_name": "Lafayette County, Wisconsin — Courthouse Atlas",
+  "county": "Lafayette",
+  "state": "WI",
+  "fips_code": "55065",
+  "cluster_ref": "wi_southern_driftless",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1904,
+      "location": "Darlington, WI — 626 Main Street",
+      "records_housed": ["deeds", "mortgages", "probate records", "court records", "vital records (post-1907)"]
+    },
+    "previous_courthouses": [
+      { "era": "1846-1861", "location": "Shullsburg (original county seat)", "fate": "County seat moved to Darlington in 1861." },
+      { "era": "1861-1904", "location": "Darlington", "fate": "Replaced by current building. Records transferred." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "lafayette_no_major_loss",
+      "date": null,
+      "cause": "None — no significant courthouse fire",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage records"],
+      "scope": "none",
+      "description": "Lafayette County records survive from county formation. Early mining-era records are in the territorial-era Iowa County records (before Lafayette was separated). Some earliest records may require checking Iowa County files at the Wisconsin Historical Society.",
+      "narrative_impact": "If {ancestor_name} was in the lead mining district before 1846, check Iowa County records — Lafayette was carved from Iowa County. Post-1846 records are at the Lafayette County courthouse in Darlington.",
+      "source": "Wisconsin Historical Society. Guide to Wisconsin County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1846,
+      "completeness": "Good — from county formation. Pre-1846 deeds in Iowa County records.",
+      "gaps": "No major gaps post-formation. Mining claims pre-1846 in territorial records.",
+      "repository": "Lafayette County Register of Deeds; Wisconsin Historical Society",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1847,
+      "completeness": "Good",
+      "gaps": "Minor in earliest years",
+      "repository": "Lafayette County Probate Court; Wisconsin Historical Society",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1846,
+      "completeness": "Good",
+      "gaps": "Minimal",
+      "repository": "Lafayette County Register of Deeds; Wisconsin Historical Society",
+      "online_access": "FamilySearch; Ancestry.com WI marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1846,
+      "completeness": "Good",
+      "gaps": "Minor",
+      "repository": "Lafayette County Clerk of Courts; Wisconsin Historical Society",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1907,
+      "death_registration_start": 1907,
+      "completeness": "Statewide registration from 1907. Pre-1907 rely on church records and census.",
+      "repository": "Wisconsin Department of Health Services"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Territorial land office records / mining claims",
+      "description": "Lead mining claims from the 1820s-1840s were filed with the territorial land office. These records document miners by name, claim location, and date — often the earliest documentation of an individual in the lead district.",
+      "repository": "National Archives (General Land Office records); Wisconsin Historical Society; Bureau of Land Management GLO records online",
+      "era_coverage": "1820s-1850s",
+      "genealogical_value": "Critical for tracing lead miners. Mining claims predate most other record types and can establish an individual's presence in the district before county government existed.",
+      "source": "Schafer, Joseph. The Wisconsin Lead Region. Madison: State Historical Society of Wisconsin, 1932."
+    },
+    {
+      "source_type": "Cornish and Welsh church records",
+      "description": "Methodist and Congregational churches served the Cornish and Welsh mining communities. Records include baptisms, marriages, and burials.",
+      "repository": "Wisconsin Historical Society; individual congregations; Methodist archives",
+      "era_coverage": "1830s-present",
+      "genealogical_value": "Cornish families were strongly Methodist. Church records supplement county records, particularly before statewide vital registration.",
+      "source": "Copeland, A. F. 'The Cornish in Southwest Wisconsin.' Collections of the State Historical Society of Wisconsin 14 (1898)."
+    }
+  ],
+  "narrative_hooks": [
+    "Lafayette County was carved from Iowa County in 1846 — if {ancestor_name} mined lead here before that date, the earliest records are in Iowa County files at the Wisconsin Historical Society.",
+    "Cornish miners left records in the land office before the courthouse existed — {ancestor_name}'s mining claim may be the oldest document connecting the family to Wisconsin.",
+    "The county seat moved from Shullsburg to Darlington in 1861, and the records moved with it — check both locations for the earliest documentation of {ancestor_name}.",
+    "Wisconsin vital registration began in 1907 — Cornish Methodist church records fill the gap for {ancestor_name}'s family before that date."
+  ],
+  "source_references": [
+    "Wisconsin Historical Society. Guide to Wisconsin County Records.",
+    "Schafer, Joseph. The Wisconsin Lead Region. Madison: State Historical Society of Wisconsin, 1932.",
+    "Copeland, A. F. 'The Cornish in Southwest Wisconsin.' Collections of the State Historical Society of Wisconsin 14 (1898)."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "wi_lafayette",
+    "research_guidance_refs": ["vital_records", "property_records"],
+    "template_refs": ["record_silences"]
+  }
+}

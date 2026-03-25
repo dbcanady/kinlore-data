@@ -1,0 +1,107 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the MS Delta cluster. Documents how transportation shaped isolation, settlement, and migration across eight counties from steamboat era to automobile highways. The Delta's transportation story is unique: the Mississippi River was both the primary commercial artery and the primary threat, and the flat terrain that made road-building theoretically easy also made roads impassable when the heavy clay turned to mud.",
+  "connectivity_id": "ms_delta_roads",
+  "display_name": "MS Delta — Road & Connectivity Network",
+  "cluster_ref": "ms_delta",
+  "era_range": "1830-1960",
+  "transportation_eras": [
+    {
+      "era_id": "steamboat_and_bayou",
+      "era_name": "Steamboat and Bayou",
+      "date_range": "1830-1880",
+      "primary_modes": ["steamboat", "flatboat", "bayou skiff", "horseback", "wagon on unimproved trace"],
+      "description": "Before railroads, the Mississippi River and its tributaries were the Delta's only practical transportation corridors. Steamboats carried cotton bales downstream to New Orleans and brought back supplies. The interior Delta was accessible only by bayou — the Sunflower River, Deer Creek, and smaller bayous served as roads through the forest. Overland travel was nearly impossible: the Sharkey clay turned to bottomless mud in wet weather, and the dense forest blocked any route that did not follow a waterway. A farm in the interior Delta in 1860 might be fifty miles from a steamboat landing with no practical way to reach it except by water.",
+      "road_conditions": "No engineered roads. Trails through the forest were impassable for months at a time. The Sharkey clay was the worst road surface in the South — it stuck to wheels and hooves and turned to a glue-like consistency that could trap a wagon for days.",
+      "travel_times": [
+        { "from": "Greenville (Washington Co.)", "to": "Vicksburg", "mode": "steamboat", "time": "1 day downstream, 2 days upstream", "conditions_note": "Reliable when river was navigable" },
+        { "from": "Interior plantation", "to": "Nearest steamboat landing", "mode": "wagon", "time": "1-3 days", "conditions_note": "Dependent on weather; impassable in wet season" },
+        { "from": "Greenville", "to": "Clarksdale", "mode": "horseback or wagon", "time": "3-5 days", "conditions_note": "No direct road; followed bayou corridors and forest traces" }
+      ],
+      "key_routes": [
+        { "route_name": "Mississippi River", "type": "navigable river", "year_established": "pre-colonial", "description": "The primary commercial artery. Steamboat landings at Greenville, Rosedale, Friars Point, and Tunica connected the Delta to New Orleans and the world cotton market.", "counties_served": ["Washington", "Bolivar", "Coahoma", "Tunica"] },
+        { "route_name": "Sunflower River", "type": "navigable bayou", "year_established": "pre-colonial", "description": "Interior waterway running north-south through Coahoma, Sunflower, and Humphreys counties. Navigable by flatboat and small steamboat.", "counties_served": ["Coahoma", "Sunflower", "Humphreys"] },
+        { "route_name": "Deer Creek", "type": "navigable bayou", "year_established": "pre-colonial", "description": "Runs through Washington County. Plantation corridor — the wealthiest plantations fronted on Deer Creek.", "counties_served": ["Washington"] }
+      ],
+      "isolation_index": {
+        "description": "Extreme for interior counties. A family in interior Sunflower or Tallahatchie County in 1870 might not visit a town for months. The forest and the mud created isolation as complete as any frontier in America.",
+        "comparative_note": "The Delta in 1860 was more isolated than the Kansas frontier of the same date — the Kansas prairie was at least passable by wagon. The Delta's mud was not."
+      },
+      "narrative_hook": "In {year}, the only way to get {ancestor_name}'s cotton to market was the Mississippi River — and the only way to get the cotton to the river was a wagon pulled through Sharkey clay that could trap a loaded cart for days if the weather turned wet.",
+      "source": "Cobb, The Most Southern Place on Earth (1992). Willis, Forgotten Time (2000)."
+    },
+    {
+      "era_id": "railroad_era",
+      "era_name": "Railroad Era",
+      "date_range": "1880-1920",
+      "primary_modes": ["railroad", "steamboat (declining)", "wagon on unimproved road"],
+      "description": "The railroad transformed the Delta. The Louisville, New Orleans & Texas Railroad, the Yazoo & Mississippi Valley Railroad (Y&MV), and the Illinois Central Railroad reached the Delta in the 1880s-1890s, opening the interior to settlement, commerce, and communication. Towns sprang up at railroad stations — Clarksdale, Cleveland, Indianola, Greenwood all grew because of the railroad. The railroad also enabled the Delta's connection to the North: the Illinois Central through Clarksdale to Memphis to Chicago became the Great Migration's main highway. Away from the railroad, however, conditions remained primitive — unimproved dirt roads that turned to impassable mud in wet weather persisted well into the twentieth century.",
+      "road_conditions": "Unimproved dirt roads away from the railroad. Sharkey clay roads were impassable for weeks after rain. Some gravel was applied to main routes by the 1910s, but most rural roads remained unimproved through 1930.",
+      "travel_times": [
+        { "from": "Clarksdale (Coahoma Co.)", "to": "Memphis", "mode": "Illinois Central Railroad", "time": "2-3 hours", "conditions_note": "Reliable daily service" },
+        { "from": "Greenwood (Leflore Co.)", "to": "Vicksburg", "mode": "Y&MV Railroad", "time": "3-4 hours", "conditions_note": "Via Yazoo City" },
+        { "from": "Typical plantation", "to": "Nearest railroad station", "mode": "wagon", "time": "2-6 hours", "conditions_note": "Dependent on weather; Sharkey clay roads still impassable in wet weather" }
+      ],
+      "key_routes": [
+        { "route_name": "Illinois Central Railroad", "type": "railroad", "year_established": 1884, "description": "North-south line through Clarksdale connecting the Delta to Memphis and Chicago. The Great Migration's primary corridor.", "counties_served": ["Coahoma", "Tunica"] },
+        { "route_name": "Yazoo & Mississippi Valley Railroad", "type": "railroad", "year_established": 1884, "description": "Connected the interior Delta to Vicksburg and the river. Opened Sunflower, Tallahatchie, and Leflore counties to commercial agriculture.", "counties_served": ["Sunflower", "Tallahatchie", "Leflore", "Humphreys"] },
+        { "route_name": "Columbus & Greenville Railway", "type": "railroad", "year_established": 1880, "description": "East-west line connecting Greenville to Columbus on the Alabama border. Provided Washington County's railroad connection.", "counties_served": ["Washington"] }
+      ],
+      "isolation_index": {
+        "description": "Sharply bifurcated. Towns along the railroad were connected; plantations more than five miles from a depot remained in pre-railroad isolation. The railroad created a two-tier Delta.",
+        "comparative_note": "The railroad gap was more extreme than in the Piedmont or Coastal Plain because Delta roads were so much worse — five miles from the depot in the Delta might as well be fifty in dry-road country."
+      },
+      "narrative_hook": "The railroad reached {ancestor_name}'s county in the 1880s and changed everything — cotton that had been hauled by wagon for days could now be shipped in hours, and a person who wanted to leave the Delta could board a train and be in Memphis by supper.",
+      "source": "Cobb, The Most Southern Place on Earth (1992). Wilkerson, The Warmth of Other Suns (2010)."
+    },
+    {
+      "era_id": "highway_automobile",
+      "era_name": "Highway and Automobile Era",
+      "date_range": "1920-1960",
+      "primary_modes": ["automobile", "truck", "railroad", "bus"],
+      "description": "The automobile arrived in the Delta slowly — the roads were too bad to make cars practical until highway construction began in the 1920s-1930s. US Highway 61 (the 'Blues Highway') ran north-south through the Delta from Memphis to Vicksburg, passing through Tunica, Coahoma (Clarksdale), Bolivar (Cleveland), Washington (Greenville), and points south. US Highway 49 ran east-west through Coahoma and Sunflower counties, crossing Highway 61 at Clarksdale — the legendary 'crossroads.' Highway construction improved access but also enabled greater surveillance and control — planters could patrol wider areas, and the sheriff could reach any plantation by car. For Black families, the automobile represented potential escape from the plantation system — a car could leave at night without buying a train ticket.",
+      "road_conditions": "Major highways paved by the 1930s-1940s. Rural roads remained unpaved through midcentury. Sharkey clay back roads impassable in wet weather even in the 1950s.",
+      "travel_times": [
+        { "from": "Clarksdale", "to": "Memphis", "mode": "automobile (US 61)", "time": "1.5-2 hours", "conditions_note": "Paved highway by the 1930s" },
+        { "from": "Greenville", "to": "Jackson", "mode": "automobile (US 82)", "time": "2-3 hours", "conditions_note": "Via Greenwood; highway conditions improved through the 1940s" },
+        { "from": "Typical plantation", "to": "Nearest paved road", "mode": "automobile or truck", "time": "15-60 minutes", "conditions_note": "Plantation roads remained unpaved; some impassable in wet weather through the 1960s" }
+      ],
+      "key_routes": [
+        { "route_name": "US Highway 61", "type": "paved highway", "year_established": 1926, "description": "The Blues Highway — north-south through the Delta from Memphis to Vicksburg. The road that connected the Delta to the North by automobile.", "counties_served": ["Tunica", "Coahoma", "Bolivar", "Washington"] },
+        { "route_name": "US Highway 49", "type": "paved highway", "year_established": 1926, "description": "East-west through the central Delta. Crosses Highway 61 at Clarksdale — the 'crossroads' of blues mythology.", "counties_served": ["Coahoma", "Sunflower", "Leflore"] },
+        { "route_name": "US Highway 82", "type": "paved highway", "year_established": 1926, "description": "East-west through the southern Delta. Connects Greenville through Greenwood to Columbus.", "counties_served": ["Washington", "Leflore"] }
+      ],
+      "isolation_index": {
+        "description": "Improved on main highways but persistent on plantation roads. The paved highway system was like islands of access in a sea of mud — a family on a back road in Tallahatchie County in 1950 could be stuck at home for days after a rain.",
+        "comparative_note": "The Delta lagged behind the rest of the South in road paving by a generation. Mississippi was the last state in the Union to complete its primary highway system."
+      },
+      "narrative_hook": "Highway 61 ran through {ancestor_name}'s county like a promise — a strip of pavement pointing north toward Memphis, toward Chicago, toward a world where the settlement sheet and the commissary did not control every dollar.",
+      "source": "Cobb, The Most Southern Place on Earth (1992). Palmer, Robert. Deep Blues: A Musical and Cultural History of the Mississippi Delta. New York: Viking, 1981."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1880, "event": "Columbus & Greenville Railway reaches Greenville", "stations": ["Greenville"], "impact": "Washington County's first railroad connection — east-west to Columbus." },
+    { "year": 1884, "event": "Yazoo & Mississippi Valley Railroad reaches interior Delta", "stations": ["Cleveland", "Indianola", "Greenwood"], "impact": "Opens interior counties to commercial cotton agriculture." },
+    { "year": 1884, "event": "Illinois Central Railroad reaches Clarksdale", "stations": ["Clarksdale", "Tunica stations"], "impact": "Connects northern Delta to Memphis. Future Great Migration corridor." },
+    { "year": 1887, "event": "Y&MV reaches Mound Bayou", "stations": ["Mound Bayou"], "impact": "Isaiah T. Montgomery founds the all-Black town along the Y&MV line." },
+    { "year": 1903, "event": "W. C. Handy hears blues at Tutwiler depot", "stations": ["Tutwiler"], "impact": "Cultural milestone — the first documented encounter between the blues and a musician who would carry it to the wider world." }
+  ],
+  "narrative_hooks": [
+    "The Mississippi River was the only highway that mattered in {ancestor_name}'s Delta before the railroad — everything else was mud, forest, and the bayous that threaded through both.",
+    "The Illinois Central Railroad through Clarksdale was the Great Migration's main line — {ancestor_name}'s neighbors, friends, and eventually {pronoun_possessive} own family boarded at the depot and rode north to a world where cotton was not the only word in the vocabulary.",
+    "Highway 61 and Highway 49 crossed at Clarksdale — the crossroads of the Delta, where {ancestor_name} could turn north toward Memphis or south toward more cotton, and that intersection was the most consequential fork in the road in American music history.",
+    "The Sharkey clay roads of {ancestor_name}'s county were the worst in the South — after a rain, a loaded wagon could sink to its axles and stay there until the sun baked the mud hard enough to move, which could take days.",
+    "The railroad that opened {ancestor_name}'s county to cotton commerce also opened it to departure — the same steel rails that carried bales south carried people north, and eventually the people mattered more than the cotton."
+  ],
+  "source_references": [
+    "Cobb, James C. The Most Southern Place on Earth: The Mississippi Delta and the Roots of Regional Identity. New York: Oxford University Press, 1992.",
+    "Willis, John C. Forgotten Time: The Yazoo-Mississippi Delta after the Civil War. Charlottesville: University Press of Virginia, 2000.",
+    "Palmer, Robert. Deep Blues: A Musical and Cultural History of the Mississippi Delta. New York: Viking, 1981.",
+    "Wilkerson, Isabel. The Warmth of Other Suns: The Epic Story of America's Great Migration. New York: Random House, 2010.",
+    "Barry, John M. Rising Tide: The Great Mississippi Flood of 1927 and How It Changed America. New York: Simon & Schuster, 1997."
+  ],
+  "nel_cross_references": {
+    "route_refs": ["mississippi_river_corridor", "illinois_central_to_chicago"]
+  }
+}

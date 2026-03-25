@@ -1,0 +1,177 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Micro-Migration Network Map for the VA Piedmont Southside cluster. Documents specific migration corridors, chain-migration mechanics, and settlement patterns that moved people into, out of, and within this eight-county region from 1720 to 1960. The Southside was a net exporter of people for most of its history — families left for Kentucky, Tennessee, the Deep South, and eventually northern cities.",
+  "migration_network_id": "va_piedmont_southside_migration_networks",
+  "display_name": "VA Piedmont Southside — Micro-Migration Network Map",
+  "cluster_ref": "va_piedmont_southside",
+  "era_range": "1720-1960",
+  "migration_corridors": [
+    {
+      "corridor_id": "tidewater_to_southside",
+      "corridor_name": "Tidewater Virginia to Southside Settlement",
+      "origin_counties": ["Charles City (VA)", "Henrico (VA)", "Surry (VA)", "Isle of Wight (VA)", "James City (VA)", "Prince George (VA)"],
+      "destination_area": "Halifax, Pittsylvania, Charlotte, Mecklenburg, Brunswick, Lunenburg — the entire plantation Southside",
+      "era": "1720-1780",
+      "migration_type": "chain_migration",
+      "scale": "Hundreds of families over two generations. The planter class brought enslaved workers with them, meaning the actual population movement was much larger than the free settler count.",
+      "evidence": {
+        "census_evidence": "The 1790 federal census for Southside counties shows household heads with surnames established in the Tidewater since the seventeenth century — Randolph, Harrison, Jones, Smith. Land patent records trace Tidewater families acquiring Southside land.",
+        "church_evidence": "Anglican/Episcopal vestry records in Tidewater parishes show 'removed to [Southside county]' entries. Baptist and Presbyterian records in the Southside show new congregations established by Tidewater families.",
+        "surname_clustering": "English surnames dominant: Jones, Smith, Williams, Harris, Taylor, Clark. These are not diagnostic of specific Tidewater origin but consistent with the migration stream."
+      },
+      "chain_mechanics": {
+        "description": "Tidewater families moved to the Southside primarily to obtain fresh tobacco land. The oldest Tidewater plantations were already showing soil exhaustion by the 1720s, and the Southside offered the same climate, the same crop, and the same labor system on new soil. Families moved in kinship clusters — a planter who secured a large grant often brought brothers, cousins, and neighbors. The enslaved people they brought had no choice in the matter.",
+        "kinship_role": "Strong. Planter families moved as extended networks, establishing the same social hierarchy on the frontier that they had maintained in the Tidewater. Church connections (Anglican/Episcopal) reinforced kinship ties.",
+        "timeline": "First wave 1720-1746 (before county organization). Second wave 1746-1770 (after county courthouses established). Third wave 1770-1790 (filling remaining land)."
+      },
+      "narrative_hook": "The families that built the Southside came from the Tidewater — English planters who had exhausted one set of tobacco fields and moved south to exhaust another. {ancestor_name}'s people came from the river country, bringing their enslaved workers, their Anglican prayer books, and their expectation that fresh land would restore the fortunes that worn-out land had diminished.",
+      "source": "Beeman, The Evolution of the Southern Backcountry (1984). Kulikoff, Tobacco and Slaves (1986)."
+    },
+    {
+      "corridor_id": "southside_to_kentucky_tennessee",
+      "corridor_name": "Southside Virginia to Kentucky and Tennessee",
+      "origin_counties": ["Halifax", "Pittsylvania", "Charlotte", "Mecklenburg", "Henry", "Patrick", "Lunenburg", "Brunswick"],
+      "destination_area": "Kentucky (Bourbon, Fayette, Madison, Clark counties), Tennessee (Davidson, Sumner, Wilson, Maury counties)",
+      "era": "1780-1850",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of families over three generations. The Southside was one of the primary source regions for Kentucky and Tennessee settlement. Entire communities relocated, taking their enslaved workers.",
+      "evidence": {
+        "census_evidence": "1790-1830 census for central Kentucky and middle Tennessee shows concentrations of Virginia-born household heads with Southside surnames. Halifax and Pittsylvania County surnames appear prominently in Bourbon, Fayette, and Madison counties, KY.",
+        "church_evidence": "Baptist and Presbyterian churches in central Kentucky and middle Tennessee were established by Southside Virginia families. Church transfer records document specific moves.",
+        "land_records": "Virginia land grants in Kentucky (Virginia controlled Kentucky until 1792) list Southside county residents as grantees. Deed records show land sales in Southside counties immediately preceding Kentucky land entries.",
+        "surname_clustering": "Southside surnames — Terry, Hairston, Pannill, Carrington, Stovall, Womack, Owen — appear in Kentucky and Tennessee census records in clusters indicating chain migration from specific Southside communities."
+      },
+      "chain_mechanics": {
+        "description": "Soil exhaustion was the primary push. Southside tobacco land was declining by the 1790s, and Kentucky and Tennessee offered fresh, fertile soil on the same latitude — the same crop could be grown in the same way. Families moved in kinship groups, often sending a scout ahead to secure land. The move typically included enslaved workers, who were the labor force for the new plantation. The Wilderness Road and the route through the Cumberland Gap were the primary pathways, supplemented by river routes via the Kanawha and Ohio rivers.",
+        "kinship_role": "Dominant. Entire kinship networks relocated. A family that moved to Bourbon County, KY, expected to find cousins from Halifax already there — and usually did. The church (Baptist, Presbyterian) moved with the families.",
+        "timeline": "Trickle 1780-1790 (Revolutionary veterans). First wave 1790-1810 (soil exhaustion driving early movers). Peak 1810-1830 (general Southside out-migration). Declining 1830-1850 (best Kentucky land taken)."
+      },
+      "narrative_hook": "When {ancestor_name} left Halifax County for Kentucky in {year}, {pronoun_subject} was following a trail worn smooth by neighbors and cousins — Southside families who had given up on Virginia's exhausted red clay and bet on Kentucky's bluegrass. The enslaved people who traveled with them had no say in the wager.",
+      "source": "Fischer, David Hackett, and James C. Kelly. Bound Away: Virginia and the Westward Movement. University of Virginia Press, 2000. Aron, Stephen. How the West Was Lost: The Transformation of Kentucky. Johns Hopkins University Press, 1996."
+    },
+    {
+      "corridor_id": "domestic_slave_trade_south",
+      "corridor_name": "Domestic Slave Trade: Southside Virginia to the Deep South",
+      "origin_counties": ["Halifax", "Pittsylvania", "Charlotte", "Mecklenburg", "Brunswick", "Lunenburg"],
+      "destination_area": "Richmond slave market, then to Alabama, Mississippi, Louisiana, Georgia, Texas cotton plantations",
+      "era": "1800-1860",
+      "migration_type": "forced_migration",
+      "scale": "Tens of thousands of enslaved people sold from the Southside to the Deep South over six decades. The Southside was one of the largest source regions for the domestic slave trade.",
+      "evidence": {
+        "census_evidence": "Enslaved population in Southside counties grew more slowly than natural increase would predict — the difference was sales to the domestic trade.",
+        "court_records": "County court deed books contain hundreds of recorded slave sales. Estate sales after planter deaths were often the mechanism for breaking up enslaved families.",
+        "slave_trader_records": "Richmond slave traders' accounts (some held at Library of Virginia and Virginia Historical Society) document purchases from Southside counties."
+      },
+      "chain_mechanics": {
+        "description": "The domestic slave trade was not migration — it was forced sale and displacement. Southside planters sold enslaved people to professional slave traders who transported them to Richmond's auction houses or directly to the Deep South. The sales financed planter emigration to Kentucky, paid debts, or sustained failing plantations. Enslaved families were systematically torn apart — husbands from wives, parents from children — because the market valued individual laborers, not families.",
+        "kinship_role": "Kinship was what was destroyed. The domestic slave trade was, at its core, a mechanism for breaking kinship ties for profit.",
+        "timeline": "Beginning after 1790; accelerating after 1808 (end of international trade); peak 1820-1860."
+      },
+      "dignity_note": "The domestic slave trade was the defining atrocity of the Southside economy. Every sale was a family destroyed. The financial records that document these sales treat human beings as commodities — the narrative must not.",
+      "narrative_hook": "The domestic slave trade ran through the Southside like a river of grief — {ancestor_name}'s enslaved neighbors, kin, and community sold south to the Cotton Kingdom, their families broken for the price of a fresh start on Kentucky land or one more year on exhausted Virginia soil.",
+      "source": "Johnson, Walter. Soul by Soul: Life Inside the Antebellum Slave Market. Harvard University Press, 1999. Baptist, Edward E. The Half Has Never Been Told: Slavery and the Making of American Capitalism. Basic Books, 2014."
+    },
+    {
+      "corridor_id": "great_migration_north",
+      "corridor_name": "Black Great Migration from the VA Southside",
+      "origin_counties": ["Halifax", "Pittsylvania", "Charlotte", "Mecklenburg", "Brunswick", "Lunenburg"],
+      "destination_area": "Philadelphia, Baltimore, Washington DC, New York, Newark, New Jersey industrial cities — via Norfolk & Western and Southern Railway northbound",
+      "era": "1910-1960",
+      "migration_type": "chain_migration",
+      "scale": "Tens of thousands of Black families from the Southside over five decades. The Black population in Southside counties declined steadily as out-migration exceeded natural increase.",
+      "evidence": {
+        "census_evidence": "1920-1960 census for Philadelphia, Baltimore, Washington DC, and northern New Jersey shows concentrations of Virginia-born Black residents with Southside county birthplaces.",
+        "church_evidence": "Black Baptist and AME churches in Southside counties record substantial membership losses 1916-1960. Destination churches in northern cities show 'received by letter' entries from Virginia congregations."
+      },
+      "chain_mechanics": {
+        "description": "The Great Migration from the Southside followed the railroad north — the Norfolk & Western and Southern Railway provided direct connections from South Boston, Danville, and Lynchburg to Washington and the Northeast. Chain migration followed church and kinship networks: a young man went north, found work, and sent word back. The push factors were severe: Jim Crow, sharecropping poverty, racial violence (the legacy of the 1883 Danville Riot and ongoing everyday terrorism), and the denial of educational opportunity. The pull factors were wartime industrial employment and the promise of less overt racial oppression.",
+        "kinship_role": "Church networks were as important as blood kinship. Baptist and AME church connections channeled migrants to specific northern congregations that served as landing pads.",
+        "timeline": "Trickle 1910-1916; WWI surge 1917-1920; sustained 1920-1940; WWII surge 1942-1955; tapering 1955-1960."
+      },
+      "narrative_hook": "When {ancestor_name} boarded the Norfolk & Western at South Boston heading north in {year}, {pronoun_subject} followed a path worn smooth by kin and church — a cousin in Philadelphia, a deacon in Washington, a sister in Baltimore who said there was room and the wages were real.",
+      "source": "Wilkerson, Isabel. The Warmth of Other Suns. Random House, 2010. Gregory, James N. The Southern Diaspora. UNC Press, 2005."
+    },
+    {
+      "corridor_id": "scots_irish_shenandoah_to_southside",
+      "corridor_name": "Scots-Irish from the Shenandoah to the Western Southside",
+      "origin_counties": ["Augusta (VA)", "Rockbridge (VA)", "Rockingham (VA)", "Botetourt (VA)"],
+      "destination_area": "Henry County, Patrick County, western Pittsylvania — the Blue Ridge foothill Southside",
+      "era": "1760-1810",
+      "migration_type": "chain_migration",
+      "scale": "Hundreds of families. The Scots-Irish settlement of the western Southside was distinct from the English Tidewater settlement of the eastern Southside.",
+      "evidence": {
+        "census_evidence": "1790-1810 census for Henry and Patrick counties shows Scots-Irish surnames (McDowell, McCulloch, Martin, Stuart) not found in the Tidewater-settled eastern counties.",
+        "church_evidence": "Presbyterian and Baptist church records in Henry and Patrick counties document congregations established by Shenandoah Valley families."
+      },
+      "chain_mechanics": {
+        "description": "The Scots-Irish entered the western Southside not from the Tidewater (east) but from the Shenandoah Valley (northwest), following the river valleys through the Blue Ridge gaps. They brought a yeoman farming culture that was fundamentally different from the plantation system of the eastern Southside — smaller farms, fewer enslaved people, more self-sufficiency, and a deep suspicion of the planter class that would echo through the Southside's Civil War divisions.",
+        "kinship_role": "Strong. Scots-Irish families moved as kinship networks, establishing the same church-centered communities they had maintained in the Shenandoah.",
+        "timeline": "1760-1790 (initial settlement); 1790-1810 (filling in)."
+      },
+      "narrative_hook": "The Scots-Irish who settled Henry and Patrick counties came not from the Tidewater but from the Shenandoah Valley — over the Blue Ridge, through the gaps, into mountain country that felt more like home than the plantation lowland ever would. {ancestor_name}'s people brought Presbyterian stubborness and yeoman independence to a Southside that was otherwise English and Anglican and slaveholding.",
+      "source": "Fischer and Kelly, Bound Away (2000). Beeman, The Evolution of the Southern Backcountry (1984)."
+    }
+  ],
+  "internal_movement_patterns": [
+    {
+      "pattern_id": "farm_to_danville_mills",
+      "pattern_name": "Farm-to-Factory: Rural Southside to Danville Mills",
+      "description": "As tobacco agriculture declined and Danville industrialized, rural families from across the Southside migrated to Danville for factory work. The move was typically short-distance — a day's wagon ride from a Halifax or Pittsylvania farm to a Danville mill village. This internal migration paralleled the farm-to-mill movement in the NC and SC Piedmont.",
+      "era": "1880-1940",
+      "counties_affected": ["Pittsylvania", "Halifax", "Henry"],
+      "narrative_hook": "When {ancestor_name} left the farm in {county} County for Danville's mills in {year}, the journey was short but the change was total — from a world measured by seasons and soil to one measured by shifts and spindles."
+    },
+    {
+      "pattern_id": "intra_southside_tobacco",
+      "pattern_name": "Movement Between Southside Counties for Fresh Tobacco Land",
+      "description": "Before out-migration to Kentucky and Tennessee became the dominant pattern, families moved within the Southside — from exhausted land in the oldest counties (Brunswick, Lunenburg) to fresher land in the newer counties (Pittsylvania, Halifax). This pattern is visible in land records and census data as families appear in one county, disappear, and reappear in an adjacent county.",
+      "era": "1750-1830",
+      "counties_affected": ["All eight counties"],
+      "narrative_hook": "Before the road to Kentucky, there was the shorter move — {ancestor_name}'s family leaving exhausted soil in Lunenburg for the slightly fresher fields of Halifax, buying one more generation of tobacco production before the cycle repeated."
+    }
+  ],
+  "settlement_clusters": [
+    {
+      "cluster_name": "Southside Virginia families in Bourbon County, Kentucky",
+      "counties": ["Bourbon (KY)"],
+      "description": "Bourbon County, KY, received a concentrated settlement of Halifax and Pittsylvania families in the 1790s-1810s. Surnames like Terry, Hairston, Pannill, and Stovall appear in both the Southside source and the Kentucky destination. The tobacco economy was transplanted intact — crop, labor system, and social hierarchy.",
+      "era": "1790-1830"
+    },
+    {
+      "cluster_name": "Southside Virginia families in middle Tennessee",
+      "counties": ["Davidson (TN)", "Sumner (TN)", "Wilson (TN)"],
+      "description": "Middle Tennessee received a second stream of Southside migrants — families who found Kentucky already settled and continued through the Cumberland Gap to the Nashville basin. The same surnames appear: Southside families reconstituting their communities on Tennessee soil.",
+      "era": "1800-1840"
+    },
+    {
+      "cluster_name": "Southside Black families in Philadelphia",
+      "counties": ["Philadelphia (PA)"],
+      "description": "Philadelphia received a large concentration of Southside-born Black migrants during the Great Migration. Specific neighborhoods — particularly North Philadelphia and West Philadelphia — developed concentrations of families from Halifax, Pittsylvania, and Mecklenburg counties. Church networks provided the landing infrastructure.",
+      "era": "1920-1960"
+    }
+  ],
+  "narrative_hooks": [
+    "The Southside was a net exporter of people for most of its history — {ancestor_name}'s family either left or stayed, and both choices had consequences that lasted generations.",
+    "The trail from Halifax County to Bourbon County, Kentucky, was worn smooth by the 1810s — {ancestor_name}'s family was part of a migration stream that transplanted the Southside's tobacco economy, enslaved labor, and social hierarchy to the Bluegrass.",
+    "The domestic slave trade was forced migration — {ancestor_name}'s enslaved family members were sold south not because they chose to go but because they were inventory, and the price in Richmond was better than the yield on exhausted Virginia soil.",
+    "When {ancestor_name} left the Southside for Philadelphia in {year}, {pronoun_subject} followed a railroad and a kinship network — the Norfolk & Western to Washington, then the PRR to Philadelphia, where a cousin from Halifax said there was work and a church that would take you in.",
+    "The Scots-Irish who settled Henry and Patrick counties came through the Blue Ridge, not from the Tidewater — {ancestor_name}'s people were mountain folk in Piedmont country, and they never entirely fit the plantation South's expectations."
+  ],
+  "source_references": [
+    "Beeman, Richard R. The Evolution of the Southern Backcountry. University of Pennsylvania Press, 1984.",
+    "Fischer, David Hackett, and James C. Kelly. Bound Away. University of Virginia Press, 2000.",
+    "Aron, Stephen. How the West Was Lost. Johns Hopkins University Press, 1996.",
+    "Johnson, Walter. Soul by Soul. Harvard University Press, 1999.",
+    "Baptist, Edward E. The Half Has Never Been Told. Basic Books, 2014.",
+    "Wilkerson, Isabel. The Warmth of Other Suns. Random House, 2010.",
+    "Gregory, James N. The Southern Diaspora. UNC Press, 2005.",
+    "Kulikoff, Allan. Tobacco and Slaves. UNC Press, 1986."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["tobacco_soil_exhaustion", "great_migration", "domestic_slave_trade", "scots_irish_frontier", "reconstruction_era", "stayed_and_adapted"],
+    "route_refs": ["great_wagon_road", "southern_railway_piedmont"],
+    "community_texture_refs": ["eastern_nc_farm_community", "appalachian_mountain_community"],
+    "destination_refs": ["philadelphia", "baltimore", "washington_dc"]
+  }
+}

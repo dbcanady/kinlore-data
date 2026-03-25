@@ -1,0 +1,135 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Meeker County, MN. Record survival, courthouse history — 1862 frontier line, Forest City battle, potential record disruption from US-Dakota War.",
+  "courthouse_atlas_id": "mn_meeker_courthouse",
+  "display_name": "Meeker County, Minnesota — Courthouse Atlas",
+  "county": "Meeker",
+  "state": "MN",
+  "fips_code": "27093",
+  "cluster_ref": "mn_settlement_frontier",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1900,
+      "location": "Litchfield, MN — 325 North Sibley Avenue",
+      "records_housed": ["deeds", "plats", "vital records", "probate records", "court minutes", "naturalization records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1856–1862",
+        "location": "Forest City (original county seat)",
+        "fate": "County was depopulated during the US-Dakota War of 1862. County seat functions disrupted for approximately two years."
+      },
+      {
+        "era": "1864–1869",
+        "location": "Forest City, reconstituted county government",
+        "fate": "County seat transferred to Litchfield in 1869 when the railroad made Litchfield the economic center."
+      },
+      {
+        "era": "1869–1899",
+        "location": "Litchfield, frame courthouse",
+        "fate": "Replaced by 1900 brick courthouse. Records transferred."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "meeker_1862_disruption",
+      "date": "1862-08/1864",
+      "cause": "US-Dakota War — county depopulation",
+      "records_destroyed": ["some loose papers from pre-war period", "justice of the peace records", "some early township records"],
+      "records_survived": ["deed books (most)", "some early court records"],
+      "scope": "partial",
+      "description": "When the US-Dakota War broke out in August 1862, the entire non-Dakota population of Meeker County fled east. The county was essentially depopulated for one to two years. County government ceased to function. Records stored in Forest City (the original county seat) were left unattended in abandoned buildings. The bound volumes — deeds and some court records — survived, but loose papers, township records, and justice of the peace dockets were damaged, scattered, or lost during the period of abandonment. The Battle of Forest City (September 4, 1862) caused additional disruption.",
+      "narrative_impact": "If {ancestor_name} was in Meeker County before August 1862, some early records may have been lost during the war's disruption. The bound deed books survived, but loose papers from the county's first six years are incomplete. For families who arrived after 1864, the record trail is more secure.",
+      "source": "Carley, Kenneth. The Dakota War of 1862. 2nd ed. St. Paul: Minnesota Historical Society Press, 1976. Daniels, Arthur M. A History of Meeker County. Litchfield, MN, 1896."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1856,
+      "completeness": "Good — most deed books survived the 1862 disruption",
+      "gaps": "Some early entries may be incomplete. The transfer from Forest City to Litchfield in 1869 was orderly, but the 1862 disruption created a period of uncertainty.",
+      "repository": "Meeker County Recorder, Litchfield; Minnesota Historical Society microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com MN land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1860,
+      "completeness": "Fair — few estates were probated before the 1862 war, and early loose papers may have been lost",
+      "gaps": "Pre-1862 probate records are thin. Post-1864 records are more complete as resettlement brought new families.",
+      "repository": "Meeker County Probate Court, Litchfield; Minnesota Historical Society",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1858,
+      "completeness": "Fair — some early civil marriage records may have been lost during the 1862 disruption",
+      "gaps": "Pre-1862 marriages are sparsely documented. Church records from Scandinavian Lutheran congregations organized after 1864 are more reliable for the resettlement period.",
+      "repository": "Meeker County Recorder; Minnesota Historical Society microfilm",
+      "online_access": "FamilySearch; Ancestry.com MN marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1858,
+      "completeness": "Fair — some early court records disrupted by 1862 depopulation",
+      "gaps": "No court proceedings during the approximately two-year period when the county was abandoned (1862–1864).",
+      "repository": "Meeker County Courthouse; Minnesota Historical Society",
+      "online_access": "Minnesota Historical Society microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1870,
+      "death_registration_start": 1870,
+      "completeness": "Compliance slow in rural Meeker County until the 1890s. Scandinavian Lutheran church records are more reliable for the 1870–1895 period.",
+      "repository": "Minnesota Department of Health; Meeker County Recorder; Minnesota Historical Society"
+    },
+    "naturalization_records": {
+      "earliest_surviving": 1865,
+      "completeness": "Good from the resettlement period onward — the wave of Scandinavian immigrants after 1864 generated substantial naturalization filings",
+      "gaps": "Very few naturalization records from the pre-war period (1856–1862).",
+      "repository": "Meeker County District Court; National Archives — Chicago; Minnesota Historical Society",
+      "online_access": "FamilySearch; Ancestry.com"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Scandinavian Lutheran church records",
+      "description": "Swedish and Norwegian Lutheran congregations organized rapidly after the 1864 resettlement — many within the Augustana Synod (Swedish) and Norwegian Synod. Parish registers record baptisms, confirmations, marriages, and burials. These records are the backbone of vital documentation for the resettlement generation.",
+      "repository": "Norwegian-American Historical Association, Northfield; Swenson Swedish Immigration Research Center, Rock Island, IL; Luther Seminary Archives, St. Paul; FamilySearch microfilm",
+      "era_coverage": "1864–present",
+      "genealogical_value": "Church records fill the gap left by weak civil registration. Norwegian ministerialbok entries often record the immigrant's home parish. Swedish kyrkobok records include communion attendance, which tracks family presence in a parish year by year.",
+      "source": "Qualey, Carlton C. Norwegian Settlement in the United States. Northfield, MN: Norwegian-American Historical Association, 1938."
+    },
+    {
+      "source_type": "Federal and state censuses",
+      "description": "Federal schedules 1860–1940 and Minnesota state censuses. The 1860 census captures the pre-war population; the 1865 state census reveals who returned after the war and who did not.",
+      "repository": "National Archives; FamilySearch; Ancestry.com; Minnesota Historical Society",
+      "era_coverage": "1860–1940",
+      "genealogical_value": "Comparing the 1860 and 1865 censuses reveals the demographic impact of the US-Dakota War on Meeker County — many names on the 1860 roll do not appear in 1865.",
+      "source": "Minnesota Historical Society. Minnesota Census Records Guide. St. Paul: MHS, 2004."
+    },
+    {
+      "source_type": "US-Dakota War damage claims and military records",
+      "description": "Settlers who fled Meeker County during the 1862 war filed damage claims with the state, documenting lost property, livestock, and improvements. Militia service records may also exist.",
+      "repository": "Minnesota Historical Society; National Archives",
+      "era_coverage": "1862–1866",
+      "genealogical_value": "Damage claims are among the most detailed records of early Meeker County settlers — they list specific property (number of acres broken, buildings erected, livestock owned) that census records do not capture. For families who were in the county before the war, these claims may be the most informative surviving document.",
+      "source": "Minnesota Historical Society. Claims for Depredations by Sioux Indians. St. Paul: MHS collections."
+    }
+  ],
+  "narrative_hooks": [
+    "Meeker County's records before 1862 are thin — the war emptied the county, and some early papers were lost in the abandonment. If {ancestor_name} was here before the war, the damage claim filed after returning may tell more about {pronoun_possessive} life than any surviving courthouse record.",
+    "After the resettlement of 1864, the Scandinavian churches organized fast, and their parish registers became the most reliable record of births, marriages, and deaths in the county — more complete than the civil records for a generation.",
+    "The 1860 and 1865 censuses are a before-and-after snapshot of the US-Dakota War's impact on Meeker County — comparing them reveals who came back and who did not, and {ancestor_name}'s presence or absence tells its own story.",
+    "If {ancestor_name} was naturalized in Meeker County, the papers date from 1865 or later — the resettlement generation, immigrants who chose to build on land that had been abandoned in terror three years earlier."
+  ],
+  "source_references": [
+    "Carley, Kenneth. The Dakota War of 1862. 2nd ed. St. Paul: Minnesota Historical Society Press, 1976.",
+    "Daniels, Arthur M. A History of Meeker County. Litchfield, MN, 1896.",
+    "Qualey, Carlton C. Norwegian Settlement in the United States. Northfield, MN: Norwegian-American Historical Association, 1938.",
+    "Minnesota Historical Society. Minnesota Census Records Guide. St. Paul: MHS, 2004.",
+    "Minnesota Historical Society. Claims for Depredations by Sioux Indians. St. Paul: MHS collections."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "mn_meeker",
+    "research_guidance_refs": ["immigrant_record_sources", "scandinavian_church_records"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the IN Central White River cluster. Documents how transportation shaped settlement and migration from the National Road era through the world's largest interurban network to the automobile age. The 'Crossroads of America' — a region defined by the intersection of every major transportation network that crossed the Midwest.",
+  "connectivity_id": "in_central_white_river_roads",
+  "display_name": "IN Central White River — Road & Connectivity Network",
+  "cluster_ref": "in_central_white_river",
+  "era_range": "1820-1960",
+  "transportation_eras": [
+    {
+      "era_id": "national_michigan_roads",
+      "era_name": "National Road, Michigan Road, and the Failed Canal",
+      "date_range": "1820-1847",
+      "primary_modes": ["wagon on improved road", "horseback", "foot"],
+      "description": "Central Indiana's transportation in the pre-railroad era was defined by two federally aided highways: the National Road (east-west, reaching Indianapolis c. 1830) and the Michigan Road (north-south, 1830s). These two roads crossing at Indianapolis gave the city its 'crossroads' identity before the railroad amplified it. The White River proved unnavigable — too shallow and unpredictable for steamboats. The Central Canal project (begun 1836, intended to connect Indianapolis to the Wabash & Erie Canal system) bankrupted the state before significant mileage was completed. A few miles of canal were built in Indianapolis; the rest was never dug. The flat terrain made road-building easier than in hilly country, but the poorly drained till plain turned dirt roads into impassable mud in wet seasons.",
+      "road_conditions": "The National Road was the best road in the state — graded, corduroyed in wet sections, occasionally graveled. The Michigan Road was similar quality. County roads were unimproved dirt and clay, passable in dry weather, dangerous in rain and impossible in spring. The flat terrain meant no steep grades but also no natural drainage.",
+      "travel_times": [
+        { "from": "Indianapolis", "to": "Greenfield (Hancock Co.)", "mode": "wagon", "time": "4-6 hours", "conditions_note": "18 miles on the National Road. Good conditions." },
+        { "from": "Indianapolis", "to": "Noblesville (Hamilton Co.)", "mode": "wagon", "time": "4-6 hours", "conditions_note": "18 miles on the Michigan Road. Good conditions." },
+        { "from": "Indianapolis", "to": "Martinsville (Morgan Co.)", "mode": "wagon", "time": "6-8 hours", "conditions_note": "30 miles on a less-improved state road. Slower than the federal highways." },
+        { "from": "Typical farm", "to": "Nearest county seat", "mode": "wagon", "time": "2-5 hours one way", "conditions_note": "County roads variable." }
+      ],
+      "key_routes": [
+        { "route_name": "National Road (later US 40)", "type": "Federal highway", "year_established": "1828-1834 (IN section)", "description": "East-west federal highway connecting Richmond to Indianapolis to Terre Haute. The primary emigrant highway through central Indiana. Defined the corridor through Hancock County (Greenfield), Marion County (Indianapolis), and Hendricks County (Plainfield).", "counties_served": ["Hancock", "Marion", "Hendricks"] },
+        { "route_name": "Michigan Road", "type": "State highway (federal aid)", "year_established": "1830s", "description": "North-south highway connecting Madison (Ohio River) through Indianapolis to South Bend and Michigan. The complement to the National Road — together they made Indianapolis a crossroads.", "counties_served": ["Marion", "Hamilton", "Johnson"] },
+        { "route_name": "Central Canal (incomplete)", "type": "Canal", "year_established": "1836 (never completed)", "description": "Intended to connect Indianapolis to the Wabash & Erie Canal system. Only a few miles were dug in Indianapolis before the project was abandoned. The canal failure forced Indiana to depend on roads and, later, railroads.", "counties_served": ["Marion"] }
+      ],
+      "isolation_index": {
+        "description": "Moderate along the federal highways; high off them. The National Road and Michigan Road provided reliable corridors, but farms more than five miles from either road were a half-day's journey from Indianapolis. The flat terrain was easy to cross but the mud seasons made travel unreliable.",
+        "comparative_note": "Better than the wooded hill country of southern Indiana; comparable to other central Midwest till-plain regions. The National Road was the best highway in the West."
+      },
+      "narrative_hook": "The National Road brought {ancestor_name} into central Indiana — the same graded, corduroyed federal highway that carried the nation westward, crossing the Michigan Road at Indianapolis to create the crossroads that gave the state its motto.",
+      "source": "Raitz, Karl B., ed. The National Road. Baltimore: Johns Hopkins University Press, 1996. Fatout, Paul. Indiana Canals. West Lafayette: Purdue University Press, 1972."
+    },
+    {
+      "era_id": "railroad_hub",
+      "era_name": "Railroad Hub: The Crossroads Realized",
+      "date_range": "1847-1900",
+      "primary_modes": ["railroad", "wagon on unimproved road", "horseback"],
+      "description": "The railroad realized the crossroads vision that the National Road and Michigan Road had begun. The Madison & Indianapolis Railroad reached the city in 1847. By 1855, eight railroads converged on Indianapolis, and Union Station (1853) was the world's first union railway station. Every county seat in the cluster had railroad service by 1870. The railroad did not merely connect central Indiana — it created the corn-and-hog economy by linking farmers to distant markets. Towns on the railroad grew; towns bypassed stagnated.",
+      "road_conditions": "County roads remained unimproved dirt and clay. The contrast between the railroad corridor (connected, prosperous) and the back roads (isolated, poor) was dramatic. Plank roads were tried and failed — the wood rotted within years.",
+      "travel_times": [
+        { "from": "Indianapolis", "to": "Anderson (Madison Co.)", "mode": "railroad", "time": "1.5-2 hours", "conditions_note": "Direct rail service." },
+        { "from": "Indianapolis", "to": "Shelbyville (Shelby Co.)", "mode": "railroad", "time": "1-1.5 hours", "conditions_note": "Direct rail service." },
+        { "from": "Indianapolis", "to": "Cincinnati", "mode": "railroad", "time": "3-4 hours", "conditions_note": "Major trunk line." },
+        { "from": "Indianapolis", "to": "Chicago", "mode": "railroad", "time": "4-5 hours", "conditions_note": "Major trunk line through Lafayette." }
+      ],
+      "key_routes": [
+        { "route_name": "Eight railroads at Union Station", "type": "Railroad hub", "year_established": "1847-1855", "description": "Madison & Indianapolis (1847), Terre Haute & Indianapolis, Indianapolis & Bellefontaine, Indiana Central, Jeffersonville Railroad, Lafayette & Indianapolis, Cincinnati & Indianapolis, and others converged on Union Station (1853). The crossroads realized.", "counties_served": ["Marion", "Hamilton", "Hancock", "Hendricks", "Morgan", "Johnson", "Shelby", "Madison"] },
+        { "route_name": "Belt Railroad (Indianapolis)", "type": "Railroad switching", "year_established": "1877", "description": "The Belt Railroad circled Indianapolis, connecting all eight trunk lines and enabling efficient freight transfer. Made Indianapolis one of the most efficient rail junctions in the country.", "counties_served": ["Marion"] }
+      ],
+      "isolation_index": {
+        "description": "Low along railroad lines; moderate in rural areas between lines. Every county seat had railroad service by 1870. Farms within a few miles of a depot were well-connected; farms at the county edges, less so.",
+        "comparative_note": "By 1880, central Indiana was one of the best-connected railroad regions in the Midwest."
+      },
+      "narrative_hook": "Eight railroads met at Indianapolis, and {ancestor_name}'s corn went to market on every one of them — the crossroads that the National Road had started, the railroad completed.",
+      "source": "Stover, John F. American Railroads. 2nd ed. University of Chicago Press, 1997. Bodenhamer and Barrows, Encyclopedia of Indianapolis (1994)."
+    },
+    {
+      "era_id": "interurban_golden_age",
+      "era_name": "The Interurban Golden Age",
+      "date_range": "1900-1930",
+      "primary_modes": ["interurban electric railway", "railroad", "automobile (emerging)", "horse-drawn vehicle"],
+      "description": "Central Indiana's interurban electric railway network was the largest in the world. Radiating from the Indianapolis Traction Terminal (opened 1904), lines reached every county seat in the cluster and far beyond — Fort Wayne, Terre Haute, Louisville, Muncie, Richmond. The interurban changed daily life fundamentally: a farmer in Noblesville could ride to Indianapolis, conduct business, and return home the same day. A Shelbyville family could visit relatives in Greenfield without an overnight stay. The system peaked around 1915 and declined rapidly after 1920 as automobiles and improved roads competed.",
+      "road_conditions": "State highways were being improved — gravel and early asphalt. County roads still largely unimproved. The automobile was arriving but the roads were not ready for it.",
+      "travel_times": [
+        { "from": "Noblesville (Hamilton Co.)", "to": "Indianapolis", "mode": "interurban", "time": "45 minutes", "conditions_note": "Frequent service, electric power, comfortable cars." },
+        { "from": "Greenfield (Hancock Co.)", "to": "Indianapolis", "mode": "interurban", "time": "40 minutes", "conditions_note": "Along the National Road corridor." },
+        { "from": "Martinsville (Morgan Co.)", "to": "Indianapolis", "mode": "interurban", "time": "1 hour", "conditions_note": "Southern line." },
+        { "from": "Anderson (Madison Co.)", "to": "Indianapolis", "mode": "interurban", "time": "1 hour 15 minutes", "conditions_note": "Northeastern line." }
+      ],
+      "key_routes": [
+        { "route_name": "Indianapolis Traction Terminal", "type": "Interurban hub", "year_established": 1904, "description": "The nine-track terminal on Market Street was the hub of the world's largest interurban network. At its peak, over 400 interurban cars arrived and departed daily.", "counties_served": ["Marion"] },
+        { "route_name": "Indianapolis & Northern (to Noblesville, Tipton)", "type": "Interurban line", "year_established": "1900s", "description": "Connected Indianapolis north through Hamilton County. Made Noblesville a commuter suburb before the automobile.", "counties_served": ["Marion", "Hamilton"] },
+        { "route_name": "Indianapolis & Eastern (to Greenfield, Richmond)", "type": "Interurban line", "year_established": "1900s", "description": "Followed the National Road corridor east through Hancock County.", "counties_served": ["Marion", "Hancock"] },
+        { "route_name": "Union Traction Company (to Anderson, Muncie)", "type": "Interurban line", "year_established": "1900s", "description": "Connected Indianapolis northeast to Anderson and Muncie. Critical for Anderson's commuter and commercial connections.", "counties_served": ["Marion", "Madison"] }
+      ],
+      "isolation_index": {
+        "description": "Very low along interurban lines. The electric railway made central Indiana one of the most connected rural regions in America. A farmer on an interurban line was less than an hour from Indianapolis. The system's decline after 1920 increased isolation again for communities that had come to depend on it.",
+        "comparative_note": "Central Indiana's interurban density was unmatched anywhere in the world. No other region achieved this level of rural connectivity before the automobile age."
+      },
+      "narrative_hook": "The interurban connected {ancestor_name}'s town to Indianapolis faster than anything before the automobile — forty-five minutes from farm country to the state capital, and the car ran every hour.",
+      "source": "Marlette, Jerry. Electric Railroads of Indiana. Indianapolis: self-published, 1959. Bodenhamer and Barrows, Encyclopedia of Indianapolis (1994)."
+    },
+    {
+      "era_id": "automobile_highway",
+      "era_name": "The Automobile and Highway Era",
+      "date_range": "1920-1960",
+      "primary_modes": ["automobile", "bus", "truck", "railroad (declining passenger service)"],
+      "description": "The automobile killed the interurban and transformed central Indiana's geography. By 1930, most interurban lines were losing money to automobile competition. The last interurban services ended in the early 1940s. State highway construction in the 1920s-1930s paved connections between county seats. US highways 31, 36, 40, 52, and 421 radiated from Indianapolis like the old railroad spokes. The flat terrain that had made farming and railroad-building easy made highway construction and suburban development equally straightforward. By 1950, the automobile had made every acre within thirty miles of Indianapolis accessible for suburban development — the same pattern that would eventually lead to Unigov.",
+      "road_conditions": "State highways paved with concrete or asphalt by the 1930s. County roads improved but many remained gravel into the 1950s. The flat terrain made highway construction inexpensive.",
+      "travel_times": [
+        { "from": "Noblesville", "to": "Indianapolis", "mode": "automobile via US 31", "time": "30-45 minutes", "conditions_note": "Two-lane highway. Fast enough for daily commuting." },
+        { "from": "Anderson", "to": "Indianapolis", "mode": "automobile via SR 67", "time": "45 minutes to 1 hour", "conditions_note": "Enabled Anderson to function as part of the Indianapolis economic region." },
+        { "from": "Greenfield", "to": "Indianapolis", "mode": "automobile via US 40", "time": "30-40 minutes", "conditions_note": "The old National Road corridor, now paved." },
+        { "from": "Indianapolis", "to": "Chicago", "mode": "automobile via US 52", "time": "3-4 hours", "conditions_note": "Before the interstate system." }
+      ],
+      "key_routes": [
+        { "route_name": "US 31 (north-south)", "type": "US highway", "year_established": 1926, "description": "North-south corridor through Hamilton County (Noblesville, Carmel) and Johnson County (Franklin, Greenwood). The automobile equivalent of the Michigan Road. The corridor that would become the primary suburban development axis.", "counties_served": ["Hamilton", "Marion", "Johnson"] },
+        { "route_name": "US 40 (east-west, former National Road)", "type": "US highway", "year_established": 1926, "description": "The old National Road paved and numbered. East-west corridor through Hancock County (Greenfield) and Hendricks County (Plainfield).", "counties_served": ["Hancock", "Marion", "Hendricks"] },
+        { "route_name": "US 36 (east-west)", "type": "US highway", "year_established": 1926, "description": "East-west highway through the southern portion of the cluster, connecting Danville (Hendricks) to Indianapolis.", "counties_served": ["Hendricks", "Marion"] },
+        { "route_name": "SR 67 (Indianapolis to Anderson)", "type": "State highway", "year_established": "1920s", "description": "Connected Indianapolis northeast to Anderson and Muncie. The automobile replacement for the interurban line.", "counties_served": ["Marion", "Madison"] }
+      ],
+      "isolation_index": {
+        "description": "Very low by 1950. The automobile and paved highways ended rural isolation across the cluster. Every farm in every county was within an hour's drive of Indianapolis.",
+        "comparative_note": "The flat terrain made central Indiana uniquely accessible — no mountains, no rivers to bridge, no swamps to circumnavigate. The automobile made the 'Crossroads of America' literal."
+      },
+      "narrative_hook": "The automobile turned the crossroads from a railroad metaphor into a literal fact — {ancestor_name} could drive from {county} County to Indianapolis in less than an hour, and the same flat ground that had made the farm productive made the highway possible.",
+      "source": "Bodenhamer and Barrows, Encyclopedia of Indianapolis (1994). Madison, Indiana through Tradition and Change (1982)."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1847, "event": "Madison & Indianapolis Railroad reaches Indianapolis", "impact": "First railroad in central Indiana — solves the transportation problem the White River could not" },
+    { "year": 1853, "event": "Union Station opens — world's first union railway station", "impact": "Eight railroads converging on one station — Indianapolis becomes the railroad crossroads of the Midwest" },
+    { "year": 1855, "event": "Eight railroads serving Indianapolis", "impact": "Connections to Chicago, Cincinnati, Louisville, St. Louis, and all points of the compass" },
+    { "year": 1877, "event": "Belt Railroad circles Indianapolis", "impact": "Efficient freight transfer between all trunk lines — makes Indianapolis a logistics hub" },
+    { "year": 1904, "event": "Indianapolis Traction Terminal opens", "impact": "Hub of world's largest interurban network — 400+ cars daily" },
+    { "year": 1941, "event": "Last interurban lines abandoned", "impact": "End of the electric railway era — automobile has won" }
+  ],
+  "narrative_hooks": [
+    "The 'Crossroads of America' was not just a motto — {ancestor_name} lived at the intersection of every transportation network that crossed the Midwest: the National Road, the Michigan Road, eight railroads, the world's largest interurban network, and the highways that replaced them all.",
+    "The interurban connected central Indiana's county seats to Indianapolis faster than anything before the automobile — {ancestor_name} could ride from Noblesville to the Traction Terminal in forty-five minutes.",
+    "When the interurban died, the automobile replaced it — {ancestor_name}'s generation traded the electric car for the Model T and paved the same corridors with concrete.",
+    "Union Station was the world's first — eight railroads under one roof, and {ancestor_name}'s corn, hogs, or labor moved through it on its way to market.",
+    "The flat terrain was the reason for everything — easy farming, easy road-building, easy railroad-building, easy suburban development. {ancestor_name} lived on land that offered no resistance to any use people put it to."
+  ],
+  "source_references": [
+    "Raitz, Karl B., ed. The National Road. Baltimore: Johns Hopkins University Press, 1996.",
+    "Marlette, Jerry. Electric Railroads of Indiana. Indianapolis: self-published, 1959.",
+    "Stover, John F. American Railroads. 2nd ed. Chicago: University of Chicago Press, 1997.",
+    "Bodenhamer, David J., and Robert G. Barrows, eds. The Encyclopedia of Indianapolis. Bloomington: Indiana University Press, 1994.",
+    "Fatout, Paul. Indiana Canals. West Lafayette: Purdue University Press, 1972.",
+    "Madison, James H. Indiana through Tradition and Change. Indianapolis: Indiana Historical Society, 1982."
+  ],
+  "nel_cross_references": {
+    "route_refs": [],
+    "trigger_refs": ["civil_war_service", "gi_bill_migration", "great_migration", "appalachian_out_migration"]
+  }
+}

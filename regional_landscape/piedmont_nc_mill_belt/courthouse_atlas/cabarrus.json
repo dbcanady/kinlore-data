@@ -1,0 +1,124 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Cabarrus County, NC. Record survival, courthouse history, and known losses that shape what genealogists can and cannot find.",
+  "courthouse_atlas_id": "nc_cabarrus_courthouse",
+  "display_name": "Cabarrus County, North Carolina — Courthouse Atlas",
+  "county": "Cabarrus",
+  "state": "NC",
+  "fips_code": "37025",
+  "cluster_ref": "piedmont_nc_mill_belt",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1876,
+      "location": "Concord, NC — 65 Church Street SE (extensively renovated 1924 and 1960s; judicial annex added later)",
+      "records_housed": ["deeds", "plats", "vital records indexes", "court minutes", "estate files", "marriage registers"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1792–1830s",
+        "location": "Concord, NC — original log courthouse",
+        "fate": "Replaced by a brick structure as the county grew. Early records survived the transition."
+      },
+      {
+        "era": "1830s–1876",
+        "location": "Concord, center of town",
+        "fate": "Brick courthouse survived the Civil War. Replaced by the 1876 building when outgrown."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "cabarrus_no_major_loss",
+      "date": null,
+      "cause": "None — no major courthouse fire or war damage",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage bonds", "estate files"],
+      "scope": "none",
+      "description": "Cabarrus County was formed in 1792 and has suffered no major courthouse fire or war destruction. Records begin at formation and run continuously. The courthouse survived the Civil War intact, and no significant fire has occurred. Records are generally well preserved, supplemented by the extraordinary Cannon Mills company archives.",
+      "narrative_impact": "Cabarrus County's civil records are complete from 1792, and the Cannon Mills archives add a layer of documentation that few American counties can match. If {ancestor_name} worked for Cannon Mills, the company knew where {pronoun_subject} lived, what {pronoun_subject} earned, and when {pronoun_subject} arrived — and those records survive.",
+      "source": "Tucker, J. H. History of Cabarrus County, North Carolina. Concord: The Times Press, 1910."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1792,
+      "completeness": "Good — continuous series from county formation",
+      "gaps": "No known significant gaps.",
+      "repository": "Cabarrus County Register of Deeds, Concord; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com NC land records collection"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1792,
+      "completeness": "Good — wills and estate records from formation",
+      "gaps": "Some early loose estate papers are fragmentary. Bound will books intact.",
+      "repository": "Cabarrus County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm; NC State Archives digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1792,
+      "completeness": "Good — marriage bonds from county formation",
+      "gaps": "Bonds more complete than registers for early decades.",
+      "repository": "Cabarrus County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com NC marriages collection"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1792,
+      "completeness": "Good — County Court minutes from formation",
+      "gaps": "Minor gaps in the earliest volumes.",
+      "repository": "NC State Archives; Cabarrus County Clerk of Court",
+      "online_access": "NC State Archives microfilm; limited FamilySearch digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Spotty until approximately 1920.",
+      "repository": "NC Office of Vital Records; NC State Archives for delayed birth certificates"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Cannon Mills company archives",
+      "description": "Cannon Mills Corporation — which built and owned the company town of Kannapolis — maintained one of the most complete sets of company records in the Southern textile industry. Payroll ledgers, company housing assignments, employee rosters, medical records (the company operated its own hospital), and community records survive from the company's founding in 1887 through the late twentieth century. These records document not just employment but the entire life of the company town: who lived where, who attended which church, who used the company store, who was born at the company hospital.",
+      "repository": "Cabarrus County Public Library (Cannon Mills Collection); NC State Archives; some records at UNC-Charlotte Special Collections",
+      "era_coverage": "1887–1980s",
+      "genealogical_value": "Extraordinarily valuable — arguably the richest single-company genealogical source in the Piedmont. The Cannon Mills archives can document a family's life in Kannapolis with a detail that no courthouse record can match: date of hire, house assignment, wage history, medical visits, church membership, and company store credit.",
+      "source": "Minchin, Timothy J. What Do We Need a Union For? The TWUA in the South, 1945-1955. Chapel Hill: University of North Carolina Press, 1997. Glass, The Textile Industry in North Carolina."
+    },
+    {
+      "source_type": "German Reformed church records",
+      "description": "Cabarrus County was settled heavily by German families — both German Reformed (later United Church of Christ) and Lutheran — in the late eighteenth century. Church records from congregations like Cold Water Reformed Church, Mount Pleasant Reformed Church, and others provide baptisms, confirmations, marriages, and burials in German until the mid-nineteenth century and in English thereafter.",
+      "repository": "Individual churches; Evangelical and Reformed Historical Society (Lancaster, PA); some microfilmed at NC State Archives",
+      "era_coverage": "1790s–present",
+      "genealogical_value": "Valuable for German-descent families. Church records provide baptismal dates (often with sponsors' names, indicating family connections), marriage records, and burial records that predate civil vital registration by over a century.",
+      "source": "Bernheim, G. D. History of the German Settlements and of the Lutheran Church in North and South Carolina. Philadelphia: Lutheran Book Store, 1872."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1800–1940. Cabarrus County is enumerated from 1800. Agricultural schedules, slave schedules, and manufacturing schedules add economic context.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1800–1940",
+      "genealogical_value": "Essential for tracking families between land and court records. The 1900 and 1910 censuses are particularly valuable for documenting the massive population influx that accompanied Cannon Mills' expansion.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Cabarrus County, NC."
+    }
+  ],
+  "narrative_hooks": [
+    "If {ancestor_name} worked for Cannon Mills in Kannapolis, the company archives may hold more information about {pronoun_possessive} daily life than any courthouse — payroll records, house assignments, company hospital records, even company store credit. Cannon Mills did not just employ people. It documented them.",
+    "Cabarrus County's courthouse has never burned, and its records run unbroken from 1792 — if {ancestor_name} bought or sold land here, the deed almost certainly survives in the vault at Concord.",
+    "If {ancestor_name} was of German descent in Cabarrus County, the Reformed church records may provide baptismal detail — including sponsors' names — that the civil records cannot, tracing family connections back to the county's German settler origins.",
+    "Before 1913, no North Carolina county required birth or death registration, so the absence of a birth record for {ancestor_name} in Cabarrus County is normal — German church records, Cannon Mills company records, and census schedules are the likeliest substitutes.",
+    "Kannapolis was a company town in the fullest sense — Cannon Mills built the houses, owned the streets, ran the hospital, and kept records on everyone. If {ancestor_name} lived there, {pronoun_subject} lived inside a system that documented people more thoroughly than any government did."
+  ],
+  "source_references": [
+    "Tucker, J. H. History of Cabarrus County, North Carolina. Concord: The Times Press, 1910.",
+    "Minchin, Timothy J. What Do We Need a Union For? The TWUA in the South, 1945-1955. Chapel Hill: University of North Carolina Press, 1997.",
+    "Glass, Brent D. The Textile Industry in North Carolina: A History. Raleigh: NC Division of Archives and History, 1992.",
+    "Bernheim, G. D. History of the German Settlements and of the Lutheran Church in North and South Carolina. Philadelphia: Lutheran Book Store, 1872.",
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_cabarrus",
+    "research_guidance_refs": ["southern_courthouse_research", "german_church_records", "textile_mill_records"],
+    "template_refs": ["record_silences"]
+  }
+}

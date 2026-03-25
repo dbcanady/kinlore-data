@@ -1,0 +1,114 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Williamsburg County, SC. Records from 1804 (county formation). A relatively well-preserved courthouse with continuous records, but the county's poverty and large tenant farming population mean thinner records than the wealthier Lowcountry counties.",
+  "courthouse_atlas_id": "sc_williamsburg_courthouse",
+  "display_name": "Williamsburg County, South Carolina — Courthouse Atlas",
+  "county": "Williamsburg",
+  "state": "SC",
+  "fips_code": "45089",
+  "cluster_ref": "sc_lowcountry",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1954,
+      "location": "Kingstree, SC — 147 W. Main Street",
+      "records_housed": ["deeds", "plats", "marriage licenses (1911-present)", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1804–1823",
+        "location": "Kingstree, SC — original courthouse",
+        "fate": "Replaced. No significant fire."
+      },
+      {
+        "era": "1823–1954",
+        "location": "Kingstree — brick courthouse",
+        "fate": "Replaced by 1954 building. Records transferred intact."
+      }
+    ],
+    "notes": "Williamsburg County was formed in 1804 from parts of Georgetown District. The county has not suffered a catastrophic courthouse loss. Records are continuous from formation but relatively thin for a Lowcountry county — Williamsburg was poorer than Charleston, Georgetown, or Beaufort, and the large tenant farming population left fewer county-level records."
+  },
+  "record_losses": [
+    {
+      "loss_id": "williamsburg_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire or war damage",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "probate records"],
+      "scope": "none",
+      "description": "Williamsburg County's courthouse records have survived without catastrophic loss. The record volume is modest — the county was never as wealthy or as densely populated as the coastal Lowcountry counties, and the large Black tenant farming population generated fewer county-level records than a propertied population would.",
+      "narrative_impact": "The records survive, but their absence for a particular ancestor may reflect the ancestor's economic circumstances — tenant farmers, sharecroppers, and landless laborers left few traces in county deed and probate records.",
+      "source": "SC Department of Archives and History. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1804,
+      "completeness": "Good from county formation.",
+      "gaps": "No major gaps. Pre-1804 land records are in Georgetown District records at SCDAH.",
+      "repository": "Williamsburg County Register of Deeds; SCDAH",
+      "online_access": "FamilySearch microfilm; Ancestry.com SC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1804,
+      "completeness": "Fair — fewer probate proceedings than wealthier counties because less wealth generated fewer estates.",
+      "gaps": "Thin in the earliest decades. Loose papers fragmentary.",
+      "repository": "Williamsburg County Probate Court; SCDAH",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1911,
+      "completeness": "Statewide marriage licenses from 1911. Before that, church records — Baptist, Methodist, Presbyterian — are the primary source.",
+      "gaps": "Before 1911, church records and Freedmen's Bureau marriage registers required.",
+      "repository": "Williamsburg County Probate Court; SCDAH",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1805,
+      "completeness": "Good from near-formation.",
+      "gaps": "Minor gaps in earliest volumes.",
+      "repository": "Williamsburg County Clerk of Court; SCDAH",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1915,
+      "death_registration_start": 1915,
+      "completeness": "Spotty until mid-1920s. Rural compliance was slow.",
+      "repository": "SC DHEC"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Williamsburg Presbyterian Church records",
+      "description": "The Williamsburg Presbyterian Church (Scots-Irish, established 1736) is one of the oldest congregations in the Pee Dee/Lowcountry transition zone. Its records — membership rolls, session minutes, baptisms — document the Scots-Irish community that settled along the Black River.",
+      "repository": "Williamsburg Presbyterian Church; SCDAH; Presbyterian Historical Society",
+      "era_coverage": "1736–present",
+      "genealogical_value": "Critical for the Scots-Irish families who settled Williamsburg. Session minutes document discipline cases that reveal family and community details.",
+      "source": "SC Department of Archives and History."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1810–1940. Slave schedules 1850, 1860. Agricultural schedules 1850–1880.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1810–1940",
+      "genealogical_value": "May be the primary systematic record for Williamsburg County's large tenant farming population, who left few county-level records.",
+      "source": "National Archives and Records Administration."
+    }
+  ],
+  "narrative_hooks": [
+    "Williamsburg County's courthouse has no major losses — {ancestor_name}'s records are likely there if {pronoun_subject} owned property or appeared in court after 1804.",
+    "If {ancestor_name} was a tenant farmer in Williamsburg County, the courthouse may hold nothing — the landless left few county records. The federal census, once a decade, may be the entire paper trail.",
+    "The Williamsburg Presbyterian Church was established in 1736 — if {ancestor_name} was Scots-Irish, the church's session minutes may record {pronoun_possessive} baptism, marriage, or discipline case decades before any county record exists.",
+    "Before 1911, marriage in Williamsburg County was a church matter, not a government one — {ancestor_name}'s wedding was recorded by the preacher, not the county clerk."
+  ],
+  "source_references": [
+    "SC Department of Archives and History. Guide to County Records in the South Carolina State Archives.",
+    "Edgar, Walter. South Carolina: A History. University of South Carolina Press, 1998.",
+    "Bass, Robert D. Swamp Fox. Sandlapper Publishing, 1959."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "sc_williamsburg",
+    "research_guidance_refs": ["southern_courthouse_research", "vital_records", "church_transfers"],
+    "template_refs": ["record_silences"]
+  }
+}

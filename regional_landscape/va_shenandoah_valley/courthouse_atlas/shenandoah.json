@@ -1,0 +1,119 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Shenandoah County, Virginia. Record survival, courthouse history, and known losses for the German-settled middle Valley county formerly known as Dunmore County.",
+  "courthouse_atlas_id": "va_shenandoah_courthouse",
+  "display_name": "Shenandoah County, Virginia — Courthouse Atlas",
+  "county": "Shenandoah",
+  "state": "VA",
+  "fips_code": "51171",
+  "cluster_ref": "va_shenandoah_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1795,
+      "location": "Woodstock, VA — 112 South Main Street (extensively renovated and expanded; one of the oldest continuously used courthouses in Virginia)",
+      "records_housed": ["deeds", "wills", "court order books", "marriage registers", "fiduciary records", "chancery files"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1772–1795",
+        "location": "Woodstock — original log courthouse near current site",
+        "fate": "Replaced by the 1795 stone courthouse when Dunmore County was renamed Shenandoah County (1778). Records transferred intact. The county was originally named for Royal Governor Dunmore; the name change reflected revolutionary sentiment."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "shenandoah_no_major_loss",
+      "date": null,
+      "cause": "No major courthouse fire or destruction",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court order books", "marriage bonds", "chancery records"],
+      "scope": "minimal",
+      "description": "Shenandoah County's courthouse survived the Civil War without significant damage. While Sheridan's forces passed through the county and the Battle of Fisher's Hill (September 22, 1864) was fought nearby, the courthouse at Woodstock was not destroyed. The county's records are among the best-preserved in Virginia, with nearly continuous series from the county's formation in 1772.",
+      "narrative_impact": "Shenandoah County's excellent record survival means that {ancestor_name}'s paper trail is likely intact. Gaps in the record are more often due to German-language documents being overlooked or to families operating through oral agreements rather than written contracts.",
+      "source": "Wayland, John Walter. A History of Shenandoah County, Virginia. Strasburg, VA: Shenandoah Publishing House, 1927."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1772,
+      "completeness": "Excellent — continuous series from county formation",
+      "gaps": "No known significant gaps. Pre-1772 records are in Frederick County (Shenandoah's parent).",
+      "repository": "Shenandoah County Circuit Court, Woodstock; Library of Virginia microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com Virginia land records; Library of Virginia digital collections"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1772,
+      "completeness": "Excellent — continuous from formation",
+      "gaps": "Some early estate inventories in German are less well-indexed. Bound will books are intact.",
+      "repository": "Shenandoah County Circuit Court; Library of Virginia",
+      "online_access": "FamilySearch microfilm; Library of Virginia digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1772,
+      "completeness": "Good — marriage bonds survive from county formation; minister returns are scattered before 1853",
+      "gaps": "German Reformed and Lutheran marriages were often recorded only in church registers, not in civil records. The civil marriage bonds may undercount German families who married in their churches without separate civil documentation.",
+      "repository": "Shenandoah County Circuit Court; Library of Virginia microfilm",
+      "online_access": "FamilySearch; Ancestry.com Virginia marriages collection"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1772,
+      "completeness": "Excellent — County Court order books are nearly continuous",
+      "gaps": "Minor — the earliest order books contain some German personal names with inconsistent English spellings, creating indexing challenges.",
+      "repository": "Shenandoah County Circuit Court; Library of Virginia microfilm",
+      "online_access": "Library of Virginia microfilm; limited FamilySearch digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1853,
+      "death_registration_start": 1853,
+      "completeness": "Virginia mandated registration 1853–1896 (compliance was particularly poor in rural German communities), then again from 1912. The gap between 1896 and 1912 is nearly total.",
+      "repository": "Virginia Department of Health, Office of Vital Records; Library of Virginia for pre-1896 registers"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Frederick County parent records (pre-1772)",
+      "description": "Shenandoah County was formed from Frederick County in 1772. All records before that date are in Frederick County, filed at Winchester.",
+      "repository": "Frederick County Circuit Court, Winchester; Library of Virginia",
+      "era_coverage": "1743–1772",
+      "genealogical_value": "Essential for any family in the Shenandoah County area before 1772. The earliest German settlers appear in Frederick County court records from the 1740s and 1750s.",
+      "source": "Cartmell, T. K. Shenandoah Valley Pioneers and Their Descendants. Winchester: Eddy Press, 1909."
+    },
+    {
+      "source_type": "German Reformed and Lutheran church records",
+      "description": "German-language church records are critical for Shenandoah County genealogy. The Reformed and Lutheran congregations kept baptism, marriage, and burial records that often predate or supplement civil records. Many are in German script (Kurrent) requiring paleographic skill to read.",
+      "repository": "Evangelical and Reformed Historical Society, Lancaster, PA; individual churches; some at Library of Virginia",
+      "era_coverage": "1750s–1870s (German-language), continuing in English",
+      "genealogical_value": "These records are often the only source for German family vital events before 1853. Baptismal records name both parents and godparents (sponsors), creating extended family networks not visible in civil records.",
+      "source": "Wust, Klaus. The Virginia Germans. Charlottesville: University Press of Virginia, 1969."
+    },
+    {
+      "source_type": "Wayland's History of Shenandoah County (1927)",
+      "description": "John Walter Wayland's county history contains extensive genealogical data compiled from court records, family papers, and church records, some of which have since been lost or become less accessible.",
+      "repository": "Most libraries with Virginia history collections; digitized at HathiTrust and Internet Archive",
+      "era_coverage": "1740s–1920s",
+      "genealogical_value": "Wayland transcribed records and family traditions that supplement the courthouse records. His work is a secondary source but a reliable guide to primary sources.",
+      "source": "Wayland, John Walter. A History of Shenandoah County, Virginia. Strasburg, VA: Shenandoah Publishing House, 1927."
+    }
+  ],
+  "narrative_hooks": [
+    "Shenandoah County's courthouse has stood since 1795 and its records since 1772 — {ancestor_name}'s deeds, wills, and court appearances are almost certainly still in the vault at Woodstock, one of the best-preserved record collections in Virginia.",
+    "If {ancestor_name} was German Reformed or Lutheran, the civil courthouse may tell only half the story — the church baptism and marriage registers, kept in German script by the pastor, record family connections that no county clerk ever wrote down.",
+    "Before Shenandoah County was created in 1772, {ancestor_name}'s records were filed in Frederick County at Winchester — and the county was originally called Dunmore, after the royal governor who would soon become Virginia's last.",
+    "The German families of Shenandoah County sometimes left thinner paper trails than their Scots-Irish neighbors — not because records were lost, but because German families conducted more business through handshake and community agreement than through the courthouse.",
+    "Virginia stopped requiring birth and death registration in 1896 and did not resume until 1912 — so if {ancestor_name} was born or died in that sixteen-year gap, the church register or the family Bible is the only record."
+  ],
+  "source_references": [
+    "Wayland, John Walter. A History of Shenandoah County, Virginia. Strasburg, VA: Shenandoah Publishing House, 1927.",
+    "Wust, Klaus. The Virginia Germans. Charlottesville: University Press of Virginia, 1969.",
+    "Cartmell, T. K. Shenandoah Valley Pioneers and Their Descendants: A History of Frederick County, Virginia. Winchester: Eddy Press, 1909.",
+    "Library of Virginia. A Guide to Virginia County and City Records on Microfilm. Richmond, various editions.",
+    "Heatwole, John L. The Burning: Sheridan in the Shenandoah Valley. Charlottesville: Rockbridge Publishing, 1998."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "va_shenandoah",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

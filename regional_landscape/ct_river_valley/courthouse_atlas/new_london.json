@@ -1,0 +1,111 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for New London County, CT. Record survival and the impact of Benedict Arnold's burning of New London (1781) on early records. New London's maritime records (whaling, naval) supplement county records. CT probate district system applies — New London County contains multiple independent probate districts.",
+  "courthouse_atlas_id": "ct_new_london_courthouse",
+  "display_name": "New London County, Connecticut — Courthouse Atlas",
+  "county": "New London",
+  "state": "CT",
+  "fips_code": "09011",
+  "cluster_ref": "ct_river_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1893,
+      "location": "New London, CT — 70 Huntington Street",
+      "records_housed": ["superior court records"],
+      "note": "Connecticut abolished county government in 1960. Land records at TOWN level. Probate records at PROBATE DISTRICT level. Maritime and naval records at federal repositories."
+    },
+    "previous_courthouses": [
+      {
+        "era": "1666–1781",
+        "location": "New London — town center",
+        "fate": "Benedict Arnold's burning of New London on September 6, 1781 destroyed much of the town, including public buildings and commercial records. Some town records survived because they had been moved before the attack or were housed in buildings that escaped the fire."
+      },
+      {
+        "era": "1784–1893",
+        "location": "New London — rebuilt town center",
+        "fate": "Post-war courthouse. New London County was one of the original four Connecticut counties (est. 1666). Records were reconstituted after the 1781 burning."
+      }
+    ],
+    "critical_note_ct_probate_system": "New London County contains approximately 10 probate districts: New London (est. 1666), Norwich (est. 1748), Stonington, Groton, East Lyme, Colchester, Montville, Ledyard, and others. Each has its own probate judge and records. The New London Probate District is one of the oldest in Connecticut."
+  },
+  "record_losses": [
+    {
+      "loss_id": "new_london_arnold_burning_1781",
+      "date": "1781-09-06",
+      "cause": "Benedict Arnold's burning of New London during the American Revolution",
+      "records_destroyed": ["Some commercial records", "personal papers in burned homes", "warehouse records"],
+      "records_survived": ["Most town vital records (moved before the attack)", "court records (some survived)", "church records (some survived)"],
+      "scope": "moderate — primarily commercial and personal records; town vital records largely survived",
+      "description": "Benedict Arnold's September 6, 1781 attack on New London burned approximately 150 buildings, including warehouses, homes, and commercial structures. The burning destroyed personal and commercial records — family Bibles, account books, ships' papers, warehouse inventories. However, most of the town's official records (vital records, land records) survived because they were housed in buildings that escaped the fire or had been removed before the attack. The massacre at Fort Griswold in Groton (across the Thames) on the same day killed approximately 85 men — a devastating loss to the community's institutional memory.",
+      "narrative_impact": "If {ancestor_name} lived in New London before September 6, 1781, Arnold's burning may have destroyed their personal papers — the family Bible, the account books, the letters. The town records largely survived, but the personal records that gave texture to daily life were consumed. The men killed at Fort Griswold took their knowledge with them.",
+      "source": "Caulkins, Frances Manwaring. History of New London, Connecticut. New London: H.D. Utley, 1895."
+    }
+  ],
+  "record_survival_summary": {
+    "vital_records": {
+      "earliest_surviving": 1666,
+      "completeness": "Good — most town vital records survived the 1781 burning. New London town records begin with the town's founding in 1646 (the county was established in 1666).",
+      "gaps": "Some gaps in the immediate post-1781 period as the town recovered. The Barbour Collection indexes New London County towns through approximately 1850.",
+      "repository": "Individual town clerks; Connecticut State Library (Barbour Collection, microfilm)",
+      "online_access": "FamilySearch; Ancestry.com; Connecticut State Library digital collections"
+    },
+    "land_records": {
+      "earliest_surviving": 1646,
+      "completeness": "Good — New London town land records survived the burning",
+      "gaps": "Some early volumes show fire damage but remain legible.",
+      "repository": "Individual town clerks; Connecticut State Library (microfilm)",
+      "online_access": "FamilySearch microfilm"
+    },
+    "probate_records": {
+      "earliest_surviving": 1666,
+      "completeness": "Good — the New London Probate District (est. 1666) has continuous records. The Norwich Probate District (est. 1748) also has good survival.",
+      "gaps": "Some early loose estate papers may have been lost in the 1781 fire, but bound volumes survived.",
+      "repository": "Individual probate courts; Connecticut State Library (microfilm)",
+      "online_access": "FamilySearch; Connecticut State Library"
+    },
+    "maritime_records": {
+      "earliest_surviving": 1700,
+      "completeness": "Good for whaling era (1784–1909). Ship logs, crew lists, and customs records survive at multiple repositories.",
+      "gaps": "Pre-1781 maritime records largely destroyed in Arnold's burning. Post-1784 records well-preserved.",
+      "repository": "New London County Historical Society; Custom House Maritime Museum, New London; Mystic Seaport Museum; National Archives (customs records)",
+      "online_access": "Mystic Seaport online collections; National Archives digital; limited FamilySearch"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source": "Whaling crew lists and ship logs",
+      "repository": "Mystic Seaport Museum; New London County Historical Society; Custom House Maritime Museum",
+      "description": "New London was Connecticut's primary whaling port. Crew lists record name, age, birthplace, race, and role aboard. Ship logs document voyages in detail.",
+      "genealogical_value": "Crew lists may be the only surviving record of maritime workers — men who owned no property and left no estate. Race and birthplace data on crew lists are particularly valuable for Black and Native American sailors."
+    },
+    {
+      "source": "Fort Griswold Massacre victim lists and pension records",
+      "repository": "Connecticut State Library; National Archives (pension files); Groton town records",
+      "description": "The names of the approximately 85 men killed at Fort Griswold on September 6, 1781 are documented in multiple sources. Pension files for survivors and widows are at the National Archives.",
+      "genealogical_value": "If {ancestor_name}'s family lost a man at Fort Griswold, the pension records may document family relationships not found elsewhere."
+    },
+    {
+      "source": "Mashantucket Pequot tribal records and federal recognition files",
+      "repository": "Mashantucket Pequot Museum and Research Center; National Archives (Bureau of Indian Affairs)",
+      "description": "Records documenting the Mashantucket Pequot community's survival from the 1637 Pequot War through federal recognition in 1983.",
+      "genealogical_value": "Essential for families with Pequot ancestry. Tribal records include genealogical data compiled during the federal recognition process."
+    }
+  ],
+  "narrative_hooks": [
+    "Benedict Arnold burned New London on September 6, 1781 — if {ancestor_name}'s family Bible, account books, or personal papers were in town that day, they are ash. The town records survived, but the personal records did not.",
+    "The whaling crew list at the Custom House may be the only place {ancestor_name}'s name appears — a maritime worker who owned nothing, filed no deeds, left no estate, but whose name, age, and birthplace were recorded when {pronoun_subject} signed on for a voyage.",
+    "Connecticut's probate districts are independent of county boundaries — {ancestor_name}'s will was filed in a probate district that served {pronoun_possessive} town, and finding it requires knowing the district, not just the county.",
+    "The men killed at Fort Griswold on September 6, 1781 took their knowledge with them — {ancestor_name}'s community lost fathers, brothers, and the institutional memory they carried."
+  ],
+  "source_references": [
+    "Caulkins, Frances Manwaring. History of New London, Connecticut. New London: H.D. Utley, 1895.",
+    "Kemp, Thomas Jay. Connecticut Researcher's Handbook. Detroit: Gale Research, 1981.",
+    "Connecticut State Library. Guide to Archives in the Connecticut State Library. Hartford: Connecticut State Library, 1981."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ct_new_london",
+    "research_guidance_refs": ["colonial_new_england_records"],
+    "template_refs": ["document_deep_read", "record_silences"]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Franklin County, MO. Record survival, courthouse history, and known losses. Franklin County's records are relatively well-preserved — no major courthouse fire. The county was formed in 1818, making it one of the earliest in the cluster. German-language records (church, vital, business) are a significant supplemental source.",
+  "courthouse_atlas_id": "mo_franklin_courthouse",
+  "display_name": "Franklin County, Missouri — Courthouse Atlas",
+  "county": "Franklin",
+  "state": "MO",
+  "fips_code": "29071",
+  "cluster_ref": "mo_ozarks_gateway",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1940,
+      "location": "Union, MO — 400 E. Locust Street",
+      "records_housed": ["deeds", "plats", "marriage records", "probate records", "court minutes", "tax records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1818-1847",
+        "location": "Newport (original county seat, now a ghost town on the Missouri River)",
+        "fate": "Newport was the original county seat. The seat was moved to Union in 1847 after Newport declined. Early records were transferred."
+      },
+      {
+        "era": "1847-1940",
+        "location": "Union, courthouse square",
+        "fate": "Served until replaced by the current WPA-era building in 1940. Records survived the transition intact."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "franklin_newport_era",
+      "date": "Pre-1847",
+      "cause": "County seat relocation from Newport to Union — some early records may have been lost or damaged in the transfer",
+      "records_destroyed": [],
+      "records_survived": ["Most early records transferred to Union courthouse"],
+      "scope": "minor",
+      "description": "When the county seat moved from Newport to Union in 1847, records were physically transferred. The move was orderly, but some early documents from the Newport era may have been lost or damaged. The earliest deed books and court records survive from the county's formation in 1818.",
+      "narrative_impact": "If {ancestor_name} was in Franklin County before 1847, the records were created at Newport — a town that no longer exists — and transferred to Union. Most survived, but gaps in the earliest records are possible.",
+      "source": "Missouri State Archives. Guide to County Records on Microfilm: Franklin County."
+    },
+    {
+      "loss_id": "franklin_civil_war_disruption",
+      "date": "1861-1865",
+      "cause": "Civil War guerrilla activity disrupted record-keeping; some records from the war years are incomplete",
+      "records_destroyed": [],
+      "records_survived": ["Most county records survived; courthouse was not burned"],
+      "scope": "minor",
+      "description": "The Civil War disrupted record-keeping in Franklin County, particularly in the Ozark uplands south of the Missouri River where guerrilla activity was most intense. Court sessions were irregular during the war years. The courthouse itself was not damaged.",
+      "narrative_impact": "Records from 1861-1865 may have gaps — if {ancestor_name} was involved in a legal transaction during the war, it may not have been recorded in the usual way.",
+      "source": "Missouri State Archives. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1818,
+      "completeness": "Good — continuous from county formation. One of the earliest deed records in the cluster.",
+      "gaps": "Minor gaps in earliest volumes; Civil War-era recording may be incomplete.",
+      "repository": "Franklin County Recorder of Deeds, Union; Missouri State Archives microfilm",
+      "online_access": "FamilySearch microfilm; some Ancestry.com MO land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1820,
+      "completeness": "Good — probate records survive from the early years of the county.",
+      "gaps": "Earliest probate records are sparse — few estates were probated on the frontier.",
+      "repository": "Franklin County Probate Court, Union; Missouri State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1818,
+      "completeness": "Good — marriage records from county formation. Missouri required marriage licenses early.",
+      "gaps": "Some gaps in the earliest years; Civil War-era gaps possible.",
+      "repository": "Franklin County Recorder of Deeds; Missouri State Archives",
+      "online_access": "FamilySearch; Ancestry.com MO marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1818,
+      "completeness": "Good — circuit court minutes survive from formation.",
+      "gaps": "Civil War-era sessions irregular.",
+      "repository": "Missouri State Archives; Franklin County Circuit Court",
+      "online_access": "Missouri State Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1883,
+      "death_registration_start": 1883,
+      "completeness": "Missouri vital registration began 1883 but was poorly enforced until approximately 1910. Rural areas especially underreported.",
+      "repository": "Missouri Department of Health and Senior Services; Missouri State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "German-language church records",
+      "description": "The German Catholic and Lutheran parishes in the Missouri Rhineland portion of Franklin County maintained detailed records in German — baptisms, marriages, deaths, and congregational minutes. These records predate and supplement county vital records.",
+      "repository": "Archdiocese of St. Louis Archives (Catholic); Concordia Historical Institute, St. Louis (Lutheran); individual parish holdings",
+      "era_coverage": "1830s-present",
+      "genealogical_value": "Exceptional for German families. Church records are often the only vital records for the period before 1883 and are more complete than county vital records until 1910. Records may be in German, requiring translation.",
+      "source": "Burnett and Luebbering, German Settlement in Missouri (1996)."
+    },
+    {
+      "source_type": "Missouri State Archives county records on microfilm",
+      "description": "The Missouri State Archives has microfilmed significant portions of Franklin County records — deeds, court minutes, tax lists, and other county records.",
+      "repository": "Missouri State Archives, Jefferson City; available through interlibrary loan",
+      "era_coverage": "1818-1900s",
+      "genealogical_value": "Essential for remote research. The microfilm collection is extensive and accessible.",
+      "source": "Missouri State Archives. Guide to County Records on Microfilm."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1820-1940. Franklin County was enumerated from the first census after its formation.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1820-1940",
+      "genealogical_value": "Essential baseline. German-born household heads are well-documented in census records.",
+      "source": "National Archives and Records Administration."
+    }
+  ],
+  "narrative_hooks": [
+    "Franklin County's records survive from 1818 — one of the longest continuous record sequences in the Ozarks Gateway. If {ancestor_name} was in the county early, the records are there.",
+    "The German church records in Franklin County are often more detailed than the county records — if {ancestor_name} was German Catholic or Lutheran, the parish register may contain birth, marriage, and death records that the county did not require until 1883.",
+    "Newport was the original county seat before Union — if {ancestor_name} filed a deed or appeared in court before 1847, it happened in a town that no longer exists.",
+    "Missouri vital records were required from 1883 but poorly enforced in rural areas until 1910 — if {ancestor_name} was born or died in the Ozark uplands of Franklin County before 1910, the event may not have been recorded."
+  ],
+  "source_references": [
+    "Missouri State Archives. Guide to County Records on Microfilm: Franklin County.",
+    "Burnett, Robyn, and Ken Luebbering. German Settlement in Missouri: New Land, Old Ways. Columbia: University of Missouri Press, 1996.",
+    "Works Progress Administration. Historical Records Survey: Missouri County Records. Jefferson City, 1937-1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "mo_franklin",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

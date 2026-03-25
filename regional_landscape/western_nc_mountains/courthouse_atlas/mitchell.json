@@ -1,0 +1,126 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Mitchell County, NC. Record survival, courthouse history, and known losses for the Spruce Pine mineral district — courthouse fire in 1907 destroyed early records, compounding research difficulties in the mining county.",
+  "courthouse_atlas_id": "nc_mitchell_courthouse",
+  "display_name": "Mitchell County, North Carolina — Courthouse Atlas",
+  "county": "Mitchell",
+  "state": "NC",
+  "fips_code": "37121",
+  "cluster_ref": "western_nc_mountains",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1907,
+      "location": "Bakersville, NC — Main Street",
+      "records_housed": ["deeds post-1907 (some pre-fire reconstructions)", "plats", "court minutes post-1907", "estate files", "marriage licenses"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1861–1907",
+        "location": "Bakersville, NC (original courthouse)",
+        "fate": "Destroyed by fire in 1907. The fire consumed the courthouse and most early county records. Mitchell County was formed in 1861 — during the Civil War — and lost its accumulated records in less than fifty years."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "mitchell_1907_fire",
+      "date": "1907",
+      "cause": "Courthouse fire",
+      "records_destroyed": ["deed books 1861-1907 (most)", "will books 1861-1907", "court minutes 1861-1907", "estate files 1861-1907", "marriage bonds and registers 1861-1907"],
+      "records_survived": ["some deeds re-recorded from private copies after 1907", "NC State Archives held some earlier copies", "scattered records removed from courthouse"],
+      "scope": "catastrophic",
+      "description": "The 1907 courthouse fire at Bakersville destroyed most of Mitchell County's records from its formation in 1861 through 1907. The fire was particularly damaging because Mitchell County was formed during the Civil War, meaning there were no pre-formation county records to fall back on — the parent counties (Yancey, Watauga, Caldwell, Burke, McDowell) held earlier records, but Yancey's courthouse had already burned in 1876, and Watauga's in 1873. The net effect is a near-total loss of local government records for much of the 19th century in the Spruce Pine area.",
+      "narrative_impact": "The 1907 fire at Bakersville destroyed {ancestor_name}'s Mitchell County records — and since the parent county courthouses at Burnsville and Boone also burned, the paper trail for the Spruce Pine area in the 1800s has been reduced to what the federal government and the churches kept.",
+      "source": "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1907,
+      "completeness": "Post-1907 deeds are continuous. Pre-1907 deeds exist only where re-recorded from private copies.",
+      "gaps": "Catastrophic loss of 1861-1907 records. Pre-1861, check parent counties — but Yancey (fire 1876) and Watauga (fire 1873) are also damaged. Burke and McDowell counties have better pre-1861 survival.",
+      "repository": "Mitchell County Register of Deeds, Bakersville; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; limited Ancestry.com coverage"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1907,
+      "completeness": "Post-1907 only. Pre-1907 wills and estate files destroyed.",
+      "gaps": "Complete loss before 1907. The mining economy meant some families had more personal property (equipment, tools) than real property, and those assets would have been documented in estate files that no longer exist.",
+      "repository": "Mitchell County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm; limited digitization"
+    },
+    "marriages": {
+      "earliest_surviving": 1907,
+      "completeness": "Post-1907 reasonably complete.",
+      "gaps": "Total loss before 1907. Marriages 1861-1907 must be reconstructed from church records, census household analysis, and neighboring county records.",
+      "repository": "Mitchell County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; limited coverage"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1907,
+      "completeness": "Post-1907 reasonably complete",
+      "gaps": "Total loss before 1907.",
+      "repository": "NC State Archives; Mitchell County Clerk of Court",
+      "online_access": "NC State Archives microfilm; very limited digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Poor until the 1920s. The mining communities around Spruce Pine may have had slightly better compliance than purely rural areas due to company record-keeping, but remote hollows were slow to register.",
+      "repository": "NC Office of Vital Records; NC State Archives for delayed birth certificates"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1870–1940 (Mitchell formed 1861; first enumerated 1870 — the 1860 census was taken before the county existed). Pre-1861, the area appears in Yancey, Burke, and McDowell county censuses.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1870–1940",
+      "genealogical_value": "The 1870, 1880, and 1900 censuses are critical — they are the only surviving government records for many Mitchell County families before the 1907 fire. The occupation field in the 1880+ censuses documents the transition from farming to mining.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Mitchell County, NC."
+    },
+    {
+      "source_type": "Parent county records (Yancey, Burke, McDowell — pre-1861)",
+      "description": "Mitchell was formed from Yancey, Watauga, Caldwell, Burke, and McDowell in 1861. Pre-1861 records are in those counties — but Yancey (fire 1876) and Watauga (fire 1873) have their own losses. Burke and McDowell are the best-preserved parent counties.",
+      "repository": "Burke County (Morganton); McDowell County (Marion); NC State Archives",
+      "era_coverage": "1790s–1861",
+      "genealogical_value": "Essential for pre-1861 families. The Burke and McDowell records are the most reliable path to 19th-century Toe River families before county formation.",
+      "source": "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001."
+    },
+    {
+      "source_type": "Mining company records and USGS mineral surveys",
+      "description": "The Spruce Pine mineral district was surveyed by the USGS and the NC Geological Survey from the 1880s forward. Mining company records — payrolls, lease agreements, mineral rights purchases — document the workforce.",
+      "repository": "NC Geological Survey (Raleigh); USGS archives; NC State Archives; Mitchell County Historical Society",
+      "era_coverage": "1880s–1960",
+      "genealogical_value": "Mining records document families in the cash economy that the courthouse did not always capture. Mineral rights leases name landowners; payrolls name workers. These records survived the courthouse fire because they were held by companies, not the county.",
+      "source": "Stuckey, Jasper L. North Carolina: Its Geology and Mineral Resources. Raleigh: NC Department of Conservation and Development, 1965."
+    },
+    {
+      "source_type": "Church records — Baptist and Methodist",
+      "description": "Baptist and Methodist churches in the Toe River and Spruce Pine area kept membership rolls and minutes.",
+      "repository": "Individual churches; NC Baptist Historical Collection, Wake Forest University; NC State Archives",
+      "era_coverage": "1860s–present",
+      "genealogical_value": "Church records are among the few sources documenting Mitchell County families during the 1861-1907 period destroyed by fire.",
+      "source": "Bailey, Lloyd R. The Heritage of the Toe River Valley. Burnsville: Yancey County Historical and Genealogical Society, 1994."
+    }
+  ],
+  "narrative_hooks": [
+    "Mitchell County's courthouse burned in 1907, and the parent county courthouses at Burnsville and Boone burned before that — leaving {ancestor_name}'s 19th-century paper trail in the Spruce Pine area reduced to federal censuses, church records, and whatever the mining companies kept.",
+    "For {ancestor_name}'s family before 1907, the federal census may be the best surviving record — the courthouse fire took everything the county held, and the mining company records that survived were never in the building that burned.",
+    "If {ancestor_name} worked the mica mines around Spruce Pine, the mining company's records may document wages and working conditions that the courthouse never captured — and those records survived the fire because they were in the company office, not the courthouse.",
+    "Mitchell County was formed during the Civil War in 1861, and the courthouse burned in 1907 — leaving the county with exactly zero years of intact pre-fire records. The federal censuses of 1870, 1880, and 1900 are the backbone of Mitchell County genealogy.",
+    "The NC land grants in Raleigh and the Burke County records in Morganton are the best paths to {ancestor_name}'s family before Mitchell County existed — the Toe River valley's oldest records are in courthouses that did not burn."
+  ],
+  "source_references": [
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Stuckey, Jasper L. North Carolina: Its Geology and Mineral Resources. Raleigh: NC Department of Conservation and Development, 1965.",
+    "Bailey, Lloyd R. The Heritage of the Toe River Valley. 2 vols. Burnsville: Yancey County Historical and Genealogical Society, 1994.",
+    "Inscoe, John C., and Gordon B. McKinney. The Heart of Confederate Appalachia: Western North Carolina in the Civil War. Chapel Hill: University of North Carolina Press, 2004."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_mitchell",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records", "burned_county_strategies"],
+    "template_refs": ["record_silences"]
+  }
+}

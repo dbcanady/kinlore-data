@@ -1,0 +1,114 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the GA Piedmont Cotton Belt cluster. Documents how transportation shaped settlement, cotton marketing, and migration from the Federal Road through the Georgia Railroad to the highway era. The Georgia Railroad was the economic lifeline — and Sherman destroyed it.",
+  "connectivity_id": "ga_piedmont_cotton_belt_roads",
+  "display_name": "GA Piedmont Cotton Belt — Road & Connectivity Network",
+  "cluster_ref": "ga_piedmont_cotton_belt",
+  "era_range": "1790-1960",
+  "transportation_eras": [
+    {
+      "era_id": "pre_railroad",
+      "era_name": "Federal Road and Early Settlement Roads",
+      "date_range": "1790-1845",
+      "primary_modes": ["wagon on unimproved trace", "horseback", "river ferry", "foot"],
+      "description": "The earliest roads in the GA Piedmont Cotton Belt followed Creek and Cherokee trading paths. The Federal Road (1806-1811) from Augusta toward New Orleans crossed through the region, improving access to the eastern counties. County roads connected farms to crossroads stores and county seats. The rivers — Oconee, Broad, Apalachee, Alcovy — were not navigable for significant commerce at this elevation, making overland transport essential. Cotton was hauled by wagon to the nearest market town or river landing, a journey that could take a full day each way.",
+      "road_conditions": "Red clay traces — firm when dry, impassable when wet. Every stream crossing required a ford or ferry. County corvee labor maintained roads poorly. The red clay of the Georgia Piedmont was among the worst road surfaces in the South — slick as glass when wet, rutted and dusty when dry.",
+      "travel_times": [
+        { "from": "Greensboro (Greene)", "to": "Athens (Clarke)", "mode": "wagon", "time": "1 day", "conditions_note": "Approximately 30 miles on improved trace" },
+        { "from": "Typical farm", "to": "Nearest county seat", "mode": "wagon", "time": "3-6 hours one way", "conditions_note": "Counties were large; farms at the edges were a full day's ride from the courthouse" },
+        { "from": "Greensboro", "to": "Augusta (cotton market)", "mode": "wagon loaded with cotton", "time": "3-4 days", "conditions_note": "Approximately 80 miles. Cotton bales were heavy; roads were slow." }
+      ],
+      "key_routes": [
+        { "route_name": "Federal Road", "type": "improved trace", "year_established": "1806-1811", "description": "The primary east-west route through Creek territory, connecting Augusta toward the Alabama frontier. Improved by the federal government for military and postal use.", "counties_served": ["Greene", "Morgan", "Newton", "DeKalb"] },
+        { "route_name": "Athens-Augusta Road", "type": "improved trace", "year_established": "1800s", "description": "Connected Athens to the cotton market at Augusta. The primary commercial route for Clarke and Oglethorpe counties.", "counties_served": ["Clarke", "Oglethorpe", "Greene"] },
+        { "route_name": "County roads to crossroads stores", "type": "unimproved clay", "year_established": "1800-1840", "description": "Local farm-to-market roads connecting to gin houses and crossroads stores. The most traveled but worst-maintained roads in the cluster.", "counties_served": ["all"] }
+      ],
+      "isolation_index": {
+        "description": "Moderate to high. The absence of navigable rivers meant all commerce moved by wagon on red clay roads. The Piedmont's rolling terrain was easier than swampland but the red clay was treacherous in wet weather.",
+        "comparative_note": "More isolated than the Coastal Plain (which had navigable rivers) but the terrain was less extreme than the mountains."
+      },
+      "narrative_hook": "Before the railroad, {ancestor_name} hauled cotton to market by wagon on red clay roads that turned to grease in the rain — a three-day trip to Augusta that consumed the profit margin with every axle-deep rut.",
+      "source": "Coleman, Kenneth, ed. A History of Georgia. University of Georgia Press, 1991."
+    },
+    {
+      "era_id": "railroad_era",
+      "era_name": "The Georgia Railroad and the Cotton Market",
+      "date_range": "1845-1900",
+      "primary_modes": ["railroad", "wagon on county road", "horseback"],
+      "description": "The Georgia Railroad, completed through the cluster in the mid-1840s, transformed the Piedmont cotton economy. The railroad ran from Augusta through Greensboro, Madison, Covington, and Social Circle to the terminus at Atlanta (Terminus, later Marthasville, then Atlanta). Towns on the railroad — Madison, Covington, Social Circle — grew; towns bypassed by it stagnated. Cotton could now reach the Augusta market in hours instead of days, and the railroad's arrival coincided with the peak of the antebellum cotton economy. Sherman's destruction of the railroad in 1864 severed this connection; its rapid postwar rebuilding was essential to economic recovery, such as it was.",
+      "road_conditions": "County roads remained unimproved red clay. The railroad was the only reliable all-weather transportation. The contrast between railroad towns and backcountry communities was stark.",
+      "travel_times": [
+        { "from": "Athens", "to": "Atlanta", "mode": "railroad (via connection)", "time": "3-4 hours", "conditions_note": "Required a connection at Union Point or other junction" },
+        { "from": "Covington (Newton)", "to": "Augusta", "mode": "railroad", "time": "4-5 hours", "conditions_note": "Direct Georgia Railroad service" },
+        { "from": "Madison (Morgan)", "to": "Atlanta", "mode": "railroad", "time": "2-3 hours", "conditions_note": "Georgia Railroad through Social Circle and Stone Mountain" },
+        { "from": "Typical farm", "to": "Nearest railroad depot", "mode": "wagon", "time": "1-4 hours one way", "conditions_note": "The depot replaced the river landing as the critical freight point" }
+      ],
+      "key_routes": [
+        { "route_name": "Georgia Railroad (Augusta-Atlanta)", "type": "railroad", "year_established": "1845 (completed through the cluster)", "description": "The primary east-west railroad through the cluster. Connected Augusta (the cotton market) through Greensboro, Union Point, Madison, Covington, Social Circle, Conyers, and Stone Mountain to Atlanta. Every significant town in the cluster sits on or near this line.", "counties_served": ["Greene", "Morgan", "Newton", "Walton", "DeKalb"] },
+        { "route_name": "Athens Branch / GA Railroad branch to Athens", "type": "railroad", "year_established": "1841", "description": "Branch line connecting Athens to the Georgia Railroad main line at Union Point. Gave Clarke County direct railroad access.", "counties_served": ["Clarke", "Oglethorpe"] }
+      ],
+      "isolation_index": {
+        "description": "Sharply reduced along the railroad corridor; unchanged in the backcountry. The railroad towns were connected to the national market; farms five miles from the depot were still a day's ride from anything.",
+        "comparative_note": "The Georgia Railroad gave this cluster comparable connectivity to the NC Piedmont's railroad network."
+      },
+      "narrative_hook": "The Georgia Railroad changed everything — {ancestor_name}'s cotton could reach Augusta in hours instead of days, and the depot at {town} became the center of the economic world. When Sherman destroyed the railroad in 1864, he destroyed that world.",
+      "source": "Coleman, A History of Georgia (1991). Glatthaar, The March to the Sea (1985)."
+    },
+    {
+      "era_id": "highway_era",
+      "era_name": "Highway Era and Atlanta's Pull",
+      "date_range": "1920-1960",
+      "primary_modes": ["automobile", "truck", "bus", "railroad"],
+      "description": "The automobile and paved highways connected the GA Piedmont Cotton Belt to Atlanta in ways the railroad could not. State highway construction in the 1920s-1930s paved connections between county seats. US highways 78 (Atlanta-Athens) and 278 (Atlanta-Augusta via Covington) followed the old railroad corridor. The most significant effect was on DeKalb and Gwinnett counties: highway improvements enabled commuting to Atlanta, beginning the suburban transformation that would eventually consume both counties. For the eastern counties — Greene, Morgan, Oglethorpe — the highway simply made it easier to leave.",
+      "road_conditions": "State highways paved by the 1930s. County roads improved but many remained unpaved into the 1940s. Red clay county roads were the last to be paved.",
+      "travel_times": [
+        { "from": "Athens", "to": "Atlanta", "mode": "automobile via US 78", "time": "1.5-2 hours", "conditions_note": "Two-lane highway through Walton and Gwinnett counties" },
+        { "from": "Covington (Newton)", "to": "Atlanta", "mode": "automobile", "time": "45 minutes to 1 hour", "conditions_note": "Close enough for commuting by the 1950s" },
+        { "from": "Decatur (DeKalb)", "to": "Atlanta", "mode": "automobile or streetcar", "time": "15-20 minutes", "conditions_note": "Effectively part of the Atlanta metropolitan area" },
+        { "from": "Greensboro (Greene)", "to": "Atlanta", "mode": "automobile", "time": "1.5-2 hours", "conditions_note": "Too far for daily commuting; the eastern counties remained isolated from Atlanta's pull" }
+      ],
+      "key_routes": [
+        { "route_name": "US Route 78 (Atlanta-Athens)", "type": "US highway", "year_established": 1926, "description": "The primary Atlanta-Athens corridor, passing through Gwinnett, Walton, and Clarke counties. The road that would eventually carry Atlanta's suburban sprawl into the heart of the cotton belt.", "counties_served": ["DeKalb", "Gwinnett", "Walton", "Clarke"] },
+        { "route_name": "US Route 278 (Atlanta-Augusta via Covington)", "type": "US highway", "year_established": 1926, "description": "Followed the old Georgia Railroad corridor through Covington and Madison. Connected the central counties to both Atlanta and Augusta.", "counties_served": ["DeKalb", "Newton", "Morgan", "Greene"] }
+      ],
+      "isolation_index": {
+        "description": "Low in western counties (DeKalb, Gwinnett) by 1950. Moderate in central counties (Newton, Walton). Still significant in eastern counties (Greene, Oglethorpe, Morgan) where the highway made it easier to leave but did not bring anything new in.",
+        "comparative_note": "By 1960, DeKalb County was functionally part of metropolitan Atlanta. Greene and Oglethorpe counties were as isolated as ever — the highway ran through them but did not stop."
+      },
+      "narrative_hook": "The highway connected {county} County to Atlanta in a way the railroad never had — {ancestor_name} could drive to the city and back in a day. For DeKalb and Gwinnett, that meant suburban growth. For Greene and Oglethorpe, it just meant the young people left faster.",
+      "source": "Coleman, A History of Georgia (1991)."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1841, "event": "Athens branch of Georgia Railroad completed", "impact": "Connected Athens to the main line, giving Clarke and Oglethorpe counties railroad access" },
+    { "year": 1845, "event": "Georgia Railroad completed through the cluster to Atlanta", "impact": "Connected the Piedmont cotton counties to both Augusta (market) and Atlanta (junction)" },
+    { "year": 1864, "event": "Sherman destroys the Georgia Railroad through the cluster", "impact": "Severed the cotton counties' connection to market; rails heated and wrapped around trees ('Sherman's neckties')" },
+    { "year": 1868, "event": "Georgia Railroad rebuilt and operational", "impact": "Market connection restored, but the economy the railroad served had been fundamentally transformed" }
+  ],
+  "narrative_hooks": [
+    "The Georgia Railroad was the economic lifeline of the GA Piedmont Cotton Belt — and Sherman destroyed it in three days. {ancestor_name}'s cotton could not reach market without it.",
+    "Before the railroad, {ancestor_name} hauled cotton to Augusta by wagon — three days on red clay roads that turned to grease in the rain.",
+    "The highway brought Atlanta to {county} County — but for the eastern counties, the highway just made it easier for the young people to leave.",
+    "The Georgia Railroad put {town} on the map — and when Sherman's troops tore up the rails, they took the map with them.",
+    "US 78 between Atlanta and Athens would eventually carry Atlanta's suburban sprawl into the Piedmont — but in the {decade}s, it still ran through cotton country and courthouse towns."
+  ],
+  "source_references": [
+    "Coleman, Kenneth, ed. A History of Georgia. 2nd ed. Athens: University of Georgia Press, 1991.",
+    "Glatthaar, Joseph T. The March to the Sea and Beyond. New York: New York University Press, 1985.",
+    "Bonner, James C. A History of Georgia Agriculture, 1732-1860. Athens: University of Georgia Press, 1964.",
+    "Range, Willard. A Century of Georgia Agriculture, 1850-1950. Athens: University of Georgia Press, 1954.",
+    "Cadle, Farris W. Georgia Land Surveying History and Law. Athens: University of Georgia Press, 1991."
+  ],
+  "nel_cross_references": {
+    "route_refs": [
+      "georgia_railroad_corridor"
+    ],
+    "trigger_refs": [
+      "trail_of_tears",
+      "civil_war_displacement",
+      "great_migration",
+      "boll_weevil_migration"
+    ]
+  }
+}

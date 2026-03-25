@@ -1,0 +1,304 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Micro-Migration Network Map for the SE North Carolina Coastal Plain regional cluster (Wayne, Sampson, Cumberland, Nash, Johnston, Duplin, Lenoir, Wilson, Pitt counties). Documents the specific migration corridors, chain-migration mechanics, internal movement patterns, and settlement clusters that moved people into, out of, and within this nine-county region from 1750 to 1960. Designed to give Polsia the granular network detail — which families went where, by what route, pulled by what kinship chain — that national-level triggers cannot provide.",
+  "migration_network_id": "se_nc_coastal_plain_migration_networks",
+  "display_name": "SE NC Coastal Plain — Micro-Migration Network Map",
+  "cluster_ref": "se_nc_coastal_plain",
+  "era_range": "1750-1960",
+
+  "migration_corridors": [
+    {
+      "corridor_id": "farm_to_mill_pipeline",
+      "corridor_name": "Farm-to-Mill Pipeline: Coastal Plain to Cape Fear Textile Mills",
+      "origin_counties": ["Wayne", "Sampson", "Johnston", "Duplin"],
+      "destination_area": "Cumberland County — Fayetteville, Hope Mills, and Harnett County (Erwin) textile mill villages",
+      "era": "1880-1930",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of families over two generations. Wayne, Johnston, Sampson, and Duplin counties all show working-age population loss 1880-1910 in census comparisons; Cumberland County mill villages show corresponding gains of households with birthplaces in those counties.",
+      "evidence": {
+        "census_evidence": "1900 and 1910 US Census enumeration of Hope Mills and Fayetteville mill villages shows clusters of households listing birthplaces in Wayne, Sampson, Johnston, and Duplin counties. Parents born in coastal plain counties, children born in Cumberland County — indicating family-unit migration.",
+        "church_evidence": "Baptist church minute books from Missionary Baptist congregations in Wayne and Sampson counties record letters of dismissal for families departing to Fayetteville-area churches. Corresponding Fayetteville mill village Baptist churches show 'received by letter' entries from the same congregations.",
+        "surname_clustering": "Surnames common in Wayne and Sampson counties — Bass, Herring, Tew, Pope, Boon — appear in Hope Mills mill village census enumeration at rates far above random distribution, indicating chain migration along kinship lines.",
+        "newspaper_evidence": "Fayetteville Observer classifieds and local reporting 1890-1910 document mill labor recruitment and housing availability targeted at eastern county farm families."
+      },
+      "chain_mechanics": {
+        "description": "The first wave of migrants (1885-1895) followed labor recruiters sent by Hope Mills Manufacturing Company and smaller Fayetteville mills into eastern counties where farm failure was acute. These pioneer families — often a young couple or a widow with working-age children — wrote letters back to Wayne, Sampson, and Johnston County kin describing cash wages and company housing. Within two to five years, siblings, cousins, and church neighbors followed. By 1900, entire mill village streets held families from the same two or three eastern NC townships.",
+        "kinship_role": "Sibling chains were the primary mechanism. An older brother or married sister established in the mill village provided initial housing and a reference to the mill superintendent. The pattern was remarkably consistent: one family member went first, secured a house, and then the extended family followed within one to three years.",
+        "timeline": "Pioneer families 1885-1895; peak chain migration 1895-1910; self-sustaining community by 1910 with no further need for external recruitment."
+      },
+      "narrative_hook": "When {ancestor_name} left {county} County for the mills at Hope Mills around {year}, {pronoun_subject} likely followed a relative who had gone first — the mill villages were not places people found on a map but places they heard about from a brother or cousin who wrote home to say the pay was cash and the house had a roof that didn't leak.",
+      "source": "Hall, Jacquelyn Dowd, et al. Like a Family: The Making of a Southern Cotton Mill World. Chapel Hill: University of North Carolina Press, 1987, chs. 1-3. Tullos, Allen. Habits of Industry: White Culture and the Transformation of the Carolina Piedmont. Chapel Hill: University of North Carolina Press, 1989."
+    },
+    {
+      "corridor_id": "turpentine_belt_southward",
+      "corridor_name": "Turpentine Belt Labor Migration Southward",
+      "origin_counties": ["Sampson", "Duplin", "Cumberland"],
+      "destination_area": "South Carolina lowcountry, Georgia coastal plain, and northern Florida — following the retreating longleaf pine frontier",
+      "era": "1830-1880",
+      "migration_type": "labor_recruitment",
+      "scale": "Hundreds to low thousands of workers over five decades. Primarily enslaved laborers moved by their enslavers before 1865; free Black and poor white laborers followed the industry southward after emancipation.",
+      "evidence": {
+        "census_evidence": "1850 and 1860 census slave schedules for Sampson and Duplin counties show turpentine operators with large enslaved workforces. Post-war census records (1870, 1880) show NC-born Black turpentine workers enumerated in Horry and Georgetown counties SC and Ware and Clinch counties GA.",
+        "church_evidence": "Limited direct evidence. Black Baptist churches in southeastern NC coastal plain communities lost membership as turpentine families followed the industry south; some church histories note departures but rarely specify destinations.",
+        "surname_clustering": "Surnames associated with Sampson and Duplin County turpentine operations — including Herring, Bass, and Canady — appear in SC and GA turpentine district census records at rates suggesting organized labor movement rather than random migration.",
+        "newspaper_evidence": "Wilmington Journal and Fayetteville Observer carried notices of turpentine operations seeking laborers for SC and GA operations, 1860s-1880s."
+      },
+      "chain_mechanics": {
+        "description": "Before 1865, this was not chain migration but forced labor movement: enslavers relocated their enslaved turpentine crews to new pine forests as NC stands were exhausted. After emancipation, the pattern shifted to labor recruitment — turpentine operators in SC and GA sent agents to eastern NC Black communities offering wages. Experienced turpentine hands were valuable skilled labor, and the recruitment followed kinship and community networks.",
+        "kinship_role": "Before emancipation, kinship was severed by enslaver decisions. After 1865, family units moved together when possible, and experienced workers recruited kin from home communities.",
+        "timeline": "Enslaved labor relocation 1830-1865; free labor recruitment 1865-1880; industry declined in SE NC by 1890 as remaining forests were exhausted."
+      },
+      "narrative_hook": "The turpentine forests that sustained {ancestor_name}'s labor in {county} County were finite — when the last boxed pines were bled dry, the work moved south into South Carolina and Georgia, and the workers who knew the trade had to follow it or find something else entirely.",
+      "source": "Outland, Robert B., III. Tapping the Pines: The Naval Stores Industry in the American South. Baton Rouge: Louisiana State University Press, 2004, chs. 3-5. Cecelski, David S. The Waterman's Song: Slavery and Freedom in Maritime North Carolina. Chapel Hill: University of North Carolina Press, 2001."
+    },
+    {
+      "corridor_id": "great_migration_northern_cities",
+      "corridor_name": "Great Migration: SE NC to Philadelphia, New York, Baltimore, Washington DC",
+      "origin_counties": ["Wayne", "Sampson", "Johnston", "Duplin", "Lenoir", "Wilson", "Pitt", "Nash", "Cumberland"],
+      "destination_area": "Philadelphia (North Philadelphia, South Street corridor), New York City (Harlem), Baltimore (West Baltimore), Washington DC (Shaw/U Street corridor)",
+      "era": "1910-1960",
+      "migration_type": "chain_migration",
+      "scale": "Tens of thousands of Black families from the nine-county region over five decades. The Black population of these counties declined significantly between 1910 and 1960 while northern destination cities showed corresponding gains of NC-born Black residents. Wilson County's Black population dropped from approximately 17,000 in 1910 to under 14,000 by 1960 despite natural increase.",
+      "evidence": {
+        "census_evidence": "1920-1960 US Census records show heavy concentrations of NC-born Black residents in Philadelphia's 7th Ward (later North Philadelphia) and in Baltimore's West Baltimore neighborhoods. Place-of-birth tabulations for Philadelphia show North Carolina as the leading Southern origin state for Black migrants, with eastern NC counties disproportionately represented.",
+        "church_evidence": "Black Baptist and AME Zion churches in Wilson, Goldsboro, and Kinston record extensive membership losses 1916-1945. Destination churches — particularly in Philadelphia and Baltimore — show 'received by letter' entries from eastern NC congregations. Some northern churches maintained formal 'North Carolina fellowships' for migrants from specific counties.",
+        "surname_clustering": "Surnames densely concentrated in the SE NC coastal plain — Bass, Vinson, Artis, Darden, Wooten — appear in Philadelphia and Baltimore census records in clusters that indicate chain migration from specific NC townships.",
+        "newspaper_evidence": "The Chicago Defender circulated in eastern NC through Pullman porters on the Atlantic Coast Line. The Pittsburgh Courier and Baltimore Afro-American carried advertisements for Northern employment alongside letters from NC migrants encouraging others to follow."
+      },
+      "chain_mechanics": {
+        "description": "The Atlantic Coast Line Railroad was the physical corridor. A northbound ACL ticket from Rocky Mount, Wilson, or Goldsboro to Richmond cost approximately $3-5 in the 1920s; from Richmond, the Pennsylvania Railroad carried migrants to Philadelphia, New York, and intermediate cities. The chain worked through kin: a single family member — often a young man or a married couple without children — went north, found work and lodging, and then sent word (and sometimes a train ticket) back to siblings and cousins. Within five years, entire extended families had reassembled in northern cities, often on the same block or in the same apartment building.",
+        "kinship_role": "The pioneer migrant was typically a young man aged 18-25 who traveled north alone, found industrial or service work, and established a base. Wives, siblings, parents, and cousins followed in stages over one to five years. Church networks supplemented kinship: a deacon in a Goldsboro Baptist church who had a connection to a Philadelphia congregation could channel an entire stream of migrants.",
+        "timeline": "Trickle 1910-1916; first surge 1917-1920 (WWI labor demand); sustained flow 1920-1940; second surge 1942-1955 (WWII defense industry); tapering 1955-1960."
+      },
+      "narrative_hook": "When {ancestor_name} boarded the northbound Atlantic Coast Line train at {station} around {year}, {pronoun_subject} was following a path worn smooth by kin who had gone before — a cousin in Philadelphia who had written home that the shipyard was hiring, a brother in Baltimore who said there was a room in his boarding house, a church deacon who knew a deacon at a congregation up north that helped new arrivals find their footing.",
+      "source": "Wilkerson, Isabel. The Warmth of Other Suns: The Epic Story of America's Great Migration. New York: Random House, 2010. Hahn, Steven. A Nation Under Our Feet: Black Political Struggles in the Rural South from Slavery to the Great Migration. Cambridge: Harvard University Press, 2003. Gregory, James N. The Southern Diaspora: How the Great Migrations of Black and White Southerners Transformed America. Chapel Hill: University of North Carolina Press, 2005, ch. 2."
+    },
+    {
+      "corridor_id": "great_migration_norfolk_hampton_roads",
+      "corridor_name": "Great Migration: SE NC to Norfolk / Hampton Roads",
+      "origin_counties": ["Pitt", "Lenoir", "Wilson", "Nash", "Wayne"],
+      "destination_area": "Norfolk, Portsmouth, Newport News, and Hampton, Virginia — naval shipyard and military installation employment",
+      "era": "1917-1945",
+      "migration_type": "labor_recruitment",
+      "scale": "Thousands of Black families, peaking during the two world wars. Norfolk's Black population grew from approximately 25,000 in 1910 to over 52,000 by 1940, with eastern North Carolina as a primary feeder region.",
+      "evidence": {
+        "census_evidence": "1920 and 1930 US Census for Norfolk and Portsmouth shows heavy concentration of NC-born Black residents, with Pitt, Lenoir, and Wilson counties frequently listed as birthplaces. Norfolk Naval Shipyard employment records (held at National Archives) document NC-born workers.",
+        "church_evidence": "Black Baptist churches in Greenville (Pitt Co.) and Kinston (Lenoir Co.) show significant membership losses during both world wars. Norfolk's Bank Street Baptist Church and First Baptist Church Bute Street records show NC-origin members.",
+        "surname_clustering": "Pitt County surnames — Barnhill, Wooten, Darden, Forbes — appear in Norfolk's Berkley and Huntersville neighborhoods in the 1920-1940 censuses, indicating chain migration from specific Pitt County communities.",
+        "newspaper_evidence": "Norfolk Journal and Guide, the leading Black newspaper of the Hampton Roads region, carried advertisements for shipyard and construction labor and ran stories about the NC migrant community."
+      },
+      "chain_mechanics": {
+        "description": "Norfolk was a shorter-distance migration — 150 to 200 miles from the SE NC cluster, reachable in a single day by train or, after 1925, by automobile. The Norfolk Naval Shipyard, Newport News Shipbuilding, and the multiple military installations around Hampton Roads offered industrial wages that dwarfed anything available in eastern NC tobacco country. During WWI, direct labor recruitment from eastern NC counties supplemented the kinship chain. During WWII, the demand was so intense that formal recruitment was unnecessary — word of mouth alone filled the pipeline.",
+        "kinship_role": "The shorter distance meant that the Norfolk migration was less of a permanent break than the Philadelphia or New York migration. Families maintained active ties — a man might work at the shipyard in Norfolk during the week and return to Pitt County on weekends or for tobacco-curing season. This back-and-forth movement blurred the line between permanent migration and seasonal labor.",
+        "timeline": "First wave 1917-1919 (WWI naval expansion); interwar maintenance flow 1920-1940; massive second wave 1941-1945 (WWII); many families remained permanently after WWII."
+      },
+      "narrative_hook": "Norfolk was close enough that {ancestor_name} could leave {county} County in the morning and be at the shipyard gate by evening — close enough to go home for tobacco curing if needed, far enough that the wages made the trip worthwhile. It was not the long migration north. It was the practical one.",
+      "source": "Lewis, Earl. In Their Own Interests: Race, Class, and Power in Twentieth-Century Norfolk, Virginia. Berkeley: University of California Press, 1991. Parramore, Thomas C., Peter C. Stewart, and Tommy L. Bogger. Norfolk: The First Four Centuries. Charlottesville: University Press of Virginia, 1994."
+    },
+    {
+      "corridor_id": "civil_war_veteran_internal_redistribution",
+      "corridor_name": "Civil War Veteran Settlement — Internal Redistribution",
+      "origin_counties": ["Wayne", "Johnston", "Sampson", "Duplin", "Lenoir", "Cumberland", "Nash", "Wilson", "Pitt"],
+      "destination_area": "Same nine-county region — veterans settling in different counties or different townships than their prewar residence",
+      "era": "1865-1880",
+      "migration_type": "kinship_network",
+      "scale": "Moderate — hundreds of individual veterans rather than thousands of families. The nine-county region contributed approximately 6,000-8,000 men to Confederate service (primarily in NC regiments from the eastern district). Not all returned, and of those who did, a significant minority settled in a different county than their prewar residence.",
+      "evidence": {
+        "census_evidence": "Comparison of 1860 and 1870 census records for the nine counties shows individuals whose county of residence changed. Many veterans appear in the 1870 census in a county adjacent to their 1860 county, often in a township where a wife's family owned land — suggesting that marriage into a landowning family in another county determined postwar settlement.",
+        "church_evidence": "Baptist church minutes in the region record returning veterans being 'received by letter' from their wartime regiment's chaplain or from a church in the county where they had enlisted, indicating movement across county lines.",
+        "surname_clustering": "Limited direct evidence at the surname level; this was individual-level redistribution rather than mass surname-cluster migration.",
+        "newspaper_evidence": "No significant newspaper documentation. County newspapers were not yet widely published in this region in the 1860s-1870s."
+      },
+      "chain_mechanics": {
+        "description": "This was not chain migration in the classic sense but rather a one-time redistribution driven by three factors: (1) veterans who married women from other counties during or after the war and settled on their wives' family land; (2) veterans whose prewar farms had been destroyed, confiscated for taxes, or occupied and who had to find new land elsewhere; (3) veterans who had developed ties to a different community through wartime service with men from adjacent counties.",
+        "kinship_role": "Marriage was the primary driver. A veteran from Wayne County who married a Johnston County woman during or after the war would often settle on her family's land, especially if his own family farm had been lost.",
+        "timeline": "1865-1870 for the initial redistribution; settled by 1880 as veterans established permanent postwar residence."
+      },
+      "narrative_hook": "When {ancestor_name} came home from the war, home was not where it had been — the farm in {origin_county} County was gone, sold for taxes or stripped bare, and {pronoun_subject} settled instead in {destination_county} County where {pronoun_possessive} wife's people still had land. The war moved people even after it was over.",
+      "source": "Barrett, John G. The Civil War in North Carolina. Chapel Hill: University of North Carolina Press, 1963. Escott, Paul D. Many Excellent People: Power and Privilege in North Carolina, 1850-1900. Chapel Hill: University of North Carolina Press, 1985, ch. 5."
+    },
+    {
+      "corridor_id": "freedmen_migration_to_town",
+      "corridor_name": "Freedmen's Migration from Plantation to Town",
+      "origin_counties": ["Wayne", "Sampson", "Duplin", "Lenoir", "Wilson", "Pitt", "Nash", "Johnston", "Cumberland"],
+      "destination_area": "County seat towns within the same region — Goldsboro, Kinston, Fayetteville, Wilson, Greenville, Smithfield, Clinton, Kenansville, Rocky Mount",
+      "era": "1865-1880",
+      "migration_type": "forced_displacement",
+      "scale": "Thousands of formerly enslaved people moved from rural plantations to nearby towns. Goldsboro's Black population roughly tripled between 1860 and 1870. Kinston, Fayetteville, and Wilson showed similar growth. The 1870 census shows dramatic increases in town-dwelling Black populations across the cluster.",
+      "evidence": {
+        "census_evidence": "1860 slave schedules show enslaved populations concentrated on rural farms and plantations. 1870 census shows Black populations concentrated in and immediately around county seat towns. The shift is unmistakable in every county in the cluster.",
+        "church_evidence": "Freedmen's Bureau records document the establishment of Black churches in Goldsboro, Kinston, Fayetteville, and Wilson immediately after the war. These churches were organized by freedpeople who had moved to town, and membership rolls constitute some of the earliest post-emancipation documentation of Black families in the region.",
+        "surname_clustering": "Surnames from large antebellum slaveholding families in each county appear on the rolls of new Black churches and in Freedmen's Bureau labor contracts in the same county's town, indicating short-distance migration from specific plantations to the nearest town center.",
+        "newspaper_evidence": "Freedmen's Bureau correspondence and reports (held at the National Archives and available on microfilm) document the movement in administrative detail, including disputes between planters seeking to retain labor and freedpeople seeking to leave."
+      },
+      "chain_mechanics": {
+        "description": "This migration was not chain migration but a near-simultaneous movement driven by emancipation. Freedpeople left plantations for towns where the Freedmen's Bureau maintained offices, where churches were being organized, where wage work (however poorly paid) was available, and where community life outside the direct control of a former enslaver was possible. The towns offered three things the plantation did not: a labor market (however imperfect), institutions (churches, schools, mutual aid societies), and physical distance from the site of enslavement.",
+        "kinship_role": "Family reunification was a powerful driver. Enslaved people sold away from spouses and children used the Freedmen's Bureau and Black church networks to locate family members. Town became the meeting point — a fixed, findable location where separated family members could reconnect.",
+        "timeline": "Immediate post-emancipation movement 1865-1867; continued consolidation 1867-1875; stabilization by 1880 as urban Black communities established permanent institutions."
+      },
+      "narrative_hook": "After emancipation, {ancestor_name} did what thousands of freedpeople across the coastal plain did — walked away from the plantation and toward the nearest town. Goldsboro, Kinston, Fayetteville, Wilson — these county seats became the first places where Black families in eastern NC could build lives on their own terms, however constrained those terms remained.",
+      "source": "Foner, Eric. Reconstruction: America's Unfinished Revolution, 1863-1877. New York: Harper & Row, 1988, chs. 4-5. Click, Patricia C. Time Full of Trial: The Roanoke Island Freedmen's Colony, 1862-1867. Chapel Hill: University of North Carolina Press, 2001. Zipf, Karin L. Labor of Innocents: Forced Apprenticeship in North Carolina, 1715-1919. Baton Rouge: Louisiana State University Press, 2005."
+    },
+    {
+      "corridor_id": "tobacco_market_pull",
+      "corridor_name": "Tobacco Market Pull: Families Drawn to Warehouse Towns",
+      "origin_counties": ["Sampson", "Duplin", "Johnston", "Cumberland"],
+      "destination_area": "Wilson, Goldsboro (Wayne Co.), Kinston (Lenoir Co.), Rocky Mount (Nash Co.) — the tobacco market towns",
+      "era": "1890-1930",
+      "migration_type": "land_seeking",
+      "scale": "Moderate but sustained. Wilson's population grew from approximately 1,000 in 1880 to over 10,000 by 1920; Goldsboro from 3,000 to 11,000 in the same period. Both white and Black families contributed to growth, drawn by the seasonal and year-round employment the tobacco market economy generated.",
+      "evidence": {
+        "census_evidence": "1900-1920 US Census for Wilson and Goldsboro shows in-migration from surrounding counties. Heads of household listing occupations as 'tobacco warehouse worker,' 'prizery hand,' 'leaf buyer,' 'drayman,' and related trades frequently show birthplaces in Sampson, Duplin, Johnston, and Cumberland counties.",
+        "church_evidence": "Wilson's white and Black churches both grew rapidly during this period. Church histories note waves of new members from surrounding counties coinciding with the tobacco market's expansion.",
+        "surname_clustering": "Duplin and Sampson County surnames — Herring, Tew, Autry, Boon — appear in Wilson and Goldsboro census records in the 1900-1920 period, particularly in occupations connected to the tobacco trade.",
+        "newspaper_evidence": "Wilson Daily Times and Goldsboro Argus carried regular reporting on the tobacco market season, including notes about the influx of workers and the growth of new residential areas to accommodate them."
+      },
+      "chain_mechanics": {
+        "description": "The tobacco market towns pulled families in two ways: seasonal employment during the August-November auction season (warehouse hands, graders, auctioneers, draymen, boarding house operators), and year-round employment in prizeries, storage operations, and the merchant economy that served the surrounding farm country. A family might come for one auction season, find that the combined income from market work and nearby farming exceeded what their home county offered, and stay. The process was less dramatic than the Great Migration but cumulatively reshaped the region's population distribution.",
+        "kinship_role": "Kinship chains operated but were supplemented by the sheer visibility of the market towns — everyone in a three-county radius knew that Wilson and Goldsboro were where the money concentrated during tobacco season, and the decision to relocate permanently often followed several seasons of temporary market-season work.",
+        "timeline": "Gradual pull 1890-1900; accelerating 1900-1920 as Wilson claimed world's largest bright-leaf market status; sustaining through 1930."
+      },
+      "narrative_hook": "The tobacco warehouses in {town} drew people the way a river draws creeks — {ancestor_name}'s family came from {county} County not because the farming was better but because the market was there, and wherever the auctioneer's chant echoed, there was cash money changing hands and work for anyone willing to handle leaf.",
+      "source": "Tilley, Nannie May. The Bright-Tobacco Industry, 1860-1929. Chapel Hill: University of North Carolina Press, 1948, chs. 8-12. Daniel, Pete. Breaking the Land: The Transformation of Cotton, Tobacco, and Rice Cultures since 1880. Urbana: University of Illinois Press, 1985, ch. 3."
+    }
+  ],
+
+  "internal_movement_patterns": [
+    {
+      "pattern_id": "tenant_rotation",
+      "description": "Annual or biennial movement of sharecropping and tenant families between plantations within and across county lines. Tenants who failed to clear their furnish debt, quarreled with a landlord, or simply sought marginally better terms moved to a new farm at the end of each crop year (typically December-January). This rotation was so common that the phrase 'moving day' was universally understood in the coastal plain — a family's entire household goods loaded on a wagon for a move of three to fifteen miles to a new landlord's land. The 1880-1940 census records are full of families whose county of residence changed every ten years (census interval) despite never moving more than twenty miles.",
+      "era": "1865-1940",
+      "driver": "Crop lien debt, landlord-tenant disputes, search for marginally better sharecropping terms, and the structural inability of any single farm to sustain a family long-term under the crop lien system. Moving was often the only leverage a tenant had — the threat of leaving for another landlord's farm was the closest thing to a negotiating tool available to people who owned nothing.",
+      "evidence": "Ransom and Sutch documented the annual turnover rate among Southern tenants at 30-40% per year — meaning that in any given year, roughly one in three tenant families was on a different farm than the year before. Wayne, Sampson, and Duplin county court records (crop lien filings) show the same family names cycling through different landlords' liens across successive years. Census comparison 1880-1900-1910 shows families whose listed township or county changed while remaining in the same ten-mile radius.",
+      "source": "Ransom, Roger L., and Richard Sutch. One Kind of Freedom: The Economic Consequences of Emancipation. 2nd ed. Cambridge: Cambridge University Press, 2001, chs. 4, 8. Wright, Gavin. Old South, New South: Revolutions in the Southern Economy since the Civil War. New York: Basic Books, 1986, ch. 3."
+    },
+    {
+      "pattern_id": "rural_to_county_seat_drift",
+      "description": "Generational movement of young people from farms to county seat towns. Each generation of farm families produced more children than the land could support. The oldest sons might inherit the farm; younger sons and daughters moved to the nearest town — Goldsboro, Kinston, Wilson, Smithfield, Clinton — where they found wage work as store clerks, draymen, laundresses, seamstresses, or day laborers. This was not a single dramatic migration but a steady demographic drip that slowly shifted the population balance from rural to town across every decade from 1870 to 1960.",
+      "era": "1870-1960",
+      "driver": "Farm subdivision reaching ecological and economic limits. Large families (five to eight surviving children was typical through the 1920s) on farms that could not be divided further without falling below subsistence. Young people, particularly those who had attended county schools and acquired basic literacy, were drawn to town by the modest but real advantages of wage work, social life, and proximity to institutions (schools, churches, stores, medical care).",
+      "evidence": "Every county seat in the cluster grew faster than its surrounding rural townships in every census from 1870 to 1960. Goldsboro grew from approximately 1,500 in 1870 to 21,000 by 1940; Wilson from 600 to 12,000; Kinston from 900 to 16,000. Rural township populations remained flat or declined over the same period. Census age-structure analysis shows that the rural-to-town movers were disproportionately aged 16-30.",
+      "source": "Daniel, Pete. Breaking the Land: The Transformation of Cotton, Tobacco, and Rice Cultures since 1880. Urbana: University of Illinois Press, 1985. Hall, Jacquelyn Dowd, et al. Like a Family: The Making of a Southern Cotton Mill World. Chapel Hill: University of North Carolina Press, 1987, ch. 1."
+    },
+    {
+      "pattern_id": "cross_river_settlement",
+      "description": "The Neuse River operated as a soft boundary that shaped settlement and movement patterns across the cluster. Families north of the Neuse (Wayne, Johnston) oriented their commerce and kinship toward Goldsboro and Smithfield; families south of the river (Sampson, Duplin) oriented toward Clinton, Kenansville, and the Cape Fear system. The river was fordable in summer at specific points but impassable for weeks during spring freshets. Marriage patterns, church membership, and commercial ties all show the Neuse as a dividing line — families rarely married across the river, and churches drew membership almost exclusively from one side. When bridges and ferries improved access in the late nineteenth century, cross-river movement increased, but the cultural and kinship divide persisted well into the twentieth century.",
+      "era": "1750-1920",
+      "driver": "Physical geography — the Neuse River and its associated swamps created a transportation barrier that shaped social networks. Before reliable bridges (most built 1870-1900), crossing the river required knowledge of fords that shifted with seasonal water levels. The difficulty of crossing meant that families on opposite banks lived in functionally separate social worlds despite being only a few miles apart.",
+      "evidence": "Marriage bond records for Wayne, Johnston, Sampson, and Duplin counties show strong same-side-of-river clustering through the 1890s. Church membership rolls from Missionary Baptist congregations on opposite banks of the Neuse rarely overlap. Census enumeration districts follow the river as a natural boundary, and household-level analysis shows that cross-river marriages were less common than marriages between non-adjacent counties on the same side of the river.",
+      "source": "Watson, Harry L. An Independent People: The Way We Lived in North Carolina, 1770-1820. Chapel Hill: University of North Carolina Press, 1983. Leach, James R. Land of Longleaf: A History of Wayne County, North Carolina. Wayne County Historical Association, 2000."
+    },
+    {
+      "pattern_id": "military_base_commuter_belt",
+      "description": "After 1942, the expansion of Fort Bragg and the opening of Seymour Johnson Army Air Field created commuter belts that pulled workers from a 30-50 mile radius. Families who did not relocate to Fayetteville or Goldsboro nonetheless reoriented their economic lives around the bases — driving or riding buses to civilian jobs at the installations while maintaining rural homes. This was a new pattern in the region: people who lived on farms but earned non-agricultural wages. By 1960, the commuter belt had blurred the line between rural and urban in Cumberland and Wayne counties and extended into Sampson, Johnston, and Harnett counties.",
+      "era": "1942-1960",
+      "driver": "Military base payrolls offering wages far above agricultural alternatives, combined with improving road networks (military construction paved roads the state could not afford) and increasing automobile ownership.",
+      "evidence": "Cumberland and Wayne county tax records show rural properties where the owner's listed occupation shifted from farmer to civilian military employee between 1940 and 1950. NC Employment Security Commission records document the growth of non-agricultural employment in counties surrounding the two bases. Traffic counts on roads leading to Fort Bragg and Seymour Johnson show dramatic increases 1942-1945 that did not decline after the war.",
+      "source": "Lemmon, Sarah McCulloh. North Carolina's Role in World War II. Raleigh: NC Division of Archives and History, 1964. Leach, Land of Longleaf."
+    }
+  ],
+
+  "settlement_clusters": [
+    {
+      "cluster_name": "Wayne/Sampson Families in Hope Mills Mill Village",
+      "destination": "Hope Mills, Cumberland County, North Carolina — company-owned mill village surrounding Hope Mills Manufacturing Company and later Tolar-Hart operations",
+      "origin_county": "Wayne and Sampson counties primarily; some families from Duplin and Johnston",
+      "era": "1885-1920",
+      "evidence": "1900 and 1910 US Census enumeration of Hope Mills township shows dense clustering of households whose adult members list Wayne and Sampson county birthplaces. Entire streets of the mill village were populated by families from two or three eastern NC townships. Baptist church membership records at Hope Mills Baptist Church show transfers from Wayne and Sampson county congregations. The pattern is consistent with chain migration along sibling and extended-family networks.",
+      "key_surnames": ["Bass", "Herring", "Tew", "Pope", "Boon", "Autry"],
+      "narrative_hook": "{ancestor_name}'s family was part of a wave — by the time they reached Hope Mills around {year}, the mill village already held cousins, church friends, and neighbors from back in {county} County. The company houses were new, but the faces on the street were familiar, and the accent was the same flat coastal plain drawl they had spoken all their lives.",
+      "source": "Hall et al., Like a Family, chs. 1-2. Tullos, Allen. Habits of Industry: White Culture and the Transformation of the Carolina Piedmont. Chapel Hill: University of North Carolina Press, 1989."
+    },
+    {
+      "cluster_name": "SE NC Black Families in Philadelphia",
+      "destination": "Philadelphia, Pennsylvania — North Philadelphia / Columbia Avenue corridor and South Philadelphia 7th Ward",
+      "origin_county": "Wayne, Wilson, Pitt, Lenoir, and Nash counties",
+      "era": "1916-1960",
+      "evidence": "Philadelphia 1920 and 1930 census enumeration shows North Carolina as the single largest Southern-state origin for Black migrants, with eastern NC counties heavily represented. Block-level analysis of North Philadelphia neighborhoods shows clusters of households from the same NC counties, particularly Wayne (Goldsboro area) and Wilson (Wilson town). Philadelphia Tribune reporting documents a 'North Carolina colony' in North Philadelphia anchored by church congregations that drew membership primarily from NC migrants. The Mother Bethel AME Church and Tindley Temple Methodist records include eastern NC-origin members.",
+      "key_surnames": ["Vinson", "Artis", "Darden", "Wooten", "Bass"],
+      "narrative_hook": "By the time {ancestor_name} reached Philadelphia in the {decade}s, the neighborhood already felt half like North Carolina — the church where {pronoun_subject} found a seat on Sunday was full of people from {county} County, the boarding house served food that tasted like home, and the conversation on the stoop was about who else was coming up and when.",
+      "source": "Hershberg, Theodore, ed. Philadelphia: Work, Space, Family, and Group Experience in the 19th Century. New York: Oxford University Press, 1981. Gregory, The Southern Diaspora, ch. 4."
+    },
+    {
+      "cluster_name": "Tobacco Families in East Wilson",
+      "destination": "East Wilson neighborhood, Wilson, North Carolina — residential area adjacent to tobacco warehouses and prizeries",
+      "origin_county": "Nash, Johnston, Sampson, and Duplin counties",
+      "era": "1890-1930",
+      "evidence": "1900-1920 US Census for Wilson's eastern wards shows concentrations of households listing tobacco-related occupations (warehouse hand, prizery worker, drayman, leaf grader) with birthplaces in surrounding counties. Both white and Black families are represented, though in segregated residential blocks. Wilson city directories from 1910 and 1920 list boarding houses and rental properties in the eastern wards heavily occupied by workers with non-Wilson origins.",
+      "key_surnames": ["Herring", "Tew", "Canady", "Pope", "Boone"],
+      "narrative_hook": "East Wilson in the {decade}s was a tobacco town within a tobacco town — the warehouses were close enough that {ancestor_name} could walk to work when the auction season opened, and the neighborhood was full of families who had come from {county} County for the same reason: wherever the bright leaf was being sold, there was work.",
+      "source": "Tilley, The Bright-Tobacco Industry, ch. 10. Simmons-Henry, Linda, and Linda Harris Edmisten. Culture Town: Life in Raleigh's African American Communities. Raleigh: Raleigh Historic Districts Commission, 1993 (comparative framework for NC tobacco-town Black communities)."
+    },
+    {
+      "cluster_name": "SE NC Black Families in Norfolk's Huntersville",
+      "destination": "Huntersville neighborhood, Norfolk, Virginia — Black residential community near the Norfolk & Western Railway shops and Norfolk Naval Shipyard ferry landing",
+      "origin_county": "Pitt, Lenoir, Wilson, and Nash counties",
+      "era": "1917-1945",
+      "evidence": "1920 and 1930 US Census for Norfolk's Huntersville ward shows concentrations of NC-born Black residents listing shipyard, dock, and railroad occupations. Pitt County birthplaces are disproportionately represented. Norfolk Journal and Guide community notices reference 'North Carolina socials' and hometown association meetings organized by county of origin. Church membership records at Huntersville's Baptist and Methodist congregations include transfer letters from eastern NC churches.",
+      "key_surnames": ["Barnhill", "Wooten", "Darden", "Forbes", "Artis"],
+      "narrative_hook": "Huntersville was where eastern North Carolina met the shipyard — when {ancestor_name} came up from {county} County to work at the Norfolk Naval Yard around {year}, this was the neighborhood where people from home had already settled, where the landlady knew what county you came from by your last name, and where the Sunday church service sounded like it could have been back in Greenville.",
+      "source": "Lewis, Earl. In Their Own Interests: Race, Class, and Power in Twentieth-Century Norfolk, Virginia. Berkeley: University of California Press, 1991. Parramore et al., Norfolk: The First Four Centuries."
+    }
+  ],
+
+  "narrative_hooks": [
+    "The {surname} family's move from {origin_county} County to {destination} around {year} was not an isolated decision — it was one link in a chain of kin who had gone before and written back to say the work was there and the wages were real.",
+    "When {ancestor_name} left {county} County, {pronoun_subject} followed the Atlantic Coast Line Railroad north — the same corridor that carried tens of thousands of Black families from the eastern NC coastal plain to Philadelphia, Baltimore, and Washington DC between {start_year} and {end_year}.",
+    "The annual shuffle of tenant families between farms in {county} County meant that {ancestor_name} might appear in a different township in every census — not because {pronoun_subject} was restless but because the crop lien system gave tenants no reason to stay and no ability to get ahead.",
+    "After emancipation, {ancestor_name} moved from the plantation to {town} — not far in miles, but a world away in what it meant. In town there was a church that was not the master's church, a school that freedpeople had built themselves, and work that paid wages however small.",
+    "The Neuse River divided more than land in {county} — it divided kinship, commerce, and community. Families on the north bank looked to Goldsboro; families on the south bank looked to Clinton or Kenansville. {ancestor_name}'s world was shaped by which side of the water {pronoun_subject} was born on.",
+    "By the {decade}s, the tobacco warehouses in Wilson had drawn enough families from surrounding counties that the town was no longer just a market — it was a destination, a place where {ancestor_name} could find year-round work connected to the leaf that had defined {pronoun_possessive} family's livelihood for generations.",
+    "Norfolk was the practical migration — close enough that {ancestor_name} could get home to {county} County if {pronoun_subject} needed to, far enough that the shipyard wages made the distance worthwhile. It was not the dramatic northward journey to Philadelphia. It was the calculated one.",
+    "The mill village at Hope Mills held a transplanted community — {ancestor_name} arrived to find that the neighbors were the same families from {county} County who had left the year before, and the Baptist church at the mill gate was full of people whose accents matched {pronoun_possessive} own."
+  ],
+
+  "source_references": [
+    "Hall, Jacquelyn Dowd, James Leloudis, Robert Korstad, Mary Murphy, Lu Ann Jones, and Christopher B. Daly. Like a Family: The Making of a Southern Cotton Mill World. Chapel Hill: University of North Carolina Press, 1987.",
+    "Outland, Robert B., III. Tapping the Pines: The Naval Stores Industry in the American South. Baton Rouge: Louisiana State University Press, 2004.",
+    "Wilkerson, Isabel. The Warmth of Other Suns: The Epic Story of America's Great Migration. New York: Random House, 2010.",
+    "Gregory, James N. The Southern Diaspora: How the Great Migrations of Black and White Southerners Transformed America. Chapel Hill: University of North Carolina Press, 2005.",
+    "Ransom, Roger L., and Richard Sutch. One Kind of Freedom: The Economic Consequences of Emancipation. 2nd ed. Cambridge: Cambridge University Press, 2001.",
+    "Tilley, Nannie May. The Bright-Tobacco Industry, 1860-1929. Chapel Hill: University of North Carolina Press, 1948.",
+    "Lewis, Earl. In Their Own Interests: Race, Class, and Power in Twentieth-Century Norfolk, Virginia. Berkeley: University of California Press, 1991.",
+    "Foner, Eric. Reconstruction: America's Unfinished Revolution, 1863-1877. New York: Harper & Row, 1988.",
+    "Barrett, John G. The Civil War in North Carolina. Chapel Hill: University of North Carolina Press, 1963.",
+    "Hahn, Steven. A Nation Under Our Feet: Black Political Struggles in the Rural South from Slavery to the Great Migration. Cambridge: Harvard University Press, 2003.",
+    "Escott, Paul D. Many Excellent People: Power and Privilege in North Carolina, 1850-1900. Chapel Hill: University of North Carolina Press, 1985.",
+    "Daniel, Pete. Breaking the Land: The Transformation of Cotton, Tobacco, and Rice Cultures since 1880. Urbana: University of Illinois Press, 1985.",
+    "Tullos, Allen. Habits of Industry: White Culture and the Transformation of the Carolina Piedmont. Chapel Hill: University of North Carolina Press, 1989.",
+    "Watson, Harry L. An Independent People: The Way We Lived in North Carolina, 1770-1820. Chapel Hill: University of North Carolina Press, 1983.",
+    "Zipf, Karin L. Labor of Innocents: Forced Apprenticeship in North Carolina, 1715-1919. Baton Rouge: Louisiana State University Press, 2005.",
+    "Leach, James R. Land of Longleaf: A History of Wayne County, North Carolina. Wayne County Historical Association, 2000."
+  ],
+
+  "nel_cross_references": {
+    "trigger_refs": [
+      "great_migration",
+      "textile_mill_recruitment",
+      "nc_eastern_farm_to_mill",
+      "nc_wilmington_1898_exodus",
+      "nc_civil_war_veteran_settlement",
+      "reconstruction_era",
+      "civil_war_displacement",
+      "civil_war_service",
+      "stayed_and_adapted",
+      "antebellum_yeoman_south",
+      "domestic_slave_trade"
+    ],
+    "destination_refs": [
+      "philadelphia",
+      "philadelphia_north",
+      "new_york_city",
+      "baltimore",
+      "washington_dc",
+      "norfolk_hampton_roads",
+      "piedmont_mill_district",
+      "wilmington_port_district"
+    ],
+    "community_texture_refs": [
+      "eastern_nc_farm_community",
+      "fayetteville_mill_district"
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Micro-Migration Network Map for the MD Eastern Shore cluster. Documents specific migration corridors that moved people into, out of, and within the six-county region from 1631 to 1960. The Eastern Shore's migration history begins with the Claiborne trading post (1631) and includes the English colonial settlement, the forced migration of enslaved Africans, the domestic slave trade southward, the Underground Railroad northward through Cecil County, the Great Migration to Baltimore and Philadelphia, and the post-bridge influx of 'come-heres' from the Western Shore.",
+  "migration_network_id": "md_eastern_shore_migration_networks",
+  "display_name": "MD Eastern Shore — Micro-Migration Network Map",
+  "cluster_ref": "md_eastern_shore",
+  "era_range": "1631-1960",
+  "migration_corridors": [
+    {
+      "corridor_id": "english_colonial_settlement",
+      "corridor_name": "English Colonial Settlement of the Eastern Shore",
+      "origin_counties": ["Virginia Tidewater", "St. Mary's County (Western Shore)", "Kent (England)", "Sussex (England)", "London (England)"],
+      "destination_area": "Kent, Talbot, Dorchester, Queen Anne's — the upper Eastern Shore",
+      "era": "1631-1710",
+      "migration_type": "chain_migration",
+      "scale": "Hundreds of families over three generations. Settlement proceeded from two directions: Claiborne's Virginia-connected traders on Kent Island (1631) and proprietary settlers crossing the Bay from the Western Shore.",
+      "evidence": {
+        "census_evidence": "Maryland headright records and patent books document settlers by name and origin. Early Kent County court records (from 1648) name settlers and their servants.",
+        "church_evidence": "Third Haven Quaker Meeting records (from 1661) document English Quaker settlers. Anglican parish records from the 1690s document Church of England families.",
+        "surname_clustering": "English and Welsh surnames — Lloyd, Tilghman, Goldsborough, Trippe, Dickinson, Banning, Earle — cluster in Talbot and Kent counties and persist for centuries."
+      },
+      "chain_mechanics": {
+        "description": "Settlement followed two chains: Virginia settlers moved north from the lower Chesapeake to Kent Island and Kent County (Claiborne network); Western Shore settlers crossed the Bay to claim land on the Eastern Shore under proprietary patents. Quaker settlers arrived from England in the 1650s-1660s and established Third Haven Meeting near Easton. The Quaker settlement was a distinct chain migration — connected by religious fellowship rather than by landlord-tenant relationships.",
+        "kinship_role": "The English planter families who settled the Eastern Shore intermarried extensively. Lloyd married Tilghman, Goldsborough married Trippe — creating a kinship network that controlled the county courts, the vestries, and the major plantations for generations.",
+        "timeline": "Kent Island settled 1631. Kent County organized 1642. Talbot 1662. Dorchester 1669. Queen Anne's 1706. Cecil 1674. Caroline 1773."
+      },
+      "narrative_hook": "The Lloyds, Tilghmans, and Goldsboroughs came to the Eastern Shore in the 1600s, claimed the best land on the tidal rivers, and stayed for three centuries — and {ancestor_name} either was one of them, worked for them, or competed with them for the land that was left.",
+      "source": "Clemens, The Atlantic Economy and Colonial Maryland's Eastern Shore. Cornell University Press, 1980."
+    },
+    {
+      "corridor_id": "forced_migration_enslaved",
+      "corridor_name": "Forced Migration of Enslaved Africans to the Eastern Shore",
+      "origin_counties": ["West Africa (Senegambia, Gold Coast, Bight of Biafra)", "Caribbean", "Virginia"],
+      "destination_area": "All Eastern Shore counties — concentrated in Talbot and Dorchester",
+      "era": "1670-1808",
+      "migration_type": "forced_migration",
+      "scale": "Thousands over 140 years. The Eastern Shore's enslaved population grew from near zero in 1650 to over 30,000 by 1790. Talbot, Dorchester, and Queen Anne's held the heaviest concentrations.",
+      "evidence": {
+        "census_evidence": "Federal census slave schedules (1790-1860). Maryland tax records listing enslaved individuals. Probate inventories naming enslaved people.",
+        "church_evidence": "Some Anglican vestry records note enslaved baptisms. Third Haven Quaker records document the meeting's evolving stance on slaveholding.",
+        "surname_clustering": "After emancipation, Black families adopted the surnames of their former enslavers: Lloyd, Tilghman, Goldsborough in Talbot County; Brodess, Thompson in Dorchester — creating surname-to-plantation links that are genealogically diagnostic."
+      },
+      "chain_mechanics": {
+        "description": "Enslaved Africans arrived on the Eastern Shore through multiple channels: directly from West Africa on slave ships landing at Oxford and Chestertown, purchased from Virginia planters, or transshipped from the Caribbean. The trade shifted after 1700 from the international trade to the domestic trade, with Virginia as the primary supplier. After 1808, the domestic slave trade ran in the opposite direction — Eastern Shore planters sold enslaved people south to the cotton states.",
+        "kinship_role": "Enslaved families formed kinship networks across plantation boundaries — marriages between plantations, visiting on Sundays, and shared church attendance created a community invisible to the documentary record but essential to survival. The Tubman family network in Dorchester County is the best-documented example.",
+        "timeline": "Enslaved Africans present from the 1670s. Transition from indentured servant to enslaved labor complete by 1720. Population peaked around 1800, then declined as the domestic slave trade drained workers southward."
+      },
+      "narrative_hook": "The enslaved people who built {ancestor_name}'s Eastern Shore came from West Africa, from the Caribbean, from Virginia — brought by force to work the tobacco and grain that made the planters wealthy, and they built families, churches, and communities that the system tried to destroy and could not.",
+      "source": "Fields, Barbara J. Slavery and Freedom on the Middle Ground. Yale University Press, 1985. Berlin, Ira. Many Thousands Gone. Harvard University Press, 1998."
+    },
+    {
+      "corridor_id": "underground_railroad",
+      "corridor_name": "Underground Railroad: Choptank River to Cecil County to Pennsylvania",
+      "origin_counties": ["Dorchester", "Talbot", "Caroline", "Queen Anne's"],
+      "destination_area": "Cecil County (transit point) → Pennsylvania, New Jersey, New York, Canada",
+      "era": "1820-1860",
+      "migration_type": "flight_from_slavery",
+      "scale": "Hundreds of individuals over four decades. Harriet Tubman personally led approximately 70 people to freedom in about 13 trips. Many others escaped without Tubman's assistance.",
+      "evidence": {
+        "census_evidence": "Individuals who appear in Southern census records and then in Northern census records. Freedmen's Bureau records documenting refugees.",
+        "church_evidence": "Quaker meeting records in Cecil County and southeastern Pennsylvania documenting assistance to fugitives. AME church records in Philadelphia documenting Eastern Shore arrivals.",
+        "surname_clustering": "Eastern Shore surnames (Lloyd, Tilghman, Brodess, Ross) appearing in Philadelphia, New York, and Canadian Black communities — evidence of the destination patterns of freedom seekers."
+      },
+      "chain_mechanics": {
+        "description": "The Underground Railroad from the Eastern Shore ran northward through a corridor defined by geography: from the Choptank River marshes (concealment), through the agricultural interior of Caroline and Queen Anne's counties (moving at night, hiding in woodlots and swamps), to Cecil County (the funnel through which all overland routes passed), and across the Mason-Dixon Line into Pennsylvania (legal freedom). Quaker families in Cecil County and southeastern Pennsylvania operated safe houses. Free Black communities in Dorchester, Talbot, and Cecil counties provided concealment and guidance. Harriet Tubman operated from Dorchester County, using her knowledge of the marshes and waterways to move people through the most dangerous initial miles.",
+        "kinship_role": "The Underground Railroad ran on kinship and community networks. Tubman rescued members of her own family. Other conductors moved relatives and neighbors. The free Black communities that provided concealment were connected to the enslaved community by marriage, blood, and church membership.",
+        "timeline": "Activity increased after 1830 as abolition movement grew. Peak activity 1845-1860. Tubman's rescue trips concentrated in 1850-1860."
+      },
+      "narrative_hook": "The road out of slavery on the Eastern Shore ran through the Dorchester marshes, across the Caroline County farmland at night, through the Cecil County corridor where Quaker farms kept their doors unlocked, and across the Mason-Dixon Line — and {ancestor_name} either traveled that road, helped someone on it, or knew someone who did.",
+      "source": "Larson, Kate Clifford. Bound for the Promised Land: Harriet Tubman. Ballantine Books, 2004. Siebert, The Underground Railroad. Macmillan, 1898."
+    },
+    {
+      "corridor_id": "domestic_slave_trade_southward",
+      "corridor_name": "Domestic Slave Trade: Eastern Shore to the Deep South",
+      "origin_counties": ["Talbot", "Dorchester", "Queen Anne's", "Kent", "Caroline", "Cecil"],
+      "destination_area": "Baltimore (transit) → New Orleans, Mississippi, Alabama, Georgia cotton and sugar country",
+      "era": "1808-1860",
+      "migration_type": "forced_migration",
+      "scale": "Thousands over five decades. Maryland was a net exporter of enslaved people after 1808. Eastern Shore families were sold to Baltimore traders who shipped them south.",
+      "evidence": {
+        "census_evidence": "Declining enslaved population in census records despite natural increase — the difference was the domestic trade.",
+        "church_evidence": "Freedmen's Bureau records documenting separations — formerly enslaved people reporting to the Bureau that family members were sold south decades earlier.",
+        "surname_clustering": "Eastern Shore enslaver surnames appearing among Black populations in Louisiana, Mississippi, and Alabama — evidence of the trade's geographic reach."
+      },
+      "chain_mechanics": {
+        "description": "After the international slave trade ended in 1808, the Eastern Shore became a supplier to the domestic trade. Planters shifting from tobacco and grain to less labor-intensive agriculture sold enslaved workers to traders based in Baltimore — Austin Woolfolk was the most notorious. Enslaved people were transported from the Shore to Baltimore by boat, then shipped by sea or marched overland to New Orleans and the Deep South markets. The trade separated families — a person sold from Talbot County might end up on a sugar plantation in Louisiana with no way to communicate with family left behind.",
+        "kinship_role": "The domestic slave trade was specifically designed to destroy kinship: individual sales separated husbands from wives, parents from children, siblings from each other. The trade created a diaspora of Eastern Shore-origin enslaved families scattered across the Deep South.",
+        "timeline": "Active from the 1810s, accelerating in the 1830s-1850s as cotton prices rose and the demand for enslaved labor in the Deep South intensified."
+      },
+      "narrative_hook": "The trader came to {county} County with cash and left with people — {ancestor_name}'s neighbor, cousin, or child sold to a Baltimore trader and shipped to New Orleans, and the family left behind carried that absence for the rest of their lives.",
+      "source": "Deyle, Steven. Carry Me Back: The Domestic Slave Trade in American Life. Oxford University Press, 2005. Fields, Slavery and Freedom on the Middle Ground, 1985."
+    },
+    {
+      "corridor_id": "great_migration_northward",
+      "corridor_name": "Great Migration: Eastern Shore to Baltimore, Philadelphia, and New York",
+      "origin_counties": ["Dorchester", "Talbot", "Caroline", "Queen Anne's", "Kent"],
+      "destination_area": "Baltimore, Philadelphia, New York City, Wilmington (DE)",
+      "era": "1910-1960",
+      "migration_type": "economic_migration",
+      "scale": "Thousands of Black families over five decades. The Eastern Shore's Black population declined significantly as families moved to cities for industrial employment.",
+      "evidence": {
+        "census_evidence": "Declining Black population in Eastern Shore census counts. Eastern Shore-born individuals appearing in Baltimore, Philadelphia, and New York census records.",
+        "church_evidence": "Black church records in Baltimore and Philadelphia documenting new members from Eastern Shore counties.",
+        "surname_clustering": "Eastern Shore surnames concentrated in specific Baltimore neighborhoods (East Baltimore) and Philadelphia neighborhoods (South Philadelphia, West Philadelphia)."
+      },
+      "chain_mechanics": {
+        "description": "The Great Migration from the Eastern Shore followed specific channels. The steamboat to Baltimore was the easiest route — a direct connection that carried produce and people. Once a family member was established in Baltimore, others followed — chain migration replicating the same kinship-based pattern that had characterized all migration from the Shore. Philadelphia was reached through Cecil County and Wilmington. New York was reached by railroad from Philadelphia. The push factors were low wages, racial segregation, limited economic opportunity, and the threat of racial violence. The pull factors were industrial employment, higher wages, and the relative anonymity of the city.",
+        "kinship_role": "Chain migration was the norm. A brother or cousin established in Baltimore sent word back, and the family followed one member at a time. Eastern Shore migrants clustered in specific neighborhoods in destination cities — recreating community networks from home.",
+        "timeline": "Began slowly in the 1910s, accelerated during and after World War I, peaked during World War II and its aftermath."
+      },
+      "narrative_hook": "{ancestor_name} took the steamboat from {town} to Baltimore — the same boat that had carried {pronoun_possessive} grandparents' oysters and {pronoun_possessive} parents' tomatoes — but this time {pronoun_subject} was the cargo, leaving the Eastern Shore for a factory job in the city because the cannery paid fifty cents a day and the future was somewhere else.",
+      "source": "Fields, Slavery and Freedom on the Middle Ground, 1985. Wilkerson, Isabel. The Warmth of Other Suns. New York: Random House, 2010."
+    }
+  ],
+  "internal_movement_patterns": [
+    {
+      "pattern": "Talbot-Dorchester labor exchange (enslaved and free)",
+      "era": "1700-1864",
+      "description": "Enslaved workers were regularly hired out between Talbot and Dorchester counties. Free Black workers moved between the counties for seasonal agricultural and maritime work. Frederick Douglass's own movements between Talbot County (Wye House) and the Tuckahoe Creek area illustrate this intra-regional movement.",
+      "evidence": "Court records documenting hiring-out arrangements. Runaway advertisements naming the county of origin and the county where the person was last seen."
+    },
+    {
+      "pattern": "Agricultural workers following the harvest",
+      "era": "1880-1960",
+      "description": "Seasonal agricultural workers moved through the Eastern Shore following the harvest calendar — strawberries in June, peaches and tomatoes in July-August, corn in September, oysters October-April. The circuit moved from the southern counties (Dorchester, Caroline) northward to Kent and Queen Anne's.",
+      "evidence": "Cannery employment records. Agricultural labor contractor records. Census records showing seasonal residents."
+    },
+    {
+      "pattern": "Cecil County as gateway — northward departure corridor",
+      "era": "1700-1960",
+      "description": "Families leaving the Eastern Shore for points north — whether freedom seekers, Great Migration families, or simply people seeking better opportunity — funneled through Cecil County because it was the only overland route off the Delmarva Peninsula.",
+      "evidence": "Railroad passenger records. Automobile registration records. Underground Railroad documentation."
+    }
+  ],
+  "settlement_clusters": [
+    {
+      "cluster_name": "Eastern Shore community in East Baltimore",
+      "destination": "Baltimore, MD — East Baltimore neighborhoods",
+      "era": "1910-1960",
+      "origin_counties": ["Dorchester", "Talbot", "Caroline"],
+      "description": "Eastern Shore Black migrants clustered in East Baltimore, particularly along the Pennsylvania Avenue corridor and in neighborhoods near the harbor where maritime employment was available. Eastern Shore accents, foodways (crab cakes, fried oysters), and church affiliations were maintained in the destination community.",
+      "evidence": "Baltimore city directories. Church membership records. Oral histories at the Reginald F. Lewis Museum.",
+      "source": "Power, Garrett. 'Apartheid Baltimore Style: The Residential Segregation Ordinances of 1910-1913.' Maryland Law Review 42, no. 2 (1983)."
+    },
+    {
+      "cluster_name": "Eastern Shore Quaker diaspora in southeastern Pennsylvania",
+      "destination": "Chester County, PA; Delaware County, PA",
+      "era": "1750-1900",
+      "origin_counties": ["Cecil", "Kent", "Talbot (Third Haven)"],
+      "description": "Eastern Shore Quaker families maintained connections with Quaker meetings in southeastern Pennsylvania. Some families relocated permanently, particularly after the antislavery movement created tension with slaveholding neighbors. Chester County, PA, meetings received Eastern Shore Quaker transfers.",
+      "evidence": "Quaker meeting transfer certificates — formal documents recording a member's move from one meeting to another. Friends Historical Library, Swarthmore College.",
+      "source": "Friends Historical Library. Meeting transfer records."
+    }
+  ],
+  "narrative_hooks": [
+    "The Eastern Shore sent its people in two directions — enslaved workers sold south to the cotton fields, and free Black families moving north to Baltimore and Philadelphia — and {ancestor_name}'s community grew smaller with every departure.",
+    "The Underground Railroad from Dorchester County ran through the marshes, across the farmland, and through Cecil County to the Pennsylvania line — and {ancestor_name} was connected to that corridor whether as freedom seeker, conductor, or witness.",
+    "The steamboat to Baltimore carried produce and people — and {ancestor_name} or {ancestor_name}'s children took that same boat north, carrying the Eastern Shore accent and the Shore's foodways to the city.",
+    "{ancestor_name}'s family left the Eastern Shore one member at a time — a brother to Baltimore first, then a sister, then the parents — chain migration replicating in reverse the pattern that had brought the English settlers three centuries before.",
+    "The Quaker meeting certificate recorded {ancestor_name}'s transfer from Third Haven to a Pennsylvania meeting — a formal document of departure, signed by the meeting, acknowledging that the family was leaving the Shore for the mainland."
+  ],
+  "source_references": [
+    "Clemens, Paul G. E. The Atlantic Economy and Colonial Maryland's Eastern Shore. Ithaca: Cornell University Press, 1980.",
+    "Fields, Barbara J. Slavery and Freedom on the Middle Ground. New Haven: Yale University Press, 1985.",
+    "Larson, Kate Clifford. Bound for the Promised Land. New York: Ballantine Books, 2004.",
+    "Deyle, Steven. Carry Me Back: The Domestic Slave Trade in American Life. New York: Oxford University Press, 2005.",
+    "Wilkerson, Isabel. The Warmth of Other Suns. New York: Random House, 2010.",
+    "Siebert, Wilbur H. The Underground Railroad from Slavery to Freedom. New York: Macmillan, 1898."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["great_migration", "domestic_slave_trade", "reconstruction_era", "antebellum_yeoman_south"],
+    "destination_refs": [],
+    "community_texture_refs": []
+  }
+}

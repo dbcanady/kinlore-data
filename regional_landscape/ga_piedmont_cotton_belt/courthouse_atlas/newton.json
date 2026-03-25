@@ -1,0 +1,55 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Newton County, GA. Record survival, courthouse history, and known losses. Newton County's records are generally complete from its 1821 formation. Sherman's March passed through the county but did not destroy the courthouse.",
+  "courthouse_atlas_id": "ga_newton_courthouse",
+  "display_name": "Newton County, Georgia — Courthouse Atlas",
+  "county": "Newton",
+  "state": "GA",
+  "fips_code": "13217",
+  "cluster_ref": "ga_piedmont_cotton_belt",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1884, "location": "Covington, GA — courthouse square", "records_housed": ["deeds", "marriage licenses", "probate records", "court minutes"] },
+    "previous_courthouses": [
+      { "era": "1822-1884", "location": "Covington, GA", "fate": "Early courthouses replaced. No major fire or war damage to records despite Sherman's passage through the county in 1864." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "newton_no_major_loss", "date": null, "cause": "No major courthouse fire or destruction",
+      "records_destroyed": [], "records_survived": ["deed books", "will books", "court minutes", "marriage records"],
+      "scope": "none",
+      "description": "Newton County's courthouse records survive from the county's 1821 formation with good continuity. Sherman's March passed through Covington in November 1864 but did not destroy the courthouse or its records.",
+      "narrative_impact": "If {ancestor_name} lived in Newton County after 1821, the county records almost certainly survive — deeds, wills, and court minutes run continuously from formation.",
+      "source": "GA Department of Archives and History. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1822, "completeness": "Good", "gaps": "No major gaps", "repository": "Newton County Clerk of Superior Court; GA Archives microfilm", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1822, "completeness": "Good", "gaps": "No major gaps", "repository": "Newton County Probate Court; GA Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1822, "completeness": "Good from formation", "gaps": "Minor gaps in earliest years", "repository": "Newton County Probate Court", "online_access": "FamilySearch; Ancestry.com GA marriages" },
+    "court_minutes": { "earliest_surviving": 1822, "completeness": "Good", "gaps": "No major gaps", "repository": "Newton County Clerk of Superior Court", "online_access": "Limited digitization" },
+    "vital_records": { "birth_registration_start": 1919, "death_registration_start": 1919, "completeness": "Spotty until mid-1920s", "repository": "GA Department of Public Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "Georgia Land Lottery records", "description": "The 1821 lottery distributed Newton County lots.", "repository": "GA Department of Archives and History", "era_coverage": "1821", "genealogical_value": "Essential for establishing initial landowners.", "source": "Cadle, Georgia Land Surveying History and Law (1991)." },
+    { "source_type": "Federal census schedules", "description": "Population schedules 1830-1940. Slave schedules 1850-1860.", "repository": "National Archives; FamilySearch; Ancestry.com", "era_coverage": "1830-1940", "genealogical_value": "Essential for tracking families.", "source": "National Archives and Records Administration." },
+    { "source_type": "Church records — Baptist and Methodist", "description": "Baptist and Methodist churches dominated Newton County. Church minute books supplement civil records.", "repository": "Individual congregations; Mercer University Baptist archives", "era_coverage": "1820s-present", "genealogical_value": "Valuable for marriage, baptism, and membership documentation.", "source": "Mercer University Special Collections." }
+  ],
+  "narrative_hooks": [
+    "Newton County's courthouse survived Sherman's March, and {ancestor_name}'s deeds, wills, and court records are likely intact from the county's 1821 formation.",
+    "The Georgia Land Lottery records show who drew Newton County lots in 1821 — {ancestor_name}'s first claim to the red clay may be documented at the state archives even if the county records are unfamiliar.",
+    "Georgia vital registration did not begin until 1919 — the absence of a birth certificate for {ancestor_name} before that date is normal, not suspicious.",
+    "If {ancestor_name} was a sharecropper in Newton County after 1865, the county records may hold crop lien filings — the legal instruments that documented debt, not ownership."
+  ],
+  "source_references": [
+    "GA Department of Archives and History. Guide to County Records.",
+    "Cadle, Farris W. Georgia Land Surveying History and Law. University of Georgia Press, 1991.",
+    "Works Progress Administration. Historical Records Survey: Georgia. Atlanta, 1937-1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ga_newton",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

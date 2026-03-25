@@ -1,0 +1,127 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for York County, SC. Record survival, courthouse history, and known losses.",
+  "courthouse_atlas_id": "sc_york_courthouse",
+  "display_name": "York County, South Carolina — Courthouse Atlas",
+  "county": "York",
+  "state": "SC",
+  "fips_code": "45091",
+  "cluster_ref": "sc_piedmont_upcountry",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1914,
+      "location": "York, SC — 2 S. Congress Street (county seat is the town of York, not Rock Hill)",
+      "records_housed": ["deeds", "plats", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1785–1823",
+        "location": "Yorkville (now York), courthouse square",
+        "fate": "Early frame courthouse. Replaced as county grew."
+      },
+      {
+        "era": "1823–1852",
+        "location": "Yorkville, courthouse square",
+        "fate": "Brick courthouse. Replaced by larger structure."
+      },
+      {
+        "era": "1852–1914",
+        "location": "Yorkville (renamed York 1915), courthouse square",
+        "fate": "Survived the Civil War — Union forces did not systematically damage the courthouse. Served until replaced by the 1914 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "york_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire or war damage",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage bonds/licenses", "estate files"],
+      "scope": "none",
+      "description": "York County's courthouse has survived without catastrophic fire or war damage. Records run continuously from the county's 1785 formation. York is one of the best-documented Upcountry counties. Notably, York County was a focus of the federal Ku Klux Klan trials of 1871–72, and the trial records (held at the National Archives) provide detailed testimony about Reconstruction-era violence that supplements county records.",
+      "narrative_impact": "If {ancestor_name} lived in York County after 1785, the civil records almost certainly survive. The county's proximity to Charlotte means researchers should also check Mecklenburg County, NC, records for cross-border activity.",
+      "source": "SC Department of Archives and History. Guide to County Records in the South Carolina State Archives."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1785,
+      "completeness": "Excellent — continuous series from county formation",
+      "gaps": "No known significant gaps.",
+      "repository": "York County Register of Deeds; SC Department of Archives and History microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com SC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1787,
+      "completeness": "Excellent — wills and estate records from near-formation",
+      "gaps": "No significant gaps.",
+      "repository": "York County Probate Court; SC Department of Archives and History",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1785,
+      "completeness": "Good — marriage bonds from formation. Licenses required statewide 1911.",
+      "gaps": "Pre-1911 coverage through bonds and church records.",
+      "repository": "York County Probate Court; SC Department of Archives and History",
+      "online_access": "FamilySearch; Ancestry.com SC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1786,
+      "completeness": "Excellent — continuous from near-formation",
+      "gaps": "No significant gaps.",
+      "repository": "SC Department of Archives and History; York County Clerk of Court",
+      "online_access": "SC Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1915,
+      "death_registration_start": 1915,
+      "completeness": "Spotty until approximately 1920.",
+      "repository": "SC DHEC; SC Department of Archives and History"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Springs Industries / Springs Cotton Mills records",
+      "description": "Springs Industries (formerly Springs Cotton Mills), headquartered in Fort Mill, was one of the largest privately held textile companies in America. The Springs family maintained extensive business records including payroll, employment, and housing records for the Fort Mill mill complex.",
+      "repository": "Springs Close Family Archives (access varies); some records at the Fort Mill History Museum; Louise Pettus Archives at Winthrop University (Rock Hill)",
+      "era_coverage": "1880s–1980s",
+      "genealogical_value": "The Springs records are among the most complete textile company archives in the Upcountry. For families who worked at Springs mills in Fort Mill, these records may be more informative than county civil records. Access can be limited due to private family control of some collections.",
+      "source": "Hanchett, Thomas W. Sorting Out the New South City. Chapel Hill: University of North Carolina Press, 1998."
+    },
+    {
+      "source_type": "Ku Klux Klan trial records (1871–1872)",
+      "description": "York County was a primary focus of the federal Ku Klux Klan prosecutions of 1871–72. The trial records include detailed testimony from victims, witnesses, and Klan members about Reconstruction-era violence. These records document individuals and events that do not appear in county records.",
+      "repository": "National Archives and Records Administration, RG 21 (Records of District Courts); published in KKK Testimony Taken by the Joint Select Committee (13 vols., 1872)",
+      "era_coverage": "1868–1872",
+      "genealogical_value": "Valuable for documenting both Black victims and white perpetrators of Reconstruction violence. Testimony names individuals, describes specific events, and provides biographical detail not available from any other source. For Black families in York County during Reconstruction, these trial records may be the most detailed documentation of their lives.",
+      "source": "West, Jerry Lee. The Reconstruction Ku Klux Klan in York County, South Carolina. Jefferson, NC: McFarland, 2002."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790–1940. York County is enumerated from the first federal census.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790–1940",
+      "genealogical_value": "Essential baseline. York County's proximity to Charlotte means some family members may appear in Mecklenburg County, NC, census records — check both sides of the state line.",
+      "source": "National Archives and Records Administration."
+    }
+  ],
+  "narrative_hooks": [
+    "York County's courthouse records run unbroken from 1785, but the most revealing documents about {ancestor_name}'s Reconstruction-era experience may be in the federal Ku Klux Klan trial records at the National Archives — testimony that names names and describes violence the county records never recorded.",
+    "If {ancestor_name} worked at Springs Cotton Mills in Fort Mill, the company's records — among the most complete in the Upcountry — may document {pronoun_possessive} employment, housing, and daily life in ways the county courthouse never did.",
+    "York County sits on the North Carolina border, and {ancestor_name} may appear in records on both sides — check Mecklenburg County, NC, as well, especially after Charlotte's growth began pulling workers across the Catawba River.",
+    "South Carolina did not require marriage licenses until 1911 or birth/death registration until 1915. For {ancestor_name} before those dates, church records are the primary substitute."
+  ],
+  "source_references": [
+    "SC Department of Archives and History. Guide to County Records in the South Carolina State Archives.",
+    "West, Jerry Lee. The Reconstruction Ku Klux Klan in York County, South Carolina. Jefferson, NC: McFarland, 2002.",
+    "Hanchett, Thomas W. Sorting Out the New South City. Chapel Hill: University of North Carolina Press, 1998.",
+    "Works Progress Administration. Historical Records Survey: South Carolina County Records. Columbia, 1937–1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "sc_york",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

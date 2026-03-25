@@ -1,0 +1,105 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Richland County, WI. Records are intact from county formation (1842). The county's extreme Driftless isolation meant some families left minimal county records — small farms in remote coulees might go decades between courthouse appearances.",
+  "courthouse_atlas_id": "wi_richland_courthouse",
+  "display_name": "Richland County, Wisconsin — Courthouse Atlas",
+  "county": "Richland",
+  "state": "WI",
+  "fips_code": "55103",
+  "cluster_ref": "wi_southern_driftless",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1889,
+      "location": "Richland Center, WI — 181 W. Seminary Street",
+      "records_housed": ["deeds", "mortgages", "probate records", "court records", "vital records (post-1907)"]
+    },
+    "previous_courthouses": [
+      { "era": "1842-1856", "location": "Richland Center, early frame building", "fate": "Replaced." },
+      { "era": "1856-1889", "location": "Richland Center, brick building", "fate": "Replaced by current courthouse." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "richland_no_major_loss",
+      "date": null,
+      "cause": "None — no major courthouse fire",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage records"],
+      "scope": "none",
+      "description": "Richland County records are intact from county formation. Record gaps are more likely to reflect the county's extreme rural isolation than courthouse losses — a family on a remote Kickapoo River coulee farm might appear in the deed book when they bought the land and in the probate file when the owner died, with nothing between. This is not a record loss; it is a life lived beyond the courthouse's reach.",
+      "narrative_impact": "If {ancestor_name}'s paper trail in Richland County is thin, the likely explanation is isolation, not destruction. Families in the Kickapoo country interacted with county government less frequently than families in more accessible areas. Check Norwegian Lutheran church records for the western townships.",
+      "source": "Wisconsin Historical Society. Guide to Wisconsin County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1842,
+      "completeness": "Good — from county formation",
+      "gaps": "No known gaps",
+      "repository": "Richland County Register of Deeds; Wisconsin Historical Society",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1845,
+      "completeness": "Good",
+      "gaps": "Minor in earliest years",
+      "repository": "Richland County Probate Court; Wisconsin Historical Society",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1842,
+      "completeness": "Good",
+      "gaps": "Minimal",
+      "repository": "Richland County Register of Deeds; Wisconsin Historical Society",
+      "online_access": "FamilySearch; Ancestry.com WI marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1843,
+      "completeness": "Good",
+      "gaps": "Minor",
+      "repository": "Richland County Clerk of Courts; Wisconsin Historical Society",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1907,
+      "death_registration_start": 1907,
+      "completeness": "Statewide registration from 1907. Compliance in remote Kickapoo valley areas may have been delayed until the 1910s-1920s.",
+      "repository": "Wisconsin Department of Health Services"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Norwegian Lutheran church records",
+      "description": "Norwegian Lutheran congregations in the western townships (Kickapoo country) maintained ministerialbok records. Some of these were small, remote congregations that served a handful of families on adjacent ridgetops.",
+      "repository": "Norwegian-American Historical Association, St. Olaf College; individual congregations; Wisconsin Historical Society",
+      "era_coverage": "1850s-present",
+      "genealogical_value": "Essential for Norwegian families in the Kickapoo country. The remoteness that made county records sparse made church records critical — the Norwegian congregation was often the only institution that documented a family's life events between census enumerations.",
+      "source": "Qualey, Carlton C. Norwegian Settlement in the United States. Northfield, MN: Norwegian-American Historical Association, 1938."
+    },
+    {
+      "source_type": "Richland Center newspaper records",
+      "description": "The Richland Observer and its successors published from the 1850s. Newspaper notices document births, marriages, deaths, and legal proceedings for the entire county.",
+      "repository": "Richland County Historical Society; Wisconsin Historical Society newspaper microfilm; Newspapers.com",
+      "era_coverage": "1856-present",
+      "genealogical_value": "Critical for pre-1907 vital events. Rural correspondents reported community news from the remote townships, providing documentation that no other source captured.",
+      "source": "Wisconsin Historical Society newspaper catalog."
+    }
+  ],
+  "narrative_hooks": [
+    "Richland County's records survive from 1842 — but {ancestor_name} on a remote Kickapoo ridge may have left almost no county records, because the courthouse was twenty miles of bad road away and the farm required no courthouse business.",
+    "The Norwegian church on the ridgetop may hold more about {ancestor_name}'s family than the courthouse in Richland Center — baptisms, confirmations, and marriages recorded in Norwegian by a pastor who knew every family by name.",
+    "Wisconsin vital registration began in 1907, but in the Kickapoo country the registrar may not have reached {ancestor_name}'s ridgetop until years later — check the Richland Observer newspaper for birth and death notices.",
+    "A thin paper trail in Richland County does not mean a thin life — it means a life lived on a ridge where the nearest county road was a mile away and the courthouse might as well have been on the moon."
+  ],
+  "source_references": [
+    "Wisconsin Historical Society. Guide to Wisconsin County Records.",
+    "Qualey, Carlton C. Norwegian Settlement in the United States. Northfield, MN: Norwegian-American Historical Association, 1938.",
+    "Wisconsin Historical Society newspaper catalog."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "wi_richland",
+    "research_guidance_refs": ["vital_records", "church_transfers", "newspapers"],
+    "template_refs": ["record_silences"]
+  }
+}

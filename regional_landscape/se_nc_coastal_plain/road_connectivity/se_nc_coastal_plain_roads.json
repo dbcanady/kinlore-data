@@ -1,0 +1,225 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Road and connectivity network for the SE NC Coastal Plain regional cluster, documenting how transportation shaped isolation, settlement, and migration across nine counties from colonial traces to modern highways.",
+  "connectivity_id": "se_nc_coastal_plain_roads",
+  "display_name": "SE NC Coastal Plain — Road & Connectivity Network",
+  "cluster_ref": "se_nc_coastal_plain",
+  "era_range": "1750-1960",
+
+  "transportation_eras": [
+    {
+      "era_id": "river_and_trace",
+      "era_name": "River and Trace",
+      "date_range": "1750-1830",
+      "primary_modes": ["river barge", "canoe", "wagon on unimproved trace", "horseback"],
+      "description": "Before improved roads, the Neuse, Tar, and upper Cape Fear rivers were the only reliable freight corridors in the SE NC Coastal Plain. Overland travel meant sandy traces through longleaf pine forest, deeply rutted in wet seasons and ankle-deep in dry sand during summer. A farmer in Wayne County hauling tobacco to Fayetteville faced a 2-3 day wagon journey over roughly 70 miles of unimproved track. Inland farms more than a day's ride from navigable water existed in near-total commercial isolation, producing only what the family could consume or trade locally.",
+      "road_conditions": "No engineered surfaces. Sandy loam trails through pine forest, impassable in heavy rain. Swamp crossings required corduroy log roads or long detours. Bridges were rare; most creek crossings were fords that flooded seasonally.",
+      "travel_times": [
+        { "from": "Goldsboro (Wayne Co.)", "to": "Fayetteville (Cumberland Co.)", "mode": "wagon", "time": "2-3 days", "conditions_note": "Sandy trace through pine forest; longer if Neuse tributaries were high" },
+        { "from": "Goldsboro (Wayne Co.)", "to": "Raleigh (Wake Co.)", "mode": "wagon", "time": "3 days", "conditions_note": "No direct road; circuitous route through Smithfield or poor traces northwestward" },
+        { "from": "Goldsboro (Wayne Co.)", "to": "Wilmington (New Hanover Co.)", "mode": "river barge down Neuse to New Bern, then coastal vessel", "time": "4-7 days", "conditions_note": "Dependent on river stage and wind; no direct overland route of any quality" },
+        { "from": "Typical inland farm", "to": "Nearest county seat", "mode": "wagon or horseback", "time": "4-8 hours one way", "conditions_note": "A full day's round trip, meaning court day or market day consumed two working days minimum" }
+      ],
+      "key_routes": [
+        { "route_name": "Neuse River", "type": "navigable river", "year_established": "pre-colonial", "description": "Primary freight artery for Wayne, Lenoir, and Johnston counties. Shallow-draft bateaux carried tobacco, naval stores, and lumber downstream to New Bern and the coast.", "counties_served": ["Wayne", "Lenoir", "Johnston"] },
+        { "route_name": "Tar River", "type": "navigable river", "year_established": "pre-colonial", "description": "Served Nash, Wilson, and Pitt counties. Tar and turpentine — the products that gave the river and the state's people their names — floated downstream to Washington and the Pamlico Sound.", "counties_served": ["Nash", "Wilson", "Pitt"] },
+        { "route_name": "Upper Cape Fear trace to Fayetteville", "type": "unimproved trace", "year_established": "circa 1750", "description": "Sandy wagon track connecting interior Sampson and Cumberland counties to the Cape Fear River port at Fayetteville, the only significant inland market town in the region.", "counties_served": ["Sampson", "Cumberland"] }
+      ],
+      "isolation_index": {
+        "description": "Extreme. A family on an inland Duplin County farm in 1800 might visit the county seat twice a year and see the coast never. News from Raleigh arrived weeks late. A doctor was a day's ride away if one existed in the county at all.",
+        "comparative_note": "Comparable to the Kentucky frontier of the same era, despite being only 100 miles from the Atlantic coast. The flat, swampy terrain and lack of road investment made SE NC one of the most isolated settled regions east of the Appalachians."
+      },
+      "narrative_hook": "In {year}, {ancestor_name} lived barely {distance} from the coast, yet the swamps and sand of the Coastal Plain made that distance feel like a continent — a wagon trip to the county seat consumed a full day, and the wider world arrived only when someone traveled to bring it back.",
+      "source": "Alan D. Watson, 'Internal Improvements in Antebellum North Carolina' (NC Division of Archives and History, 2002); Harry L. Watson, 'An Independent People: The Way We Lived in North Carolina, 1770-1820' (UNC Press, 1983)"
+    },
+    {
+      "era_id": "plank_road_era",
+      "era_name": "Plank Road Era",
+      "date_range": "1830-1860",
+      "primary_modes": ["plank road wagon", "railroad", "river barge", "stagecoach"],
+      "description": "North Carolina invested heavily in plank roads during the 1840s and 1850s, earning the state its 'Rip Van Winkle' awakening nickname as it tried to catch up with Virginia and South Carolina. The Fayetteville & Western Plank Road, the longest in the world at 129 miles, connected Fayetteville to Salem and opened the interior to market agriculture. Railroads arrived simultaneously: the Wilmington & Weldon Railroad (1840) crossed Nash County, and the Atlantic & NC Railroad (1858) made Goldsboro a junction town. The effect was dramatic but uneven — counties along the railroad saw land values rise and towns spring up around depots, while counties bypassed by the rails remained in their colonial-era isolation.",
+      "road_conditions": "Plank roads offered smooth passage when new but deteriorated within 5-8 years as pine planks rotted in the humid climate. Toll gates every few miles charged 1-2 cents per mile for a wagon. Away from plank roads and railroads, conditions remained unchanged from the prior era.",
+      "travel_times": [
+        { "from": "Goldsboro (Wayne Co.)", "to": "Fayetteville (Cumberland Co.)", "mode": "plank road wagon", "time": "1 day (10-12 hours)", "conditions_note": "Plank road cut travel time by more than half compared to sandy traces; toll cost approximately 75 cents for a loaded wagon" },
+        { "from": "Goldsboro (Wayne Co.)", "to": "Morehead City (Carteret Co.)", "mode": "Atlantic & NC Railroad", "time": "4-5 hours (after 1858)", "conditions_note": "The railroad that made Goldsboro; first reliable east-west connection across the Coastal Plain" },
+        { "from": "Goldsboro (Wayne Co.)", "to": "Raleigh (Wake Co.)", "mode": "NC Railroad", "time": "4-5 hours (after 1856)", "conditions_note": "Connection via NC Railroad transformed Goldsboro from crossroads village to regional hub" },
+        { "from": "Typical inland farm (off-railroad)", "to": "Nearest county seat", "mode": "wagon on unimproved road", "time": "4-8 hours one way", "conditions_note": "For families not near a plank road or railroad, nothing changed — isolation persisted within sight of progress" }
+      ],
+      "key_routes": [
+        { "route_name": "Wilmington & Weldon Railroad", "type": "railroad", "year_established": 1840, "description": "At 161 miles, the longest railroad in the world when completed. Crossed Nash County and connected the port of Wilmington to the Virginia border, bypassing most of the Coastal Plain interior.", "counties_served": ["Nash"] },
+        { "route_name": "Atlantic & North Carolina Railroad", "type": "railroad", "year_established": 1858, "description": "Connected Goldsboro to the port at Morehead City, creating the first reliable east-west corridor across the Coastal Plain. Made Goldsboro a junction where east-west and north-south rail lines crossed.", "counties_served": ["Wayne", "Lenoir"] },
+        { "route_name": "North Carolina Railroad", "type": "railroad", "year_established": 1856, "description": "Connected Goldsboro to Charlotte via Raleigh and Greensboro. The backbone of the state's antebellum rail network and the line that made Goldsboro matter.", "counties_served": ["Wayne", "Johnston"] },
+        { "route_name": "Fayetteville & Western Plank Road", "type": "plank road", "year_established": 1849, "description": "The longest plank road in the world, connecting Fayetteville to Salem (129 miles). Primarily served Cumberland County within this cluster, channeling Piedmont trade through Fayetteville.", "counties_served": ["Cumberland"] }
+      ],
+      "isolation_index": {
+        "description": "Sharply bifurcated. Wayne County (Goldsboro) went from isolated to connected in a single decade. Duplin and Sampson counties, bypassed by both railroads and major plank roads, remained as isolated as they had been in 1790.",
+        "comparative_note": "The gap between railroad counties and non-railroad counties in SE NC was among the starkest in the antebellum South — a 10-mile difference in location could mean a 50-year difference in connectivity."
+      },
+      "narrative_hook": "When the Atlantic & NC Railroad reached Goldsboro in {year}, {ancestor_name}'s county suddenly had a direct line to the coast — but for families in {neighboring_county}, still a full day's wagon ride from the nearest depot, the railroad might as well have been on the moon.",
+      "source": "Robert B. Starling, 'The Plank Road Movement in North Carolina' (North Carolina Historical Review, Vol. 16, Nos. 1-2, 1939); Allen W. Trelease, 'The North Carolina Railroad, 1849-1871, and the Modernization of North Carolina' (UNC Press, 1991)"
+    },
+    {
+      "era_id": "railroad_dominance",
+      "era_name": "Railroad Dominance",
+      "date_range": "1860-1920",
+      "primary_modes": ["railroad", "wagon on unimproved road", "horseback"],
+      "description": "The Civil War destroyed much of the region's railroad infrastructure — Sherman's forces tore up track, burned depots, and twisted rails around trees in the March 1865 campaign through Goldsboro. Reconstruction-era rebuilding restored the main lines by the mid-1870s, and new branch lines extended rail service into previously isolated counties. Goldsboro solidified its position as the dominant junction in the Coastal Plain, where the Atlantic & NC, Wilmington & Weldon, and new branch lines converged. Small towns grew around every depot — Mount Olive, Faison, Calypso — while communities without stations stagnated or disappeared. By 1900, the railroad defined the economic geography of the region.",
+      "road_conditions": "County roads remained unimproved sand and dirt. State government invested almost exclusively in railroads, leaving road maintenance to county corvee labor (required unpaid road work by citizens, typically 6 days per year). The result was a network of rough farm-to-market tracks suitable only for local travel.",
+      "travel_times": [
+        { "from": "Goldsboro (Wayne Co.)", "to": "Fayetteville (Cumberland Co.)", "mode": "railroad", "time": "3 hours", "conditions_note": "Via connection through Wilmington & Weldon line or branch routes; multiple daily departures by 1890" },
+        { "from": "Goldsboro (Wayne Co.)", "to": "Raleigh (Wake Co.)", "mode": "railroad", "time": "3-4 hours", "conditions_note": "NC Railroad main line; daily service with mail, freight, and passenger cars" },
+        { "from": "Goldsboro (Wayne Co.)", "to": "Wilmington (New Hanover Co.)", "mode": "railroad", "time": "3-4 hours", "conditions_note": "Direct Wilmington & Weldon connection; the same journey that took a week by river in 1820" },
+        { "from": "Typical farm (off-railroad)", "to": "Nearest railroad depot", "mode": "wagon", "time": "2-4 hours one way", "conditions_note": "Farmers hauled tobacco and cotton to the nearest depot; the depot, not the county seat, became the center of commercial life" }
+      ],
+      "key_routes": [
+        { "route_name": "Goldsboro Junction complex", "type": "railroad junction", "year_established": "1858, rebuilt post-1865", "description": "Convergence of the Atlantic & NC, NC Railroad, and Wilmington & Weldon lines made Goldsboro the most important rail junction between Raleigh and the coast. The junction employed hundreds and drew warehouses, cotton buyers, and hotels.", "counties_served": ["Wayne"] },
+        { "route_name": "Branch lines to rural counties", "type": "railroad branch lines", "year_established": "1870s-1900s", "description": "Short branch lines extended from main corridors into Duplin, Sampson, Wilson, and Pitt counties, finally connecting communities that had waited 30 years for rail service. The arrival of a branch line typically doubled local land values within five years.", "counties_served": ["Duplin", "Sampson", "Wilson", "Pitt"] },
+        { "route_name": "Atlantic Coast Line Railroad", "type": "railroad", "year_established": "1900 (consolidation)", "description": "Consolidation of the Wilmington & Weldon and other lines into the Atlantic Coast Line created a through-route from Florida to Virginia passing through Nash, Wilson, and the eastern edge of the cluster.", "counties_served": ["Nash", "Wilson"] }
+      ],
+      "isolation_index": {
+        "description": "Moderate and improving. By 1900, most county seats had railroad service, though many rural communities remained 10-20 miles from a depot. The railroad collapsed distance for those near it but created a two-tier society: railroad people and backcountry people.",
+        "comparative_note": "SE NC's railroad network by 1900 was adequate for a rural agricultural region but sparse compared to the Piedmont or the Northeast. A Wayne County farmer was better connected than his grandfather but still worse connected than a contemporary in Guilford or Mecklenburg County."
+      },
+      "narrative_hook": "By {year}, the railroad had redrawn the map of {county} — the towns that grew around depots thrived, and the crossroads communities that the rails bypassed slowly emptied, their residents walking or riding wagons to the depot towns where the future was arriving on schedule.",
+      "source": "Allen W. Trelease, 'The North Carolina Railroad, 1849-1871, and the Modernization of North Carolina' (UNC Press, 1991); Mark Aldrich, 'Death Rode the Rails: American Railroad Accidents and Safety, 1828-1965' (Johns Hopkins University Press, 2006)"
+    },
+    {
+      "era_id": "early_automobile",
+      "era_name": "Early Automobile",
+      "date_range": "1920-1940",
+      "primary_modes": ["automobile", "bus", "railroad", "wagon (declining)"],
+      "description": "The automobile arrived in SE NC slowly and unevenly. The state highway system, established in 1921 under Governor Cameron Morrison's 'Good Roads' program, began paving major routes, but rural county roads remained sandy and unpaved well into the 1930s. Highway 70 (Goldsboro to Raleigh) and Highway 301 (north-south through Wilson and Nash) became the first paved corridors. A Model T cost roughly $300 in the mid-1920s — beyond reach for most tenant farmers and sharecroppers, but transformative for landowners and merchants who could afford one. For the first time, a farm family could reach the county seat and return in a single morning rather than losing a full day.",
+      "road_conditions": "State highways paved with asphalt or concrete by the late 1920s. County roads remained sand and clay, rutted and often impassable after heavy rain. The contrast between a smooth highway and a sandy farm lane a quarter mile away was stark and visible.",
+      "travel_times": [
+        { "from": "Goldsboro (Wayne Co.)", "to": "Fayetteville (Cumberland Co.)", "mode": "automobile", "time": "2-3 hours", "conditions_note": "Paved highway for most of the route by the 1930s; still slower than modern driving due to two-lane roads and town speed zones" },
+        { "from": "Goldsboro (Wayne Co.)", "to": "Raleigh (Wake Co.)", "mode": "automobile via Highway 70", "time": "2 hours", "conditions_note": "Highway 70 was one of the first paved east-west routes across the Coastal Plain; the trip that took 3 days in 1810 now took a morning" },
+        { "from": "Typical farm", "to": "Nearest county seat", "mode": "automobile", "time": "30-60 minutes", "conditions_note": "If the family owned a car and the farm lane to the highway was passable; many tenant farmers still relied on mule and wagon into the 1930s" },
+        { "from": "Typical farm", "to": "Nearest county seat", "mode": "mule and wagon", "time": "3-5 hours one way", "conditions_note": "Sharecroppers and tenants without automobiles experienced the same isolation their grandparents had known; the car created a mobility class divide" }
+      ],
+      "key_routes": [
+        { "route_name": "US Highway 70", "type": "paved highway", "year_established": 1926, "description": "East-west route from Raleigh through Smithfield and Goldsboro to the coast. The first paved highway to cross the Coastal Plain, carrying both automobile traffic and the region's first intercity bus service.", "counties_served": ["Johnston", "Wayne", "Lenoir"] },
+        { "route_name": "US Highway 301", "type": "paved highway", "year_established": 1926, "description": "North-south route through Wilson and Nash counties, part of the major East Coast corridor between Florida and New England. Brought through-traffic, motor courts, and roadside commerce to towns along its path.", "counties_served": ["Nash", "Wilson", "Johnston"] },
+        { "route_name": "US Highway 117", "type": "paved highway", "year_established": "late 1920s", "description": "Connected Goldsboro south through Duplin County to Wilmington, finally providing a reliable year-round overland route to the coast for the interior counties.", "counties_served": ["Wayne", "Duplin"] }
+      ],
+      "isolation_index": {
+        "description": "Declining for automobile owners; unchanged for those without. The car split SE NC into two worlds: families with a Ford could reach Raleigh in a morning, while sharecropping families a mile off the highway still measured distance in hours behind a mule. Race and class determined which world a family inhabited.",
+        "comparative_note": "Rural SE NC in the 1930s still had worse road access than most of the Piedmont had achieved by 1910. The Coastal Plain's flat, sandy soil and dispersed settlement pattern made road improvement expensive relative to the tax base available."
+      },
+      "narrative_hook": "In {year}, whether {ancestor_name} experienced {county} as a connected place or an isolated one depended on a single question: could the family afford an automobile? A landowner with a Model T could reach Raleigh by lunch; a sharecropper a mile away still measured the same distance in mule-hours.",
+      "source": "Cecil Kenneth Brown, 'The State Highway System of North Carolina: Its Evolution and Present Status' (UNC Press, 1931); Thomas W. Hanchett, 'Sorting Out the New South City: Race, Class, and Urban Development in Charlotte, 1875-1975' (UNC Press, 1998); Lu Ann Jones, 'Mama Learned Us to Work: Farm Women in the New South' (UNC Press, 2002)"
+    },
+    {
+      "era_id": "modern_highway",
+      "era_name": "Modern Highway",
+      "date_range": "1940-1960",
+      "primary_modes": ["automobile", "bus", "truck freight", "railroad (declining for passengers)"],
+      "description": "World War II broke the Coastal Plain's last isolation. Military construction for Fort Bragg (Cumberland County) and Seymour Johnson Army Air Field (Wayne County, 1942) paved roads that the state and counties could not have afforded on their own. Federal defense dollars graded, drained, and paved farm-to-market roads across the region. After the war, automobile ownership became common even among moderate-income families, and bus service connected every county seat. By 1960, the isolation that had defined rural SE NC for two centuries was effectively gone — a transformation compressed into a single generation.",
+      "road_conditions": "State highways fully paved with modern surfaces. Most county roads paved or hard-surfaced by 1955. Military access roads built to high standards became permanent public roads. Rural electrification and telephone service accompanied road improvements, ending multiple dimensions of isolation simultaneously.",
+      "travel_times": [
+        { "from": "Goldsboro (Wayne Co.)", "to": "Fayetteville (Cumberland Co.)", "mode": "automobile", "time": "1.5-2 hours", "conditions_note": "Fully paved route; the journey that took 2-3 days in 1820 now took less time than a church service" },
+        { "from": "Goldsboro (Wayne Co.)", "to": "Raleigh (Wake Co.)", "mode": "automobile via Highway 70", "time": "1.5 hours", "conditions_note": "Improved Highway 70 with fewer bottlenecks; daily commuting from Johnston County to Raleigh became possible" },
+        { "from": "Goldsboro (Wayne Co.)", "to": "Wilmington (New Hanover Co.)", "mode": "automobile via Highway 117", "time": "2 hours", "conditions_note": "Fully paved; the coast was now a day trip rather than a week-long expedition" },
+        { "from": "Typical farm", "to": "Nearest county seat", "mode": "automobile", "time": "15-30 minutes", "conditions_note": "Paved roads reached most rural communities; the county seat became a routine destination rather than a rare journey" }
+      ],
+      "key_routes": [
+        { "route_name": "Military access roads (Fort Bragg / Seymour Johnson AFB)", "type": "paved military/public highway", "year_established": "1941-1943", "description": "Federal defense construction paved roads throughout Cumberland and Wayne counties and improved connecting routes across the region. These roads served military logistics during the war and became the backbone of the postwar rural road network.", "counties_served": ["Cumberland", "Wayne", "Sampson", "Johnston"] },
+        { "route_name": "US Highway 70 (improved)", "type": "paved highway", "year_established": "improved 1940s-1950s", "description": "Widened and improved to handle military and growing civilian traffic. The primary east-west corridor across the Coastal Plain, carrying increasing commuter traffic between Goldsboro and Raleigh.", "counties_served": ["Johnston", "Wayne", "Lenoir"] },
+        { "route_name": "US Highway 301 (improved)", "type": "paved highway", "year_established": "improved 1940s-1950s", "description": "The main north-south automobile corridor through the eastern Coastal Plain before Interstate 95. Motel strips, filling stations, and restaurants lined the highway through Wilson, creating a roadside economy that employed hundreds.", "counties_served": ["Nash", "Wilson", "Johnston"] }
+      ],
+      "isolation_index": {
+        "description": "Low. By 1960, automobile ownership was nearly universal among white families and increasingly common among Black families. Bus service reached every county seat. The physical isolation that had shaped two centuries of Coastal Plain life was broken.",
+        "comparative_note": "The gap between SE NC and the Piedmont, which had persisted since colonial settlement, finally closed in the 1950s. Interstate 95 (under construction by 1960) would soon make the region a through-corridor rather than a backwater."
+      },
+      "narrative_hook": "By {year}, {ancestor_name} could drive from the family farm to Raleigh in under two hours on paved roads — a journey that would have taken {ancestor_name}'s great-grandparents three days by wagon through sand and swamp, if they had ever made it at all.",
+      "source": "Sarah McCulloh Lemmon, 'North Carolina's Role in World War II' (NC Division of Archives and History, 1964); James R. Leach, 'Land of Longleaf: A History of Wayne County, North Carolina' (Wayne County Historical Association, 2000)"
+    }
+  ],
+
+  "railroad_timeline": [
+    {
+      "railroad_name": "Wilmington & Weldon Railroad",
+      "year_arrived": 1840,
+      "stations": [
+        { "station_name": "Weldon", "county": "Halifax (north of cluster)", "significance": "Northern terminus; connection point to Virginia railroads" },
+        { "station_name": "Rocky Mount", "county": "Nash", "significance": "First major depot in the cluster; cotton and tobacco shipping point that grew from hamlet to town within a decade of the railroad's arrival" },
+        { "station_name": "Wilson", "county": "Wilson", "significance": "Junction point after branch lines extended; became the world's largest bright-leaf tobacco market by 1900, a status entirely dependent on railroad shipping" }
+      ],
+      "impact": "The longest railroad in the world when completed, crossing Nash County and transforming Rocky Mount from a rural crossroads into a commercial center. Primarily served the eastern edge of the cluster; interior counties saw no direct benefit for another two decades.",
+      "source": "H.T. Lefler and A.R. Newsome, 'North Carolina: The History of a Southern State' (UNC Press, 3rd ed., 1973)"
+    },
+    {
+      "railroad_name": "North Carolina Railroad",
+      "year_arrived": 1856,
+      "stations": [
+        { "station_name": "Goldsboro", "county": "Wayne", "significance": "Eastern terminus; intersection with the Atlantic & NC Railroad made Goldsboro a junction town — the railroad's gift to a previously unremarkable crossroads" },
+        { "station_name": "Smithfield", "county": "Johnston", "significance": "Depot for Johnston County's agricultural trade; connection point for families traveling to Raleigh" }
+      ],
+      "impact": "Connected Goldsboro to Raleigh, Greensboro, and Charlotte, linking the Coastal Plain to the Piedmont for the first time by rail. Goldsboro's population doubled within a decade of the railroad's arrival. The line made east-west travel across North Carolina practical for ordinary people.",
+      "source": "Allen W. Trelease, 'The North Carolina Railroad, 1849-1871, and the Modernization of North Carolina' (UNC Press, 1991)"
+    },
+    {
+      "railroad_name": "Atlantic & North Carolina Railroad",
+      "year_arrived": 1858,
+      "stations": [
+        { "station_name": "Goldsboro", "county": "Wayne", "significance": "Western terminus and junction with NC Railroad; the intersection that made Goldsboro" },
+        { "station_name": "Kinston", "county": "Lenoir", "significance": "Principal depot for Lenoir County; opened the county's timber and agricultural products to coastal markets" },
+        { "station_name": "New Bern", "county": "Craven (east of cluster)", "significance": "Historic colonial capital; the railroad revived its commercial importance" },
+        { "station_name": "Morehead City", "county": "Carteret (east of cluster)", "significance": "Eastern terminus and port; intended to make Morehead City a deep-water shipping rival to Wilmington" }
+      ],
+      "impact": "Created the first east-west corridor across the Coastal Plain from Goldsboro to the coast. Lenoir County, previously accessible only by river, gained reliable year-round transportation. The railroad carried Confederate troops and supplies during the Civil War and was heavily damaged; rebuilt by the early 1870s.",
+      "source": "Alan D. Watson, 'Internal Improvements in Antebellum North Carolina' (NC Division of Archives and History, 2002)"
+    },
+    {
+      "railroad_name": "Atlantic Coast Line Railroad (consolidation)",
+      "year_arrived": 1900,
+      "stations": [
+        { "station_name": "Rocky Mount", "county": "Nash", "significance": "Major division point and repair shops; employed hundreds and anchored the local economy" },
+        { "station_name": "Wilson", "county": "Wilson", "significance": "Tobacco market junction; the railroad made Wilson the hub of the bright-leaf trade" },
+        { "station_name": "Fayetteville", "county": "Cumberland", "significance": "Connected the old Cape Fear River port to the modern through-route from Florida to Virginia" }
+      ],
+      "impact": "Consolidation of the Wilmington & Weldon and affiliated lines created a through-route from Florida to Richmond passing through the cluster. Rocky Mount's repair shops and Wilson's tobacco warehouses became major employers. The ACL was the largest employer of Black labor in eastern NC outside of agriculture.",
+      "source": "Robert Wayne Johnston, 'The Atlantic Coast Line Railroad and Its Predecessor Lines' (reprinted by TLC Publishing, 2003)"
+    },
+    {
+      "railroad_name": "Branch lines (various short lines)",
+      "year_arrived": 1880,
+      "stations": [
+        { "station_name": "Mount Olive", "county": "Wayne/Duplin border", "significance": "Opened Duplin County's pickle cucumber industry to outside markets" },
+        { "station_name": "Clinton", "county": "Sampson", "significance": "County seat finally connected to the rail network after decades of isolation; spurred growth of Sampson County's lumber industry" },
+        { "station_name": "Greenville", "county": "Pitt", "significance": "Pitt County's seat connected by branch line; later became home to East Carolina Teachers Training School (now ECU)" }
+      ],
+      "impact": "Branch lines built between the 1870s and 1900s extended railroad service to counties that the main lines had bypassed. For communities like Clinton (Sampson County), the arrival of a branch line in the 1880s-1890s ended 130 years of near-total isolation and transformed the local economy from subsistence farming to commercial timber and tobacco.",
+      "source": "James R. Leach, 'Land of Longleaf: A History of Wayne County, North Carolina' (Wayne County Historical Association, 2000)"
+    }
+  ],
+
+  "narrative_hooks": [
+    "In {year}, {ancestor_name} lived in {county}, where the nearest railroad depot was {distance} away — close enough to hear the whistle on a clear night, too far to make the trip without losing a day's work.",
+    "For {ancestor_name}'s family in {decade}s {county}, the world beyond the county line was not a place you visited — it was a place you heard about from people who had been there, and even they had not been far.",
+    "The {railroad_name} arrived in {year}, and within a decade {ancestor_name}'s {town} had grown from a crossroads with a store into a place with a depot, a cotton gin, and enough people to support a church with a full-time minister.",
+    "In {year}, {ancestor_name} could have walked from the family farm to the new highway and watched automobiles pass at thirty miles an hour on smooth asphalt — then turned around and walked back down a sandy lane that looked exactly as it had when {ancestor_name}'s grandparents first cleared it.",
+    "When Seymour Johnson Field opened in {year}, the military paved roads across Wayne County that the state had never found the money to build — and {ancestor_name}'s family, for the first time, could reach Goldsboro without planning the trip around the weather.",
+    "The same {distance} that took {ancestor_name}'s grandfather three days by wagon in {early_year} took {ancestor_name} two hours by automobile in {later_year} — the Coastal Plain had not shrunk, but the sand and swamp that defined it had finally been paved over.",
+    "{ancestor_name} likely knew the isolation of {county} not as an abstraction but as a physical fact: the sandy roads that swallowed wagon wheels, the creeks that flooded without warning, the miles of pine forest between one farm and the next where a broken axle meant walking home."
+  ],
+
+  "source_references": [
+    "Alan D. Watson, 'Internal Improvements in Antebellum North Carolina' (NC Division of Archives and History, 2002)",
+    "Allen W. Trelease, 'The North Carolina Railroad, 1849-1871, and the Modernization of North Carolina' (UNC Press, 1991)",
+    "Harry L. Watson, 'An Independent People: The Way We Lived in North Carolina, 1770-1820' (UNC Press, 1983)",
+    "Cecil Kenneth Brown, 'The State Highway System of North Carolina: Its Evolution and Present Status' (UNC Press, 1931)",
+    "Robert B. Starling, 'The Plank Road Movement in North Carolina' (North Carolina Historical Review, Vol. 16, Nos. 1-2, 1939)",
+    "Lu Ann Jones, 'Mama Learned Us to Work: Farm Women in the New South' (UNC Press, 2002)",
+    "H.T. Lefler and A.R. Newsome, 'North Carolina: The History of a Southern State' (UNC Press, 3rd ed., 1973)",
+    "Sarah McCulloh Lemmon, 'North Carolina's Role in World War II' (NC Division of Archives and History, 1964)",
+    "James R. Leach, 'Land of Longleaf: A History of Wayne County, North Carolina' (Wayne County Historical Association, 2000)"
+  ],
+
+  "nel_cross_references": {
+    "route_refs": [
+      "great_wagon_road",
+      "intercity_bus"
+    ]
+  }
+}

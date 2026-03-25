@@ -1,0 +1,133 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Marion County, IN. Record survival, courthouse history, and known losses. Marion County is the seat of the state capital — records are exceptionally well-preserved with multiple repositories including the Indiana State Archives.",
+  "courthouse_atlas_id": "in_marion_courthouse",
+  "display_name": "Marion County, Indiana — Courthouse Atlas",
+  "county": "Marion",
+  "state": "IN",
+  "fips_code": "18097",
+  "cluster_ref": "in_central_white_river",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1962,
+      "location": "Indianapolis, IN — City-County Building, 200 E. Washington Street",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "court records", "probate records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1822-1836",
+        "location": "Indianapolis, courthouse square at Monument Circle",
+        "fate": "Log and frame courthouse. Replaced as the county and state capital grew."
+      },
+      {
+        "era": "1836-1876",
+        "location": "Indianapolis, same site",
+        "fate": "Brick courthouse. Served through the Civil War. Became inadequate for a growing city."
+      },
+      {
+        "era": "1876-1962",
+        "location": "Indianapolis, relocated to nearby site",
+        "fate": "Substantial courthouse building. Served through the industrial and automotive eras. Replaced by the City-County Building after Unigov consolidation planning began."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "marion_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire, flood, or war damage to county records",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "mortgage records", "will books", "court minutes", "marriage records", "naturalization records"],
+      "scope": "none",
+      "description": "Marion County's records are among the best-preserved in Indiana. The courthouse survived the Civil War without damage (Indianapolis was never threatened). No significant fire or flood has destroyed county records. As the state capital, Marion County benefits from proximity to the Indiana State Archives and Indiana State Library, which hold duplicate and supplemental records. Gaps in the record are more likely to reflect the ancestor's circumstances — transience, poverty, or industrial employment that left few county records — than institutional loss.",
+      "narrative_impact": "If {ancestor_name} lived in Marion County, the records almost certainly survive. Gaps in the paper trail point to the ancestor's circumstances — industrial workers who rented, moved frequently, or lived in boarding houses left fewer county records than property-owning families.",
+      "source": "Indiana Commission on Public Records. Guide to Indiana County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1822,
+      "completeness": "Excellent — continuous series from county organization",
+      "gaps": "No known significant gaps.",
+      "repository": "Marion County Recorder; Indiana State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com Indiana land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1822,
+      "completeness": "Excellent — probate records survive from county organization",
+      "gaps": "No significant gaps. Loose estate papers are less complete than bound volumes.",
+      "repository": "Marion County Clerk; Indiana State Archives",
+      "online_access": "FamilySearch microfilm; limited digitization"
+    },
+    "marriages": {
+      "earliest_surviving": 1822,
+      "completeness": "Excellent — marriage records continuous from county organization. Indiana required marriage licenses from statehood (1816).",
+      "gaps": "No significant gaps.",
+      "repository": "Marion County Clerk; Indiana State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com Indiana marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1822,
+      "completeness": "Excellent — Circuit Court and Common Pleas records well-preserved",
+      "gaps": "Minor gaps in earliest volumes.",
+      "repository": "Marion County Clerk; Indiana State Archives",
+      "online_access": "Indiana State Archives microfilm; limited digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1882,
+      "death_registration_start": 1882,
+      "completeness": "Indiana began statewide vital registration in 1882, but compliance was inconsistent until approximately 1900. Indianapolis city health department records may be more complete than county records for the city proper.",
+      "repository": "Indiana State Department of Health; Indiana State Archives"
+    },
+    "naturalization_records": {
+      "earliest_surviving": 1854,
+      "completeness": "Good — Marion County's federal and state courts processed significant numbers of naturalizations given Indianapolis's immigrant population (German, Irish, later Eastern European).",
+      "gaps": "Scattered gaps in the earliest decades.",
+      "repository": "Indiana State Archives; National Archives — Great Lakes Region (Chicago)"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "City directories — Indianapolis",
+      "description": "Annual city directories for Indianapolis were published from the 1850s through the twentieth century. They list residents by name with address and occupation — effectively an annual census for the city.",
+      "repository": "Indiana State Library; Indianapolis-Marion County Public Library; Ancestry.com city directories",
+      "era_coverage": "1855-present",
+      "genealogical_value": "Critical for tracking families between census years. Addresses place individuals in specific neighborhoods. Occupations track economic mobility. Directories list boarders, widows, and renters who may not appear in deed records.",
+      "source": "Indiana State Library finding aids."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1830-1940. Marion County first enumerated in 1830. Manufacturing schedules (1850-1880) valuable for industrial Indianapolis.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1830-1940",
+      "genealogical_value": "Essential for tracking families. Manufacturing schedules document early Indianapolis industry.",
+      "source": "National Archives and Records Administration."
+    },
+    {
+      "source_type": "Church records — German congregations",
+      "description": "German Lutheran, Catholic, and Reformed church records in Indianapolis are especially valuable. St. John's German Evangelical, Sacred Heart Catholic, and Zion Evangelical churches maintained records in German through the early twentieth century.",
+      "repository": "Individual congregations; Indiana Historical Society; Archdiocese of Indianapolis Archives",
+      "era_coverage": "1840s-present",
+      "genealogical_value": "German-language church records include baptisms, confirmations, marriages, and burials with detail that civil records lack. Valuable for tracking German immigrant families.",
+      "source": "Indiana Historical Society finding aids."
+    }
+  ],
+  "narrative_hooks": [
+    "Marion County's records survive complete from 1822 — if {ancestor_name} lived in Indianapolis, the paper trail almost certainly exists. Gaps say more about the ancestor than the courthouse.",
+    "Indianapolis city directories list {ancestor_name}'s name, address, and occupation every year — a running record of where {pronoun_subject} lived and what {pronoun_subject} did that census records only capture once a decade.",
+    "Before Indiana's 1882 vital registration law, a missing birth or death record for {ancestor_name} is standard — check church records, cemetery records, and the federal census.",
+    "If {ancestor_name} was a German immigrant in Indianapolis, the church records at St. John's or Sacred Heart may document the family in German — baptisms, confirmations, and marriages with detail the county recorder never captured."
+  ],
+  "source_references": [
+    "Indiana Commission on Public Records. Guide to Indiana County Records.",
+    "Bodenhamer, David J., and Robert G. Barrows, eds. The Encyclopedia of Indianapolis. Bloomington: Indiana University Press, 1994.",
+    "Indiana State Library finding aids and genealogical resources.",
+    "Indiana Historical Society collections guide."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "in_marion",
+    "research_guidance_refs": ["census_gaps", "vital_records"],
+    "template_refs": ["record_silences"]
+  }
+}

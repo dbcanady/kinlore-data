@@ -1,0 +1,116 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Warren County, Virginia. Record survival, courthouse history, and known losses for the small northern gateway county at the Shenandoah's confluence.",
+  "courthouse_atlas_id": "va_warren_courthouse",
+  "display_name": "Warren County, Virginia — Courthouse Atlas",
+  "county": "Warren",
+  "state": "VA",
+  "fips_code": "51187",
+  "cluster_ref": "va_shenandoah_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1836,
+      "location": "Front Royal, VA — 1 East Main Street (renovated and expanded; judicial center added in the twentieth century)",
+      "records_housed": ["deeds", "wills", "court order books", "marriage registers", "fiduciary records", "chancery files"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1836",
+        "location": "No previous courthouse — Warren County was created in 1836 and its first courthouse was built immediately at Front Royal",
+        "fate": "The original 1836 building has been modified but remains in use."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "warren_civil_war_damage",
+      "date": "1862–1864",
+      "cause": "Civil War — Battle of Front Royal and subsequent occupations",
+      "records_destroyed": ["some loose papers", "justice of the peace dockets", "some chancery loose papers"],
+      "records_survived": ["deed books", "will books", "court order books", "marriage records"],
+      "scope": "minor",
+      "description": "Front Royal was the site of the Battle of Front Royal (May 23, 1862) and changed hands multiple times during the war. The courthouse was used by both armies at various points. Despite the town's strategic importance, the bound court records survived. Some loose papers and justice of the peace files were lost or scattered during the occupations.",
+      "narrative_impact": "Warren County's bound records survived the war in reasonable condition. If {ancestor_name}'s Warren County records are missing, the most common cause is the county's late formation (1836) — earlier records are in Frederick or Shenandoah counties.",
+      "source": "Tanner, Robert G. Stonewall in the Valley: Thomas J. 'Stonewall' Jackson's Shenandoah Valley Campaign. Garden City, NY: Doubleday, 1976."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1836,
+      "completeness": "Good — continuous from county formation",
+      "gaps": "No known significant gaps. Pre-1836 deeds are in Frederick County (for the western portion) and Shenandoah County (for the eastern portion).",
+      "repository": "Warren County Circuit Court, Front Royal; Library of Virginia microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com Virginia land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1836,
+      "completeness": "Good — continuous from formation",
+      "gaps": "The earliest records are thin — Warren County's population was modest. Pre-1836 estates are in the parent counties.",
+      "repository": "Warren County Circuit Court; Library of Virginia",
+      "online_access": "FamilySearch microfilm; Library of Virginia digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1836,
+      "completeness": "Good — marriage records survive from formation",
+      "gaps": "Pre-1836 marriages are in Frederick or Shenandoah County records. Some early marriages may have been performed and recorded in the parent counties even after Warren's formation.",
+      "repository": "Warren County Circuit Court; Library of Virginia microfilm",
+      "online_access": "FamilySearch; Ancestry.com Virginia marriages collection"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1836,
+      "completeness": "Good — County Court order books are continuous from formation",
+      "gaps": "No known significant gaps.",
+      "repository": "Warren County Circuit Court; Library of Virginia microfilm",
+      "online_access": "Library of Virginia microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1853,
+      "death_registration_start": 1853,
+      "completeness": "Fair — compliance with the 1853–1896 mandate was uneven. Registration resumed 1912. Front Royal town records may supplement county records for urban residents.",
+      "repository": "Virginia Department of Health, Office of Vital Records; Library of Virginia for pre-1896 registers"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Frederick and Shenandoah County parent records (pre-1836)",
+      "description": "Warren County was formed from Frederick County and Shenandoah County in 1836. All records before that date are split between the two parent counties — Frederick at Winchester and Shenandoah at Woodstock.",
+      "repository": "Frederick County Circuit Court, Winchester; Shenandoah County Circuit Court, Woodstock; Library of Virginia",
+      "era_coverage": "1743–1836 (Frederick portion); 1772–1836 (Shenandoah portion)",
+      "genealogical_value": "Essential for any family in the Front Royal area before 1836. The boundary between the parent counties ran roughly along the river, so researchers need to know which side of the water the family's land was on.",
+      "source": "Library of Virginia. A Guide to Virginia County and City Records on Microfilm. Richmond, various editions."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Warren County appears as a separate enumeration beginning with the 1840 census. For 1790–1830, Warren County residents are enumerated under Frederick or Shenandoah counties.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1840–1940 (Warren County); 1790–1830 (parent counties)",
+      "genealogical_value": "The transition from parent county to Warren County enumeration can cause researchers to 'lose' families between the 1830 and 1840 censuses — they did not move, but the administrative boundary moved around them.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Warren County, VA."
+    },
+    {
+      "source_type": "Church records — Baptist and Methodist",
+      "description": "Baptist and Methodist congregations in the Front Royal area kept membership rolls and some vital records. The Chester Gap Baptist Church and several Methodist circuits served the area.",
+      "repository": "Virginia Baptist Historical Society, University of Richmond; individual churches",
+      "era_coverage": "1800s–present",
+      "genealogical_value": "Church records supplement civil records, particularly for vital events before 1853 and during the 1896–1912 registration gap.",
+      "source": "Ryland, Garnett. The Baptists of Virginia, 1699-1926. Richmond: Virginia Baptist Board of Missions, 1955."
+    }
+  ],
+  "narrative_hooks": [
+    "Warren County was not created until 1836, so {ancestor_name}'s earliest records near Front Royal are filed at Winchester (Frederick County) or Woodstock (Shenandoah County) — and the question of which parent county applies depends on which side of the river the family's land lay.",
+    "The Battle of Front Royal in May 1862 was fought in {ancestor_name}'s town — but the courthouse records survived, and the deeds and wills that document the family's presence are still in the vault.",
+    "Researchers tracing {surname} families through the census may lose track between 1830 and 1840 — not because the family moved, but because Warren County was carved from its parents and the enumeration boundary changed around families who stayed put.",
+    "Warren County's late formation means its paper trail is shorter than its neighbors' — but the records that exist are well-preserved, and the parent counties' records fill the gap back to the 1740s."
+  ],
+  "source_references": [
+    "Tanner, Robert G. Stonewall in the Valley: Thomas J. 'Stonewall' Jackson's Shenandoah Valley Campaign. Garden City, NY: Doubleday, 1976.",
+    "Library of Virginia. A Guide to Virginia County and City Records on Microfilm. Richmond, various editions.",
+    "Ryland, Garnett. The Baptists of Virginia, 1699-1926. Richmond: Virginia Baptist Board of Missions, 1955."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "va_warren",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

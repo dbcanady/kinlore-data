@@ -1,0 +1,120 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Caroline County, MD. Created in 1773 from parts of Dorchester and Queen Anne's counties, making it one of the newer counties on the Eastern Shore. Records begin at the county's founding; earlier records for the territory remain in the parent counties. No catastrophic losses.",
+  "courthouse_atlas_id": "md_caroline_courthouse",
+  "display_name": "Caroline County, Maryland — Courthouse Atlas",
+  "county": "Caroline",
+  "state": "MD",
+  "fips_code": "24011",
+  "cluster_ref": "md_eastern_shore",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1966,
+      "location": "Denton, MD — 109 Market Street",
+      "records_housed": ["land records from 1774", "court records", "marriage licenses", "wills and estates"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1774-1895",
+        "location": "Denton — original frame courthouse on the courthouse square.",
+        "fate": "Replaced in 1895 by a brick courthouse. Records survived the transition."
+      },
+      {
+        "era": "1895-1966",
+        "location": "Denton — brick courthouse on Market Street.",
+        "fate": "Demolished when the current courthouse was built. Records transferred."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "caroline_pre_formation_records",
+      "date": "Before 1774",
+      "cause": "County not yet in existence — territory was part of Dorchester County (southern section) and Queen Anne's County (northern section)",
+      "records_destroyed": [],
+      "records_survived": ["pre-1774 records for Caroline County territory are in Dorchester and Queen Anne's county records at the Maryland State Archives"],
+      "scope": "not applicable — records exist in parent counties",
+      "description": "Caroline County was created in 1773 (courts opened 1774). Researchers tracing families in the Caroline County area before 1774 must consult Dorchester County records (for the southern portion) and Queen Anne's County records (for the northern portion). This is a jurisdictional shift, not a record loss — the records exist, but in a different county's files.",
+      "narrative_impact": "If {ancestor_name} was in what became Caroline County before 1774, the records are in the parent counties — Dorchester or Queen Anne's. The family does not 'appear' in Caroline County until the county itself exists.",
+      "source": "Maryland State Archives. Guide to Government Records. Annapolis, 2005."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1774,
+      "completeness": "Good. Land records from the county's founding in 1774. Earlier land transactions in Dorchester and Queen Anne's county records.",
+      "gaps": "None significant after 1774.",
+      "repository": "Maryland State Archives; Caroline County Circuit Court, Denton",
+      "online_access": "Maryland State Archives (mdlandrec.net); FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1774,
+      "completeness": "Good. Wills and inventories from 1774.",
+      "gaps": "None significant.",
+      "repository": "Maryland State Archives; Caroline County Register of Wills",
+      "online_access": "Maryland State Archives; FamilySearch"
+    },
+    "marriages": {
+      "earliest_surviving": 1774,
+      "completeness": "Marriage licenses from 1774. One of the better early marriage record series on the Eastern Shore.",
+      "gaps": "None significant.",
+      "repository": "Maryland State Archives; Caroline County Clerk of Court",
+      "online_access": "FamilySearch; Ancestry.com MD marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1774,
+      "completeness": "Good. Court records from the county's first session in 1774.",
+      "gaps": "None significant.",
+      "repository": "Maryland State Archives",
+      "online_access": "Maryland State Archives"
+    },
+    "vital_records": {
+      "birth_registration_start": 1898,
+      "death_registration_start": 1898,
+      "completeness": "Maryland statewide registration began 1898.",
+      "gaps": "No civil vital records before 1898.",
+      "repository": "Maryland Division of Vital Records; Maryland State Archives",
+      "online_access": "Maryland State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Dorchester County Records (pre-1774 Caroline territory)",
+      "repository": "Maryland State Archives; Dorchester County Circuit Court",
+      "date_range": "1669-1774",
+      "description": "Land records, court minutes, and probate records for the southern part of what became Caroline County. These records are filed under Dorchester County.",
+      "genealogical_value": "Essential for any family in the Caroline County area before 1774."
+    },
+    {
+      "source_type": "Queen Anne's County Records (pre-1774 Caroline territory)",
+      "repository": "Maryland State Archives; Queen Anne's County Circuit Court",
+      "date_range": "1706-1774",
+      "description": "Land records, court minutes, and probate records for the northern part of what became Caroline County. Filed under Queen Anne's County.",
+      "genealogical_value": "Essential for families in the northern Caroline County area before 1774."
+    },
+    {
+      "source_type": "Methodist Circuit Records",
+      "repository": "Lovely Lane Museum, Baltimore; Baltimore-Washington Conference Archives",
+      "date_range": "1780s-present",
+      "description": "Methodist circuit rider journals and quarterly conference records. Caroline County was deeply Methodist — the circuit riders reached the rural interior where no other institution served.",
+      "genealogical_value": "Good. Membership rolls document families in the period before civil vital records."
+    }
+  ],
+  "narrative_hooks": [
+    "Caroline County was born in 1774 — and {ancestor_name}'s family appears in the new county's first deed book, though they had been on the same land for a generation under a different county's name.",
+    "Before 1774, {ancestor_name}'s land was in Dorchester County — the records are there, in the parent county's files, waiting for the researcher who knows that Caroline did not exist before the Revolution.",
+    "The courthouse in Denton holds records from 1774 to the present — no fire, no flood, no gaps — and {ancestor_name}'s paper trail runs clean from the county's founding.",
+    "Caroline County's records survived what many counties' did not: two centuries without a catastrophic fire, and {ancestor_name}'s deeds and wills are where they have always been."
+  ],
+  "source_references": [
+    "Maryland State Archives. Guide to Government Records. Annapolis, 2005.",
+    "Wennersten, John R. Maryland's Eastern Shore. Centerville, MD: Tidewater Publishers, 1992.",
+    "Clemens, Paul G. E. The Atlantic Economy and Colonial Maryland's Eastern Shore. Ithaca: Cornell University Press, 1980."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "md_caroline",
+    "research_guidance_refs": ["census_gaps", "vital_records", "property_records"],
+    "template_refs": ["record_silences"]
+  }
+}

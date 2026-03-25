@@ -1,0 +1,107 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Humphreys County, MS. County seat: Belzoni. Created in 1918 from parts of Holmes, Sunflower, Washington, and Yazoo counties — making it one of the newest Delta counties. Records begin only from 1918; all earlier records are in the parent counties.",
+  "courthouse_atlas_id": "ms_humphreys_courthouse",
+  "display_name": "Humphreys County, Mississippi — Courthouse Atlas",
+  "county": "Humphreys",
+  "state": "MS",
+  "fips_code": "28053",
+  "cluster_ref": "ms_delta",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1924,
+      "location": "Belzoni, MS — Hayden Street",
+      "records_housed": ["deeds from 1918", "chancery court records", "circuit court records", "marriage records", "vital records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1918-1924",
+        "location": "Belzoni (temporary facilities)",
+        "fate": "Replaced by current 1924 building shortly after county formation."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "humphreys_no_major_loss",
+      "date": "N/A",
+      "cause": "No major loss — county too new",
+      "records_destroyed": [],
+      "records_survived": ["all records from 1918 county formation"],
+      "scope": "none",
+      "description": "Humphreys County was created in 1918 and its courthouse was built in 1924. No major fire or flood loss has affected the courthouse. The primary challenge is the county's late creation — all records before 1918 are in the parent counties (Holmes, Sunflower, Washington, Yazoo).",
+      "narrative_impact": "Humphreys County's late creation is the biggest research hurdle. {ancestor_name}'s records before 1918 must be sought in four different parent counties — a jurisdictional puzzle that requires knowing which portion of Humphreys was previously in which county.",
+      "source": "Mississippi Department of Archives and History, Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1918,
+      "completeness": "Good from county formation",
+      "gaps": "Pre-1918 deeds in Holmes, Sunflower, Washington, or Yazoo county records.",
+      "repository": "Humphreys County Chancery Clerk, Belzoni; MDAH microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1918,
+      "completeness": "Good from county formation",
+      "gaps": "Pre-1918 estates in parent county records.",
+      "repository": "Humphreys County Chancery Clerk; MDAH",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1918,
+      "completeness": "Good from county formation",
+      "gaps": "Pre-1918 marriages in parent county records.",
+      "repository": "Humphreys County Circuit Clerk; MDAH microfilm",
+      "online_access": "FamilySearch; Ancestry.com MS marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1918,
+      "completeness": "Good — continuous from formation",
+      "gaps": "No significant gaps.",
+      "repository": "Humphreys County courthouse; MDAH",
+      "online_access": "MDAH microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1918,
+      "death_registration_start": 1918,
+      "completeness": "Better compliance than older Delta counties because the county was created after Mississippi's vital records law. Still incomplete for rural Black population.",
+      "repository": "Mississippi State Department of Health; MDAH"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules — 1920 is the first census to enumerate Humphreys County as a separate entity. Earlier censuses list this area under parent counties.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1920-1940 (as Humphreys); pre-1920 under parent counties",
+      "genealogical_value": "The 1910 census lists this area under Holmes, Sunflower, Washington, or Yazoo — cross-referencing is essential.",
+      "source": "National Archives and Records Administration."
+    },
+    {
+      "source_type": "Parent county records",
+      "description": "Holmes, Sunflower, Washington, and Yazoo County records contain all pre-1918 documentation for the area that became Humphreys County.",
+      "repository": "Respective county courthouses; MDAH microfilm",
+      "era_coverage": "Pre-1918",
+      "genealogical_value": "Indispensable. Every ancestor in Humphreys County before 1918 appears in a different county's records.",
+      "source": "Mississippi Department of Archives and History."
+    }
+  ],
+  "narrative_hooks": [
+    "Humphreys County did not exist until 1918 — {ancestor_name}'s earlier records are scattered across four parent counties, and the genealogist must determine which county held the land before the new boundaries were drawn.",
+    "The newest county in the Delta cluster has the newest records — Humphreys County's courthouse has never burned or flooded, but its records only go back to 1918, making them among the youngest in Mississippi.",
+    "Before 1918, {ancestor_name}'s land in what became Humphreys County was in Holmes, Sunflower, Washington, or Yazoo County — and the deed trail requires following the jurisdictional seams backward through four different courthouses.",
+    "Humphreys County was created after Mississippi's vital records law, which means {ancestor_name}'s birth or death is somewhat more likely to be officially recorded than in older Delta counties — but 'somewhat' is doing a lot of work in a county where rural Black families were still systematically undercounted."
+  ],
+  "source_references": [
+    "Mississippi Department of Archives and History. Guide to County Records. Jackson, MS.",
+    "National Archives and Records Administration. Federal Census Schedules."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ms_humphreys",
+    "research_guidance_refs": ["southern_courthouse_research", "freedmens_bureau"],
+    "template_refs": ["record_silences"]
+  }
+}

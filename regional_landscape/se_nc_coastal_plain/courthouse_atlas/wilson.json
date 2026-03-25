@@ -1,0 +1,134 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Wilson County, NC. Record survival, courthouse history, and the critical genealogical fact that Wilson was formed in 1855 from four parent counties — early records are NOT in Wilson.",
+  "courthouse_atlas_id": "nc_wilson_courthouse",
+  "display_name": "Wilson County, North Carolina — Courthouse Atlas",
+  "county": "Wilson",
+  "state": "NC",
+  "fips_code": "37195",
+  "cluster_ref": "se_nc_coastal_plain",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1924,
+      "location": "Wilson, NC — Nash Street",
+      "records_housed": ["deeds from 1855", "plats", "vital records indexes", "court minutes from 1855", "estate files from 1855"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1855–1869",
+        "location": "Wilson (original frame courthouse)",
+        "fate": "The first courthouse was a modest structure built when the county was organized. It was replaced within fifteen years."
+      },
+      {
+        "era": "1869–1924",
+        "location": "Wilson, center of town",
+        "fate": "Brick building served for over fifty years. No fire or destruction documented. Replaced by the current 1924 courthouse."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "wilson_no_pre_1855_records",
+      "date": "N/A",
+      "cause": "N/A",
+      "records_destroyed": [],
+      "records_survived": [],
+      "scope": "total",
+      "description": "Wilson County was formed in 1855 from portions of Edgecombe, Nash, Johnston, and Wayne counties. This means that NO records exist at the Wilson County courthouse for any events before 1855. All pre-1855 deeds, wills, marriages, court minutes, and estate records for the land that became Wilson County are filed in the four parent county courthouses: Tarboro (Edgecombe), Nashville (Nash), Smithfield (Johnston), and Goldsboro (Wayne). This is the single most important genealogical fact about Wilson County. The Wilson courthouse records begin in 1855 and are well-preserved from that point forward.",
+      "narrative_impact": "If {ancestor_name} lived in the Wilson area before 1855, their records are split among four courthouses depending on exactly where the family's land fell. This boundary-dependent record distribution is the primary research challenge for early Wilson County families.",
+      "source": "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001."
+    },
+    {
+      "loss_id": "wilson_no_major_losses",
+      "date": "N/A",
+      "cause": "N/A",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1855", "will books from 1855", "court minutes from 1855", "marriage records from 1855"],
+      "scope": "specific",
+      "description": "Since its formation in 1855, Wilson County has experienced no major courthouse fire, flood, or Civil War destruction. The records from 1855 onward are well-preserved and generally complete. Wilson was not the site of significant military engagements.",
+      "narrative_impact": "Wilson County's post-1855 records are in excellent condition. If {ancestor_name}'s records are missing after 1855, the explanation lies with the family's circumstances, not record destruction.",
+      "source": "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1855,
+      "completeness": "Excellent from county formation. Pre-1855 deeds are in Edgecombe, Nash, Johnston, or Wayne counties.",
+      "gaps": "No known gaps. Pre-1855 — check parent counties based on geographic location of the property.",
+      "repository": "Wilson County Register of Deeds, Wilson; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com NC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1855,
+      "completeness": "Excellent from formation. Pre-1855 wills in parent counties.",
+      "gaps": "No known gaps post-1855. Pre-1855 estate records require identifying the correct parent county.",
+      "repository": "Wilson County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm; NC State Archives digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1855,
+      "completeness": "Good from formation. Pre-1855 marriages in parent counties.",
+      "gaps": "No known gaps. Register and bond series both begin 1855.",
+      "repository": "Wilson County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com NC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1855,
+      "completeness": "Good — continuous from formation",
+      "gaps": "No known gaps. Civil War entries are reduced but present.",
+      "repository": "NC State Archives; Wilson County Clerk of Court",
+      "online_access": "NC State Archives microfilm; limited FamilySearch digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Spotty until approximately 1920. Wilson city records may have some earlier documentation.",
+      "repository": "NC Office of Vital Records; NC State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Parent county records — Edgecombe, Nash, Johnston, Wayne",
+      "description": "ALL records for the Wilson County area before 1855 are in the four parent counties. Determining which parent county held jurisdiction requires knowing the precise location of the family's land relative to the old county boundaries.",
+      "repository": "Edgecombe County courthouse (Tarboro); Nash County courthouse (Nashville); Johnston County courthouse (Smithfield); Wayne County courthouse (Goldsboro); NC State Archives microfilm for all four",
+      "era_coverage": "Pre-1855",
+      "genealogical_value": "This is not optional — it is the ONLY way to research Wilson County families before 1855. The 1850 census lists these families under their parent county, providing the critical clue to which courthouse holds their records.",
+      "source": "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Wilson County first appears in the 1860 census. The 1850 census lists future Wilson County families under Edgecombe, Nash, Johnston, or Wayne — the 1850 enumeration is the key to identifying which parent county holds pre-1855 records.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1860–1940 (Wilson County); 1790–1850 (parent counties for Wilson area)",
+      "genealogical_value": "The 1850 census is the critical bridge document. Finding a family in the 1850 Edgecombe County census, for example, tells you that their pre-1855 deeds are filed in Tarboro.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Wilson County, NC."
+    },
+    {
+      "source_type": "Wilson County tobacco market records",
+      "description": "Wilson became one of the world's largest bright-leaf tobacco markets. Warehouse records, merchant ledgers, and agricultural extension records document the local economy from the 1880s onward.",
+      "repository": "Wilson County Public Library; East Carolina University Manuscript Collection",
+      "era_coverage": "1880s–1960s",
+      "genealogical_value": "Tobacco warehouse and merchant records can document family economic activity not captured in courthouse records — credit arrangements, crop yields, and market participation.",
+      "source": "Tilley, Nannie May. The Bright-Tobacco Industry, 1860–1929. Chapel Hill: UNC Press, 1948."
+    }
+  ],
+  "narrative_hooks": [
+    "Wilson County did not exist before 1855, and this single fact is the key to finding {ancestor_name}'s earlier records — their deeds, wills, and court business are filed in whichever parent county held their land: Edgecombe, Nash, Johnston, or Wayne.",
+    "The 1850 census is the Rosetta Stone for Wilson County genealogy — it tells you which parent county enumerated {ancestor_name}'s family five years before Wilson was carved from the map, and that parent county is where the pre-1855 records sit.",
+    "Wilson County's records from 1855 onward are in excellent condition — no fires, no floods, no war damage — so if {ancestor_name}'s post-1855 trail is intact, the challenge is only in reaching backward across the formation boundary into four separate courthouses.",
+    "Before 1913, no North Carolina county required birth or death registration, and Wilson's late formation means the county's vital records begin even later in practical terms — for {ancestor_name}, church rolls and cemetery records are essential.",
+    "Wilson became one of the world's great tobacco markets, and if {ancestor_name} brought a crop to the Wilson warehouses in the 1880s or later, the town's prosperity and rhythm were built around that autumn sale — the single most consequential economic event of the year."
+  ],
+  "source_references": [
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Tilley, Nannie May. The Bright-Tobacco Industry, 1860–1929. Chapel Hill: University of North Carolina Press, 1948.",
+    "National Archives and Records Administration. Federal Census Schedules, Wilson County, NC, 1860–1940.",
+    "Works Progress Administration. Historical Records Survey: North Carolina County Records. Raleigh, 1937–1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_wilson",
+    "research_guidance_refs": ["southern_courthouse_research", "parent_county_records", "tobacco_economy_records"],
+    "template_refs": ["record_silences"]
+  }
+}

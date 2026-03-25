@@ -1,0 +1,130 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Laurens County, SC. Record survival, courthouse history, and known losses.",
+  "courthouse_atlas_id": "sc_laurens_courthouse",
+  "display_name": "Laurens County, South Carolina — Courthouse Atlas",
+  "county": "Laurens",
+  "state": "SC",
+  "fips_code": "45059",
+  "cluster_ref": "sc_piedmont_upcountry",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1911,
+      "location": "Laurens, SC — 100 Hillcrest Square",
+      "records_housed": ["deeds", "plats", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1785–1838",
+        "location": "Laurens (formerly Laurensville), courthouse square",
+        "fate": "Early courthouse. Laurens County formed from the old Ninety Six District."
+      },
+      {
+        "era": "1838–1911",
+        "location": "Laurens, courthouse square",
+        "fate": "Survived the Civil War and Reconstruction. Served over seventy years before replacement."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "laurens_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire or war damage",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage bonds/licenses", "estate files"],
+      "scope": "none",
+      "description": "Laurens County's courthouse survived the Civil War and Reconstruction without major damage. No catastrophic fire has occurred. Records run continuously from the county's 1785 formation (previously part of the Ninety Six District). The Laurens riot of 1870 — a political massacre that killed at least thirteen Black men — generated federal records that document events the county records do not capture.",
+      "narrative_impact": "If {ancestor_name} lived in Laurens County after 1785, the courthouse records are intact. But the most revealing Reconstruction-era records may be federal — the KKK hearings and trial records that documented the violence the county's own records were silent about.",
+      "source": "SC Department of Archives and History. Guide to County Records in the South Carolina State Archives."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1785,
+      "completeness": "Good — continuous from county formation",
+      "gaps": "No significant gaps. Ninety Six District records cover pre-1785.",
+      "repository": "Laurens County Register of Deeds; SC Department of Archives and History microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com SC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1787,
+      "completeness": "Good — from near-formation",
+      "gaps": "Some early loose papers fragmentary.",
+      "repository": "Laurens County Probate Court; SC Department of Archives and History",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1785,
+      "completeness": "Good — marriage bonds from formation. Licenses required statewide 1911.",
+      "gaps": "Pre-1911 via bonds and church records.",
+      "repository": "Laurens County Probate Court; SC Department of Archives and History",
+      "online_access": "FamilySearch; Ancestry.com SC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1786,
+      "completeness": "Good — continuous from near-formation",
+      "gaps": "Minor gaps in earliest volumes.",
+      "repository": "SC Department of Archives and History; Laurens County Clerk of Court",
+      "online_access": "SC Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1915,
+      "death_registration_start": 1915,
+      "completeness": "Spotty until approximately 1920.",
+      "repository": "SC DHEC; SC Department of Archives and History"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Ninety Six District records",
+      "description": "Laurens County was part of the old Ninety Six District before 1785. The Ninety Six District courthouse at the village of Ninety Six (now in Greenwood County) served the broader Upcountry.",
+      "repository": "SC Department of Archives and History",
+      "era_coverage": "1769–1785",
+      "genealogical_value": "Essential for pre-1785 families. Ninety Six was a critical frontier settlement and trading post.",
+      "source": "SC Department of Archives and History."
+    },
+    {
+      "source_type": "Federal Reconstruction records",
+      "description": "The Laurens riot of 1870 and subsequent KKK violence generated federal records including testimony to the Joint Select Committee and military reports from federal troops stationed in Laurens.",
+      "repository": "National Archives and Records Administration; published in KKK Testimony (13 vols., 1872)",
+      "era_coverage": "1868–1877",
+      "genealogical_value": "Extremely valuable for documenting individuals involved in Reconstruction-era violence — both victims and perpetrators. These records provide biographical detail unavailable from any other source for this period.",
+      "source": "Zuczek, Richard. State of Rebellion: Reconstruction in South Carolina. Columbia: University of South Carolina Press, 1996."
+    },
+    {
+      "source_type": "Watts Mills and Ware Shoals company records",
+      "description": "Watts Mills (Laurens) and Riegel Textile (Ware Shoals) maintained employment records for their workers. Survival varies.",
+      "repository": "Laurens County Museum; SC Department of Archives and History; limited holdings",
+      "era_coverage": "1895–1960s",
+      "genealogical_value": "Where surviving, these records document mill workers who appear minimally in county records. Ware Shoals was a company town where Riegel owned essentially everything — company records may be the only documentation of residents' daily lives.",
+      "source": "Carlton, David L. Mill and Town in South Carolina, 1880–1920. Louisiana State University Press, 1982."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790–1940. Laurens County enumerated from the first federal census.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790–1940",
+      "genealogical_value": "Essential baseline. Slave schedules (1850, 1860) are particularly important given Laurens County's significant slaveholding population.",
+      "source": "National Archives and Records Administration."
+    }
+  ],
+  "narrative_hooks": [
+    "Laurens County's courthouse has survived intact since 1785, but the silence in those records about Reconstruction violence is itself a record — the federal KKK hearings tell the story the county courthouse would not.",
+    "If {ancestor_name} lived at Ware Shoals, the company owned everything — the house, the store, the town itself. The company records, if they survive, may be the only documentation of {pronoun_possessive} life there.",
+    "Before 1785, Laurens County was part of the Ninety Six District — and Ninety Six itself was one of the most important frontier settlements in colonial South Carolina, a place where Cherokee trade, colonial ambition, and backcountry violence intersected.",
+    "The Laurens riot of 1870 killed at least thirteen Black men and is documented in federal records with a specificity the county records never approached — if {ancestor_name} was Black in Laurens County during Reconstruction, those federal records may be the most important documents about {pronoun_possessive} life."
+  ],
+  "source_references": [
+    "SC Department of Archives and History. Guide to County Records in the South Carolina State Archives.",
+    "Zuczek, Richard. State of Rebellion: Reconstruction in South Carolina. Columbia: University of South Carolina Press, 1996.",
+    "Carlton, David L. Mill and Town in South Carolina, 1880–1920. Baton Rouge: Louisiana State University Press, 1982.",
+    "Works Progress Administration. Historical Records Survey: South Carolina County Records. Columbia, 1937–1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "sc_laurens",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

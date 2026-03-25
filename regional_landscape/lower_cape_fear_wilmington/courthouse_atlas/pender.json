@@ -1,0 +1,115 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Pender County, NC. Record survival for a county created in 1875 from New Hanover — inheriting some records and starting fresh with others.",
+  "courthouse_atlas_id": "nc_pender_courthouse",
+  "display_name": "Pender County, North Carolina — Courthouse Atlas",
+  "county": "Pender",
+  "state": "NC",
+  "fips_code": "37141",
+  "cluster_ref": "lower_cape_fear_wilmington",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1936,
+      "location": "Burgaw, NC — 100 S. Wright Street",
+      "records_housed": ["deeds", "plats", "vital records indexes", "court minutes", "estate files"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1875–1936",
+        "location": "Burgaw, NC",
+        "fate": "Original courthouse built when the county was created from New Hanover in 1875. Replaced by the current building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "pender_no_major_loss",
+      "date": null,
+      "cause": "No catastrophic loss",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1875", "court minutes from 1875", "marriage records from 1875"],
+      "scope": "minimal",
+      "description": "Pender County has no recorded catastrophic loss of courthouse records. The county was created in 1875, so all records date from that year. For events before 1875, researchers must consult New Hanover County records, from which Pender was carved. The relatively short record span and absence of fire or flood damage means Pender County's records from 1875 forward are generally intact.",
+      "narrative_impact": "Pender County's records are clean from 1875 forward. The research challenge is the 1875 boundary — before that date, {ancestor_name}'s records are in New Hanover County, and the transition between the two repositories requires checking both.",
+      "source": "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1875,
+      "completeness": "Good — continuous from county formation. Pre-1875 land records are in New Hanover County.",
+      "gaps": "No significant gaps. Clean series from the start.",
+      "repository": "Pender County Register of Deeds, Burgaw; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; limited Ancestry.com coverage"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1875,
+      "completeness": "Good — estate records from county formation forward.",
+      "gaps": "Pre-1875 estates filed in New Hanover County.",
+      "repository": "Pender County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1875,
+      "completeness": "Good — marriage records from county formation.",
+      "gaps": "Pre-1875 marriages in New Hanover County records.",
+      "repository": "Pender County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com NC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1875,
+      "completeness": "Good — continuous from formation.",
+      "gaps": "None significant.",
+      "repository": "NC State Archives; Pender County Clerk of Court",
+      "online_access": "NC State Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Spotty until 1920s in this rural county. Church and cemetery records supplement.",
+      "repository": "NC Office of Vital Records; NC State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "New Hanover County records (pre-1875)",
+      "description": "All records for the Pender County area before 1875 are filed in New Hanover County. This includes deeds, court minutes, marriage bonds, and estate records for families living in what became Pender County.",
+      "repository": "New Hanover County Register of Deeds and Clerk of Court, Wilmington; NC State Archives microfilm",
+      "era_coverage": "1729-1875",
+      "genealogical_value": "Essential for any Pender County research before 1875. The New Hanover records are well preserved and accessible.",
+      "source": "NC State Archives. Guide to County Records, 2001."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790-1940. Before 1880, Pender County residents appear in New Hanover County census returns. Agricultural and slave schedules (1850-1860) add economic detail.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790-1940",
+      "genealogical_value": "Standard census research. The 1880 census is the first to enumerate Pender County as a separate jurisdiction.",
+      "source": "National Archives and Records Administration. Federal Census Schedules."
+    },
+    {
+      "source_type": "Church records — Baptist and Methodist",
+      "description": "Missionary Baptist and Methodist congregations in the Pender County area maintained membership rolls and minutes. Some predate the county's formation. Rocky Point Methodist Church and Burgaw Baptist Church records are among the most significant.",
+      "repository": "Individual congregations; NC Baptist Historical Collection, Wake Forest University; NC State Archives",
+      "era_coverage": "1800s-present",
+      "genealogical_value": "Church records fill gaps in civil vital records before 1913 and provide family relationship evidence.",
+      "source": "NC State Archives. Guide to County Records, 2001."
+    }
+  ],
+  "narrative_hooks": [
+    "Pender County did not exist until 1875 — if {ancestor_name} lived in this area before that date, the records are in New Hanover County's courthouse in Wilmington, not in Burgaw.",
+    "The clean break in 1875 means two things for {ancestor_name}: any land purchased before that date has a deed in New Hanover County, and any land purchased after has a deed in Pender County. Both must be checked to build a complete chain of title.",
+    "Pender County's records have never been lost to fire or flood — {ancestor_name}'s deed and marriage records from 1875 forward are almost certainly intact in the Burgaw courthouse.",
+    "Before 1913, no birth or death records were required — the absence of a record for {ancestor_name} reflects the era, not the family. Church records and the federal census are the best substitutes."
+  ],
+  "source_references": [
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Leary, Helen F. M., ed. North Carolina Research: Genealogy and Local History. 2nd ed. Raleigh: North Carolina Genealogical Society, 1996."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_pender",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

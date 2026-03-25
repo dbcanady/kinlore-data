@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Cherokee County, AL. Record survival and courthouse history. Cherokee County was formed in 1836 from Cherokee cession lands — the county is named for the Cherokee Nation it displaced. Records are generally complete from formation.",
+  "courthouse_atlas_id": "al_cherokee_courthouse",
+  "display_name": "Cherokee County, Alabama — Courthouse Atlas",
+  "county": "Cherokee",
+  "state": "AL",
+  "fips_code": "01019",
+  "cluster_ref": "al_tennessee_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1928,
+      "location": "Centre, AL — 100 Main Street",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1836–1882",
+        "location": "Cedar Bluff (original county seat)",
+        "fate": "Cedar Bluff on the Coosa River was the first county seat. Records transferred when county seat moved to Centre in 1882."
+      },
+      {
+        "era": "1882–1928",
+        "location": "Centre, original building",
+        "fate": "First courthouse at Centre. Replaced by the current 1928 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "cherokee_no_major_loss",
+      "date": null,
+      "cause": "No major fire or war destruction",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "marriage records", "court minutes"],
+      "scope": "none",
+      "description": "Cherokee County's courthouse records have survived without major fire or war destruction. The county seat move from Cedar Bluff to Centre in 1882 resulted in transfer of records, with no significant documented losses. Records are continuous from the county's 1836 formation. The county was Cherokee territory until removal — pre-1836 records for this area are in federal Cherokee Nation archives, not the county courthouse.",
+      "narrative_impact": "If {ancestor_name} lived in Cherokee County after 1836, the records are likely intact. If {ancestor_name} was Cherokee, the records are in federal archives — the county did not exist until after removal.",
+      "source": "Alabama Department of Archives and History. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1836,
+      "completeness": "Good — continuous from county formation",
+      "gaps": "No major gaps",
+      "repository": "Cherokee County Probate Office, Centre; ADAH microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1837,
+      "completeness": "Good",
+      "gaps": "Minor gaps in loose papers from earliest decades",
+      "repository": "Cherokee County Probate Office; ADAH",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1836,
+      "completeness": "Good",
+      "gaps": "No significant gaps",
+      "repository": "Cherokee County Probate Office; ADAH microfilm",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1836,
+      "completeness": "Good",
+      "gaps": "Minor Civil War disruption",
+      "repository": "ADAH; Cherokee County Circuit Clerk",
+      "online_access": "ADAH microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Spotty until approximately 1920. Remote valley and ridge communities had low registration rates.",
+      "repository": "Alabama Department of Public Health; ADAH"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Cherokee Nation records",
+      "description": "Cherokee County was among the last Cherokee strongholds in Alabama. Cherokee census rolls, property valuations, removal records, and Trail of Tears muster rolls document the Cherokee families displaced from this county.",
+      "repository": "National Archives (RG 75); Cherokee Nation archives, Tahlequah, OK; Oklahoma Historical Society",
+      "era_coverage": "Pre-1838",
+      "genealogical_value": "The 1835 Cherokee Census documents Cherokee families in this area by name, family composition, and property. The Cherokee property valuations list farms, orchards, livestock, and improvements. The Trail of Tears removal records document who was removed and from where. For Cherokee genealogy in this county, federal records are the primary source — the county courthouse holds no Cherokee-era records because the county did not exist.",
+      "source": "Perdue and Green, The Cherokee Nation and the Trail of Tears (2007)."
+    },
+    {
+      "source_type": "Iron furnace company records",
+      "description": "Cherokee County's iron furnace operations (1850s-1900) left company records documenting workers, ore production, and charcoal operations.",
+      "repository": "ADAH; Samford University Library (Birmingham); Cherokee County Historical Society",
+      "era_coverage": "1850-1900",
+      "genealogical_value": "Iron furnace employment records document workers by name — both free and enslaved before the war. These records supplement county records for families involved in the iron industry.",
+      "source": "Griffith, Alabama: A Documentary History (1972)."
+    },
+    {
+      "source_type": "Weiss Dam displacement records",
+      "description": "Weiss Dam on the Coosa River (completed 1961) displaced families in northwestern Cherokee County. Alabama Power Company acquisition records document the displacement.",
+      "repository": "Alabama Power Company records; ADAH",
+      "era_coverage": "1955-1961",
+      "genealogical_value": "Documents families displaced by Weiss Lake — names, property descriptions, compensation. For families who disappear from Cherokee County records in the late 1950s, check dam displacement records.",
+      "source": "Alabama Power Company. Weiss Dam Project Records."
+    }
+  ],
+  "narrative_hooks": [
+    "Cherokee County is named for the people it displaced — and the courthouse holds no records from before 1836 because the county did not exist while the Cherokee still lived there.",
+    "If {ancestor_name} was Cherokee, the records are at the National Archives, not in Centre — the 1835 Cherokee Census and the removal rolls are the starting points.",
+    "The iron furnaces in Cherokee County employed workers whose names may appear in company records rather than county records — if {ancestor_name} worked the furnaces, check ADAH and university collections.",
+    "Cedar Bluff was the county seat until 1882 — if {ancestor_name} did business before that, the records were created at Cedar Bluff but are now filed at Centre."
+  ],
+  "source_references": [
+    "Alabama Department of Archives and History. Guide to County Records in the Alabama State Archives. Montgomery: ADAH, 2005.",
+    "Perdue, Theda, and Michael D. Green. The Cherokee Nation and the Trail of Tears. New York: Viking, 2007.",
+    "Griffith, Lucille. Alabama: A Documentary History to 1900. Tuscaloosa: University of Alabama Press, 1972."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "al_cherokee",
+    "research_guidance_refs": ["freedmens_bureau_records"],
+    "template_refs": ["record_silences"]
+  }
+}

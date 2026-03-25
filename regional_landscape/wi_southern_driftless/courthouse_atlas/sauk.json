@@ -1,0 +1,105 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Sauk County, WI. Records are good from county formation (1840). The Ringling Brothers circus generated distinctive local records, and the Sauk Prairie area has strong Ho-Chunk documentation through federal records.",
+  "courthouse_atlas_id": "wi_sauk_courthouse",
+  "display_name": "Sauk County, Wisconsin — Courthouse Atlas",
+  "county": "Sauk",
+  "state": "WI",
+  "fips_code": "55111",
+  "cluster_ref": "wi_southern_driftless",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1906,
+      "location": "Baraboo, WI — 515 Oak Street",
+      "records_housed": ["deeds", "mortgages", "probate records", "court records", "vital records (post-1907)"]
+    },
+    "previous_courthouses": [
+      { "era": "1840-1869", "location": "Baraboo, early frame building", "fate": "Replaced." },
+      { "era": "1869-1906", "location": "Baraboo, brick courthouse", "fate": "Replaced by current building." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "sauk_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire or war damage",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage records", "probate files"],
+      "scope": "none",
+      "description": "Sauk County records are intact from county formation. The county's distinctive features — the Ringling Brothers circus, the Sauk Prairie settlements, and Ho-Chunk presence — all generated records beyond the standard courthouse files.",
+      "narrative_impact": "Sauk County records are complete. If {ancestor_name} lived here, look for standard courthouse records plus supplementary sources: Circus World Museum for circus-connected families, federal records for Ho-Chunk families.",
+      "source": "Wisconsin Historical Society. Guide to Wisconsin County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1840,
+      "completeness": "Excellent — continuous from county formation",
+      "gaps": "No known gaps",
+      "repository": "Sauk County Register of Deeds; Wisconsin Historical Society",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1842,
+      "completeness": "Good",
+      "gaps": "Minor in earliest years",
+      "repository": "Sauk County Probate Court; Wisconsin Historical Society",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1840,
+      "completeness": "Good",
+      "gaps": "Minimal",
+      "repository": "Sauk County Register of Deeds; Wisconsin Historical Society",
+      "online_access": "FamilySearch; Ancestry.com WI marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1841,
+      "completeness": "Good",
+      "gaps": "Minor",
+      "repository": "Sauk County Clerk of Courts; Wisconsin Historical Society",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1907,
+      "death_registration_start": 1907,
+      "completeness": "Statewide registration from 1907.",
+      "repository": "Wisconsin Department of Health Services"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Circus World Museum records",
+      "description": "The Circus World Museum in Baraboo holds records from the Ringling Brothers and other circuses that wintered in Sauk County. Employee records, route books, and business documents may name local residents who worked with the circus.",
+      "repository": "Circus World Museum, Baraboo; Wisconsin Historical Society",
+      "era_coverage": "1884-1918 (Ringling Brothers in Baraboo); broader circus records 1847-present",
+      "genealogical_value": "Supplementary for families connected to the circus industry. Employment records, winter quarters documentation, and community interactions are documented.",
+      "source": "Circus World Museum finding aids, Baraboo, WI."
+    },
+    {
+      "source_type": "Ho-Chunk Nation federal records",
+      "description": "The Ho-Chunk (Winnebago) people were removed from Wisconsin multiple times but returned. Federal records — Indian agency files, annuity rolls, allotment records, and census records — document Ho-Chunk families in the Sauk County area.",
+      "repository": "National Archives (Bureau of Indian Affairs records); Ho-Chunk Nation records; Wisconsin Historical Society",
+      "era_coverage": "1820s-present",
+      "genealogical_value": "Essential for Ho-Chunk families. Federal annuity rolls and allotment records name individuals and family groups. These records are the primary genealogical source for Ho-Chunk people, supplemented by church mission records.",
+      "source": "Loew, Patty. Indian Nations of Wisconsin. 2nd ed. Madison: Wisconsin Historical Society Press, 2013."
+    }
+  ],
+  "narrative_hooks": [
+    "Sauk County records are intact from 1840 — {ancestor_name}'s deeds, wills, and court appearances should survive if they existed.",
+    "If {ancestor_name} was connected to the Ringling Brothers circus in Baraboo, the Circus World Museum may hold employment records that the county courthouse does not.",
+    "For Ho-Chunk families in Sauk County, the primary records are federal — Bureau of Indian Affairs files, annuity rolls, and allotment records at the National Archives. County records systematically excluded Native people.",
+    "Wisconsin vital registration began in 1907 — for {ancestor_name} before that date, church records and census are the primary sources."
+  ],
+  "source_references": [
+    "Wisconsin Historical Society. Guide to Wisconsin County Records.",
+    "Loew, Patty. Indian Nations of Wisconsin. 2nd ed. Madison: Wisconsin Historical Society Press, 2013.",
+    "Circus World Museum finding aids, Baraboo, WI."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "wi_sauk",
+    "research_guidance_refs": ["vital_records", "institutional_records"],
+    "template_refs": ["record_silences"]
+  }
+}

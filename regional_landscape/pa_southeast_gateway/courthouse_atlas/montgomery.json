@@ -1,0 +1,116 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Montgomery County, PA. Created from Philadelphia County in 1784 — pre-1784 records are at Philadelphia City Archives. Valley Forge area. Records continuous from 1784.",
+  "courthouse_atlas_id": "pa_montgomery_courthouse",
+  "display_name": "Montgomery County, Pennsylvania — Courthouse Atlas",
+  "county": "Montgomery",
+  "state": "PA",
+  "fips_code": "42091",
+  "cluster_ref": "pa_southeast_gateway",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1854,
+      "location": "Norristown, PA — Airy and Swede Streets (with modern additions)",
+      "records_housed": ["deeds from 1784", "wills", "orphans' court records", "marriage licenses", "court minutes", "naturalizations"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1784–1854",
+        "location": "Norristown — early courthouse",
+        "fate": "Served from county formation. Replaced by the current building. No significant fire or war damage."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "montgomery_split_records",
+      "date": "1784",
+      "cause": "County creation — jurisdictional split from Philadelphia County",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1784", "will books from 1784", "court minutes from 1784"],
+      "scope": "jurisdictional",
+      "description": "Montgomery County was created from Philadelphia County in 1784. Records predating 1784 for the territory that became Montgomery County are at the Philadelphia City Archives (not at the Philadelphia courthouse proper). This includes the colonial period when Germantown and the Perkiomen Valley were part of Philadelphia County. Post-1784 records at Norristown are continuous and complete.",
+      "narrative_impact": "If {ancestor_name} lived in what is now Montgomery County before 1784, the records are at the Philadelphia City Archives — not at Norristown. The Germantown settlement records (from 1683) are in Philadelphia's holdings.",
+      "source": "Montgomery County Historical Society. Guide to Montgomery County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1784,
+      "completeness": "Excellent from 1784. Pre-1784 deeds at Philadelphia City Archives.",
+      "gaps": "Pre-1784 jurisdictional split.",
+      "repository": "Montgomery County Recorder of Deeds, Norristown; Philadelphia City Archives (pre-1784)",
+      "online_access": "FamilySearch microfilm; Ancestry.com PA land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1784,
+      "completeness": "Good from 1784.",
+      "gaps": "Pre-1784 estates at Philadelphia.",
+      "repository": "Montgomery County Register of Wills; Philadelphia City Archives (pre-1784)",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1885,
+      "completeness": "From 1885. Earlier marriages in German church records (Lutheran, Reformed, Schwenkfelder) and Quaker meeting records.",
+      "gaps": "No civil licenses before 1885.",
+      "repository": "Montgomery County Register of Wills; Schwenkfelder Library and Heritage Center",
+      "online_access": "FamilySearch; Ancestry.com PA marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1784,
+      "completeness": "Complete from formation.",
+      "gaps": "Pre-1784 at Philadelphia.",
+      "repository": "Montgomery County Archives; PA State Archives",
+      "online_access": "Limited FamilySearch"
+    },
+    "vital_records": {
+      "birth_registration_start": 1893,
+      "death_registration_start": 1893,
+      "completeness": "PA registration from 1893.",
+      "repository": "PA Division of Vital Records"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Schwenkfelder records",
+      "description": "The Schwenkfelder community — a small German religious group who settled in the Perkiomen Valley in the 1730s — maintained detailed records. The Schwenkfelder Library and Heritage Center in Pennsburg holds birth, marriage, death, and membership records, family genealogies, and community histories.",
+      "repository": "Schwenkfelder Library and Heritage Center, Pennsburg, PA",
+      "era_coverage": "1734–present",
+      "genealogical_value": "Exceptional for Schwenkfelder families. The community was small enough that comprehensive records exist. Family genealogies trace lineages back to Silesia (now Poland).",
+      "source": "Schwenkfelder Library and Heritage Center. Guide to Genealogical Collections."
+    },
+    {
+      "source_type": "Valley Forge military records",
+      "description": "Records documenting the Continental Army's 1777-78 encampment — muster rolls, supply requisitions, civilian claims for damages, and pension applications. These records document both soldiers and the civilian families whose farms were requisitioned.",
+      "repository": "National Archives; Valley Forge National Historical Park archives; Montgomery County Historical Society",
+      "era_coverage": "1777–1783 (service); 1790s–1840s (pensions)",
+      "genealogical_value": "Pension applications are detailed biographical documents. Civilian damage claims document specific farms requisitioned by the army — establishing residence and property ownership.",
+      "source": "Bodle, Wayne. The Valley Forge Winter. Pennsylvania State University Press, 2002."
+    },
+    {
+      "source_type": "German church records — Lutheran, Reformed, Mennonite",
+      "description": "Montgomery County's German churches maintained baptism, marriage, and burial records from the early 1700s. Augustus Lutheran Church at Trappe (founded 1743, the oldest Lutheran church in continuous use in America) is a key repository.",
+      "repository": "Augustus Lutheran Church, Trappe; Lutheran Archives Center, Philadelphia; Montgomery County Historical Society",
+      "era_coverage": "1700s–present",
+      "genealogical_value": "Critical for German families. Augustus Lutheran records document families from the Perkiomen Valley's earliest settlement period.",
+      "source": "Augustus Lutheran Church archives, Trappe, PA."
+    }
+  ],
+  "narrative_hooks": [
+    "Montgomery County's pre-1784 records are in Philadelphia — if {ancestor_name} lived here before the county was carved from Philadelphia, the paper trail starts at the Philadelphia City Archives, not at Norristown.",
+    "The Schwenkfelder Library in Pennsburg holds records of a community so small and so carefully documented that {ancestor_name}'s family may be traceable back to seventeenth-century Silesia.",
+    "Valley Forge pension applications and civilian damage claims are among the richest Revolutionary War sources — if {ancestor_name} served at the encampment or lived on one of the requisitioned farms, the federal records document it in detail.",
+    "Pennsylvania marriage licenses begin in 1885 — for {ancestor_name} before that date in Montgomery County, check the Lutheran, Reformed, Schwenkfelder, or Quaker records that predate the courthouse by a century."
+  ],
+  "source_references": [
+    "Montgomery County Historical Society. Guide to Montgomery County Records.",
+    "Schwenkfelder Library and Heritage Center. Guide to Genealogical Collections.",
+    "Bodle, Wayne. The Valley Forge Winter. University Park: Pennsylvania State University Press, 2002."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "pa_montgomery",
+    "research_guidance_refs": ["church_transfers", "property_records"],
+    "template_refs": ["record_silences"]
+  }
+}

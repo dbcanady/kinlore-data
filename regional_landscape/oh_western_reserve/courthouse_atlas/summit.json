@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Summit County, OH. Record survival, courthouse history, and known losses. Summit County's records are well-preserved from its 1840 formation (carved from Medina, Portage, and Stark counties). The rubber industry generated employer records that supplement the courthouse holdings.",
+  "courthouse_atlas_id": "oh_summit_courthouse",
+  "display_name": "Summit County, Ohio — Courthouse Atlas",
+  "county": "Summit",
+  "state": "OH",
+  "fips_code": "39153",
+  "cluster_ref": "oh_western_reserve",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1908,
+      "location": "Akron, OH — 209 S. High Street",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1840–1843",
+        "location": "Akron, temporary quarters",
+        "fate": "County organized in 1840 from Medina, Portage, and Stark counties. Early records in temporary locations."
+      },
+      {
+        "era": "1843–1908",
+        "location": "Akron, Main Street",
+        "fate": "Frame and brick courthouse. Served through the canal era and early industrialization. No fire or significant damage. Replaced by the current building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "summit_no_major_loss",
+      "date": null,
+      "cause": "None — no major courthouse fire",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "marriage records", "probate records", "court minutes"],
+      "scope": "none",
+      "description": "Summit County's courthouse has not experienced a significant fire. Records run continuously from the county's 1840 organization. For the period before 1840, records are held by the parent counties (Medina, Portage, Stark). Researchers tracing families in the Summit County area before 1840 must check parent county records.",
+      "narrative_impact": "If {ancestor_name} lived in Summit County after 1840, courthouse records survive. For the period 1800-1840, check Portage County (for the northern part) and Medina County (for the western part) records. The break at 1840 is an administrative boundary, not a loss.",
+      "source": "Ohio History Connection. Guide to County Records in Ohio."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1840,
+      "completeness": "Excellent from county formation. Earlier records in parent counties.",
+      "gaps": "None from 1840 onward.",
+      "repository": "Summit County Recorder; Ohio History Connection microfilm",
+      "online_access": "FamilySearch; Ancestry.com Ohio land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1840,
+      "completeness": "Excellent from county formation.",
+      "gaps": "None known. Earlier estates in parent county probate courts.",
+      "repository": "Summit County Probate Court; Ohio History Connection",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1840,
+      "completeness": "Excellent. Ohio required marriage licenses from statehood.",
+      "gaps": "None from county formation.",
+      "repository": "Summit County Probate Court; Ohio History Connection",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1840,
+      "completeness": "Good from formation.",
+      "gaps": "None significant.",
+      "repository": "Summit County Clerk of Courts; Ohio History Connection",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1867,
+      "death_registration_start": 1867,
+      "completeness": "Ohio statewide registration began 1867; compliance spotty until approximately 1908. Akron city health department records may supplement county records for the city proper.",
+      "repository": "Ohio Department of Health; Summit County Health Department"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Rubber company employment records",
+      "description": "Goodyear, Firestone, B.F. Goodrich, and General Tire maintained personnel records. Where these survive, they document workers' names, hire dates, wages, job classifications, and sometimes home addresses and next of kin. The rubber companies were the dominant employers, and their records are the primary supplement to county records for tracing the industrial workforce.",
+      "repository": "University of Akron Archives (Goodyear and other collections); Ohio History Connection; some records destroyed when companies merged or relocated",
+      "era_coverage": "1870s–1960s",
+      "genealogical_value": "Essential for tracking rubber workers. Personnel files can establish date of arrival in Akron, previous employer, and family connections. However, many company records were destroyed during corporate reorganizations.",
+      "source": "Knepper, Akron: City at the Summit (1981)."
+    },
+    {
+      "source_type": "United Rubber Workers union records",
+      "description": "The United Rubber Workers (CIO) organized Akron's major plants in the 1930s. Union membership rolls, grievance files, and local meeting minutes document workers by name.",
+      "repository": "University of Akron Archives; Kheel Center at Cornell University; Walter P. Reuther Library at Wayne State University",
+      "era_coverage": "1935–1960s",
+      "genealogical_value": "Membership rolls place individuals at specific plants. Grievance files may contain biographical detail. Seniority lists establish tenure and dates of hire.",
+      "source": "Nelson, American Rubber Workers (1988)."
+    },
+    {
+      "source_type": "Akron city directories",
+      "description": "Annual city directories list residents by name with address and occupation. Coverage begins in the 1860s and continues through the 1960s. Particularly valuable for tracking workers who moved frequently within the city.",
+      "repository": "Akron-Summit County Public Library (Special Collections); FamilySearch microfilm",
+      "era_coverage": "1860s–1960s",
+      "genealogical_value": "Annual directories bridge the ten-year gaps between federal censuses. Occupation listings identify rubber workers, and address changes track residential mobility.",
+      "source": "Akron-Summit County Public Library finding aids."
+    }
+  ],
+  "narrative_hooks": [
+    "Summit County's records survive from 1840 — for {ancestor_name} in the county after that date, the courthouse holds deeds, marriages, and probate records. Before 1840, check Portage or Medina county records.",
+    "If {ancestor_name} worked for Goodyear or Firestone, the company records — where they survive — document {pronoun_possessive} working life in detail the courthouse cannot match. But many company records were destroyed when the rubber industry left Akron.",
+    "The absence of property records for {ancestor_name} in Akron may reflect rubber-worker transience — boarding house residents and renters left no deeds but may appear in city directories, union membership rolls, and church records.",
+    "Ohio's vital registration began in 1867 but was unreliable until about 1908. The absence of a birth or death record before that date is normal — check church records and cemetery records as substitutes."
+  ],
+  "source_references": [
+    "Ohio History Connection. Guide to County Records in Ohio. Columbus, 2015.",
+    "Knepper, George W. Akron: City at the Summit. Tulsa: Continental Heritage Press, 1981.",
+    "Nelson, Daniel. American Rubber Workers and Organized Labor, 1900-1941. Princeton: Princeton University Press, 1988."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "oh_summit",
+    "research_guidance_refs": ["institutional_records"],
+    "template_refs": ["record_silences"]
+  }
+}

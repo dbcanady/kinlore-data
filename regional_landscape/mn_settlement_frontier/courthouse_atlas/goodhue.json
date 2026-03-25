@@ -1,0 +1,138 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Goodhue County, MN. Record survival, courthouse history, and known losses that shape what genealogists can and cannot find.",
+  "courthouse_atlas_id": "mn_goodhue_courthouse",
+  "display_name": "Goodhue County, Minnesota — Courthouse Atlas",
+  "county": "Goodhue",
+  "state": "MN",
+  "fips_code": "27049",
+  "cluster_ref": "mn_settlement_frontier",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1932,
+      "location": "Red Wing, MN — 509 W. Third Street",
+      "records_housed": ["deeds", "plats", "vital records", "probate records", "court minutes", "naturalization records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1854–1870",
+        "location": "Red Wing, original frame courthouse",
+        "fate": "Outgrown and replaced. Early records transferred intact."
+      },
+      {
+        "era": "1871–1931",
+        "location": "Red Wing, brick courthouse on Third Street",
+        "fate": "Demolished and replaced by 1932 Art Deco building. Records survived transfer."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "goodhue_no_major_loss",
+      "date": "N/A",
+      "cause": "None known",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "probate records", "court minutes", "marriage records", "naturalization records"],
+      "scope": "none",
+      "description": "Goodhue County has experienced no major courthouse fires or record losses. The county's early establishment (1853), its distance from the US-Dakota War combat zone, and the careful transfer of records through two courthouse replacements have preserved an unusually complete documentary record from the earliest years of settlement.",
+      "narrative_impact": "Goodhue County's complete record survival means that gaps in {ancestor_name}'s paper trail are more likely due to the informality of frontier transactions or the family's economic circumstances than to courthouse disasters.",
+      "source": "Rasmussen, C. A. A History of Goodhue County, Minnesota. Red Wing: Red Wing Republican, 1935."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1854,
+      "completeness": "Excellent — continuous series from county organization",
+      "gaps": "No known gaps. Early deed books are well-preserved.",
+      "repository": "Goodhue County Recorder, Red Wing; Minnesota Historical Society microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com MN land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1855,
+      "completeness": "Excellent — probate records survive from earliest settlement period",
+      "gaps": "Some early loose papers are fragile but legible. Bound probate registers intact.",
+      "repository": "Goodhue County Probate Court, Red Wing; Minnesota Historical Society",
+      "online_access": "FamilySearch microfilm; limited digitization"
+    },
+    "marriages": {
+      "earliest_surviving": 1855,
+      "completeness": "Good — marriage records from county organization, though some early records are sparse",
+      "gaps": "Pre-1870 records may lack detail. Norwegian immigrants sometimes married in church ceremonies before recording civilly.",
+      "repository": "Goodhue County Recorder; Minnesota Historical Society microfilm",
+      "online_access": "FamilySearch; Ancestry.com MN marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1854,
+      "completeness": "Good — district court and probate court minutes survive from organization",
+      "gaps": "Justice of the peace records are incomplete for early decades.",
+      "repository": "Goodhue County Courthouse; Minnesota Historical Society",
+      "online_access": "Limited — primarily on-site or Minnesota Historical Society microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1870,
+      "death_registration_start": 1870,
+      "completeness": "Minnesota required vital registration from 1870, but compliance was spotty until the 1890s. Red Wing city records may be more complete than rural township records.",
+      "repository": "Minnesota Department of Health; Goodhue County Recorder; Minnesota Historical Society"
+    },
+    "naturalization_records": {
+      "earliest_surviving": 1858,
+      "completeness": "Good — naturalization declarations and final papers survive from statehood. Critical for Norwegian and Swedish immigrants.",
+      "gaps": "Some early declarations of intent filed at district courts elsewhere before settlers reached Goodhue County.",
+      "repository": "Goodhue County District Court; National Archives — Chicago; Minnesota Historical Society",
+      "online_access": "FamilySearch; Ancestry.com immigration and naturalization collections"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Norwegian Lutheran church records (ministerialbok)",
+      "description": "Norwegian Lutheran congregations in Goodhue County — including Holden, Aspelund, Vang, and Lands Lutheran — kept detailed parish registers recording baptisms, confirmations, marriages, burials, and communion attendance. These records follow the Norwegian ministerialbok tradition and are often bilingual (Norwegian/English).",
+      "repository": "Norwegian-American Historical Association, Northfield; Luther Seminary Archives, St. Paul; individual congregations; FamilySearch microfilm",
+      "era_coverage": "1850s–present",
+      "genealogical_value": "Essential substitute for civil vital records before reliable registration. Norwegian church records often include the immigrant's parish of origin in Norway, enabling transatlantic record linkage. Confirmation records list parents and birthdate.",
+      "source": "Qualey, Carlton C. Norwegian Settlement in the United States. Northfield, MN: Norwegian-American Historical Association, 1938."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1850–1940. Goodhue County is enumerated from the 1850 territorial census. Agricultural schedules (1850–1880) provide farm data.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1850–1940",
+      "genealogical_value": "Essential for tracking families. The 1850 and 1857 territorial censuses capture earliest settlers. Agricultural schedules reveal farm size, crops, and livestock.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Goodhue County, MN."
+    },
+    {
+      "source_type": "Minnesota territorial and state censuses",
+      "description": "Minnesota conducted territorial censuses in 1849 and 1857, and state censuses in 1865, 1875, 1885, 1895, and 1905. These fill gaps between federal censuses.",
+      "repository": "Minnesota Historical Society; FamilySearch microfilm",
+      "era_coverage": "1849–1905",
+      "genealogical_value": "The 1857 territorial census is critical for identifying settlers present before statehood. State censuses provide additional data points for tracking family movement.",
+      "source": "Minnesota Historical Society. Minnesota Census Records Guide. St. Paul: MHS, 2004."
+    },
+    {
+      "source_type": "Norwegian emigration records (Emigrantprotokollene)",
+      "description": "Norwegian police districts maintained emigration protocols listing every person who obtained a passport for emigration. These records link the Norwegian parish of origin to the American destination.",
+      "repository": "National Archives of Norway (Digitalarkivet); FamilySearch; Norwegian-American Historical Association",
+      "era_coverage": "1825–1930",
+      "genealogical_value": "The emigration protocol entry for {ancestor_name} may specify the exact parish of departure, ship, date, and intended American destination — creating a bridge between Norwegian and American records.",
+      "source": "Digitalarkivet (National Archives of Norway). Emigrantprotokollene, various police districts."
+    }
+  ],
+  "narrative_hooks": [
+    "Goodhue County's records survived intact from 1854 — no fires, no floods, no war damage — which means that if {ancestor_name} bought land, married, or died here, the paper trail almost certainly still exists in the Red Wing courthouse.",
+    "The Norwegian Lutheran church records in Goodhue County are as detailed as the civil records — if {ancestor_name} was baptized, confirmed, married, or buried in a congregation like Holden or Vang, the ministerialbok may contain more family detail than any government document.",
+    "Before 1870, Minnesota did not require birth or death registration, so the absence of a birth record for {ancestor_name} reflects the era — the church baptismal register and the federal census are the likeliest substitutes.",
+    "If {ancestor_name} was naturalized in Goodhue County, the declaration of intent and final papers may survive from as early as 1858 — recording not just the oath of citizenship but the immigrant's place of birth and date of arrival."
+  ],
+  "source_references": [
+    "Rasmussen, C. A. A History of Goodhue County, Minnesota. Red Wing: Red Wing Republican, 1935.",
+    "Qualey, Carlton C. Norwegian Settlement in the United States. Northfield, MN: Norwegian-American Historical Association, 1938.",
+    "Minnesota Historical Society. Minnesota Census Records Guide. St. Paul: MHS, 2004.",
+    "Digitalarkivet (National Archives of Norway). Emigrantprotokollene.",
+    "National Archives and Records Administration. Federal Census Schedules, Goodhue County, MN."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "mn_goodhue",
+    "research_guidance_refs": ["immigrant_record_sources", "scandinavian_church_records"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Crawford County, MO. Record survival and courthouse history. Crawford County was formed in 1829. The courthouse suffered a fire in 1873 with moderate record loss. Steelville is the county seat — a small Ozark town where records are held locally with microfilm at the Missouri State Archives.",
+  "courthouse_atlas_id": "mo_crawford_courthouse",
+  "display_name": "Crawford County, Missouri — Courthouse Atlas",
+  "county": "Crawford",
+  "state": "MO",
+  "fips_code": "29055",
+  "cluster_ref": "mo_ozarks_gateway",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1886,
+      "location": "Steelville, MO — courthouse square",
+      "records_housed": ["deeds", "plats", "marriage records", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1829-1873",
+        "location": "Steelville",
+        "fate": "Destroyed by fire in 1873. Some records lost."
+      },
+      {
+        "era": "1873-1886",
+        "location": "Steelville (temporary quarters)",
+        "fate": "Replaced by the current 1886 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "crawford_1873_fire",
+      "date": "1873",
+      "cause": "Courthouse fire",
+      "records_destroyed": ["Circuit court records pre-1873 (most)", "some probate records", "some tax records"],
+      "records_survived": ["Deed books (partial — some rescued)", "marriage records (partial)"],
+      "scope": "significant",
+      "description": "The 1873 courthouse fire destroyed a significant portion of Crawford County's early records. Circuit court records from the county's formation through 1873 were largely lost. Some deed books and marriage records were rescued from the fire but with damage. Post-1873 records are complete.",
+      "narrative_impact": "If {ancestor_name} was in Crawford County before 1873, the courthouse fire may have destroyed the court records that documented {pronoun_possessive} presence. Deed records and marriage records have partial survival. Federal census records and church records are essential substitutes.",
+      "source": "Missouri State Archives. Guide to County Records on Microfilm: Crawford County."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1829,
+      "completeness": "Partial — some early deed books survived the 1873 fire but with damage.",
+      "gaps": "Gaps in the earliest volumes. Complete from approximately 1873 forward.",
+      "repository": "Crawford County Recorder of Deeds, Steelville; Missouri State Archives",
+      "online_access": "FamilySearch microfilm (partial)"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1873,
+      "completeness": "Pre-1873 probate records largely lost in fire. Complete from 1873.",
+      "gaps": "No probate records before 1873 are reliably available.",
+      "repository": "Crawford County Probate Court; Missouri State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1829,
+      "completeness": "Partial — some early marriage records survived the fire. Complete from 1873.",
+      "gaps": "Gaps in pre-1873 marriage records.",
+      "repository": "Crawford County Recorder; Missouri State Archives",
+      "online_access": "FamilySearch; Ancestry.com MO marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1873,
+      "completeness": "Pre-1873 lost in fire. Complete from 1873.",
+      "gaps": "Complete gap from formation (1829) to 1873.",
+      "repository": "Missouri State Archives; Crawford County Circuit Court",
+      "online_access": "Missouri State Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1883,
+      "death_registration_start": 1883,
+      "completeness": "Poor compliance in rural Ozark areas until approximately 1910. Many births and deaths in the hollows were never registered.",
+      "repository": "Missouri Department of Health and Senior Services; Missouri State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1830-1940 provide the baseline for Crawford County families, especially critical for the pre-1873 period when courthouse records are sparse.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1830-1940",
+      "genealogical_value": "Essential for pre-1873 research. The census may be the only federal record documenting families whose courthouse records burned.",
+      "source": "National Archives and Records Administration."
+    },
+    {
+      "source_type": "Church records (Baptist, Methodist, Christian Church)",
+      "description": "Baptist and Methodist church records from Crawford County communities supplement the courthouse records, particularly for the pre-1873 period. Record-keeping quality varies widely by congregation.",
+      "repository": "State Historical Society of Missouri; individual church holdings; Missouri Baptist Historical Commission",
+      "era_coverage": "1840s-present",
+      "genealogical_value": "Variable. Some Baptist church minute books contain detailed membership, baptism, and burial records. Many rural congregations kept minimal records.",
+      "source": "Missouri State Archives research guides."
+    },
+    {
+      "source_type": "Meramec Iron Works company records",
+      "description": "Records from the Meramec Iron Works (founded 1826) may document workers and families connected to the earliest industrial operation in the county.",
+      "repository": "Missouri Historical Society, St. Louis; State Historical Society of Missouri",
+      "era_coverage": "1826-1870s",
+      "genealogical_value": "Limited survival, but where records exist they document families in the iron industry — including enslaved workers — who may not appear in other records.",
+      "source": "Rafferty, The Ozarks: Land and Life (2001)."
+    }
+  ],
+  "narrative_hooks": [
+    "The 1873 courthouse fire took most of Crawford County's early records — if {ancestor_name} was in the county before that year, the fire erased the official trace of {pronoun_possessive} presence.",
+    "Crawford County's vital records are sparse before 1910 — births and deaths in the hollows went unrecorded because the nearest registrar was a day's ride away and nobody came to ask.",
+    "Federal census records are the lifeline for pre-1873 Crawford County research — if the courthouse burned {ancestor_name}'s deed, the census may be the only proof {pronoun_subject} was ever there.",
+    "The Baptist and Methodist church minute books in Crawford County may hold the records the courthouse lost — if {ancestor_name} was baptized or buried by a congregation that kept its books."
+  ],
+  "source_references": [
+    "Missouri State Archives. Guide to County Records on Microfilm: Crawford County.",
+    "Rafferty, Milton D. The Ozarks: Land and Life. 2nd ed. University of Arkansas Press, 2001.",
+    "Works Progress Administration. Historical Records Survey: Missouri County Records. Jefferson City, 1937-1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "mo_crawford",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

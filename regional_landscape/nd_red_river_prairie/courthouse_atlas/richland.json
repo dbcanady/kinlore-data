@@ -1,0 +1,123 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Richland County, ND. Southernmost county in the cluster, county seat at Wahpeton. Record survival is good from county organization (1873). Dual Norwegian and German-Russian settlement streams create overlapping record systems.",
+  "courthouse_atlas_id": "nd_richland_courthouse",
+  "display_name": "Richland County, North Dakota — Courthouse Atlas",
+  "county": "Richland",
+  "state": "ND",
+  "fips_code": "38077",
+  "cluster_ref": "nd_red_river_prairie",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1931,
+      "location": "Wahpeton, ND — 418 2nd Avenue North",
+      "records_housed": ["deeds", "mortgages", "marriage records", "probate records", "court minutes", "vital records indexes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1873–1885",
+        "location": "Wahpeton — wooden frame building near the Bois de Sioux River",
+        "fate": "Replaced as the county grew. Records were transferred to the successor building."
+      },
+      {
+        "era": "1885–1931",
+        "location": "Wahpeton — brick courthouse",
+        "fate": "Replaced by the current 1931 building. No significant record losses during construction transition."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "richland_no_major_losses",
+      "date": null,
+      "cause": "No catastrophic loss event",
+      "records_destroyed": ["some scattered early justice of the peace records", "some early school district records"],
+      "records_survived": ["deed books from 1873", "court minutes", "marriage records from 1873", "probate files"],
+      "scope": "minimal",
+      "description": "Richland County has experienced no major courthouse fire or flood affecting its core records. The county's record survival is good from county organization in 1873. Minor losses are limited to scattered justice of the peace records and some early school district records that were kept informally in private homes.",
+      "narrative_impact": "Richland County's records are well-preserved. If {ancestor_name} left a legal trace in Richland County — a deed, a marriage license, a probate filing — the document almost certainly survives in Wahpeton.",
+      "source": "State Historical Society of North Dakota. Guide to County Records. Bismarck: SHSND, 2003."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1873,
+      "completeness": "Good — continuous from county organization. Both Norwegian homesteaders and German-Russian settlers appear in the deed records, along with Northern Pacific land-grant transactions.",
+      "gaps": "No significant gaps. Federal homestead patents are recorded separately at BLM GLO.",
+      "repository": "Richland County Recorder's Office, Wahpeton; SHSND",
+      "online_access": "FamilySearch microfilm; BLM GLO Records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1878,
+      "completeness": "Good from late 1870s forward. Probate becomes more frequent after 1890 as the first generation of settlers aged.",
+      "gaps": "Very few estates filed before 1880 — the population was young and property was limited.",
+      "repository": "Richland County Clerk of Court; SHSND",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1873,
+      "completeness": "Good from county organization. Both Norwegian Lutheran and German-Russian church marriages sometimes preceded civil licensing.",
+      "gaps": "Church marriages without civil license in the earliest settlement period. Norwegian Lutheran and German Reformed/Congregational church records fill this gap.",
+      "repository": "Richland County Recorder's Office, Wahpeton",
+      "online_access": "FamilySearch; Ancestry.com ND marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1874,
+      "completeness": "Good from county organization.",
+      "gaps": "Minor gaps in early territorial court records.",
+      "repository": "Richland County Clerk of Court; SHSND",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1893,
+      "death_registration_start": 1893,
+      "completeness": "Spotty until approximately 1910, especially in rural townships. Wahpeton city records may be more complete for the 1893-1910 period.",
+      "repository": "ND Department of Health Vital Records; SHSND"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Norwegian Lutheran church records (ministerialbok)",
+      "description": "Norwegian Lutheran congregations in the eastern part of Richland County maintained meticulous records in the ministerialbok tradition. Baptisms, confirmations, marriages, and burials recorded in Norwegian.",
+      "repository": "NAHA, Northfield, MN; ELCA Archives; individual congregations; SHSND",
+      "era_coverage": "1878–1940",
+      "genealogical_value": "Essential for Norwegian immigrant families. Often the only record of vital events before 1893.",
+      "source": "Lovoll, Odd S. The Promise of America. Minneapolis: University of Minnesota Press, 1984."
+    },
+    {
+      "source_type": "German-Russian church records",
+      "description": "German-Russian (Volga German and Black Sea German) communities in western Richland County maintained their own church records — German Reformed, Congregational, and Evangelical denominations. Records were kept in German. These communities settled in distinct colonies, and church records are often the primary genealogical source connecting families to specific villages in Russia (Ukraine).",
+      "repository": "Germans from Russia Heritage Collection, NDSU Libraries, Fargo; individual congregations; SHSND",
+      "era_coverage": "1885–1940",
+      "genealogical_value": "Critical for German-Russian families. Baptismal and marriage records name parents and witnesses, and some include village of origin in Russia. The GRHC at NDSU has compiled extensive village-by-village documentation.",
+      "source": "Sallet, Richard. Russian-German Settlements in the United States. Fargo: NDIRS, 1974."
+    },
+    {
+      "source_type": "Federal homestead records",
+      "description": "Homestead application files contain the homesteader's name, age, citizenship status, family size, description of improvements, and witness testimony.",
+      "repository": "National Archives; BLM GLO Records",
+      "era_coverage": "1870–1940",
+      "genealogical_value": "Essential for settlers. German-Russian homestead files sometimes include naturalization papers that record the village of origin in Russia — a critical detail for tracing transatlantic connections.",
+      "source": "National Archives and Records Administration. Homestead Records."
+    }
+  ],
+  "narrative_hooks": [
+    "Richland County's records survived intact — no fire, no flood — which means that {ancestor_name}'s deed, marriage record, or probate file is almost certainly still in the vault at Wahpeton.",
+    "If {ancestor_name} came to Richland County from a German-Russian village on the Black Sea steppe, the homestead proof-up file at the National Archives may contain the naturalization papers that name that village — the thread connecting North Dakota to Ukraine.",
+    "The Norwegian Lutheran ministerialbok in {ancestor_name}'s congregation recorded the baptism in Norwegian — the child's name, the parents, the date, and the witnesses — and that entry may be the oldest surviving record of {pronoun_possessive} existence, written before the state required anyone to register a birth.",
+    "Two worlds of record-keeping overlapped in Richland County — Norwegian ministerialbok in the east, German Reformed kirchenbuch in the west — and {ancestor_name}'s family was documented in one of these parallel systems before the civil records caught up."
+  ],
+  "source_references": [
+    "State Historical Society of North Dakota. Guide to County Records. Bismarck: SHSND, 2003.",
+    "Lovoll, Odd S. The Promise of America: A History of the Norwegian-American People. Minneapolis: University of Minnesota Press, 1984.",
+    "Sallet, Richard. Russian-German Settlements in the United States. Fargo: North Dakota Institute for Regional Studies, 1974.",
+    "National Archives and Records Administration. Homestead Records at the National Archives. Washington, DC.",
+    "Germans from Russia Heritage Collection. NDSU Libraries, Fargo, ND."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nd_richland",
+    "research_guidance_refs": ["census_gaps", "vital_records", "property_records"],
+    "template_refs": ["record_silences"]
+  }
+}

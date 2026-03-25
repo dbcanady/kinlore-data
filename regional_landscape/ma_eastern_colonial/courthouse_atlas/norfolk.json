@@ -1,0 +1,120 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse & Records Survival Atlas for Norfolk County, MA. Norfolk County was created from Suffolk in 1793. Records survival is excellent but split between county (deeds, probate) and town clerks (vital records) per Massachusetts's unique town-based system.",
+  "courthouse_atlas_id": "ma_norfolk_courthouse",
+  "display_name": "Norfolk County, Massachusetts — Courthouse Atlas",
+  "county": "Norfolk",
+  "state": "MA",
+  "fips_code": "25021",
+  "cluster_ref": "ma_eastern_colonial",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1827,
+      "location": "Dedham, MA — High Street (expanded 1894, renovated multiple times)",
+      "records_housed": ["deeds from 1793", "probate records from 1793", "court minutes", "naturalization records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1793-1827",
+        "location": "Dedham, MA — earlier structure on the same site",
+        "fate": "Replaced by current building."
+      }
+    ],
+    "special_note": "Norfolk County was carved from Suffolk County in 1793. Pre-1793 records for Norfolk County towns are held at the Suffolk County Registry of Deeds (Boston) and the Massachusetts State Archives. Vital records are held by individual town clerks, not the county."
+  },
+  "record_losses": [
+    {
+      "loss_id": "norfolk_no_major_losses",
+      "date": "N/A",
+      "cause": "No major losses",
+      "records_destroyed": [],
+      "records_survived": ["deeds", "probate", "court minutes", "naturalization records"],
+      "scope": "none significant",
+      "description": "Norfolk County has experienced no major courthouse fires or record losses. The county's records from 1793 forward are complete. Pre-1793 records survive at Suffolk County repositories. Individual town vital records have occasional gaps due to early clerical inconsistency, but no systematic losses have occurred.",
+      "narrative_impact": "Norfolk County's excellent record survival means that gaps in {ancestor_name}'s documentation are more likely due to the family's social position (poverty, illiteracy, transience) than record destruction. If they owned land or went through probate in Norfolk County after 1793, the record almost certainly survives.",
+      "source": "Norfolk County Registry of Deeds. Institutional records. Massachusetts State Archives guide."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1793,
+      "completeness": "Complete from county formation. Pre-1793 deeds for Norfolk County towns at Suffolk County Registry of Deeds.",
+      "gaps": "None significant.",
+      "repository": "Norfolk County Registry of Deeds, Dedham; Suffolk County Registry (pre-1793)",
+      "online_access": "MassLandRecords.com (images); FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1793,
+      "completeness": "Complete from formation. Pre-1793 probate at Suffolk County Probate Court.",
+      "gaps": "None significant.",
+      "repository": "Norfolk County Probate and Family Court, Canton; Suffolk County (pre-1793)",
+      "online_access": "FamilySearch microfilm; Ancestry.com Massachusetts probate"
+    },
+    "marriages": {
+      "earliest_surviving": 1630,
+      "completeness": "Town-level records from earliest settlement (Dedham 1636, Braintree 1640, Weymouth 1635). State copies from 1841.",
+      "gaps": "Varies by town — older towns have excellent early records; newer incorporated towns begin later.",
+      "repository": "Individual town clerks; Massachusetts Vital Records to 1850 (published); State Archives",
+      "online_access": "AmericanAncestors.org (NEHGS); Ancestry.com; FamilySearch"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1793,
+      "completeness": "Good from formation. Pre-1793 court proceedings at Suffolk County or Massachusetts State Archives.",
+      "gaps": "Minimal.",
+      "repository": "Norfolk County Superior Court; Massachusetts State Archives",
+      "online_access": "Limited digitization; FamilySearch microfilm for some series"
+    },
+    "vital_records": {
+      "birth_registration_start": 1635,
+      "death_registration_start": 1635,
+      "completeness": "Earliest town records (Dedham, Weymouth, Braintree) from 1630s. Statewide registration 1841. Published vital records volumes cover most towns to 1850.",
+      "repository": "Individual town clerks; Massachusetts Registry of Vital Records; State Archives",
+      "special_note": "Norfolk County town clerks are the primary custodians of vital records. The published 'Vital Records of [Town]' series covers Dedham, Braintree, Weymouth, Quincy, and other towns."
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Published town vital records (to 1850)",
+      "description": "Published vital records abstracts for most Norfolk County towns. Essential finding aids for colonial and early national period research.",
+      "repository": "NEHGS Library; FamilySearch; Internet Archive",
+      "era_coverage": "1630s-1850",
+      "genealogical_value": "Alphabetized abstracts of births, marriages, and deaths make colonial-era research practical without visiting individual town halls.",
+      "source": "Various town vital records volumes. Boston: NEHGS, 1900-1940s."
+    },
+    {
+      "source_type": "Dedham Historical Society records",
+      "description": "Dedham, the county seat and one of the oldest towns in Massachusetts (settled 1636), has extensive historical society collections including church records, town meeting minutes, and private papers.",
+      "repository": "Dedham Historical Society and Museum",
+      "era_coverage": "1636-present",
+      "genealogical_value": "Supplements official records with church membership, family papers, and local history documenting families that lived in Norfolk County from the earliest settlement.",
+      "source": "Dedham Historical Society. Guide to Collections."
+    },
+    {
+      "source_type": "Quincy granite industry records",
+      "description": "Records from the Quincy quarries, the Granite Railway Company, and related enterprises document the immigrant workforce that built the industry.",
+      "repository": "Thomas Crane Public Library (Quincy); Quincy Historical Society",
+      "era_coverage": "1826-1930",
+      "genealogical_value": "Employment records, company housing records, and related documents can place ancestors who worked in the quarries — particularly Irish, Italian, and Scandinavian immigrants.",
+      "source": "Quincy Historical Society collections."
+    }
+  ],
+  "narrative_hooks": [
+    "Norfolk County split from Suffolk in 1793, which means that {ancestor_name}'s pre-1793 records are in Boston at the Suffolk County Registry — a fact that trips up researchers who look only in Dedham.",
+    "Norfolk County has never lost a courthouse to fire, which means that if {ancestor_name} owned property or passed through probate here after 1793, the record survives. The question is never 'did it burn?' — it's 'which town's clerk has the vital record?'",
+    "In Massachusetts, the birth record for {ancestor_name} is held not by the county but by the town clerk of the town where {pronoun_subject} was born — a system that has operated since the 1630s and that every genealogist must learn to navigate.",
+    "The published vital records of Dedham, Braintree, and Weymouth cover the earliest settlement period — if {ancestor_name}'s family was in Norfolk County before 1800, these volumes are the first place to look."
+  ],
+  "source_references": [
+    "Norfolk County Registry of Deeds. Institutional history records.",
+    "Massachusetts State Archives. Guide to Public Records in Massachusetts. Boston: Secretary of the Commonwealth.",
+    "Various published town vital records volumes. Boston: NEHGS, 1900-1940s.",
+    "Dedham Historical Society. Guide to Collections. Dedham, MA.",
+    "Quincy Historical Society. Collections guide."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ma_norfolk",
+    "research_guidance_refs": ["new_england_town_records", "colonial_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

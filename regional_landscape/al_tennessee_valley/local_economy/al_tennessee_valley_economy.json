@@ -1,0 +1,238 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Local economy timeline for the AL Tennessee Valley regional cluster (Madison, Limestone, Morgan, Lawrence, Jackson, Marshall, DeKalb, Cherokee counties). Covers 1809-1960 across six economic eras — from Cherokee/Chickasaw cession through the cotton frontier, Civil War, tenant farming, TVA, and the aerospace transformation. The Tennessee Valley's economic story is defined by its extremes: the richest cotton land in north Alabama (Madison, Limestone bottomland) alongside some of the poorest subsistence farms in the state (Sand Mountain, Cherokee County ridges), and a twentieth-century pivot from agriculture to federal investment (TVA, Redstone Arsenal, Marshall Space Flight Center) unmatched in the rural South.",
+  "economy_id": "al_tennessee_valley_economy",
+  "display_name": "AL Tennessee Valley — Local Economy Timeline",
+  "cluster_ref": "al_tennessee_valley",
+  "era_range": "1809-1960",
+  "economic_eras": [
+    {
+      "era_id": "cession_frontier",
+      "era_name": "Cession Lands and the Cotton Frontier",
+      "date_range": "1809-1830",
+      "dominant_economy": "Land speculation, cotton planting on newly ceded Cherokee/Chickasaw territory, subsistence farming in the hills, Huntsville as commercial center",
+      "description": "The Tennessee Valley's economy began with the federal land office. The Chickasaw cession of 1805-1806 opened the river valley; Cherokee cessions followed through the 1810s-1830s. The Huntsville Land Office (1811) processed the first land entries in Alabama, and speculators and planters poured in from Virginia, the Carolinas, and Georgia. Madison County became Alabama's wealthiest county within a generation. The Tennessee River bottomland and the limestone uplands produced cotton yields rivaling the Mississippi Delta. Enslaved labor was imported at a stunning rate — Madison County's enslaved population grew from near zero in 1810 to over 14,000 by 1830. The hill and mountain counties (Lawrence south, Marshall, DeKalb, Cherokee) settled more slowly and supported subsistence farming rather than plantation agriculture.",
+      "county_specifics": [
+        { "county": "Madison", "note": "Huntsville Land Office opened 1811. First major city in Alabama. Cotton boom on the Tennessee River bottomland. Largest enslaved population in north Alabama by 1830." },
+        { "county": "Limestone", "note": "Settled shortly after Madison. Elk River bottomland quickly cleared for cotton. Athens emerged as the county seat." },
+        { "county": "Morgan", "note": "Formed as Cotaco County 1818. Decatur developing at the Tennessee River crossing. Mixed cotton and subsistence farming." },
+        { "county": "Lawrence", "note": "Northern bottomland in cotton; southern hills in subsistence farming. The county's split identity established at formation." },
+        { "county": "Jackson", "note": "Cherokee territory still — some white settlement in valley but Cherokee presence until 1830s." },
+        { "county": "Marshall", "note": "Cherokee territory. County not formed until 1836. Settlement follows removal." },
+        { "county": "DeKalb", "note": "Cherokee heartland. County not formed until 1836. Last area of organized Cherokee presence in Alabama." },
+        { "county": "Cherokee", "note": "Cherokee and Creek boundary zone. County not formed until 1836. Iron ore deposits known but not yet exploited." }
+      ],
+      "key_infrastructure": [
+        { "name": "Huntsville Land Office", "year": 1811, "impact": "First federal land office in Alabama Territory. Processed the land entries that established ownership of the Tennessee Valley. The land office drew speculators, planters, and settlers." },
+        { "name": "Cotton gins at crossroads", "year": "1815-1830", "impact": "Cotton gins proliferated along the valley floor as cotton production expanded. Each gin was a commercial center." },
+        { "name": "Tennessee River flatboat commerce", "year": "1810-1830", "impact": "Cotton was shipped downstream on flatboats to the Tennessee-Ohio-Mississippi river system. Dangerous at Muscle Shoals rapids — boats navigated the shoals at risk of wreck." }
+      ],
+      "major_employers": [
+        { "name": "Cotton plantations (Tennessee River bottomland)", "type": "Enslaved labor agriculture", "era": "1810-1830", "counties_affected": ["Madison", "Limestone", "Morgan", "Lawrence"], "employment_scale": "Thousands of enslaved people imported to work bottomland cotton. Madison County alone had over 14,000 enslaved people by 1830." },
+        { "name": "Subsistence farms (hill counties)", "type": "Family labor", "era": "1820-1830", "counties_affected": ["Lawrence", "Jackson", "Marshall", "DeKalb", "Cherokee"], "employment_scale": "Family-scale. Hill farms employed no outside labor." }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Hired-out enslaved laborer", "wage": "$80-$150/year paid to enslaver", "year": 1825, "source": "Dupre, Transforming the Cotton Frontier, ch. 3" },
+        { "occupation": "Farm laborer (hired white)", "wage": "$0.25-$0.50/day", "year": 1825, "source": "Dupre, Transforming the Cotton Frontier, ch. 3" }
+      ],
+      "narrative_hook": "In the {decade}s, {ancestor_name} arrived in the Tennessee Valley when the land office was barely dry — cotton ground that had been Cherokee territory within living memory, now selling at auction to planters who brought enslaved people by the wagonload to work the richest soil in Alabama.",
+      "source": "Dupre, Daniel S. Transforming the Cotton Frontier: Madison County, Alabama, 1800-1840. Baton Rouge: LSU Press, 1997."
+    },
+    {
+      "era_id": "cotton_kingdom",
+      "era_name": "Cotton Kingdom: Antebellum Prosperity and Inequality",
+      "date_range": "1830-1860",
+      "dominant_economy": "Cotton agriculture on bottomland and limestone uplands; enslaved labor system; Huntsville as commercial and cultural center; subsistence farming in mountain counties; iron furnaces in Cherokee County",
+      "description": "The antebellum Tennessee Valley was Alabama's wealthiest region and one of the richest agricultural districts in the South. Madison and Limestone counties produced cotton yields that rivaled the Mississippi Delta, built on the labor of enslaved people who constituted nearly half the valley population. Huntsville was a city of elegance and ambition — cotton factors, lawyers, bankers, and the enslaved people who served them. The mountain counties (Marshall, DeKalb, Cherokee) remained subsistence-oriented, with thin soils that could not support the plantation system. Lawrence County was divided: the bottomland was plantation country; the hills were yeoman territory. Cherokee County developed a small iron furnace industry using ridge ore deposits. The economic gap between the bottomland and the mountains was enormous — a Madison County planter might own 2,000 acres and 100 enslaved people, while a DeKalb County farmer owned 60 acres and no one.",
+      "county_specifics": [
+        { "county": "Madison", "note": "Alabama's wealthiest county. LeRoy Pope, the Pattons, and other planter families dominated. Huntsville had a cultured society built on enslaved labor." },
+        { "county": "Limestone", "note": "Second wealthiest valley county. Elk River bottom cotton. Large enslaved population." },
+        { "county": "Morgan", "note": "Cotton in the valley; Decatur developing as a river crossing and market town." },
+        { "county": "Lawrence", "note": "Divided: cotton bottomland north, subsistence hills south." },
+        { "county": "Jackson", "note": "Cotton in the valley around Scottsboro; subsistence farming on Sand Mountain." },
+        { "county": "Marshall", "note": "Sand Mountain subsistence farming. No plantation economy." },
+        { "county": "DeKalb", "note": "The poorest county in the cluster. Subsistence farming on Lookout Mountain and Sand Mountain." },
+        { "county": "Cherokee", "note": "Ridge-and-valley subsistence farming with small iron furnace operations. No significant cotton." }
+      ],
+      "key_infrastructure": [
+        { "name": "Memphis & Charleston Railroad", "year": 1857, "impact": "Connected Huntsville and Decatur to Memphis and Chattanooga. Transformed the valley's transportation from river-dependent to rail-connected. The railroad made Decatur a junction and enhanced the valley's market access." },
+        { "name": "Huntsville cotton warehouses and factors", "year": "1830-1860", "impact": "Huntsville served as the financial and commercial center for Tennessee Valley cotton. Cotton factors advanced credit against the crop and arranged sales." },
+        { "name": "Iron furnaces (Cherokee County)", "year": "1840-1860", "impact": "Small blast furnaces exploiting ridge iron ore deposits. Employed enslaved and free labor in an industrial setting predating the textile mills." }
+      ],
+      "major_employers": [
+        { "name": "Cotton plantations", "type": "Enslaved labor agriculture", "era": "1830-1860", "counties_affected": ["Madison", "Limestone", "Morgan", "Lawrence"], "employment_scale": "Dominant. Madison County alone had over 17,000 enslaved people by 1860." },
+        { "name": "Subsistence farms", "type": "Family labor", "era": "1830-1860", "counties_affected": ["Marshall", "DeKalb", "Cherokee", "Jackson", "Lawrence"], "employment_scale": "Family-scale operations. These counties had few enslaved people." }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Hired-out enslaved laborer", "wage": "$100-$200/year paid to enslaver", "year": 1855, "source": "Wright, Gavin. Old South, New South, ch. 1" },
+        { "occupation": "Farm laborer (hired white)", "wage": "$0.40-$0.75/day", "year": 1855, "source": "Wright, Old South, New South, ch. 1" },
+        { "occupation": "Iron furnace laborer (free)", "wage": "$0.50-$1.00/day", "year": 1850, "source": "Griffith, Alabama: A Documentary History, ch. 5" }
+      ],
+      "narrative_hook": "In {county} County in the {decade}s, {ancestor_name} lived in a Tennessee Valley that was two worlds — the richest cotton land in north Alabama stretching along the river, and the poorest subsistence farms in the state sitting on the mountains above it.",
+      "source": "Dupre, Transforming the Cotton Frontier (1997). Wright, Gavin. Old South, New South: Revolutions in the Southern Economy Since the Civil War. New York: Basic Books, 1986."
+    },
+    {
+      "era_id": "civil_war_reconstruction",
+      "era_name": "Civil War, Occupation, and Reconstruction",
+      "date_range": "1861-1877",
+      "dominant_economy": "Military occupation and disruption; emancipation; tenant farming emerging; railroad rebuilding; guerrilla warfare in mountains",
+      "description": "The Tennessee Valley was strategically critical during the Civil War — the Memphis & Charleston Railroad ran through it, the Tennessee River was a Union invasion corridor, and Huntsville was occupied by Federal forces in April 1862, making it one of the earliest major Southern cities to fall. Decatur was burned. Athens changed hands repeatedly. The mountain counties experienced guerrilla warfare as Unionist sentiment clashed with Confederate authority — north Alabama had more pro-Union white sentiment than any other part of the Deep South. Emancipation destroyed the labor system that had produced the cotton. The postwar transition to tenant farming and sharecropping created new forms of economic dependency for both Black and white families. Reconstruction brought political participation for freedpeople but also violent resistance from white supremacists.",
+      "county_specifics": [
+        { "county": "Madison", "note": "Huntsville occupied April 1862. Railroad depot and infrastructure intact but surrounding countryside stripped. Freedmen's Bureau established. Postwar tenant farming on former plantations." },
+        { "county": "Limestone", "note": "Athens changed hands multiple times. Postwar labor disruption. Large freedpeople population transitioned to tenant farming." },
+        { "county": "Morgan", "note": "Decatur burned by Federal forces 1862. Railroad junction destroyed and rebuilt. Somerville courthouse survived." },
+        { "county": "Lawrence", "note": "Divided wartime loyalties. Guerrilla activity in hills. Bottomland disrupted; hills barely affected because they had little to take." },
+        { "county": "Jackson", "note": "Divided loyalties. Guerrilla warfare in mountain areas. Valley disrupted by military operations." },
+        { "county": "Marshall", "note": "Strong Unionist sentiment on Sand Mountain. Guerrilla warfare. Confederate conscription resisted in mountain communities." },
+        { "county": "DeKalb", "note": "Significant Unionist sentiment. Remote location meant less military activity but internal conflict between Union and Confederate sympathizers." },
+        { "county": "Cherokee", "note": "Divided. Iron furnaces operated for Confederate war material. Guerrilla activity along the ridges." }
+      ],
+      "key_infrastructure": [
+        { "name": "Memphis & Charleston Railroad (destroyed and rebuilt)", "year": "1862-1870", "impact": "The railroad was destroyed during the war and rebuilt afterward. Its reconstruction was essential to the valley's economic recovery." },
+        { "name": "Freedmen's Bureau offices", "year": "1865-1872", "impact": "Established in Huntsville, Athens, and Decatur. Managed labor contracts, schools, and relief for formerly enslaved people." }
+      ],
+      "major_employers": [
+        { "name": "Tenant farming and sharecropping", "type": "Agriculture — tenant labor", "era": "1865-1877", "counties_affected": ["Madison", "Limestone", "Morgan", "Lawrence", "Jackson"], "employment_scale": "Dominant postwar employment for both Black and white agricultural workers in the valley counties." },
+        { "name": "Railroad reconstruction", "type": "Construction labor", "era": "1865-1870", "counties_affected": ["Madison", "Morgan", "Limestone"], "employment_scale": "Hundreds of laborers employed in rebuilding track, bridges, and depots." }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Sharecropper (cotton, typical return)", "wage": "$50-$150/year net after expenses (often less)", "year": 1870, "source": "Wright, Old South, New South, ch. 3" },
+        { "occupation": "Railroad laborer (reconstruction)", "wage": "$1.00-$1.50/day", "year": 1867, "source": "Griffith, Alabama: A Documentary History" }
+      ],
+      "narrative_hook": "The war came to the Tennessee Valley early — Huntsville fell in April 1862, Decatur burned — and by the time it ended, {ancestor_name}'s world had changed completely: the plantations were broken, the people who had worked them were free, and the question was whether the new order would be any more just than the old.",
+      "source": "Flynt, Wayne. Alabama in the Twentieth Century (2004). Griffith, Alabama: A Documentary History (1972)."
+    },
+    {
+      "era_id": "tenant_decline",
+      "era_name": "Tenant Farming, Decline, and the Boll Weevil",
+      "date_range": "1877-1933",
+      "dominant_economy": "Tenant farming and sharecropping in valley; subsistence farming in mountains; cotton declining with boll weevil and soil exhaustion; Decatur as railroad and industrial center; early Great Migration",
+      "description": "The Tennessee Valley's post-Reconstruction economy was defined by decline. Cotton continued as the cash crop, but the labor system — sharecropping and tenant farming — trapped both Black and white families in debt cycles. Soil exhaustion depleted the upland soils that had produced cotton for sixty years. The boll weevil arrived in north Alabama by 1915, devastating yields. Decatur diversified into railroad-related industry, but the agricultural counties stagnated. The mountain counties remained in subsistence farming, with the beginnings of out-migration as young people left for industrial jobs in Birmingham, Chattanooga, and northern cities. The Great Migration began pulling Black families north — from Madison and Limestone counties especially — seeking industrial wages and escape from Jim Crow.",
+      "county_specifics": [
+        { "county": "Madison", "note": "Huntsville stagnated — population barely grew between 1880 and 1930. Tenant farming replaced the plantation system but produced less wealth. Cotton yields declined." },
+        { "county": "Limestone", "note": "Cotton declining. Tenant farming dominant. Athens remained a small market town." },
+        { "county": "Morgan", "note": "Decatur diversified into railroad service, small manufacturing, and river commerce. Less dependent on cotton than Madison and Limestone." },
+        { "county": "Lawrence", "note": "Bottomland cotton declining. Hill families increasingly impoverished. Bankhead Forest acquisition beginning." },
+        { "county": "Jackson", "note": "Scottsboro Boys case (1931) brought international attention. Valley cotton declining; Sand Mountain subsistence continuing." },
+        { "county": "Marshall", "note": "Sand Mountain truck farming emerging — tomatoes, potatoes. Economic identity shifting from failed cotton to vegetable farming." },
+        { "county": "DeKalb", "note": "Subsistence farming continuing. Fort Payne hosiery mills beginning (1920s). First industrial jobs in county." },
+        { "county": "Cherokee", "note": "Iron furnaces dead. Ridge-and-valley farming. Very slow out-migration." }
+      ],
+      "key_infrastructure": [
+        { "name": "Louisville & Nashville Railroad (through Decatur)", "year": "1870s-1930", "impact": "L&N's north-south line through Decatur made it the railroad junction of the Tennessee Valley. Decatur grew when the agricultural counties stagnated." },
+        { "name": "Wilson Dam (Muscle Shoals)", "year": 1924, "impact": "Built during WWI for munitions production. Sat largely idle through the 1920s. Became the seed of TVA in 1933." }
+      ],
+      "major_employers": [
+        { "name": "Tenant farming (cotton)", "type": "Agriculture — tenant labor", "era": "1877-1933", "counties_affected": ["Madison", "Limestone", "Morgan", "Lawrence", "Jackson"], "employment_scale": "Dominant in valley counties. Both Black and white families trapped in the tenant system." },
+        { "name": "L&N Railroad (Decatur operations)", "type": "Railroad employment", "era": "1880-1933", "counties_affected": ["Morgan"], "employment_scale": "Hundreds of workers at Decatur yards and shops. Best-paying employment outside farming." },
+        { "name": "Fort Payne hosiery mills", "type": "Manufacturing — hosiery", "era": "1920-1933", "counties_affected": ["DeKalb"], "employment_scale": "Several hundred workers. First significant industrial employment in DeKalb County." }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Sharecropper (cotton, typical return after lien)", "wage": "$40-$100/year net", "year": 1910, "source": "Wright, Old South, New South, ch. 4" },
+        { "occupation": "Railroad section hand", "wage": "$1.00-$1.25/day", "year": 1910, "source": "Flynt, Alabama in the Twentieth Century" },
+        { "occupation": "Hosiery mill operative", "wage": "$0.75-$1.25/day", "year": 1925, "source": "Flynt, Alabama in the Twentieth Century" }
+      ],
+      "narrative_hook": "By {year}, the Tennessee Valley's cotton economy was dying on its feet — the boll weevil eating the crop, the soil worn out, the tenant system extracting the last cent from {ancestor_name}'s labor and leaving nothing.",
+      "source": "Wright, Old South, New South (1986). Flynt, Alabama in the Twentieth Century (2004)."
+    },
+    {
+      "era_id": "tva_transformation",
+      "era_name": "TVA Transformation",
+      "date_range": "1933-1945",
+      "dominant_economy": "TVA dam construction, rural electrification, flood control; agricultural diversification; Redstone Arsenal construction; wartime defense economy beginning",
+      "description": "TVA transformed the Tennessee Valley more profoundly than any government program in American history. Wilson Dam at Muscle Shoals (inherited from WWI) became the anchor of a dam system that included Wheeler Dam (1936, Morgan-Lawrence border) and Guntersville Dam (1939, Marshall County). TVA brought flood control, navigation, cheap hydroelectric power, rural electrification, soil conservation, and reforestation. The economic impact was immediate: electricity reached farms that had never had it; flood control opened bottomland to reliable cultivation; and TVA construction jobs provided cash employment during the Depression. But TVA also displaced families — dam reservoirs flooded thousands of acres of bottomland, and the families who had farmed that land for generations were bought out. Redstone Arsenal (1941) consumed 38,000 acres of Madison County farmland for military use, displacing more families. The valley's economy was pivoting from agriculture to federal investment.",
+      "county_specifics": [
+        { "county": "Madison", "note": "Redstone Arsenal (1941) consumed 38,000 acres. Huntsville Chemical Warfare facility. Defense economy beginning." },
+        { "county": "Limestone", "note": "TVA rural electrification. Agricultural diversification. Wheeler Dam reservoir affects southern edge." },
+        { "county": "Morgan", "note": "Wheeler Dam built on western border (1936). Decatur benefited from TVA navigation improvements and cheap power." },
+        { "county": "Lawrence", "note": "Wheeler Dam reservoir affects northern farmland. TVA reforestation programs in southern hills." },
+        { "county": "Jackson", "note": "Guntersville Dam (1939) floods valley bottomland in western county. Rural electrification reaches Sand Mountain." },
+        { "county": "Marshall", "note": "Guntersville Dam creates largest TVA lake in Alabama. Families displaced. Rural electrification transforms Sand Mountain." },
+        { "county": "DeKalb", "note": "TVA rural electrification reaches the plateau. Fort Payne hosiery mills expand with cheap electricity." },
+        { "county": "Cherokee", "note": "Less TVA impact than valley counties. Rural electrification arrives later. Agricultural economy persists." }
+      ],
+      "key_infrastructure": [
+        { "name": "Wheeler Dam", "year": 1936, "impact": "Flood control, navigation, and hydroelectric power for the central Tennessee Valley. Created Wheeler Lake. Transformed Morgan and Lawrence counties' relationship with the river." },
+        { "name": "Guntersville Dam", "year": 1939, "impact": "Created Guntersville Lake, the largest TVA reservoir in Alabama. Displaced farm families in Marshall and Jackson counties. Provided flood control and navigation." },
+        { "name": "TVA rural electrification", "year": "1934-1945", "impact": "Brought electricity to farms that had never had it. Transformed daily life — light, refrigeration, radio, water pumps. Sand Mountain and hill communities electrified for the first time." },
+        { "name": "Redstone Arsenal", "year": 1941, "impact": "38,000 acres of Madison County farmland acquired for Army chemical weapons and munitions facility. Displaced farm families. Would later become the center of the US missile and space program." }
+      ],
+      "major_employers": [
+        { "name": "TVA dam construction", "type": "Federal construction", "era": "1933-1939", "counties_affected": ["Morgan", "Lawrence", "Marshall", "Jackson"], "employment_scale": "Thousands of construction workers employed during the Depression." },
+        { "name": "Redstone Arsenal", "type": "Federal military installation", "era": "1941-1945", "counties_affected": ["Madison"], "employment_scale": "Thousands of workers — construction, munitions production, chemical weapons work." },
+        { "name": "TVA operations (post-construction)", "type": "Federal utility", "era": "1936-1960", "counties_affected": ["Madison", "Limestone", "Morgan", "Lawrence", "Jackson", "Marshall", "DeKalb", "Cherokee"], "employment_scale": "Hundreds of permanent TVA employees managing dams, power distribution, and land management." }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "TVA construction laborer", "wage": "$0.40-$0.60/hour", "year": 1936, "source": "Flynt, Alabama in the Twentieth Century" },
+        { "occupation": "Redstone Arsenal production worker", "wage": "$0.60-$1.00/hour", "year": 1943, "source": "Record, A Dream Come True (1970)" }
+      ],
+      "narrative_hook": "TVA changed the Tennessee Valley more than any event since the cotton frontier — the river controlled, the lights turned on, and {ancestor_name}'s world shifted from mule-powered to electric in a single decade.",
+      "source": "Flynt, Alabama in the Twentieth Century (2004). Record, A Dream Come True (1970)."
+    },
+    {
+      "era_id": "rocket_city",
+      "era_name": "Rocket City: Arsenal to Aerospace",
+      "date_range": "1945-1960",
+      "dominant_economy": "Aerospace and defense (Huntsville); TVA-powered industrial development; agricultural decline; population boom in Madison County; continued subsistence and diversified farming in mountain counties",
+      "description": "The postwar transformation of the Tennessee Valley centered on Huntsville. The Army transferred its missile program to Redstone Arsenal, and in 1950 Wernher von Braun and approximately 120 German rocket scientists arrived from Fort Bliss, Texas. Huntsville's population doubled and then tripled. Marshall Space Flight Center was established in 1960. The economy pivoted from cotton to aerospace in a single generation — the grandchildren of cotton planters and sharecroppers worked at the arsenal alongside German engineers. Madison County became the most educated and highest-income county in Alabama. The rest of the cluster lagged behind: Decatur diversified into manufacturing, but the mountain counties remained agricultural, and the economic gap between Huntsville and Sand Mountain widened. The GI Bill sent Tennessee Valley veterans to college in unprecedented numbers, creating the educated workforce that the aerospace economy demanded.",
+      "county_specifics": [
+        { "county": "Madison", "note": "Huntsville tripled in population 1950-1960. Marshall Space Flight Center established 1960. Cotton fields became test ranges and suburban subdivisions. Highest income in Alabama by 1960." },
+        { "county": "Limestone", "note": "Some spillover from Huntsville growth. Agricultural diversification continuing. Athens growing modestly." },
+        { "county": "Morgan", "note": "Decatur attracted manufacturing drawn by TVA cheap power and river/rail transportation. Chemical and textile manufacturing." },
+        { "county": "Lawrence", "note": "Remained agricultural. Some workers commuted to Decatur. Economic gap with Huntsville widening." },
+        { "county": "Jackson", "note": "Agricultural with some Sand Mountain truck farming. Limited industrial development. Scottsboro growing slowly." },
+        { "county": "Marshall", "note": "Sand Mountain truck farming and poultry emerging. Albertville growing. Less benefit from Huntsville boom than valley counties." },
+        { "county": "DeKalb", "note": "Hosiery mills continued as primary non-agricultural employer. Poultry industry beginning." },
+        { "county": "Cherokee", "note": "Remained agricultural with limited industrial development. Weiss Dam (1961) would transform the Coosa River corridor." }
+      ],
+      "key_infrastructure": [
+        { "name": "Redstone Arsenal missile program", "year": 1950, "impact": "Army Ballistic Missile Agency established. Wernher von Braun's team transferred from Fort Bliss. The arsenal became the center of US missile development." },
+        { "name": "Marshall Space Flight Center", "year": 1960, "impact": "NASA center established at Redstone Arsenal. Developed Saturn rockets for the Apollo program. Made Huntsville 'Rocket City.'" },
+        { "name": "TVA industrial power rates", "year": "1945-1960", "impact": "TVA's cheap hydroelectric power attracted manufacturing to the valley — chemical plants, aluminum smelting, and other power-intensive industries located near TVA dams." }
+      ],
+      "major_employers": [
+        { "name": "Redstone Arsenal / Marshall Space Flight Center", "type": "Federal defense/aerospace", "era": "1950-1960", "counties_affected": ["Madison"], "employment_scale": "Thousands — engineers, technicians, support staff. The dominant employer in Madison County." },
+        { "name": "Defense contractor operations (Chrysler, Boeing, Thiokol)", "type": "Aerospace manufacturing", "era": "1955-1960", "counties_affected": ["Madison"], "employment_scale": "Thousands. Contractors supported the missile and space programs." },
+        { "name": "TVA-attracted manufacturing", "type": "Chemical, textile, aluminum manufacturing", "era": "1945-1960", "counties_affected": ["Morgan", "Limestone"], "employment_scale": "Hundreds to thousands at individual plants." }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Aerospace engineer (Marshall Space Flight Center)", "wage": "$6,000-$12,000/year", "year": 1958, "source": "Record, A Dream Come True (1970)" },
+        { "occupation": "Arsenal production worker", "wage": "$1.50-$2.50/hour", "year": 1955, "source": "Flynt, Alabama in the Twentieth Century" },
+        { "occupation": "Sand Mountain truck farmer (net income)", "wage": "$500-$2,000/year", "year": 1955, "source": "Flynt, Poor but Proud (1989)" }
+      ],
+      "narrative_hook": "The grandchildren of {ancestor_name}'s generation made rockets instead of cotton — Huntsville went from a sleepy valley town to Rocket City in a decade, and the Tennessee Valley that had been the poorest part of the South suddenly had the highest wages in Alabama.",
+      "source": "Record, A Dream Come True (1970). Flynt, Alabama in the Twentieth Century (2004)."
+    }
+  ],
+  "economic_turning_points": [
+    { "year": 1811, "event": "Huntsville Land Office opens", "impact": "Triggered the cotton frontier rush that made Madison County the wealthiest in Alabama" },
+    { "year": 1857, "event": "Memphis & Charleston Railroad reaches Huntsville-Decatur", "impact": "Connected the Tennessee Valley to national markets by rail" },
+    { "year": 1862, "event": "Federal occupation of Huntsville", "impact": "Disrupted the plantation economy; Decatur burned; railroads destroyed" },
+    { "year": 1915, "event": "Boll weevil reaches north Alabama", "impact": "Devastated cotton yields; accelerated decline of the cotton economy" },
+    { "year": 1933, "event": "TVA created", "impact": "Federal investment transformed the valley — dams, electrification, flood control" },
+    { "year": 1941, "event": "Redstone Arsenal established", "impact": "38,000 acres of farmland became military installation; defense economy begins" },
+    { "year": 1950, "event": "Von Braun's team arrives at Redstone Arsenal", "impact": "Launched the aerospace transformation that made Huntsville 'Rocket City'" }
+  ],
+  "narrative_hooks": [
+    "The Huntsville Land Office in 1811 was where Alabama's economy began — {ancestor_name} may have stood in line with speculators and planters, all of them claiming land the Cherokee had lost.",
+    "The boll weevil reached the Tennessee Valley by 1915 and ate the cotton economy alive — {ancestor_name}'s generation watched the crop that had built Madison County fail year after year.",
+    "TVA brought electricity to farms that had never had it — when {ancestor_name} turned on the first light in a house built before the Civil War, the twentieth century arrived.",
+    "The jump from cotton to rockets happened in one generation — {ancestor_name} picked cotton; {ancestor_name}'s grandchildren built Saturn V rockets at Marshall Space Flight Center.",
+    "Sand Mountain's economy was always different — too poor for cotton, too isolated for industry, but the truck farms that grew tomatoes on thin soil found a market that the cotton fields never could.",
+    "Redstone Arsenal took 38,000 acres of Madison County farmland — if {ancestor_name}'s family had farmed that land, the War Department wrote a check and the cotton fields became launch pads."
+  ],
+  "source_references": [
+    "Dupre, Daniel S. Transforming the Cotton Frontier: Madison County, Alabama, 1800-1840. Baton Rouge: Louisiana State University Press, 1997.",
+    "Wright, Gavin. Old South, New South: Revolutions in the Southern Economy Since the Civil War. New York: Basic Books, 1986.",
+    "Flynt, Wayne. Alabama in the Twentieth Century. Tuscaloosa: University of Alabama Press, 2004.",
+    "Flynt, Wayne. Poor but Proud: Alabama's Poor Whites. Tuscaloosa: University of Alabama Press, 1989.",
+    "Record, James C. A Dream Come True: The Story of Madison County. Huntsville: John Hicklin Printing Company, 1970.",
+    "Griffith, Lucille. Alabama: A Documentary History to 1900. Tuscaloosa: University of Alabama Press, 1972."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["trail_of_tears", "domestic_slave_trade", "antebellum_yeoman_south", "civil_war_service", "reconstruction_era", "great_migration", "stayed_and_adapted", "gi_bill_migration", "appalachian_out_migration"],
+    "material_life_refs": ["frontier_homestead_1780_1840", "antebellum_yeoman_farm_1820_1860", "sharecropper_cabin_1865_1940", "postbellum_southern_farm_1865_1910"],
+    "wage_table_refs": ["antebellum_south_wages", "postbellum_south_wages"]
+  }
+}

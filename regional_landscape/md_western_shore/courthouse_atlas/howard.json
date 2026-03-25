@@ -1,0 +1,131 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Howard County, MD. Created from Anne Arundel County in 1851 — the youngest county in the cluster. Pre-1851 records are in the Anne Arundel County courthouse in Annapolis and the Maryland State Archives. Howard County's own records begin in 1851, with the critical caveat that the Ellicott City courthouse has been damaged by catastrophic Patapsco River flooding multiple times.",
+  "courthouse_atlas_id": "md_howard_courthouse",
+  "display_name": "Howard County, Maryland — Courthouse Atlas",
+  "county": "Howard",
+  "state": "MD",
+  "fips_code": "24027",
+  "cluster_ref": "md_western_shore",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1843,
+      "location": "Ellicott City, MD — 8360 Court Avenue (Historic courthouse, renovated and expanded multiple times; modern judicial center at 3451 Court House Drive)",
+      "records_housed": ["court records from 1851 forward at the judicial center", "historical records at Maryland State Archives"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "Pre-1851",
+        "location": "No Howard County courthouse existed before 1851. All records for the territory that became Howard County were filed at the Anne Arundel County courthouse in Annapolis.",
+        "fate": "Pre-1851 records remain in Annapolis at the Anne Arundel County Circuit Court and the Maryland State Archives."
+      },
+      {
+        "era": "1843–present",
+        "location": "Ellicott City — the granite courthouse was built in 1843 (before the county was created, as a Howard District courthouse) and has served since. Located in the narrow Patapsco River valley, it has been damaged by floods.",
+        "fate": "The Patapsco River floods of 1868, 2016, and 2018 caused damage to Ellicott City. The courthouse sits above the worst flood zones but the community around it has been devastated repeatedly. Historical records have been progressively transferred to safer storage."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "howard_pre_1851_split",
+      "date": "1851",
+      "cause": "County creation — records remained with parent county",
+      "records_destroyed": [],
+      "records_survived": ["All pre-1851 records for the Howard County territory are in the Anne Arundel County records at the Maryland State Archives in Annapolis"],
+      "scope": "administrative_split",
+      "description": "Howard County was carved from Anne Arundel County in 1851. No records were destroyed — but all records predating 1851 (deeds, wills, court minutes, marriages) for the territory that became Howard County are filed at the Anne Arundel County courthouse in Annapolis and at the Maryland State Archives. This is an administrative split, not a record loss, but researchers must know to look in Annapolis for pre-1851 Howard County ancestors.",
+      "narrative_impact": "If {ancestor_name} lived in what is now Howard County before 1851, {pronoun_possessive} records are in Annapolis, not Ellicott City. The county did not exist, and the records were filed under Anne Arundel County.",
+      "source": "Stein, Charles Francis. A History of Howard County, Maryland. Baltimore: Privately published, 1972."
+    },
+    {
+      "loss_id": "howard_patapsco_floods",
+      "date": "1868, 2016, 2018",
+      "cause": "Patapsco River flooding in the narrow valley at Ellicott City",
+      "records_destroyed": ["some records in storage in the flood zone may have been damaged in 1868 and subsequent floods"],
+      "records_survived": ["The courthouse sits above the worst flood zones and the bound volumes were not directly flooded", "Critical records have been progressively moved to safer storage"],
+      "scope": "minor",
+      "description": "Ellicott City's location in the narrow Patapsco River valley makes it vulnerable to catastrophic flash flooding. The floods of 1868 were devastating to the town, and more recent floods in 2016 and 2018 destroyed buildings on Main Street. The courthouse, situated on higher ground, was not directly flooded, but the vulnerability of the site has prompted progressive transfer of historical records to the Maryland State Archives.",
+      "narrative_impact": "The same river that powered the Ellicott mills and drew the B&O Railroad through Howard County periodically destroyed the town that grew up in its valley — {ancestor_name}'s records survived the floods, but the community around the courthouse did not always.",
+      "source": "Stein, A History of Howard County. 1972."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1851,
+      "completeness": "Complete from 1851 (county creation). Pre-1851 deeds for the Howard County area are in the Anne Arundel County records at the Maryland State Archives.",
+      "gaps": "No gap — the records simply begin in 1851. Researchers must know to check Anne Arundel County for earlier records.",
+      "repository": "Howard County Circuit Court, Ellicott City; Maryland State Archives (pre-1851 under Anne Arundel); mdlandrec.net",
+      "online_access": "Maryland State Archives (mdlandrec.net); FamilySearch"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1851,
+      "completeness": "Complete from 1851. Pre-1851 wills for the area are in the Anne Arundel County and Prerogative Court records at the State Archives.",
+      "gaps": "Same as deeds — check Anne Arundel County for pre-1851.",
+      "repository": "Howard County Register of Wills; Maryland State Archives",
+      "online_access": "Maryland State Archives; FamilySearch"
+    },
+    "marriages": {
+      "earliest_surviving": 1851,
+      "completeness": "Marriage licenses from 1851. Pre-1851 marriages under Anne Arundel County.",
+      "gaps": "Check Anne Arundel County for pre-1851 marriages.",
+      "repository": "Howard County Clerk of Court; Maryland State Archives",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1851,
+      "completeness": "Complete from 1851.",
+      "gaps": "Pre-1851 court records under Anne Arundel County.",
+      "repository": "Howard County Circuit Court; Maryland State Archives",
+      "online_access": "Maryland State Archives"
+    },
+    "vital_records": {
+      "birth_registration_start": 1898,
+      "death_registration_start": 1898,
+      "completeness": "Maryland statewide registration began 1898.",
+      "repository": "Maryland Department of Health; Maryland State Archives"
+    },
+    "church_records": {
+      "parish": "Various — Quaker meetings (Ellicott family), Methodist, Episcopal, Catholic. No single dominant colonial parish as the area was part of Anne Arundel's Anglican parish system.",
+      "earliest_surviving": 1770,
+      "completeness": "Variable. The Ellicott family's Quaker meeting records are well-preserved. Other church records vary by congregation.",
+      "repository": "Individual congregations; Maryland State Archives; Friends Historical Library (Quaker records)",
+      "online_access": "Variable; some FamilySearch"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Anne Arundel County records (pre-1851)",
+      "description": "All records for the territory that became Howard County before 1851 are filed under Anne Arundel County at the courthouse in Annapolis and the Maryland State Archives. This includes deeds, wills, court minutes, and marriage records.",
+      "repository": "Maryland State Archives, Annapolis; Anne Arundel County Circuit Court",
+      "era_coverage": "1650s–1851",
+      "genealogical_value": "Essential. Any Howard County ancestor before 1851 is an Anne Arundel County ancestor in the records.",
+      "source": "Stein, A History of Howard County. 1972."
+    },
+    {
+      "source_type": "B&O Railroad records",
+      "description": "The Baltimore and Ohio Railroad maintained employment records, right-of-way records, and operational records from 1827. Howard County was on the first railroad line in America, and families employed by or affected by the railroad may appear in these records.",
+      "repository": "B&O Railroad Museum, Baltimore; Maryland Historical Society; National Archives",
+      "era_coverage": "1827–present",
+      "genealogical_value": "Railroad employment records can document families that do not appear in land or court records. Right-of-way records document property owners along the rail corridor.",
+      "source": "Dilts, James D. The Great Road. Stanford University Press, 1993."
+    }
+  ],
+  "narrative_hooks": [
+    "Howard County did not exist before 1851 — {ancestor_name}'s records before that date are in Annapolis, under Anne Arundel County, because the county {pronoun_subject} lived in had not yet been drawn on the map.",
+    "The Patapsco River gave Ellicott City its industry and its floods — {ancestor_name} lived in a town built in a valley that periodically tried to destroy it.",
+    "The B&O Railroad reached Howard County in 1830 — the first railroad in America — and {ancestor_name} may appear in the railroad's records as an employee, a property owner along the right-of-way, or a customer.",
+    "If {ancestor_name} was a Quaker in Howard County, the Ellicott family's meeting records may document the community in detail that the county court records cannot match."
+  ],
+  "source_references": [
+    "Stein, Charles Francis. A History of Howard County, Maryland. Baltimore: Privately published, 1972.",
+    "Dilts, James D. The Great Road: The Building of the Baltimore and Ohio Railroad, 1828-1853. Stanford: Stanford University Press, 1993.",
+    "Maryland State Archives. Guide to Government Records. Annapolis, 2005."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "md_howard",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

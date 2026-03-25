@@ -1,0 +1,190 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Information Landscape Profile for the MS Delta cluster. Documents how information traveled (and was controlled) across eight counties from the antebellum period through 1960. The Delta's information landscape was shaped by two factors: extreme physical isolation (mud roads, no telegraph until the 1880s, limited literacy) and deliberate information control by the planter class, who understood that an informed labor force was a dangerous labor force.",
+  "information_id": "ms_delta_information",
+  "display_name": "MS Delta — Information Landscape Profile",
+  "cluster_ref": "ms_delta",
+  "era_range": "1830-1960",
+  "counties": ["Washington", "Bolivar", "Sunflower", "Leflore", "Coahoma", "Tunica", "Tallahatchie", "Humphreys"],
+  "information_eras": [
+    {
+      "era_id": "plantation_isolation",
+      "era_name": "Plantation Isolation",
+      "date_range": "1830-1880",
+      "literacy_context": {
+        "white_literacy_rate": "Estimated 60-75% among planter and yeoman classes; functional literacy among overseers and small farmers lower",
+        "black_literacy_rate": "Under 5% among enslaved population (illegal to teach). After emancipation: estimated 10-15% by 1870, rising rapidly with Freedmen's Bureau schools",
+        "literacy_source": "Anderson, James D. The Education of Blacks in the South, 1860-1935. Chapel Hill: UNC Press, 1988.",
+        "narrative_impact": "The Delta's enslaved majority was deliberately kept illiterate — literacy was criminalized because literate enslaved people were dangerous to the system. After emancipation, the hunger for education was immediate and intense, but the planter class resisted Black education as a threat to the labor supply."
+      },
+      "newspapers": [
+        {
+          "name": "Greenville Sentinel (and successors)",
+          "county_seat": "Greenville",
+          "county": "Washington",
+          "years_published": "1860s-present (various titles, merging into Greenville Democrat-Times)",
+          "frequency": "Weekly, later daily",
+          "circulation_estimate": "Under 500 in the 1860s; growing with the town",
+          "content_character": "Cotton market reports, legal notices, estate sales, political commentary. Represented planter-class perspective. Ran advertisements for enslaved-person sales before the war and sharecropper labor notices after.",
+          "genealogical_value": "Legal notices, obituaries (primarily white families), estate settlement notices, land sale advertisements.",
+          "survival_status": "MDAH microfilm. Partial runs. Some digitized through Chronicling America."
+        }
+      ],
+      "mail_service": {
+        "description": "Post offices at county seats and major steamboat landings only. Mail arrived by steamboat for river-front counties, by horseback for interior. Interior Delta families received mail sporadically.",
+        "post_offices": ["Greenville (Washington)", "Rosedale (Bolivar)", "Friars Point (Coahoma)"],
+        "delivery_frequency": "Weekly or less at county seats; sporadic in the interior",
+        "rural_free_delivery_year": null
+      },
+      "telegraph_and_telephone": {
+        "telegraph_arrival": "Not available until 1880s with railroad construction",
+        "telephone_arrival": "Not available until 1900s in towns; rural areas much later",
+        "rural_access": "None"
+      },
+      "oral_networks": {
+        "description": "The dominant information system for the enslaved majority and most of the free population. Information traveled along waterways, through the plantation praise-house network, and via the 'grapevine telegraph' that connected enslaved communities across plantation boundaries. Court day (quarterly) was the primary information exchange for white families. The commissary/general store served as a news hub after emancipation. Black church congregations were the most important information network in the post-emancipation Delta — Sunday services distributed news, organized community response, and connected isolated families to a wider network.",
+        "key_gathering_points": ["Plantation praise houses (enslaved community)", "Steamboat landings", "County courthouse on court day", "Commissary/plantation store", "Black churches (post-1865)", "Crossroads general stores"],
+        "narrative_hook": "In the antebellum Delta, {ancestor_name}'s news came by word of mouth along the waterways and between the cabins — the 'grapevine telegraph' that carried information the planter class could not control, including the most dangerous information of all: that freedom existed somewhere beyond the levee."
+      },
+      "narrative_hook": "In {year}, {ancestor_name} lived in an information desert — the Delta's mud roads, illiteracy, and deliberate planter control meant that news from beyond the county line arrived late, distorted, and only when someone brought it.",
+      "source": "Anderson, The Education of Blacks in the South (1988). Cobb, The Most Southern Place on Earth (1992)."
+    },
+    {
+      "era_id": "railroad_newspaper_era",
+      "era_name": "Railroad and Newspaper Era",
+      "date_range": "1880-1920",
+      "literacy_context": {
+        "white_literacy_rate": "~85% by 1900",
+        "black_literacy_rate": "~30% by 1900; ~50% by 1910. Black schools in the Delta were chronically underfunded — Mississippi spent approximately $1 per Black student for every $5 per white student. Despite this, Black literacy rose steadily through community-funded schools and churches.",
+        "literacy_source": "Anderson, The Education of Blacks in the South (1988). McMillen, Dark Journey (1989).",
+        "narrative_impact": "The rise of Black literacy in the Delta was one of the most remarkable educational achievements in American history — accomplished despite deliberate state underfunding, planter opposition, and the demands of an agricultural labor system that kept children in the fields."
+      },
+      "newspapers": [
+        {
+          "name": "Greenville Democrat-Times",
+          "county_seat": "Greenville",
+          "county": "Washington",
+          "years_published": "1880s-present",
+          "frequency": "Daily by 1900",
+          "circulation_estimate": "2,000-5,000",
+          "content_character": "Regional news, cotton market, politics. Hodding Carter Jr. won a Pulitzer Prize in 1946 for editorials on racial tolerance — though 'tolerance' in Delta context still meant support for segregation, just not for lynching.",
+          "genealogical_value": "Obituaries, legal notices, court reports, land transactions.",
+          "survival_status": "MDAH microfilm. Good coverage from 1900s."
+        },
+        {
+          "name": "Clarksdale Press Register",
+          "county_seat": "Clarksdale",
+          "county": "Coahoma",
+          "years_published": "1890s-present",
+          "frequency": "Daily by 1910",
+          "circulation_estimate": "1,500-3,000",
+          "content_character": "Local news, cotton market, railroad schedules. Cultural significance as the newspaper of the blues capital.",
+          "genealogical_value": "Obituaries, legal notices, community news.",
+          "survival_status": "MDAH microfilm. Carnegie Library, Clarksdale."
+        },
+        {
+          "name": "Greenwood Commonwealth",
+          "county_seat": "Greenwood",
+          "county": "Leflore",
+          "years_published": "1890s-present",
+          "frequency": "Daily by 1910",
+          "circulation_estimate": "1,500-3,000",
+          "content_character": "Cotton market reports, local news, political coverage. Cotton Capital's newspaper.",
+          "genealogical_value": "Cotton market data contextualizes economic conditions. Legal notices and obituaries.",
+          "survival_status": "MDAH microfilm. Greenwood-Leflore Public Library."
+        },
+        {
+          "name": "Chicago Defender (external but critical)",
+          "county_seat": "Chicago, IL",
+          "county": "N/A — national circulation in the Delta",
+          "years_published": "1905-present",
+          "frequency": "Weekly (nationally distributed)",
+          "circulation_estimate": "Widely circulated in the Delta's Black community, often surreptitiously",
+          "content_character": "The most important newspaper in the Delta's Black community — reported on racial violence, economic opportunity in the North, and provided the informational framework for the Great Migration. Distributed by Pullman porters on the Illinois Central Railroad.",
+          "genealogical_value": "Reported on Delta racial violence, named victims of lynching, published letters from Delta migrants describing conditions in northern cities.",
+          "survival_status": "Fully digitized and accessible online."
+        }
+      ],
+      "mail_service": {
+        "description": "Post offices expanded to railroad stations. Mail delivery reliable along railroad routes; interior plantations still dependent on weekly or biweekly service.",
+        "post_offices": ["Greenville", "Clarksdale", "Greenwood", "Cleveland", "Indianola", "Rosedale", "Tunica", "Belzoni", "Mound Bayou"],
+        "delivery_frequency": "Daily at railroad stations; weekly to biweekly at rural offices",
+        "rural_free_delivery_year": "1910s-1920s (limited; Delta roads made RFD difficult)"
+      },
+      "telegraph_and_telephone": {
+        "telegraph_arrival": "1880s with railroad construction — stations at all major depots",
+        "telephone_arrival": "1900s in county seats; 1920s-1930s for plantation headquarters; rural Black families rarely had telephone access until the 1960s",
+        "rural_access": "Extremely limited for Black families. Telephone was a white infrastructure."
+      },
+      "oral_networks": {
+        "description": "Black churches remained the dominant information network. The Chicago Defender, distributed by Pullman porters, was the critical external information source for the Black community. Jook joints served as informal information exchanges. The commissary remained the commercial information hub. White citizens' councils (from the 1950s) attempted to control information flow by monitoring Black mail, suppressing newspapers, and intimidating anyone who distributed 'outside' publications.",
+        "key_gathering_points": ["Black churches (primary)", "Railroad depots", "Jook joints", "Commissary/plantation store", "Barber shops and beauty shops"],
+        "narrative_hook": "The Chicago Defender arrived in {ancestor_name}'s community via the Pullman porter on the Illinois Central — a newspaper that told the truth about the Delta's violence and described a different world in Chicago where a Black person could vote, ride the streetcar, and earn a factory wage."
+      },
+      "narrative_hook": "By {year}, {ancestor_name} had access to information that the planter class could not control — the Chicago Defender described a different world, the railroad provided a way to reach it, and the Black church provided the community network to organize the departure.",
+      "source": "Wilkerson, The Warmth of Other Suns (2010). McMillen, Dark Journey (1989). Cobb, The Most Southern Place on Earth (1992)."
+    },
+    {
+      "era_id": "civil_rights_information_war",
+      "era_name": "Civil Rights Information War",
+      "date_range": "1940-1960",
+      "literacy_context": {
+        "white_literacy_rate": "~95%",
+        "black_literacy_rate": "~75% by 1950. Literacy had risen dramatically despite systematic underfunding of Black schools. The Delta's Black community was literate enough to read the Chicago Defender, fill out voter registration forms, and organize — which was precisely what the white power structure feared.",
+        "literacy_source": "Anderson, The Education of Blacks in the South (1988).",
+        "narrative_impact": "The literacy gains of the Black community were themselves a threat to the Delta's racial order — a literate sharecropper could challenge the settlement sheet, read a ballot, and understand the law."
+      },
+      "newspapers": [
+        {
+          "name": "Jackson Advocate",
+          "county_seat": "Jackson (statewide Black newspaper)",
+          "county": "N/A — circulated in the Delta",
+          "years_published": "1938-present",
+          "frequency": "Weekly",
+          "circulation_estimate": "Statewide; significant Delta readership",
+          "content_character": "Black community news, civil rights coverage, community organization information.",
+          "genealogical_value": "Documented Black community life, obituaries, organizational activities.",
+          "survival_status": "MDAH; Tougaloo College archives."
+        }
+      ],
+      "mail_service": {
+        "description": "Mail service fully established but monitored. White citizens' councils in some Delta counties reportedly monitored Black mail for 'outside' publications and correspondence with civil rights organizations.",
+        "post_offices": ["All county seats and most towns"],
+        "delivery_frequency": "Daily",
+        "rural_free_delivery_year": "Established but unreliable on unpaved plantation roads"
+      },
+      "telegraph_and_telephone": {
+        "telegraph_arrival": "Established",
+        "telephone_arrival": "Available in towns; many rural Black families still without telephone service. Party lines meant that conversations could be overheard.",
+        "rural_access": "Limited. SNCC organizers in the 1960s relied on specific trusted phones — party lines were assumed to be monitored."
+      },
+      "oral_networks": {
+        "description": "The Black church network became the infrastructure of the civil rights movement. Mass meetings, organized by SNCC and COFO, used church buildings as the only available gathering places. Word of mouth distributed information about voter registration, community organizing, and self-defense. Television — arriving in the Delta in the 1950s — brought national news into homes that had previously relied entirely on local sources. The 1955 Emmett Till coverage, broadcast nationally, showed the Delta's violence to a national audience.",
+        "key_gathering_points": ["Black churches (mass meeting venues)", "SNCC/COFO freedom schools and offices", "Beauty shops and barber shops", "Television (in homes that had electricity)"],
+        "narrative_hook": "By the 1960s, {ancestor_name}'s community had television, the Chicago Defender, SNCC organizers, and the Black church network — information was flowing that the white power structure could no longer contain, and the Delta's silence was breaking."
+      },
+      "narrative_hook": "The information war in {ancestor_name}'s Delta was fought in churches, at kitchen tables, and through newspapers smuggled past watchful eyes — the planter class understood that knowledge was power, and they fought to control both.",
+      "source": "Payne, I've Got the Light of Freedom (1995). Dittmer, Local People (1994). Mills, This Little Light of Mine (1993)."
+    }
+  ],
+  "narrative_hooks": [
+    "The Chicago Defender was the most dangerous newspaper in {ancestor_name}'s Delta — it told the truth about lynching, described jobs in Chicago, and arrived via the Pullman porter on the Illinois Central, carried inside newspapers that white readers never opened.",
+    "In {ancestor_name}'s community, the Black church was not just a place of worship — it was the information network, the organizing hub, the meeting hall, and the only institution that the planter class did not own.",
+    "The Delta's information landscape was shaped by control as much as by isolation — {ancestor_name}'s planter did not merely fail to provide information, he actively worked to restrict it, because an informed worker was a worker who might leave.",
+    "Television arrived in the Delta in the 1950s and broke the information monopoly — when Emmett Till's open casket appeared on the screen, {ancestor_name}'s community saw what the rest of America saw, and the Delta could no longer pretend its violence was invisible.",
+    "The settlement sheet at the commissary was the most important 'publication' in {ancestor_name}'s economic life — and for decades, the inability to read it was the chain that held the sharecropping system together."
+  ],
+  "source_references": [
+    "Anderson, James D. The Education of Blacks in the South, 1860-1935. Chapel Hill: University of North Carolina Press, 1988.",
+    "McMillen, Neil R. Dark Journey: Black Mississippians in the Age of Jim Crow. Urbana: University of Illinois Press, 1989.",
+    "Cobb, James C. The Most Southern Place on Earth: The Mississippi Delta and the Roots of Regional Identity. New York: Oxford University Press, 1992.",
+    "Wilkerson, Isabel. The Warmth of Other Suns: The Epic Story of America's Great Migration. New York: Random House, 2010.",
+    "Payne, Charles M. I've Got the Light of Freedom: The Organizing Tradition and the Mississippi Freedom Struggle. Berkeley: University of California Press, 1995.",
+    "Dittmer, John. Local People: The Struggle for Civil Rights in Mississippi. Urbana: University of Illinois Press, 1994."
+  ],
+  "nel_cross_references": {
+    "community_texture_refs": ["eastern_nc_farm_community"],
+    "research_guidance_refs": ["newspapers", "census_gaps"]
+  }
+}

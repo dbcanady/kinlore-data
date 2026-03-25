@@ -1,0 +1,147 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the AL Black Belt regional cluster (Dallas, Marengo, Sumter, Greene, Perry, Hale, Wilcox, Lowndes counties). Documents how transportation shaped settlement, cotton commerce, forced migration of enslaved people, and the physical isolation that defined Black Belt life from the Creek cession through the Civil Rights era. The Alabama River was the original highway; the Federal Road brought the first overland connection; the railroad made Selma a junction; and US Route 80 became the most famous road in the civil rights movement.",
+  "connectivity_id": "al_black_belt_roads",
+  "display_name": "AL Black Belt — Road & Connectivity Network",
+  "cluster_ref": "al_black_belt",
+  "era_range": "1817-1960",
+  "transportation_eras": [
+    {
+      "era_id": "river_and_trace",
+      "era_name": "River and Trace: The Alabama and Tombigbee as Highways",
+      "date_range": "1817-1855",
+      "primary_modes": ["steamboat on Alabama and Tombigbee rivers", "flatboat", "wagon on unimproved trace", "horseback", "foot"],
+      "description": "The Alabama River and Tombigbee River were the Black Belt's first highways. Before the railroad, every bale of cotton, every barrel of supplies, and every enslaved person brought to the region moved by water or by wagon on roads that barely deserved the name. The Federal Road — originally a military road cut through Creek territory during the Creek War — was the primary overland route, running from the Georgia border through Montgomery to the Tombigbee settlements. Planters arriving from the Carolinas and Georgia brought enslaved laborers on foot along overland traces. Steamboats connected Selma and Demopolis to Mobile by the 1820s, creating the commercial lifeline that made the cotton economy possible. The river system flowed south to Mobile, meaning the Black Belt's commercial orientation was toward the Gulf Coast, not toward the interior of Alabama.",
+      "road_conditions": "Overland roads were unimproved clay traces — passable in dry weather, impassable in rain. The Black Belt's heavy clay soil turned to deep, sticky mud after precipitation, making wagon travel miserable and sometimes impossible. The Federal Road was the best-maintained route, but even it was a challenge. Side roads to plantations were private farm roads maintained (or not) by enslaved labor.",
+      "travel_times": [
+        { "from": "Selma", "to": "Mobile (by steamboat)", "mode": "steamboat", "time": "2-3 days downstream; 4-6 days upstream", "conditions_note": "The Alabama River was navigable year-round but speed depended on river stage. Low water in late summer could delay travel." },
+        { "from": "Demopolis", "to": "Mobile (by steamboat via Tombigbee)", "mode": "steamboat", "time": "2-3 days downstream", "conditions_note": "The Tombigbee route was longer but connected the western counties to Mobile." },
+        { "from": "Selma", "to": "Montgomery", "mode": "wagon", "time": "2-3 days", "conditions_note": "Approximately 50 miles on the Federal Road corridor. Heavy clay roads slowed travel after rain." },
+        { "from": "Typical plantation", "to": "Nearest river landing", "mode": "wagon", "time": "4-12 hours one way", "conditions_note": "Cotton was hauled by wagon to river landings for steamboat shipment. Distance to the landing determined a plantation's profitability." },
+        { "from": "Selma", "to": "Cahaba (Old Cahawba)", "mode": "wagon or horseback", "time": "Half day", "conditions_note": "Approximately 15 miles to the abandoned first state capital at the Alabama-Cahaba confluence." }
+      ],
+      "key_routes": [
+        { "route_name": "Alabama River steamboat corridor", "type": "navigable river", "year_established": "1820s", "description": "The primary commercial artery connecting Selma, the eastern Black Belt plantations, and Mobile. Cotton moved downstream; supplies, enslaved people, and manufactured goods moved upstream. Selma's bluff landing became the largest commercial wharf between Montgomery and Mobile.", "counties_served": ["Dallas", "Wilcox", "Lowndes", "Perry"] },
+        { "route_name": "Tombigbee River steamboat corridor", "type": "navigable river", "year_established": "1820s", "description": "Connected Demopolis and the western Black Belt to Mobile. The Tombigbee served the same function for Marengo, Sumter, and Greene counties that the Alabama River served for Dallas and Perry.", "counties_served": ["Marengo", "Sumter", "Greene"] },
+        { "route_name": "Federal Road (Creek territory corridor)", "type": "military road / improved trace", "year_established": "1811", "description": "Originally cut as a military road through Creek territory during the tensions leading to the Creek War. Ran from Fort Mitchell on the Georgia border to Fort Stoddert near Mobile via Montgomery and the Black Belt. This was the overland route that brought the first wave of planters and enslaved laborers from the east. By the 1820s it was the most-traveled road in central Alabama.", "counties_served": ["Lowndes", "Dallas"] },
+        { "route_name": "Demopolis-Selma wagon road", "type": "unimproved road", "year_established": "1820s", "description": "Connected the two largest towns in the Black Belt. Crossed the prairie through Marengo and Dallas counties. The road connected the Tombigbee trading sphere with the Alabama River trading sphere.", "counties_served": ["Marengo", "Dallas"] }
+      ],
+      "isolation_index": {
+        "description": "High for overland travel; moderate for communities with river access. The Alabama and Tombigbee rivers provided reliable connections to Mobile, but any community more than a day's wagon ride from a river landing was profoundly isolated. The Black Belt's clay soil made overland travel slower and more miserable than in almost any other region of the South.",
+        "comparative_note": "Better river connectivity than the Appalachian upcountry but worse overland conditions than the Georgia Piedmont. The Black Belt's heavy clay soil was its greatest agricultural asset and its worst transportation liability."
+      },
+      "narrative_hook": "The Alabama River was the road that mattered — {ancestor_name}'s cotton went downstream to Mobile, and everything the family needed came upstream on the same steamboat. The overland roads were red-black clay that swallowed wagon wheels to the axle after a rain.",
+      "source": "Rogers, William Warren, et al. Alabama: The History of a Deep South State. University of Alabama Press, 1994. Abernethy, Thomas Perkins. The Formative Period in Alabama, 1815-1828. University of Alabama Press, 1965."
+    },
+    {
+      "era_id": "railroad_era",
+      "era_name": "Railroad Junction: Selma as the Hub",
+      "date_range": "1855-1900",
+      "primary_modes": ["railroad", "steamboat (declining)", "wagon on unimproved road"],
+      "description": "The railroad transformed the Black Belt's geography — and Selma's fate. By 1860, Selma sat at the junction of lines running east to Montgomery, north to Meridian (Mississippi), and west toward the Tombigbee. This made Selma the Confederacy's second-most-important industrial center after Richmond: the Selma Naval Foundry and Arsenal were located there precisely because of the rail connections. After the war, the railroads continued to serve the cotton economy, though now carrying cotton produced by sharecroppers instead of enslaved laborers. The Louisville & Nashville Railroad and the Southern Railway connected the Black Belt to Birmingham and the national network. But the railroads also enabled the Great Migration — the same tracks that carried cotton bales carried families north. For rural areas off the railroad, isolation was unchanged. A sharecropper in southern Wilcox County or rural Greene County might be a full day's wagon ride from the nearest depot.",
+      "road_conditions": "County roads remained unimproved clay. Away from the railroad, travel conditions were unchanged from the antebellum era. The contrast between railroad-connected towns and the rural hinterland was extreme.",
+      "travel_times": [
+        { "from": "Selma", "to": "Montgomery", "mode": "railroad", "time": "2-3 hours", "conditions_note": "Direct rail service on the Alabama & Tennessee Rivers Railroad (later part of the L&N system)." },
+        { "from": "Selma", "to": "Meridian (MS)", "mode": "railroad", "time": "4-5 hours", "conditions_note": "Selma, Marion & Memphis Railroad connected through the western Black Belt." },
+        { "from": "Selma", "to": "Birmingham", "mode": "railroad", "time": "4-6 hours", "conditions_note": "Via the L&N, connecting through Montevallo." },
+        { "from": "Rural farm", "to": "Nearest depot", "mode": "wagon", "time": "3-8 hours one way", "conditions_note": "Many Black Belt farms were a full day's journey from a railroad. The cotton had to reach the depot; the depot did not come to the cotton." }
+      ],
+      "key_routes": [
+        { "route_name": "Alabama & Tennessee Rivers Railroad (Selma-Montgomery)", "type": "railroad", "year_established": 1855, "description": "Connected Selma to Montgomery and eastward. The first railroad in the Black Belt. Made Selma a junction point rather than merely a river port.", "counties_served": ["Dallas", "Lowndes"] },
+        { "route_name": "Selma, Marion & Memphis Railroad", "type": "railroad", "year_established": "1856 (partially); completed postwar", "description": "Ran west from Selma through Marion (Perry County) toward Meridian, MS. Connected the western Black Belt counties to Selma's junction.", "counties_served": ["Dallas", "Perry", "Hale", "Marengo"] },
+        { "route_name": "Southern Railway (Selma division)", "type": "railroad", "year_established": "1890s (consolidated)", "description": "The Southern Railway absorbed several smaller lines and connected the Black Belt to the national system. The route through Selma became part of the corridor that Black families used to reach Birmingham and the North during the Great Migration.", "counties_served": ["Dallas", "Perry", "Sumter", "Greene", "Marengo"] }
+      ],
+      "isolation_index": {
+        "description": "Sharply reduced for towns on the railroad; unchanged for the rural majority. Selma, Demopolis, Marion, Eutaw, and Uniontown had railroad service. But most Black Belt residents — sharecroppers on remote plantations — remained a day's wagon ride from any depot. The isolation of the rural Black Belt was among the most extreme in the South.",
+        "comparative_note": "The Black Belt's railroad density was lower than the Piedmont industrial corridors of the Carolinas. Towns on the railroad were connected; the countryside was as isolated as it had been in 1830."
+      },
+      "narrative_hook": "The railroad made Selma a junction and a target — the same tracks that shipped cotton brought Wilson's cavalry in 1865, and a generation later carried {ancestor_name}'s family north to Birmingham on the same route the bales had traveled south.",
+      "source": "Hardy, William E. Selma and the Campaign for Alabama. Abilene, TX: McWhiney Foundation Press, 2011. Rogers et al., Alabama: The History of a Deep South State (1994)."
+    },
+    {
+      "era_id": "automobile_era_isolation",
+      "era_name": "The Automobile Era: Roads Paved and Unpaved",
+      "date_range": "1920-1945",
+      "primary_modes": ["automobile (on paved highways)", "wagon (on unpaved county roads)", "railroad"],
+      "description": "The automobile arrived in the Black Belt but the roads did not keep pace. US Route 80, connecting Selma to Montgomery and running east-west across the cluster, was paved by the late 1920s and became the primary highway. State routes connecting county seats were improved through the 1930s. But the majority of Black Belt roads — the farm-to-market roads, the plantation tracks, the routes to sharecropper cabins — remained unpaved red-black clay well into the 1940s. For the Black majority who could not afford automobiles, the mule and wagon remained the primary mode of transportation into the 1940s. The automobile widened the gap between the connected and the isolated: a white merchant in Selma could drive to Montgomery in two hours; a Black sharecropper in southern Wilcox County was still a day's mule ride from town. The deliberate closure of the Gee's Bend ferry in the early 1960s (in retaliation for voter registration activity) demonstrated that transportation infrastructure could be weaponized — isolation was not accidental but enforced.",
+      "road_conditions": "US Route 80 and state highways paved by 1930s. County roads partially graveled. Farm roads remained unimproved clay — impassable in rain. The Black Belt's clay soil was as hostile to automobile tires as it had been to wagon wheels.",
+      "travel_times": [
+        { "from": "Selma", "to": "Montgomery", "mode": "automobile via US 80", "time": "1-1.5 hours", "conditions_note": "Paved two-lane highway. The same route that took 2-3 days by wagon in the 1830s." },
+        { "from": "Selma", "to": "Demopolis", "mode": "automobile", "time": "1.5-2 hours", "conditions_note": "Paved state highway through the prairie." },
+        { "from": "Gee's Bend", "to": "Camden (Wilcox Co. seat)", "mode": "ferry + road", "time": "30 minutes (with ferry); 2-3 hours (without ferry, overland detour)", "conditions_note": "When the ferry operated, Gee's Bend was connected. When it was shut down, the community was stranded." },
+        { "from": "Rural sharecropper farm", "to": "Nearest paved road", "mode": "mule and wagon", "time": "1-4 hours", "conditions_note": "Many sharecropper families lived miles from any paved road. Rain made the clay roads impassable." }
+      ],
+      "key_routes": [
+        { "route_name": "US Route 80 (Selma-Montgomery)", "type": "US highway", "year_established": 1926, "description": "The primary east-west highway through the Black Belt. Connected Selma to Montgomery and, via connecting highways, to the rest of the state. In 1965, this road became the route of the Selma-to-Montgomery voting rights marches — the most iconic highway in the civil rights movement.", "counties_served": ["Dallas", "Lowndes"] },
+        { "route_name": "US Route 43 (north-south)", "type": "US highway", "year_established": 1926, "description": "Ran north-south through the western Black Belt, connecting Demopolis to Tuscaloosa and the northern part of the state.", "counties_served": ["Marengo", "Sumter", "Greene"] },
+        { "route_name": "Alabama Route 5 (Selma-Eutaw)", "type": "state highway", "year_established": "1930s", "description": "Connected Selma through Hale County to Eutaw (Greene County seat). One of the few paved routes through the interior Black Belt.", "counties_served": ["Dallas", "Hale", "Greene"] }
+      ],
+      "isolation_index": {
+        "description": "Moderate on paved highways; extreme off them. The Black Belt in 1940 had two transportation realities: the paved highway world (connecting county seats and accessible to those with automobiles) and the unpaved rural world (unchanged since the 1870s, accessible only by mule and wagon). The rural Black majority lived in the second world.",
+        "comparative_note": "The Black Belt's road infrastructure lagged far behind the Piedmont South. A region that had been among the wealthiest in America in 1860 was among the most poorly connected by 1940 — a direct consequence of economic collapse and the absence of tax revenue for road improvement."
+      },
+      "narrative_hook": "US Route 80 was paved and modern, but {ancestor_name} lived three miles off the highway on a clay road that turned to gumbo in the rain — the automobile age arrived at the county seat but did not reach the sharecropper's cabin.",
+      "source": "Rogers et al., Alabama: The History of a Deep South State (1994). Jeffries, Hasan Kwame. Bloody Lowndes: Civil Rights and Black Power in Alabama's Black Belt. New York: NYU Press, 2009."
+    },
+    {
+      "era_id": "civil_rights_highway",
+      "era_name": "The Civil Rights Highway: US 80 and the March to Montgomery",
+      "date_range": "1945-1960",
+      "primary_modes": ["automobile", "bus", "railroad (declining)", "foot (marches)"],
+      "description": "In the postwar era, the automobile and improving highways began to break down some of the Black Belt's isolation — but selectively. White residents with cars and access to paved roads experienced a connected world. Black residents, many still without automobiles, continued to depend on bus service, rides from neighbors, and walking. The bus system itself was segregated. The civil rights movement made transportation infrastructure visible as a tool of oppression: the Gee's Bend ferry closure demonstrated that white authorities would cut physical connections to punish Black political organizing. The Selma-to-Montgomery marches of 1965 turned US Route 80 into the most famous road in America — marchers walked fifty-four miles on the same highway that had been the cotton route, the military road, and the commercial artery for 150 years. The Edmund Pettus Bridge at Selma, named for a Confederate general and Klan leader, became the symbol of the crossing from disenfranchisement to political participation.",
+      "road_conditions": "US and state highways paved. County roads improving but many still unpaved. The gap between highway connectivity and rural isolation narrowed but did not close.",
+      "travel_times": [
+        { "from": "Selma", "to": "Montgomery", "mode": "automobile", "time": "1 hour", "conditions_note": "Paved highway, well-maintained." },
+        { "from": "Selma", "to": "Birmingham", "mode": "automobile", "time": "2-2.5 hours", "conditions_note": "Via state highways through the hill country north of the Black Belt." },
+        { "from": "Selma", "to": "Montgomery", "mode": "on foot (1965 march)", "time": "5 days", "conditions_note": "Fifty-four miles, marching 10-12 miles per day. The march was a deliberate demonstration that political participation required physical courage." }
+      ],
+      "key_routes": [
+        { "route_name": "Edmund Pettus Bridge (Selma)", "type": "bridge", "year_established": 1940, "description": "The bridge over the Alabama River at Selma, named for a Confederate general, US senator, and Klan Grand Dragon. On March 7, 1965 (Bloody Sunday), state troopers and deputized posse members attacked marchers on this bridge with tear gas and clubs. The bridge became the most recognizable symbol of the voting rights movement.", "counties_served": ["Dallas"] },
+        { "route_name": "US Route 80 (as civil rights corridor)", "type": "US highway — marching route", "year_established": "1965 (as march route)", "description": "The Selma-to-Montgomery marching route followed US 80 through Dallas and Lowndes counties. Lowndes County, where the marchers camped, was one of the most dangerous stretches — Viola Liuzzo was murdered on this highway after the march.", "counties_served": ["Dallas", "Lowndes"] }
+      ],
+      "isolation_index": {
+        "description": "Declining along paved routes; persistent in rural areas. By 1960, the Black Belt's county seats were connected by paved highways. But the rural interior — where the majority of Black families still lived — remained poorly served by paved roads.",
+        "comparative_note": "The Black Belt's road infrastructure by 1960 was still inferior to most of the South. A century of economic collapse had produced a century of infrastructure neglect."
+      },
+      "narrative_hook": "When {ancestor_name} crossed the Edmund Pettus Bridge in Selma, {pronoun_subject} was walking on a road that had carried cotton, carried enslaved people, carried soldiers, and now carried the demand for the vote — the same river crossing, the same direction, a different destination.",
+      "source": "Thornton, J. Mills, III. Dividing Lines: Municipal Politics and the Struggle for Civil Rights in Montgomery, Birmingham, and Selma. University of Alabama Press, 2002. Jeffries, Bloody Lowndes (2009)."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1855, "event": "Alabama & Tennessee Rivers Railroad connects Selma to Montgomery", "impact": "First railroad in the Black Belt. Selma becomes a junction rather than merely a river port." },
+    { "year": 1856, "event": "Selma, Marion & Memphis Railroad begins construction westward", "impact": "Connects Marion and the western Black Belt to Selma's junction. Partially completed before the Civil War." },
+    { "year": 1862, "event": "Confederate Selma Naval Foundry and Arsenal established", "impact": "Selma's rail junction makes it the Confederacy's second-most-important industrial center. Thousands of enslaved workers impressed into munitions production." },
+    { "year": 1865, "event": "Wilson's Raid destroys Selma's railroad facilities and foundries", "impact": "Total destruction of Selma's industrial and transportation infrastructure. Rebuilt slowly during Reconstruction." },
+    { "year": 1871, "event": "Selma, Rome & Dalton Railroad completed northward", "impact": "Connects Selma to the Tennessee Valley and the national rail network. Enables cotton shipping by rail instead of river." },
+    { "year": 1894, "event": "Southern Railway consolidation includes Black Belt lines", "impact": "Black Belt rail service consolidated under the Southern Railway system. Same tracks that shipped cotton would carry Great Migration families north." },
+    { "year": 1926, "event": "Louisville & Nashville Railroad operating through Selma", "impact": "L&N provided north-south service through the Black Belt. Key route for Great Migration departures to Birmingham and beyond." }
+  ],
+  "narrative_hooks": [
+    "The Alabama River was the Black Belt's highway — {ancestor_name}'s cotton went downstream to Mobile, and the supplies, the news, and the enslaved people the planters bought came upstream on the same current.",
+    "The Federal Road through Creek territory was already old when {ancestor_name} traveled it — a military trace cut through land taken by force, now carrying planters, enslaved laborers, and wagon loads of ambition into the dark prairie.",
+    "The railroad made Selma a junction, and a junction is a target — Wilson's cavalry proved that in 1865, and {ancestor_name} lived with the consequences for a generation.",
+    "US Route 80 was the road that connected everything — cotton to Mobile, Selma to Montgomery, and in 1965, the demand for the vote to the conscience of the nation.",
+    "When the Gee's Bend ferry stopped running, {ancestor_name}'s community did not lose a convenience — they lost the only connection to the outside world, cut off by white authorities who understood that isolation was a weapon."
+  ],
+  "source_references": [
+    "Rogers, William Warren, Robert David Ward, Leah Rawls Atkins, and Wayne Flynt. Alabama: The History of a Deep South State. Tuscaloosa: University of Alabama Press, 1994.",
+    "Abernethy, Thomas Perkins. The Formative Period in Alabama, 1815-1828. Tuscaloosa: University of Alabama Press, 1965.",
+    "Hardy, William E. Selma and the Campaign for Alabama. Abilene, TX: McWhiney Foundation Press, 2011.",
+    "Jeffries, Hasan Kwame. Bloody Lowndes: Civil Rights and Black Power in Alabama's Black Belt. New York: New York University Press, 2009.",
+    "Thornton, J. Mills, III. Dividing Lines: Municipal Politics and the Struggle for Civil Rights in Montgomery, Birmingham, and Selma. Tuscaloosa: University of Alabama Press, 2002."
+  ],
+  "nel_cross_references": {
+    "route_refs": [
+      "alabama_river_corridor",
+      "federal_road_creek_territory"
+    ],
+    "trigger_refs": [
+      "domestic_slave_trade",
+      "trail_of_tears",
+      "great_migration",
+      "civil_war_service",
+      "reconstruction_era"
+    ]
+  }
+}

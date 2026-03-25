@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Sunflower County, MS. County seat: Indianola. Records survive reasonably well — no major fire or flood loss at the courthouse itself, though the 1927 flood affected the county. The primary record challenge is not loss but exclusion: the systematic underregistration of Black births, deaths, and marriages in a county that was 70-80% Black.",
+  "courthouse_atlas_id": "ms_sunflower_courthouse",
+  "display_name": "Sunflower County, Mississippi — Courthouse Atlas",
+  "county": "Sunflower",
+  "state": "MS",
+  "fips_code": "28133",
+  "cluster_ref": "ms_delta",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1914,
+      "location": "Indianola, MS",
+      "records_housed": ["deeds", "chancery court records", "circuit court records", "marriage records", "vital records post-1912"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1844-1870s",
+        "location": "McNutt (original county seat)",
+        "fate": "County seat moved to Indianola in 1882."
+      },
+      {
+        "era": "1882-1914",
+        "location": "Indianola",
+        "fate": "Replaced by current 1914 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "sunflower_early_loss",
+      "date": "1844-1882",
+      "cause": "Courthouse relocations and deterioration",
+      "records_destroyed": ["some early deed records (fragmentary)", "loose court papers from McNutt era"],
+      "records_survived": ["most bound deed books", "marriage records from formation"],
+      "scope": "minor",
+      "description": "The move from McNutt to Indianola resulted in some record loss, primarily loose papers. Bound volumes generally survived the transfer. The county's late development (created 1844) means the earliest records are not as old as in longer-established counties.",
+      "narrative_impact": "Sunflower County's records start relatively late (1844) compared to river-front counties. For ancestors before that date, the area was part of Bolivar County, and records must be sought there.",
+      "source": "Mississippi Department of Archives and History, Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1844,
+      "completeness": "Good from county formation",
+      "gaps": "Minor gaps in the earliest deed books. Continuous from the 1850s.",
+      "repository": "Sunflower County Chancery Clerk, Indianola; MDAH microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1850,
+      "completeness": "Good — estate records from early county period",
+      "gaps": "Limited pre-1850 records due to late county formation.",
+      "repository": "Sunflower County Chancery Clerk; MDAH",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1846,
+      "completeness": "Good for white families; Black marriages documented from 1865",
+      "gaps": "Pre-emancipation enslaved marriages not documented. Post-1865 Black marriage records exist but are less complete than white records.",
+      "repository": "Sunflower County Circuit Clerk; MDAH microfilm",
+      "online_access": "FamilySearch; Ancestry.com MS marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1846,
+      "completeness": "Good — chancery and circuit court minutes largely continuous",
+      "gaps": "Minor deterioration in early volumes.",
+      "repository": "Sunflower County courthouse; MDAH",
+      "online_access": "MDAH microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1912,
+      "death_registration_start": 1912,
+      "completeness": "Poor for rural Black population until 1930s. Fannie Lou Hamer's own birth date is uncertain in official records.",
+      "repository": "Mississippi State Department of Health; MDAH"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1850-1940. Slave schedules 1850-1860.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1850-1940",
+      "genealogical_value": "Essential for tracking families. The 1870 and 1880 censuses are the first to document formerly enslaved individuals by name in Sunflower County.",
+      "source": "National Archives and Records Administration."
+    },
+    {
+      "source_type": "Freedmen's Bureau records",
+      "description": "Labor contracts, marriage records, and complaint files for Sunflower County, 1865-1872.",
+      "repository": "National Archives; FamilySearch digitization",
+      "era_coverage": "1865-1872",
+      "genealogical_value": "Critical bridge for Black families. Sunflower County's overwhelmingly Black population makes these records essential.",
+      "source": "National Archives, RG 105."
+    },
+    {
+      "source_type": "Plantation records",
+      "description": "Some Sunflower County plantation records survive, including the Eastland plantation papers and Dockery Plantation records.",
+      "repository": "MDAH; university special collections; private holdings",
+      "era_coverage": "1850s-1960s",
+      "genealogical_value": "Plantation records document individual workers, labor arrangements, and family units. For ancestors who worked specific plantations, these records may be the most detailed source available.",
+      "source": "Mississippi Department of Archives and History."
+    }
+  ],
+  "narrative_hooks": [
+    "Sunflower County's records start in 1844 — for ancestors before that date, the area was part of Bolivar County, and {ancestor_name}'s trail leads to a different courthouse.",
+    "The vital records system that should have documented {ancestor_name}'s birth was so unreliable for Black families that even Fannie Lou Hamer's own birth date is uncertain in official records — the system did not value the documentation of the people it exploited.",
+    "If {ancestor_name} worked a specific plantation in Sunflower County, plantation records — where they survive — may document the family in more detail than the county courthouse, because the planter tracked labor more carefully than the state tracked citizens.",
+    "The Freedmen's Bureau records for Sunflower County are the essential bridge between slavery and freedom for {ancestor_name}'s family — the first documents to record names, ages, family relationships, and former enslavers for the county's Black majority."
+  ],
+  "source_references": [
+    "Mississippi Department of Archives and History. Guide to County Records. Jackson, MS.",
+    "National Archives and Records Administration. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands (RG 105).",
+    "Mills, Kay. This Little Light of Mine: The Life of Fannie Lou Hamer. New York: Dutton, 1993."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ms_sunflower",
+    "research_guidance_refs": ["southern_courthouse_research", "freedmens_bureau"],
+    "template_refs": ["record_silences"]
+  }
+}

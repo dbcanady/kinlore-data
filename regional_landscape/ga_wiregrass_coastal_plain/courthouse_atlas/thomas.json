@@ -1,0 +1,59 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Thomas County, GA. Record survival, courthouse history, and known losses. Thomas County, formed 1825, has relatively good record survival. Thomasville served as county seat from formation. The winter resort colony brought additional documentation (estate records, property transfers) from the 1880s onward.",
+  "courthouse_atlas_id": "ga_thomas_courthouse",
+  "display_name": "Thomas County, Georgia — Courthouse Atlas",
+  "county": "Thomas",
+  "state": "GA",
+  "fips_code": "13275",
+  "cluster_ref": "ga_wiregrass_coastal_plain",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1858, "location": "Thomasville, GA — courthouse square (expanded 1889, renovated 1958)", "records_housed": ["deeds", "marriage licenses", "probate records", "court minutes"] },
+    "previous_courthouses": [
+      { "era": "1825-1858", "location": "Thomasville, GA — original frame courthouse", "fate": "Replaced by brick courthouse in 1858. Records transferred intact." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "thomas_minor_gaps",
+      "date": null,
+      "cause": "Normal attrition and frontier record-keeping limitations",
+      "records_destroyed": [],
+      "records_survived": ["Deed books from 1826", "Will books", "Court minutes", "Marriage records from 1828"],
+      "scope": "minimal",
+      "description": "Thomas County experienced no major courthouse fire or destruction. Records are relatively continuous from formation in 1825. Early volumes show the expected wear of frontier record-keeping — some entries are brief, handwriting is variable, and indexing is inconsistent — but the records survive. The Civil War did not bring combat to Thomasville, and the courthouse was not damaged.",
+      "narrative_impact": "Thomas County's records are among the most complete in the Wiregrass cluster. If {ancestor_name} was in Thomas County, the paper trail extends to the county's earliest days — a rare advantage in the Wiregrass, where many counties lost records to fire or neglect.",
+      "source": "GA Department of Archives and History. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1826, "completeness": "Excellent from formation", "gaps": "No major gaps. Quail plantation land purchases from the 1880s-1920s are extensively documented.", "repository": "Thomas County Clerk of Superior Court; GA Archives microfilm", "online_access": "FamilySearch microfilm; some Ancestry.com coverage" },
+    "wills_estates": { "earliest_surviving": 1826, "completeness": "Excellent. Estate inventories include turpentine equipment, enslaved persons, and livestock — a full picture of Wiregrass wealth.", "gaps": "No major gaps.", "repository": "Thomas County Probate Court; GA Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1828, "completeness": "Good from 1828", "gaps": "Pre-1828 marriages not systematically recorded.", "repository": "Thomas County Probate Court", "online_access": "FamilySearch; Ancestry.com GA marriages" },
+    "court_minutes": { "earliest_surviving": 1826, "completeness": "Good", "gaps": "No major gaps.", "repository": "Thomas County Clerk of Superior Court; GA Archives", "online_access": "GA Archives microfilm" },
+    "vital_records": { "birth_registration_start": 1919, "death_registration_start": 1919, "completeness": "Spotty until mid-1920s.", "repository": "GA Department of Public Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "Thomas County Historical Society collections", "description": "The Thomas County Historical Society maintains extensive local records including family papers, photographs, plantation records from the winter resort era, and oral history transcripts. The society's collections are particularly strong for the 1880-1940 period.", "repository": "Thomas County Historical Society, Thomasville, GA", "era_coverage": "1825-1960", "genealogical_value": "Essential for families connected to the quail plantation economy — domestic servants, farm managers, hunting guides, and the northern families who employed them. These records document a class of workers rarely captured in courthouse records.", "source": "Thomas County Historical Society." },
+    { "source_type": "Huxford's Pioneers of Wiregrass Georgia", "description": "Covers Thomas County families extensively in the multi-volume genealogical compilation.", "repository": "Major Georgia libraries; Huxford Genealogical Society", "era_coverage": "1825-1920", "genealogical_value": "Comprehensive compiled genealogy covering families across economic classes.", "source": "Huxford, Folks. Pioneers of Wiregrass Georgia." },
+    { "source_type": "Thomasville newspaper archives", "description": "The Thomasville Times-Enterprise and predecessor papers published continuously from the 1870s. The Thomasville press was more robust than any other newspaper in the Wiregrass because the winter resort colony generated advertising revenue and readership.", "repository": "Thomas County Public Library; GA Archives microfilm", "era_coverage": "1870s-present", "genealogical_value": "Estate notices, obituaries, social columns documenting both the local population and the northern resort colony. Unusually detailed for a Wiregrass county.", "source": "GA Newspaper Project." }
+  ],
+  "narrative_hooks": [
+    "Thomas County's records start in 1826 and run continuously — if {ancestor_name} was in Thomas County, the courthouse trail is among the most complete in south Georgia.",
+    "The quail plantation era left a paper trail that most Wiregrass counties do not have — if {ancestor_name} worked on a plantation estate as a servant, guide, or farm hand, the Thomas County Historical Society may hold employment records and photographs that document that work.",
+    "The Thomasville newspaper was the best in the Wiregrass — if {ancestor_name} died, married, or appeared in court in Thomas County, the newspaper likely covered it with a detail that no other Wiregrass paper could match.",
+    "Thomas County estate inventories list turpentine equipment alongside enslaved persons and livestock — if {ancestor_name} owned a turpentine operation, the probate records document the tools, stills, and timber leases that constituted Wiregrass wealth."
+  ],
+  "source_references": [
+    "GA Department of Archives and History. Guide to County Records.",
+    "Thomas County Historical Society. Thomasville, GA.",
+    "Huxford, Folks. Pioneers of Wiregrass Georgia. 10 vols.",
+    "Works Progress Administration. Historical Records Survey: Georgia. Atlanta, 1937-1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ga_thomas",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

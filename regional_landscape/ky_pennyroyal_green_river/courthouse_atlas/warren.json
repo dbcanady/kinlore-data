@@ -1,0 +1,137 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Warren County, Kentucky. Record survival, courthouse history, and known losses for the commercial hub of the Pennyroyal cluster — formed 1797 from Logan County, with Bowling Green as county seat. Warren County experienced significant Civil War destruction when Confederate forces burned supplies during their retreat in February 1862, and the courthouse was occupied and damaged during alternating Union and Confederate control of Bowling Green.",
+  "courthouse_atlas_id": "ky_warren_courthouse",
+  "display_name": "Warren County, Kentucky — Courthouse Atlas",
+  "county": "Warren",
+  "state": "KY",
+  "fips_code": "21227",
+  "cluster_ref": "ky_pennyroyal_green_river",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1942,
+      "location": "Bowling Green, KY — 429 E. 10th Avenue (Warren County Justice Center, with annex additions)",
+      "records_housed": ["deeds", "wills", "court order books", "marriage records", "tax lists", "circuit court records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1797-1812",
+        "location": "Bowling Green — original log courthouse on the public square",
+        "fate": "Replaced as the town grew. Early records transferred intact."
+      },
+      {
+        "era": "1812-1861",
+        "location": "Bowling Green — brick courthouse on Fountain Square",
+        "fate": "Occupied by both Confederate and Union forces during the Civil War. Confederates used Bowling Green as their provisional Kentucky capital in late 1861. Records survived occupation though some loose papers were damaged."
+      },
+      {
+        "era": "1868-1942",
+        "location": "Bowling Green — rebuilt courthouse on Fountain Square",
+        "fate": "Post-war reconstruction. Served until the 1942 courthouse was built. Records well-preserved from this era."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "warren_civil_war_occupation",
+      "date": "1861-1865",
+      "cause": "Civil War occupation — Bowling Green served as Confederate provisional capital of Kentucky (October 1861-February 1862), then was occupied by Union forces for the remainder of the war",
+      "records_destroyed": ["some loose court papers", "some tax assessment records", "scattered personal property documents"],
+      "records_survived": ["deed books", "will books", "court order books", "marriage bonds"],
+      "scope": "minor to moderate",
+      "description": "Bowling Green was the most strategically important town in the Pennyroyal during the Civil War. Confederate General Simon Bolivar Buckner established it as the provisional state capital in late 1861 and built Fort Webb and other fortifications. When the Confederates retreated in February 1862 after the fall of Fort Donelson, they burned bridges, supplies, and some public buildings. The courthouse survived the retreat largely intact, though some records were displaced or damaged during the months of military occupation. Union forces then held the town as a supply depot through 1865. The core bound records — deeds, wills, court order books — survived remarkably well. Warren County's records are among the best-preserved in the cluster.",
+      "narrative_impact": "Warren County's records survived the war in good condition. If {ancestor_name}'s records are missing from the Bowling Green courthouse, the gap is more likely due to the family's pre-1797 presence in Logan County (Warren's parent) than to wartime destruction. The Confederate provisional capital period (October 1861-February 1862) actually generated additional records — military requisitions, loyalty oaths, and property assessments — that can supplement civil records.",
+      "source": "Harrison, Lowell H. The Civil War in Kentucky. Lexington: University Press of Kentucky, 1975."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1797,
+      "completeness": "Excellent — continuous series from county formation",
+      "gaps": "No known significant gaps. Warren County deed books are among the best-preserved in the Pennyroyal.",
+      "repository": "Warren County Clerk, Bowling Green; KDLA microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com Kentucky land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1797,
+      "completeness": "Excellent — will books and estate records survive from county formation",
+      "gaps": "Minor — some loose estate papers from the earliest decades are fragmentary. Bound will books are intact.",
+      "repository": "Warren County Clerk; KDLA microfilm",
+      "online_access": "FamilySearch microfilm; KDLA digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1797,
+      "completeness": "Good — marriage bonds survive from county formation",
+      "gaps": "Marriage bonds are more complete than minister returns before the 1850s. Some early bonds show wear but remain legible.",
+      "repository": "Warren County Clerk; KDLA microfilm",
+      "online_access": "FamilySearch; Ancestry.com Kentucky marriages collection"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1797,
+      "completeness": "Excellent — county court order books are continuous from formation",
+      "gaps": "No significant gaps. The early court order books are a rich source for frontier settlement patterns — road orders, estate inventories, and boundary disputes.",
+      "repository": "Warren County Clerk; KDLA microfilm",
+      "online_access": "KDLA microfilm; limited FamilySearch digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1852,
+      "death_registration_start": 1852,
+      "completeness": "Kentucky mandated registration beginning in 1852, but compliance was spotty until approximately 1911. Warren County's records are slightly better than rural counties because of Bowling Green's urban infrastructure, but still incomplete before 1911.",
+      "repository": "Kentucky Office of Vital Statistics, Frankfort; KDLA for pre-1911 registers"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Logan County parent records (pre-1797)",
+      "description": "Warren County was formed from Logan County in 1797. All records before that date are in Logan County, one of Kentucky's earliest counties (formed 1792 from Lincoln).",
+      "repository": "Logan County Clerk, Russellville; KDLA microfilm",
+      "era_coverage": "1792-1797",
+      "genealogical_value": "Essential for any family in the Bowling Green area before 1797. Logan County was the parent of most Pennyroyal counties and holds the earliest regional records.",
+      "source": "Jillson, Willard Rouse. The Kentucky Land Grants. Louisville: Standard Printing Company, 1925."
+    },
+    {
+      "source_type": "Civil War military and occupation records",
+      "description": "Bowling Green's role as Confederate provisional capital and later Union supply depot generated extensive military records — requisitions, loyalty oaths, property claims, and provost marshal records.",
+      "repository": "National Archives (RG 109, Confederate records; RG 393, Union Army post records); Kentucky Historical Society",
+      "era_coverage": "1861-1865",
+      "genealogical_value": "Valuable for identifying wartime loyalties and economic losses. Property claims filed after the war can document losses of enslaved persons, livestock, and crops. Loyalty oaths name individuals and their locations.",
+      "source": "Harrison, Lowell H. The Civil War in Kentucky. Lexington: University Press of Kentucky, 1975."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1800-1940. Agricultural schedules (1850-1880) and slave schedules (1850-1860). Warren County is enumerated from the 1800 census.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1800-1940",
+      "genealogical_value": "Essential. The 1850 and 1860 slave schedules are particularly important for Warren County, which had a significant enslaved population tied to the tobacco economy.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Warren County, KY."
+    },
+    {
+      "source_type": "Bowling Green newspapers",
+      "description": "The Bowling Green Gazette (1830s-1860s) and its successors, including the Park City Daily News (1903-present), documented births, deaths, marriages, property transfers, and community events.",
+      "repository": "Western Kentucky University Libraries, Special Collections; Kentucky Historical Society; KDLA",
+      "era_coverage": "1830s-present",
+      "genealogical_value": "Bowling Green newspapers covered the entire Pennyroyal region, not just Warren County. Obituaries, marriage announcements, and legal notices supplement courthouse records. The Park City Daily News is one of the best local newspapers in Kentucky for genealogical research.",
+      "source": "Capps, Randolph, and Anna Cravens. The Park City Daily News: A History. Bowling Green: Landmark Association, 1994."
+    }
+  ],
+  "narrative_hooks": [
+    "Bowling Green was the Confederate capital of Kentucky for four months — and if {ancestor_name} was in Warren County when the Stars and Bars flew over Fountain Square, that loyalty oath in the National Archives may be the only record of what side {pronoun_subject} chose.",
+    "Warren County's records survived the Civil War intact, which means that {ancestor_name}'s deeds, wills, and court records almost certainly still exist in Bowling Green — one of the best-preserved record sets in the Pennyroyal.",
+    "Before Warren County existed in 1797, {ancestor_name}'s earliest land and court records were filed in Logan County at Russellville — the mother county of the entire western Pennyroyal.",
+    "The Bowling Green newspapers covered every tobacco sale, every court day, and every social event in the Pennyroyal — if {ancestor_name} lived within thirty miles of Bowling Green, {pronoun_possessive} name likely appeared in newsprint at least once.",
+    "Kentucky required vital registration from 1852, but in Warren County the compliance was a polite fiction until around 1911 — church records and cemetery transcriptions fill the gap."
+  ],
+  "source_references": [
+    "Harrison, Lowell H. The Civil War in Kentucky. Lexington: University Press of Kentucky, 1975.",
+    "Jillson, Willard Rouse. The Kentucky Land Grants. Louisville: Standard Printing Company, 1925.",
+    "Capps, Randolph, and Anna Cravens. The Park City Daily News: A History. Bowling Green: Landmark Association, 1994.",
+    "Works Progress Administration. Historical Records Survey: Kentucky County Records. Frankfort, 1937-1942.",
+    "Kentucky Department for Libraries and Archives. Guide to Kentucky County Records on Microfilm. Frankfort, various editions."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ky_warren",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

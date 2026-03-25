@@ -1,0 +1,122 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Dane County, WI. Record survival, courthouse history, and the consequences of the 1904 capitol fire for state-level records. County records are generally excellent; the fire destroyed the state capitol and some state-level records but did not affect the county courthouse.",
+  "courthouse_atlas_id": "wi_dane_courthouse",
+  "display_name": "Dane County, Wisconsin — Courthouse Atlas",
+  "county": "Dane",
+  "state": "WI",
+  "fips_code": "55025",
+  "cluster_ref": "wi_southern_driftless",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1957,
+      "location": "Madison, WI — 215 S. Hamilton Street (City-County Building)",
+      "records_housed": ["deeds", "mortgages", "probate records", "court records", "vital records (post-1907)"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1839-1884",
+        "location": "Madison, Capitol Square area",
+        "fate": "Early frame and brick courthouses. Replaced as the county grew. No significant fire loss to county records."
+      },
+      {
+        "era": "1884-1957",
+        "location": "Madison, Capitol Square area",
+        "fate": "Served until replaced by the City-County Building. Records transferred intact."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "dane_capitol_fire_1904",
+      "date": "1904-02-13",
+      "cause": "Wisconsin State Capitol fire — this destroyed STATE records, not county records. The county courthouse was a separate building.",
+      "records_destroyed": ["Some state-level records housed in the capitol were lost, including legislative papers and some executive department files"],
+      "records_survived": ["All county-level records survived — the county courthouse was not the capitol"],
+      "scope": "State records only — no impact on county genealogical records",
+      "description": "The 1904 fire destroyed the state capitol building, not the Dane County courthouse. This is a common confusion: the capitol and the courthouse were separate buildings. County deed books, probate files, court records, and vital records were not affected. Some state-level records (legislative journals, executive correspondence) were lost, but genealogically significant county records are intact from county formation (1839).",
+      "narrative_impact": "The 1904 capitol fire is famous but did NOT destroy Dane County's genealogical records. If {ancestor_name} lived in Dane County, the deeds, wills, and court records survive. Look for gaps in state-level records (military muster rolls, some territorial papers) but expect county records to be complete.",
+      "source": "Wisconsin Historical Society. Guide to Wisconsin County Records. Madison: WHS, various editions."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1839,
+      "completeness": "Excellent — continuous from county formation",
+      "gaps": "No known gaps",
+      "repository": "Dane County Register of Deeds; Wisconsin Historical Society microfilm",
+      "online_access": "FamilySearch microfilm; some Ancestry.com collections"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1840,
+      "completeness": "Good — probate files from near county formation",
+      "gaps": "Minor gaps in earliest loose papers. Bound volumes intact.",
+      "repository": "Dane County Probate Court; Wisconsin Historical Society",
+      "online_access": "FamilySearch microfilm; limited digitization"
+    },
+    "marriages": {
+      "earliest_surviving": 1839,
+      "completeness": "Good — Wisconsin required marriage licenses from territorial period",
+      "gaps": "Some early territorial records fragmentary. Post-1850 essentially complete.",
+      "repository": "Dane County Register of Deeds (marriage licenses); Wisconsin Historical Society",
+      "online_access": "FamilySearch; Ancestry.com WI marriages collection"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1839,
+      "completeness": "Good — circuit court records from county formation",
+      "gaps": "Minor gaps in territorial-era justice of the peace records",
+      "repository": "Dane County Clerk of Courts; Wisconsin Historical Society",
+      "online_access": "Limited; WHS microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1907,
+      "death_registration_start": 1907,
+      "completeness": "Wisconsin required statewide vital registration from 1907. Pre-1907, church records and census are primary sources. Madison city health records may predate 1907.",
+      "repository": "Wisconsin Department of Health Services; Wisconsin Historical Society for historical records"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "University of Wisconsin records",
+      "description": "UW Madison student records, faculty records, and institutional files document thousands of Dane County residents. The university was established in 1848 and maintained detailed student registers, grade records, and housing records.",
+      "repository": "UW-Madison Archives, Steenbock Library",
+      "era_coverage": "1848-present",
+      "genealogical_value": "Student registers include hometown, parent names, and academic records. Valuable for tracking families with university connections.",
+      "source": "UW-Madison Archives finding aids."
+    },
+    {
+      "source_type": "Norwegian-American church records",
+      "description": "Norwegian Lutheran congregations in western Dane County maintained detailed ministerialbok (parish registers) including baptisms, confirmations, marriages, and burials. Records were kept in Norwegian until the 1920s-1930s.",
+      "repository": "Norwegian-American Historical Association, St. Olaf College; Luther Seminary Archives; individual congregations; Wisconsin Historical Society",
+      "era_coverage": "1840s-present",
+      "genealogical_value": "Essential for Norwegian families. Ministerialbok records often include parents' home parish in Norway, enabling research to link American families to Norwegian origins.",
+      "source": "Qualey, Carlton C. Norwegian Settlement in the United States. Northfield, MN: Norwegian-American Historical Association, 1938."
+    },
+    {
+      "source_type": "State government employee records",
+      "description": "Madison being the state capital, many Dane County residents worked for state government. Personnel files, payroll records, and appointment records document state employees.",
+      "repository": "Wisconsin Historical Society; Wisconsin Department of Administration",
+      "era_coverage": "1848-present",
+      "genealogical_value": "Useful for identifying government employees. Civil service records include names, addresses, salaries, and dates of service.",
+      "source": "Wisconsin Historical Society."
+    }
+  ],
+  "narrative_hooks": [
+    "Dane County's records are essentially complete from 1839 — the 1904 fire destroyed the state capitol, not the county courthouse, and {ancestor_name}'s deeds, wills, and court records survived.",
+    "If {ancestor_name} was Norwegian and settled in western Dane County, the church ministerialbok may contain more detail than any county record — baptisms, confirmations, and the home parish in Norway that connects the American family to the old country.",
+    "Wisconsin required vital registration from 1907 — before that date, {ancestor_name}'s birth, marriage, or death must be traced through church records, census, or newspaper notices.",
+    "Madison was a capital, a college town, and a county seat — {ancestor_name} may appear in university records, state government files, or county documents, depending on which version of Madison they inhabited."
+  ],
+  "source_references": [
+    "Wisconsin Historical Society. Guide to Wisconsin County Records. Madison: WHS, various editions.",
+    "Qualey, Carlton C. Norwegian Settlement in the United States. Northfield, MN: Norwegian-American Historical Association, 1938.",
+    "UW-Madison Archives finding aids.",
+    "Mollenhoff, David V. Madison: A History of the Formative Years. 2nd ed. Madison: University of Wisconsin Press, 2003."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "wi_dane",
+    "research_guidance_refs": ["vital_records", "church_transfers"],
+    "template_refs": ["record_silences"]
+  }
+}

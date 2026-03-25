@@ -1,0 +1,140 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Cumberland County, NC. Record survival, courthouse history, and known losses for one of North Carolina's oldest counties.",
+  "courthouse_atlas_id": "nc_cumberland_courthouse",
+  "display_name": "Cumberland County, North Carolina — Courthouse Atlas",
+  "county": "Cumberland",
+  "state": "NC",
+  "fips_code": "37051",
+  "cluster_ref": "se_nc_coastal_plain",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1925,
+      "location": "Fayetteville, NC — Courthouse Square, Gillespie Street",
+      "records_housed": ["deeds", "plats", "vital records indexes", "court minutes", "estate files"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1754–1785",
+        "location": "Cross Creek (pre-incorporation Fayetteville)",
+        "fate": "Earliest courthouse was a modest wooden structure serving what was then a frontier county. Replaced as the town grew."
+      },
+      {
+        "era": "1785–1831",
+        "location": "Fayetteville, Market Square area",
+        "fate": "Destroyed in the Great Fayetteville Fire of 1831, which burned most of the town center. Some county records were saved; others were lost."
+      },
+      {
+        "era": "1831–1925",
+        "location": "Fayetteville, rebuilt on Courthouse Square",
+        "fate": "Brick construction replaced the earlier frame building. Served for nearly a century before being replaced by the current structure."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "cumberland_1831_fire",
+      "date": "1831-05-29",
+      "cause": "fire",
+      "records_destroyed": ["some loose court papers", "portions of early tax records", "scattered estate papers"],
+      "records_survived": ["deed books from 1754", "will books from 1754", "marriage bonds from 1803", "court minute books (most volumes)"],
+      "scope": "partial",
+      "description": "The Great Fire of Fayetteville on May 29, 1831, destroyed approximately 600 structures in the town center. The courthouse was damaged or destroyed, but critically, the most important bound record books — deeds, wills, and court minutes — appear to have been rescued or were stored in a vault that survived. Loose papers and some tax records were less fortunate. Cumberland County's early colonial-era records survive in better condition than many eastern NC counties, which suggests effective rescue efforts during the fire.",
+      "narrative_impact": "Cumberland County's colonial records survive in surprisingly good shape despite the 1831 fire. Gaps in {ancestor_name}'s pre-1831 record trail are more likely due to the informality of colonial-era record keeping than to the fire itself — the bound books were saved.",
+      "source": "Oates, John A. The Story of Fayetteville and the Upper Cape Fear. Fayetteville: Fayetteville Woman's Club, 1950."
+    },
+    {
+      "loss_id": "cumberland_civil_war_minor",
+      "date": "1865-03",
+      "cause": "Civil War",
+      "records_destroyed": ["no known significant record losses"],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage records"],
+      "scope": "specific",
+      "description": "Sherman's army occupied Fayetteville in March 1865 and destroyed the Confederate arsenal, but the courthouse and its records were not targeted. Some disruption to record keeping occurred during the occupation, but no significant records are known to have been destroyed.",
+      "narrative_impact": "Unlike many eastern NC counties, Cumberland's records passed through the Civil War largely intact. If {ancestor_name}'s records from this period are missing, other explanations — informal transactions, illiteracy, or the upheaval of emancipation — are more likely than destruction.",
+      "source": "Barrett, John G. Sherman's March Through the Carolinas. Chapel Hill: UNC Press, 1956."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1754,
+      "completeness": "Good — continuous series from county formation, one of the longest in NC",
+      "gaps": "Some early colonial deed entries are brief and formulaic. No known volume-level gaps.",
+      "repository": "Cumberland County Register of Deeds, Fayetteville; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com NC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1754,
+      "completeness": "Good — will books survive from formation. Loose estate papers less complete before 1831.",
+      "gaps": "Some colonial-era loose estate inventories and accounts may have been lost in the 1831 fire. Bound will books are intact.",
+      "repository": "Cumberland County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm; NC State Archives digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1803,
+      "completeness": "Good from 1803 forward. Pre-1803 marriages recorded in court minutes or not at all.",
+      "gaps": "Marriage bonds before 1803 are not extant as a separate series. Some colonial marriages may appear in court minute entries.",
+      "repository": "Cumberland County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com NC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1755,
+      "completeness": "Good — among the most complete colonial-era court records in eastern NC",
+      "gaps": "Minor gaps in early 1750s. Minutes from the 1760s–1770s provide rich detail on colonial life, including indentured servitude, road orders, and estate divisions.",
+      "repository": "NC State Archives; Cumberland County Clerk of Court",
+      "online_access": "NC State Archives microfilm; FamilySearch (partial)"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Spotty until approximately 1920. Fayetteville city records may include some pre-1913 burial permits.",
+      "repository": "NC Office of Vital Records; NC State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Colonial court records",
+      "description": "Cumberland County's colonial court minutes are among the richest in NC, documenting land disputes, apprenticeships, bastardy bonds, and road orders from the 1750s onward.",
+      "repository": "NC State Archives; published in Colonial Records of North Carolina",
+      "era_coverage": "1754–1776",
+      "genealogical_value": "Colonial court minutes often name relationships, occupations, and neighbors that no other record type preserves. Essential for pre-Revolutionary families.",
+      "source": "Saunders, William L., ed. Colonial Records of North Carolina. Raleigh: State of NC, 1886–1890."
+    },
+    {
+      "source_type": "Scottish Highland settlement records",
+      "description": "The Upper Cape Fear was a major Scottish Highland settlement area. Church, emigration, and land records trace Scots families from the 1730s–1770s.",
+      "repository": "NC State Archives; Scottish Record Office (Edinburgh); published genealogies",
+      "era_coverage": "1730s–1800s",
+      "genealogical_value": "Cumberland County's Scottish heritage means that emigration records, clan histories, and church records from Scotland can extend family lines across the Atlantic.",
+      "source": "Meyer, Duane. The Highland Scots of North Carolina, 1732–1776. Chapel Hill: UNC Press, 1961."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790–1940. Cumberland County enumerated from the first federal census. Military population at Fort Bragg (established 1918) dominates twentieth-century counts.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790–1940",
+      "genealogical_value": "Essential for tracking families, especially given the county's large enslaved population before 1865 and significant free Black community.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Cumberland County, NC."
+    }
+  ],
+  "narrative_hooks": [
+    "Cumberland County's records reach back to 1754 — colonial North Carolina — which means that if {ancestor_name}'s family was here before the Revolution, the deed books and court minutes may preserve their names in the clerk's own hand, written when George II still sat on the throne.",
+    "The Great Fire of 1831 burned most of Fayetteville to the ground, but someone had the presence of mind to save the courthouse's bound record books — the deeds and wills that trace {ancestor_name}'s family survived because of an unknown act of courage on a single May afternoon.",
+    "Before 1913, no North Carolina county required birth or death registration, and in Cumberland County the gap goes deeper — marriage bonds before 1803 simply do not exist as a separate series, so if {ancestor_name} married here in the 1700s, the court minutes are the place to look.",
+    "If {ancestor_name} arrived in the Cape Fear country from Scotland, the emigration records and Highland settlement patterns documented by historians may extend the family story across the Atlantic — Cumberland County was the heart of Scottish North Carolina.",
+    "Sherman's army burned the Confederate arsenal at Fayetteville in March 1865 but left the courthouse standing, which means {ancestor_name}'s records survived both the Revolution and the Civil War — a continuity that few eastern NC counties can match."
+  ],
+  "source_references": [
+    "Oates, John A. The Story of Fayetteville and the Upper Cape Fear. Fayetteville: Fayetteville Woman's Club, 1950.",
+    "Meyer, Duane. The Highland Scots of North Carolina, 1732–1776. Chapel Hill: University of North Carolina Press, 1961.",
+    "Barrett, John G. Sherman's March Through the Carolinas. Chapel Hill: University of North Carolina Press, 1956.",
+    "Saunders, William L., ed. Colonial Records of North Carolina. 10 vols. Raleigh: State of North Carolina, 1886–1890.",
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_cumberland",
+    "research_guidance_refs": ["southern_courthouse_research", "colonial_era_records", "scottish_immigration_research"],
+    "template_refs": ["record_silences"]
+  }
+}

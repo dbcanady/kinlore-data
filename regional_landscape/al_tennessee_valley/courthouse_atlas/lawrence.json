@@ -1,0 +1,113 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Lawrence County, AL. Record survival and courthouse history. Lawrence County was formed in 1818. The courthouse at Moulton has survived without major fire or war destruction — records are largely complete from formation.",
+  "courthouse_atlas_id": "al_lawrence_courthouse",
+  "display_name": "Lawrence County, Alabama — Courthouse Atlas",
+  "county": "Lawrence",
+  "state": "AL",
+  "fips_code": "01079",
+  "cluster_ref": "al_tennessee_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1936,
+      "location": "Moulton, AL — 14451 Court Street",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1818–1835",
+        "location": "Moulton, original site",
+        "fate": "Early frame courthouse. Replaced as county developed."
+      },
+      {
+        "era": "1835–1936",
+        "location": "Moulton, courthouse square",
+        "fate": "Brick courthouse. Survived the Civil War without significant damage — Moulton was not a major military objective. Replaced by the current WPA-era building in 1936."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "lawrence_no_major_loss",
+      "date": null,
+      "cause": "No major fire or war damage",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "marriage records", "court minutes", "tax records"],
+      "scope": "none",
+      "description": "Lawrence County's courthouse at Moulton has not experienced a significant fire, and the town was not a major Civil War objective. Records are continuous from the county's 1818 formation. The county is split between the fertile Tennessee River bottomland (north) and the Cumberland Plateau margin (south), and this split is reflected in the records: bottomland families left more property records; hill families left fewer.",
+      "narrative_impact": "If {ancestor_name} lived in Lawrence County, the records are likely intact — but families in the southern hills left fewer records because they owned less, transacted less, and appeared in court less than the bottomland families.",
+      "source": "Alabama Department of Archives and History. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1818,
+      "completeness": "Good — continuous from county formation",
+      "gaps": "No significant gaps",
+      "repository": "Lawrence County Probate Office, Moulton; ADAH microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1819,
+      "completeness": "Good",
+      "gaps": "Minor gaps in loose papers",
+      "repository": "Lawrence County Probate Office; ADAH",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1818,
+      "completeness": "Good",
+      "gaps": "No significant gaps",
+      "repository": "Lawrence County Probate Office; ADAH microfilm",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1818,
+      "completeness": "Good",
+      "gaps": "No significant gaps",
+      "repository": "ADAH; Lawrence County Circuit Clerk",
+      "online_access": "ADAH microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Spotty until approximately 1920",
+      "repository": "Alabama Department of Public Health; ADAH"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Bankhead National Forest acquisition records",
+      "description": "Federal land acquisition records from the creation of William B. Bankhead National Forest document families who sold or were bought out of their hill farms in southern Lawrence County.",
+      "repository": "U.S. Forest Service, National Forests in Alabama; National Archives (RG 95); ADAH",
+      "era_coverage": "1918-1940",
+      "genealogical_value": "Documents families displaced from the southern hills — includes names, property descriptions, acreage, and sale prices. For families who disappeared from Lawrence County records after 1920, check whether they sold to the Forest Service.",
+      "source": "U.S. Forest Service. Land Acquisition Records, National Forests in Alabama."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1820-1940. Agricultural schedules (1850-1880) are particularly valuable for distinguishing bottomland planters from hill subsistence farmers.",
+      "repository": "National Archives; Ancestry.com; FamilySearch",
+      "era_coverage": "1820-1940",
+      "genealogical_value": "The agricultural schedule data reveals the economic gap between bottomland and hill families — number of improved acres, crop values, and livestock counts tell the story of a divided county.",
+      "source": "National Archives. Federal Population Census Schedules."
+    }
+  ],
+  "narrative_hooks": [
+    "Lawrence County's records are intact from 1818 — the courthouse at Moulton was never burned, never occupied, and never flooded.",
+    "If {ancestor_name} farmed the hills south of Moulton and disappeared from county records after 1920, check the Bankhead National Forest acquisition files — the federal government may have bought the family off the land.",
+    "The split in Lawrence County shows in the records: bottomland families left deeds, wills, and tax records; hill families left almost nothing because they had almost nothing to record.",
+    "The agricultural schedule for {year} shows the divide — {ancestor_name}'s farm on the limestone bottomland produced ten times the value of a hill farm five miles south."
+  ],
+  "source_references": [
+    "Alabama Department of Archives and History. Guide to County Records in the Alabama State Archives. Montgomery: ADAH, 2005.",
+    "U.S. Forest Service. Land Acquisition Records, National Forests in Alabama.",
+    "National Archives and Records Administration. Federal Population Census Schedules."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "al_lawrence",
+    "research_guidance_refs": ["freedmens_bureau_records"],
+    "template_refs": ["record_silences"]
+  }
+}

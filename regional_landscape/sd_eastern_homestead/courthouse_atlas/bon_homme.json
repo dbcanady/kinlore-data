@@ -1,0 +1,143 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Bon Homme County, SD. Record survival for the earliest agricultural settlement in Dakota Territory, with Czech Tabor colony and Hutterite colony records creating a uniquely diverse documentary base.",
+  "courthouse_atlas_id": "sd_bon_homme_courthouse",
+  "display_name": "Bon Homme County, South Dakota — Courthouse Atlas",
+  "county": "Bon Homme",
+  "state": "SD",
+  "fips_code": "46009",
+  "cluster_ref": "sd_eastern_homestead",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1925,
+      "location": "Tyndall, SD — 300 W. 18th Avenue",
+      "records_housed": ["deeds", "plats", "mortgages", "court records", "vital records indexes", "naturalization records", "estate files"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1862–1882",
+        "location": "Bon Homme (original county seat), frame building near the Missouri River",
+        "fate": "The original county seat was at the town of Bon Homme, near the river. When Tyndall became the county seat in 1882, records were transferred to the new location."
+      },
+      {
+        "era": "1882–1925",
+        "location": "Tyndall, frame and later brick building",
+        "fate": "Replaced by the 1925 courthouse. Records transferred intact."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "bon_homme_1890_census",
+      "date": "1921-01-10",
+      "cause": "Fire at the U.S. Commerce Department building, Washington, D.C.",
+      "records_destroyed": ["1890 federal census — Bon Homme County schedules"],
+      "records_survived": ["All locally held county records"],
+      "scope": "complete for 1890 census",
+      "description": "The 1890 census loss affects Bon Homme County's Czech and Hutterite communities — the census would have documented the established ethnic colonies at the peak of their pre-WWI prosperity.",
+      "narrative_impact": "The missing 1890 census eliminates the federal snapshot of the Tabor and Hutterite communities at maturity. Church records and colony records partially compensate.",
+      "source": "Blake, Kellee. 'First in the Path of the Firemen: The Fate of the 1890 Population Census.' Prologue Magazine 28, no. 1 (Spring 1996)."
+    },
+    {
+      "loss_id": "bon_homme_hutterite_exodus",
+      "date": "1918",
+      "cause": "WWI persecution — Hutterite exodus to Canada",
+      "records_destroyed": ["Hutterite colony internal records taken to Canada or lost in the move"],
+      "records_survived": ["County deed records of colony land sales", "county court records of wartime incidents", "military draft records for Hutterite conscientious objectors"],
+      "scope": "partial — colony internal records, not county records",
+      "description": "When the Hutterite colonies fled to Canada in 1918 under wartime persecution, they took their internal colony records — birth and death registers, membership rolls, communal property inventories — with them. The county-level records of their land transactions, court cases, and interactions with local government remained in Tyndall. The colony records that survived are now in Canadian archives or held by the colonies in Alberta and Manitoba.",
+      "narrative_impact": "If {ancestor_name} was Hutterite, the family's records after 1918 are in Canada, not South Dakota. The Bon Homme County courthouse holds the land records of the colony's American period but not the internal community records.",
+      "source": "Hostetler, John A. Hutterite Society. Baltimore: Johns Hopkins University Press, 1974."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1862,
+      "completeness": "Good — among the oldest deed records in the cluster, reflecting the early settlement date. Hutterite colony land transactions are recorded under the colony name rather than individual names.",
+      "gaps": "Some pre-organization claims along the Missouri may appear only in federal patent records. Hutterite communal property was recorded under colony governance structures, making individual-level tracing impossible through deeds alone.",
+      "repository": "Bon Homme County Register of Deeds, Tyndall; SD State Archives",
+      "online_access": "FamilySearch microfilm; BLM General Land Office patent database"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1870,
+      "completeness": "Good — early probate records reflect the oldest agricultural community in the territory",
+      "gaps": "Hutterite colonists held no private property, so no individual Hutterite estates were probated. Czech families probated estates through the county system normally.",
+      "repository": "Bon Homme County Clerk of Court; SD State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1868,
+      "completeness": "Good — among the earliest in the cluster. Czech marriages were often performed by Catholic priests and also recorded at the county level. Hutterite marriages were internal colony events, sometimes also recorded at the county level.",
+      "gaps": "Some early Czech marriages may appear only in Catholic parish registers. Hutterite marriages before county recording requirements may lack county documentation.",
+      "repository": "Bon Homme County Register of Deeds; SD State Archives",
+      "online_access": "FamilySearch; Ancestry.com SD marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1866,
+      "completeness": "Good — early territorial court records survive from the 1860s",
+      "gaps": "WWI-era court records include cases related to Hutterite persecution — livestock theft complaints, property damage claims, and conscientious objector proceedings.",
+      "repository": "Bon Homme County Clerk of Court; SD State Archives",
+      "online_access": "Limited — microfilm at SD State Archives"
+    },
+    "vital_records": {
+      "birth_registration_start": 1905,
+      "death_registration_start": 1905,
+      "completeness": "Incomplete before approximately 1910. Czech and Hutterite communities maintained their own birth and death records — church registers and colony registers — that often predate and exceed county vital records in detail.",
+      "repository": "SD Department of Health, Office of Vital Records; SD State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1860–1940 (excluding 1890). The 1870 census captures the earliest Czech settlement at Tabor. The 1880 census documents the first Hutterite colonies.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1860–1940",
+      "genealogical_value": "The 1870 and 1880 censuses document the ethnic colonies at their founding — Czech families at Tabor, Hutterite colonies along the Missouri. The 1920 census captures the post-Hutterite-exodus landscape.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Bon Homme County, Dakota Territory / South Dakota."
+    },
+    {
+      "source_type": "Czech Catholic parish registers — Tabor",
+      "description": "The Catholic parish at Tabor maintained baptismal, marriage, and burial registers in Czech from the 1870s. These records document the Czech community in detail unavailable from county records.",
+      "repository": "Diocese of Sioux Falls Archives; individual parish; FamilySearch microfilm",
+      "era_coverage": "1870s–present",
+      "genealogical_value": "Czech parish records provide parents' names, sponsors (godparents who were typically relatives or close community members), and often the family's village of origin in Bohemia — essential for connecting Dakota families to European roots.",
+      "source": "Dvorak, Joseph A. 'Czech Settlements in South Dakota.' South Dakota Historical Collections 15 (1930): 131–162."
+    },
+    {
+      "source_type": "Hutterite colony records",
+      "description": "Hutterite colonies maintained meticulous internal records: birth and death registers, membership rolls, property inventories, and genealogical records tracking descent within the colony. After the 1918 exodus, these records moved to Canadian colonies.",
+      "repository": "Hutterite colonies in Alberta and Manitoba; Mennonite Heritage Centre, Winnipeg; Hutterite Genealogy website",
+      "era_coverage": "1874–1918 (American period); 1918–present (Canadian period)",
+      "genealogical_value": "Colony records are comprehensive but access requires approaching the individual colony. Hutterite genealogy is unusually well-documented because the communal structure required precise record-keeping for property and lineage purposes.",
+      "source": "Hostetler, John A. Hutterite Society. Baltimore: Johns Hopkins University Press, 1974."
+    },
+    {
+      "source_type": "Naturalization records — Czech immigrants",
+      "description": "Czech immigrants at Tabor naturalized through the Bon Homme County courts. Declarations of intent and final papers provide birthplace, birth date, and arrival information.",
+      "repository": "Bon Homme County Clerk of Court; National Archives — Kansas City; FamilySearch",
+      "era_coverage": "1870s–1930s",
+      "genealogical_value": "Czech naturalization papers often specify the exact village or district in Bohemia — critical for tracing families to their European origin, especially when combined with Tabor parish records.",
+      "source": "Szucs, Loretto Dennis, and Sandra Hargreaves Luebking. The Source: A Guidebook to American Genealogy. 3rd ed. Provo, UT: Ancestry, 2006."
+    }
+  ],
+  "narrative_hooks": [
+    "Bon Homme County's records reach back to the 1860s — the oldest in the cluster — because {ancestor_name}'s county was settled before most of South Dakota had been surveyed.",
+    "If {ancestor_name} was Czech, the Tabor parish register may contain more family detail than any government document — baptisms with godparents who were relatives, marriages with witnesses from the same Bohemian village, and burial records that note the family's origin.",
+    "If {ancestor_name} was Hutterite, the family's records after 1918 are in Canada — the colonies took their registers when they fled persecution, and the Bon Homme County courthouse holds only the land transaction side of the story.",
+    "The court records at Tyndall document the WWI persecution of the Hutterite colonies — livestock theft complaints, property damage claims, and the legal proceedings around conscientious objectors who were sent to military prisons.",
+    "Bon Homme County's marriage records begin in 1868 — a generation before most counties in the cluster existed — and if {ancestor_name} married in Tabor, the Catholic register and the county record together tell a story that neither tells alone."
+  ],
+  "source_references": [
+    "Schell, Herbert S. History of South Dakota. 4th ed. Pierre: South Dakota State Historical Society Press, 2004.",
+    "Hostetler, John A. Hutterite Society. Baltimore: Johns Hopkins University Press, 1974.",
+    "Dvorak, Joseph A. 'Czech Settlements in South Dakota.' South Dakota Historical Collections 15 (1930): 131–162.",
+    "Blake, Kellee. 'First in the Path of the Firemen: The Fate of the 1890 Population Census.' Prologue Magazine 28, no. 1 (Spring 1996).",
+    "Szucs, Loretto Dennis, and Sandra Hargreaves Luebking. The Source: A Guidebook to American Genealogy. 3rd ed. Provo, UT: Ancestry, 2006."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "sd_bon_homme",
+    "research_guidance_refs": ["immigrant_records_research"],
+    "template_refs": ["record_silences"]
+  }
+}

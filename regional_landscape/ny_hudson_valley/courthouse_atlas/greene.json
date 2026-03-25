@@ -1,0 +1,49 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Greene County, NY. Formed 1800 from Albany and Ulster counties. No major fire. Mountain isolation limited early record creation — many families in the Catskill interior left sparse records.",
+  "courthouse_atlas_id": "ny_greene_courthouse",
+  "display_name": "Greene County, New York — Courthouse Atlas",
+  "county": "Greene",
+  "state": "NY",
+  "fips_code": "36039",
+  "cluster_ref": "ny_hudson_valley",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1908, "location": "Catskill, NY — Main Street", "records_housed": ["deeds", "mortgages", "wills", "court minutes"] },
+    "previous_courthouses": [
+      { "era": "1800-1813", "location": "Catskill, early courthouse", "fate": "Frame building. No significant damage." },
+      { "era": "1813-1908", "location": "Catskill, stone courthouse", "fate": "Served through the Civil War. Replaced by the current building." }
+    ]
+  },
+  "record_losses": [
+    { "loss_id": "greene_no_major_loss", "date": null, "cause": "No major fire or war damage", "records_destroyed": [], "records_survived": ["deed books", "will books", "court minutes"], "scope": "none", "description": "Greene County has not experienced a major courthouse fire. Records begin at the county's 1800 formation; pre-1800 records are under Albany County (for the western portion) and Ulster County (for the eastern river corridor). The thin record base for many mountain families reflects isolation and poverty, not courthouse destruction.", "narrative_impact": "If {ancestor_name} lived in the Catskill mountain interior, the courthouse records may be sparse not because of fire but because mountain families — tanbark workers, charcoal burners, subsistence farmers — rarely appeared in civil records. They owned no property, filed no wills, and appeared only in the federal census.", "source": "Greene County Clerk's Office. New York State Archives." }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1800, "completeness": "Good from formation. Pre-1800 under Albany and Ulster counties.", "gaps": "Mountain interior families who owned no land do not appear in deed books.", "repository": "Greene County Clerk's Office, Catskill; NY State Archives", "online_access": "FamilySearch; Ancestry.com" },
+    "wills_estates": { "earliest_surviving": 1800, "completeness": "Good from formation.", "gaps": "Mountain families who died with no property to probate left no estate records.", "repository": "Greene County Surrogate's Court; NY State Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1847, "completeness": "Standard NY pattern.", "gaps": "Pre-1880 civil registration sparse. Mountain families may have married informally.", "repository": "Town clerks; NY State Department of Health", "online_access": "FamilySearch; Ancestry.com" },
+    "court_minutes": { "earliest_surviving": 1800, "completeness": "Good.", "gaps": "None significant.", "repository": "Greene County Clerk's Office; NY State Archives", "online_access": "Limited" },
+    "vital_records": { "birth_registration_start": 1880, "death_registration_start": 1880, "completeness": "Standard NY pattern. Mountain townships had lower compliance rates.", "repository": "Town clerks; NY State Department of Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "Tannery company records", "description": "The major tanneries — Zadock Pratt's Prattsville tannery and others — maintained some employment and production records. Pratt's own papers survive.", "repository": "Greene County Historical Society; Zadock Pratt Museum, Prattsville; NY State Library", "era_coverage": "1817-1870s", "genealogical_value": "Valuable for identifying tanbark workers and tannery employees. Pratt kept detailed records of his operations.", "source": "Evers, Alf. The Catskills: From Wilderness to Woodstock. Doubleday, 1972." },
+    { "source_type": "Catskill Mountain House guest registers", "description": "The Mountain House and other Catskill hotels maintained guest registers that document visitors. Some mountain families who worked as guides, drivers, or hotel staff appear in hotel records.", "repository": "New York State Library; Greene County Historical Society; Vedder Research Library, Catskill", "era_coverage": "1823-1942", "genealogical_value": "Limited for local families but useful for establishing that a family member worked in the resort economy.", "source": "Van Zandt, Roland. The Catskill Mountain House. Rutgers University Press, 1966." },
+    { "source_type": "Federal census schedules", "description": "Population, agricultural, and manufacturing schedules from 1810 (first census after county formation) through 1940.", "repository": "National Archives; FamilySearch; Ancestry.com", "era_coverage": "1810-1940", "genealogical_value": "Often the only record for mountain interior families. The census enumerator was sometimes the only government official who visited remote mountain farms.", "source": "National Archives and Records Administration." }
+  ],
+  "narrative_hooks": [
+    "Greene County's courthouse has never burned, but the mountain interior families left few records to burn — {ancestor_name}'s ancestors in the Catskill interior may appear only in the census because they owned no land, filed no will, and married without a license.",
+    "If {ancestor_name} worked in Zadock Pratt's tannery at Prattsville, the tannery records may document {pronoun_object} — Pratt was unusual in keeping detailed records of his operations.",
+    "Greene County was formed from Albany and Ulster counties in 1800 — {ancestor_name}'s pre-1800 records are filed under whichever parent county covered {pronoun_possessive} location.",
+    "The Catskill mountain farms left traces in the census that the deed books missed — families who cleared land they did not own and farmed soil too thin to sustain them."
+  ],
+  "source_references": [
+    "Evers, Alf. The Catskills: From Wilderness to Woodstock. Garden City: Doubleday, 1972.",
+    "Van Zandt, Roland. The Catskill Mountain House. New Brunswick: Rutgers University Press, 1966.",
+    "New York State Archives. Guide to Records in the New York State Archives. Albany, 1993."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ny_greene",
+    "research_guidance_refs": ["property_records", "census_gaps"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for DeKalb County, GA. Record survival, courthouse history, and known losses. DeKalb's courthouse in Decatur survived the Civil War, and records are generally complete from the county's 1822 formation.",
+  "courthouse_atlas_id": "ga_dekalb_courthouse",
+  "display_name": "DeKalb County, Georgia — Courthouse Atlas",
+  "county": "DeKalb",
+  "state": "GA",
+  "fips_code": "13089",
+  "cluster_ref": "ga_piedmont_cotton_belt",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1916,
+      "location": "Decatur, GA — courthouse square",
+      "records_housed": ["deeds", "plats", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1822-1847",
+        "location": "Decatur, GA",
+        "fate": "Early frame courthouse replaced by a larger building."
+      },
+      {
+        "era": "1847-1898",
+        "location": "Decatur, GA — same square",
+        "fate": "Brick courthouse. Survived the Civil War and Battle of Decatur (1864). Replaced 1898."
+      },
+      {
+        "era": "1898-1916",
+        "location": "Decatur, GA",
+        "fate": "Replaced by the 1916 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "dekalb_no_major_loss",
+      "date": null,
+      "cause": "No major fire or war damage to records",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage records", "probate files"],
+      "scope": "none",
+      "description": "DeKalb County's courthouse survived the Civil War without significant damage to records, despite the Battle of Decatur (1864) being fought nearby. Records run from the county's 1822 formation with good continuity. Minor wear on early volumes but no catastrophic losses.",
+      "narrative_impact": "If {ancestor_name} lived in DeKalb County after 1822, the records almost certainly survive. Gaps in the paper trail reflect the ancestor's circumstances rather than courthouse losses.",
+      "source": "GA Department of Archives and History. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1822,
+      "completeness": "Good — continuous from county formation.",
+      "gaps": "No major gaps. Early volumes show wear but are legible.",
+      "repository": "DeKalb County Clerk of Superior Court; GA Department of Archives and History microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com GA land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1823,
+      "completeness": "Good from early period.",
+      "gaps": "No major gaps.",
+      "repository": "DeKalb County Probate Court; GA Department of Archives and History",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1842,
+      "completeness": "Good from the 1840s forward.",
+      "gaps": "Earlier marriages may not have been consistently recorded at the county level.",
+      "repository": "DeKalb County Probate Court",
+      "online_access": "FamilySearch; Ancestry.com GA marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1822,
+      "completeness": "Good from county formation.",
+      "gaps": "No major gaps.",
+      "repository": "DeKalb County Clerk of Superior Court; GA Department of Archives and History",
+      "online_access": "Limited digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1919,
+      "death_registration_start": 1919,
+      "completeness": "Spotty until mid-1920s.",
+      "repository": "GA Department of Public Health"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Georgia Land Lottery records",
+      "description": "DeKalb County was settled under the Georgia Land Lottery system. The 1821 lottery records list drawers and their assigned lots.",
+      "repository": "GA Department of Archives and History",
+      "era_coverage": "1821",
+      "genealogical_value": "Essential for establishing initial landowners. Even though the courthouse records survive, the lottery records provide the initial land distribution that precedes the deed chain.",
+      "source": "Cadle, Farris W. Georgia Land Surveying History and Law. University of Georgia Press, 1991."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1830-1940 (DeKalb first enumerated 1830). Slave schedules 1850-1860. Agricultural schedules 1850-1880.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1830-1940",
+      "genealogical_value": "Essential for tracking families between deed records.",
+      "source": "National Archives and Records Administration."
+    },
+    {
+      "source_type": "Stone Mountain Granite Company records",
+      "description": "The granite quarrying operation at Stone Mountain employed hundreds of workers. Company records — where they survive — document workers' names and employment dates.",
+      "repository": "DeKalb History Center; GA Department of Archives and History (fragmentary)",
+      "era_coverage": "1830s-1960s",
+      "genealogical_value": "Valuable for identifying quarry workers. Quarry employment records can establish residence dates when other records are silent.",
+      "source": "Freeman, David B. Carved in Stone: The History of Stone Mountain. Mercer University Press, 1997."
+    }
+  ],
+  "narrative_hooks": [
+    "DeKalb County's courthouse survived the Battle of Decatur in 1864 and every decade since — {ancestor_name}'s records almost certainly exist if {pronoun_subject} owned property or appeared in court.",
+    "Georgia did not require marriage licenses statewide until 1805 (through the county ordinary), so early DeKalb marriages may be recorded as bonds or in church records rather than civil licenses.",
+    "The Georgia Land Lottery records show who drew DeKalb County lots in 1821 — the starting point for {ancestor_name}'s land ownership chain.",
+    "Georgia birth and death registration began in 1919, so the absence of a vital record for {ancestor_name} before that date is standard — not a mystery."
+  ],
+  "source_references": [
+    "GA Department of Archives and History. Guide to County Records in the Georgia State Archives.",
+    "Cadle, Farris W. Georgia Land Surveying History and Law. Athens: University of Georgia Press, 1991.",
+    "Freeman, David B. Carved in Stone: The History of Stone Mountain. Macon, GA: Mercer University Press, 1997."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ga_dekalb",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

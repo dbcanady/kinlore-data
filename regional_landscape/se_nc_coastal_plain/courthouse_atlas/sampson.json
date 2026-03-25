@@ -1,0 +1,159 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Sampson County, NC. Record survival, courthouse history, and known losses — including significant early record gaps — that shape what genealogists can and cannot find.",
+  "courthouse_atlas_id": "nc_sampson_courthouse",
+  "display_name": "Sampson County, North Carolina — Courthouse Atlas",
+  "county": "Sampson",
+  "state": "NC",
+  "fips_code": "37163",
+  "cluster_ref": "se_nc_coastal_plain",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1935,
+      "location": "Clinton, NC — Main Street",
+      "records_housed": ["deeds post-reconstruction", "court minutes post-1870s", "estate files post-1870s", "vital records indexes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1784–1822",
+        "location": "Clinton (original log courthouse near present site)",
+        "fate": "Replaced by a frame structure. The log building deteriorated; no records of specific losses tied to this transition, but early document handling was informal."
+      },
+      {
+        "era": "1822–1885",
+        "location": "Clinton, Main Street",
+        "fate": "This building suffered during the Civil War era and a fire in 1885 destroyed portions of the structure. Significant records were lost in the 1885 fire."
+      },
+      {
+        "era": "1885–1935",
+        "location": "Clinton, rebuilt on same site",
+        "fate": "Replaced by the current 1935 WPA-era courthouse."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "sampson_1885_fire",
+      "date": "1885",
+      "cause": "fire",
+      "records_destroyed": ["some early deed books", "loose estate papers pre-1860", "some court minute volumes", "scattered marriage records"],
+      "records_survived": ["deed books from approximately 1800s onward (partially)", "will books (some volumes)", "marriage bonds (partial series)"],
+      "scope": "partial",
+      "description": "An 1885 fire damaged the Sampson County courthouse and destroyed an uncertain number of early records. The exact scope of loss has been debated by genealogists for over a century. Some bound volumes survived because they were in a vault or had been removed; loose papers — estate inventories, apprenticeship bonds, guardian accounts — fared worst. The fire did not destroy everything, but it created a patchwork of survival that makes early Sampson County research frustrating and unpredictable.",
+      "narrative_impact": "Researchers tracing {ancestor_name} in Sampson County before the Civil War may encounter sudden silences where records simply stop — not because the family left, but because the 1885 fire consumed the paper trail. Substitute sources become essential.",
+      "source": "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001."
+    },
+    {
+      "loss_id": "sampson_civil_war_disruption",
+      "date": "1862–1865",
+      "cause": "Civil War",
+      "records_destroyed": ["court minutes for portions of 1862–1865", "militia and tax records"],
+      "records_survived": ["deed books", "most will books"],
+      "scope": "partial",
+      "description": "Civil War disruption interrupted record keeping in Sampson County. The county was not a major battlefield, but Confederate and later Union activity disrupted civil government. Some tax and militia records from this period were never properly maintained or were lost during the chaos of war's end. Court business slowed dramatically between 1862 and 1865.",
+      "narrative_impact": "A gap in court minutes during the war years means that {ancestor_name}'s legal transactions — land disputes, estate settlements, apprenticeships of formerly enslaved children — may have gone unrecorded or been recorded informally and later lost.",
+      "source": "Barrett, John G. The Civil War in North Carolina. Chapel Hill: UNC Press, 1963."
+    },
+    {
+      "loss_id": "sampson_early_record_gaps",
+      "date": "1784–1810",
+      "cause": "deterioration",
+      "records_destroyed": ["earliest court minutes", "some early deed entries"],
+      "records_survived": ["marriage bonds from approximately 1784", "some deed books from 1784"],
+      "scope": "partial",
+      "description": "Sampson County's earliest records from the 1780s and 1790s show gaps attributable to poor storage conditions in the original log courthouse. Early clerks operated with minimal resources, and documents stored in damp conditions deteriorated before anyone thought to preserve them. What survives from the founding decades is incomplete and sometimes illegible.",
+      "narrative_impact": "For families present at Sampson County's founding, the earliest generation may be genealogically invisible — not because they were unimportant, but because an unheated log courthouse and forty years of humidity did what no fire could.",
+      "source": "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1784,
+      "completeness": "Partial — early volumes damaged or incomplete. Post-1830 generally continuous.",
+      "gaps": "Some early deed books are damaged or have missing pages. The 1885 fire destroyed portions. Post-Reconstruction records are more reliable.",
+      "repository": "Sampson County Register of Deeds, Clinton; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm (partial); Ancestry.com NC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1784,
+      "completeness": "Partial — bound will books survive in better condition than loose estate papers",
+      "gaps": "Loose estate inventories, sale bills, and guardian accounts before 1860 have significant losses. Bound will books have better survival but still show gaps in the 1780s–1810s.",
+      "repository": "Sampson County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm; NC State Archives digital collections (limited)"
+    },
+    "marriages": {
+      "earliest_surviving": 1784,
+      "completeness": "Marriage bonds survive in partial series from county formation. Register volumes begin later.",
+      "gaps": "Some bonds from the 1780s–1800s are missing or illegible. The series becomes more reliable after approximately 1820.",
+      "repository": "Sampson County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com NC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1790,
+      "completeness": "Poor for earliest decades, improving after 1820. Gaps during Civil War.",
+      "gaps": "Court minutes from the 1780s are missing entirely. Civil War disruption creates a second gap 1862–1865. Post-1870 generally continuous.",
+      "repository": "NC State Archives; Sampson County Clerk of Court",
+      "online_access": "NC State Archives microfilm (limited digitization)"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Spotty until approximately 1920, particularly in rural areas of the county.",
+      "repository": "NC Office of Vital Records; NC State Archives for delayed birth certificates"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790–1940. Sampson County is enumerated from the first federal census. Slave schedules (1850, 1860) are especially important given record losses.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790–1940",
+      "genealogical_value": "Often the only evidence placing a family in Sampson County during the early decades when courthouse records are incomplete. Agricultural schedules document farm size and production.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Sampson County, NC."
+    },
+    {
+      "source_type": "NC State Archives microfilm",
+      "description": "The NC State Archives microfilmed surviving Sampson County records before further deterioration. These microfilm copies may preserve readings now lost from the originals.",
+      "repository": "NC State Archives, Raleigh; FamilySearch film lending",
+      "era_coverage": "1784–early 1900s",
+      "genealogical_value": "Critical — the microfilm may be the best surviving copy of some early records. Check film before assuming a record is lost.",
+      "source": "NC State Archives. Guide to Research Materials in the North Carolina State Archives: County Records. Raleigh, 2001."
+    },
+    {
+      "source_type": "Tax lists",
+      "description": "Colonial and early state tax lists sometimes survive when courthouse records do not, because copies were sent to Raleigh.",
+      "repository": "NC State Archives — Secretary of State tax records",
+      "era_coverage": "1780s–1860s",
+      "genealogical_value": "Tax lists prove residence and property ownership when deeds are missing. Sampson County lists place families in specific locations and quantify their wealth.",
+      "source": "NC State Archives. Colonial and State Records of North Carolina: Tax Lists."
+    },
+    {
+      "source_type": "Church records — Primitive Baptist and Missionary Baptist",
+      "description": "Sampson County had numerous Baptist congregations from the late 1700s. Church minutes record admissions, dismissals, disciplinary actions, and sometimes deaths.",
+      "repository": "Individual churches; NC Baptist Historical Collection; NC State Archives",
+      "era_coverage": "1790s–present",
+      "genealogical_value": "Church records partially compensate for courthouse losses. Disciplinary minutes name family relationships and community standing not found elsewhere.",
+      "source": "Paschal, George W. History of North Carolina Baptists. Raleigh: General Board of NC Baptist State Convention, 1930."
+    }
+  ],
+  "narrative_hooks": [
+    "The 1885 fire at the Sampson County courthouse did not destroy everything, but it destroyed enough — if {ancestor_name}'s early land records or estate papers are missing, the fire is the likeliest explanation, and the silence in the record is not a reflection of the family's insignificance but of a single bad night in Clinton.",
+    "Tracing {ancestor_name} in Sampson County before 1830 requires patience and creativity — early records survived in patches, not series, and a researcher must piece together census entries, tax lists, and church minutes to reconstruct what the courthouse can no longer tell us.",
+    "Before 1913, no North Carolina county required birth or death registration, so the absence of a birth record for {ancestor_name} reflects the era, not the family — in Sampson County, where courthouse losses compound the gap, church rolls and family Bibles may be the only surviving evidence.",
+    "The NC State Archives microfilmed Sampson County's surviving records, and those films may preserve readings that have since faded from the originals — for {ancestor_name}, the microfilm reel in Raleigh may be the last link to a transaction recorded two centuries ago.",
+    "If {ancestor_name} was enslaved in Sampson County, the 1850 and 1860 slave schedules — which list enslaved people by age, sex, and color under the slaveholder's name — may be the closest thing to a record that survives, given the courthouse losses that make probate and estate research so difficult here."
+  ],
+  "source_references": [
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Barrett, John G. The Civil War in North Carolina. Chapel Hill: University of North Carolina Press, 1963.",
+    "Paschal, George W. History of North Carolina Baptists. Raleigh: General Board of NC Baptist State Convention, 1930.",
+    "Works Progress Administration. Historical Records Survey: North Carolina County Records. Raleigh, 1937–1942.",
+    "National Archives and Records Administration. Federal Census Schedules, Sampson County, NC, 1790–1940."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_sampson",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records", "burned_county_workarounds"],
+    "template_refs": ["record_silences"]
+  }
+}

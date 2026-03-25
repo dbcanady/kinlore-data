@@ -1,0 +1,123 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Beaufort County, SC. Records complicated by the Civil War — Union occupation from November 1861 altered the normal record-keeping chain. Confederate-era records are fragmentary because the county was under Union control for most of the war. Tax sale records from the Union occupation are critical for understanding Black landownership in Reconstruction.",
+  "courthouse_atlas_id": "sc_beaufort_courthouse",
+  "display_name": "Beaufort County, South Carolina — Courthouse Atlas",
+  "county": "Beaufort",
+  "state": "SC",
+  "fips_code": "45013",
+  "cluster_ref": "sc_lowcountry",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1884,
+      "location": "Beaufort, SC — 100 Ribaut Road (multiple renovations)",
+      "records_housed": ["deeds", "plats", "marriage licenses (1911-present)", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1769–1861",
+        "location": "Beaufort, SC — the Beaufort Arsenal/courthouse complex",
+        "fate": "When Union forces occupied Beaufort in November 1861, the courthouse was seized. Records from this period were disrupted by the occupation. Some records were removed by Confederate authorities before the occupation; others were seized by Union forces."
+      },
+      {
+        "era": "1861–1865",
+        "location": "Beaufort — under Union military authority. Normal civil record-keeping was suspended during the occupation.",
+        "fate": "Union authorities maintained their own records — military, Freedmen's Bureau, tax commission — but did not continue the county's civil record series."
+      }
+    ],
+    "notes": "Beaufort County's records have a unique gap created by the Union occupation. When Union forces arrived in November 1861, white planters fled and took some records with them. Union authorities used the courthouse for military purposes. The Direct Tax Commission conducted tax sales of abandoned plantations — these tax sale records are among the most important documents for understanding Black landownership in Reconstruction. The Port Royal Experiment created its own record trail, separate from the county's civil records."
+  },
+  "record_losses": [
+    {
+      "loss_id": "beaufort_union_occupation_disruption",
+      "date": "1861–1865",
+      "cause": "Union occupation — record-keeping chain disrupted, some records removed by fleeing Confederate authorities",
+      "records_destroyed": ["Some court records from the Confederate period may have been removed or lost during the evacuation"],
+      "records_survived": ["Pre-war deed books largely survived", "colonial-era records at SCDAH", "probate records partially survived"],
+      "scope": "moderate",
+      "description": "The Union occupation of Beaufort from November 1861 disrupted the county's civil record-keeping. Some records were taken by retreating Confederate authorities. Union forces used the courthouse for military purposes. The record chain picks up again in the Reconstruction period, but the war years are a gap filled only by federal records (military, Freedmen's Bureau, Direct Tax Commission). The tax sale records from the Direct Tax Commission are preserved at the National Archives.",
+      "narrative_impact": "If {ancestor_name} was in Beaufort County during the Civil War, the normal county records may not cover that period. Federal records — military service, Freedmen's Bureau, Direct Tax Commission sales — fill the gap for both Union soldiers and the freedpeople who gained land through tax sales.",
+      "source": "Rose, Willie Lee. Rehearsal for Reconstruction (1964). National Archives, Records of the Direct Tax Commission for South Carolina."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1785,
+      "completeness": "Good pre-war and post-Reconstruction. The Civil War years are a gap in normal deed recording. Tax sale deeds from the Direct Tax Commission (1863-1865) are at the National Archives.",
+      "gaps": "1861–1868 — the occupation disrupted deed recording. Tax sales during this period are federal records, not county records.",
+      "repository": "Beaufort County Register of Deeds; National Archives (Direct Tax Commission records); SCDAH",
+      "online_access": "FamilySearch microfilm; Ancestry.com SC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1787,
+      "completeness": "Fair — pre-war probate records survive in part. Post-Reconstruction records are good.",
+      "gaps": "Civil War period. Some antebellum probate records may have been taken by fleeing planters.",
+      "repository": "Beaufort County Probate Court; SCDAH",
+      "online_access": "FamilySearch microfilm; limited SCDAH digital"
+    },
+    "marriages": {
+      "earliest_surviving": 1911,
+      "completeness": "Statewide marriage licenses from 1911. Before that, Freedmen's Bureau marriage registers (1865-1868) are critical — they documented marriages of freedpeople formalizing relationships from slavery.",
+      "gaps": "Before 1911, church records and Freedmen's Bureau are the sources.",
+      "repository": "Beaufort County Probate Court; National Archives (Freedmen's Bureau)",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1785,
+      "completeness": "Gaps during Civil War occupation. Resumed during Reconstruction.",
+      "gaps": "1861–1868 under military authority.",
+      "repository": "Beaufort County Clerk of Court; SCDAH",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1915,
+      "death_registration_start": 1915,
+      "completeness": "Spotty until 1920s. The sea islands' isolation made compliance particularly slow.",
+      "repository": "SC DHEC"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Direct Tax Commission records (tax sale deeds)",
+      "description": "The Union government's Direct Tax Commission seized and sold abandoned plantations in Beaufort County during the war. These tax sales — the mechanism by which freedpeople purchased land — are documented in federal records at the National Archives.",
+      "repository": "National Archives (RG 58 — Records of the Internal Revenue Service, Direct Tax Commission); USC South Caroliniana Library",
+      "era_coverage": "1863–1867",
+      "genealogical_value": "Critical for documenting Black landownership in Beaufort County. The tax sale records identify buyers by name and describe the properties purchased. Many freedpeople who purchased land at these sales retained it for generations.",
+      "source": "Rose, Rehearsal for Reconstruction (1964)."
+    },
+    {
+      "source_type": "Penn School records",
+      "description": "Penn School (est. 1862) on St. Helena Island maintained enrollment records, correspondence, and community records that document Gullah/Geechee families on the sea islands.",
+      "repository": "Penn Center Archives, St. Helena Island; USC South Caroliniana Library; UNC Southern Historical Collection",
+      "era_coverage": "1862–1948",
+      "genealogical_value": "Enrollment records name students and their families. Community records document the broader Gullah community on St. Helena Island across multiple generations.",
+      "source": "Jacobs, Claude F. 'Benevolent Societies of New Orleans Blacks during the Late Nineteenth and Early Twentieth Centuries.' Louisiana History 29, no. 1 (1988). Penn Center Archives finding aid."
+    },
+    {
+      "source_type": "Freedmen's Bureau records — Beaufort District",
+      "description": "Beaufort was one of the most important Freedmen's Bureau districts in South Carolina. Records include labor contracts, school reports, marriage registers, ration records, and complaint files.",
+      "repository": "National Archives (RG 105); FamilySearch digitization",
+      "era_coverage": "1865–1872",
+      "genealogical_value": "Essential for African American genealogy. Marriage registers document couples who formalized relationships from slavery. Labor contracts name individuals, list family members, and record former enslavers.",
+      "source": "National Archives. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands, RG 105."
+    }
+  ],
+  "narrative_hooks": [
+    "Beaufort County's Civil War records have a gap because the county was under Union occupation from November 1861 — if {ancestor_name} was in Beaufort during the war, the records are federal, not county.",
+    "The Direct Tax Commission sales are where {ancestor_name} may have purchased land — abandoned plantation acreage sold by the Union government to the freedpeople who had worked it, documented in federal records at the National Archives.",
+    "Penn School on St. Helena Island kept enrollment records from 1862 — {ancestor_name}'s child may appear in the records of the first school for freedpeople in the South.",
+    "The Freedmen's Bureau marriage register for Beaufort District may record the moment {ancestor_name} formalized a relationship that had existed under slavery — the first time a government recognized the marriage."
+  ],
+  "source_references": [
+    "Rose, Willie Lee. Rehearsal for Reconstruction: The Port Royal Experiment. Bobbs-Merrill, 1964.",
+    "SC Department of Archives and History. Guide to County Records.",
+    "National Archives. Records of the Direct Tax Commission for South Carolina (RG 58).",
+    "National Archives. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands (RG 105)."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "sc_beaufort",
+    "research_guidance_refs": ["southern_courthouse_research", "vital_records", "church_transfers"],
+    "template_refs": ["record_silences"]
+  }
+}

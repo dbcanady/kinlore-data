@@ -1,0 +1,148 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Pitt County, NC. Record survival, courthouse history, and colonial-era record condition for a county formed in 1760.",
+  "courthouse_atlas_id": "nc_pitt_courthouse",
+  "display_name": "Pitt County, North Carolina — Courthouse Atlas",
+  "county": "Pitt",
+  "state": "NC",
+  "fips_code": "37147",
+  "cluster_ref": "se_nc_coastal_plain",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1910,
+      "location": "Greenville, NC — Third Street",
+      "records_housed": ["deeds", "plats", "vital records indexes", "court minutes", "estate files"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1760–1786",
+        "location": "Martinborough (original county seat, now extinct)",
+        "fate": "The county seat was at Martinborough on the Tar River before moving to Greenville. Early court sessions may have been held in taverns or private homes. Records accompanied the county seat to Greenville."
+      },
+      {
+        "era": "1786–1858",
+        "location": "Greenville, along the Tar River",
+        "fate": "First courthouse in Greenville. A fire in 1857 destroyed the courthouse and an uncertain number of records."
+      },
+      {
+        "era": "1858–1910",
+        "location": "Greenville, rebuilt near original site",
+        "fate": "Replaced the burned structure. This building served through the Civil War and Reconstruction without further incident. Replaced by the current 1910 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "pitt_1857_fire",
+      "date": "1857",
+      "cause": "fire",
+      "records_destroyed": ["some early deed books (uncertain extent)", "loose estate papers", "some court minute volumes"],
+      "records_survived": ["deed books from approximately 1762 (partial)", "will books from approximately 1770s", "marriage bonds from approximately 1826"],
+      "scope": "partial",
+      "description": "A fire in 1857 destroyed the Pitt County courthouse in Greenville. The extent of record loss has been debated, and the situation is complicated by the fact that some records may have been rescued, some were already in poor condition, and the NC State Archives' inventory suggests partial survival of early deed and will books. What is clear is that the fire created a patchwork: some early records survive, some do not, and the boundaries of survival are not always predictable. Researchers should check the NC State Archives microfilm holdings to determine what survives for specific record types and time periods.",
+      "narrative_impact": "The 1857 fire creates a genuine research obstacle for early Pitt County families. If {ancestor_name}'s pre-1857 records cannot be found, the fire is a likely explanation — but check the NC State Archives microfilm first, because not everything was lost.",
+      "source": "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001."
+    },
+    {
+      "loss_id": "pitt_early_county_seat_transition",
+      "date": "1760–1786",
+      "cause": "deterioration",
+      "records_destroyed": ["earliest court minutes (fragmentary)", "some loose papers from the Martinborough period"],
+      "records_survived": ["deed books from the 1760s (partial)", "some early court references in colonial records"],
+      "scope": "partial",
+      "description": "Pitt County's first twenty-six years were spent at Martinborough, a settlement that no longer exists. The move to Greenville in 1786 likely involved transporting records, and some deterioration or loss occurred during this period. The earliest surviving records are incomplete, reflecting both frontier conditions and the county seat relocation.",
+      "narrative_impact": "For {ancestor_name}'s family in Pitt County before 1786, records are sparse and fragmentary. The Colonial Records of North Carolina may supplement what the courthouse cannot provide.",
+      "source": "King, Henry T. Sketches of Pitt County, 1704–1910. Raleigh: Edwards & Broughton, 1911."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1762,
+      "completeness": "Partial — some early deed books survived the 1857 fire, but the series has gaps",
+      "gaps": "The 1857 fire created uncertain gaps in the earliest deed books. Post-1857 records are complete. Check NC State Archives microfilm for specific volume survival.",
+      "repository": "Pitt County Register of Deeds, Greenville; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com NC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1775,
+      "completeness": "Partial — will books survive from the 1770s but with gaps. Loose estate papers before 1857 are incomplete.",
+      "gaps": "The 1857 fire destroyed some volumes. Survival is unpredictable — some wills from the 1780s exist while nearby years are missing.",
+      "repository": "Pitt County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm; NC State Archives digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1826,
+      "completeness": "Good from 1826. Pre-1826 marriage records are largely lost, probably destroyed in the 1857 fire.",
+      "gaps": "No surviving marriage bonds before approximately 1826. Colonial and early national period marriages must be traced through court minutes or church records.",
+      "repository": "Pitt County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com NC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1786,
+      "completeness": "Partial — some early volumes lost in the 1857 fire. Post-1857 continuous.",
+      "gaps": "Martinborough-era minutes (1760–1786) are largely lost. Post-1786 minutes survive in partial series, with gaps due to the fire.",
+      "repository": "NC State Archives; Pitt County Clerk of Court",
+      "online_access": "NC State Archives microfilm; limited FamilySearch digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Spotty until approximately 1920. Greenville, as a town of some size, may have slightly better early compliance.",
+      "repository": "NC Office of Vital Records; NC State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Colonial Records of North Carolina",
+      "description": "Published colonial records include Pitt County court references, land grants, and militia musters from the 1760s–1770s. These are especially valuable given the 1857 courthouse fire.",
+      "repository": "NC State Archives; major research libraries; digitized at docsouth.unc.edu",
+      "era_coverage": "1760–1776",
+      "genealogical_value": "Critical for early Pitt County families. Colonial land grants and militia lists name individuals whose courthouse records may have been lost in the fire.",
+      "source": "Saunders, William L., ed. Colonial Records of North Carolina. Raleigh: State of NC, 1886–1890."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790–1940. Pitt County enumerated from the first federal census. The 1790 census may be the best early enumeration of families whose courthouse records were lost.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790–1940",
+      "genealogical_value": "Census records partially compensate for the 1857 fire by proving residence and family composition during years when courthouse records are missing.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Pitt County, NC."
+    },
+    {
+      "source_type": "King's Sketches of Pitt County (1911)",
+      "description": "Henry T. King's county history, published in 1911, drew on records and oral traditions that may no longer survive. It includes family genealogies, settlement narratives, and institutional histories compiled before the passage of another century of deterioration.",
+      "repository": "East Carolina University Special Collections; NC State Library; major genealogical libraries",
+      "era_coverage": "1704–1910",
+      "genealogical_value": "King had access to sources and informants now lost. His work is a secondary source but may preserve family information from records destroyed in the 1857 fire.",
+      "source": "King, Henry T. Sketches of Pitt County, 1704–1910. Raleigh: Edwards & Broughton, 1911."
+    },
+    {
+      "source_type": "East Carolina University Manuscript Collection",
+      "description": "ECU in Greenville holds significant manuscript collections related to Pitt County and eastern NC, including family papers, plantation records, and business ledgers.",
+      "repository": "J.Y. Joyner Library, East Carolina University, Greenville, NC",
+      "era_coverage": "1750s–1950s",
+      "genealogical_value": "Family papers deposited at ECU may contain records — letters, account books, Bible entries — that survived in private hands when courthouse records did not.",
+      "source": "East Carolina University, J.Y. Joyner Library, Special Collections."
+    }
+  ],
+  "narrative_hooks": [
+    "The 1857 fire at the Pitt County courthouse in Greenville created a wall that many genealogists cannot get past — if {ancestor_name}'s early records are missing, the fire is probably why, though checking the NC State Archives microfilm is essential because not everything was lost.",
+    "Pitt County's first county seat was Martinborough, a settlement that no longer exists, and {ancestor_name}'s earliest court appearances may have been recorded in a building that has left no trace on the modern landscape.",
+    "Marriage records in Pitt County begin only around 1826, which means that if {ancestor_name} married here before that date, the bond was likely among those destroyed in the 1857 fire — church records and court minutes are the only remaining avenues.",
+    "Before 1913, no North Carolina county required birth or death registration, and in Pitt County the fire compounds the silence — church rolls, cemetery records, and family Bibles carry an even heavier burden as evidence for {ancestor_name}'s life events.",
+    "Henry T. King published his Sketches of Pitt County in 1911, drawing on records and memories now gone — if {ancestor_name}'s family appears in King's pages, that may preserve information from sources the fire consumed half a century earlier."
+  ],
+  "source_references": [
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "King, Henry T. Sketches of Pitt County, 1704–1910. Raleigh: Edwards & Broughton, 1911.",
+    "Saunders, William L., ed. Colonial Records of North Carolina. 10 vols. Raleigh: State of North Carolina, 1886–1890.",
+    "East Carolina University, J.Y. Joyner Library, Special Collections Department.",
+    "Barrett, John G. The Civil War in North Carolina. Chapel Hill: University of North Carolina Press, 1963."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_pitt",
+    "research_guidance_refs": ["southern_courthouse_research", "colonial_era_records", "burned_county_workarounds"],
+    "template_refs": ["record_silences"]
+  }
+}

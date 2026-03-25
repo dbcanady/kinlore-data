@@ -1,0 +1,109 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Berkeley County, SC. Records survival complicated by the county's dissolution and re-creation — Berkeley was originally one of the colonial counties (1682), abolished in 1769 when SC reorganized into judicial districts, and re-created in 1882. Early records are held as colonial/district records at SCDAH, not at the county courthouse.",
+  "courthouse_atlas_id": "sc_berkeley_courthouse",
+  "display_name": "Berkeley County, South Carolina — Courthouse Atlas",
+  "county": "Berkeley",
+  "state": "SC",
+  "fips_code": "45015",
+  "cluster_ref": "sc_lowcountry",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1963,
+      "location": "Moncks Corner, SC — 300 California Avenue",
+      "records_housed": ["deeds (1882-present)", "marriage licenses (1911-present)", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1882–1963",
+        "location": "Moncks Corner, SC — original Berkeley County courthouse after the county's re-creation",
+        "fate": "Replaced by the 1963 building. No significant fire or war damage."
+      }
+    ],
+    "notes": "Berkeley County has a complicated jurisdictional history. Original colonial Berkeley County (1682–1769) was one of four original SC counties. When SC reorganized into judicial districts in 1769, Berkeley became part of Charleston District. Berkeley County was re-created in 1882 from a portion of Charleston County. This means that records before 1882 are NOT at the Berkeley County courthouse — they are in Charleston District/County records or at the SC Department of Archives and History as colonial/district records. Colonial parish records (St. James Goose Creek, St. John's Berkeley, St. Stephen's) are critical for this period."
+  },
+  "record_losses": [
+    {
+      "loss_id": "berkeley_jurisdictional_complexity",
+      "date": null,
+      "cause": "Jurisdictional reorganization — not destruction but dispersal",
+      "records_destroyed": [],
+      "records_survived": ["Colonial parish records", "Charleston District records", "provincial court records"],
+      "scope": "none — records survive but in multiple repositories",
+      "description": "Berkeley County's records are not lost — they are dispersed. Records from 1682–1769 are colonial/provincial records at SCDAH. Records from 1769–1882 are Charleston District records, split between SCDAH and the Charleston County courthouse. Records from 1882–present are at the Berkeley County courthouse. The parish registers (St. James Goose Creek, St. John's Berkeley, St. Stephen's) provide continuity across all jurisdictional changes.",
+      "narrative_impact": "Searching for {ancestor_name} in Berkeley County requires understanding which jurisdiction held the records at the time — colonial, district, or county. The records likely exist, but the researcher must follow the jurisdictional trail.",
+      "source": "SC Department of Archives and History. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1882,
+      "completeness": "Good from 1882 forward (when the county was re-created). Earlier deeds are in Charleston District/County records or colonial records at SCDAH.",
+      "gaps": "The 1769–1882 period requires searching Charleston District records. Colonial-era land grants are at SCDAH.",
+      "repository": "Berkeley County Register of Deeds (1882-present); Charleston County ROD (1769-1882); SCDAH (colonial)",
+      "online_access": "FamilySearch microfilm; Ancestry.com SC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1882,
+      "completeness": "Good from 1882. Earlier probate records are in Charleston District/County probate records at SCDAH or Charleston County Probate Court.",
+      "gaps": "Same jurisdictional complexity as deeds.",
+      "repository": "Berkeley County Probate Court; Charleston County Probate Court; SCDAH",
+      "online_access": "Limited — FamilySearch microfilm for some periods"
+    },
+    "marriages": {
+      "earliest_surviving": 1911,
+      "completeness": "SC did not require marriage licenses statewide until 1911. Before that, parish registers are the primary source.",
+      "gaps": "Before 1911, check parish registers (St. James Goose Creek from 1711, St. John's Berkeley, St. Stephen's).",
+      "repository": "Berkeley County Probate Court; parish registers at SCDAH and individual churches",
+      "online_access": "FamilySearch; Ancestry.com SC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1882,
+      "completeness": "Good from 1882. Earlier court records are Charleston District records.",
+      "gaps": "Pre-1882 requires searching Charleston District court records.",
+      "repository": "Berkeley County Clerk of Court; SCDAH",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1915,
+      "death_registration_start": 1915,
+      "completeness": "Spotty until early 1920s.",
+      "repository": "SC Department of Health and Environmental Control (DHEC)"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Colonial parish registers (St. James Goose Creek, St. John's Berkeley, St. Stephen's)",
+      "description": "These three colonial parishes covered the territory of modern Berkeley County. Parish registers — baptisms, marriages, burials — are the primary source for colonial and antebellum families. St. James Goose Creek is one of the most important colonial parishes in SC.",
+      "repository": "SCDAH; SC Historical Society; published transcriptions",
+      "era_coverage": "1711–present (varies by parish)",
+      "genealogical_value": "Critical. The parish registers are the only systematic record of vital events before 1915 (or before 1882 for civil records). St. James Goose Creek's register has been published.",
+      "source": "Smith, Henry A. M. 'The Parish of St. James, Goose Creek.' South Carolina Historical Magazine 12 (1911)."
+    },
+    {
+      "source_type": "Rice plantation records",
+      "description": "Some Berkeley County rice plantation records survive — account books, slave lists, correspondence. These records are scattered across archives but provide extraordinary detail about the enslaved communities that worked the Cooper River rice fields.",
+      "repository": "SC Historical Society; Duke University Special Collections; Library of Congress; USC South Caroliniana Library",
+      "era_coverage": "1700–1865",
+      "genealogical_value": "Invaluable for African American genealogy when they survive. Plantation records may list enslaved people by name, age, family unit, task assignment, and health status.",
+      "source": "Joyner, Down by the Riverside (1984)."
+    }
+  ],
+  "narrative_hooks": [
+    "Berkeley County's records are not lost — they are dispersed across three jurisdictions. If {ancestor_name} lived here before 1882, the records exist, but they are filed under Charleston District or the colonial government, not Berkeley County.",
+    "The parish register at St. James Goose Creek may hold {ancestor_name}'s baptism, marriage, or burial — colonial Berkeley's most important genealogical source is a church book, not a county record.",
+    "South Carolina did not require marriage licenses until 1911 — a missing marriage record for {ancestor_name} in Berkeley County before that date means searching church records, not assuming no marriage occurred.",
+    "If {ancestor_name} was enslaved on a Cooper River rice plantation, the plantation's own records — account books, slave lists — may preserve details the county records never captured."
+  ],
+  "source_references": [
+    "SC Department of Archives and History. Guide to County Records in the South Carolina State Archives.",
+    "Smith, Henry A. M. 'The Parish of St. James, Goose Creek.' South Carolina Historical Magazine 12 (1911).",
+    "Joyner, Charles. Down by the Riverside. University of Illinois Press, 1984."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "sc_berkeley",
+    "research_guidance_refs": ["southern_courthouse_research", "vital_records", "church_transfers"],
+    "template_refs": ["record_silences"]
+  }
+}

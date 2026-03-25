@@ -1,0 +1,45 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Hoke County, NC. Record survival and courthouse history for NC's youngest county — formed from Robeson in 1911.",
+  "courthouse_atlas_id": "nc_hoke_courthouse",
+  "display_name": "Hoke County, North Carolina — Courthouse Atlas",
+  "county": "Hoke",
+  "state": "NC",
+  "fips_code": "37093",
+  "cluster_ref": "nc_sandhills_upper_cape_fear",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1912, "location": "Raeford, NC", "records_housed": ["deeds", "plats", "vital records indexes", "court minutes", "estate files"] },
+    "previous_courthouses": [ { "era": "Pre-1911", "location": "N/A — territory was part of Robeson County", "fate": "All records before 1911 are in Robeson County courthouse at Lumberton." } ]
+  },
+  "record_losses": [
+    { "loss_id": "hoke_no_losses", "date": "N/A", "cause": "N/A", "records_destroyed": ["No known record losses"], "records_survived": ["All records from 1911 formation onward"], "scope": "none", "description": "Hoke County was formed in 1911 and has experienced no courthouse fires, floods, or wartime destruction. The county's records are complete from formation. The critical gap is that ALL records before 1911 are in Robeson County.", "narrative_impact": "Hoke County's records begin in 1911. If {ancestor_name} lived in this territory before 1911, every deed, marriage, court record, and estate file is in Robeson County at Lumberton.", "source": "NC State Archives. Guide to County Records." }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1911, "completeness": "Complete from formation. Pre-1911 deeds in Robeson County.", "gaps": "None known.", "repository": "Hoke County Register of Deeds, Raeford; NC State Archives microfilm", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1911, "completeness": "Complete from formation.", "gaps": "Pre-1911 estates in Robeson County.", "repository": "Hoke County Clerk of Court; NC State Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1911, "completeness": "Complete from formation.", "gaps": "Pre-1911 marriages in Robeson County.", "repository": "Hoke County Register of Deeds", "online_access": "FamilySearch; Ancestry.com NC marriages" },
+    "court_minutes": { "earliest_surviving": 1911, "completeness": "Complete from formation.", "gaps": "None.", "repository": "Hoke County Clerk of Court; NC State Archives", "online_access": "NC State Archives microfilm" },
+    "vital_records": { "birth_registration_start": 1913, "death_registration_start": 1913, "completeness": "Fair — county was only two years old when vital registration began.", "repository": "NC Office of Vital Records; NC State Archives" }
+  },
+  "substitute_sources": [
+    { "source_type": "Robeson County records (pre-1911)", "description": "All records for the Hoke County territory before 1911 are in Robeson County. This includes deeds, marriages, estates, court minutes, and tax lists.", "repository": "Robeson County Register of Deeds, Lumberton; NC State Archives", "era_coverage": "Pre-1911", "genealogical_value": "Essential for any Hoke County family with pre-1911 roots. Robeson County records extend to its 1787 formation from Bladen County.", "source": "NC State Archives. Guide to County Records." },
+    { "source_type": "Fort Bragg land acquisition records", "description": "Fort Bragg's expansion into northern Hoke County generated detailed land purchase and condemnation records documenting every property owner in the military reservation footprint.", "repository": "National Archives (RG 77); NC State Archives", "era_coverage": "1918–1945", "genealogical_value": "For families displaced by Fort Bragg, these records document the last property ownership before military acquisition.", "source": "U.S. Army Corps of Engineers, Fort Bragg installation history." }
+  ],
+  "narrative_hooks": [
+    "Hoke County did not exist until 1911 — if {ancestor_name} lived here before that date, every record is in Robeson County at Lumberton, because this was Robeson's northwestern corner.",
+    "The county's records are complete from its 1911 birth — no fires, no floods, no wars have touched the Raeford courthouse. The challenge is not survival but the county's extreme youth.",
+    "Fort Bragg's expansion into northern Hoke County generated detailed property records — if {ancestor_name}'s farm was acquired by the military, the condemnation file documents the property that the family lost.",
+    "Hoke County began vital registration in 1913, just two years after the county itself was created — meaning pre-1913 births and deaths for this territory are undocumented in county records and must be found in church records or Robeson County sources."
+  ],
+  "source_references": [
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Leary, Helen F. M., ed. North Carolina Research: Genealogy and Local History. 2nd ed. Raleigh: North Carolina Genealogical Society, 1996.",
+    "Powell, William S. The North Carolina Gazetteer. 2nd ed. Chapel Hill: University of North Carolina Press, 2010."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_hoke",
+    "research_guidance_refs": ["southern_courthouse_research", "military_records"],
+    "template_refs": ["record_silences"]
+  }
+}

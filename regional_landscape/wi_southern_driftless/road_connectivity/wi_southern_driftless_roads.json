@@ -1,0 +1,113 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the WI Southern Driftless regional cluster. Documents how the Driftless terrain shaped transportation — the unglaciated hills forced roads onto ridgetops and into coulee bottoms, making travel slow and difficult compared to the flat glaciated plains to the east. The railroad came late to the interior Driftless because the terrain made construction expensive.",
+  "connectivity_id": "wi_southern_driftless_roads",
+  "display_name": "WI Southern Driftless — Road & Connectivity Network",
+  "cluster_ref": "wi_southern_driftless",
+  "era_range": "1827-1960",
+  "transportation_eras": [
+    {
+      "era_id": "frontier_trails",
+      "era_name": "Frontier Trails, River Routes, and the Military Ridge Road",
+      "date_range": "1827-1860",
+      "primary_modes": ["wagon on unimproved trace", "horseback", "river ferry", "steamboat (Mississippi and Wisconsin rivers)", "foot"],
+      "description": "The Driftless terrain made overland transportation difficult from the start. The Mississippi River was the primary highway — steamboats connected the lead district to St. Louis and the outside world. The Wisconsin River carried lumber downstream and provided passage from the east (portage from the Fox River at Portage, WI). Overland, the Military Ridge Road (1835) was the critical artery — built by the Army along the east-west ridge divide because it was the only level route through the Driftless hills. Everywhere else, roads followed coulee bottoms or climbed over ridges on grades that exhausted draft animals. The terrain imposed isolation that would persist until the automobile age.",
+      "road_conditions": "Unimproved dirt and clay. Coulee-bottom roads flooded in spring. Ridgetop roads were drier but exposed to wind and drifting snow. River crossings required fords or ferries. The contrast with the flat glaciated terrain east of the Driftless was stark — a trip that took two hours on the prairie took a full day through the coulees.",
+      "travel_times": [
+        { "from": "Mineral Point", "to": "Madison", "mode": "wagon on Military Ridge Road", "time": "1.5-2 days", "conditions_note": "Approximately 45 miles via the ridge. The Military Ridge Road was the best road in the cluster — everything else was worse." },
+        { "from": "Potosi", "to": "St. Louis", "mode": "steamboat on Mississippi", "time": "2-3 days downstream", "conditions_note": "Downstream was fast; upstream return took 5-7 days against the current." },
+        { "from": "Richland Center", "to": "Madison", "mode": "wagon", "time": "2-3 days", "conditions_note": "Approximately 60 miles through the worst Driftless terrain in the cluster. Each coulee crossing added time." },
+        { "from": "Typical ridgetop farm", "to": "Nearest county seat", "mode": "wagon or horseback", "time": "4-8 hours one way", "conditions_note": "Driftless terrain made even short distances time-consuming. The road down the coulee and back up the next ridge could turn a five-mile trip into a half-day ordeal." }
+      ],
+      "key_routes": [
+        { "route_name": "Military Ridge Road", "type": "military road (improved trace)", "year_established": 1835, "description": "Built by the Army from Fort Howard (Green Bay) to Fort Crawford (Prairie du Chien), crossing the cluster along the east-west divide. The ridge route avoided the coulee valleys and was the only reasonably level road through the interior. Dodgeville, Mineral Point, and Blue Mounds sat on it.", "counties_served": ["Dane", "Iowa", "Grant"] },
+        { "route_name": "Mississippi River steamboat route", "type": "river transportation", "year_established": "1820s", "description": "Steamboats connected Potosi, Cassville, and Prairie du Chien to Galena, Dubuque, and St. Louis. The primary commercial artery for lead export and supply import.", "counties_served": ["Grant"] },
+        { "route_name": "Wisconsin River (lumber and passenger)", "type": "river transportation", "year_established": "1830s", "description": "The Wisconsin River carried lumber downstream from the northern pineries and provided limited passenger and freight service. Sauk City and Prairie du Sac were river towns.", "counties_served": ["Sauk", "Richland", "Grant"] }
+      ],
+      "isolation_index": {
+        "description": "High in the interior Driftless; moderate along the Military Ridge Road and rivers. The flat glaciated counties (eastern Dane, eastern Rock) were well-connected to Milwaukee and Chicago. The western Driftless counties (Richland, Grant interior, Iowa interior) were among the most isolated places in settled Wisconsin.",
+        "comparative_note": "The Driftless interior was more isolated than most of settled Wisconsin, which was generally well-served by flat terrain and Great Lakes access. Only the northern cutover and the far northwestern counties were comparably remote."
+      },
+      "narrative_hook": "The Military Ridge Road was the one level road through the Driftless — {ancestor_name} traveled it because the alternative was climbing in and out of coulees that turned a ten-mile trip into a full day's work for the team.",
+      "source": "Nesbit, Wisconsin: A History (1989). Schafer, The Wisconsin Lead Region (1932)."
+    },
+    {
+      "era_id": "railroad_era",
+      "era_name": "Railroad Era — Lines Follow the Ridges and Rivers",
+      "date_range": "1854-1920",
+      "primary_modes": ["railroad", "wagon on unimproved road", "horseback"],
+      "description": "The railroad reached Madison from Milwaukee in 1854 and extended west along the Military Ridge corridor into the mining district. The Chicago & North Western, the Milwaukee Road, and smaller lines built through the cluster, but the Driftless terrain made construction expensive — grades were steep, cuts through dolomite ridges were costly, and the sinuous valleys made straight-line routes impossible. The result was that main lines followed the ridgetops and river valleys while the interior coulees remained unreached. Towns on the railroad grew; towns off it stagnated. The contrast between the well-served eastern counties (Dane, Rock) and the poorly served western counties (Richland, interior Grant) widened.",
+      "road_conditions": "County roads remained unimproved. Away from the railroad, conditions were unchanged from the frontier era. Winter snow and spring mud closed Driftless roads for weeks at a time.",
+      "travel_times": [
+        { "from": "Madison", "to": "Milwaukee", "mode": "railroad", "time": "3-4 hours", "conditions_note": "Milwaukee & Mississippi Railroad (later Milwaukee Road)" },
+        { "from": "Madison", "to": "Mineral Point", "mode": "railroad", "time": "2-3 hours", "conditions_note": "Via the Military Ridge corridor" },
+        { "from": "Janesville", "to": "Chicago", "mode": "railroad", "time": "3-4 hours", "conditions_note": "Chicago & North Western" },
+        { "from": "Richland Center", "to": "Madison", "mode": "railroad (with connections)", "time": "4-6 hours", "conditions_note": "Required connections at junction points. Interior Driftless was poorly served." }
+      ],
+      "key_routes": [
+        { "route_name": "Milwaukee & Mississippi Railroad (later Milwaukee Road)", "type": "railroad", "year_established": "1854 (to Madison)", "description": "The first railroad in the cluster. Connected Madison to Milwaukee and the eastern markets. Extended west to Prairie du Chien along the Military Ridge corridor.", "counties_served": ["Dane", "Iowa", "Grant"] },
+        { "route_name": "Chicago & North Western Railway", "type": "railroad", "year_established": "1850s-1870s", "description": "Served the southern tier of the cluster — Janesville, Monroe, Darlington. Connected to Chicago, the primary market.", "counties_served": ["Rock", "Green", "Lafayette"] },
+        { "route_name": "Chicago, Milwaukee & St. Paul (Milwaukee Road) — Wisconsin River line", "type": "railroad", "year_established": "1870s", "description": "Followed the Wisconsin River through Sauk County. Connected Sauk City, Prairie du Sac, and Baraboo to the network.", "counties_served": ["Sauk"] }
+      ],
+      "isolation_index": {
+        "description": "Sharply reduced along railroad corridors; essentially unchanged in the interior Driftless. Richland County interior, western Iowa County, and interior Grant County remained as isolated as they had been before the railroad. Eastern Dane and Rock counties were well-connected to Chicago and Milwaukee.",
+        "comparative_note": "The cluster's transportation inequality was extreme — Janesville was hours from Chicago; a Kickapoo valley farm in Richland County was a day's ride from the nearest depot."
+      },
+      "narrative_hook": "The railroad followed the Military Ridge because it was the only level route through the Driftless — {ancestor_name}'s town either got a depot and grew, or got bypassed and began the slow decline that distance always imposes.",
+      "source": "Nesbit, Wisconsin: A History (1989)."
+    },
+    {
+      "era_id": "automobile_era",
+      "era_name": "Automobile and Highway Era",
+      "date_range": "1910-1960",
+      "primary_modes": ["automobile", "truck", "bus", "railroad (declining for passengers)"],
+      "description": "The automobile transformed the Driftless more dramatically than the railroad had, because the car went where the train could not. Paved highways wound through the coulees, connecting ridgetop farms to county seats and market towns. The Wisconsin state highway system (begun 1917) gradually paved the major routes. US highways 14, 18, 151, and 12 crossed the cluster, connecting it to Madison, Milwaukee, and Chicago. But the Driftless terrain made highway construction expensive — grades, curves, and narrow coulees limited road design. Some Richland County ridgetop farms did not get a paved road until the 1950s. The automobile enabled rural families to reach town in an hour instead of a day, breaking the isolation that had defined the Driftless since settlement.",
+      "road_conditions": "State highways paved by the 1930s. County roads improved but many remained gravel or dirt into the 1950s. The most remote Driftless ridgetop roads were the last to be improved. Winter snow closure remained a serious problem — coulee roads drifted shut, and ridgetop roads were scoured by wind.",
+      "travel_times": [
+        { "from": "Madison", "to": "Mineral Point", "mode": "automobile via US 151", "time": "1-1.5 hours", "conditions_note": "Paved highway through the Driftless" },
+        { "from": "Janesville", "to": "Chicago", "mode": "automobile via US 14/51", "time": "2-3 hours", "conditions_note": "Pre-interstate; two-lane highways" },
+        { "from": "Richland Center", "to": "Madison", "mode": "automobile via US 14", "time": "1.5-2 hours", "conditions_note": "Winding Driftless road; dramatically faster than the wagon era but still slow by flat-terrain standards" },
+        { "from": "New Glarus", "to": "Monroe", "mode": "automobile", "time": "20-30 minutes", "conditions_note": "Sugar River corridor" }
+      ],
+      "key_routes": [
+        { "route_name": "US Route 151 (Madison-Mineral Point-Dubuque)", "type": "US highway", "year_established": 1926, "description": "The main highway through the Driftless interior, following the Military Ridge corridor. Connected Madison to the old mining district and the Mississippi River.", "counties_served": ["Dane", "Iowa", "Grant"] },
+        { "route_name": "US Route 14 (Madison-Richland Center-La Crosse)", "type": "US highway", "year_established": 1926, "description": "Connected Madison northwest through the most rugged Driftless terrain to La Crosse on the Mississippi. The highway wound through coulees that made the drive spectacular and slow.", "counties_served": ["Dane", "Richland", "Sauk"] },
+        { "route_name": "US Route 18 (Prairie du Chien-Madison-Milwaukee)", "type": "US highway", "year_established": 1926, "description": "East-west route connecting the Mississippi to Milwaukee via the Military Ridge corridor. Roughly paralleled the old Military Ridge Road.", "counties_served": ["Grant", "Iowa", "Dane"] },
+        { "route_name": "US Route 12 (Madison-Baraboo-Wisconsin Dells)", "type": "US highway", "year_established": 1926, "description": "Connected Madison north through Sauk County to the Dells. Tourism route.", "counties_served": ["Dane", "Sauk"] }
+      ],
+      "isolation_index": {
+        "description": "Dramatically reduced across the cluster by 1950. The automobile eliminated the worst isolation, but the Driftless terrain still imposed longer travel times than flat country. A Richland County ridgetop farm was no longer a day from town, but it was still an hour — twice as far, in time, as a comparable farm on the glacial plain.",
+        "comparative_note": "By 1960, the cluster was well-connected by highway, but the Driftless roads were winding, hilly, and slow compared to the flat glaciated counties. This difference would persist into the interstate era."
+      },
+      "narrative_hook": "The automobile broke the Driftless isolation — {ancestor_name} could drive to Madison in two hours on a road that wound through coulees that had taken a full day by wagon. The hills were the same; the time between them had collapsed.",
+      "source": "Nesbit, Wisconsin: A History (1989)."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1854, "event": "Milwaukee & Mississippi Railroad reaches Madison", "impact": "First railroad in the cluster. Connected Madison to Milwaukee and eastern markets." },
+    { "year": 1857, "event": "Railroad extended west to Prairie du Chien via Military Ridge corridor", "impact": "Connected the old lead district to the eastern network." },
+    { "year": 1864, "event": "Chicago & North Western reaches Janesville from Chicago", "impact": "Connected Rock County directly to Chicago — the primary market." },
+    { "year": 1870, "event": "Railroad reaches Monroe (Green County)", "impact": "Connected the Swiss cheese district to Chicago and Milwaukee markets." },
+    { "year": 1873, "event": "Railroad reaches Baraboo via Wisconsin River corridor", "impact": "Connected Sauk County; enabled Ringling Brothers circus logistics." },
+    { "year": 1880, "event": "Branch line reaches Richland Center", "impact": "Last county seat in the cluster to get railroad service, reflecting its extreme Driftless isolation." }
+  ],
+  "narrative_hooks": [
+    "The Military Ridge Road was the original highway through the Driftless — the Army built it on the ridgetop because the coulees were impassable, and 125 years later the highway still follows the same route because the terrain has not changed.",
+    "The railroad followed the ridges and rivers, and {ancestor_name}'s town either got a depot or began to die — in the Driftless, the distance between prosperity and decline was measured in miles from the nearest station.",
+    "The automobile changed everything in the Driftless — {ancestor_name} could drive to Madison in two hours on a road that wound through coulees that had been impassable by wagon in spring mud.",
+    "Richland County was the last county seat in the cluster to get a railroad depot, and {ancestor_name} on a Kickapoo ridge already knew what isolation meant before the tracks arrived.",
+    "The Mississippi steamboat connected the lead miners to the world — {ancestor_name}'s lead went downstream to St. Louis, and the supplies came upstream on the same boat."
+  ],
+  "source_references": [
+    "Nesbit, Robert C. Wisconsin: A History. 2nd ed. Madison: University of Wisconsin Press, 1989.",
+    "Schafer, Joseph. The Wisconsin Lead Region. Madison: State Historical Society of Wisconsin, 1932.",
+    "Apps, Jerry. Wisconsin Agriculture: A History. Madison: Wisconsin Historical Society Press, 2015.",
+    "Mollenhoff, David V. Madison: A History of the Formative Years. 2nd ed. Madison: University of Wisconsin Press, 2003.",
+    "Federal Highway Administration. America's Highways 1776-1976. Washington, DC: Government Printing Office, 1976."
+  ],
+  "nel_cross_references": {
+    "route_refs": [],
+    "trigger_refs": ["stayed_and_adapted", "gi_bill_migration"]
+  }
+}

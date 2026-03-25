@@ -1,0 +1,127 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Anderson County, SC. Record survival, courthouse history, and known losses.",
+  "courthouse_atlas_id": "sc_anderson_courthouse",
+  "display_name": "Anderson County, South Carolina — Courthouse Atlas",
+  "county": "Anderson",
+  "state": "SC",
+  "fips_code": "45007",
+  "cluster_ref": "sc_piedmont_upcountry",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1932,
+      "location": "Anderson, SC — 100 S. Main Street",
+      "records_housed": ["deeds", "plats", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1826–1852",
+        "location": "Anderson (formerly Andersonville), courthouse square",
+        "fate": "Early courthouse. Anderson County was formed from the old Pendleton District in 1826. Replaced as county grew."
+      },
+      {
+        "era": "1852–1898",
+        "location": "Anderson, courthouse square",
+        "fate": "Survived the Civil War. Replaced by a new structure in 1898."
+      },
+      {
+        "era": "1898–1932",
+        "location": "Anderson, Main Street",
+        "fate": "Served until replaced by the current 1932 Art Deco building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "anderson_pendleton_district",
+      "date": "Pre-1826",
+      "cause": "Formation from Pendleton District — records split between Anderson and Pickens counties",
+      "records_destroyed": [],
+      "records_survived": ["Pendleton District records for pre-1826 period"],
+      "scope": "moderate",
+      "description": "Anderson County was formed from the old Pendleton District in 1826. Records predating 1826 are Pendleton District records, held primarily at the SC Department of Archives and History. When the district was divided, some records went with each new county, and the split can create apparent gaps. Researchers tracing families in the Anderson area before 1826 must search Pendleton District records. No major fire or war damage has affected the Anderson courthouse since its establishment.",
+      "narrative_impact": "If {ancestor_name} lived in what is now Anderson County before 1826, the records are filed under Pendleton District, not Anderson County — and tracing the family requires jumping from one filing system to another at the district/county boundary.",
+      "source": "SC Department of Archives and History. Guide to County Records in the South Carolina State Archives."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1826,
+      "completeness": "Good — continuous from county formation. Pendleton District deeds cover the pre-1826 period.",
+      "gaps": "No significant gaps after 1826. Pre-1826 Pendleton District records require separate search.",
+      "repository": "Anderson County Register of Deeds; SC Department of Archives and History",
+      "online_access": "FamilySearch microfilm; Ancestry.com SC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1826,
+      "completeness": "Good — from county formation. Pendleton District probate records cover earlier period.",
+      "gaps": "Pendleton District/Anderson County transition creates a seam in the records at 1826.",
+      "repository": "Anderson County Probate Court; SC Department of Archives and History",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1826,
+      "completeness": "Good — marriage bonds from county formation. Licenses required statewide after 1911.",
+      "gaps": "Pre-1911 coverage via bonds and church records.",
+      "repository": "Anderson County Probate Court; SC Department of Archives and History",
+      "online_access": "FamilySearch; Ancestry.com SC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1826,
+      "completeness": "Good — continuous from formation",
+      "gaps": "Pendleton District court records cover pre-1826 proceedings.",
+      "repository": "SC Department of Archives and History; Anderson County Clerk of Court",
+      "online_access": "SC Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1915,
+      "death_registration_start": 1915,
+      "completeness": "Spotty until approximately 1920.",
+      "repository": "SC DHEC; SC Department of Archives and History"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Pendleton District records",
+      "description": "Anderson County was part of the Pendleton District until 1826. District court records, deeds, and other legal documents covering the Anderson area before 1826 are essential for tracing early families.",
+      "repository": "SC Department of Archives and History; Pendleton District Historical, Recreational and Tourism Commission",
+      "era_coverage": "1789–1826",
+      "genealogical_value": "Essential for any family in the Anderson area before 1826. The Pendleton District records include deeds, court minutes, and equity records that predate Anderson County's existence.",
+      "source": "SC Department of Archives and History. Pendleton District Records finding aid."
+    },
+    {
+      "source_type": "Textile mill company records",
+      "description": "Anderson County's mills — including Chiquola Manufacturing (site of the Honea Path Massacre), Anderson Cotton Mill, Orr Cotton Mills, and Gluck Mill — maintained employment and housing records of varying completeness.",
+      "repository": "Anderson County Museum; SC Department of Archives and History; limited holdings at Clemson University Special Collections",
+      "era_coverage": "1880s–1960s",
+      "genealogical_value": "Where surviving, mill records document workers who left little trace in county records. Chiquola Manufacturing Company records, if any survive, would be of particular interest given the 1934 Honea Path Massacre — but the company had strong motivation to destroy records documenting the event and its participants.",
+      "source": "Irons, Janet. Testing the New Deal: The General Textile Strike of 1934 in the American South. University of Illinois Press, 2000."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1830–1940 (Anderson County formed 1826; first enumerated 1830). Pre-1826 census for this area appears under Pendleton District.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1830–1940",
+      "genealogical_value": "Essential baseline. Pre-1830 census data for this area is under Pendleton District.",
+      "source": "National Archives and Records Administration."
+    }
+  ],
+  "narrative_hooks": [
+    "Anderson County's courthouse has survived intact since the county was formed in 1826, but the records before that date are filed under Pendleton District — if {ancestor_name} was in the area before 1826, the search must jump from one filing system to another.",
+    "If {ancestor_name} worked at the Chiquola Mill in Honea Path, the company records that documented {pronoun_possessive} employment may or may not survive — the company had reason to be careful about what records it kept after September 6, 1934.",
+    "South Carolina birth and death registration began in 1915, and marriage licenses were not required until 1911. Before those dates, church records and family Bibles are the primary sources for vital events in Anderson County.",
+    "Hartwell Dam flooded thousands of acres of bottomland in the 1950s — if {ancestor_name}'s family had a farm in the Seneca River valley, the land and any records left on it are under water."
+  ],
+  "source_references": [
+    "SC Department of Archives and History. Guide to County Records in the South Carolina State Archives.",
+    "Irons, Janet. Testing the New Deal: The General Textile Strike of 1934 in the American South. Urbana: University of Illinois Press, 2000.",
+    "SC Department of Archives and History. Pendleton District Records finding aid.",
+    "Works Progress Administration. Historical Records Survey: South Carolina County Records. Columbia, 1937–1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "sc_anderson",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

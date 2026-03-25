@@ -1,0 +1,127 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Gasconade County, MO. Record survival and courthouse history. Gasconade County (formed 1820) has well-preserved records supplemented by exceptional German-language church and community records from the Hermann settlement. The 1870 courthouse burned (1884) with some record loss.",
+  "courthouse_atlas_id": "mo_gasconade_courthouse",
+  "display_name": "Gasconade County, Missouri — Courthouse Atlas",
+  "county": "Gasconade",
+  "state": "MO",
+  "fips_code": "29073",
+  "cluster_ref": "mo_ozarks_gateway",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1898,
+      "location": "Hermann, MO — 119 E. First Street",
+      "records_housed": ["deeds", "plats", "marriage records", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1820-1842",
+        "location": "Mount Sterling (original county seat)",
+        "fate": "County seat moved to Hermann in 1842 after the German Settlement Society established the town. Records transferred."
+      },
+      {
+        "era": "1842-1884",
+        "location": "Hermann",
+        "fate": "Destroyed by fire in 1884. Some records lost."
+      },
+      {
+        "era": "1884-1898",
+        "location": "Hermann (temporary quarters)",
+        "fate": "Replaced by the current 1898 stone courthouse."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "gasconade_1884_fire",
+      "date": "1884",
+      "cause": "Courthouse fire",
+      "records_destroyed": ["Some circuit court records", "some early probate records"],
+      "records_survived": ["Deed books (most survived — stored in fireproof vault)", "marriage records (most survived)", "tax records (partial)"],
+      "scope": "moderate",
+      "description": "The 1884 courthouse fire destroyed some circuit court and probate records. The deed books were largely preserved because they were stored in a vault. Marriage records also substantially survived. The loss is significant but not catastrophic — German church records and the Hermann Volksblatt newspaper supplement the gaps.",
+      "narrative_impact": "If {ancestor_name} was involved in a court case or probate proceeding before 1884, the records may have been lost in the courthouse fire. Deed records and marriage records are more likely to survive.",
+      "source": "Missouri State Archives. Guide to County Records on Microfilm: Gasconade County."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1821,
+      "completeness": "Good — most deed books survived the 1884 fire.",
+      "gaps": "Minor gaps in earliest volumes.",
+      "repository": "Gasconade County Recorder of Deeds, Hermann; Missouri State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1840,
+      "completeness": "Partial — some early probate records lost in the 1884 fire.",
+      "gaps": "Pre-1884 probate records are incomplete. German church death and burial records can supplement.",
+      "repository": "Gasconade County Probate Court; Missouri State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1821,
+      "completeness": "Good — marriage records substantially survived the 1884 fire.",
+      "gaps": "Minor gaps in earliest years. German church marriage records supplement.",
+      "repository": "Gasconade County Recorder; Missouri State Archives",
+      "online_access": "FamilySearch; Ancestry.com MO marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1885,
+      "completeness": "Pre-1884 circuit court records largely lost in fire. Post-1884 records complete.",
+      "gaps": "Significant gap before 1884.",
+      "repository": "Missouri State Archives; Gasconade County Circuit Court",
+      "online_access": "Missouri State Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1883,
+      "death_registration_start": 1883,
+      "completeness": "Better compliance in the German communities than typical for rural Missouri. Church records supplement.",
+      "repository": "Missouri Department of Health and Senior Services; Missouri State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Hermann Volksblatt / Advertiser-Courier newspapers",
+      "description": "The Hermann Volksblatt (German-language, 1843-1928) and its successor Advertiser-Courier documented the German community in extraordinary detail — births, deaths, marriages, business transactions, land sales, and community events. The Volksblatt is one of the longest-running German-language newspapers west of the Mississippi.",
+      "repository": "State Historical Society of Missouri; Gasconade County Historical Society; some digitized via Chronicling America",
+      "era_coverage": "1843-present",
+      "genealogical_value": "Exceptional. The Volksblatt's birth, death, and marriage notices supplement the courthouse records and are often more detailed. Requires German-language reading for pre-1920 issues.",
+      "source": "State Historical Society of Missouri newspaper holdings."
+    },
+    {
+      "source_type": "German church records (Catholic, Lutheran, Evangelical)",
+      "description": "The Catholic, Lutheran, and Evangelical parishes in Hermann and surrounding communities maintained baptism, marriage, death, and membership records in German from the 1830s.",
+      "repository": "Archdiocese of St. Louis Archives; Concordia Historical Institute; Eden Theological Seminary Archives (Evangelical); individual parish holdings",
+      "era_coverage": "1830s-present",
+      "genealogical_value": "Essential for German families. Often the only vital records before 1883 and more complete than county records until 1910.",
+      "source": "Burnett and Luebbering, German Settlement in Missouri (1996)."
+    },
+    {
+      "source_type": "German Settlement Society of Philadelphia records",
+      "description": "The society that founded Hermann maintained records of its members, land purchases, and early colony governance.",
+      "repository": "Missouri Historical Society, St. Louis; State Historical Society of Missouri",
+      "era_coverage": "1836-1850s",
+      "genealogical_value": "Identifies founding families of the Hermann colony and their origins in Germany.",
+      "source": "Burnett and Luebbering, German Settlement in Missouri (1996)."
+    }
+  ],
+  "narrative_hooks": [
+    "The 1884 courthouse fire destroyed some of Gasconade County's early records — but the German community's own records survived: the Volksblatt newspaper, the church registers, the settlement society minutes. If {ancestor_name} was German, the community documented itself better than the government did.",
+    "The Hermann Volksblatt published in German from 1843 to 1928 — if {ancestor_name} was born, married, or died in the Hermann community, the notice ran in German in a newspaper that predated the county's vital records by forty years.",
+    "Gasconade County's court records before 1884 are largely lost — if {ancestor_name} was involved in a lawsuit or criminal case before the fire, the church records and newspaper may be the only surviving documentation.",
+    "The county seat started at Mount Sterling before moving to Hermann in 1842 — if {ancestor_name} was in the county before the move, the records were created at a place that barely exists today."
+  ],
+  "source_references": [
+    "Missouri State Archives. Guide to County Records on Microfilm: Gasconade County.",
+    "Burnett, Robyn, and Ken Luebbering. German Settlement in Missouri: New Land, Old Ways. Columbia: University of Missouri Press, 1996.",
+    "State Historical Society of Missouri. Newspaper holdings: Hermann Volksblatt.",
+    "Works Progress Administration. Historical Records Survey: Missouri County Records. Jefferson City, 1937-1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "mo_gasconade",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

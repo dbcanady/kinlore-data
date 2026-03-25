@@ -1,0 +1,111 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the GA Wiregrass Coastal Plain cluster. Documents how transportation shaped settlement, turpentine marketing, and migration from the frontier isolation period through the railroad era to the highway age. The Wiregrass was among the most isolated regions in the South until the railroad arrived in the 1870s-1880s. The contrast between railroad towns (Valdosta, Waycross, Tifton, Douglas) and backcountry pine flatwoods was absolute.",
+  "connectivity_id": "ga_wiregrass_coastal_plain_roads",
+  "display_name": "GA Wiregrass / Coastal Plain — Road & Connectivity Network",
+  "cluster_ref": "ga_wiregrass_coastal_plain",
+  "era_range": "1820-1960",
+  "transportation_eras": [
+    {
+      "era_id": "frontier_isolation",
+      "era_name": "Frontier Isolation: Sand Roads and River Crossings",
+      "date_range": "1820-1870",
+      "primary_modes": ["wagon on sand road", "horseback", "foot", "river ford"],
+      "description": "The Wiregrass was among the most isolated regions in Georgia before the railroad. Roads were unimproved sandy traces that wound through longleaf pine forest, following high ground where possible. The sandy soil was less treacherous than Piedmont red clay in wet weather — wagons did not mire as deeply — but the sand was exhausting for draft animals. Every stream crossing required a ford through blackwater swamp, which could be impassable for days after heavy rain. There were no navigable rivers in the cluster at this elevation — the streams were too shallow and swamp-bordered for commercial navigation. Plank roads, built from heart-pine timbers, provided the first improved surfaces in the 1840s-1850s but deteriorated quickly in the subtropical climate.",
+      "road_conditions": "Deep sand on uplands — soft and exhausting for horses and mules. Blackwater fords at every stream crossing. Plank roads where available; otherwise unimproved traces through the longleaf. Travel after dark was dangerous — the flat terrain offered no landmarks and the pine forest was disorienting.",
+      "travel_times": [
+        { "from": "Troupville (Lowndes)", "to": "Thomasville (Thomas)", "mode": "wagon", "time": "1.5-2 days", "conditions_note": "Approximately 40 miles through pine flatwoods" },
+        { "from": "Typical farm", "to": "Nearest county seat", "mode": "horseback", "time": "4-8 hours one way", "conditions_note": "Counties were large and settlements dispersed" },
+        { "from": "Nashville (Berrien)", "to": "Any railroad or market town", "mode": "wagon", "time": "2-3 days", "conditions_note": "Berrien County was the most isolated county in the cluster" }
+      ],
+      "key_routes": [
+        { "route_name": "Coffee Road (interior trace)", "type": "unimproved sand", "year_established": "1830s", "description": "One of the earliest routes through the Wiregrass interior, connecting settlements along the higher ground between swamp corridors.", "counties_served": ["Coffee", "Berrien", "Colquitt"] },
+        { "route_name": "Thomasville-Valdosta Road", "type": "partially planked", "year_established": "1840s-1850s", "description": "The primary east-west route in the southern portion of the cluster. Planked sections deteriorated quickly but the route remained the main connection.", "counties_served": ["Thomas", "Brooks", "Lowndes"] }
+      ],
+      "isolation_index": {
+        "description": "Extreme. The Wiregrass was more isolated than any other settled region in Georgia except the mountain counties. No navigable rivers, no railroads, no improved roads. The longleaf forest was open enough to travel through but offered no landmarks in the flat terrain.",
+        "comparative_note": "More isolated than the Piedmont (which had the Georgia Railroad by the 1840s) and more isolated than the Coastal Plain (which had navigable rivers). Comparable to the Florida interior."
+      },
+      "narrative_hook": "Before the railroad, {ancestor_name} lived in the Wiregrass beyond the reach of anything — a day's ride to the county seat, three days to the nearest market town, and the only road a sandy trace through the longleaf where a wrong turn meant hours lost in forest that looked the same in every direction.",
+      "source": "Coleman, A History of Georgia (1991). Huxford, Pioneers of Wiregrass Georgia, vol. 1."
+    },
+    {
+      "era_id": "railroad_era",
+      "era_name": "Railroad Revolution: The Wiregrass Connected",
+      "date_range": "1870-1920",
+      "primary_modes": ["railroad", "wagon on sand road", "horseback", "narrow-gauge timber tramway"],
+      "description": "The railroad transformed the Wiregrass more dramatically than any other region in Georgia. Before the railroad, the Wiregrass was functionally disconnected from the state economy. After the railroad, towns on the lines — Valdosta, Waycross, Tifton, Douglas, Moultrie — became market centers connected to Savannah, Jacksonville, Macon, and Atlanta. Towns off the railroad remained isolated. The Atlantic Coast Line (running north-south through Tifton and Valdosta), the Plant System (connecting Thomasville), and multiple junction lines at Waycross created a railroad network that defined the Wiregrass's economic geography for a century. Narrow-gauge timber tramways extended from the main lines into the pine forests, connecting sawmills and turpentine stills to the railroad.",
+      "road_conditions": "County roads remained unimproved sand. The railroad was the only reliable all-weather transportation. The contrast between railroad towns and backcountry was absolute — a family in Valdosta could ship turpentine to New York; a family ten miles off the railroad hauled it by mule.",
+      "travel_times": [
+        { "from": "Valdosta", "to": "Savannah", "mode": "railroad", "time": "5-6 hours", "conditions_note": "Atlantic Coast Line direct service" },
+        { "from": "Waycross", "to": "Jacksonville, FL", "mode": "railroad", "time": "3-4 hours", "conditions_note": "Direct service via multiple lines" },
+        { "from": "Tifton", "to": "Macon", "mode": "railroad", "time": "3-4 hours", "conditions_note": "Atlantic Coast Line northbound" },
+        { "from": "Thomasville", "to": "Valdosta", "mode": "railroad", "time": "1.5-2 hours", "conditions_note": "Via connecting line" },
+        { "from": "Typical farm", "to": "Nearest railroad depot", "mode": "wagon", "time": "2-6 hours one way", "conditions_note": "The depot replaced the county seat as the critical destination" }
+      ],
+      "key_routes": [
+        { "route_name": "Atlantic Coast Line (Macon-Valdosta-Florida)", "type": "railroad", "year_established": "1870s", "description": "The primary north-south railroad through the Wiregrass. Connected Tifton and Valdosta to Macon (north) and the Florida state line (south). The ACL was the lifeline of the turpentine and timber economy.", "counties_served": ["Tift", "Berrien", "Lowndes"] },
+        { "route_name": "Waycross junction (seven lines)", "type": "railroad", "year_established": "1870s-1900s", "description": "Waycross became the most important railroad junction in south Georgia, with seven lines converging. The junction made Waycross disproportionately important for a county of its size.", "counties_served": ["Ware"] },
+        { "route_name": "Georgia and Florida Railroad (through Douglas)", "type": "railroad", "year_established": "1890s", "description": "Connected Douglas to the railroad network, enabling turpentine and timber shipping from Coffee County.", "counties_served": ["Coffee"] },
+        { "route_name": "Narrow-gauge timber tramways", "type": "narrow-gauge railroad", "year_established": "1890-1920", "description": "Temporary narrow-gauge rail lines extending from main-line depots into the pine forests. These moved timber and turpentine from the woods to the shipping point. Tramways were laid quickly, used briefly, and abandoned when the timber was exhausted.", "counties_served": ["all"] }
+      ],
+      "isolation_index": {
+        "description": "Sharply reduced along railroad corridors; unchanged in the backcountry. The railroad towns were connected to the national market; the pine flatwoods between the lines remained as isolated as they had been in 1850.",
+        "comparative_note": "Railroad connectivity made Valdosta and Waycross comparable to towns twice their size. Backcountry isolation remained extreme."
+      },
+      "narrative_hook": "The railroad changed everything in the Wiregrass — {ancestor_name}'s turpentine could reach Savannah in a day instead of a week, and the depot at {town} became the center of the economic world. The families who lived on the railroad prospered; the families who lived off it did not.",
+      "source": "Coleman, A History of Georgia (1991). Outland, Tapping the Pines (2004)."
+    },
+    {
+      "era_id": "automobile_highway_era",
+      "era_name": "Automobile Age and Interstate Connection",
+      "date_range": "1920-1960",
+      "primary_modes": ["automobile on improved road", "railroad (declining)", "truck"],
+      "description": "The automobile era arrived slowly in the Wiregrass because the sandy roads were difficult for early cars. Paved highways came in the 1920s-1930s, connecting county seats to each other and to the railroad towns. US 41 (running north-south through Valdosta and Tifton) became the primary highway corridor. The Works Progress Administration improved and paved rural roads in the 1930s. The transformative event was Interstate 75, constructed through the cluster in the 1950s, connecting the Wiregrass to Atlanta and Florida by limited-access highway. I-75 did for the automobile what the railroad had done for the train — it made the Wiregrass accessible. Trucking began to replace rail for agricultural freight, and the railroad's dominance of the Wiregrass economy ended.",
+      "road_conditions": "Paved highways between county seats by the 1930s. Rural roads improved but many remained unpaved sand until the 1950s-1960s. The flat terrain was ideal for highway construction — no mountains, no grades, no curves.",
+      "travel_times": [
+        { "from": "Valdosta", "to": "Atlanta", "mode": "automobile (US 41)", "time": "5-6 hours", "conditions_note": "Pre-interstate. Two-lane highway through every town." },
+        { "from": "Valdosta", "to": "Atlanta", "mode": "automobile (I-75)", "time": "3.5-4 hours", "conditions_note": "Interstate completed through the cluster in the late 1950s-1960s." },
+        { "from": "Valdosta", "to": "Jacksonville, FL", "mode": "automobile", "time": "2-3 hours", "conditions_note": "US 41/US 84" },
+        { "from": "Tifton", "to": "Moultrie", "mode": "automobile", "time": "45 minutes", "conditions_note": "Paved state highway" }
+      ],
+      "key_routes": [
+        { "route_name": "US Highway 41 (Dixie Highway)", "type": "paved highway", "year_established": "1920s", "description": "The primary north-south highway through the Wiregrass. US 41 ran from Atlanta through Tifton and Valdosta to Florida, following roughly the same corridor as the Atlantic Coast Line Railroad. The 'Dixie Highway' was the first automobile route connecting the northern United States to Florida, and it passed through the heart of the cluster.", "counties_served": ["Tift", "Berrien", "Lowndes"] },
+        { "route_name": "Interstate 75", "type": "limited-access interstate", "year_established": "1950s-1960s", "description": "The most transformative infrastructure project since the railroad. I-75 connected the Wiregrass to Atlanta and Florida by high-speed highway, making the region accessible to automobile traffic on a scale the two-lane highways never achieved.", "counties_served": ["Tift", "Lowndes"] },
+        { "route_name": "US 82 (east-west)", "type": "paved highway", "year_established": "1930s", "description": "Connected Waycross and Douglas (east) to Tifton and Albany (west), providing the primary east-west highway across the Wiregrass.", "counties_served": ["Ware", "Coffee", "Tift"] }
+      ],
+      "isolation_index": {
+        "description": "Sharply reduced across the cluster. Paved highways and the interstate connected even the most remote counties to the state highway network. The automobile democratized access in a way the railroad never had — the railroad served towns; the automobile served everyone.",
+        "comparative_note": "By 1960, the Wiregrass was as connected as any rural region in Georgia. The historic isolation was over."
+      },
+      "narrative_hook": "I-75 cut through the Wiregrass like a promise — {ancestor_name} watching the interstate connect the pine flats to Atlanta and Florida, ending a century and a half of isolation in a county that had been the last settled and the last connected corner of Georgia.",
+      "source": "Coleman, A History of Georgia (1991)."
+    }
+  ],
+  "railroad_timeline": [
+    { "railroad": "Atlantic and Gulf Railroad / Savannah, Florida and Western / Atlantic Coast Line", "year": "1870s", "stations": ["Tifton", "Nashville (Berrien)", "Valdosta"], "impact": "First railroad through the Wiregrass. Transformed Valdosta from a village to a regional center. Created Tifton as a railroad depot town." },
+    { "railroad": "Waycross junction lines (multiple)", "year": "1870s-1900s", "stations": ["Waycross"], "impact": "Seven railroad lines converging at Waycross made it the most important junction in south Georgia." },
+    { "railroad": "Plant System / Atlantic, Valdosta and Western", "year": "1890s", "stations": ["Thomasville", "Quitman (Brooks)"], "impact": "Connected Thomasville to the national network, enabling the winter resort colony." },
+    { "railroad": "Georgia and Florida Railroad", "year": "1890s", "stations": ["Douglas"], "impact": "Connected Douglas to the railroad network." },
+    { "railroad": "Georgia Southern and Florida / Southern Railway", "year": "1890s-1900s", "stations": ["Valdosta", "Moultrie"], "impact": "Additional north-south service through the cluster." }
+  ],
+  "narrative_hooks": [
+    "Before the railroad, the Wiregrass was the end of the world — {ancestor_name} living a day's ride from anywhere, hauling turpentine by mule wagon on sand roads that exhausted the animals and the driver equally.",
+    "The railroad created the Wiregrass towns — {ancestor_name}'s world changed the day the train whistle first sounded in {county} County, because the depot meant a market, a post office, and a connection to places that had been three days' travel.",
+    "Waycross was seven railroads crossing — {ancestor_name} could board a train to Jacksonville, Savannah, Macon, or Atlanta from a single junction in the middle of the pine flatwoods.",
+    "The narrow-gauge tramways pushed into the longleaf like tentacles — {ancestor_name} hearing the chuff of the little engine hauling logs from the woods on temporary track that would be pulled up and relaid in the next stand of timber.",
+    "I-75 ended the Wiregrass's isolation — {ancestor_name} watching the interstate cut through the pine flats, connecting a county that had been three days from anywhere to an Atlanta that was now four hours away.",
+    "The sandy roads of the Wiregrass were kinder than the Piedmont's red clay in rain but punishing in dry weather — {ancestor_name} dragging a wagon through sand that grabbed the wheels and refused to let go."
+  ],
+  "source_references": [
+    "Coleman, Kenneth, ed. A History of Georgia. 2nd ed. Athens: University of Georgia Press, 1991.",
+    "Outland, Robert B., III. Tapping the Pines: The Naval Stores Industry in the American South. Baton Rouge: Louisiana State University Press, 2004.",
+    "Huxford, Folks. Pioneers of Wiregrass Georgia. 10 vols. Waycross, GA: Huxford Genealogical Society, 1951-1975.",
+    "Prince, Richard E. Atlantic Coast Line Railroad: Steam Locomotives, Ships, and History. Bloomington: Indiana University Press, 2000.",
+    "Georgia Department of Transportation. Historical Highway Maps of Georgia. Atlanta: GDOT, various years."
+  ],
+  "nel_cross_references": {
+    "route_refs": ["southern_railway_corridor", "atlantic_coast_corridor"]
+  }
+}

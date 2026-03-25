@@ -1,0 +1,174 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Micro-Migration Network Map for the OH Miami Valley cluster. Documents specific migration corridors, chain-migration mechanics, and settlement patterns that moved people into, out of, and within this eight-county region from 1795 to 1960.",
+  "migration_network_id": "oh_miami_valley_migration_networks",
+  "display_name": "OH Miami Valley — Micro-Migration Network Map",
+  "cluster_ref": "oh_miami_valley",
+  "era_range": "1795-1960",
+  "migration_corridors": [
+    {
+      "corridor_id": "virginia_military_district",
+      "corridor_name": "Virginia Military District: VA/KY Veterans and Assignees to the Miami Valley",
+      "origin_counties": ["Augusta (VA)", "Rockbridge (VA)", "Botetourt (VA)", "Fayette (KY)", "Bourbon (KY)", "Mason (KY)", "Woodford (KY)"],
+      "destination_area": "Greene, Warren, Clark, Champaign — the eastern counties within the Virginia Military District survey area; Montgomery and Butler also received VMD settlers",
+      "era": "1795-1830",
+      "migration_type": "bounty_warrant_settlement",
+      "scale": "Thousands of families over one generation. The Virginia Military District encompassed the land between the Scioto and Little Miami Rivers, and bounty warrants for Revolutionary War service were the primary mechanism for acquiring land. Many veterans sold their warrants to speculators; others migrated personally.",
+      "evidence": {
+        "census_evidence": "The 1800 and 1810 federal census for Greene, Warren, Clark, and Champaign counties shows household heads with surnames characteristic of Virginia and Kentucky settlement: McCollum, Galloway, Whiteman, Cooper, Massie. Many of these surnames appear in Virginia muster rolls and in Kentucky county records a decade earlier.",
+        "land_evidence": "Virginia Military District warrant records (Ohio Land Office) document the original warrantee, the assignee, and the survey. The metes-and-bounds surveys create irregular parcels that are visible in county plat maps to this day.",
+        "church_evidence": "Presbyterian and Methodist church records in the eastern counties document Virginia and Kentucky families. Church transfer records track migration between Virginia/Kentucky congregations and Ohio congregations."
+      },
+      "chain_mechanics": {
+        "description": "Virginia veterans who had surveyed or scouted the Miami Valley during or after the Northwest Indian War returned with bounty warrants — or sold their warrants to speculators who recruited settlers. Families moved as kinship networks — siblings, cousins, and former neighbors from the same Virginia or Kentucky county settled together. The process was rapid: the Treaty of Greenville (1795) opened the land, and by 1810 the most desirable bottomland and well-drained upland parcels were claimed.",
+        "kinship_role": "Kinship was the primary settlement mechanism. Virginia and Kentucky families moved as extended networks, selecting land near kin who had preceded them. Church connections (Presbyterian, Methodist) reinforced kinship ties.",
+        "timeline": "First wave 1795-1805 (immediate post-treaty settlement). Second wave 1805-1815 (filling in). Third wave 1815-1830 (remaining upland parcels)."
+      },
+      "narrative_hook": "The land warrant {ancestor_name} carried to {county} County was payment for a grandfather's service in the Revolution — blood converted to acreage in a valley that had been Native territory two years before the warrant was issued.",
+      "source": "Hurt, R. Douglas. The Ohio Frontier. Indiana University Press, 1996. Peters, William E. Ohio Lands and Their Subdivision. Athens: Ohio University Press, 1918."
+    },
+    {
+      "corridor_id": "pennsylvania_german_brethren",
+      "corridor_name": "Pennsylvania German Baptist (Brethren) Migration to the Western Miami Valley",
+      "origin_counties": ["Lancaster (PA)", "York (PA)", "Franklin (PA)", "Rockingham (VA)", "Shenandoah (VA)"],
+      "destination_area": "Preble, Miami, western Montgomery — the western counties of the cluster",
+      "era": "1800-1840",
+      "migration_type": "chain_migration",
+      "scale": "Hundreds of families over two generations. German Baptist Brethren (Dunkers) moved west from Pennsylvania and Virginia in organized community migrations, establishing one of the strongest Brethren concentrations in the Midwest.",
+      "evidence": {
+        "census_evidence": "1810-1840 census for Preble and Miami counties shows German-origin surname clustering: Denlinger, Frantz, Studebaker, Hoover. These surnames appear in Pennsylvania and Virginia church records a generation earlier.",
+        "church_evidence": "Brethren church records in Pennsylvania and Virginia document families 'going west to Ohio.' Ohio Brethren congregation records document families received from eastern congregations.",
+        "surname_clustering": "Brethren surnames cluster tightly in specific townships — a pattern consistent with organized community migration rather than individual family settlement."
+      },
+      "chain_mechanics": {
+        "description": "Brethren migrated as congregational groups — families from the same church moved together, established a new congregation, and then attracted additional families from the home church. The Brethren commitment to mutual aid meant that new arrivals had community support from the first day. The flat, fertile land of the western Miami Valley was ideal for the Brethren's diversified farming traditions.",
+        "kinship_role": "Congregational and kinship networks were inseparable — Brethren families intermarried within the community, and migration decisions were made communally.",
+        "timeline": "First families 1800-1810. Congregational establishment 1810-1820. Continued arrivals through 1840."
+      },
+      "narrative_hook": "The Brethren did not come to {county} County as a lone family — they came as a congregation, carrying their faith, their farming methods, and their mutual obligations from Pennsylvania to Ohio in a migration that was planned, prayed over, and executed as a community.",
+      "source": "Durnbaugh, Donald F. The Brethren Encyclopedia. Philadelphia: Brethren Encyclopedia, Inc., 1983."
+    },
+    {
+      "corridor_id": "german_immigration",
+      "corridor_name": "German Immigration to Dayton, Springfield, and Hamilton",
+      "origin_counties": ["Various German states — Baden, Württemberg, Bavaria, Hesse, Saxony"],
+      "destination_area": "Montgomery (Dayton), Clark (Springfield), Butler (Hamilton) — the industrial cities",
+      "era": "1840-1890",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of families over two generations. German immigrants constituted the largest foreign-born population in the Miami Valley's industrial cities. By 1870, Dayton, Springfield, and Hamilton all had significant German-speaking communities with churches, newspapers, schools, and social organizations.",
+      "evidence": {
+        "census_evidence": "1860-1880 census for Montgomery, Clark, and Butler counties shows large numbers of German-born household heads concentrated in specific neighborhoods. Occupational patterns show German immigrants in skilled trades: machinists, foundry workers, bakers, brewers.",
+        "church_evidence": "German-language Lutheran and Catholic churches established in Dayton (1840s), Springfield (1850s), and Hamilton (1850s). Church records maintained in German through the 1910s.",
+        "surname_clustering": "German surnames concentrate in specific city wards and rural townships — Dayton's east side, Springfield's east end, Hamilton's north side."
+      },
+      "chain_mechanics": {
+        "description": "German immigrants followed chain-migration networks from specific German states and towns to specific Miami Valley destinations. A machinist from Württemberg who found work at a Dayton foundry wrote home, and his brother followed. The German-language churches, schools, and newspapers created a self-sustaining community that attracted additional immigrants. The Miami Valley's need for skilled metalworkers (foundries, machine shops, agricultural implement factories) specifically attracted German-trained craftsmen.",
+        "kinship_role": "Kinship and hometown networks were primary. German immigrants from the same village or district settled in the same neighborhood and attended the same church.",
+        "timeline": "First significant arrivals 1840-1850. Peak immigration 1850-1870. Continued through 1890. Rapid assimilation forced by WWI anti-German sentiment."
+      },
+      "narrative_hook": "When {ancestor_name} arrived in {city} from Germany in {year}, the German-speaking community was already established — a German church, a German newspaper, a German bakery on the corner, and a foreman at the factory who spoke enough German to explain the work.",
+      "source": "Drury, History of Dayton (1909). Tolzmann, Don Heinrich. The German-American Experience. Amherst, NY: Humanity Books, 2000."
+    },
+    {
+      "corridor_id": "appalachian_migration",
+      "corridor_name": "Appalachian Migration: Kentucky and West Virginia to Dayton and Hamilton",
+      "origin_counties": ["Floyd (KY)", "Pike (KY)", "Letcher (KY)", "Knott (KY)", "Perry (KY)", "Breathitt (KY)", "McDowell (WV)", "Mingo (WV)", "Logan (WV)"],
+      "destination_area": "Montgomery (Dayton — West Side, East Dayton), Butler (Hamilton, Middletown)",
+      "era": "1920-1960",
+      "migration_type": "chain_migration",
+      "scale": "Tens of thousands of white Appalachian families over two generations. Dayton's West Side became one of the largest Appalachian migrant communities outside of the mountains. Hamilton and Middletown received significant Appalachian migration as well. By 1960, an estimated 10-15% of Dayton's population was of Appalachian origin.",
+      "evidence": {
+        "census_evidence": "1940-1960 census for Montgomery County shows large numbers of Kentucky-born and West Virginia-born household heads, concentrated in specific neighborhoods (West Dayton, East Dayton industrial neighborhoods).",
+        "church_evidence": "Holiness and Pentecostal churches (Church of God, Pentecostal Holiness) established in Dayton neighborhoods with Appalachian migrant concentrations. These mountain denominations in a Midwest industrial city signal concentrated Appalachian settlement.",
+        "surname_clustering": "Eastern Kentucky and West Virginia surnames — Slone, Combs, Cornett, Hall, Johnson — cluster in specific Dayton neighborhoods."
+      },
+      "chain_mechanics": {
+        "description": "The Appalachian migration to the Miami Valley followed the same pattern as the Appalachian migration to other Midwestern industrial cities (Detroit, Cincinnati, Columbus). Coal mining declined, subsistence farming could not generate cash, and the defense-industrial jobs at Dayton's factories and Wright-Patterson paid wages that were unimaginable in the mountains. Chain migration was the mechanism: one family member found work, secured housing, and sent word back. The kinship networks of Appalachian communities were dense — intermarriage within hollows meant that moving one family eventually pulled a network.",
+        "kinship_role": "Appalachian migration was intensely kinship-driven. Extended family networks from specific hollows and counties settled together in specific Dayton neighborhoods.",
+        "timeline": "Trickle 1920-1930 (coal industry decline). First significant wave 1935-1945 (Depression push, wartime pull). Sustained flow 1945-1960 (defense economy pull)."
+      },
+      "narrative_hook": "When {ancestor_name} left the Kentucky mountains for Dayton in {year}, {pronoun_subject} followed a path worn by cousins and neighbors — the same bus route, the same boarding house, the same factory gate where a kinsman vouched for the new arrival.",
+      "source": "Obermiller, Phillip J., and Thomas E. Wagner. African American Miners and Migrants. University of Illinois Press, 2004. Gleeson, Thomas F. Urban Appalachians. Cincinnati: University of Cincinnati Press, 1986."
+    },
+    {
+      "corridor_id": "great_migration_black",
+      "corridor_name": "Great Migration: Black Families from Kentucky, Tennessee, and Alabama to Dayton",
+      "origin_counties": ["Various Kentucky counties (Bourbon, Fayette, Woodford, central bluegrass)", "Various Tennessee counties (Davidson, Shelby, Hamilton)", "Various Alabama counties (Jefferson, Montgomery, Madison)"],
+      "destination_area": "Montgomery (Dayton — West Side), Greene (Wilberforce/Central State area), Clark (Springfield — limited)",
+      "era": "1910-1960",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of Black families over five decades. Dayton's Black population grew from approximately 5,000 in 1910 to over 50,000 by 1960. The West Side became the center of Black community life, with churches, businesses, and social organizations concentrated in a few wards.",
+      "evidence": {
+        "census_evidence": "1920-1960 census for Montgomery County shows growing Black population with birthplaces concentrated in Kentucky, Tennessee, and Alabama. Residential concentration in West Dayton's specific wards.",
+        "church_evidence": "AME, Baptist, and COGIC churches in West Dayton received members from Southern congregations. Church transfer letters document specific migration paths."
+      },
+      "chain_mechanics": {
+        "description": "Dayton's defense-industrial economy (NCR, GM/Delco, Wright-Patterson) provided the wartime and postwar jobs that pulled Black families north. The migration followed church and kinship networks — AME and Baptist church connections channeled migrants to specific Dayton congregations. Residential segregation confined the growing Black population to West Dayton, creating overcrowded housing and concentrated poverty alongside vibrant community institutions. Wilberforce University and Central State University in Greene County provided educational anchors.",
+        "kinship_role": "Church networks were as important as blood kinship. AME and Baptist church connections provided landing pads for new arrivals.",
+        "timeline": "Trickle 1910-1917. First surge 1917-1920 (WWI factory jobs). Sustained 1920-1940. Second surge 1942-1955 (WWII defense jobs). Continued through 1960."
+      },
+      "narrative_hook": "When {ancestor_name} arrived in Dayton from {origin_state} in {year}, the West Side was both a destination and a boundary — the Black community had built churches, businesses, and a neighborhood life behind the lines that the city's racial geography had drawn.",
+      "source": "Gregory, James N. The Southern Diaspora. Chapel Hill: UNC Press, 2005. Wilkerson, Isabel. The Warmth of Other Suns. New York: Random House, 2010."
+    }
+  ],
+  "internal_movement_patterns": [
+    {
+      "pattern_id": "farm_to_factory",
+      "pattern_name": "Farm-to-Factory Migration within the Miami Valley",
+      "description": "The most common internal migration in the cluster was from the agricultural uplands (Preble, Champaign, Warren, rural Miami) to the industrial cities (Dayton, Springfield, Hamilton). Young people from farm families moved to the cities for factory employment, particularly after the 1880s when the industrial economy accelerated. This movement drained the rural counties of their youngest and most ambitious residents and fueled the industrial cities' growth.",
+      "era": "1870-1960",
+      "counties_affected": ["all"],
+      "narrative_hook": "The farm that {ancestor_name}'s parents worked could not support five children — the oldest went to Dayton, the second to Springfield, and the farm that had been the family's future became the place the children visited at Christmas."
+    },
+    {
+      "pattern_id": "suburban_expansion",
+      "pattern_name": "Dayton-to-Suburb Movement",
+      "description": "After WWII, white families moved from Dayton proper to new suburban developments in Kettering, Centerville, Huber Heights, Fairborn, and other communities. This suburbanization was racially exclusionary — restrictive covenants and discriminatory lending kept Black families in West Dayton while white families moved to new suburbs built on former farmland.",
+      "era": "1945-1960",
+      "counties_affected": ["Montgomery", "Greene"],
+      "narrative_hook": "The GI Bill put a new house in Kettering within {ancestor_name}'s reach — the suburb was built on farmland that had been corn a decade earlier, and the mortgage payment was less than the rent on the Dayton apartment {pronoun_subject} was leaving."
+    }
+  ],
+  "settlement_clusters": [
+    {
+      "cluster_name": "West Dayton Black community",
+      "counties": ["Montgomery"],
+      "description": "The concentrated Black community west of the Great Miami River in Dayton — churches, businesses, social organizations, and residential neighborhoods that were both a community achievement and a product of racial segregation. By 1960, West Dayton was home to the majority of the county's Black population.",
+      "era": "1910-1960"
+    },
+    {
+      "cluster_name": "Brethren communities (Preble-Miami-western Montgomery)",
+      "counties": ["Preble", "Miami", "Montgomery"],
+      "description": "German Baptist Brethren congregational settlements on the western uplands — farming communities organized around meetinghouses, with distinctive plain-living traditions and mutual-aid networks that persisted into the twentieth century.",
+      "era": "1800-1960"
+    },
+    {
+      "cluster_name": "Wilberforce-Central State educational cluster",
+      "counties": ["Greene"],
+      "description": "Wilberforce University (1856, AME-affiliated) and Central State University (1887, state) created a Black educational and institutional cluster in eastern Greene County unique in the Miami Valley.",
+      "era": "1856-1960"
+    }
+  ],
+  "narrative_hooks": [
+    "The Miami Valley was settled by Virginia warrant, commercialized by canal, and industrialized by immigration — {ancestor_name} arrived through one of these corridors, and which one shaped what the family found.",
+    "The Appalachian migration to Dayton was as significant as the Great Migration — {ancestor_name}'s Kentucky neighbors came for the same factory wages that drew Black families from Alabama, and the two streams met on the same factory floor.",
+    "The Brethren came as a congregation, not as individuals — {ancestor_name}'s family carried their meetinghouse from Pennsylvania to Ohio and rebuilt it in Preble County because the community was the point, not just the land.",
+    "West Dayton was built by Black families who came for the defense jobs and stayed for the community — {ancestor_name} found a neighborhood that was both a refuge and a cage, bounded by racial lines that the factory gates ignored.",
+    "The farm-to-factory pipeline drained the rural Miami Valley for a century — {ancestor_name} left the corn for the factory because the factory paid cash every week and the corn paid once a year, if the weather cooperated."
+  ],
+  "source_references": [
+    "Hurt, R. Douglas. The Ohio Frontier: Crucible of the Old Northwest, 1720-1830. Bloomington: Indiana University Press, 1996.",
+    "Durnbaugh, Donald F. The Brethren Encyclopedia. Philadelphia: Brethren Encyclopedia, Inc., 1983.",
+    "Drury, Augustus Waldo. History of the City of Dayton and Montgomery County, Ohio. 2 vols. Chicago: S. J. Clarke, 1909.",
+    "Gregory, James N. The Southern Diaspora: How the Great Migrations of Black and White Southerners Transformed America. Chapel Hill: University of North Carolina Press, 2005.",
+    "Wilkerson, Isabel. The Warmth of Other Suns. New York: Random House, 2010.",
+    "Peters, William E. Ohio Lands and Their Subdivision. Athens: Ohio University Press, 1918.",
+    "Tolzmann, Don Heinrich. The German-American Experience. Amherst, NY: Humanity Books, 2000."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["civil_war_service", "great_migration", "gi_bill_migration", "industrial_revolution", "appalachian_out_migration", "stayed_and_adapted"],
+    "route_refs": ["national_road", "ohio_erie_canal"],
+    "community_texture_refs": ["quaker_meeting_community"]
+  }
+}

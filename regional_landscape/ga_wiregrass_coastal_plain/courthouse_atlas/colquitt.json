@@ -1,0 +1,59 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Colquitt County, GA. Record survival, courthouse history, and known losses. Colquitt County, formed 1856, has records beginning from formation. No major courthouse fire. Moultrie as county seat from formation.",
+  "courthouse_atlas_id": "ga_colquitt_courthouse",
+  "display_name": "Colquitt County, Georgia — Courthouse Atlas",
+  "county": "Colquitt",
+  "state": "GA",
+  "fips_code": "13071",
+  "cluster_ref": "ga_wiregrass_coastal_plain",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1902, "location": "Moultrie, GA — courthouse square (renovated 1930s, 1960s)", "records_housed": ["deeds", "marriage licenses", "probate records", "court minutes"] },
+    "previous_courthouses": [
+      { "era": "1856-1902", "location": "Moultrie, GA — original frame courthouse", "fate": "Replaced by current brick courthouse. Records transferred intact." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "colquitt_no_major_loss",
+      "date": null,
+      "cause": "No major fire or destruction",
+      "records_destroyed": [],
+      "records_survived": ["Deed books from 1856", "Marriage records from 1858", "Will books", "Court minutes"],
+      "scope": "none",
+      "description": "Colquitt County experienced no major courthouse fire or record destruction. Records run continuously from the county's formation in 1856. The Civil War did not bring combat to Moultrie. Early volumes show frontier-era recording practices — brief entries, inconsistent indexing — but the records survive.",
+      "narrative_impact": "Colquitt County's records are continuous from 1856 — a genealogical advantage in the Wiregrass, where several counties lost records to fire. If {ancestor_name} was in Colquitt County, the paper trail is intact from the county's founding.",
+      "source": "GA Department of Archives and History. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1856, "completeness": "Good from formation", "gaps": "No major gaps.", "repository": "Colquitt County Clerk of Superior Court; GA Archives microfilm", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1857, "completeness": "Good", "gaps": "No major gaps. Turpentine equipment and timber rights appear in estate inventories.", "repository": "Colquitt County Probate Court; GA Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1858, "completeness": "Good from 1858", "gaps": "Pre-1858 marriages not recorded at county level.", "repository": "Colquitt County Probate Court", "online_access": "FamilySearch; Ancestry.com GA marriages" },
+    "court_minutes": { "earliest_surviving": 1856, "completeness": "Good", "gaps": "No major gaps.", "repository": "Colquitt County Clerk of Superior Court; GA Archives", "online_access": "GA Archives microfilm" },
+    "vital_records": { "birth_registration_start": 1919, "death_registration_start": 1919, "completeness": "Spotty until mid-1920s.", "repository": "GA Department of Public Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "Georgia Land Lottery records (1820, 1821, 1827 lotteries)", "description": "The territory that became Colquitt County was distributed in the 1820s Land Lotteries. Lottery records identify the original grantees.", "repository": "GA Department of Archives and History", "era_coverage": "1820-1830", "genealogical_value": "Identifies the first wave of land claimants in the area before Colquitt County was formed. Cross-reference with parent county records (Lowndes, Thomas) for pre-1856 families.", "source": "Cadle, Georgia Land Surveying History and Law (1991)." },
+    { "source_type": "Huxford's Pioneers of Wiregrass Georgia", "description": "Covers Colquitt County families in the multi-volume compilation.", "repository": "Major Georgia libraries; Huxford Genealogical Society", "era_coverage": "1856-1920", "genealogical_value": "Comprehensive compiled genealogy drawing from county records and family traditions.", "source": "Huxford, Pioneers of Wiregrass Georgia." },
+    { "source_type": "Moultrie Observer / Colquitt County newspapers", "description": "Local newspapers from the 1880s onward covering estate notices, marriages, deaths, and local news.", "repository": "Moultrie Public Library; GA Archives microfilm", "era_coverage": "1880s-present", "genealogical_value": "Obituaries, estate notices, and social columns documenting families in the tobacco transition era.", "source": "GA Newspaper Project." }
+  ],
+  "narrative_hooks": [
+    "Colquitt County's records run unbroken from 1856 — if {ancestor_name} was there from the county's founding, the deed books, court minutes, and marriage records all survive.",
+    "Before Colquitt County existed, {ancestor_name}'s family was recorded in the parent counties — Lowndes and Thomas. The genealogist must search those counties for records before 1856.",
+    "Colquitt County estate inventories document Wiregrass wealth in its truest form — turpentine stills, timber rights, livestock, and the tools of the naval stores trade that constituted property in a place where land itself was nearly worthless.",
+    "The Land Lottery records identify who drew lots in the territory that became Colquitt County — if {ancestor_name}'s family was among the original grantees, the lottery record documents their county of origin and the specific parcel they received."
+  ],
+  "source_references": [
+    "GA Department of Archives and History. Guide to County Records.",
+    "Cadle, Farris W. Georgia Land Surveying History and Law. University of Georgia Press, 1991.",
+    "Huxford, Folks. Pioneers of Wiregrass Georgia. 10 vols.",
+    "Works Progress Administration. Historical Records Survey: Georgia. Atlanta, 1937-1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ga_colquitt",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Local economy timeline for the MS Delta cluster (Washington, Bolivar, Sunflower, Leflore, Coahoma, Tunica, Tallahatchie, Humphreys counties). Covers 1830-1960 across seven economic eras — from frontier forest clearing through cotton mechanization. The Delta's economy was among the most exploitative in American history: staggering agricultural wealth produced by a labor system that kept 80% of the population in poverty. Cotton was not merely the dominant crop — it was the only crop, and every economic relationship in the Delta was organized around its production.",
+  "economy_id": "ms_delta_economy",
+  "display_name": "MS Delta — Local Economy Timeline",
+  "cluster_ref": "ms_delta",
+  "era_range": "1830-1960",
+  "economic_eras": [
+    {
+      "era_id": "frontier_clearing",
+      "era_name": "Frontier Clearing — Forest to Cotton",
+      "date_range": "1830-1860",
+      "dominant_economy": "Land clearing using enslaved labor; cotton production on cleared acreage; timber harvest",
+      "description": "The Delta economy began with the physical transformation of the landscape — clearing millions of acres of dense bottomland hardwood forest for cotton cultivation. This labor was performed almost entirely by enslaved people brought to the Delta through the domestic slave trade. The work was extraordinarily dangerous: falling trees, snakebite, malaria, and yellow fever killed workers at rates far exceeding those on established plantations. The cleared land was immediately planted in cotton, which grew spectacularly well on the alluvial Sharkey clay. By 1860, the Delta counties were among the wealthiest in the nation by planter standards and the most brutal by the standards of the people who produced that wealth. The domestic slave trade that supplied the Delta's labor force was the engine of the economy — without the forced migration of enslaved people from the Upper South, the Delta could not have been cleared or farmed.",
+      "county_specifics": [
+        { "county": "Washington", "note": "Among the earliest cleared due to Mississippi River access. Greenville was a steamboat landing and commercial center by the 1840s. Large plantations along Deer Creek." },
+        { "county": "Coahoma", "note": "Early settlement along the Mississippi River front. Friars Point was the primary landing. Large plantations established by the 1840s." },
+        { "county": "Bolivar", "note": "Cleared from the river front inward. Rosedale was the county seat and river port. Interior remained forested through the Civil War." },
+        { "county": "Tunica", "note": "Proximity to Memphis attracted early investment. Bluff-edge plantations established early; Delta floor clearing slower." },
+        { "county": "Leflore", "note": "Named for Greenwood Leflore, last Choctaw chief. Greenwood grew at the confluence of the Tallahatchie and Yalobusha rivers as a river port." },
+        { "county": "Tallahatchie", "note": "Interior county, slower to develop. Clearing proceeded along the Tallahatchie River corridor." },
+        { "county": "Sunflower", "note": "Among the last cleared due to interior position and poor drainage. Still heavily forested at the Civil War." },
+        { "county": "Humphreys", "note": "Not yet a separate county (created 1918). Area was part of Holmes, Sunflower, Washington, and Yazoo counties. Low-lying terrain was among the last cleared." }
+      ],
+      "key_infrastructure": [
+        { "name": "Mississippi River steamboat service", "year": "1830s", "impact": "The Mississippi River was the Delta's commercial lifeline. Cotton bales were loaded onto steamboats at landings throughout Washington, Coahoma, Bolivar, and Tunica counties for shipment to New Orleans and from there to Liverpool." },
+        { "name": "Levee construction", "year": "1830s-ongoing", "impact": "Levee construction was itself a major economic activity — enslaved laborers, and later convict laborers, built and maintained the earthen embankments that protected farmland from river flooding. The levee system was never fully reliable before the 1930s." }
+      ],
+      "major_employers": [
+        { "name": "Cotton plantations (enslaved labor)", "type": "Private plantation", "era": "1830-1860", "counties_affected": ["Washington", "Bolivar", "Coahoma", "Tunica", "Leflore", "Tallahatchie", "Sunflower"], "employment_scale": "Tens of thousands of enslaved workers" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Hired-out enslaved field hand", "wage": "$150-$300/year paid to enslaver", "year": 1850, "source": "Johnson, River of Dark Dreams (2013)" },
+        { "occupation": "White overseer", "wage": "$300-$800/year plus board", "year": 1850, "source": "Scarborough, William Kauffman. The Overseer: Plantation Management in the Old South. Baton Rouge: LSU Press, 1966" }
+      ],
+      "narrative_hook": "When {ancestor_name} arrived in the Delta in the {decade}s, the economy was simple and brutal: clear the forest, plant cotton, ship it downriver, and do it all again next year with the labor of people who had been brought here in chains.",
+      "source": "Johnson, Walter. River of Dark Dreams: Slavery and Empire in the Cotton Kingdom. Cambridge: Harvard University Press, 2013. Cobb, The Most Southern Place on Earth (1992)."
+    },
+    {
+      "era_id": "civil_war_collapse",
+      "era_name": "Civil War Collapse and Emancipation",
+      "date_range": "1860-1870",
+      "dominant_economy": "Wartime destruction; emancipation; labor system crisis",
+      "description": "The Civil War devastated the Delta's economy. Union naval control of the Mississippi River cut the Delta off from its market. Union raiding parties destroyed plantation infrastructure. Enslaved people escaped to Union lines in large numbers — the Delta's proximity to the river made escape relatively accessible. Emancipation in 1865 eliminated the forced labor system that had built the Delta's economy. Planters faced a crisis: they had the most productive cotton land in America and no labor force to work it. The transition from slavery to sharecropping was improvised under Freedmen's Bureau supervision, with Bureau agents negotiating labor contracts between formerly enslaved people and the planters who had owned them.",
+      "county_specifics": [
+        { "county": "Washington", "note": "Greenville was occupied by Union forces. The Davis Bend colony — an experiment in Black self-governance on the Jefferson Davis plantation — operated nearby." },
+        { "county": "Coahoma", "note": "River-front counties suffered the most from Union raiding. Plantation infrastructure along the Mississippi was heavily damaged." }
+      ],
+      "key_infrastructure": [
+        { "name": "Union control of Mississippi River", "year": 1863, "impact": "The fall of Vicksburg in July 1863 gave the Union complete control of the Mississippi, cutting the Delta off from markets and supply. Cotton that could not be shipped rotted in warehouses." },
+        { "name": "Freedmen's Bureau offices", "year": 1865, "impact": "Bureau offices established in major Delta towns supervised labor contracts, registered marriages, and documented the transition from slavery to freedom." }
+      ],
+      "major_employers": [
+        { "name": "Plantations in crisis — transition to sharecropping", "type": "Private (labor contract under Bureau supervision)", "era": "1865-1870", "counties_affected": ["Washington", "Bolivar", "Coahoma", "Tunica", "Leflore", "Tallahatchie", "Sunflower"], "employment_scale": "Entire labor force in transition" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Freedmen's Bureau labor contract (field hand)", "wage": "$10-$15/month or share of crop (typically one-third)", "year": 1866, "source": "Willis, Forgotten Time (2000)" },
+        { "occupation": "Sharecropper (first contracts)", "wage": "One-third to one-half of crop, minus advances", "year": 1868, "source": "Daniel, Breaking the Land (1985)" }
+      ],
+      "narrative_hook": "When the war ended and {ancestor_name} was free, the question was not what to do but where to do it — the only skills the Delta had taught were cotton skills, the only land available was the same land {pronoun_subject} had worked as an enslaved person, and the new arrangement looked suspiciously like the old one with different paperwork.",
+      "source": "Willis, Forgotten Time (2000). Foner, Eric. Reconstruction: America's Unfinished Revolution, 1863-1877. New York: Harper & Row, 1988."
+    },
+    {
+      "era_id": "sharecropping_establishment",
+      "era_name": "Sharecropping Establishment",
+      "date_range": "1870-1900",
+      "dominant_economy": "Cotton sharecropping; railroad-era expansion; final forest clearing; convict labor",
+      "description": "The sharecropping system solidified in the 1870s-1880s as the Delta's economic framework. Landowners provided land, housing, tools, and seed; sharecroppers provided labor; the crop was divided (typically halves, with the sharecropper's half further reduced by advances charged at the plantation commissary at monopoly prices). The system was designed to keep laborers on the land and in debt — the annual settlement almost always showed the sharecropper owing more than the crop had earned, binding the family to another year's labor. Railroad construction in the 1880s-1890s opened the interior Delta to settlement and accelerated the final clearing of the bottomland forest. Convict laborers — overwhelmingly Black men imprisoned under vagrancy laws — provided additional forced labor for levee construction, railroad building, and forest clearing.",
+      "county_specifics": [
+        { "county": "Sunflower", "note": "Rapid development in the 1880s-1890s with railroad access. Dockery Plantation established as one of the largest operations." },
+        { "county": "Tallahatchie", "note": "Interior clearing accelerated with railroad spur lines. Population boomed as sharecroppers moved in." },
+        { "county": "Leflore", "note": "Greenwood grew as the cotton market center. Cotton exchange established." }
+      ],
+      "key_infrastructure": [
+        { "name": "Yazoo & Mississippi Valley Railroad", "year": "1880s", "impact": "The Y&MV opened the interior Delta, reaching Sunflower and Tallahatchie counties and enabling rapid settlement and cotton production in areas previously inaccessible." },
+        { "name": "Illinois Central Railroad (through Coahoma)", "year": "1880s-1890s", "impact": "The Illinois Central through Clarksdale connected the northern Delta to Memphis and eventually to Chicago — the same line that would carry the Great Migration." },
+        { "name": "Greenwood cotton market", "year": "1880s", "impact": "Greenwood became the largest long-staple cotton market in the United States, setting prices for the entire Delta." }
+      ],
+      "major_employers": [
+        { "name": "Cotton plantations (sharecropping)", "type": "Private plantation", "era": "1870-1900", "counties_affected": ["Washington", "Bolivar", "Coahoma", "Tunica", "Leflore", "Tallahatchie", "Sunflower"], "employment_scale": "Tens of thousands of sharecropper families" },
+        { "name": "Railroad construction crews", "type": "Corporate", "era": "1880-1900", "counties_affected": ["Sunflower", "Tallahatchie", "Leflore", "Humphreys"], "employment_scale": "Hundreds of workers, including convict laborers" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Sharecropper (net after settlement)", "wage": "Typically zero or negative — debt carried to next year", "year": 1890, "source": "Daniel, Breaking the Land (1985)" },
+        { "occupation": "Railroad construction laborer", "wage": "$1.00-$1.50/day", "year": 1890, "source": "Cobb, The Most Southern Place on Earth (1992)" },
+        { "occupation": "Italian immigrant laborer (recruited)", "wage": "$0.75-$1.25/day", "year": 1895, "source": "Cobb, The Most Southern Place on Earth (1992)" }
+      ],
+      "narrative_hook": "By the 1890s, {ancestor_name}'s economic world was the sharecropping system — a year's labor exchanged for a share of the crop that was calculated by the planter, charged against advances set by the planter, and settled in a reckoning that the planter controlled from first to last.",
+      "source": "Daniel, Breaking the Land (1985). Cobb, The Most Southern Place on Earth (1992)."
+    },
+    {
+      "era_id": "peak_cotton_kingdom",
+      "era_name": "Peak Cotton Kingdom",
+      "date_range": "1900-1920",
+      "dominant_economy": "Maximum cotton acreage; peak sharecropper population; Chinese and Italian immigrant communities",
+      "description": "The early twentieth century was the peak of the Delta's cotton economy. Nearly all arable land was cleared and planted. The sharecropper population reached its maximum. Cotton prices were generally favorable. The Delta planter class achieved its greatest wealth and political power. This was also the era when Chinese grocery store owners established themselves as a racial middle ground — not Black, not white, occupying a commercial niche between the planter class and the sharecropper class. Italian immigrants, recruited in the 1890s-1900s to replace Black labor (the planters' perpetual fear was that Black workers would leave), settled in small communities in Coahoma, Washington, and Bolivar counties. Most Italian families eventually entered the planter class themselves.",
+      "county_specifics": [
+        { "county": "Leflore", "note": "Greenwood cotton market at peak volume. Cotton warehouses along the Yazoo handled hundreds of thousands of bales annually." },
+        { "county": "Coahoma", "note": "Clarksdale was the commercial hub of the northern Delta. Chinese groceries established on Issaquena Avenue served the Black community." },
+        { "county": "Washington", "note": "Greenville was the Delta's largest city and cultural center. Chinese community established. Italian immigrants settled along the river." }
+      ],
+      "key_infrastructure": [
+        { "name": "Levee system expansion", "year": "1900-1920", "impact": "Expanded levee system protected more farmland from flooding but created false confidence in flood control — the 1927 catastrophe was amplified by the levee system that concentrated water when it failed." },
+        { "name": "Drainage districts", "year": "1900-1920", "impact": "Organized drainage districts brought marginal swampland into production, expanding cotton acreage but requiring capital investment that only large planters could afford." }
+      ],
+      "major_employers": [
+        { "name": "Cotton plantations (sharecropping at maximum scale)", "type": "Private plantation", "era": "1900-1920", "counties_affected": ["Washington", "Bolivar", "Coahoma", "Tunica", "Leflore", "Tallahatchie", "Sunflower", "Humphreys"], "employment_scale": "Peak — the Delta's population reached its maximum during this period" },
+        { "name": "Chinese-owned grocery stores", "type": "Small commercial", "era": "1900-1960", "counties_affected": ["Coahoma", "Washington", "Bolivar", "Sunflower"], "employment_scale": "Dozens of family-operated stores across the Delta" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Sharecropper (net after settlement)", "wage": "Typically $50-$200/year net — when the arithmetic favored the cropper, which was rare", "year": 1910, "source": "Cobb, The Most Southern Place on Earth (1992)" },
+        { "occupation": "Chinese grocery store owner", "wage": "Variable — served Black sharecropper community with small-margin merchandise", "year": 1910, "source": "Loewen, James W. The Mississippi Chinese: Between Black and White. Cambridge: Harvard University Press, 1971" }
+      ],
+      "narrative_hook": "In the early 1900s, the Delta was the cotton capital of the world — and {ancestor_name}'s labor was the engine of an economy that made planters rich and kept sharecroppers in debt so deep that the only way out was the Illinois Central train heading north.",
+      "source": "Cobb, The Most Southern Place on Earth (1992). Loewen, James W. The Mississippi Chinese: Between Black and White. Cambridge: Harvard University Press, 1971."
+    },
+    {
+      "era_id": "flood_boll_weevil_depression",
+      "era_name": "Triple Crisis — Flood, Boll Weevil, Depression",
+      "date_range": "1920-1940",
+      "dominant_economy": "Boll weevil devastation; Great Mississippi Flood of 1927; Great Depression; New Deal agricultural programs",
+      "description": "Three catastrophes hit the Delta in rapid succession. The boll weevil arrived in the 1910s and reduced cotton yields by 30-70% in affected areas. The Great Mississippi Flood of 1927 devastated the region, destroying crops, livestock, buildings, and infrastructure across all eight counties. The Great Depression collapsed cotton prices to 5 cents per pound — below the cost of production. New Deal agricultural programs (AAA) paid planters to reduce acreage, but the payments went to landowners, not sharecroppers — many planters pocketed the acreage reduction payments and evicted sharecroppers from the land they no longer needed cultivated. These triple disasters accelerated Black out-migration and began the Great Migration's second wave.",
+      "county_specifics": [
+        { "county": "Washington", "note": "The Mounds Landing crevasse (April 21, 1927) was the largest break — a wall of water flooded Washington County and beyond. Greenville was submerged. Black workers were forced to labor on levee repairs at gunpoint and then imprisoned on the levee crown." },
+        { "county": "Bolivar", "note": "Mound Bayou, the all-Black town, was surrounded by floodwater. The town's economic independence — always fragile — was severely damaged." },
+        { "county": "Tunica", "note": "The county's river frontage made it especially vulnerable. The 1927 flood destroyed most of the year's crop." }
+      ],
+      "key_infrastructure": [
+        { "name": "Flood Control Act of 1928", "year": 1928, "impact": "Federal assumption of levee construction and maintenance. The Army Corps of Engineers took over from the state and local levee boards. The modern levee system that protects the Delta dates from this legislation." },
+        { "name": "Agricultural Adjustment Administration (AAA)", "year": 1933, "impact": "AAA acreage reduction payments went to planters, who often evicted sharecroppers from land taken out of production. The program stabilized cotton prices but displaced thousands of Black families." }
+      ],
+      "major_employers": [
+        { "name": "Cotton plantations (declining labor force)", "type": "Private plantation", "era": "1920-1940", "counties_affected": ["Washington", "Bolivar", "Coahoma", "Tunica", "Leflore", "Tallahatchie", "Sunflower", "Humphreys"], "employment_scale": "Declining — out-migration and AAA evictions reduced the workforce" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Sharecropper (Depression era)", "wage": "Near zero — cotton at 5 cents/pound meant that many families' share did not cover the year's advances", "year": 1932, "source": "Daniel, Breaking the Land (1985)" },
+        { "occupation": "WPA worker", "wage": "$21-$30/month", "year": 1936, "source": "Cobb, The Most Southern Place on Earth (1992)" }
+      ],
+      "narrative_hook": "The boll weevil, the flood, and the Depression hit {ancestor_name}'s world in rapid succession — three catastrophes that proved the Delta's cotton monoculture was not an economy but a trap, and the people caught in it had no safety net except the one they carried on the northbound train.",
+      "source": "Barry, Rising Tide (1997). Daniel, Breaking the Land (1985). Cobb, The Most Southern Place on Earth (1992)."
+    },
+    {
+      "era_id": "wwii_mechanization",
+      "era_name": "World War II and Mechanization",
+      "date_range": "1940-1960",
+      "dominant_economy": "Wartime labor shortage; mechanical cotton picker adoption; mass Black out-migration; beginning of economic diversification",
+      "description": "World War II pulled Black workers to northern defense industries, creating labor shortages that accelerated mechanization. The International Harvester mechanical cotton picker, demonstrated at Hopson Plantation near Clarksdale in 1944, could do the work of fifty hand pickers. Delta planters adopted the machine rapidly in the late 1940s-1950s. Mechanization eliminated the economic rationale for maintaining the sharecropper labor force — the machine could pick cotton faster, cheaper, and without the complications of housing, feeding, and controlling a human workforce. The result was a mass displacement of Black families that constituted the final wave of the Great Migration. By 1960, the Delta's population was declining sharply as families left for Chicago, Memphis, Detroit, St. Louis, and other northern cities.",
+      "county_specifics": [
+        { "county": "Coahoma", "note": "Hopson Plantation (near Clarksdale) hosted the 1944 mechanical picker demonstration. Clarksdale's population began declining as sharecroppers left." },
+        { "county": "Sunflower", "note": "Senator Eastland's plantation was among the early adopters of mechanization. Fannie Lou Hamer was a sharecropper here until 1962." },
+        { "county": "Humphreys", "note": "Catfish farming began to emerge as an alternative to cotton on the poorly drained clay soils." }
+      ],
+      "key_infrastructure": [
+        { "name": "Mechanical cotton picker", "year": 1944, "impact": "The machine that ended the sharecropping system. One picker replaced fifty hand pickers. Adoption was rapid across the Delta in the late 1940s-1950s." },
+        { "name": "Illinois Central Railroad (migration artery)", "year": "1940-1960", "impact": "The IC through Clarksdale carried the final wave of the Great Migration. Families boarded at Delta depots and rode to Memphis, then transferred to Chicago-bound trains." }
+      ],
+      "major_employers": [
+        { "name": "Mechanized cotton plantations", "type": "Private plantation", "era": "1945-1960", "counties_affected": ["Washington", "Bolivar", "Coahoma", "Tunica", "Leflore", "Tallahatchie", "Sunflower", "Humphreys"], "employment_scale": "Sharply declining — machines replacing human labor" },
+        { "name": "Northern defense industries (destination employers)", "type": "Industrial", "era": "1941-1945", "counties_affected": ["All — as labor-sending counties"], "employment_scale": "Thousands of Delta workers left for factory jobs in Chicago, Detroit, Memphis, and other cities" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Cotton picker (hand labor)", "wage": "$2.00-$3.00/100 lbs picked", "year": 1950, "source": "Holley, The Second Great Emancipation (2000)" },
+        { "occupation": "Northern factory worker (Great Migration destination)", "wage": "$0.75-$1.25/hour", "year": 1945, "source": "Wilkerson, The Warmth of Other Suns (2010)" }
+      ],
+      "narrative_hook": "The mechanical cotton picker arrived in {ancestor_name}'s world in the late 1940s — a machine that could do in an hour what fifty people did in a day, and its arrival was the Delta's way of saying that the people who had built its wealth were no longer needed.",
+      "source": "Holley, The Second Great Emancipation (2000). Wilkerson, The Warmth of Other Suns (2010). Cobb, The Most Southern Place on Earth (1992)."
+    }
+  ],
+  "economic_turning_points": [
+    { "year": 1830, "event": "Treaty of Dancing Rabbit Creek opens Delta to American settlement", "impact": "Choctaw removal clears the land for cotton plantation development." },
+    { "year": 1863, "event": "Fall of Vicksburg — Union controls Mississippi River", "impact": "Delta cotton economy collapses as river commerce ceases." },
+    { "year": 1865, "event": "Emancipation", "impact": "End of slavery eliminates the Delta's forced labor system. Sharecropping emerges as the replacement." },
+    { "year": 1884, "event": "Yazoo & Mississippi Valley Railroad reaches interior Delta", "impact": "Opens Sunflower, Tallahatchie, and interior counties to settlement and cotton production." },
+    { "year": 1887, "event": "Founding of Mound Bayou", "impact": "Isaiah T. Montgomery establishes an all-Black town — the most significant experiment in Black economic self-determination in the Delta." },
+    { "year": 1910, "event": "Boll weevil arrives in Mississippi", "impact": "Cotton yields decline 30-70% in affected areas, beginning the Delta's agricultural crisis." },
+    { "year": 1927, "event": "Great Mississippi Flood", "impact": "Catastrophic levee failures devastate all eight counties. Accelerates Black out-migration." },
+    { "year": 1933, "event": "AAA acreage reduction program", "impact": "Planters receive payments to reduce cotton acreage; sharecroppers are evicted from land taken out of production." },
+    { "year": 1944, "event": "Mechanical cotton picker demonstrated at Hopson Plantation", "impact": "Machine that replaces fifty hand pickers begins the end of the sharecropping system." },
+    { "year": 1955, "event": "Murder of Emmett Till and Reverend George Lee", "impact": "Racial violence and the failures of justice accelerate out-migration and galvanize the civil rights movement." }
+  ],
+  "narrative_hooks": [
+    "The Delta's economy was built on cotton and coercion — {ancestor_name}'s labor produced wealth that was measured in cotton bales and distributed in a settlement that was calculated by someone else.",
+    "When the boll weevil, the flood, and the Depression hit the Delta in sequence, {ancestor_name} discovered that a one-crop economy is a one-crisis economy — and the Delta had three crises in a row.",
+    "The mechanical cotton picker was the machine that ended the Delta as {ancestor_name} knew it — one machine replacing fifty people, converting a labor problem into a labor surplus overnight.",
+    "The Chinese grocery store on the corner of {ancestor_name}'s community was a strange feature of the Delta's racial landscape — a third group, neither Black nor white, occupying a commercial space that the racial binary could not quite categorize.",
+    "Mound Bayou proved that Black self-governance worked — but the all-Black town's fragile economy within the Delta's planter-controlled system meant that independence was always conditional.",
+    "The Illinois Central Railroad that ran through {ancestor_name}'s county carried cotton south to market and carried people north to freedom — the same steel rails serving two entirely different purposes."
+  ],
+  "source_references": [
+    "Cobb, James C. The Most Southern Place on Earth: The Mississippi Delta and the Roots of Regional Identity. New York: Oxford University Press, 1992.",
+    "Johnson, Walter. River of Dark Dreams: Slavery and Empire in the Cotton Kingdom. Cambridge: Harvard University Press, 2013.",
+    "Daniel, Pete. Breaking the Land: The Transformation of Cotton, Tobacco, and Rice Cultures since 1880. Urbana: University of Illinois Press, 1985.",
+    "Barry, John M. Rising Tide: The Great Mississippi Flood of 1927 and How It Changed America. New York: Simon & Schuster, 1997.",
+    "Willis, John C. Forgotten Time: The Yazoo-Mississippi Delta after the Civil War. Charlottesville: University Press of Virginia, 2000.",
+    "Holley, Donald. The Second Great Emancipation: The Mechanical Cotton Picker, Black Migration, and How They Shaped the Modern South. Fayetteville: University of Arkansas Press, 2000.",
+    "Wilkerson, Isabel. The Warmth of Other Suns: The Epic Story of America's Great Migration. New York: Random House, 2010.",
+    "Loewen, James W. The Mississippi Chinese: Between Black and White. Cambridge: Harvard University Press, 1971.",
+    "McMillen, Neil R. Dark Journey: Black Mississippians in the Age of Jim Crow. Urbana: University of Illinois Press, 1989.",
+    "Foner, Eric. Reconstruction: America's Unfinished Revolution, 1863-1877. New York: Harper & Row, 1988."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["domestic_slave_trade", "reconstruction_era", "great_migration", "stayed_and_adapted", "gilded_age_labor_conflict"],
+    "material_life_refs": ["sharecropper_cabin_1865_1940", "postbellum_southern_farm_1865_1910", "great_depression_urban_1929_1941"],
+    "wage_table_refs": ["southern_agricultural_wages"]
+  }
+}

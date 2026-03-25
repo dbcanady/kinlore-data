@@ -1,0 +1,119 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Dare County, NC. Record survival, courthouse history. Roanoke Island, Outer Banks, Freedmen's Colony records.",
+  "courthouse_atlas_id": "nc_dare_courthouse",
+  "display_name": "Dare County, North Carolina — Courthouse Atlas",
+  "county": "Dare",
+  "state": "NC",
+  "fips_code": "37055",
+  "cluster_ref": "ne_nc_tidewater_albemarle",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1904,
+      "location": "Manteo, NC — Budleigh Street, Roanoke Island",
+      "records_housed": ["deeds", "plats", "vital records indexes", "court minutes", "estate files"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1870–1904",
+        "location": "Manteo, NC — earlier frame courthouse. Dare County was not created until 1870, carved from Currituck, Hyde, and Tyrrell counties.",
+        "fate": "Replaced by the 1904 building. Records transferred."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "dare_late_formation",
+      "date": null,
+      "cause": "Late county formation — records prior to 1870 are in parent counties",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1870", "court minutes from 1870", "marriage records from 1870"],
+      "scope": "structural",
+      "description": "Dare County was created in 1870, so county-level records begin at that date. For the period before 1870, records for the Dare County area are scattered across the parent counties — Currituck (for the northern Outer Banks), Hyde (for Hatteras area), and Tyrrell (for Roanoke Island). No significant loss event has occurred since county formation.",
+      "narrative_impact": "If {ancestor_name} lived on Roanoke Island or the Outer Banks before 1870, the county records are in Currituck, Hyde, or Tyrrell — not Dare. This is a jurisdictional issue, not a record loss. After 1870, Dare County records are intact.",
+      "source": "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh, 2001."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1870,
+      "completeness": "Good — continuous from county formation. Pre-1870 deeds in parent county records.",
+      "gaps": "No gaps in Dare County records. For pre-1870 land transactions on the Outer Banks, check Currituck, Hyde, and Tyrrell deed books.",
+      "repository": "Dare County Register of Deeds, Manteo; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com NC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1870,
+      "completeness": "Good — from county formation",
+      "gaps": "Pre-1870 estates in parent county records.",
+      "repository": "Dare County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1870,
+      "completeness": "Good — from county formation. Small population means relatively few marriage records.",
+      "gaps": "Pre-1870 marriages in parent county records.",
+      "repository": "Dare County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com NC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1870,
+      "completeness": "Good — from county formation",
+      "gaps": "Pre-1870 court records in parent counties.",
+      "repository": "NC State Archives; Dare County Clerk of Court",
+      "online_access": "NC State Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Very spotty until the 1930s. Outer Banks isolation meant many events went unregistered even after the state requirement.",
+      "repository": "NC Office of Vital Records; NC State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Freedmen's Colony records (Roanoke Island, 1862-1867)",
+      "description": "The Roanoke Island Freedmen's Colony, established after the Burnside Expedition captured the island in 1862, generated records for over 3,000 formerly enslaved people. Freedmen's Bureau correspondence, colony census, church records, school enrollments, and labor contracts document this community in detail.",
+      "repository": "National Archives (Record Group 105, Freedmen's Bureau; Record Group 393, Union Army records); NC State Archives",
+      "era_coverage": "1862-1867",
+      "genealogical_value": "Critical for Black families in the Albemarle. The Freedmen's Colony records may be the first documents naming formerly enslaved people as free individuals with family relationships. Colony census records, unlike regular census, sometimes note place of origin — allowing researchers to trace families back to specific plantations.",
+      "source": "Click, Patricia C. Time Full of Trial: The Roanoke Island Freedmen's Colony, 1862-1867. Chapel Hill: UNC Press, 2001."
+    },
+    {
+      "source_type": "U.S. Life-Saving Service / Coast Guard records",
+      "description": "Multiple life-saving stations operated along the Dare County coast. Station logs name local surfmen and document daily operations in detail.",
+      "repository": "National Archives (Record Group 26); Coast Guard Historian's Office",
+      "era_coverage": "1874-present",
+      "genealogical_value": "Outer Banks families supplied most of the surfmen. Station logs provide employment records that are otherwise nonexistent for the Banks community.",
+      "source": "National Archives, RG 26. Records of the U.S. Coast Guard."
+    },
+    {
+      "source_type": "Parent county records (Currituck, Hyde, Tyrrell)",
+      "description": "Before Dare County's creation in 1870, land, probate, and court records for the Outer Banks and Roanoke Island are scattered across three parent counties.",
+      "repository": "Currituck, Hyde, and Tyrrell County courthouses; NC State Archives",
+      "era_coverage": "Pre-1870",
+      "genealogical_value": "Essential for any pre-1870 research. Researchers must check all three parent counties — the jurisdictional boundaries before 1870 do not match modern county lines exactly.",
+      "source": "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh, 2001."
+    }
+  ],
+  "narrative_hooks": [
+    "Dare County was not created until 1870 — if {ancestor_name} lived on Roanoke Island or the Outer Banks before that date, the records are in Currituck, Hyde, or Tyrrell County, not Dare.",
+    "For formerly enslaved ancestors who fled to Roanoke Island during the Civil War, the Freedmen's Colony records at the National Archives may be the first documents that treat {ancestor_name} as a named, free person with a family.",
+    "Dare County's vital records before the 1930s are extremely thin — births on the Outer Banks often went unregistered. The census, church records, and Life-Saving Service station logs are the likeliest alternatives.",
+    "If {ancestor_name} was a surfman at a Dare County life-saving station, the station log documents {pronoun_possessive} service day by day — one of the most detailed employment records available for any Outer Banks family.",
+    "The Roanoke Island Freedmen's Colony records sometimes note where formerly enslaved people came from — if {ancestor_name} arrived at the colony, the colony census may trace the family back to a specific Albemarle plantation."
+  ],
+  "source_references": [
+    "Click, Patricia C. Time Full of Trial: The Roanoke Island Freedmen's Colony, 1862-1867. Chapel Hill: University of North Carolina Press, 2001.",
+    "Stick, David. The Outer Banks of North Carolina, 1584-1958. Chapel Hill: University of North Carolina Press, 1958.",
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "National Archives, RG 26. Records of the U.S. Coast Guard.",
+    "Records of the Bureau of Refugees, Freedmen, and Abandoned Lands. National Archives, RG 105."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_dare",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records", "freedmens_bureau_research"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Lowndes County, GA. Record survival, courthouse history, and known losses. Lowndes County, formed 1825, has experienced courthouse fires that destroyed portions of early records. Valdosta became the county seat in 1860 when the railroad bypassed the original seat at Troupville.",
+  "courthouse_atlas_id": "ga_lowndes_courthouse",
+  "display_name": "Lowndes County, Georgia — Courthouse Atlas",
+  "county": "Lowndes",
+  "state": "GA",
+  "fips_code": "13185",
+  "cluster_ref": "ga_wiregrass_coastal_plain",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1905, "location": "Valdosta, GA — courthouse square (renovated 1942, 1990s)", "records_housed": ["deeds", "marriage licenses", "probate records", "court minutes"] },
+    "previous_courthouses": [
+      { "era": "1825-1860", "location": "Troupville, GA (original county seat, on Withlacoochee River)", "fate": "County seat moved to Valdosta in 1860 when the Atlantic and Gulf Railroad bypassed Troupville. Some records transferred; some lost in the move." },
+      { "era": "1860-1905", "location": "Valdosta, GA — original courthouse", "fate": "Replaced by current courthouse in 1905. No fire or destruction." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "lowndes_troupville_move_1860",
+      "date": "1860",
+      "cause": "County seat relocation from Troupville to Valdosta",
+      "records_destroyed": ["Some early deed books reported incomplete", "Early court minutes may have gaps"],
+      "records_survived": ["Most deed records from 1825 transferred successfully", "Marriage records", "Probate records"],
+      "scope": "partial",
+      "description": "When the county seat moved from Troupville to Valdosta in 1860 to be on the railroad, records were physically moved by wagon. Some early volumes were reportedly lost or damaged in transit. The exact scope of loss is unclear — records from the 1825-1840 period are thinner than expected, suggesting either poor initial record-keeping (plausible for a frontier county) or loss during the move.",
+      "narrative_impact": "If {ancestor_name} was in Lowndes County before 1840, the surviving records may be incomplete. The county seat move in 1860 was driven by the railroad — the old seat at Troupville was abandoned when the tracks went through Valdosta instead, and some of the county's earliest paper history went with it.",
+      "source": "GA Department of Archives and History. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1827, "completeness": "Good from late 1820s with possible gaps in earliest volumes", "gaps": "Some early deed book pages missing or illegible. Continuous from 1840s forward.", "repository": "Lowndes County Clerk of Superior Court; GA Archives microfilm", "online_access": "FamilySearch microfilm; some Ancestry.com coverage" },
+    "wills_estates": { "earliest_surviving": 1828, "completeness": "Good. Estate inventories document the shift from subsistence farming to turpentine and commercial agriculture.", "gaps": "Early volumes thin but present.", "repository": "Lowndes County Probate Court; GA Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1852, "completeness": "Good from 1852. Earlier marriages not systematically recorded.", "gaps": "Pre-1852 marriages largely unrecorded at county level. Church records and family Bibles are the only source for pre-1852 marriages.", "repository": "Lowndes County Probate Court", "online_access": "FamilySearch; Ancestry.com GA marriages" },
+    "court_minutes": { "earliest_surviving": 1830, "completeness": "Fair. Some early volumes may have been lost in the county seat move.", "gaps": "Possible gap 1825-1830.", "repository": "Lowndes County Clerk of Superior Court; GA Archives", "online_access": "GA Archives microfilm" },
+    "vital_records": { "birth_registration_start": 1919, "death_registration_start": 1919, "completeness": "Spotty until mid-1920s. Rural births especially underregistered.", "repository": "GA Department of Public Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "Georgia Land Lottery records (1820, 1821, 1827 lotteries)", "description": "Lowndes County was formed from territory distributed in the 1820-1821 and 1827 Land Lotteries. The lottery records identify fortunate drawers by name, county of registration, and lot number — a near-complete census of eligible white males at the time of the drawing.", "repository": "GA Department of Archives and History — Land Lottery records", "era_coverage": "1820-1830", "genealogical_value": "Essential for establishing who received land grants in the area that became Lowndes County. Cross-reference with early tax digests to determine who actually settled on their grants versus who sold them.", "source": "Cadle, Georgia Land Surveying History and Law (1991)." },
+    { "source_type": "Huxford's Pioneers of Wiregrass Georgia", "description": "Folks Huxford's multi-volume compilation of Wiregrass families includes extensive biographical and genealogical data drawn from county records, family papers, and personal interviews. Covers Lowndes County families extensively.", "repository": "Available in major Georgia libraries; Huxford Genealogical Society, Homerville, GA", "era_coverage": "1820-1920", "genealogical_value": "One of the most comprehensive compiled genealogies for any Georgia region. Huxford documented families that left no other written record. Use with caution — some entries are from family tradition and may contain errors.", "source": "Huxford, Folks. Pioneers of Wiregrass Georgia. 10 vols. Waycross, GA: Huxford Genealogical Society, 1951-1975." },
+    { "source_type": "Federal census schedules and slave schedules", "description": "Population schedules 1830-1940. Slave schedules 1850, 1860.", "repository": "National Archives; FamilySearch; Ancestry.com", "era_coverage": "1830-1940", "genealogical_value": "Essential. The 1850 and 1860 slave schedules for Lowndes County document the enslaved population by age, sex, and color, listed under the enslaver's name. Cross-referencing with Freedmen's Bureau records post-1865 can link enslaved individuals to names.", "source": "National Archives and Records Administration." }
+  ],
+  "narrative_hooks": [
+    "Lowndes County moved its courthouse from Troupville to Valdosta in 1860 because the railroad bypassed the old town — and some of {ancestor_name}'s earliest records may have been lost in the wagon that carried the county's paper history down a sandy Wiregrass road.",
+    "If {ancestor_name} was in Lowndes County before 1840, the surviving records are thin — whether from a frontier county that kept poor records or from losses in the county seat move, the result is a gap that forces the genealogist to work from tax digests, lottery records, and Huxford's compilations.",
+    "The Land Lottery records are the gateway to Lowndes County — if {ancestor_name} drew a lot in the 1820 or 1821 lottery, the record documents {pronoun_possessive} county of origin, eligibility class, and the specific parcel of Wiregrass land that became {pronoun_possessive} claim.",
+    "Huxford's Pioneers of Wiregrass Georgia may be the only place {ancestor_name}'s family appears in print — a compiled genealogy drawn from records, interviews, and family memory that documented families the courthouse records missed."
+  ],
+  "source_references": [
+    "GA Department of Archives and History. Guide to County Records.",
+    "Cadle, Farris W. Georgia Land Surveying History and Law. University of Georgia Press, 1991.",
+    "Huxford, Folks. Pioneers of Wiregrass Georgia. 10 vols. Waycross, GA: Huxford Genealogical Society, 1951-1975.",
+    "Works Progress Administration. Historical Records Survey: Georgia. Atlanta, 1937-1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ga_lowndes",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

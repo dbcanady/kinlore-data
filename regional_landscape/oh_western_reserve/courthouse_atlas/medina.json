@@ -1,0 +1,116 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Medina County, OH. Organized 1812 from the original Western Reserve territory. Record survival is excellent from formation. Medina County's agricultural character means property records are the richest source — farmers bought, sold, and willed land in ways that factory workers did not.",
+  "courthouse_atlas_id": "oh_medina_courthouse",
+  "display_name": "Medina County, Ohio — Courthouse Atlas",
+  "county": "Medina",
+  "state": "OH",
+  "fips_code": "39103",
+  "cluster_ref": "oh_western_reserve",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1841,
+      "location": "Medina, OH — 93 Public Square (one of the oldest continuously used courthouses in Ohio, with later additions and renovations)",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1812–1841",
+        "location": "Medina, log and frame buildings on the square",
+        "fate": "Early temporary quarters. The current building has served since 1841, making it among the oldest courthouses in Ohio."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "medina_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire. The 1841 courthouse is still standing.",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "marriage records", "probate records", "court minutes"],
+      "scope": "none",
+      "description": "Medina County's courthouse has served continuously since 1841 and has not experienced a significant fire. Records run from the county's 1812 organization. The agricultural character of the county means deed records and probate records are particularly rich — farm families generated a steady flow of land transactions and estate settlements.",
+      "narrative_impact": "{ancestor_name}'s records in Medina County almost certainly survive — and if the family owned farmland, the deed books and probate records tell the story of every purchase, every inheritance, and every division among the heirs.",
+      "source": "Ohio History Connection. Guide to County Records in Ohio."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1812,
+      "completeness": "Excellent from county organization",
+      "gaps": "None known.",
+      "repository": "Medina County Recorder; Ohio History Connection microfilm",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1812,
+      "completeness": "Excellent — probate records are particularly rich in an agricultural county where land was the primary asset.",
+      "gaps": "None significant.",
+      "repository": "Medina County Probate Court; Ohio History Connection",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1812,
+      "completeness": "Excellent from formation",
+      "gaps": "None known.",
+      "repository": "Medina County Probate Court; Ohio History Connection",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1812,
+      "completeness": "Good from formation",
+      "gaps": "None significant.",
+      "repository": "Medina County Clerk of Courts",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1867,
+      "death_registration_start": 1867,
+      "completeness": "Ohio statewide; compliance poor until approximately 1908.",
+      "repository": "Ohio Department of Health"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Congregational and Presbyterian church records",
+      "description": "New England settlers established Congregational and Presbyterian churches in every township. Records supplement civil records for the pre-1867 vital records gap.",
+      "repository": "Individual congregations; Western Reserve Historical Society",
+      "era_coverage": "1810s–present",
+      "genealogical_value": "Primary vital record substitute before 1867. Church membership and dismissal records track migration.",
+      "source": "History of Medina County (1881)."
+    },
+    {
+      "source_type": "A.I. Root Company records",
+      "description": "The A.I. Root Company (beekeeping supplies, founded 1869) maintained business records including employee lists, customer records, and the subscriber lists for Gleanings in Bee Culture magazine.",
+      "repository": "Medina County Historical Society; company records (disposition varies)",
+      "era_coverage": "1869–present",
+      "genealogical_value": "Employee records identify local workers. Subscriber and customer lists identify beekeeping families across the county and region.",
+      "source": "Root, The ABC and XYZ of Bee Culture."
+    },
+    {
+      "source_type": "Medina County Agricultural Society records",
+      "description": "The county agricultural society held annual fairs from the 1840s. Fair premiums, exhibitor lists, and society minutes document farming families.",
+      "repository": "Medina County Historical Society",
+      "era_coverage": "1840s–present",
+      "genealogical_value": "Exhibitor lists name farming families and their specialties. Premium records identify the most productive farms and connect families to specific agricultural practices.",
+      "source": "History of Medina County (1881)."
+    }
+  ],
+  "narrative_hooks": [
+    "Medina County's courthouse has stood on the public square since 1841 — one of the oldest in Ohio — and {ancestor_name}'s records survive from the county's 1812 formation.",
+    "In a farming county like Medina, the deed books tell the family story — every purchase, every mortgage, every estate division reveals how {ancestor_name}'s family built, maintained, or lost their land.",
+    "Ohio's vital registration gap before 1867 matters here — for {ancestor_name} before that date, Medina County's Congregational and Presbyterian churches are the primary substitute.",
+    "The A.I. Root Company records may identify {ancestor_name} as a beekeeper, customer, or employee — an unusual genealogical source specific to Medina County."
+  ],
+  "source_references": [
+    "Ohio History Connection. Guide to County Records in Ohio. Columbus, 2015.",
+    "History of Medina County and Ohio. Chicago: Baskin & Battey, 1881.",
+    "Root, A.I. The ABC and XYZ of Bee Culture. Medina, OH: A.I. Root Co., 1877."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "oh_medina",
+    "research_guidance_refs": ["church_transfers", "property_records"],
+    "template_refs": ["record_silences"]
+  }
+}

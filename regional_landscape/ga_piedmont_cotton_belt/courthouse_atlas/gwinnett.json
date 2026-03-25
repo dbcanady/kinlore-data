@@ -1,0 +1,116 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Gwinnett County, GA. Record survival, courthouse history, and known losses. Gwinnett's courthouse burned in 1871, destroying many early records. The Georgia Land Lottery records — held at the state level — are essential substitutes for county-level losses.",
+  "courthouse_atlas_id": "ga_gwinnett_courthouse",
+  "display_name": "Gwinnett County, Georgia — Courthouse Atlas",
+  "county": "Gwinnett",
+  "state": "GA",
+  "fips_code": "13135",
+  "cluster_ref": "ga_piedmont_cotton_belt",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1885,
+      "location": "Lawrenceville, GA — courthouse square",
+      "records_housed": ["deeds (post-1871)", "marriage licenses", "probate records", "court minutes (post-1871)"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1818–1871",
+        "location": "Lawrenceville, GA",
+        "fate": "BURNED — 1871 courthouse fire destroyed the building and most records from the county's first fifty-three years. This fire is the defining record loss for Gwinnett County genealogists."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "gwinnett_1871_fire",
+      "date": "1871",
+      "cause": "Courthouse fire",
+      "records_destroyed": ["deed books (1818-1871)", "court minutes (1818-1871)", "many probate records (1818-1871)", "tax digests (partial)"],
+      "records_survived": ["some deed books reconstructed from grantor/grantee memory and re-recording", "state-level Land Lottery records (held in Milledgeville and Atlanta)", "federal census schedules (held at National Archives)"],
+      "scope": "severe",
+      "description": "The 1871 courthouse fire destroyed most of Gwinnett County's records from its 1818 formation. Deed books, court minutes, and probate files from the county's first fifty-three years were lost. Some deeds were reconstructed from the parties' copies and re-recorded, but the reconstruction is incomplete. Georgia Land Lottery records, held at the state level, survive and are essential for establishing early land ownership.",
+      "narrative_impact": "If {ancestor_name} lived in Gwinnett County before 1871, the courthouse fire likely destroyed {pronoun_possessive} deed records, court appearances, and probate filings. The absence of records is not evidence of absence — it is evidence of fire. Georgia Land Lottery records at the state archives and federal census schedules are the primary substitutes.",
+      "source": "GA Department of Archives and History. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": "1871 (some reconstructed pre-1871 deeds)",
+      "completeness": "Incomplete before 1871 due to fire. Continuous series from 1871 forward.",
+      "gaps": "Major gap: 1818-1871. Some deeds re-recorded from private copies after the fire, but coverage is fragmentary.",
+      "repository": "Gwinnett County Clerk of Superior Court; GA Department of Archives and History microfilm",
+      "online_access": "FamilySearch microfilm; limited Ancestry.com collections"
+    },
+    "wills_estates": {
+      "earliest_surviving": "1871 (fragmentary earlier material)",
+      "completeness": "Poor before 1871. Good from 1871 forward.",
+      "gaps": "1818-1871 largely destroyed in the fire.",
+      "repository": "Gwinnett County Probate Court; GA Department of Archives and History",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": "1871",
+      "completeness": "Poor before 1871. Georgia did not have a statewide marriage license requirement until 1805 (county ordinaries issued licenses). Pre-1871 records destroyed.",
+      "gaps": "1818-1871 destroyed.",
+      "repository": "Gwinnett County Probate Court",
+      "online_access": "FamilySearch; Ancestry.com GA marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": "1871",
+      "completeness": "Missing before 1871. Good from 1871 forward.",
+      "gaps": "1818-1871 destroyed in fire.",
+      "repository": "Gwinnett County Clerk of Superior Court; GA Department of Archives and History",
+      "online_access": "Limited digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1919,
+      "death_registration_start": 1919,
+      "completeness": "Spotty until the mid-1920s. Georgia began statewide vital registration in 1919.",
+      "repository": "GA Department of Public Health; GA Department of Archives and History for delayed certificates"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Georgia Land Lottery records",
+      "description": "Georgia's unique Land Lottery system (1805, 1807, 1820, 1821, 1827, 1832) distributed public land by lottery rather than headright. The lottery records — listing the drawer's name, county of residence, district and lot drawn — survive at the state level and are ESSENTIAL for Gwinnett County research, especially given the 1871 courthouse fire.",
+      "repository": "GA Department of Archives and History, Morrow, GA. Published in Cadle, Farris W., Georgia Land Surveying History and Law (1991). Also in Wood, Virginia Steele, and Ralph Van Wood, 1805 Georgia Land Lottery (1964) and subsequent lottery volumes.",
+      "era_coverage": "1805-1832",
+      "genealogical_value": "Critical. The lottery records establish where a person lived at the time of the drawing AND what land they received. For Gwinnett County, the 1820 and 1821 lotteries are the most relevant. These records partially compensate for the lost courthouse records.",
+      "source": "Cadle, Farris W. Georgia Land Surveying History and Law. University of Georgia Press, 1991."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1820-1940 (Gwinnett first enumerated 1820). Slave schedules 1850-1860. Agricultural schedules 1850-1880.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1820-1940",
+      "genealogical_value": "Essential — the census may be the only surviving record for families whose courthouse records were destroyed in 1871.",
+      "source": "National Archives and Records Administration."
+    },
+    {
+      "source_type": "Church records",
+      "description": "Baptist and Methodist churches dominated Gwinnett County. Church minute books, membership rolls, and baptism/marriage records supplement the lost civil records.",
+      "repository": "Individual congregations; Mercer University Special Collections (Baptist); Pitts Theology Library, Emory University (Methodist)",
+      "era_coverage": "1820s-present",
+      "genealogical_value": "Valuable for documenting families in the gap created by the 1871 fire. Baptist church minutes are particularly detailed — membership, dismissals, discipline.",
+      "source": "Mercer University Baptist Heritage archives."
+    }
+  ],
+  "narrative_hooks": [
+    "The Gwinnett County courthouse burned in 1871, taking fifty-three years of records with it. If {ancestor_name}'s deeds, wills, or court records are missing before that date, the fire is the explanation — not the ancestor's absence.",
+    "The Georgia Land Lottery records survive at the state level and are the best substitute for {ancestor_name}'s lost Gwinnett County courthouse records — they show who drew what land, even when the county's own deeds are ash.",
+    "Georgia did not require birth or death registration until 1919, so the absence of a birth certificate for {ancestor_name} before that date is standard — census records, church records, and family Bibles are the substitutes.",
+    "If {ancestor_name} was in Gwinnett County before 1871, the federal census may be the only surviving government record — because the courthouse fire destroyed everything the county had created."
+  ],
+  "source_references": [
+    "GA Department of Archives and History. Guide to County Records in the Georgia State Archives.",
+    "Cadle, Farris W. Georgia Land Surveying History and Law. Athens: University of Georgia Press, 1991.",
+    "Works Progress Administration. Historical Records Survey: Georgia County Records. Atlanta, 1937-1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ga_gwinnett",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

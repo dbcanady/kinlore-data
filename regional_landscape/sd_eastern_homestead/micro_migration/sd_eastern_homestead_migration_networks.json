@@ -1,0 +1,210 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Micro-Migration Network Map for the SD Eastern Homestead regional cluster. Documents specific migration corridors, chain-migration mechanics, internal movement patterns, and ethnic settlement clusters that moved people into, out of, and within this eight-county region from 1858 to 1940.",
+  "migration_network_id": "sd_eastern_homestead_migration_networks",
+  "display_name": "SD Eastern Homestead — Micro-Migration Network Map",
+  "cluster_ref": "sd_eastern_homestead",
+  "era_range": "1858-1940",
+
+  "migration_corridors": [
+    {
+      "corridor_id": "upper_midwest_yankee_pipeline",
+      "corridor_name": "Upper Midwest Yankee Pipeline: Iowa, Minnesota, Wisconsin to Eastern SD",
+      "origin_area": "Iowa (especially northwestern counties), Minnesota (southern tier), Wisconsin",
+      "destination_counties": ["Minnehaha", "Brookings", "Beadle", "Brown", "Codington", "Davison"],
+      "era": "1878-1895",
+      "migration_type": "chain_migration",
+      "scale": "Tens of thousands of families. The majority of non-immigrant settlers in the cluster came from the upper Midwest — families who had homesteaded in Iowa or Minnesota a generation earlier and moved west as land became scarce and expensive.",
+      "evidence": {
+        "census_evidence": "1880, 1900 federal census shows high concentrations of Iowa-born, Minnesota-born, and Wisconsin-born adults in all eight counties. Parents born in upper Midwest states, children born in Dakota Territory — indicating family-unit westward migration.",
+        "church_evidence": "Methodist and Baptist church records show letters of dismissal from Iowa and Minnesota congregations received at new SD congregations. Lutheran church records show similar transfers within Scandinavian-American denominational networks.",
+        "surname_clustering": "Anglo-American surnames common in northwestern Iowa (1870 census) reappear in Minnehaha, Brookings, and Beadle county records by 1885 at rates indicating organized chain migration.",
+        "newspaper_evidence": "Railroad promotional literature targeted upper Midwest farm families. Aberdeen and Huron newspapers printed 'arrivals' columns listing families from specific Iowa and Minnesota counties."
+      },
+      "chain_mechanics": {
+        "description": "The pattern was generational leapfrog: a family that had homesteaded in Iowa in the 1850s-1860s saw their children face a choice between subdividing the Iowa farm or moving west to cheap Dakota land. The railroad land departments actively recruited in Iowa and Minnesota, offering excursion fares and guided tours of Dakota homestead country. Sons who scouted the territory wrote letters home describing the land, and siblings, cousins, and neighbors followed within 1-3 years.",
+        "kinship_role": "Sibling chains were the primary mechanism. An older son filed a homestead claim, proved up, and then encouraged younger siblings to file on adjacent or nearby quarter-sections. The result was family clusters — three or four related families on contiguous claims.",
+        "timeline": "Pioneer families 1878-1882; peak chain migration 1882-1887; bust-era reversal (some families returned to Iowa) 1888-1895."
+      },
+      "narrative_hook": "When {ancestor_name} left {origin_state} for Dakota Territory in the {decade}s, {pronoun_subject} followed a path already worn by kin — a brother or cousin who had gone first, filed a claim, and written home to say the land was good and the railroad was close.",
+      "source": "Schell, History of South Dakota, chs. 11-13. Lauck, Prairie Republic, ch. 2."
+    },
+    {
+      "corridor_id": "scandinavian_chain_migration",
+      "corridor_name": "Scandinavian Chain Migration: Norway and Sweden via Minneapolis to Eastern SD",
+      "origin_area": "Norway (especially southern and western provinces: Telemark, Rogaland, Hordaland, Sogn og Fjordane), Sweden (Smaland, Dalarna, Varmland). Staging through Minneapolis-St. Paul and existing Scandinavian settlements in Minnesota and Iowa.",
+      "destination_counties": ["Minnehaha", "Brookings", "Codington", "Brown", "Beadle"],
+      "era": "1879-1910",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of families. Scandinavians were the largest immigrant group in the cluster. Norwegian and Swedish settlers formed distinct community clusters, often organized around Lutheran parishes that replicated home-parish networks.",
+      "evidence": {
+        "census_evidence": "1880-1910 federal census shows heavy concentration of Norwegian-born and Swedish-born adults in Minnehaha, Brookings, Codington, and Brown counties. Norwegian-born residents in Codington County exceeded 15% of the population in 1890.",
+        "church_evidence": "Norwegian Lutheran and Swedish Lutheran parish records in the cluster frequently note members' parish of origin in Scandinavia. Congregations were often founded by settlers from a single Norwegian bygd (rural district) or Swedish parish.",
+        "surname_clustering": "Norwegian patronymic surnames (Olson, Larson, Hanson, Johnson — often anglicized from Olsen, Larsen) cluster heavily in township-level census data, indicating settlement by extended kinship networks from specific Norwegian districts.",
+        "newspaper_evidence": "Skandinaven (Chicago Norwegian-language newspaper) and Minneapolis Norwegian-language papers carried advertisements for Dakota homestead land and letters from settlers describing conditions."
+      },
+      "chain_mechanics": {
+        "description": "Scandinavian chain migration to eastern SD followed a well-documented pattern: a young man emigrated from Norway or Sweden, worked as a farm laborer in Minnesota or Iowa for 1-3 years (learning English, saving money, and gaining American farming experience), then filed a homestead claim in Dakota Territory. Once established, he sent for a wife (often from the home parish) and wrote to relatives in Norway/Sweden encouraging emigration. The result was township-sized clusters of families from the same Norwegian bygd or Swedish parish, served by a Lutheran congregation that replicated the home church.",
+        "kinship_role": "Parish-based and kinship-based simultaneously. The Norwegian bygdelag (home-district association) system maintained ties between emigrants from the same parish across multiple American settlements. A letter from a cousin in Brookings County carried more weight than any railroad advertisement.",
+        "timeline": "Pioneer families 1879-1883; peak chain migration 1883-1890; continued immigration (declining rate) 1890-1910; immigration effectively ended by WWI."
+      },
+      "narrative_hook": "When {ancestor_name} left {origin_parish} in Norway for Dakota Territory, {pronoun_subject} did not go into the unknown — {pronoun_subject} went to a place where cousins from the same valley had already built a church that held services in Norwegian and named the township after a mountain back home.",
+      "source": "Qualey, Carlton C. Norwegian Settlement in the United States. Northfield, MN: Norwegian-American Historical Association, 1938. Gjerde, Jon. From Peasants to Farmers: The Migration from Balestrand, Norway, to the Upper Middle West. Cambridge: Cambridge University Press, 1985."
+    },
+    {
+      "corridor_id": "german_russian_colonies",
+      "corridor_name": "German-Russian Colony Migration: Black Sea and Volga Colonies to Central SD",
+      "origin_area": "German colonies in southern Russia (Black Sea region: Odessa, Kherson, Tavrida; Volga region). Via direct transatlantic passage and brief staging in established German-Russian communities in western Iowa and Nebraska.",
+      "destination_counties": ["Brown", "Beadle", "Davison", "Minnehaha"],
+      "era": "1873-1910",
+      "migration_type": "colony_migration",
+      "scale": "Thousands of families. German-Russians settled in tight ethnic clusters, often establishing entire townships as German-speaking communities. They were the second-largest immigrant group in the cluster after Scandinavians.",
+      "evidence": {
+        "census_evidence": "1880-1910 census shows adults born in 'Russia' who spoke German at home — the census category captured German-Russian identity imperfectly. Birthplace 'Russia' combined with German mother tongue is the census signature of this group.",
+        "church_evidence": "Catholic and Evangelical (Reformed) parish records in German document the colonies. Church records often note the family's village of origin in Russia, and some note the original German village before the Russian migration.",
+        "surname_clustering": "Distinctively German-Russian surnames (Weisser, Haas, Hein, Fischer — but with Russian village connections) cluster in specific SD townships, indicating settlement by entire village groups from Russia.",
+        "newspaper_evidence": "German-language newspapers in the Dakotas (Der Staats-Anzeiger, Dakota Freie Presse) served the German-Russian community and carried notices relevant to chain migration."
+      },
+      "chain_mechanics": {
+        "description": "German-Russian migration was organized at the colony level. Entire village delegations (Kundschafter) traveled to the American plains to scout land before the community committed to relocation. Once a site was selected, the village moved in organized groups — families, church, and community structure intact. The trigger was Russian conscription law: the Czar revoked the German colonists' military exemption in 1874, prompting mass emigration. The German-Russians brought exceptional agricultural skills — they had farmed the steppes of southern Russia for a century and understood dryland agriculture better than any other immigrant group.",
+        "kinship_role": "Village-level rather than individual kinship. Entire community networks relocated together. The colony delegation system ensured that the receiving community was pre-organized before the majority arrived.",
+        "timeline": "First delegations 1873-1874; peak colony migration 1874-1885; continued immigration 1885-1910; effectively ended by WWI and Russian Revolution."
+      },
+      "narrative_hook": "When {ancestor_name} came from the Black Sea colonies to {county} County, {pronoun_subject} came not as an individual but as part of a village — the same families who had farmed together in Russia for a century rebuilt their community on the Dakota prairie, German-speaking, self-sufficient, and equipped with the dryland farming skills that their American neighbors would spend a generation learning.",
+      "source": "Rippley, La Vern J. The German-Russians: Those Who Came to Sutton. Aberdeen, SD: North Plains Press, 1973. Sallet, Richard. Russian-German Settlements in the United States. Fargo: North Dakota Institute for Regional Studies, 1974."
+    },
+    {
+      "corridor_id": "bust_era_exodus",
+      "corridor_name": "Bust-Era Exodus: Eastern SD to Pacific Northwest, Upper Midwest Return, and Urban Destinations",
+      "origin_counties": ["Brown", "Beadle", "Brookings", "Codington", "Davison"],
+      "destination_area": "Return to Iowa, Minnesota, Wisconsin; westward to Oregon, Washington, Montana; urban migration to Minneapolis-St. Paul, Sioux City, Omaha, and eventually California",
+      "era": "1888-1940",
+      "migration_type": "economic_displacement",
+      "scale": "Tens of thousands of people. Brown County alone lost over 30% of its population between 1890 and 1900. Every county in the cluster except Minnehaha experienced net out-migration during at least one bust cycle.",
+      "evidence": {
+        "census_evidence": "Population decline in census counts: Brown County from 15,000 (est. 1890) to 10,000 (1900); Beadle and Brookings showed similar patterns. 1900-1910 census shows SD-born adults enumerated in Oregon, Washington, Montana, and Minnesota — the destination states for bust-era emigrants.",
+        "church_evidence": "Lutheran and Baptist church records show waves of letters of dismissal during drought years. Destination churches in Minnesota and Oregon received transfer members from SD congregations.",
+        "newspaper_evidence": "Aberdeen Saturday Pioneer (Baum) and other SD newspapers documented departures during the bust: 'Another family left for Oregon this week' was a recurring column item."
+      },
+      "chain_mechanics": {
+        "description": "Bust-era out-migration reversed the chain-migration patterns that had filled the cluster. Families that had arrived from Iowa or Minnesota returned to kin in those states. Others followed new chains to the Pacific Northwest — Oregon's Willamette Valley and Washington's Yakima Valley attracted SD families because the climate was dramatically different (wetter, milder) and represented escape from the drought cycle. The bust created a population of experienced farmers who had learned on the Northern Plains and carried their skills elsewhere.",
+        "kinship_role": "Return migration followed the original kinship chains backward. Families went back to parents and siblings in Iowa or Minnesota. Westward migration created new chains — a family that went to Oregon wrote back to neighbors in Beadle County, and within a few years a SD colony existed in the Willamette Valley.",
+        "timeline": "First bust exodus 1888-1895; partial recovery 1900-1917; WWI wheat boom attracted some returnees; Dust Bowl exodus 1930-1940 was the largest and most permanent."
+      },
+      "narrative_hook": "When the drought drove {ancestor_name} out of {county} County in the {decade}s, the family did not scatter — they followed kin back to {destination}, reversing the chain of letters and promises that had brought them to the homestead in the first place.",
+      "source": "Nelson, After the West Was Won. Schell, History of South Dakota, chs. 16, 21."
+    },
+    {
+      "corridor_id": "czech_bohemian_tabor",
+      "corridor_name": "Czech-Bohemian Colony Migration: Bohemia to Tabor, Bon Homme County",
+      "origin_area": "Bohemia (Czech lands of the Austro-Hungarian Empire), especially the Tabor and Pisek districts. Some via established Czech communities in Iowa (Cedar Rapids), Wisconsin, Nebraska, and Chicago.",
+      "destination_counties": ["Bon Homme", "Yankton"],
+      "era": "1869-1900",
+      "migration_type": "colony_migration",
+      "scale": "Hundreds of families. A smaller but culturally cohesive migration that created one of the most distinctive ethnic enclaves in the cluster.",
+      "evidence": {
+        "census_evidence": "1870-1900 census shows concentration of Bohemia-born adults in Bon Homme County, particularly in the Tabor area. The town was named for the Hussite city of Tabor in Bohemia.",
+        "church_evidence": "Catholic parish records at Tabor in Czech document baptisms, marriages, and burials with references to Bohemian origin parishes.",
+        "surname_clustering": "Czech surnames (Dvorak, Novak, Hajek, Jelinek, Hruska) cluster in Bon Homme County census records at rates indicating organized ethnic settlement."
+      },
+      "chain_mechanics": {
+        "description": "Czech settlement at Tabor was organized by a founding group from the Tabor district of Bohemia who arrived in 1869. The founders selected the site, established the community, and then recruited additional families from Bohemia and from existing Czech communities in the upper Midwest. The community maintained Czech language, Catholic (and some Free Thought) worship, and Bohemian agricultural practices and foodways. Tabor functioned as a cultural island on the prairie — Czech-speaking, with its own social organizations, publications, and economic networks.",
+        "kinship_role": "Community and village-based. The founding families recruited from their home districts in Bohemia, and the resulting community was a transplanted Bohemian village with intact social networks.",
+        "timeline": "Founding colony 1869; peak chain migration 1870s-1880s; continued immigration at declining rates through 1900."
+      },
+      "narrative_hook": "Tabor in Bon Homme County was Bohemia transplanted to the Dakota prairie — the language was Czech, the church was Catholic, and the kolache that came out of {ancestor_name}'s kitchen smelled the same as they had in the village the family left behind.",
+      "source": "Dvorak, Joseph A. 'Czech Settlements in South Dakota.' South Dakota Historical Collections 15 (1930): 131-162."
+    },
+    {
+      "corridor_id": "hutterite_colony_migration",
+      "corridor_name": "Hutterite Colony Migration: Russia to Bon Homme County (and Later to Canada)",
+      "origin_area": "German-speaking Hutterite colonies in Ukraine/Russia (originally from Moravia/Tyrol). Via brief staging in Pennsylvania and Iowa.",
+      "destination_counties": ["Bon Homme"],
+      "era": "1874-1918 (American period); return migrations 1930s",
+      "migration_type": "religious_colony_migration",
+      "scale": "Several hundred people in three original colonies. Small in number but enormous in historical and cultural significance — the first Hutterite colonies in North America.",
+      "evidence": {
+        "census_evidence": "1880-1910 census enumerates Hutterite colony members as households within the communal structure. Colony population documented in Hutterite records and Hostetler's research.",
+        "church_evidence": "Hutterite colony records (internal) document births, deaths, marriages, and property — held by the colonies, now mostly in Canada.",
+        "newspaper_evidence": "Bon Homme County and Yankton newspapers documented the Hutterite colonies from arrival through WWI persecution."
+      },
+      "chain_mechanics": {
+        "description": "Hutterite migration was organized communally. The three founding colonies — Bon Homme, Elmspring, and Wolf Creek — relocated as complete communities from Russia to Dakota Territory in 1874, fleeing Russian military conscription. The colonies purchased land outright (no homestead claims — they bought with communal funds), established communal farming operations, and grew through natural increase rather than external recruitment. The WWI persecution of 1917-1918 drove most colonies to Alberta and Manitoba, Canada. Some colonies returned to South Dakota in the 1930s when land prices were low and wartime hostility had faded.",
+        "kinship_role": "Colony-level, not individual kinship. Marriage was internal to the colony system, and new colonies were established through a budding process — when a colony grew too large, it divided, with half the population founding a new colony on purchased land.",
+        "timeline": "Arrival 1874; growth by natural increase 1874-1917; WWI exodus to Canada 1918; partial return 1930s."
+      },
+      "narrative_hook": "The Hutterite colonies came to Bon Homme County as complete communities — every family, every tool, every tradition intact from Russia — and they farmed the prairie without debt, without individual ownership, and without the boom-bust cycle that destroyed their neighbors. Then their neighbors drove them out for speaking German during a war.",
+      "source": "Hostetler, John A. Hutterite Society. Baltimore: Johns Hopkins University Press, 1974."
+    }
+  ],
+
+  "internal_movement_patterns": [
+    {
+      "pattern_id": "farm_to_town_within_county",
+      "pattern_name": "Farm to Town — Within-County Urbanization",
+      "description": "Across the cluster, the long-term pattern was movement from scattered homesteads toward county seat towns. Families that lost farms during bust cycles moved into Sioux Falls, Aberdeen, Huron, Mitchell, or Watertown for wage employment (railroad, retail, meatpacking). Second-generation farm children who did not inherit land moved to town for education and non-farm employment. By 1940, the county seat towns held a growing share of each county's population while the rural areas depopulated.",
+      "era": "1890-1940",
+      "counties_affected": ["all eight counties"],
+      "evidence": "Census population trends show county seat towns growing or holding steady while total county population declined — the urban fraction of each county increased even as the total population fell.",
+      "narrative_hook": "When the homestead could no longer support the family, {ancestor_name} moved to {town} — not far in miles, but a world away from the quarter section that had been the family's claim on the future.",
+      "source": "Nelson, After the West Was Won. Schell, History of South Dakota."
+    }
+  ],
+
+  "settlement_clusters": [
+    {
+      "cluster_name": "Scandinavian Belt — Minnehaha to Codington",
+      "counties": ["Minnehaha", "Brookings", "Codington"],
+      "ethnic_composition": "Norwegian, Swedish, Danish — with Norwegian plurality",
+      "description": "The eastern tier of the cluster — Minnehaha, Brookings, and Codington counties — received the heaviest Scandinavian settlement. Norwegian and Swedish families settled in township-level clusters organized around Lutheran parishes. By 1900, Scandinavian-born or Scandinavian-descent residents constituted 30-40% of these counties' populations.",
+      "source": "Qualey, Norwegian Settlement in the United States."
+    },
+    {
+      "cluster_name": "German-Russian Corridor — Aberdeen to Mitchell",
+      "counties": ["Brown", "Beadle", "Davison"],
+      "ethnic_composition": "German-Russian (Black Sea and Volga colonists)",
+      "description": "The James River corridor counties — Brown, Beadle, and Davison — received the heaviest German-Russian settlement. These families brought dryland farming skills from the Russian steppes and settled in tight ethnic communities centered on Catholic or Evangelical churches. German was the household language into the 1920s.",
+      "source": "Rippley, The German-Russians: Those Who Came to Sutton."
+    },
+    {
+      "cluster_name": "Missouri River Pioneer Corridor — Yankton and Bon Homme",
+      "counties": ["Yankton", "Bon Homme"],
+      "ethnic_composition": "Mixed — earliest Anglo-American settlers, Czech (Tabor), Hutterite, and later arrivals",
+      "description": "The two Missouri River counties had the most diverse settlement pattern in the cluster. Yankton attracted the earliest Anglo-American settlers as the territorial capital. Bon Homme County received Czech, Hutterite, and German-Russian settlers alongside Yankee homesteaders. The diversity reflected the early settlement date — multiple migration streams converged before the railroad directed settlement into more homogeneous patterns.",
+      "source": "Schell, History of South Dakota, chs. 5-8. Dvorak, 'Czech Settlements in South Dakota.'"
+    }
+  ],
+
+  "narrative_hooks": [
+    "When {ancestor_name} arrived in {county} County, {pronoun_subject} did not settle among strangers — the homesteads within riding distance held families from the same {origin_place}, and the church on Sunday conducted services in the language {pronoun_subject} had spoken since childhood.",
+    "{ancestor_name}'s migration to {county} County was not a single move but the last step in a chain — from {origin_country} to Minneapolis, from Minneapolis to {intermediate_location}, and finally to the homestead where the chain ended and the farming began.",
+    "The bust reversed the chain that had brought {ancestor_name} to Dakota Territory. The same letters that had once said 'come, the land is good' now said 'we are leaving,' and the families followed each other out as surely as they had followed each other in.",
+    "By {year}, the township where {ancestor_name} lived was a transplanted {ethnicity} village — the surnames on the mailboxes, the language at the store, and the hymns at Sunday service all came from a country most of the children had never seen."
+  ],
+
+  "source_references": [
+    "Schell, Herbert S. History of South Dakota. 4th ed. Pierre: South Dakota State Historical Society Press, 2004.",
+    "Lauck, Jon K. Prairie Republic: The Political Culture of South Dakota, 1880-1940. Norman: University of Oklahoma Press, 2010.",
+    "Qualey, Carlton C. Norwegian Settlement in the United States. Northfield, MN: Norwegian-American Historical Association, 1938.",
+    "Gjerde, Jon. From Peasants to Farmers: The Migration from Balestrand, Norway, to the Upper Middle West. Cambridge: Cambridge University Press, 1985.",
+    "Rippley, La Vern J. The German-Russians: Those Who Came to Sutton. Aberdeen, SD: North Plains Press, 1973.",
+    "Sallet, Richard. Russian-German Settlements in the United States. Fargo: North Dakota Institute for Regional Studies, 1974.",
+    "Dvorak, Joseph A. 'Czech Settlements in South Dakota.' South Dakota Historical Collections 15 (1930): 131-162.",
+    "Hostetler, John A. Hutterite Society. Baltimore: Johns Hopkins University Press, 1974.",
+    "Nelson, Paula M. After the West Was Won: Homesteaders and Town-Builders in Western South Dakota, 1900-1917. Iowa City: University of Iowa Press, 1986."
+  ],
+
+  "nel_cross_references": {
+    "trigger_refs": [
+      "homestead_act",
+      "railroad_construction",
+      "stayed_and_adapted"
+    ],
+    "community_texture_refs": [
+      "scandinavian_prairie_settlement",
+      "german_russian_prairie_colony",
+      "czech_bohemian_colony"
+    ]
+  }
+}

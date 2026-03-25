@@ -1,0 +1,124 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Moultrie County, IL. Record survival, courthouse history, and known losses that shape what genealogists can and cannot find.",
+  "courthouse_atlas_id": "il_moultrie_courthouse",
+  "display_name": "Moultrie County, Illinois — Courthouse Atlas",
+  "county": "Moultrie",
+  "state": "IL",
+  "fips_code": "17139",
+  "cluster_ref": "il_central_sangamon",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1906,
+      "location": "Sullivan, IL — 10 S. Main Street",
+      "records_housed": ["deeds", "plats", "vital records", "probate records", "court minutes", "marriage records", "military discharge records"],
+      "notes": "The 1906 Neoclassical courthouse still serves as the county seat. Sullivan is one of the smallest county seats in central Illinois."
+    },
+    "previous_courthouses": [
+      {
+        "era": "1843–1865",
+        "location": "Sullivan, original frame courthouse on the public square",
+        "fate": "Moultrie County was formed from Macon and Shelby counties in 1843. The first courthouse was a modest frame building. Records transferred to the successor."
+      },
+      {
+        "era": "1865–1906",
+        "location": "Sullivan, brick courthouse",
+        "fate": "Replaced by the current 1906 building. Records survived the transition."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "moultrie_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire or catastrophic loss",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage records", "probate files"],
+      "scope": "none",
+      "description": "Moultrie County has experienced no major courthouse fire or record loss. As one of the smallest and most rural counties in the cluster, its record volume is modest but well-preserved. Records run continuously from the 1843 formation, and the county's quiet agricultural character meant that the courthouse was never a target of conflict or subject to urban pressures that sometimes led to record displacement.",
+      "narrative_impact": "If {ancestor_name} owned land, married, or had an estate probated in Moultrie County after 1843, the records survive. For the period before 1843, records are split between Macon County (Decatur) and Shelby County (Shelbyville), depending on which parent county the family's land fell within.",
+      "source": "Combined History of Shelby and Moultrie Counties, Illinois. Philadelphia: Brink, McDonough & Co., 1881."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1843,
+      "completeness": "Excellent — continuous series from county formation",
+      "gaps": "No known gaps. Pre-1843 deeds for land in the future Moultrie County are filed in Macon or Shelby county records.",
+      "repository": "Moultrie County Recorder, Sullivan; Illinois State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com IL land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1843,
+      "completeness": "Good — probate records from county formation, though early volume is very low",
+      "gaps": "Few estates were probated in the county's earliest years due to the small population and modest property values of frontier settlers.",
+      "repository": "Moultrie County Probate Court, Sullivan; Illinois State Archives; IRAD at UIS",
+      "online_access": "FamilySearch microfilm; limited digitization"
+    },
+    "marriages": {
+      "earliest_surviving": 1843,
+      "completeness": "Good — marriage licenses from county formation",
+      "gaps": "Earliest records are sparse, reflecting the small population. Coverage improves after 1860.",
+      "repository": "Moultrie County Clerk, Sullivan; Illinois State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com IL marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1843,
+      "completeness": "Good — circuit court and commissioners' court minutes from formation",
+      "gaps": "Justice of the peace records are largely missing. Bound court records are intact.",
+      "repository": "Moultrie County Circuit Court, Sullivan; Illinois State Archives",
+      "online_access": "Illinois State Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1877,
+      "death_registration_start": 1877,
+      "completeness": "Very poor compliance before 1916. Moultrie County's small, dispersed rural population made vital registration enforcement nearly impossible in the 19th century.",
+      "repository": "Moultrie County Clerk; Illinois Department of Public Health; Illinois State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Macon and Shelby County records (pre-1843 parent counties)",
+      "description": "Moultrie County was formed from parts of Macon and Shelby counties in 1843. Families who settled before that date filed deeds, marriages, and court proceedings in the parent county where their land was located.",
+      "repository": "Macon County Recorder, Decatur; Shelby County Recorder, Shelbyville; Illinois State Archives",
+      "era_coverage": "1827–1843 (Shelby) / 1829–1843 (Macon)",
+      "genealogical_value": "Essential for tracing pioneer families before 1843. The researcher must determine whether the ancestor's land fell within the Macon or Shelby portion of the future Moultrie County to search the correct parent county.",
+      "source": "Combined History of Shelby and Moultrie Counties, Illinois. Philadelphia: Brink, McDonough & Co., 1881."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1850–1940 (the first census after formation). Agricultural schedules (1850–1880) are especially valuable for this overwhelmingly rural county.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1850–1940",
+      "genealogical_value": "Essential for tracking families. The 1850 census is the first to enumerate Moultrie County as a separate unit. Agricultural schedules reveal individual farm operations in detail — critical for a county where nearly every family farmed.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Moultrie County, IL."
+    },
+    {
+      "source_type": "Church records — Christian Church (Disciples of Christ), Baptist, Methodist",
+      "description": "Sullivan and surrounding townships had active Christian Church (Disciples of Christ), Baptist, and Methodist congregations from the 1840s. In a county with poor vital registration, church records are often the only documentation of births, marriages, and deaths before 1916.",
+      "repository": "Individual congregations; Moultrie County Historical and Genealogical Society; Illinois State Archives",
+      "era_coverage": "1840s–present",
+      "genealogical_value": "In Moultrie County, where vital registration compliance was especially poor, church records are not merely supplementary — they may be the only record of vital events for entire families before 1916.",
+      "source": "Moultrie County Historical and Genealogical Society. Local history and genealogy collections."
+    }
+  ],
+  "narrative_hooks": [
+    "Moultrie County's records survive intact from 1843 — no fires, no floods — but the county's small population means the record volume is thin; if {ancestor_name} was a tenant farmer or laborer, the deed books may hold nothing about {pronoun_object}.",
+    "Before 1843, what became Moultrie County was split between Macon and Shelby counties — if {ancestor_name} settled here before that date, the records are filed under one of the parent counties, and the researcher must determine which side of the old boundary the family's land occupied.",
+    "Vital registration compliance in Moultrie County was nearly nonexistent before 1916 — if {ancestor_name} was born or died here before that date, church records, cemetery inscriptions, and obituaries in the Sullivan newspapers are likely the only documentation.",
+    "If {ancestor_name} farmed in Moultrie County, the federal agricultural schedules (1850–1880) may be the richest surviving record of {pronoun_possessive} economic life — documenting acres, crops, livestock, and farm value in a county where nearly every family worked the land.",
+    "Moultrie County is one of the smallest counties in the cluster, and Sullivan one of the smallest county seats — if {ancestor_name} lived here, {pronoun_subject} likely knew the county clerk, the circuit judge, and most of the merchants in town by name."
+  ],
+  "source_references": [
+    "Combined History of Shelby and Moultrie Counties, Illinois. Philadelphia: Brink, McDonough & Co., 1881.",
+    "Illinois State Archives. Descriptive Inventory of the Archives of the State of Illinois. 2nd ed. Springfield: Office of the Secretary of State, 1978.",
+    "Moultrie County Historical and Genealogical Society. Local history and genealogy collections.",
+    "National Archives and Records Administration. Federal Census Schedules, Moultrie County, IL."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "il_moultrie",
+    "research_guidance_refs": ["census_gaps", "property_record_strategies", "church_record_transfers"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Brooks County, GA. Record survival, courthouse history, and known losses. Brooks County, formed 1858, has its records beginning from that date. The county experienced a courthouse fire in 1869 during Reconstruction that destroyed some early records. The Mary Turner lynching of 1918 left virtually no official record in county files — a silence that is itself evidence of how racial violence was erased from the documentary record. The dignity mandate applies.",
+  "courthouse_atlas_id": "ga_brooks_courthouse",
+  "display_name": "Brooks County, Georgia — Courthouse Atlas",
+  "county": "Brooks",
+  "state": "GA",
+  "fips_code": "13027",
+  "cluster_ref": "ga_wiregrass_coastal_plain",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1901, "location": "Quitman, GA — courthouse square", "records_housed": ["deeds", "marriage licenses", "probate records", "court minutes"] },
+    "previous_courthouses": [
+      { "era": "1858-1869", "location": "Quitman, GA — original frame courthouse", "fate": "Burned 1869. Some records destroyed." },
+      { "era": "1870-1901", "location": "Quitman, GA — rebuilt courthouse", "fate": "Replaced by current courthouse in 1901." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "brooks_fire_1869",
+      "date": "1869",
+      "cause": "Courthouse fire during Reconstruction",
+      "records_destroyed": ["Some early deed book pages", "Some court minute volumes 1858-1869"],
+      "records_survived": ["Most deed books (some damaged)", "Marriage records from 1859", "Probate records"],
+      "scope": "partial",
+      "description": "A fire at the Brooks County courthouse in 1869 destroyed some records from the county's first decade. The fire occurred during the Reconstruction era, when courthouses across the South were targets of both accidental fires and deliberate destruction. The cause of the Brooks County fire is not definitively established. Records from 1858-1869 are incomplete but not entirely lost — some volumes survived with fire damage.",
+      "narrative_impact": "If {ancestor_name} was in Brooks County between 1858 and 1869, the surviving records are fragmentary. The fire eliminated some of the county's founding-era documentation — the very period when families were first establishing land claims and recording marriages in the newly formed county.",
+      "source": "GA Department of Archives and History. Guide to County Records."
+    },
+    {
+      "loss_id": "brooks_lynching_record_silence",
+      "date": "1918",
+      "cause": "Systematic erasure of racial violence from official records",
+      "records_destroyed": [],
+      "records_survived": [],
+      "scope": "systemic",
+      "description": "The May 1918 lynching of Mary Turner and at least twelve other Black people in Brooks and Lowndes counties left almost no trace in county records. No arrests were made. No coroner's inquests produced surviving documents. No court proceedings were initiated against any perpetrator. The county records simply do not mention the event. This is not accidental — it is the systematic erasure of racial violence from the documentary record. The killings are documented in NAACP correspondence, newspaper accounts (primarily northern and Black press), federal investigation files, and later scholarly research, but the local records are silent. This silence is itself a record — it documents the county's refusal to acknowledge what happened.",
+      "narrative_impact": "If {ancestor_name} was a Black person in Brooks County in 1918, the most important event in the county's history left no local paper trail. The genealogist must look outside the county — to NAACP files, to the Chicago Defender, to federal investigation records — to document what the county records deliberately erased. The silence in the local records is not a gap — it is evidence of complicity.",
+      "source": "Dray, Philip. At the Hands of Persons Unknown. Random House, 2002. Equal Justice Initiative. Lynching in America. 3rd ed. EJI, 2017."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1859, "completeness": "Fair from 1859. Some early volumes damaged by 1869 fire.", "gaps": "Partial gap 1858-1869 due to fire.", "repository": "Brooks County Clerk of Superior Court; GA Archives microfilm", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1859, "completeness": "Fair to Good from 1859", "gaps": "Some early probate records may have been lost in 1869 fire.", "repository": "Brooks County Probate Court; GA Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1859, "completeness": "Good from 1859", "gaps": "No systematic gap beyond normal frontier underregistration.", "repository": "Brooks County Probate Court", "online_access": "FamilySearch; Ancestry.com GA marriages" },
+    "court_minutes": { "earliest_surviving": 1870, "completeness": "Good from 1870. Pre-1869 minutes largely destroyed by fire.", "gaps": "1858-1869 court minutes mostly lost.", "repository": "Brooks County Clerk of Superior Court; GA Archives", "online_access": "GA Archives microfilm" },
+    "vital_records": { "birth_registration_start": 1919, "death_registration_start": 1919, "completeness": "Spotty until mid-1920s. Rural and Black births especially underregistered.", "repository": "GA Department of Public Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "NAACP investigation files (1918 lynchings)", "description": "The NAACP's Walter White investigated the Brooks County lynchings in 1918, passing as white to interview witnesses. His report and correspondence are held at the Library of Congress.", "repository": "Library of Congress, NAACP Records, Group I, Series C", "era_coverage": "1918", "genealogical_value": "Critical for identifying victims and understanding the context of Black family migration from Brooks County after 1918. The NAACP files contain names and details not found in any county record.", "source": "White, Walter. 'The Work of a Mob.' The Crisis 16 (September 1918): 221-223." },
+    { "source_type": "Huxford's Pioneers of Wiregrass Georgia", "description": "Covers Brooks County families in the multi-volume genealogical compilation.", "repository": "Major Georgia libraries; Huxford Genealogical Society", "era_coverage": "1858-1920", "genealogical_value": "Covers primarily white families. Essential for the founding generation lost in the 1869 fire.", "source": "Huxford, Pioneers of Wiregrass Georgia." },
+    { "source_type": "Federal census and Freedmen's Bureau records", "description": "Population schedules 1860-1940. Freedmen's Bureau records 1865-1872.", "repository": "National Archives; FamilySearch; Ancestry.com", "era_coverage": "1860-1940", "genealogical_value": "The Freedmen's Bureau records are essential for Brooks County's Black families, documenting labor contracts, complaints, and family registrations that the county records do not contain.", "source": "National Archives and Records Administration." }
+  ],
+  "narrative_hooks": [
+    "The 1869 courthouse fire in Brooks County destroyed some of the county's founding records — if {ancestor_name} was there in the first decade, the paper trail is fragmentary and the genealogist must work from tax digests, census records, and Huxford's compilations.",
+    "The silence in Brooks County's records about the events of May 1918 is not an accident — it is the deliberate erasure of racial violence from the documentary record. If {ancestor_name} was Black in Brooks County, the most important evidence is held outside the county, in NAACP files and northern newspapers.",
+    "The Freedmen's Bureau records for Brooks County document what the county records could not or would not — labor contracts, family registrations, and complaints of violence that constitute the primary source for Black genealogy in the immediate post-war period.",
+    "Brooks County records start in 1859 — the county was formed from Lowndes and Thomas counties, and earlier records for {ancestor_name}'s family must be sought in the parent counties."
+  ],
+  "source_references": [
+    "GA Department of Archives and History. Guide to County Records.",
+    "Dray, Philip. At the Hands of Persons Unknown: The Lynching of Black America. New York: Random House, 2002.",
+    "Equal Justice Initiative. Lynching in America: Confronting the Legacy of Racial Terror. 3rd ed. Montgomery, AL: EJI, 2017.",
+    "Huxford, Folks. Pioneers of Wiregrass Georgia. 10 vols."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ga_brooks",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

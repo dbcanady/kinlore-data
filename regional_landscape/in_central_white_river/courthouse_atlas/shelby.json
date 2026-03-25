@@ -1,0 +1,53 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Shelby County, IN. Record survival for the county centered on Shelbyville. Well-preserved from 1822 organization.",
+  "courthouse_atlas_id": "in_shelby_courthouse",
+  "display_name": "Shelby County, Indiana — Courthouse Atlas",
+  "county": "Shelby",
+  "state": "IN",
+  "fips_code": "18145",
+  "cluster_ref": "in_central_white_river",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1936, "location": "Shelbyville, IN — Courthouse Square", "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court records"] },
+    "previous_courthouses": [
+      { "era": "1822-1850", "location": "Shelbyville, original site", "fate": "Early frame courthouse replaced." },
+      { "era": "1850-1936", "location": "Shelbyville, same square", "fate": "Brick courthouse. Served through the Civil War and industrial era. Replaced by Art Deco current building." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "shelby_no_major_loss", "date": null, "cause": "None", "records_destroyed": [], "records_survived": ["deed books", "will books", "court minutes", "marriage records"], "scope": "none",
+      "description": "Shelby County's records are well-preserved from the 1822 organization. No major fire, flood, or war damage. Records run continuously.",
+      "narrative_impact": "If {ancestor_name} lived in Shelby County, the records survive. For Black families in the Bear Creek settlement, county deed records document land ownership that was rare for African Americans in antebellum Indiana.",
+      "source": "Indiana Commission on Public Records. Guide to Indiana County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1822, "completeness": "Excellent", "gaps": "None known.", "repository": "Shelby County Recorder; Indiana State Archives", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1822, "completeness": "Good", "gaps": "Earliest loose papers fragmentary.", "repository": "Shelby County Clerk; Indiana State Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1822, "completeness": "Good", "gaps": "None significant.", "repository": "Shelby County Clerk; Indiana State Archives", "online_access": "FamilySearch; Ancestry.com" },
+    "court_minutes": { "earliest_surviving": 1822, "completeness": "Good", "gaps": "Minor early gaps.", "repository": "Shelby County Clerk", "online_access": "Indiana State Archives microfilm" },
+    "vital_records": { "birth_registration_start": 1882, "death_registration_start": 1882, "completeness": "Spotty until approximately 1900.", "repository": "Indiana State Department of Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "Federal census schedules", "description": "Population and agricultural schedules 1830-1940.", "repository": "National Archives; FamilySearch; Ancestry.com", "era_coverage": "1830-1940", "genealogical_value": "Critical for tracking Bear Creek free Black families. The 1850 and 1860 census schedules name these families and document their farms.", "source": "National Archives and Records Administration." },
+    { "source_type": "Church records", "description": "Methodist, Baptist, and Christian Church records serve most of Shelby County. Some Quaker records from eastern Shelby County.", "repository": "Individual congregations; Indiana United Methodist Archives at DePauw University", "era_coverage": "1830s-present", "genealogical_value": "Supplement county records before vital registration.", "source": "Indiana United Methodist Archives." }
+  ],
+  "narrative_hooks": [
+    "Shelby County's records survive complete from 1822 — {ancestor_name}'s property records, marriages, and court appearances are at Shelbyville.",
+    "For Bear Creek settlement families, the deed records at Shelbyville document Black land ownership in antebellum Indiana — rare and genealogically powerful evidence.",
+    "Before 1882, a missing vital record for {ancestor_name} is standard across Indiana — church records and census are the primary substitutes.",
+    "The 1936 Art Deco courthouse at Shelbyville replaced the building where {ancestor_name}'s grandfather's will was probably filed — the records transferred even if the building changed."
+  ],
+  "source_references": [
+    "Indiana Commission on Public Records. Guide to Indiana County Records.",
+    "Chadwick, Edward H. History of Shelby County, Indiana. Indianapolis: B.F. Bowen, 1909.",
+    "Indiana United Methodist Archives, DePauw University."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "in_shelby",
+    "research_guidance_refs": ["census_gaps", "vital_records"],
+    "template_refs": ["record_silences"]
+  }
+}

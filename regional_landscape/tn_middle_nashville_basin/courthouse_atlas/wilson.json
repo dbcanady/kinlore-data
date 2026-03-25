@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Wilson County, TN. Formed 1799. No major courthouse fire. Records survive from formation.",
+  "courthouse_atlas_id": "tn_wilson_courthouse",
+  "display_name": "Wilson County, Tennessee — Courthouse Atlas",
+  "county": "Wilson",
+  "state": "TN",
+  "fips_code": "47189",
+  "cluster_ref": "tn_middle_nashville_basin",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1903,
+      "location": "Lebanon, TN — Public Square",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1800-1847",
+        "location": "Lebanon, town center",
+        "fate": "Early log and frame courthouses. Replaced by a brick building."
+      },
+      {
+        "era": "1847-1903",
+        "location": "Lebanon, Public Square",
+        "fate": "Brick courthouse. Survived the Civil War. Federal troops burned Cumberland University buildings in 1862 but the courthouse survived. Replaced by the current 1903 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "wilson_civil_war_minor",
+      "date": "1862-1865",
+      "cause": "Civil War disruption — Federal forces burned Cumberland University (1862) but courthouse was spared",
+      "records_destroyed": ["Cumberland University records (not county records)"],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage records"],
+      "scope": "minimal — county records survived; university records lost",
+      "description": "Federal troops burned the main building of Cumberland University in Lebanon in 1862, but the county courthouse and its records survived. Court operations were disrupted during the war, creating gaps in the minute book sequence, but bound record books were preserved. The distinction is important: the university loss was significant for institutional records but did not affect county government documents.",
+      "narrative_impact": "Wilson County's courthouse survived the war even though Cumberland University was burned — {ancestor_name}'s deeds and wills are intact. If {ancestor_name} attended Cumberland University, those records were lost in the fire.",
+      "source": "Tennessee State Library and Archives. Guide to County Records. Ash, Middle Tennessee Society Transformed."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1800,
+      "completeness": "Good — continuous series from near-formation",
+      "gaps": "No significant gaps.",
+      "repository": "Wilson County Register of Deeds; Tennessee State Library and Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com Tennessee land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1800,
+      "completeness": "Good — wills and estate records from the early period",
+      "gaps": "Minor gaps in early loose papers.",
+      "repository": "Wilson County Probate Court; Tennessee State Library and Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1802,
+      "completeness": "Good — bonds from the early period; licenses from 1838",
+      "gaps": "Minor gaps in earliest records.",
+      "repository": "Wilson County Clerk; Tennessee State Library and Archives",
+      "online_access": "FamilySearch; Ancestry.com Tennessee marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1800,
+      "completeness": "Good — wartime gaps in court sessions but bound volumes survived",
+      "gaps": "Gaps during Civil War occupation.",
+      "repository": "Tennessee State Library and Archives",
+      "online_access": "TSLA microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Standard Tennessee pattern.",
+      "repository": "Tennessee Department of Health"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Cumberland University records (post-1866 rebuilding)",
+      "description": "Cumberland University was rebuilt after the war and maintained student records from the Reconstruction period forward. Pre-war records were destroyed in the 1862 fire.",
+      "repository": "Cumberland University archives, Lebanon, TN",
+      "era_coverage": "1866-present (pre-1862 records destroyed)",
+      "genealogical_value": "If an ancestor attended Cumberland University after the war, enrollment and graduation records survive. Pre-war attendance must be established through other sources.",
+      "source": "Cumberland University historical records."
+    },
+    {
+      "source_type": "Church records and cemetery transcriptions",
+      "description": "Wilson County's churches (Presbyterian, Methodist, Baptist) maintained records. The Wilson County Historical Society has published cemetery transcriptions.",
+      "repository": "Individual congregations; Wilson County Historical Society; Tennessee State Library and Archives",
+      "era_coverage": "1800s-present",
+      "genealogical_value": "Supplement civil records for vital events before 1908.",
+      "source": "Tennessee State Library and Archives. Guide to Church Records."
+    },
+    {
+      "source_type": "Railroad records — Nashville and Chattanooga Railroad",
+      "description": "The Nashville and Chattanooga Railroad maintained employment records and freight documentation. Lebanon was a railroad junction, and some families' economic lives were tied to railroad employment.",
+      "repository": "Tennessee State Library and Archives; L&N Railroad records at University of Louisville",
+      "era_coverage": "1853-1960+",
+      "genealogical_value": "Railroad employment records can document workers not found in agricultural records — particularly useful for families who transitioned from farming to railroad labor.",
+      "source": "Tennessee State Library and Archives. Railroad collection guides."
+    }
+  ],
+  "narrative_hooks": [
+    "Federal troops burned Cumberland University in 1862 but left the Wilson County courthouse standing — {ancestor_name}'s deeds and wills survive, even if the university's records do not.",
+    "Wilson County records run from 1800 without major gaps — if {ancestor_name} owned land, married, or died in the county, the paper trail is almost certainly intact.",
+    "If {ancestor_name} worked for the Nashville and Chattanooga Railroad out of Lebanon, the railroad records at Louisville may document {pronoun_object} in ways the county records never did.",
+    "Before 1838, Tennessee marriages were recorded through bonds, not licenses — the bond that {ancestor_name} signed (or that was signed on {pronoun_possessive} behalf) is the pre-statehood equivalent of the marriage license."
+  ],
+  "source_references": [
+    "Tennessee State Library and Archives. Guide to County Records in the Tennessee State Library and Archives. Nashville: TSLA.",
+    "Ash, Stephen V. Middle Tennessee Society Transformed, 1860-1870. Baton Rouge: Louisiana State University Press, 1988.",
+    "Sistler, Byron, and Barbara Sistler. Early Middle Tennessee Marriages. Nashville: Byron Sistler & Associates, 1988."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "tn_wilson",
+    "research_guidance_refs": ["census_gaps", "vital_records", "property_records"],
+    "template_refs": ["record_silences"]
+  }
+}

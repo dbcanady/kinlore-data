@@ -1,0 +1,131 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Walsh County, ND. Multi-ethnic county (Norwegian, Polish, French-Canadian) with county seat at Grafton. Record survival is good from county organization in 1881. The multi-ethnic composition creates multiple parallel church record systems.",
+  "courthouse_atlas_id": "nd_walsh_courthouse",
+  "display_name": "Walsh County, North Dakota — Courthouse Atlas",
+  "county": "Walsh",
+  "state": "ND",
+  "fips_code": "38099",
+  "cluster_ref": "nd_red_river_prairie",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1959,
+      "location": "Grafton, ND — 600 Cooper Avenue",
+      "records_housed": ["deeds", "mortgages", "marriage records", "probate records", "court minutes", "vital records indexes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1881–1910",
+        "location": "Grafton — wooden frame building",
+        "fate": "Replaced by a brick courthouse as the county grew."
+      },
+      {
+        "era": "1910–1959",
+        "location": "Grafton — brick courthouse",
+        "fate": "Replaced by the current 1959 building. Records transferred without significant loss."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "walsh_no_major_losses",
+      "date": null,
+      "cause": "No catastrophic loss event",
+      "records_destroyed": ["some scattered early township records"],
+      "records_survived": ["deed books from 1881", "court minutes", "marriage records", "probate files"],
+      "scope": "minimal",
+      "description": "Walsh County has experienced no major courthouse fire or flood affecting its records. Record survival is good from county organization in 1881. The multi-ethnic composition of the county — Norwegian, Polish, French-Canadian, and smaller Scots-Irish and English populations — means that church records in multiple languages supplement the civil record.",
+      "narrative_impact": "Walsh County's records are well-preserved. If {ancestor_name} owned land, married, or appeared in court in Walsh County after 1881, the records almost certainly survive.",
+      "source": "State Historical Society of North Dakota. Guide to County Records. Bismarck: SHSND, 2003."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1881,
+      "completeness": "Good — continuous from county organization. Great Northern Railway land-grant deeds recorded alongside homestead patents and private transactions.",
+      "gaps": "No significant gaps. Federal homestead patents at BLM GLO.",
+      "repository": "Walsh County Recorder's Office, Grafton; SHSND",
+      "online_access": "FamilySearch microfilm; BLM GLO Records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1885,
+      "completeness": "Good from mid-1880s. Probate becomes more frequent after 1900.",
+      "gaps": "Very few estates filed in the earliest years.",
+      "repository": "Walsh County Clerk of Court; SHSND",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1881,
+      "completeness": "Good from county organization. Norwegian, Polish Catholic, and French-Canadian Catholic church marriages sometimes preceded civil licensing.",
+      "gaps": "Church marriages without civil license in earliest settlement period, especially in Polish and French-Canadian Catholic communities.",
+      "repository": "Walsh County Recorder's Office, Grafton",
+      "online_access": "FamilySearch; Ancestry.com ND marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1881,
+      "completeness": "Good from county organization.",
+      "gaps": "Minor gaps in early territorial court records.",
+      "repository": "Walsh County Clerk of Court; SHSND",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1893,
+      "death_registration_start": 1893,
+      "completeness": "Spotty until approximately 1910. Church records in Norwegian, Polish, and French are essential supplements.",
+      "repository": "ND Department of Health Vital Records; SHSND"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Norwegian Lutheran church records (ministerialbok)",
+      "description": "Norwegian Lutheran congregations in eastern Walsh County maintained ministerialbok records — baptisms, confirmations, marriages, burials — in Norwegian.",
+      "repository": "NAHA, Northfield, MN; ELCA Archives; individual congregations; SHSND",
+      "era_coverage": "1881–1940",
+      "genealogical_value": "Essential for Norwegian immigrant families. Often the only record of vital events before 1893.",
+      "source": "Lovoll, Odd S. The Promise of America. Minneapolis: University of Minnesota Press, 1984."
+    },
+    {
+      "source_type": "Polish Catholic church records",
+      "description": "Polish Catholic parishes in Walsh County — including congregations at Grafton, Warsaw, Minto, and surrounding communities — maintained sacramental records in Latin and Polish. Baptism, marriage, and burial records follow the standard Roman Catholic sacramental register format.",
+      "repository": "Archdiocese of Fargo Archives; individual parishes; some at SHSND",
+      "era_coverage": "1883–1960",
+      "genealogical_value": "Essential for Polish immigrant families. Baptismal records name parents, godparents (often relatives), and sometimes village of origin in Poland (Russian or Prussian partition). Marriage records include parents' names.",
+      "source": "Sherman, William C. Prairie Mosaic: An Ethnic Atlas of Rural North Dakota. Fargo: NDSU North Dakota Institute for Regional Studies, 1983."
+    },
+    {
+      "source_type": "French-Canadian Catholic church records",
+      "description": "French-Canadian families in Walsh County were served by Catholic parishes that kept records in French and Latin. These communities had roots in the Red River fur trade and Pembina Metis heritage.",
+      "repository": "Archdiocese of Fargo Archives; Diocese of St. Boniface Archives (Winnipeg); individual parishes",
+      "era_coverage": "1878–1940",
+      "genealogical_value": "Essential for French-Canadian and Metis families. Sacramental records connect Walsh County families to the Red River Settlement and to Quebec parish records through generations of documented Catholic sacramental practice.",
+      "source": "Wilkins, Robert P., and Wynona Huchette Wilkins. North Dakota: A Bicentennial History. New York: Norton, 1977."
+    },
+    {
+      "source_type": "Federal homestead records",
+      "description": "Homestead application files contain detailed personal information.",
+      "repository": "National Archives; BLM GLO Records",
+      "era_coverage": "1870–1940",
+      "genealogical_value": "Essential for settlers of all ethnic backgrounds. Naturalization papers filed with homestead records are especially valuable for Polish immigrants.",
+      "source": "National Archives and Records Administration. Homestead Records."
+    }
+  ],
+  "narrative_hooks": [
+    "Walsh County's records survived intact, but {ancestor_name}'s story may be told in three languages — Norwegian, Polish, or French — depending on which church kept the register that recorded {pronoun_possessive} baptism, marriage, or burial.",
+    "If {ancestor_name} was baptized in a Polish Catholic parish in Walsh County, the sacramental register may name not only {pronoun_possessive} parents but also the godparents — and the godparents were almost always relatives, which means the baptismal entry is a family tree in miniature.",
+    "The French-Canadian families at Grafton carried records that reached back through the Red River Settlement to Quebec — centuries of documented Catholic sacramental practice that makes {ancestor_name}'s family traceable across an ocean and a continent.",
+    "Walsh County's multi-ethnic settlement created parallel paper trails — {ancestor_name}'s civil records are in English at the courthouse, but the church records that preceded them may be in Norwegian, Polish, or French, depending on which community {pronoun_subject} called home."
+  ],
+  "source_references": [
+    "State Historical Society of North Dakota. Guide to County Records. Bismarck: SHSND, 2003.",
+    "Lovoll, Odd S. The Promise of America: A History of the Norwegian-American People. Minneapolis: University of Minnesota Press, 1984.",
+    "Sherman, William C. Prairie Mosaic: An Ethnic Atlas of Rural North Dakota. Fargo: NDSU North Dakota Institute for Regional Studies, 1983.",
+    "Wilkins, Robert P., and Wynona Huchette Wilkins. North Dakota: A Bicentennial History. New York: Norton, 1977.",
+    "Archdiocese of Fargo Archives."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nd_walsh",
+    "research_guidance_refs": ["census_gaps", "vital_records", "property_records"],
+    "template_refs": ["record_silences"]
+  }
+}

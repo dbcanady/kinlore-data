@@ -1,0 +1,119 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Hertford County, NC. Record survival, courthouse history, and known losses.",
+  "courthouse_atlas_id": "nc_hertford_courthouse",
+  "display_name": "Hertford County, North Carolina — Courthouse Atlas",
+  "county": "Hertford",
+  "state": "NC",
+  "fips_code": "37091",
+  "cluster_ref": "ne_nc_tidewater_albemarle",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1830,
+      "location": "Winton, NC — Main Street. One of the oldest courthouses still in use in NC.",
+      "records_housed": ["deeds", "plats", "vital records indexes", "court minutes", "estate files"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1759–1830",
+        "location": "Winton, NC — earlier frame courthouse",
+        "fate": "Replaced by the 1830 brick courthouse that still stands. Records transferred."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "hertford_civil_war_1862",
+      "date": "1862-02",
+      "cause": "Civil War — Union raid on Winton",
+      "records_destroyed": ["some loose papers and scattered records"],
+      "records_survived": ["deed books", "will books", "most court minutes", "marriage bonds"],
+      "scope": "minor",
+      "description": "In February 1862, Union gunboats fired on Winton during a raid up the Chowan River — one of the earliest military actions of the Burnside Expedition. The courthouse was not specifically targeted, but some records were damaged or displaced during the chaos. The bound volumes survived. Winton itself was partially burned, making it one of the first NC towns to suffer Civil War destruction.",
+      "narrative_impact": "Despite being among the first NC towns attacked in the Civil War, Hertford County's courthouse records survived largely intact. Gaps in {ancestor_name}'s trail here are more likely due to the county's large free Black population (whose transactions were sometimes excluded from white-dominated records) than to physical destruction.",
+      "source": "Barrett, John G. The Civil War in North Carolina. Chapel Hill: UNC Press, 1963."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1759,
+      "completeness": "Good — continuous from county formation",
+      "gaps": "No known significant gaps. Early deed books show some wear but remain legible.",
+      "repository": "Hertford County Register of Deeds, Winton; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com NC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1760,
+      "completeness": "Good — wills and estate records survive from formation",
+      "gaps": "Some loose estate papers from the 1760s-1770s are fragmentary.",
+      "repository": "Hertford County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm; NC State Archives digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1760,
+      "completeness": "Good — marriage bonds survive from county formation",
+      "gaps": "Bonds more complete than registers. Formal register begins approximately 1868.",
+      "repository": "Hertford County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com NC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1762,
+      "completeness": "Good — County Court minutes generally continuous",
+      "gaps": "Minor gaps in the 1760s.",
+      "repository": "NC State Archives; Hertford County Clerk of Court",
+      "online_access": "NC State Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Spotty until approximately 1920.",
+      "repository": "NC Office of Vital Records; NC State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790-1940. Hertford County's large free Black population appears in every census from 1790, making these schedules unusually valuable for tracing free families of color.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790-1940",
+      "genealogical_value": "The free Black population of Hertford County was among the largest in antebellum NC. Census records document these families by name from 1790 — a rare continuity for Black genealogy in the South.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Hertford County, NC."
+    },
+    {
+      "source_type": "Free Negro registers",
+      "description": "NC law required free people of color to register with county courts. Hertford County's free negro registers document a significant population, including physical descriptions, occupations, and family relationships.",
+      "repository": "NC State Archives; Hertford County Clerk of Court",
+      "era_coverage": "1790s-1865",
+      "genealogical_value": "Critical for free Black families. These registers often contain the only antebellum documentation of family relationships for free people of color. Physical descriptions may include details not found in any other source.",
+      "source": "Franklin, John Hope. The Free Negro in North Carolina, 1790-1860. Chapel Hill: UNC Press, 1943."
+    },
+    {
+      "source_type": "Church records — Quaker and Baptist",
+      "description": "Hertford County had both Quaker meetings (Perquimans influence) and Baptist churches. Quaker records are particularly well-preserved through the NC Yearly Meeting archives.",
+      "repository": "Guilford College Quaker Archives; NC Baptist Historical Collection; NC State Archives",
+      "era_coverage": "1760s-present",
+      "genealogical_value": "Quaker records document families in detail — births, deaths, marriages, and disciplinary proceedings. Baptist church records complement Quaker records for non-Quaker families.",
+      "source": "Hinshaw, William Wade. Encyclopedia of American Quaker Genealogy. Vol. 1: North Carolina. Ann Arbor, MI: Edwards Brothers, 1936."
+    }
+  ],
+  "narrative_hooks": [
+    "Hertford County's courthouse in Winton has stood since 1830 and the records inside reach back to 1759 — if {ancestor_name} had any dealing with the law, the land, or the county court, the record likely still exists.",
+    "Hertford County's free Black population was among the largest in antebellum NC, and the free negro registers at the courthouse document these families by name, description, and occupation — for {ancestor_name}, this may be the oldest surviving record that treats a Black ancestor as a named individual.",
+    "Winton was one of the first NC towns burned in the Civil War — Union gunboats fired on it in February 1862 — but the courthouse survived and so did the records inside.",
+    "Before 1913, no birth or death certificate was required in North Carolina. For {ancestor_name}, the substitute is census data, church records, and — if the family was free and Black — the free negro register that NC law required.",
+    "The Freedmen's Bureau operated in Hertford County after the war, and their records — labor contracts, marriage registrations, complaints — may be the bridge between {ancestor_name}'s enslaved past and documented freedom."
+  ],
+  "source_references": [
+    "Barrett, John G. The Civil War in North Carolina. Chapel Hill: University of North Carolina Press, 1963.",
+    "Franklin, John Hope. The Free Negro in North Carolina, 1790-1860. Chapel Hill: University of North Carolina Press, 1943.",
+    "Hinshaw, William Wade. Encyclopedia of American Quaker Genealogy. Vol. 1: North Carolina. Ann Arbor, MI: Edwards Brothers, 1936.",
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Records of the Bureau of Refugees, Freedmen, and Abandoned Lands. National Archives, RG 105."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_hertford",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records", "freedmens_bureau_research"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Micro-Migration Network Map for the MO Ozarks Gateway cluster. Documents specific migration corridors, chain-migration mechanics, and settlement patterns. Two distinct migration streams: (1) German immigration to the Missouri River corridor (Rhine Valley origin, chain migration through established colonies), and (2) Upper South hill migration from Kentucky/Tennessee/Virginia into the Ozark interior (Appalachian-style kinship chain migration).",
+  "migration_network_id": "mo_ozarks_gateway_migration_networks",
+  "display_name": "MO Ozarks Gateway — Micro-Migration Network Map",
+  "cluster_ref": "mo_ozarks_gateway",
+  "era_range": "1800-1960",
+  "migration_corridors": [
+    {
+      "corridor_id": "upper_south_ozark_settlement",
+      "corridor_name": "Upper South to Ozark Interior: Kentucky-Tennessee-Virginia Hill Families",
+      "origin_counties": ["Various KY counties (esp. eastern KY)", "Various TN counties (esp. middle and east TN)", "Various VA counties (esp. southwestern VA)"],
+      "destination_area": "Crawford, Phelps, Pulaski, Laclede, Texas, Dent — the Ozark interior counties; also southern portions of Franklin and Gasconade",
+      "era": "1810-1860",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of families over two generations. The Upper South migration was the dominant settlement stream for the Ozark interior. These families brought the same Appalachian-style subsistence farming, Baptist/Methodist religion, and kinship network migration pattern found in eastern Kentucky and western Virginia.",
+      "evidence": {
+        "census_evidence": "1830-1860 census for Ozark interior counties shows household heads born in Kentucky, Tennessee, and Virginia. The birthplace pattern is consistent: parents born in KY/TN/VA, older children born in KY/TN, younger children born in Missouri — pinpointing migration date.",
+        "church_evidence": "Baptist church records in the Ozark interior document families arriving from KY and TN Baptist associations. Church transfer letters track specific families.",
+        "surname_clustering": "Upper South surnames — Davis, Williams, Moore, Hall, Martin, Thompson, Wilson — dominate the early settlement records of the Ozark interior counties. These are the same surnames found in the Kentucky and Tennessee backcountry."
+      },
+      "chain_mechanics": {
+        "description": "Upper South families migrated to the Missouri Ozarks for the same reason they had migrated to eastern Kentucky a generation earlier: free or cheap land that resembled what they knew. The Ozark terrain — steep hollows, thin soil, spring-fed streams, dense timber — was geographically identical to the Kentucky and Virginia mountains they had left. Kinship networks drove the migration: one family arrived, sent word back, and a chain of related families followed within a few years. Whole neighborhoods transplanted themselves.",
+        "kinship_role": "Kinship was the primary migration mechanism. Extended families — brothers, cousins, in-laws — settled in the same hollow or adjacent hollows. Marriage within these kinship networks was common, creating dense interrelationships within a single creek drainage that persisted for generations.",
+        "timeline": "First wave 1810-1830 (settlement of the more accessible valleys). Second wave 1830-1860 (pushing into the deep hollows of Texas, Dent, Pulaski). Post-Civil War: minimal new settlement — the land was claimed."
+      },
+      "narrative_hook": "The {surname} family came to {county} County from Kentucky because the Ozarks looked like home — the same ridges, the same hollows, the same thin soil, and the same isolation that had defined the backcountry since the first Scots-Irish settlement in Virginia.",
+      "source": "Rafferty, The Ozarks: Land and Life (2001). Sauer, The Geography of the Ozark Highland (1920)."
+    },
+    {
+      "corridor_id": "german_rhine_valley_settlement",
+      "corridor_name": "Rhine Valley to Missouri River: German Immigration",
+      "origin_counties": ["Rhine Valley (Germany — Rhineland-Palatinate, Hesse, Baden)", "Philadelphia, PA (German Settlement Society)", "Cincinnati, OH (German communities)", "St. Louis, MO (German community)"],
+      "destination_area": "Franklin and Gasconade counties — the Missouri River corridor (Missouri Rhineland)",
+      "era": "1830-1880",
+      "migration_type": "organized_colonization_and_chain_migration",
+      "scale": "Thousands of families over two generations. The German immigration to the Missouri Rhineland included both organized colonization (the German Settlement Society founding Hermann in 1837) and subsequent chain migration as established settlers recruited family and neighbors from Germany.",
+      "evidence": {
+        "census_evidence": "1850-1880 census for Franklin and Gasconade counties shows high percentages of German-born household heads and their American-born children. The concentration is dramatic — in some Gasconade County townships, over 80% of household heads were German-born.",
+        "church_evidence": "Catholic and Lutheran parish records document German-born members with specific origins in the Rhine Valley. Some church records note the German parish of origin.",
+        "surname_clustering": "German surnames — Mueller, Schmidt, Schaefer, Weber, Stein, Becker, Kemper — dominate the Missouri Rhineland records and are diagnostic for the German settlement."
+      },
+      "chain_mechanics": {
+        "description": "The initial colonization was organized — the German Settlement Society of Philadelphia purchased land and platted Hermann as a planned German colony in 1837. After the colony was established, chain migration took over: settlers wrote to family in Germany describing the land, the wine-growing potential, and the opportunities. Families in the Rhine Valley recognized the Missouri River bluffs as similar to their homeland. Immigration agents recruited in Germany. The chain was reinforced by German-language institutions — the Volksblatt newspaper, German schools, German churches — that made the transition from Germany to Missouri easier.",
+        "kinship_role": "Both institutional (the Settlement Society) and kinship networks drove migration. After the initial organized settlement, kinship chains became dominant — a family's letter home was the most effective recruiting tool.",
+        "timeline": "Organized colony: 1837-1845. Chain migration peak: 1845-1870. Declining after 1880 as the founding generation aged and the German-born population transitioned to American-born."
+      },
+      "narrative_hook": "The letter came from Hermann — a cousin who had gone ahead, who wrote about bluffs that looked like the Rhine and soil that would grow grapes. {ancestor_name}'s family packed what could fit on a ship and left the Rhineland for a Missouri River town that was trying to be Germany.",
+      "source": "Burnett and Luebbering, German Settlement in Missouri (1996)."
+    },
+    {
+      "corridor_id": "ozark_to_st_louis_outmigration",
+      "corridor_name": "Ozark Interior to St. Louis: Twentieth-Century Out-Migration",
+      "origin_counties": ["All interior counties — Crawford, Phelps, Pulaski, Laclede, Texas, Dent"],
+      "destination_area": "St. Louis metropolitan area; also Kansas City, Springfield, and other Missouri cities",
+      "era": "1900-1960",
+      "migration_type": "economic_out_migration",
+      "scale": "Thousands of families over three generations. The Ozark interior lost population steadily in the twentieth century as subsistence farming became unsustainable. St. Louis was the primary destination — close enough for seasonal work, far enough to feel like a different world.",
+      "evidence": {
+        "census_evidence": "1910-1940 census for St. Louis shows significant numbers of Missouri-born household heads from Ozark counties. The pattern mirrors Appalachian out-migration to northern cities.",
+        "church_evidence": "Baptist and Pentecostal churches in south St. Louis neighborhoods served Ozark migrant communities — the same denominations transplanted from the hollows.",
+        "surname_clustering": "Ozark surnames from the interior counties appear in south St. Louis neighborhoods, particularly in the Bevo Mill and Dutchtown areas."
+      },
+      "chain_mechanics": {
+        "description": "Ozark out-migration followed the Appalachian pattern: one family member went to the city for work, established a foothold, and sent word back. The railroad (and later Route 66 and the automobile) made seasonal migration possible — families could work in St. Louis during the winter and return to the farm for planting. Over time, permanent migration replaced seasonal work. The GI Bill accelerated out-migration after World War II — Ozark veterans used educational benefits to attend schools in the cities and did not return.",
+        "kinship_role": "Kinship networks were the primary mechanism — the same networks that had brought families into the Ozarks now carried them out. Families clustered in the same St. Louis neighborhoods, attended the same churches, and married within the Ozark migrant community.",
+        "timeline": "Trickle 1900-1920; steady flow 1920-1940; accelerated by WWII industrial employment 1941-1945; GI Bill wave 1945-1960."
+      },
+      "narrative_hook": "The same kinship chain that brought {ancestor_name}'s people into the Ozarks carried them out — a cousin in St. Louis who said there was work at the factory, a room in the same building, a church that sang the same hymns. The hollow was not abandoned; it was replanted in south St. Louis.",
+      "source": "Rafferty, The Ozarks: Land and Life (2001)."
+    },
+    {
+      "corridor_id": "fort_wood_displacement",
+      "corridor_name": "Fort Leonard Wood Forced Displacement",
+      "origin_counties": ["Pulaski County (Big Piney River valley and surrounding hollows)"],
+      "destination_area": "Waynesville, Rolla, St. Louis, and scattered — wherever the displaced families could find land or work",
+      "era": "1940-1941",
+      "migration_type": "forced_displacement",
+      "scale": "Hundreds of families displaced when the federal government condemned approximately 65,000 acres for the military base.",
+      "evidence": {
+        "census_evidence": "The 1940 census documents the families in the Big Piney valley immediately before displacement. The 1950 census shows where they ended up — scattered across Pulaski County, Phelps County, and beyond.",
+        "church_evidence": "Church congregations in the Fort Leonard Wood area were dissolved. Some reformed in Waynesville and nearby communities.",
+        "surname_clustering": "Families displaced by Fort Leonard Wood can be tracked by surname from the 1940 census (in the condemned area) to the 1950 census (scattered)."
+      },
+      "chain_mechanics": {
+        "description": "This was not voluntary migration — the federal government condemned the land and gave families days to weeks to relocate. There was no kinship chain; there was a condemnation notice. Families who had lived in the same hollow for four generations were scattered in a matter of weeks. Some moved to Waynesville or other nearby communities. Others went to Rolla, St. Louis, or wherever they could find land they could afford — which, given the depressed Ozark land values, was not far. The displacement broke kinship networks that had held communities together for a century.",
+        "kinship_role": "Kinship networks were broken, not leveraged. The displacement scattered families that had been concentrated in adjacent hollows for generations.",
+        "timeline": "Construction announcement: 1940. Displacement: 1940-1941. Families scattered by 1942."
+      },
+      "narrative_hook": "There was no letter from a cousin — there was a condemnation notice. {ancestor_name}'s family had lived in the Big Piney valley for four generations before the Army decided the hollow was a training range and the family was in the way.",
+      "source": "Rafferty, The Ozarks: Land and Life (2001)."
+    }
+  ],
+  "internal_movement_patterns": [
+    {
+      "pattern_id": "ridgetop_to_bottom",
+      "pattern_name": "Ridgetop to creek bottom and back — seasonal and generational movement within the hollows",
+      "description": "Within the Ozark interior counties, families moved between ridgetop and creek bottom locations depending on agricultural conditions, family size, and available land. A young family might start on a ridgetop (cheapest land) and move to the bottom when they could afford it. Alternatively, a bottom farm might be divided among sons until the parcels were too small, pushing the youngest son to the ridge.",
+      "era": "1830-1960",
+      "counties_affected": ["Crawford", "Phelps", "Pulaski", "Laclede", "Texas", "Dent"]
+    },
+    {
+      "pattern_id": "farm_to_railroad_town",
+      "pattern_name": "Farm to railroad town — short-distance permanent migration",
+      "description": "When railroad towns developed (Cuba, Bourbon, Rolla, Lebanon), some farm families moved to town for access to schools, stores, and the railroad economy. This was a one-way movement — families that moved to town rarely returned to the hollow.",
+      "era": "1870-1920",
+      "counties_affected": ["Crawford", "Phelps", "Laclede"]
+    }
+  ],
+  "settlement_clusters": [
+    {
+      "cluster_name": "Missouri Rhineland German community (Hermann-Washington corridor)",
+      "location": "Missouri River corridor in Franklin and Gasconade counties",
+      "era": "1837-present",
+      "origin_stream": "Rhine Valley, Germany (organized colonization and chain migration)",
+      "evidence": "Census, church records, German-language newspaper, vineyards, architecture",
+      "persistence": "The German cultural identity persisted through the 1940s-1950s, transitioning to heritage tourism by the 1960s. German surnames, Catholic/Lutheran churches, and vineyard agriculture remain dominant."
+    },
+    {
+      "cluster_name": "Upper South hill community dispersal (throughout Ozark interior)",
+      "location": "Hollows and creek bottoms throughout Crawford, Phelps, Pulaski, Laclede, Texas, Dent counties",
+      "era": "1820-present",
+      "origin_stream": "Kentucky, Tennessee, Virginia backcountry families",
+      "evidence": "Census birthplaces, Baptist church records, surname clustering, Appalachian dialect persistence",
+      "persistence": "The Upper South cultural pattern persisted through the twentieth century — Baptist churches, Appalachian English, kinship-dense communities. Out-migration thinned these communities but did not eliminate the cultural pattern."
+    }
+  ],
+  "narrative_hooks": [
+    "Two migration streams settled the Ozarks Gateway — German colonists who came by steamboat to plant vineyards on the Missouri River bluffs, and Kentucky hill families who came by wagon to plant corn on the Ozark ridges. {ancestor_name} descended from one stream or the other.",
+    "The same kinship network that brought {ancestor_name}'s people into the Ozarks eventually carried them out — when the soil gave out and the timber was cut, the cousin in St. Louis who said there was work was the echo of the cousin who had said there was land a century before.",
+    "Fort Leonard Wood displaced families who had never moved — {ancestor_name}'s people may have lived in the same hollow for four generations before the condemnation notice arrived and the Army turned the homestead into a rifle range.",
+    "The German letter from Hermann said the bluffs looked like the Rhine — {ancestor_name}'s family crossed the ocean because a cousin wrote that Missouri had soil for grapes, water for wine, and a language that still sounded like home.",
+    "Ozark migration to St. Louis replicated the hollow in the city — {ancestor_name} found a neighborhood where the surnames were familiar, the church sang the same hymns, and the accent was the same flat Ozark English."
+  ],
+  "source_references": [
+    "Rafferty, Milton D. The Ozarks: Land and Life. 2nd ed. Fayetteville: University of Arkansas Press, 2001.",
+    "Burnett, Robyn, and Ken Luebbering. German Settlement in Missouri: New Land, Old Ways. Columbia: University of Missouri Press, 1996.",
+    "Sauer, Carl O. The Geography of the Ozark Highland of Missouri. Chicago: University of Chicago Press, 1920.",
+    "Fellman, Michael. Inside War: The Guerrilla Conflict in Missouri During the American Civil War. New York: Oxford University Press, 1989.",
+    "Federal Writers' Project. Missouri: The WPA Guide to the Show Me State. New York: Duell, Sloan and Pearce, 1941."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["scots_irish_frontier", "appalachian_out_migration", "stayed_and_adapted", "gi_bill_migration"],
+    "destination_refs": [],
+    "community_texture_refs": ["appalachian_mountain_community"]
+  }
+}

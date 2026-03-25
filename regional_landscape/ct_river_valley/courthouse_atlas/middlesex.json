@@ -1,0 +1,106 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Middlesex County, CT. Record survival, courthouse history, and the CT-specific probate district system. Middlesex County's records are complicated by the Benedict Arnold burning of the lower Connecticut River towns (1781 peripheral impact) and the standard CT challenge: land and vital records at the TOWN level, probate at the DISTRICT level, neither at the county courthouse.",
+  "courthouse_atlas_id": "ct_middlesex_courthouse",
+  "display_name": "Middlesex County, Connecticut — Courthouse Atlas",
+  "county": "Middlesex",
+  "state": "CT",
+  "fips_code": "09007",
+  "cluster_ref": "ct_river_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1889,
+      "location": "Middletown, CT — 1 Court Street",
+      "records_housed": ["superior court records"],
+      "note": "Connecticut abolished county government in 1960. Land records and vital records are at the TOWN level. Probate records are at the PROBATE DISTRICT level. The county courthouse serves only the judicial district."
+    },
+    "previous_courthouses": [
+      {
+        "era": "1785–1889",
+        "location": "Middletown, CT — town center",
+        "fate": "Middlesex County was established in 1785 from Hartford and New London counties. The first courthouse served until replaced by the current building. No significant fire damage."
+      }
+    ],
+    "critical_note_ct_probate_system": "Middlesex County contains approximately 8 probate districts: Middletown (est. 1752), Chatham (now Portland), East Haddam, Haddam, Saybrook, Killingworth, Durham, and others established as towns petitioned for local probate courts. Each has its own judge and its own records. To find probate records, identify the probate district for the ancestor's town of residence at the time of death."
+  },
+  "record_losses": [
+    {
+      "loss_id": "middlesex_minor_losses",
+      "date": null,
+      "cause": "No catastrophic courthouse loss. Some individual town records affected by age and wear.",
+      "records_destroyed": [],
+      "records_survived": ["town vital records from 1650s", "land records from 1650s", "probate records from 1752", "church records from colonial period"],
+      "scope": "minimal",
+      "description": "Middlesex County has no major courthouse fire or war damage. The county was established in 1785 from Hartford and New London counties, so pre-1785 records are split between the parent counties and the individual towns. Town-level records generally survive well. The lower Connecticut River towns (Essex, Old Saybrook, Deep River) were not directly burned by Benedict Arnold's 1781 raid on New London, but the proximity of the attack disrupted the region.",
+      "narrative_impact": "Records for {ancestor_name} in Middlesex County likely survive — the challenge is knowing which town clerk, which probate district, and which era falls before or after the 1785 county creation.",
+      "source": "Kemp, Thomas Jay. Connecticut Researcher's Handbook. Detroit: Gale Research, 1981."
+    }
+  ],
+  "record_survival_summary": {
+    "vital_records": {
+      "earliest_surviving": 1650,
+      "completeness": "Good — town records begin with settlement. Middletown records from the 1650s.",
+      "gaps": "Some early records are fragmentary. The Barbour Collection indexes most Middlesex County towns through approximately 1850.",
+      "repository": "Individual town clerks; Connecticut State Library (Barbour Collection, microfilm)",
+      "online_access": "FamilySearch; Ancestry.com; Connecticut State Library digital collections"
+    },
+    "land_records": {
+      "earliest_surviving": 1651,
+      "completeness": "Good — continuous from earliest settlement in most towns",
+      "gaps": "No significant gaps. Individual town records may have minor wear on earliest volumes.",
+      "repository": "Individual town clerks; Connecticut State Library (microfilm)",
+      "online_access": "FamilySearch microfilm; some towns have online land record indexes"
+    },
+    "probate_records": {
+      "earliest_surviving": 1752,
+      "completeness": "Good — the Middletown Probate District (est. 1752) has continuous records. Earlier probate records for Middlesex County towns are in the Hartford Probate District.",
+      "gaps": "Pre-1752 probate records for Middlesex County towns must be searched in the Hartford Probate District.",
+      "repository": "Individual probate courts; Connecticut State Library (microfilm)",
+      "online_access": "FamilySearch; Connecticut State Library digital collections"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1785,
+      "completeness": "Good — county court records from 1785 forward",
+      "gaps": "Pre-1785 court records are in Hartford or New London county records.",
+      "repository": "Connecticut State Library and Archives; judicial district courthouse",
+      "online_access": "Limited"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source": "Barbour Collection of Connecticut Vital Records",
+      "repository": "Connecticut State Library, Hartford",
+      "description": "Comprehensive index of Connecticut vital records through approximately 1850. Covers all Middlesex County towns.",
+      "genealogical_value": "Essential starting point for pre-1850 research. Indexed by name and town."
+    },
+    {
+      "source": "Portland Brownstone Quarry Records",
+      "repository": "Portland Historical Society; Connecticut State Library",
+      "description": "Quarry company records, employment records, and accident reports documenting the brownstone industry. Some Swedish immigrant worker records.",
+      "genealogical_value": "For families connected to the Portland quarries, company records may be the only employment documentation — quarry workers often left no other records besides census entries."
+    },
+    {
+      "source": "Essex Shipyard Records and Maritime Documents",
+      "repository": "Connecticut River Museum, Essex; Mystic Seaport Museum",
+      "description": "Ship construction records, crew lists, and maritime business documents from Essex and the lower Connecticut River shipbuilding industry.",
+      "genealogical_value": "Maritime records name crew members, ship owners, and builders. Crew lists sometimes include birthplace, age, and next of kin."
+    }
+  ],
+  "narrative_hooks": [
+    "Middlesex County's records survive because the county escaped the wars and fires that destroyed records elsewhere — {ancestor_name}'s documents are likely intact, but finding them means navigating Connecticut's town-level filing system.",
+    "Before 1785, there was no Middlesex County — {ancestor_name}'s earlier records are filed in Hartford or New London County, depending on which town they lived in.",
+    "The probate district that handled {ancestor_name}'s estate was not the county courthouse — it was a local probate court serving a handful of towns, with its own judge and its own records vault.",
+    "If {ancestor_name} worked in the Portland quarries, the quarry company records may be the only trace — brownstone workers owned no land, left few town records, and often appeared only in the census and the stone they cut."
+  ],
+  "source_references": [
+    "Kemp, Thomas Jay. Connecticut Researcher's Handbook. Detroit: Gale Research, 1981.",
+    "Connecticut State Library. Guide to Archives in the Connecticut State Library. Hartford: Connecticut State Library, 1981.",
+    "Sperry, Kip. Connecticut Sources for Family Historians and Genealogists. New Haven: Connecticut Society of Genealogists, 1980."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ct_middlesex",
+    "research_guidance_refs": ["colonial_new_england_records"],
+    "template_refs": ["document_deep_read", "record_silences"]
+  }
+}

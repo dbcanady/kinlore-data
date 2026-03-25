@@ -1,0 +1,75 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Harrison County, TX. Record survival, courthouse history, and known losses for the wealthiest antebellum county in Texas. Harrison County's courthouse experienced a significant fire in 1878 that destroyed some early records.",
+  "courthouse_atlas_id": "tx_harrison_courthouse",
+  "display_name": "Harrison County, Texas — Courthouse Atlas",
+  "county": "Harrison",
+  "state": "TX",
+  "fips_code": "48203",
+  "cluster_ref": "tx_east_piney_woods",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1964, "location": "Marshall, TX — 200 W. Houston Street", "records_housed": ["deeds", "plats", "marriage licenses", "probate records", "court minutes"] },
+    "previous_courthouses": [
+      { "era": "1842–1878", "location": "Marshall, courthouse square", "fate": "The 1878 courthouse fire destroyed portions of early records. This is the most significant record loss in the cluster." },
+      { "era": "1878–1900", "location": "Marshall, rebuilt on same site", "fate": "Rebuilt after the fire. Served until replaced." },
+      { "era": "1900–1964", "location": "Marshall, courthouse square", "fate": "Replaced by current building." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "harrison_1878_fire",
+      "date": "1878",
+      "cause": "Courthouse fire",
+      "records_destroyed": ["Some early deed books", "some early court minutes", "scattered probate files from the 1840s-1850s"],
+      "records_survived": ["Most deed books (transcribed or recovered)", "marriage records (substantially intact)", "later probate files", "tax rolls (partially)"],
+      "scope": "partial",
+      "description": "The 1878 Harrison County courthouse fire destroyed portions of early records, particularly some deed books and court minutes from the county's first decades (1842–1860s). However, the damage was not total — many records were recovered, transcribed from copies, or reconstructed from secondary sources. Marriage records survived substantially intact. The fire creates gaps in the antebellum record that are particularly frustrating given Harrison County's importance as the wealthiest and most heavily slaveholding county in Texas.",
+      "narrative_impact": "If {ancestor_name} held property in Harrison County before 1878, some deed records may have been lost in the fire. This is especially significant for enslaved people's genealogy — slave schedules and county records that might have supplemented the census are among the most vulnerable pre-fire records. Check the Texas General Land Office for original patents that predate the county clerk's copies.",
+      "source": "Harrison County Historical Museum. Harrison County courthouse history files. Texas State Library and Archives Commission."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1842, "completeness": "Partial for pre-1878 records due to fire. Post-1878 records are complete.", "gaps": "Some early deed books lost or damaged in the 1878 fire. Some were transcribed from originals or reconstructed.", "repository": "Harrison County Clerk, Marshall; Texas General Land Office for original patents", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1842, "completeness": "Good — marriage records survived substantially intact; some early probate files lost.", "gaps": "Scattered probate files from the 1840s–1850s may have been lost in the fire.", "repository": "Harrison County Clerk", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1842, "completeness": "Good — marriage records survived the fire substantially intact.", "gaps": "Minor gaps in the earliest years.", "repository": "Harrison County Clerk", "online_access": "FamilySearch; Ancestry.com TX marriages" },
+    "court_minutes": { "earliest_surviving": 1842, "completeness": "Partial — some early minutes lost in the 1878 fire.", "gaps": "Gaps in the 1840s–1860s court minutes.", "repository": "Harrison County Clerk", "online_access": "FamilySearch microfilm" },
+    "vital_records": { "birth_registration_start": 1903, "death_registration_start": 1903, "completeness": "Spotty before 1910.", "repository": "Texas Department of State Health Services" }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Slave schedules and plantation records",
+      "description": "The 1850 and 1860 federal slave schedules for Harrison County list slaveholders and the age, sex, and color of enslaved people (but not their names). Some plantation records — account books, overseer reports, correspondence — survive in private collections and at the Harrison County Historical Museum.",
+      "repository": "National Archives (slave schedules); Harrison County Historical Museum; Dolph Briscoe Center, UT Austin",
+      "era_coverage": "1850–1865",
+      "genealogical_value": "Critical for documenting enslaved families in Texas's most heavily slaveholding county. The slave schedules, combined with post-emancipation census records and Freedmen's Bureau files, are the primary tools for tracing enslaved ancestry.",
+      "source": "Campbell, An Empire for Slavery, Appendix."
+    },
+    {
+      "source_type": "Confederate records — Trans-Mississippi headquarters at Marshall",
+      "description": "Marshall served as a Confederate administrative center during the Civil War. Confederate military records, commissary reports, and government correspondence generated in Marshall survive at various archives.",
+      "repository": "National Archives (Confederate records); Texas State Library; Harrison County Historical Museum",
+      "era_coverage": "1861–1865",
+      "genealogical_value": "Documents Confederate military and civilian personnel in Marshall. The Missouri Confederate government-in-exile records may document individuals from both Missouri and Harrison County.",
+      "source": "Kerby, Kirby Smith's Confederacy."
+    }
+  ],
+  "narrative_hooks": [
+    "The 1878 courthouse fire destroyed some of Harrison County's earliest records — if {ancestor_name}'s deed or court record from before that date is missing, the fire is the most likely explanation.",
+    "Harrison County held more enslaved people than free people in 1860 — the slave schedules at the National Archives are essential for documenting {ancestor_name}'s family, because the county records alone do not name enslaved individuals.",
+    "Marshall's Confederate records document the Trans-Mississippi headquarters — if {ancestor_name} was in Marshall during the war, government records generated there may survive at the National Archives.",
+    "The Texas General Land Office holds original land patents that predate Harrison County's courthouse copies — if a deed was lost in the 1878 fire, the original patent may still exist in Austin."
+  ],
+  "source_references": [
+    "Harrison County Historical Museum courthouse history files.",
+    "Texas State Library and Archives Commission. County Records Inventory.",
+    "Campbell, Randolph B. An Empire for Slavery. Baton Rouge: Louisiana State University Press, 1989.",
+    "Kerby, Robert L. Kirby Smith's Confederacy. New York: Columbia University Press, 1972.",
+    "Works Progress Administration. Historical Records Survey: Texas County Records. Austin, 1937–1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "tx_harrison",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

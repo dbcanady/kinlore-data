@@ -1,0 +1,212 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Local economy timeline for the NJ Delaware Valley cluster (Burlington, Camden, Cumberland, Gloucester, Hunterdon, Mercer, Salem, Warren counties). Covers 1660-1960 across six economic eras: Swedish-Finnish prelude, Quaker mercantile founding, agricultural market garden, canal and early industrial, industrial maturation (glass/pottery/soup/ships), and wartime/suburban transformation. New Jersey's Delaware Valley was Philadelphia's economic annex — the back garden, the factory floor, and eventually the bedroom suburb of the nation's colonial capital.",
+  "economy_id": "nj_delaware_valley_economy",
+  "display_name": "NJ Delaware Valley — Local Economy Timeline",
+  "cluster_ref": "nj_delaware_valley",
+  "era_range": "1660-1960",
+  "economic_eras": [
+    {
+      "era_id": "colonial_quaker_founding",
+      "era_name": "Quaker Colony and Delaware Commerce",
+      "date_range": "1675-1760",
+      "dominant_economy": "Quaker mercantile network oriented toward Philadelphia; mixed grain agriculture on the Coastal Plain and Piedmont; fur trade declining; ferry operations connecting West Jersey to Philadelphia",
+      "description": "West Jersey's economy was inseparable from Philadelphia's. The Delaware River was the highway, and every farm in the cluster oriented its production toward the Philadelphia market. Quaker merchants in Burlington and Salem managed a commercial network that extended to London, Bristol, and the Caribbean through the same Friends' trust system that operated in Pennsylvania. The ferry crossings at Burlington, Camden (Cooper's Ferry), and Gloucester connected West Jersey farms to Philadelphia's wharves. Swedish and Finnish families along the lower Delaware had established subsistence farming and timber harvesting before the Quakers arrived, and their log-cabin building tradition spread throughout the region. Wheat was the primary cash crop, supplemented by corn, flax, and livestock. Greensand marl — dug from pits across the Inner Coastal Plain — was the natural fertilizer that kept the sandy soils productive.",
+      "county_specifics": [
+        { "county": "Burlington", "note": "Colonial capital of West Jersey. Burlington City was the commercial center. Quaker mercantile families dominated trade." },
+        { "county": "Camden", "note": "Cooper's Ferry was the primary crossing to Philadelphia. Not yet a separate county (Gloucester territory)." },
+        { "county": "Salem", "note": "Fenwick's Colony (1675) — the oldest English settlement. Agricultural from the start. Salt hay harvesting on the marshes." },
+        { "county": "Gloucester", "note": "Swedish and Finnish settlement predating the English. Mixed farming. Fort Nassau site." },
+        { "county": "Hunterdon", "note": "Settled later (1700s). Piedmont mixed farming. German and Dutch settlement patterns." },
+        { "county": "Mercer", "note": "Trenton at the falls line — head of navigation and natural crossing. Early milling." },
+        { "county": "Cumberland", "note": "Part of Salem until 1748. Maurice River timber and early fishing economy." },
+        { "county": "Warren", "note": "Part of Sussex until 1824. Frontier settlement. Kittatinny Valley limestone farming." }
+      ],
+      "key_infrastructure": [
+        { "name": "Delaware River ferry crossings", "year": "1680s", "impact": "Burlington, Cooper's Ferry (Camden), and Gloucester ferries connected West Jersey to Philadelphia. Every economic transaction oriented toward the Pennsylvania side." },
+        { "name": "Greensand marl pits", "year": "1700s", "impact": "Natural fertilizer that made the Inner Coastal Plain sandy soils productive. A distinctive South Jersey agricultural practice." },
+        { "name": "Burlington as colonial capital", "year": "1677", "impact": "Burlington was the seat of West Jersey government, courts, and commerce until the state capital moved to Trenton." }
+      ],
+      "major_employers": [
+        { "name": "Family farms (Quaker, English, Swedish)", "type": "Mixed agriculture", "era": "1675-1760", "counties_affected": ["Burlington", "Salem", "Gloucester", "Camden"], "employment_scale": "Nearly universal" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Farm laborer", "wage": "3-5 shillings/day", "year": 1720, "source": "Wacker and Clemens, Land Use in Early New Jersey, ch. 5." },
+        { "occupation": "Ferry operator", "wage": "Variable — toll-based income", "year": 1720, "source": "Pomfret, West New Jersey, appendix." }
+      ],
+      "narrative_hook": "In the {decade}s, {ancestor_name} farmed West Jersey land oriented toward Philadelphia — the Delaware River was the market road, the ferry was the connection, and the Quaker network that ran the colony operated on both sides of the water.",
+      "source": "Pomfret, The Province of West New Jersey (1956). Wacker and Clemens, Land Use in Early New Jersey (1995)."
+    },
+    {
+      "era_id": "agricultural_market_garden",
+      "era_name": "Market Garden and Early Industry",
+      "date_range": "1760-1840",
+      "dominant_economy": "Commercial agriculture intensifying — truck farming for Philadelphia; Pine Barrens bog iron industry; glass manufacturing beginning at Alloway and spreading; Revolutionary War disruption and recovery; canal era beginning",
+      "description": "The late colonial and early republic period saw West Jersey's economy diversify beyond grain farming. The Pine Barrens bog iron industry — exploiting iron oxide deposits in stream beds and burning the pine forest for charcoal — created an industrial economy hidden inside the wilderness. Batsto Furnace produced munitions during the Revolution. Caspar Wistar's glass factory near Alloway (1739) established South Jersey's glass tradition. The Revolutionary War battles at Trenton, Princeton, and Red Bank (Gloucester County) disrupted the agricultural economy but did not destroy it. After the war, commercial agriculture intensified as proximity to Philadelphia encouraged truck farming — growing vegetables and fruits for the urban market. The Delaware and Raritan Canal (1834) and the Morris Canal (1831) connected the cluster to wider markets.",
+      "county_specifics": [
+        { "county": "Burlington", "note": "Batsto and other Pine Barrens iron furnaces. Agricultural economy continuing on the tidewater." },
+        { "county": "Mercer", "note": "Trenton becoming the state capital (1790). Falls-line milling. Revolutionary War battlefield recovery." },
+        { "county": "Salem", "note": "Wistar glass factory (1739-1777) near Alloway. Agricultural economy dominant." },
+        { "county": "Cumberland", "note": "Glass industry spreading to Millville and Bridgeton. Maurice River timber economy." },
+        { "county": "Hunterdon", "note": "Delaware and Raritan Canal feeder through the county. Lambertville emerging as canal town." },
+        { "county": "Warren", "note": "Morris Canal terminus at Phillipsburg (1831). Iron forges in the Highlands." }
+      ],
+      "key_infrastructure": [
+        { "name": "Batsto Iron Furnace", "year": "1766", "impact": "Pine Barrens bog iron smelting. Produced munitions during the Revolution. A company town in the wilderness." },
+        { "name": "Delaware and Raritan Canal", "year": "1834", "impact": "Connected Bordentown to New Brunswick, carrying coal and freight across New Jersey." },
+        { "name": "Morris Canal", "year": "1831", "impact": "Connected Phillipsburg (Warren Co.) to Newark via inclined planes over the Highlands." }
+      ],
+      "major_employers": [
+        { "name": "Pine Barrens iron furnaces (Batsto, Atsion, etc.)", "type": "Iron smelting", "era": "1766-1848", "counties_affected": ["Burlington"], "employment_scale": "100-300 per furnace community" },
+        { "name": "Glass factories (Alloway, Bridgeton, Millville)", "type": "Glass manufacturing", "era": "1739-1840+", "counties_affected": ["Salem", "Cumberland"], "employment_scale": "50-200 per factory" },
+        { "name": "Commercial farms", "type": "Agriculture", "era": "1760-1840", "counties_affected": ["all"], "employment_scale": "Dominant" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Iron furnace laborer", "wage": "$0.75-$1.00/day plus company store credit", "year": 1800, "source": "Pierce, Iron in the Pines, ch. 6." },
+        { "occupation": "Glass blower (skilled)", "wage": "$1.50-$3.00/day", "year": 1820, "source": "Pepper, Glass Gaffers, ch. 3." },
+        { "occupation": "Farm laborer", "wage": "$0.50-$0.75/day", "year": 1820, "source": "Schmidt, Agriculture in New Jersey, appendix." }
+      ],
+      "narrative_hook": "The iron furnaces in {ancestor_name}'s Pine Barrens ran on bog ore and charcoal — the creek-bottom iron and the surrounding pine forest consumed together, until the anthracite furnaces in Pennsylvania undercut the price and the Pine Barrens fires went cold.",
+      "source": "Pierce, Iron in the Pines (1957). Pepper, Glass Gaffers (1971)."
+    },
+    {
+      "era_id": "railroad_industrial_growth",
+      "era_name": "Railroad and Industrial Growth",
+      "date_range": "1840-1880",
+      "dominant_economy": "Railroad connections to Philadelphia and New York; Camden and Trenton industrializing; glass industry expanding in Cumberland County; truck farming intensifying with railroad access to urban markets; oyster industry growing on the Delaware Bay",
+      "description": "The railroad transformed West Jersey's economy. The Camden and Amboy Railroad (1834) connected Camden to New York, making Camden a rail hub. The West Jersey Railroad connected Camden south through Gloucester, Salem, and Cumberland counties. Every community on the railroad grew; those bypassed stagnated. Camden began its industrial transformation — the waterfront attracted factories that exploited rail connections, river access, and proximity to Philadelphia's labor and markets. Trenton's pottery industry established itself, drawing skilled potters from England's Staffordshire district. The glass industry in Cumberland County expanded dramatically. The Delaware Bay oyster industry grew into a major commercial enterprise. Truck farming — growing perishable vegetables and fruits for the urban market — became viable over greater distances as railroad speed allowed same-day delivery to Philadelphia.",
+      "county_specifics": [
+        { "county": "Camden", "note": "Industrializing rapidly. Camden and Amboy Railroad. Campbell canning operation (1869). Waterfront factories." },
+        { "county": "Mercer", "note": "Trenton pottery industry establishing. Roebling wire rope. State capital functions." },
+        { "county": "Cumberland", "note": "Glass industry peak at Bridgeton and Millville. Oyster fleet at Port Norris expanding." },
+        { "county": "Burlington", "note": "Pine Barrens iron industry declining. Cranberry cultivation beginning. Tidewater farming continuing." },
+        { "county": "Gloucester", "note": "Truck farming expanding with railroad access. Glassboro glass industry." },
+        { "county": "Hunterdon", "note": "Canal era declining. Agricultural economy continuing. Dairy emerging." },
+        { "county": "Salem", "note": "Agricultural economy dominant. Wistar glass tradition continuing nearby." },
+        { "county": "Warren", "note": "Morris Canal operating. Iron mining in Highlands. Limestone farming in Kittatinny Valley." }
+      ],
+      "key_infrastructure": [
+        { "name": "Camden and Amboy Railroad", "year": "1834", "impact": "Connected Camden to New York via South Amboy. Made Camden a rail hub." },
+        { "name": "Joseph Campbell canning operation, Camden", "year": "1869", "impact": "Began as a canning company processing South Jersey produce. Evolved into Campbell Soup Company." },
+        { "name": "Trenton pottery works (multiple)", "year": "1850s-1870s", "impact": "Trenton became America's pottery capital — sanitary ware, tiles, tableware." }
+      ],
+      "major_employers": [
+        { "name": "Glass factories (Bridgeton, Millville, Glassboro)", "type": "Glass manufacturing", "era": "1840-1880", "counties_affected": ["Cumberland", "Gloucester"], "employment_scale": "Hundreds per factory" },
+        { "name": "Trenton potteries", "type": "Ceramics manufacturing", "era": "1850-1880", "counties_affected": ["Mercer"], "employment_scale": "Thousands across multiple firms" },
+        { "name": "Delaware Bay oyster fleet", "type": "Fishing/shellfish", "era": "1860-1880", "counties_affected": ["Cumberland", "Salem"], "employment_scale": "Thousands — boat crews, shuckers, packers" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Glass blower (skilled)", "wage": "$2.00-$4.00/day", "year": 1870, "source": "Pepper, Glass Gaffers, ch. 5." },
+        { "occupation": "Potter (skilled, Trenton)", "wage": "$2.00-$3.50/day", "year": 1870, "source": "Stern, Pottery Industry, ch. 3." },
+        { "occupation": "Oyster boat crew", "wage": "$1.50-$2.50/day (seasonal)", "year": 1870, "source": "Hall, Delaware Bay Oyster Industry." }
+      ],
+      "narrative_hook": "The railroad made {ancestor_name}'s tomatoes worth more — a morning harvest in Gloucester County reached Philadelphia's Dock Street market by afternoon, and the difference between railroad access and wagon distance was the difference between profit and rot.",
+      "source": "Dorwart, Camden County (2001). Stern, Pottery Industry (1994)."
+    },
+    {
+      "era_id": "industrial_peak",
+      "era_name": "Industrial Peak and Immigration",
+      "date_range": "1880-1920",
+      "dominant_economy": "Camden as major industrial city (Campbell Soup, Victor Talking Machine/RCA, NY Shipbuilding); Trenton pottery and wire rope at peak; glass industry mature; Italian immigration to Vineland and Camden; oyster industry at peak; truck farming industrialized",
+      "description": "The period 1880-1920 was the peak of West Jersey's industrial economy. Camden became one of the most productive manufacturing cities in the Northeast: Campbell Soup Company (condensed soup from 1897), the Victor Talking Machine Company (1901, later RCA Victor — every Victrola phonograph was made in Camden), and the New York Shipbuilding Corporation (1899 — built warships and merchant vessels). Trenton's pottery industry was at full capacity, producing more sanitary ware than any city in America. The glass industry at Bridgeton and Millville employed thousands. Italian immigrants poured into the cluster — to Vineland's truck farms, Camden's factories, and Trenton's potteries. Polish, Hungarian, and Irish immigrants swelled the industrial workforce. The Delaware Bay oyster industry reached its peak, with the fleet at Port Norris numbering over 500 schooners.",
+      "county_specifics": [
+        { "county": "Camden", "note": "Three defining employers — Campbell Soup, RCA Victor, NY Shipbuilding. Italian, Polish, Irish labor force." },
+        { "county": "Mercer", "note": "Trenton pottery at peak. Roebling wire rope (Brooklyn Bridge cables made here). State government employment." },
+        { "county": "Cumberland", "note": "Glass industry mature. Oyster fleet at peak (500+ schooners). Vineland Italian farming community growing. Jewish colonies at Alliance." },
+        { "county": "Burlington", "note": "Cranberry industry expanding. Tidewater farming continuing. Pine Barrens largely depopulated." },
+        { "county": "Gloucester", "note": "Truck farming peak. Petroleum refining arriving at Paulsboro." },
+        { "county": "Salem", "note": "Agricultural. DuPont Chambers Works at Deepwater (1892)." },
+        { "county": "Hunterdon", "note": "Dairy farming replacing grain. Rural character preserved." },
+        { "county": "Warren", "note": "Morris Canal declining. Agricultural economy continuing. Iron mining declining." }
+      ],
+      "key_infrastructure": [
+        { "name": "Victor Talking Machine Company (later RCA Victor), Camden", "year": "1901", "impact": "Made Camden the recorded music capital of the world. Caruso, Toscanini, and every major recording artist recorded here." },
+        { "name": "New York Shipbuilding Corporation, Camden", "year": "1899", "impact": "Built battleships, aircraft carriers, and merchant vessels. Employed up to 35,000 during wartime." },
+        { "name": "Elizabeth White/Whitesbog blueberry cultivation", "year": "1916", "impact": "First commercially cultivated highbush blueberry. Transformed Pine Barrens agriculture." }
+      ],
+      "major_employers": [
+        { "name": "Campbell Soup Company, Camden", "type": "Food processing", "era": "1869-1920+", "counties_affected": ["Camden", "Gloucester", "Burlington"], "employment_scale": "Thousands" },
+        { "name": "Victor Talking Machine / RCA Victor, Camden", "type": "Electronics/recording", "era": "1901-1920+", "counties_affected": ["Camden"], "employment_scale": "Thousands" },
+        { "name": "New York Shipbuilding, Camden", "type": "Shipbuilding", "era": "1899-1920+", "counties_affected": ["Camden"], "employment_scale": "10,000-35,000 (wartime peak)" },
+        { "name": "Trenton Potteries Company", "type": "Ceramics", "era": "1892-1920+", "counties_affected": ["Mercer"], "employment_scale": "Thousands" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Campbell Soup factory worker", "wage": "$1.50-$2.50/day", "year": 1910, "source": "Collins, America's Favorite Food." },
+        { "occupation": "Shipyard worker", "wage": "$2.50-$4.00/day", "year": 1918, "source": "Dorwart, Camden County." },
+        { "occupation": "Oyster shucker", "wage": "$0.75-$1.50/day (seasonal)", "year": 1900, "source": "Hall, Delaware Bay Oyster Industry." }
+      ],
+      "narrative_hook": "By {year}, Camden made three things that reached every American household — Campbell's soup in the kitchen, a Victor phonograph in the parlor, and the warships that defended the coast — and {ancestor_name} worked in one of the three.",
+      "source": "Gillette, Camden After the Fall (2005). Collins, America's Favorite Food (1994). Stern, Pottery Industry (1994)."
+    },
+    {
+      "era_id": "depression_wartime",
+      "era_name": "Depression, War, and Suburban Transformation",
+      "date_range": "1920-1960",
+      "dominant_economy": "Depression impact on industrial Camden and Trenton; WWII wartime production (shipbuilding, munitions, chemicals); oyster decline; cranberry/blueberry agriculture in Pine Barrens; postwar suburbanization (Levittown NJ/Willingboro); industrial decline in Camden and Trenton beginning",
+      "description": "The Depression hit industrial Camden and Trenton hard — factory layoffs, unemployment, and poverty. The agricultural counties weathered the Depression better, as food production sustained families even when prices collapsed. WWII brought full employment: the Camden shipyard operated at 35,000 workers, the DuPont Chambers Works at Deepwater produced war chemicals, and Trenton's factories converted to military production. After the war, the cluster began its fundamental transformation: industrial jobs declined, suburban development consumed farmland, and the population shifted from the old cities to new automobile-oriented communities. Levittown NJ (Willingboro, 1958) in Burlington County was the second Levittown — integrated from the start after legal challenge. The New Jersey Turnpike (1951) cut through the cluster, and the suburban highway economy replaced the industrial waterfront economy. Camden and Trenton began their long decline; the suburban townships prospered.",
+      "county_specifics": [
+        { "county": "Camden", "note": "Shipyard wartime peak, then decline. RCA and Campbell reducing employment. Cherry Hill emerging as suburb. Camden beginning long decline." },
+        { "county": "Mercer", "note": "Trenton pottery declining. State government employment stable. Suburban growth along Route 1 corridor." },
+        { "county": "Burlington", "note": "Levittown NJ (Willingboro) 1958. Cranberry/blueberry agriculture in Pine Barrens. Fort Dix military base." },
+        { "county": "Cumberland", "note": "Oyster industry declining (MSX parasite 1957). Glass industry declining. Vineland agriculture continuing." },
+        { "county": "Gloucester", "note": "Suburban growth south from Camden. Paulsboro refinery wartime production." },
+        { "county": "Salem", "note": "DuPont wartime expansion. Agricultural economy continuing. Most rural county in cluster." },
+        { "county": "Hunterdon", "note": "Still rural. Dairy farming. Exurban development beginning." },
+        { "county": "Warren", "note": "Morris Canal closed (1924). Agricultural economy. Phillipsburg railroad declining." }
+      ],
+      "key_infrastructure": [
+        { "name": "New Jersey Turnpike", "year": "1951", "impact": "Limited-access highway cutting through the cluster. Enabled suburban development and truck transport. Replaced the railroad as primary freight mode." },
+        { "name": "Levittown NJ (Willingboro)", "year": "1958", "impact": "12,000 homes on Burlington County farmland. Integrated after Myers v. Levitt (1957). Automobile-centered suburban community." },
+        { "name": "NY Shipbuilding wartime peak", "year": "1943", "impact": "35,000 workers — Camden's largest employer ever. Built aircraft carriers, battleships, and cargo ships." }
+      ],
+      "major_employers": [
+        { "name": "NY Shipbuilding, Camden (wartime)", "type": "Shipbuilding", "era": "1941-1967", "counties_affected": ["Camden"], "employment_scale": "35,000 at wartime peak" },
+        { "name": "DuPont Chambers Works, Deepwater", "type": "Chemicals", "era": "1920-1960", "counties_affected": ["Salem"], "employment_scale": "Several thousand" },
+        { "name": "Fort Dix", "type": "Military installation", "era": "1917-1960+", "counties_affected": ["Burlington"], "employment_scale": "Variable — major wartime mobilization center" },
+        { "name": "Campbell Soup (headquarters), Camden", "type": "Food processing", "era": "1920-1960", "counties_affected": ["Camden"], "employment_scale": "Thousands (declining)" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Shipyard worker (WWII)", "wage": "$1.00-$1.25/hour", "year": 1943, "source": "Dorwart, Camden County." },
+        { "occupation": "DuPont chemical worker", "wage": "$1.25-$1.75/hour", "year": 1950, "source": "NJ Department of Labor records." },
+        { "occupation": "Cranberry bog worker", "wage": "$0.75-$1.25/hour (seasonal)", "year": 1950, "source": "Eck, American Cranberry." }
+      ],
+      "narrative_hook": "By {year}, the New Jersey Turnpike cut through {county} County like a line between two eras — the industrial waterfront that {ancestor_name}'s parents had known fading behind the noise barriers, and the suburban tracts growing on the other side of the highway.",
+      "source": "Gillette, Camden After the Fall (2005). Gans, The Levittowners (1967)."
+    }
+  ],
+  "economic_turning_points": [
+    { "year": 1675, "event": "Fenwick establishes Salem — first English settlement on the Delaware", "impact": "Opened West Jersey to English Quaker colonization and Philadelphia-oriented commerce" },
+    { "year": 1739, "event": "Caspar Wistar establishes first successful glass factory near Alloway", "impact": "Founded South Jersey's glass industry tradition" },
+    { "year": 1766, "event": "Batsto Iron Furnace begins production in the Pine Barrens", "impact": "Created the bog iron industry that would produce Revolutionary War munitions" },
+    { "year": 1834, "event": "Camden and Amboy Railroad completed", "impact": "Connected Camden to New York, making it a rail hub" },
+    { "year": 1869, "event": "Joseph Campbell begins canning operation in Camden", "impact": "Origin of Campbell Soup Company — Camden's signature industry" },
+    { "year": 1901, "event": "Victor Talking Machine Company established in Camden", "impact": "Made Camden the recorded music capital of the world" },
+    { "year": 1951, "event": "New Jersey Turnpike opens", "impact": "Enabled suburban development and accelerated industrial decline in older cities" },
+    { "year": 1957, "event": "MSX parasite devastates Delaware Bay oyster beds", "impact": "Destroyed the oyster industry that had sustained Cumberland County for a century" }
+  ],
+  "narrative_hooks": [
+    "West Jersey's economy faced Philadelphia across the Delaware — {ancestor_name} farmed, worked, and traded in an economy that was Philadelphia's annex, connected by ferry, then railroad, then highway.",
+    "Camden made soup, sound, and ships — and {ancestor_name} likely worked in one of the three industries that put Camden on the map of American manufacturing.",
+    "The Pine Barrens produced iron from the creek beds and charcoal from the pines — {ancestor_name} in a furnace town hidden in the wilderness, until Pennsylvania coal made the bog iron worthless.",
+    "South Jersey glass was made from the sand underfoot — {ancestor_name}'s neighbors at Millville or Bridgeton turning local silica into bottles and windows in furnaces that ran day and night.",
+    "The New Jersey Turnpike divided the cluster's past from its future — {ancestor_name}'s generation watched the factories close and the suburbs spread, and the exit ramp became the new town center.",
+    "The Delaware Bay oysters fed the eastern seaboard — until the MSX parasite destroyed the beds in 1957 and {ancestor_name}'s Port Norris went from fishing fleet to museum."
+  ],
+  "source_references": [
+    "Pomfret, John E. The Province of West New Jersey, 1609-1702. Princeton: Princeton University Press, 1956.",
+    "Wacker, Peter O., and Paul G. E. Clemens. Land Use in Early New Jersey. Newark: New Jersey Historical Society, 1995.",
+    "Pierce, Arthur D. Iron in the Pines. New Brunswick: Rutgers University Press, 1957.",
+    "Pepper, Adeline. The Glass Gaffers of New Jersey. New York: Charles Scribner's Sons, 1971.",
+    "Gillette, Howard. Camden After the Fall. Philadelphia: University of Pennsylvania Press, 2005.",
+    "Stern, Marc. The Pottery Industry of Trenton. New Brunswick: Rutgers University Press, 1994.",
+    "Collins, Douglas. America's Favorite Food: The Story of Campbell Soup Company. New York: Harry N. Abrams, 1994.",
+    "Schmidt, Hubert G. Agriculture in New Jersey. New Brunswick: Rutgers University Press, 1973.",
+    "Gans, Herbert J. The Levittowners. New York: Pantheon Books, 1967."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["quaker_migration", "industrial_revolution", "great_migration", "gi_bill_migration", "civil_war_service"],
+    "material_life_refs": ["colonial_farm_1680_1780", "antebellum_yeoman_farm_1820_1860", "industrial_city_1880_1920", "postwar_suburban_1945_1970"],
+    "life_pattern_refs": ["yeoman_farming_stability", "company_town_lifecycle", "immigrant_parish_lifecycle"]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Rockingham County, Virginia. Record survival, courthouse history, and known losses for the heart of the German settlement zone in the central Valley.",
+  "courthouse_atlas_id": "va_rockingham_courthouse",
+  "display_name": "Rockingham County, Virginia — Courthouse Atlas",
+  "county": "Rockingham",
+  "state": "VA",
+  "fips_code": "51165",
+  "cluster_ref": "va_shenandoah_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1897,
+      "location": "Harrisonburg, VA — Court Square (replaced the antebellum courthouse that was damaged during the Civil War era)",
+      "records_housed": ["deeds", "wills", "court order books", "marriage registers", "fiduciary records", "chancery files"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1778–1830s",
+        "location": "Harrisonburg — original log and later frame courthouse on Court Square",
+        "fate": "Replaced by a larger brick courthouse as the county's population grew. Records transferred intact."
+      },
+      {
+        "era": "1830s–1897",
+        "location": "Harrisonburg — brick courthouse on Court Square",
+        "fate": "Served through the Civil War. Damaged but not destroyed. The 1897 replacement was built to accommodate the growing county's needs. Records survived the transition."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "rockingham_no_major_loss",
+      "date": null,
+      "cause": "No major courthouse fire or catastrophic destruction",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court order books", "marriage bonds and registers", "chancery records"],
+      "scope": "minimal",
+      "description": "Rockingham County's courthouse records survived the Civil War remarkably well despite Sheridan's devastating 1864 campaign through the county. While the Burning destroyed barns, mills, and agricultural infrastructure across Rockingham, the courthouse at Harrisonburg was not specifically targeted. The bound record books are intact and continuous from the county's formation in 1778. This makes Rockingham one of the best-documented counties in the Valley for genealogical research.",
+      "narrative_impact": "Rockingham County's exceptional record survival means that {ancestor_name}'s paper trail is likely intact from 1778 forward. Gaps are more often due to German families using church records rather than civil records, or to the parent county split — pre-1778 records are in Augusta County.",
+      "source": "Wayland, John Walter. A History of Rockingham County, Virginia. Dayton, VA: Ruebush-Elkins, 1912."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1778,
+      "completeness": "Excellent — continuous series from county formation",
+      "gaps": "No known significant gaps. Pre-1778 deeds for land in the Rockingham area are in Augusta County at Staunton.",
+      "repository": "Rockingham County Circuit Court, Harrisonburg; Library of Virginia microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com Virginia land records; Library of Virginia digital collections"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1778,
+      "completeness": "Excellent — continuous from formation",
+      "gaps": "Some loose estate papers from the 1780s are fragmentary. Bound will books are complete. German-language wills exist but are indexed under anglicized spellings.",
+      "repository": "Rockingham County Circuit Court; Library of Virginia",
+      "online_access": "FamilySearch microfilm; Library of Virginia digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1778,
+      "completeness": "Good — marriage bonds survive from county formation; minister returns are scattered before 1853",
+      "gaps": "Mennonite and Brethren marriages were frequently performed by elders without corresponding civil bonds. German Reformed and Lutheran marriages appear in church registers but may be absent from civil records. The civil bond series underrepresents the German community.",
+      "repository": "Rockingham County Circuit Court; Library of Virginia microfilm",
+      "online_access": "FamilySearch; Ancestry.com Virginia marriages collection"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1778,
+      "completeness": "Excellent — County Court order books are nearly continuous",
+      "gaps": "The earliest volumes contain a mix of English and occasional German personal names with variable spellings. The Mennonite and Brethren communities resolved many disputes internally through church discipline rather than civil courts, so their representation in court records is lower than their population share.",
+      "repository": "Rockingham County Circuit Court; Library of Virginia microfilm",
+      "online_access": "Library of Virginia microfilm; limited FamilySearch digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1853,
+      "death_registration_start": 1853,
+      "completeness": "Fair — compliance with the 1853–1896 mandate was uneven, particularly among rural German communities. Some Mennonite families did not report to civil authorities. Registration resumed 1912 with better compliance.",
+      "repository": "Virginia Department of Health, Office of Vital Records; Library of Virginia for pre-1896 registers"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Augusta County parent records (pre-1778)",
+      "description": "Rockingham County was formed from Augusta County in 1778. All records before that date are in Augusta County at Staunton, including the earliest German settlement records from the 1740s and 1750s.",
+      "repository": "Augusta County Circuit Court, Staunton; Library of Virginia",
+      "era_coverage": "1745–1778",
+      "genealogical_value": "Essential for tracing Rockingham families back to original settlement. Chalkley's Chronicles (published 1912) abstracts much of the early Augusta County material and is a critical finding aid.",
+      "source": "Chalkley, Lyman. Chronicles of the Scotch-Irish Settlement in Virginia, Extracted from the Original Court Records of Augusta County. 3 vols. Rosslyn, VA: Commonwealth Printing, 1912."
+    },
+    {
+      "source_type": "Mennonite and Brethren church records",
+      "description": "The Mennonite and Church of the Brethren congregations in Rockingham County kept detailed membership, birth, marriage, death, and discipline records. These peace-church communities conducted much of their governance through the congregation rather than the civil courts.",
+      "repository": "Eastern Mennonite University Archives, Harrisonburg; Brethren Heritage Center, Brookville, OH; individual congregations",
+      "era_coverage": "1760s–present",
+      "genealogical_value": "These are the single most important substitute source for German peace-church families in Rockingham County. Mennonite genealogical societies have published many church record abstracts. The discipline records — recording members disciplined for marrying outside the faith, swearing oaths, or joining the militia — are uniquely revealing.",
+      "source": "Brunk, Harry Anthony. History of Mennonites in Virginia, 1727-1900. Staunton, VA: McClure Printing, 1959."
+    },
+    {
+      "source_type": "Chalkley's Chronicles of the Scotch-Irish Settlement",
+      "description": "Lyman Chalkley's three-volume abstract of Augusta County court records (published 1912) covers the period when Rockingham was still part of Augusta. It abstracts wills, deeds, court orders, and other records from the 1740s to the 1800s.",
+      "repository": "Widely available in print and digitized at Internet Archive, FamilySearch, and Ancestry.com",
+      "era_coverage": "1745–1800s",
+      "genealogical_value": "Chalkley is the essential starting point for any Valley genealogy in the Augusta-Rockingham area. Despite its title, it covers German families as well as Scots-Irish. The abstracts are reliable but researchers should confirm against originals.",
+      "source": "Chalkley, Lyman. Chronicles of the Scotch-Irish Settlement in Virginia. 3 vols. Rosslyn, VA: Commonwealth Printing, 1912."
+    },
+    {
+      "source_type": "John Walter Wayland's county history (1912)",
+      "description": "Wayland's comprehensive history of Rockingham County includes extensive genealogical data, family sketches, and transcriptions of records.",
+      "repository": "Most libraries with Virginia collections; digitized at HathiTrust and Internet Archive",
+      "era_coverage": "1740s–1910s",
+      "genealogical_value": "Wayland gathered family traditions and records that supplement the courthouse records. His work is particularly valuable for German families whose records he recorded in English translation.",
+      "source": "Wayland, John Walter. A History of Rockingham County, Virginia. Dayton, VA: Ruebush-Elkins, 1912."
+    }
+  ],
+  "narrative_hooks": [
+    "Rockingham County's courthouse records are intact from 1778 — {ancestor_name}'s deeds, wills, and court appearances are almost certainly still in the vault at Harrisonburg, unbroken by fire or war.",
+    "If {ancestor_name} was Mennonite or Brethren, the courthouse tells only part of the story — the congregation's own records of births, marriages, discipline, and death may be richer and more revealing than anything filed with the county clerk.",
+    "Before 1778, {ancestor_name}'s records were in Augusta County at Staunton, and Chalkley's Chronicles — three volumes of abstracts from Augusta's court records — may be the fastest path to finding them.",
+    "Mennonite families in Rockingham County resolved disputes through the congregation rather than the courthouse, so a thin civil record does not mean a thin family history — it means looking in the church archives rather than the court files.",
+    "The marriage bond series at Harrisonburg underrepresents Rockingham's German community — Mennonite elders performed marriages without civil bonds, and the missing civil record reflects the family's faith, not a lost document.",
+    "Sheridan burned the barns and mills of Rockingham County in 1864, but the courthouse survived — and the records that document {ancestor_name}'s land, family, and legal affairs remained in the vault while the agricultural wealth of the county was reduced to ash."
+  ],
+  "source_references": [
+    "Wayland, John Walter. A History of Rockingham County, Virginia. Dayton, VA: Ruebush-Elkins, 1912.",
+    "Chalkley, Lyman. Chronicles of the Scotch-Irish Settlement in Virginia. 3 vols. Rosslyn, VA: Commonwealth Printing, 1912.",
+    "Brunk, Harry Anthony. History of Mennonites in Virginia, 1727-1900. Staunton, VA: McClure Printing, 1959.",
+    "Wust, Klaus. The Virginia Germans. Charlottesville: University Press of Virginia, 1969.",
+    "Heatwole, John L. The Burning: Sheridan in the Shenandoah Valley. Charlottesville: Rockbridge Publishing, 1998.",
+    "Library of Virginia. A Guide to Virginia County and City Records on Microfilm. Richmond, various editions."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "va_rockingham",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

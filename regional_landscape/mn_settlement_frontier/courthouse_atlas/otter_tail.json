@@ -1,0 +1,138 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Otter Tail County, MN. Record survival, courthouse history — Norwegian heartland, late settlement, 1,000+ lakes, Fergus Falls regional center.",
+  "courthouse_atlas_id": "mn_otter_tail_courthouse",
+  "display_name": "Otter Tail County, Minnesota — Courthouse Atlas",
+  "county": "Otter Tail",
+  "state": "MN",
+  "fips_code": "27111",
+  "cluster_ref": "mn_settlement_frontier",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1921,
+      "location": "Fergus Falls, MN — 121 West Junius Avenue",
+      "records_housed": ["deeds", "plats", "vital records", "probate records", "court minutes", "naturalization records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1871–1884",
+        "location": "Fergus Falls, frame courthouse",
+        "fate": "Destroyed by fire in 1884."
+      },
+      {
+        "era": "1884–1920",
+        "location": "Fergus Falls, brick courthouse",
+        "fate": "Replaced by 1921 neoclassical building. Records transferred."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "otter_tail_1884_fire",
+      "date": "1884",
+      "cause": "Courthouse fire",
+      "records_destroyed": ["some early deed indexes", "some loose court papers", "some justice of the peace records"],
+      "records_survived": ["most deed books", "probate records (most)", "some court minutes"],
+      "scope": "partial",
+      "description": "The first Otter Tail County Courthouse at Fergus Falls burned in 1884, approximately thirteen years after county organization. The bound deed books and most probate records were saved — they were stored in a fireproof vault that survived the blaze. However, some early deed indexes, loose court papers, and justice of the peace dockets were destroyed. The loss is not catastrophic but creates gaps in the peripheral documentation for the county's first decade of settlement (1871–1884). The replacement courthouse was built of brick, and no subsequent losses are known.",
+      "narrative_impact": "If {ancestor_name} had business before the justice of the peace in Otter Tail County before 1884, that record is probably gone. But the deed to the family farm almost certainly survived the fire — the vault held.",
+      "source": "Curtiss-Wedge, Franklyn. History of Otter Tail County, Minnesota. 2 vols. Chicago: H. C. Cooper Jr. & Co., 1916."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1871,
+      "completeness": "Good — most deed books survived the 1884 fire in the fireproof vault",
+      "gaps": "Some early deed indexes were destroyed in the fire, making it harder to locate specific records before 1884. The deed books themselves are largely intact. Federal land patents (GLO) supplement the county records for original homestead claims.",
+      "repository": "Otter Tail County Recorder, Fergus Falls; Minnesota Historical Society microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com MN land records; BLM GLO online records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1873,
+      "completeness": "Good — most probate records survived the 1884 fire",
+      "gaps": "Very few estates were probated in the county's first decade. Early Norwegian settlers sometimes settled estates informally within the community.",
+      "repository": "Otter Tail County Probate Court, Fergus Falls; Minnesota Historical Society",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1872,
+      "completeness": "Fair to good — some early marriage records may have been damaged in the 1884 fire",
+      "gaps": "Norwegian immigrants frequently married in church ceremonies; civil recording was inconsistent, especially in the 1870s when the county was still frontier.",
+      "repository": "Otter Tail County Recorder; Minnesota Historical Society microfilm",
+      "online_access": "FamilySearch; Ancestry.com MN marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1872,
+      "completeness": "Fair — some early court records were lost in the 1884 fire",
+      "gaps": "Justice of the peace records for the pre-1884 period are largely destroyed.",
+      "repository": "Otter Tail County Courthouse; Minnesota Historical Society",
+      "online_access": "Minnesota Historical Society microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1870,
+      "death_registration_start": 1870,
+      "completeness": "Very poor compliance in the 1870s and 1880s — Otter Tail County was still frontier territory. Norwegian Lutheran church records are far more reliable for vital events before 1895. Fergus Falls city records improve after 1890.",
+      "repository": "Minnesota Department of Health; Otter Tail County Recorder; Minnesota Historical Society"
+    },
+    "naturalization_records": {
+      "earliest_surviving": 1872,
+      "completeness": "Good from the 1880s onward — the massive Norwegian immigration of that decade generated heavy naturalization filings. Some early records may have been damaged in the 1884 fire.",
+      "gaps": "The 1870s records are thin; the 1880s and 1890s are robust.",
+      "repository": "Otter Tail County District Court; National Archives — Chicago; Minnesota Historical Society",
+      "online_access": "FamilySearch; Ancestry.com"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Norwegian Lutheran church records (ministerialbok)",
+      "description": "Otter Tail County had one of the densest concentrations of Norwegian Lutheran congregations in the United States. Valdres-dialect and Sogn-dialect communities organized separate churches, each maintaining parish registers in Norwegian. Key congregations include Trefoldighet (Fergus Falls), Vinger, Tumuli, Friberg, and dozens more. The Norwegian Synod and Hauge Synod each served distinct communities.",
+      "repository": "Norwegian-American Historical Association, Northfield; Luther Seminary Archives, St. Paul; individual congregations; FamilySearch microfilm",
+      "era_coverage": "1870s–present",
+      "genealogical_value": "Norwegian church records are the essential genealogical source for Otter Tail County before 1895. The ministerialbok typically records the immigrant's home parish in Norway (e.g., 'fra Vang i Valdres' or 'fra Balestrand i Sogn'), enabling direct linkage to Norwegian records. Confirmation records, communion records, and burial records fill gaps that the county courthouse cannot.",
+      "source": "Qualey, Carlton C. Norwegian Settlement in the United States. Northfield, MN: Norwegian-American Historical Association, 1938. Gjerde, Jon. From Peasants to Farmers. Cambridge: Cambridge University Press, 1985."
+    },
+    {
+      "source_type": "Federal and state censuses",
+      "description": "Federal population schedules 1880–1940 (Otter Tail County was very sparsely settled before 1880). Minnesota state censuses (1875, 1885, 1895, 1905). The 1880 census is the first to capture a significant population.",
+      "repository": "National Archives; FamilySearch; Ancestry.com; Minnesota Historical Society",
+      "era_coverage": "1875–1940",
+      "genealogical_value": "The 1885 state census is especially valuable — it captures the peak of Norwegian chain migration and includes a column for parents' birthplace. Agricultural schedules (1880) document the transition from wheat to diversified farming.",
+      "source": "Minnesota Historical Society. Minnesota Census Records Guide. St. Paul: MHS, 2004."
+    },
+    {
+      "source_type": "Norwegian emigration records (Emigrantprotokollene)",
+      "description": "Norwegian police district emigration protocols listing every person who emigrated, with home parish, destination, date, and ship information.",
+      "repository": "National Archives of Norway (Digitalarkivet); FamilySearch; Norwegian-American Historical Association",
+      "era_coverage": "1825–1930",
+      "genealogical_value": "For Otter Tail County families, the emigration protocols are especially valuable because the county's settlement was so heavily chain-migration based. The protocol entry may confirm the exact valley, parish, and farm of origin in Norway.",
+      "source": "Digitalarkivet (National Archives of Norway). Emigrantprotokollene."
+    },
+    {
+      "source_type": "Fergus Falls State Hospital records",
+      "description": "The Fergus Falls State Hospital for the Insane (opened 1890) maintained admission records, patient files, and burial records. These are restricted but may document family members committed to the institution.",
+      "repository": "Minnesota Historical Society (restricted access); Minnesota Department of Human Services",
+      "era_coverage": "1890–1960s",
+      "genealogical_value": "An ancestor who 'disappeared' from the record may have been committed to the state hospital. Access is restricted by privacy law but may be available for deceased individuals through the Minnesota Historical Society.",
+      "source": "Minnesota Historical Society. Guide to State Hospital Records."
+    }
+  ],
+  "narrative_hooks": [
+    "Otter Tail County's 1884 courthouse fire destroyed some early records, but the deed books survived in the vault — if {ancestor_name} homesteaded here, the claim almost certainly still exists in the Fergus Falls courthouse or in the federal GLO records online.",
+    "The Norwegian Lutheran church records in Otter Tail County are among the most genealogically rich in America — if {ancestor_name} worshipped at a Valdres-dialect or Sogn-dialect congregation, the ministerialbok may record not just the family events but the exact farm and parish of origin in Norway.",
+    "The 1884 fire means that justice of the peace records from Otter Tail County's first decade are largely gone — if {ancestor_name} had a dispute with a neighbor, a small debt case, or a minor legal matter before 1884, the record probably did not survive.",
+    "If {ancestor_name} seems to disappear from the Otter Tail County record after the 1890s, the Fergus Falls State Hospital — one of the largest mental institutions in the state — is a possibility that the family may never have spoken of."
+  ],
+  "source_references": [
+    "Curtiss-Wedge, Franklyn. History of Otter Tail County, Minnesota. 2 vols. Chicago: H. C. Cooper Jr. & Co., 1916.",
+    "Qualey, Carlton C. Norwegian Settlement in the United States. Northfield, MN: Norwegian-American Historical Association, 1938.",
+    "Gjerde, Jon. From Peasants to Farmers: The Migration from Balestrand, Norway, to the Upper Middle West. Cambridge: Cambridge University Press, 1985.",
+    "Minnesota Historical Society. Minnesota Census Records Guide. St. Paul: MHS, 2004.",
+    "Digitalarkivet (National Archives of Norway). Emigrantprotokollene."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "mn_otter_tail",
+    "research_guidance_refs": ["immigrant_record_sources", "scandinavian_church_records"],
+    "template_refs": ["record_silences"]
+  }
+}

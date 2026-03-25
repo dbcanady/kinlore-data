@@ -1,0 +1,46 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Scotland County, NC. Record survival and courthouse history for a county carved from Richmond in 1899.",
+  "courthouse_atlas_id": "nc_scotland_courthouse",
+  "display_name": "Scotland County, North Carolina — Courthouse Atlas",
+  "county": "Scotland",
+  "state": "NC",
+  "fips_code": "37165",
+  "cluster_ref": "nc_sandhills_upper_cape_fear",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1901, "location": "Laurinburg, NC", "records_housed": ["deeds", "plats", "vital records indexes", "court minutes", "estate files"] },
+    "previous_courthouses": [ { "era": "Pre-1899", "location": "N/A — territory was part of Richmond County", "fate": "All records before 1899 are in Richmond County courthouse at Rockingham." } ]
+  },
+  "record_losses": [
+    { "loss_id": "scotland_no_major_losses", "date": "N/A", "cause": "N/A", "records_destroyed": ["No documented catastrophic losses"], "records_survived": ["All records from 1899 formation"], "scope": "none", "description": "Scotland County has experienced no catastrophic courthouse losses since its 1899 formation. Records are complete from the beginning. The primary research challenge is that all pre-1899 records are in Richmond County.", "narrative_impact": "Scotland County records begin in 1899. For {ancestor_name}'s family before that date, Richmond County's records at Rockingham are the source — and Richmond County's records extend to 1779.", "source": "NC State Archives. Guide to County Records." }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1899, "completeness": "Complete from formation. Pre-1899 in Richmond County.", "gaps": "None known.", "repository": "Scotland County Register of Deeds, Laurinburg; NC State Archives microfilm", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1899, "completeness": "Complete from formation.", "gaps": "Pre-1899 in Richmond County.", "repository": "Scotland County Clerk of Court; NC State Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1899, "completeness": "Complete from formation.", "gaps": "Pre-1899 in Richmond County.", "repository": "Scotland County Register of Deeds", "online_access": "FamilySearch; Ancestry.com NC marriages" },
+    "court_minutes": { "earliest_surviving": 1899, "completeness": "Complete from formation.", "gaps": "None.", "repository": "Scotland County Clerk of Court; NC State Archives", "online_access": "NC State Archives microfilm" },
+    "vital_records": { "birth_registration_start": 1913, "death_registration_start": 1913, "completeness": "Fair from 1913; incomplete before ~1920.", "repository": "NC Office of Vital Records; NC State Archives" }
+  },
+  "substitute_sources": [
+    { "source_type": "Richmond County records (pre-1899)", "description": "All records for Scotland County territory before 1899 are in Richmond County. Richmond County was formed in 1779, so records extend deep into the colonial/early republic era.", "repository": "Richmond County Register of Deeds, Rockingham; NC State Archives", "era_coverage": "1779–1899", "genealogical_value": "Essential. The Scottish Highland families who settled this area in the 1730s-1780s appear in Richmond County records for over a century before Scotland County existed.", "source": "NC State Archives. Guide to County Records." },
+    { "source_type": "Scottish emigration and clan records", "description": "The Highland Scots who settled the Cape Fear region left records in Scotland — emigration lists, kirk session records, clan histories — that can extend family lines across the Atlantic.", "repository": "Scottish Record Office (National Records of Scotland), Edinburgh; UNC Chapel Hill NC Collection; Fayetteville Public Library", "era_coverage": "1730s–1800s", "genealogical_value": "For families with Scottish Highland surnames (McNeill, McLeod, McLean, McRae, Cameron, Stewart, McIntyre), Scottish records can push family documentation back to the Highlands and sometimes to specific parishes and townships.", "source": "Meyer, Duane. The Highland Scots of North Carolina, 1732-1776. UNC Press, 1961." },
+    { "source_type": "Laurinburg Institute records", "description": "The Laurinburg Institute, a private school for Black students founded in 1904, maintained enrollment records that document Black families in Scotland County.", "repository": "Laurinburg Institute archives (contact institution directly)", "era_coverage": "1904–present", "genealogical_value": "Enrollment records name students, parents, and sometimes home communities — valuable for Black families with limited public school documentation under segregation.", "source": "Laurinburg Institute institutional history." }
+  ],
+  "narrative_hooks": [
+    "Scotland County was carved from Richmond in 1899 — if {ancestor_name}'s Highland Scots family was here in the 1700s, those records are in Richmond County at Rockingham, not in Laurinburg.",
+    "The Scottish emigration records in Edinburgh may extend the {surname} family story across the Atlantic — Scotland County was the heart of Highland North Carolina, and the kirk records in the old country can sometimes identify the specific parish the family left.",
+    "Scotland County's courthouse has never burned — the records are complete from 1899. The research challenge is not survival but the county's late creation: 150 years of Scottish settlement preceded the county itself.",
+    "If {ancestor_name} attended the Laurinburg Institute after 1904, the school's enrollment records may document the family when segregated public schools kept minimal records for Black students."
+  ],
+  "source_references": [
+    "Meyer, Duane. The Highland Scots of North Carolina, 1732-1776. Chapel Hill: University of North Carolina Press, 1961.",
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Leary, Helen F. M., ed. North Carolina Research: Genealogy and Local History. 2nd ed. Raleigh: North Carolina Genealogical Society, 1996."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_scotland",
+    "research_guidance_refs": ["southern_courthouse_research", "scottish_immigration_research"],
+    "template_refs": ["record_silences"]
+  }
+}

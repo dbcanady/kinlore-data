@@ -1,0 +1,113 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Clark County, KY. Formed 1793 from Bourbon and Fayette counties — the year after Kentucky statehood. Records begin from formation and are generally well-preserved. No major courthouse fire.",
+  "courthouse_atlas_id": "ky_clark_courthouse",
+  "display_name": "Clark County, Kentucky — Courthouse Atlas",
+  "county": "Clark",
+  "state": "KY",
+  "fips_code": "21049",
+  "cluster_ref": "ky_bluegrass",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1940,
+      "location": "Winchester, KY — Main Street",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court orders"]
+    },
+    "previous_courthouses": [
+      { "era": "1793-1850s", "location": "Winchester, early courthouses", "fate": "Replaced as the county developed. Records transferred intact." },
+      { "era": "1850s-1940", "location": "Winchester, Main Street", "fate": "Replaced by the current 1940 building. No significant fire." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "clark_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire or disaster",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court orders", "marriage bonds", "tax lists"],
+      "scope": "none",
+      "description": "Clark County has experienced no major courthouse fire or disaster. Records run continuously from the 1793 formation. Some early loose papers show wear but bound volumes are intact. Clark County's record preservation is good.",
+      "narrative_impact": "If {ancestor_name} was in Clark County after 1793, the records almost certainly survive. Gaps reflect the ancestor's circumstances, not courthouse losses.",
+      "source": "Kentucky Department for Libraries and Archives. Guide to Kentucky County Court Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1793,
+      "completeness": "Excellent — continuous from formation.",
+      "gaps": "No significant gaps known.",
+      "repository": "Clark County Clerk; KDLA microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1793,
+      "completeness": "Good — will books and estate inventories from formation.",
+      "gaps": "Some early loose papers fragmentary.",
+      "repository": "Clark County Clerk; KDLA",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1793,
+      "completeness": "Good — marriage bonds from formation.",
+      "gaps": "Ministers' returns sporadic before 1852.",
+      "repository": "Clark County Clerk; KDLA",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1793,
+      "completeness": "Good — County Court order books from formation.",
+      "gaps": "Minor wear on earliest volumes.",
+      "repository": "KDLA; Clark County Clerk",
+      "online_access": "KDLA microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1911,
+      "death_registration_start": 1911,
+      "completeness": "Spotty until approximately 1915.",
+      "repository": "Kentucky Cabinet for Health and Family Services; KDLA"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Fayette and Bourbon County records (pre-1793)",
+      "description": "Clark County was formed from Bourbon and Fayette counties. Records for Clark County families before 1793 are filed under the parent counties.",
+      "repository": "Fayette County Clerk; Bourbon County Clerk; KDLA",
+      "era_coverage": "1780-1793",
+      "genealogical_value": "Essential for connecting families across the parent-county formation boundary. A family in 'Clark County' before 1793 was technically in Fayette or Bourbon.",
+      "source": "KDLA county formation guide."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1800-1940. Clark County first enumerated in 1800.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1800-1940",
+      "genealogical_value": "Essential for tracking families across decades.",
+      "source": "National Archives and Records Administration."
+    },
+    {
+      "source_type": "Fort Boonesborough and early station records",
+      "description": "Records from Fort Boonesborough and other early stations document the first settlers in what became Clark County. These include petitions, station muster rolls, and land claims.",
+      "repository": "Filson Historical Society, Louisville; KDLA; Kentucky Historical Society",
+      "era_coverage": "1775-1800",
+      "genealogical_value": "Links the earliest Bluegrass settlers to their Virginia origins and Revolutionary War service.",
+      "source": "Aron, How the West Was Lost (1996)."
+    }
+  ],
+  "narrative_hooks": [
+    "Clark County's records run continuously from 1793 — if {ancestor_name} was here, the courthouse has the paper trail. No fire, no flood, no war damage.",
+    "Before 1793, {ancestor_name}'s Clark County land was technically Fayette or Bourbon County — the parent-county records at KDLA are the key to the pre-formation period.",
+    "Fort Boonesborough station records may document {ancestor_name}'s earliest days in the Bluegrass — the station muster rolls and petitions are at the Filson Historical Society in Louisville.",
+    "Kentucky vital registration began in 1911 — the absence of a birth certificate for {ancestor_name} before that date is standard, not suspicious."
+  ],
+  "source_references": [
+    "Kentucky Department for Libraries and Archives. Guide to Kentucky County Court Records.",
+    "Aron, Stephen. How the West Was Lost. Baltimore: Johns Hopkins University Press, 1996.",
+    "Clark, Thomas D. A History of Kentucky. Lexington: John Bradford Press, 1960."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ky_clark",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

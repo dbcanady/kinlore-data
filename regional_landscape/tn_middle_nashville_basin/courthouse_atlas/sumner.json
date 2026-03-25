@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Sumner County, TN. Formed 1786 — among the earliest counties in Middle Tennessee. No major courthouse fire. Excellent early records from the frontier period.",
+  "courthouse_atlas_id": "tn_sumner_courthouse",
+  "display_name": "Sumner County, Tennessee — Courthouse Atlas",
+  "county": "Sumner",
+  "state": "TN",
+  "fips_code": "47165",
+  "cluster_ref": "tn_middle_nashville_basin",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1937,
+      "location": "Gallatin, TN — Public Square",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1787-1819",
+        "location": "Gallatin, town center",
+        "fate": "Early log and frame courthouses serving the frontier county."
+      },
+      {
+        "era": "1819-1937",
+        "location": "Gallatin, Public Square",
+        "fate": "Substantial brick courthouse. Survived the Civil War despite cavalry raids through Gallatin. Served for over a century before replacement."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "sumner_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire or destruction",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1787", "will books", "court minutes", "marriage bonds", "estate files"],
+      "scope": "none",
+      "description": "Sumner County's courthouse has not suffered a major fire, and Civil War cavalry raids through Gallatin did not result in record destruction. Records run continuously from the county's 1786 formation. As one of the earliest counties in Middle Tennessee, Sumner County's early records are particularly valuable — they document the frontier settlement period that few Middle Tennessee counties can match.",
+      "narrative_impact": "Sumner County's records begin in 1787 — among the earliest in Middle Tennessee. If {ancestor_name} was among the first settlers, the deed books, court minutes, and estate records may document {pronoun_possessive} arrival in the Cumberland settlements.",
+      "source": "Tennessee State Library and Archives. Guide to County Records. Durham, Old Sumner."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1787,
+      "completeness": "Excellent — continuous series from near-formation. Among the earliest deed records in Middle Tennessee.",
+      "gaps": "No significant gaps. Early deed books document frontier land transactions.",
+      "repository": "Sumner County Register of Deeds; Tennessee State Library and Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com Tennessee land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1788,
+      "completeness": "Excellent — estate records from the frontier period",
+      "gaps": "Minor gaps in earliest loose papers.",
+      "repository": "Sumner County Probate Court; Tennessee State Library and Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1787,
+      "completeness": "Good — marriage bonds from the frontier period; licenses from 1838",
+      "gaps": "Some gaps in the earliest bond records.",
+      "repository": "Sumner County Clerk; Tennessee State Library and Archives",
+      "online_access": "FamilySearch; Ancestry.com Tennessee marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1787,
+      "completeness": "Good — among the earliest court minutes in Middle Tennessee",
+      "gaps": "Minor gaps. Wartime disruption during Civil War cavalry operations.",
+      "repository": "Tennessee State Library and Archives",
+      "online_access": "TSLA microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Standard Tennessee pattern.",
+      "repository": "Tennessee Department of Health"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Early station records and Cumberland Compact documents",
+      "description": "Some records from the earliest frontier stations (Bledsoe's Station, Mansker's Station) survive in the Tennessee State Library and Archives and in published volumes of early Tennessee records.",
+      "repository": "Tennessee State Library and Archives; published in Putnam's History of Middle Tennessee and other early compilations",
+      "era_coverage": "1784-1796",
+      "genealogical_value": "Critical for identifying the earliest settlers. The Cumberland Compact signers and early station residents are documented in published sources even when original manuscripts do not survive.",
+      "source": "Putnam, A. W. History of Middle Tennessee. Nashville, 1859."
+    },
+    {
+      "source_type": "Church records — Baptist, Methodist, Presbyterian",
+      "description": "Sumner County's churches maintained records from the early period. Baptist churches were among the earliest organized institutions in the county.",
+      "repository": "Individual congregations; Tennessee State Library and Archives; Tennessee Baptist Historical Society",
+      "era_coverage": "1790s-present",
+      "genealogical_value": "Church records predate civil vital records and supplement marriage bonds. Baptist church minute books document membership, discipline, and transfer — tracking migration between congregations.",
+      "source": "Tennessee State Library and Archives. Guide to Church Records."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790-1940. Sumner County appears in the earliest Tennessee census records.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790-1940",
+      "genealogical_value": "Essential for tracking families from the frontier period through the twentieth century.",
+      "source": "National Archives. Federal Census Schedules, Sumner County, TN."
+    }
+  ],
+  "narrative_hooks": [
+    "Sumner County's records begin in 1787 — {ancestor_name}'s family may appear in some of the earliest court minutes and deed books in Middle Tennessee, documenting a frontier where the county clerk and the Indian fighter were sometimes the same man.",
+    "The courthouse at Gallatin survived cavalry raids, Federal occupation, and a century of weather — {ancestor_name}'s deeds and wills are intact from the earliest years.",
+    "If {ancestor_name} signed the Cumberland Compact or lived in one of the frontier stations, the published compilations of early Tennessee records may document {pronoun_object} even when the original manuscript does not survive.",
+    "Before 1838, Tennessee marriages were recorded as bonds — the bond in Sumner County's records may be {ancestor_name}'s earliest legal document."
+  ],
+  "source_references": [
+    "Tennessee State Library and Archives. Guide to County Records in the Tennessee State Library and Archives. Nashville: TSLA.",
+    "Durham, Walter T. Old Sumner: A History of Sumner County, Tennessee. Nashville: Parthenon Press, 1972.",
+    "Putnam, A. W. History of Middle Tennessee; or, Life and Times of Gen. James Robertson. Nashville, 1859."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "tn_sumner",
+    "research_guidance_refs": ["census_gaps", "vital_records", "property_records"],
+    "template_refs": ["record_silences"]
+  }
+}

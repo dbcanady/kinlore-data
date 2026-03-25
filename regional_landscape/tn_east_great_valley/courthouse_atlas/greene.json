@@ -1,0 +1,138 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Greene County, TN. Formed 1783 from Washington County. Seat: Greeneville. The courthouse was used as a headquarters by both sides during the Civil War. Some records from the Confederate period are displaced or damaged, but core record series survive from the 1780s.",
+  "courthouse_atlas_id": "tn_greene_courthouse",
+  "display_name": "Greene County, Tennessee — Courthouse Atlas",
+  "county": "Greene",
+  "state": "TN",
+  "fips_code": "47059",
+  "cluster_ref": "tn_east_great_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1916,
+      "location": "Greeneville, TN — Main Street",
+      "records_housed": ["deeds", "wills", "court minutes", "marriage records", "tax records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1783–1820s",
+        "location": "Greeneville, original town site",
+        "fate": "Early log and frame courthouse. Records maintained through the State of Franklin period."
+      },
+      {
+        "era": "1820s–1868",
+        "location": "Greeneville, Main Street",
+        "fate": "Brick courthouse. Served as headquarters for both Confederate and Union forces during the Civil War. Used by Confederate General John Hunt Morgan before his death at Greeneville in September 1864."
+      },
+      {
+        "era": "1868–1916",
+        "location": "Greeneville",
+        "fate": "Post-war courthouse. Served until replaced by the current building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "greene_civil_war_disruption",
+      "date": "1861-1865",
+      "cause": "Civil War military occupation and partisan conflict",
+      "records_destroyed": ["some loose court papers from 1862-1864 period"],
+      "records_survived": ["deed books", "will books", "most court minutes", "marriage records"],
+      "scope": "minor",
+      "description": "Greeneville changed hands multiple times during the Civil War. Confederate and Union forces both used the courthouse as a headquarters. Some loose papers from the 1862-1864 period were damaged or displaced during military occupation. The bound record books — deeds, wills, court minutes — survived intact. The most significant disruption was to the court's ability to function, not to the physical records.",
+      "narrative_impact": "Core records survive, but loose papers from the Civil War years may be missing. If {ancestor_name}'s estate proceedings or court case files from 1862-1864 cannot be found, military disruption is the likely explanation. Bound volumes are intact.",
+      "source": "Tennessee State Library and Archives. Guide to County Records: Greene County."
+    },
+    {
+      "loss_id": "greene_pre_statehood_records",
+      "date": null,
+      "cause": "None — pre-statehood records survive well",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1783", "court minutes from 1783", "will books"],
+      "scope": "none",
+      "description": "Greene County's records from the 1780s survive in good condition, including records from the State of Franklin period (1784-1788). These records document a community that briefly attempted to form an independent state, making them historically as well as genealogically significant.",
+      "narrative_impact": "If {ancestor_name} was in Greene County during the State of Franklin (1784-1788), the county records document a community that was simultaneously part of North Carolina, the unrecognized State of Franklin, and eventually the Southwest Territory. The legal complexity creates interesting record overlaps.",
+      "source": "Williams, Samuel Cole. History of the Lost State of Franklin. Johnson City: Watauga Press, 1924."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1783,
+      "completeness": "Excellent — continuous from county formation",
+      "gaps": "No significant gaps. Pre-1796 deeds include NC and State of Franklin grants.",
+      "repository": "Greene County Register of Deeds, Greeneville; TSLA microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1783,
+      "completeness": "Good — bound volumes intact from formation",
+      "gaps": "Some loose estate papers from Civil War period may be missing.",
+      "repository": "Greene County Clerk; TSLA",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1783,
+      "completeness": "Good — marriage bonds from formation",
+      "gaps": "Early bonds may be partially illegible. Post-1838 records more standardized.",
+      "repository": "Greene County Clerk; TSLA microfilm",
+      "online_access": "FamilySearch; Ancestry.com TN marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1783,
+      "completeness": "Good — includes State of Franklin period proceedings",
+      "gaps": "Some disruption during Civil War. State of Franklin records are among the most historically significant court records in Tennessee.",
+      "repository": "Greene County Clerk; TSLA",
+      "online_access": "TSLA digital collections (partial)"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Incomplete before approximately 1914.",
+      "repository": "Tennessee Department of Health; TSLA"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Andrew Johnson papers and associated records",
+      "description": "Andrew Johnson lived in Greeneville from 1826 until his death in 1875. His extensive papers, now held at the Library of Congress and the Andrew Johnson National Historic Site, name hundreds of Greene County residents in political, legal, and personal correspondence.",
+      "repository": "Library of Congress (Andrew Johnson Papers); Andrew Johnson National Historic Site, Greeneville; University of Tennessee Special Collections",
+      "era_coverage": "1826-1875",
+      "genealogical_value": "Johnson's papers are a backdoor into Greene County's social network. Political correspondence names allies, opponents, and neighbors. Legal documents from his practice name clients and witnesses.",
+      "source": "Graf, LeRoy P., and Ralph W. Haskins, eds. The Papers of Andrew Johnson. 16 vols. Knoxville: University of Tennessee Press, 1967-2000."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790-1940. Greene County is enumerated from the earliest TN census.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790-1940",
+      "genealogical_value": "Essential for tracking families. The 1860 census is particularly valuable for documenting political allegiance indirectly — slaveholding patterns and property values correlate with Civil War loyalties.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Greene County, TN."
+    },
+    {
+      "source_type": "Civil War military records — Union and Confederate",
+      "description": "Greene County furnished soldiers to both sides. Union enlistments were substantial. Confederate service records, Union Army records, and pension files document individual soldiers and their families.",
+      "repository": "National Archives; Tennessee State Library and Archives; Fold3.com",
+      "era_coverage": "1861-1865",
+      "genealogical_value": "Critical for Civil War-era families. The divided loyalties in Greene County mean both Union and Confederate records must be checked for any male ancestor of military age.",
+      "source": "National Archives. Compiled Military Service Records, Tennessee Units (M268, M395)."
+    }
+  ],
+  "narrative_hooks": [
+    "Greene County's court minutes from the State of Franklin era document a community that tried to create its own state — if {ancestor_name} was here in the 1780s, {pronoun_subject} lived through one of the strangest political experiments in American history.",
+    "Andrew Johnson's papers name hundreds of Greene County residents — if {ancestor_name} lived in Greeneville during Johnson's years, {pronoun_possessive} name may be in the presidential papers at the Library of Congress.",
+    "The Civil War disrupted court business in Greene County but did not destroy the courthouse. {ancestor_name}'s records from the 1862-1864 period may have gaps, but the deed books and will books survived the occupation.",
+    "Greene County has marriage bonds from 1783 — if {ancestor_name} married here before Tennessee existed as a state, the bond is a piece of evidence from a frontier community governing itself."
+  ],
+  "source_references": [
+    "Tennessee State Library and Archives. Guide to County Records: Greene County.",
+    "Williams, Samuel Cole. History of the Lost State of Franklin. Johnson City: Watauga Press, 1924.",
+    "Graf, LeRoy P., and Ralph W. Haskins, eds. The Papers of Andrew Johnson. Knoxville: University of Tennessee Press, 1967-2000.",
+    "Fisher, Noel C. War at Every Door. Chapel Hill: University of North Carolina Press, 1997."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "tn_greene",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

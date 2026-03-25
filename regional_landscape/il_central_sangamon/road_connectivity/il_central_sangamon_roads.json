@@ -1,0 +1,136 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the IL Central Sangamon regional cluster. Documents how transportation shaped settlement, agriculture, and migration from the frontier trails through the Illinois Central Railroad to Route 66 and the highway era. Central Illinois was settled on horseback, transformed by the railroad, and connected to the continent by Route 66.",
+  "connectivity_id": "il_central_sangamon_roads",
+  "display_name": "IL Central Sangamon — Road & Connectivity Network",
+  "cluster_ref": "il_central_sangamon",
+  "era_range": "1818-1960",
+  "transportation_eras": [
+    {
+      "era_id": "frontier_trails",
+      "era_name": "Frontier Trails and the Sangamon River",
+      "date_range": "1818-1850",
+      "primary_modes": ["horseback", "wagon on unimproved trail", "flatboat (limited)", "foot"],
+      "description": "Central Illinois at statehood had no improved roads. Settlers from Kentucky and Tennessee traveled overland through Indiana on traces that followed ridgelines and avoided the worst marshes. The Sangamon River was theoretically navigable, but Lincoln's 1831 flatboat trip demonstrated that snags, shallow water, and seasonal variation made the river unreliable for commerce. Overland trails connected the county seats — Springfield to Decatur, Springfield to Clinton, Springfield to Taylorville — but these were unimproved dirt tracks that turned to impassable mud in spring and fall. The flatness of the terrain meant good drainage was impossible on the level ground. Travel times were measured in days, not hours.",
+      "road_conditions": "Unimproved prairie trails. Black prairie soil became knee-deep mud in wet seasons — the stickiest, most impassable surface in the Midwest. Corduroy roads (logs laid perpendicular to the trail) provided the only improvement in swampy areas. Section-line roads (running on the grid of the federal land survey) began to appear in the 1840s but were not graded or maintained.",
+      "travel_times": [
+        { "from": "Springfield", "to": "Decatur", "mode": "horseback", "time": "1 long day (12-14 hours)", "conditions_note": "Approximately 40 miles on unimproved trail. Prairie mud could double travel time in spring." },
+        { "from": "Springfield", "to": "New Salem", "mode": "horseback", "time": "3-4 hours", "conditions_note": "20 miles northwest along the Sangamon River timber" },
+        { "from": "Typical farm", "to": "Nearest county seat", "mode": "wagon", "time": "4-8 hours one way", "conditions_note": "Counties were large; remote farms were a full day's ride from the courthouse." }
+      ],
+      "key_routes": [
+        { "route_name": "Springfield-Decatur trail", "type": "unimproved trace", "year_established": "1820s", "description": "The primary east-west trail across the cluster. Followed timber lines and ridge crests where possible. Lincoln walked this trail repeatedly during his circuit-riding years.", "counties_served": ["Sangamon", "Macon"] },
+        { "route_name": "Springfield-Vandalia road", "type": "improved trace (state road)", "year_established": "1820s", "description": "Connected the new capital to the old one. One of the first state-improved roads in central Illinois.", "counties_served": ["Sangamon", "Christian", "Shelby"] },
+        { "route_name": "Eighth Judicial Circuit route", "type": "trail network", "year_established": "1840s", "description": "The route Lincoln and other lawyers traveled on the circuit — Springfield to Clinton to Lincoln (town) to Bloomington and back. Not a single road but a network of trails connecting courthouse towns.", "counties_served": ["Sangamon", "DeWitt", "Logan"] }
+      ],
+      "isolation_index": {
+        "description": "High for farms away from county seats. The flat, wet prairie was among the most difficult terrain in America for overland travel during the wet season. Spring planting and fall harvest coincided with the worst road conditions, creating an annual transportation crisis.",
+        "comparative_note": "More difficult than the Ohio Valley (where rivers provided year-round transportation) but less extreme than the Northern Plains. The absence of navigable rivers made central Illinois entirely dependent on overland travel."
+      },
+      "narrative_hook": "The trail from Springfield to {town} was forty miles of prairie mud in April — {ancestor_name} spent two days on the road that the railroad would cover in two hours, and the mud was deep enough to pull the boots off a horse.",
+      "source": "Fraker, Guy C. Lincoln's Ladder to the Presidency: The Eighth Judicial Circuit. Southern Illinois University Press, 2012. Bogue, From Prairie to Corn Belt (1963)."
+    },
+    {
+      "era_id": "railroad_era",
+      "era_name": "Illinois Central Railroad and the Section-Line Grid",
+      "date_range": "1850-1910",
+      "primary_modes": ["railroad", "wagon on section-line roads", "horseback"],
+      "description": "The Illinois Central Railroad — the first land-grant railroad (1850) — bisected the cluster and created the transportation infrastructure that made commercial agriculture possible. The railroad sold its land grant to settlers, established depot towns at regular intervals, and connected central Illinois to Chicago. The Great Western Railroad connected Springfield to the Illinois Central system. By 1860, every county seat in the cluster had railroad service. The section-line road grid — roads running at one-mile intervals on the federal land survey — provided local access to the railroad depots. These roads were unimproved dirt, graded by county corvee labor, and usable in dry weather but barely passable in spring mud. The railroad collapsed distance: a trip that took two days by wagon took two hours by train.",
+      "road_conditions": "Section-line roads remained unimproved dirt and mud. The contrast between railroad speed and road conditions was extreme. A farmer three miles from the depot could spend two hours getting his corn to the elevator on a mud road that the train would cover in three minutes. County road maintenance was minimal — property owners were required to provide labor for road repair, which was often performed poorly.",
+      "travel_times": [
+        { "from": "Springfield", "to": "Decatur", "mode": "railroad", "time": "1-1.5 hours", "conditions_note": "The same journey that took 12-14 hours by horseback before the railroad." },
+        { "from": "Springfield", "to": "Chicago", "mode": "railroad", "time": "5-7 hours", "conditions_note": "Via the Illinois Central or connecting lines. Made Chicago accessible for day trips." },
+        { "from": "Lincoln (town)", "to": "Springfield", "mode": "railroad", "time": "1 hour", "conditions_note": "Via the Illinois Central" },
+        { "from": "Typical farm", "to": "Nearest depot", "mode": "wagon", "time": "1-3 hours one way", "conditions_note": "Most farms were within 5 miles of a depot. Mud could triple travel time." }
+      ],
+      "key_routes": [
+        { "route_name": "Illinois Central Railroad (main line)", "type": "railroad", "year_established": 1850, "description": "The first land-grant railroad in American history. Ran through DeWitt (Clinton) and Logan (Lincoln) counties. Created depot towns, sold federal land, and connected central Illinois to Chicago and New Orleans.", "counties_served": ["DeWitt", "Logan", "Macon"] },
+        { "route_name": "Great Western Railroad (later Wabash)", "type": "railroad", "year_established": "1850s", "description": "Connected Springfield to Decatur and thence to the east. Made Springfield a railroad town as well as a capital.", "counties_served": ["Sangamon", "Macon"] },
+        { "route_name": "Chicago & Alton Railroad", "type": "railroad", "year_established": "1850s", "description": "Connected Springfield to Chicago via Bloomington and to St. Louis via Alton. One of the primary north-south routes through the cluster.", "counties_served": ["Sangamon", "Logan"] }
+      ],
+      "isolation_index": {
+        "description": "Sharply reduced along railroad corridors; unchanged away from them. Depot towns were connected to the world; farms five miles from the depot were still a half-day's wagon ride from the railroad in bad weather.",
+        "comparative_note": "By 1870, central Illinois had one of the densest railroad networks in the nation. The combination of flat terrain and the land-grant system made railroad construction cheap and fast."
+      },
+      "narrative_hook": "The Illinois Central collapsed the prairie — the two-day wagon ride from {town} to Chicago became a five-hour train trip, and {ancestor_name}'s corn had a buyer in a city that had been unreachable a decade earlier.",
+      "source": "Stover, History of the Illinois Central Railroad (1975). Cronon, Nature's Metropolis (1991)."
+    },
+    {
+      "era_id": "interurban_automobile",
+      "era_name": "Interurban Railways and the Automobile Era",
+      "date_range": "1900-1930",
+      "primary_modes": ["interurban electric railway", "automobile", "railroad", "wagon"],
+      "description": "The Illinois Traction System (ITS) built electric interurban railways connecting Springfield, Decatur, Lincoln, Sullivan, Champaign, and St. Louis between 1900 and 1910. These lines provided cheap, frequent passenger service — a farmer in Sullivan could ride the interurban to Decatur for shopping and return the same day. The automobile arrived simultaneously. Model Ts appeared on section-line roads by 1910, and by 1920 the automobile was replacing the horse on farms across the cluster. The combination of interurban railways and automobiles broke the isolation that had defined rural life since settlement. Route 66 was designated in 1926 and ran through Springfield, adding the cluster's capital to the transcontinental highway network.",
+      "road_conditions": "State highways began to be paved in the 1920s. County roads remained mostly dirt until the 1930s-1940s. The automobile was transformative but the roads lagged — Model Ts got stuck in the same mud that had trapped wagons a generation earlier.",
+      "travel_times": [
+        { "from": "Sullivan", "to": "Decatur", "mode": "interurban (ITS)", "time": "30-45 minutes", "conditions_note": "Electric interurban service, multiple daily departures. Eliminated the isolation of small county seats." },
+        { "from": "Springfield", "to": "St. Louis", "mode": "interurban / automobile", "time": "3-4 hours", "conditions_note": "Via the ITS or early automobile roads. Made St. Louis accessible for day trips." },
+        { "from": "Springfield", "to": "Decatur", "mode": "automobile", "time": "45 minutes to 1 hour", "conditions_note": "On improved roads. The same trip that had taken 12-14 hours by horseback in 1830." },
+        { "from": "Typical farm", "to": "Nearest town", "mode": "automobile", "time": "15-30 minutes", "conditions_note": "The automobile made Saturday afternoon in town a weekly event rather than a monthly ordeal." }
+      ],
+      "key_routes": [
+        { "route_name": "Illinois Traction System (Springfield-Decatur-Champaign)", "type": "interurban electric railway", "year_established": "1902-1910", "description": "Connected the cluster's county seats with cheap, frequent electric service. The interurban was the poor man's railroad — available to farm families who could not afford train tickets.", "counties_served": ["Sangamon", "Macon", "Moultrie", "Piatt"] },
+        { "route_name": "Route 66 (through Springfield)", "type": "US highway", "year_established": 1926, "description": "The most famous highway in America ran through Springfield on its 2,400-mile course from Chicago to Los Angeles. Motor courts, gas stations, and diners lined the route. Springfield's Lincoln heritage attractions drew tourist traffic.", "counties_served": ["Sangamon", "Logan"] },
+        { "route_name": "Illinois Route 36 (Springfield-Decatur)", "type": "state highway", "year_established": "1920s", "description": "Paved highway connecting Springfield and Decatur. The automobile equivalent of the old frontier trail.", "counties_served": ["Sangamon", "Macon"] }
+      ],
+      "isolation_index": {
+        "description": "Declining rapidly. By 1930, the automobile and the interurban had ended the isolation that had defined rural central Illinois for a century. Saturday afternoon in town was now a thirty-minute drive, not a half-day wagon trip.",
+        "comparative_note": "Central Illinois was among the earliest-motorized regions in America — flat terrain, prosperous farmers, and good roads made automobile adoption rapid."
+      },
+      "narrative_hook": "The interurban trolley and the Model T ended the prairie's isolation — {ancestor_name} could ride the electric car to Decatur in thirty minutes or drive the Model T to Springfield in an hour, and the world that had been two days away was now before lunch.",
+      "source": "Plummer, Mark A. Lincoln's Rail-Splitter: Governor Richard J. Oglesby. Urbana: University of Illinois Press, 2001. Wallis, Route 66: The Mother Road (1990)."
+    },
+    {
+      "era_id": "highway_era",
+      "era_name": "Highway Era and Route 66",
+      "date_range": "1930-1960",
+      "primary_modes": ["automobile", "truck", "bus", "railroad (declining for passengers)"],
+      "description": "The interurban railways declined in the 1930s as automobiles and trucks captured the market. The ITS discontinued most interurban service by 1953. Route 66 through Springfield became the cluster's connection to the continental highway system. State highway construction paved the primary connections between county seats. County roads were gradually improved — gravel first, then asphalt. The automobile completed the transformation of rural life: farm families could access Springfield's stores, hospitals, theaters, and government offices within an hour. The price was rural depopulation — young people could now leave easily, and they did.",
+      "road_conditions": "State highways paved by the 1930s. County roads gravel or asphalt by the 1950s. The mud problem was largely solved, but spring weight limits on rural roads persisted.",
+      "travel_times": [
+        { "from": "Springfield", "to": "Decatur", "mode": "automobile", "time": "40 minutes", "conditions_note": "On paved Route 36" },
+        { "from": "Springfield", "to": "Chicago", "mode": "automobile", "time": "3-4 hours", "conditions_note": "Via Route 66 north. The same trip that had taken two weeks by wagon in 1830." },
+        { "from": "Springfield", "to": "St. Louis", "mode": "automobile", "time": "2 hours", "conditions_note": "Via Route 66 south" },
+        { "from": "Any farm in cluster", "to": "Springfield", "mode": "automobile", "time": "30-60 minutes", "conditions_note": "No farm in the cluster was more than an hour from Springfield by paved road." }
+      ],
+      "key_routes": [
+        { "route_name": "Route 66 (Springfield corridor)", "type": "US highway", "year_established": 1926, "description": "The Mother Road. Ran through Springfield carrying transcontinental traffic. Dust Bowl migrants headed west on it; tourists visiting Lincoln sites drove east on it. Springfield's Route 66 strip — Cozy Dog Drive-in, motor courts, gas stations — became an iconic American landscape.", "counties_served": ["Sangamon", "Logan"] },
+        { "route_name": "US Route 51 (north-south)", "type": "US highway", "year_established": 1926, "description": "Ran north from Vandalia through Shelbyville, Decatur, and Clinton toward Bloomington. The primary north-south highway through the cluster's eastern counties.", "counties_served": ["Shelby", "Macon", "DeWitt"] }
+      ],
+      "isolation_index": {
+        "description": "Low across the entire cluster by 1950. The automobile and paved roads had ended the isolation that had defined rural central Illinois. Every farm was within an hour of Springfield or Decatur.",
+        "comparative_note": "By 1950, central Illinois was one of the best-connected agricultural regions in America."
+      },
+      "narrative_hook": "Route 66 brought America through {ancestor_name}'s hometown — Springfield was a stop on the Mother Road between Chicago and Los Angeles, and the Cozy Dog and the Lincoln Tomb drew the same tourists who were driving to see the Grand Canyon.",
+      "source": "Wallis, Michael. Route 66: The Mother Road. New York: St. Martin's Press, 1990."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1850, "event": "Illinois Central Railroad chartered by Congress (first land-grant railroad)", "impact": "Transformed central Illinois. Created towns, sold land, and connected the prairie to Chicago." },
+    { "year": 1853, "event": "Illinois Central main line reaches DeWitt and Logan counties; town of Lincoln platted", "impact": "Created Clinton and Lincoln as depot towns. Abraham Lincoln named the town of Lincoln." },
+    { "year": 1854, "event": "Great Western Railroad connects Springfield to Decatur", "impact": "Connected the state capital to the Illinois Central system." },
+    { "year": 1859, "event": "Chicago & Alton Railroad provides north-south service through Springfield", "impact": "Made Springfield a railroad junction with connections to Chicago and St. Louis." },
+    { "year": 1902, "event": "Illinois Traction System begins interurban electric service", "impact": "Cheap, frequent electric railway connecting Springfield, Decatur, Lincoln, Sullivan, and Champaign." },
+    { "year": 1926, "event": "Route 66 designated through Springfield", "impact": "Connected Springfield to the transcontinental highway system." },
+    { "year": 1953, "event": "Illinois Traction System discontinues most interurban service", "impact": "End of the electric railway era; automobile dominance complete." }
+  ],
+  "narrative_hooks": [
+    "The Illinois Central Railroad created the Corn Belt — before the tracks, {ancestor_name}'s corn had no market beyond the crossroads store; after them, every bushel had a buyer in Chicago.",
+    "Route 66 ran through Springfield past Lincoln's tomb and the state capitol — {ancestor_name} could stand on the curb and watch America drive past, from Model As to Cadillacs, from Dust Bowl migrants to postwar tourists.",
+    "The interurban trolley connected {ancestor_name}'s county seat to Decatur and Springfield — a thirty-minute electric ride that ended the isolation the prairie had imposed since the first settlers arrived.",
+    "The mud was the defining fact of central Illinois transportation before the railroad — {ancestor_name} knew that the black prairie soil that grew the best corn in the world also made the worst roads.",
+    "Before the automobile, {ancestor_name} went to town once a month by wagon. After the Model T, Saturday afternoon in {town} was a weekly ritual — corn prices at the elevator, fabric at the dry goods store, children running between the cars."
+  ],
+  "source_references": [
+    "Stover, John F. History of the Illinois Central Railroad. New York: Macmillan, 1975.",
+    "Cronon, William. Nature's Metropolis: Chicago and the Great West. New York: W. W. Norton, 1991.",
+    "Fraker, Guy C. Lincoln's Ladder to the Presidency: The Eighth Judicial Circuit. Southern Illinois University Press, 2012.",
+    "Wallis, Michael. Route 66: The Mother Road. New York: St. Martin's Press, 1990.",
+    "Bogue, Allan G. From Prairie to Corn Belt. Chicago: University of Chicago Press, 1963."
+  ],
+  "nel_cross_references": {
+    "route_refs": ["illinois_central_railroad"],
+    "trigger_refs": ["civil_war_service", "great_migration", "gi_bill_migration"]
+  }
+}

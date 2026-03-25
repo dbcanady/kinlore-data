@@ -1,0 +1,58 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Morgan County, IN. Record survival for the county centered on Martinsville. Partial loss from early courthouse fire.",
+  "courthouse_atlas_id": "in_morgan_courthouse",
+  "display_name": "Morgan County, Indiana — Courthouse Atlas",
+  "county": "Morgan",
+  "state": "IN",
+  "fips_code": "18109",
+  "cluster_ref": "in_central_white_river",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1857, "location": "Martinsville, IN — Courthouse Square", "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court records"] },
+    "previous_courthouses": [
+      { "era": "1822-1843", "location": "Martinsville, original log courthouse", "fate": "Log structure. Replaced by brick building." },
+      { "era": "1843-1857", "location": "Martinsville, same site", "fate": "Brick courthouse. Fire in 1855 damaged some records. Current Italianate courthouse built shortly after." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "morgan_1855_fire",
+      "date": "1855",
+      "cause": "Courthouse fire",
+      "records_destroyed": ["some early court minutes", "scattered loose papers"],
+      "records_survived": ["deed books (most survived)", "will books (most survived)", "marriage records (most survived)"],
+      "scope": "partial",
+      "description": "A fire at the Morgan County courthouse in 1855 damaged some early records. The most critical bound volumes — deed books and will books — largely survived because they were stored in a vault. Loose papers, some court minutes, and scattered early documents were lost. The damage was not catastrophic but created gaps in the earliest decades of the county's records.",
+      "narrative_impact": "If {ancestor_name} had business in the Morgan County courthouse before 1855, some records may have been lost in the fire. Deed books and will books largely survived, but loose court papers from the 1820s-1840s are fragmentary. The fire makes early Morgan County research harder than in neighboring counties.",
+      "source": "Blanchard, Charles, ed. Counties of Morgan, Monroe, and Brown, Indiana. Chicago: F.A. Battey, 1884."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1822, "completeness": "Good — most deed books survived the 1855 fire", "gaps": "Some early entries may be missing or damaged.", "repository": "Morgan County Recorder; Indiana State Archives", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1823, "completeness": "Good — most bound volumes survived", "gaps": "Loose estate papers from earliest decades fragmentary due to fire damage.", "repository": "Morgan County Clerk; Indiana State Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1822, "completeness": "Good — marriage records largely survived", "gaps": "Possible gaps in 1820s-1840s.", "repository": "Morgan County Clerk; Indiana State Archives", "online_access": "FamilySearch; Ancestry.com" },
+    "court_minutes": { "earliest_surviving": 1830, "completeness": "Fair — some early court minutes lost in the 1855 fire", "gaps": "Gaps in the 1822-1855 period. Post-fire records complete.", "repository": "Morgan County Clerk; Indiana State Archives", "online_access": "Indiana State Archives microfilm" },
+    "vital_records": { "birth_registration_start": 1882, "death_registration_start": 1882, "completeness": "Spotty until approximately 1900.", "repository": "Indiana State Department of Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "Federal census schedules", "description": "Population and agricultural schedules 1830-1940.", "repository": "National Archives; FamilySearch; Ancestry.com", "era_coverage": "1830-1940", "genealogical_value": "Critical for supplementing records lost in the 1855 fire. Census records from 1830, 1840, and 1850 may be the only documentation for early Morgan County families whose court records were destroyed.", "source": "National Archives and Records Administration." },
+    { "source_type": "Indiana land records — federal land office", "description": "Original land patents from the federal government predate county deed records and are held at the Indiana State Archives and Bureau of Land Management.", "repository": "Bureau of Land Management General Land Office records; Indiana State Archives", "era_coverage": "1820s-1850s", "genealogical_value": "Federal land patents document the first purchase of land from the government — these records survive regardless of county courthouse fires.", "source": "Bureau of Land Management, General Land Office Records." }
+  ],
+  "narrative_hooks": [
+    "The 1855 courthouse fire in Martinsville created gaps in Morgan County's earliest records — if {ancestor_name}'s court business predates the fire, the documentation may be gone.",
+    "Deed books largely survived the fire because they were in the vault — {ancestor_name}'s land records probably exist even if other court records from the same era were lost.",
+    "For early Morgan County families, federal land patents at the Indiana State Archives supplement what the courthouse fire destroyed — the original purchase from the government survives even when the county copy does not.",
+    "Before 1882, a missing vital record for {ancestor_name} in Morgan County is standard for all Indiana counties — the fire is not the reason there is no birth certificate."
+  ],
+  "source_references": [
+    "Indiana Commission on Public Records. Guide to Indiana County Records.",
+    "Blanchard, Charles, ed. Counties of Morgan, Monroe, and Brown, Indiana. Chicago: F.A. Battey, 1884.",
+    "Bureau of Land Management, General Land Office Records."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "in_morgan",
+    "research_guidance_refs": ["census_gaps", "vital_records", "property_records"],
+    "template_refs": ["record_silences"]
+  }
+}

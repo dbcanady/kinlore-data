@@ -1,0 +1,133 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Henrico County, VA. Record survival for the county that became Richmond — complicated by the 1865 evacuation fire that destroyed Confederate government records and much of downtown Richmond.",
+  "courthouse_atlas_id": "va_henrico_courthouse",
+  "display_name": "Henrico County, Virginia — Courthouse Atlas",
+  "county": "Henrico",
+  "state": "VA",
+  "fips_code": "51087",
+  "cluster_ref": "va_tidewater",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1974,
+      "location": "4301 East Parham Road, Henrico, VA (modern government center, separate from Richmond city courts)",
+      "records_housed": ["deeds", "wills", "court orders", "vital records indexes", "plats"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1634–1752",
+        "location": "Various locations; courts met at Varina on the James River, then at other sites as the county seat moved",
+        "fate": "Early records survive fragmentarily. Some transferred to Richmond when the city was incorporated."
+      },
+      {
+        "era": "1752–1865",
+        "location": "Richmond — county and city shared court facilities until the city became independent",
+        "fate": "The Richmond courthouse district was within the area destroyed by the evacuation fire of April 2-3, 1865. Henrico County records stored in or near Richmond's public buildings were at risk during the fire."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "henrico_1865_evacuation_fire",
+      "date": "1865-04-02",
+      "cause": "Richmond evacuation fire — Confederate government ordered destruction of tobacco warehouses and military stores; fire spread to downtown",
+      "records_destroyed": ["some early deed books", "some court order books", "loose papers stored in downtown Richmond"],
+      "records_survived": ["deed books from 1677 (fragmentary)", "will books from 1677 (fragmentary)", "some court order books"],
+      "scope": "partial",
+      "description": "When the Confederate government evacuated Richmond on April 2, 1865, fires set in tobacco warehouses and arsenals spread through the commercial district. The fire destroyed approximately 20 blocks of downtown Richmond. Henrico County records stored in or near the affected area were damaged. However, many county records had been moved or were in locations that escaped the fire. The Library of Virginia (then Virginia State Library) preserved significant collections.",
+      "narrative_impact": "The burning of Richmond in April 1865 is the defining record loss for Henrico County. If {ancestor_name}'s deed or will was in the wrong building on the wrong night, it burned with the Confederate capital. But Henrico's records survive better than many assume — the loss was partial, not total.",
+      "source": "Nelson, B. K. The Burning of Richmond, April 2-3, 1865. Richmond: Richmond Civil War Centennial Committee, 1961."
+    },
+    {
+      "loss_id": "henrico_early_fragmentation",
+      "date": "1634-1700",
+      "cause": "Early colonial fragmentation — records scattered across multiple custody locations",
+      "records_destroyed": ["unknown quantity of early loose papers"],
+      "records_survived": ["fragmentary deed and order books from 1677"],
+      "scope": "partial",
+      "description": "Henrico's earliest records (1611-1677) are almost entirely lost — not from a single catastrophic event but from the accumulation of fires, relocations, and neglect over the colonial period. The earliest surviving county records date to approximately 1677.",
+      "narrative_impact": "For ancestors in Henrico County before 1677, county records are almost nonexistent. Colonial patent books and General Court records at the Library of Virginia are the primary substitutes.",
+      "source": "Library of Virginia. A Guide to Virginia County and City Records on Microfilm. Richmond, 2001."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1677,
+      "completeness": "Fragmentary before 1700. More continuous in the 18th century. Some volumes damaged in the 1865 fire.",
+      "gaps": "Pre-1677 deeds lost. Some 18th-century volumes have gaps. The separation of Richmond city from Henrico County (1842) complicates research — records after 1842 are split between city and county.",
+      "repository": "Henrico County Clerk of Court; Library of Virginia; Richmond City Clerk (for post-1842 city records)",
+      "online_access": "FamilySearch microfilm; Library of Virginia digital collections; Ancestry.com VA land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1677,
+      "completeness": "Fragmentary. Will books survive from 1677 but with gaps.",
+      "gaps": "Some will books damaged or destroyed in 1865. Estate files are scattered.",
+      "repository": "Henrico County Clerk of Court; Library of Virginia",
+      "online_access": "FamilySearch microfilm; Library of Virginia digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1781,
+      "completeness": "Marriage bonds from 1781. Earlier marriages in Henrico Parish records.",
+      "gaps": "No county marriage records before 1781. Church records provide the primary substitute.",
+      "repository": "Henrico County Clerk of Court; Library of Virginia",
+      "online_access": "FamilySearch; Ancestry.com VA marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1677,
+      "completeness": "Fragmentary before 1700. Continuous for most of the 18th century.",
+      "gaps": "Some order books damaged in the 1865 fire. The Richmond city/Henrico county split (1842) divides the court record series.",
+      "repository": "Library of Virginia; Henrico County Clerk of Court",
+      "online_access": "Library of Virginia microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1912,
+      "death_registration_start": 1912,
+      "completeness": "Virginia state registration began 1912. Richmond city had earlier vital registration (1853 for deaths). Henrico County (outside the city) followed the state schedule.",
+      "repository": "Virginia Department of Health, Office of Vital Records; Library of Virginia"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Henrico Parish / St. John's Church records",
+      "description": "Henrico Parish (Church of England / Episcopal) records include vestry minutes and register fragments. St. John's Church in Richmond (Patrick Henry's 'Give me liberty' speech, 1775) maintained parish records that supplement the civil record.",
+      "repository": "Library of Virginia; Virginia Historical Society; St. John's Church archives",
+      "era_coverage": "1700s–1800s",
+      "genealogical_value": "Parish vestry records include tithable lists, processioning records, and poor relief entries that function as proto-census records for the colonial period.",
+      "source": "Chamberlayne, C. G., ed. The Vestry Book of Henrico Parish, Virginia. Richmond, 1904."
+    },
+    {
+      "source_type": "Virginia colonial patent books",
+      "description": "Land patents from the Crown and later the Commonwealth survive from 1623 at the Library of Virginia. These document the earliest land grants in Henrico County.",
+      "repository": "Library of Virginia; published abstracts by Nugent",
+      "era_coverage": "1623–1774",
+      "genealogical_value": "For Henrico County ancestors before 1677, patent books may be the only surviving record of land ownership. Headright entries document both the patentee and the transported individuals.",
+      "source": "Nugent, Nell Marion. Cavaliers and Pioneers: Abstracts of Virginia Land Patents and Grants. Richmond: Virginia State Library, 1934."
+    },
+    {
+      "source_type": "Richmond city records (post-1842)",
+      "description": "When Richmond became an independent city in 1842, its records separated from Henrico County. Researchers must check both the city and county records for families that straddled the boundary.",
+      "repository": "Richmond City Clerk of Court; Library of Virginia",
+      "era_coverage": "1842–present",
+      "genealogical_value": "Many Henrico County families appear in Richmond city records after 1842 — the political boundary did not match the social boundary, and families moved freely between county and city.",
+      "source": "Library of Virginia. A Guide to Virginia County and City Records on Microfilm. Richmond, 2001."
+    }
+  ],
+  "narrative_hooks": [
+    "The fire that destroyed downtown Richmond on April 2, 1865, was set by retreating Confederates — and if {ancestor_name}'s deed was in the wrong building that night, it burned with the capital of the Confederacy.",
+    "Henrico County and Richmond city split in 1842, and {ancestor_name}'s records may be in either courthouse — or both — because the political boundary did not stop families from living and working on both sides.",
+    "For {ancestor_name} before 1677, Henrico County's courthouse has nothing — the earliest records are gone, and the search moves to the colonial patent books and General Court records at the Library of Virginia in Richmond.",
+    "St. John's Church — where Patrick Henry demanded liberty or death — was also Henrico Parish church, and its vestry records may document {ancestor_name}'s tithes, processioning, or poor relief in the very building where the Revolution was argued."
+  ],
+  "source_references": [
+    "Nelson, B. K. The Burning of Richmond, April 2-3, 1865. Richmond: Richmond Civil War Centennial Committee, 1961.",
+    "Library of Virginia. A Guide to Virginia County and City Records on Microfilm. Richmond, 2001.",
+    "Chamberlayne, C. G., ed. The Vestry Book of Henrico Parish, Virginia. Richmond, 1904.",
+    "Nugent, Nell Marion. Cavaliers and Pioneers: Abstracts of Virginia Land Patents and Grants. Richmond: Virginia State Library, 1934."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "va_henrico",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

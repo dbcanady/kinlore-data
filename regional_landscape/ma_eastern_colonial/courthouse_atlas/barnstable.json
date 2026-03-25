@@ -1,0 +1,120 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse & Records Survival Atlas for Barnstable County (Cape Cod), MA. Records survival is excellent — town vital records from the 1630s, county probate from 1686. Maritime family tracking is complicated by long whaling/fishing absences. Town clerks hold vital records.",
+  "courthouse_atlas_id": "ma_barnstable_courthouse",
+  "display_name": "Barnstable County (Cape Cod), Massachusetts — Courthouse Atlas",
+  "county": "Barnstable",
+  "state": "MA",
+  "fips_code": "25001",
+  "cluster_ref": "ma_eastern_colonial",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1832,
+      "location": "Barnstable, MA — Route 6A (renovated and expanded multiple times)",
+      "records_housed": ["probate from 1686", "deeds from 1686", "court records", "naturalization records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1685-1832",
+        "location": "Barnstable village, earlier structures on or near the current site",
+        "fate": "Replaced due to age and deterioration."
+      }
+    ],
+    "special_note": "Barnstable County town vital records are exceptionally complete for the colonial period. The Cape's small, stable population and strong town-meeting tradition produced meticulous record-keeping. However, maritime absences — whaling voyages lasting 3-4 years — create apparent gaps in census and vital records."
+  },
+  "record_losses": [
+    {
+      "loss_id": "barnstable_no_major_losses",
+      "date": "N/A",
+      "cause": "No major losses",
+      "records_destroyed": [],
+      "records_survived": ["deeds", "probate", "court records", "town vital records"],
+      "scope": "none significant",
+      "description": "Barnstable County has experienced no major record losses. The county's isolation — positive in this case — protected records from the fires, floods, and military destruction that affected more urban or contested areas. Town vital records are among the most complete in New England.",
+      "narrative_impact": "The Cape's excellent records mean that if {ancestor_name}'s family was on Cape Cod in the colonial period, the documentation is likely extensive. Gaps usually reflect maritime absence rather than record loss — a whaling captain might be absent from two consecutive censuses without being dead.",
+      "source": "Barnstable County Registry of Deeds. Institutional records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1686,
+      "completeness": "Excellent — continuous from county formation.",
+      "gaps": "None significant.",
+      "repository": "Barnstable County Registry of Deeds, Barnstable",
+      "online_access": "MassLandRecords.com; FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1686,
+      "completeness": "Excellent. Cape families' probate records often contain detailed inventories listing maritime equipment, shares in whaling voyages, and cranberry bog ownership.",
+      "gaps": "None significant.",
+      "repository": "Barnstable County Probate Court, Barnstable",
+      "online_access": "FamilySearch microfilm; Ancestry.com"
+    },
+    "marriages": {
+      "earliest_surviving": 1639,
+      "completeness": "Excellent — Cape Cod towns maintained thorough vital records from earliest settlement. Sandwich (1637), Barnstable (1639), Yarmouth (1639), and Eastham (1644) have records from their founding decades.",
+      "gaps": "Minimal. Some Provincetown records are less complete for the early period due to the town's transient fishing population.",
+      "repository": "Individual town clerks; published Vital Records series; State Archives",
+      "online_access": "AmericanAncestors.org; FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1686,
+      "completeness": "Good from county formation. Plymouth Colony court records cover the pre-1686 period for Cape towns.",
+      "gaps": "Minimal.",
+      "repository": "Massachusetts State Archives; Barnstable County court system",
+      "online_access": "Limited digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1637,
+      "death_registration_start": 1637,
+      "completeness": "Excellent — among the best in Massachusetts. The published vital records volumes for Cape Cod towns are comprehensive.",
+      "repository": "Individual town clerks; State Registry (from 1841)",
+      "special_note": "Maritime deaths (drownings, deaths at sea) may be recorded in the ship's log or the ship's home port rather than the victim's home town. Check New Bedford and Nantucket records for Cape Cod sailors who died on whaling voyages."
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Sturgis Library genealogical collection",
+      "description": "The Sturgis Library in Barnstable holds one of the most important genealogical collections for Cape Cod families, including the Lothrop family Bible records, Cape Cod genealogies, and local history manuscripts.",
+      "repository": "Sturgis Library, Barnstable, MA",
+      "era_coverage": "1630s-present",
+      "genealogical_value": "The library's Cape Cod Room contains compiled family genealogies, cemetery transcriptions, and newspaper clipping files that supplement official records.",
+      "source": "Sturgis Library. Guide to Genealogical Collections."
+    },
+    {
+      "source_type": "Ship logbooks and crew lists (whaling)",
+      "description": "Whaling voyage logbooks and crew lists from Cape Cod vessels. Many Cape Cod men sailed from Provincetown, Wellfleet, and Barnstable as well as from New Bedford and Nantucket.",
+      "repository": "New Bedford Whaling Museum; Nantucket Historical Association; Provincetown Public Library",
+      "era_coverage": "1750s-1920s",
+      "genealogical_value": "Crew lists provide name, age, birthplace, and physical description. Logbooks may document deaths at sea. Essential for tracing maritime ancestors who spent years away from home.",
+      "source": "New Bedford Whaling Museum. Guide to Logbook and Crew List Collections."
+    },
+    {
+      "source_type": "Congregational church records",
+      "description": "Cape Cod's Congregational churches — the dominant denomination for nearly two centuries — maintained detailed membership rolls, baptism records, and disciplinary proceedings.",
+      "repository": "Congregational Library (Boston); individual churches; Cape Cod Museum of Art (some historical materials)",
+      "era_coverage": "1630s-present",
+      "genealogical_value": "Church records predate many civil vital records and document family relationships (baptisms linking parents to children) that may not appear in town records.",
+      "source": "Congregational Library and Archives, Boston."
+    }
+  ],
+  "narrative_hooks": [
+    "If {ancestor_name} is missing from two consecutive censuses in Barnstable County, {pronoun_subject} may not be dead — {pronoun_subject} may be three years out on a whaling voyage, somewhere between the Cape Verde Islands and the Pacific.",
+    "Cape Cod's town clerks have been recording births, marriages, and deaths since the 1630s — if {ancestor_name}'s family was here, the paper trail is likely unbroken for three centuries.",
+    "The probate inventory for {ancestor_name} in Barnstable County may list not just household goods but shares in a whaling voyage, cranberry bog acreage, and salt works equipment — the specific assets of a Cape Cod life.",
+    "Maritime deaths complicate the search for {ancestor_name} — a drowning off the Grand Banks or a death from scurvy in the Pacific might be recorded in a ship's log in New Bedford rather than in {ancestor_name}'s home town on the Cape."
+  ],
+  "source_references": [
+    "Barnstable County Registry of Deeds. Institutional history records.",
+    "Sturgis Library. Guide to Genealogical Collections. Barnstable, MA.",
+    "New Bedford Whaling Museum. Guide to Collections. New Bedford, MA.",
+    "Massachusetts State Archives. Guide to Public Records. Boston.",
+    "Congregational Library and Archives, Boston. Guide to Church Records."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ma_barnstable",
+    "research_guidance_refs": ["new_england_town_records", "colonial_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

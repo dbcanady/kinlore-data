@@ -1,0 +1,139 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Lenoir County, NC. Record survival, courthouse history, and Civil War impacts from the Battle of Kinston.",
+  "courthouse_atlas_id": "nc_lenoir_courthouse",
+  "display_name": "Lenoir County, North Carolina — Courthouse Atlas",
+  "county": "Lenoir",
+  "state": "NC",
+  "fips_code": "37107",
+  "cluster_ref": "se_nc_coastal_plain",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1939,
+      "location": "Kinston, NC — Queen Street",
+      "records_housed": ["deeds", "plats", "vital records indexes", "court minutes", "estate files"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1791–1830s",
+        "location": "Kinston (original structure, likely frame or log)",
+        "fate": "Replaced by a more substantial building. Early Lenoir County was a small, largely agricultural jurisdiction."
+      },
+      {
+        "era": "1830s–1882",
+        "location": "Kinston, center of town",
+        "fate": "This courthouse endured the Civil War — Union forces occupied Kinston multiple times, and the Battle of Kinston (December 1862) was fought nearby. The building survived but sustained some damage. It was replaced in 1882."
+      },
+      {
+        "era": "1882–1939",
+        "location": "Kinston, Queen Street area",
+        "fate": "Brick building served until replaced by the current WPA-era courthouse."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "lenoir_civil_war_damage",
+      "date": "1862–1865",
+      "cause": "Civil War",
+      "records_destroyed": ["some loose court papers", "tax and militia records from 1862–1865", "scattered estate papers"],
+      "records_survived": ["deed books from 1791", "will books from 1791", "marriage bonds", "court minutes (most volumes)"],
+      "scope": "partial",
+      "description": "Kinston changed hands multiple times during the Civil War. The Battle of Kinston (December 14, 1862), the Battle of Wyse Fork (March 1865), and general Union occupation disrupted civil government and endangered records. The bound record books survived — they were likely in a vault or were removed to safety — but loose papers, including tax lists, militia records, and some estate papers, were scattered or destroyed. Union troops used public buildings for quarters and operations, and some documents were damaged or lost during these occupations.",
+      "narrative_impact": "Lenoir County's core records survived the war, but the loose papers that add texture to a family story — estate inventories, guardian accounts, tax assessments — are less complete for the Civil War era. If {ancestor_name}'s estate was settled during the war, the file may be incomplete.",
+      "source": "Barrett, John G. The Civil War in North Carolina. Chapel Hill: UNC Press, 1963."
+    },
+    {
+      "loss_id": "lenoir_early_gaps",
+      "date": "1791–1810",
+      "cause": "deterioration",
+      "records_destroyed": ["some early loose papers"],
+      "records_survived": ["deed books from 1791", "will books from 1791", "marriage bonds from 1791"],
+      "scope": "specific",
+      "description": "Lenoir County was formed from Dobbs County in 1791. The earliest records are generally intact because the county inherited some organizational infrastructure from its parent. However, some loose papers from the first two decades show deterioration, and storage in the original frame courthouse was not ideal for long-term preservation.",
+      "narrative_impact": "The transition from Dobbs County to Lenoir County means that {ancestor_name}'s pre-1791 records are in the Dobbs County record series at the NC State Archives, not in Kinston. Researchers must check both.",
+      "source": "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1791,
+      "completeness": "Good — continuous series from county formation. Pre-1791 deeds in Dobbs County records.",
+      "gaps": "No known volume-level gaps. Some early entries are brief.",
+      "repository": "Lenoir County Register of Deeds, Kinston; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com NC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1791,
+      "completeness": "Good — will books survive from formation. Loose estate papers less complete during Civil War era.",
+      "gaps": "Some loose estate papers from 1862–1865 are missing. Bound will books intact.",
+      "repository": "Lenoir County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm; NC State Archives digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1791,
+      "completeness": "Good — marriage bonds survive from county formation",
+      "gaps": "Bonds are more complete than registers. Register volumes begin approximately 1851.",
+      "repository": "Lenoir County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com NC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1791,
+      "completeness": "Good — generally continuous from formation",
+      "gaps": "Reduced entries during Civil War years. Court business was minimal during Union occupations of Kinston.",
+      "repository": "NC State Archives; Lenoir County Clerk of Court",
+      "online_access": "NC State Archives microfilm; limited FamilySearch digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Spotty until approximately 1920. Kinston city burial permits may predate county registration.",
+      "repository": "NC Office of Vital Records; NC State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Dobbs County records (parent county)",
+      "description": "Lenoir County was formed from Dobbs County in 1791. Dobbs County itself was formed in 1758 and abolished in 1791, split into Lenoir and Glasgow (later Greene) counties. Pre-1791 records for the Kinston area are in the Dobbs County series.",
+      "repository": "NC State Archives — Dobbs County records",
+      "era_coverage": "1758–1791",
+      "genealogical_value": "Critical for tracing families in the Kinston area before 1791. All deeds, wills, and court minutes for the region before Lenoir's formation are filed under Dobbs County.",
+      "source": "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1800–1940. Lenoir County first enumerated in the 1800 census. The Dobbs County dissolution means the 1790 census lists families under Dobbs, not Lenoir.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1800–1940",
+      "genealogical_value": "Essential for tracking families across the Dobbs-to-Lenoir transition. Check Dobbs County for the 1790 census.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Lenoir County, NC."
+    },
+    {
+      "source_type": "Civil War military and pension records",
+      "description": "Confederate service records and Union pension files document Lenoir County men who served. Post-war Southern Claims Commission files may document property losses from Union occupation.",
+      "repository": "National Archives; NC State Archives; Fold3.com",
+      "era_coverage": "1861–1890s",
+      "genealogical_value": "Pension files name wives, children, and dependents. Southern Claims Commission files document property damage in Kinston and surrounding areas.",
+      "source": "National Archives and Records Administration. Compiled Service Records of Confederate Soldiers, North Carolina."
+    }
+  ],
+  "narrative_hooks": [
+    "Kinston changed hands more than once during the Civil War, and each time armies passed through, {ancestor_name}'s world shifted — the Battle of Kinston in December 1862 and the fighting at Wyse Fork in March 1865 bracketed three years of occupation, foraging, and disruption.",
+    "Before 1791, the land around Kinston belonged to Dobbs County — if {ancestor_name} was here before that date, their records are filed thirty miles away in the NC State Archives under a county name that no longer exists on any map.",
+    "Lenoir County's bound record books survived the Civil War, but the loose papers that fill out a family's story — estate inventories, guardian accounts, tax lists — took more damage, and {ancestor_name}'s wartime records may be among the casualties.",
+    "Before 1913, no North Carolina county required birth or death registration, so the absence of a birth record for {ancestor_name} is normal — in Lenoir County, church membership rolls and cemetery records at local Baptist and Methodist churches are the best substitutes.",
+    "If {ancestor_name} filed a claim with the Southern Claims Commission after the war, that file — documenting property taken by Union forces — may survive at the National Archives and tell a story of loss that no courthouse record captures."
+  ],
+  "source_references": [
+    "Barrett, John G. The Civil War in North Carolina. Chapel Hill: University of North Carolina Press, 1963.",
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "National Archives and Records Administration. Compiled Service Records of Confederate Soldiers, North Carolina.",
+    "NC State Archives. Dobbs County Records. Raleigh: Division of Archives and History."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_lenoir",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records", "parent_county_records"],
+    "template_refs": ["record_silences"]
+  }
+}

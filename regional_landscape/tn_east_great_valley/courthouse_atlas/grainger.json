@@ -1,0 +1,116 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Grainger County, TN. Formed 1796 from Hawkins and Knox counties. Seat: Rutledge. No major courthouse fire or destruction. Records from 1796. Cherokee Lake (TVA) displaced some families; TVA archives supplement county records.",
+  "courthouse_atlas_id": "tn_grainger_courthouse",
+  "display_name": "Grainger County, Tennessee — Courthouse Atlas",
+  "county": "Grainger",
+  "state": "TN",
+  "fips_code": "47057",
+  "cluster_ref": "tn_east_great_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1848,
+      "location": "Rutledge, TN — Main Street. One of the oldest active courthouses in Tennessee.",
+      "records_housed": ["deeds", "wills", "court minutes", "marriage records", "tax records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1796–1848",
+        "location": "Rutledge",
+        "fate": "Early log and frame courthouses. Records transferred to the current building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "grainger_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire or war destruction",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage records"],
+      "scope": "none",
+      "description": "Grainger County's 1848 courthouse is one of the oldest still in use in Tennessee and has not experienced a catastrophic fire or wartime destruction. Records from the county's 1796 formation are well-preserved. The Civil War disrupted court operations but did not damage the building or its records.",
+      "narrative_impact": "If {ancestor_name} lived in Grainger County after 1796, the records almost certainly survive in the same 1848 courthouse that served {pronoun_possessive} contemporaries. The building is a direct physical connection to the ancestor's legal life.",
+      "source": "Tennessee State Library and Archives. Guide to County Records: Grainger County."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1796,
+      "completeness": "Excellent — continuous from formation",
+      "gaps": "No significant gaps.",
+      "repository": "Grainger County Register of Deeds, Rutledge; TSLA microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1796,
+      "completeness": "Good — bound volumes intact",
+      "gaps": "Earliest loose papers may be fragmentary.",
+      "repository": "Grainger County Clerk; TSLA",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1796,
+      "completeness": "Good",
+      "gaps": "Post-1838 records more standardized.",
+      "repository": "Grainger County Clerk; TSLA microfilm",
+      "online_access": "FamilySearch; Ancestry.com TN marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1796,
+      "completeness": "Good — continuous with Civil War disruption",
+      "gaps": "Some disruption 1862-1864.",
+      "repository": "Grainger County Clerk; TSLA",
+      "online_access": "TSLA digital collections (partial)"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Incomplete before approximately 1914.",
+      "repository": "Tennessee Department of Health; TSLA"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1800-1940.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1800-1940",
+      "genealogical_value": "Essential for tracking families. Agricultural schedules (1850-1880) document the county's farming economy in detail.",
+      "source": "NARA. Federal Census Schedules, Grainger County, TN."
+    },
+    {
+      "source_type": "TVA Cherokee Reservoir land records",
+      "description": "Cherokee Dam displaced Holston bottomland families from Grainger County. TVA land acquisition records document every tract.",
+      "repository": "Tennessee Valley Authority Technical Library; National Archives Southeast Region",
+      "era_coverage": "1940-1942",
+      "genealogical_value": "Documents displaced families — names, tract descriptions, compensation, and relocation patterns.",
+      "source": "Tennessee Valley Authority. Cherokee Reservoir: Report to the Congress. Knoxville: TVA, 1943."
+    },
+    {
+      "source_type": "Church records — Baptist and Presbyterian",
+      "description": "Baptist and Presbyterian congregations in Grainger County maintained records from the early nineteenth century. Church records supplement civil records, particularly for marriages before the 1838 state registration law.",
+      "repository": "Individual congregations; TSLA; Carson-Newman University archives",
+      "era_coverage": "1800s-present",
+      "genealogical_value": "Valuable for pre-1838 marriage documentation and for tracking families between census years.",
+      "source": "Carson-Newman University Special Collections finding aids."
+    }
+  ],
+  "narrative_hooks": [
+    "Grainger County's 1848 courthouse is still in use — {ancestor_name}'s deeds and wills sit in the same building where they were filed, in a courthouse that has served continuously for almost two centuries.",
+    "If {ancestor_name}'s Holston bottomland was taken by TVA for Cherokee Lake, the condemnation records document exactly what was lost and what was paid — a paper trail in Knoxville for a life that ended in Grainger County.",
+    "Grainger County has no major record losses — if {ancestor_name}'s paper trail has gaps, look at the ancestor's circumstances, not the courthouse.",
+    "Tennessee required vital records registration in 1908, so the absence of a birth record for {ancestor_name} before that date is standard for the state, not specific to Grainger County."
+  ],
+  "source_references": [
+    "Tennessee State Library and Archives. Guide to County Records: Grainger County.",
+    "Tennessee Valley Authority. Cherokee Reservoir: Report to the Congress. Knoxville: TVA, 1943.",
+    "Carson-Newman University Special Collections finding aids."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "tn_grainger",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

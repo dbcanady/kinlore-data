@@ -1,0 +1,105 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Grant County, WI. Records survive from the territorial period (county formed 1836). Grant County includes the Mississippi River towns of Cassville and Potosi, and territorial records from the lead mining era are among the earliest in Wisconsin.",
+  "courthouse_atlas_id": "wi_grant_courthouse",
+  "display_name": "Grant County, Wisconsin — Courthouse Atlas",
+  "county": "Grant",
+  "state": "WI",
+  "fips_code": "55043",
+  "cluster_ref": "wi_southern_driftless",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1905,
+      "location": "Lancaster, WI — 130 W. Maple Street",
+      "records_housed": ["deeds", "mortgages", "probate records", "court records", "vital records (post-1907)"]
+    },
+    "previous_courthouses": [
+      { "era": "1836-1868", "location": "Lancaster, early frame buildings", "fate": "Replaced as county grew." },
+      { "era": "1868-1905", "location": "Lancaster, brick courthouse", "fate": "Replaced by current building." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "grant_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire or war damage",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage records"],
+      "scope": "none",
+      "description": "Grant County records survive from the territorial period. The county's Mississippi River location meant steamboat-era records (landing permits, shipping manifests) may supplement county records for riverside families.",
+      "narrative_impact": "Grant County records are intact. For {ancestor_name}, the Mississippi River connection means supplementary records may exist in the steamboat shipping archives at St. Louis or Galena, IL.",
+      "source": "Wisconsin Historical Society. Guide to Wisconsin County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1836,
+      "completeness": "Good — from territorial era",
+      "gaps": "No major gaps",
+      "repository": "Grant County Register of Deeds; Wisconsin Historical Society",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1838,
+      "completeness": "Good",
+      "gaps": "Minor in earliest territorial period",
+      "repository": "Grant County Probate Court; Wisconsin Historical Society",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1837,
+      "completeness": "Good",
+      "gaps": "Minimal",
+      "repository": "Grant County Register of Deeds; Wisconsin Historical Society",
+      "online_access": "FamilySearch; Ancestry.com WI marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1837,
+      "completeness": "Good",
+      "gaps": "Minor in territorial period",
+      "repository": "Grant County Clerk of Courts; Wisconsin Historical Society",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1907,
+      "death_registration_start": 1907,
+      "completeness": "Statewide registration from 1907.",
+      "repository": "Wisconsin Department of Health Services"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Steamboat and river commerce records",
+      "description": "Grant County's Mississippi River towns — Cassville, Potosi, Prairie du Chien — were steamboat landings. Shipping manifests, customs records, and river commerce documentation may name individuals involved in the lead and agricultural trade.",
+      "repository": "National Archives (customs records); Missouri Historical Society (St. Louis steamboat records); Wisconsin Historical Society",
+      "era_coverage": "1830s-1880s",
+      "genealogical_value": "Supplementary for families connected to river commerce. Shipping manifests can document lead shipments attributed to specific miners or merchants.",
+      "source": "Hunter, Louis C. Steamboats on the Western Rivers. Cambridge: Harvard University Press, 1949."
+    },
+    {
+      "source_type": "UW-Platteville / State Normal School records",
+      "description": "Platteville Normal School (1866, now UW-Platteville) trained teachers from across southwestern Wisconsin. Student records document young people from Grant County and neighboring counties.",
+      "repository": "UW-Platteville Archives",
+      "era_coverage": "1866-present",
+      "genealogical_value": "Student registers include hometown and family information. Useful for tracking families who valued education as an alternative to farming.",
+      "source": "UW-Platteville Archives finding aids."
+    }
+  ],
+  "narrative_hooks": [
+    "Grant County's records go back to the territorial era — the Mississippi River towns generated some of the earliest documentation in Wisconsin, and {ancestor_name} may appear in steamboat records as well as courthouse files.",
+    "The county seat is Lancaster, not on the Mississippi — but the river towns of Cassville and Potosi generated their own records of commerce, shipping, and lead trading that supplement the courthouse files.",
+    "Wisconsin vital registration began in 1907 — before that, {ancestor_name}'s birth or marriage must be traced through church records, census, or the newspapers published in Lancaster and Platteville.",
+    "If {ancestor_name} shipped lead ore downstream on the Mississippi, the shipping records at St. Louis may document what the Grant County courthouse does not."
+  ],
+  "source_references": [
+    "Wisconsin Historical Society. Guide to Wisconsin County Records.",
+    "Hunter, Louis C. Steamboats on the Western Rivers. Cambridge: Harvard University Press, 1949.",
+    "UW-Platteville Archives finding aids."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "wi_grant",
+    "research_guidance_refs": ["vital_records", "property_records"],
+    "template_refs": ["record_silences"]
+  }
+}

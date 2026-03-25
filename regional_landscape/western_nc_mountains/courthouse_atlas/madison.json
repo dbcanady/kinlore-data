@@ -1,0 +1,123 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Madison County, NC. Record survival, courthouse history, and known losses — Civil War destruction at Marshall and the county's extreme isolation shaped what records survive and what was lost.",
+  "courthouse_atlas_id": "nc_madison_courthouse",
+  "display_name": "Madison County, North Carolina — Courthouse Atlas",
+  "county": "Madison",
+  "state": "NC",
+  "fips_code": "37115",
+  "cluster_ref": "western_nc_mountains",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1907,
+      "location": "Marshall, NC — Main Street (perched on a narrow shelf above the French Broad River — the town is so narrow that the main street is essentially one lane)",
+      "records_housed": ["deeds", "plats", "court minutes post-1870s", "estate files", "marriage licenses"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1851–1863",
+        "location": "Marshall, NC (original courthouse)",
+        "fate": "Burned during the Civil War. Madison County was deeply divided between Union and Confederate sympathies, and the courthouse was destroyed during Confederate raids in 1863, the same period as the Shelton Laurel Massacre. Some records were lost."
+      },
+      {
+        "era": "1865–1907",
+        "location": "Marshall, NC (temporary and replacement structures)",
+        "fate": "A series of temporary structures served as courthouse after the war. Replaced by the 1907 brick building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "madison_civil_war_fire",
+      "date": "1863",
+      "cause": "Civil War — courthouse burned during period of Shelton Laurel violence",
+      "records_destroyed": ["some early deed books (partial loss)", "some court minutes pre-1863", "loose papers and estate files pre-1863"],
+      "records_survived": ["deed books partially survived (some volumes were rescued or duplicated)", "marriage bonds (partial)", "some will books"],
+      "scope": "significant",
+      "description": "The burning of the Madison County courthouse during the Civil War was part of the broader fratricidal violence that tore the county apart. Madison was deeply divided — Unionist families in the Laurel valleys versus Confederate sympathizers elsewhere. The 1863 Shelton Laurel Massacre occurred in this same period of chaos. The courthouse fire destroyed some early records, though volunteers rescued some volumes before the building was fully consumed. The losses are partial rather than total, making Madison County research challenging but not impossible.",
+      "narrative_impact": "The gap in {ancestor_name}'s Madison County records may trace back to the same violence that produced the Shelton Laurel Massacre — the Civil War burned the courthouse along with any pretense that the county was united.",
+      "source": "Paludan, Phillip Shaw. Victims: A True Story of the Civil War. Knoxville: University of Tennessee Press, 1981."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1851,
+      "completeness": "Partial — some early deed books damaged or lost in 1863 fire",
+      "gaps": "Pre-1863 deeds are incomplete. Some were reconstructed from grantee/grantor memory and re-recorded after the war. Check NC State Archives for surviving copies and cross-reference with Buncombe County records (Madison was formed from Buncombe in 1851).",
+      "repository": "Madison County Register of Deeds, Marshall; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; limited Ancestry.com coverage"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1851,
+      "completeness": "Partial — some pre-1863 estate files lost in courthouse fire",
+      "gaps": "Surviving will books are incomplete for the 1851-1863 period. Post-1865 records are more complete but reflect the poverty of Reconstruction-era Madison County — fewer estates generated probate records because there was less property to distribute.",
+      "repository": "Madison County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm; limited digitization"
+    },
+    "marriages": {
+      "earliest_surviving": 1851,
+      "completeness": "Partial — some early marriage bonds survived the fire",
+      "gaps": "Marriage bonds from 1851-1863 are incomplete. Post-1865 records are more complete. Many mountain marriages were performed by justices of the peace whose records were kept personally and are now lost.",
+      "repository": "Madison County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; some Ancestry.com coverage"
+    },
+    "court_minutes": {
+      "earliest_surviving": "1860s (post-fire reconstruction)",
+      "completeness": "Poor for pre-1863; improving after Reconstruction",
+      "gaps": "Significant gaps in the 1851-1865 period. The Civil War disrupted court operations entirely for extended periods. Reconstruction-era courts were sporadic.",
+      "repository": "NC State Archives; Madison County Clerk of Court",
+      "online_access": "NC State Archives microfilm; very limited digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Poor until the 1920s. Madison County's extreme isolation meant compliance with vital records laws was among the worst in the state. Many births and deaths in remote hollows were never recorded.",
+      "repository": "NC Office of Vital Records; NC State Archives for delayed birth certificates"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1860–1940 (Madison formed 1851; first enumerated in 1860). The 1860 census is particularly valuable as it predates the courthouse fire.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1860–1940",
+      "genealogical_value": "The 1860 census may be the most complete snapshot of Madison County families before the Civil War destroyed both records and communities. Pre-1851 ancestors appear in Buncombe County censuses (1800-1850).",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Madison County, NC."
+    },
+    {
+      "source_type": "Buncombe County records (pre-1851)",
+      "description": "Madison County was formed from Buncombe in 1851. All records for the Madison County area before that date are in the Buncombe County records at Marshall and at the NC State Archives.",
+      "repository": "Buncombe County Register of Deeds; NC State Archives",
+      "era_coverage": "1792–1851",
+      "genealogical_value": "Essential for any family in Madison County before 1851. Land grants, deeds, wills, and court records for the French Broad valley above Asheville are in the Buncombe records.",
+      "source": "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001."
+    },
+    {
+      "source_type": "Civil War service and pension records",
+      "description": "Madison County men served in both Confederate and Union forces. Union service records are at the National Archives; Confederate records are at the NC State Archives. Pension applications (both NC Confederate pensions and federal Union pensions) often contain biographical detail not found elsewhere.",
+      "repository": "National Archives (Union); NC State Archives (Confederate); Fold3.com (digitized)",
+      "era_coverage": "1861–1920s (pension applications continued for decades)",
+      "genealogical_value": "Pension applications are among the richest genealogical sources for Madison County families, containing statements of age, residence, family members, and economic condition. Critical for families whose courthouse records were destroyed.",
+      "source": "National Archives. Compiled Service Records and Pension Files, Civil War."
+    }
+  ],
+  "narrative_hooks": [
+    "Madison County's courthouse burned during the Civil War, and the fire took some of {ancestor_name}'s records with it — the same violence that produced the Shelton Laurel Massacre destroyed the paper trail of the families caught in the middle.",
+    "If {ancestor_name} was in the Madison County area before 1851, the records are in Buncombe County — Madison did not exist as a separate county until then, and the paper trail leads back to Asheville.",
+    "The absence of a birth record for {ancestor_name} in Madison County likely reflects the county's extreme isolation — in the remote hollows of the French Broad and Laurel valleys, many births and deaths were never recorded even after the state began requiring it in 1913.",
+    "Civil War pension files may be the richest surviving source for {ancestor_name}'s family in Madison County — the applications required statements of age, residence, and family relationships that replace the courthouse records the war destroyed.",
+    "Madison County's town of Marshall is so narrow between the river and the mountain that the courthouse sits on a shelf barely wider than its own foundation — a physical metaphor for a county where everything, including record survival, was squeezed into the tightest possible space."
+  ],
+  "source_references": [
+    "Paludan, Phillip Shaw. Victims: A True Story of the Civil War. Knoxville: University of Tennessee Press, 1981.",
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Sondley, Forster A. A History of Buncombe County, North Carolina. 2 vols. Asheville: Advocate Printing, 1930.",
+    "Inscoe, John C., and Gordon B. McKinney. The Heart of Confederate Appalachia: Western North Carolina in the Civil War. Chapel Hill: University of North Carolina Press, 2004."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_madison",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records", "burned_county_strategies"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Bolivar County, MS. Bolivar County is split into two judicial districts — Rosedale (First District) and Cleveland (Second District) — each with its own courthouse and records. This split complicates genealogical research: records may be in either location depending on which district the ancestor lived in. The county's records survived reasonably well, with no major fire, but the 1927 flood caused some damage.",
+  "courthouse_atlas_id": "ms_bolivar_courthouse",
+  "display_name": "Bolivar County, Mississippi — Courthouse Atlas",
+  "county": "Bolivar",
+  "state": "MS",
+  "fips_code": "28011",
+  "cluster_ref": "ms_delta",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1907,
+      "location": "Rosedale (First District) and Cleveland (Second District) — two courthouses",
+      "records_housed": ["deeds (split by district)", "chancery court records", "circuit court records", "marriage records", "vital records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1836-1870s",
+        "location": "Bolivar (original county seat, now defunct)",
+        "fate": "County seat moved to Rosedale. Original structure deteriorated."
+      },
+      {
+        "era": "1870s-1907",
+        "location": "Rosedale (sole courthouse before district split)",
+        "fate": "Replaced by current building. Cleveland courthouse established when county divided into two judicial districts."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "bolivar_1927_flood_minor",
+      "date": "1927-04",
+      "cause": "Great Mississippi Flood of 1927",
+      "records_destroyed": ["some loose papers at Rosedale courthouse", "scattered court files in basement storage"],
+      "records_survived": ["bound deed books", "most chancery and circuit court records", "marriage records"],
+      "scope": "minor",
+      "description": "The 1927 flood affected the Rosedale courthouse (located near the Mississippi River) more than the Cleveland courthouse. Bound volumes on upper shelves survived; loose papers in basement storage suffered water damage. The Cleveland courthouse, on slightly higher ground inland, experienced less damage.",
+      "narrative_impact": "Bolivar County's records survived the 1927 flood better than some neighboring counties, but researchers should check both district courthouses — records for a family near the district boundary may be in either location.",
+      "source": "Mississippi Department of Archives and History, Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1836,
+      "completeness": "Good — continuous series from county formation, split between two districts",
+      "gaps": "Some early deed books show wear but are legible. Researchers must check both Rosedale and Cleveland.",
+      "repository": "Bolivar County Chancery Clerk, Rosedale and Cleveland; MDAH microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1840,
+      "completeness": "Good — estate records survive from early county period",
+      "gaps": "Minor gaps in earliest records. Post-Civil War estate records generally complete.",
+      "repository": "Bolivar County Chancery Clerk; MDAH",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1840,
+      "completeness": "Good — marriage records survive from formation period",
+      "gaps": "Black marriage records begin 1865-66 with Freedmen's Bureau registrations and subsequent county records.",
+      "repository": "Bolivar County Circuit Clerk; MDAH microfilm",
+      "online_access": "FamilySearch; Ancestry.com MS marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1840,
+      "completeness": "Good — chancery and circuit court minutes largely continuous",
+      "gaps": "Some early volumes show deterioration but remain usable.",
+      "repository": "Bolivar County courthouse (both districts); MDAH",
+      "online_access": "MDAH microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1912,
+      "death_registration_start": 1912,
+      "completeness": "Spotty until 1920s. Rural Black births significantly underregistered.",
+      "repository": "Mississippi State Department of Health; MDAH"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1840-1940. Slave schedules 1850-1860.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1840-1940",
+      "genealogical_value": "Essential for tracking families. Mound Bayou's all-Black population is documented in census records from 1900 forward.",
+      "source": "National Archives and Records Administration."
+    },
+    {
+      "source_type": "Freedmen's Bureau records",
+      "description": "Labor contracts, marriage registrations, complaint records for Bolivar County, 1865-1872.",
+      "repository": "National Archives; FamilySearch digitization",
+      "era_coverage": "1865-1872",
+      "genealogical_value": "Critical for post-emancipation Black families. Bolivar County's large enslaved population means these records are extensive and valuable.",
+      "source": "National Archives, RG 105."
+    },
+    {
+      "source_type": "Mound Bayou records",
+      "description": "The all-Black town of Mound Bayou maintained its own records — town minutes, business records, and community histories.",
+      "repository": "MDAH; Delta State University archives; private collections",
+      "era_coverage": "1887-present",
+      "genealogical_value": "Unique documentation of a self-governing Black community. For ancestors connected to Mound Bayou, these records provide detail unavailable in county records.",
+      "source": "McMillen, Dark Journey (1989)."
+    }
+  ],
+  "narrative_hooks": [
+    "Bolivar County has two courthouses — one in Rosedale and one in Cleveland — and {ancestor_name}'s records could be in either one depending on which judicial district the family lived in. Checking both is essential.",
+    "If {ancestor_name} was connected to Mound Bayou, the all-Black town's own records may provide detail that county records cannot — Mound Bayou documented its own people because it governed its own people.",
+    "Mississippi's late vital records registration (1912) means that {ancestor_name}'s birth was almost certainly not officially recorded — church records, census records, and Freedmen's Bureau files are the alternatives.",
+    "The Freedmen's Bureau records for Bolivar County document the transition from slavery to freedom — labor contracts that name formerly enslaved individuals, their families, and their former enslavers provide the bridge that {ancestor_name}'s family needs across the 1865 divide."
+  ],
+  "source_references": [
+    "Mississippi Department of Archives and History. Guide to County Records. Jackson, MS.",
+    "McMillen, Neil R. Dark Journey: Black Mississippians in the Age of Jim Crow. Urbana: University of Illinois Press, 1989.",
+    "National Archives and Records Administration. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands (RG 105)."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ms_bolivar",
+    "research_guidance_refs": ["southern_courthouse_research", "freedmens_bureau"],
+    "template_refs": ["record_silences"]
+  }
+}

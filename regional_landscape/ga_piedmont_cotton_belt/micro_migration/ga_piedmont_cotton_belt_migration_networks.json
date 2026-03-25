@@ -1,0 +1,159 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Micro-Migration Network Map for the GA Piedmont Cotton Belt cluster. Documents specific migration corridors, chain-migration mechanics, and settlement patterns, 1790-1960. The distinctive feature is the Georgia Land Lottery's randomized settlement (NOT kin-clustered like Carolina backcountry), the Great Migration to Atlanta and northward, and the post-1960 Atlanta suburban sprawl into the cluster's western counties.",
+  "migration_network_id": "ga_piedmont_cotton_belt_migration_networks",
+  "display_name": "GA Piedmont Cotton Belt — Micro-Migration Network Map",
+  "cluster_ref": "ga_piedmont_cotton_belt",
+  "era_range": "1790-1960",
+  "migration_corridors": [
+    {
+      "corridor_id": "carolina_virginia_to_ga_piedmont",
+      "corridor_name": "Carolina and Virginia Settlement of the GA Piedmont",
+      "origin_counties": ["Various counties in VA, NC, SC — particularly Piedmont and backcountry counties"],
+      "destination_area": "Greene, Oglethorpe, Clarke, Morgan — the earliest-settled counties in the cluster",
+      "era": "1786-1830",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of families over two generations. The GA Piedmont was settled primarily by families from Virginia and the Carolinas who came seeking new cotton land — the red clay of their home counties was beginning to erode, and Georgia offered fresh soil.",
+      "evidence": {
+        "census_evidence": "1790-1820 census for Greene, Oglethorpe, and Clarke counties shows household heads with surnames common in the VA-NC-SC Piedmont. Comparison of surname distributions reveals specific migration chains.",
+        "church_evidence": "Baptist and Methodist church records show transfers of membership from VA and NC congregations to GA Piedmont churches.",
+        "surname_clustering": "Piedmont Southern surnames — families that appear in VA or NC census records in the 1770s-1790s and then in GA census records in the 1800s-1820s."
+      },
+      "chain_mechanics": {
+        "description": "Families moved south and west seeking fresh cotton land as Virginia and Carolina soils wore out. The Georgia Land Lottery system (for later counties) randomized settlement in a way that distinguished GA from the kin-clustered settlement of the Carolinas. But the earliest counties (Greene, Oglethorpe) were settled under the headright system, where kin clustering WAS possible. The result is a two-layer settlement pattern: kin-clustered in the oldest counties, randomized in the lottery counties.",
+        "kinship_role": "Strong in the oldest counties (headright settlement). Weaker in the lottery counties, where settlement was randomized by the drawing.",
+        "timeline": "First wave 1786-1800 (Greene, Oglethorpe). Second wave 1800-1815 (Clarke, Morgan). Third wave 1818-1830 (Gwinnett, Walton, Newton, DeKalb — lottery settlement)."
+      },
+      "narrative_hook": "The {surname} family came from {origin_state} seeking cotton land that had not yet been used up — red clay that was still producing, on a frontier that was still opening. The Georgia Piedmont was their second chance at what Virginia or Carolina had already exhausted.",
+      "source": "Bonner, A History of Georgia Agriculture (1964). Coleman, A History of Georgia (1991)."
+    },
+    {
+      "corridor_id": "black_great_migration_north",
+      "corridor_name": "Black Great Migration from the GA Piedmont to Atlanta and the North",
+      "origin_counties": ["Greene", "Morgan", "Oglethorpe", "Newton", "Walton", "Gwinnett", "DeKalb", "Clarke"],
+      "destination_area": "Atlanta (first stop), then northward via railroad to Washington DC, Philadelphia, New York, Detroit, Chicago",
+      "era": "1910-1960",
+      "migration_type": "chain_migration",
+      "scale": "Tens of thousands of Black families from the GA Piedmont over five decades. The Black population in the cluster's plantation counties (Greene, Morgan, Oglethorpe) declined dramatically.",
+      "evidence": {
+        "census_evidence": "1920-1960 census for northern cities shows concentrations of GA-born Black residents. Atlanta's Black population grew substantially from rural GA Piedmont migration.",
+        "church_evidence": "Black Baptist and AME churches in the cluster record membership losses 1916-1960. Atlanta-area Black churches show corresponding increases."
+      },
+      "chain_mechanics": {
+        "description": "Atlanta was the first stop. Black families from the rural Piedmont moved first to Atlanta — close enough to visit, familiar enough to navigate. From Atlanta, the railroad (Southern Railway northbound through Charlotte and Washington) carried families to northern cities. Chain migration followed church and kinship networks: a young man went to Atlanta, found work, then sent for siblings. Once established in Atlanta, some families continued north following kin who had already made the longer journey.",
+        "kinship_role": "Church networks were as important as blood kinship. AME and Baptist church connections channeled migrants to specific Atlanta congregations that served as landing pads. From Atlanta, church connections in northern cities guided the longer migration.",
+        "timeline": "Trickle 1910-1916; first surge 1917-1920 (WWI); sustained 1920-1940; second surge 1942-1955 (WWII); continuing 1955-1960."
+      },
+      "narrative_hook": "When {ancestor_name} left {county} County for Atlanta in {year}, {pronoun_subject} was following a path marked by kin and church — a cousin who had already found work, a deacon who knew where the jobs were, a brother who said Atlanta was just the first stop.",
+      "source": "Wilkerson, Isabel. The Warmth of Other Suns. Random House, 2010. Gregory, James N. The Southern Diaspora. UNC Press, 2005."
+    },
+    {
+      "corridor_id": "piedmont_to_deep_south_cotton",
+      "corridor_name": "GA Piedmont Planters Moving to Deep South Cotton Frontier",
+      "origin_counties": ["Greene", "Morgan", "Oglethorpe"],
+      "destination_area": "Alabama Black Belt, Mississippi Delta, East Texas — the Deep South cotton frontier",
+      "era": "1820-1860",
+      "migration_type": "planter_migration",
+      "scale": "Hundreds of planter families, taking enslaved people with them. As GA Piedmont soils wore out, planters with capital moved to the Deep South frontier where virgin soil promised better yields.",
+      "evidence": {
+        "census_evidence": "Comparison of 1830-1860 census for GA Piedmont counties and AL/MS counties shows planter families disappearing from GA and appearing in AL/MS with similar slaveholding numbers.",
+        "church_evidence": "Church letters of dismissal track families moving from GA to AL and MS congregations.",
+        "surname_clustering": "GA Piedmont planter surnames appear in AL and MS county records a generation later."
+      },
+      "chain_mechanics": {
+        "description": "When the GA Piedmont's red clay soils began to wear out — gullies deepening, yields declining — planters with capital and enslaved labor moved to the Deep South frontier. They sold their GA land (often to smaller farmers) and relocated entire operations — family, enslaved workers, equipment — to Alabama, Mississippi, or Texas. This was the domestic slave trade in action: enslaved people moved at the planter's decision, families separated by economic calculation.",
+        "kinship_role": "Planter families moved in kinship networks — brothers, in-laws, and neighbors from the same GA county settling in the same AL or MS county.",
+        "timeline": "Began 1820s, peak 1840s-1850s, ended with the Civil War."
+      },
+      "narrative_hook": "When the red clay of {county} County stopped producing, the planter who owned {ancestor_name} made the calculation that the soil in Alabama was still fresh — and moved the entire operation west, taking the enslaved workers' lives with the cotton press.",
+      "source": "Deyle, Steven. Carry Me Back: The Domestic Slave Trade in American Life. Oxford University Press, 2005. Baptist, Edward E. The Half Has Never Been Told. Basic Books, 2014."
+    },
+    {
+      "corridor_id": "boll_weevil_displacement",
+      "corridor_name": "Boll Weevil Displacement: Rural Piedmont to Atlanta",
+      "origin_counties": ["Greene", "Morgan", "Oglethorpe", "Newton", "Walton", "Gwinnett"],
+      "destination_area": "Atlanta metropolitan area; some to Athens",
+      "era": "1916-1940",
+      "migration_type": "economic_displacement",
+      "scale": "Thousands of families — both Black and white — leaving failed cotton farms for urban employment.",
+      "evidence": {
+        "census_evidence": "Population decline in rural counties 1910-1940 correlates with Atlanta's growth. Census birthplace data shows rural GA Piedmont-born residents in Atlanta.",
+        "church_evidence": "Rural Baptist and Methodist churches show declining membership; Atlanta and Athens churches show growth."
+      },
+      "chain_mechanics": {
+        "description": "The boll weevil destroyed the cotton crop, eliminating the last reason to farm exhausted Piedmont soil. White and Black families both left, but through different channels. White families tended to move to Atlanta or to nearby towns (Covington, Monroe, Athens) for factory or service work. Black families joined the Great Migration stream toward Atlanta and beyond. The displacement was not sudden — it was a steady drain over two decades.",
+        "kinship_role": "Family networks channeled displacement — a brother in Atlanta who had found work at a factory, a cousin in Covington who said the textile mill was hiring.",
+        "timeline": "Boll weevil arrival 1916-1918; steady displacement 1918-1930; Depression acceleration 1930-1940."
+      },
+      "narrative_hook": "The boll weevil reached {county} County around 1916 and killed the one crop the family knew how to grow. {ancestor_name} joined the road to Atlanta because there was nothing left to stay for.",
+      "source": "Range, A Century of Georgia Agriculture (1954). Raper, Preface to Peasantry (1936)."
+    }
+  ],
+  "internal_movement_patterns": [
+    {
+      "pattern_id": "tenant_farm_rotation",
+      "pattern_name": "Annual Tenant Farm Rotation",
+      "description": "Sharecropping and tenant families moved frequently — often annually — between farms within the same county or between adjacent counties. A family that appeared at four different addresses in four censuses was not rootless; they were navigating a system where the landlord controlled the land and the merchant controlled the credit, and moving was the only leverage the tenant had.",
+      "era": "1865-1940",
+      "counties_affected": ["Greene", "Morgan", "Oglethorpe", "Newton", "Walton", "Gwinnett"],
+      "narrative_hook": "{ancestor_name}'s family appears at a different address in every census — not because they were unstable but because in the sharecropping system, moving to a new farm was the only negotiating tool a tenant had."
+    },
+    {
+      "pattern_id": "rural_to_county_seat",
+      "pattern_name": "Rural Farm to County Seat Town",
+      "description": "As cotton farming declined, families moved from rural farms to the nearest county seat — Greensboro, Madison, Covington, Monroe, Lawrenceville — seeking town employment. This was often a stepping-stone to Atlanta.",
+      "era": "1900-1960",
+      "counties_affected": ["all"],
+      "narrative_hook": "{ancestor_name} moved from the farm to {county_seat} — a town small enough to know everyone but large enough to have a store to clerk, a school to teach, or a courthouse to sweep."
+    }
+  ],
+  "settlement_clusters": [
+    {
+      "cluster_name": "Athens university community",
+      "counties": ["Clarke"],
+      "description": "Athens attracted an educated population connected to the university — faculty, students, professionals, and their families. The town had a distinct social character from the surrounding agricultural counties.",
+      "era": "1801-1960"
+    },
+    {
+      "cluster_name": "Georgia Railroad corridor towns",
+      "counties": ["Greene", "Morgan", "Newton", "Walton", "DeKalb"],
+      "description": "The towns along the Georgia Railroad — Greensboro, Madison, Covington, Social Circle, Conyers — formed a corridor of small commercial centers whose fortunes rose and fell with the railroad and the cotton it carried.",
+      "era": "1845-1960"
+    }
+  ],
+  "narrative_hooks": [
+    "The GA Piedmont Cotton Belt was settled by families from Virginia and the Carolinas who came seeking fresh soil — and left when the soil gave out, heading for Alabama, Atlanta, or the North.",
+    "The Georgia Land Lottery settled {ancestor_name} by random draw rather than kinship — a uniquely Georgia pattern that meant neighbors were strangers before they were neighbors.",
+    "The Great Migration carried Black families from {county} County first to Atlanta and then northward — the railroad that had carried cotton to market now carried people to freedom.",
+    "When the boll weevil killed the cotton, {ancestor_name}'s family joined the road to Atlanta — the same road that had brought their grandparents from Carolina seeking cotton land.",
+    "A sharecropping family that moved every year was not rootless — they were navigating a system that gave them no other leverage."
+  ],
+  "source_references": [
+    "Bonner, James C. A History of Georgia Agriculture, 1732-1860. Athens: University of Georgia Press, 1964.",
+    "Range, Willard. A Century of Georgia Agriculture, 1850-1950. Athens: University of Georgia Press, 1954.",
+    "Raper, Arthur F. Preface to Peasantry. Chapel Hill: University of North Carolina Press, 1936.",
+    "Wilkerson, Isabel. The Warmth of Other Suns. New York: Random House, 2010.",
+    "Gregory, James N. The Southern Diaspora. Chapel Hill: University of North Carolina Press, 2005.",
+    "Deyle, Steven. Carry Me Back: The Domestic Slave Trade in American Life. New York: Oxford University Press, 2005.",
+    "Coleman, Kenneth, ed. A History of Georgia. 2nd ed. Athens: University of Georgia Press, 1991."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": [
+      "trail_of_tears",
+      "domestic_slave_trade",
+      "great_migration",
+      "boll_weevil_migration",
+      "civil_war_displacement",
+      "stayed_and_adapted"
+    ],
+    "destination_refs": [
+      "atlanta_ga",
+      "washington_dc",
+      "philadelphia_pa"
+    ],
+    "community_texture_refs": [
+      "eastern_nc_farm_community"
+    ]
+  }
+}

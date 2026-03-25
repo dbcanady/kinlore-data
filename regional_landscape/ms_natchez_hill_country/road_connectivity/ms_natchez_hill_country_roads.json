@@ -1,0 +1,132 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and Connectivity Profile for the MS Natchez / Hill Country cluster. Transportation from the Natchez Trace to steamboats to railroads — the networks that connected Natchez to the world and isolated the interior counties from each other.",
+  "connectivity_id": "ms_natchez_hill_country_roads",
+  "display_name": "MS Natchez / Hill Country — Road and Connectivity Profile",
+  "cluster_ref": "ms_natchez_hill_country",
+  "state": "MS",
+  "era_range": "1798-1960",
+  "transportation_eras": [
+    {
+      "era": "1798-1830",
+      "era_name": "The River and the Trace",
+      "description": "The Mississippi River and the Natchez Trace were the two arteries of the territorial and early statehood economy. The river carried cotton south to New Orleans and goods north to Natchez and Vicksburg. The Trace — an ancient footpath improved to a rough post road by 1800 — was the only reliable overland route connecting Natchez to Nashville and the eastern states. Flatboatmen from Kentucky and Tennessee floated their goods downriver to Natchez or New Orleans, sold their boats for lumber, and walked home on the Trace. Interior roads were wretched — rutted tracks through loess that became impassable mud in wet weather.",
+      "primary_modes": ["Mississippi River navigation (flatboat, keelboat, early steamboat)", "Natchez Trace (horseback, foot travel)", "interior roads (wagon, horseback — seasonal)"],
+      "key_routes": [
+        {
+          "route_name": "Mississippi River",
+          "description": "The primary commercial artery. Flatboats, keelboats, and after 1811, steamboats carried cotton to New Orleans and goods upriver. Every plantation of consequence had a river landing.",
+          "travel_time": "Natchez to New Orleans: 3-5 days by flatboat downstream; 2-3 weeks by keelboat upstream; 4-6 days by early steamboat."
+        },
+        {
+          "route_name": "Natchez Trace (Natchez to Nashville)",
+          "description": "The 440-mile overland route from Natchez to Nashville, following an ancient Choctaw and Chickasaw trail. Improved as a post road by 1800 but remained rough. 'Stands' (inns) at intervals served travelers. Notorious for bandits and outlaws.",
+          "travel_time": "Natchez to Nashville: 20-25 days on foot; 10-15 days on horseback."
+        },
+        {
+          "route_name": "Natchez to Jackson road",
+          "description": "The road connecting the old capital (Natchez) to the new capital (Jackson), roughly 100 miles through loess hills and pine country. One of the most important internal routes.",
+          "travel_time": "2-3 days by wagon; 1-2 days on horseback."
+        }
+      ],
+      "isolation_index": {
+        "description": "The river counties (Adams, Warren, Claiborne) were well-connected to the outside world via steamboat. Interior counties (Copiah, Hinds, Rankin, Yazoo, Jefferson) were dramatically more isolated — dependent on terrible roads through loess or sand that became impassable in wet weather.",
+        "most_connected": "Adams County (Natchez — river port, Trace terminus)",
+        "most_isolated": "Jefferson County (no navigable river, poor roads, deeply dissected terrain)"
+      },
+      "source": "Daniels, Jonathan. The Devil's Backbone: The Story of the Natchez Trace. New York: McGraw-Hill, 1962."
+    },
+    {
+      "era": "1830-1860",
+      "era_name": "Steamboat Golden Age and First Railroads",
+      "description": "The steamboat transformed the cluster's connectivity. Regular service on the Mississippi connected Natchez and Vicksburg to New Orleans, Memphis, and St. Louis. The Yazoo River carried steamboats into the delta. The first railroads appeared — the Vicksburg & Jackson Railroad (1840) was the first in the state, connecting the river port to the capital. The Natchez & Jackson Railroad followed. Plank roads (wooden-planked highways) were attempted in some areas but rarely succeeded in the loess terrain.",
+      "primary_modes": ["steamboat (dominant on rivers)", "railroad (emerging)", "wagon and horseback", "stagecoach (on major routes)"],
+      "key_routes": [
+        {
+          "route_name": "Mississippi River steamboat service",
+          "description": "Regular steamboat service from Natchez and Vicksburg to New Orleans and upriver. By the 1850s, hundreds of steamboats operated on the Mississippi. Natchez-Under-the-Hill and the Vicksburg wharves were major commercial centers.",
+          "travel_time": "Natchez to New Orleans: 36-48 hours downstream; 3-4 days upstream. Vicksburg to New Orleans: 2-3 days."
+        },
+        {
+          "route_name": "Vicksburg & Jackson Railroad",
+          "description": "Completed 1840. The first railroad in Mississippi. Connected Vicksburg to Jackson through Warren, Hinds, and (skirting) Copiah counties. Transformed commercial relationships and became a military objective in 1863.",
+          "travel_time": "Vicksburg to Jackson: 4-5 hours by rail (vs. 2-3 days by wagon)."
+        },
+        {
+          "route_name": "Yazoo River steamboat service",
+          "description": "Steamboats on the Yazoo River connected Yazoo City and the delta plantations to Vicksburg and the Mississippi. Seasonal service — dependent on water levels.",
+          "travel_time": "Yazoo City to Vicksburg: 8-12 hours by steamboat."
+        }
+      ],
+      "isolation_index": {
+        "description": "The railroad broke the river counties' monopoly on connectivity. Jackson and the counties along the railroad corridor gained access. But counties not served by rail or navigable water — Jefferson, much of Copiah, eastern Rankin — remained deeply isolated.",
+        "most_connected": "Warren County (Vicksburg — river port and railroad terminus)",
+        "most_isolated": "Jefferson County (no railroad, no navigable river, same isolation as 1800)"
+      },
+      "source": "Moore, The Emergence of the Cotton Kingdom (1988)."
+    },
+    {
+      "era": "1860-1880",
+      "era_name": "War Destruction and Slow Rebuilding",
+      "description": "The Vicksburg Campaign destroyed the cluster's transportation infrastructure. Grant's army tore up the Vicksburg & Jackson Railroad, burned bridges, and churned roads to mud. Sherman's forces destroyed Jackson's railroad facilities twice. Steamboat traffic was disrupted by naval operations. After the war, railroads were rebuilt slowly, but county roads deteriorated without the forced labor of enslaved road crews. The postwar transportation network was worse than the prewar network for at least a decade.",
+      "primary_modes": ["railroad (rebuilt)", "steamboat (resumed)", "wagon", "horseback"],
+      "key_routes": [
+        {
+          "route_name": "Vicksburg & Jackson Railroad (rebuilt)",
+          "description": "Rebuilt after the war. Resumed commercial service by the late 1860s. Remained the cluster's primary east-west rail corridor.",
+          "travel_time": "Vicksburg to Jackson: 4-5 hours by rail."
+        }
+      ],
+      "isolation_index": {
+        "description": "Postwar connectivity was worse than prewar. County roads — previously maintained by enslaved labor under the patrol system — deteriorated rapidly. Counties without railroad service fell further behind.",
+        "most_connected": "Warren County (railroad and river restored first)",
+        "most_isolated": "Jefferson County (unchanged — still no rail, no navigable water)"
+      },
+      "source": "Bearss, Edwin C. The Campaign for Vicksburg. 3 vols. Dayton, OH: Morningside, 1985-1986."
+    },
+    {
+      "era": "1880-1960",
+      "era_name": "Railroad Expansion, Automobile, and Modern Roads",
+      "description": "The railroad network expanded in the 1880s-1910s, with new lines connecting previously isolated areas. The Illinois Central Railroad became the primary north-south corridor, connecting Jackson to Memphis and New Orleans — and became the railroad of the Great Migration, carrying Black families from Mississippi to Chicago. The automobile and modern highways arrived in the 1920s-1930s but rural roads remained poor through mid-century. The Natchez Trace Parkway (begun 1938) preserved the historic route as a scenic highway.",
+      "primary_modes": ["railroad", "automobile (from 1910s)", "steamboat (declining)", "truck"],
+      "key_routes": [
+        {
+          "route_name": "Illinois Central Railroad",
+          "description": "The IC connected Jackson to Memphis (north) and New Orleans (south), with branch lines into the delta. It became the primary corridor of the Great Migration — the train that carried hundreds of thousands of Black Mississippians to Chicago.",
+          "travel_time": "Jackson to Chicago: approximately 16-20 hours by train in the 1940s."
+        },
+        {
+          "route_name": "U.S. Highway 61 (the Blues Highway)",
+          "description": "Running north-south through the cluster from Natchez through Vicksburg to Memphis. Known as the 'Blues Highway' for its association with blues music and the Great Migration route.",
+          "travel_time": "Natchez to Vicksburg: 2-3 hours by automobile."
+        }
+      ],
+      "isolation_index": {
+        "description": "The automobile and highway network finally broke the isolation of the interior counties. But rural roads remained unpaved in many areas through the 1950s, and the poorest communities — overwhelmingly Black — were the last to receive road improvements.",
+        "most_connected": "Hinds County (Jackson — railroad hub, highway junction, state capital)",
+        "most_isolated": "Jefferson County (improved by automobile but still the least connected county in the cluster)"
+      },
+      "source": "Cobb, James C. The Most Southern Place on Earth. New York: Oxford University Press, 1992."
+    }
+  ],
+  "narrative_hooks": [
+    "The Natchez Trace was {ancestor_name}'s highway to the east — a 440-mile trail through Choctaw and Chickasaw country, walked by boatmen, preachers, bandits, and soldiers, and the only overland route connecting the Natchez District to the rest of America.",
+    "The Mississippi River was not just a boundary for {ancestor_name} — it was the road that carried cotton to market, news from New Orleans, and the steamboats whose whistles were the sound of connection to the wider world.",
+    "The Vicksburg & Jackson Railroad that passed through {ancestor_name}'s county was Mississippi's first — a iron line that promised to end the isolation of the interior, until armies tore it up in 1863 and the promise had to wait a decade to be kept.",
+    "The Illinois Central Railroad carried {ancestor_name}'s family from Mississippi to Chicago — the same tracks that had brought cotton to market now carried people to freedom, and the train north was the physical embodiment of the Great Migration.",
+    "Jefferson County's isolation was not an accident — it was written in the terrain. The loess ravines, the lack of navigable water, the absence of a railroad meant that {ancestor_name}'s world was small, and getting out of it required deliberate effort."
+  ],
+  "source_references": [
+    "Daniels, Jonathan. The Devil's Backbone: The Story of the Natchez Trace. New York: McGraw-Hill, 1962.",
+    "Moore, John Hebron. The Emergence of the Cotton Kingdom in the Old Southwest. Baton Rouge: Louisiana State University Press, 1988.",
+    "Bearss, Edwin C. The Campaign for Vicksburg. 3 vols. Dayton, OH: Morningside, 1985-1986.",
+    "Cobb, James C. The Most Southern Place on Earth. New York: Oxford University Press, 1992.",
+    "Wilkerson, Isabel. The Warmth of Other Suns. New York: Random House, 2010."
+  ],
+  "nel_cross_references": {
+    "route_refs": ["mississippi_river_route", "natchez_trace"],
+    "trigger_refs": ["civil_war_displacement", "great_migration", "trail_of_tears"],
+    "life_pattern_refs": ["sharecropping_trap"]
+  }
+}

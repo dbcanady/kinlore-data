@@ -1,0 +1,149 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Mecklenburg County, VA (not NC). Record survival, courthouse history, and known losses. Formed 1765 from Lunenburg. Mecklenburg County lies along the Roanoke River at the North Carolina border, with a tobacco-and-slavery economy, a planter aristocracy, and Boydton as the county seat. The 1853 courthouse fire is the defining record loss event.",
+  "courthouse_atlas_id": "va_mecklenburg_courthouse",
+  "display_name": "Mecklenburg County, Virginia — Courthouse Atlas",
+  "county": "Mecklenburg",
+  "state": "VA",
+  "fips_code": "51117",
+  "cluster_ref": "va_piedmont_southside",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1842,
+      "location": "Boydton, VA — Washington Street (historic structure with modern additions for clerk's offices)",
+      "records_housed": ["deeds post-1765 (surviving volumes)", "will books post-1765 (gaps)", "court orders (post-1853 continuous)", "marriage records", "vital records indexes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1765–1790s",
+        "location": "Mecklenburg — early courthouse near the initial county seat location",
+        "fate": "Wooden structure replaced as population grew. Records transferred to successor building."
+      },
+      {
+        "era": "1790s–1838",
+        "location": "Boydton — courthouse square",
+        "fate": "Replaced by the current 1842 structure. Records transferred."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "mecklenburg_1853_fire",
+      "date": "1853",
+      "cause": "Courthouse fire — clerk's office wing",
+      "records_destroyed": ["most court order books before 1853", "many loose estate papers", "miscellaneous filings", "some marriage records"],
+      "records_survived": ["deed books (most volumes survived)", "will books (most bound volumes survived, with gaps)", "land tax books", "some court order books"],
+      "scope": "major",
+      "description": "A fire in 1853 destroyed the clerk's office wing of the Mecklenburg County courthouse, consuming many court order books and loose papers. The bound deed books and will books were largely saved — either because they were in a separate vault or were rescued before the fire consumed the building. However, the loss of court order books before 1853 eliminates a critical source for tracking the daily governance of the county, including slave patrol orders, apprenticeship bonds, road maintenance orders, and routine court business. The loose estate papers — inventories, appraisals, accounts of sale — suffered heavily. The fire did not destroy everything, but it destroyed the records most likely to contain the human details of daily life.",
+      "narrative_impact": "The 1853 fire at Mecklenburg's courthouse destroyed the records most likely to document the daily texture of {ancestor_name}'s life — the court orders, the estate inventories, the loose papers that named witnesses and described property. The deed books survived, so the land transactions are intact; but the story between the deeds may be gone.",
+      "source": "Library of Virginia. A Guide to Virginia County and City Records on Microfilm. Richmond, 2001."
+    },
+    {
+      "loss_id": "mecklenburg_civil_war",
+      "date": "1862-1865",
+      "cause": "Civil War disruption",
+      "records_destroyed": ["no known courthouse records destroyed by military action"],
+      "records_survived": ["post-1853 records intact"],
+      "scope": "minimal",
+      "description": "Mecklenburg County was not on the direct line of major military operations, though it contributed heavily to Confederate manpower and suffered the economic devastation common to all Southside counties. The courthouse in Boydton was not damaged by military action. The primary Civil War impact on records was the disruption of civil governance rather than physical destruction.",
+      "narrative_impact": "The Civil War did not destroy Mecklenburg's courthouse, but it destroyed the economic system that the records document. {ancestor_name}'s antebellum records describe a world of tobacco, enslaved labor, and planter wealth that ceased to exist in April 1865.",
+      "source": "Bracey, Susan L. Life by the Roaring Roanoke: A History of Mecklenburg County, Virginia. Mecklenburg County: privately published, 1977."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1765,
+      "completeness": "Good — most bound deed books survived the 1853 fire. The series is largely continuous from county formation.",
+      "gaps": "Some gaps in the earliest volumes. Pre-1765 deeds filed under Lunenburg County.",
+      "repository": "Mecklenburg County Clerk of Court, Boydton; Library of Virginia, Richmond",
+      "online_access": "FamilySearch microfilm; Ancestry.com VA land records; Library of Virginia digital collections"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1765,
+      "completeness": "Moderate — bound will books largely survived the 1853 fire, but loose estate papers (inventories, accounts of sale, appraisals) were heavily damaged. The bound volumes provide the testamentary record; the detailed inventories that would describe household property and enslaved individuals are often missing.",
+      "gaps": "Significant gaps in loose estate papers before 1853. Bound will books more complete.",
+      "repository": "Mecklenburg County Clerk of Court; Library of Virginia",
+      "online_access": "FamilySearch microfilm; Library of Virginia digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1765,
+      "completeness": "Moderate — some marriage bonds survived the 1853 fire, others did not. The bound marriage register is more complete than the individual bonds.",
+      "gaps": "Uneven before 1853. Church records are essential supplements.",
+      "repository": "Mecklenburg County Clerk of Court; Library of Virginia",
+      "online_access": "FamilySearch; Ancestry.com VA marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1853,
+      "completeness": "Continuous from 1853. Pre-1853 court order books were largely destroyed in the fire.",
+      "gaps": "Major gap: pre-1853 court order books mostly destroyed. This eliminates the daily governance record for the county's first 88 years.",
+      "repository": "Mecklenburg County Clerk of Court; Library of Virginia",
+      "online_access": "Library of Virginia microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1912,
+      "death_registration_start": 1912,
+      "completeness": "Virginia state registration began 1912. Earlier vital events from church records and county court orders.",
+      "repository": "Virginia Department of Health, Office of Vital Records; Library of Virginia for delayed certificates"
+    },
+    "church_records": {
+      "parish": "St. James Parish (Church of England / Episcopal)",
+      "earliest_surviving": 1765,
+      "completeness": "St. James Parish vestry records survive fragmentarily. Baptist records become important after 1780. Methodist circuit rider records document families in the early nineteenth century.",
+      "repository": "Library of Virginia; individual church archives",
+      "online_access": "Limited published transcriptions; Library of Virginia microfilm"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Lunenburg County records (parent county)",
+      "description": "Mecklenburg was formed from Lunenburg in 1765. All records for the Mecklenburg territory before 1765 are filed under Lunenburg.",
+      "repository": "Lunenburg County Clerk of Court; Library of Virginia",
+      "era_coverage": "1746–1765",
+      "genealogical_value": "Essential for any Mecklenburg family predating 1765. Lunenburg's records are the starting point for the earliest generation of families in the Roanoke River corridor.",
+      "source": "Bell, Landon C. Sunlight on the Southside: Lists of Tithes, Lunenburg County, Virginia, 1748-1783. Philadelphia: George S. Ferguson Company, 1931."
+    },
+    {
+      "source_type": "Virginia tax records and personal property lists",
+      "description": "Personal property tax records survive from the 1780s and document slaveholding, livestock, and other taxable property on an annual basis. These partially compensate for the 1853 loss of court order books.",
+      "repository": "Library of Virginia, Richmond",
+      "era_coverage": "1782–1860s",
+      "genealogical_value": "Critical for filling gaps created by the 1853 fire. Tax records document slaveholding year by year and provide annual snapshots of economic status that the lost court orders would have contextualized.",
+      "source": "Library of Virginia. Virginia Tax Records. Richmond: Library of Virginia microfilm collection."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790-1940. Mecklenburg County enumerated from the first federal census. Slave schedules (1850-1860) are critical for a county where enslaved people constituted a majority of the population.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790–1940",
+      "genealogical_value": "Essential baseline, particularly important given the 1853 fire's destruction of court order books. The census may be the only source documenting household composition for families whose estate papers were lost.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Mecklenburg County, VA."
+    },
+    {
+      "source_type": "Roanoke Navigation Company records",
+      "description": "The Roanoke Navigation Company improved the Roanoke River for tobacco transport from Mecklenburg and other Southside counties to Petersburg and Norfolk. Company records document commerce, labor, and the river system that was the county's economic lifeline.",
+      "repository": "Library of Virginia; North Carolina State Archives (for downstream records)",
+      "era_coverage": "1810s–1880s",
+      "genealogical_value": "Records may document individuals employed in river transport or tobacco shipping — activities that appear rarely in standard county records.",
+      "source": "Trout, William E., III. The Roanoke Canal: A History. Virginia Canals & Navigations Society, 1997."
+    }
+  ],
+  "narrative_hooks": [
+    "The 1853 courthouse fire in Mecklenburg destroyed the court order books that would have documented the daily governance of {ancestor_name}'s county — the slave patrol orders, the apprenticeship bonds, the road assignments that placed a person in a specific time and place.",
+    "Mecklenburg's deed books survived the fire, so {ancestor_name}'s land transactions are likely intact — but the estate inventories that would have listed every spoon, every cow, and every enslaved person by name may have burned in 1853.",
+    "Before 1765, Mecklenburg was part of Lunenburg County, and {ancestor_name}'s earliest records are filed there — a county away in the archives, though the families lived on the same land.",
+    "This is Virginia's Mecklenburg, not North Carolina's — a confusion that has misfiled records and misdirected researchers since both counties were named in the 1760s for the same German princess.",
+    "The Roanoke River connected Mecklenburg County to the world — tobacco floated downstream to Petersburg and thence to world markets, and if {ancestor_name} grew tobacco here, the river was the road that turned {pronoun_possessive} crop into cash."
+  ],
+  "source_references": [
+    "Library of Virginia. A Guide to Virginia County and City Records on Microfilm. Richmond, 2001.",
+    "Bracey, Susan L. Life by the Roaring Roanoke: A History of Mecklenburg County, Virginia. Mecklenburg County: privately published, 1977.",
+    "Bell, Landon C. Sunlight on the Southside: Lists of Tithes, Lunenburg County, Virginia, 1748-1783. Philadelphia: George S. Ferguson Company, 1931.",
+    "Trout, William E., III. The Roanoke Canal: A History. Virginia Canals & Navigations Society, 1997."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "va_mecklenburg",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

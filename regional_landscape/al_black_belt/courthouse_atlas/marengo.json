@@ -1,0 +1,126 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Marengo County, AL. Record survival, courthouse history, and known losses. Marengo County (formed 1818, seat at Linden since 1823) has experienced courthouse fires that destroyed some early records.",
+  "courthouse_atlas_id": "al_marengo_courthouse",
+  "display_name": "Marengo County, Alabama — Courthouse Atlas",
+  "county": "Marengo",
+  "state": "AL",
+  "fips_code": "01091",
+  "cluster_ref": "al_black_belt",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1903,
+      "location": "Linden, AL — Washington Street",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1818–1823",
+        "location": "Various locations before Linden was established as seat",
+        "fate": "Early court sessions held at temporary locations. Records from this period are fragmentary."
+      },
+      {
+        "era": "1823–1848",
+        "location": "Linden, early frame and brick courthouse",
+        "fate": "Courthouse fire in 1848 destroyed some early records. The extent of loss is debated — some records had been copied or were held in private hands."
+      },
+      {
+        "era": "1848–1903",
+        "location": "Linden, rebuilt courthouse",
+        "fate": "Survived the Civil War. Replaced by the 1903 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "marengo_1848_fire",
+      "date": "1848",
+      "cause": "Courthouse fire",
+      "records_destroyed": ["Some early deed books", "some early court minutes", "miscellaneous loose papers from 1818–1848"],
+      "records_survived": ["Many deed records reconstructed from private copies", "estate records partially preserved", "some court minutes from later bound volumes"],
+      "scope": "moderate",
+      "description": "The 1848 courthouse fire destroyed an unknown quantity of early records. The loss was significant for the earliest decades of the county's existence (1818–1848) but was partially mitigated by the Alabama practice of recording deeds in multiple forms and by private retention of copies. Records from 1848 onward are generally intact.",
+      "narrative_impact": "If {ancestor_name} held property in Marengo County before 1848, the deed may have been destroyed in the courthouse fire — but the AL Department of Archives and History and private family papers may preserve copies. Records after 1848 are more reliable.",
+      "source": "Alabama Department of Archives and History. Guide to Alabama County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1818,
+      "completeness": "Fair — some early deed books lost in 1848 fire, but many reconstructed. Post-1848 series is continuous.",
+      "gaps": "1818–1848 records are incomplete. Some early deeds survive in reconstructed volumes.",
+      "repository": "Marengo County Probate Office; ADAH microfilm",
+      "online_access": "FamilySearch microfilm; limited Ancestry.com"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1820,
+      "completeness": "Fair to good — some early estate records lost in 1848 fire. Post-1848 records are continuous.",
+      "gaps": "Pre-1848 estate inventories are the most significant genealogical loss — these would have named enslaved people on the largest plantations in the county.",
+      "repository": "Marengo County Probate Office; ADAH",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1820,
+      "completeness": "Fair — some early marriage records lost. Post-1848 records more complete. Freedmen's marriages from 1865.",
+      "gaps": "Pre-1848 marriage records are incomplete.",
+      "repository": "Marengo County Probate Office; ADAH; Freedmen's Bureau records at NARA",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1823,
+      "completeness": "Fair — some early volumes lost in 1848 fire",
+      "gaps": "1818–1848 minutes are fragmentary.",
+      "repository": "Marengo County Clerk of Court; ADAH",
+      "online_access": "ADAH microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Spotty until approximately 1920.",
+      "repository": "Alabama Center for Health Statistics; ADAH"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Freedmen's Bureau records",
+      "description": "Bureau records from the Demopolis and Linden sub-districts document formerly enslaved families in the immediate post-war period — labor contracts, marriage registrations, complaints.",
+      "repository": "NARA, Record Group 105; FamilySearch digitization",
+      "era_coverage": "1865–1872",
+      "genealogical_value": "Essential for bridging the slavery-to-freedom gap. Labor contracts name individuals and link them to specific plantations.",
+      "source": "NARA, Records of the Bureau of Refugees, Freedmen, and Abandoned Lands, RG 105."
+    },
+    {
+      "source_type": "Vine and Olive Colony records",
+      "description": "Congressional land grants and related records for the French colonists at Demopolis (1817–1830s). These document the Napoleonic refugee families and their property transactions.",
+      "repository": "ADAH; National Archives (land entry files); Library of Congress",
+      "era_coverage": "1817–1835",
+      "genealogical_value": "Essential for tracing the French families of Demopolis. Land entry files at NARA contain petitions, surveys, and ownership chains for the Vine and Olive Colony grants.",
+      "source": "Allison, Clinton. The Vine and Olive Colony. University of Alabama Press, 2004."
+    },
+    {
+      "source_type": "ADAH supplementary records",
+      "description": "The Alabama Department of Archives and History holds county record microfilm, Confederate service records, Reconstruction-era state records, and census supplements.",
+      "repository": "ADAH, 624 Washington Avenue, Montgomery, AL",
+      "era_coverage": "1818–present",
+      "genealogical_value": "Critical backup for the 1848 fire losses. ADAH may hold copies of records destroyed in the local courthouse.",
+      "source": "Alabama Department of Archives and History finding guides."
+    }
+  ],
+  "narrative_hooks": [
+    "The 1848 courthouse fire in Linden destroyed some of Marengo County's earliest records — if {ancestor_name} held property before that date, the deed may exist only in private family papers or ADAH copies.",
+    "Before 1865, {ancestor_name}'s enslaved family members appear in Marengo County records only as property in estate inventories and deed transfers. The Freedmen's Bureau records bridge the gap to personhood.",
+    "The Vine and Olive Colony records at ADAH and NARA document the French families of Demopolis — if {ancestor_name} had a French surname in Marengo County, these congressional land grant files may be the starting point.",
+    "Alabama's vital registration began in 1908 — for {ancestor_name} born before that date in Marengo County, census records, church records, and Bible entries are the likeliest proof of birth."
+  ],
+  "source_references": [
+    "Alabama Department of Archives and History. Guide to Alabama County Records.",
+    "Allison, Clinton. The Vine and Olive Colony. Tuscaloosa: University of Alabama Press, 2004.",
+    "National Archives and Records Administration. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands, Record Group 105."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "al_marengo",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

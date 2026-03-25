@@ -1,0 +1,154 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Halifax County, VA. Record survival, courthouse history, and known losses — including the impact of the 1823 courthouse fire and Civil War damage on colonial and antebellum records. Halifax was formed in 1752 from Lunenburg and became the political and economic center of the Southside tobacco belt.",
+  "courthouse_atlas_id": "va_halifax_courthouse",
+  "display_name": "Halifax County, Virginia — Courthouse Atlas",
+  "county": "Halifax",
+  "state": "VA",
+  "fips_code": "51083",
+  "cluster_ref": "va_piedmont_southside",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1839,
+      "location": "Halifax, VA — Main Street (extensively renovated 1930s and 1960s; clerk's offices in adjacent county complex)",
+      "records_housed": ["deeds post-1752", "will books post-1752 (some gaps)", "court orders post-1752", "marriage records", "vital records indexes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1752–1790s",
+        "location": "Halifax — original courthouse site near the Banister River, precise location uncertain",
+        "fate": "Early wooden structure replaced as county government expanded. Records were transferred to successor buildings."
+      },
+      {
+        "era": "1790s–1823",
+        "location": "Halifax — courthouse square",
+        "fate": "Destroyed by fire in 1823. Some records were lost, though the most critical bound volumes — deed books and will books — were largely saved. Loose papers, including many estate files and court orders, suffered greater losses."
+      },
+      {
+        "era": "1823–1839",
+        "location": "Halifax — temporary quarters while present courthouse was constructed",
+        "fate": "Replaced by the current 1839 structure."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "halifax_1823_fire",
+      "date": "1823",
+      "cause": "Courthouse fire",
+      "records_destroyed": ["many loose estate papers", "some court order books", "miscellaneous loose papers and documents"],
+      "records_survived": ["deed books (largely intact from 1752)", "will books (largely intact)", "some court order books"],
+      "scope": "moderate",
+      "description": "The 1823 courthouse fire destroyed the physical structure and an unknown quantity of loose papers. The bound volumes — deed books and will books — were largely rescued, likely because they were stored in fireproof vaults or removed before the building was fully consumed. The loss fell heaviest on loose papers: estate inventories, individual court filings, and miscellaneous documents that were not bound into volumes. The extent of the loss is difficult to quantify precisely because no pre-fire inventory survives.",
+      "narrative_impact": "The 1823 fire means that {ancestor_name}'s deed or will may survive in the bound volumes, but the loose papers that would have provided the human detail — the estate inventory listing household goods, the court filing naming witnesses — may be gone. For families in Halifax County before 1823, the bound volumes are the spine of the record, but the flesh is missing.",
+      "source": "Library of Virginia. A Guide to Virginia County and City Records on Microfilm. Richmond, 2001."
+    },
+    {
+      "loss_id": "halifax_civil_war",
+      "date": "1865",
+      "cause": "Civil War disruption — Lee's retreat corridor",
+      "records_destroyed": ["scattered loose papers during wartime disruption"],
+      "records_survived": ["bound deed books", "will books", "most court records"],
+      "scope": "minor",
+      "description": "Halifax County lay along the path of Lee's retreat from Petersburg to Appomattox in April 1865 and experienced significant wartime disruption. Confederate and Union forces passed through the county in the war's final days. While the courthouse itself was not burned, wartime chaos disrupted record-keeping, and some records may have been removed for safekeeping and not returned. The primary record loss was the disruption of civil governance during 1864-1865 rather than physical destruction.",
+      "narrative_impact": "If {ancestor_name} conducted any legal business in Halifax County between 1862 and 1866, the records may be incomplete or delayed — not because they were destroyed, but because the county government barely functioned during the final years of the war.",
+      "source": "Bradshaw, Herbert Clarence. History of Halifax County, Virginia. Roanoke: published for the author, 1955."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1752,
+      "completeness": "Good — bound deed books survive from county formation. The series is nearly continuous, with minor gaps in the earliest years.",
+      "gaps": "Some pre-1823 loose papers lost in the fire. Bound volumes substantially intact.",
+      "repository": "Halifax County Clerk of Court, Halifax; Library of Virginia, Richmond",
+      "online_access": "FamilySearch microfilm; Ancestry.com VA land records; Library of Virginia digital collections"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1752,
+      "completeness": "Good for bound will books. Estate inventories and loose estate papers have significant gaps before 1823 due to the courthouse fire.",
+      "gaps": "Loose estate papers heavily depleted by the 1823 fire. Bound will books substantially complete.",
+      "repository": "Halifax County Clerk of Court; Library of Virginia",
+      "online_access": "FamilySearch microfilm; Library of Virginia digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1753,
+      "completeness": "Marriage bonds survive from near county formation. Marriage registers more continuous after 1850.",
+      "gaps": "Some early bonds may have been lost in the 1823 fire. Church records (especially Anglican/Episcopal) partially fill gaps.",
+      "repository": "Halifax County Clerk of Court; Library of Virginia",
+      "online_access": "FamilySearch; Ancestry.com VA marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1752,
+      "completeness": "Uneven — some order books survived the 1823 fire, others did not. More continuous after 1823.",
+      "gaps": "Gaps in the 1752-1823 period for certain order book volumes lost in the fire.",
+      "repository": "Halifax County Clerk of Court; Library of Virginia",
+      "online_access": "Library of Virginia microfilm; limited FamilySearch digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1912,
+      "death_registration_start": 1912,
+      "completeness": "Virginia state registration began 1912. Earlier vital events tracked through church records, family Bibles, and county court orders.",
+      "repository": "Virginia Department of Health, Office of Vital Records; Library of Virginia for delayed certificates"
+    },
+    "church_records": {
+      "parish": "Antrim Parish (Church of England / Episcopal)",
+      "earliest_surviving": 1752,
+      "completeness": "Antrim Parish vestry books survive from the mid-eighteenth century and contain tithable lists, processioning records, and parish governance. Additional records from Baptist and Methodist congregations appear after the Great Revival (1800s). The Halifax County area had one of the largest concentrations of Separate Baptists in Virginia by the 1770s.",
+      "repository": "Library of Virginia; Halifax County Historical Society; individual church archives",
+      "online_access": "Some published transcriptions; Library of Virginia microfilm"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Antrim Parish vestry records",
+      "description": "The vestry book of Antrim Parish contains tithable lists, processioning records, poor relief entries, and parish governance that function as civil records. Tithable lists serve as proto-census records listing white males over 16 and all enslaved persons over 16.",
+      "repository": "Library of Virginia; published transcriptions",
+      "era_coverage": "1752–1840s",
+      "genealogical_value": "For Halifax County families before 1790, the parish tithable lists may be the most comprehensive population records available. They document enslaved populations by slaveholder, providing evidence of slaveholding patterns even when other records are lost.",
+      "source": "Knorr, Catherine Lindsay. Marriage Bonds and Ministers' Returns of Halifax County, Virginia, 1753-1800. Pine Bluff, AR, 1957."
+    },
+    {
+      "source_type": "Virginia colonial land patents",
+      "description": "Colonial land patents and surveys for the Southside were issued through the Virginia Land Office and document the initial settlement of the Halifax area, including headright grants and treasury warrants.",
+      "repository": "Library of Virginia, Richmond; published abstracts in Nugent, Cavaliers and Pioneers",
+      "era_coverage": "1730s–1780",
+      "genealogical_value": "Essential for tracing earliest settlers who received land grants before the county was formed. Many Halifax families first appear in patents issued for the Lunenburg County territory before 1752.",
+      "source": "Nugent, Nell Marion. Cavaliers and Pioneers: Abstracts of Virginia Land Patents and Grants, vol. 3. Richmond: Virginia State Library, 1979."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790-1940. Halifax County enumerated from the first federal census. Slave schedules (1850-1860) are critical given the county's large enslaved population, which exceeded the white population by a significant margin.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790–1940",
+      "genealogical_value": "Essential baseline. Halifax County's 1790 census is among the earliest surviving Virginia returns for the Southside. The 1850 and 1860 slave schedules are important for a county where enslaved people constituted over 60 percent of the population.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Halifax County, VA."
+    },
+    {
+      "source_type": "Halifax County tax records and personal property lists",
+      "description": "Personal property tax records survive from the 1780s and list slaveholders, livestock, and other taxable property. Land tax records run concurrently. These are particularly valuable for tracking the growth and transfer of enslaved populations.",
+      "repository": "Library of Virginia, Richmond",
+      "era_coverage": "1782–1860s",
+      "genealogical_value": "Tax records fill gaps left by the 1823 fire by documenting land ownership, slaveholding, and economic status on an annual basis. For enslaved people, tax records are among the few sources that document their presence year by year.",
+      "source": "Library of Virginia. Virginia Tax Records. Richmond: Library of Virginia microfilm collection."
+    }
+  ],
+  "narrative_hooks": [
+    "The 1823 courthouse fire in Halifax destroyed loose papers but spared the bound deed and will books — if {ancestor_name}'s land transaction was recorded in the volumes, it survives; if the estate inventory was still a loose filing, it likely burned with the courthouse.",
+    "Halifax County's enslaved population exceeded its white population by the 1790s, and the parish tithable lists — not the courthouse — may hold the most complete record of {ancestor_name}'s slaveholding or of the enslaved people held by {pronoun_possessive} family.",
+    "Lee's army passed through Halifax County in April 1865, and the chaos of the retreat disrupted a county government already crippled by four years of war — if {ancestor_name} tried to record a deed or probate a will during 1863-1866, the paper trail may simply not exist.",
+    "Before 1752, Halifax was part of Lunenburg County — the 'mother county' of the Southside — and {ancestor_name}'s earliest records may be filed under Lunenburg rather than Halifax, a jurisdictional shift that has confused researchers for two centuries.",
+    "The Separate Baptist movement swept through Halifax County in the 1760s and 1770s, and if {ancestor_name} was among the converts, the church records — not the courthouse — became the primary record of baptisms, marriages, and community membership."
+  ],
+  "source_references": [
+    "Bradshaw, Herbert Clarence. History of Halifax County, Virginia. Roanoke: published for the author, 1955.",
+    "Library of Virginia. A Guide to Virginia County and City Records on Microfilm. Richmond, 2001.",
+    "Knorr, Catherine Lindsay. Marriage Bonds and Ministers' Returns of Halifax County, Virginia, 1753-1800. Pine Bluff, AR, 1957.",
+    "Nugent, Nell Marion. Cavaliers and Pioneers: Abstracts of Virginia Land Patents and Grants, vol. 3. Richmond: Virginia State Library, 1979."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "va_halifax",
+    "research_guidance_refs": ["southern_courthouse_research", "church_record_transfers", "civil_war_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

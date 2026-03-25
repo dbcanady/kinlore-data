@@ -1,0 +1,71 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Smith County, TX. Record survival and courthouse history for the county of Tyler — commercial center of East Texas. No major fire losses; records continuous from 1846.",
+  "courthouse_atlas_id": "tx_smith_courthouse",
+  "display_name": "Smith County, Texas — Courthouse Atlas",
+  "county": "Smith",
+  "state": "TX",
+  "fips_code": "48423",
+  "cluster_ref": "tx_east_piney_woods",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1955, "location": "Tyler, TX — 100 N. Broadway Avenue", "records_housed": ["deeds", "plats", "marriage licenses", "probate records", "court minutes"] },
+    "previous_courthouses": [
+      { "era": "1846–1870s", "location": "Tyler, town square", "fate": "Early frame courthouse. Replaced as Tyler grew." },
+      { "era": "1870s–1910", "location": "Tyler, courthouse square", "fate": "Brick courthouse. No significant fire damage." },
+      { "era": "1910–1955", "location": "Tyler, same site", "fate": "Replaced by current building." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "smith_no_major_loss", "date": null, "cause": "No major fire or destruction",
+      "records_destroyed": [], "records_survived": ["deed books", "marriage records", "probate files", "court minutes", "tax rolls"],
+      "scope": "none",
+      "description": "Smith County's courthouse has not experienced a major fire or disaster. Records are continuous from county organization in 1846. Tyler's role as a regional commercial center means the county's records are among the best-maintained in East Texas.",
+      "narrative_impact": "Smith County's records are intact — if {ancestor_name} appears to be missing from the record, the explanation lies in the ancestor's circumstances (poverty, transience, illiteracy) rather than in courthouse destruction.",
+      "source": "Texas State Library and Archives Commission. County Records Inventory."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1846, "completeness": "Excellent from county organization.", "gaps": "No known gaps.", "repository": "Smith County Clerk, Tyler", "online_access": "FamilySearch microfilm; some digitization" },
+    "wills_estates": { "earliest_surviving": 1846, "completeness": "Good.", "gaps": "None significant.", "repository": "Smith County Clerk", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1846, "completeness": "Good.", "gaps": "None significant.", "repository": "Smith County Clerk", "online_access": "FamilySearch; Ancestry.com TX marriages" },
+    "court_minutes": { "earliest_surviving": 1846, "completeness": "Good.", "gaps": "None significant.", "repository": "Smith County Clerk", "online_access": "FamilySearch microfilm" },
+    "vital_records": { "birth_registration_start": 1903, "death_registration_start": 1903, "completeness": "Better than rural counties due to Tyler's urban infrastructure, but still spotty before 1910.", "repository": "Texas Department of State Health Services" }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Tyler newspapers",
+      "description": "The Tyler Courier-Times (and predecessor titles) published from the 1870s. Obituaries, marriage notices, court proceedings, and local news supplement courthouse records.",
+      "repository": "Smith County Historical Society; East Texas Research Center, SFA; some Newspapers.com digitization",
+      "era_coverage": "1870s–present",
+      "genealogical_value": "Valuable for obituaries (detailed by 1900), social news, and legal notices. The newspaper's coverage of the oil boom period (1930s) is particularly rich.",
+      "source": "Smith County Historical Society finding aids."
+    },
+    {
+      "source_type": "Rose nursery employment records",
+      "description": "Tyler's commercial rose nurseries maintained employment and shipping records. Where these survive, they document the horticultural workforce that replaced the cotton labor force.",
+      "repository": "Smith County Historical Society; Tyler Public Library local history collection",
+      "era_coverage": "1890s–present",
+      "genealogical_value": "Documents a distinctive local workforce. Rose nursery records place families in a specific industry unique to Smith County.",
+      "source": "Tyler Chamber of Commerce. Tyler and Smith County, Texas: A History."
+    }
+  ],
+  "narrative_hooks": [
+    "Smith County's courthouse records are complete from 1846 — {ancestor_name}'s deeds, marriages, and court appearances are almost certainly preserved.",
+    "Tyler's newspapers fill gaps between census years — the Tyler Courier-Times published obituaries, marriage notices, and court news that place {ancestor_name} in specific years and circumstances.",
+    "Texas vital records start late (1903, unreliable until ~1910) — for {ancestor_name}'s birth before that date, church records and census records are the standard sources in Smith County.",
+    "If {ancestor_name} worked in Tyler's rose nurseries, employment records may survive that document a workforce unique to this county — the people who made Tyler the rose capital."
+  ],
+  "source_references": [
+    "Texas State Library and Archives Commission. County Records Inventory.",
+    "Smith County Historical Society finding aids.",
+    "Tyler Chamber of Commerce. Tyler and Smith County, Texas: A History. Tyler, 1976.",
+    "Works Progress Administration. Historical Records Survey: Texas County Records. Austin, 1937–1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "tx_smith",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Logan County, Kentucky. Record survival, courthouse history, and known losses for the mother county of the western Pennyroyal — formed 1792 from Lincoln County, one of Kentucky's earliest counties, with Russellville as county seat. Logan County's courthouse suffered a devastating fire in 1865 that destroyed many early records, making it one of the most significant record-loss events in the cluster.",
+  "courthouse_atlas_id": "ky_logan_courthouse",
+  "display_name": "Logan County, Kentucky — Courthouse Atlas",
+  "county": "Logan",
+  "state": "KY",
+  "fips_code": "21141",
+  "cluster_ref": "ky_pennyroyal_green_river",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1956,
+      "location": "Russellville, KY — 229 West 3rd Street",
+      "records_housed": ["deeds", "wills (post-1865 primarily)", "court order books (partial)", "marriage records", "circuit court records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1792-1810s",
+        "location": "Russellville — original log courthouse on the public square",
+        "fate": "Replaced by a more substantial building as the county grew. Logan was one of nine original Kentucky counties, and its early courthouse served as the administrative center for the entire western Pennyroyal."
+      },
+      {
+        "era": "1810s-1865",
+        "location": "Russellville — brick courthouse on the public square",
+        "fate": "Burned in 1865. Significant record destruction. The fire occurred in the chaotic aftermath of the Civil War — whether accidental or arson was never conclusively determined."
+      },
+      {
+        "era": "1866-1956",
+        "location": "Russellville — rebuilt courthouse on the same site",
+        "fate": "Served for ninety years. Post-fire records are well-preserved. Replaced by the current 1956 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "logan_1865_courthouse_fire",
+      "date": "1865",
+      "cause": "Fire — courthouse burned in 1865, cause undetermined (arson or accidental in the chaotic postwar period)",
+      "records_destroyed": ["many early court order books", "most early tax lists", "justice of the peace records", "some early estate papers", "some early deed books"],
+      "records_survived": ["deed books (partial — some early volumes survived because they had been transcribed or removed)", "will books (partial)", "marriage bonds (partial — some early bonds survived)", "some court order books"],
+      "scope": "severe",
+      "description": "The 1865 Logan County courthouse fire was the most devastating record loss in the Pennyroyal cluster. As the mother county of the region — parent of Warren, Simpson, Todd, Butler, and Muhlenberg counties — Logan held the earliest records for the entire western Pennyroyal dating back to 1792. The fire destroyed a significant portion of these irreplaceable records. Some deed books and will books survived because they had been removed from the building or because transcribed copies existed. The loss is particularly painful for genealogists because Logan County's records from 1792-1797 are the only source for settlers in what became Warren, Simpson, and Todd counties before those counties were formed.",
+      "narrative_impact": "The 1865 Logan County courthouse fire is the single largest obstacle to genealogical research in the Pennyroyal. If {ancestor_name} was in Logan County before 1797 — before Warren and the other daughter counties were carved out — the fire may have destroyed the only records of {pronoun_possessive} earliest years in Kentucky. Surviving deed book fragments and Virginia land grant records become critical substitutes.",
+      "source": "Collins, Lewis, and Richard H. Collins. History of Kentucky. Covington, KY: Collins and Company, 1874."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1792,
+      "completeness": "Partial — some early deed books survived the 1865 fire, but the series has gaps in the pre-1820 period",
+      "gaps": "The 1865 fire destroyed some early deed books. However, some were saved or had been transcribed. Virginia land grant records supplement the earliest period. Deed books from approximately 1820 forward are continuous.",
+      "repository": "Logan County Clerk, Russellville; KDLA microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com Kentucky land records (partial)"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1795,
+      "completeness": "Partial — some early will books survived; others were destroyed in the 1865 fire",
+      "gaps": "The earliest surviving will entries date to the mid-1790s but the series is incomplete before 1820. Some estate settlements survive in fragments. Post-1865 records are continuous.",
+      "repository": "Logan County Clerk; KDLA microfilm",
+      "online_access": "FamilySearch microfilm; KDLA digital collections (limited)"
+    },
+    "marriages": {
+      "earliest_surviving": 1792,
+      "completeness": "Fair — some early marriage bonds survived the fire; the series becomes more complete after 1820",
+      "gaps": "The earliest bonds (1792-1810) are fragmentary. Post-1820 records are relatively complete. Minister returns are spotty throughout the antebellum period.",
+      "repository": "Logan County Clerk; KDLA microfilm",
+      "online_access": "FamilySearch; Ancestry.com Kentucky marriages collection"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1795,
+      "completeness": "Poor for the earliest period — many early court order books were destroyed in the 1865 fire",
+      "gaps": "Significant gaps in the 1792-1820 period. Some surviving fragments. Post-1820 court order books are more complete. The loss of the earliest court records is devastating because Logan County's 1792-1797 court orders covered the entire western Pennyroyal before daughter counties were formed.",
+      "repository": "Logan County Clerk; KDLA microfilm",
+      "online_access": "KDLA microfilm; limited digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1852,
+      "death_registration_start": 1852,
+      "completeness": "Kentucky mandated registration beginning in 1852, but compliance was extremely poor in rural Logan County until approximately 1911. The 1852-1910 registers are fragmentary at best.",
+      "repository": "Kentucky Office of Vital Statistics, Frankfort; KDLA for pre-1911 registers"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Virginia land grants and military warrants (pre-1792)",
+      "description": "Kentucky was part of Virginia until 1792. Logan County's earliest settlers obtained land through Virginia military bounty warrants (Revolutionary War service), treasury warrants, and land office grants. These records predate the county's formation and survive at the Kentucky Land Office.",
+      "repository": "Kentucky Secretary of State, Land Office Division; Library of Virginia",
+      "era_coverage": "1780s-1792",
+      "genealogical_value": "Critical for tracing the earliest Pennyroyal settlers. Military warrants often record the soldier's Virginia county of origin and regiment, linking Kentucky settlement to specific Virginia communities. The Green River military district was a primary destination for Virginia veterans.",
+      "source": "Jillson, Willard Rouse. Old Kentucky Entries and Deeds. Louisville: Standard Printing Company, 1926."
+    },
+    {
+      "source_type": "Lincoln County parent records (pre-1792)",
+      "description": "Logan County was formed from Lincoln County in 1792. Lincoln County was itself one of the three original Kentucky counties (formed 1780). The earliest court records for the Pennyroyal region are in Lincoln County.",
+      "repository": "Lincoln County Clerk, Stanford; KDLA microfilm",
+      "era_coverage": "1780-1792",
+      "genealogical_value": "Essential for any family in the Pennyroyal before 1792. Lincoln County court records, tax lists, and land entries document the first wave of Kentucky settlement.",
+      "source": "Jillson, Willard Rouse. The Kentucky Land Grants. Louisville: Standard Printing Company, 1925."
+    },
+    {
+      "source_type": "Daughter county records for cross-reference",
+      "description": "Logan County's daughter counties — Warren (1797), Simpson (1819), Todd (1820), Butler (1810), Muhlenberg (1799) — carried families and their records forward. When Logan County records are missing, the daughter county where the family next appears often contains the continuation.",
+      "repository": "Respective county clerks; KDLA microfilm",
+      "era_coverage": "1797-forward",
+      "genealogical_value": "When the Logan County fire destroyed early records, the daughter counties become essential substitutes. A deed recorded in Warren County in 1798 may reference the Logan County transaction it replaced.",
+      "source": "Kentucky Department for Libraries and Archives. Guide to Kentucky County Records on Microfilm. Frankfort, various editions."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1800-1940. Logan County is enumerated from the 1800 census (the 1790 census was taken before Logan County existed).",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1800-1940",
+      "genealogical_value": "The 1800 and 1810 censuses are particularly critical because they document Logan County families before the daughter counties were formed and before the 1865 fire destroyed many of the only other records.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Logan County, KY."
+    }
+  ],
+  "narrative_hooks": [
+    "The Logan County courthouse burned in 1865 and took with it the birth records of the entire western Pennyroyal — if {ancestor_name} was in this country before 1797, the fire may have erased the only document that proved it.",
+    "Logan County was the mother of the Pennyroyal — Warren, Simpson, Todd, and Butler were all carved from its territory. When {ancestor_name} appeared in one of those daughter counties, {pronoun_possessive} family had likely been in Logan first, and the trail leads back to Russellville.",
+    "Virginia military warrants brought the first settlers to Logan County — if {ancestor_name} or {pronoun_possessive} father fought in the Revolution, the land grant may survive at the Kentucky Land Office even though the Logan County deed book burned.",
+    "The 1800 census for Logan County is one of the most valuable documents in Pennyroyal genealogy — it lists every head of household before the daughter counties were carved out and before the 1865 fire destroyed the other records.",
+    "When the Logan County courthouse burned, it didn't just destroy one county's records — it destroyed the earliest records for five counties, because Logan was where every deed and will and court order in the western Pennyroyal was filed before the daughter counties existed."
+  ],
+  "source_references": [
+    "Collins, Lewis, and Richard H. Collins. History of Kentucky. Covington, KY: Collins and Company, 1874.",
+    "Jillson, Willard Rouse. Old Kentucky Entries and Deeds. Louisville: Standard Printing Company, 1926.",
+    "Jillson, Willard Rouse. The Kentucky Land Grants. Louisville: Standard Printing Company, 1925.",
+    "Harrison, Lowell H. The Civil War in Kentucky. Lexington: University Press of Kentucky, 1975.",
+    "Kentucky Department for Libraries and Archives. Guide to Kentucky County Records on Microfilm. Frankfort, various editions.",
+    "Works Progress Administration. Historical Records Survey: Kentucky County Records. Frankfort, 1937-1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ky_logan",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

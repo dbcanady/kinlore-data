@@ -1,0 +1,114 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the KY Pennyroyal / Green River regional cluster. Documents how transportation shaped settlement, commerce, and migration from the Wilderness Road through the L&N Railroad and the automobile era. The Green and Barren rivers were the first highways; the L&N Railroad replaced them; and the automobile completed the transformation.",
+  "connectivity_id": "ky_pennyroyal_green_river_roads",
+  "display_name": "KY Pennyroyal / Green River — Road & Connectivity Network",
+  "cluster_ref": "ky_pennyroyal_green_river",
+  "era_range": "1790-1960",
+  "transportation_eras": [
+    {
+      "era_id": "river_and_trace",
+      "era_name": "River Navigation and Frontier Traces",
+      "date_range": "1790-1860",
+      "primary_modes": ["flatboat on Green/Barren rivers", "wagon on pike roads", "horseback", "foot"],
+      "description": "The Pennyroyal's first transportation system was the river network. The Green River, navigable from Bowling Green downstream to the Ohio River, was the commercial highway. Flatboats carried tobacco hogsheads, hemp bales, and agricultural products downstream to the Ohio and ultimately to New Orleans. The Barren River extended navigation eastward to Glasgow. Overland, the Wilderness Road (entering Kentucky via the Cumberland Gap) and the Nashville pike (connecting Bowling Green to Nashville via Franklin and the Tennessee border) were the primary routes. Turnpike companies improved some roads with crushed limestone macadam in the 1830s-1850s, but most county roads remained unimproved dirt and clay. Lock-and-dam improvements on the Green River in the 1830s-1840s extended the navigable season but never eliminated the river's limitations.",
+      "road_conditions": "Turnpikes (crushed limestone macadam) on major routes; unimproved dirt and clay on county roads. Limestone macadam was superior to the clay roads of the Piedmont South — it drained better and held up longer — but was still rough for wagons. County corvee labor maintained roads with variable results.",
+      "travel_times": [
+        { "from": "Glasgow (Barren)", "to": "Bowling Green (Warren)", "mode": "wagon", "time": "1 day (approximately 30 miles)", "conditions_note": "Turnpike road, improved surface" },
+        { "from": "Bowling Green", "to": "Nashville", "mode": "wagon", "time": "2-3 days (65 miles via Franklin)", "conditions_note": "Nashville pike — one of the better roads in the region" },
+        { "from": "Hopkinsville (Christian)", "to": "Bowling Green", "mode": "wagon", "time": "2 days (approximately 70 miles)", "conditions_note": "Cross-country road, less improved" },
+        { "from": "Bowling Green", "to": "Louisville", "mode": "flatboat/steamboat via Green and Ohio rivers", "time": "3-5 days downstream", "conditions_note": "Dependent on water level and season" },
+        { "from": "Typical farm", "to": "County seat", "mode": "horseback or wagon", "time": "2-6 hours one way", "conditions_note": "Counties were large; remote farms could be a full day's ride from the courthouse" }
+      ],
+      "key_routes": [
+        { "route_name": "Green River navigation", "type": "river", "year_established": "1790s", "description": "The Green River was the Pennyroyal's commercial artery, connecting Bowling Green to the Ohio River and the Mississippi trade system. Flatboats dominated until steamboats arrived in the 1830s. Lock-and-dam improvements extended the navigable season.", "counties_served": ["Warren", "Barren"] },
+        { "route_name": "Nashville Pike (Bowling Green to Nashville via Franklin)", "type": "turnpike", "year_established": "1830s", "description": "The primary overland route connecting the Pennyroyal to Nashville. Improved with crushed limestone macadam. A major commercial and migration corridor.", "counties_served": ["Warren", "Simpson"] },
+        { "route_name": "Wilderness Road / Cumberland Gap route", "type": "improved trace", "year_established": "1790s", "description": "The primary migration route into Kentucky from Virginia. Settlers entered through the Cumberland Gap and spread across the Pennyroyal from the east.", "counties_served": ["Monroe", "Barren", "Allen"] },
+        { "route_name": "Russellville-Hopkinsville pike", "type": "turnpike", "year_established": "1840s", "description": "Connected the western Pennyroyal market towns. Less traveled than the Nashville pike but important for the tobacco trade.", "counties_served": ["Logan", "Christian", "Todd"] }
+      ],
+      "isolation_index": {
+        "description": "Moderate to high, depending on proximity to rivers or pike roads. Families on the Green River or along the Nashville pike were reasonably connected; families in Monroe County's hollows or Allen County's ridges were deeply isolated.",
+        "comparative_note": "Better river access than the Appalachian foothills but less connected than the Bluegrass. The karst terrain complicated road building — sinkholes and cave collapses made some routes unreliable."
+      },
+      "narrative_hook": "The Green River was {ancestor_name}'s highway — flatboats loaded with tobacco hogsheads at Bowling Green and drifted downstream toward the Ohio, a journey that took a week and connected a Pennyroyal farm to the markets of Louisville and New Orleans.",
+      "source": "Clark, Thomas D. Agrarian Kentucky (1977). Harrison and Klotter, A New History of Kentucky (1997)."
+    },
+    {
+      "era_id": "railroad_era",
+      "era_name": "The L&N Railroad and the Tobacco Network",
+      "date_range": "1859-1920",
+      "primary_modes": ["railroad", "wagon on pike road", "horseback"],
+      "description": "The Louisville & Nashville Railroad reached Bowling Green in 1859 and transformed the Pennyroyal's commercial geography. The railroad ran through Warren and Simpson counties on its Louisville-Nashville mainline, making Bowling Green and Franklin railroad towns. Branch lines later extended to Glasgow (Barren County) and Russellville (Logan County). The railroad made tobacco marketing faster and cheaper — a carload of tobacco could reach Louisville or Nashville in hours instead of days. Towns on the railroad grew; towns bypassed by it stagnated. The Civil War interrupted service repeatedly — the L&N's bridges were strategic targets destroyed by both armies.",
+      "road_conditions": "Pike roads remained the connection between farms and railroad depots. County roads unimproved. The gap between the railroad corridor (fast, connected) and the backcountry (unchanged from the frontier era) was stark.",
+      "travel_times": [
+        { "from": "Bowling Green", "to": "Louisville", "mode": "railroad", "time": "4-6 hours", "conditions_note": "L&N mainline. The same journey took 3-5 days by river." },
+        { "from": "Bowling Green", "to": "Nashville", "mode": "railroad", "time": "3-4 hours", "conditions_note": "L&N mainline through Franklin and the Tennessee border." },
+        { "from": "Glasgow (Barren)", "to": "Bowling Green", "mode": "railroad (branch line)", "time": "1-2 hours", "conditions_note": "After the Glasgow branch was completed." },
+        { "from": "Farm off-railroad", "to": "Nearest depot", "mode": "wagon", "time": "2-4 hours one way", "conditions_note": "The depot replaced the river landing as the critical freight point." }
+      ],
+      "key_routes": [
+        { "route_name": "L&N Railroad Louisville-Nashville mainline", "type": "railroad", "year_established": 1859, "description": "The backbone of the Pennyroyal's transportation network. Connected Bowling Green and Franklin to both state capitals. Made the tobacco trade efficient and connected the region to national markets.", "counties_served": ["Warren", "Simpson"] },
+        { "route_name": "L&N branch to Glasgow", "type": "railroad branch", "year_established": "1870s", "description": "Extended rail service to Barren County, connecting Glasgow's tobacco market to the mainline at Bowling Green.", "counties_served": ["Barren", "Warren"] },
+        { "route_name": "L&N branch to Russellville", "type": "railroad branch", "year_established": "1870s-1880s", "description": "Connected Logan County to the rail network. Russellville's tobacco trade benefited.", "counties_served": ["Logan"] }
+      ],
+      "isolation_index": {
+        "description": "Sharply reduced along the railroad corridor; unchanged in the backcountry. Warren and Simpson counties were well-connected; Monroe and Allen counties remained deeply isolated.",
+        "comparative_note": "The Pennyroyal's rail service was comparable to the NC Piedmont's by 1900 but less dense. The western counties (Christian, Todd) were slower to get branch service."
+      },
+      "narrative_hook": "The L&N Railroad reached Bowling Green in 1859 and changed the Pennyroyal's clock — tobacco that had taken a week to reach Louisville by flatboat arrived in hours, and {ancestor_name}'s relationship to the market was transformed by the whistle.",
+      "source": "Harrison and Klotter, A New History of Kentucky (1997). Herr, Kincaid A. The Louisville & Nashville Railroad, 1850-1963. Lexington: University Press of Kentucky, 1964."
+    },
+    {
+      "era_id": "highway_automobile",
+      "era_name": "Highway Era and Automobile",
+      "date_range": "1920-1960",
+      "primary_modes": ["automobile", "truck", "railroad (declining for passengers)", "bus"],
+      "description": "The automobile and paved highways transformed the Pennyroyal in the same pattern as the rest of rural America. US Route 31W (Louisville-Nashville) followed approximately the L&N corridor through Bowling Green and Franklin. US Route 68 connected Bowling Green east toward Glasgow and the Cumberland Plateau. State highway construction paved connections between county seats. The automobile ended the isolation of ridge and hollow communities — a farmer with a truck could reach the county seat in an hour instead of half a day. Bowling Green grew as a highway town, drawing commercial activity from the surrounding counties. Fort Campbell's establishment in 1942 brought military road construction to Christian County. Monroe County received paved roads last and remained the most isolated county in the cluster.",
+      "road_conditions": "US highways paved by the 1930s. State highways improved through the 1940s. County roads paved incrementally — many remained gravel or dirt into the 1950s in Monroe and Allen counties.",
+      "travel_times": [
+        { "from": "Bowling Green", "to": "Louisville", "mode": "automobile via US 31W", "time": "2-3 hours", "conditions_note": "Two-lane highway; the trip that once took a week by flatboat." },
+        { "from": "Bowling Green", "to": "Nashville", "mode": "automobile via US 31W", "time": "1.5-2 hours", "conditions_note": "Through Franklin and across the Tennessee border." },
+        { "from": "Glasgow", "to": "Bowling Green", "mode": "automobile", "time": "40-50 minutes", "conditions_note": "Paved highway by the 1930s." },
+        { "from": "Tompkinsville (Monroe)", "to": "Bowling Green", "mode": "automobile", "time": "1.5-2 hours", "conditions_note": "Partially improved roads. Monroe County roads were the last paved in the cluster." }
+      ],
+      "key_routes": [
+        { "route_name": "US Route 31W (Louisville-Nashville)", "type": "US highway", "year_established": 1926, "description": "The primary north-south highway through the Pennyroyal. Followed the L&N Railroad corridor through Bowling Green and Franklin. The automobile equivalent of the old Nashville pike.", "counties_served": ["Warren", "Simpson"] },
+        { "route_name": "US Route 68 (Bowling Green eastward)", "type": "US highway", "year_established": 1926, "description": "Connected Bowling Green to Glasgow and points east. Provided highway access for Barren County.", "counties_served": ["Warren", "Barren"] },
+        { "route_name": "Fort Campbell military roads", "type": "military highway", "year_established": "1942+", "description": "Military road construction in Christian County improved access to the base and surrounding area.", "counties_served": ["Christian"] }
+      ],
+      "isolation_index": {
+        "description": "Low along the highway corridors; moderate in Monroe and Allen counties where paved roads arrived late. By 1960, even the most isolated farms in the cluster were accessible by automobile, though the roads might be rough.",
+        "comparative_note": "Comparable to other rural Upper South regions by 1960. The Pennyroyal's flat-to-rolling terrain made road construction easier than in the Appalachian mountains."
+      },
+      "narrative_hook": "The highway through Bowling Green connected the Pennyroyal to Louisville and Nashville simultaneously — {ancestor_name}'s grandchildren could drive to either capital in a morning, a trip their grandparents had measured in days.",
+      "source": "Harrison and Klotter, A New History of Kentucky (1997). Clark, Agrarian Kentucky (1977)."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1859, "event": "L&N Railroad reaches Bowling Green", "impact": "Transforms Bowling Green from a river port to a railroad junction" },
+    { "year": 1861, "event": "Confederate forces seize L&N Railroad at Bowling Green", "impact": "Railroad becomes a military asset; bridges destroyed and rebuilt repeatedly" },
+    { "year": 1862, "event": "Confederate evacuation of Bowling Green; railroad bridges burned", "impact": "Temporary destruction of the Pennyroyal's primary transportation link" },
+    { "year": 1870, "event": "L&N branch service to Glasgow (Barren County)", "impact": "Extends rail access to the eastern Pennyroyal" },
+    { "year": 1880, "event": "L&N branch service to Russellville (Logan County)", "impact": "Connects the western Pennyroyal to the mainline system" },
+    { "year": 1890, "event": "L&N consolidation and expansion", "impact": "Improved service, faster schedules, cheaper freight rates for tobacco" }
+  ],
+  "narrative_hooks": [
+    "The Green River was {ancestor_name}'s first highway — flatboats downstream, news upstream, and the world beyond the Pennyroyal arriving by water.",
+    "The L&N Railroad reached Bowling Green in 1859 and the Confederacy reached it in 1861 — the same iron rails served commerce and war within two years.",
+    "Monroe County got paved roads last — {ancestor_name}'s world was bounded by ridges that the automobile shortened but the county budget took decades to connect.",
+    "US 31W through Bowling Green and Franklin made the Pennyroyal a highway corridor between Louisville and Nashville — {ancestor_name}'s grandchildren drove what their grandparents had floated.",
+    "Fort Campbell brought military roads to Christian County, and suddenly Hopkinsville was connected to the national defense network — {ancestor_name}'s tobacco fields were a base perimeter."
+  ],
+  "source_references": [
+    "Harrison, Lowell H., and James C. Klotter. A New History of Kentucky. Lexington: University Press of Kentucky, 1997.",
+    "Clark, Thomas D. Agrarian Kentucky. Lexington: University Press of Kentucky, 1977.",
+    "Herr, Kincaid A. The Louisville & Nashville Railroad, 1850-1963. Lexington: University Press of Kentucky, 1964.",
+    "Waldrep, Christopher. Night Riders. Durham: Duke University Press, 1993.",
+    "Harrison, Lowell H. The Civil War in Kentucky. Lexington: University Press of Kentucky, 1975."
+  ],
+  "nel_cross_references": {
+    "route_refs": ["wilderness_road", "great_wagon_road"],
+    "trigger_refs": ["scots_irish_frontier", "civil_war_service", "tobacco_soil_exhaustion"]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Portage County, OH. Record survival and courthouse history. Portage County was organized in 1808 from Trumbull County and has excellent record preservation from near its founding.",
+  "courthouse_atlas_id": "oh_portage_courthouse",
+  "display_name": "Portage County, Ohio — Courthouse Atlas",
+  "county": "Portage",
+  "state": "OH",
+  "fips_code": "39133",
+  "cluster_ref": "oh_western_reserve",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1870,
+      "location": "Ravenna, OH — 203 W. Main Street (with additions and renovations through the twentieth century)",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1808–1830",
+        "location": "Ravenna, log and frame buildings",
+        "fate": "Early temporary quarters. No significant record loss."
+      },
+      {
+        "era": "1830–1870",
+        "location": "Ravenna, brick courthouse on the square",
+        "fate": "Served through the canal and early railroad era. Replaced by the current building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "portage_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire or catastrophic loss",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "marriage records", "probate records", "court minutes"],
+      "scope": "none",
+      "description": "Portage County has not experienced a significant courthouse fire. Records run continuously from the county's 1808 organization. For the period before 1808, records are in Trumbull County. Portage was also the parent county for Summit County (created 1840) — Summit County area records before 1840 are in Portage County.",
+      "narrative_impact": "If {ancestor_name} lived in Portage County after 1808, the courthouse records survive. The county also holds pre-1840 records for the area that became Summit County.",
+      "source": "Ohio History Connection. Guide to County Records in Ohio."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1808,
+      "completeness": "Excellent from county organization",
+      "gaps": "None known.",
+      "repository": "Portage County Recorder; Ohio History Connection microfilm",
+      "online_access": "FamilySearch; Ancestry.com Ohio records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1808,
+      "completeness": "Good from formation",
+      "gaps": "None significant.",
+      "repository": "Portage County Probate Court; Ohio History Connection",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1808,
+      "completeness": "Excellent from formation",
+      "gaps": "None known.",
+      "repository": "Portage County Probate Court; Ohio History Connection",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1808,
+      "completeness": "Good",
+      "gaps": "None significant.",
+      "repository": "Portage County Clerk of Courts; Ohio History Connection",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1867,
+      "death_registration_start": 1867,
+      "completeness": "Ohio statewide registration began 1867; compliance poor until approximately 1908.",
+      "repository": "Ohio Department of Health; Portage County Health Department"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Congregational and Presbyterian church records",
+      "description": "New England settlers established Congregational and Presbyterian churches in every township. Session records, membership rolls, and baptism/marriage/burial records supplement civil records, especially for the pre-1867 vital records gap.",
+      "repository": "Individual congregations; Western Reserve Historical Society; Congregational Library (Boston)",
+      "era_coverage": "1800s–present",
+      "genealogical_value": "Church records are the primary vital record substitute before 1867. Transfer letters track migration between Reserve communities.",
+      "source": "Ohio History Connection, county records guide."
+    },
+    {
+      "source_type": "Kent State University archives",
+      "description": "Kent State University Special Collections holds local history materials including manuscripts, photographs, and organizational records from Portage County communities.",
+      "repository": "Kent State University Libraries, Special Collections",
+      "era_coverage": "1800s–present",
+      "genealogical_value": "Local manuscript collections, family papers, and organizational records provide context that courthouse records do not.",
+      "source": "Kent State University Libraries finding aids."
+    }
+  ],
+  "narrative_hooks": [
+    "Portage County's courthouse has stood since 1870 and the records reach back to 1808 — {ancestor_name}'s deeds, marriages, and court records survive, and the county also holds the pre-1840 records for what became Summit County.",
+    "Ohio's vital registration began in 1867, so for {ancestor_name} before that date, church records — Congregational, Presbyterian, or Baptist — are the primary substitute. The New England churches kept records as diligently as they kept doctrinal purity.",
+    "If {ancestor_name} lived in the area that became Summit County before 1840, check Portage County records — the administrative boundary changed, but the records stayed in Ravenna.",
+    "Portage County is one of the best-preserved counties in the Western Reserve — the records are continuous, the courthouse has never burned, and the New England tradition of careful record-keeping endured."
+  ],
+  "source_references": [
+    "Ohio History Connection. Guide to County Records in Ohio. Columbus, 2015.",
+    "History of Portage County, Ohio. Chicago: Warner, Beers, 1885.",
+    "Kent State University Libraries Special Collections finding aids."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "oh_portage",
+    "research_guidance_refs": ["church_transfers"],
+    "template_refs": ["record_silences"]
+  }
+}

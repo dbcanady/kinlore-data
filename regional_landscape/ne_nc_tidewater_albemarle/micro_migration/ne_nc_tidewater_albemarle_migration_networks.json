@@ -1,0 +1,202 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Micro-Migration Network Map for the NE NC Tidewater/Albemarle cluster. Documents specific migration corridors, chain-migration mechanics, internal movement patterns, and settlement clusters that moved people into, out of, and within this eleven-county region from 1650 to 1960.",
+  "migration_network_id": "ne_nc_tidewater_albemarle_migration_networks",
+  "display_name": "NE NC Tidewater/Albemarle — Micro-Migration Network Map",
+  "cluster_ref": "ne_nc_tidewater_albemarle",
+  "era_range": "1650-1960",
+  "migration_corridors": [
+    {
+      "corridor_id": "virginia_southward_settlement",
+      "corridor_name": "Virginia Southward Settlement into the Albemarle",
+      "origin_counties": ["Nansemond Co. VA", "Isle of Wight Co. VA", "Norfolk Co. VA", "Lower Norfolk Co. VA"],
+      "destination_area": "Chowan, Perquimans, Pasquotank, Currituck counties — the original Albemarle precincts",
+      "era": "1650-1720",
+      "migration_type": "frontier_settlement",
+      "scale": "Hundreds of families over three generations. The Albemarle was populated almost entirely by Virginians moving south for cheaper land.",
+      "evidence": {
+        "census_evidence": "No census data for this era, but colonial tax lists and court records show surname clusters matching Virginia Southside families.",
+        "church_evidence": "Quaker migration from Perquimans Northward Monthly Meeting records documents families arriving from Virginia meetings.",
+        "surname_clustering": "Surnames dominant in the early Albemarle — White, Albertson, Newby, Nicholson, Barclift, Phelps — trace to Nansemond and Isle of Wight County VA origins through land patent cross-referencing.",
+        "land_evidence": "Colonial land grants in Chowan, Perquimans, and Pasquotank precincts frequently name grantees as 'of Virginia' or reference prior Virginia land ownership."
+      },
+      "chain_mechanics": {
+        "description": "Virginia Southside families moved into the Albemarle in kinship chains. A family patriarch obtained a colonial land grant, established a farmstead, and then siblings, children, and in-laws followed within a few years. Quaker families moved in meeting-group clusters — entire monthly meetings relocated together. The pattern was remarkably consistent: first a scout or patriarch, then the extended family, then the community institutions (church or meeting).",
+        "kinship_role": "Sibling and parent-child chains dominated. Extended families colonized adjacent tracts, creating kinship clusters visible in colonial land records. Quaker families moved as religious communities rather than isolated households.",
+        "timeline": "Initial scouts 1650s-1660s; main settlement wave 1670s-1700; filling-in through 1720s."
+      },
+      "narrative_hook": "When {ancestor_name} crossed from Virginia into the Albemarle in the {decade}s, {pronoun_subject} followed a path that dozens of Virginia families had already worn — south across the border for cheaper land and fewer tax collectors, settling where the rivers met the Sound.",
+      "source": "Merrens, Harry Roy. Colonial North Carolina in the Eighteenth Century. UNC Press, 1964. Powell, William S. The Proprietors of Carolina. Raleigh: Carolina Charter Tercentenary Commission, 1963."
+    },
+    {
+      "corridor_id": "quaker_westward_migration",
+      "corridor_name": "Quaker Out-Migration to Ohio and Indiana",
+      "origin_counties": ["Perquimans", "Pasquotank", "Gates"],
+      "destination_area": "Belmont County OH, Wayne County IN, Randolph County IN, Henry County IN",
+      "era": "1800-1840",
+      "migration_type": "chain_migration",
+      "scale": "Hundreds of families. The Quaker community in Perquimans County was largely depopulated by 1840. Entire monthly meetings relocated.",
+      "evidence": {
+        "census_evidence": "1810-1840 census comparison shows dramatic decline in Quaker-associated surnames in Perquimans and Pasquotank. Same surnames appear in Ohio and Indiana census records by 1820-1830.",
+        "church_evidence": "Perquimans Monthly Meeting minutes record hundreds of removal certificates issued to members departing for Ohio and Indiana meetings. Receiving meetings in Belmont County OH and Wayne County IN record corresponding arrivals.",
+        "surname_clustering": "Surnames — Newby, Albertson, White, Nicholson, Winslow — appear in Belmont County OH and Wayne County IN census records at rates that mirror their Perquimans County origins.",
+        "land_evidence": "Land sales in Perquimans County 1800-1830 show Quaker families liquidating holdings before departure. Corresponding land purchases appear in Ohio and Indiana records."
+      },
+      "chain_mechanics": {
+        "description": "The Quaker migration was driven by antislavery conviction — the yearly meeting's testimony against slavery made it increasingly difficult for Quakers to live in a slave state. Pioneer families moved to Ohio (1800-1810), established farms, and sent letters back describing free-state conditions. Entire monthly meetings then voted to relocate, with families departing in organized groups carrying removal certificates to present at the receiving meeting. The chain was institutional as well as kinship-based — the Quaker meeting structure provided the organizational framework for mass migration.",
+        "kinship_role": "Extended family networks drove the chain, but the Quaker meeting provided the institutional framework. Pioneer families established the Ohio/Indiana settlement; siblings, cousins, and meeting members followed. By 1830, entire communities had transplanted themselves.",
+        "timeline": "Pioneer families 1800-1810; main migration wave 1810-1830; stragglers through 1840. Perquimans Monthly Meeting effectively ceased functioning by the 1830s."
+      },
+      "narrative_hook": "When {ancestor_name} left Perquimans County for Ohio around {year}, {pronoun_subject} carried a removal certificate from the Monthly Meeting — a document that said {pronoun_subject} was in good standing, was leaving for reasons of conscience, and should be received by the Friends in Belmont County as one of their own.",
+      "source": "Weeks, Stephen Beauregard. Southern Quakers and Slavery. Baltimore: Johns Hopkins Press, 1896. Hinshaw, William Wade. Encyclopedia of American Quaker Genealogy. Vol. 1: NC; Vol. 4: Ohio; Vol. 7: Indiana."
+    },
+    {
+      "corridor_id": "freedmens_colony_influx",
+      "corridor_name": "Enslaved People Fleeing to Roanoke Island Freedmen's Colony",
+      "origin_counties": ["Bertie", "Hertford", "Chowan", "Washington", "Martin", "Perquimans", "Pasquotank", "Gates", "Tyrrell"],
+      "destination_area": "Roanoke Island, Dare County — Freedmen's Colony (1862-1867)",
+      "era": "1862-1865",
+      "migration_type": "wartime_refugee",
+      "scale": "Over 3,000 formerly enslaved people gathered on Roanoke Island by 1863. Most came from the Albemarle and surrounding counties.",
+      "evidence": {
+        "census_evidence": "Freedmen's Colony census (conducted by Union officials and Freedmen's Bureau) documents residents by name, age, and sometimes place of origin.",
+        "church_evidence": "Colony church records document membership of formerly enslaved families. Some records note prior plantation or county of origin.",
+        "military_evidence": "Union Army records and Freedmen's Bureau correspondence document the arrival of contraband families at Roanoke Island. Some records identify the county or plantation from which they fled."
+      },
+      "chain_mechanics": {
+        "description": "After the Burnside Expedition captured Roanoke Island in February 1862, word spread through the enslaved community's oral networks that Union-controlled territory meant freedom. Enslaved people fled from Albemarle plantations by boat, by foot through the swamps, and by surrendering to Union patrols. The colony grew rapidly — by 1863, over 3,000 people had gathered. Kinship chains were crucial: a man who reached the island would send word back through the grapevine, and family members would follow. The colony was disbanded in 1867 when the land was returned to its prewar owners.",
+        "kinship_role": "Family networks drove the movement. Men often fled first (they had more mobility as hired-out laborers or boatmen), then sent word back. Women and children followed in family groups when an opportunity arose.",
+        "timeline": "Trickle from February 1862; main influx 1862-1864; colony at peak 1863-1865; disbanded 1867."
+      },
+      "narrative_hook": "When {ancestor_name} fled to Roanoke Island during the war, {pronoun_subject} joined over 3,000 formerly enslaved people who had walked, paddled, or slipped away from Albemarle plantations to reach the one place in northeastern NC where freedom was real.",
+      "source": "Click, Patricia C. Time Full of Trial: The Roanoke Island Freedmen's Colony, 1862-1867. UNC Press, 2001."
+    },
+    {
+      "corridor_id": "great_migration_norfolk_north",
+      "corridor_name": "Great Migration: Albemarle to Norfolk, Philadelphia, New York, Baltimore",
+      "origin_counties": ["Bertie", "Hertford", "Chowan", "Perquimans", "Pasquotank", "Gates", "Martin", "Washington", "Tyrrell"],
+      "destination_area": "Norfolk VA (primary first stop); Philadelphia (North Philadelphia, Germantown); New York (Harlem, Brooklyn); Baltimore (West Baltimore)",
+      "era": "1910-1960",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of Black families over two generations. Most Albemarle counties lost 20-40% of their Black population between 1910 and 1960.",
+      "evidence": {
+        "census_evidence": "1920-1960 census data for Norfolk, Philadelphia, and New York shows concentrations of NC-born Black residents with birthplaces in Albemarle counties. Neighborhood-level analysis shows surname clustering.",
+        "church_evidence": "Black Baptist and AME Zion church records in Albemarle counties show membership decline. Northern church records document arrivals from NC.",
+        "surname_clustering": "Surnames common in Bertie, Hertford, and Chowan counties — Bond, Weaver, Freeman, Eason, Speller — appear in North Philadelphia and Norfolk census enumeration at rates indicating organized chain migration.",
+        "oral_history_evidence": "Family oral histories consistently describe Norfolk as the first stop — a brother or cousin who worked at the Norfolk Naval Shipyard or in the railroad provided initial housing. Philadelphia was the next step, reached by train via the Pennsylvania Railroad."
+      },
+      "chain_mechanics": {
+        "description": "Norfolk VA was the primary first-stage destination — close enough to visit home on a weekend, with employment at the Naval Shipyard, in domestic service, and in the growing city economy. From Norfolk, the chain extended to Philadelphia via the Pennsylvania Railroad. A typical pattern: a young man went to Norfolk for shipyard work (1910s-1920s), established himself, and then sent for siblings and parents. The Norfolk-to-Philadelphia link operated similarly — a family member who had moved to Philadelphia found housing and work, then wrote back to Norfolk to say 'come on up.' Black churches in both Norfolk and Philadelphia served as reception centers and employment networks.",
+        "kinship_role": "Sibling chains dominated. The pattern was consistent: eldest son or brother went first, secured housing and employment, then sent for other family members. Women often followed when a domestic service position was available. Entire extended families could relocate over a period of 5-10 years.",
+        "timeline": "Trickle to Norfolk 1890s-1910; accelerating 1915-1930; peak 1940-1960 (WWII industrial demand). Norfolk-to-Philadelphia chain active from 1920s."
+      },
+      "narrative_hook": "When {ancestor_name} left {county} County for Norfolk around {year}, {pronoun_subject} followed a path that a brother or cousin had worn before — Norfolk first, for the shipyard work, and then maybe Philadelphia, where the wages were better and the South was further away.",
+      "source": "Wilkerson, Isabel. The Warmth of Other Suns. New York: Random House, 2010. Cecelski, The Waterman's Song (2001)."
+    },
+    {
+      "corridor_id": "domestic_slave_trade_outbound",
+      "corridor_name": "Domestic Slave Trade — Albemarle to Deep South",
+      "origin_counties": ["Bertie", "Hertford", "Chowan", "Martin", "Washington"],
+      "destination_area": "Lower Mississippi Valley — Louisiana, Mississippi, Alabama cotton plantations",
+      "era": "1800-1860",
+      "migration_type": "forced_migration",
+      "scale": "Hundreds to thousands of enslaved people sold from the Albemarle to the Deep South cotton frontier over six decades.",
+      "evidence": {
+        "census_evidence": "Slave schedule comparisons between 1850 and 1860 show declining enslaved populations on some Albemarle plantations despite no evidence of manumission — indicating sale to traders.",
+        "court_evidence": "Deed books in Bertie, Chowan, and Hertford counties record sales of enslaved people to identified slave traders, including traders from Virginia and the Deep South.",
+        "newspaper_evidence": "Edenton and Norfolk newspapers carried advertisements from slave traders buying and selling in the Albemarle region."
+      },
+      "chain_mechanics": {
+        "description": "The domestic slave trade moved enslaved people from the older, less profitable agricultural regions of the Upper South (including the Albemarle) to the cotton frontier of the Deep South. Slave traders operated in the Albemarle, purchasing enslaved people from planters who were liquidating estates, paying debts, or 'downsizing' their labor force. The trade was organized and systematic — Norfolk was a major slave-trading hub, and the Dismal Swamp Canal provided a direct transportation route from the Albemarle to the Norfolk slave pens. Enslaved people were marched in coffles or transported by boat.",
+        "kinship_role": "Kinship was severed by the trade. The forced separation of families — parents from children, husbands from wives, siblings from siblings — was the trade's most devastating feature and the primary source of the record silences that make Black genealogy in the antebellum South so difficult.",
+        "timeline": "Active throughout 1800-1860; peak volumes 1830s-1850s as cotton prices drove demand."
+      },
+      "narrative_hook": "If {ancestor_name} disappeared from Albemarle records between {start_year} and {end_year}, the domestic slave trade may be the explanation — sold from a Bertie or Chowan County plantation to a cotton planter in Mississippi or Louisiana, carried south through Norfolk, and lost to the paper trail entirely.",
+      "source": "Johnson, Walter. Soul by Soul: Life Inside the Antebellum Slave Market. Cambridge: Harvard University Press, 1999. Deyle, Steven. Carry Me Back: The Domestic Slave Trade in American Life. Oxford University Press, 2005."
+    }
+  ],
+  "internal_movement_patterns": [
+    {
+      "pattern_id": "river_to_upland_shift",
+      "pattern_name": "Postwar Shift from River Bottomland to Upland Tobacco Farming",
+      "description": "After emancipation, many families (both formerly enslaved and white yeoman) shifted from the river bottomlands to upland farms. The bottomland drainage systems required collective labor that sharecropping could not sustain; the upland sandy loam soils were easier to farm individually and, once the railroad arrived, suited to bright-leaf tobacco.",
+      "era": "1865-1900",
+      "counties_affected": ["Bertie", "Martin", "Washington"],
+      "evidence": "Census comparison between 1860 and 1880 shows population redistribution from river-adjacent to upland townships in these counties. Agricultural schedule data shows tobacco appearing on upland farms where corn and cotton had dominated.",
+      "narrative_hook": "After the war, {ancestor_name}'s family moved from the bottomland to the upland — the rich river soil was useless without the labor force to maintain the ditches, and the sandy ridges turned out to grow tobacco that the new railroad could carry to market."
+    },
+    {
+      "pattern_id": "sound_county_to_elizabeth_city",
+      "pattern_name": "Sound County Farm Families Moving to Elizabeth City",
+      "description": "Elizabeth City drew working-age people from the surrounding Sound counties (Perquimans, Chowan, Pasquotank, Currituck, Gates) as the town developed commercial and service industries. The pattern was modest in scale but consistent — Elizabeth City was the only real town in the northern Albemarle.",
+      "era": "1870-1960",
+      "counties_affected": ["Perquimans", "Chowan", "Gates", "Currituck", "Pasquotank"],
+      "evidence": "Elizabeth City census enumeration shows residents born in surrounding counties at rates above random distribution. Town directories and church records document arrivals from rural Sound communities.",
+      "narrative_hook": "When {ancestor_name} moved to Elizabeth City from the {county} County farm, {pronoun_subject} joined the steady trickle of Albemarle farm families drawn to the only town in the region that offered wage work, a high school, and a world beyond the next field."
+    }
+  ],
+  "settlement_clusters": [
+    {
+      "cluster_id": "quaker_belt_perquimans",
+      "cluster_name": "Quaker Settlement Belt — Perquimans/Pasquotank",
+      "counties": ["Perquimans", "Pasquotank"],
+      "era": "1670s-1830s",
+      "description": "The Perquimans Monthly Meeting and associated meetings created a distinctive Quaker settlement belt across the northern Sound counties. Quaker families held contiguous land grants, intermarried within the meeting, and maintained commercial connections to Quaker networks in Pennsylvania and England. The community peaked around 1790-1800 and then rapidly depopulated through antislavery out-migration to Ohio and Indiana.",
+      "genealogical_significance": "Quaker meeting records — births, marriages, deaths, removals, disciplinary proceedings — are extraordinarily detailed. Hinshaw's Encyclopedia of American Quaker Genealogy (Vol. 1, NC) abstracts these records. The removal certificates track families to specific receiving meetings in Ohio and Indiana.",
+      "narrative_hook": "The Quaker families of Perquimans County formed a community within a community — bound by meeting discipline, antislavery conviction, and kinship ties that eventually carried them west to Ohio and Indiana, leaving behind empty meeting houses and land that other families bought up."
+    },
+    {
+      "cluster_id": "free_black_hertford",
+      "cluster_name": "Free Black Community — Hertford County",
+      "counties": ["Hertford"],
+      "era": "1750-1865",
+      "description": "Hertford County developed one of the largest free Black populations in antebellum North Carolina. Free Black families owned land, operated farms, and maintained community institutions despite increasing legal restrictions. The origins were diverse: Quaker manumissions, self-purchase, mixed-race ancestry, and descendants of the colonial free Black population.",
+      "genealogical_significance": "Free Negro registers at the Hertford County courthouse document these families by name, description, and occupation. Census records from 1790 forward enumerate free Black families. Church records (Baptist, Methodist) and occasional land records supplement the courthouse files.",
+      "narrative_hook": "Hertford County's free Black community was among the largest in antebellum NC — families who owned land, went to court, and signed their names in a county where most of their neighbors were either enslaved or enslaving. If {ancestor_name} was free and Black in the Albemarle, Hertford County is the first place to look."
+    }
+  ],
+  "narrative_hooks": [
+    "The Albemarle was settled from Virginia — families moving south for cheaper land — and for {ancestor_name}, the Virginia Southside surnames in the 1700s Albemarle records may trace directly to Nansemond or Isle of Wight County origins.",
+    "When the Quakers left Perquimans County for Ohio and Indiana between 1800 and 1830, they carried removal certificates that document the exact date, family composition, and destination — if {ancestor_name} disappeared from Albemarle records in that era, the receiving meeting in Ohio or Indiana may hold the continuation.",
+    "The Roanoke Island Freedmen's Colony gathered over 3,000 formerly enslaved people from across the Albemarle — if {ancestor_name} fled a plantation during the war, the colony records at the National Archives may be the first document of freedom.",
+    "Norfolk was the first stop on the Great Migration road out of the Albemarle — and for {ancestor_name}, the shipyard, the railroad, and the promise of cash wages that did not depend on the weather or the crop price were the pull.",
+    "If {ancestor_name} disappeared from Albemarle records between 1800 and 1860, the domestic slave trade is a possible explanation — enslaved people were sold from declining Albemarle plantations to the Deep South cotton frontier through the Norfolk slave market."
+  ],
+  "source_references": [
+    "Merrens, Harry Roy. Colonial North Carolina in the Eighteenth Century. Chapel Hill: University of North Carolina Press, 1964.",
+    "Weeks, Stephen Beauregard. Southern Quakers and Slavery. Baltimore: Johns Hopkins Press, 1896.",
+    "Hinshaw, William Wade. Encyclopedia of American Quaker Genealogy. Vol. 1: North Carolina. Ann Arbor, MI: Edwards Brothers, 1936.",
+    "Click, Patricia C. Time Full of Trial: The Roanoke Island Freedmen's Colony, 1862-1867. Chapel Hill: University of North Carolina Press, 2001.",
+    "Wilkerson, Isabel. The Warmth of Other Suns: The Epic Story of America's Great Migration. New York: Random House, 2010.",
+    "Johnson, Walter. Soul by Soul: Life Inside the Antebellum Slave Market. Cambridge: Harvard University Press, 1999.",
+    "Deyle, Steven. Carry Me Back: The Domestic Slave Trade in American Life. New York: Oxford University Press, 2005.",
+    "Cecelski, David S. The Waterman's Song. Chapel Hill: University of North Carolina Press, 2001.",
+    "Franklin, John Hope. The Free Negro in North Carolina, 1790-1860. Chapel Hill: University of North Carolina Press, 1943."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": [
+      "domestic_slave_trade",
+      "nc_quaker_antislavery_migration",
+      "civil_war_displacement",
+      "reconstruction_era",
+      "great_migration",
+      "stayed_and_adapted"
+    ],
+    "route_refs": [
+      "virginia_to_carolina_corridor",
+      "dismal_swamp_canal_route",
+      "atlantic_coastal_steamer"
+    ],
+    "destination_refs": [
+      "norfolk_va",
+      "philadelphia_pa",
+      "new_york_city",
+      "baltimore_md"
+    ],
+    "community_texture_refs": [
+      "eastern_nc_farm_community",
+      "deep_south_black_community"
+    ]
+  }
+}

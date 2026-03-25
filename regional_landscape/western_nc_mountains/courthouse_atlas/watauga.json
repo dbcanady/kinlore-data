@@ -1,0 +1,131 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Watauga County, NC. Record survival, courthouse history, and known losses for the high-plateau county — courthouse fire in 1873 destroyed early records, compounding isolation-related gaps.",
+  "courthouse_atlas_id": "nc_watauga_courthouse",
+  "display_name": "Watauga County, North Carolina — Courthouse Atlas",
+  "county": "Watauga",
+  "state": "NC",
+  "fips_code": "37189",
+  "cluster_ref": "western_nc_mountains",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1905,
+      "location": "Boone, NC — King Street",
+      "records_housed": ["deeds post-1873", "plats", "court minutes post-1873", "estate files", "marriage licenses"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1849–1873",
+        "location": "Boone, NC (original courthouse on the public square)",
+        "fate": "Destroyed by fire in 1873. Most early county records were lost. The fire occurred during Reconstruction and there is no definitive evidence of arson, though the period was politically volatile."
+      },
+      {
+        "era": "1873–1905",
+        "location": "Boone, NC (temporary structures)",
+        "fate": "Temporary frame structures served as courthouse until the 1905 building was erected."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "watauga_1873_fire",
+      "date": "1873",
+      "cause": "Courthouse fire",
+      "records_destroyed": ["deed books 1849-1873 (most)", "will books 1849-1873", "court minutes 1849-1873", "estate files 1849-1873", "marriage bonds 1849-1873 (most)"],
+      "records_survived": ["some deed fragments rescued from the fire", "scattered documents that had been removed from the courthouse"],
+      "scope": "catastrophic",
+      "description": "The 1873 courthouse fire destroyed most of Watauga County's first twenty-four years of records. The county was formed from Ashe, Caldwell, Wilkes, and Yancey in 1849, and the fire consumed nearly everything accumulated since formation. Some landowners re-recorded deeds from private copies, creating a partial reconstruction, but the overwhelming majority of pre-1873 records are permanently lost.",
+      "narrative_impact": "The 1873 courthouse fire in Boone erased {ancestor_name}'s earliest Watauga County records. Any deed, will, or court record before that date exists only if someone carried a copy out of the building or kept one at home.",
+      "source": "Arthur, John Preston. A History of Watauga County, North Carolina. Richmond: Everett Waddey, 1915."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1873,
+      "completeness": "Post-1873 records are continuous. Pre-1873 deeds exist only where re-recorded from private copies.",
+      "gaps": "Catastrophic loss before 1873. Some deeds were re-recorded but the reconstruction is far from complete. For pre-1849 records, consult parent counties (Ashe, Caldwell, Wilkes, Yancey).",
+      "repository": "Watauga County Register of Deeds, Boone; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; limited Ancestry.com coverage"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1873,
+      "completeness": "Post-1873 only. Pre-1873 wills and estate files destroyed.",
+      "gaps": "Complete loss before 1873. Mountain families frequently died intestate, making the loss of court-ordered distributions especially significant.",
+      "repository": "Watauga County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm; limited digitization"
+    },
+    "marriages": {
+      "earliest_surviving": 1873,
+      "completeness": "Post-1873 reasonably complete. Pre-1873 marriage bonds destroyed.",
+      "gaps": "Total loss before 1873. Church records and census household analysis are the only substitutes for establishing pre-1873 marriages.",
+      "repository": "Watauga County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; limited coverage"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1873,
+      "completeness": "Post-1873 reasonably complete",
+      "gaps": "Total loss before 1873.",
+      "repository": "NC State Archives; Watauga County Clerk of Court",
+      "online_access": "NC State Archives microfilm; very limited digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Poor until approximately 1920. Watauga's high-elevation isolation meant many births and deaths in remote areas were not registered.",
+      "repository": "NC Office of Vital Records; NC State Archives for delayed birth certificates"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1850–1940 (Watauga formed 1849; first enumerated 1850). The 1850, 1860, and 1870 censuses are critical — the only surviving government records for Watauga families before the 1873 fire.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1850–1940",
+      "genealogical_value": "The pre-1873 censuses are irreplaceable. The 1850 census is the first to name all household members and was taken just one year after county formation. Agricultural schedules document the subsistence farming economy.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Watauga County, NC."
+    },
+    {
+      "source_type": "Parent county records (Ashe, Caldwell, Wilkes, Yancey — pre-1849)",
+      "description": "Watauga was formed from four parent counties in 1849. Pre-1849 records for the Boone area are scattered across those counties' records.",
+      "repository": "Ashe County Register of Deeds (Jefferson); Caldwell County (Lenoir); Wilkes County (Wilkesboro); Yancey County (Burnsville — also fire-damaged); NC State Archives",
+      "era_coverage": "1790s–1849",
+      "genealogical_value": "Essential for pre-1849 families. Note that Yancey County also suffered a courthouse fire (1876), so records for areas that were in Yancey before becoming Watauga may be doubly lost.",
+      "source": "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001."
+    },
+    {
+      "source_type": "NC land grant records",
+      "description": "Original land grants from North Carolina to initial settlers, maintained at the NC State Archives in Raleigh, independent of county courthouse records.",
+      "repository": "NC State Archives — Secretary of State land grant files",
+      "era_coverage": "1790s–1850s",
+      "genealogical_value": "Land grants survive the courthouse fire because they were always held in Raleigh. For many Watauga families, the state land grant is the only surviving record of their first claim to land on the high plateau.",
+      "source": "NC State Archives. Land Grant Files, Secretary of State Records."
+    },
+    {
+      "source_type": "Church records — Baptist (Primitive and Missionary)",
+      "description": "Primitive Baptist churches were the dominant denomination on the Watauga plateau. Church minutes include membership rolls, disciplinary proceedings, and occasionally death and burial notes.",
+      "repository": "Individual churches; NC Baptist Historical Collection, Wake Forest University; Appalachian State University Special Collections",
+      "era_coverage": "1820s–present",
+      "genealogical_value": "Church records are among the few sources documenting Watauga families in the period destroyed by fire. Primitive Baptist minute books are often the only record of family relationships before 1873.",
+      "source": "Arthur, John Preston. A History of Watauga County, North Carolina. Richmond: Everett Waddey, 1915."
+    }
+  ],
+  "narrative_hooks": [
+    "The 1873 courthouse fire in Boone destroyed nearly everything Watauga County had recorded since its formation in 1849 — {ancestor_name}'s first quarter-century of records on the high plateau went up in smoke.",
+    "For {ancestor_name}'s family before 1873, the federal census is likely the only surviving government record — the fire took everything the courthouse held, and the census takers who climbed to the plateau every ten years left the only paper trail that remains.",
+    "Watauga County was carved from four different parent counties, and {ancestor_name}'s pre-1849 records could be in Ashe, Caldwell, Wilkes, or Yancey — a research puzzle made worse by the fact that Yancey's courthouse also burned.",
+    "The NC land grants in Raleigh survived the Boone fire because they were never in Boone — and for {ancestor_name}'s family, those grants may be the only official proof of how they first claimed land at 3,300 feet.",
+    "If {ancestor_name} attended a Primitive Baptist church on the Watauga plateau, the church minute book may be the best surviving record of the family — better than anything the courthouse held, because the church records were never in the building that burned."
+  ],
+  "source_references": [
+    "Arthur, John Preston. A History of Watauga County, North Carolina. Richmond: Everett Waddey, 1915.",
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Eller, Ronald D. Miners, Millhands, and Mountaineers: Industrialization of the Appalachian South, 1880-1930. Knoxville: University of Tennessee Press, 1982.",
+    "Davis, Donald Edward. Where There Are Mountains: An Environmental History of the Southern Appalachians. Athens: University of Georgia Press, 2000."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_watauga",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records", "burned_county_strategies"],
+    "template_refs": ["record_silences"]
+  }
+}

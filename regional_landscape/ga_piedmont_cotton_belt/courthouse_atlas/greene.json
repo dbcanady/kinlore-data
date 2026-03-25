@@ -1,0 +1,56 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Greene County, GA. Record survival, courthouse history, and known losses. Greene County, formed 1786 as one of GA's original counties, has records extending further back than most Georgia Piedmont counties. The Georgia Land Lottery records are NOT the primary source for Greene — it was settled under the earlier headright/bounty land system.",
+  "courthouse_atlas_id": "ga_greene_courthouse",
+  "display_name": "Greene County, Georgia — Courthouse Atlas",
+  "county": "Greene",
+  "state": "GA",
+  "fips_code": "13133",
+  "cluster_ref": "ga_piedmont_cotton_belt",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1849, "location": "Greensboro, GA — courthouse square (renovated 1903, 1960s)", "records_housed": ["deeds", "marriage licenses", "probate records", "court minutes"] },
+    "previous_courthouses": [
+      { "era": "1786-1849", "location": "Greensboro, GA", "fate": "Early courthouses replaced. No fire or war damage to records." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "greene_no_major_loss", "date": null, "cause": "No major fire or war damage",
+      "records_destroyed": [], "records_survived": ["deed books from 1786", "will books", "court minutes", "marriage records", "estate files"],
+      "scope": "none",
+      "description": "Greene County's records are among the oldest in the Georgia Piedmont — the county was formed in 1786, a generation before most of the other counties in this cluster. Records run continuously from formation. Sherman's March passed through the county in 1864 but did not destroy the courthouse.",
+      "narrative_impact": "Greene County records go back to 1786 — older than most Georgia Piedmont counties by thirty years. If {ancestor_name} was in Greene County, the paper trail extends to the earliest era of Georgia Piedmont settlement. This is one of the most complete record sets in the cluster.",
+      "source": "GA Department of Archives and History. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1786, "completeness": "Excellent — one of the oldest continuous deed series in the Georgia Piedmont", "gaps": "No major gaps. Early volumes show age but are legible.", "repository": "Greene County Clerk of Superior Court; GA Archives microfilm", "online_access": "FamilySearch microfilm; Ancestry.com GA land records" },
+    "wills_estates": { "earliest_surviving": 1787, "completeness": "Excellent from near-formation", "gaps": "No major gaps. Estate inventories document the full arc of the plantation economy from its beginnings through Reconstruction.", "repository": "Greene County Probate Court; GA Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1805, "completeness": "Good from the early 1800s", "gaps": "Pre-1805 marriages not consistently recorded at county level", "repository": "Greene County Probate Court", "online_access": "FamilySearch; Ancestry.com GA marriages" },
+    "court_minutes": { "earliest_surviving": 1786, "completeness": "Excellent", "gaps": "No major gaps", "repository": "Greene County Clerk of Superior Court; GA Archives", "online_access": "GA Archives microfilm" },
+    "vital_records": { "birth_registration_start": 1919, "death_registration_start": 1919, "completeness": "Spotty until mid-1920s", "repository": "GA Department of Public Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "Headright and bounty land grants (NOT Land Lottery)", "description": "Greene County was settled under Georgia's earlier headright system and Revolutionary War bounty grants — NOT the Land Lottery system that distributed land in the later-formed counties. Headright grants required a petition to the governor and were based on household size. Bounty grants rewarded Revolutionary War service. These records predate the Land Lottery and are held at the state level.", "repository": "GA Department of Archives and History — colonial and state headright grants", "era_coverage": "1783-1803", "genealogical_value": "Critical for establishing initial land ownership in Greene County. The headright/bounty system produced different record types than the lottery — petitions, surveys, and grants rather than lottery tickets.", "source": "Cadle, Georgia Land Surveying History and Law (1991)." },
+    { "source_type": "Arthur Raper's Preface to Peasantry research files", "description": "Sociologist Arthur Raper studied Greene County intensively for his 1936 book Preface to Peasantry. His research files include interviews, farm surveys, and economic data that document the county's Black and white farming communities in extraordinary detail.", "repository": "University of North Carolina at Chapel Hill — Southern Historical Collection (Raper Papers)", "era_coverage": "1927-1936", "genealogical_value": "Invaluable for documenting Greene County families in the 1920s-1930s. Raper's files include individual farm histories, family structures, and economic conditions not available in any other source.", "source": "Raper, Arthur F. Preface to Peasantry. UNC Press, 1936." },
+    { "source_type": "Federal census schedules and slave schedules", "description": "Population schedules 1790-1940. Slave schedules 1850-1860.", "repository": "National Archives; FamilySearch; Ancestry.com", "era_coverage": "1790-1940", "genealogical_value": "Essential. Greene County appears in the 1790 census — one of the earliest Georgia counties enumerated.", "source": "National Archives and Records Administration." }
+  ],
+  "narrative_hooks": [
+    "Greene County's records go back to 1786 — if {ancestor_name} was there, the paper trail extends further than almost any other county in the Georgia Piedmont. This is an 18th-century record set in a region where most counties start in the 1820s.",
+    "Greene County was settled under the headright system, not the Land Lottery — {ancestor_name}'s original land grant was a petition to the governor based on family size, not a random drawing.",
+    "Arthur Raper's 1936 study of Greene County documented farm families in extraordinary detail. If {ancestor_name}'s family was there in the 1920s-1930s, Raper's research files at UNC may contain information no other source preserves.",
+    "Greene County's estate inventories from the antebellum period are exceptionally detailed — enslaved persons listed by name, family groupings visible in the property assessments. If {ancestor_name} was enslaved in Greene County, these records are essential."
+  ],
+  "source_references": [
+    "GA Department of Archives and History. Guide to County Records.",
+    "Cadle, Farris W. Georgia Land Surveying History and Law. University of Georgia Press, 1991.",
+    "Raper, Arthur F. Preface to Peasantry: A Tale of Two Black Belt Counties. UNC Press, 1936.",
+    "Works Progress Administration. Historical Records Survey: Georgia. Atlanta, 1937-1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ga_greene",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

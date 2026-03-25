@@ -1,0 +1,151 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Micro-Migration Network Map for the KY Bluegrass cluster. Documents specific migration corridors, chain-migration mechanics, and settlement patterns that moved people into, out of, and within the Bluegrass from 1775 to 1960. The Bluegrass was populated from Virginia through Cumberland Gap, enriched by the domestic slave trade, and drained by the Great Migration to Ohio and Michigan cities.",
+  "migration_network_id": "ky_bluegrass_migration_networks",
+  "display_name": "KY Bluegrass — Micro-Migration Network Map",
+  "cluster_ref": "ky_bluegrass",
+  "era_range": "1775-1960",
+  "migration_corridors": [
+    {
+      "corridor_id": "wilderness_road_virginia",
+      "corridor_name": "Wilderness Road: Virginia to the Bluegrass",
+      "origin_counties": ["Rockbridge (VA)", "Augusta (VA)", "Botetourt (VA)", "Washington (VA)", "Montgomery (VA)", "Albemarle (VA)", "Orange (VA)", "Culpeper (VA)"],
+      "destination_area": "Fayette, Bourbon, Clark, Madison, Jessamine, Woodford, Scott, Mercer — the entire Inner Bluegrass",
+      "era": "1775-1810",
+      "migration_type": "chain_migration",
+      "scale": "Tens of thousands of families in a single generation. The Bluegrass was settled primarily from Virginia — both the Tidewater/Piedmont planter class (bringing enslaved people) and the Shenandoah Valley Scots-Irish yeomanry.",
+      "evidence": {
+        "census_evidence": "The 1790 and 1800 census of Kentucky Bluegrass counties shows overwhelming Virginia-origin surnames. Cross-referencing with Virginia tax lists and census returns confirms migration chains.",
+        "church_evidence": "Presbyterian and Baptist church records in the Bluegrass trace directly to Virginia congregations. Church transfer letters document specific families.",
+        "surname_clustering": "Virginia Tidewater/Piedmont surnames (Clay, Breckinridge, Todd, Shelby, Hart) dominate the planter class. Shenandoah Valley Scots-Irish surnames (McDowell, McClelland, Logan, Boone) dominate the yeoman class."
+      },
+      "chain_mechanics": {
+        "description": "The Wilderness Road through Cumberland Gap was the primary route. Virginia military warrants gave Revolutionary War veterans access to Bluegrass land. Two distinct migration streams converged: (1) the Virginia planter class, who came with enslaved workers, capital, and land warrants for thousands of acres, and (2) the Shenandoah Valley Scots-Irish, who came as yeoman families with smaller claims. The planters arrived first (or had agents claim land for them) and took the best Inner Bluegrass limestone upland. The yeomen settled on the margins or became tenants.",
+        "kinship_role": "Kinship networks were essential. Virginia families moved in clusters — brothers, in-laws, and church neighbors settling together. The Virginia county court order books often show groups of families petitioning together.",
+        "timeline": "First wave 1775-1780 (fort-building pioneers). Second wave 1780-1792 (Virginia land grant settlers). Third wave 1792-1810 (filling in remaining land)."
+      },
+      "narrative_hook": "The Wilderness Road brought {ancestor_name}'s people from Virginia into the Bluegrass — not as individuals but as kinship clusters, moving together through Cumberland Gap the same way they had moved together in Virginia, carrying their claims and their kin into the richest land any of them had seen.",
+      "source": "Aron, How the West Was Lost (1996). Clark, A History of Kentucky (1960). Harrison and Klotter, A New History of Kentucky (1997)."
+    },
+    {
+      "corridor_id": "domestic_slave_trade_bluegrass",
+      "corridor_name": "Domestic Slave Trade: Into and Out of the Bluegrass",
+      "origin_counties": ["Virginia Tidewater and Piedmont counties", "Maryland counties"],
+      "destination_area": "Fayette, Bourbon, Woodford, Scott, Madison, Clark, Jessamine, Mercer (Bluegrass hemp farms), and export southward to the Deep South cotton states",
+      "era": "1790-1865",
+      "migration_type": "forced_migration",
+      "scale": "Thousands of enslaved people brought into the Bluegrass from Virginia and Maryland to work hemp farms. Thousands more sold from the Bluegrass to the Deep South cotton states through the Lexington slave market — one of the largest in the Upper South.",
+      "evidence": {
+        "census_evidence": "Slave schedules (1850, 1860) show large enslaved populations in every Bluegrass county — 35-50% in the core hemp counties.",
+        "court_evidence": "Lexington slave trade records, bills of sale, and court cases document the trade. Cheapside, the Lexington market square, was a major slave auction site."
+      },
+      "chain_mechanics": {
+        "description": "The domestic slave trade moved enslaved people in two directions: from the Upper South (Virginia, Maryland) INTO the Bluegrass to work hemp farms, and from the Bluegrass southward to the Deep South cotton states when planters sold 'surplus' workers. The Lexington slave market was one of the largest in the Upper South. Enslaved people had no choice in these movements — they were sold as property, and the separation of families was systematic. The threat of being 'sold down the river' (south to the cotton states) was the most terrifying possibility in enslaved life.",
+        "kinship_role": "Enslaved kinship networks were repeatedly shattered by the trade. Families separated at auction were sometimes reunited after emancipation, but many were lost permanently.",
+        "timeline": "Continuous from 1790 to 1865. Peak importation into the Bluegrass 1800-1840 (hemp boom). Peak exportation to the Deep South 1830-1860 (cotton boom)."
+      },
+      "narrative_hook": "If {ancestor_name} was enslaved in the Bluegrass, the domestic slave trade was the constant threat — sold at Cheapside in Lexington, separated from family, and shipped south to the cotton states. The hemp economy that made the Bluegrass wealthy was fed by this trade.",
+      "source": "Lucas, A History of Blacks in Kentucky, vol. 1 (1992). Hopkins, A History of the Hemp Industry (1951)."
+    },
+    {
+      "corridor_id": "great_migration_ky_north",
+      "corridor_name": "Great Migration from the KY Bluegrass to Northern Cities",
+      "origin_counties": ["Fayette", "Bourbon", "Clark", "Madison", "Jessamine", "Woodford", "Scott", "Mercer"],
+      "destination_area": "Cincinnati OH, Columbus OH, Indianapolis IN, Detroit MI, Louisville KY, Chicago IL",
+      "era": "1890-1960",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of Black families left the Bluegrass over three generations. The Black population in Bluegrass counties stagnated or declined relative to natural increase as out-migration drained the community. Cincinnati and Columbus were the primary first-generation destinations because of proximity.",
+      "evidence": {
+        "census_evidence": "1910-1960 census for Cincinnati, Columbus, and Indianapolis shows significant concentrations of Kentucky-born Black residents with Bluegrass county birthplaces.",
+        "church_evidence": "Black Baptist and AME churches in Bluegrass counties record membership losses. Northern destination churches show Kentucky-origin members."
+      },
+      "chain_mechanics": {
+        "description": "The geographic advantage of the Bluegrass was proximity to the North — Cincinnati was a day's train ride from Lexington. The push factors were severe: racial violence, Jim Crow segregation, the Day Law (1904) that segregated education, economic exclusion from the best horse-industry and farming positions, and tenant farming's declining returns. The pull factors were industrial employment in Cincinnati's meatpacking and manufacturing plants, Columbus's steel mills, and Detroit's auto factories. Kentucky's Great Migration was earlier and more gradual than the Deep South's because the distance was shorter.",
+        "kinship_role": "Church networks were as important as family connections. AME and Baptist church ties channeled migrants to specific congregations in Cincinnati and Columbus that served as landing pads.",
+        "timeline": "Trickle 1890-1916; first significant wave 1917-1920 (WWI); sustained 1920-1940; second surge 1942-1955 (WWII); continued 1955-1960."
+      },
+      "narrative_hook": "When {ancestor_name} boarded the train in Lexington heading north to Cincinnati in {year}, the Ohio River was only ninety miles away — close enough that coming back for Christmas was possible, far enough that the Jim Crow signs disappeared at the state line.",
+      "source": "Lucas, A History of Blacks in Kentucky, vol. 1 (1992). Gregory, James N. The Southern Diaspora. Chapel Hill: University of North Carolina Press, 2005."
+    },
+    {
+      "corridor_id": "bluegrass_west_push",
+      "corridor_name": "Bluegrass to Points West: Missouri, Indiana, Illinois",
+      "origin_counties": ["Fayette", "Bourbon", "Clark", "Madison", "Jessamine", "Woodford", "Scott", "Mercer"],
+      "destination_area": "Central Missouri (Boone, Howard, Cooper counties), Southern Indiana (Floyd, Harrison, Clark), Central Illinois (Sangamon, Macon)",
+      "era": "1800-1860",
+      "migration_type": "chain_migration",
+      "scale": "Thousands of white families who were shut out of the best Bluegrass land pushed west into Missouri, Indiana, and Illinois. The Missouri Boone's Lick country was settled heavily from the Kentucky Bluegrass — Boone County, Missouri, was named for Daniel Boone, who moved there.",
+      "evidence": {
+        "census_evidence": "1830-1860 census for central Missouri counties shows overwhelming Kentucky-origin populations with Bluegrass county birthplaces.",
+        "church_evidence": "Baptist and Presbyterian church records in central Missouri trace to Kentucky Bluegrass congregations.",
+        "surname_clustering": "Kentucky Bluegrass surnames dominate the early records of central Missouri and southern Indiana."
+      },
+      "chain_mechanics": {
+        "description": "The Bluegrass land system created an outward push from its earliest days. Virginia military warrants concentrated the best land in the hands of the planter class. Families who arrived too late, whose claims were contested, or whose small holdings could not compete with the great estates moved west — to Missouri, Indiana, Illinois, and beyond. Daniel Boone himself moved to Missouri. This westward push from the Bluegrass seeded the next tier of trans-Mississippi settlement.",
+        "kinship_role": "Kinship clusters moved together, replicating the Bluegrass settlement pattern. Families that moved from Fayette County to Boone County, Missouri, often moved as groups — siblings, in-laws, and church neighbors.",
+        "timeline": "Began 1800; peaked 1820-1840; continued through 1860."
+      },
+      "narrative_hook": "The best Bluegrass land was already taken when {ancestor_name}'s family arrived — so they kept going, west across the Ohio or the Mississippi, carrying the farming knowledge and the church connections from the Bluegrass into country that was not yet spoken for.",
+      "source": "Aron, How the West Was Lost (1996). Clark, A History of Kentucky (1960)."
+    }
+  ],
+  "internal_movement_patterns": [
+    {
+      "pattern_id": "inter_county_horse_industry",
+      "pattern_name": "Inter-County Movement in the Horse Industry",
+      "description": "Horse industry workers — trainers, grooms, jockeys, exercise riders — moved between farms across the Bluegrass counties following employment and racing seasons. Black horsemen, who dominated early American horse racing, moved along these networks until Jim Crow exclusion pushed them out in the early 1900s.",
+      "era": "1800-1960",
+      "counties_affected": ["Fayette", "Bourbon", "Woodford", "Scott"],
+      "narrative_hook": "The horse industry moved {ancestor_name} across the Bluegrass with the seasons — training at one farm, racing at another, and the next job always a county or two away."
+    },
+    {
+      "pattern_id": "tenant_mobility",
+      "pattern_name": "Tenant Farmer Mobility Between Farms",
+      "description": "Tobacco tenant farmers moved between farms within and across Bluegrass counties, seeking better terms, less depleted soil, or a landlord who would advance better credit. Annual tenant agreements expired at year-end, and families moved every few years.",
+      "era": "1870-1960",
+      "counties_affected": ["Fayette", "Bourbon", "Clark", "Madison", "Jessamine", "Woodford", "Scott", "Mercer"],
+      "narrative_hook": "A family that appeared on three different farms in ten years was not unstable — {ancestor_name} was a tenant farmer in the Bluegrass, and moving when the lease expired was the only leverage a tenant had."
+    }
+  ],
+  "settlement_clusters": [
+    {
+      "cluster_name": "Lexington East End Black community",
+      "counties": ["Fayette"],
+      "description": "After emancipation, Lexington's Black community concentrated in the east end of the city — forming churches, schools, and businesses that served a community excluded from the white commercial district.",
+      "era": "1865-1960"
+    },
+    {
+      "cluster_name": "Camp Nelson freedpeople's settlement",
+      "counties": ["Jessamine"],
+      "description": "After the Civil War, a community of formerly enslaved people formed at the Camp Nelson site. The community had churches, schools, and family networks but faced pressure from surrounding white landowners and declined over time.",
+      "era": "1865-1920"
+    },
+    {
+      "cluster_name": "Cincinnati Kentucky-origin Black community",
+      "counties": ["Hamilton (OH)"],
+      "description": "Cincinnati's West End and other neighborhoods received large numbers of Black migrants from the Kentucky Bluegrass. Churches, social organizations, and kinship networks connected the Cincinnati community to Bluegrass origins.",
+      "era": "1890-1960"
+    }
+  ],
+  "narrative_hooks": [
+    "The Wilderness Road brought {ancestor_name}'s people from Virginia into the Bluegrass — through Cumberland Gap, past the forts, and onto limestone soil that was already claimed by the time most settlers arrived.",
+    "The domestic slave trade moved through Lexington like a river of stolen people — {ancestor_name} may have been bought at Cheapside, sold at Cheapside, or lived in fear of being sold south.",
+    "Cincinnati was a day's train ride from the Bluegrass — close enough to visit, far enough to escape Jim Crow. {ancestor_name} followed the rails that ten thousand other Bluegrass Black families had followed before.",
+    "The Bluegrass was a place people left as well as arrived — {ancestor_name}'s family may have been among the thousands who pushed west to Missouri or Indiana when the best Kentucky land was spoken for.",
+    "The horse industry moved people across county lines like the horses themselves — {ancestor_name} followed the work from farm to farm, county to county, in a Bluegrass labor market that did not respect county boundaries."
+  ],
+  "source_references": [
+    "Aron, Stephen. How the West Was Lost. Baltimore: Johns Hopkins University Press, 1996.",
+    "Clark, Thomas D. A History of Kentucky. Lexington: John Bradford Press, 1960.",
+    "Harrison, Lowell H., and James C. Klotter. A New History of Kentucky. Lexington: University Press of Kentucky, 1997.",
+    "Lucas, Marion B. A History of Blacks in Kentucky, vol. 1. Frankfort: Kentucky Historical Society, 1992.",
+    "Gregory, James N. The Southern Diaspora. Chapel Hill: University of North Carolina Press, 2005.",
+    "Hopkins, James F. A History of the Hemp Industry in Kentucky. Lexington: University of Kentucky Press, 1951."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["scots_irish_frontier", "great_migration", "domestic_slave_trade", "civil_war_service", "gi_bill_migration", "stayed_and_adapted"],
+    "route_refs": ["wilderness_road_cumberland_gap"],
+    "community_texture_refs": ["appalachian_mountain_community", "eastern_nc_farm_community"]
+  }
+}

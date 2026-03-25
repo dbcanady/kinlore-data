@@ -1,0 +1,139 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the OH Miami Valley regional cluster. Documents how transportation shaped settlement, commerce, and migration from the Treaty of Greenville through the highway era. The Miami Valley was settled by river and trail, commercialized by canal, industrialized by railroad, and suburbanized by automobile.",
+  "connectivity_id": "oh_miami_valley_roads",
+  "display_name": "OH Miami Valley — Road & Connectivity Network",
+  "cluster_ref": "oh_miami_valley",
+  "era_range": "1795-1960",
+  "transportation_eras": [
+    {
+      "era_id": "frontier_trails",
+      "era_name": "Frontier Trails and River Crossings",
+      "date_range": "1795-1830",
+      "primary_modes": ["wagon on unimproved trace", "horseback", "river ford", "foot"],
+      "description": "The Miami Valley was settled along trail networks that followed the river valleys — the Great Miami, Stillwater, Mad River, and Little Miami corridors served as the natural highways. The old Shawnee and Miami trails became the first roads. The Zane's Trace (1796-97) crossed through the eastern edge of the cluster, connecting Wheeling to Limestone (Maysville, KY). Early roads were unimproved — ruts through the forest or across the till plain, impassable in wet weather. River crossings were at established fords; ferries appeared as settlement grew. Most settlers arrived via the Ohio River, then traveled north into the valley on horseback or by wagon. Virginia Military District warrant holders arrived from Kentucky and Virginia.",
+      "road_conditions": "Unimproved dirt and clay. Passable in dry weather, treacherous in wet. The flat till plains were easier than hill country but the clay soils turned to deep mud after rain. Corduroy roads (log surfaces) were built in the worst sections.",
+      "travel_times": [
+        { "from": "Cincinnati", "to": "Dayton", "mode": "wagon", "time": "3-4 days", "conditions_note": "Approximately 55 miles on unimproved road through forest and till plain" },
+        { "from": "Dayton", "to": "Springfield", "mode": "horseback", "time": "1 day", "conditions_note": "Approximately 25 miles following the Mad River valley" },
+        { "from": "Typical farm", "to": "Nearest county seat", "mode": "wagon", "time": "3-8 hours one way", "conditions_note": "Counties were large; remote farms could be a full day from the courthouse" }
+      ],
+      "key_routes": [
+        { "route_name": "Great Miami River corridor", "type": "river valley trail", "year_established": "1795-1800", "description": "The primary north-south corridor through the cluster. Settlers followed the river valley from Cincinnati northward through Hamilton, Dayton, Troy, and Piqua. Every significant town in the valley was located on this corridor.", "counties_served": ["Butler", "Montgomery", "Miami"] },
+        { "route_name": "Mad River trail (Dayton to Springfield)", "type": "river valley trail", "year_established": "1799-1805", "description": "Connected Dayton to Springfield and beyond. The Mad River's clear water and broad valley made it a natural travel corridor.", "counties_served": ["Montgomery", "Clark", "Greene", "Champaign"] },
+        { "route_name": "Zane's Trace extension", "type": "improved trace", "year_established": "1796-1797", "description": "Ebenezer Zane's federally authorized road from Wheeling to Maysville crossed the eastern edge of the cluster. Not the primary route into the Miami Valley but connected it to the Ohio River crossing system.", "counties_served": ["Greene"] }
+      ],
+      "isolation_index": {
+        "description": "High in the earliest years (1795-1810), declining rapidly as settlement filled the valley. By 1820, the major river valley corridors were reasonably well-traveled, but farms on the uplands away from the river valleys remained a day's ride from town.",
+        "comparative_note": "Less isolated than the upper Great Lakes frontier but more so than the Ohio River towns. The flat terrain made road building easier than in Appalachian Ohio."
+      },
+      "narrative_hook": "{ancestor_name} followed the Great Miami valley north from Cincinnati — the trail was the same one the Miami people had used, widened now by settler wagons and marked by stumps where the forest had been cut back just far enough to let a team through.",
+      "source": "Hurt, R. Douglas. The Ohio Frontier. Indiana University Press, 1996."
+    },
+    {
+      "era_id": "canal_era",
+      "era_name": "Canal Era: The Miami and Erie Canal",
+      "date_range": "1825-1860",
+      "primary_modes": ["canal boat", "wagon on improved road", "horseback", "National Road (stagecoach)"],
+      "description": "The Miami and Erie Canal was the transformative infrastructure of this era. Completed in segments — reaching Dayton in 1829, Troy in 1837, Piqua by 1845, and eventually connecting Cincinnati to Toledo on Lake Erie — the canal turned the Miami Valley from a frontier agricultural region into a commercial one. Simultaneously, the National Road (Cumberland Road) — the first federally funded highway — reached Springfield in the late 1830s, crossing the cluster east-west while the canal ran north-south. The intersection of these two transportation systems at Dayton created a natural commercial hub. Canal boats moved freight at 2-4 mph but could carry enormous loads; packet boats carried passengers in relative comfort. Improved turnpike roads connected county seats and provided feeder routes to canal landings.",
+      "road_conditions": "Improved turnpikes (macadamized or graveled) between major towns. The National Road was Ohio's best road — macadamized surface, maintained by the state. Secondary roads remained unimproved dirt and clay.",
+      "travel_times": [
+        { "from": "Cincinnati", "to": "Dayton", "mode": "canal packet", "time": "1.5-2 days", "conditions_note": "Canal speed approximately 4 mph for passenger packets; slower for freight" },
+        { "from": "Dayton", "to": "Piqua", "mode": "canal boat", "time": "8-12 hours", "conditions_note": "Approximately 30 miles with multiple locks" },
+        { "from": "Springfield", "to": "Columbus", "mode": "National Road stagecoach", "time": "8-10 hours", "conditions_note": "Approximately 45 miles on the best road in Ohio" },
+        { "from": "Dayton", "to": "Springfield", "mode": "improved turnpike", "time": "4-5 hours by wagon", "conditions_note": "The two cities were connected by an improved road following the Mad River valley" }
+      ],
+      "key_routes": [
+        { "route_name": "Miami and Erie Canal", "type": "canal", "year_established": "1829 (Dayton segment)", "description": "The primary commercial artery. Connected Cincinnati to Dayton, then north to Piqua, and eventually to Toledo. Every town on the canal grew; towns bypassed by it stagnated. Canal basins at Dayton, Troy, and Piqua were the commercial centers.", "counties_served": ["Butler", "Montgomery", "Miami"] },
+        { "route_name": "National Road (US Route 40)", "type": "federal highway", "year_established": "1838 (Springfield)", "description": "The first federally funded highway crossed Clark County east-west through Springfield, connecting the Miami Valley to Columbus, Wheeling, and Baltimore. The road defined Springfield's identity as a crossroads town.", "counties_served": ["Clark", "Montgomery"] },
+        { "route_name": "Dayton-Cincinnati turnpike", "type": "improved turnpike", "year_established": "1830s", "description": "Improved road paralleling the canal along the Great Miami. Carried local traffic that did not warrant canal freight rates.", "counties_served": ["Montgomery", "Butler"] }
+      ],
+      "isolation_index": {
+        "description": "Dramatically reduced along the canal and National Road corridors. Dayton and Springfield were among the best-connected cities in Ohio. But farms on the uplands more than five miles from a canal landing or turnpike remained a half-day from commercial transportation.",
+        "comparative_note": "The canal and National Road put the Miami Valley on par with the best-connected regions in the Old Northwest."
+      },
+      "narrative_hook": "The canal changed everything — {ancestor_name}'s wheat could now reach Cincinnati in two days instead of two weeks, and the price difference between a bushel sold at the farm gate and a bushel sold at the canal basin was the difference between subsistence and prosperity.",
+      "source": "Scheiber, Harry N. Ohio Canal Era. Ohio University Press, 1969. Raitz, Karl, ed. The National Road. Johns Hopkins University Press, 1996."
+    },
+    {
+      "era_id": "railroad_era",
+      "era_name": "Railroad Network and Industrial Connectivity",
+      "date_range": "1850-1920",
+      "primary_modes": ["railroad", "wagon on improved road", "horseback", "interurban electric railway (after 1900)"],
+      "description": "Railroads replaced the canal as the primary commercial transportation system by the 1860s. The Miami Valley's central location in Ohio's railroad network made it a natural convergence point — multiple lines radiated from Dayton to Cincinnati, Columbus, Indianapolis, Toledo, and intermediate cities. The Little Miami Railroad (1846) was the first line in the cluster. By 1870, every county seat had rail service. The interurban electric railway network (1900-1930s) connected the valley's cities with frequent, cheap service — the Dayton-Springfield interurban was one of the busiest in the nation. Railroads determined which towns grew (those on the main lines) and which stagnated (those bypassed). The railroad made Dayton's manufacturing economy possible — raw materials in, finished goods out, at volumes the canal could never have handled.",
+      "road_conditions": "County roads improved but still largely unpaved outside of town. Urban streets in Dayton, Springfield, and Hamilton were paved or macadamized. The contrast between railroad-connected and road-dependent remained sharp.",
+      "travel_times": [
+        { "from": "Dayton", "to": "Cincinnati", "mode": "railroad", "time": "1.5-2 hours", "conditions_note": "Multiple daily trains on competing lines" },
+        { "from": "Dayton", "to": "Springfield", "mode": "interurban electric", "time": "45 minutes", "conditions_note": "Frequent service, cheap fare. The interurban made the two cities function as a single labor market." },
+        { "from": "Dayton", "to": "Columbus", "mode": "railroad", "time": "2-3 hours", "conditions_note": "Direct service via multiple lines" },
+        { "from": "Dayton", "to": "Indianapolis", "mode": "railroad", "time": "3-4 hours", "conditions_note": "Direct service; Dayton was a natural junction between eastern and western lines" }
+      ],
+      "key_routes": [
+        { "route_name": "Little Miami Railroad (Cincinnati-Xenia-Springfield)", "type": "railroad", "year_established": 1846, "description": "First railroad in the cluster. Followed the Little Miami valley from Cincinnati through Warren and Greene counties to Springfield. Replaced the canal as the primary link to Cincinnati.", "counties_served": ["Warren", "Greene", "Clark"] },
+        { "route_name": "Dayton & Michigan Railroad", "type": "railroad", "year_established": "1850s", "description": "Connected Dayton north to Troy, Piqua, and eventually Toledo, replacing the canal's north-south corridor.", "counties_served": ["Montgomery", "Miami"] },
+        { "route_name": "Dayton-Springfield Interurban", "type": "electric interurban", "year_established": "1900-1901", "description": "Electric railway connecting Dayton and Springfield with frequent service. Part of a statewide interurban network that made Ohio the most interconnected state in the nation.", "counties_served": ["Montgomery", "Clark"] },
+        { "route_name": "Cincinnati-Hamilton-Dayton Railroad", "type": "railroad", "year_established": "1850s", "description": "Connected Hamilton and Dayton to Cincinnati along the Great Miami valley. Made Hamilton's paper mills viable as shippers.", "counties_served": ["Butler", "Montgomery"] }
+      ],
+      "isolation_index": {
+        "description": "Very low along the railroad and interurban corridors. Dayton was one of the best-connected cities in the Midwest — a natural junction for east-west and north-south traffic. Rural areas more than 3-5 miles from a depot remained dependent on horse and wagon.",
+        "comparative_note": "By 1910, the Miami Valley's railroad and interurban network was among the densest in the nation. The interurban system made daily commuting between cities feasible for the first time."
+      },
+      "narrative_hook": "The railroad made Dayton a hub — {ancestor_name} could reach Cincinnati, Columbus, Indianapolis, or Toledo in a few hours, and the interurban connected the valley's cities so tightly that a worker could live in one town and punch a clock in another.",
+      "source": "Drury, History of Dayton (1909). Middleton, William D. The Interurban Era. Milwaukee: Kalmbach Publishing, 1961."
+    },
+    {
+      "era_id": "highway_and_aviation",
+      "era_name": "Highway Era and Aviation Infrastructure",
+      "date_range": "1920-1960",
+      "primary_modes": ["automobile", "truck", "bus", "railroad", "air (Wright-Patterson)"],
+      "description": "The automobile and paved highways transformed the Miami Valley by ending the railroad's monopoly on speed and the interurban's monopoly on suburban connectivity. US Route 40 (following the old National Road) and US Route 25 (following the Great Miami corridor) were the primary highways. State highway construction in the 1920s-1930s paved connections between county seats. The most significant infrastructure impact was Wright-Patterson Air Force Base — the aviation facilities that grew from the Wright Brothers' Huffman Prairie experiments became the valley's largest employer and reshaped its geography. Suburban development followed the highway corridors south and east of Dayton. The interurban system collapsed in the 1930s as automobile competition destroyed its ridership.",
+      "road_conditions": "US and state highways paved by the 1930s. County roads improved but many remained unpaved into the 1940s. The postwar highway program (pre-Interstate) widened and improved the main corridors.",
+      "travel_times": [
+        { "from": "Dayton", "to": "Cincinnati", "mode": "automobile via US 25", "time": "1-1.5 hours", "conditions_note": "Two-lane highway; the drive was feasible for day trips and shopping" },
+        { "from": "Dayton", "to": "Springfield", "mode": "automobile via US 40", "time": "30-45 minutes", "conditions_note": "The National Road corridor made the two cities functionally one metropolitan area" },
+        { "from": "Fairborn", "to": "Wright-Patterson main gate", "mode": "automobile", "time": "10-15 minutes", "conditions_note": "The entire purpose of Fairborn was proximity to the base" },
+        { "from": "Eaton", "to": "Dayton", "mode": "automobile", "time": "45 minutes", "conditions_note": "Preble County farmers could reach Dayton for supplies in under an hour for the first time" }
+      ],
+      "key_routes": [
+        { "route_name": "US Route 40 (National Road)", "type": "US highway", "year_established": 1926, "description": "The automobile successor to the National Road. Crossed the cluster east-west through Springfield and Dayton. The most important east-west highway in the valley.", "counties_served": ["Clark", "Montgomery", "Preble"] },
+        { "route_name": "US Route 25 (Great Miami corridor)", "type": "US highway", "year_established": 1926, "description": "Followed the Great Miami valley from Cincinnati through Hamilton, Dayton, Troy, and Piqua. The automobile successor to the canal and railroad corridor.", "counties_served": ["Butler", "Montgomery", "Miami"] },
+        { "route_name": "US Route 35 (Dayton-Xenia-Washington Court House)", "type": "US highway", "year_established": 1926, "description": "Connected Dayton east through Greene County and beyond. The primary highway past Wright-Patterson AFB.", "counties_served": ["Montgomery", "Greene"] },
+        { "route_name": "Wright-Patterson AFB access roads", "type": "military/civilian road system", "year_established": "1940s-1950s", "description": "The base's expansion required new access roads that reshaped traffic patterns across eastern Montgomery and western Greene counties.", "counties_served": ["Montgomery", "Greene"] }
+      ],
+      "isolation_index": {
+        "description": "Very low across the entire cluster by 1950. The automobile and paved roads ended the isolation that had defined the rural uplands. Even the most remote farms in Preble and Champaign counties were within an hour of Dayton.",
+        "comparative_note": "By 1950, the Miami Valley was one of the best-connected regions in the Midwest — the highway network, Wright-Patterson, and the remaining railroad service provided connectivity rivaling any metropolitan area."
+      },
+      "narrative_hook": "The automobile turned the Miami Valley into a metropolitan area without anyone drawing the boundary — {ancestor_name} could live in Eaton and work in Dayton, live in Lebanon and shop in Cincinnati, and the highways that made it possible were built on the same corridors the canal boats had followed a century before.",
+      "source": "Raitz, The National Road (1996). Walker and Wickam, From Huffman Prairie to the Moon (1986)."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1846, "event": "Little Miami Railroad reaches Xenia and Springfield", "impact": "First railroad in the cluster. Connected Greene and Clark counties to Cincinnati." },
+    { "year": 1851, "event": "Dayton & Michigan Railroad opens", "impact": "Connected Dayton north to Troy and Piqua, replacing the canal corridor." },
+    { "year": 1853, "event": "Cincinnati, Hamilton & Dayton Railroad completed", "impact": "Connected Hamilton and Dayton to Cincinnati along the Great Miami valley." },
+    { "year": 1863, "event": "Atlantic & Great Western Railway reaches Dayton", "impact": "Connected Dayton to the East Coast via a broad-gauge line." },
+    { "year": 1901, "event": "Dayton-Springfield interurban opens", "impact": "Electric railway connected the two cities with frequent, cheap service — part of Ohio's statewide interurban network." },
+    { "year": 1937, "event": "Last interurban service in the valley discontinued", "impact": "Automobile competition destroyed interurban ridership. The era of electric railway connectivity ended." }
+  ],
+  "narrative_hooks": [
+    "The canal made the Miami Valley commercial, the railroad made it industrial, and the highway made it metropolitan — {ancestor_name} lived through at least one of those transformations.",
+    "The interurban connected Dayton and Springfield so tightly that a worker could live in one city and punch a clock in the other — {ancestor_name} commuted on electric rails that made the valley feel smaller than it was.",
+    "Wright-Patterson did not just employ people — it reshaped the roads, the suburbs, and the daily geography of everyone within twenty miles. {ancestor_name}'s commute was determined by a base that was determined by the Wright Brothers.",
+    "The National Road and US 40 followed the same corridor through Springfield that stagecoaches had used in 1840 — {ancestor_name} drove a highway that was layered on top of a century of travelers going the same direction.",
+    "The canal basin at Dayton was the center of the city's commerce for thirty years — by {year}, {ancestor_name} could still see where the basin had been, filled in now and built over, but the warehouses that had lined it still stood."
+  ],
+  "source_references": [
+    "Scheiber, Harry N. Ohio Canal Era: A Case Study of Government and the Economy, 1820-1861. Athens: Ohio University Press, 1969.",
+    "Raitz, Karl, ed. The National Road. Baltimore: Johns Hopkins University Press, 1996.",
+    "Middleton, William D. The Interurban Era. Milwaukee: Kalmbach Publishing, 1961.",
+    "Drury, Augustus Waldo. History of the City of Dayton and Montgomery County, Ohio. 2 vols. Chicago: S. J. Clarke, 1909.",
+    "Walker, Lois E., and Shelby E. Wickam. From Huffman Prairie to the Moon. Dayton: Air Force Logistics Command, 1986.",
+    "Hurt, R. Douglas. The Ohio Frontier. Bloomington: Indiana University Press, 1996."
+  ],
+  "nel_cross_references": {
+    "route_refs": ["national_road", "ohio_erie_canal"],
+    "trigger_refs": ["industrial_revolution", "gi_bill_migration", "appalachian_out_migration"]
+  }
+}

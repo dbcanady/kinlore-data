@@ -1,0 +1,69 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Cass County, TX. Record survival and courthouse history. Cass County records date from 1846 organization. No major fire losses. Marion County was carved from Cass in 1860 — early Jefferson-area records are here.",
+  "courthouse_atlas_id": "tx_cass_courthouse",
+  "display_name": "Cass County, Texas — Courthouse Atlas",
+  "county": "Cass",
+  "state": "TX",
+  "fips_code": "48067",
+  "cluster_ref": "tx_east_piney_woods",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1933, "location": "Linden, TX — courthouse square", "records_housed": ["deeds", "plats", "marriage licenses", "probate records", "court minutes"] },
+    "previous_courthouses": [
+      { "era": "1846–1870s", "location": "Linden, frame courthouse", "fate": "Served early period. Replaced." },
+      { "era": "1870s–1933", "location": "Linden, brick courthouse", "fate": "No significant fire damage. Replaced by current WPA-era building." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "cass_no_major_loss", "date": null, "cause": "No major fire or destruction",
+      "records_destroyed": [], "records_survived": ["deed books", "marriage records", "probate files", "court minutes"],
+      "scope": "none",
+      "description": "Cass County's courthouse has not experienced a major fire. Records are continuous from county organization in 1846. Important note: Cass County originally included what is now Marion County. Records for the Jefferson area from 1846 to 1860 (when Marion County was created) are in Cass County's files.",
+      "narrative_impact": "Cass County's records are intact from 1846. If {ancestor_name} was in the Jefferson area before 1860, the records are here at the Linden courthouse, not in Marion County.",
+      "source": "Texas State Library and Archives Commission. County Records Inventory."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1846, "completeness": "Good from county organization. Includes pre-1860 deeds for the Jefferson/Marion County area.", "gaps": "No known gaps.", "repository": "Cass County Clerk, Linden", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1846, "completeness": "Good.", "gaps": "None significant.", "repository": "Cass County Clerk", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1846, "completeness": "Good.", "gaps": "None significant.", "repository": "Cass County Clerk", "online_access": "FamilySearch; Ancestry.com TX marriages" },
+    "court_minutes": { "earliest_surviving": 1846, "completeness": "Good.", "gaps": "None significant.", "repository": "Cass County Clerk", "online_access": "FamilySearch microfilm" },
+    "vital_records": { "birth_registration_start": 1903, "death_registration_start": 1903, "completeness": "Spotty before 1910.", "repository": "Texas Department of State Health Services" }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1850–1940. The 1850 census includes the Jefferson area (before Marion County was created). Slave schedules (1850, 1860) list slaveholders.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1850–1940",
+      "genealogical_value": "Essential for tracking families. The 1850 Cass County census includes the Jefferson area, making it critical for families who later appear in Marion County records.",
+      "source": "National Archives and Records Administration."
+    },
+    {
+      "source_type": "Iron furnace records",
+      "description": "Records from the Hughes Iron Works and other Cass County iron operations are fragmentary but some survive. They document the antebellum industrial workforce.",
+      "repository": "East Texas Research Center, SFA; private collections",
+      "era_coverage": "1847–1870",
+      "genealogical_value": "Documents ironworkers — both enslaved and free — in one of the few industrial operations in antebellum East Texas.",
+      "source": "Dunn, 'Iron Making in Nineteenth-Century East Texas.'"
+    }
+  ],
+  "narrative_hooks": [
+    "Cass County's records include the Jefferson area from 1846 to 1860 — if {ancestor_name} was in Jefferson before Marion County was created, the deeds and court records are in Linden, not Jefferson.",
+    "The Cass County courthouse has no major fire losses — {ancestor_name}'s records from 1846 onward are almost certainly preserved.",
+    "Texas vital records start in 1903 and were unreliable in rural areas until ~1910 — the absence of a birth record for {ancestor_name} in Cass County before that date is standard.",
+    "If {ancestor_name} worked at the Hughes Iron Works, court records and census schedules are the primary documentation — the furnace's own records are fragmentary."
+  ],
+  "source_references": [
+    "Texas State Library and Archives Commission. County Records Inventory.",
+    "Dunn, Jeff. 'Iron Making in Nineteenth-Century East Texas.' East Texas Historical Journal 33, no. 1 (1995).",
+    "Works Progress Administration. Historical Records Survey: Texas County Records. Austin, 1937–1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "tx_cass",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

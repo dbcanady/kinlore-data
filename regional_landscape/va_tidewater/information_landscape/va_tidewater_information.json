@@ -1,0 +1,102 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Information Landscape Profile for the Virginia Tidewater cluster. How news, ideas, and information traveled through the Tidewater from 1607 through 1870 — from ship news to tavern talk to the Virginia Gazette to telegraph.",
+  "information_id": "va_tidewater_information",
+  "display_name": "Virginia Tidewater — Information Landscape Profile",
+  "cluster_ref": "va_tidewater",
+  "state": "VA",
+  "era_range": "1607–1870",
+  "information_eras": [
+    {
+      "era": "1607–1700",
+      "era_name": "Ship News, Tavern Talk, and the Pulpit",
+      "description": "Information in the early Tidewater traveled at the speed of a ship or a horse. News from England arrived with tobacco ships — six to twelve weeks old by the time it reached Virginia. Local news traveled through the parish church (where the minister read government proclamations from the pulpit), the courthouse on court day (where the clerk posted official notices), and the tavern (where gossip traveled faster than any official channel). The Powhatan people maintained their own information networks through runners and council meetings, but these were invisible to the English record.",
+      "primary_channels": ["ship arrivals with English news and letters", "Anglican parish church — pulpit announcements", "courthouse — posted proclamations on court day", "tavern and ordinary conversation", "plantation-to-plantation visits by the gentry"],
+      "literacy_rate": "Variable. Gentry families were literate; yeoman literacy was uneven; indentured servants and enslaved people were largely excluded from written communication. The vestry and court records were written instruments for a population that conducted most business by spoken agreement.",
+      "information_lag": "London news reached Virginia in 6-12 weeks. News from neighboring colonies arrived in 1-2 weeks. Local news within a county traveled in 1-3 days.",
+      "source": "Isaac, Rhys. The Transformation of Virginia, 1740-1790. Chapel Hill: UNC Press, 1982."
+    },
+    {
+      "era": "1700–1780",
+      "era_name": "The Virginia Gazette and Colonial Print Culture",
+      "description": "The Virginia Gazette, first published in Williamsburg in 1736, was the colony's newspaper and the first sustained print information source. It published government proclamations, ship arrivals, runaway slave advertisements, estate sales, land notices, and English and colonial news. Court day remained the primary gathering point for information exchange — the county courthouse on court day was a market, a social gathering, a news exchange, and a legal proceeding all at once. The gentry exchanged letters carried by personal servants or post riders.",
+      "primary_channels": ["Virginia Gazette (Williamsburg, from 1736)", "court day gatherings", "parish church announcements", "personal correspondence (gentry)", "tavern networks", "post riders (irregular)"],
+      "newspapers": [
+        {
+          "name": "Virginia Gazette",
+          "location": "Williamsburg",
+          "dates": "1736–1780 (multiple printers, sometimes competing editions)",
+          "description": "The colony's newspaper. Published weekly. Contained government proclamations, runaway slave advertisements, estate sale notices, ship news, and political essays. Essential genealogical source for advertisements naming specific individuals.",
+          "genealogical_value": "Runaway advertisements describe enslaved people by name, age, skills, and appearance — often the only individualized descriptions of enslaved people in the colonial record. Estate sale notices list property and sometimes identify heirs. Land sale advertisements describe boundaries."
+        }
+      ],
+      "literacy_rate": "Improving but still stratified. Gentry and middling whites were increasingly literate. Yeoman literacy varied. Enslaved people were largely denied access to literacy, though some acquired it informally.",
+      "information_lag": "London news: 4-8 weeks. Philadelphia/Boston news: 1-2 weeks. Local county news: 1-3 days. The Virginia Gazette reached subscribers within a week of publication.",
+      "source": "Isaac, The Transformation of Virginia (1982); Bailyn, Bernard. The Ideological Origins of the American Revolution. Cambridge: Harvard University Press, 1967."
+    },
+    {
+      "era": "1780–1860",
+      "era_name": "Richmond Press, Mail Service, and the Telegraph",
+      "description": "The capital's move to Richmond shifted the center of print culture. Richmond newspapers — the Enquirer (1804), the Whig (1824), and others — replaced the Virginia Gazette as the primary news sources. The U.S. Postal Service established post offices throughout the Tidewater, improving the reliability of mail delivery. The telegraph reached Richmond in the 1840s and connected Virginia to the national news network. Williamsburg became a quiet college town; the information hub moved upriver with the government.",
+      "primary_channels": ["Richmond newspapers (multiple dailies and weeklies)", "U.S. mail service (regular routes)", "telegraph (from 1840s, Richmond connection)", "court day gatherings (continuing)", "church networks", "steamboat passengers carrying news"],
+      "newspapers": [
+        {
+          "name": "Richmond Enquirer",
+          "location": "Richmond",
+          "dates": "1804–1877",
+          "description": "The dominant Richmond newspaper for much of the antebellum period. Democratic-leaning. Published political news, legal notices, slave sale advertisements, and commercial information."
+        },
+        {
+          "name": "Richmond Whig",
+          "location": "Richmond",
+          "dates": "1824–1888",
+          "description": "The primary Whig (and later Republican) newspaper. Competed with the Enquirer for political influence."
+        }
+      ],
+      "mail_service": {
+        "description": "Post offices established in most Tidewater counties by 1820. Mail routes followed the main roads and river routes. Weekly or bi-weekly delivery in rural areas; daily in Richmond.",
+        "post_offices_in_cluster": "Each county had at least one post office by 1830. Larger counties had multiple offices at crossroads and courthouse villages."
+      },
+      "telegraph": {
+        "arrival_date": "1840s (Richmond); 1850s extension to other Tidewater points",
+        "impact": "The telegraph transformed information speed for those who could access it — news from Washington or New York that had taken days by mail now arrived in minutes. But telegraph stations were in towns, not on farms; rural families still depended on mail and word of mouth."
+      },
+      "information_lag": "National news: same day (telegraph) to 1-2 days (newspaper). Local county news: 1-3 days. Rural isolation meant that families on remote farms might not learn of major events for days after they occurred.",
+      "source": "Howe, Daniel Walker. What Hath God Wrought: The Transformation of America, 1815-1848. Oxford University Press, 2007."
+    },
+    {
+      "era": "1860–1870",
+      "era_name": "Wartime Information and Freedmen's Networks",
+      "description": "The Civil War created competing information systems. Confederate Richmond published newspapers under government censorship. Union-occupied areas received Northern newspapers. The 'grapevine telegraph' — the informal communication network of enslaved and free Black people — carried news of Union advances, emancipation, and the war's progress faster than any newspaper in some cases. After the war, the Freedmen's Bureau established a new information infrastructure for formerly enslaved people — labor contracts, school reports, and legal proceedings that created a new documentary record.",
+      "primary_channels": ["Richmond newspapers (under Confederate government influence)", "Union army communications in occupied areas", "enslaved people's oral networks ('grapevine telegraph')", "Freedmen's Bureau communications (post-1865)", "church networks (Black churches as information hubs after emancipation)"],
+      "oral_networks": [
+        {
+          "network_name": "Grapevine telegraph",
+          "description": "The informal communication network among enslaved people that carried news of the war, Union army movements, and emancipation. This network was invisible to the white record but was one of the most effective information systems in the Tidewater during the war.",
+          "genealogical_value": "The grapevine telegraph left no documentary record, but its effects are visible in the mass movement of enslaved people toward Union lines during the Peninsula Campaign — they knew where the army was and where to go."
+        }
+      ],
+      "information_lag": "Wartime: highly variable. Richmond residents learned of battles within hours. Rural families might not know the war's outcome for days. The surrender at Appomattox (April 9, 1865) was known in Richmond immediately but reached remote Tidewater farms over the following week.",
+      "source": "McPherson, James M. Battle Cry of Freedom. Oxford University Press, 1988; Foner, Eric. Reconstruction. New York: Harper & Row, 1988."
+    }
+  ],
+  "narrative_hooks": [
+    "In {ancestor_name}'s time, news traveled at the speed of a ship — and the London paper that arrived at the Yorktown wharf was already two months old. The world {pronoun_subject} knew was always weeks behind the world that was actually happening.",
+    "The Virginia Gazette that {ancestor_name} might have read — or heard read aloud at the tavern — was not just a newspaper but a legal record: runaway advertisements, estate sales, and land notices that documented the daily commerce of the Tidewater.",
+    "Court day was {ancestor_name}'s news feed — the monthly gathering at the courthouse where legal business, market trading, tavern gossip, and political argument all happened in the same dusty square, and where a family's reputation was made or lost in a single afternoon.",
+    "The grapevine telegraph that carried news of the Union army through the enslaved community was faster and more accurate than the Richmond newspapers — and if {ancestor_name} was enslaved in the Tidewater during the war, that network was the information source that mattered most."
+  ],
+  "source_references": [
+    "Isaac, Rhys. The Transformation of Virginia, 1740-1790. Chapel Hill: University of North Carolina Press, 1982.",
+    "Bailyn, Bernard. The Ideological Origins of the American Revolution. Cambridge: Harvard University Press, 1967.",
+    "Howe, Daniel Walker. What Hath God Wrought: The Transformation of America, 1815-1848. New York: Oxford University Press, 2007.",
+    "McPherson, James M. Battle Cry of Freedom: The Civil War Era. New York: Oxford University Press, 1988.",
+    "Foner, Eric. Reconstruction: America's Unfinished Revolution, 1863-1877. New York: Harper & Row, 1988."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": ["civil_war_service", "civil_war_displacement", "reconstruction_era", "domestic_slave_trade"],
+    "community_texture_refs": ["tidewater_plantation_community"],
+    "life_pattern_refs": ["tobacco_soil_exhaustion"]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Tunica County, MS. County seat: Tunica. Records survive from county formation (1836). No major courthouse fire. The 1927 flood affected the county but the courthouse on the bluff was above the floodwater. The primary genealogical challenge is sparse record-keeping in a poor, rural county where the majority population was deliberately excluded from civic documentation.",
+  "courthouse_atlas_id": "ms_tunica_courthouse",
+  "display_name": "Tunica County, Mississippi — Courthouse Atlas",
+  "county": "Tunica",
+  "state": "MS",
+  "fips_code": "28143",
+  "cluster_ref": "ms_delta",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1940,
+      "location": "Tunica, MS — bluff site overlooking the Delta floor",
+      "records_housed": ["deeds", "chancery court records", "circuit court records", "marriage records", "vital records post-1912"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1836-1940",
+        "location": "Tunica (earlier structures on the bluff)",
+        "fate": "Replaced by current 1940 building. Earlier structures deteriorated but were not destroyed by fire or flood."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "tunica_minimal_loss",
+      "date": "N/A",
+      "cause": "No major catastrophic loss — deterioration from age and humidity",
+      "records_destroyed": ["some early loose papers deteriorated beyond use"],
+      "records_survived": ["bound deed books from 1836", "court records", "marriage records"],
+      "scope": "minor",
+      "description": "Tunica County's courthouse sits on the loess bluff above the Delta floor, which protected it from the 1927 flood. No major fire has destroyed records. However, the county's poverty meant that record preservation was minimal — some early records show damage from humidity, insects, and neglect.",
+      "narrative_impact": "The records survive but may be in poor condition. {ancestor_name}'s records are more likely to exist than in flood-damaged counties, but readability may be a challenge.",
+      "source": "Mississippi Department of Archives and History, Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1836,
+      "completeness": "Good — continuous from county formation",
+      "gaps": "Some early volumes show deterioration from humidity.",
+      "repository": "Tunica County Chancery Clerk; MDAH microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1840,
+      "completeness": "Fair — early estate records sparse in a frontier county",
+      "gaps": "Pre-1850 records thin. Post-Civil War records improve.",
+      "repository": "Tunica County Chancery Clerk; MDAH",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1838,
+      "completeness": "Fair — white marriages from early period; Black marriages from 1865",
+      "gaps": "Black marriage records are less complete than white records throughout the county's history.",
+      "repository": "Tunica County Circuit Clerk; MDAH microfilm",
+      "online_access": "FamilySearch; Ancestry.com MS marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1840,
+      "completeness": "Fair — some gaps in early volumes",
+      "gaps": "Early court minutes are thin — the county had little business to transact in its earliest decades.",
+      "repository": "Tunica County courthouse; MDAH",
+      "online_access": "MDAH microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1912,
+      "death_registration_start": 1912,
+      "completeness": "Very poor compliance until 1930s. Tunica County's extreme poverty and rural character meant that most births and deaths were not officially registered.",
+      "repository": "Mississippi State Department of Health; MDAH"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1840-1940. Slave schedules 1850-1860.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1840-1940",
+      "genealogical_value": "Essential. In a county with poor vital records compliance, the decennial census may be the only official record of {ancestor_name}'s existence.",
+      "source": "National Archives and Records Administration."
+    },
+    {
+      "source_type": "Freedmen's Bureau records",
+      "description": "Labor contracts and family records, 1865-1872.",
+      "repository": "National Archives; FamilySearch digitization",
+      "era_coverage": "1865-1872",
+      "genealogical_value": "Critical for Black families in a county where 70%+ of the population was Black and where civil records were sparse.",
+      "source": "National Archives, RG 105."
+    }
+  ],
+  "narrative_hooks": [
+    "Tunica County's courthouse sat on the bluff above the Delta floor — high enough to escape the 1927 flood that devastated the farmland below — which means {ancestor_name}'s records likely survived when the water came.",
+    "In a county that would become famous as the poorest in America, record-keeping was minimal — the absence of {ancestor_name}'s vital records reflects the county's poverty as much as the family's circumstances.",
+    "The federal census may be the most reliable documentation of {ancestor_name}'s life in Tunica County — in a place where births went unregistered and deaths went unrecorded, the census taker who came every ten years was sometimes the only official who acknowledged that a family existed.",
+    "The Freedmen's Bureau records for Tunica County document the families that built the county's wealth — and whose labor was never compensated."
+  ],
+  "source_references": [
+    "Mississippi Department of Archives and History. Guide to County Records. Jackson, MS.",
+    "National Archives and Records Administration. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands (RG 105)."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ms_tunica",
+    "research_guidance_refs": ["southern_courthouse_research", "freedmens_bureau"],
+    "template_refs": ["record_silences"]
+  }
+}

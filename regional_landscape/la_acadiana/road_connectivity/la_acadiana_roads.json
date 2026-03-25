@@ -1,0 +1,111 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the LA Acadiana regional cluster. Documents how transportation shaped settlement and economy from the pirogue-on-bayou era through the railroad, highway, and oil service road network. Acadiana was settled by water, connected by rail, and modernized by oil industry roads.",
+  "connectivity_id": "la_acadiana_roads",
+  "display_name": "LA Acadiana -- Road & Connectivity Network",
+  "cluster_ref": "la_acadiana",
+  "era_range": "1760-1960",
+  "transportation_eras": [
+    {
+      "era_id": "waterway_era",
+      "era_name": "Bayou Navigation: Pirogue, Flatboat, and Steamboat",
+      "date_range": "1760-1880",
+      "primary_modes": ["pirogue (dugout canoe)", "flatboat", "steamboat (after 1820s)", "horseback on prairie", "ox cart"],
+      "description": "Acadiana was settled by water. The bayous -- Teche, Vermilion, Lafourche, Courtableau -- were the only reliable transportation corridors. Roads on the flat, poorly drained prairie were impassable in wet weather, which in southwestern Louisiana meant half the year. The pirogue -- a shallow-draft dugout canoe carved from a single cypress log -- was the universal vehicle. Flatboats carried freight downstream. Steamboat service on Bayou Teche (from the 1820s) and Bayou Lafourche connected the sugar parishes to New Orleans. On the prairie, horseback was the primary mode, and the cattle vacheros developed mounted skills comparable to Texas cowboys. The absence of improved overland routes meant that communities separated by twenty miles of prairie might be more isolated from each other than communities fifty miles apart on the same bayou.",
+      "road_conditions": "Overland roads were unimproved dirt and clay traces. The prairie soil turned to impassable mud in rain. Bayou crossings required ferry or ford. The only 'improved' roads were raised levee-top paths along bayou margins.",
+      "travel_times": [
+        { "from": "St. Martinville", "to": "New Iberia (by Bayou Teche)", "mode": "pirogue or steamboat", "time": "3-4 hours by steamboat; 6-8 hours by pirogue", "conditions_note": "The Teche was the highway of the sugar country" },
+        { "from": "Opelousas", "to": "Lafayette (overland)", "mode": "horseback", "time": "4-6 hours", "conditions_note": "Prairie trace, impassable in wet weather" },
+        { "from": "Abbeville", "to": "Vermilion Bay (by river)", "mode": "pirogue or sailing lugger", "time": "4-6 hours downstream", "conditions_note": "The Vermilion River connected the prairie to the Gulf" },
+        { "from": "Napoleonville", "to": "Donaldsonville (by Bayou Lafourche)", "mode": "steamboat", "time": "4-5 hours", "conditions_note": "Bayou Lafourche was navigable by steamboat to Donaldsonville and thence to the Mississippi" }
+      ],
+      "key_routes": [
+        { "route_name": "Bayou Teche navigation corridor", "type": "waterway", "year_established": "1760s (pirogue); 1820s (steamboat)", "description": "The spine of Acadiana. Connected St. Martinville, New Iberia, and the lower Teche sugar country to the Atchafalaya River and thence to the Mississippi and New Orleans. Every major plantation fronted the Teche.", "counties_served": ["St. Martin", "Iberia"] },
+        { "route_name": "Bayou Lafourche navigation corridor", "type": "waterway", "year_established": "1760s (pirogue); 1820s (steamboat)", "description": "Connected the Assumption Parish sugar country to Donaldsonville on the Mississippi River. The bayou was a distributary of the Mississippi until dammed in 1904.", "counties_served": ["Assumption"] },
+        { "route_name": "Bayou Courtableau to Washington", "type": "waterway", "year_established": "1800s (steamboat)", "description": "Connected the Opelousas commercial district to the Atchafalaya River system. Washington, at the navigable head, was a significant antebellum port.", "counties_served": ["St. Landry"] },
+        { "route_name": "Prairie horseback trails", "type": "unimproved trace", "year_established": "1760s", "description": "Network of unmarked trails across the prairie connecting settlements. Followed the driest ground -- subtle ridges and coulee banks.", "counties_served": ["Lafayette", "Vermilion", "Acadia"] }
+      ],
+      "isolation_index": {
+        "description": "High for overland travel; moderate for bayou communities. The paradox of Acadiana transportation: bayou communities were well-connected by water but isolated by land. Prairie communities were moderately connected overland in dry weather but completely isolated in wet weather.",
+        "comparative_note": "More isolated overland than almost any comparable region in the South due to the flat, poorly drained terrain. But bayou communities on the Teche and Lafourche had better water connections to New Orleans than many inland towns had by road."
+      },
+      "narrative_hook": "In {year}, {ancestor_name} traveled by pirogue -- the cypress dugout that was Acadiana's answer to the horse, the wagon, and the road, all in a vessel that drew six inches of water and could be paddled through a flooded cane field.",
+      "source": "Post, Cajun Sketches (1962). Brasseaux, The Founding of New Acadia (1987)."
+    },
+    {
+      "era_id": "railroad_era",
+      "era_name": "The Railroad Opens the Prairie",
+      "date_range": "1880-1920",
+      "primary_modes": ["railroad", "steamboat (declining)", "wagon on unimproved road", "horseback"],
+      "description": "The Southern Pacific Railroad reached the southwestern Louisiana prairies in the 1880s, running east-west from New Orleans through the prairie parishes toward Houston. This was the transformative infrastructure event in Acadiana's history. The railroad made rice cultivation commercially viable by connecting the prairies to national markets. Towns sprang up at depot stops -- Crowley, Rayne, Jennings -- where none had existed. The Morgan's Louisiana & Texas Railroad (later Southern Pacific) connected New Iberia and the Teche corridor to New Orleans and Houston. The railroad did not just connect Acadiana; it remade it, bringing Midwestern settlers, English, and a national market economy into a French-speaking, subsistence-oriented world.",
+      "road_conditions": "County roads remained unimproved. The contrast between the railroad corridor (connected, booming) and the areas between stations (still isolated, still mud) was dramatic.",
+      "travel_times": [
+        { "from": "Lafayette", "to": "New Orleans", "mode": "railroad (Southern Pacific)", "time": "4-5 hours", "conditions_note": "The same journey by bayou and river took 2-3 days" },
+        { "from": "Crowley", "to": "Lafayette", "mode": "railroad", "time": "30-45 minutes", "conditions_note": "Connected the rice capital to the regional center" },
+        { "from": "New Iberia", "to": "Lafayette", "mode": "railroad", "time": "45 minutes to 1 hour", "conditions_note": "Connected the sugar country to the prairie hub" },
+        { "from": "Typical farm (off-railroad)", "to": "Nearest depot", "mode": "wagon", "time": "1-4 hours", "conditions_note": "Farms more than a few miles from the railroad remained dependent on wagon and bayou" }
+      ],
+      "key_routes": [
+        { "route_name": "Southern Pacific Railroad (New Orleans-Houston main line)", "type": "railroad", "year_established": "1880s", "description": "The main line ran east-west through the prairie parishes. Every significant town in Acadia, Lafayette, and Vermilion parishes sits on this route. The railroad created the rice economy and the towns that served it.", "counties_served": ["Acadia", "Lafayette", "Vermilion", "Iberia"] },
+        { "route_name": "Texas & Pacific Railroad (connection to north Louisiana)", "type": "railroad", "year_established": "1880s", "description": "Connected Opelousas and the northern parishes to the railroad network.", "counties_served": ["St. Landry", "Evangeline"] }
+      ],
+      "isolation_index": {
+        "description": "Sharply reduced along the railroad corridor; unchanged off the railroad. The railroad towns were connected to New Orleans and the national market within hours. But a farm five miles from the nearest depot was still a day's travel from anything.",
+        "comparative_note": "The railroad made the Acadiana prairies as well-connected to New Orleans as the Piedmont was to Charlotte. But the bayou parishes off the main line retained pre-railroad isolation levels."
+      },
+      "narrative_hook": "The railroad made {ancestor_name}'s rice profitable -- the same grain that rotted in the field when the road was mud could reach New Orleans in five hours by Southern Pacific, and the check came back by mail.",
+      "source": "Post, Cajun Sketches (1962). Conrad, The Cajuns (1978). Bernard, The Cajuns (2003)."
+    },
+    {
+      "era_id": "highway_era",
+      "era_name": "Highway Era and the Oil Industry Road Network",
+      "date_range": "1920-1960",
+      "primary_modes": ["automobile", "truck", "bus", "railroad"],
+      "description": "The automobile and paved highways ended Acadiana's isolation -- but the catalyst was the oil industry, not the state highway department. Oil companies built roads to reach drilling sites, and these oil field roads became the secondary road network that connected rural communities for the first time. The state highway system paved the main routes: US 90 (the Evangeline Highway, east-west through the prairies), US 167 (north-south through Lafayette to Alexandria), and US 90A along the Teche corridor. By 1950, the automobile had dissolved the barriers that had kept prairie, bayou, and piney woods communities isolated from each other for two centuries. Lafayette's transformation into a regional city was accelerated by highway access.",
+      "road_conditions": "US highways paved by the late 1920s-1930s. State highways paved by the 1930s-1940s. Parish roads improved with oil industry gravel but many remained unpaved into the 1950s.",
+      "travel_times": [
+        { "from": "Lafayette", "to": "New Orleans", "mode": "automobile via US 90", "time": "3-4 hours", "conditions_note": "Two-lane highway; the drive was feasible for a day trip" },
+        { "from": "Lafayette", "to": "Opelousas", "mode": "automobile via US 167", "time": "30-40 minutes", "conditions_note": "The prairie crossing that had taken half a day by wagon" },
+        { "from": "Crowley", "to": "Abbeville", "mode": "automobile", "time": "30 minutes", "conditions_note": "Connected the rice capital to the Vermilion River port" },
+        { "from": "Lafayette", "to": "Baton Rouge", "mode": "automobile", "time": "1-1.5 hours", "conditions_note": "Connected Acadiana to the state capital and LSU" }
+      ],
+      "key_routes": [
+        { "route_name": "US Route 90 (Evangeline Highway)", "type": "US highway", "year_established": 1926, "description": "The primary east-west highway through Acadiana. Connected New Orleans through Lafayette to Houston. The most important road in the region.", "counties_served": ["Assumption", "Iberia", "St. Martin", "Lafayette", "Acadia"] },
+        { "route_name": "US Route 167 (Lafayette to Alexandria)", "type": "US highway", "year_established": 1930, "description": "North-south highway connecting Lafayette through Opelousas and Ville Platte to central Louisiana. Connected Acadiana to the Anglo-Protestant north.", "counties_served": ["Lafayette", "St. Landry", "Evangeline"] },
+        { "route_name": "Oil field service roads (various)", "type": "industrial roads", "year_established": "1920s-1950s", "description": "The oil industry built hundreds of miles of gravel roads to reach drilling sites. These roads became the rural road network, connecting communities that had been isolated since settlement.", "counties_served": ["Lafayette", "St. Martin", "Vermilion", "Iberia", "Acadia", "St. Landry", "Evangeline", "Assumption"] }
+      ],
+      "isolation_index": {
+        "description": "Low by 1950. The automobile and paved roads ended two centuries of isolation. Lafayette emerged as the regional center, accessible from every parish seat within an hour.",
+        "comparative_note": "By 1950, Acadiana's road network was comparable to other Gulf Coast regions. The isolation that had preserved Cajun French culture was ending, and the language was declining in direct proportion to the improvement of the roads."
+      },
+      "narrative_hook": "The highway ended {ancestor_name}'s isolation and started the erosion of {pronoun_possessive} language -- when the road to Lafayette took thirty minutes instead of a day, the world spoke English and {pronoun_possessive} French became a private tongue.",
+      "source": "Bernard, The Cajuns (2003). Post, Cajun Sketches (1962)."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1880, "event": "Morgan's Louisiana & Texas Railroad (later Southern Pacific) reaches the prairies", "impact": "Opens the prairie parishes to commercial agriculture and Midwestern settlement. Creates Crowley, Rayne, and other depot towns." },
+    { "year": 1880, "event": "Southern Pacific main line (New Orleans-Houston) passes through Acadiana", "impact": "Connects the prairies to the national market. The single most transformative infrastructure event in Acadiana's history." },
+    { "year": 1885, "event": "Texas & Pacific connects Opelousas to the north Louisiana railroad network", "impact": "Links St. Landry Parish to the Anglo north. Opelousas becomes a railroad town." },
+    { "year": 1901, "event": "Railroad brings oil industry equipment to Jennings field", "impact": "The railroad that created the rice economy also delivered the oil economy. Both depended on rail access." },
+    { "year": 1904, "event": "Bayou Lafourche dammed at Donaldsonville", "impact": "Ends steamboat navigation on Bayou Lafourche. Assumption Parish becomes dependent on the railroad and roads for transportation." }
+  ],
+  "narrative_hooks": [
+    "The pirogue was Acadiana's first highway -- {ancestor_name} paddled a cypress dugout on the same bayou where the steamboats would later carry sugar to New Orleans.",
+    "The Southern Pacific Railroad created Crowley, Rayne, and the rice towns from nothing -- {ancestor_name}'s town existed because the railroad put a depot there, and the depot brought the Midwesterners who brought the rice.",
+    "The oil field roads connected communities that had been isolated for two centuries -- {ancestor_name} could drive to Lafayette in thirty minutes on a road the oil company built to reach a drilling site.",
+    "US 90 -- the Evangeline Highway -- was the road that opened Acadiana to the English-speaking world. {ancestor_name} drove it to Lafayette, to New Orleans, and eventually out of the French-speaking universe entirely.",
+    "The dam at Donaldsonville killed {ancestor_name}'s bayou -- Bayou Lafourche went from a navigable river to a ditch in 1904, and the steamboats that had connected Assumption Parish to New Orleans never came back."
+  ],
+  "source_references": [
+    "Post, Lauren C. Cajun Sketches. Baton Rouge: Louisiana State University Press, 1962.",
+    "Brasseaux, Carl A. The Founding of New Acadia. Baton Rouge: Louisiana State University Press, 1987.",
+    "Bernard, Shane K. The Cajuns: Americanization of a People. Jackson: University Press of Mississippi, 2003.",
+    "Conrad, Glenn R., ed. The Cajuns. Lafayette: Center for Louisiana Studies, 1978.",
+    "Taylor, Joe Gray. Louisiana: A History. New York: W.W. Norton, 1984."
+  ],
+  "nel_cross_references": {
+    "route_refs": ["mississippi_river_corridor", "gulf_coastal_steamer"],
+    "trigger_refs": ["stayed_and_adapted", "great_migration"]
+  }
+}

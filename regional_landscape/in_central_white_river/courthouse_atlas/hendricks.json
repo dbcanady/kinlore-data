@@ -1,0 +1,53 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Hendricks County, IN. Record survival for the Quaker-settled county centered on Danville. Well-preserved with strong Quaker meeting record supplements.",
+  "courthouse_atlas_id": "in_hendricks_courthouse",
+  "display_name": "Hendricks County, Indiana — Courthouse Atlas",
+  "county": "Hendricks",
+  "state": "IN",
+  "fips_code": "18063",
+  "cluster_ref": "in_central_white_river",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1912, "location": "Danville, IN — Courthouse Square", "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court records"] },
+    "previous_courthouses": [
+      { "era": "1824-1859", "location": "Danville, original site", "fate": "Early frame/brick courthouse." },
+      { "era": "1859-1912", "location": "Danville, same square", "fate": "Brick courthouse served through Civil War and industrial era. Replaced by current Beaux-Arts building." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "hendricks_no_major_loss", "date": null, "cause": "None", "records_destroyed": [], "records_survived": ["deed books", "will books", "court minutes", "marriage records"], "scope": "none",
+      "description": "Hendricks County's records are well-preserved from the 1824 organization. No major fire or flood damage. For Quaker families, the Friends meeting records at Plainfield supplement and often exceed county records in genealogical detail.",
+      "narrative_impact": "If {ancestor_name} was a Quaker in Hendricks County, the Friends meeting records may be more informative than the county courthouse — certificates of removal document migration with precision the county recorder never attempted.",
+      "source": "Indiana Commission on Public Records. Guide to Indiana County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1824, "completeness": "Excellent", "gaps": "None known.", "repository": "Hendricks County Recorder; Indiana State Archives", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1824, "completeness": "Good", "gaps": "Earliest loose papers fragmentary.", "repository": "Hendricks County Clerk; Indiana State Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1824, "completeness": "Good — Quaker marriages documented in meeting minutes supplement county records", "gaps": "None significant.", "repository": "Hendricks County Clerk; Indiana State Archives", "online_access": "FamilySearch; Ancestry.com" },
+    "court_minutes": { "earliest_surviving": 1824, "completeness": "Good", "gaps": "Minor early gaps.", "repository": "Hendricks County Clerk", "online_access": "Indiana State Archives microfilm" },
+    "vital_records": { "birth_registration_start": 1882, "death_registration_start": 1882, "completeness": "Spotty until approximately 1900.", "repository": "Indiana State Department of Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "Quaker meeting records — Plainfield Meeting", "description": "The Plainfield Friends Meeting maintained detailed records from the 1820s. Minutes, membership rolls, certificates of removal, marriage records, and disciplinary proceedings document Quaker families with exceptional precision.", "repository": "Indiana Yearly Meeting Archives at Earlham College; some records at Indiana Historical Society", "era_coverage": "1820s-present", "genealogical_value": "Certificates of removal trace Quaker migration between meetings. Marriage records include parents' names and residences. Disciplinary records reveal individual circumstances. These records are among the most valuable genealogical sources in central Indiana.", "source": "Indiana Yearly Meeting Archives, Earlham College." },
+    { "source_type": "Federal census schedules", "description": "Population and agricultural schedules 1830-1940.", "repository": "National Archives; FamilySearch; Ancestry.com", "era_coverage": "1830-1940", "genealogical_value": "Standard census utility. Agricultural schedules document farming operations.", "source": "National Archives and Records Administration." }
+  ],
+  "narrative_hooks": [
+    "For Quaker families in Hendricks County, the Plainfield meeting records at Earlham College may hold the genealogical gold — certificates of removal document exactly when and where {ancestor_name} moved.",
+    "Hendricks County's records survive complete from 1824 — the county courthouse at Danville and the Friends meeting house at Plainfield together provide a dual record system for Quaker families.",
+    "Before 1882, Indiana had no vital registration, so a missing birth record for {ancestor_name} in Hendricks County means checking the meeting minutes or church records.",
+    "If {ancestor_name} was involved in Underground Railroad activity through the Plainfield meeting, the evidence may be oblique — Quakers did not advertise their work, but meeting minutes sometimes contain coded references."
+  ],
+  "source_references": [
+    "Indiana Commission on Public Records. Guide to Indiana County Records.",
+    "Indiana Yearly Meeting Archives finding aids, Earlham College, Richmond, IN.",
+    "Hadley, John V. History of Hendricks County, Indiana. Indianapolis: B.F. Bowen, 1914."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "in_hendricks",
+    "research_guidance_refs": ["census_gaps", "vital_records", "church_transfers"],
+    "template_refs": ["record_silences"]
+  }
+}

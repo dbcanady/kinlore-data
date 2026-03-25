@@ -1,0 +1,134 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Dubuque County, IA. Record survival, courthouse history, and known losses for Iowa's oldest Euro-American settlement. Dubuque was Iowa's first city, built on lead mining, and the county's records reach back to the territorial period. The 1839 courthouse fire destroyed some of the earliest records.",
+  "courthouse_atlas_id": "ia_dubuque_courthouse",
+  "display_name": "Dubuque County, Iowa — Courthouse Atlas",
+  "county": "Dubuque",
+  "state": "IA",
+  "fips_code": "19061",
+  "cluster_ref": "ia_eastern",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1893,
+      "location": "Dubuque, IA — 720 Central Avenue",
+      "records_housed": ["deeds", "plats", "vital records", "probate records", "court minutes", "naturalization records", "military discharge records", "mining claim records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1834–1839",
+        "location": "Dubuque — log structure on the bluff above the river",
+        "fate": "Fire destroyed the building and some early records in 1839. This is the primary record loss event for Dubuque County."
+      },
+      {
+        "era": "1840–1857",
+        "location": "Dubuque — frame courthouse",
+        "fate": "Replaced by a larger brick building as the city grew. Records transferred."
+      },
+      {
+        "era": "1857–1892",
+        "location": "Dubuque — brick courthouse",
+        "fate": "Replaced by current Romanesque building (1893). Records transferred intact."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "dubuque_1839_fire",
+      "date": "1839",
+      "cause": "Fire at the original log courthouse",
+      "records_destroyed": ["some early territorial court records", "some early deed recordings (partial)", "territorial-era administrative records"],
+      "records_survived": ["most deed books (some had been copied)", "post-1839 records (complete)"],
+      "scope": "moderate",
+      "description": "The 1839 fire at Dubuque's original log courthouse destroyed some of the earliest records for what was then Iowa Territory's most important settlement. The loss is significant because Dubuque was the commercial center of the lead mining district and the county where many early transactions were recorded. However, federal mining claim records at the National Archives and some deed books that had been copied survived. Records from 1840 onward are substantially complete.",
+      "narrative_impact": "If {ancestor_name} was among the earliest lead miners in the Dubuque district before 1839, some county records of {pronoun_possessive} presence may have been lost. Federal mining claims filed in Washington survive independently. The fire created a gap in the very earliest years that makes the 1840 federal census and surviving federal records essential substitutes.",
+      "source": "Childs, Chandler C. History of Dubuque County, Iowa. Chicago: Western Historical Company, 1880."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1836,
+      "completeness": "Good — some pre-1839 records lost, but most deed books survived or were reconstructed. Continuous from 1840.",
+      "gaps": "The 1839 fire gap is the primary concern for the earliest settlement period. Federal land patents and mining claims survive independently.",
+      "repository": "Dubuque County Recorder, Dubuque; Iowa State Archives, Des Moines; Bureau of Land Management",
+      "online_access": "FamilySearch microfilm; Ancestry.com Iowa land records; BLM GLO Records online"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1840,
+      "completeness": "Good from 1840 onward. Pre-1839 probate records are thin — few estates filed in the initial mining settlement.",
+      "gaps": "The earliest lead miners often died without recorded estates — transient, single men without property to probate.",
+      "repository": "Dubuque County Clerk of Court, Dubuque; Iowa State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1840,
+      "completeness": "Good from 1840 onward. Dubuque was the center of German Catholic and Irish Catholic settlement, and parish marriage records supplement the civil record.",
+      "gaps": "Pre-1839 marriages may have been lost in the fire. Early lead mining population was predominantly male and transient, so marriages were few.",
+      "repository": "Dubuque County Recorder, Dubuque; Iowa State Archives",
+      "online_access": "FamilySearch; Ancestry.com Iowa marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1840,
+      "completeness": "Good from 1840 onward. Dubuque served as a federal court venue for Iowa Territory, and district court records are substantial.",
+      "gaps": "Pre-1839 court minutes largely lost in the fire. Some territorial court records survive at the Iowa State Archives.",
+      "repository": "Dubuque County Courthouse, Dubuque; National Archives — Kansas City; Iowa State Archives",
+      "online_access": "Limited — FamilySearch microfilm for county records; National Archives for federal court records"
+    },
+    "vital_records": {
+      "birth_registration_start": 1880,
+      "death_registration_start": 1880,
+      "completeness": "Iowa required vital registration from 1880. As an urban center, Dubuque achieved better early compliance than rural counties. The city's Catholic and Protestant churches maintained parallel vital records that supplement the civil register.",
+      "repository": "Iowa Department of Public Health; Dubuque County Recorder; Iowa State Archives"
+    },
+    "naturalization_records": {
+      "earliest_surviving": 1843,
+      "completeness": "Excellent — Dubuque was the primary federal court venue for northeastern Iowa, and naturalization records are voluminous. Critical for Irish, German, Luxembourger, and Cornish immigrant miners and their families.",
+      "gaps": "The volume of naturalization records makes them difficult to search without indexes. The Dubuque County Genealogical Society has indexed portions.",
+      "repository": "Dubuque County District Court; National Archives — Kansas City; Iowa State Archives; Dubuque County Genealogical Society",
+      "online_access": "FamilySearch; Ancestry.com; partial indexes at Dubuque County Genealogical Society"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal mining claim records",
+      "description": "Lead mining claims in the Dubuque district were filed with the federal government. These records survive at the National Archives regardless of any county record losses. Mining licenses, claim boundaries, and production records document the earliest Euro-American economic activity in Iowa.",
+      "repository": "National Archives — Washington, DC and Kansas City; Bureau of Land Management",
+      "era_coverage": "1833–1860",
+      "genealogical_value": "Mining claims identify the claimant by name, the location of the claim, and sometimes associates or employees. For the earliest Dubuque miners — the period most affected by the 1839 fire — these federal records may be the primary documentation of {ancestor_name}'s presence.",
+      "source": "Petersen, William J. The Story of Iowa: The Progress of an American State. New York: Lewis Historical Publishing, 1952."
+    },
+    {
+      "source_type": "Catholic parish records (Archdiocese of Dubuque)",
+      "description": "Dubuque was the seat of the first Catholic diocese in Iowa (established 1837, elevated to archdiocese in 1893). St. Raphael's Cathedral, Holy Ghost, Sacred Heart, and numerous other parishes maintained sacramental registers from the earliest settlement. The archdiocese archives contain records from dozens of parishes across northeastern Iowa.",
+      "repository": "Archdiocese of Dubuque Archives; Loras College Center for Dubuque History; individual parishes; FamilySearch microfilm",
+      "era_coverage": "1836–present",
+      "genealogical_value": "The Catholic parish records of Dubuque County are among the richest in Iowa. Bishop Mathias Loras, who arrived in 1839, organized parish record-keeping from the beginning. Irish, German, and Luxembourger Catholics each had their own parishes, making parish affiliation an ethnic identifier. Sacramental registers record immigrant origins with unusual consistency.",
+      "source": "Archdiocese of Dubuque. Parish Histories. Hoffman, M. M. Centennial History of the Archdiocese of Dubuque. Dubuque: Columbia College Press, 1937."
+    },
+    {
+      "source_type": "Federal and Iowa state censuses",
+      "description": "Federal population schedules 1840–1940 (Dubuque County appears in the 1840 census as part of Iowa Territory) and Iowa state censuses (1856, 1885, 1895, 1905, 1915, 1925). The Dubuque County census records are among the earliest in Iowa.",
+      "repository": "National Archives; FamilySearch; Ancestry.com; Iowa State Archives",
+      "era_coverage": "1840–1940",
+      "genealogical_value": "The 1840 federal census captures Dubuque's lead mining population — the earliest enumeration of Iowa settlers. Iowa's state censuses provide data every five years and are especially valuable for tracking urban-to-rural and mining-to-farming transitions.",
+      "source": "Iowa State Historical Society. Iowa Census Records Guide. Des Moines: ISHS, 2005."
+    }
+  ],
+  "narrative_hooks": [
+    "Dubuque's 1839 courthouse fire destroyed some of Iowa's oldest records — but if {ancestor_name} was among the earliest lead miners, the federal mining claim filed in Washington survived what the county fire consumed.",
+    "The Archdiocese of Dubuque — the oldest Catholic diocese in Iowa — has maintained parish records since 1836, and if {ancestor_name} was Irish, German, or Luxembourger Catholic, the sacramental register at St. Raphael's or Holy Ghost may predate any surviving county record.",
+    "Dubuque County naturalization records are among the most voluminous in Iowa — the federal court at Dubuque processed thousands of declarations of intent and final papers for immigrants who arrived at Iowa's front door.",
+    "The 1840 federal census places {ancestor_name} in the lead mining district of Iowa Territory — one year after the courthouse fire, the census is the first complete snapshot of who was actually here."
+  ],
+  "source_references": [
+    "Childs, Chandler C. History of Dubuque County, Iowa. Chicago: Western Historical Company, 1880.",
+    "Petersen, William J. The Story of Iowa: The Progress of an American State. 4 vols. New York: Lewis Historical Publishing, 1952.",
+    "Hoffman, M. M. Centennial History of the Archdiocese of Dubuque. Dubuque: Columbia College Press, 1937.",
+    "Iowa State Historical Society. Iowa Census Records Guide. Des Moines: ISHS, 2005."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ia_dubuque",
+    "research_guidance_refs": ["immigrant_record_sources"],
+    "template_refs": ["record_silences"]
+  }
+}

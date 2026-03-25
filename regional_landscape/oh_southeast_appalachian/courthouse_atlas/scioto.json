@@ -1,0 +1,137 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Scioto County, OH. County formed 1803 from Adams County. Portsmouth at the Ohio-Scioto confluence. 1937 flood caused some record damage. Fire in 1810s destroyed some early records.",
+  "courthouse_atlas_id": "oh_scioto_courthouse",
+  "display_name": "Scioto County, Ohio — Courthouse Atlas",
+  "county": "Scioto",
+  "state": "OH",
+  "fips_code": "39145",
+  "cluster_ref": "oh_southeast_appalachian",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1936,
+      "location": "Portsmouth, OH — Sixth Street",
+      "records_housed": ["deeds", "mortgages", "marriage records", "probate records", "court journals"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1803–1818",
+        "location": "Alexandria (now West Portsmouth), OH",
+        "fate": "County seat was at Alexandria. Early frame courthouse. A fire circa 1810 destroyed some early records."
+      },
+      {
+        "era": "1818–1885",
+        "location": "Portsmouth, OH",
+        "fate": "Courthouse built after county seat moved to Portsmouth. Served until replaced."
+      },
+      {
+        "era": "1885–1936",
+        "location": "Portsmouth, OH",
+        "fate": "Second Portsmouth courthouse. Replaced by the current 1936 building. The 1937 flood damaged the new building's basement storage within a year of completion."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "scioto_early_fire",
+      "date": "c. 1810",
+      "cause": "Fire at original courthouse in Alexandria",
+      "records_destroyed": ["some earliest deed records (1803–1810)", "some early court papers"],
+      "records_survived": ["most records reconstructed from copies held by individuals"],
+      "scope": "limited",
+      "description": "A fire at the early courthouse in Alexandria (West Portsmouth) destroyed some of the county's earliest records, particularly loose papers and possibly some early deed entries. Many records were reconstructed from copies held by landowners and from territorial records. The loss primarily affects the 1803–1810 period.",
+      "narrative_impact": "If {ancestor_name} was in Scioto County between 1803 and 1810, some records may be missing due to the early courthouse fire. Records from 1810 forward are more complete. The salt works and iron furnace records may supplement the gap.",
+      "source": "Ohio Historical Society. Guide to County Records."
+    },
+    {
+      "loss_id": "scioto_1937_flood",
+      "date": "1937-01",
+      "cause": "Ohio River flood of 1937",
+      "records_destroyed": ["some records in basement storage"],
+      "records_survived": ["most bound volumes on upper floors"],
+      "scope": "limited",
+      "description": "The 1937 flood inundated Portsmouth, including the newly built courthouse basement. Most bound volumes on upper floors survived. Some records in basement storage were damaged or lost.",
+      "narrative_impact": "The 1937 flood was a secondary loss event. Most records survived. {ancestor_name}'s records are likely intact unless they were among the loose papers stored in the basement.",
+      "source": "Ohio Emergency Management Agency, 1937 flood records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1803,
+      "completeness": "Good for post-1810 period. Some earliest records lost in the Alexandria fire, though many were reconstructed.",
+      "gaps": "1803–1810 may have gaps.",
+      "repository": "Scioto County Recorder's Office; Ohio History Connection microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1804,
+      "completeness": "Good for post-1810 period.",
+      "gaps": "Some early loose papers lost in the Alexandria fire.",
+      "repository": "Scioto County Probate Court; Ohio History Connection",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1803,
+      "completeness": "Good — most records survived both loss events.",
+      "gaps": "Minor gaps in the earliest years.",
+      "repository": "Scioto County Probate Court; Ohio History Connection microfilm",
+      "online_access": "FamilySearch; Ancestry.com Ohio marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1810,
+      "completeness": "Good from 1810. Pre-1810 records affected by the Alexandria fire.",
+      "gaps": "1803–1810 may have gaps.",
+      "repository": "Scioto County Clerk of Courts; Ohio History Connection",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1867,
+      "death_registration_start": 1867,
+      "completeness": "Uneven until early 1900s.",
+      "repository": "Scioto County Health Department; Ohio Department of Health"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Ohio & Erie Canal records",
+      "description": "The canal terminus at Portsmouth generated shipping records, toll records, and boat registrations.",
+      "repository": "Ohio History Connection; National Archives (Army Corps of Engineers records)",
+      "era_coverage": "1830s–1870s",
+      "genealogical_value": "Canal records document boat operators, shippers, and laborers associated with the canal terminus. May identify individuals not found in county records.",
+      "source": "Scheiber, Harry N. Ohio Canal Era. Athens: Ohio University Press, 1969."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Scioto County enumerated from 1810.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1810–present",
+      "genealogical_value": "Essential, especially for the 1803–1810 gap period when county records may be incomplete.",
+      "source": "National Archives and Records Administration."
+    },
+    {
+      "source_type": "Portsmouth newspaper records",
+      "description": "Portsmouth had active newspapers from the 1820s. The Portsmouth Times and other papers published estate notices, marriage announcements, and legal advertisements.",
+      "repository": "Portsmouth Public Library; Ohio History Connection microfilm",
+      "era_coverage": "1820s–present",
+      "genealogical_value": "Valuable for supplementing courthouse records, especially for the 1803–1810 gap and for post-1937 flood damage periods.",
+      "source": "Ohio Newspaper Project catalog."
+    }
+  ],
+  "narrative_hooks": [
+    "Scioto County's records have survived two disasters — a courthouse fire in the 1810s and the 1937 Ohio River flood — and most of the core records came through both. If {ancestor_name}'s records are missing, the question is which event took them.",
+    "The early fire at Alexandria destroyed some of Scioto County's first records, but many were reconstructed from copies held by landowners — a reminder that the courthouse copy was not always the only copy.",
+    "If {ancestor_name} worked the salt wells or the iron furnaces along the Scioto River, the company records may document {pronoun_object} when the courthouse does not — industrial records sometimes survived when county records did not.",
+    "Portsmouth's floodwall, built after 1937, protects the courthouse now — but {ancestor_name}'s pre-flood records may bear the marks of the river that built the town."
+  ],
+  "source_references": [
+    "Ohio Historical Society. Guide to County Records in the Ohio Historical Society Archives.",
+    "Scheiber, Harry N. Ohio Canal Era: A Case Study of Government and the Economy, 1820–1861. Athens: Ohio University Press, 1969.",
+    "Ohio Emergency Management Agency. 1937 Ohio River Flood Records."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "oh_scioto",
+    "research_guidance_refs": ["midwestern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the KY Bluegrass regional cluster. Documents how transportation shaped settlement, economy, and migration across the Bluegrass from the Wilderness Road through the highway era. The Bluegrass was settled through Cumberland Gap, connected by turnpikes, industrialized by railroads, and suburbanized by automobiles.",
+  "connectivity_id": "ky_bluegrass_roads",
+  "display_name": "KY Bluegrass — Road & Connectivity Network",
+  "cluster_ref": "ky_bluegrass",
+  "era_range": "1775-1960",
+  "transportation_eras": [
+    {
+      "era_id": "wilderness_road",
+      "era_name": "Wilderness Road and the First Turnpikes",
+      "date_range": "1775-1830",
+      "primary_modes": ["foot", "horseback", "pack horse", "wagon on improved trace", "river flatboat"],
+      "description": "The Wilderness Road through Cumberland Gap was the primary entry route into the Bluegrass. Boone's Trace connected Cumberland Gap to Fort Boonesborough (Clark County) and then to Lexington. A secondary route ran from the Ohio River landings at Maysville (then Limestone) south to Lexington via the Maysville Road — this was the supply route that connected the Bluegrass to the Ohio River trade. The Kentucky River was navigable for flatboats from the Bluegrass to Frankfort and the Ohio, but upstream traffic was difficult. By 1800, turnpike construction began — the Lexington-to-Maysville Pike and the Lexington-to-Frankfort Pike were among the first improved roads west of the Alleghenies.",
+      "road_conditions": "Unimproved traces through forest and cane, gradually improved to graded dirt roads. The Bluegrass's rolling limestone terrain was easier to build on than the mountains or the Coastal Plain. Mud was the primary obstacle — the clay subsoil held water after rain.",
+      "travel_times": [
+        { "from": "Cumberland Gap", "to": "Lexington", "mode": "wagon", "time": "7-10 days", "conditions_note": "Approximately 150 miles through difficult mountain terrain, then easier Bluegrass rolling country" },
+        { "from": "Maysville (Ohio River)", "to": "Lexington", "mode": "horseback", "time": "1.5-2 days", "conditions_note": "Approximately 65 miles. The Maysville Road was one of the best-traveled routes in early Kentucky." },
+        { "from": "Lexington", "to": "Frankfort", "mode": "horseback", "time": "1 day", "conditions_note": "Approximately 28 miles via the Frankfort Pike" },
+        { "from": "Typical Bluegrass farm", "to": "County seat", "mode": "horseback", "time": "1-3 hours", "conditions_note": "The Bluegrass counties were compact and the terrain gentle" }
+      ],
+      "key_routes": [
+        { "route_name": "Wilderness Road / Boone's Trace", "type": "improved trace", "year_established": "1775", "description": "The route from Cumberland Gap through the mountains to Fort Boonesborough and Lexington. The primary migration corridor into Kentucky.", "counties_served": ["Madison", "Clark", "Fayette"] },
+        { "route_name": "Maysville Road (later US 68)", "type": "turnpike", "year_established": "1790s", "description": "Connected Lexington to the Ohio River port at Maysville. The primary supply and trade route. Henry Clay championed its improvement as part of his American System.", "counties_served": ["Fayette", "Bourbon", "Clark"] },
+        { "route_name": "Frankfort Pike", "type": "turnpike", "year_established": "1790s", "description": "Connected Lexington to the state capital. Political and commercial artery.", "counties_served": ["Fayette", "Woodford"] },
+        { "route_name": "Kentucky River (flatboat)", "type": "river navigation", "year_established": "1780s", "description": "Navigable downstream from the Bluegrass to Frankfort and the Ohio River. Hemp, tobacco, and livestock shipped by flatboat. Upstream navigation was difficult — most goods came overland from Maysville.", "counties_served": ["Jessamine", "Woodford", "Mercer", "Fayette"] }
+      ],
+      "isolation_index": {
+        "description": "Low for the trans-Appalachian West. The Bluegrass's compact geography, gentle terrain, and early turnpike construction made it among the best-connected frontier regions. Lexington's multiple road connections gave the Bluegrass a hub-and-spoke network by 1800.",
+        "comparative_note": "Better connected than most frontier regions. The Maysville Road gave the Bluegrass a reliable link to the Ohio River trade network."
+      },
+      "narrative_hook": "The Wilderness Road brought {ancestor_name}'s people through Cumberland Gap and into the Bluegrass — ten days of mountain road, then the sudden opening of the limestone country where the trails widened into pikes and the settlements had names.",
+      "source": "Aron, How the West Was Lost (1996). Clark, A History of Kentucky (1960)."
+    },
+    {
+      "era_id": "railroad_era",
+      "era_name": "Railroad Arrival and the Lexington Hub",
+      "date_range": "1830-1900",
+      "primary_modes": ["railroad", "turnpike wagon and carriage", "horseback"],
+      "description": "The Lexington & Ohio Railroad (1831) was the first railroad west of the Alleghenies. It connected Lexington to Frankfort and later to Louisville, linking the Bluegrass to the Ohio River trade without the difficult upstream navigation. The Lexington & Frankfort Railroad, the Kentucky Central (Lexington to Covington/Cincinnati), and the Louisville & Nashville Railroad system made Lexington a railroad hub. By 1870, every county seat in the cluster had railroad access. The railroad transformed the horse industry — Thoroughbreds could be shipped to race tracks and breeding operations nationwide. The tobacco market expanded as cured leaf could reach distant buyers.",
+      "road_conditions": "Turnpikes remained the primary local transportation. Macadam surfaces (crushed limestone) improved the main roads. County roads remained unimproved dirt and mud.",
+      "travel_times": [
+        { "from": "Lexington", "to": "Louisville", "mode": "railroad", "time": "3-4 hours", "conditions_note": "Via Frankfort" },
+        { "from": "Lexington", "to": "Cincinnati", "mode": "railroad (Kentucky Central)", "time": "4-5 hours", "conditions_note": "Via Paris and Covington" },
+        { "from": "Paris", "to": "Lexington", "mode": "railroad", "time": "45 minutes", "conditions_note": "The Paris Pike railroad paralleled the turnpike" },
+        { "from": "Richmond", "to": "Lexington", "mode": "railroad", "time": "1.5 hours", "conditions_note": "Via the L&N branch" }
+      ],
+      "key_routes": [
+        { "route_name": "Lexington & Ohio Railroad (later L&N)", "type": "railroad", "year_established": "1831", "description": "First railroad west of the Alleghenies. Connected Lexington to Frankfort and Louisville.", "counties_served": ["Fayette", "Woodford", "Scott"] },
+        { "route_name": "Kentucky Central Railroad (later L&N)", "type": "railroad", "year_established": "1850s", "description": "Connected Lexington through Paris and Bourbon County to Covington/Cincinnati. Opened the Bluegrass to the Northern market via the Ohio River.", "counties_served": ["Fayette", "Bourbon", "Clark", "Scott"] },
+        { "route_name": "Louisville & Nashville Railroad system", "type": "railroad", "year_established": "1850s-1880s", "description": "The dominant railroad system in Kentucky. Connected Lexington to Louisville, Nashville, and the national rail network.", "counties_served": ["Fayette", "Jessamine", "Madison", "Mercer", "Woodford"] }
+      ],
+      "isolation_index": {
+        "description": "Very low. Lexington was one of the best-connected cities in the South by 1870, with rail connections to Cincinnati, Louisville, Nashville, and the eastern seaboard.",
+        "comparative_note": "Among the most connected regions in the trans-Appalachian South."
+      },
+      "narrative_hook": "The railroad reached Lexington before it reached most of the South — {ancestor_name} could ship tobacco to Louisville, horses to New York, and bourbon to anywhere, all from the depot at Main Street.",
+      "source": "Clark, A History of Kentucky (1960). Harrison and Klotter, A New History of Kentucky (1997)."
+    },
+    {
+      "era_id": "automobile_era",
+      "era_name": "Automobile and Highway Era",
+      "date_range": "1910-1960",
+      "primary_modes": ["automobile", "truck", "bus", "railroad"],
+      "description": "The automobile transformed the Bluegrass by dissolving the distance between farm and town. US 25 (the old Wilderness Road route through Richmond and Lexington) and US 27 (through Nicholasville) became the primary highway corridors. US 60 connected Lexington to Louisville. The Paris Pike (US 68/27) became the most photographed road in Kentucky — horse farms on both sides for miles. By 1950, Lexington was developing suburban neighborhoods, and the surrounding counties began to function as commuter communities.",
+      "road_conditions": "State highways paved by the 1920s-1930s. County roads improved but many remained unpaved into the 1940s. The Bluegrass's limestone base made road construction easier than in the mountains or the Jackson Purchase.",
+      "travel_times": [
+        { "from": "Lexington", "to": "Louisville", "mode": "automobile via US 60", "time": "1.5-2 hours", "conditions_note": "Approximately 80 miles on two-lane highway" },
+        { "from": "Lexington", "to": "Paris", "mode": "automobile via Paris Pike", "time": "20-30 minutes", "conditions_note": "18 miles of the most beautiful road in Kentucky" },
+        { "from": "Lexington", "to": "Richmond", "mode": "automobile via US 25", "time": "35-45 minutes", "conditions_note": "Approximately 26 miles" },
+        { "from": "Lexington", "to": "Nicholasville", "mode": "automobile", "time": "15-20 minutes", "conditions_note": "12 miles. Beginning of the commuter pattern." }
+      ],
+      "key_routes": [
+        { "route_name": "US 25 (Dixie Highway — Wilderness Road corridor)", "type": "US highway", "year_established": "1926", "description": "Followed the old Wilderness Road route through Richmond, Lexington, and north to Cincinnati. The primary north-south highway through the Bluegrass.", "counties_served": ["Madison", "Fayette", "Scott"] },
+        { "route_name": "US 68/27 (Paris Pike)", "type": "US highway", "year_established": "1926", "description": "The iconic Bluegrass horse-farm drive connecting Lexington through Bourbon County to Paris and north toward Maysville.", "counties_served": ["Fayette", "Bourbon"] },
+        { "route_name": "US 60 (Versailles Road)", "type": "US highway", "year_established": "1926", "description": "Connected Lexington west through Woodford County to Frankfort and Louisville. Lined with horse farms and distilleries.", "counties_served": ["Fayette", "Woodford"] }
+      ],
+      "isolation_index": {
+        "description": "Very low. By 1950 the Bluegrass was fully connected by highway, and Lexington's surrounding counties were becoming commuter communities.",
+        "comparative_note": "Among the best-connected regions in the South."
+      },
+      "narrative_hook": "The Paris Pike through the horse farms was the most beautiful drive in Kentucky — but for {ancestor_name}, the automobile meant something more practical: the ability to reach the tobacco warehouse, the county seat, and the hospital without a day's journey by wagon.",
+      "source": "Harrison and Klotter, A New History of Kentucky (1997). Clark, A History of Kentucky (1960)."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1831, "event": "Lexington & Ohio Railroad begins service — first railroad west of the Alleghenies", "impact": "Connected Lexington to Frankfort, then Louisville" },
+    { "year": 1853, "event": "Kentucky Central Railroad completed Lexington to Covington", "impact": "Connected the Bluegrass to Cincinnati and the Northern market" },
+    { "year": 1862, "event": "Railroads used for military transportation during Civil War", "impact": "Union forces controlled most Kentucky rail lines" },
+    { "year": 1881, "event": "Louisville & Nashville Railroad consolidation", "impact": "L&N became the dominant rail system, connecting the Bluegrass to national markets" },
+    { "year": 1890, "event": "Every county seat in the cluster has rail service", "impact": "Full railroad coverage of the Bluegrass region" }
+  ],
+  "narrative_hooks": [
+    "The Wilderness Road brought {ancestor_name}'s people into the Bluegrass through Cumberland Gap — the same route that carried a hundred thousand settlers in a single generation.",
+    "The Paris Pike was the most beautiful road in Kentucky — {ancestor_name} traveled it past stone fences and horse farms that looked more like England than America.",
+    "The railroad made Lexington the hub of the Bluegrass before most Southern cities had a depot — {ancestor_name} could ship tobacco, horses, and bourbon to any market in the nation from Main Street.",
+    "The Maysville Road connected the Bluegrass to the Ohio River trade — {ancestor_name}'s supplies came upriver to Maysville and overland to Lexington, the same route Henry Clay championed as a matter of national policy.",
+    "The automobile gave {ancestor_name} something the turnpike never could — the ability to reach the county seat and return in a single morning, dissolving the distance that had defined rural Bluegrass life for five generations."
+  ],
+  "source_references": [
+    "Aron, Stephen. How the West Was Lost. Baltimore: Johns Hopkins University Press, 1996.",
+    "Clark, Thomas D. A History of Kentucky. Lexington: John Bradford Press, 1960.",
+    "Harrison, Lowell H., and James C. Klotter. A New History of Kentucky. Lexington: University Press of Kentucky, 1997.",
+    "Hopkins, James F. A History of the Hemp Industry in Kentucky. Lexington: University of Kentucky Press, 1951.",
+    "Veach, Michael R. Kentucky Bourbon Whiskey. Lexington: University Press of Kentucky, 2013."
+  ],
+  "nel_cross_references": {
+    "route_refs": ["wilderness_road_cumberland_gap"],
+    "trigger_refs": ["scots_irish_frontier", "great_migration", "gi_bill_migration"]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Shelby County, IL. Record survival, courthouse history, and known losses that shape what genealogists can and cannot find.",
+  "courthouse_atlas_id": "il_shelby_courthouse",
+  "display_name": "Shelby County, Illinois — Courthouse Atlas",
+  "county": "Shelby",
+  "state": "IL",
+  "fips_code": "17173",
+  "cluster_ref": "il_central_sangamon",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1881,
+      "location": "Shelbyville, IL — 301 E. Main Street",
+      "records_housed": ["deeds", "plats", "vital records", "probate records", "court minutes", "marriage records", "military discharge records"],
+      "notes": "The 1881 Second Empire-style courthouse is one of the oldest continuously used courthouses in central Illinois."
+    },
+    "previous_courthouses": [
+      {
+        "era": "1827–1843",
+        "location": "Shelbyville, original log courthouse",
+        "fate": "Shelby County was formed from Fayette County in 1827. The first courthouse was a log structure. Records transferred to the successor building."
+      },
+      {
+        "era": "1843–1881",
+        "location": "Shelbyville, brick courthouse on the public square",
+        "fate": "Replaced by the current building. Records survived the transition intact."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "shelby_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire or catastrophic loss",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage records", "probate files"],
+      "scope": "none",
+      "description": "Shelby County has experienced no major courthouse fire or catastrophic record loss. Records survive continuously from the county's 1827 formation. The county's rural character and distance from major conflict zones protected its documentary record. Shelbyville was the seat of a quiet agricultural county, and its records reflect that stability.",
+      "narrative_impact": "Shelby County's complete record survival means that if {ancestor_name} owned land, married, or had an estate probated here after 1827, the records almost certainly survive. Gaps in the paper trail are more likely due to tenancy, transience, or the informality of frontier transactions than to courthouse disasters.",
+      "source": "Combined History of Shelby and Moultrie Counties, Illinois. Philadelphia: Brink, McDonough & Co., 1881."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1827,
+      "completeness": "Excellent — continuous series from county formation",
+      "gaps": "No known significant gaps. Land transactions from the earliest settlement period are preserved. Shelby County families residing in the future county before 1827 have deed records in Fayette County.",
+      "repository": "Shelby County Recorder, Shelbyville; Illinois State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com IL land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1828,
+      "completeness": "Good — probate records from near-formation",
+      "gaps": "Estate records from the earliest years are sparse, reflecting the small and largely propertyless population of the frontier period.",
+      "repository": "Shelby County Probate Court, Shelbyville; Illinois State Archives; IRAD at UIS",
+      "online_access": "FamilySearch microfilm; limited digitization"
+    },
+    "marriages": {
+      "earliest_surviving": 1827,
+      "completeness": "Good — marriage records from county formation",
+      "gaps": "Pre-1836 records are marriage returns and bonds. After 1836 (Illinois marriage license law), records become more standardized.",
+      "repository": "Shelby County Clerk, Shelbyville; Illinois State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com IL marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1827,
+      "completeness": "Good — commissioners' and circuit court minutes from formation",
+      "gaps": "Justice of the peace records are incomplete. Bound court minute books are intact.",
+      "repository": "Shelby County Circuit Court, Shelbyville; Illinois State Archives",
+      "online_access": "Illinois State Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1877,
+      "death_registration_start": 1877,
+      "completeness": "Illinois required county-level registration from 1877, but compliance in rural Shelby County was inconsistent until statewide enforcement in 1916. Shelbyville town records are more complete than rural township records.",
+      "repository": "Shelby County Clerk; Illinois Department of Public Health; Illinois State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Fayette County records (pre-1827 parent county)",
+      "description": "Shelby County was formed from Fayette County in 1827. Families residing in the future Shelby County before that date appear in Fayette County records — deeds, marriages, court proceedings.",
+      "repository": "Fayette County Recorder, Vandalia; Illinois State Archives",
+      "era_coverage": "1821–1827",
+      "genealogical_value": "Critical for tracing pioneer families before 1827. Vandalia was also the Illinois state capital until 1839, so early state government records and Fayette County records overlap geographically.",
+      "source": "Combined History of Shelby and Moultrie Counties, Illinois. Philadelphia: Brink, McDonough & Co., 1881."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1830–1940 (1827 formation; first full census 1830). Agricultural schedules (1850–1880) document prairie farming.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1830–1940",
+      "genealogical_value": "The agricultural schedules are particularly valuable for Shelby County, which remained overwhelmingly agricultural through the study period. They document farm size, livestock, and crop production for individual families.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Shelby County, IL."
+    },
+    {
+      "source_type": "Church records — Cumberland Presbyterian, Baptist, Methodist",
+      "description": "Upper South migrants brought Cumberland Presbyterian and Baptist traditions to Shelby County. Methodist circuit riders served the area from the earliest settlement. Church records provide vital event documentation before civil registration.",
+      "repository": "Individual congregations; Illinois State Archives; Shelby County Historical and Genealogical Society",
+      "era_coverage": "1820s–present",
+      "genealogical_value": "Church baptism, marriage, and burial records fill gaps before 1877 civil registration. Cumberland Presbyterian records in particular are a strong indicator of Kentucky or Tennessee origin for early Shelby County families.",
+      "source": "Shelby County Historical and Genealogical Society. Collections and finding aids."
+    }
+  ],
+  "narrative_hooks": [
+    "Shelby County's records run unbroken from 1827 — no fires, no war damage, no floods — making it one of the most complete documentary sets in the central Illinois cluster.",
+    "If {ancestor_name} lived in what became Shelby County before 1827, {pronoun_possessive} records are filed under Fayette County in Vandalia — at that time the state capital — where the county and state records overlap.",
+    "A Cumberland Presbyterian affiliation in Shelby County is a strong indicator that {ancestor_name}'s family came from Kentucky or Tennessee — the denomination traveled north with Upper South migrants and planted itself on the Illinois prairie.",
+    "Before 1877, Illinois did not require birth or death registration, so the absence of a vital record for {ancestor_name} in Shelby County reflects the era — church registers, cemetery records, and family Bible entries are the likeliest substitutes.",
+    "Shelby County remained a farming county throughout the 19th century — if {ancestor_name} was a tenant farmer rather than a landowner, the deed books will be silent, and the agricultural census schedules (1850–1880) become the primary evidence of {pronoun_possessive} economic life."
+  ],
+  "source_references": [
+    "Combined History of Shelby and Moultrie Counties, Illinois. Philadelphia: Brink, McDonough & Co., 1881.",
+    "Illinois State Archives. Descriptive Inventory of the Archives of the State of Illinois. 2nd ed. Springfield: Office of the Secretary of State, 1978.",
+    "Shelby County Historical and Genealogical Society. Collections and finding aids.",
+    "National Archives and Records Administration. Federal Census Schedules, Shelby County, IL."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "il_shelby",
+    "research_guidance_refs": ["census_gaps", "property_record_strategies", "church_record_transfers"],
+    "template_refs": ["record_silences"]
+  }
+}

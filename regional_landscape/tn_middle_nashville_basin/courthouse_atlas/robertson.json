@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Robertson County, TN. Formed 1796. No major courthouse fire. Records survive from formation. Dark-fire tobacco economy generated distinctive agricultural and commercial records.",
+  "courthouse_atlas_id": "tn_robertson_courthouse",
+  "display_name": "Robertson County, Tennessee — Courthouse Atlas",
+  "county": "Robertson",
+  "state": "TN",
+  "fips_code": "47147",
+  "cluster_ref": "tn_middle_nashville_basin",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1929,
+      "location": "Springfield, TN — Public Square",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1796-1830",
+        "location": "Springfield, town center",
+        "fate": "Early frame courthouse."
+      },
+      {
+        "era": "1830-1929",
+        "location": "Springfield, Public Square",
+        "fate": "Brick courthouse. Survived the Civil War and served for a century."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "robertson_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire or destruction",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1796", "will books", "court minutes", "marriage bonds/licenses", "estate files"],
+      "scope": "none",
+      "description": "Robertson County's courthouse has not suffered a major fire, and records survive continuously from the 1796 formation. The county's dark-fire tobacco economy generated particularly detailed commercial records — warehouse receipts, crop lien filings, and tobacco auction records that supplement standard county records.",
+      "narrative_impact": "{ancestor_name}'s records in Robertson County survive from 1796 forward. The county's role as the center of the Black Patch tobacco economy means that agricultural and commercial records are unusually detailed — tobacco warehouse receipts and crop lien filings document the economic life of farmers between census years.",
+      "source": "Tennessee State Library and Archives. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1796,
+      "completeness": "Excellent — continuous series from formation",
+      "gaps": "No significant gaps.",
+      "repository": "Robertson County Register of Deeds; Tennessee State Library and Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com Tennessee land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1797,
+      "completeness": "Good — estate records from the early period",
+      "gaps": "Minor gaps in earliest loose papers.",
+      "repository": "Robertson County Probate Court; Tennessee State Library and Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1797,
+      "completeness": "Good — bonds from the early period; licenses from 1838",
+      "gaps": "Minor gaps in earliest bond records.",
+      "repository": "Robertson County Clerk; Tennessee State Library and Archives",
+      "online_access": "FamilySearch; Ancestry.com Tennessee marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1796,
+      "completeness": "Good — continuous series from formation with minor wartime disruption",
+      "gaps": "Some disruption during Civil War. Black Patch War era (1905-1909) court records include Night Rider prosecutions.",
+      "repository": "Tennessee State Library and Archives",
+      "online_access": "TSLA microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Standard Tennessee pattern.",
+      "repository": "Tennessee Department of Health"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Tobacco warehouse records",
+      "description": "Dark-fire tobacco warehouses in Springfield and the surrounding towns maintained sales records, grading records, and buyer accounts. Where these survive, they document farmers' names, quantities, and prices — an annual economic snapshot.",
+      "repository": "Robertson County Historical Society; Tennessee State Library and Archives; some in private hands",
+      "era_coverage": "1830s-1960",
+      "genealogical_value": "Tobacco warehouse receipts can document a farmer's presence in the county and economic status between census years. The quantity and grade of tobacco sold indicates relative prosperity.",
+      "source": "Waldrep, Night Riders. Duke University Press, 1993."
+    },
+    {
+      "source_type": "Black Patch War court records (1905-1909)",
+      "description": "Night Rider prosecutions and civil suits generated detailed court records that document farmers' names, relationships, economic positions, and community alliances during the Black Patch conflict.",
+      "repository": "Robertson County Clerk of Court; Tennessee State Library and Archives; published in Waldrep's Night Riders",
+      "era_coverage": "1905-1912",
+      "genealogical_value": "The Night Rider trials document community networks in extraordinary detail — witnesses, defendants, and victims are identified by name, occupation, farm location, and often family relationship.",
+      "source": "Waldrep, Christopher. Night Riders. Duke University Press, 1993."
+    },
+    {
+      "source_type": "Church records — Baptist, Methodist, Churches of Christ",
+      "description": "Robertson County's churches maintained records. Churches of Christ (Stone-Campbell movement) were particularly strong in the Black Patch region.",
+      "repository": "Individual congregations; Tennessee State Library and Archives",
+      "era_coverage": "1800s-present",
+      "genealogical_value": "Supplement civil records for vital events before 1908.",
+      "source": "Tennessee State Library and Archives. Guide to Church Records."
+    }
+  ],
+  "narrative_hooks": [
+    "Robertson County's records survive from 1796 — the tobacco warehouse receipts and crop lien filings document {ancestor_name}'s economic life in a level of detail that standard county records rarely match.",
+    "If {ancestor_name} was caught up in the Black Patch War, the Night Rider trial records at the courthouse may document {pronoun_possessive} alliances, grievances, and neighbors in more detail than any other source.",
+    "The Dark Patch tobacco warehouses kept their own books — the receipt for {ancestor_name}'s tobacco crop tells a story of grade, weight, and price that the census never captured.",
+    "Robertson County records are intact from formation — when they go silent about {ancestor_name}, the silence reflects the ancestor's circumstances, not the courthouse's losses."
+  ],
+  "source_references": [
+    "Tennessee State Library and Archives. Guide to County Records in the Tennessee State Library and Archives. Nashville: TSLA.",
+    "Waldrep, Christopher. Night Riders: Defending Community in the Black Patch, 1890-1915. Durham: Duke University Press, 1993.",
+    "Sistler, Byron, and Barbara Sistler. Early Middle Tennessee Marriages. Nashville: Byron Sistler & Associates, 1988."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "tn_robertson",
+    "research_guidance_refs": ["census_gaps", "vital_records", "property_records"],
+    "template_refs": ["record_silences"]
+  }
+}

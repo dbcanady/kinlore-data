@@ -1,0 +1,126 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Limestone County, AL. Record survival, courthouse history, and known losses. Limestone County was formed in 1818 — one year before Alabama statehood. Athens courthouse has been rebuilt multiple times but records have largely survived.",
+  "courthouse_atlas_id": "al_limestone_courthouse",
+  "display_name": "Limestone County, Alabama — Courthouse Atlas",
+  "county": "Limestone",
+  "state": "AL",
+  "fips_code": "01083",
+  "cluster_ref": "al_tennessee_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1919,
+      "location": "Athens, AL — 200 W. Washington Street",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1818–1826",
+        "location": "Athens, original site",
+        "fate": "Early frame courthouse. Replaced as the county developed."
+      },
+      {
+        "era": "1826–1862",
+        "location": "Athens, courthouse square",
+        "fate": "Brick courthouse. Damaged during Civil War when Union forces occupied Athens in 1862. The town changed hands multiple times during the war."
+      },
+      {
+        "era": "1862–1919",
+        "location": "Athens, rebuilt/repaired",
+        "fate": "Repaired after war damage. Served until replaced by the current 1919 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "limestone_civil_war_damage",
+      "date": "1862-1864",
+      "cause": "Civil War — Athens occupied by Federal and Confederate forces repeatedly; some records damaged or scattered",
+      "records_destroyed": ["Some loose court papers", "Some tax records from 1862-1865"],
+      "records_survived": ["deed books", "will books", "marriage records", "most court minutes"],
+      "scope": "minor",
+      "description": "Athens changed hands between Federal and Confederate forces multiple times during the Civil War. The courthouse suffered some damage and some loose papers were lost or scattered, but the bound record books survived. The Battle of Athens (1864) — a Civil War engagement, distinct from the 1946 election violence — occurred near the town but did not destroy the courthouse. Records from Limestone County's formation in 1818 are largely intact.",
+      "narrative_impact": "If {ancestor_name} did business at the Limestone County courthouse during the Civil War, the records of that business probably survived — but the court itself was barely functioning as armies marched through Athens.",
+      "source": "Alabama Department of Archives and History. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1818,
+      "completeness": "Good — continuous from county formation",
+      "gaps": "No major gaps. Some wear on earliest volumes.",
+      "repository": "Limestone County Probate Office; ADAH microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com AL records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1819,
+      "completeness": "Good — probate records from statehood",
+      "gaps": "Minor gaps in loose estate papers from earliest decades",
+      "repository": "Limestone County Probate Office; ADAH",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1818,
+      "completeness": "Good — marriage bonds and licenses from county formation",
+      "gaps": "Some disruption during Civil War years",
+      "repository": "Limestone County Probate Office; ADAH microfilm",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1818,
+      "completeness": "Good — county court minutes from formation",
+      "gaps": "Minor gaps during Civil War occupation",
+      "repository": "ADAH; Limestone County Circuit Clerk",
+      "online_access": "ADAH microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Spotty until approximately 1920",
+      "repository": "Alabama Department of Public Health; ADAH"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Huntsville Land Office records",
+      "description": "Limestone County land entries were processed at the Huntsville Land Office. Original land patents document the earliest settlers.",
+      "repository": "NARA; BLM GLO Records; ADAH",
+      "era_coverage": "1811-1900s",
+      "genealogical_value": "Establishes first ownership of public land. Cross-reference with county deed books for subsequent transfers.",
+      "source": "BLM General Land Office Records (glorecords.blm.gov)."
+    },
+    {
+      "source_type": "Freedmen's Bureau records",
+      "description": "Limestone County had a large enslaved population. Bureau records document labor contracts, marriages, and complaints after emancipation.",
+      "repository": "National Archives (M1900); FamilySearch; Freedmen's Bureau Online",
+      "era_coverage": "1865-1872",
+      "genealogical_value": "Critical for identifying formerly enslaved families by name. Labor contracts name workers and sometimes reference former owners and plantations.",
+      "source": "National Archives. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands (RG 105)."
+    },
+    {
+      "source_type": "Athens State University archives",
+      "description": "Athens State University (founded 1822) holds local history collections and early institutional records that document Limestone County families.",
+      "repository": "Athens State University Library, Athens, AL",
+      "era_coverage": "1822-present",
+      "genealogical_value": "Student records, faculty records, and institutional archives document prominent county families. The university is one of the oldest in Alabama.",
+      "source": "Athens State University Library Finding Aids."
+    }
+  ],
+  "narrative_hooks": [
+    "Limestone County's records start in 1818 — one year before Alabama became a state — and if {ancestor_name} was among the first settlers, the deed books still hold the record of the land {pronoun_subject} claimed.",
+    "The Civil War swept through Athens multiple times, and the courthouse took damage — but the records survived, even if the community did not emerge unscathed.",
+    "If {ancestor_name} was enslaved in Limestone County, the Freedmen's Bureau records at the National Archives may be the first document that records {pronoun_possessive} name as a free person.",
+    "The Battle of Athens in 1946 — armed veterans demanding a fair election — happened at the same courthouse where {ancestor_name}'s records are filed."
+  ],
+  "source_references": [
+    "Alabama Department of Archives and History. Guide to County Records in the Alabama State Archives. Montgomery: ADAH, 2005.",
+    "Fisk, Sarah Huff. Rebirth of the Athens Courthouse Square. Athens, AL: Limestone County Historical Society, 1999.",
+    "National Archives and Records Administration. Records of the Bureau of Refugees, Freedmen, and Abandoned Lands (RG 105)."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "al_limestone",
+    "research_guidance_refs": ["freedmens_bureau_records"],
+    "template_refs": ["record_silences"]
+  }
+}

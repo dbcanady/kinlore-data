@@ -1,0 +1,141 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Monroe County, Kentucky. Record survival, courthouse history, and known losses for the most isolated county in the Pennyroyal cluster — formed 1820 from Barren and Cumberland counties, with Tompkinsville as county seat. Monroe County's courthouse burned in 1864 during a Civil War guerrilla raid, destroying many early records. The county's remote, rugged terrain and isolation make substitute sources especially important.",
+  "courthouse_atlas_id": "ky_monroe_courthouse",
+  "display_name": "Monroe County, Kentucky — Courthouse Atlas",
+  "county": "Monroe",
+  "state": "KY",
+  "fips_code": "21171",
+  "cluster_ref": "ky_pennyroyal_green_river",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1939,
+      "location": "Tompkinsville, KY — 200 North Main Street",
+      "records_housed": ["deeds (post-1864 primarily)", "wills (post-1864)", "court order books (post-1864)", "marriage records (partial)", "circuit court records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1820-1864",
+        "location": "Tompkinsville — original frame and log courthouse on the public square",
+        "fate": "Burned during a Confederate guerrilla raid in September 1864. Most records destroyed. Tompkinsville was raided multiple times during the Civil War due to its proximity to the Tennessee border and the difficulty Union forces had controlling the remote, rugged county."
+      },
+      {
+        "era": "1865-1939",
+        "location": "Tompkinsville — rebuilt courthouse on the same site",
+        "fate": "Post-war reconstruction. Records from this era forward are well-preserved. Replaced by the current 1939 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "monroe_1864_guerrilla_fire",
+      "date": "1864-09",
+      "cause": "Civil War guerrilla raid — Confederate irregulars burned the courthouse during a raid on Tompkinsville",
+      "records_destroyed": ["most early deed books", "most early will books", "most court order books", "tax lists", "marriage bonds (most pre-1864)"],
+      "records_survived": ["scattered fragments", "some records removed to private homes before the raid"],
+      "scope": "catastrophic",
+      "description": "Monroe County suffered the most complete record loss in the Pennyroyal cluster. In September 1864, Confederate guerrillas — operating in the lawless borderland between Kentucky and Tennessee — raided Tompkinsville and burned the courthouse. Unlike Barren County, where officials had removed most bound records to safety, Monroe County's remote location and limited resources meant that few records had been secured. The destruction was nearly total for the period from the county's 1820 formation through 1864. Some scattered records survived in private hands — families who had removed documents or who held personal copies of deeds and wills — but the systematic county record is broken.",
+      "narrative_impact": "Monroe County before 1864 is a genealogical dark zone. If {ancestor_name} was in Monroe County before the Civil War, the courthouse record is almost certainly gone. Federal census records (1820-1860), Virginia land grants, parent county records, and church records are the only surviving trails. The absence of records is not evidence that the family was not there — it is evidence that guerrillas burned the proof.",
+      "source": "Collins, Lewis, and Richard H. Collins. History of Kentucky. Covington, KY: Collins and Company, 1874."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1864,
+      "completeness": "Post-1864: Good. Pre-1864: Catastrophic loss. Nearly all early deed books were destroyed.",
+      "gaps": "The entire 1820-1864 period is largely destroyed. Post-1864 deed books are continuous. Some pre-fire deeds survive as re-recordings when landowners brought personal copies to the new courthouse.",
+      "repository": "Monroe County Clerk, Tompkinsville; KDLA microfilm (post-1864 only)",
+      "online_access": "FamilySearch microfilm (limited); Ancestry.com Kentucky land records (post-1864 primarily)"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1864,
+      "completeness": "Post-1864: Good. Pre-1864: Nearly total loss.",
+      "gaps": "The 1820-1864 period is effectively a blank. Some estates from the late antebellum period were re-filed after the fire by surviving family members.",
+      "repository": "Monroe County Clerk; KDLA microfilm (limited)",
+      "online_access": "FamilySearch microfilm (limited)"
+    },
+    "marriages": {
+      "earliest_surviving": 1820,
+      "completeness": "Poor for early period — most pre-1864 marriage bonds were destroyed. Some survived in scattered form.",
+      "gaps": "Most early bonds are lost. Published transcriptions made before the fire, where they exist, are invaluable.",
+      "repository": "Monroe County Clerk; KDLA microfilm",
+      "online_access": "FamilySearch (limited); Ancestry.com Kentucky marriages collection (partial)"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1864,
+      "completeness": "Post-1864: Good. Pre-1864: Nearly total loss.",
+      "gaps": "The 1820-1864 court order books are almost entirely destroyed.",
+      "repository": "Monroe County Clerk; KDLA microfilm (post-1864)",
+      "online_access": "KDLA microfilm (limited)"
+    },
+    "vital_records": {
+      "birth_registration_start": 1852,
+      "death_registration_start": 1852,
+      "completeness": "Kentucky mandated registration in 1852, but compliance in remote Monroe County was nearly nonexistent until approximately 1911. The pre-1911 registers, if they survive, are extremely fragmentary.",
+      "repository": "Kentucky Office of Vital Statistics, Frankfort; KDLA for any surviving pre-1911 registers"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Barren and Cumberland County parent records (pre-1820)",
+      "description": "Monroe County was formed from Barren and Cumberland counties in 1820. All records before that date are in the parent counties. Barren County records survived the 1864 fire better than Monroe's, and Cumberland County records provide the eastern parent trail.",
+      "repository": "Barren County Clerk, Glasgow; Cumberland County Clerk, Burkesville; KDLA microfilm",
+      "era_coverage": "1799-1820",
+      "genealogical_value": "Essential for any family in the Tompkinsville area before 1820. Barren County records (mostly intact) are the primary substitute source for the western portion of Monroe County.",
+      "source": "Jillson, Willard Rouse. The Kentucky Land Grants. Louisville: Standard Printing Company, 1925."
+    },
+    {
+      "source_type": "Virginia land grants",
+      "description": "Kentucky land grants issued under Virginia authority before 1792. Military warrants for the Green River district cover what became Monroe County.",
+      "repository": "Kentucky Secretary of State, Land Office Division; Library of Virginia",
+      "era_coverage": "1780s-1792",
+      "genealogical_value": "Critical when Monroe County deed books are destroyed. The Virginia grants document the first legal claims to land in the area and survive independent of county records.",
+      "source": "Jillson, Willard Rouse. Old Kentucky Entries and Deeds. Louisville: Standard Printing Company, 1926."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1820-1940. Agricultural and slave schedules (1850-1880). Monroe County is enumerated from the 1820 census.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1820-1940",
+      "genealogical_value": "The federal census may be the only surviving document with {ancestor_name}'s name for the pre-1864 period. The 1820, 1830, 1840, 1850, and 1860 censuses are irreplaceable for Monroe County because the courthouse records for those decades no longer exist.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Monroe County, KY."
+    },
+    {
+      "source_type": "Church records — Baptist",
+      "description": "Baptist congregations served Monroe County's scattered rural population from the county's earliest years. Church minute books, kept independently of the courthouse, may survive where county records do not.",
+      "repository": "Southern Baptist Theological Seminary Archives, Louisville; individual congregations; Monroe County Historical Society",
+      "era_coverage": "1820s-present",
+      "genealogical_value": "Baptist minute books may be the only institutional records that document Monroe County families before 1864. Membership rolls, dismissal letters, and disciplinary records survived the courthouse fire because they were kept at church buildings, not the courthouse.",
+      "source": "Spencer, J. H. A History of Kentucky Baptists from 1769 to 1885. Cincinnati: J. R. Baumes, 1885."
+    },
+    {
+      "source_type": "Tennessee border county records",
+      "description": "Monroe County borders Clay and Jackson counties in Tennessee. The mountain-border terrain meant families moved between states freely.",
+      "repository": "Clay County Clerk, Celina, TN; Jackson County Clerk, Gainesboro, TN; Tennessee State Library and Archives",
+      "era_coverage": "1800s-present",
+      "genealogical_value": "Cross-referencing with Tennessee border counties can locate families that moved between states. Some Monroe County families who lost records in the 1864 fire had earlier appearances in Tennessee records that survive.",
+      "source": "Tennessee State Library and Archives. Guide to County Records on Microfilm."
+    }
+  ],
+  "narrative_hooks": [
+    "The Monroe County courthouse burned in September 1864 when guerrillas raided Tompkinsville — if {ancestor_name} was in Monroe County before the Civil War, the proof was likely destroyed in that fire, and the federal census may be the only document with {pronoun_possessive} name.",
+    "Monroe County is the Pennyroyal's genealogical dark zone — nearly every record before 1864 is gone. But the census survived at the National Archives in Washington, beyond the reach of Kentucky guerrillas, and those ten-year snapshots may be all that remain of {ancestor_name}'s life in Tompkinsville.",
+    "When the Monroe County courthouse burned, the Baptist church minute books survived because they were kept at the church, not the courthouse — and those minute books may be the only institutional record of {ancestor_name}'s family before the war.",
+    "Before Monroe County existed in 1820, {ancestor_name}'s earliest records were filed in Barren County at Glasgow — and Barren County's records survived better than Monroe's, making that parent county trail the critical genealogical lifeline.",
+    "Monroe County's isolation was both its character and its curse — too remote for the Union Army to protect, too rugged for Confederate regulars to control, and when the guerrillas came for the courthouse, nobody could stop them."
+  ],
+  "source_references": [
+    "Collins, Lewis, and Richard H. Collins. History of Kentucky. Covington, KY: Collins and Company, 1874.",
+    "Jillson, Willard Rouse. The Kentucky Land Grants. Louisville: Standard Printing Company, 1925.",
+    "Jillson, Willard Rouse. Old Kentucky Entries and Deeds. Louisville: Standard Printing Company, 1926.",
+    "Spencer, J. H. A History of Kentucky Baptists from 1769 to 1885. Cincinnati: J. R. Baumes, 1885.",
+    "Works Progress Administration. Historical Records Survey: Kentucky County Records. Frankfort, 1937-1942.",
+    "Kentucky Department for Libraries and Archives. Guide to Kentucky County Records on Microfilm. Frankfort, various editions."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "ky_monroe",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

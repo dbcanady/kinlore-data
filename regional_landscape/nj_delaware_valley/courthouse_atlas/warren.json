@@ -1,0 +1,117 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Warren County, NJ. Record survival, courthouse history, and known losses. Warren was created from Sussex County in 1824. Records begin at that date; earlier records in Sussex County at Newton.",
+  "courthouse_atlas_id": "nj_warren_courthouse",
+  "display_name": "Warren County, New Jersey — Courthouse Atlas",
+  "county": "Warren",
+  "state": "NJ",
+  "fips_code": "34041",
+  "cluster_ref": "nj_delaware_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1827,
+      "location": "Belvidere, NJ — Mansfield Street (with modern additions)",
+      "records_housed": ["deeds", "mortgages", "wills", "surrogate court records", "marriage licenses", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1824–1827",
+        "location": "Belvidere — temporary quarters after separation from Sussex County",
+        "fate": "Replaced by current 1827 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "warren_pre_1824_in_sussex",
+      "date": "1824",
+      "cause": "County creation — Warren carved from Sussex in 1824",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1824", "will books from 1824", "court minutes from 1824"],
+      "scope": "structural — pre-1824 records in Sussex County at Newton",
+      "description": "Warren County's independent records begin in 1824. Pre-1824 records for the area are in Sussex County at Newton. No major fire or disaster has destroyed Warren County courthouse records since formation.",
+      "narrative_impact": "If {ancestor_name} lived in what became Warren County before 1824, the records are in Sussex County at Newton — the parent county.",
+      "source": "Warren County Clerk's Office."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1824,
+      "completeness": "Complete from formation. Pre-1824 in Sussex County.",
+      "gaps": "No significant gaps.",
+      "repository": "Warren County Clerk's Office, Belvidere; NJ State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1824,
+      "completeness": "Good from formation.",
+      "gaps": "Pre-1824 in Sussex County.",
+      "repository": "Warren County Surrogate's Office; NJ State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1824,
+      "completeness": "Good from formation (NJ licenses from 1795; Warren created 1824).",
+      "gaps": "Pre-1824 in Sussex County.",
+      "repository": "Warren County Clerk's Office",
+      "online_access": "FamilySearch; Ancestry.com NJ marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1824,
+      "completeness": "Good from formation.",
+      "gaps": "Pre-1824 in Sussex County.",
+      "repository": "Warren County Clerk's Office; NJ State Archives",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1848,
+      "death_registration_start": 1848,
+      "completeness": "Spotty until 1900. Rural compliance was lower than urban areas.",
+      "repository": "NJ State Archives; NJ Department of Health"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Sussex County records (pre-1824)",
+      "description": "All civil records for what became Warren County before 1824 are in Sussex County files at Newton. Deeds, wills, court minutes must be searched there for pre-1824 families.",
+      "repository": "Sussex County Clerk's Office, Newton; NJ State Archives",
+      "era_coverage": "1700s–1824",
+      "genealogical_value": "Essential for any Warren County family with roots before 1824.",
+      "source": "Snell, History of Sussex and Warren Counties (1881)."
+    },
+    {
+      "source_type": "German and Dutch Reformed church records",
+      "description": "The Kittatinny Valley was settled by German and Dutch families whose church records (Lutheran, Reformed) predate civil vital records. The German Reformed church at Greenwich and the Dutch Reformed churches in the area hold records from the colonial era.",
+      "repository": "Reformed Church in America Archives; NJ State Archives; Warren County Historical Society",
+      "era_coverage": "1740–present",
+      "genealogical_value": "Critical for German and Dutch families. Church records document families for generations before civil vital registration.",
+      "source": "Snell, History of Sussex and Warren Counties (1881)."
+    },
+    {
+      "source_type": "Morris Canal Company records",
+      "description": "The Morris Canal terminated at Phillipsburg in Warren County. Canal company records include employee records, boat registrations, and inclined-plane operation logs.",
+      "repository": "NJ State Archives; Canal Society of New Jersey; Warren County Historical Society",
+      "era_coverage": "1831–1924",
+      "genealogical_value": "Useful for families in canal-related employment — boat operators, lock keepers, plane tenders, and laborers.",
+      "source": "Lee, The Morris Canal (1979)."
+    }
+  ],
+  "narrative_hooks": [
+    "Warren County records begin in 1824 — before that, look in Sussex County at Newton. If {ancestor_name} farmed the Kittatinny Valley before 1824, the deed is a county away.",
+    "German and Dutch Reformed church records are essential for Warren County's earliest families — if {ancestor_name} was German, the church register at Greenwich or the Dutch church holds records the courthouse cannot.",
+    "The Morris Canal records at Phillipsburg document the transportation workers — if {ancestor_name} operated a canal boat or tended an inclined plane, the canal company records are at the NJ State Archives.",
+    "Warren County's rural courthouse at Belvidere has served continuously since 1827 — if {ancestor_name}'s deed or will was recorded there, the document survives in the same building where it was originally filed."
+  ],
+  "source_references": [
+    "Warren County Clerk's Office. Guide to Warren County Records.",
+    "Snell, James P. History of Sussex and Warren Counties. Philadelphia: Everts and Peck, 1881.",
+    "Lee, James. The Morris Canal. York, PA: Canal Captain's Press, 1979.",
+    "NJ State Archives. Research Guide."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nj_warren",
+    "research_guidance_refs": ["property_records", "church_transfers"],
+    "template_refs": ["record_silences"]
+  }
+}

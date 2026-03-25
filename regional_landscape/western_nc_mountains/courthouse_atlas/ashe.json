@@ -1,0 +1,123 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Ashe County, NC. Record survival, courthouse history, and known losses for the northernmost NC mountain county — records survive from formation with no major catastrophic loss, but the county's extreme isolation and Virginia orientation complicate research.",
+  "courthouse_atlas_id": "nc_ashe_courthouse",
+  "display_name": "Ashe County, North Carolina — Courthouse Atlas",
+  "county": "Ashe",
+  "state": "NC",
+  "fips_code": "37009",
+  "cluster_ref": "western_nc_mountains",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1904,
+      "location": "Jefferson, NC — Main Street",
+      "records_housed": ["deeds", "plats", "court minutes", "estate files", "marriage licenses", "vital records indexes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1799–1850s",
+        "location": "Jefferson, NC (original log courthouse)",
+        "fate": "Small log structure typical of frontier counties. Replaced as the county grew."
+      },
+      {
+        "era": "1850s–1904",
+        "location": "Jefferson, NC (frame courthouse)",
+        "fate": "Frame structure that served through the Civil War and Reconstruction. The courthouse survived the war — Ashe County saw limited military action. Replaced by the 1904 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "ashe_minor_early_gaps",
+      "date": "1799-1830",
+      "cause": "Frontier conditions and county subdivision",
+      "records_destroyed": ["some early loose papers from the 1799-1810 period"],
+      "records_survived": ["deed books from 1799", "will books", "court minutes from 1799", "marriage bonds"],
+      "scope": "minor",
+      "description": "Ashe County's records are among the best-preserved in the western NC mountains — no major courthouse fire and no significant Civil War damage. Some early loose papers from the frontier period are fragmentary, and county subdivision (Alleghany 1859, Watauga area 1849) moved some records to successor counties, but the core record series survive from county formation in 1799. The main research challenge is not record loss but the county's Virginia orientation — families crossed the state line freely, and records for Ashe County families may be found in Grayson, Wythe, or Smyth counties, Virginia.",
+      "narrative_impact": "Ashe County's records survived where many mountain counties' did not — if {ancestor_name} appeared in court or recorded a deed in Jefferson, the record probably still exists. The challenge is that {ancestor_name}'s family may have done business in Virginia as easily as in North Carolina.",
+      "source": "Fletcher, Arthur L. Ashe County: A History. Jefferson, NC: Ashe County Research Association, 1963."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1799,
+      "completeness": "Good — continuous series from county formation",
+      "gaps": "Minor gaps in the earliest years. Some deeds for areas later included in Alleghany County (formed 1859) may require checking both counties.",
+      "repository": "Ashe County Register of Deeds, Jefferson; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com NC land records collection"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1799,
+      "completeness": "Good — wills and estate records survive from formation",
+      "gaps": "Some loose estate papers from the early 1800s are fragmentary. Bound will books are intact.",
+      "repository": "Ashe County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm; NC State Archives digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1799,
+      "completeness": "Good — marriage bonds survive from county formation",
+      "gaps": "Bonds are more complete than registers. Some families married in Virginia (Grayson County particularly), so absence from Ashe records does not mean they were unmarried.",
+      "repository": "Ashe County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com NC marriages collection"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1799,
+      "completeness": "Good — County and Superior Court minutes nearly continuous",
+      "gaps": "Minor gaps in the 1800s-1810s.",
+      "repository": "NC State Archives; Ashe County Clerk of Court",
+      "online_access": "NC State Archives microfilm; limited FamilySearch digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Poor until the 1920s. Ashe County's remoteness — no railroad until 1914 — meant compliance with state vital records laws was very slow.",
+      "repository": "NC Office of Vital Records; NC State Archives for delayed birth certificates"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1800–1940. Ashe County is enumerated from the 1800 census. Agricultural schedules (1850-1880) document the subsistence and livestock economy.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1800–1940",
+      "genealogical_value": "Essential for tracking families. The agricultural schedules are particularly valuable for Ashe County, documenting the livestock economy (cattle, sheep) that distinguished Ashe from tobacco-growing counties.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Ashe County, NC."
+    },
+    {
+      "source_type": "Virginia county records (Grayson, Wythe, Smyth)",
+      "description": "Ashe County families frequently crossed the Virginia border for trade, marriage, and legal business. Grayson County, VA records in particular contain many Ashe County families.",
+      "repository": "Grayson County Courthouse (Independence, VA); Library of Virginia (Richmond); FamilySearch microfilm",
+      "era_coverage": "1790s–present",
+      "genealogical_value": "Critical for Ashe County research. The New River flows north into Virginia, and families followed the river for commerce. A marriage or land transaction missing from Ashe records may be in Grayson or Wythe County, VA.",
+      "source": "Nuckolls, Benjamin Floyd. Pioneer Settlers of Grayson County, Virginia. Baltimore: Genealogical Publishing, 1974."
+    },
+    {
+      "source_type": "Church records — Baptist and Methodist",
+      "description": "Primitive Baptist and Missionary Baptist churches were dominant. Some Methodist circuit rider records cover the area. Church minutes provide membership and family data.",
+      "repository": "Individual churches; NC Baptist Historical Collection, Wake Forest University; NC State Archives",
+      "era_coverage": "1800s–present",
+      "genealogical_value": "Church records fill gaps in civil vital records before 1913. Primitive Baptist minute books are often detailed, naming members with dates and family connections.",
+      "source": "Fletcher, Arthur L. Ashe County: A History. Jefferson, NC: Ashe County Research Association, 1963."
+    }
+  ],
+  "narrative_hooks": [
+    "Ashe County's courthouse never burned, which means {ancestor_name}'s records likely survive from the county's very first year — 1799. That is a rare gift in the western NC mountains.",
+    "The challenge with {ancestor_name} in Ashe County is not missing records but missing geography — the New River flows north into Virginia, and the family may have recorded deeds, married, or appeared in court in Grayson County, Virginia as easily as in Jefferson, North Carolina.",
+    "Before 1913, no North Carolina county required birth or death registration. In Ashe County, where the nearest doctor might be a day's ride away, most births and deaths were marked only in family Bibles and church records.",
+    "If {ancestor_name} disappears from Ashe County records, check Virginia — the state line was a political boundary, not a social one, and Ashe families treated Grayson and Wythe counties as extensions of their own community.",
+    "Ashe County's records run unbroken from 1799 — a continuous paper trail through the frontier era, the Civil War, Reconstruction, and the long isolation that ended only when the railroad reached Jefferson in 1914."
+  ],
+  "source_references": [
+    "Fletcher, Arthur L. Ashe County: A History. Jefferson, NC: Ashe County Research Association, 1963.",
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Nuckolls, Benjamin Floyd. Pioneer Settlers of Grayson County, Virginia. Baltimore: Genealogical Publishing, 1974.",
+    "Eller, Ronald D. Miners, Millhands, and Mountaineers: Industrialization of the Appalachian South, 1880-1930. Knoxville: University of Tennessee Press, 1982."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_ashe",
+    "research_guidance_refs": ["southern_courthouse_research", "civil_war_era_records"],
+    "template_refs": ["record_silences"]
+  }
+}

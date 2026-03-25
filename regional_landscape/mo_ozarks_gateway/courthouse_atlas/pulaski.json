@@ -1,0 +1,128 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Pulaski County, MO. Record survival and courthouse history. Pulaski County formed 1833. The courthouse burned in 1903, destroying many early records. Fort Leonard Wood displacement (1940-41) created a separate record challenge — families whose land and records were absorbed into the military reservation.",
+  "courthouse_atlas_id": "mo_pulaski_courthouse",
+  "display_name": "Pulaski County, Missouri — Courthouse Atlas",
+  "county": "Pulaski",
+  "state": "MO",
+  "fips_code": "29169",
+  "cluster_ref": "mo_ozarks_gateway",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1903,
+      "location": "Waynesville, MO — 301 Historic Route 66",
+      "records_housed": ["deeds", "plats", "marriage records", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1833-1903",
+        "location": "Waynesville",
+        "fate": "Destroyed by fire in 1903. Significant record loss."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "pulaski_1903_fire",
+      "date": "1903",
+      "cause": "Courthouse fire",
+      "records_destroyed": ["Most circuit court records pre-1903", "most probate records pre-1903", "tax records pre-1903", "some deed records"],
+      "records_survived": ["Some deed books (partial rescue)", "some marriage records"],
+      "scope": "catastrophic",
+      "description": "The 1903 courthouse fire was catastrophic for Pulaski County's records. Most pre-1903 court records, probate records, and tax records were destroyed. Some deed books were rescued but with damage. Marriage records partially survived. For a county formed in 1833, this represents a seventy-year gap in most record types.",
+      "narrative_impact": "If {ancestor_name} was in Pulaski County before 1903, the courthouse fire likely destroyed the records that documented {pronoun_possessive} property, court appearances, and estate proceedings. For a family that may have been in the county since the 1830s, this is a devastating loss.",
+      "source": "Missouri State Archives. Guide to County Records on Microfilm: Pulaski County."
+    },
+    {
+      "loss_id": "pulaski_fort_wood_displacement",
+      "date": "1940-1941",
+      "cause": "Federal government land condemnation for Fort Leonard Wood — families displaced, some private records lost with abandoned homesteads",
+      "records_destroyed": ["Private family records (Bibles, letters, deeds held at home)", "cemetery records for cemeteries relocated or abandoned within the reservation"],
+      "records_survived": ["Condemnation proceedings in federal court records", "county deed records for condemned properties"],
+      "scope": "moderate",
+      "description": "The construction of Fort Leonard Wood displaced hundreds of families from the Big Piney River valley and surrounding hollows. Families who left quickly may not have taken all private records. Some family cemeteries were relocated; others were left within the military reservation boundary. The condemnation proceedings themselves are documented in federal court records. County deed records show the transfer of property to the federal government.",
+      "narrative_impact": "If {ancestor_name}'s family was displaced by Fort Leonard Wood, the family Bible, letters, and private documents that families in the hollows relied on may have been lost in the hasty relocation. The land records show the condemnation, but the family's private archive may be gone.",
+      "source": "Rafferty, The Ozarks: Land and Life (2001)."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1833,
+      "completeness": "Partial — some early deed books rescued from the 1903 fire with damage. Complete from 1903.",
+      "gaps": "Significant gaps in pre-1903 deed records. Fort Leonard Wood condemnation deeds filed 1940-41.",
+      "repository": "Pulaski County Recorder of Deeds, Waynesville; Missouri State Archives",
+      "online_access": "FamilySearch microfilm (partial)"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1903,
+      "completeness": "Pre-1903 records destroyed in fire. Complete from 1903.",
+      "gaps": "Complete gap from formation (1833) to 1903.",
+      "repository": "Pulaski County Probate Court; Missouri State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1833,
+      "completeness": "Partial — some early records survived. Complete from 1903.",
+      "gaps": "Significant gaps in pre-1903 marriage records.",
+      "repository": "Pulaski County Recorder; Missouri State Archives",
+      "online_access": "FamilySearch; Ancestry.com MO marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1903,
+      "completeness": "Pre-1903 records destroyed. Complete from 1903.",
+      "gaps": "Complete gap from 1833 to 1903.",
+      "repository": "Missouri State Archives; Pulaski County Circuit Court",
+      "online_access": "Missouri State Archives microfilm"
+    },
+    "vital_records": {
+      "birth_registration_start": 1883,
+      "death_registration_start": 1883,
+      "completeness": "Very poor compliance before 1910. Pulaski County was among the most isolated in Missouri — many vital events were never registered.",
+      "repository": "Missouri Department of Health and Senior Services; Missouri State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Fort Leonard Wood condemnation and military records",
+      "description": "Federal court records document the land condemnation proceedings — property descriptions, appraised values, and the names of displaced families. Military base records may document civilian employment after construction.",
+      "repository": "National Archives — Central Plains Region, Kansas City; Fort Leonard Wood archives",
+      "era_coverage": "1940-present",
+      "genealogical_value": "Essential for families displaced by the base. Condemnation records identify landowners and property descriptions. Military employment records document the base's civilian workforce.",
+      "source": "National Archives records relating to military reservations."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1840-1940 provide the only continuous documentation for Pulaski County families across the pre-1903 fire gap.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1840-1940",
+      "genealogical_value": "Critical — the census may be the only federal record documenting families whose courthouse records burned in 1903. The 1940 census is the last enumeration before Fort Leonard Wood displaced much of the population.",
+      "source": "National Archives and Records Administration."
+    },
+    {
+      "source_type": "Church records (Baptist, Methodist)",
+      "description": "Baptist and Methodist church records from Pulaski County communities. Record quality varies; some congregations in the Fort Leonard Wood area were dissolved when the base was built.",
+      "repository": "State Historical Society of Missouri; Missouri Baptist Historical Commission; individual church holdings",
+      "era_coverage": "1840s-present",
+      "genealogical_value": "Variable but potentially critical for the pre-1903 period. Church records for congregations dissolved by the Fort Leonard Wood displacement may survive in denominational archives.",
+      "source": "Missouri Baptist Historical Commission records."
+    }
+  ],
+  "narrative_hooks": [
+    "Pulaski County lost its records twice — once in the 1903 courthouse fire, and again when Fort Leonard Wood swallowed the hollows and the family Bibles inside them.",
+    "If {ancestor_name} was in Pulaski County before 1903, the fire erased the courthouse records. If {pronoun_subject} was displaced by Fort Leonard Wood in 1940, the family's private records may have gone with the homestead.",
+    "The 1940 census is the last snapshot of Pulaski County families before Fort Leonard Wood displaced them — if {ancestor_name}'s family was in the Big Piney valley, the census taker may have been the last official visitor before the Army.",
+    "Federal condemnation records at the National Archives document who owned the land Fort Leonard Wood was built on — if {ancestor_name}'s farm became a training range, the government recorded what it paid but not what was lost."
+  ],
+  "source_references": [
+    "Missouri State Archives. Guide to County Records on Microfilm: Pulaski County.",
+    "Rafferty, Milton D. The Ozarks: Land and Life. 2nd ed. University of Arkansas Press, 2001.",
+    "National Archives and Records Administration. Records relating to military reservations.",
+    "Works Progress Administration. Historical Records Survey: Missouri County Records. Jefferson City, 1937-1942."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "mo_pulaski",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

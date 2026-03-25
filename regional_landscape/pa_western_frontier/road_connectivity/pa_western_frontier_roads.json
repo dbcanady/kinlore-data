@@ -1,0 +1,144 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Road and connectivity network for the PA Western Frontier cluster. Documents how transportation shaped settlement, industrialization, and migration from Forbes Road through the Pennsylvania Turnpike. Western PA was opened by military roads, connected by canal and river, industrialized by railroad, and suburbanized by highway.",
+  "connectivity_id": "pa_western_frontier_roads",
+  "display_name": "PA Western Frontier — Road & Connectivity Network",
+  "cluster_ref": "pa_western_frontier",
+  "era_range": "1755-1960",
+  "transportation_eras": [
+    {
+      "era_id": "military_roads",
+      "era_name": "Military Roads and the River Frontier",
+      "date_range": "1755-1820",
+      "primary_modes": ["military road/trace", "horseback", "flatboat", "keelboat", "wagon"],
+      "description": "Western Pennsylvania was opened by two military roads: Braddock's Road (1755) through Fayette County and Forbes Road (1758) through Westmoreland County. Both roads crossed the Alleghenies to reach the Forks of the Ohio (Pittsburgh). After the French and Indian War, these roads became the primary corridors for settlement. The rivers — Ohio, Monongahela, Allegheny — were the other transportation system. Flatboats built at Pittsburgh carried settlers and goods downstream. Keelboats could navigate upstream with difficulty. River ferries at fixed crossing points became settlement nodes.",
+      "road_conditions": "Military roads were cleared traces — stumps removed, bridges rudimentary, grade rough. Passable for wagons in dry weather, treacherous in rain. The Allegheny crossing was the great barrier — two to four days of mountain terrain. West of the mountains, roads were somewhat better on the rolling plateau.",
+      "travel_times": [
+        { "from": "Philadelphia", "to": "Pittsburgh", "mode": "wagon via Forbes Road", "time": "20-30 days", "conditions_note": "The Allegheny crossing was the bottleneck" },
+        { "from": "Pittsburgh", "to": "Cincinnati", "mode": "flatboat", "time": "5-7 days downstream", "conditions_note": "Downstream only — flatboats were broken up for lumber at destination" },
+        { "from": "Uniontown (Fayette)", "to": "Pittsburgh", "mode": "wagon", "time": "2-3 days", "conditions_note": "Approximately 50 miles on improved trace" },
+        { "from": "Greensburg (Westmoreland)", "to": "Pittsburgh", "mode": "horseback", "time": "1 day", "conditions_note": "Approximately 30 miles on Forbes Road" }
+      ],
+      "key_routes": [
+        { "route_name": "Forbes Road", "type": "military road", "year_established": 1758, "description": "General John Forbes's military road from Carlisle through the Ligonier Valley to Fort Pitt. Became the primary route for settlement west of the Alleghenies. Later roughly followed by the Pennsylvania Turnpike.", "counties_served": ["Westmoreland", "Allegheny"] },
+        { "route_name": "Braddock's Road", "type": "military road", "year_established": 1755, "description": "General Edward Braddock's road from Cumberland, MD, through Fayette County to the Forks of the Ohio. Older but less practical than Forbes Road. Crossed the Youghiogheny at Stewart's Crossing.", "counties_served": ["Fayette", "Allegheny"] },
+        { "route_name": "Ohio River (downstream navigation)", "type": "river navigation", "year_established": "1760s onward", "description": "Flatboats and keelboats from Pittsburgh downstream on the Ohio. The river was the highway west. Every town between Pittsburgh and New Orleans was accessible by water.", "counties_served": ["Allegheny", "Beaver"] }
+      ],
+      "isolation_index": {
+        "description": "High east of the Alleghenies, moderate west. The Allegheny crossing was the great barrier. Once west of the mountains, the rolling terrain and river system provided reasonable connectivity. The Ohio River was the primary corridor for long-distance movement.",
+        "comparative_note": "Western PA was more isolated from eastern markets than the Virginia Piedmont but better connected to the Ohio Valley. The river system provided connectivity that the roads could not match."
+      },
+      "narrative_hook": "Forbes Road and Braddock's Road were the only ways across the Alleghenies — {ancestor_name} crossed the mountains on one of those traces, the same roads armies had cut through the forest, and the crossing took the better part of a week.",
+      "source": "Anderson, Crucible of War (2000). Buck, Planting of Civilization (1939)."
+    },
+    {
+      "era_id": "national_road_canal",
+      "era_name": "National Road, Canal, and Steamboat",
+      "date_range": "1818-1860",
+      "primary_modes": ["macadamized highway (National Road)", "canal boat", "steamboat", "wagon", "horseback"],
+      "description": "The National Road (1818) and the Pennsylvania Main Line Canal (1834) connected western Pennsylvania to eastern markets at revolutionary speed. The National Road — the first federally funded highway — was a macadamized surface from Cumberland, MD, through Uniontown and Brownsville. Stagecoaches, Conestoga wagons, and drovers used it. The Main Line Canal connected Philadelphia to Pittsburgh via a system of canals and inclined planes (the Allegheny Portage Railroad). Steamboats replaced flatboats on the rivers. The combination of road, canal, and river commerce made Pittsburgh the transportation hub of the West.",
+      "road_conditions": "National Road: excellent for the era — macadamized surface, stone bridges, engineered grades. Other roads: unimproved dirt and mud. The contrast between the National Road and local roads was stark.",
+      "travel_times": [
+        { "from": "Baltimore", "to": "Wheeling (via Uniontown)", "mode": "stagecoach on National Road", "time": "3-4 days", "conditions_note": "The finest highway in America west of the seaboard" },
+        { "from": "Philadelphia", "to": "Pittsburgh", "mode": "Pennsylvania Main Line Canal", "time": "4-5 days", "conditions_note": "Canal boat to Hollidaysburg, portage railroad over the mountain, canal boat to Johnstown, rail/boat to Pittsburgh" },
+        { "from": "Pittsburgh", "to": "Cincinnati", "mode": "steamboat", "time": "2-3 days downstream; 5-7 days upstream", "conditions_note": "Steamboats revolutionized upstream travel" }
+      ],
+      "key_routes": [
+        { "route_name": "National Road (Route 40)", "type": "macadamized highway", "year_established": 1818, "description": "First federally funded highway. Entered PA at the Maryland line, passed through Uniontown and Brownsville. Made Fayette County the thoroughfare for westward migration.", "counties_served": ["Fayette", "Washington"] },
+        { "route_name": "Pennsylvania Main Line Canal", "type": "canal and portage railroad", "year_established": 1834, "description": "Connected Philadelphia to Pittsburgh. Crossed the Alleghenies by inclined plane at the Portage Railroad. Used the Conemaugh River corridor through Westmoreland County.", "counties_served": ["Westmoreland", "Allegheny"] },
+        { "route_name": "Ohio and Monongahela steamboat routes", "type": "river steamboat", "year_established": "1811 onward", "description": "Regular steamboat service on the Ohio and Monongahela. Pittsburgh became a major steamboat-building center.", "counties_served": ["Allegheny", "Beaver", "Fayette", "Washington"] }
+      ],
+      "isolation_index": {
+        "description": "Dramatically reduced along the National Road and canal corridors. The National Road made Uniontown and Brownsville well-connected; the canal made Pittsburgh accessible from Philadelphia. But counties off these corridors (Greene, parts of Butler) remained isolated.",
+        "comparative_note": "By 1840, Pittsburgh was better connected to eastern markets than any western city except Cincinnati."
+      },
+      "narrative_hook": "The National Road brought the nation through {ancestor_name}'s county — Conestoga wagons, stagecoaches, drovers with livestock, and families heading west passed the front door, and the tavern trade was as good as farming.",
+      "source": "Searight, The Old Pike (1894). Buck, Planting of Civilization (1939)."
+    },
+    {
+      "era_id": "railroad_era",
+      "era_name": "Railroad and Industrial Corridor",
+      "date_range": "1852-1920",
+      "primary_modes": ["railroad", "coal barge", "wagon on unimproved road"],
+      "description": "The Pennsylvania Railroad reached Pittsburgh in 1852, ending the canal era overnight. Rail connections radiated from Pittsburgh in every direction — east to Philadelphia, north to Erie, south to Connellsville and the coke region, west to the Ohio Valley. The railroad did not merely connect western PA — it created the industrial corridor. Steel mills needed rail sidings. Coal mines needed rail spurs. Towns on the railroad grew; towns off it stagnated. The Baltimore & Ohio reached the region from the south. The Pittsburgh & Lake Erie served the Monongahela valley. By 1890, western PA had one of the densest rail networks in the world.",
+      "road_conditions": "County roads remained unimproved dirt. The railroad replaced the road for long-distance travel and all freight. Local travel still required wagon or horseback on roads that had not improved since 1800.",
+      "travel_times": [
+        { "from": "Pittsburgh", "to": "Philadelphia", "mode": "Pennsylvania Railroad", "time": "12-15 hours", "conditions_note": "The same journey that took 20-30 days by wagon and 4-5 days by canal" },
+        { "from": "Pittsburgh", "to": "Connellsville (coke region)", "mode": "railroad", "time": "2-3 hours", "conditions_note": "The coke-steel supply line" },
+        { "from": "Greensburg", "to": "Pittsburgh", "mode": "railroad", "time": "1-1.5 hours", "conditions_note": "Daily commuting became possible for professionals" },
+        { "from": "Typical farm (off-railroad)", "to": "nearest depot", "mode": "wagon", "time": "1-4 hours", "conditions_note": "The gap between railroad world and farm world remained" }
+      ],
+      "key_routes": [
+        { "route_name": "Pennsylvania Railroad main line", "type": "railroad", "year_established": 1852, "description": "Trunk line from Philadelphia through Greensburg to Pittsburgh. The most important railroad in western PA. Horseshoe Curve at Altoona was an engineering marvel.", "counties_served": ["Westmoreland", "Allegheny"] },
+        { "route_name": "Baltimore & Ohio Railroad", "type": "railroad", "year_established": "1850s-1870s", "description": "Reached western PA from the south through Connellsville. Served the coke region and provided an alternate route east.", "counties_served": ["Fayette", "Allegheny"] },
+        { "route_name": "Pittsburgh & Lake Erie Railroad", "type": "railroad", "year_established": 1879, "description": "Served the Monongahela valley industrial corridor — the steel mills, coke works, and coal mines along the river.", "counties_served": ["Allegheny", "Washington", "Beaver"] }
+      ],
+      "isolation_index": {
+        "description": "Sharply reduced along railroad corridors; unchanged in the backcountry. The railroad created two western Pennsylvanias: the connected industrial world of the rail-served valleys and the isolated agricultural world of the ridgetops.",
+        "comparative_note": "By 1890, Pittsburgh had one of the densest rail networks in the world. But Greene County's interior was still a day's wagon ride from the nearest depot."
+      },
+      "narrative_hook": "The Pennsylvania Railroad connected Pittsburgh to Philadelphia in twelve hours — the same journey that had taken {ancestor_name}'s grandparents a month by wagon. The railroad made the steel empire possible and the old roads obsolete.",
+      "source": "Lorant, Pittsburgh (1999). Serrin, Homestead (1992)."
+    },
+    {
+      "era_id": "highway_turnpike",
+      "era_name": "Highway, Turnpike, and Suburban Expansion",
+      "date_range": "1920-1960",
+      "primary_modes": ["automobile", "truck", "bus", "railroad (declining for passengers)"],
+      "description": "The automobile and paved highways reshaped western Pennsylvania's geography. US Route 30 (Lincoln Highway) and US Route 40 (National Road successor) provided east-west connections. The Pennsylvania Turnpike (1940) — the first limited-access highway in America — crossed Westmoreland County and reduced the Pittsburgh-to-Philadelphia drive from twelve hours to six. Suburban development followed the highways, with GI Bill veterans building homes in communities that would have been unreachable farm country a generation earlier. The automobile undermined the company town — a worker with a car could live outside the company's reach.",
+      "road_conditions": "State highways paved by the 1920s-1930s. County and township roads improving but many unpaved into the 1950s. The Turnpike was a revolution — four lanes of divided, limited-access highway through the mountains.",
+      "travel_times": [
+        { "from": "Pittsburgh", "to": "Philadelphia", "mode": "Pennsylvania Turnpike", "time": "5-6 hours", "conditions_note": "The Turnpike tunnels through the Alleghenies eliminated the mountain crossing problem" },
+        { "from": "Greensburg", "to": "Pittsburgh", "mode": "automobile", "time": "45 minutes-1 hour", "conditions_note": "Daily commuting became routine" },
+        { "from": "Uniontown (Fayette)", "to": "Pittsburgh", "mode": "automobile", "time": "1-1.5 hours", "conditions_note": "Closer than ever, but Fayette County's economy was declining" },
+        { "from": "New Castle (Lawrence)", "to": "Pittsburgh", "mode": "automobile", "time": "1.5 hours", "conditions_note": "Via US 422" }
+      ],
+      "key_routes": [
+        { "route_name": "Pennsylvania Turnpike", "type": "limited-access highway", "year_established": 1940, "description": "First limited-access highway in America. Crossed Westmoreland County. Used portions of the abandoned South Penn Railroad right-of-way and its tunnels. Transformed travel across the Alleghenies.", "counties_served": ["Westmoreland", "Allegheny"] },
+        { "route_name": "US Route 30 (Lincoln Highway)", "type": "US highway", "year_established": 1913, "description": "First transcontinental automobile highway. Passed through Westmoreland County (Greensburg, Latrobe). Connected the cluster to the national highway system.", "counties_served": ["Westmoreland", "Allegheny"] },
+        { "route_name": "US Route 19 (Pittsburgh-Erie)", "type": "US highway", "year_established": 1926, "description": "North-south highway connecting Pittsburgh through Butler County to Erie. Became a major suburban commercial corridor.", "counties_served": ["Allegheny", "Butler", "Lawrence"] }
+      ],
+      "isolation_index": {
+        "description": "Low across most of the cluster by 1950. The automobile and paved roads ended the isolation that had defined Greene County and the agricultural ridgetops. Suburban development blurred the boundary between Pittsburgh and its surrounding counties.",
+        "comparative_note": "By 1950, western PA was well-connected to the national highway system. The Pennsylvania Turnpike made the Allegheny crossing routine."
+      },
+      "narrative_hook": "The Pennsylvania Turnpike cut through the mountains that had stopped Braddock's army — {ancestor_name} drove through a tunnel in thirty seconds that Forbes had spent weeks getting around, and Pittsburgh was forty-five minutes from the farm.",
+      "source": "Lorant, Pittsburgh (1999)."
+    }
+  ],
+  "railroad_timeline": [
+    { "year": 1852, "event": "Pennsylvania Railroad reaches Pittsburgh", "impact": "Ends the canal era. Connects Pittsburgh to eastern markets at rail speed." },
+    { "year": 1859, "event": "Connellsville rail connections established", "impact": "Connects the coke region to Pittsburgh steel mills. The coke-steel supply line." },
+    { "year": 1871, "event": "B&O Railroad reaches Connellsville from the south", "impact": "Alternate route east through the coke region. Competition with the Pennsylvania Railroad." },
+    { "year": 1879, "event": "Pittsburgh & Lake Erie Railroad opens", "impact": "Serves the Monongahela valley industrial corridor — steel mills and coal mines." },
+    { "year": 1883, "event": "Railroad network reaches every county seat in the cluster", "impact": "All eight county seats connected by rail. The industrial corridor is complete." },
+    { "year": 1940, "event": "Pennsylvania Turnpike opens", "impact": "First limited-access highway in America. Begins the automobile age's transformation of western PA." }
+  ],
+  "narrative_hooks": [
+    "Forbes Road, the National Road, the Pennsylvania Railroad, and the Pennsylvania Turnpike all crossed western Pennsylvania — {ancestor_name} lived on ground that two centuries of transportation revolution had crossed, each one remaking the landscape.",
+    "The Pennsylvania Turnpike made the Allegheny crossing routine — {ancestor_name} drove through a tunnel that Forbes's army had spent weeks getting around.",
+    "The railroad made the steel empire possible — without rail sidings to bring ore and coke and ship finished steel, the mills could not exist at scale, and {ancestor_name}'s livelihood depended on that connection.",
+    "The Ohio River was the highway west — {ancestor_name} could board a flatboat at Pittsburgh and reach Cincinnati in a week, or watch from the bank as the nation floated past.",
+    "The automobile broke the company town — {ancestor_name} with a car could live outside the company's surveillance and seek work at mills the company did not control."
+  ],
+  "source_references": [
+    "Anderson, Fred. Crucible of War. New York: Knopf, 2000.",
+    "Searight, Thomas B. The Old Pike: A History of the National Road. Uniontown, PA: privately printed, 1894.",
+    "Buck, Solon J., and Elizabeth H. Buck. The Planting of Civilization in Western Pennsylvania. Pittsburgh: University of Pittsburgh Press, 1939.",
+    "Lorant, Stefan. Pittsburgh: The Story of an American City. 5th ed. Pittsburgh: Esselmont Books, 1999.",
+    "Serrin, William. Homestead: The Glory and Tragedy of an American Steel Town. New York: Times Books, 1992."
+  ],
+  "nel_cross_references": {
+    "route_refs": [
+      "forbes_road",
+      "national_road",
+      "ohio_river_flatboat"
+    ],
+    "trigger_refs": [
+      "scots_irish_frontier",
+      "industrial_revolution",
+      "gi_bill_migration"
+    ]
+  }
+}

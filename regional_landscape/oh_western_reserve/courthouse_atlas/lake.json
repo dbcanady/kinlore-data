@@ -1,0 +1,113 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Lake County, OH. Organized 1840 from Geauga and Cuyahoga counties. Record survival is excellent. The Underground Railroad history adds a layer of deliberately hidden records — conductors did not keep written logs.",
+  "courthouse_atlas_id": "oh_lake_courthouse",
+  "display_name": "Lake County, Ohio — Courthouse Atlas",
+  "county": "Lake",
+  "state": "OH",
+  "fips_code": "39085",
+  "cluster_ref": "oh_western_reserve",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1907,
+      "location": "Painesville, OH — 47 N. Park Place",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1840–1860",
+        "location": "Painesville, frame courthouse",
+        "fate": "Early courthouse. Replaced as the county grew."
+      },
+      {
+        "era": "1860–1907",
+        "location": "Painesville, brick courthouse on the square",
+        "fate": "Served through the Civil War and into the industrial era. Replaced by the current building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "lake_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "marriage records", "probate records", "court minutes"],
+      "scope": "none",
+      "description": "Lake County's courthouse has not experienced a significant fire. Records run continuously from the county's 1840 organization. For earlier records, check Geauga County (eastern townships) and Cuyahoga County (western townships). Finnish and Hungarian immigrant communities at Fairport Harbor and Painesville have church and fraternal records that supplement courthouse records.",
+      "narrative_impact": "If {ancestor_name} lived in Lake County after 1840, the courthouse records survive. Before 1840, check Geauga or Cuyahoga county records depending on location.",
+      "source": "Ohio History Connection. Guide to County Records in Ohio."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1840,
+      "completeness": "Excellent from county formation",
+      "gaps": "None. Earlier records in parent counties.",
+      "repository": "Lake County Recorder; Ohio History Connection microfilm",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1840,
+      "completeness": "Good from formation",
+      "gaps": "None significant.",
+      "repository": "Lake County Probate Court; Ohio History Connection",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1840,
+      "completeness": "Excellent from formation",
+      "gaps": "None known.",
+      "repository": "Lake County Probate Court; Ohio History Connection",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1840,
+      "completeness": "Good",
+      "gaps": "None significant.",
+      "repository": "Lake County Clerk of Courts",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1867,
+      "death_registration_start": 1867,
+      "completeness": "Ohio statewide; compliance poor until approximately 1908.",
+      "repository": "Ohio Department of Health"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Finnish immigrant church and society records (Fairport Harbor)",
+      "description": "The Finnish community at Fairport Harbor — dock workers and ore handlers — established Lutheran and cooperative institutions. Finnish temperance societies and workers' halls maintained membership rolls.",
+      "repository": "Finnish-American Heritage Center (Hancock, MI); Immigration History Research Center (University of Minnesota); Lake County Historical Society",
+      "era_coverage": "1890s–1960s",
+      "genealogical_value": "Essential for tracing Finnish families at Fairport Harbor. Church records in Finnish; society membership rolls with biographical detail.",
+      "source": "Hoglund, A. William. Finnish Immigrants in America, 1880-1920. Madison: University of Wisconsin Press, 1960."
+    },
+    {
+      "source_type": "Nursery and fruit grower association records",
+      "description": "Lake County's nursery industry maintained association records, catalogs, and business records. The Lake County Agricultural Society held annual fairs with published premium lists naming exhibitors.",
+      "repository": "Lake County Historical Society; Western Reserve Historical Society",
+      "era_coverage": "1830s–1960s",
+      "genealogical_value": "Identifies farming and nursery families. Fair records and catalogs name producers and their specialties.",
+      "source": "History of Geauga and Lake Counties (1878)."
+    }
+  ],
+  "narrative_hooks": [
+    "Lake County's courthouse records survive from 1840 — {ancestor_name}'s deeds, marriages, and probate records are intact. For earlier records, check Geauga or Cuyahoga counties.",
+    "If {ancestor_name} was Finnish at Fairport Harbor, the courthouse tells part of the story — the rest is in the Finnish Lutheran church records and the temperance society minutes, likely written in Finnish.",
+    "The Underground Railroad left no courthouse records by design — the conductors who moved fugitives through Lake County to Fairport Harbor kept nothing in writing. The evidence is in the oral histories, the memoirs, and the architectural clues of houses with hidden rooms.",
+    "Ohio's vital registration gap before 1867 applies in Lake County — church records and cemetery records are the substitutes, and Lake County's churches kept records well."
+  ],
+  "source_references": [
+    "Ohio History Connection. Guide to County Records in Ohio. Columbus, 2015.",
+    "History of Geauga and Lake Counties, Ohio. Philadelphia: Williams Bros., 1878.",
+    "Hoglund, A. William. Finnish Immigrants in America, 1880-1920. Madison: University of Wisconsin Press, 1960."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "oh_lake",
+    "research_guidance_refs": ["church_transfers"],
+    "template_refs": ["record_silences"]
+  }
+}

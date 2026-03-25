@@ -1,0 +1,118 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for DeKalb County, AL. Record survival and courthouse history. DeKalb County was formed in 1836 from Cherokee cession lands — one of the last areas of Alabama settled by European Americans. Fort Payne courthouse has experienced one significant fire.",
+  "courthouse_atlas_id": "al_dekalb_courthouse",
+  "display_name": "DeKalb County, Alabama — Courthouse Atlas",
+  "county": "DeKalb",
+  "state": "AL",
+  "fips_code": "01049",
+  "cluster_ref": "al_tennessee_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1969,
+      "location": "Fort Payne, AL — 300 Grand Avenue SW",
+      "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1836–1878",
+        "location": "Lebanon (original county seat)",
+        "fate": "Lebanon was the first county seat. Wooden courthouse. County seat moved to Fort Payne in 1878."
+      },
+      {
+        "era": "1878–1895",
+        "location": "Fort Payne",
+        "fate": "Wooden courthouse at Fort Payne. Destroyed by fire in 1895 — some records lost."
+      },
+      {
+        "era": "1895–1969",
+        "location": "Fort Payne, rebuilt",
+        "fate": "Rebuilt courthouse. Served until replaced by the current 1969 building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "dekalb_1895_fire",
+      "date": "1895",
+      "cause": "Courthouse fire at Fort Payne",
+      "records_destroyed": ["Some deed books (partial)", "Some court minute books", "Loose court files and estate papers"],
+      "records_survived": ["Many deed books (bulk survived)", "Most marriage records", "Will books (partial)"],
+      "scope": "moderate",
+      "description": "The 1895 courthouse fire at Fort Payne destroyed or damaged some records, but the loss was not total. Many bound volumes survived, either because they were in fireproof storage or because they were rescued during the fire. The extent of the loss varies by record type — marriage records and some deed books survived better than loose court files. Records before the 1878 county seat move (created at Lebanon) survived the fire because they had already been transferred and some may have been held separately. Research in DeKalb County requires checking ADAH microfilm for records that were filmed before the fire or copies held at the state level.",
+      "narrative_impact": "The 1895 fire created gaps in DeKalb County's records. If {ancestor_name} appears in deed records but not in court minutes for a specific period, the fire — not the ancestor's absence — is the likely explanation. Always check ADAH microfilm for surviving copies.",
+      "source": "Alabama Department of Archives and History. Guide to County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1836,
+      "completeness": "Moderate — bulk survived the 1895 fire but with gaps",
+      "gaps": "Some deed books damaged or destroyed in the 1895 fire. Check ADAH microfilm for surviving copies.",
+      "repository": "DeKalb County Probate Office, Fort Payne; ADAH microfilm",
+      "online_access": "FamilySearch microfilm (where available); Ancestry.com"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1837,
+      "completeness": "Partial — some will books survived; many loose estate papers lost in fire",
+      "gaps": "The 1895 fire damaged the estate record collection. Cross-reference with ADAH copies.",
+      "repository": "DeKalb County Probate Office; ADAH",
+      "online_access": "FamilySearch microfilm (partial)"
+    },
+    "marriages": {
+      "earliest_surviving": 1836,
+      "completeness": "Good — marriage records largely survived the fire",
+      "gaps": "Minor gaps",
+      "repository": "DeKalb County Probate Office; ADAH microfilm",
+      "online_access": "FamilySearch; Ancestry.com"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1836,
+      "completeness": "Moderate — some court minute books lost in fire",
+      "gaps": "Gaps due to 1895 fire and Civil War disruption",
+      "repository": "ADAH; DeKalb County Circuit Clerk",
+      "online_access": "ADAH microfilm (partial)"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Spotty until approximately 1925. Remote plateau communities had very low registration rates.",
+      "repository": "Alabama Department of Public Health; ADAH"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Cherokee Nation records",
+      "description": "DeKalb County was Cherokee territory until removal in 1838. Cherokee census rolls, property valuations, and removal records document the Cherokee families who lived here before white settlement.",
+      "repository": "National Archives (RG 75, Bureau of Indian Affairs); Cherokee Nation archives; Oklahoma Historical Society",
+      "era_coverage": "Pre-1838",
+      "genealogical_value": "Critical for Cherokee genealogy. The 1835 Cherokee Census, Cherokee property valuations (used to calculate removal compensation), and Trail of Tears muster rolls document Cherokee families by name, family composition, and property. For any research involving Cherokee ancestry in DeKalb County, these federal records are the primary source.",
+      "source": "Perdue and Green, The Cherokee Nation and the Trail of Tears (2007)."
+    },
+    {
+      "source_type": "Hosiery mill employment records",
+      "description": "Fort Payne developed a hosiery manufacturing industry in the early twentieth century. Employment records from the mills document workers and families.",
+      "repository": "DeKalb County Historical Society; Fort Payne Public Library; ADAH",
+      "era_coverage": "1920-1960",
+      "genealogical_value": "For families who worked in the Fort Payne hosiery mills rather than farming, company records may supplement courthouse records. These were the county's first significant industrial employers.",
+      "source": "DeKalb County Historical Society collections."
+    }
+  ],
+  "narrative_hooks": [
+    "The 1895 courthouse fire at Fort Payne burned records that cannot be replaced — if {ancestor_name}'s deed or court record is missing, the fire is the most likely explanation.",
+    "DeKalb County was Cherokee homeland until 1838 — if {ancestor_name} was Cherokee, the records are in federal archives, not the county courthouse.",
+    "The county seat started at Lebanon and moved to Fort Payne in 1878 — records created before 1878 were transferred, but some may have been lost in the move and the subsequent fire.",
+    "Remote Sand Mountain and Lookout Mountain communities in DeKalb County had very low vital records registration rates — a birth or death before 1925 may simply not have been recorded."
+  ],
+  "source_references": [
+    "Alabama Department of Archives and History. Guide to County Records in the Alabama State Archives. Montgomery: ADAH, 2005.",
+    "Perdue, Theda, and Michael D. Green. The Cherokee Nation and the Trail of Tears. New York: Viking, 2007.",
+    "DeKalb County Historical Society. Collections and Finding Aids."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "al_dekalb",
+    "research_guidance_refs": ["freedmens_bureau_records"],
+    "template_refs": ["record_silences"]
+  }
+}

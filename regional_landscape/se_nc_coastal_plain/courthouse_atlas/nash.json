@@ -1,0 +1,122 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Nash County, NC. Record survival, courthouse history, and the Rocky Mount jurisdictional complication that genealogists must navigate.",
+  "courthouse_atlas_id": "nc_nash_courthouse",
+  "display_name": "Nash County, North Carolina — Courthouse Atlas",
+  "county": "Nash",
+  "state": "NC",
+  "fips_code": "37127",
+  "cluster_ref": "se_nc_coastal_plain",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1921,
+      "location": "Nashville, NC — Washington Street",
+      "records_housed": ["deeds", "plats", "vital records indexes", "court minutes", "estate files"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1777–1833",
+        "location": "Nashville (original courthouse, likely wooden construction)",
+        "fate": "Replaced by a more substantial structure. The original building's fate is not well documented."
+      },
+      {
+        "era": "1833–1921",
+        "location": "Nashville, same approximate site",
+        "fate": "Brick building served for nearly ninety years. Survived the Civil War without significant damage. Replaced when the county needed a larger facility."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "nash_no_major_losses",
+      "date": "N/A",
+      "cause": "N/A",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1777", "will books from 1777", "court minutes from 1777", "marriage bonds from 1777"],
+      "scope": "specific",
+      "description": "Nash County is one of eastern North Carolina's best-preserved record counties. No major courthouse fire, flood, or Civil War destruction affected the records. The courthouse at Nashville was not in the path of major military operations, and the bound record books survive in continuous series from the county's formation in 1777. Some deterioration of early loose papers has occurred, but the core legal record — deeds, wills, court minutes — is intact.",
+      "narrative_impact": "Nash County's excellent record survival means that gaps in {ancestor_name}'s trail are more likely due to the family's circumstances — poverty, illiteracy, landlessness — than to record destruction. If they owned land or went to court, the record almost certainly still exists.",
+      "source": "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1777,
+      "completeness": "Excellent — continuous series from county formation",
+      "gaps": "No known volume-level gaps. Some early entries are brief.",
+      "repository": "Nash County Register of Deeds, Nashville; NC State Archives microfilm",
+      "online_access": "FamilySearch microfilm; Ancestry.com NC land records"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1777,
+      "completeness": "Good — will books survive from formation. Loose estate papers reasonably complete.",
+      "gaps": "Some loose papers from the 1770s–1790s are fragmentary. Bound volumes intact.",
+      "repository": "Nash County Clerk of Court; NC State Archives",
+      "online_access": "FamilySearch microfilm; NC State Archives digital collections"
+    },
+    "marriages": {
+      "earliest_surviving": 1777,
+      "completeness": "Good — marriage bonds survive from county formation",
+      "gaps": "Bonds are more complete than registers. Register volumes begin later, approximately 1851.",
+      "repository": "Nash County Register of Deeds; NC State Archives microfilm",
+      "online_access": "FamilySearch; Ancestry.com NC marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1777,
+      "completeness": "Good — continuous series from formation",
+      "gaps": "Minor gaps in the earliest years. Superior Court minutes begin later.",
+      "repository": "NC State Archives; Nash County Clerk of Court",
+      "online_access": "NC State Archives microfilm; limited FamilySearch digitization"
+    },
+    "vital_records": {
+      "birth_registration_start": 1913,
+      "death_registration_start": 1913,
+      "completeness": "Spotty until approximately 1920. Rocky Mount city records may predate county registration for residents within city limits.",
+      "repository": "NC Office of Vital Records; NC State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1790–1940. Nash County enumerated from the first federal census. The divided city of Rocky Mount complicates post-1867 census research.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1790–1940",
+      "genealogical_value": "Essential for tracking families. Rocky Mount families may appear in Nash OR Edgecombe County census schedules depending on which side of the Tar River they lived on.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Nash County, NC."
+    },
+    {
+      "source_type": "Rocky Mount dual-county records",
+      "description": "Rocky Mount straddles the Nash-Edgecombe county line along the Tar River. City records, church records, cemetery records, and some court matters may be filed in either county depending on the address.",
+      "repository": "Nash County courthouse; Edgecombe County courthouse; Rocky Mount city records; Braswell Memorial Library",
+      "era_coverage": "1867–present",
+      "genealogical_value": "Critical complication — a Rocky Mount ancestor's records may be split between two courthouses. Always check both Nash and Edgecombe counties for Rocky Mount families.",
+      "source": "Braswell Memorial Library Local History Collection. Rocky Mount, NC."
+    },
+    {
+      "source_type": "Church records — Baptist and Methodist",
+      "description": "Numerous congregations in Nash County kept membership and burial records from the early 1800s onward.",
+      "repository": "NC Baptist Historical Collection; individual churches; NC State Archives",
+      "era_coverage": "1800s–present",
+      "genealogical_value": "Church records supplement civil records and provide family relationship evidence, especially before vital registration in 1913.",
+      "source": "Paschal, George W. History of North Carolina Baptists. Raleigh: General Board of NC Baptist State Convention, 1930."
+    }
+  ],
+  "narrative_hooks": [
+    "Nash County's records survive unbroken from 1777, which means that if {ancestor_name} owned land, made a will, or married here, the paper trail almost certainly still exists — this is one of the best-preserved courthouses in eastern North Carolina.",
+    "If {ancestor_name} lived in Rocky Mount, the county line ran down the middle of town along the Tar River — their deed might be in Nashville, their church record in Tarboro, and their census entry in either Nash or Edgecombe depending on which side of the street they called home.",
+    "Before 1913, no North Carolina county required birth or death registration, so the absence of a birth record for {ancestor_name} reflects the era — in Nash County, where courthouse records are otherwise intact, church rolls and cemetery stones are the primary substitutes.",
+    "The {surname} family's land transactions in Nash County can probably be traced deed by deed from {year} backward to the county's formation — the Register of Deeds in Nashville holds an unbroken chain of grantee and grantor indexes back to 1777."
+  ],
+  "source_references": [
+    "NC State Archives. Guide to County Records in the North Carolina State Archives. Raleigh: Division of Archives and History, 2001.",
+    "Paschal, George W. History of North Carolina Baptists. Raleigh: General Board of NC Baptist State Convention, 1930.",
+    "Braswell Memorial Library Local History Collection. Rocky Mount, NC.",
+    "National Archives and Records Administration. Federal Census Schedules, Nash County, NC, 1790–1940."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nc_nash",
+    "research_guidance_refs": ["southern_courthouse_research", "dual_county_records"],
+    "template_refs": ["record_silences"]
+  }
+}

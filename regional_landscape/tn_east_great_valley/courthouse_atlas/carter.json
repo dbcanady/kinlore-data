@@ -1,0 +1,126 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Carter County, TN. Formed 1796 from Washington County — the year of Tennessee statehood. Seat: Elizabethton. The courthouse has survived without catastrophic loss. Records begin at formation.",
+  "courthouse_atlas_id": "tn_carter_courthouse",
+  "display_name": "Carter County, Tennessee — Courthouse Atlas",
+  "county": "Carter",
+  "state": "TN",
+  "fips_code": "47019",
+  "cluster_ref": "tn_east_great_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1974,
+      "location": "Elizabethton, TN — Elk Avenue",
+      "records_housed": ["deeds", "wills", "court minutes", "marriage records", "tax records"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1796–1830s",
+        "location": "Elizabethton, original site",
+        "fate": "Log courthouse. Records maintained through early transitions."
+      },
+      {
+        "era": "1830s–1870s",
+        "location": "Elizabethton",
+        "fate": "Frame courthouse. Survived the Civil War period."
+      },
+      {
+        "era": "1870s–1974",
+        "location": "Elizabethton",
+        "fate": "Brick courthouse. Served for nearly a century before replacement."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "carter_no_major_loss",
+      "date": null,
+      "cause": "None — no major fire, flood, or war damage",
+      "records_destroyed": [],
+      "records_survived": ["deed books", "will books", "court minutes", "marriage records"],
+      "scope": "none",
+      "description": "Carter County's courthouse has not experienced a catastrophic fire or wartime destruction. Records run continuously from the 1796 formation. Some wear on the earliest volumes but all are legible. The county was Unionist during the Civil War, and while guerrilla activity disrupted civil government, the courthouse and its records survived.",
+      "narrative_impact": "If {ancestor_name} lived in Carter County after 1796, the county records almost certainly survive. Gaps in the paper trail are more likely to reflect the ancestor's circumstances — mountain isolation, subsistence farming without property transactions — than courthouse losses.",
+      "source": "Tennessee State Library and Archives. Guide to County Records: Carter County."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1796,
+      "completeness": "Excellent — continuous from formation",
+      "gaps": "No significant gaps.",
+      "repository": "Carter County Register of Deeds; TSLA microfilm",
+      "online_access": "FamilySearch microfilm"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1796,
+      "completeness": "Good — bound volumes intact from formation",
+      "gaps": "Earliest loose papers may be fragmentary.",
+      "repository": "Carter County Clerk; TSLA",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1796,
+      "completeness": "Good",
+      "gaps": "Post-1838 more standardized. Some early bonds show wear.",
+      "repository": "Carter County Clerk; TSLA microfilm",
+      "online_access": "FamilySearch; Ancestry.com TN marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1796,
+      "completeness": "Good — continuous from formation with Civil War disruption",
+      "gaps": "Some disruption 1862-1864.",
+      "repository": "Carter County Clerk; TSLA",
+      "online_access": "TSLA digital collections (partial)"
+    },
+    "vital_records": {
+      "birth_registration_start": 1908,
+      "death_registration_start": 1908,
+      "completeness": "Incomplete before approximately 1914.",
+      "repository": "Tennessee Department of Health; TSLA"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "ET&WNC Railroad records",
+      "description": "The East Tennessee & Western North Carolina Railroad ('Tweetsie') ran through Carter County from Elizabethton through the Doe River gorge to Cranberry, NC. Railroad employment records, station records, and associated company documents survive fragmentarily.",
+      "repository": "East Tennessee State University Archives; Archives of Appalachia, ETSU",
+      "era_coverage": "1882-1950",
+      "genealogical_value": "Railroad employment records may document workers not found in county records. The ET&WNC was a significant employer in Carter County.",
+      "source": "Marsh, Mallory Hope. The Tweetsie Railroad. Charleston: Arcadia Publishing, 2014."
+    },
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1800-1940 (Carter County formed 1796, first enumerated 1800).",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1800-1940",
+      "genealogical_value": "Essential for tracking families. The 1929 Elizabethton rayon strike appears indirectly in 1930 census data — workers enumerated at the plants.",
+      "source": "NARA. Federal Census Schedules, Carter County, TN."
+    },
+    {
+      "source_type": "TVA Watauga Dam records",
+      "description": "TVA land acquisition records for the Watauga Dam project document every tract condemned or purchased in the upper Watauga valley.",
+      "repository": "Tennessee Valley Authority Technical Library, Knoxville; National Archives Southeast Region",
+      "era_coverage": "1942-1949",
+      "genealogical_value": "Documents displaced families — names, tract descriptions, compensation amounts, and relocation destinations.",
+      "source": "Tennessee Valley Authority. Watauga Project: Technical Report No. 34. Knoxville: TVA, 1953."
+    }
+  ],
+  "narrative_hooks": [
+    "Carter County's courthouse has never burned — {ancestor_name}'s deeds, wills, and court records survive from 1796 onward.",
+    "If {ancestor_name} worked on the Tweetsie Railroad through the Doe River gorge, the ET&WNC company records at ETSU may hold employment documentation that the courthouse cannot provide.",
+    "TVA's Watauga Dam displaced families from the upper valley — if {ancestor_name}'s land was condemned, the TVA records document exactly what was taken and what was paid.",
+    "Carter County's records start with Tennessee statehood in 1796 — the county and the state were born in the same year, and {ancestor_name}'s earliest records here are among the first documents of a new state."
+  ],
+  "source_references": [
+    "Tennessee State Library and Archives. Guide to County Records: Carter County.",
+    "Marsh, Mallory Hope. The Tweetsie Railroad. Charleston: Arcadia Publishing, 2014.",
+    "Tennessee Valley Authority. Watauga Project: Technical Report No. 34. Knoxville: TVA, 1953."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "tn_carter",
+    "research_guidance_refs": ["southern_courthouse_research"],
+    "template_refs": ["record_silences"]
+  }
+}

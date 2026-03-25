@@ -1,0 +1,117 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Cumberland County, NJ. Record survival, courthouse history, and known losses. Cumberland was created from Salem County in 1748. Records are generally well-preserved, with glass industry and oyster fleet records supplementing civil documentation.",
+  "courthouse_atlas_id": "nj_cumberland_courthouse",
+  "display_name": "Cumberland County, New Jersey — Courthouse Atlas",
+  "county": "Cumberland",
+  "state": "NJ",
+  "fips_code": "34011",
+  "cluster_ref": "nj_delaware_valley",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1848,
+      "location": "Bridgeton, NJ — Broad Street (with modern additions)",
+      "records_housed": ["deeds", "mortgages", "wills", "surrogate court records", "marriage licenses", "court minutes"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1748–1848",
+        "location": "Bridgeton — earlier courthouse buildings",
+        "fate": "Replaced by the 1848 building. No significant record loss documented."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "cumberland_pre_1748_in_salem",
+      "date": "1748",
+      "cause": "County creation — Cumberland carved from Salem County in 1748",
+      "records_destroyed": [],
+      "records_survived": ["deed books from 1748", "will books from 1748", "court minutes from 1748"],
+      "scope": "structural — pre-1748 records in Salem County",
+      "description": "Cumberland County records begin at county formation in 1748. Pre-1748 records for the area are in Salem County at Salem City. No major fire or disaster has destroyed Cumberland County courthouse records.",
+      "narrative_impact": "If {ancestor_name} lived in what became Cumberland County before 1748, the records are in Salem County. This applies to the earliest colonial families along the Cohansey and Maurice Rivers.",
+      "source": "Cumberland County Clerk's Office."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1748,
+      "completeness": "Complete from county formation. Pre-1748 in Salem County.",
+      "gaps": "No significant gaps.",
+      "repository": "Cumberland County Clerk's Office, Bridgeton; NJ State Archives",
+      "online_access": "FamilySearch microfilm; limited Ancestry.com"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1748,
+      "completeness": "Good from formation.",
+      "gaps": "Some early loose papers in poor condition.",
+      "repository": "Cumberland County Surrogate's Office; NJ State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1795,
+      "completeness": "Good from 1795 (NJ license requirement).",
+      "gaps": "Pre-1795 in church records.",
+      "repository": "Cumberland County Clerk's Office",
+      "online_access": "FamilySearch; Ancestry.com NJ marriages"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1748,
+      "completeness": "Good from formation.",
+      "gaps": "Minor condition issues with earliest volumes.",
+      "repository": "Cumberland County Clerk's Office; NJ State Archives",
+      "online_access": "Limited"
+    },
+    "vital_records": {
+      "birth_registration_start": 1848,
+      "death_registration_start": 1848,
+      "completeness": "Spotty until approximately 1900.",
+      "repository": "NJ State Archives; NJ Department of Health"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Glass factory records",
+      "description": "Bridgeton, Millville, and other glass factories maintained employment records, production logs, and store ledgers. These document the skilled glass blowers and factory workers who were the backbone of Cumberland County's industrial economy.",
+      "repository": "Cumberland County Historical Society, Bridgeton; Wheaton Arts and Cultural Center, Millville; NJ State Archives",
+      "era_coverage": "1739–1960",
+      "genealogical_value": "Important for glass-worker families. Employment records identify workers by name, skill level, and sometimes origin.",
+      "source": "Pepper, The Glass Gaffers of New Jersey (1971)."
+    },
+    {
+      "source_type": "Oyster fleet and fishery records",
+      "description": "The Delaware Bay oyster industry at Port Norris and Bivalve generated boat registration, licensing, and employment records. The Bayshore Center at Bivalve maintains historical collections.",
+      "repository": "Bayshore Center at Bivalve; Cumberland County Historical Society; NJ Division of Fish and Wildlife historical records",
+      "era_coverage": "1850–1960",
+      "genealogical_value": "Essential for families in the oyster industry. Boat registrations name owners and operators. Shucking house employment records identify workers.",
+      "source": "Hall, Daily Life in the Delaware Bay Oyster Industry (1988)."
+    },
+    {
+      "source_type": "Jewish agricultural colony records",
+      "description": "The Alliance Colony (1882) and Rosenhayn Colony near Vineland were among the first Jewish agricultural settlements in America. The Jewish Agricultural Society maintained records of settlers, land purchases, and community life.",
+      "repository": "American Jewish Historical Society; Alliance Colony Heritage Association; Cumberland County Historical Society",
+      "era_coverage": "1882–1960",
+      "genealogical_value": "Critical for Jewish families at Alliance, Rosenhayn, and Norma. Colony records document families by origin, occupation, and land purchase.",
+      "source": "Brandes, Immigrants to Freedom (1971)."
+    }
+  ],
+  "narrative_hooks": [
+    "Cumberland County's records begin in 1748 — before that, look in Salem County. If {ancestor_name} lived along the Cohansey before 1748, the deed is at Salem.",
+    "For glass-worker families, the factory records tell the story the courthouse cannot — {ancestor_name}'s skill level, wages, and working conditions documented in ledgers that survived because the glass industry kept meticulous accounts.",
+    "The oyster fleet at Port Norris left records in boat registrations and shucking-house payrolls — if {ancestor_name} worked the Delaware Bay oysters, the evidence is at the Bayshore Center.",
+    "The Jewish colonies at Alliance and Rosenhayn have their own archive — if {ancestor_name} came to Cumberland County through the Jewish Agricultural Society, the colony records document the settlement in detail."
+  ],
+  "source_references": [
+    "Cumberland County Clerk's Office. Guide to Cumberland County Records.",
+    "Pepper, Adeline. The Glass Gaffers of New Jersey. New York: Charles Scribner's Sons, 1971.",
+    "Hall, John W. Daily Life in the Delaware Bay Oyster Industry. Bridgeton: Cumberland County Historical Society, 1988.",
+    "Brandes, Joseph. Immigrants to Freedom. Philadelphia: University of Pennsylvania Press, 1971."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "nj_cumberland",
+    "research_guidance_refs": ["property_records", "institutional_records"],
+    "template_refs": ["record_silences"]
+  }
+}

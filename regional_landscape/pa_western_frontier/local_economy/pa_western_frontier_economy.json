@@ -1,0 +1,268 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Local economy timeline for the PA Western Frontier regional cluster (Westmoreland, Fayette, Washington, Greene, Allegheny, Beaver, Butler, Lawrence counties). Covers 1758-1960 across six economic eras — from the French and Indian War frontier through the whiskey economy, the National Road boom, iron and glass, the steel-and-coke empire, massive immigration, and the postwar transformation. The economic story is Pittsburgh-centered but radiates outward: what happened at the Point shaped every county in the cluster.",
+  "economy_id": "pa_western_frontier_economy",
+  "display_name": "PA Western Frontier — Local Economy Timeline",
+  "cluster_ref": "pa_western_frontier",
+  "era_range": "1758-1960",
+  "economic_eras": [
+    {
+      "era_id": "frontier_settlement",
+      "era_name": "Frontier Settlement and the Whiskey Economy",
+      "date_range": "1758-1800",
+      "dominant_economy": "Subsistence farming with surplus grain distilled into whiskey; fur trade declining; flatboat building at Pittsburgh; salt production at Saltsburg; early iron furnaces",
+      "description": "The western Pennsylvania frontier economy was shaped by three forces: geography, isolation, and whiskey. The Alleghenies separated the western counties from eastern markets — hauling grain east by wagon was uneconomical, but converting it to whiskey reduced the weight and increased the value tenfold. Every farm with surplus rye or corn had a still. Pittsburgh, at the Point where the rivers met, was the gateway — flatboats built there carried settlers and goods down the Ohio. The Whiskey Rebellion of 1794 erupted when the federal government taxed the one product that made the frontier economy work. The rebellion was concentrated in Washington, Fayette, and Westmoreland counties, and its suppression by federal troops under Hamilton (with Washington nominally in command) was the first test of federal authority west of the Alleghenies.",
+      "county_specifics": [
+        { "county": "Westmoreland", "note": "First county organized west of the Alleghenies (1773). Forbes Road corridor. The Ligonier Valley was the breadbasket." },
+        { "county": "Fayette", "note": "Braddock's Road corridor. Brownsville on the Monongahela was a major flatboat embarkation point. Carved from Westmoreland in 1783." },
+        { "county": "Washington", "note": "Most populous western county by 1790. Epicenter of the Whiskey Rebellion. David Bradford's county." },
+        { "county": "Greene", "note": "Most isolated. Carved from Washington in 1796. Border county — Virginia line to the south." },
+        { "county": "Allegheny", "note": "Pittsburgh at the Point. Fort Pitt. Flatboat building. Gateway to the West. Organized 1788." },
+        { "county": "Beaver", "note": "Ohio River county. Early settlement along the river. The Harmony Society established Economy in 1824." },
+        { "county": "Butler", "note": "Organized 1800. Frontier farming and early iron furnaces on Slippery Rock Creek." },
+        { "county": "Lawrence", "note": "Not yet organized (1849). Part of Beaver County. Agricultural frontier." }
+      ],
+      "key_infrastructure": [
+        { "name": "Forbes Road", "year": 1758, "impact": "Military road that became the primary route for western settlement. Crossed the Alleghenies through the Ligonier Valley to Fort Pitt." },
+        { "name": "Braddock's Road", "year": 1755, "impact": "Earlier military road through Fayette County. Became secondary route west after Forbes Road proved more practical." },
+        { "name": "Pittsburgh flatboat yards", "year": "1780s-1800s", "impact": "Flatboats built at Pittsburgh carried thousands of settlers down the Ohio. Pittsburgh was the embarkation point for westward migration." }
+      ],
+      "major_employers": [
+        { "name": "Subsistence farms with whiskey distilleries", "type": "Family labor", "era": "1770-1800", "counties_affected": ["Westmoreland", "Fayette", "Washington", "Greene", "Allegheny", "Butler"], "employment_scale": "Nearly universal. Whiskey was the currency of the frontier." },
+        { "name": "Flatboat builders and rivermen", "type": "Artisan and transport", "era": "1780-1820", "counties_affected": ["Allegheny", "Fayette"], "employment_scale": "Hundreds. Flatboat building was a significant Pittsburgh industry." }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Farm laborer (hired)", "wage": "$0.25-$0.50/day", "year": 1790, "source": "Buck, Planting of Civilization, ch. 6" },
+        { "occupation": "Flatboat builder", "wage": "$0.75-$1.00/day", "year": 1795, "source": "Buck, Planting of Civilization, ch. 7" },
+        { "occupation": "Whiskey production (value)", "wage": "1 bushel rye ($0.50) → 3 gallons whiskey ($3.00-$4.50)", "year": 1794, "source": "Slaughter, Whiskey Rebellion, ch. 3" }
+      ],
+      "narrative_hook": "In the {decade}s, {ancestor_name} farmed western Pennsylvania ground where the only way to turn a surplus into cash was to distill it — a bushel of rye worth fifty cents became three gallons of whiskey worth three dollars, and the still was as essential as the plow.",
+      "source": "Slaughter, Thomas P. The Whiskey Rebellion. Oxford University Press, 1986. Buck, Solon J., and Elizabeth H. Buck. The Planting of Civilization in Western Pennsylvania. University of Pittsburgh Press, 1939."
+    },
+    {
+      "era_id": "national_road_canal",
+      "era_name": "National Road, Canal, and the Gateway Economy",
+      "date_range": "1800-1850",
+      "dominant_economy": "Transportation hub — National Road traffic, Pennsylvania Main Line Canal, steamboat commerce on the rivers; iron furnaces and glass factories; Pittsburgh as 'Gateway to the West'; salt production; sheep farming boom in Washington County",
+      "description": "Between 1800 and 1850, western Pennsylvania's economy shifted from frontier subsistence to transportation-based commerce. The National Road (1818) carried westward migrants through Fayette and Washington counties. The Pennsylvania Main Line Canal (1834) connected Philadelphia to Pittsburgh by a system of canals and inclined planes. Steamboats replaced flatboats on the rivers. Pittsburgh's iron and glass industries grew. The region was the funnel through which the nation passed on its way west — and every tavern, blacksmith shop, wagon yard, and ferry crossing profited from the traffic.",
+      "county_specifics": [
+        { "county": "Westmoreland", "note": "Canal connection through Blairsville and Saltsburg on the Conemaugh. Salt industry at Saltsburg. Iron production." },
+        { "county": "Fayette", "note": "National Road corridor — Uniontown and Brownsville thrived on through-traffic. Brownsville was the primary Monongahela River flatboat and steamboat port." },
+        { "county": "Washington", "note": "National Road through the county. Sheep farming boom — Washington County became the wool capital of western Pennsylvania." },
+        { "county": "Greene", "note": "Remained isolated. Agricultural economy with modest market connections via Washington County." },
+        { "county": "Allegheny", "note": "Pittsburgh as transportation nexus — where road, canal, and river commerce converged. Iron and glass manufacturing growing. Population booming." },
+        { "county": "Beaver", "note": "Ohio River commerce. Harmony Society's Economy was one of the wealthiest communities in America." },
+        { "county": "Butler", "note": "Agricultural economy with iron furnaces. Charcoal iron production." },
+        { "county": "Lawrence", "note": "Agricultural settlement. Not yet organized as a county (1849)." }
+      ],
+      "key_infrastructure": [
+        { "name": "National Road (Route 40)", "year": 1818, "impact": "First federally funded highway. Passed through Fayette (Uniontown) and Washington counties. Made these counties thoroughfares for westward migration." },
+        { "name": "Pennsylvania Main Line Canal", "year": 1834, "impact": "Connected Philadelphia to Pittsburgh via canal and inclined-plane portage railroad. Reduced shipping time and cost but was obsoleted by the railroad within twenty years." },
+        { "name": "Steamboat commerce on the Ohio and Monongahela", "year": "1811 onward", "impact": "Steamboats replaced flatboats and keelboats. Pittsburgh became a major steamboat-building center." }
+      ],
+      "major_employers": [
+        { "name": "Iron furnaces (charcoal)", "type": "Manufacturing", "era": "1800-1850", "counties_affected": ["Butler", "Westmoreland", "Fayette", "Lawrence"], "employment_scale": "Hundreds per furnace community — ironmaster, molders, fillers, colliers, teamsters" },
+        { "name": "Glass factories (Pittsburgh and surrounding)", "type": "Manufacturing", "era": "1810-1850", "counties_affected": ["Allegheny"], "employment_scale": "Hundreds. Pittsburgh glass was nationally known." },
+        { "name": "Sheep farming", "type": "Agriculture", "era": "1820-1870", "counties_affected": ["Washington", "Greene"], "employment_scale": "Thousands of farm families. Washington County was the wool center of western PA." }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Iron furnace laborer", "wage": "$0.50-$1.00/day", "year": 1830, "source": "Buck, Planting of Civilization, ch. 8" },
+        { "occupation": "Glass blower (skilled)", "wage": "$2.00-$3.00/day", "year": 1840, "source": "Lorant, Pittsburgh, ch. 3" },
+        { "occupation": "Canal boat operator", "wage": "$15-$25/month", "year": 1835, "source": "Buck, Planting of Civilization, ch. 9" }
+      ],
+      "narrative_hook": "Pittsburgh in the {decade}s was the Gateway to the West — every family heading down the Ohio, every barrel of goods, every ambition aimed at the frontier passed through the city at the Point, and {ancestor_name} was part of the economy that moved them.",
+      "source": "Buck, Planting of Civilization (1939). Searight, The Old Pike (1894). Lorant, Pittsburgh (1999)."
+    },
+    {
+      "era_id": "iron_glass_railroad",
+      "era_name": "Iron, Glass, Railroad, and the Birth of Industrial Pittsburgh",
+      "date_range": "1850-1875",
+      "dominant_economy": "Railroad construction replacing canal; Pittsburgh iron and glass at national scale; Civil War production; oil boom in Venango County radiating south; coal mining expanding; Andrew Carnegie entering the iron business",
+      "description": "The Pennsylvania Railroad reached Pittsburgh in 1852, ending the canal era and connecting the city to eastern markets at rail speed. Pittsburgh's iron industry shifted from charcoal to coke-fired production. The Civil War created massive demand for iron and steel — cannon, railroad rails, armor plate — and Pittsburgh's factories ran at capacity. Oil was discovered in Venango County in 1859, and the boom radiated south through Butler County and generated refining industry at Pittsburgh. Andrew Carnegie, working for the Pennsylvania Railroad, recognized the opportunity in iron and steel and began his ascent.",
+      "county_specifics": [
+        { "county": "Allegheny", "note": "Pittsburgh's transformation into an industrial powerhouse. Carnegie beginning his iron and steel investments. Oil refining. Railroad hub." },
+        { "county": "Westmoreland", "note": "Railroad connection to Greensburg. Coal mining beginning in the southeastern coal districts." },
+        { "county": "Fayette", "note": "Connellsville coal district recognized as the finest coking coal. Early coke production." },
+        { "county": "Washington", "note": "Coal mining expanding. Agricultural economy persisting but increasingly oriented toward Pittsburgh markets." },
+        { "county": "Butler", "note": "Oil boom spillover from Venango County. Oil derricks in farm fields." },
+        { "county": "Beaver", "note": "Ohio River industrial development beginning. Economy's Harmony Society declining." },
+        { "county": "Lawrence", "note": "County organized in 1849. Agricultural economy with early industrial stirrings at New Castle." },
+        { "county": "Greene", "note": "Still primarily agricultural. Coal deposits known but not yet developed at scale." }
+      ],
+      "key_infrastructure": [
+        { "name": "Pennsylvania Railroad reaches Pittsburgh", "year": 1852, "impact": "Ended the canal era. Connected Pittsburgh to Philadelphia, New York, and the eastern seaboard at rail speed. Made industrial-scale production and shipping possible." },
+        { "name": "Connellsville coke ovens (early)", "year": "1860s", "impact": "First recognition that Connellsville coal produced the finest metallurgical coke. Henry Clay Frick began consolidating coke operations." },
+        { "name": "Oil refineries at Pittsburgh", "year": "1860s", "impact": "Oil from Venango County shipped to Pittsburgh for refining. Pittsburgh briefly competed with Cleveland (Standard Oil) as a refining center." }
+      ],
+      "major_employers": [
+        { "name": "Pittsburgh iron mills", "type": "Manufacturing — iron", "era": "1850-1875", "counties_affected": ["Allegheny"], "employment_scale": "Thousands. Pittsburgh was the largest iron-producing center in America." },
+        { "name": "Pennsylvania Railroad", "type": "Transportation", "era": "1852-1875", "counties_affected": ["Allegheny", "Westmoreland"], "employment_scale": "Thousands — engineers, firemen, brakemen, track workers, shop workers" },
+        { "name": "Coal mines (expanding)", "type": "Mining", "era": "1860-1875", "counties_affected": ["Fayette", "Westmoreland", "Washington"], "employment_scale": "Hundreds growing to thousands" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Iron puddler (skilled)", "wage": "$3.00-$5.00/day", "year": 1870, "source": "Serrin, Homestead, ch. 2" },
+        { "occupation": "Coal miner", "wage": "$1.00-$2.00/day", "year": 1870, "source": "Eavenson, First Century, ch. 4" },
+        { "occupation": "Railroad brakeman", "wage": "$1.50-$2.50/day", "year": 1870, "source": "Lorant, Pittsburgh, ch. 4" }
+      ],
+      "narrative_hook": "When the railroad reached Pittsburgh in 1852, {ancestor_name}'s world changed — the canal that had connected the city to the East was obsolete overnight, and the iron mills that had produced for a regional market were suddenly shipping to the nation.",
+      "source": "Lorant, Pittsburgh (1999). Serrin, Homestead (1992). Tarbell, Standard Oil (1904)."
+    },
+    {
+      "era_id": "steel_coke_empire",
+      "era_name": "The Steel-and-Coke Empire: Carnegie, Frick, and the Industrial Colossus",
+      "date_range": "1875-1910",
+      "dominant_economy": "Steel production (Carnegie Steel, later US Steel); Connellsville coke (Frick); massive immigration from Southern and Eastern Europe; coal mining at industrial scale; glass and tin plate manufacturing; Pittsburgh as the most productive and dirtiest industrial city in America",
+      "description": "The thirty-five years between 1875 and 1910 made western Pennsylvania the industrial center of America. Andrew Carnegie built the largest steel company in the world, with the Edgar Thomson Works at Braddock (1875), the Homestead Works, and allied operations along the Monongahela. Henry Clay Frick consolidated the Connellsville coke region and merged with Carnegie in 1882 — steel needed coke, and coke needed steel customers. The Homestead Strike of 1892 broke the steelworkers' union. The industry recruited workers from Southern and Eastern Europe — Slovak, Polish, Italian, Croatian, Hungarian, Lithuanian, Serbian, and Greek immigrants poured into the mill towns and coke patches. By 1900, Pittsburgh produced more steel than any comparable area on earth. The city's smoke was legendary — visitors described it as 'hell with the lid taken off.' In 1901, Carnegie sold to J.P. Morgan for $480 million, creating US Steel — the largest corporation in the world.",
+      "county_specifics": [
+        { "county": "Allegheny", "note": "The steel capital. Edgar Thomson Works (Braddock), Homestead Works, Jones & Laughlin (South Side), National Tube (McKeesport). Massive immigration." },
+        { "county": "Fayette", "note": "Connellsville coke empire. 20,000+ beehive ovens. Frick's domain. Immigrant coke workers." },
+        { "county": "Westmoreland", "note": "Eastern extension of the Connellsville coke region. Coal mining. Industrial corridor along the Youghiogheny." },
+        { "county": "Washington", "note": "Coal mining expanding. Monongahela valley towns (Charleroi, Donora) industrializing." },
+        { "county": "Beaver", "note": "Jones & Laughlin Aliquippa Works (1907). Glass factories. Ohio River industrial corridor." },
+        { "county": "Lawrence", "note": "New Castle tin plate and glass. 'Tin Plate Capital of the World.' Italian and Polish immigration." },
+        { "county": "Butler", "note": "Oil industry declining. Agricultural economy persisting. Southern edge industrializing." },
+        { "county": "Greene", "note": "Deep coal mining beginning. Agricultural economy still dominant." }
+      ],
+      "key_infrastructure": [
+        { "name": "Carnegie Steel Company (Edgar Thomson, Homestead, et al.)", "year": "1875-1901", "impact": "Largest steel company in the world. Produced more steel than Great Britain. Defined Pittsburgh's economy and identity." },
+        { "name": "H.C. Frick Coke Company (Connellsville)", "year": "1871-1901", "impact": "Controlled the coke supply that Carnegie Steel needed. 20,000+ beehive ovens. The coke-steel partnership was the industrial relationship that made western PA dominant." },
+        { "name": "US Steel Corporation", "year": 1901, "impact": "Morgan's merger of Carnegie Steel, Federal Steel, and National Steel created the largest corporation in the world. Headquartered in Pittsburgh." }
+      ],
+      "major_employers": [
+        { "name": "Carnegie Steel / US Steel", "type": "Manufacturing — steel", "era": "1875-1910", "counties_affected": ["Allegheny"], "employment_scale": "Tens of thousands. The largest industrial employer in America." },
+        { "name": "H.C. Frick Coke Company", "type": "Mining and coke production", "era": "1871-1910", "counties_affected": ["Fayette", "Westmoreland"], "employment_scale": "Tens of thousands in coke ovens and coal mines." },
+        { "name": "Glass and tin plate factories", "type": "Manufacturing", "era": "1880-1910", "counties_affected": ["Beaver", "Lawrence", "Allegheny"], "employment_scale": "Thousands" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Steelworker (common labor)", "wage": "$1.50-$2.00/day (12-hour shift)", "year": 1900, "source": "Serrin, Homestead, ch. 3" },
+        { "occupation": "Coke drawer (immigrant)", "wage": "$1.25-$1.75/day", "year": 1900, "source": "Eavenson, First Century, ch. 6" },
+        { "occupation": "Coal miner", "wage": "$1.50-$2.50/day (variable — paid by the ton)", "year": 1900, "source": "Eavenson, First Century, ch. 6" },
+        { "occupation": "Glass blower (skilled)", "wage": "$3.00-$5.00/day", "year": 1900, "source": "Lorant, Pittsburgh, ch. 5" },
+        { "occupation": "Tin plate worker", "wage": "$2.00-$3.50/day", "year": 1905, "source": "Bodnar, Immigration and Industrialization, ch. 3" }
+      ],
+      "narrative_hook": "By {year}, the Pittsburgh district produced more steel than any comparable area on earth, and {ancestor_name} was part of the workforce that made it happen — twelve-hour shifts, seven days a week, breathing air thick with coal smoke and blast-furnace gas.",
+      "source": "Serrin, Homestead (1992). Eavenson, First Century (1942). Lorant, Pittsburgh (1999). Bodnar, Immigration and Industrialization (1977)."
+    },
+    {
+      "era_id": "maturation_labor_conflict",
+      "era_name": "Maturation, Labor Conflict, and the Great Depression",
+      "date_range": "1910-1940",
+      "dominant_economy": "Steel industry consolidation under US Steel; coal and coke declining; labor conflict (1919 steel strike); Prohibition impact on immigrant communities; Great Depression devastation; New Deal programs (CCC, WPA); early out-migration from declining coal towns",
+      "description": "The western Pennsylvania industrial economy matured and then contracted. The 1919 steel strike — 350,000 workers nationally, centered on Pittsburgh — was defeated, and the twelve-hour day persisted until public pressure ended it in 1923. Prohibition devastated the social institutions of immigrant communities (the saloon was the community center). The Connellsville coke region began its long decline as by-product coke ovens at steel mills replaced beehive ovens. The Great Depression hit western Pennsylvania with catastrophic force — steel production dropped 75%, coal employment collapsed, and entire communities went on relief. The Donora Death Fog of 1948 (at the tail end of this era) killed twenty people and sickened thousands, becoming a landmark in environmental history.",
+      "county_specifics": [
+        { "county": "Allegheny", "note": "1919 steel strike centered on the mill towns. Depression devastation — unemployment rates above 40% in some mill towns. WPA projects." },
+        { "county": "Fayette", "note": "Connellsville coke declining. Coal employment falling. Population stagnating." },
+        { "county": "Westmoreland", "note": "Coal and coke economy contracting. Agricultural economy persisting on ridgetops." },
+        { "county": "Washington", "note": "Donora Death Fog (1948). Coal economy declining. Agricultural economy declining." },
+        { "county": "Beaver", "note": "Aliquippa steel works affected by Depression but survived. J&L maintained operations." },
+        { "county": "Lawrence", "note": "New Castle tin plate and glass affected by Depression. Recovery slow." },
+        { "county": "Butler", "note": "Agricultural economy relatively stable but young people leaving." },
+        { "county": "Greene", "note": "Deep coal mining continued but employment declining with mechanization." }
+      ],
+      "key_infrastructure": [
+        { "name": "1919 Steel Strike", "year": 1919, "impact": "350,000 workers nationally. Centered on Pittsburgh. Defeated by US Steel using strikebreakers and state police. The twelve-hour day survived until 1923." },
+        { "name": "Pennsylvania Turnpike", "year": 1940, "impact": "First limited-access highway in America. Crossed Westmoreland County. Connected Pittsburgh to the East at automobile speed." }
+      ],
+      "major_employers": [
+        { "name": "US Steel and allied companies", "type": "Steel manufacturing", "era": "1910-1940", "counties_affected": ["Allegheny", "Beaver"], "employment_scale": "Tens of thousands — declining through Depression" },
+        { "name": "Coal mines (declining)", "type": "Mining", "era": "1910-1940", "counties_affected": ["Fayette", "Westmoreland", "Washington", "Greene"], "employment_scale": "Declining from thousands to hundreds per county" },
+        { "name": "WPA / CCC (Depression era)", "type": "Government relief", "era": "1933-1942", "counties_affected": ["all eight counties"], "employment_scale": "Thousands across the region" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Steelworker (Depression era)", "wage": "$3.00-$5.00/day when working — many on short hours or laid off", "year": 1933, "source": "Serrin, Homestead, ch. 5" },
+        { "occupation": "Coal miner (Depression)", "wage": "$2.00-$3.00/day (when mines operating)", "year": 1933, "source": "Eavenson, First Century, ch. 8" },
+        { "occupation": "WPA laborer", "wage": "$55/month", "year": 1936, "source": "Lorant, Pittsburgh, ch. 7" }
+      ],
+      "narrative_hook": "The Depression hit western Pennsylvania like a blast furnace blowing cold — the mills shut down, the mines closed, and {ancestor_name} watched the most productive economy in America go silent. The WPA check was the only thing between the family and hunger.",
+      "source": "Serrin, Homestead (1992). Lorant, Pittsburgh (1999)."
+    },
+    {
+      "era_id": "wartime_postwar",
+      "era_name": "Wartime Revival and Postwar Transformation",
+      "date_range": "1940-1960",
+      "dominant_economy": "WWII industrial revival — steel at full wartime capacity; postwar suburban expansion; GI Bill education; beginning of deindustrialization; Pittsburgh Renaissance urban renewal; coal employment continuing to decline; early environmental awareness (Donora 1948, Pittsburgh smoke control)",
+      "description": "WWII revived western Pennsylvania's industrial economy at wartime intensity — steel mills ran at full capacity, coal mines reopened, and full employment returned. After the war, the region began a transformation that would accelerate for decades: suburban expansion (GI Bill housing), educational advancement (GI Bill college attendance at Pitt, Carnegie Tech, Penn State), the beginning of Pittsburgh's Renaissance (smoke control, urban renewal), and the first signs of the deindustrialization that would devastate the region in the 1970s-1980s (beyond the cluster's era range). The Donora Death Fog of 1948 killed twenty people and catalyzed the environmental movement. Pittsburgh's smoke control ordinance (enforced 1946) began the transformation of the city from 'hell with the lid off' to a modern metropolis.",
+      "county_specifics": [
+        { "county": "Allegheny", "note": "Pittsburgh Renaissance begins. Smoke control. Urban renewal at the Point. Suburban expansion — Levittown-style developments. GI Bill enrollment at Pitt and Carnegie Tech." },
+        { "county": "Westmoreland", "note": "Pennsylvania Turnpike makes commuting to Pittsburgh feasible. Suburban growth along the Turnpike corridor. Greensburg growing." },
+        { "county": "Fayette", "note": "Coke and coal continuing to decline. Population loss beginning. The old Connellsville coke region hollowing out." },
+        { "county": "Washington", "note": "Donora Death Fog (1948). Suburban growth in northern county near Pittsburgh. Agricultural economy declining." },
+        { "county": "Greene", "note": "Deep coal mining continuing but mechanized. Population declining." },
+        { "county": "Beaver", "note": "J&L Aliquippa Works at full wartime capacity, then postwar adjustment. Suburban growth." },
+        { "county": "Butler", "note": "Suburban expansion from Pittsburgh reaching the southern county. Agricultural economy persisting but transforming." },
+        { "county": "Lawrence", "note": "New Castle industry stable but not growing. Beginning of the manufacturing decline that would intensify later." }
+      ],
+      "key_infrastructure": [
+        { "name": "Pittsburgh Renaissance (urban renewal)", "year": "1946-1960", "impact": "Smoke control, Point State Park, Gateway Center office complex. Transformed Pittsburgh's image from the dirtiest city in America to a model of urban renewal." },
+        { "name": "GI Bill of Rights", "year": 1944, "impact": "Sent thousands of western PA veterans to college. Changed the economic trajectory of families that had worked in mills and mines for generations." },
+        { "name": "Donora Death Fog", "year": 1948, "impact": "20 dead, 6,000 sickened. Catalyzed the Clean Air Act movement. Changed the relationship between industry and community." }
+      ],
+      "major_employers": [
+        { "name": "US Steel and allied companies (wartime and postwar)", "type": "Steel manufacturing", "era": "1940-1960", "counties_affected": ["Allegheny", "Beaver"], "employment_scale": "Tens of thousands — peaking during WWII, declining after" },
+        { "name": "Westinghouse Electric", "type": "Manufacturing — electrical equipment", "era": "1940-1960", "counties_affected": ["Allegheny"], "employment_scale": "Thousands. Diversifying Pittsburgh's industrial base beyond steel." },
+        { "name": "Government (military installations, VA hospitals)", "type": "Federal employment", "era": "1940-1960", "counties_affected": ["Allegheny", "Beaver"], "employment_scale": "Thousands" }
+      ],
+      "wage_benchmarks": [
+        { "occupation": "Steelworker (WWII)", "wage": "$8.00-$12.00/day with overtime", "year": 1944, "source": "Serrin, Homestead, ch. 6" },
+        { "occupation": "Steelworker (postwar unionized)", "wage": "$10.00-$15.00/day", "year": 1955, "source": "Serrin, Homestead, ch. 7" },
+        { "occupation": "Coal miner (UMW contract)", "wage": "$12.00-$16.00/day", "year": 1950, "source": "Eavenson, First Century, ch. 9" }
+      ],
+      "narrative_hook": "The war saved the mills — {ancestor_name}'s generation worked overtime shifts at wartime wages, and the GI Bill gave their children the chance to go to Pitt or Penn State and leave the mill behind. The smoke was finally clearing, and the question was whether Pittsburgh would find something to replace the steel.",
+      "source": "Lorant, Pittsburgh (1999). Serrin, Homestead (1992)."
+    }
+  ],
+  "economic_turning_points": [
+    { "year": 1758, "event": "Forbes captures Fort Duquesne — opens western PA to settlement", "impact": "The military victory that created Pittsburgh and made the entire cluster possible" },
+    { "year": 1794, "event": "Whiskey Rebellion suppressed by federal troops", "impact": "Ended frontier resistance to federal taxation and demonstrated that the government could enforce law west of the Alleghenies" },
+    { "year": 1818, "event": "National Road reaches Uniontown", "impact": "Connected western PA to the East by the finest highway in America. Made Fayette and Washington counties thoroughfares for westward migration" },
+    { "year": 1852, "event": "Pennsylvania Railroad reaches Pittsburgh", "impact": "Ended the canal era. Made industrial-scale production and shipping possible. Beginning of Pittsburgh's transformation into an industrial powerhouse" },
+    { "year": 1875, "event": "Carnegie opens Edgar Thomson Works at Braddock", "impact": "The first modern Bessemer steel plant in the region. Beginning of the Carnegie steel empire" },
+    { "year": 1892, "event": "Homestead Strike", "impact": "Broke the steelworkers' union. Established the twelve-hour day and non-union labor as the industry standard for a generation" },
+    { "year": 1901, "event": "US Steel created — Carnegie sells for $480 million", "impact": "Largest corporation in the world. Consolidated Pittsburgh's dominance of American steelmaking" },
+    { "year": 1933, "event": "Depression bottoms — steel at 25% capacity", "impact": "Devastated the region. Unemployment above 40% in many mill towns. Fundamental economic crisis" },
+    { "year": 1948, "event": "Donora Death Fog", "impact": "20 dead. Catalyzed the environmental movement. Changed the relationship between industry and community" }
+  ],
+  "narrative_hooks": [
+    "Western Pennsylvania's economy ran on three fuels — whiskey, coke, and steel — and {ancestor_name} lived through the era when one of those fuels defined every paycheck and every horizon.",
+    "Carnegie built the largest steel company in the world along the Monongahela, Frick fed it with Connellsville coke, and {ancestor_name} was part of the workforce that produced more steel than any comparable area on earth.",
+    "The Homestead Strike of 1892 broke the union and established the twelve-hour day — {ancestor_name} worked under the conditions that defeat created.",
+    "The National Road made western PA the highway west — {ancestor_name} watched the nation pass through and either joined the procession or profited from it.",
+    "The Depression hit western Pennsylvania harder than almost anywhere — the most productive economy in America went silent, and {ancestor_name} survived on whatever the government, the garden, or the neighbors could provide.",
+    "The GI Bill gave {ancestor_name}'s children what the mills could not — a college education and a way out of the twelve-hour shift."
+  ],
+  "source_references": [
+    "Serrin, William. Homestead: The Glory and Tragedy of an American Steel Town. New York: Times Books, 1992.",
+    "Lorant, Stefan. Pittsburgh: The Story of an American City. 5th ed. Pittsburgh: Esselmont Books, 1999.",
+    "Buck, Solon J., and Elizabeth H. Buck. The Planting of Civilization in Western Pennsylvania. Pittsburgh: University of Pittsburgh Press, 1939.",
+    "Slaughter, Thomas P. The Whiskey Rebellion: Frontier Epilogue to the American Revolution. New York: Oxford University Press, 1986.",
+    "Eavenson, Howard N. The First Century and a Quarter of American Coal Industry. Pittsburgh: privately printed, 1942.",
+    "Tarbell, Ida M. The History of the Standard Oil Company. New York: McClure, Phillips, 1904.",
+    "Bodnar, John. Immigration and Industrialization: Ethnicity in an American Mill Town, 1870–1940. Pittsburgh: University of Pittsburgh Press, 1977.",
+    "Searight, Thomas B. The Old Pike: A History of the National Road. Uniontown, PA: privately printed, 1894.",
+    "Anderson, Fred. Crucible of War. New York: Knopf, 2000."
+  ],
+  "nel_cross_references": {
+    "trigger_refs": [
+      "scots_irish_frontier",
+      "industrial_revolution",
+      "gilded_age_labor_conflict",
+      "civil_war_service",
+      "great_migration",
+      "gi_bill_migration",
+      "appalachian_out_migration"
+    ],
+    "material_life_refs": [
+      "frontier_homestead_1780_1840",
+      "industrial_city_1880_1920",
+      "great_depression_urban_1929_1941",
+      "postwar_suburban_1945_1970",
+      "southern_mill_village_1880_1930"
+    ],
+    "life_pattern_refs": [
+      "company_town_lifecycle",
+      "immigrant_parish_lifecycle",
+      "depression_survival_strategies"
+    ]
+  }
+}

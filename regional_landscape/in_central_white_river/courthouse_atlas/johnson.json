@@ -1,0 +1,53 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-20",
+  "_purpose": "Courthouse Atlas for Johnson County, IN. Record survival for the county centered on Franklin. Well-preserved from 1823 organization. No major record losses.",
+  "courthouse_atlas_id": "in_johnson_courthouse",
+  "display_name": "Johnson County, Indiana — Courthouse Atlas",
+  "county": "Johnson",
+  "state": "IN",
+  "fips_code": "18081",
+  "cluster_ref": "in_central_white_river",
+  "courthouse_history": {
+    "current_courthouse": { "built": 1882, "location": "Franklin, IN — Courthouse Square", "records_housed": ["deeds", "mortgages", "marriage licenses", "probate records", "court records"] },
+    "previous_courthouses": [
+      { "era": "1823-1837", "location": "Franklin, original log courthouse", "fate": "Log structure replaced." },
+      { "era": "1837-1882", "location": "Franklin, same square", "fate": "Brick courthouse. Served through the Civil War. Replaced by current Victorian building." }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "johnson_no_major_loss", "date": null, "cause": "None", "records_destroyed": [], "records_survived": ["deed books", "will books", "court minutes", "marriage records"], "scope": "none",
+      "description": "Johnson County's records are well-preserved from the 1823 organization. No significant fire or flood damage to the courthouse or its records.",
+      "narrative_impact": "If {ancestor_name} lived in Johnson County, the records survive. The county's agricultural character means deed records and agricultural census schedules are particularly complete.",
+      "source": "Indiana Commission on Public Records. Guide to Indiana County Records."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": { "earliest_surviving": 1823, "completeness": "Excellent", "gaps": "None known.", "repository": "Johnson County Recorder; Indiana State Archives", "online_access": "FamilySearch microfilm" },
+    "wills_estates": { "earliest_surviving": 1823, "completeness": "Good", "gaps": "Earliest loose papers fragmentary.", "repository": "Johnson County Clerk; Indiana State Archives", "online_access": "FamilySearch microfilm" },
+    "marriages": { "earliest_surviving": 1830, "completeness": "Good", "gaps": "First few years after organization may have fewer records.", "repository": "Johnson County Clerk; Indiana State Archives", "online_access": "FamilySearch; Ancestry.com" },
+    "court_minutes": { "earliest_surviving": 1823, "completeness": "Good", "gaps": "Minor early gaps.", "repository": "Johnson County Clerk", "online_access": "Indiana State Archives microfilm" },
+    "vital_records": { "birth_registration_start": 1882, "death_registration_start": 1882, "completeness": "Spotty until approximately 1900.", "repository": "Indiana State Department of Health" }
+  },
+  "substitute_sources": [
+    { "source_type": "Franklin College records", "description": "Franklin College (Baptist, est. 1834) maintained enrollment records, alumni records, and associated church records.", "repository": "Franklin College Library and Archives", "era_coverage": "1834-present", "genealogical_value": "Enrollment records document students and their families. Baptist church records associated with the college supplement county vital records.", "source": "Franklin College Library finding aids." },
+    { "source_type": "Federal census schedules", "description": "Population and agricultural schedules 1830-1940.", "repository": "National Archives; FamilySearch; Ancestry.com", "era_coverage": "1830-1940", "genealogical_value": "Standard census utility.", "source": "National Archives and Records Administration." }
+  ],
+  "narrative_hooks": [
+    "Johnson County's records survive complete from 1823 — {ancestor_name}'s land transactions, court appearances, and marriage record are almost certainly at the Franklin courthouse.",
+    "If {ancestor_name} attended Franklin College, the enrollment records supplement the county records with educational history.",
+    "For families displaced by the Camp Atterbury condemnation in 1942, the condemnation records at the federal courthouse document the land taken, the price paid, and the families forced to leave.",
+    "Before 1882, a missing vital record for {ancestor_name} is standard across Indiana — check church records and the census."
+  ],
+  "source_references": [
+    "Indiana Commission on Public Records. Guide to Indiana County Records.",
+    "Branigin, Elba L. History of Johnson County, Indiana. Indianapolis: B.F. Bowen, 1913.",
+    "Franklin College Library finding aids."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "in_johnson",
+    "research_guidance_refs": ["census_gaps", "vital_records"],
+    "template_refs": ["record_silences"]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "_schema_version": "1.0",
+  "_last_updated": "2026-03-19",
+  "_purpose": "Courthouse Atlas for Brookings County, SD. Record survival, courthouse history, and known losses for a county organized during the Great Dakota Boom.",
+  "courthouse_atlas_id": "sd_brookings_courthouse",
+  "display_name": "Brookings County, South Dakota — Courthouse Atlas",
+  "county": "Brookings",
+  "state": "SD",
+  "fips_code": "46011",
+  "cluster_ref": "sd_eastern_homestead",
+  "courthouse_history": {
+    "current_courthouse": {
+      "built": 1934,
+      "location": "Brookings, SD — 314 6th Avenue",
+      "records_housed": ["deeds", "plats", "mortgages", "court records", "vital records indexes", "naturalization records", "estate files"]
+    },
+    "previous_courthouses": [
+      {
+        "era": "1879–1903",
+        "location": "Brookings, frame building",
+        "fate": "Replaced by a brick courthouse when the county government outgrew the original frame structure."
+      },
+      {
+        "era": "1903–1934",
+        "location": "Brookings, brick building on Main Avenue",
+        "fate": "Replaced by a WPA-funded courthouse in 1934. Records were transferred intact to the new building."
+      }
+    ]
+  },
+  "record_losses": [
+    {
+      "loss_id": "brookings_1890_census",
+      "date": "1921-01-10",
+      "cause": "Fire at the U.S. Commerce Department building, Washington, D.C.",
+      "records_destroyed": ["1890 federal census — Brookings County schedules"],
+      "records_survived": ["All locally held county records"],
+      "scope": "complete for 1890 census",
+      "description": "The 1890 federal census was destroyed in the 1921 Washington fire. No Brookings County schedules survive. This eliminates the census snapshot of the county at the height of the boom — population had surged to over 10,000 from fewer than 1,000 a decade earlier.",
+      "narrative_impact": "The missing 1890 census means {ancestor_name}'s household during the boom decade must be reconstructed from county records — homestead patents, naturalization papers, and newspaper notices.",
+      "source": "Blake, Kellee. 'First in the Path of the Firemen: The Fate of the 1890 Population Census.' Prologue Magazine 28, no. 1 (Spring 1996)."
+    }
+  ],
+  "record_survival_summary": {
+    "deeds": {
+      "earliest_surviving": 1879,
+      "completeness": "Good — continuous from county organization. Homestead patent records filed at the county level supplement federal GLO records.",
+      "gaps": "No known significant gaps. Some pre-organization claims may only appear in federal patent files.",
+      "repository": "Brookings County Register of Deeds; SD State Archives",
+      "online_access": "FamilySearch microfilm; BLM General Land Office patent database"
+    },
+    "wills_estates": {
+      "earliest_surviving": 1882,
+      "completeness": "Good — probate records survive from the early 1880s",
+      "gaps": "Few probate records before 1885 because the population was young and recently arrived — few estates to settle.",
+      "repository": "Brookings County Clerk of Court; SD State Archives",
+      "online_access": "FamilySearch microfilm"
+    },
+    "marriages": {
+      "earliest_surviving": 1880,
+      "completeness": "Good — marriage licenses from 1880 forward",
+      "gaps": "Marriages before county organization may have been recorded in adjacent counties or at the territorial level in Yankton.",
+      "repository": "Brookings County Register of Deeds; SD State Archives",
+      "online_access": "FamilySearch; Ancestry.com SD marriages collection"
+    },
+    "court_minutes": {
+      "earliest_surviving": 1879,
+      "completeness": "Good — county and circuit court minutes from organization",
+      "gaps": "Minimal. Territorial-era courts also documented at SD State Archives.",
+      "repository": "Brookings County Clerk of Court; SD State Archives",
+      "online_access": "Limited — microfilm at SD State Archives"
+    },
+    "vital_records": {
+      "birth_registration_start": 1905,
+      "death_registration_start": 1905,
+      "completeness": "Incomplete before approximately 1910. Rural compliance with the 1905 registration law lagged significantly — farm births attended by midwives were frequently unregistered.",
+      "repository": "SD Department of Health, Office of Vital Records; SD State Archives"
+    }
+  },
+  "substitute_sources": [
+    {
+      "source_type": "Federal census schedules",
+      "description": "Population schedules 1880–1940 (excluding 1890). The 1880 census captures the first wave of homesteaders. Agricultural schedules add detail about farm operations.",
+      "repository": "National Archives; FamilySearch; Ancestry.com",
+      "era_coverage": "1880–1940",
+      "genealogical_value": "The 1880 census is the baseline for Brookings County — the first enumeration after organization. The 1900 census reveals who survived the 1890s bust.",
+      "source": "National Archives and Records Administration. Federal Census Schedules, Brookings County, Dakota Territory / South Dakota."
+    },
+    {
+      "source_type": "South Dakota State College records",
+      "description": "South Dakota Agricultural College (now SDSU) opened in Brookings in 1884. Student enrollment records, faculty rosters, and college publications document families connected to the institution.",
+      "repository": "SDSU Archives and Special Collections, Briggs Library, Brookings",
+      "era_coverage": "1884–present",
+      "genealogical_value": "College records identify young adults from surrounding counties who enrolled in the late 19th and early 20th centuries — connecting farm families to educational aspiration and social mobility.",
+      "source": "South Dakota State University Archives. Guide to University Records. Brookings: SDSU, 2005."
+    },
+    {
+      "source_type": "Homestead case files",
+      "description": "Federal homestead case files for Brookings County include the original application, proof of residence, witness testimony, and final certificate. Filed at the Mitchell or Huron land offices.",
+      "repository": "National Archives — Washington, DC (Record Group 49); BLM General Land Office patent database",
+      "era_coverage": "1870s–1910s",
+      "genealogical_value": "Homestead files are among the richest single documents in prairie genealogy — they contain the homesteader's sworn testimony about residence, improvements, family members present, and witnesses who were typically neighbors.",
+      "source": "Szucs, Loretto Dennis, and Sandra Hargreaves Luebking. The Source: A Guidebook to American Genealogy. 3rd ed. Provo, UT: Ancestry, 2006."
+    }
+  ],
+  "narrative_hooks": [
+    "Brookings County's records survived intact from organization in 1879 — no fire, no tornado, no war touched the courthouse — which means {ancestor_name}'s deed and estate records are likely still in the vault at the county seat.",
+    "The federal homestead case file for {ancestor_name}'s claim may be the single richest document in the family's paper trail — sworn testimony about when the family arrived, what they built, who their neighbors were, and what the land looked like.",
+    "Before 1905, South Dakota kept no birth or death records, so {ancestor_name}'s birth on a Brookings County homestead was recorded nowhere unless a church pastor or a family Bible preserved the date.",
+    "If {ancestor_name} attended South Dakota Agricultural College in the 1890s or 1900s, the enrollment records at Brookings may document the transition from homestead to education — the first generation that could afford to send a child to school instead of keeping them on the farm.",
+    "The 1890 census fire means that the boom decade in Brookings County — when {ancestor_name}'s family likely arrived — exists in county records but not in the federal census, making homestead files and naturalization papers the primary evidence."
+  ],
+  "source_references": [
+    "Schell, Herbert S. History of South Dakota. 4th ed. Pierre: South Dakota State Historical Society Press, 2004.",
+    "Blake, Kellee. 'First in the Path of the Firemen: The Fate of the 1890 Population Census.' Prologue Magazine 28, no. 1 (Spring 1996).",
+    "Szucs, Loretto Dennis, and Sandra Hargreaves Luebking. The Source: A Guidebook to American Genealogy. 3rd ed. Provo, UT: Ancestry, 2006.",
+    "South Dakota State University Archives. Guide to University Records. Brookings: SDSU, 2005."
+  ],
+  "nel_cross_references": {
+    "layer1_county_profile_ref": "sd_brookings",
+    "research_guidance_refs": ["immigrant_records_research"],
+    "template_refs": ["record_silences"]
+  }
+}
