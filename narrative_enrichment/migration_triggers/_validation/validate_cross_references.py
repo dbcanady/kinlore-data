@@ -27,6 +27,7 @@ from collections import defaultdict
 
 BASE = Path("/home/dbcanady/kinlore-data/narrative_enrichment/migration_triggers")
 NEL_BASE = Path("/home/dbcanady/kinlore-data/narrative_enrichment")
+HERITAGE_BASE = Path("/home/dbcanady/kinlore-data/ethnic_heritage")
 
 DIRS = {
     "core":              BASE / "core",
@@ -54,6 +55,7 @@ DIRS = {
     "research_guidance": BASE / "research_guidance",
     "validation":        BASE / "_validation",
     "life_patterns":     NEL_BASE / "life_patterns",
+    "ethnic_heritage":   HERITAGE_BASE,
 }
 
 EXPECTED_COUNTS = {
@@ -81,10 +83,14 @@ EXPECTED_COUNTS = {
     "templates":         11,
     "research_guidance": 10,
     "life_patterns":     23,
+    "ethnic_heritage":   46,
 }
 
 # Files in life_patterns/ that are metadata, not content patterns
 LIFE_PATTERN_META_FILES = {"CHAIN_LINK_INDEX"}
+
+# Files in ethnic_heritage/ that are metadata, not content profiles
+ETHNIC_HERITAGE_META_FILES = {"ETHNIC_HERITAGE_INDEX"}
 
 # Required fields by file type
 REQUIRED_TRIGGER_FIELDS = [
@@ -132,6 +138,22 @@ REQUIRED_LIFE_PATTERN_FIELDS = [
 VALID_PATTERN_CLASSES = {
     "economic_arc", "family_dynamic", "community_pattern",
     "occupational_lifecycle", "social_transformation",
+}
+
+REQUIRED_ETHNIC_HERITAGE_FIELDS = [
+    "profile_id", "display_name", "group_category",
+    "alternate_terms", "identification_clues",
+    "immigration_overview", "settlement_patterns",
+    "church_and_records", "naming_conventions",
+    "occupational_patterns", "cultural_markers",
+    "intermarriage_patterns", "genealogical_pitfalls",
+    "nel_cross_references", "source_references",
+]
+
+VALID_GROUP_CATEGORIES = {
+    "colonial_british", "germanic", "irish", "scandinavian",
+    "southern_eastern_european", "slavic_baltic", "african_american",
+    "french_acadian", "asian_american", "latin_american", "other",
 }
 
 # Variable pattern for narrative hooks
@@ -444,12 +466,16 @@ def check_schema_consistency(report: Report):
         ("templates",         DIRS["templates"]),
         ("research_guidance", DIRS["research_guidance"]),
         ("life_patterns",     DIRS["life_patterns"]),
+        ("ethnic_heritage",   DIRS["ethnic_heritage"]),
     ]
 
     for label, d in all_dirs:
         for fp in json_files_in(d):
-            # Skip metadata files in life_patterns
+            # Skip metadata files
             if label == "life_patterns" and fp.stem in LIFE_PATTERN_META_FILES:
+                report.info(f"{label}/{fp.name}: metadata file — skipping schema check")
+                continue
+            if label == "ethnic_heritage" and fp.stem in ETHNIC_HERITAGE_META_FILES:
                 report.info(f"{label}/{fp.name}: metadata file — skipping schema check")
                 continue
 
@@ -487,12 +513,15 @@ def check_required_fields(report: Report):
         ("community_texture", DIRS["community_texture"], REQUIRED_COMMUNITY_TEXTURE_FIELDS, "community_texture"),
         ("material_life",     DIRS["material_life"],     REQUIRED_MATERIAL_LIFE_FIELDS,      "material_life"),
         ("life_patterns",     DIRS["life_patterns"],     REQUIRED_LIFE_PATTERN_FIELDS,       "life_pattern"),
+        ("ethnic_heritage",   DIRS["ethnic_heritage"],   REQUIRED_ETHNIC_HERITAGE_FIELDS,    "ethnic_heritage"),
     ]
 
     for label, d, required, ftype in checks:
         for fp in json_files_in(d):
-            # Skip metadata files in life_patterns
+            # Skip metadata files
             if label == "life_patterns" and fp.stem in LIFE_PATTERN_META_FILES:
+                continue
+            if label == "ethnic_heritage" and fp.stem in ETHNIC_HERITAGE_META_FILES:
                 continue
 
             data = load_json(fp)
@@ -524,6 +553,39 @@ def check_required_fields(report: Report):
                 else:
                     report.fail(f"{label}/{fp.name}: lifecycle_phases is not a list")
 
+            # Ethnic heritage-specific validations
+            if ftype == "ethnic_heritage":
+                # Validate group_category
+                gc = data.get("group_category", "")
+                if gc in VALID_GROUP_CATEGORIES:
+                    report.ok(f"{label}/{fp.name}: valid group_category '{gc}'")
+                else:
+                    report.fail(f"{label}/{fp.name}: invalid group_category '{gc}' "
+                                f"(expected one of {sorted(VALID_GROUP_CATEGORIES)})")
+
+                # Validate identification_clues has required sub-fields
+                ic = data.get("identification_clues", {})
+                if isinstance(ic, dict):
+                    clue_fields = ["surname_patterns", "denomination_signals",
+                                   "settlement_signals", "occupation_signals"]
+                    for cf in clue_fields:
+                        val = ic.get(cf)
+                        if isinstance(val, list) and len(val) >= 1:
+                            report.ok(f"{label}/{fp.name}: identification_clues.{cf} has {len(val)} entries")
+                        elif isinstance(val, list):
+                            report.warn(f"{label}/{fp.name}: identification_clues.{cf} is empty")
+                        else:
+                            report.fail(f"{label}/{fp.name}: identification_clues.{cf} missing or not a list")
+                else:
+                    report.fail(f"{label}/{fp.name}: identification_clues is not a dict")
+
+                # Validate profile_id matches filename
+                pid = data.get("profile_id", "")
+                if pid == fp.stem:
+                    report.ok(f"{label}/{fp.name}: profile_id matches filename")
+                else:
+                    report.fail(f"{label}/{fp.name}: profile_id '{pid}' does not match filename '{fp.stem}'")
+
 
 # ── Part 2e: Source Reference Quality ────────────────────────────────
 
@@ -542,12 +604,15 @@ def check_source_quality(report: Report):
         ("research_guidance", DIRS["research_guidance"]),
         ("wages",             DIRS["wages"]),
         ("life_patterns",     DIRS["life_patterns"]),
+        ("ethnic_heritage",   DIRS["ethnic_heritage"]),
     ]
 
     for label, d in all_dirs:
         for fp in json_files_in(d):
-            # Skip metadata files in life_patterns
+            # Skip metadata files
             if label == "life_patterns" and fp.stem in LIFE_PATTERN_META_FILES:
+                continue
+            if label == "ethnic_heritage" and fp.stem in ETHNIC_HERITAGE_META_FILES:
                 continue
 
             data = load_json(fp)
@@ -596,12 +661,15 @@ def check_narrative_hooks(report: Report):
         ("material_life",     DIRS["material_life"]),
         ("templates",         DIRS["templates"]),
         ("life_patterns",     DIRS["life_patterns"]),
+        ("ethnic_heritage",   DIRS["ethnic_heritage"]),
     ]
 
     for label, d in all_dirs:
         for fp in json_files_in(d):
-            # Skip metadata files in life_patterns
+            # Skip metadata files
             if label == "life_patterns" and fp.stem in LIFE_PATTERN_META_FILES:
+                continue
+            if label == "ethnic_heritage" and fp.stem in ETHNIC_HERITAGE_META_FILES:
                 continue
 
             data = load_json(fp)
@@ -665,6 +733,7 @@ TEST_ANCESTORS = [
         "expected_templates": ["what_they_saw", "letter_home"],
         "expected_guidance": ["census_gaps", "name_change_patterns", "church_record_transfers"],
         "expected_wages": ["wages_by_occupation_1850_1900"],
+        "expected_heritage": ["irish_famine"],
     },
     {
         "name": "Ella Mae Johnson",
@@ -685,6 +754,7 @@ TEST_ANCESTORS = [
         "expected_templates": ["what_they_saw", "fork_in_the_road"],
         "expected_guidance": ["census_gaps", "city_directory_strategies", "church_record_transfers"],
         "expected_wages": ["wages_by_occupation_1900_1950"],
+        "expected_heritage": ["great_migration_african_american"],
     },
     {
         "name": "Anders Olsen",
@@ -705,6 +775,7 @@ TEST_ANCESTORS = [
         "expected_templates": ["what_they_saw", "letter_home"],
         "expected_guidance": ["census_gaps", "church_record_transfers"],
         "expected_wages": ["wages_by_occupation_1850_1900"],
+        "expected_heritage": ["norwegian"],
     },
     {
         "name": "Wong Ah Sing",
@@ -725,6 +796,7 @@ TEST_ANCESTORS = [
         "expected_templates": ["what_they_saw", "record_silences"],
         "expected_guidance": ["name_change_patterns", "ethnic_specific_sources"],
         "expected_wages": ["wages_by_occupation_1850_1900"],
+        "expected_heritage": ["chinese_american"],
     },
     {
         "name": "James Henry Canady",
@@ -745,6 +817,7 @@ TEST_ANCESTORS = [
         "expected_templates": ["what_they_saw", "fork_in_the_road"],
         "expected_guidance": ["census_gaps", "church_record_transfers", "property_record_strategies", "military_record_strategies"],
         "expected_wages": ["wages_by_occupation_1850_1900"],
+        "expected_heritage": ["scots_irish", "english_chesapeake"],
     },
     {
         "name": "Sarah Goldstein",
@@ -765,6 +838,7 @@ TEST_ANCESTORS = [
         "expected_templates": ["what_they_saw", "letter_home"],
         "expected_guidance": ["name_change_patterns", "ethnic_specific_sources", "census_gaps"],
         "expected_wages": ["wages_by_occupation_1900_1950"],
+        "expected_heritage": ["jewish_eastern_european"],
     },
     # ── Phase 3E Real Test Ancestors ──────────────────────────────────
     # These 5 ancestors are from the user's actual family research.
@@ -789,6 +863,7 @@ TEST_ANCESTORS = [
         "expected_templates": ["military_service_arc", "record_silences", "economic_life_story", "hinge_generation"],
         "expected_guidance": ["census_gaps", "property_record_strategies", "military_record_strategies"],
         "expected_wages": ["wages_by_occupation_1850_1900"],
+        "expected_heritage": ["scots_irish", "english_chesapeake"],
     },
     {
         "name": "William Boon",
@@ -809,6 +884,7 @@ TEST_ANCESTORS = [
         "expected_templates": ["military_service_arc", "record_silences", "hinge_generation"],
         "expected_guidance": ["census_gaps", "military_record_strategies"],
         "expected_wages": ["wages_by_occupation_1850_1900"],
+        "expected_heritage": ["english_chesapeake"],
     },
     {
         "name": "Daniel Canady",
@@ -829,6 +905,7 @@ TEST_ANCESTORS = [
         "expected_templates": ["military_service_arc", "record_silences", "economic_life_story", "hinge_generation"],
         "expected_guidance": ["census_gaps", "property_record_strategies", "military_record_strategies"],
         "expected_wages": ["wages_by_occupation_1850_1900"],
+        "expected_heritage": ["scots_irish", "english_chesapeake"],
     },
     {
         "name": "Young Autry",
@@ -849,6 +926,7 @@ TEST_ANCESTORS = [
         "expected_templates": ["record_silences", "hinge_generation"],
         "expected_guidance": ["census_gaps", "property_record_strategies"],
         "expected_wages": ["wages_by_occupation_1850_1900"],
+        "expected_heritage": ["scots_irish", "english_chesapeake"],
     },
     {
         "name": "George Knauss",
@@ -869,12 +947,14 @@ TEST_ANCESTORS = [
         "expected_templates": ["what_they_saw", "fork_in_the_road", "economic_life_story", "hinge_generation"],
         "expected_guidance": ["census_gaps", "property_record_strategies"],
         "expected_wages": ["wages_by_occupation_1850_1900"],
+        "expected_heritage": ["german_colonial"],
     },
 ]
 
 PIPELINE_COMPONENTS = [
     "triggers", "route", "destination", "occupation",
     "community_texture", "template", "research_guidance", "wage_data",
+    "ethnic_heritage",
 ]
 
 
@@ -883,7 +963,8 @@ def run_stress_test(ancestor: dict, report: Report,
                     dest_stems: set, dest_alt_map: dict,
                     occ_stems: set, route_stems: set,
                     texture_stems: set, template_stems: set,
-                    guidance_stems: set, wage_stems: set):
+                    guidance_stems: set, wage_stems: set,
+                    heritage_stems: set):
     """Run a single ancestor through the pipeline and report coverage."""
 
     report.subsection(f"Test Ancestor: {ancestor['name']} ({ancestor['label']})")
@@ -1059,6 +1140,30 @@ def run_stress_test(ancestor: dict, report: Report,
         for mw in missing_wages:
             gaps.append(f"No wage table for '{mw}'")
 
+    # 9. Which ethnic heritage profile(s) match
+    expected_h = ancestor.get("expected_heritage", [])
+    matched_heritage = []
+    missing_heritage = []
+    for hid in expected_h:
+        if hid in heritage_stems:
+            matched_heritage.append(f"ethnic_heritage/{hid}.json")
+        else:
+            missing_heritage.append(hid)
+
+    if matched_heritage:
+        report.ok(f"Ethnic heritage: {', '.join(matched_heritage)}")
+        coverage["ethnic_heritage"] = True
+    elif not expected_h:
+        report.info(f"Ethnic heritage: none expected")
+        coverage["ethnic_heritage"] = True  # No heritage expected, so no gap
+    else:
+        report.warn(f"Ethnic heritage: missing {missing_heritage}")
+        coverage["ethnic_heritage"] = False
+
+    if missing_heritage:
+        for mh in missing_heritage:
+            gaps.append(f"No ethnic heritage profile for '{mh}'")
+
     # Coverage score
     covered = sum(1 for v in coverage.values() if v)
     total = len(PIPELINE_COMPONENTS)
@@ -1086,6 +1191,7 @@ def run_stress_tests(report: Report):
     template_stems = stem_set(DIRS["templates"])
     guidance_stems = stem_set(DIRS["research_guidance"])
     wage_stems = stem_set(DIRS["wages"])
+    heritage_stems = stem_set(DIRS["ethnic_heritage"]) - ETHNIC_HERITAGE_META_FILES
 
     # Build alternate ID map for destinations
     dest_alt_map = {}
@@ -1104,6 +1210,7 @@ def run_stress_tests(report: Report):
             occ_stems, route_stems,
             texture_stems, template_stems,
             guidance_stems, wage_stems,
+            heritage_stems,
         )
 
 
@@ -1246,6 +1353,90 @@ def check_life_pattern_cross_refs(report: Report):
                 report.ok(f"{fname} community_texture_ref '{ctref}'")
             else:
                 report.warn(f"{fname} community_texture_ref '{ctref}' NOT FOUND")
+
+
+# ── Part 3c: Ethnic Heritage Cross-Reference Validation ──────────────
+
+def check_ethnic_heritage_cross_refs(report: Report):
+    """Validate that Ethnic Heritage nel_cross_references point to
+    existing triggers, life patterns, community textures, and material life."""
+    report.subsection("Ethnic Heritage Cross-References")
+
+    # Build lookup sets
+    trigger_stems = stem_set(DIRS["core"])
+    regional_stems = set()
+    for k in DIRS:
+        if k.startswith("regional_"):
+            regional_stems |= stem_set(DIRS[k])
+    all_trigger_stems = trigger_stems | regional_stems
+
+    # Also collect migration_ids from trigger files
+    trigger_migration_ids = set()
+    trigger_dirs = [("core", DIRS["core"])] + [(k, DIRS[k]) for k in DIRS if k.startswith("regional_")]
+    for label, d in trigger_dirs:
+        for fp in json_files_in(d):
+            data = load_json(fp)
+            if data and isinstance(data, dict):
+                mid = data.get("migration_id", "")
+                if mid:
+                    trigger_migration_ids.add(mid)
+            trigger_migration_ids.add(fp.stem)
+    all_trigger_ids = all_trigger_stems | trigger_migration_ids
+
+    life_pattern_stems = stem_set(DIRS["life_patterns"]) - LIFE_PATTERN_META_FILES
+    community_texture_stems = stem_set(DIRS["community_texture"])
+    material_life_stems = stem_set(DIRS["material_life"])
+    heritage_stems = stem_set(DIRS["ethnic_heritage"]) - ETHNIC_HERITAGE_META_FILES
+
+    for fp in json_files_in(DIRS["ethnic_heritage"]):
+        if fp.stem in ETHNIC_HERITAGE_META_FILES:
+            continue
+
+        data = load_json(fp)
+        if data is None:
+            report.fail(f"ethnic_heritage/{fp.name}: could not parse JSON")
+            continue
+
+        fname = f"ethnic_heritage/{fp.name}"
+        nel_refs = data.get("nel_cross_references", {})
+        if not isinstance(nel_refs, dict):
+            report.fail(f"{fname}: nel_cross_references is not a dict")
+            continue
+
+        # Check trigger_refs
+        for tref in nel_refs.get("trigger_refs", []):
+            if tref in all_trigger_ids:
+                report.ok(f"{fname} -> trigger '{tref}'")
+            else:
+                report.warn(f"{fname} -> trigger '{tref}' NOT FOUND")
+
+        # Check life_pattern_refs
+        for lpref in nel_refs.get("life_pattern_refs", []):
+            if lpref in life_pattern_stems:
+                report.ok(f"{fname} -> life_pattern '{lpref}'")
+            else:
+                report.warn(f"{fname} -> life_pattern '{lpref}' NOT FOUND")
+
+        # Check community_texture_refs
+        for ctref in nel_refs.get("community_texture_refs", []):
+            if ctref in community_texture_stems:
+                report.ok(f"{fname} -> community_texture '{ctref}'")
+            else:
+                report.warn(f"{fname} -> community_texture '{ctref}' NOT FOUND")
+
+        # Check material_life_refs
+        for mlref in nel_refs.get("material_life_refs", []):
+            if mlref in material_life_stems:
+                report.ok(f"{fname} -> material_life '{mlref}'")
+            else:
+                report.warn(f"{fname} -> material_life '{mlref}' NOT FOUND")
+
+        # Check other_heritage_refs (self-references within ethnic_heritage)
+        for ohref in nel_refs.get("other_heritage_refs", []):
+            if ohref in heritage_stems:
+                report.ok(f"{fname} -> heritage '{ohref}'")
+            else:
+                report.warn(f"{fname} -> heritage '{ohref}' NOT FOUND")
 
 
 # ── Part 4: Era Overlap Validation ────────────────────────────────────
@@ -1509,6 +1700,7 @@ def check_source_depth(report: Report):
         ("community_texture", DIRS["community_texture"]),
         ("material_life",     DIRS["material_life"]),
         ("life_patterns",     DIRS["life_patterns"]),
+        ("ethnic_heritage",   DIRS["ethnic_heritage"]),
     ]
     # Include regional dirs
     for k in sorted(DIRS.keys()):
@@ -1517,8 +1709,10 @@ def check_source_depth(report: Report):
 
     for label, d in all_dirs:
         for fp in json_files_in(d):
-            # Skip metadata files in life_patterns
+            # Skip metadata files
             if label == "life_patterns" and fp.stem in LIFE_PATTERN_META_FILES:
+                continue
+            if label == "ethnic_heritage" and fp.stem in ETHNIC_HERITAGE_META_FILES:
                 continue
 
             data = load_json(fp)
@@ -1578,6 +1772,10 @@ def main():
     # Part 3b: Life Pattern Cross-References
     report.section("LIFE PATTERN CROSS-REFERENCES")
     check_life_pattern_cross_refs(report)
+
+    # Part 3c: Ethnic Heritage Cross-References
+    report.section("ETHNIC HERITAGE CROSS-REFERENCES")
+    check_ethnic_heritage_cross_refs(report)
 
     # Part 2 continued: Schema Consistency
     report.section("SCHEMA CONSISTENCY")
