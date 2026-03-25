@@ -13,33 +13,40 @@
   "push_factors": [
     {
       "factor": "Death of spouse or parent",
-      "description": "The precipitating event. In pre-modern America, death came frequently and without warning — disease, accident, childbirth, warfare. A household that lost its primary earner or its domestic manager faced immediate crisis."
+      "description": "The precipitating event. In pre-modern America, death came frequently and without warning — disease, accident, childbirth, warfare. A household that lost its primary earner or its domestic manager faced immediate crisis.",
+      "narrative_hook": "When {ancestor_name} died in {county}, {state} in {year}, the household faced the oldest crisis in American family life. {pronoun_possessive} death was not unusual — death came often and without warning — but for the family left behind, it changed everything."
     },
     {
       "factor": "Economic vulnerability",
-      "description": "A widow with young children had few economic options before the 20th century. She could not easily maintain a farm alone, and wage labor for women paid subsistence wages at best. Selling the homestead and moving to family was often the only viable path."
+      "description": "A widow with young children had few economic options before the 20th century. She could not easily maintain a farm alone, and wage labor for women paid subsistence wages at best. Selling the homestead and moving to family was often the only viable path.",
+      "narrative_hook": "After {ancestor_name}'s death, {widow_name} faced the arithmetic of survival in {county}. A woman alone with {number_children} children could not work the farm, and what wage labor existed for women paid barely enough for one, let alone a family."
     },
     {
       "factor": "Social stigma and legal constraints",
-      "description": "Coverture laws limited widows' property rights in many states and eras. A woman alone was socially vulnerable — subject to predatory creditors, unwanted suitors, and community suspicion. Relocation to family provided both economic and social protection."
+      "description": "Coverture laws limited widows' property rights in many states and eras. A woman alone was socially vulnerable — subject to predatory creditors, unwanted suitors, and community suspicion. Relocation to family provided both economic and social protection.",
+      "narrative_hook": "In {state} in the {decade}s, a widow's legal standing was precarious. {widow_name} could not easily hold property, enter contracts, or conduct business in {pronoun_possessive} own name. Moving to family was not just emotional comfort — it was legal and social protection."
     },
     {
       "factor": "Inability to maintain household",
-      "description": "A household that lost its female head (through the wife's death) also faced crisis. Fathers with young children often sent children to relatives or remarried quickly. The logistical demands of pre-modern homemaking — cooking, cleaning, childcare, textile production — required adult labor."
+      "description": "A household that lost its female head (through the wife's death) also faced crisis. Fathers with young children often sent children to relatives or remarried quickly. The logistical demands of pre-modern homemaking — cooking, cleaning, childcare, textile production — required adult labor.",
+      "narrative_hook": "When {ancestor_name} lost {pronoun_possessive} wife in {year}, the household did not merely grieve — it lost the person who kept it running. With {number_children} children to feed and no one to manage the daily labor of cooking, cleaning, and childcare, {ancestor_name} faced an impossible choice: remarry quickly, send the children to relatives, or watch the household collapse."
     }
   ],
   "pull_factors": [
     {
       "factor": "Family networks",
-      "description": "The primary pull. A widow moved to her parents, her siblings, or her adult children. Orphans were sent to grandparents, aunts, uncles, or older siblings. The family network was the social safety net before government programs existed."
+      "description": "The primary pull. A widow moved to her parents, her siblings, or her adult children. Orphans were sent to grandparents, aunts, uncles, or older siblings. The family network was the social safety net before government programs existed.",
+      "narrative_hook": "If {widow_name} appeared in {destination_county}, {destination_state} after {year}, look for who was already there — a parent, a sibling, an adult child. The family network was the only safety net that existed, and {pronoun_subject} moved toward it."
     },
     {
       "factor": "Remarriage opportunities",
-      "description": "Widows and widowers frequently remarried, and remarriage often required relocation — to the new spouse's community, farm, or town. In frontier areas, remarriage could happen within weeks or months of a spouse's death."
+      "description": "Widows and widowers frequently remarried, and remarriage often required relocation — to the new spouse's community, farm, or town. In frontier areas, remarriage could happen within weeks or months of a spouse's death.",
+      "narrative_hook": "When {widow_name} married {new_spouse_name} in {year}, the second marriage was not merely personal — it was economic strategy and survival. If the new spouse lived in {destination_county}, the marriage explains the relocation that census records document but do not explain."
     },
     {
       "factor": "Institutional placement",
-      "description": "For orphans without adequate family networks, orphanages, almshouses, and later the orphan train system (1854-1929) provided placement. These institutions redistributed children across vast distances."
+      "description": "For orphans without adequate family networks, orphanages, almshouses, and later the orphan train system (1854-1929) provided placement. These institutions redistributed children across vast distances.",
+      "narrative_hook": "If {ancestor_name} appears in a distant county with no apparent family connection, consider the orphan train or institutional placement. Between 1854 and 1929, approximately 250,000 children were relocated from Eastern cities to Midwest and Western households — severing the geographic thread that genealogists rely on."
     }
   ],
   "transportation": {
@@ -66,57 +73,69 @@
   "destination_refs": [
     {
       "location": "Family household (universal)",
-      "role": "The most common destination: the household of a parent, sibling, or adult child of the bereaved. This is the default pattern across all eras."
+      "role": "The most common destination: the household of a parent, sibling, or adult child of the bereaved. This is the default pattern across all eras.",
+      "narrative_hook": "{widow_name}'s appearance in a relative's household in {destination_county} after {year} is the clearest evidence of the family network in action — {pronoun_subject} went where {pronoun_possessive} people already were."
     },
     {
       "location": "New spouse's community (universal)",
-      "role": "Remarriage frequently required relocation, particularly when the new spouse lived in a different community or county."
+      "role": "Remarriage frequently required relocation, particularly when the new spouse lived in a different community or county.",
+      "narrative_hook": "If {widow_name} remarried and moved to {destination_county}, the second marriage record — filed in a different county or state than the first — documents the relocation itself."
     },
     {
       "location": "Orphan-receiving communities (Midwest, 1854-1929)",
-      "role": "The orphan train movement placed approximately 250,000 children from Eastern cities into Midwest and Western households between 1854 and 1929."
+      "role": "The orphan train movement placed approximately 250,000 children from Eastern cities into Midwest and Western households between 1854 and 1929.",
+      "narrative_hook": "A child named {ancestor_name} arriving in {destination_county}, {destination_state} with no family connection may have come by orphan train — placed by the Children's Aid Society or a similar organization into a household that was, for better or worse, their new family."
     }
   ],
   "chain_migration": {
     "pattern": "family_obligation",
     "description": "Widow and orphan relocation followed existing family networks, not pioneer chains. A widow did not move to a new frontier; she moved to where her people already were. This pattern reinforced family clusters rather than creating new settlement nodes. In many genealogies, the appearance of a widow or orphaned children in a relative's household is the clearest evidence of the family network's geography.",
-    "agency": "limited — survival necessity constrained choices, but within those constraints, widows and families made deliberate decisions about where to go and whom to rely on"
+    "agency": "limited — survival necessity constrained choices, but within those constraints, widows and families made deliberate decisions about where to go and whom to rely on",
+    "narrative_hook": "When {widow_name} left {county} after {year}, {pronoun_subject} did not move to a new frontier — {pronoun_subject} moved to where {pronoun_possessive} people already were. That {pronoun_subject} appeared in {destination_county} alongside siblings or parents tells us exactly what the family network's geography looked like."
   },
   "what_happened_to_those_who_stayed": "Some widows stayed. Those with older children who could work the farm, those with sufficient property, and those with strong community ties sometimes remained in place. Widows who stayed often took in boarders, operated small businesses (taverns, shops, laundries), or relied on community charity. Their presence in the records — appearing as heads of household in census records, filing probate documents, paying taxes — documents female resilience and economic agency in eras that offered little of either.",
   "record_implications": [
     {
       "record_type": "Census records",
-      "implication": "A woman who disappears from records between censuses likely moved — often to family — and may have remarried under a new surname. Look for her maiden name or first married name in relatives' households. Children appearing in a relative's household (different surname from head) suggest orphaning or half-orphaning."
+      "implication": "A woman who disappears from records between censuses likely moved — often to family — and may have remarried under a new surname. Look for her maiden name or first married name in relatives' households. Children appearing in a relative's household (different surname from head) suggest orphaning or half-orphaning.",
+      "narrative_hook": "If {widow_name} vanishes from {county} between the {year} and {next_census_year} census, search for {pronoun_possessive} maiden name in relatives' households — or a new married name in a different county entirely."
     },
     {
       "record_type": "Probate and estate records",
-      "implication": "The death that triggered relocation should appear in probate records. Estate inventories, guardian appointments, and distribution records document the economic aftermath and often name the relatives who took responsibility for children."
+      "implication": "The death that triggered relocation should appear in probate records. Estate inventories, guardian appointments, and distribution records document the economic aftermath and often name the relatives who took responsibility for children.",
+      "narrative_hook": "The probate file for {ancestor_name} in {county}, {state} may name who took the children and what the estate was worth — documenting the exact moment the family fractured and reorganized."
     },
     {
       "record_type": "Guardian bonds and orphan court records",
-      "implication": "Courts appointed guardians for minor children with property. These records name the guardian (often a relative), the children, and the estate value. They can trace where orphaned children were placed."
+      "implication": "Courts appointed guardians for minor children with property. These records name the guardian (often a relative), the children, and the estate value. They can trace where orphaned children were placed.",
+      "narrative_hook": "A guardian bond filed in {county} for the children of {ancestor_name} names the person who took responsibility — and, if the guardian lived in a different county, may document the relocation itself."
     },
     {
       "record_type": "Marriage records (second marriage)",
-      "implication": "A widow's second marriage record may be filed in a different county or state than the first marriage — documenting the relocation that occurred between the two events. The second marriage often took place in the family network's location."
+      "implication": "A widow's second marriage record may be filed in a different county or state than the first marriage — documenting the relocation that occurred between the two events. The second marriage often took place in the family network's location.",
+      "narrative_hook": "If {widow_name}'s first marriage was recorded in {county} and {pronoun_possessive} second in {destination_county}, that gap between the two records is the story — the death, the crisis, the move, and the rebuilding."
     },
     {
       "record_type": "Orphan train records",
-      "implication": "The Children's Aid Society and similar organizations kept placement records documenting children's origins, transport, and receiving families. These records are held by various archives and the National Orphan Train Complex in Concordia, Kansas."
+      "implication": "The Children's Aid Society and similar organizations kept placement records documenting children's origins, transport, and receiving families. These records are held by various archives and the National Orphan Train Complex in Concordia, Kansas.",
+      "narrative_hook": "If {ancestor_name} arrived in {destination_county} as a child with no family connection to the area, orphan train placement records at the National Orphan Train Complex in Concordia, Kansas, or the Children's Aid Society archives may document the journey from {origin_city} to a new life in the Midwest."
     }
   ],
   "counter_narratives": [
     {
       "narrative": "Some widows thrived",
-      "description": "Not every widow was a victim. Some became successful boarding house keepers, midwives, seamstresses, tavern operators, or property managers. In some communities, widowhood conferred a degree of legal and economic independence that married women did not enjoy — a widow could own property, enter contracts, and conduct business in her own name."
+      "description": "Not every widow was a victim. Some became successful boarding house keepers, midwives, seamstresses, tavern operators, or property managers. In some communities, widowhood conferred a degree of legal and economic independence that married women did not enjoy — a widow could own property, enter contracts, and conduct business in her own name.",
+      "narrative_hook": "If {widow_name} appears as head of household in the {year} census in {county}, operating a boarding house or listed with a trade, the record documents something the era rarely acknowledged: a woman managing her own economic life."
     },
     {
       "narrative": "Orphan redistribution could be exploitative",
-      "description": "Child placement with relatives or strangers was not always benevolent. Children were a source of labor, and some orphan placements amounted to child labor disguised as family obligation. The orphan train movement, while well-intentioned, placed children with families that sometimes treated them as unpaid servants rather than adopted children."
+      "description": "Child placement with relatives or strangers was not always benevolent. Children were a source of labor, and some orphan placements amounted to child labor disguised as family obligation. The orphan train movement, while well-intentioned, placed children with families that sometimes treated them as unpaid servants rather than adopted children.",
+      "narrative_hook": "If {ancestor_name} appears as a child in a non-family household in {county} — listed as a 'boarder,' 'servant,' or simply with a different surname than the head — the arrangement may have been charity, or it may have been labor. The records rarely distinguish between the two."
     },
     {
       "narrative": "Widowers also relocated",
-      "description": "The widow pattern is better documented, but widowers with young children also relocated — sending children to relatives, remarrying quickly, or moving to family networks. A father alone with small children was nearly as vulnerable as a mother alone, given the domestic labor requirements of pre-modern life."
+      "description": "The widow pattern is better documented, but widowers with young children also relocated — sending children to relatives, remarrying quickly, or moving to family networks. A father alone with small children was nearly as vulnerable as a mother alone, given the domestic labor requirements of pre-modern life.",
+      "narrative_hook": "If {ancestor_name} remarried within months of {pronoun_possessive} wife's death in {year}, the speed was not callousness — it was necessity. A man alone with young children in {county} needed a household manager as urgently as a widow needed an income."
     }
   ],
   "seasonal_departure_pattern": "Death and its aftermath followed no seasonal pattern, but relocation decisions were often delayed until practical — after the estate was settled, after the harvest, after winter passed. On the frontier, widows sometimes waited for spring travel conditions before relocating. Epidemics (cholera, yellow fever, influenza) that killed spouses came in seasonal waves, producing clustered relocations.",
